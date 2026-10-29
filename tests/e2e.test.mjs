@@ -229,3 +229,29 @@ test('script failure is visible, not silent', { skip: !CHROME && 'no Chrome' }, 
   assert.match(await resultsText(page), /calculator hit an error/); // Chrome masks the message of page-injected scripts as "Script error."
   await browser.close();
 });
+
+test("Brian's case in the browser: buffer zone shown; diabetes caps the range below it", { skip: !CHROME && 'no Chrome' }, async () => {
+  const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--no-sandbox'] });
+  const problems = [];
+  const page = await freshPage(browser, problems);
+  await page.select('#sex', 'male'); await page.select('#ancestry', 'se_asian');
+  await page.type('#height', '5\'9"'); await page.type('#weight', '150'); await page.type('#wrist', '6.5');
+  await page.click('#calcBtn');
+  let txt = await resultsText(page);
+  assert.match(txt, /Buffer zone near the cut-off: BMI 22\.0 to 22\.9 \(149-155 lb/);
+  assert.match(txt, /Frame-adjusted suggested range \(estimate\)\s*144-155 lb/);
+  assert.equal(await page.$('#bufRange'), null, 'no cap without diabetes');
+  await page.click('.cond[value="diabetes"]');                    // live update
+  assert.equal(await page.$eval('#bufRange', (e) => e.textContent), '144-148 lb (65.5-67.5 kg)');
+  assert.match(await page.$eval('#condRange', (e) => e.textContent), /^143-147 lb/);
+  txt = await resultsText(page);
+  assert.match(txt, /diabetes-buffered range from section 2/);
+  assert.ok(!/NaN|undefined/.test(txt));
+  // European: no zone, no cap
+  await page.select('#ancestry', 'european');
+  await new Promise((r) => setTimeout(r, 100));
+  txt = await resultsText(page);
+  assert.doesNotMatch(txt, /Buffer zone/); assert.equal(await page.$('#bufRange'), null);
+  await browser.close();
+  assert.deepEqual(problems, []);
+});

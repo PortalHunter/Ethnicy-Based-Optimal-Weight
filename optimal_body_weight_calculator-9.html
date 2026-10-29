@@ -164,6 +164,14 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
 <li><strong>Suggested range:</strong> the overlap between the four classic ideal-body-weight formulas (Hamwi with &plusmn;10% for frame, Devine, Robinson, Miller) and the healthy range. This combination is this calculator's own method, not a clinical standard.</li>
 <li><strong>Mixed ancestry:</strong> the overweight and obesity cut-offs are blended in proportion to the percentages you enter (e.g., 50% in a lower-cut-off group gives 24 / 28.8). No guideline defines cut-offs for mixed ancestry, so this blend is the calculator's own method; the standard and lower ranges are shown alongside it.</li>
 <li><strong>Conditions:</strong> diabetes, high blood pressure, high cholesterol and gout each move the suggested range slightly lower and narrower (calculator weighting, kept inside the healthy range). If you are above the healthy range, the page also shows the 5-7% weight-loss goal from diabetes-prevention guidelines.</li>
+<li><strong>How the range is built, in order:</strong>
+<ol>
+<li>Ancestry sets the healthy range (BMI 18.5 to the overweight cut-off; a mix is blended).</li>
+<li>Frame size (wrist, and elbow if given) adjusts Hamwi; the four formulas give a formula range.</li>
+<li>Suggested range = where the formula range overlaps the healthy range (the healthy range if they do not overlap).</li>
+<li>Lower-cut-off ancestry: a buffer zone is shown from BMI 22 (blended for a mix) up to the cut-off. If type 2 diabetes / prediabetes / family history is selected, the top of the suggested range is kept below that zone. The 18.5 floor never moves.</li>
+<li>Condition weighting then shifts and narrows the result, staying inside the range from step 4.</li>
+</ol></li>
 <li><strong>Not covered:</strong> under-18s, pregnancy, eating disorders, and medical weight targets set by your own clinician, which take priority.</li>
 </ul>
 </details>
@@ -220,7 +228,14 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     ['niddk_hemo_diet', 'NIDDK. Eating, Diet, & Nutrition for Hemochromatosis.', 'https://www.niddk.nih.gov/health-information/liver-disease/hemochromatosis/eating-diet-nutrition'],
     ['niddk_hemo_tx', 'NIDDK. Treatment of Hemochromatosis.', 'https://www.niddk.nih.gov/health-information/liver-disease/hemochromatosis/treatment'],
     ['niddk_celiac', 'NIDDK. Eating, Diet, & Nutrition for Celiac Disease.', 'https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition'],
-    ['swinburn', 'Swinburn BA, Ley SJ, Carmichael HE, Plank LD. Body size and composition in Polynesians. Int J Obes Relat Metab Disord. 1999;23(11):1178-1183.', 'https://pubmed.ncbi.nlm.nih.gov/10578208/']
+    ['swinburn', 'Swinburn BA, Ley SJ, Carmichael HE, Plank LD. Body size and composition in Polynesians. Int J Obes Relat Metab Disord. 1999;23(11):1178-1183.', 'https://pubmed.ncbi.nlm.nih.gov/10578208/'],
+    ['papier', 'Papier K, D\'Este C, Bain C, et al. Body mass index and type 2 diabetes in Thai adults: defining risk thresholds and population impacts. BMC Public Health. 2017;17(1):707.', 'https://pubmed.ncbi.nlm.nih.gov/28915801/'],
+    ['odegaard', 'Odegaard AO, Koh WP, Vazquez G, et al. BMI and diabetes risk in Singaporean Chinese. Diabetes Care. 2009;32(6):1104-1106.', 'https://pubmed.ncbi.nlm.nih.gov/19324946/'],
+    ['apcsc', 'Asia Pacific Cohort Studies Collaboration. Body mass index and risk of diabetes mellitus in the Asia-Pacific region. Asia Pac J Clin Nutr. 2006;15(2):127-133.', 'https://pubmed.ncbi.nlm.nih.gov/16672195/'],
+    ['vicks', 'Vicks WS, Lo JC, Guo L, et al. Prevalence of prediabetes and diabetes vary by ethnicity among U.S. Asian adults at healthy weight, overweight, and obesity ranges: an electronic health record study. BMC Public Health. 2022;22(1):1954.', 'https://pubmed.ncbi.nlm.nih.gov/36273116/'],
+    ['retune', 'Taylor R, Barnes AC, Hollingsworth KG, et al. Aetiology of Type 2 diabetes in people with a \'normal\' body mass index: testing the personal fat threshold hypothesis (ReTUNE). Clin Sci (Lond). 2023;137(16):1333-1346.', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10472166/'],
+    ['gbmc', 'Global BMI Mortality Collaboration. Body-mass index and all-cause mortality: individual-participant-data meta-analysis of 239 prospective studies in four continents. Lancet. 2016;388(10046):776-786.', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4995441/'],
+    ['zheng', 'Zheng W, McLerran DF, Rolland B, et al. Association between body-mass index and risk of death in more than 1 million Asians. N Engl J Med. 2011;364(8):719-729.', 'https://pubmed.ncbi.nlm.nih.gov/21345101/']
   ];
   var REF_INDEX = {};
   REFS.forEach(function (r, i) { REF_INDEX[r[0]] = i + 1; });
@@ -465,7 +480,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
       overweight: round(std.overweight + (low.overweight - std.overweight) * share, 1),
       obese: round(std.obese + (low.obese - std.obese) * share, 1),
       name: 'blended cut-offs (' + lowerShare + '% weighted to the lower cut-offs)', labels: low.labels };
-    return { key: g.key, group: g, lowerShare: lowerShare, mixedGroups: share > 0 && share < 1 };
+    return { key: g.key, group: g, share: share, lowerShare: lowerShare, mixedGroups: share > 0 && share < 1 };
   }
 
   function healthyBand(heightCm, group) {
@@ -536,6 +551,34 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     return out;
   }
 
+  // ---------- Diabetes buffer zone (lower-cut-off ancestry) ----------
+  // WHO 2004: in Asian populations the BMI at which risk is observed "varies from 22 kg/m2 to 25 kg/m2";
+  // a Thai (Southeast Asian) cohort found diabetes risk significant from BMI ~21.6 (men) / ~20.0 (women)
+  // and concluded a cut-point of 22 is justified; diabetes risk rises continuously through 18.5-23 in
+  // Asian cohorts. So for lower-cut-off groups the buffer zone is BMI 22.0 up to the 23 cut-off. For a
+  // mix, its start is blended like the other cut-offs (25 for standard groups, i.e. no zone; 22 for
+  // lower groups). The zone is always DISPLAYED; it only CAPS the suggested range when type 2
+  // diabetes / prediabetes / family history is selected. Mortality evidence (lowest from about BMI 20
+  // up to 25) argues against going lower than this, so nothing moves the floor.
+  var BUFFER_START_LOWER_BMI = 22.0;
+  function bufferZone(grp, heightCm) {
+    var share = grp.share;
+    if (!(share > 0)) return null;
+    var start = round(GROUPS.standard.overweight + (BUFFER_START_LOWER_BMI - GROUPS.standard.overweight) * share, 1);
+    var top = round(grp.group.overweight - 0.1, 1);
+    if (start > top) return null;
+    var capBmi = round(start - 0.1, 1);
+    return { startBmi: start, topBmi: top, capBmi: capBmi,
+      startKg: weightForBmi(start, heightCm), topKg: weightForBmi(top, heightCm), capKg: weightForBmi(capBmi, heightCm) };
+  }
+  // Apply the cap to a suggested range. Never empty, never below the healthy floor (capBmi >= 21.9).
+  function bufferedRange(suggested, band, zone) {
+    if (!zone || suggested.highKg <= zone.capKg) return null;
+    if (suggested.lowKg <= zone.capKg) return { lowKg: suggested.lowKg, highKg: zone.capKg, method: 'capped', capBmi: zone.capBmi };
+    // every formula value sits inside the buffer zone: fall back to the healthy band below the zone
+    return { lowKg: band.lowKg, highKg: zone.capKg, method: 'band_below_buffer', capBmi: zone.capBmi };
+  }
+
   // ---------- Waist-to-height (NICE NG246 1.9.14) ----------
   function waistToHeight(waistCm, heightCm) {
     var w = round(waistCm / heightCm, 2);
@@ -545,9 +588,9 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
   }
 
   // ---------- Condition-based weight guidance ----------
-  // No guideline found sets a different target for people ALREADY in the healthy range because of a
-  // condition or family history, so no numeric shift is applied inside the band. Above the band,
-  // guideline weight-loss goals are computed from current weight.
+  // No guideline sets a different target for people ALREADY in the healthy range because of a condition
+  // or family history; inside the band, see the diabetes buffer zone and the condition weighting below.
+  // Above the band, guideline weight-loss goals are computed from current weight.
   function conditionWeightGuidance(conditions, weightKg, bmiClassIndex) {
     var metabolic = conditions.filter(function (c) { return ['diabetes', 'hypertension', 'high_chol', 'gout'].indexOf(c) >= 0; });
     var out = { applies: metabolic.length > 0, overBand: bmiClassIndex >= 2, items: [], goal: null };
@@ -626,13 +669,19 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     if (ef && frames.indexOf(ef.size) < 0) frames.push(ef.size);
     var band = healthyBand(v.heightCm, grp.group);
     var sug = suggestedRange(v.heightCm, v.sex, frames, grp.group);
+    // Order: (1) ancestry band, (2) formulas with frame, (3) overlap = suggested, (4) diabetes buffer cap,
+    // (5) condition weighting, kept between the healthy floor and the (possibly capped) top.
+    var zone = bufferZone(grp, v.heightCm);
+    var buffered = v.conditions.indexOf('diabetes') >= 0 ? bufferedRange(sug, band, zone) : null;
+    // Step 5 cannot raise the top: it only shifts down and narrows (sliding back up never passes the top).
+    var base = buffered || sug;
     var altBands = null;
     if (grp.mixedGroups) altBands = { standard: healthyBand(v.heightCm, 'standard'), lower: healthyBand(v.heightCm, 'lower') };
     return {
       bmi: b, bmiClass: cls, whoClass: whoCls, group: grp, wristFrame: wf, elbowFrame: ef, frames: frames,
       framesAgree: !ef || ef.size === wf.size,
-      band: band, suggested: sug, altBands: altBands,
-      conditionAdjusted: conditionAdjustedRange(sug, band, v.conditions),
+      band: band, suggested: sug, altBands: altBands, bufferZone: zone, buffered: buffered,
+      conditionAdjusted: conditionAdjustedRange(base, band, v.conditions),
       waist: v.waistCm ? waistToHeight(v.waistCm, v.heightCm) : null,
       conditionWeight: conditionWeightGuidance(v.conditions, v.weightKg, cls.index),
       food: foodRecs(v.ancestries.map(function (a) { return a.key; }), v.conditions)
@@ -660,6 +709,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     ibwFormulas: ibwFormulas, suggestedRange: suggestedRange, waistToHeight: waistToHeight,
     conditionWeightGuidance: conditionWeightGuidance, foodRecs: foodRecs, ancestryNote: ancestryNote,
     conditionAdjustedRange: conditionAdjustedRange, CONDITION_WEIGHTING: CONDITION_WEIGHTING,
+    bufferZone: bufferZone, bufferedRange: bufferedRange, BUFFER_START_LOWER_BMI: BUFFER_START_LOWER_BMI,
     resolveGroup: resolveGroup, calculate: calculate, chartSeries: chartSeries
   };
 })(typeof window !== 'undefined' ? window : globalThis);
@@ -797,6 +847,15 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     v.ancestries.forEach(function (a) { notes[a.key] = true; });
     h += '<ul class="notes">' + Object.keys(notes).map(function (k) { return '<li><strong>' + esc(E.ANCESTRIES[k].label) + (v.ancestries.length > 1 ? ' (' + v.ancestries.filter(function (a) { return a.key === k; })[0].pct + '%)' : '') + ':</strong> ' + E.ancestryNote(k) + '</li>'; }).join('') + '</ul>';
 
+    // Buffer zone (display; lower-cut-off ancestry only)
+    var z = r.bufferZone;
+    if (z) {
+      var you = E.round(r.bmi, 1);
+      h += '<p><strong>Buffer zone near the cut-off:</strong> BMI ' + z.startBmi.toFixed(1) + ' to ' + z.topBmi.toFixed(1) + ' (' + fmtRange(z.startKg, z.topKg, unit) + '). This is still within the healthy range, but in Asian populations diabetes risk keeps rising across the healthy range rather than starting at the cut-off. WHO found the BMI at which risk appears varies from 22 to 25 across Asian populations, and a Southeast Asian (Thai) cohort concluded a cut-point of 22 is justified for diabetes risk. ' + c(['who_asian', 'papier', 'odegaard', 'apcsc']) +
+        (r.group.mixedGroups ? ' For your mix the zone start is blended the same way as the cut-offs (22 for lower-cut-off groups; no zone for standard groups).' : '') +
+        (you >= z.startBmi && you <= z.topBmi ? ' <strong>Your BMI (' + you.toFixed(1) + ') is in this zone.</strong>' : '') + '</p>';
+    }
+
     // Suggested (frame-adjusted) range
     var s = r.suggested;
     h += '<h3>2. Frame-adjusted suggested range (estimate)</h3>';
@@ -817,6 +876,12 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
         '<tr><td>Miller (1983)</td><td>' + fmtW(f.miller, unit) + '</td></tr></table>' +
         '<p><small>A review found the formulas are similar because they derive from the same family of height-weight tables, and none was designed as a personal health target (Devine\u2019s was for drug dosing). ' + c('pai') + '</small></p></details>';
     }
+    var bf = r.buffered;
+    if (bf) {
+      h += '<p><strong>With type 2 diabetes / prediabetes / family history selected:</strong> <span class="big" id="bufRange">' + fmtRange(bf.lowKg, bf.highKg, unit) + '</span><br><small>' +
+        (bf.method === 'capped' ? 'The range above with its top kept below the buffer zone (BMI ' + bf.capBmi.toFixed(1) + ' or less).' : 'All the formula results fall inside the buffer zone, so the healthy range below the zone is shown (BMI 18.5 to ' + bf.capBmi.toFixed(1) + ').') +
+        ' Why: among middle-aged adults at a healthy BMI, diabetes was about 5 to 8 times as common in Filipino and South Asian Americans as in White Americans ' + c('vicks') + ', and in a trial of people with type 2 diabetes and BMI under 27, 70% reached remission after a median 6.5% weight loss (average BMI fell from 24.8 to 22.5 over 12 months) ' + c('retune') + '. The 18.5 floor is unchanged and nothing is pushed lower: in pooled studies death rates were lowest from BMI 20 to 25 and rose below 20 ' + c('gbmc') + ', and in East Asian cohorts they were lowest from 22.6 to 27.5 ' + c('zheng') + ', so this cap is about diabetes risk, not a longer life.</small></p>';
+    }
     h += '<p><small><strong>Method note:</strong> combining the formulas with the ancestry range is this calculator\u2019s own approach, not a published clinical standard. Treat it as a reasonable place to aim within the healthy range, not a precise target.</small></p>';
 
     // Waist
@@ -834,7 +899,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
         h += '<p>That is 5-7% of your current weight, the amount guidelines say improves blood sugar, blood pressure and lipids in people above the healthy range. ' + c(['ada8', 'dpp']) + ' Longer term, the healthy range above is the reference.</p>';
       }
       if (ca) {
-        h += '<p><strong>Condition-weighted range:</strong> <span class="big" id="condRange">' + fmtRange(ca.lowKg, ca.highKg, unit) + '</span><br><small>The suggested range from section 2, moved down ' + Math.abs(ca.shiftKg).toFixed(2) + ' kg and narrowed to ' + Math.round(ca.tighten * 100) + '% of its width for the conditions you selected, and kept inside the healthy range. These amounts are this calculator\u2019s weighting, not guideline figures.</small></p>';
+        h += '<p><strong>Condition-weighted range:</strong> <span class="big" id="condRange">' + fmtRange(ca.lowKg, ca.highKg, unit) + '</span><br><small>The ' + (r.buffered ? 'diabetes-buffered range' : 'suggested range') + ' from section 2, moved down ' + Math.abs(ca.shiftKg).toFixed(2) + ' kg and narrowed to ' + Math.round(ca.tighten * 100) + '% of its width for the conditions you selected, and kept inside the healthy range' + (r.buffered ? ' below the buffer zone' : '') + '. These amounts are this calculator\u2019s weighting, not guideline figures.</small></p>';
       }
       h += '<ul>' + cw.items.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul>';
     }

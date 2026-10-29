@@ -303,3 +303,107 @@ test('inline scripts are ES5 (Safari 12 / iOS 12 safe) and avoid newer APIs', as
       assert.ok(!code.includes(api), id + ' uses ' + api);
   }
 });
+
+// ---------- Diabetes buffer zone (lower-cut-off ancestry) ----------
+// Hand-computed expectations: weight at BMI b for height h (m) = b * h^2.
+const kgAt = (b, hIn) => b * (hIn * IN / 100) ** 2;
+const mix = (pairs) => ({ ancestryMode: 'mixed', ancestry: '', makeup: pairs.map(([ancestry, pct]) => ({ ancestry, pct: String(pct) })) });
+
+test('buffer zone: starts at BMI 22 for lower-cut-off groups, blended for a mix, absent for standard groups', () => {
+  const z = (o) => calc(o).bufferZone;
+  assert.equal(z({ ancestry: 'european' }), null);
+  assert.equal(z({ ancestry: 'other' }), null);
+  const se = z({ ancestry: 'se_asian' });
+  assert.equal(se.startBmi, 22); assert.equal(se.topBmi, 22.9); assert.equal(se.capBmi, 21.9);
+  near(se.startKg, kgAt(22, 70), 1e-9); near(se.capKg, kgAt(21.9, 70), 1e-9);
+  const half = z(mix([['se_asian', 50], ['european', 50]]));     // start 25 + (22-25)*0.5 = 23.5; top 24 - 0.1
+  assert.equal(half.startBmi, 23.5); assert.equal(half.topBmi, 23.9); assert.equal(half.capBmi, 23.4);
+  const tenth = z(mix([['se_asian', 10], ['european', 90]]));    // start 24.7; overweight 24.8 -> top 24.7
+  assert.equal(tenth.startBmi, 24.7); assert.equal(tenth.topBmi, 24.7);
+  assert.equal(z(mix([['se_asian', 1], ['european', 99]])), null); // rounds to the standard cut-off: no zone
+});
+
+test("Brian's case: male 69 in, wrist 6.5 in (small), Southeast Asian", () => {
+  const o = { height: '69', wrist: '6.5', weight: '150', ancestry: 'se_asian' };
+  const none = calc(o);
+  assert.equal(none.wristFrame.size, 'Small');                    // 69/6.5 = 10.62 > 10.4
+  const lo = 160 * 0.9 * LB, top = kgAt(22.9, 69);                // Hamwi small 144 lb; Devine 155.9 lb clipped by BMI 22.9
+  near(none.suggested.lowKg, lo, 1e-9); near(none.suggested.highKg, top, 1e-9);
+  assert.equal(none.buffered, null, 'no cap without the diabetes selection');
+  assert.equal(none.conditionAdjusted, null);
+  const d = calc({ ...o, conditions: ['diabetes'] });
+  const cap = kgAt(21.9, 69);
+  assert.equal(d.buffered.method, 'capped');
+  near(d.buffered.lowKg, lo, 1e-9); near(d.buffered.highKg, cap, 1e-9);
+  near(E.kgToLb(d.buffered.highKg), 148.3, 0.05);
+  const mid = (lo + cap) / 2 - 0.35, half = (cap - lo) / 2 * 0.95;   // condition weighting applied after the cap
+  near(d.conditionAdjusted.lowKg, mid - half, 1e-9); near(d.conditionAdjusted.highKg, mid + half, 1e-9);
+  assert.ok(d.conditionAdjusted.highKg <= cap + 1e-9);
+  // the suggested (pre-cap) range and band are untouched by the new rule
+  near(d.suggested.highKg, top, 1e-9); near(d.band.lowKg, kgAt(18.5, 69), 1e-9);
+});
+
+test("Brian's case with a 50/50 Southeast Asian / European mix", () => {
+  const o = { height: '69', wrist: '6.5', weight: '150', ...mix([['se_asian', 50], ['european', 50]]) };
+  const none = calc(o);
+  near(none.suggested.highKg, 50 + 2.3 * 9, 1e-9);                // Devine 70.7 kg, below the blended top (BMI 23.9)
+  const d = calc({ ...o, conditions: ['diabetes'] });
+  assert.equal(d.bufferZone.capBmi, 23.4);
+  assert.equal(d.buffered, null, 'Devine (BMI 23.0) is already below the BMI 23.4 cap');
+  assert.ok(d.conditionAdjusted);
+  // large frame: Hamwi +10% goes above the blended top, so the cap does bite
+  const L = calc({ ...o, wrist: '7.5', conditions: ['diabetes'] });
+  assert.equal(L.wristFrame.size, 'Large');
+  assert.equal(L.buffered.method, 'capped'); near(L.buffered.highKg, kgAt(23.4, 69), 1e-9);
+});
+
+test('buffer: large frame with all formulas inside the zone falls back to the band below it (never empty)', () => {
+  const d = calc({ height: '69', wrist: '7.5', ancestry: 'se_asian', conditions: ['diabetes'] });
+  assert.equal(d.wristFrame.size, 'Large');                       // 69/7.5 = 9.2 < 9.6
+  near(d.suggested.lowKg, 51.65 + 1.85 * 9, 1e-9);                 // Robinson 68.3 kg = BMI 22.2, inside the zone
+  assert.equal(d.buffered.method, 'band_below_buffer');
+  near(d.buffered.lowKg, kgAt(18.5, 69), 1e-9); near(d.buffered.highKg, kgAt(21.9, 69), 1e-9);
+});
+
+test('buffer: short height (no formulas) caps the band; floor never moves', () => {
+  const d = calc({ sex: 'female', height: '58', wrist: '5.5', weight: '100', ancestry: 'east_asian', conditions: ['diabetes'] });
+  assert.equal(d.suggested.reason, 'short');
+  near(d.buffered.lowKg, kgAt(18.5, 58), 1e-9); near(d.buffered.highKg, kgAt(21.9, 58), 1e-9);
+  assert.ok(d.conditionAdjusted.lowKg >= kgAt(18.5, 58) - 1e-9 && d.conditionAdjusted.highKg <= kgAt(21.9, 58) + 1e-9);
+});
+
+test('buffer: only the diabetes selection caps the range; other conditions do not', () => {
+  const o = { height: '69', wrist: '6.5', ancestry: 'se_asian' };
+  for (const c of [['hypertension'], ['high_chol'], ['gout'], ['celiac']]) assert.equal(calc({ ...o, conditions: c }).buffered, null, c[0]);
+  assert.ok(calc({ ...o, conditions: ['gout', 'diabetes'] }).buffered);
+});
+
+test('buffer: European with diabetes is unchanged (the BMI 22 evidence is Asian-specific)', () => {
+  const d = calc({ conditions: ['diabetes'] });
+  assert.equal(d.bufferZone, null); assert.equal(d.buffered, null);
+  const s = d.suggested, mid = (s.lowKg + s.highKg) / 2 - 0.35, half = (s.highKg - s.lowKg) / 2 * 0.95;
+  near(d.conditionAdjusted.lowKg, mid - half, 1e-9); near(d.conditionAdjusted.highKg, mid + half, 1e-9);
+});
+
+test('buffer invariants (sweep): never below the floor, never above the cap, never empty', () => {
+  let capped = 0;
+  for (let hIn = 56; hIn <= 80; hIn++) for (const sex of ['male', 'female']) for (const wrist of ['5', '6', '6.5', '7', '8'])
+    for (const share of [100, 90, 50, 30, 10]) for (const conds of [['diabetes'], ['diabetes', 'hypertension', 'high_chol', 'gout']]) {
+      const o = { sex, height: String(hIn), wrist, weight: '150', conditions: conds,
+        ...(share === 100 ? { ancestry: 'south_asian' } : mix([['south_asian', share], ['european', 100 - share]])) };
+      const v = E.validate(base(o)); if (!v.ok) continue;
+      const r = E.calculate(v.values), z = r.bufferZone, lim = r.buffered ? r.buffered.highKg : r.band.highKg;
+      if (r.buffered) { capped++; assert.ok(r.buffered.lowKg >= r.band.lowKg - 1e-9 && r.buffered.lowKg <= r.buffered.highKg && Math.abs(r.buffered.highKg - z.capKg) < 1e-9); }
+      else if (z) assert.ok(r.suggested.highKg <= z.capKg + 1e-9, 'uncapped only when already below the cap');
+      const a = r.conditionAdjusted;
+      assert.ok(a.lowKg >= r.band.lowKg - 1e-9 && a.highKg <= lim + 1e-9 && a.lowKg <= a.highKg, JSON.stringify({ hIn, sex, wrist, share }));
+    }
+  assert.ok(capped > 100, 'the sweep exercises the cap');
+});
+
+test('page documents how the range is built, in order', () => {
+  const m = html.match(/How the range is built, in order:<\/strong>\s*<ol>([\s\S]*?)<\/ol>/);
+  assert.ok(m);
+  assert.equal((m[1].match(/<li>/g) || []).length, 5);
+  assert.match(m[1], /buffer zone/);
+});
