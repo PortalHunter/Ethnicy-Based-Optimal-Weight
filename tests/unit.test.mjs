@@ -161,7 +161,8 @@ test('validation: required, zero, negative, garbage, units', () => {
   assert.match(errs({ height: '' }), /Height is required/);
   assert.match(errs({ weight: '0' }), /greater than zero/);
   assert.match(errs({ wrist: '-6' }), /greater than zero/);
-  assert.match(errs({ height: '5\'8' }), /must be a number/);
+  assert.match(errs({ height: '5\'13' }), /inches must be/);
+  assert.match(errs({ height: '5 1/2' }), /must be a number/);
   assert.match(errs({ weight: 'abc' }), /must be a number/);
   assert.match(errs({ height: 'NaN' }), /must be a number/);
   assert.match(errs({ height: 'Infinity' }), /must be a number/);
@@ -239,4 +240,66 @@ test('citations: every cite key resolves; references unique; no known-bad PMID',
   const r = calc({ ancestryMode: 'mixed', makeup: [{ ancestry: 'east_asian', pct: '50' }, { ancestry: 'african', pct: '50' }],
     conditions: ['diabetes', 'hypertension', 'high_chol', 'gout', 'lactose', 'celiac', 'hemochromatosis'] });
   assert.ok(r.food.length >= 8);
+});
+
+test('height parser: natural feet/inches formats', () => {
+  const ok = { '70': 70, '70.5': 70.5, "5'10": 70, '5\'10"': 70, "5' 10.5\"": 70.5, '5 ft 10 in': 70, '5ft10': 70,
+    '5-10': 70, '5 10': 70, "5'": 60, '5\u2019 10\u2033': 70, '5 feet 10 inches': 70, '5ft 10in.': 70, "6'0": 72,
+    "5'10,5": 70.5, '3\'0': 36, "8'11.9": 107.9 };
+  for (const [txt, inches] of Object.entries(ok)) {
+    const p = E.parseMeasure(txt, 'length', true);
+    assert.ok(!p.error, txt + ' -> ' + p.error); near(p.value, inches, 1e-9, txt);
+    if (/[' f\-\u2019]/.test(txt)) assert.equal(p.unit, 'in', txt);
+  }
+  for (const bad of ["2'10", "9'0", "5'12", "5'-1", '5.8 ft', "5''10", 'five ten', "5'10'", '5 10 2'])
+    assert.ok(E.parseMeasure(bad, 'length', true).error, 'should reject ' + bad);
+  // feet/inches only for height
+  assert.ok(E.parseMeasure("5'10", 'length', false).error);
+});
+
+test('comma decimals and typed unit suffixes', () => {
+  near(E.parseNum('6,5'), 6.5); near(E.parseMeasure('6,5', 'length', false).value, 6.5);
+  const cases = [['180 lbs', 'weight', 180, 'lb'], ['180lb', 'weight', 180, 'lb'], ['82,5 kg', 'weight', 82.5, 'kg'],
+    ['7 in', 'length', 7, 'in'], ['7"', 'length', 7, 'in'], ['178cm', 'length', 178, 'cm'], ['17.5 CM', 'length', 17.5, 'cm'],
+    ['200 pounds', 'weight', 200, 'lb'], ['90 kgs', 'weight', 90, 'kg']];
+  for (const [txt, kind, v, u] of cases) { const p = E.parseMeasure(txt, kind, false); near(p.value, v, 1e-9, txt); assert.equal(p.unit, u, txt); }
+  assert.match(E.parseMeasure('180 cm', 'weight', false).error, /length unit/);
+  assert.match(E.parseMeasure('7 lbs', 'length', false).error, /weight unit/);
+  assert.match(E.parseMeasure('7 furlongs', 'length', false).error, /unrecognised unit/);
+});
+
+test('validate: typed units override the selector, with a warning, and give the same numbers', () => {
+  const ref = E.validate(base({})).values;
+  const v = E.validate(base({ height: "5'10\"", heightUnit: 'cm', weight: '180 lbs', weightUnit: 'kg', wrist: '17.78cm', wristUnit: 'in' }));
+  assert.ok(v.ok, v.errors.join());
+  assert.deepEqual({ ...v.unitOverrides }, { height: 'in', weight: 'lb', wrist: 'cm' });
+  near(v.values.heightCm, ref.heightCm, 1e-9); near(v.values.weightKg, ref.weightKg, 1e-9); near(v.values.wristCm, ref.wristCm, 1e-9);
+  assert.equal(v.warnings.length, 3);
+  assert.match(v.warnings.join(' '), /5 ft 10 in/);
+  // inches mode + feet/inches: no override, but a confirmation note
+  const w = E.validate(base({ height: "5'10" }));
+  assert.ok(w.ok); assert.deepEqual({ ...w.unitOverrides }, {}); near(w.values.heightCm, 177.8, 1e-9);
+  // "5.10" in inches is flagged with a feet/inches hint
+  assert.match(E.validate(base({ height: '5.10' })).errors.join(), /type it like 5'10"/);
+  // percentages accept "%" and commas
+  assert.ok(E.validate(base({ ancestryMode: 'mixed', makeup: [{ ancestry: 'european', pct: '50%' }, { ancestry: 'east_asian', pct: '50,0' }] })).ok);
+});
+
+test('validate: invalid field ids are reported for highlighting', () => {
+  const v = E.validate(base({ sex: '', ancestry: '', weight: 'abc', elbow: '-1' }));
+  assert.deepEqual([...v.invalid].sort(), ['ancestry', 'elbow', 'sex', 'weight']);
+  assert.match(v.errors.join(), /choose Sex/); assert.match(v.errors.join(), /choose an ancestry/);
+  const m = E.validate(base({ ancestryMode: 'mixed', makeup: [{ ancestry: 'european', pct: '' }, { ancestry: '', pct: '20' }] }));
+  assert.ok(m.invalid.includes('mixPct1') && m.invalid.includes('mixAnc2'));
+});
+
+test('inline scripts are ES5 (Safari 12 / iOS 12 safe) and avoid newer APIs', async () => {
+  const acorn = await import('acorn');
+  const scripts = [...html.matchAll(/<script id="([^"]+)">([\s\S]*?)<\/script>/g)];
+  assert.ok(scripts.length >= 3);
+  for (const [, id, code] of scripts) {
+    assert.doesNotThrow(() => acorn.parse(code, { ecmaVersion: 5 }), id + ' is not ES5');
+    for (const api of ['replaceAll', 'fromEntries', 'Object.entries', 'Object.values', '.includes(', 'Array.from', 'Number.isFinite', 'padStart', '.flat(', 'Promise', 'fetch(', '?.', '??'])
+      assert.ok(!code.includes(api), id + ' uses ' + api);
+  }
 });

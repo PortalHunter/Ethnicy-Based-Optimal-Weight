@@ -32,13 +32,20 @@ tr.me td { font-weight: 700; outline: 2px solid #d00; }
 .b0 { background: #cce5ff; } .b1 { background: #d4edda; } .b2 { background: #fff3cd; } .b3 { background: #f8d7da; }
 details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
 .hint { font-size: 0.8rem; color: #6c757d; font-weight: normal; }
+[hidden] { display: none !important; }
+[aria-invalid="true"] { border: 2px solid #d00; background: #fff5f5; }
+.fatal { background: #f8d7da; color: #58151c; padding: 12px; border-radius: 4px; font-weight: 600; }
+#jsNotice { background: #f8d7da; color: #58151c; padding: 12px; border-radius: 4px; font-weight: 600; margin: 8px 0; }
 </style>
 </head>
 <body>
 <h1>Ancestry-Adjusted Optimal Body Weight &amp; Food Calculator</h1>
 <p>Estimates a healthy weight range for adults (18+) from ancestry-specific BMI cut-offs (WHO 2004, NICE), adjusted for frame size from your wrist and, optionally, elbow, and adds food notes for selected conditions and ancestry-linked traits. Every claim links to its source.</p>
 
-<form id="calcForm" novalidate>
+<div id="jsNotice" role="alert">If you can read this, the viewer you opened this file in is not running the calculator's script, so the Calculate button will not work. Open the file in Safari, Chrome, Firefox or Edge. On iPhone/iPad, use Share &rarr; Open in Safari rather than the Files or Mail preview; on a Mac, open it in a browser rather than Quick Look.</div>
+<noscript><div class="fatal">JavaScript is turned off or blocked, so this calculator cannot run. Turn JavaScript on, or open the file in Safari, Chrome, Firefox or Edge.</div></noscript>
+
+<form id="calcForm" action="#" novalidate>
 <div class="form-group">
 <label for="sex">Sex (the frame and ideal-weight formulas are sex-specific)</label>
 <select id="sex"><option value="" selected>-- choose --</option><option value="male">Male</option><option value="female">Female</option></select>
@@ -47,7 +54,7 @@ details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
 <div class="row">
 <div class="form-group">
 <label for="height">Height</label>
-<input type="text" inputmode="decimal" id="height" placeholder="e.g. 68" autocomplete="off">
+<input type="text" id="height" placeholder="e.g. 5'10&quot; or 70" autocomplete="off" autocapitalize="off" spellcheck="false">
 </div>
 <div class="form-group">
 <label for="heightUnit">Height unit</label>
@@ -127,12 +134,26 @@ details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
 </div>
 </div>
 
+<div id="errors" role="alert" tabindex="-1" hidden></div>
 <button type="submit" id="calcBtn">Calculate Optimal Weight &amp; Recommendations</button>
 </form>
 <p style="font-size:0.85rem; color:#555; margin-top:8px;"><strong>Measurement tips:</strong> use a soft tape; measure the wrist at its narrowest point just beyond the wrist bone (toward the hand) <a href="https://medlineplus.gov/ency/imagepages/17182.htm" target="_blank" rel="noopener noreferrer">(MedlinePlus)</a>. Elbow breadth is the width between the two bony points of the elbow with the arm bent at 90&deg;, ideally with a caliper; a tape against a ruler is less accurate. Errors of a tenth of an inch can change the frame result near a cut-off.</p>
 
-<div id="errors" role="alert" tabindex="-1" hidden></div>
 <div id="results" aria-live="polite"></div>
+<script id="calc-guard">
+/* Loaded first: if anything later fails, show a plain message instead of failing silently. */
+window.ebowShowFatal = function (msg) {
+  var r = document.getElementById('results');
+  if (!r) return;
+  r.style.display = 'block';
+  r.innerHTML = '';
+  var d = document.createElement('div');
+  d.className = 'fatal';
+  d.appendChild(document.createTextNode('Sorry, the calculator hit an error and could not show results (' + msg + '). Please reload the page, or open the file in Safari, Chrome, Firefox or Edge.'));
+  r.appendChild(d);
+};
+window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
+</script>
 
 <div class="disclaimer">
 <strong>About these numbers.</strong> This is an educational estimate, not medical advice. BMI cannot tell muscle from fat, and the cut-offs are less reliable for very muscular people, people 65 and over, and during pregnancy (do not use it if pregnant). Ancestry cut-offs and gene notes describe population averages, not you personally. Frame size from a tape measure is approximate, and the ideal-weight formulas date from mid-20th-century US data. For these reasons the page gives ranges, not a single "perfect" weight. If you have a medical condition, check any weight or diet change with your doctor or a registered dietitian.
@@ -260,12 +281,64 @@ details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
   }
 
   // ---------- Numbers & units ----------
+  // Plain number. Accepts "6.5" and "6,5" (comma decimal). Returns null when empty, NaN when not a number.
   function parseNum(v) {
     if (v === null || v === undefined) return null;
     var s = String(v).trim();
     if (s === '') return null;
+    if (/^[+-]?(\d+,\d+|,\d+)$/.test(s)) s = s.replace(',', '.');
     if (!/^[+-]?(\d+\.?\d*|\.\d+)([eE][+-]?\d+)?$/.test(s)) return NaN;
     return Number(s);
+  }
+
+  // Unit words a user might type after a number.
+  var UNIT_WORDS = [
+    ['lb', /^(lb|lbs|pound|pounds|#)$/],
+    ['kg', /^(kg|kgs|kilo|kilos|kilogram|kilograms|kilogramme|kilogrammes)$/],
+    ['in', /^(in|ins|inch|inches|"|\u201d|\u2033|'')$/],
+    ['cm', /^(cm|cms|centimeter|centimeters|centimetre|centimetres)$/]
+  ];
+  var UNIT_KIND = { lb: 'weight', kg: 'weight', 'in': 'length', cm: 'length' };
+  function unitFromWord(w) {
+    var x = w.toLowerCase().replace(/\.$/, '');
+    for (var i = 0; i < UNIT_WORDS.length; i++) if (UNIT_WORDS[i][1].test(x)) return UNIT_WORDS[i][0];
+    return null;
+  }
+  // Feet and inches: 5'10  5'10"  5' 10.5"  5 ft 10 in  5ft10  5-10  5 10  5'
+  var FT = "(?:'|\u2019|\u2032|ft\\.?|feet|foot)";
+  var INCH = '(?:"|\u201d|\u2033|\'\'|in\\.?|inch|inches)';
+  var NUM = '(\\d+(?:[.,]\\d+)?)';
+  var FT_IN_RE = new RegExp('^(\\d+)\\s*' + FT + '\\s*(?:' + NUM + '\\s*' + INCH + '?)?$', 'i');
+  var FT_IN_BARE_RE = new RegExp('^(\\d)\\s*(?:-|\\s)\\s*' + NUM + '\\s*' + INCH + '?$', 'i');
+  var WITH_UNIT_RE = /^([+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+))\s*([A-Za-z"'#.\u201d\u2033\u2019\u2032]+)?$/;
+
+  // Parses what a user typed into a measurement field.
+  // kind: 'length' or 'weight'. allowFeetInches: true for height.
+  // Returns { empty: true } | { error: message } | { value, unit (or null if none typed), feetInches }
+  function parseMeasure(raw, kind, allowFeetInches) {
+    var s = raw === null || raw === undefined ? '' : String(raw).trim();
+    if (s === '') return { empty: true };
+    var m;
+    if (allowFeetInches && ((m = FT_IN_RE.exec(s)) || (m = FT_IN_BARE_RE.exec(s)))) {
+      var ft = Number(m[1]), inch = m[2] ? Number(m[2].replace(',', '.')) : 0;
+      if (ft < 3 || ft > 8) return { error: 'feet must be between 3 and 8 (you typed ' + ft + ').' };
+      if (!(inch >= 0 && inch < 12)) return { error: 'inches must be at least 0 and less than 12 (you typed ' + inch + ').' };
+      return { value: ft * 12 + inch, unit: 'in', feetInches: true, feet: ft, inches: inch };
+    }
+    m = WITH_UNIT_RE.exec(s);
+    if (!m) return { error: allowFeetInches ? 'must be a number, or feet and inches like 5\'10".' : 'must be a number.' };
+    var v = parseNum(m[1]);
+    if (isNaN(v) || !isFinite(v)) return { error: 'must be a number.' };
+    var unit = null;
+    if (m[2]) {
+      unit = unitFromWord(m[2]);
+      if (!unit) {
+        if (allowFeetInches && /^(ft|feet|foot|'|\u2019|\u2032)$/i.test(m[2].replace(/\.$/, ''))) return { error: 'please write feet and inches like 5\'10" (whole feet), or give the height in inches.' };
+        return { error: 'unrecognised unit "' + m[2] + '".' };
+      }
+      if (UNIT_KIND[unit] !== kind) return { error: '"' + m[2] + '" is a ' + UNIT_KIND[unit] + ' unit, not a ' + kind + ' unit.' };
+    }
+    return { value: v, unit: unit, feetInches: false };
   }
   function toCm(v, unit) { return unit === 'in' ? v * IN_TO_CM : v; }
   function toKg(v, unit) { return unit === 'lb' ? v * LB_TO_KG : v; }
@@ -276,21 +349,29 @@ details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
   // ---------- Validation ----------
   var CONDITIONS = ['diabetes', 'hypertension', 'high_chol', 'gout', 'lactose', 'celiac', 'hemochromatosis'];
 
-  function checkMeasure(name, raw, unit, units, toBase, limitKey, required, errors) {
-    var v = parseNum(raw);
+  var UNIT_NAMES = { 'in': 'inches', cm: 'cm', lb: 'lb', kg: 'kg' };
+  // ctx collects errors, warnings, invalid field ids and unit overrides for the whole form.
+  function checkMeasure(field, name, raw, unit, units, toBase, limitKey, required, ctx) {
     var lim = LIMITS[limitKey];
-    if (v === null) { if (required) errors.push(name + ' is required.'); return null; }
-    if (units.indexOf(unit) < 0) { errors.push(name + ': unknown unit "' + unit + '".'); return null; }
-    if (isNaN(v) || !isFinite(v)) { errors.push(name + ' must be a number.'); return null; }
-    if (v <= 0) { errors.push(name + ' must be greater than zero.'); return null; }
+    var bad = function (msg) { ctx.errors.push(msg); ctx.invalid.push(field); return null; };
+    var p = parseMeasure(raw, units[0] === 'lb' ? 'weight' : 'length', field === 'height');
+    if (p.empty) return required ? bad(name + ' is required.') : null;
+    if (p.error) return bad(name + ': ' + p.error);
+    if (units.indexOf(unit) < 0) return bad(name + ': unknown unit "' + unit + '".');
+    var v = p.value;
+    if (p.feetInches) ctx.warnings.push(name + ': read "' + String(raw).trim() + '" as ' + p.feet + ' ft ' + p.inches + ' in (' + v + ' in).' +
+      (unit !== 'in' ? ' Unit switched to inches.' : ''));
+    else if (p.unit && p.unit !== unit) ctx.warnings.push(name + ': you typed "' + String(raw).trim() + '", so the unit was switched to ' + UNIT_NAMES[p.unit] + '.');
+    if (p.unit && p.unit !== unit) { ctx.unitOverrides[field] = p.unit; unit = p.unit; }
+    if (v <= 0) return bad(name + ' must be greater than zero.');
     var base = toBase(v, unit);
     if (base < lim[0] || base > lim[1]) {
       var other = units[0] === unit ? units[1] : units[0];
       var altBase = toBase(v, other);
       var hint = (altBase >= lim[0] && altBase <= lim[1]) ? ' Did you mean ' + other + '?' : '';
-      errors.push(name + ' of ' + v + ' ' + unit + ' is outside the plausible adult range (' +
+      if (field === 'height' && unit === 'in' && v >= 3 && v < 9) hint += ' For feet and inches, type it like 5\'10".';
+      return bad(name + ' of ' + v + ' ' + unit + ' is outside the plausible adult range (' +
         describeRange(lim, units, toBase) + ').' + hint);
-      return null;
     }
     return base;
   }
@@ -303,18 +384,19 @@ details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
   }
 
   function validate(raw) {
-    var errors = [], warnings = [];
+    var ctx = { errors: [], warnings: [], invalid: [], unitOverrides: {} };
+    var errors = ctx.errors, warnings = ctx.warnings, invalid = ctx.invalid;
     var sex = raw.sex;
-    if (sex !== 'male' && sex !== 'female') errors.push('Please choose male or female (the frame and ideal-weight formulas are sex-specific).');
-    var heightCm = checkMeasure('Height', raw.height, raw.heightUnit, ['in', 'cm'], toCm, 'heightCm', true, errors);
-    var weightKg = checkMeasure('Weight', raw.weight, raw.weightUnit, ['lb', 'kg'], toKg, 'weightKg', true, errors);
-    var wristCm  = checkMeasure('Wrist circumference', raw.wrist, raw.wristUnit, ['in', 'cm'], toCm, 'wristCm', true, errors);
-    var elbowCm  = checkMeasure('Elbow breadth', raw.elbow, raw.elbowUnit, ['in', 'cm'], toCm, 'elbowCm', false, errors);
-    var waistCm  = checkMeasure('Waist circumference', raw.waist, raw.waistUnit, ['in', 'cm'], toCm, 'waistCm', false, errors);
+    if (sex !== 'male' && sex !== 'female') { errors.push('Please choose Sex: male or female (the frame and ideal-weight formulas are sex-specific).'); invalid.push('sex'); }
+    var heightCm = checkMeasure('height', 'Height', raw.height, raw.heightUnit, ['in', 'cm'], toCm, 'heightCm', true, ctx);
+    var weightKg = checkMeasure('weight', 'Weight', raw.weight, raw.weightUnit, ['lb', 'kg'], toKg, 'weightKg', true, ctx);
+    var wristCm  = checkMeasure('wrist', 'Wrist circumference', raw.wrist, raw.wristUnit, ['in', 'cm'], toCm, 'wristCm', true, ctx);
+    var elbowCm  = checkMeasure('elbow', 'Elbow breadth', raw.elbow, raw.elbowUnit, ['in', 'cm'], toCm, 'elbowCm', false, ctx);
+    var waistCm  = checkMeasure('waist', 'Waist circumference', raw.waist, raw.waistUnit, ['in', 'cm'], toCm, 'waistCm', false, ctx);
 
     if (heightCm && wristCm) {
       var r = heightCm / wristCm;
-      if (r < 6 || r > 15) errors.push('Height and wrist together give a height/wrist ratio of ' + round(r, 1) + ', which is outside the range seen in adults (about 8-13). Please re-check both values and their units.');
+      if (r < 6 || r > 15) invalid.push('height', 'wrist'), errors.push('Height and wrist together give a height/wrist ratio of ' + round(r, 1) + ', which is outside the range seen in adults (about 8-13). Please re-check both values and their units.');
     }
 
     // Ancestry: single, or mixed makeup with percentages
@@ -323,27 +405,28 @@ details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
       var seen = {}, total = 0;
       (raw.makeup || []).forEach(function (row, i) {
         var hasPct = !(row.pct === null || row.pct === undefined || String(row.pct).trim() === '');
-        if (!hasPct) { if (ANCESTRIES[row.ancestry]) errors.push('Ancestry row ' + (i + 1) + ': enter a percentage (or clear the ancestry).'); return; }
-        var p = parseNum(row.pct);
-        if (!ANCESTRIES[row.ancestry]) { errors.push('Ancestry row ' + (i + 1) + ': choose an ancestry.'); return; }
-        if (isNaN(p) || p <= 0 || p > 100) { errors.push('Ancestry row ' + (i + 1) + ': percentage must be more than 0 and at most 100.'); return; }
-        if (seen[row.ancestry]) { errors.push('"' + ANCESTRIES[row.ancestry].label + '" is listed more than once - combine those rows.'); return; }
+        var n = i + 1;
+        if (!hasPct) { if (ANCESTRIES[row.ancestry]) { errors.push('Ancestry row ' + n + ': enter a percentage (or clear the ancestry).'); invalid.push('mixPct' + n); } return; }
+        var p = parseNum(String(row.pct).replace(/\s*%$/, ''));
+        if (!ANCESTRIES[row.ancestry]) { errors.push('Ancestry row ' + n + ': choose an ancestry.'); invalid.push('mixAnc' + n); return; }
+        if (isNaN(p) || p <= 0 || p > 100) { errors.push('Ancestry row ' + n + ': percentage must be more than 0 and at most 100.'); invalid.push('mixPct' + n); return; }
+        if (seen[row.ancestry]) { errors.push('"' + ANCESTRIES[row.ancestry].label + '" is listed more than once - combine those rows.'); invalid.push('mixAnc' + n); return; }
         seen[row.ancestry] = true;
         total += p;
         ancestries.push({ key: row.ancestry, pct: p });
       });
-      if (ancestries.length === 0 && !errors.some(function (e) { return /^Ancestry row/.test(e); })) errors.push('Mixed ancestry: enter at least one ancestry with a percentage.');
-      else if (ancestries.length > 0 && Math.abs(total - 100) > 1) errors.push('Mixed ancestry percentages add up to ' + round(total, 1) + '%. They need to total 100% (within 1% for rounding).');
+      if (ancestries.length === 0 && !errors.some(function (e) { return /^Ancestry row/.test(e); })) { errors.push('Mixed ancestry: enter at least one ancestry with a percentage.'); invalid.push('mixAnc1', 'mixPct1'); }
+      else if (ancestries.length > 0 && Math.abs(total - 100) > 1) invalid.push('mixPct1', 'mixPct2', 'mixPct3'), errors.push('Mixed ancestry percentages add up to ' + round(total, 1) + '%. They need to total 100% (within 1% for rounding).');
     } else {
-      if (!ANCESTRIES[raw.ancestry]) errors.push('Please choose an ancestry.');
+      if (!ANCESTRIES[raw.ancestry]) { errors.push('Please choose an ancestry (or "Other / not listed").'); invalid.push('ancestry'); }
       else ancestries.push({ key: raw.ancestry, pct: 100 });
     }
 
     var conditions = (raw.conditions || []).filter(function (c) { return CONDITIONS.indexOf(c) >= 0; });
 
-    if (errors.length) return { ok: false, errors: errors, warnings: warnings };
+    if (errors.length) return { ok: false, errors: errors, warnings: warnings, invalid: invalid, unitOverrides: ctx.unitOverrides };
     if (heightCm < 152.4) warnings.push('The ideal-body-weight formulas were published only for heights of 5 ft (152.4 cm) and over, so for your height only the BMI-based range is used.');
-    return { ok: true, errors: [], warnings: warnings, values: {
+    return { ok: true, errors: [], warnings: warnings, invalid: [], unitOverrides: ctx.unitOverrides, values: {
       sex: sex, heightCm: heightCm, weightKg: weightKg, wristCm: wristCm, elbowCm: elbowCm, waistCm: waistCm,
       ancestries: ancestries, conditions: conditions } };
   }
@@ -571,7 +654,7 @@ details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
 
   root.EBOW = {
     IN_TO_CM: IN_TO_CM, LB_TO_KG: LB_TO_KG, LIMITS: LIMITS, REFS: REFS, GROUPS: GROUPS, ANCESTRIES: ANCESTRIES,
-    cite: cite, parseNum: parseNum, toCm: toCm, toKg: toKg, kgToLb: kgToLb, cmToIn: cmToIn, round: round,
+    cite: cite, parseNum: parseNum, parseMeasure: parseMeasure, toCm: toCm, toKg: toKg, kgToLb: kgToLb, cmToIn: cmToIn, round: round,
     validate: validate, bmi: bmi, weightForBmi: weightForBmi, classifyBMI: classifyBMI, groupForAncestries: groupForAncestries,
     healthyBand: healthyBand, frameFromWrist: frameFromWrist, wristCutoffs: wristCutoffs, frameFromElbow: frameFromElbow,
     ibwFormulas: ibwFormulas, suggestedRange: suggestedRange, waistToHeight: waistToHeight,
@@ -645,25 +728,49 @@ details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
 
   var hasCalculated = false;
 
-  function run() {
-    var raw = readForm();
-    var res = E.validate(raw);
-    var errBox = $('errors'), out = $('results');
-    if (!res.ok) {
-      errBox.innerHTML = '<strong>Please fix the following:</strong><ul>' + res.errors.map(function (e) { return '<li>' + esc(e) + '</li>'; }).join('') + '</ul>';
-      errBox.hidden = false;
-      out.style.display = 'none'; out.innerHTML = '';   // never leave stale results on screen
-      lastValues = lastResult = null;
-      if (!hasCalculated) errBox.focus();
-      return;
+  var FIELD_IDS = ['sex', 'height', 'weight', 'wrist', 'elbow', 'waist', 'ancestry', 'mixAnc1', 'mixPct1', 'mixAnc2', 'mixPct2', 'mixAnc3', 'mixPct3'];
+  function markInvalid(ids) {
+    FIELD_IDS.forEach(function (id) {
+      var el = $(id);
+      if (ids.indexOf(id) >= 0) el.setAttribute('aria-invalid', 'true'); else el.removeAttribute('aria-invalid');
+    });
+  }
+  // A unit typed in the box (e.g. "178cm", "180 lbs", 5'10") wins over the selector; keep the selector in step.
+  function applyUnitOverrides(overrides) {
+    for (var f in overrides) if (overrides.hasOwnProperty(f)) {
+      var sel = $(f + 'Unit');
+      sel.value = overrides[f]; sel.dataset.prev = overrides[f];
     }
-    hasCalculated = true;
-    errBox.hidden = true; errBox.innerHTML = '';
-    lastValues = res.values; lastUnit = raw.weightUnit;
-    lastResult = E.calculate(res.values);
-    render(res, lastResult, raw.weightUnit);
   }
 
+  // Returns true when results were drawn. userClicked: bring errors into view (not done on live edits).
+  function run(userClicked) {
+    var errBox = $('errors'), out = $('results');
+    try {
+      var raw = readForm();
+      var res = E.validate(raw);
+      applyUnitOverrides(res.unitOverrides);
+      markInvalid(res.invalid);
+      if (!res.ok) {
+        errBox.innerHTML = '<strong>Please fix the following:</strong><ul>' + res.errors.map(function (e) { return '<li>' + esc(e) + '</li>'; }).join('') + '</ul>';
+        errBox.hidden = false;
+        out.style.display = 'none'; out.innerHTML = '';   // never leave stale results on screen
+        lastValues = lastResult = null;
+        if (userClicked) { errBox.scrollIntoView({ block: 'center' }); errBox.focus(); }
+        return false;
+      }
+      hasCalculated = true;
+      errBox.hidden = true; errBox.innerHTML = '';
+      lastValues = res.values; lastUnit = res.unitOverrides.weight || raw.weightUnit;
+      lastResult = E.calculate(res.values);
+      render(res, lastResult, lastUnit);
+      return true;
+    } catch (err) {
+      lastValues = lastResult = null;
+      window.ebowShowFatal(err && err.message ? err.message : String(err));
+      return false;
+    }
+  }
   function render(res, r, unit) {
     var v = res.values, c = E.cite;
     var g = r.group.group;
@@ -820,30 +927,39 @@ details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
     $('chartBox').innerHTML = svg + '<p><small>Colour bands: under / healthy / ' + g.labels[2].toLowerCase() + ' / ' + g.labels[3].toLowerCase() + ' for ' + esc(gLabel) + ' (' + g.name + '). Dark band: frame-adjusted suggested range from section 2 (wrist method only). Frame lines use the Grant height/wrist cut-offs for your height and sex. ' + E.cite(['grant', 'nice', 'who_asian']) + '</small></p>' + tbl;
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    $('ancestry').innerHTML = ancestryOptions('european');
+  function init() {
+    $('ancestry').innerHTML = '<option value="">-- choose --</option>' + ancestryOptions('');
     for (var i = 1; i <= 3; i++) { $('mixAnc' + i).innerHTML = '<option value="">-- choose --</option>' + ancestryOptions(''); $('mixPct' + i).addEventListener('input', updateMixTotal); }
     Array.prototype.forEach.call(document.querySelectorAll('input[name="ancestryMode"]'), function (el) { el.addEventListener('change', syncMode); });
     $('calcForm').addEventListener('submit', function (e) {
-      e.preventDefault(); var first = !hasCalculated; run();
-      if (first && hasCalculated && $('results').scrollIntoView) $('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      e.preventDefault();
+      if (run(true)) $('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
     // Unit switches convert the number already typed, so the measurement itself does not change.
     UNIT_FIELDS.forEach(function (f) {
       var sel = $(f + 'Unit');
       sel.dataset.prev = sel.value;
       sel.addEventListener('change', function () {
-        var inp = $(f), n = E.parseNum(inp.value), from = sel.dataset.prev, to = sel.value;
-        if (n !== null && !isNaN(n) && from !== to) inp.value = String(convertUnit(n, from, to));
+        var inp = $(f), from = sel.dataset.prev, to = sel.value;
+        var p = E.parseMeasure(inp.value, f === 'weight' ? 'weight' : 'length', f === 'height');
+        var src = p.unit || from;   // a unit typed in the box takes precedence
+        if (p.value !== undefined && src !== to) inp.value = String(convertUnit(p.value, src, to));
         sel.dataset.prev = to;
       });
     });
     // After the first calculation, any edit recalculates (or clears the results if the input becomes invalid).
-    var live = function () { if (hasCalculated) run(); };
+    var live = function () { if (hasCalculated) run(false); };
     $('calcForm').addEventListener('input', live);
     $('calcForm').addEventListener('change', live);
     syncMode();
-  });
+    $('jsNotice').hidden = true;   // the script is running; hide the "script not running" notice
+  }
+
+  try {
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+  } catch (err) {
+    window.ebowShowFatal(err && err.message ? err.message : String(err));
+  }
 })();
 </script>
 </body>
