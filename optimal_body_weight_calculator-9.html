@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ancestry-Adjusted Optimal Body Weight & Nutrition Calculator</title>
+<style>
+body { font-family: system-ui, -apple-system, sans-serif; max-width: 800px; margin: 0 auto; padding: 16px; background: #f8f9fa; color: #212529; line-height: 1.5; }
+h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+h2 { font-size: 1.2rem; margin-top: 1.5rem; border-bottom: 1px solid #dee2e6; padding-bottom: 4px; }
+.form-group { margin-bottom: 12px; }
+label { display: block; font-weight: 600; margin-bottom: 4px; }
+input, select, button { width: 100%; padding: 8px; font-size: 1rem; box-sizing: border-box; border: 1px solid #ced4da; border-radius: 4px; }
+.row { display: flex; gap: 12px; }
+.row > div { flex: 1; }
+button { background: #0d6efd; color: white; border: none; cursor: pointer; margin-top: 8px; }
+button:hover { background: #0b5ed7; }
+#results { margin-top: 24px; padding: 16px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); display: none; }
+.disclaimer { font-size: 0.85rem; color: #6c757d; margin-top: 16px; padding: 12px; background: #fff3cd; border-radius: 4px; }
+.sources { font-size: 0.8rem; color: #6c757d; }
+.highlight { background: #e7f3ff; padding: 8px; border-radius: 4px; margin: 8px 0; }
+ul { margin: 8px 0; padding-left: 20px; }
+</style>
+</head>
+<body>
+<h1>Ancestry-Adjusted Optimal Body Weight & Food Calculator</h1>
+<p>Calculates an optimal weight range based on WHO guidance for BMI categories and ethnicity-specific disease-risk thresholds (public-health action points vary by population), wrist/elbow frame size, and published ancestry-linked dietary adaptations. Educational only. <a href="https://pubmed.ncbi.nlm.nih.gov/14726171/" target="_blank">[1]</a> <a href="https://www.thelancet.com/journals/landia/article/PIIS2213-8587(21)00088-7/fulltext" target="_blank">[3]</a> <a href="https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight" target="_blank">[17]</a></p>
+
+<form id="calcForm">
+<div class="form-group">
+<label>Sex (for frame size)</label>
+<select id="sex"><option value="male">Male</option><option value="female">Female</option></select>
+</div>
+
+<div class="row">
+<div class="form-group">
+<label>Height</label>
+<input type="number" id="height" step="0.1" required placeholder="e.g. 68">
+</div>
+<div class="form-group">
+<label>Height unit</label>
+<select id="heightUnit"><option value="in" selected>inches</option><option value="cm">cm</option></select>
+</div>
+</div>
+
+<div class="row">
+<div class="form-group">
+<label>Weight</label>
+<input type="number" id="weight" step="0.1" required placeholder="e.g. 160">
+</div>
+<div class="form-group">
+<label>Weight unit</label>
+<select id="weightUnit"><option value="lb" selected>lbs</option><option value="kg">kg</option></select>
+</div>
+</div>
+
+<div class="row">
+<div class="form-group">
+<label>Wrist circumference (narrowest, just distal to styloid)</label>
+<input type="number" id="wrist" step="0.1" required placeholder="e.g. 6.8">
+</div>
+<div class="form-group">
+<label>Wrist unit</label>
+<select id="wristUnit"><option value="in" selected>inches</option><option value="cm">cm</option></select>
+</div>
+</div>
+
+<div class="row">
+<div class="form-group">
+<label>Elbow breadth (optional, 90° bend, epicondyles)</label>
+<input type="number" id="elbow" step="0.1" placeholder="e.g. 2.8">
+</div>
+<div class="form-group">
+<label>Elbow unit</label>
+<select id="elbowUnit"><option value="in" selected>inches</option><option value="cm">cm</option></select>
+</div>
+</div>
+
+<div class="form-group">
+<label>Primary ancestry / ethnic makeup (select closest or majority)</label>
+<select id="ancestry">
+<option value="european">European / White / Caucasian</option>
+<option value="east_asian">East Asian (Chinese, Japanese, Korean)</option>
+<option value="south_asian">South Asian (Indian, Pakistani, Bangladeshi, Sri Lankan)</option>
+<option value="se_asian">Southeast Asian (Thai, Vietnamese, Filipino, Indonesian, Malaysian)</option>
+<option value="african">Sub-Saharan African / African American / Afro-Caribbean</option>
+<option value="hispanic">Hispanic / Latino / Admixed American</option>
+<option value="middle_eastern">Middle Eastern / Arab</option>
+<option value="pacific">Pacific Islander</option>
+<option value="native_american">Native American / Indigenous</option>
+<option value="mixed_asian">Mixed with significant Asian ancestry</option>
+<option value="other">Other / Mixed (uses standard cutoffs)</option>
+</select>
+</div>
+
+<div class="form-group">
+<label>Relevant inherited or elevated-risk conditions (select any that apply or family history raises likelihood)</label>
+<div style="font-size:0.9rem;">
+<label><input type="checkbox" class="cond" value="diabetes"> Type 2 diabetes risk / family history / prediabetes</label><br>
+<label><input type="checkbox" class="cond" value="hypertension"> Hypertension / high blood pressure risk</label><br>
+<label><input type="checkbox" class="cond" value="lactose"> Lactose intolerance (or high risk ancestry)</label><br>
+<label><input type="checkbox" class="cond" value="celiac"> Celiac disease / gluten sensitivity</label><br>
+<label><input type="checkbox" class="cond" value="hemochromatosis"> Hemochromatosis / iron overload risk (esp. Northern European)</label><br>
+<label><input type="checkbox" class="cond" value="high_chol"> High cholesterol / familial hypercholesterolemia risk</label><br>
+<label><input type="checkbox" class="cond" value="gout"> Gout / high uric acid risk</label>
+</div>
+</div>
+
+<button type="button" onclick="calculate()">Calculate Optimal Weight & Recommendations</button>
+</form>
+<p style="font-size:0.85rem; color:#555; margin-top:8px;"><strong>Measurement guidance:</strong> Wrist — measure the narrowest circumference just distal to the styloid process (right wrist preferred). <a href="https://medlineplus.gov/ency/imagepages/17182.htm" target="_blank">MedlinePlus frame size chart</a>. Elbow breadth — with arm flexed at 90°, measure the distance between the medial and lateral epicondyles with a sliding caliper (optional confirmatory measure).</p>
+
+<div id="results"></div>
+
+<div class="disclaimer">
+<strong>Disclaimer:</strong> This is an educational tool based on published WHO guidance, anthropometric methods, and population genetic/dietary research. It is not medical advice, diagnosis, or treatment. BMI has limitations (does not distinguish muscle vs fat, age, individual variation). Frame size estimates are approximate. Ancestry-based recommendations are population-level patterns, not individual destiny—personal genetics, lifestyle, and clinical status dominate. Consult a physician or registered dietitian before changing diet or weight goals, especially with medical conditions. Sources include WHO Expert Consultation (Lancet 2004) on Asian BMI, NHANES-derived frame methods, and studies on LCT/AMY1/FADS/ALDH2 adaptations.
+</div>
+
+<script>
+function toCm(val, unit) { return unit === 'in' ? val * 2.54 : val; }
+function toKg(val, unit) { return unit === 'lb' ? val * 0.453592 : val; }
+
+function getFrameFromWrist(heightCm, wristCm, sex) {
+  const r = heightCm / wristCm;
+  if (sex === 'male') {
+    if (r > 10.4) return {size: 'Small', ratio: r.toFixed(2)};
+    if (r >= 9.6) return {size: 'Medium', ratio: r.toFixed(2)};
+    return {size: 'Large', ratio: r.toFixed(2)};
+  } else {
+    if (r > 11.0) return {size: 'Small', ratio: r.toFixed(2)};
+    if (r >= 10.1) return {size: 'Medium', ratio: r.toFixed(2)};
+    return {size: 'Large', ratio: r.toFixed(2)};
+  }
+}
+
+function getEthnicityBMI(ancestry) {
+  // WHO standard retained; Asian action points 23 / 27.5 per Expert Consultation
+  const asian = ['east_asian', 'south_asian', 'se_asian', 'mixed_asian'];
+  if (asian.includes(ancestry)) {
+    return {
+      under: 18.5,
+      normalLow: 18.5,
+      normalHigh: 22.9,
+      overweight: 23,
+      obese: 27.5,
+      note: 'Asian public-health action points (WHO Expert Consultation 2004): increased risk ≥23, high risk ≥27.5. Standard WHO cutoffs still used for international classification. Optimal target band for small-frame individuals centers near BMI 20–21.',
+      targetMid: 20.5
+    };
+  }
+  if (ancestry === 'african') {
+    return {
+      under: 18.5,
+      normalLow: 18.5,
+      normalHigh: 26.9, // some evidence higher equivalence for diabetes risk
+      overweight: 27,
+      obese: 32,
+      note: 'Standard WHO cutoffs retained. UK cohort data show equivalent type 2 diabetes risk at BMI ~28.1 for Black populations vs BMI 30 for White (higher than Asian groups). Moderately adjusted range used. <a href="https://www.thelancet.com/journals/landia/article/PIIS2213-8587(21)00088-7/fulltext" target="_blank">[3]</a>',
+      targetMid: 23
+    };
+  }
+  // Default / European / other
+  return {
+    under: 18.5,
+    normalLow: 18.5,
+    normalHigh: 24.9,
+    overweight: 25,
+    obese: 30,
+    note: 'Standard WHO international classification (under <18.5, normal 18.5–24.9, overweight 25–29.9, obese ≥30). <a href="https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight" target="_blank">[17]</a>',
+    targetMid: 22
+  };
+}
+
+function getFoodRecs(ancestry, conditions) {
+  let recs = [];
+  // Ancestry-based
+  if (['east_asian', 'south_asian', 'se_asian', 'mixed_asian'].includes(ancestry)) {
+    recs.push('<strong>Lactose:</strong> High population rate of lactose non-persistence. Prefer lactose-free dairy, fermented dairy (yogurt/kefir in moderation), or plant alternatives if symptoms occur. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3401057/" target="_blank">[4]</a>');
+    recs.push('<strong>Carbohydrates / starch:</strong> Higher average AMY1 copy number in many agricultural Asian populations supports starch digestion. Emphasize whole grains, legumes, and traditional complex carbs over refined sugars/starches to manage glycemic load. <a href="https://pubmed.ncbi.nlm.nih.gov/17828263/" target="_blank">[5]</a>');
+    recs.push('<strong>Omega-3:</strong> Many have FADS variants favoring conversion from plant ALA. Include flax, chia, walnuts; consider algae or fish EPA/DHA if diet is low in long-chain sources. <a href="https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1638843/full" target="_blank">[6]</a>');
+    if (ancestry === 'east_asian') {
+      recs.push('<strong>Alcohol:</strong> ALDH2 variants common; higher acetaldehyde buildup. Limit or avoid alcohol to reduce flushing and cancer risk. <a href="https://pubmed.ncbi.nlm.nih.gov/1958153/" target="_blank">[18]</a>');
+    }
+  } else if (ancestry === 'european') {
+    recs.push('<strong>Lactose:</strong> Higher lactase persistence rates (especially Northern European). Dairy can be included if tolerated.');
+    recs.push('<strong>Iron:</strong> Higher hemochromatosis carrier rates in Northern European ancestry. Avoid high-dose iron supplements unless tested; monitor if family history.');
+  } else if (ancestry === 'african') {
+    recs.push('<strong>Lactose:</strong> High rates of lactose non-persistence. Prefer fermented or lactose-free options if intolerant. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3401057/" target="_blank">[4]</a>');
+    recs.push('<strong>Sodium / blood pressure:</strong> Higher average hypertension risk. Emphasize potassium-rich foods (leafy greens, beans, potatoes) and DASH-style patterns; limit processed salt.');
+  } else if (ancestry === 'pacific') {
+    recs.push('<strong>Body composition:</strong> Often higher lean mass / different fat distribution. Standard BMI may understate risk less than in Asian groups; focus on waist and metabolic markers.');
+  }
+
+  // Condition-based
+  if (conditions.includes('diabetes')) {
+    recs.push('<strong>Diabetes risk:</strong> Prioritize low-glycemic, high-fiber carbs (non-starchy vegetables, legumes, intact whole grains), adequate protein, and controlled portions. Asian and certain other ancestries show elevated risk at lower BMI—weight management and activity are key. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12690172/" target="_blank">[8]</a> <a href="https://www.thelancet.com/journals/landia/article/PIIS2213-8587(21)00088-7/fulltext" target="_blank">[3]</a>');
+  }
+  if (conditions.includes('hypertension')) {
+    recs.push('<strong>Blood pressure:</strong> DASH-style pattern: high in fruits, vegetables, low-fat dairy (if tolerated), nuts; limit sodium to <2,300 mg/day (lower if advised). <a href="https://www.nhlbi.nih.gov/education/dash/following-dash" target="_blank">[11]</a>');
+  }
+  if (conditions.includes('lactose')) {
+    recs.push('<strong>Lactose intolerance confirmed/risk:</strong> Use lactose-free products, hard cheeses, yogurt with live cultures, or plant milks fortified with calcium/vitamin D. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3401057/" target="_blank">[4]</a>');
+  }
+  if (conditions.includes('celiac')) {
+    recs.push('<strong>Celiac / gluten:</strong> Strict gluten-free diet. Focus on naturally gluten-free whole foods (rice, quinoa, potatoes, corn, legumes, fruits, vegetables, meats).');
+  }
+  if (conditions.includes('hemochromatosis')) {
+    recs.push('<strong>Hemochromatosis risk:</strong> Limit red meat and iron-fortified foods; avoid vitamin C with high-iron meals if advised; no iron supplements. Regular phlebotomy if diagnosed.');
+  }
+  if (conditions.includes('high_chol')) {
+    recs.push('<strong>Cholesterol:</strong> Emphasize soluble fiber (oats, beans, apples), plant sterols, nuts, fatty fish; limit saturated fat and trans fats. <a href="https://www.ncbi.nlm.nih.gov/books/NBK551722/" target="_blank">[12]</a> <a href="https://www.nccih.nih.gov/health/providers/digest/high-cholesterol-and-natural-products-science" target="_blank">[13]</a>');
+  }
+  if (conditions.includes('gout')) {
+    recs.push('<strong>Gout:</strong> Limit high-purine foods (organ meats, some seafood), alcohol (esp. beer), and fructose; stay hydrated; cherries and vitamin C may help. <a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/gout-diet/art-20048524" target="_blank">[14]</a> <a href="https://arthritis.org/diseases/more-about/gout-treatment-guidelines" target="_blank">[15]</a>');
+  }
+
+  if (recs.length === 0) {
+    recs.push('General pattern: emphasize whole foods, vegetables, lean proteins, healthy fats, and controlled portions. Individual response varies.');
+  }
+  return recs;
+}
+
+function generateBMIChart(ancestry, heightCm, sex) {
+  const eth = getEthnicityBMI(ancestry);
+  const heightIn = heightCm / 2.54;
+  let chart = `<h2>Ethnicity BMI Reference Chart</h2>`;
+  chart += `<p>Approximate healthy weight band for your height using ${ancestry.replace('_',' ')} cutoffs (BMI ${eth.normalLow}–${eth.normalHigh}). Colors follow standard under / normal / overweight / obese bands adjusted for the selected ancestry.</p>`;
+  
+  // Simple height-specific weight bands
+  const heights = [heightIn - 2, heightIn - 1, heightIn, heightIn + 1, heightIn + 2].map(h => Math.max(60, Math.round(h)));
+  chart += `<table style="border-collapse:collapse; font-size:0.85rem; width:100%; margin:8px 0;">`;
+  chart += `<tr style="background:#eee;"><th style="border:1px solid #ccc; padding:4px;">Height</th><th style="border:1px solid #ccc; padding:4px;">Under<br><${eth.under}</th><th style="border:1px solid #ccc; padding:4px;">Normal<br>${eth.normalLow}–${eth.normalHigh}</th><th style="border:1px solid #ccc; padding:4px;">Overweight<br>≥${eth.overweight}</th><th style="border:1px solid #ccc; padding:4px;">Obese<br>≥${eth.obese}</th></tr>`;
+  
+  heights.forEach(h => {
+    const hm = h * 2.54 / 100;
+    const under = (eth.under * hm * hm * 2.20462).toFixed(0);
+    const nLow = (eth.normalLow * hm * hm * 2.20462).toFixed(0);
+    const nHigh = (eth.normalHigh * hm * hm * 2.20462).toFixed(0);
+    const ow = (eth.overweight * hm * hm * 2.20462).toFixed(0);
+    const ob = (eth.obese * hm * hm * 2.20462).toFixed(0);
+    chart += `<tr><td style="border:1px solid #ccc; padding:4px;">${h}"</td>`;
+    chart += `<td style="border:1px solid #ccc; padding:4px; background:#cce5ff;"><${under} lb</td>`;
+    chart += `<td style="border:1px solid #ccc; padding:4px; background:#d4edda;">${nLow}–${nHigh} lb</td>`;
+    chart += `<td style="border:1px solid #ccc; padding:4px; background:#fff3cd;">${ow}+ lb</td>`;
+    chart += `<td style="border:1px solid #ccc; padding:4px; background:#f8d7da;">${ob}+ lb</td></tr>`;
+  });
+  chart += `</table>`;
+  
+  // Wrist frame reference for this height
+  chart += `<h3>Wrist Frame Reference (this height)</h3>`;
+  chart += `<p>Wrist circumference ranges that classify frame size for a ${heightIn.toFixed(0)}" ${sex}:</p>`;
+  const rSmall = sex === 'male' ? 10.4 : 11.0;
+  const rMed = sex === 'male' ? 9.6 : 10.1;
+  const wristSmall = (heightCm / rSmall / 2.54).toFixed(1);
+  const wristMed = (heightCm / rMed / 2.54).toFixed(1);
+  chart += `<ul>`;
+  chart += `<li>Small frame: wrist < ~${wristSmall}"</li>`;
+  chart += `<li>Medium frame: ~${wristSmall}" – ${wristMed}"</li>`;
+  chart += `<li>Large frame: wrist > ~${wristMed}"</li>`;
+  chart += `</ul>`;
+  chart += `<p style="font-size:0.8rem;">Chart uses ethnicity-specific BMI cutoffs. Frame size shifts the practical target within the normal band. Full grid charts for every wrist increment are not practical in a single view; use the calculator for precise personal numbers.</p>`;
+  return chart;
+}
+
+function calculate() {
+  const sex = document.getElementById('sex').value;
+  const height = parseFloat(document.getElementById('height').value);
+  const heightUnit = document.getElementById('heightUnit').value;
+  const weight = parseFloat(document.getElementById('weight').value);
+  const weightUnit = document.getElementById('weightUnit').value;
+  const wrist = parseFloat(document.getElementById('wrist').value);
+  const wristUnit = document.getElementById('wristUnit').value;
+  const elbowVal = document.getElementById('elbow').value;
+  const elbowUnit = document.getElementById('elbowUnit').value;
+  const ancestry = document.getElementById('ancestry').value;
+  const condEls = document.querySelectorAll('.cond:checked');
+  const conditions = Array.from(condEls).map(el => el.value);
+
+  if (!height || !weight || !wrist) {
+    alert('Please enter height, weight, and wrist.');
+    return;
+  }
+
+  const heightCm = toCm(height, heightUnit);
+  const weightKg = toKg(weight, weightUnit);
+  const wristCm = toCm(wrist, wristUnit);
+  const heightM = heightCm / 100;
+  const bmi = weightKg / (heightM * heightM);
+
+  const frame = getFrameFromWrist(heightCm, wristCm, sex);
+  let frameNote = `Wrist ratio method (height/wrist = ${frame.ratio}): ${frame.size} frame.`;
+  if (elbowVal) {
+    const elbowCm = toCm(parseFloat(elbowVal), elbowUnit);
+    frameNote += ` Elbow breadth entered: ${elbowCm.toFixed(1)} cm (optional confirmatory measure; wrist used as primary for calculation).`;
+  }
+
+  const eth = getEthnicityBMI(ancestry);
+  const frameAdj = frame.size === 'Small' ? 0.97 : frame.size === 'Large' ? 1.05 : 1.0;
+
+  // Ethnicity-adjusted BMI range (no aggressive frame discount on the floor)
+  const rangeLow = eth.normalLow * heightM * heightM;
+  const rangeHigh = eth.normalHigh * heightM * heightM;
+
+  // Frame adjustment applied mainly to the suggested target (and mildly to upper bound)
+  // Classic ±10% is for IBW-style targets, not the underweight floor
+  const targetBase = eth.targetMid * heightM * heightM;
+  const target = targetBase * frameAdj;
+  const adjustedHigh = rangeHigh * (frame.size === 'Large' ? 1.05 : frame.size === 'Small' ? 0.97 : 1.0);
+
+  // For Asian ancestry, present a tighter practical optimal band around the target
+  let displayLow = rangeLow;
+  let displayHigh = rangeHigh;
+  if (['east_asian', 'south_asian', 'se_asian', 'mixed_asian'].includes(ancestry)) {
+    displayLow = Math.max(rangeLow, (eth.targetMid - 0.5) * heightM * heightM);
+    displayHigh = Math.min(rangeHigh, (eth.targetMid + 0.3) * heightM * heightM);
+  }
+  const idealLow = displayLow;
+  const idealHigh = displayHigh;
+
+  // Clinically backed disease weighting (shifts target and tightens range)
+  // Evidence: weight loss of 5–10% improves glycemic control, BP, and lipids;
+  // Asian populations show diabetes risk at lower BMI; multiple metabolic risks compound.
+  let diseaseShiftKg = 0;
+  let rangeTighten = 1.0;
+  let diseaseNotes = [];
+  if (conditions.includes('diabetes')) {
+    diseaseShiftKg -= 0.35;
+    rangeTighten *= 0.95;
+    diseaseNotes.push('Diabetes risk: modest downward shift and tighter band (lower-normal BMI associated with lower incidence in Asian cohorts). <a href="https://www.thelancet.com/journals/landia/article/PIIS2213-8587(21)00088-7/fulltext" target="_blank">[3]</a>');
+  }
+  if (conditions.includes('hypertension')) {
+    diseaseShiftKg -= 0.25;
+    rangeTighten *= 0.97;
+    diseaseNotes.push('Hypertension risk: modest downward shift (weight reduction is a first-line BP intervention). <a href="https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356" target="_blank">[16]</a>');
+  }
+  if (conditions.includes('high_chol')) {
+    diseaseShiftKg -= 0.15;
+    rangeTighten *= 0.98;
+    diseaseNotes.push('High cholesterol risk: small downward shift (weight loss improves triglycerides and HDL). <a href="https://academic.oup.com/jcem/article/105/12/3695/5909285" target="_blank">[9]</a>');
+  }
+  if (conditions.includes('gout')) {
+    diseaseShiftKg -= 0.1;
+    diseaseNotes.push('Gout risk: small downward preference (weight loss reduces uric acid; avoid rapid loss). <a href="https://www.aafp.org/afp/2013/0915/p408.html" target="_blank">[10]</a>');
+  }
+  // Cap total shift so target stays above ethnicity floor
+  const minTarget = rangeLow * 0.98;
+  let adjustedTarget = Math.max(minTarget, target + diseaseShiftKg);
+  const mid = (idealLow + idealHigh) / 2;
+  const halfWidth = ((idealHigh - idealLow) / 2) * rangeTighten;
+  let adjLow = Math.max(rangeLow * 0.97, adjustedTarget - halfWidth);
+  let adjHigh = Math.min(rangeHigh, adjustedTarget + halfWidth);
+  if (adjHigh < adjLow) adjHigh = adjLow + 2;
+
+  const bmiCat = bmi < eth.under ? 'Underweight' :
+                 bmi < eth.normalHigh ? 'Normal / acceptable' :
+                 bmi < eth.overweight ? 'Normal upper / increased risk zone' :
+                 bmi < eth.obese ? 'Overweight / increased risk' : 'Obese / high risk';
+
+  const food = getFoodRecs(ancestry, conditions);
+
+  let html = `<h2>Results</h2>`;
+  html += `<div class="highlight"><strong>Current BMI:</strong> ${bmi.toFixed(1)} kg/m² — ${bmiCat}<br>`;
+  html += `<strong>Frame size:</strong> ${frame.size} (${frameNote}) <a href="https://medlineplus.gov/ency/imagepages/17182.htm" target="_blank">[2]</a></div>`;
+  html += `<p><strong>Ethnicity-adjusted healthy weight range</strong> (BMI ${eth.normalLow}–${eth.normalHigh}) <a href="https://pubmed.ncbi.nlm.nih.gov/14726171/" target="_blank">[1]</a>:<br>`;
+  html += `${idealLow.toFixed(1)} – ${idealHigh.toFixed(1)} kg (${(idealLow*2.20462).toFixed(1)} – ${(idealHigh*2.20462).toFixed(1)} lb)<br>`;
+  html += `<strong>Suggested target</strong> (midpoint ${eth.targetMid}, mild frame adjustment ${frame.size === 'Small' ? '−3%' : frame.size === 'Large' ? '+5%' : '0%'}): ${target.toFixed(1)} kg (${(target*2.20462).toFixed(1)} lb)</p>`;
+  if (diseaseNotes.length > 0) {
+    html += `<p><strong>Disease-weighted optimal range</strong> (clinically adjusted):<br>`;
+    html += `${adjLow.toFixed(1)} – ${adjHigh.toFixed(1)} kg (${(adjLow*2.20462).toFixed(1)} – ${(adjHigh*2.20462).toFixed(1)} lb)<br>`;
+    html += `<strong>Disease-weighted target:</strong> ${adjustedTarget.toFixed(1)} kg (${(adjustedTarget*2.20462).toFixed(1)} lb)</p>`;
+    html += `<ul>`;
+    diseaseNotes.forEach(n => html += `<li>${n}</li>`);
+    html += `</ul>`;
+    html += `<p><small>Shifts are modest and evidence-based (weight reduction improves metabolic markers; Asian diabetes risk rises at lower BMI <a href="https://www.thelancet.com/journals/landia/article/PIIS2213-8587(21)00088-7/fulltext" target="_blank">[3]</a>). Target is capped above the ethnicity floor. Not a substitute for clinical advice.</small></p>`;
+  }
+  html += `<p>${eth.note} <a href="https://pubmed.ncbi.nlm.nih.gov/14726171/" target="_blank">[1]</a><br><small>Frame adjustment is mild and based on conventional anthropometric practice <a href="https://medlineplus.gov/ency/imagepages/17182.htm" target="_blank">[2]</a>. Disease weighting (when selected) further tightens and modestly lowers the practical target for metabolic risks <a href="https://www.thelancet.com/journals/landia/article/PIIS2213-8587(21)00088-7/fulltext" target="_blank">[3]</a>.</small></p>`;
+
+  // Add ethnicity BMI chart reference
+  html += generateBMIChart(ancestry, heightCm, sex);
+
+  html += `<h2>Food & Nutrition Guidance</h2><ul>`;
+  food.forEach(r => html += `<li>${r}</li>`);
+  html += `</ul>`;
+
+  html += `<h2>References (live links)</h2>
+  <ol class="sources">
+  <li><a href="https://pubmed.ncbi.nlm.nih.gov/14726171/" target="_blank">WHO Expert Consultation. Appropriate body-mass index for Asian populations and its implications for policy and intervention strategies. Lancet. 2004;363(9403):157-163.</a> — Public-health action points 23 and 27.5 kg/m² for Asian populations; standard WHO cutoffs retained for international classification.</li>
+  <li><a href="https://medlineplus.gov/ency/imagepages/17182.htm" target="_blank">MedlinePlus / A.D.A.M. Calculating body frame size.</a> — Wrist circumference relative to height for small/medium/large frame classification. See also Frisancho AR. Elbow breadth as a measure of frame size. Am J Clin Nutr. 1983.</li>
+  <li><a href="https://www.thelancet.com/journals/landia/article/PIIS2213-8587(21)00088-7/fulltext" target="_blank">Caleyachetty et al. Ethnicity-specific BMI cutoffs for obesity based on type 2 diabetes risk in England. Lancet Diabetes Endocrinol. 2021.</a> — Equivalent diabetes risk at lower BMI in South Asian, Chinese, Black, and Arab populations vs White.</li>
+  <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3401057/" target="_blank">Mattar et al. Lactose intolerance: diagnosis, genetic, and clinical factors. Clin Exp Gastroenterol. 2012.</a> — Population differences in lactase persistence (high in Northern European, low in East Asian and many African groups).</li>
+  <li><a href="https://pubmed.ncbi.nlm.nih.gov/17828263/" target="_blank">Perry et al. Diet and the evolution of human amylase gene copy number variation. Nat Genet. 2007;39(10):1256-60.</a> — Higher AMY1 copy number in high-starch (agricultural) populations supports improved starch digestion.</li>
+  <li><a href="https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1638843/full" target="_blank">Precision nutrition across climates: dietary adaptations from South Asia to the Arctic. Front Nutr. 2025.</a> — FADS variants and plant-based omega-3 conversion; AMY1 and vegetarian adaptations in South Asian populations.</li>
+  <li><a href="https://pubmed.ncbi.nlm.nih.gov/2745916/" target="_blank">Novascone et al. Frame size estimation: a comparative analysis of methods based on height, wrist circumference, and elbow breadth. J Am Diet Assoc. 1989.</a> — Validation of wrist and elbow methods for frame size.</li>
+  <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12690172/" target="_blank">American Diabetes Association Professional Practice Committee. 8. Obesity and Weight Management for the Prevention and Treatment of Diabetes: Standards of Care in Diabetes–2026. Diabetes Care.</a> — Modest weight loss (5–7%) improves glycemia and other cardiovascular risk factors.</li>
+  <li><a href="https://academic.oup.com/jcem/article/105/12/3695/5909285" target="_blank">Hasan et al. Weight Loss and Serum Lipids in Overweight and Obese Adults: A Systematic Review and Meta-Analysis. J Clin Endocrinol Metab. 2020;105(12):3695–3706.</a> — Weight loss reduces triglycerides and raises HDL-C.</li>
+  <li><a href="https://www.aafp.org/afp/2013/0915/p408.html" target="_blank">ACR gout guidelines summary (AAFP). Patients with gout who are obese should participate in a weight-loss program; avoid rapid loss which can trigger flares.</a></li>
+  <li><a href="https://www.nhlbi.nih.gov/education/dash/following-dash" target="_blank">NHLBI. Following the DASH Eating Plan.</a> — Fruits, vegetables, low-fat dairy, nuts; sodium ≤2,300 mg/day (or 1,500 mg for greater effect).</li>
+  <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK551722/" target="_blank">Dietary Therapy for LDL Cholesterol Reduction. StatPearls / NCBI.</a> — Soluble fiber, plant sterols (~2 g/day), nuts, and reduced saturated fat lower LDL-C.</li>
+  <li><a href="https://www.nccih.nih.gov/health/providers/digest/high-cholesterol-and-natural-products-science" target="_blank">NCCIH. High Cholesterol and Natural Products: What the Science Says.</a> — Plant stanols/sterols modestly reduce LDL-C.</li>
+  <li><a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/gout-diet/art-20048524" target="_blank">Mayo Clinic. Gout diet: What’s allowed, what’s not.</a> — Limit organ meats, high-purine seafood, alcohol (esp. beer), and high-fructose foods; stay hydrated.</li>
+  <li><a href="https://arthritis.org/diseases/more-about/gout-treatment-guidelines" target="_blank">Arthritis Foundation. Gout Treatment Guidelines (ACR 2020).</a> — Conditional recommendations to limit alcohol, purines, and high-fructose corn syrup.</li>
+  <li><a href="https://medlineplus.gov/ency/imagepages/17182.htm" target="_blank">MedlinePlus. Calculating body frame size (wrist circumference relative to height).</a></li>
+  <li>Elbow breadth: Measure with a sliding caliper at the widest point of the elbow (epicondyles) with the arm flexed at 90°. See Frisancho AR. Elbow breadth as a measure of frame size for US males and females. Am J Clin Nutr. 1983; and NHANES anthropometric protocols.</li>
+  <li><a href="https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight" target="_blank">WHO. Obesity and overweight fact sheet.</a> — International BMI classification: underweight <18.5, normal 18.5–24.9, overweight 25–29.9, obese ≥30.</li>
+  <li><a href="https://pubmed.ncbi.nlm.nih.gov/1958153/" target="_blank">Yoshida A. Genetic polymorphisms of alcohol metabolizing enzymes related to alcohol sensitivity and alcoholic diseases. Alcohol Alcohol. 1994.</a> — ALDH2*2 variant common in East Asians causes acetaldehyde accumulation.</li>
+  </ol>
+  <p class="sources"><small>All links open in a new tab. Educational tool only; not medical advice.</small></p>`;
+
+  document.getElementById('results').innerHTML = html;
+  document.getElementById('results').style.display = 'block';
+}
+</script>
+</body>
+</html>
