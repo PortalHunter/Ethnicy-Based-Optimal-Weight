@@ -1,0 +1,7 @@
+{
+  "name": "ebow-tests",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test unit.test.mjs e2e.test.mjs" },
+  "devDependencies": { "puppeteer-core": "^24.0.0" }
+}
