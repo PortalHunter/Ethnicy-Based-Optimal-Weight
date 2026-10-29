@@ -245,6 +245,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     ['niddk_hemo_diet', 'NIDDK. Eating, Diet, & Nutrition for Hemochromatosis.', 'https://www.niddk.nih.gov/health-information/liver-disease/hemochromatosis/eating-diet-nutrition'],
     ['niddk_hemo_tx', 'NIDDK. Treatment of Hemochromatosis.', 'https://www.niddk.nih.gov/health-information/liver-disease/hemochromatosis/treatment'],
     ['niddk_celiac', 'NIDDK. Eating, Diet, & Nutrition for Celiac Disease.', 'https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition'],
+    ['deurenberg', 'Deurenberg P, Yap M, van Staveren WA. Body mass index and percent body fat: a meta analysis among different ethnic groups. Int J Obes Relat Metab Disord. 1998;22(12):1164-1171.', 'https://pubmed.ncbi.nlm.nih.gov/9877251/'],
     ['swinburn', 'Swinburn BA, Ley SJ, Carmichael HE, Plank LD. Body size and composition in Polynesians. Int J Obes Relat Metab Disord. 1999;23(11):1178-1183.', 'https://pubmed.ncbi.nlm.nih.gov/10578208/'],
     ['papier', 'Papier K, D\'Este C, Bain C, et al. Body mass index and type 2 diabetes in Thai adults: defining risk thresholds and population impacts. BMC Public Health. 2017;17(1):707.', 'https://pubmed.ncbi.nlm.nih.gov/28915801/'],
     ['odegaard', 'Odegaard AO, Koh WP, Vazquez G, et al. BMI and diabetes risk in Singaporean Chinese. Diabetes Care. 2009;32(6):1104-1106.', 'https://pubmed.ncbi.nlm.nih.gov/19324946/'],
@@ -266,7 +267,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     return keys.map(function (k) {
       var n = REF_INDEX[k];
       if (!n) throw new Error('Unknown reference key: ' + k);
-      return '<a href="' + REFS[n - 1][2] + '" target="_blank" rel="noopener noreferrer" title="' + REFS[n - 1][1].replace(/"/g, '&quot;') + '">[' + n + ']</a>';
+      return '<a class="cite" data-ref="' + k + '" href="' + REFS[n - 1][2] + '" target="_blank" rel="noopener noreferrer" title="' + REFS[n - 1][1].replace(/"/g, '&quot;') + '">[' + n + ']</a>';
     }).join(' ');
   }
 
@@ -309,15 +310,24 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
           (key === 'se_asian' ? ' Filipino-specific evidence is limited: in 332 rural Filipino adults, the BMI cut-offs that best matched cardiometabolic disease were 24 (men) and 23 (women), with waist 84 / 77 cm ' + cite('pagsisihan') + '; in 382 Filipino-American women aged 40-65, BMI, waist and waist-to-height predicted high blood pressure and diabetes about equally and only modestly, and Asian thresholds caught more cases but with many false positives ' + cite('battie') + '. Both are small cross-sectional studies; no Filipino-specific cut-offs are established.' : '');
       case 'african':
         return 'NICE recommends the lower thresholds (overweight 23-27.4, obesity 27.5+) for Black African and African-Caribbean backgrounds. ' + cite('nice') +
-          ' In an English cohort, the BMI with the same diabetes risk as BMI 30 in White adults was 28.1 for Black adults - lower than 30, though higher than the 23.9 found for South Asian adults. ' + cite('caley') +
-          ' This is UK guidance; the WHO 2004 consultation covered Asian populations only, and the WHO international cut-offs remain 25 / 30. Choose "Other / not listed" if you prefer the WHO international cut-offs.';
+          ' The evidence behind this includes an English cohort of about 1.5 million adults, in which the BMI with the same type 2 diabetes risk as BMI 30 in White adults was 28.1 for Black adults. ' + cite('caley') +
+          ' In the US, the ADA 2026 standards do not set lower BMI cut-offs for Black adults, so the standard 25 / 30 is used there. ' + cite('ada_obesity') +
+          ' Body composition also differs: a meta-analysis found that American Black adults had a BMI about 1.3 higher than White adults at the same body-fat level, so BMI can slightly overstate body fat. ' + cite('deurenberg') +
+          ' Choose "Other / not listed" if you prefer the WHO international cut-offs.';
       case 'middle_eastern':
         return 'NICE recommends the lower thresholds (overweight 23-27.4, obesity 27.5+) for Middle Eastern backgrounds. ' + cite('nice') +
-          ' In an English cohort, the BMI with the same diabetes risk as BMI 30 in White adults was 26.6 for Arab adults. ' + cite('caley');
+          ' In an English cohort of about 1.5 million adults, the BMI with the same type 2 diabetes risk as BMI 30 in White adults was 26.6 for Arab adults (a small group: about 2,800 people). ' + cite('caley') +
+          ' The ADA 2026 standards do not set lower cut-offs for Middle Eastern backgrounds. ' + cite('ada_obesity');
       case 'pacific':
-        return 'Standard WHO cut-offs are used. In one New Zealand study, Polynesian (Maori and Samoan) adults had more lean mass relative to fat than Europeans at higher BMI, so BMI may overstate body fat for some Pacific Islanders; the waist-to-height check is a useful cross-check. ' + cite('swinburn');
+        return 'Standard WHO cut-offs are used. At the same body-fat level, Polynesian adults had a BMI about 4.5 higher than White adults in a meta-analysis ' + cite('deurenberg') + ', and in a New Zealand study Polynesian (Maori and Samoan) adults had more lean mass relative to fat than Europeans ' + cite('swinburn') + ', so BMI may overstate body fat for some Pacific Islanders; the waist-to-height check is a useful cross-check.';
+      case 'hispanic':
+        return 'No major guideline (WHO, NICE, ADA 2026) sets separate BMI cut-offs for Hispanic / Latino adults, so the standard WHO cut-offs are used (healthy 18.5-24.9, overweight 25-29.9, obesity 30+). ' + cite(['who_fact', 'ada_obesity']);
+      case 'native_american':
+        return 'No major guideline (WHO, NICE, ADA 2026) sets separate BMI cut-offs for Native American / Indigenous American adults, so the standard WHO cut-offs are used (healthy 18.5-24.9, overweight 25-29.9, obesity 30+). ' + cite(['who_fact', 'ada_obesity']);
+      case 'european':
+        return 'Standard WHO international adult cut-offs: underweight below 18.5, healthy 18.5-24.9, overweight 25-29.9, obesity 30 or more. ' + cite('who_fact') + ' NICE uses these for White adults and for groups it does not assign lower thresholds. ' + cite('nice');
       default:
-        return 'Standard WHO international adult cut-offs: underweight below 18.5, healthy 18.5-24.9, overweight 25-29.9, obesity 30 or more. ' + cite('who_fact') + ' ' + cite('nice');
+        return 'Standard WHO international adult cut-offs: underweight below 18.5, healthy 18.5-24.9, overweight 25-29.9, obesity 30 or more. ' + cite('who_fact') + ' No ancestry-specific evidence is applied for this choice.';
     }
   }
 
@@ -614,8 +624,10 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
   // diabetes / prediabetes / family history is selected. Mortality evidence (lowest from about BMI 20
   // up to 25) argues against going lower than this, so nothing moves the floor.
   var BUFFER_START_LOWER_BMI = 22.0;
-  function bufferZone(grp, heightCm) {
-    var share = grp.share;
+  // The BMI 22 evidence is from Asian populations, so the zone uses the share of ADA-Asian backgrounds
+  // only (not Black African / Middle Eastern, which have lower cut-offs from NICE but no such evidence here).
+  function bufferZone(grp, heightCm, asianShare) {
+    var share = asianShare;
     if (!(share > 0)) return null;
     var start = round(GROUPS.standard.overweight + (BUFFER_START_LOWER_BMI - GROUPS.standard.overweight) * share, 1);
     var top = round(grp.group.overweight - 0.1, 1);
@@ -701,14 +713,14 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     var recs = [];
     var has = function (k) { return ancestryKeys.indexOf(k) >= 0; };
     var anyAsian = ['east_asian', 'south_asian', 'se_asian', 'mixed_asian'].some(has);
-    if (anyAsian || has('african')) recs.push('<strong>Lactose:</strong> lactase non-persistence (reduced ability to digest lactose as an adult) is common in many East Asian and African-descended populations. If dairy causes symptoms, lactose-free milk, hard cheese, yogurt, or calcium-fortified alternatives are options. ' + cite('mattar'));
+    if (anyAsian || has('african')) recs.push('<strong>Lactose:</strong> lactase non-persistence (reduced ability to digest lactose as an adult) is common in many ' + (anyAsian && has('african') ? 'East Asian and African-descended' : anyAsian ? 'East Asian' : 'African-descended') + ' populations. If dairy causes symptoms, lactose-free milk, hard cheese, yogurt, or calcium-fortified alternatives are options. ' + cite('mattar'));
     if (has('european')) recs.push('<strong>Lactose:</strong> lactase persistence is more common in Northern European populations, so many people of European ancestry digest dairy well - but not all. ' + cite('mattar'));
     if (has('european')) recs.push('<strong>Iron:</strong> about 1 in 15 people of Northern European ancestry carry at least one copy of the HFE C282Y variant linked to hereditary hemochromatosis. Avoid iron supplements unless a blood test shows you need them. ' + cite('niddk_hemo'));
     if (anyAsian) recs.push('<strong>Starch:</strong> people from populations with traditionally high-starch diets (such as agricultural societies) have, on average, more copies of the salivary amylase gene AMY1 than people from traditionally low-starch populations. This is a population average and does not tell an individual how much starch to eat. ' + cite('perry'));
     if (has('south_asian')) recs.push('<strong>Omega fatty acids:</strong> a FADS2 "insertion" variant linked to greater conversion of plant fatty acids into long-chain forms is very common in South Asians (about 70% carry two copies) and appears to reflect adaptation to plant-based diets. Its practical dietary meaning for an individual is not established; including omega-3 sources (fish, or flax/chia/walnuts/algae for vegetarians) is reasonable. ' + cite(['kothapalli', 'frontiers']));
     if (has('east_asian')) recs.push('<strong>Alcohol:</strong> about 36% of East Asians (Japanese, Chinese, Korean) have the alcohol "flushing" reaction, mainly caused by inherited ALDH2 deficiency. People who flush and drink regularly have a much higher risk of esophageal cancer, so flushing is a reason to limit or avoid alcohol. ' + cite(['brooks', 'yoshida']));
-    if (has('african')) recs.push('<strong>Blood pressure:</strong> in the US, high blood pressure is more common in non-Hispanic Black adults (59.6%) than in White, Hispanic or Asian adults (about 43-45%). The DASH pattern - vegetables, fruits, low-fat dairy, whole grains, nuts, less sodium - lowers blood pressure. ' + cite(['cdc_bp', 'dash']));
-    if (has('pacific')) recs.push('<strong>Body composition:</strong> BMI may overstate body fat in some Polynesian adults; waist-to-height ratio and blood tests (glucose, lipids) give a better picture of metabolic risk. ' + cite(['swinburn', 'nice']));
+    if (has('african')) recs.push('<strong>Blood pressure:</strong> in the US, high blood pressure is more common in non-Hispanic Black adults (59.6%) than in the other US groups reported (about 43-45%). The DASH pattern - vegetables, fruits, low-fat dairy, whole grains, nuts, less sodium - lowers blood pressure. ' + cite(['cdc_bp', 'dash']));
+    if (has('pacific')) recs.push('<strong>Body composition:</strong> BMI may overstate body fat in some Polynesian adults; waist-to-height ratio and blood tests (glucose, lipids) give a better picture of metabolic risk. ' + cite(['deurenberg', 'swinburn']));
 
     if (conditions.indexOf('diabetes') >= 0) recs.push('<strong>Type 2 diabetes risk:</strong> ADA recommends eating patterns that include non-starchy vegetables, whole fruits, legumes, lean proteins, whole grains, nuts and seeds, and low-fat dairy or alternatives, and that minimize red meat, sugar-sweetened drinks, sweets, refined grains and ultra-processed foods; choose high-fiber carbohydrate sources (at least 14 g fiber per 1,000 kcal). ' + cite('ada5'));
     if (conditions.indexOf('hypertension') >= 0) recs.push('<strong>Blood pressure:</strong> DASH eating plan - fruits, vegetables, whole grains, low-fat dairy, fish, poultry, beans, nuts; with a sodium limit of 2,300 mg or 1,500 mg per day. ' + cite(['dash', 'aha']));
@@ -743,7 +755,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     var band = healthyBand(v.heightCm, grp.group);
     var sug = suggestedRange(v.heightCm, v.sex, frames, grp.group);
     // Order: (1) ancestry band, (2) formulas with frame, (3) overlap = suggested, (4) diabetes buffer cap.
-    var zone = bufferZone(grp, v.heightCm);
+    var zone = bufferZone(grp, v.heightCm, adaAsianShare(cutoffAncestries));
     var buffered = v.conditions.indexOf('diabetes') >= 0 ? bufferedRange(sug, zone) : null;
     var altBands = null;
     if (grp.mixedGroups) altBands = { standard: healthyBand(v.heightCm, 'standard'), lower: healthyBand(v.heightCm, 'lower') };
@@ -755,6 +767,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
       waist: v.waistCm ? waistToHeight(v.waistCm, v.heightCm) : null,
       adaWaist: v.waistCm ? adaWaist(b, v.waistCm, v.heightCm, v.sex, adaAsianShare(cutoffAncestries)) : null,
       // NICE gives Black African / Middle Eastern backgrounds lower BMI cut-offs; ADA's lower criteria are for Asian backgrounds only.
+      asianShare: adaAsianShare(cutoffAncestries),
       niceAdaDiffer: cutoffAncestries.some(function (a) { return ANCESTRIES[a.key].group === 'lower' && !ANCESTRIES[a.key].adaAsian; }),
       conditionWeight: conditionWeightGuidance(v.conditions, v.weightKg, cls.index),
       food: foodRecs(v.ancestries.map(function (a) { return a.key; }), v.conditions)
@@ -853,8 +866,8 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
   function fmtLen(cm, unit) {
     return unit === 'lb' ? E.round(E.cmToIn(cm), 1) + ' in (' + E.round(cm, 1) + ' cm)' : E.round(cm, 1) + ' cm (' + E.round(E.cmToIn(cm), 1) + ' in)';
   }
-  function adaWaistLine(a, unit, sex) {
-    var h = '<strong>ADA 2026 overweight / obesity criteria, ' + (a.background === 'asian' ? 'Asian' : 'non-Asian') + ' background:</strong> ';
+  function adaWaistLine(a, unit, sex, both) {
+    var h = '<strong>ADA 2026 overweight / obesity criteria, ' + (a.background === 'asian' ? 'Asian' : (both ? 'non-Asian' : 'standard')) + ' background:</strong> ';
     if (a.zone === 'waist_band') h += 'your BMI ' + a.bmiShown.toFixed(1) + ' is in the ' + a.bmiLow + '-' + a.bmiBandTop + ' band where waist decides: <strong>' + a.category + '</strong> (' +
       (a.category === 'Obesity' ? (a.whtrHigh ? 'waist-to-height ' + a.whtr.toFixed(3) + ' is 0.5 or more' : '') + (a.whtrHigh && a.wcHigh ? ' and ' : '') + (a.wcHigh ? 'waist is at or above ' + fmtLen(a.wcThresholdCm, unit) : '') : 'waist-to-height under 0.5 and waist under ' + fmtLen(a.wcThresholdCm, unit)) + ').';
     else if (a.zone === 'above') h += 'your BMI ' + a.bmiShown.toFixed(1) + ' is ' + a.bmiObese + ' or more, which meets the obesity criterion by BMI alone; waist is shown for information.';
@@ -865,14 +878,12 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     var c = E.cite, cl = aw.classes, h = '<div id="adaWaist">';
     if (cl.length === 1) {
       var asian = cl[0].background === 'asian';
-      var who = r.cutoffMode === 'identify' ? 'the background you identify with is ' + (asian ? '' : 'not ') + 'an Asian background in ADA\u2019s sense' :
-        'your ancestry is ' + (asian ? '' : 'not ') + 'an Asian background in ADA\u2019s sense (Asia and the South Asian subcontinent)';
-      h += '<p>' + adaWaistLine(cl[0], unit, v.sex) + ' These thresholds are used because ' + who + '.';
+      h += '<p>' + adaWaistLine(cl[0], unit, v.sex) + (asian ? ' These thresholds are used because ' + (r.cutoffMode === 'identify' ? 'the background you identify with' : 'your ancestry') + ' is an Asian background in ADA\u2019s sense (Asia and the South Asian subcontinent).' : ' These are ADA\u2019s standard thresholds, which apply to your background.');
     } else {
       var pct = E.round(aw.asianShare * 100, 1);
       h += '<p>Your blend is ' + pct + '% Asian background (in ADA\u2019s sense) and ' + E.round(100 - pct, 1) + '% non-Asian. ADA gives criteria for one background, not for a blend, so ' +
-        (aw.differ ? '<strong>both are shown because they give different results</strong>; the ADA approach is to use the one for the background you identify with (choose it above).</p><ul><li>' + adaWaistLine(cl[0], unit, v.sex) + '</li><li>' + adaWaistLine(cl[1], unit, v.sex) + '</li></ul><p>' :
-          'both were checked and they agree:</p><ul><li>' + adaWaistLine(cl[0], unit, v.sex) + '</li><li>' + adaWaistLine(cl[1], unit, v.sex) + '</li></ul><p>');
+        (aw.differ ? '<strong>both are shown because they give different results</strong>; the ADA approach is to use the one for the background you identify with (choose it above).</p><ul><li>' + adaWaistLine(cl[0], unit, v.sex, true) + '</li><li>' + adaWaistLine(cl[1], unit, v.sex, true) + '</li></ul><p>' :
+          'both were checked and they agree:</p><ul><li>' + adaWaistLine(cl[0], unit, v.sex, true) + '</li><li>' + adaWaistLine(cl[1], unit, v.sex, true) + '</li></ul><p>');
     }
     return h + ' This is a classification note only; it does not change the suggested weight range. ' + c('ada_obesity') + '</p></div>';
   }
@@ -959,8 +970,9 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     if (r.noRange === 'pregnancy') {
       h += '<div class="highlight" id="pregNote"><strong>No weight range is shown during pregnancy or breastfeeding.</strong> The BMI cut-offs and ideal-weight formulas on this page are for adults who are not pregnant, and weight change in pregnancy and while breastfeeding is expected and healthy. How much gain is advised depends on your weight before pregnancy, so please ask your midwife, obstetrician or doctor for a target, and do not use this page to plan weight loss now. The food notes below may still be useful; check any diet change with your care team.</div>';
       h += '<h2>Food &amp; nutrition notes</h2><ul>' + r.food.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul>';
-      h += '<h2>References</h2><ol class="sources">' + E.REFS.map(function (x) { return '<li><a href="' + x[2] + '" target="_blank" rel="noopener noreferrer">' + esc(x[1]) + '</a></li>'; }).join('') + '</ol>';
+      h += '<h2>References</h2><ol class="sources" id="refList"></ol>';
       var po = $('results'); po.innerHTML = h; po.style.display = 'block';
+      updateRefs();
       return;
     }
     var g = r.group.group;
@@ -976,10 +988,11 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     }
     h += '</div>';
 
-    // Healthy band
+    // Healthy band. Asian-population evidence is cited only when an Asian background sets the cut-offs.
+    var asianCut = r.asianShare > 0;
     h += '<h3>1. Healthy weight range for your height</h3><p class="big">' + fmtRange(r.band.lowKg, r.band.highKg, unit) + '</p>';
     h += '<p>BMI ' + r.band.lowBmi + ' to ' + r.band.highBmi + ' (' + g.name + '). ' + (g.overweight < 25 ?
-      'The upper edge comes from a lower overweight cut-off (23 for groups NICE and WHO 2004 treat as higher risk' + (g.overweight > 23 ? ', blended to ' + g.overweight + ' for your mix' : '') + '). That cut-off is a screening / public-health action point, where the risk of type 2 diabetes and heart disease is already raised for many people ' + c(['who_asian', 'nice']) + '; it is not the BMI of lowest risk. In large cohorts, death rates were lowest at a higher BMI: about 22.6 to 27.5 in East Asian adults ' + c('zheng') + ' and 20 to 25 in pooled studies from four continents ' + c('gbmc') + '. So treat this range as a cautious target for diabetes and heart risk, not a longevity optimum.' :
+      'The upper edge comes from a lower overweight cut-off (23 for groups ' + (asianCut ? 'NICE and WHO 2004' : 'NICE') + ' treat as higher risk' + (g.overweight > 23 ? ', blended to ' + g.overweight + ' for your mix' : '') + '). That cut-off is a screening / public-health action point, where the risk of type 2 diabetes and heart disease is already raised for many people ' + c(asianCut ? ['who_asian', 'nice'] : ['nice', 'caley']) + '; it is not the BMI of lowest risk. In large cohorts, death rates were lowest at a higher BMI: ' + (asianCut ? 'about 22.6 to 27.5 in East Asian adults ' + c('zheng') + ' and ' : '') + '20 to 25 in pooled studies from four continents ' + c('gbmc') + '. So treat this range as a cautious target for diabetes and heart risk, not a longevity optimum.' :
       'The upper edge is the WHO international overweight cut-off of 25 ' + c('who_fact') + '. In pooled studies from four continents, death rates were lowest from about BMI 20 to 25 ' + c('gbmc') + '.') +
       ' This is the best-supported number on this page.</p>';
     if (r.cutoffMode === 'identify') {
@@ -987,7 +1000,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     } else if (r.group.mixedGroups) {
       h += '<p><small id="cutoffNote">Your ancestry mix is ' + r.group.lowerShare + '% in groups with lower cut-offs, so the overweight cut-off is weighted to BMI ' + g.overweight + ' and the obesity cut-off to ' + g.obese + ' (a straight percentage blend of 25/30 and 23/27.5; this blending is the calculator\u2019s own method, not guideline-based; you can instead choose the background you identify with, the ADA approach ' + c('ada_obesity') + '). For comparison: standard cut-offs give ' + fmtRange(r.altBands.standard.lowKg, r.altBands.standard.highKg, unit) + '; lower cut-offs give ' + fmtRange(r.altBands.lower.lowKg, r.altBands.lower.highKg, unit) + '.</small></p>';
     }
-    if (r.niceAdaDiffer) h += '<p><small id="niceAdaNote"><strong>Why the groupings differ:</strong> NICE (UK) gives the lower BMI cut-offs to Black African, African-Caribbean and Middle Eastern backgrounds as well as Asian ones ' + c('nice') + ', and this page follows NICE for the ranges. The ADA 2026 obesity criteria give lower BMI and waist thresholds only to Asian backgrounds (Asia and the South Asian subcontinent) ' + c('ada_obesity') + ', so the ADA waist check uses its standard (non-Asian) thresholds for you. The two can label the same BMI differently: BMI 24 is overweight under NICE\u2019s lower cut-offs but below ADA\u2019s standard overweight range (25 or more).</small></p>';
+    if (r.niceAdaDiffer) h += '<p><small id="niceAdaNote"><strong>Why the groupings differ:</strong> NICE (UK) gives the lower BMI cut-offs to Black African, African-Caribbean and Middle Eastern backgrounds ' + c('nice') + ', and this page follows NICE for the ranges. The ADA 2026 obesity criteria do not give lower BMI and waist thresholds to these backgrounds ' + c('ada_obesity') + ', so the ADA waist check uses its standard thresholds for you. The two can label the same BMI differently: BMI 24 is overweight under NICE\u2019s lower cut-offs but below ADA\u2019s standard overweight range (25 or more).</small></p>';
     var notes = {};
     v.ancestries.forEach(function (a) { notes[a.key] = true; });
     h += '<ul class="notes">' + Object.keys(notes).map(function (k) { return '<li><strong>' + esc(E.ANCESTRIES[k].label) + (v.ancestries.length > 1 ? ' (' + v.ancestries.filter(function (a) { return a.key === k; })[0].pct + '%)' : '') + ':</strong> ' + E.ancestryNote(k) + '</li>'; }).join('') + '</ul>';
@@ -996,8 +1009,8 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     var z = r.bufferZone;
     if (z) {
       var you = E.round(r.bmi, 1);
-      h += '<p><strong>Buffer zone near the cut-off:</strong> BMI ' + z.startBmi.toFixed(1) + ' to ' + z.topBmi.toFixed(1) + ' (' + fmtRange(z.startKg, z.topKg, unit) + '). This is still within the healthy range, but in Asian populations diabetes risk keeps rising across the healthy range rather than starting at the cut-off. WHO found the BMI at which risk appears varies from 22 to 25 across Asian populations, and a Southeast Asian (Thai) cohort concluded a cut-point of 22 is justified for diabetes risk. ' + c(['who_asian', 'papier', 'odegaard', 'apcsc']) +
-        (r.group.mixedGroups ? ' For your mix the zone start is blended the same way as the cut-offs (22 for lower-cut-off groups; no zone for standard groups).' : '') +
+      h += '<p><strong>Buffer zone near the cut-off:</strong> BMI ' + z.startBmi.toFixed(1) + ' to ' + z.topBmi.toFixed(1) + ' (' + fmtRange(z.startKg, z.topKg, unit) + '). This applies to Asian backgrounds only, because its evidence comes from Asian populations. It is still within the healthy range, but in Asian populations diabetes risk keeps rising across the healthy range rather than starting at the cut-off. WHO found the BMI at which risk appears varies from 22 to 25 across Asian populations, and a Southeast Asian (Thai) cohort concluded a cut-point of 22 is justified for diabetes risk. ' + c(['who_asian', 'papier', 'odegaard', 'apcsc']) +
+        (r.group.mixedGroups ? ' For your mix the zone start is blended by your Asian-background share (22 for Asian backgrounds; no zone for other backgrounds).' : '') +
         (you >= z.startBmi && you <= z.topBmi ? ' <strong>Your BMI (' + you.toFixed(1) + ') is in this zone.</strong>' : '') + '</p>';
     }
 
@@ -1027,7 +1040,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     if (bf) {
       h += '<p><strong>With type 2 diabetes / prediabetes / family history selected:</strong> <span class="big" id="bufRange">' + (bf.method === 'at_cap' ? fmtEdge(bf.highKg, 'ceiling', v.heightCm, unit) : fmtRange(bf.lowKg, bf.highKg, unit)) + '</span><br><small>' +
         (bf.method === 'capped' ? 'The range above with its top kept below the buffer zone (BMI ' + bf.capBmi.toFixed(1) + ' or less).' : 'All the formula results fall inside or above the buffer zone, so the result is a ceiling: the weight just below the zone (BMI ' + bf.capBmi.toFixed(1) + '). Any weight in the healthy range up to it fits; it is not a precise target. Using that edge means a larger frame never gets a lower suggestion than a smaller one; this is the calculator\u2019s own method.') +
-        ' Why: among middle-aged adults at a healthy BMI, diabetes was about 5 to 8 times as common in Filipino and South Asian Americans as in White Americans ' + c('vicks') + ', and in a trial of people with type 2 diabetes and BMI under 27, 70% reached remission after a median 6.5% weight loss (average BMI fell from 24.8 to 22.5 over 12 months) ' + c('retune') + '. The 18.5 floor is unchanged and nothing is pushed lower: in pooled studies death rates were lowest from BMI 20 to 25 and rose below 20 ' + c('gbmc') + ', and in East Asian cohorts they were lowest from 22.6 to 27.5 ' + c('zheng') + ', so this cap is about diabetes risk, not a longer life.</small></p>';
+        ' Why: in a US study comparing Asian ethnic groups, among middle-aged adults at a healthy BMI diabetes was about 5 to 8 times as common in Filipino and South Asian Americans as in White Americans ' + c('vicks') + ', and in a trial of people with type 2 diabetes and BMI under 27, 70% reached remission after a median 6.5% weight loss (average BMI fell from 24.8 to 22.5 over 12 months) ' + c('retune') + '. The 18.5 floor is unchanged and nothing is pushed lower: in pooled studies death rates were lowest from BMI 20 to 25 and rose below 20 ' + c('gbmc') + ', and in East Asian cohorts they were lowest from 22.6 to 27.5 ' + c('zheng') + ', so this cap is about diabetes risk, not a longer life.</small></p>';
     }
     h += '<p><small><strong>Method note:</strong> combining the formulas with the ancestry range is this calculator\u2019s own approach, not a published clinical standard. Treat it as a reasonable place to aim within the healthy range, not a precise target.</small></p>';
 
@@ -1061,12 +1074,27 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     h += '<h2>Food &amp; nutrition notes</h2><ul>' + r.food.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul>';
     h += '<p><small>Ancestry notes describe population averages and gene frequencies. They do not tell you your own genes; a test or your own experience (e.g., with dairy or alcohol) is a better guide.</small></p>';
 
-    h += '<h2>References</h2><ol class="sources">' + E.REFS.map(function (x) { return '<li><a href="' + x[2] + '" target="_blank" rel="noopener noreferrer">' + esc(x[1]) + '</a></li>'; }).join('') + '</ol>';
+    h += '<h2>References</h2><ol class="sources" id="refList"></ol>';
 
     var out = $('results');
     out.innerHTML = h; out.style.display = 'block';
     $('chartAncestry').addEventListener('change', drawChart);
     drawChart();
+  }
+
+  // Number citations by first appearance and list only the sources cited in what is on screen.
+  function updateRefs() {
+    var list = $('refList');
+    if (!list) return;
+    var links = $('results').querySelectorAll('a.cite'), order = [], num = {};
+    for (var i = 0; i < links.length; i++) {
+      var k = links[i].getAttribute('data-ref');
+      if (!num[k]) { order.push(k); num[k] = order.length; }
+      links[i].textContent = '[' + num[k] + ']';
+    }
+    var byKey = {};
+    E.REFS.forEach(function (x) { byKey[x[0]] = x; });
+    list.innerHTML = order.map(function (k) { var x = byKey[k]; return '<li data-ref="' + k + '"><a href="' + x[2] + '" target="_blank" rel="noopener noreferrer">' + esc(x[1]) + '</a></li>'; }).join('');
   }
 
   function heightTable(heightCm, g, unit) {
@@ -1134,7 +1162,8 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
       tbl += '<tr' + (me ? ' class="me"' : '') + '><td>' + d.wristIn.toFixed(1) + '\u2033 (' + d.wristCm.toFixed(1) + ' cm)</td><td>' + d.frame + '</td><td>' + fmtRange(d.lowKg, d.highKg, unit) + '</td><td>' + d.lowBmi.toFixed(1) + '-' + d.highBmi.toFixed(1) + '</td></tr>';
     });
     tbl += '</table></details>';
-    $('chartBox').innerHTML = svg + '<p><small>Colour bands: under / healthy / ' + g.labels[2].toLowerCase() + ' / ' + g.labels[3].toLowerCase() + ' for ' + esc(gLabel) + ' (' + g.name + '). Dark band: frame-adjusted suggested range from section 2 (wrist method only). Frame lines use the Grant height/wrist cut-offs for your height and sex. ' + E.cite(['grant', 'nice', 'who_asian']) + '</small></p>' + tbl;
+    $('chartBox').innerHTML = svg + '<p><small>Colour bands: under / healthy / ' + g.labels[2].toLowerCase() + ' / ' + g.labels[3].toLowerCase() + ' for ' + esc(gLabel) + ' (' + g.name + '). Dark band: frame-adjusted suggested range from section 2 (wrist method only). Frame lines use the Grant height/wrist cut-offs for your height and sex. ' + E.cite(['grant'].concat(g.overweight >= 25 ? ['who_fact'] : (anc === '__mine' ? lastResult.asianShare > 0 : E.ANCESTRIES[anc].adaAsian) ? ['nice', 'who_asian'] : ['nice'])) + '</small></p>' + tbl;
+    updateRefs();
   }
 
   function init() {

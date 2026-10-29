@@ -596,3 +596,39 @@ test('frame monotonicity also holds with identify-with cut-offs', () => {
   }
   assert.deepEqual(bad, []);
 });
+
+const ASIAN_TEXT = /Asian|Asia\b|WPRO|Western Pacific|Filipino|Thai|Chinese/;
+test('ancestry notes: each background gets its own evidence and no other group\u2019s', () => {
+  const asian = ['east_asian', 'south_asian', 'se_asian', 'mixed_asian'];
+  for (const k of Object.keys(E.ANCESTRIES)) {
+    const n = E.ancestryNote(k);
+    if (asian.includes(k)) assert.match(n, /Asian/, k);
+    else assert.doesNotMatch(n, ASIAN_TEXT, k + ' note mentions Asian evidence');
+  }
+  const af = E.ancestryNote('african');
+  assert.match(af, /NICE/); assert.match(af, /28\.1/); assert.match(af, /ADA 2026/); assert.match(af, /1\.3/);
+  assert.doesNotMatch(af, /23\.9|26\.6|Arab|Polynesian/);
+  const me = E.ancestryNote('middle_eastern');
+  assert.match(me, /NICE/); assert.match(me, /26\.6/); assert.doesNotMatch(me, /28\.1|Black|Polynesian/);
+  assert.match(E.ancestryNote('pacific'), /4\.5/);
+  assert.match(E.ancestryNote('hispanic'), /No major guideline.*Hispanic/);
+  assert.match(E.ancestryNote('native_american'), /No major guideline.*Native American/);
+  assert.match(E.ancestryNote('european'), /WHO/);
+  assert.match(E.ancestryNote('se_asian'), /Filipino/);
+  assert.doesNotMatch(E.ancestryNote('east_asian'), /Filipino/);
+  assert.ok(E.REFS.some((r) => r[0] === 'deurenberg' && /9877251/.test(r[2])));
+});
+
+test('buffer zone and diabetes cap are Asian-only (the BMI 22 evidence is from Asian populations)', () => {
+  for (const anc of ['african', 'middle_eastern']) {
+    const r = calc({ ancestry: anc, conditions: ['diabetes'] });
+    assert.equal(r.bufferZone, null, anc);
+    assert.equal(r.group.group.overweight, 23, anc + ' still gets NICE lower cut-offs');
+    const plain = calc({ ancestry: anc });
+    assert.equal(JSON.stringify(r.suggested), JSON.stringify(plain.suggested), anc + ' diabetes does not cap');
+  }
+  assert.ok(calc({ ancestry: 'south_asian', conditions: ['diabetes'] }).bufferZone, 'Asian keeps the zone');
+  const bl = calc({ ancestryMode: 'mixed', cutoffMode: 'blend', makeup: [{ ancestry: 'african', pct: '50' }, { ancestry: 'east_asian', pct: '50' }, { ancestry: '', pct: '' }] });
+  // Asian share 50% -> start 23.5, above the blended cap of 22.9, so no zone (it was 22 when the Black half counted)
+  assert.equal(bl.bufferZone, null, 'zone start blended by the Asian share only');
+});

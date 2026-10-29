@@ -312,7 +312,7 @@ test('mixed ancestry in the browser: identify-with (ADA) by default with the lar
     await setPct(1, '60'); await setPct(2, '40');
     assert.equal(await page.$eval('#identifyWith', (e) => e.value), 'european');
     assert.equal(await page.$('#bufRange'), null);
-    assert.match(await page.$eval('#adaWaist', (e) => e.textContent), /non-Asian background:.*below 25/);
+    assert.match(await page.$eval('#adaWaist', (e) => e.textContent), /standard background:.*below 25/);
     await setPct(1, '50'); await setPct(2, '50');
     txt = await resultsText(page);
     assert.ok(!/NaN|undefined/.test(txt));
@@ -354,7 +354,7 @@ test('age rules, pregnancy and the NICE vs ADA note in the browser', { skip: !CH
     await setAge(page, '70');
     let txt = await resultsText(page);
     assert.match(txt, /65 or over: BMI is less accurate in older adults/);
-    assert.match(await page.$eval('#niceAdaNote', (e) => e.textContent), /NICE.*Black African.*Middle Eastern.*ADA 2026.*only to Asian backgrounds/);
+    assert.match(await page.$eval('#niceAdaNote', (e) => e.textContent), /NICE.*Black African.*Middle Eastern.*ADA 2026.*do not give lower BMI and waist thresholds to these backgrounds/);
     await setAge(page, '30');
     assert.doesNotMatch(await resultsText(page), /65 or over/);
     // pregnancy: only offered to females; no range, an explanation instead
@@ -373,4 +373,75 @@ test('age rules, pregnancy and the NICE vs ADA note in the browser', { skip: !CH
     assert.equal(await page.$('#niceAdaNote'), null);
     assert.deepEqual(problems, []);
   } finally { await browser.close(); }
+});
+
+test('notes and references are pertinent to the backgrounds entered', { skip: !CHROME && 'no Chrome' }, async () => {
+  const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--no-sandbox'] });
+  const problems = [];
+  const ASIAN = /Asian|Asia\b|WPRO|Western Pacific|Filipino|Thai|Chinese/;
+  const ASIAN_REFS = ['who_asian', 'zheng', 'wpro', 'pagsisihan', 'vicks', 'papier', 'odegaard', 'apcsc'];
+  const checkRefs = (page) => page.evaluate(() => {
+    const cited = []; document.querySelectorAll('#results a.cite').forEach((a) => { const k = a.dataset.ref; if (!cited.includes(k)) cited.push(k); });
+    const listed = [...document.querySelectorAll('#refList li')].map((l) => l.dataset.ref);
+    const nums = [...document.querySelectorAll('#results a.cite')].map((a) => [a.dataset.ref, +a.textContent.replace(/\D/g, '')]);
+    return { cited, listed, numsOk: nums.every(([k, n]) => listed[n - 1] === k) };
+  });
+  const run = async (setup) => {
+    const page = await freshPage(browser, problems);
+    await page.select('#sex', 'male');
+    await page.type('#height', '69'); await page.type('#weight', '170'); await page.type('#wrist', '7'); await page.type('#waist', '34');
+    await page.click('.cond[value="diabetes"]');
+    await setup(page);
+    await page.click('#calcBtn');
+    // visible output text, without the chart's population drop-down (its option labels list every background)
+    const txt = await page.$eval('#results', (el) => { const c = el.cloneNode(true); c.querySelectorAll('select').forEach((s) => s.remove()); document.body.appendChild(c); const t = c.innerText; c.remove(); return t; });
+    const refs = await checkRefs(page);
+    assert.match(txt, /Current BMI/);
+    assert.equal(refs.cited.join(), refs.listed.join(), 'reference list = sources cited on screen, in order');
+    assert.ok(refs.numsOk, 'every citation number points at its own list entry');
+    // the chart selector redraws its caption; the list must follow
+    return { page, txt, refs };
+  };
+  try {
+    for (const anc of ['european', 'african', 'middle_eastern', 'hispanic', 'pacific', 'native_american', 'other']) {
+      const { page, txt, refs } = await run((p) => p.select('#ancestry', anc));
+      assert.doesNotMatch(txt, ASIAN, anc + ' sees Asian text: ' + (txt.match(new RegExp('.{0,80}(' + ASIAN.source + ').{0,80}')) || [''])[0]);
+      assert.ok(!refs.cited.some((k) => ASIAN_REFS.includes(k)), anc + ' cites Asian sources: ' + refs.cited);
+      assert.doesNotMatch(txt, /Buffer zone/, anc);
+      if (anc === 'african') { assert.match(txt, /Black African and African-Caribbean/); assert.match(txt, /28\.1/); assert.doesNotMatch(txt, /Arab|Polynesian/); }
+      if (anc === 'middle_eastern') { assert.match(txt, /26\.6 for Arab/); assert.doesNotMatch(txt, /28\.1|Polynesian/); }
+      if (anc === 'european') assert.doesNotMatch(txt, /\bBlack\b|Arab|Polynesian|Hispanic/);
+      await page.select('#chartAncestry', 'south_asian');           // user asks for the Asian chart: its source then appears and is listed
+      const r2 = await checkRefs(page);
+      assert.equal(r2.cited.join(), r2.listed.join()); assert.ok(r2.cited.includes('who_asian'));
+      await page.close();
+    }
+    for (const anc of ['south_asian', 'se_asian']) {
+      const { page, txt, refs } = await run((p) => p.select('#ancestry', anc));
+      assert.match(txt, /Buffer zone/); assert.ok(refs.cited.includes('who_asian'));
+      assert.doesNotMatch(txt, /28\.1|Arab|Polynesian|Black African/);
+      if (anc === 'south_asian') assert.doesNotMatch(txt, /Filipino-specific/); else assert.match(txt, /Filipino-specific/);  // the Vicks study line names both groups
+      await page.close();
+    }
+    // mixed: only the entered groups
+    const mixed = (a, b, mode) => run(async (p) => {
+      await p.click('input[name="ancestryMode"][value="mixed"]');
+      if (mode) await p.click('input[name="cutoffMode"][value="' + mode + '"]');
+      await p.select('#mixAnc1', a); await p.type('#mixPct1', '50');
+      await p.select('#mixAnc2', b); await p.type('#mixPct2', '50');
+    });
+    for (const mode of [null, 'blend']) {
+      let { page, txt } = await mixed('african', 'european', mode);
+      assert.doesNotMatch(txt, ASIAN, 'Black + European ' + mode); assert.match(txt, /28\.1/); assert.doesNotMatch(txt, /Arab|Polynesian/);
+      await page.close();
+      ({ page, txt } = await mixed('east_asian', 'european', mode));
+      assert.match(txt, /East Asian/); assert.doesNotMatch(txt, /28\.1|Arab|Polynesian|Filipino-specific|Black African/);
+      await page.close();
+    }
+    // Black identifying, with some Asian ancestry: Asian note shows for the entered background, but the cut-off explanation is NICE/Black
+    const { page, txt } = await mixed('african', 'south_asian', null);
+    assert.match(txt, /28\.1/); assert.match(txt, /South Asian/); assert.doesNotMatch(txt, /Buffer zone/);
+    await page.close();
+  } finally { await browser.close(); }
+  assert.deepEqual(problems, []);
 });
