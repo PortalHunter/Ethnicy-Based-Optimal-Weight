@@ -247,6 +247,15 @@ test("Brian's case in the browser: buffer zone shown; diabetes caps the range be
   txt = await resultsText(page);
   assert.match(txt, /diabetes-buffered range from section 2/);
   assert.ok(!/NaN|undefined/.test(txt));
+  // Large frame at the same height: the cap edge itself, never lower than the small frame's range
+  await page.$eval('#wrist', (e) => { e.value = ''; }); await page.type('#wrist', '7.5');
+  await new Promise((r) => setTimeout(r, 100));
+  if (!(await page.$('#bufRange'))) await page.click('#calcBtn');
+  assert.equal(await page.$eval('#bufRange', (e) => e.textContent), 'about 148 lb (67.5 kg)');
+  assert.match(await page.$eval('#condRange', (e) => e.textContent), /^about 148 lb \(67\.0 kg\)$/);  // cap 67.27 kg - 0.35 kg = 66.92 kg = 147.5 lb
+  txt = await resultsText(page);
+  assert.match(txt, /edge just below the zone \(BMI 21\.9\) is shown.*calculator\u2019s own method/);
+  assert.ok(!/NaN|undefined/.test(txt));
   // European: no zone, no cap
   await page.select('#ancestry', 'european');
   await new Promise((r) => setTimeout(r, 100));
@@ -254,4 +263,53 @@ test("Brian's case in the browser: buffer zone shown; diabetes caps the range be
   assert.doesNotMatch(txt, /Buffer zone/); assert.equal(await page.$('#bufRange'), null);
   await browser.close();
   assert.deepEqual(problems, []);
+});
+
+test('mixed ancestry in the browser: blend by default, identify-with (ADA) switches every cut-off; waist note', { skip: !CHROME && 'no Chrome' }, async () => {
+  const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--no-sandbox'] });
+  const problems = [];
+  try {
+    const page = await freshPage(browser, problems);
+    await page.select('#sex', 'male');
+    await page.type('#height', '69'); await page.type('#weight', '160'); await page.type('#wrist', '6.5'); await page.type('#waist', '34.5');
+    await page.click('input[name="ancestryMode"][value="mixed"]');
+    await page.select('#mixAnc1', 'se_asian'); await page.type('#mixPct1', '50');
+    await page.select('#mixAnc2', 'european'); await page.type('#mixPct2', '50');
+    await page.click('.cond[value="diabetes"]');
+    assert.equal(await page.$eval('#identifyWith', (e) => e.disabled), true, 'select disabled under blend');
+    await page.click('#calcBtn');
+    let txt = await resultsText(page);
+    assert.match(await page.$eval('#cutoffNote', (e) => e.textContent), /calculator\u2019s own method, not guideline-based/);
+    assert.equal(await page.$('#bufRange'), null, 'blend: no cap for 50/50');
+    assert.match(await page.$eval('#adaWaist', (e) => e.textContent), /Asian background.*BMI 23\.6.*Obesity.*waist-to-height 0\.500 is 0\.5 or more.*a waist of 34\.5 in.*50% the calculator uses/);
+    // identify-with, nothing chosen yet -> clear error, no stale results
+    await page.click('input[name="cutoffMode"][value="identify"]');
+    await new Promise((r) => setTimeout(r, 100));
+    assert.equal(await page.$eval('#identifyWith', (e) => e.disabled), false);
+    assert.deepEqual(await page.$$eval('#identifyWith option', (os) => os.map((o) => o.value)), ['', 'se_asian', 'european']);
+    assert.match(await page.$eval('#errors', (e) => e.innerText), /identify with/);
+    assert.equal(await resultsText(page), '');
+    await page.select('#identifyWith', 'se_asian');
+    await new Promise((r) => setTimeout(r, 100));
+    assert.equal(await page.$eval('#bufRange', (e) => e.textContent), '144-148 lb (65.5-67.5 kg)');
+    assert.match(await page.$eval('#condRange', (e) => e.textContent), /^143-147 lb/);
+    assert.match(await page.$eval('#cutoffNote', (e) => e.textContent), /Southeast Asian.*background you identify with.*ADA 2026/);
+    await page.select('#identifyWith', 'european');
+    await new Promise((r) => setTimeout(r, 100));
+    assert.equal(await page.$('#bufRange'), null);
+    assert.match(await page.$eval('#adaWaist', (e) => e.textContent), /non-Asian background.*below 25/);
+    txt = await resultsText(page);
+    assert.ok(!/NaN|undefined/.test(txt));
+    // back to the blend
+    await page.click('input[name="cutoffMode"][value="blend"]');
+    await new Promise((r) => setTimeout(r, 100));
+    assert.equal(await page.$('#bufRange'), null);
+    assert.match(await page.$eval('#cutoffNote', (e) => e.textContent), /50% in groups with lower cut-offs/);
+    // absurd waist -> error box, results cleared
+    await page.$eval('#waist', (e) => { e.value = ''; }); await page.type('#waist', '5');
+    await new Promise((r) => setTimeout(r, 100));
+    assert.match(await page.$eval('#errors', (e) => e.innerText), /Waist/);
+    assert.equal(await resultsText(page), '');
+    assert.deepEqual(problems, []);
+  } finally { await browser.close(); }
 });

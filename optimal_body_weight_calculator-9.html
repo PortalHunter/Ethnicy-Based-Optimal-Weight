@@ -118,6 +118,12 @@ details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
 <div class="row" style="margin-top:6px"><div><select id="mixAnc2" aria-label="Ancestry 2"></select></div><div><input type="text" inputmode="decimal" id="mixPct2" placeholder="%" aria-label="Percent for ancestry 2"></div></div>
 <div class="row" style="margin-top:6px"><div><select id="mixAnc3" aria-label="Ancestry 3"></select></div><div><input type="text" inputmode="decimal" id="mixPct3" placeholder="%" aria-label="Percent for ancestry 3"></div></div>
 <div id="mixTotal" class="hint"></div>
+<fieldset id="cutoffBox" style="margin-top:8px;border:0;padding:0">
+<legend>Which BMI and waist cut-offs to use</legend>
+<label class="inline"><input type="radio" name="cutoffMode" value="blend" checked> Blend by percentage (default; the calculator's own method, not guideline-based)</label><br>
+<label class="inline"><input type="radio" name="cutoffMode" value="identify"> Use cut-offs for the background I identify with (the ADA 2026 approach)</label>
+<select id="identifyWith" aria-label="Background you identify with"><option value="">-- choose --</option></select>
+</fieldset>
 </div>
 </div>
 
@@ -162,15 +168,16 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
 <li><strong>Healthy range:</strong> BMI 18.5 up to the population's overweight cut-off (25 under WHO international cut-offs; 23 for groups NICE and WHO 2004 assign lower thresholds). The upper edge shown is 0.1 below the cut-off.</li>
 <li><strong>Frame size:</strong> wrist uses the height/wrist ratio cut-offs (Grant 1980, cited via secondary sources); elbow uses the 1983 Metropolitan Life table (heights in 1-inch heels). When the two disagree, both frames are kept and the range widens.</li>
 <li><strong>Suggested range:</strong> the overlap between the four classic ideal-body-weight formulas (Hamwi with &plusmn;10% for frame, Devine, Robinson, Miller) and the healthy range. This combination is this calculator's own method, not a clinical standard.</li>
-<li><strong>Mixed ancestry:</strong> the overweight and obesity cut-offs are blended in proportion to the percentages you enter (e.g., 50% in a lower-cut-off group gives 24 / 28.8). No guideline defines cut-offs for mixed ancestry, so this blend is the calculator's own method; the standard and lower ranges are shown alongside it.</li>
+<li><strong>Mixed ancestry:</strong> the overweight and obesity cut-offs are blended in proportion to the percentages you enter (e.g., 50% in a lower-cut-off group gives 24 / 28.8). No guideline defines cut-offs for mixed ancestry, so this blend is the calculator's own method; the standard and lower ranges are shown alongside it. Alternatively you can choose the background you identify with: the ADA 2026 obesity standards note an evidence gap for mixed race or ethnicity and tell clinicians to use the background with which the person identifies; every cut-off on the page (ranges, diabetes buffer zone, waist thresholds) then follows that background.</li>
+<li><strong>Waist (optional):</strong> shown as waist-to-height ratio (NICE) and as the ADA 2026 overweight/obesity diagnosis: with an Asian background, BMI 23-27.4 counts as obesity if waist-to-height is 0.5 or more or waist is at least 80 cm (women) / 90 cm (men), otherwise overweight, and BMI 27.5 or more is obesity; with a non-Asian background the same applies at BMI 25-29.9 with 88 / 102 cm, and BMI 30 or more is obesity. ADA's "Asian background" means Asia (e.g., China, Japan, Korea) and the South Asian subcontinent, so the Black African and Middle Eastern groups use the non-Asian waist thresholds even though they get lower BMI cut-offs here (from NICE). For a percentage blend, the Asian thresholds are used when at least 50% of the makeup is Asian background (the calculator's own rule). Waist never changes the suggested weight range.</li>
 <li><strong>Conditions:</strong> diabetes, high blood pressure, high cholesterol and gout each move the suggested range slightly lower and narrower (calculator weighting, kept inside the healthy range). If you are above the healthy range, the page also shows the 5-7% weight-loss goal from diabetes-prevention guidelines.</li>
 <li><strong>How the range is built, in order:</strong>
 <ol>
 <li>Ancestry sets the healthy range (BMI 18.5 to the overweight cut-off; a mix is blended).</li>
 <li>Frame size (wrist, and elbow if given) adjusts Hamwi; the four formulas give a formula range.</li>
-<li>Suggested range = where the formula range overlaps the healthy range (the healthy range if they do not overlap).</li>
-<li>Lower-cut-off ancestry: a buffer zone is shown from BMI 22 (blended for a mix) up to the cut-off. If type 2 diabetes / prediabetes / family history is selected, the top of the suggested range is kept below that zone. The 18.5 floor never moves.</li>
-<li>Condition weighting then shifts and narrows the result, staying inside the range from step 4.</li>
+<li>Suggested range = where the formula range overlaps the healthy range (if every formula is outside it, the nearest edge of the healthy range).</li>
+<li>Lower-cut-off ancestry: a buffer zone is shown from BMI 22 (blended for a mix) up to the cut-off. If type 2 diabetes / prediabetes / family history is selected, the top of the suggested range is kept below that zone (if the whole range is in or above the zone, the edge just below it is shown). The 18.5 floor never moves.</li>
+<li>Condition weighting then shifts and narrows the result, staying inside the range from step 4. Every step keeps a larger frame from getting a lower range than a smaller one.</li>
 </ol></li>
 <li><strong>Not covered:</strong> under-18s, pregnancy, eating disorders, and medical weight targets set by your own clinician, which take priority.</li>
 </ul>
@@ -235,6 +242,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     ['vicks', 'Vicks WS, Lo JC, Guo L, et al. Prevalence of prediabetes and diabetes vary by ethnicity among U.S. Asian adults at healthy weight, overweight, and obesity ranges: an electronic health record study. BMC Public Health. 2022;22(1):1954.', 'https://pubmed.ncbi.nlm.nih.gov/36273116/'],
     ['retune', 'Taylor R, Barnes AC, Hollingsworth KG, et al. Aetiology of Type 2 diabetes in people with a \'normal\' body mass index: testing the personal fat threshold hypothesis (ReTUNE). Clin Sci (Lond). 2023;137(16):1333-1346.', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10472166/'],
     ['gbmc', 'Global BMI Mortality Collaboration. Body-mass index and all-cause mortality: individual-participant-data meta-analysis of 239 prospective studies in four continents. Lancet. 2016;388(10046):776-786.', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4995441/'],
+    ['ada_obesity', 'American Diabetes Association. 3. Screening, Diagnosis, Evaluation, and Staging of Obesity in Adults: Standards of Care in Overweight and Obesity-2026. Diabetes Obes Cardiometab Care. 2026;1(4):536-571. doi:10.2337/doci26-0003 (Table 3.1, recs 3.3a-3.3d).', 'https://diabetesjournals.org/docm-care/article/1/4/536/170058/Screening-Diagnosis-Evaluation-and-Staging-of'],
     ['zheng', 'Zheng W, McLerran DF, Rolland B, et al. Association between body-mass index and risk of death in more than 1 million Asians. N Engl J Med. 2011;364(8):719-729.', 'https://pubmed.ncbi.nlm.nih.gov/21345101/']
   ];
   var REF_INDEX = {};
@@ -260,12 +268,15 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
       name: 'lower population-specific cut-offs (WHO 2004 / NICE)', labels: ['Underweight', 'Healthy weight', 'Overweight (increased risk)', 'Obesity (high risk)'] }
   };
 
+  // adaAsian: "Asian background" as the ADA 2026 obesity standards define it (Asia, e.g. China, Japan,
+  // Korea, and the South Asian subcontinent). Black African and Middle Eastern groups get lower BMI
+  // cut-offs from NICE here, but ADA's waist thresholds for them are the non-Asian ones.
   var ANCESTRIES = {
     european:        { label: 'European / White', group: 'standard' },
-    east_asian:      { label: 'East Asian (e.g., Chinese, Japanese, Korean)', group: 'lower' },
-    south_asian:     { label: 'South Asian (e.g., Indian, Pakistani, Bangladeshi, Sri Lankan)', group: 'lower' },
-    se_asian:        { label: 'Southeast Asian (e.g., Thai, Vietnamese, Filipino, Indonesian, Malaysian)', group: 'lower' },
-    mixed_asian:     { label: 'Mixed, with significant Asian ancestry', group: 'lower' },
+    east_asian:      { label: 'East Asian (e.g., Chinese, Japanese, Korean)', group: 'lower', adaAsian: true },
+    south_asian:     { label: 'South Asian (e.g., Indian, Pakistani, Bangladeshi, Sri Lankan)', group: 'lower', adaAsian: true },
+    se_asian:        { label: 'Southeast Asian (e.g., Thai, Vietnamese, Filipino, Indonesian, Malaysian)', group: 'lower', adaAsian: true },
+    mixed_asian:     { label: 'Mixed, with significant Asian ancestry', group: 'lower', adaAsian: true },
     african:         { label: 'Black African / African-Caribbean / African American', group: 'lower' },
     middle_eastern:  { label: 'Middle Eastern / Arab', group: 'lower' },
     hispanic:        { label: 'Hispanic / Latino', group: 'standard' },
@@ -409,13 +420,17 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     var elbowCm  = checkMeasure('elbow', 'Elbow breadth', raw.elbow, raw.elbowUnit, ['in', 'cm'], toCm, 'elbowCm', false, ctx);
     var waistCm  = checkMeasure('waist', 'Waist circumference', raw.waist, raw.waistUnit, ['in', 'cm'], toCm, 'waistCm', false, ctx);
 
+    if (heightCm && waistCm) {
+      var wh = waistCm / heightCm;
+      if (wh < 0.3 || wh > 1.2) invalid.push('waist'), errors.push('Height and waist together give a waist-to-height ratio of ' + round(wh, 2) + ', which is outside the range seen in adults (about 0.35-1.1). Please re-check the waist value and its unit.');
+    }
     if (heightCm && wristCm) {
       var r = heightCm / wristCm;
       if (r < 6 || r > 15) invalid.push('height', 'wrist'), errors.push('Height and wrist together give a height/wrist ratio of ' + round(r, 1) + ', which is outside the range seen in adults (about 8-13). Please re-check both values and their units.');
     }
 
     // Ancestry: single, or mixed makeup with percentages
-    var ancestries = [];
+    var ancestries = [], identifyWith = null;
     if (raw.ancestryMode === 'mixed') {
       var seen = {}, total = 0;
       (raw.makeup || []).forEach(function (row, i) {
@@ -432,6 +447,11 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
       });
       if (ancestries.length === 0 && !errors.some(function (e) { return /^Ancestry row/.test(e); })) { errors.push('Mixed ancestry: enter at least one ancestry with a percentage.'); invalid.push('mixAnc1', 'mixPct1'); }
       else if (ancestries.length > 0 && Math.abs(total - 100) > 1) invalid.push('mixPct1', 'mixPct2', 'mixPct3'), errors.push('Mixed ancestry percentages add up to ' + round(total, 1) + '%. They need to total 100% (within 1% for rounding).');
+      if (raw.cutoffMode === 'identify') {
+        var picked = ancestries.filter(function (a) { return a.key === raw.identifyWith; })[0];
+        if (!picked) { if (ancestries.length) { errors.push('Cut-offs: choose which of the backgrounds you entered you identify with (or switch back to the percentage blend).'); invalid.push('identifyWith'); } }
+        else identifyWith = picked.key;
+      }
     } else {
       if (!ANCESTRIES[raw.ancestry]) { errors.push('Please choose an ancestry (or "Other / not listed").'); invalid.push('ancestry'); }
       else ancestries.push({ key: raw.ancestry, pct: 100 });
@@ -443,7 +463,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     if (heightCm < 152.4) warnings.push('The ideal-body-weight formulas were published only for heights of 5 ft (152.4 cm) and over, so for your height only the BMI-based range is used.');
     return { ok: true, errors: [], warnings: warnings, invalid: [], unitOverrides: ctx.unitOverrides, values: {
       sex: sex, heightCm: heightCm, weightKg: weightKg, wristCm: wristCm, elbowCm: elbowCm, waistCm: waistCm,
-      ancestries: ancestries, conditions: conditions } };
+      ancestries: ancestries, identifyWith: identifyWith, conditions: conditions } };
   }
 
   // ---------- BMI ----------
@@ -541,13 +561,15 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     var hamwiAdj = frames.map(function (s) { return f.hamwi * HAMWI_FRAME[s]; });
     vals = vals.concat(hamwiAdj);
     var fLo = Math.min.apply(null, vals), fHi = Math.max.apply(null, vals);
-    var lo = Math.max(fLo, band.lowKg), hi = Math.min(fHi, band.highKg);
-    var out = { formulas: f, hamwiAdjusted: hamwiAdj, formulaLowKg: fLo, formulaHighKg: fHi, band: band };
-    if (lo > hi) {
-      out.method = 'band';
-      out.reason = fLo > band.highKg ? 'formulas_above' : 'formulas_below';
-      out.lowKg = band.lowKg; out.highKg = band.highKg;
-    } else { out.method = 'overlap'; out.lowKg = lo; out.highKg = hi; }
+    // Each end of the formula range is clamped into the band. Where they overlap this is the overlap;
+    // if every formula lies above (below) the band, both ends meet at the band's top (bottom) edge.
+    // Clamping keeps the result monotonic in frame size: a larger frame never gets a lower range.
+    var clamp = function (x) { return Math.min(Math.max(x, band.lowKg), band.highKg); };
+    var out = { formulas: f, hamwiAdjusted: hamwiAdj, formulaLowKg: fLo, formulaHighKg: fHi, band: band,
+      lowKg: clamp(fLo), highKg: clamp(fHi) };
+    if (fLo > band.highKg) { out.method = 'edge'; out.reason = 'formulas_above'; }
+    else if (fHi < band.lowKg) { out.method = 'edge'; out.reason = 'formulas_below'; }
+    else out.method = 'overlap';
     return out;
   }
 
@@ -571,12 +593,13 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     return { startBmi: start, topBmi: top, capBmi: capBmi,
       startKg: weightForBmi(start, heightCm), topKg: weightForBmi(top, heightCm), capKg: weightForBmi(capBmi, heightCm) };
   }
-  // Apply the cap to a suggested range. Never empty, never below the healthy floor (capBmi >= 21.9).
-  function bufferedRange(suggested, band, zone) {
+  // Apply the cap to a suggested range: both ends are limited to the cap (same clamping as the band,
+  // so a larger frame never gets a lower range). If the whole range is above the cap, the result is the
+  // cap itself. Never empty, never below the healthy floor (capBmi >= 21.9).
+  function bufferedRange(suggested, zone) {
     if (!zone || suggested.highKg <= zone.capKg) return null;
-    if (suggested.lowKg <= zone.capKg) return { lowKg: suggested.lowKg, highKg: zone.capKg, method: 'capped', capBmi: zone.capBmi };
-    // every formula value sits inside the buffer zone: fall back to the healthy band below the zone
-    return { lowKg: band.lowKg, highKg: zone.capKg, method: 'band_below_buffer', capBmi: zone.capBmi };
+    return { lowKg: Math.min(suggested.lowKg, zone.capKg), highKg: zone.capKg,
+      method: suggested.lowKg <= zone.capKg ? 'capped' : 'at_cap', capBmi: zone.capBmi };
   }
 
   // ---------- Waist-to-height (NICE NG246 1.9.14) ----------
@@ -585,6 +608,34 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     var cat = w < 0.4 ? 'Below 0.4 (NICE gives no category for this)' : w < 0.5 ? 'Healthy central adiposity (0.4-0.49)' :
       w < 0.6 ? 'Increased central adiposity (0.5-0.59): increased health risks' : 'High central adiposity (0.6 or more): further increased health risks';
     return { ratio: w, category: cat, index: w < 0.4 ? -1 : w < 0.5 ? 0 : w < 0.6 ? 1 : 2 };
+  }
+
+  // ---------- ADA 2026 obesity diagnosis with waist (Table 3.1, recs 3.3a-d) ----------
+  // In the BMI band where waist matters (Asian 23-27.4, non-Asian 25-29.9), central adiposity
+  // (WHtR >= 0.5, or WC at or above the sex threshold) makes it obesity, otherwise overweight.
+  // At or above the upper BMI it is obesity by BMI alone; below the band waist is information only.
+  // This is a classification note; it never changes the suggested weight range.
+  var ADA_WAIST = {
+    asian:     { bmiLow: 23, bmiObese: 27.5, wcCm: { female: 80, male: 90 } },
+    non_asian: { bmiLow: 25, bmiObese: 30, wcCm: { female: 88, male: 102 } }
+  };
+  // Asian thresholds when at least half of the ancestry used for cut-offs is ADA-Asian (the 50% rule
+  // for a percentage blend is this calculator's own; for one background it is simply that background).
+  function adaAsianShare(list) {
+    var total = 0, asian = 0;
+    list.forEach(function (a) { total += a.pct; if (ANCESTRIES[a.key].adaAsian) asian += a.pct; });
+    return total > 0 ? asian / total : 0;
+  }
+  function adaWaistClass(bmiValue, waistCm, heightCm, sex, asianShare) {
+    var bg = asianShare >= 0.5 ? 'asian' : 'non_asian', t = ADA_WAIST[bg];
+    var whtr = round(waistCm / heightCm, 3), b = round(bmiValue, 1);
+    var wcCm = t.wcCm[sex];
+    var whtrHigh = whtr >= 0.5, wcHigh = round(waistCm, 2) >= wcCm;
+    var zone = b < t.bmiLow ? 'below' : b < t.bmiObese ? 'waist_band' : 'above';
+    var category = zone === 'below' ? null : zone === 'above' ? 'Obesity' : (whtrHigh || wcHigh ? 'Obesity' : 'Overweight');
+    return { background: bg, asianShare: asianShare, bmiShown: b, bmiLow: t.bmiLow, bmiObese: t.bmiObese,
+      bmiBandTop: round(t.bmiObese - 0.1, 1), wcThresholdCm: wcCm, whtr: whtr, whtrHigh: whtrHigh, wcHigh: wcHigh,
+      zone: zone, category: category, halfHeightCm: heightCm / 2 };
   }
 
   // ---------- Condition-based weight guidance ----------
@@ -623,11 +674,10 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     if (!used.length) return null;
     var mid = (suggested.lowKg + suggested.highKg) / 2 + shift;
     var half = (suggested.highKg - suggested.lowKg) / 2 * tighten;
-    var lo = mid - half, hi = mid + half;
-    // Keep inside the healthy band: slide the window back in, then clip if it is wider than the band.
-    if (lo < band.lowKg) { hi += band.lowKg - lo; lo = band.lowKg; }
-    if (hi > band.highKg) { lo -= hi - band.highKg; hi = band.highKg; }
-    lo = Math.max(lo, band.lowKg);
+    // Keep inside the healthy band by clamping each end (not sliding the window, which could give a
+    // smaller frame a higher top than a larger frame).
+    var clamp = function (x) { return Math.min(Math.max(x, band.lowKg), band.highKg); };
+    var lo = clamp(mid - half), hi = clamp(mid + half);
     return { lowKg: lo, highKg: hi, shiftKg: round(shift, 2), tighten: round(tighten, 4), conditions: used };
   }
 
@@ -659,7 +709,10 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
   // ---------- Full calculation ----------
   function calculate(values) {
     var v = values;
-    var grp = groupForAncestries(v.ancestries);
+    // Cut-offs come from the percentage blend (default; calculator's own method) or, for a mixed
+    // makeup, from the one background the person identifies with (the ADA 2026 approach).
+    var cutoffAncestries = v.identifyWith ? [{ key: v.identifyWith, pct: 100 }] : v.ancestries;
+    var grp = groupForAncestries(cutoffAncestries);
     var b = bmi(v.weightKg, v.heightCm);
     var cls = classifyBMI(b, grp.group);
     var whoCls = classifyBMI(b, 'standard');
@@ -672,17 +725,19 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     // Order: (1) ancestry band, (2) formulas with frame, (3) overlap = suggested, (4) diabetes buffer cap,
     // (5) condition weighting, kept between the healthy floor and the (possibly capped) top.
     var zone = bufferZone(grp, v.heightCm);
-    var buffered = v.conditions.indexOf('diabetes') >= 0 ? bufferedRange(sug, band, zone) : null;
+    var buffered = v.conditions.indexOf('diabetes') >= 0 ? bufferedRange(sug, zone) : null;
     // Step 5 cannot raise the top: it only shifts down and narrows (sliding back up never passes the top).
     var base = buffered || sug;
     var altBands = null;
     if (grp.mixedGroups) altBands = { standard: healthyBand(v.heightCm, 'standard'), lower: healthyBand(v.heightCm, 'lower') };
     return {
-      bmi: b, bmiClass: cls, whoClass: whoCls, group: grp, wristFrame: wf, elbowFrame: ef, frames: frames,
+      bmi: b, bmiClass: cls, cutoffMode: v.identifyWith ? 'identify' : (v.ancestries.length > 1 ? 'blend' : 'single'),
+      cutoffAncestries: cutoffAncestries, whoClass: whoCls, group: grp, wristFrame: wf, elbowFrame: ef, frames: frames,
       framesAgree: !ef || ef.size === wf.size,
       band: band, suggested: sug, altBands: altBands, bufferZone: zone, buffered: buffered,
       conditionAdjusted: conditionAdjustedRange(base, band, v.conditions),
       waist: v.waistCm ? waistToHeight(v.waistCm, v.heightCm) : null,
+      adaWaist: v.waistCm ? adaWaistClass(b, v.waistCm, v.heightCm, v.sex, adaAsianShare(cutoffAncestries)) : null,
       conditionWeight: conditionWeightGuidance(v.conditions, v.weightKg, cls.index),
       food: foodRecs(v.ancestries.map(function (a) { return a.key; }), v.conditions)
     };
@@ -710,6 +765,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     conditionWeightGuidance: conditionWeightGuidance, foodRecs: foodRecs, ancestryNote: ancestryNote,
     conditionAdjustedRange: conditionAdjustedRange, CONDITION_WEIGHTING: CONDITION_WEIGHTING,
     bufferZone: bufferZone, bufferedRange: bufferedRange, BUFFER_START_LOWER_BMI: BUFFER_START_LOWER_BMI,
+    ADA_WAIST: ADA_WAIST, adaAsianShare: adaAsianShare, adaWaistClass: adaWaistClass,
     resolveGroup: resolveGroup, calculate: calculate, chartSeries: chartSeries
   };
 })(typeof window !== 'undefined' ? window : globalThis);
@@ -728,6 +784,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     return unit === 'kg' ? k + ' kg (' + lb + ' lb)' : lb + ' lb (' + k + ' kg)';
   }
   function fmtRange(loKg, hiKg, unit) {
+    if (Math.round(E.kgToLb(loKg)) === Math.round(E.kgToLb(hiKg)) && Math.round(loKg * 2) === Math.round(hiKg * 2)) return 'about ' + fmtW(loKg, unit);
     if (unit === 'kg') return (Math.round(loKg * 2) / 2).toFixed(1) + '-' + (Math.round(hiKg * 2) / 2).toFixed(1) + ' kg (' + Math.round(E.kgToLb(loKg)) + '-' + Math.round(E.kgToLb(hiKg)) + ' lb)';
     return Math.round(E.kgToLb(loKg)) + '-' + Math.round(E.kgToLb(hiKg)) + ' lb (' + (Math.round(loKg * 2) / 2).toFixed(1) + '-' + (Math.round(hiKg * 2) / 2).toFixed(1) + ' kg)';
   }
@@ -749,7 +806,38 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     }).join('');
   }
 
+  // Keep the identify-with list in step with the ancestries entered (keeps the current choice if still listed).
+  function refreshIdentify() {
+    var sel = $('identifyWith'), cur = sel.value, seen = {}, opts = '<option value="">-- choose --</option>';
+    for (var i = 1; i <= 3; i++) {
+      var k = $('mixAnc' + i).value;
+      if (E.ANCESTRIES[k] && !seen[k]) { seen[k] = true; opts += '<option value="' + k + '">' + esc(E.ANCESTRIES[k].label) + '</option>'; }
+    }
+    sel.innerHTML = opts; sel.value = seen[cur] ? cur : '';
+    var cm = document.querySelector('input[name="cutoffMode"]:checked');
+    sel.disabled = !(cm && cm.value === 'identify');
+  }
+
+  function fmtLen(cm, unit) {
+    return unit === 'lb' ? E.round(E.cmToIn(cm), 1) + ' in (' + E.round(cm, 1) + ' cm)' : E.round(cm, 1) + ' cm (' + E.round(E.cmToIn(cm), 1) + ' in)';
+  }
+  function adaWaistHtml(a, r, v, unit) {
+    var c = E.cite, asian = a.background === 'asian';
+    var who = r.cutoffMode === 'blend' ? 'your makeup is ' + E.round(a.asianShare * 100, 1) + '% Asian background, so ' + (asian ? 'at least' : 'under') + ' the 50% the calculator uses to pick the Asian thresholds for a blend (its own rule)' :
+      r.cutoffMode === 'identify' ? 'the background you identify with is ' + (asian ? '' : 'not ') + 'an Asian background in ADA\u2019s sense' :
+      'your ancestry is ' + (asian ? '' : 'not ') + 'an Asian background in ADA\u2019s sense (Asia and the South Asian subcontinent)';
+    var h = '<p id="adaWaist"><strong>ADA 2026 overweight / obesity criteria (' + (asian ? 'Asian' : 'non-Asian') + ' background):</strong> ';
+    if (a.zone === 'waist_band') h += 'your BMI ' + a.bmiShown.toFixed(1) + ' is in the ' + a.bmiLow + '-' + a.bmiBandTop + ' band where waist decides: <strong>' + a.category + '</strong> (' +
+      (a.category === 'Obesity' ? (a.whtrHigh ? 'waist-to-height ' + a.whtr.toFixed(3) + ' is 0.5 or more' : '') + (a.whtrHigh && a.wcHigh ? ' and ' : '') + (a.wcHigh ? 'waist is at or above ' + fmtLen(a.wcThresholdCm, unit) : '') : 'waist-to-height under 0.5 and waist under ' + fmtLen(a.wcThresholdCm, unit)) + ').';
+    else if (a.zone === 'above') h += 'your BMI ' + a.bmiShown.toFixed(1) + ' is ' + a.bmiObese + ' or more, which meets the obesity criterion by BMI alone; waist is shown for information.';
+    else h += 'your BMI ' + a.bmiShown.toFixed(1) + ' is below ' + a.bmiLow + ', where the waist criteria do not apply; waist-to-height ' + a.whtr.toFixed(3) + ' is shown for information only.';
+    h += ' Thresholds for you: waist-to-height 0.5 (a waist of ' + fmtLen(a.halfHeightCm, unit) + ' at your height) or waist ' + fmtLen(a.wcThresholdCm, unit) + ' (' + v.sex + '). These are used because ' + who + '. This is a classification note only; it does not change the suggested weight range. ' + c('ada_obesity') + '</p>';
+    return h;
+  }
+
   function readForm() {
+    refreshIdentify();
+    var cm = document.querySelector('input[name="cutoffMode"]:checked');
     var mode = document.querySelector('input[name="ancestryMode"]:checked');
     var makeup = [];
     for (var i = 1; i <= 3; i++) makeup.push({ ancestry: $('mixAnc' + i).value, pct: $('mixPct' + i).value });
@@ -761,6 +849,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
       elbow: $('elbow').value, elbowUnit: $('elbowUnit').value,
       waist: $('waist').value, waistUnit: $('waistUnit').value,
       ancestryMode: mode ? mode.value : 'single', ancestry: $('ancestry').value, makeup: makeup,
+      cutoffMode: cm ? cm.value : 'blend', identifyWith: $('identifyWith').value,
       conditions: Array.prototype.map.call(document.querySelectorAll('.cond:checked'), function (el) { return el.value; })
     };
   }
@@ -768,6 +857,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
   function syncMode() {
     var mixed = document.querySelector('input[name="ancestryMode"]:checked').value === 'mixed';
     $('singleBox').hidden = mixed; $('mixedBox').hidden = !mixed;
+    refreshIdentify();
     updateMixTotal();
   }
   function updateMixTotal() {
@@ -778,7 +868,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
 
   var hasCalculated = false;
 
-  var FIELD_IDS = ['sex', 'height', 'weight', 'wrist', 'elbow', 'waist', 'ancestry', 'mixAnc1', 'mixPct1', 'mixAnc2', 'mixPct2', 'mixAnc3', 'mixPct3'];
+  var FIELD_IDS = ['sex', 'height', 'weight', 'wrist', 'elbow', 'waist', 'ancestry', 'mixAnc1', 'mixPct1', 'mixAnc2', 'mixPct2', 'mixAnc3', 'mixPct3', 'identifyWith'];
   function markInvalid(ids) {
     FIELD_IDS.forEach(function (id) {
       var el = $(id);
@@ -840,8 +930,10 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     // Healthy band
     h += '<h3>1. Healthy weight range for your height</h3><p class="big">' + fmtRange(r.band.lowKg, r.band.highKg, unit) + '</p>';
     h += '<p>BMI ' + r.band.lowBmi + ' to ' + r.band.highBmi + ' (' + g.name + '). This is the range linked to the lowest population disease risk for your ancestry group; it is the most strongly evidence-based number on this page.</p>';
-    if (r.group.mixedGroups) {
-      h += '<p><small>Your ancestry mix is ' + r.group.lowerShare + '% in groups with lower cut-offs, so the overweight cut-off is weighted to BMI ' + g.overweight + ' and the obesity cut-off to ' + g.obese + ' (a straight percentage blend of 25/30 and 23/27.5; this blending is the calculator\u2019s own method). For comparison: standard cut-offs give ' + fmtRange(r.altBands.standard.lowKg, r.altBands.standard.highKg, unit) + '; lower cut-offs give ' + fmtRange(r.altBands.lower.lowKg, r.altBands.lower.highKg, unit) + '.</small></p>';
+    if (r.cutoffMode === 'identify') {
+      h += '<p><small id="cutoffNote">Cut-offs used: <strong>' + esc(E.ANCESTRIES[r.cutoffAncestries[0].key].label) + '</strong>, the background you identify with. The ADA 2026 obesity standards note an evidence gap for people of mixed race or ethnicity and advise using the background with which the person identifies; every cut-off below (ranges, diabetes buffer zone, waist thresholds) follows it. ' + c('ada_obesity') + '</small></p>';
+    } else if (r.group.mixedGroups) {
+      h += '<p><small id="cutoffNote">Your ancestry mix is ' + r.group.lowerShare + '% in groups with lower cut-offs, so the overweight cut-off is weighted to BMI ' + g.overweight + ' and the obesity cut-off to ' + g.obese + ' (a straight percentage blend of 25/30 and 23/27.5; this blending is the calculator\u2019s own method, not guideline-based; you can instead choose the background you identify with, the ADA approach ' + c('ada_obesity') + '). For comparison: standard cut-offs give ' + fmtRange(r.altBands.standard.lowKg, r.altBands.standard.highKg, unit) + '; lower cut-offs give ' + fmtRange(r.altBands.lower.lowKg, r.altBands.lower.highKg, unit) + '.</small></p>';
     }
     var notes = {};
     v.ancestries.forEach(function (a) { notes[a.key] = true; });
@@ -865,7 +957,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     } else if (s.reason === 'short') {
       h += '<p>The ideal-body-weight formulas are published only for heights of 5 ft and over, so the healthy range is shown instead. ' + c('peterson') + '</p>';
     } else {
-      h += '<p>All four formulas fall ' + (s.reason === 'formulas_above' ? 'above' : 'below') + ' your healthy range (' + fmtRange(s.formulaLowKg, s.formulaHighKg, unit) + '), so the healthy range is shown instead. The formulas come from mid-20th-century US insurance data and do not consider ancestry; the healthy range, which is tied to disease risk, takes precedence. ' + c(['peterson', 'pai']) + '</p>';
+      h += '<p>All four formulas fall ' + (s.reason === 'formulas_above' ? 'above' : 'below') + ' your healthy range (' + fmtRange(s.formulaLowKg, s.formulaHighKg, unit) + '), so the ' + (s.reason === 'formulas_above' ? 'top' : 'bottom') + ' edge of the healthy range is shown. Using the nearest edge (rather than the whole range) means a larger frame never gets a lower suggestion than a smaller one; this is the calculator\u2019s own method. The formulas come from mid-20th-century US insurance data and do not consider ancestry; the healthy range, which is tied to disease risk, takes precedence. ' + c(['peterson', 'pai']) + '</p>';
     }
     if (s.formulas) {
       var f = s.formulas;
@@ -879,15 +971,16 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     var bf = r.buffered;
     if (bf) {
       h += '<p><strong>With type 2 diabetes / prediabetes / family history selected:</strong> <span class="big" id="bufRange">' + fmtRange(bf.lowKg, bf.highKg, unit) + '</span><br><small>' +
-        (bf.method === 'capped' ? 'The range above with its top kept below the buffer zone (BMI ' + bf.capBmi.toFixed(1) + ' or less).' : 'All the formula results fall inside the buffer zone, so the healthy range below the zone is shown (BMI 18.5 to ' + bf.capBmi.toFixed(1) + ').') +
+        (bf.method === 'capped' ? 'The range above with its top kept below the buffer zone (BMI ' + bf.capBmi.toFixed(1) + ' or less).' : 'All the formula results fall inside or above the buffer zone, so the edge just below the zone (BMI ' + bf.capBmi.toFixed(1) + ') is shown. Using that edge means a larger frame never gets a lower suggestion than a smaller one; this is the calculator\u2019s own method.') +
         ' Why: among middle-aged adults at a healthy BMI, diabetes was about 5 to 8 times as common in Filipino and South Asian Americans as in White Americans ' + c('vicks') + ', and in a trial of people with type 2 diabetes and BMI under 27, 70% reached remission after a median 6.5% weight loss (average BMI fell from 24.8 to 22.5 over 12 months) ' + c('retune') + '. The 18.5 floor is unchanged and nothing is pushed lower: in pooled studies death rates were lowest from BMI 20 to 25 and rose below 20 ' + c('gbmc') + ', and in East Asian cohorts they were lowest from 22.6 to 27.5 ' + c('zheng') + ', so this cap is about diabetes risk, not a longer life.</small></p>';
     }
     h += '<p><small><strong>Method note:</strong> combining the formulas with the ancestry range is this calculator\u2019s own approach, not a published clinical standard. Treat it as a reasonable place to aim within the healthy range, not a precise target.</small></p>';
 
     // Waist
     if (r.waist) {
-      h += '<h3>3. Waist-to-height ratio</h3><p><strong>' + r.waist.ratio.toFixed(2) + '</strong> \u2014 ' + r.waist.category + '. NICE advises keeping your waist to less than half your height; this measure works for all ethnicities and for muscular people with BMI under 35. ' + c('nice') + '</p>';
+      h += '<h3>3. Waist measures</h3><p><strong>Waist-to-height ratio:</strong> <strong>' + r.waist.ratio.toFixed(2) + '</strong> \u2014 ' + r.waist.category + '. NICE advises keeping your waist to less than half your height; this measure works for all ethnicities and for muscular people with BMI under 35. ' + c('nice') + '</p>';
       if (r.bmi >= 35) h += '<p><small>NICE uses these categories only for BMI under 35.</small></p>';
+      h += adaWaistHtml(r.adaWaist, r, v, unit);
     }
 
     // Conditions
@@ -906,7 +999,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
 
     // Chart
     h += '<h2>Wrist size vs BMI chart</h2>';
-    h += '<label for="chartAncestry">Show cut-offs for:</label><select id="chartAncestry">' + (r.group.mixedGroups ? '<option value="__mine" selected>Your ancestry mix (' + esc(g.name) + ')</option>' : '') + ancestryOptions(r.group.mixedGroups ? '' : v.ancestries[0].key) + '</select>';
+    h += '<label for="chartAncestry">Show cut-offs for:</label><select id="chartAncestry">' + (r.group.mixedGroups ? '<option value="__mine" selected>Your ancestry mix (' + esc(g.name) + ')</option>' : '') + ancestryOptions(r.group.mixedGroups ? '' : r.cutoffAncestries[0].key) + '</select>';
     h += '<div id="chartBox"></div>';
 
     // Height table
@@ -1014,6 +1107,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     });
     // After the first calculation, any edit recalculates (or clears the results if the input becomes invalid).
     var live = function () { if (hasCalculated) run(false); };
+    $('calcForm').addEventListener('change', refreshIdentify);   // before live, so the list is current
     $('calcForm').addEventListener('input', live);
     $('calcForm').addEventListener('change', live);
     syncMode();

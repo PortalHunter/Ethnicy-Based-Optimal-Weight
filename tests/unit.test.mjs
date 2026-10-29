@@ -357,12 +357,30 @@ test("Brian's case with a 50/50 Southeast Asian / European mix", () => {
   assert.equal(L.buffered.method, 'capped'); near(L.buffered.highKg, kgAt(23.4, 69), 1e-9);
 });
 
-test('buffer: large frame with all formulas inside the zone falls back to the band below it (never empty)', () => {
+test('buffer: large frame with all formulas in/above the zone gets the cap edge, never lower than a smaller frame', () => {
   const d = calc({ height: '69', wrist: '7.5', ancestry: 'se_asian', conditions: ['diabetes'] });
   assert.equal(d.wristFrame.size, 'Large');                       // 69/7.5 = 9.2 < 9.6
   near(d.suggested.lowKg, 51.65 + 1.85 * 9, 1e-9);                 // Robinson 68.3 kg = BMI 22.2, inside the zone
-  assert.equal(d.buffered.method, 'band_below_buffer');
-  near(d.buffered.lowKg, kgAt(18.5, 69), 1e-9); near(d.buffered.highKg, kgAt(21.9, 69), 1e-9);
+  assert.equal(d.buffered.method, 'at_cap');
+  near(d.buffered.lowKg, kgAt(21.9, 69), 1e-9); near(d.buffered.highKg, kgAt(21.9, 69), 1e-9);
+  const cap = kgAt(21.9, 69);                                      // weighting of a single point: shift only
+  near(d.conditionAdjusted.lowKg, cap - 0.35, 1e-9); near(d.conditionAdjusted.highKg, cap - 0.35, 1e-9);
+  const small = calc({ height: '69', wrist: '6.5', ancestry: 'se_asian', conditions: ['diabetes'] });
+  assert.ok(d.buffered.lowKg >= small.buffered.lowKg && d.conditionAdjusted.lowKg >= small.conditionAdjusted.lowKg);
+});
+
+test('formulas above the band: both ends sit at the band top (not the whole band)', () => {
+  const band = E.healthyBand(70 * IN, 'lower');
+  const s = E.suggestedRange(70 * IN, 'male', ['Large'], { key: 'x', healthyLow: 18.5, overweight: 20, obese: 25, labels: [] });
+  assert.equal(s.method, 'edge'); assert.equal(s.reason, 'formulas_above');
+  near(s.lowKg, kgAt(19.9, 70), 1e-9); near(s.highKg, kgAt(19.9, 70), 1e-9);
+  assert.ok(band.highKg > s.highKg);
+});
+
+test('condition weighting clamps each end at the floor instead of sliding', () => {
+  const c = E.conditionAdjustedRange({ lowKg: 50, highKg: 51 }, { lowKg: 50, highKg: 60 }, ['diabetes', 'hypertension']);
+  const t = 0.95 * 0.97, mid = 50.5 - 0.6;
+  near(c.lowKg, 50, 1e-9); near(c.highKg, mid + 0.5 * t, 1e-9);
 });
 
 test('buffer: short height (no formulas) caps the band; floor never moves', () => {
@@ -406,4 +424,135 @@ test('page documents how the range is built, in order', () => {
   assert.ok(m);
   assert.equal((m[1].match(/<li>/g) || []).length, 5);
   assert.match(m[1], /buffer zone/);
+});
+
+test('frame monotonicity (sweep): a larger frame never gets a lower range (low and high ends, every stage)', () => {
+  const ancs = Object.keys(E.ANCESTRIES).map((a) => ({ ancestry: a })).concat([mix([['se_asian', 50], ['european', 50]])]);
+  const wristFor = (hIn, sex, size) => {                           // a wrist that lands clearly in each frame class
+    const c = E.wristCutoffs(hIn * IN, sex);
+    const cm = size === 'Small' ? c.smallBelowCm * 0.97 : size === 'Large' ? c.largeAboveCm * 1.03 : (c.smallBelowCm + c.largeAboveCm) / 2;
+    return (cm / IN).toFixed(3);
+  };
+  const stages = { suggested: (r) => r.suggested, final: (r) => r.buffered || r.suggested, weighted: (r) => r.conditionAdjusted };
+  let checked = 0; const bad = [];
+  for (let hIn = 58; hIn <= 80; hIn++) for (const sex of ['male', 'female']) for (const a of ancs)
+    for (const conds of [[], ['diabetes'], ['diabetes', 'hypertension', 'high_chol', 'gout']]) {
+      const rs = ['Small', 'Medium', 'Large'].map((size) => {
+        const r = calc({ sex, height: String(hIn), weight: '150', wrist: wristFor(hIn, sex, size), conditions: conds, ...a });
+        assert.equal(r.wristFrame.size, size); return r;
+      });
+      for (const [name, get] of Object.entries(stages)) {
+        if (!get(rs[0])) continue;
+        for (let i = 0; i < 2; i++) for (const end of ['lowKg', 'highKg']) {
+          checked++;
+          if (get(rs[i])[end] > get(rs[i + 1])[end] + 1e-9) bad.push(`${hIn}in ${sex} ${JSON.stringify(a.ancestry || a.makeup.map((m) => m.ancestry + m.pct))} ${conds} ${name}.${end} ${['S>M', 'M>L'][i]}`);
+        }
+      }
+    }
+  assert.ok(checked > 10000, String(checked));
+  assert.deepEqual(bad.slice(0, 15), [], bad.length + ' inversions');
+});
+
+// ---------- ADA 2026 waist criteria (Table 3.1, recs 3.3a-d) ----------
+test('ADA waist: WC thresholds at the boundary, both backgrounds and sexes (WHtR kept below 0.5)', () => {
+  const H = 220;                                            // tall, so WC thresholds bite before WHtR 0.5 (= 110 cm)
+  const cases = [['asian', 1, 'female', 80], ['asian', 1, 'male', 90], ['non_asian', 0, 'female', 88], ['non_asian', 0, 'male', 102]];
+  for (const [bg, share, sex, wc] of cases) {
+    const bmiMid = bg === 'asian' ? 25 : 27;
+    const at = E.adaWaistClass(bmiMid, wc, H, sex, share), under = E.adaWaistClass(bmiMid, wc - 0.1, H, sex, share);
+    assert.equal(at.background, bg); assert.equal(at.wcThresholdCm, wc);
+    assert.equal(at.category, 'Obesity', `${bg} ${sex} at ${wc}`); assert.ok(at.wcHigh && !at.whtrHigh);
+    assert.equal(under.category, 'Overweight', `${bg} ${sex} under ${wc}`);
+  }
+});
+
+test('ADA waist: BMI band edges and WHtR 0.5 boundary', () => {
+  // Asian: 23.0-27.4 is the waist band; 22.9 below; 27.5 obesity by BMI alone
+  assert.equal(E.adaWaistClass(22.94, 120, 170, 'male', 1).zone, 'below');
+  assert.equal(E.adaWaistClass(22.94, 120, 170, 'male', 1).category, null);
+  assert.equal(E.adaWaistClass(22.95, 60, 170, 'male', 1).category, 'Overweight');      // rounds to 23.0
+  assert.equal(E.adaWaistClass(27.44, 60, 170, 'male', 1).category, 'Overweight');
+  assert.equal(E.adaWaistClass(27.45, 60, 170, 'male', 1).category, 'Obesity');        // 27.5
+  // non-Asian: 25.0-29.9; 30 obesity
+  assert.equal(E.adaWaistClass(24.9, 120, 170, 'female', 0).zone, 'below');
+  assert.equal(E.adaWaistClass(25.0, 60, 170, 'female', 0).category, 'Overweight');
+  assert.equal(E.adaWaistClass(29.9, 60, 170, 'female', 0).category, 'Overweight');
+  assert.equal(E.adaWaistClass(30.0, 60, 170, 'female', 0).category, 'Obesity');
+  // WHtR exactly 0.5 -> obesity in band, even with WC under the threshold (short person)
+  const half = E.adaWaistClass(26, 75, 150, 'male', 0);
+  assert.equal(half.whtr, 0.5); assert.ok(half.whtrHigh && !half.wcHigh); assert.equal(half.category, 'Obesity');
+  const justUnder = E.adaWaistClass(26, 74.9, 150, 'male', 0);
+  assert.equal(justUnder.category, 'Overweight');
+  // 50% rule for a blend; African / Middle Eastern are not ADA-Asian
+  assert.equal(E.adaWaistClass(24, 70, 170, 'male', 0.5).background, 'asian');
+  assert.equal(E.adaWaistClass(24, 70, 170, 'male', 0.499).background, 'non_asian');
+  for (const a of ['african', 'middle_eastern', 'european', 'hispanic', 'pacific']) assert.equal(E.adaAsianShare([{ key: a, pct: 100 }]), 0, a);
+  for (const a of ['east_asian', 'south_asian', 'se_asian', 'mixed_asian']) assert.equal(E.adaAsianShare([{ key: a, pct: 100 }]), 1, a);
+});
+
+test("ADA waist via the form: Brian's height, 34.5 in waist = WHtR 0.5; waist never changes the ranges; blank waist = no note", () => {
+  const o = { height: '69', wrist: '6.5', weight: '160', ...mix([['se_asian', 50], ['european', 50]]), conditions: ['diabetes'] };
+  const none = calc(o), w = calc({ ...o, waist: '34.5' }), w2 = calc({ ...o, waist: '34.4' });
+  assert.equal(none.adaWaist, null); assert.equal(none.waist, null);
+  assert.equal(w.adaWaist.background, 'asian'); assert.equal(w.adaWaist.whtr, 0.5);
+  near(w.adaWaist.halfHeightCm, 69 * IN / 2, 1e-9);
+  assert.equal(w.adaWaist.zone, 'waist_band');                    // 160 lb at 69 in = BMI 23.6
+  assert.equal(w.adaWaist.category, 'Obesity'); assert.equal(w2.adaWaist.category, 'Overweight');
+  for (const k of ['band', 'suggested', 'buffered', 'conditionAdjusted', 'bufferZone']) assert.deepEqual(w[k], none[k], k);
+  assert.deepEqual(w.bmiClass, none.bmiClass);
+  // cm input parses the same
+  near(calc({ ...o, waist: '87.63 cm' }).adaWaist.whtr, 0.5, 1e-9);
+});
+
+test('waist validation: absurd values are rejected with a clear message', () => {
+  for (const bad of ['10', '300 cm', 'abc']) {
+    const v = E.validate(base({ waist: bad }));
+    assert.equal(v.ok, false, bad); assert.ok(v.invalid.includes('waist'), bad);
+  }
+  const tiny = E.validate(base({ height: '75', waist: '16' }));   // 40.6 cm on 190 cm = WHtR 0.21
+  assert.equal(tiny.ok, false); assert.match(tiny.errors.join(' '), /waist-to-height ratio of 0\.21/);
+  assert.equal(E.validate(base({ waist: '' })).ok, true);
+});
+
+// ---------- Mixed ancestry: identify-with (ADA) vs percentage blend ----------
+test('identify-with: equals the single-ancestry result for every cut-off-dependent output', () => {
+  const m = mix([['se_asian', 50], ['european', 50]]);
+  for (const conds of [[], ['diabetes'], ['diabetes', 'hypertension']]) for (const who of ['se_asian', 'european']) {
+    const o = { height: '69', wrist: '6.5', waist: '34', conditions: conds };
+    const id = calc({ ...o, ...m, cutoffMode: 'identify', identifyWith: who });
+    const single = calc({ ...o, ancestryMode: 'single', ancestry: who });
+    for (const k of ['band', 'suggested', 'bufferZone', 'buffered', 'conditionAdjusted', 'bmiClass', 'adaWaist']) assert.deepEqual(id[k], single[k], who + ' ' + k);
+    assert.deepEqual(id.group.group, single.group.group);
+    assert.equal(id.cutoffMode, 'identify');
+    assert.equal(id.food.length >= single.food.length, true);     // food notes still use every background entered
+  }
+});
+
+test('blend is still the default and unchanged; identify-with needs a background that was entered', () => {
+  const m = mix([['se_asian', 50], ['european', 50]]);
+  const def = calc({ height: '69', wrist: '6.5', conditions: ['diabetes'], ...m });
+  const blend = calc({ height: '69', wrist: '6.5', conditions: ['diabetes'], ...m, cutoffMode: 'blend', identifyWith: 'se_asian' });
+  assert.equal(def.cutoffMode, 'blend'); assert.deepEqual(def.conditionAdjusted, blend.conditionAdjusted);
+  assert.equal(def.group.group.overweight, 24); assert.equal(def.buffered, null);
+  near(E.kgToLb(def.conditionAdjusted.lowKg), 143.5, 0.05); near(E.kgToLb(def.conditionAdjusted.highKg), 154.8, 0.05);
+  for (const pick of ['', 'east_asian']) {
+    const v = E.validate(base({ ...m, cutoffMode: 'identify', identifyWith: pick }));
+    assert.equal(v.ok, false); assert.ok(v.invalid.includes('identifyWith')); assert.match(v.errors.join(' '), /identify with/);
+  }
+  // single-ancestry mode ignores the mixed-only option
+  assert.equal(E.validate(base({ cutoffMode: 'identify', identifyWith: 'x' })).ok, true);
+});
+
+test('frame monotonicity also holds with identify-with cut-offs', () => {
+  const bad = [];
+  for (let hIn = 58; hIn <= 80; hIn++) for (const sex of ['male', 'female']) for (const who of ['se_asian', 'european']) for (const conds of [[], ['diabetes']]) {
+    const c = E.wristCutoffs(hIn * IN, sex);
+    const rs = [c.smallBelowCm * 0.97, (c.smallBelowCm + c.largeAboveCm) / 2, c.largeAboveCm * 1.03].map((cm) =>
+      calc({ sex, height: String(hIn), weight: '150', wrist: (cm / IN).toFixed(3), conditions: conds, ...mix([['se_asian', 50], ['european', 50]]), cutoffMode: 'identify', identifyWith: who }));
+    for (const get of [(r) => r.buffered || r.suggested, (r) => r.conditionAdjusted]) {
+      if (!get(rs[0])) continue;
+      for (let i = 0; i < 2; i++) for (const e of ['lowKg', 'highKg']) if (get(rs[i])[e] > get(rs[i + 1])[e] + 1e-9) bad.push(`${hIn} ${sex} ${who} ${conds} ${e}`);
+    }
+  }
+  assert.deepEqual(bad, []);
 });
