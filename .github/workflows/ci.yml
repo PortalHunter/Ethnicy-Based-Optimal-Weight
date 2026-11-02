@@ -1,0 +1,50 @@
+name: Calculator CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - research-integration-2026-11-02
+
+permissions:
+  contents: read
+
+jobs:
+  quality-gates:
+    name: quality-gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install locked test dependencies
+        run: npm ci --prefix tests
+      - name: Set up real Chrome browser
+        uses: browser-actions/setup-chrome@v2
+        id: chrome
+        with:
+          chrome-version: stable
+          install-dependencies: true
+      - name: Verify browser available (no silent skips)
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: |
+          test -x "$CHROME_PATH"
+          "$CHROME_PATH" --version
+      - name: HTML structure validation
+        run: npx --yes html-validate@11.17.0 --config .htmlvalidate.json optimal_body_weight_calculator-9.html optimal_body_weight_calculator-10-research-preview.html research-preview.html
+      - name: JavaScript syntax and linting
+        run: |
+          node scripts/lint-inline.mjs
+          npx --yes eslint@9.39.2 --no-config-lookup --rule 'no-debugger:error' --rule 'no-unreachable:error' tests/*.mjs scripts/*.mjs
+      - name: Evidence archive, citations and protected baseline checks
+        run: node scripts/check-evidence.mjs
+      - name: Unit and real-browser regression tests
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: npm test --prefix tests
+      - name: Check citation links (remote HTTP failures reported for review)
+        run: node scripts/check-links.mjs --remote
+
