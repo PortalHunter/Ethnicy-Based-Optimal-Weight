@@ -45,6 +45,16 @@ jobs:
         env:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
         run: npm test --prefix tests
-      - name: Check citation links (remote HTTP failures reported for review)
-        run: node scripts/check-links.mjs --remote
+      - name: Validate all citation URLs and internal links
+        run: node scripts/check-links.mjs
+      - name: Probe external citation links (bounded; publisher blocks are inconclusive)
+        run: |
+          timeout 45s node scripts/check-links.mjs --remote || {
+            code=$?
+            if [ "$code" -eq 124 ]; then
+              echo "::warning::Remote publisher link checking exceeded its 45-second budget. Static citation checks passed; manually review uncertain remote links."
+            else
+              exit "$code"
+            fi
+          }
 
