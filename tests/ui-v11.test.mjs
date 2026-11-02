@@ -17,7 +17,7 @@ async function fillCommon(page) {
 }
 
 test('v11 is result-first, responsive, and math/citation-identical to v10', { skip: !CHROME && 'Chrome is missing' }, async (t) => {
-  const browser = await puppeteer.launch({executablePath:CHROME,headless:true,args:['--no-sandbox']});
+  const browser = await puppeteer.launch({executablePath:CHROME,headless:true,args:['--no-sandbox'],protocolTimeout:12000});
   try {
     const a=await browser.newPage(), b=await browser.newPage();
     const errors=[];
@@ -35,10 +35,20 @@ test('v11 is result-first, responsive, and math/citation-identical to v10', { sk
       assert.equal(await b.$eval('#results',e=>getComputedStyle(e).display==='none'),true);
       assert.equal(await b.$eval('#resultsEmpty',e=>e.hidden),false);
     });
-    await fillCommon(a); await fillCommon(b);
+    console.log('UI debug: starting baseline inputs');
+    await fillCommon(a);
+    console.log('UI debug: starting v11 inputs');
+    await fillCommon(b);
+    console.log('UI debug: base inputs complete');
+    console.log('UI debug: entering baseline height');
     await a.type('#height','70');
+    console.log('UI debug: entering feet and inches');
     await b.type('#heightFeet','5'); await b.type('#heightInches','10');
-    await a.click('#calcBtn');await b.click('#calcBtn');
+    console.log('UI debug: clicking baseline calculate');
+    await a.click('#calcBtn');
+    console.log('UI debug: clicking v11 calculate');
+    await b.click('#calcBtn');
+    console.log('UI debug: both calculated');
     const text=(p,id)=>p.$eval(id,e=>e.textContent);
     await t.test('weight ranges and all cited sources remain the same',async()=>{
       assert.equal(await text(a,'#sugRange'),await text(b,'#sugRange'));
