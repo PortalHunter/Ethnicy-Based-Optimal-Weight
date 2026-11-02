@@ -16,7 +16,7 @@ Seventeen unchanged source Markdown reports from 2026-11-01 are under [research/
 
 ## Current implementation boundary
 
-`optimal_body_weight_calculator-9.html` is the exact original baseline, **not modified**. `optimal_body_weight_calculator-10-research-preview.html` is a separately named sandbox copy that links to educational research. `research-preview.html` is an opt-in, **read-only** research module with source links. The copies do not consume each other's numeric outputs or change medication decisions. No research-derived clinical weight thresholds or treatment algorithms are activated.
+`optimal_body_weight_calculator-9.html` is the exact original baseline, **not modified**. `optimal_body_weight_calculator-10-research-preview.html` is a separately named sandbox copy that links to educational research. `optimal_body_weight_calculator-11-ui-preview.html` is an interface-only, result-first variant: its core mathematical script matches v9/v10 exactly, and the reference registry is unchanged. Height is entered as separate feet and inches (or centimeters) and passed to the original parser. All 17 reports and their links are indexed in [the research source index](research/SOURCE_INDEX.md). `research-preview.html` is an opt-in, **read-only** research module with source links. The copies do not consume each other's numeric outputs or change medication decisions. No research-derived clinical weight thresholds or treatment algorithms are activated.
 
 ## Key evidence conflicts
 

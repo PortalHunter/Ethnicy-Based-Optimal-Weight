@@ -4,7 +4,8 @@ import { Script } from 'node:vm';
 import assert from 'node:assert/strict';
 
 for (const file of ['optimal_body_weight_calculator-9.html',
-  'optimal_body_weight_calculator-10-research-preview.html', 'research-preview.html']) {
+  'optimal_body_weight_calculator-10-research-preview.html',
+  'optimal_body_weight_calculator-11-ui-preview.html', 'research-preview.html']) {
   const html = readFileSync(new URL('../' + file, import.meta.url), 'utf8');
   const scripts = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)];
   for (const [index, m] of scripts.entries()) {

@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test unit.test.mjs e2e.test.mjs"
+    "test": "node --test unit.test.mjs e2e.test.mjs ui-v11.test.mjs"
   },
   "devDependencies": {
     "acorn": "^8.19.0",

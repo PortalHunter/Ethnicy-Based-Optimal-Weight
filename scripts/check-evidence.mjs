@@ -44,5 +44,24 @@ const page = readFileSync(new URL('research-preview.html', base), 'utf8');
 for (const s of ['ANC-', 'NUT-', 'PGX-', 'does not', 'not a medical diagnosis']) {
   assert.ok(page.toLowerCase().includes(s.toLowerCase()), 'Missing evidence/safety marker: ' + s);
 }
-console.log('Verified protected baseline, 17 reports (5/6/6), citation keys, and safety markers.');
+
+// A UI-only revision must never modify the original calculation core or research source keys.
+const baseline = readFileSync(new URL('optimal_body_weight_calculator-9.html', base), 'utf8');
+const redesigned = readFileSync(new URL('optimal_body_weight_calculator-11-ui-preview.html', base), 'utf8');
+const extract = html => {
+  const m = html.match(/<script id="calc-core">[\s\S]*?<\/script>/);
+  assert.ok(m, 'Missing original calculation core');
+  return m[0];
+};
+assert.equal(extract(redesigned), extract(baseline), 'UI redesign altered the mathematical engine or reference registry');
+assert.ok(redesigned.indexOf('id="personalSummary"') < redesigned.indexOf('id="calcForm"'), 'Results are no longer first');
+for (const id of ['heightFeet', 'heightInches', 'heightMetricField']) {
+  assert.ok(redesigned.includes('id="' + id + '"'), 'Missing accessible height UI: ' + id);
+}
+const bibliography = readFileSync(new URL('docs/research/SOURCE_INDEX.md', base), 'utf8');
+for (const name of docs) assert.ok(bibliography.includes(name), 'Missing research report in source index: ' + name);
+for (const [id, , url] of E.REFS) {
+  assert.ok(bibliography.includes(url), 'Missing original reference URL in source index: ' + id);
+}
+console.log('Verified protected v9 baseline, unchanged v11 EBOW core, 17 reports, all reference keys, and source index.');
 
