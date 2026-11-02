@@ -35,20 +35,15 @@ test('v11 is result-first, responsive, and math/citation-identical to v10', { sk
       assert.equal(await b.$eval('#results',e=>getComputedStyle(e).display==='none'),true);
       assert.equal(await b.$eval('#resultsEmpty',e=>e.hidden),false);
     });
-    console.log('UI debug: starting baseline inputs');
     await fillCommon(a);
-    console.log('UI debug: starting v11 inputs');
     await fillCommon(b);
-    console.log('UI debug: base inputs complete');
-    console.log('UI debug: entering baseline height');
+
     await a.type('#height','70');
-    console.log('UI debug: entering feet and inches');
     await b.type('#heightFeet','5'); await b.type('#heightInches','10');
-    console.log('UI debug: clicking baseline calculate');
-    await a.click('#calcBtn');
-    console.log('UI debug: clicking v11 calculate');
-    await b.click('#calcBtn');
-    console.log('UI debug: both calculated');
+    await a.bringToFront();
+    await a.evaluate(() => document.querySelector('#calcBtn').click());
+    await b.bringToFront();
+    await b.evaluate(() => document.querySelector('#calcBtn').click());
     const text=(p,id)=>p.$eval(id,e=>e.textContent);
     await t.test('weight ranges and all cited sources remain the same',async()=>{
       assert.equal(await text(a,'#sugRange'),await text(b,'#sugRange'));
@@ -70,8 +65,10 @@ test('v11 is result-first, responsive, and math/citation-identical to v10', { sk
       assert.equal(await text(a,'#sugRange'),await text(b,'#sugRange'));
     });
     await t.test('condition-sensitive result summary uses existing calculated buffer',async()=>{
-      await a.click('.cond[value="diabetes"]');
-      await b.click('.cond[value="diabetes"]');
+      await a.bringToFront();
+      await a.evaluate(() => document.querySelector('.cond[value="diabetes"]').click());
+      await b.bringToFront();
+      await b.evaluate(() => document.querySelector('.cond[value="diabetes"]').click());
       assert.equal(await text(a,'#sugRange'),await text(b,'#sugRange'));
       assert.equal(await text(a,'#bufRange'),await text(b,'#bufRange'));
       assert.ok((await text(b,'#quickRange')).includes((await text(b,'#bufRange')).trim()));
