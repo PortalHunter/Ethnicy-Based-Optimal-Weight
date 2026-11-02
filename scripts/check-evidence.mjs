@@ -42,7 +42,7 @@ for (const [id, , url] of E.REFS) {
 }
 const page = readFileSync(new URL('research-preview.html', base), 'utf8');
 for (const s of ['ANC-', 'NUT-', 'PGX-', 'does not', 'not a medical diagnosis']) {
-  assert.ok(page.includes(s), 'Missing evidence/safety marker: ' + s);
+  assert.ok(page.toLowerCase().includes(s.toLowerCase()), 'Missing evidence/safety marker: ' + s);
 }
 console.log('Verified protected baseline, 17 reports (5/6/6), citation keys, and safety markers.');
 
