@@ -41,7 +41,7 @@ for (const [id, , url] of E.REFS) {
   assert.equal(new URL(url).protocol, 'https:', 'Unsafe or malformed source URL: ' + id);
 }
 const page = readFileSync(new URL('research-preview.html', base), 'utf8');
-for (const s of ['ANC-', 'NUT-', 'PGX-', 'does not', 'not a diagnosis']) {
+for (const s of ['ANC-', 'NUT-', 'PGX-', 'does not', 'not a medical diagnosis']) {
   assert.ok(page.includes(s), 'Missing evidence/safety marker: ' + s);
 }
 console.log('Verified protected baseline, 17 reports (5/6/6), citation keys, and safety markers.');
