@@ -185,6 +185,29 @@
     var slider = $('weightSlider');
     slider.value = String(Math.max(Number(slider.min), Math.min(Number(slider.max), lb)));
   }
+  // Wrist, elbow and waist sliders only write through the existing input fields;
+  // conversion and validation stay in the unchanged calculation engine.
+  function currentLengthInches(field) {
+    var p = E.parseMeasure($(field).value, 'length', false);
+    if (p.empty || p.error || p.value === undefined) return null;
+    var unit = p.unit || $(field + 'Unit').value;
+    var inches = unit === 'cm' ? p.value / E.IN_TO_CM : p.value;
+    return isFinite(inches) && inches > 0 ? inches : null;
+  }
+  function updateLengthSlider(field) {
+    var inches = currentLengthInches(field), slider = $(field + 'Slider');
+    var imperial = $(field + 'ReadoutImperial'), metric = $(field + 'ReadoutMetric');
+    if (inches === null) {
+      imperial.textContent = '—';
+      metric.textContent = '—';
+      slider.setAttribute('aria-valuetext', 'Not entered; move the slider to set a value');
+      return;
+    }
+    imperial.textContent = E.round(inches, 2) + ' in';
+    metric.textContent = E.round(inches * E.IN_TO_CM, 1) + ' cm';
+    slider.value = String(Math.max(Number(slider.min), Math.min(Number(slider.max), inches)));
+    slider.setAttribute('aria-valuetext', imperial.textContent + '; ' + metric.textContent);
+  }
   function setupMeasurementSliders() {
     $('heightSlider').addEventListener('input', function () {
       var inches = Number(this.value), feet = Math.floor(inches / 12);
@@ -205,12 +228,29 @@
     $('weight').addEventListener('input', updateWeightSlider);
     $('heightUnit').addEventListener('change', updateHeightSlider);
     $('weightUnit').addEventListener('change', updateWeightSlider);
+    ['wrist', 'elbow', 'waist'].forEach(function (field) {
+      $(field + 'Slider').addEventListener('input', function () {
+        var inches = Number(this.value);
+        $(field).value = String($(field + 'Unit').value === 'cm' ? E.round(inches * E.IN_TO_CM, 2) : inches);
+        updateLengthSlider(field);
+      });
+      $(field).addEventListener('input', function () { updateLengthSlider(field); });
+      $(field + 'Unit').addEventListener('change', function () { updateLengthSlider(field); });
+      updateLengthSlider(field);
+    });
+    ['elbow', 'waist'].forEach(function (field) {
+      $(field + 'Clear').addEventListener('click', function () {
+        $(field).value = '';
+        $(field).dispatchEvent(new Event('input', { bubbles: true }));
+      });
+    });
     updateHeightSlider();
     updateWeightSlider();
   }
 
   function readForm() {
     normalizeSpacedHeight();
+    updateHeightSlider();
     refreshIdentify();
     var cm = document.querySelector('input[name="cutoffMode"]:checked');
     var mode = document.querySelector('input[name="ancestryMode"]:checked');
