@@ -41,7 +41,7 @@ for (const [id, , url] of E.REFS) {
   assert.equal(new URL(url).protocol, 'https:', 'Unsafe or malformed source URL: ' + id);
 }
 const page = readFileSync(new URL('research-preview.html', base), 'utf8');
-for (const s of ['Research &amp; scientific sources', 'Body weight, BMI and ancestry', 'Metabolic health and nutrition', 'Pharmacogenetics', 'does not establish']) {
+for (const s of ['Research &amp; scientific sources', 'Body weight, BMI and ancestry', 'Metabolic health and nutrition', 'Pharmacogenetics', 'do not establish']) {
   assert.ok(page.toLowerCase().includes(s.toLowerCase()), 'Missing public source/safety content: ' + s);
 }
 for (const forbidden of [/docs\/research\/source\//i, /docs\/EVIDENCE_INTEGRATION/i, /cross-team implementation/i, /research-team notes/i, /AI agents/i, /bots/i]) {
