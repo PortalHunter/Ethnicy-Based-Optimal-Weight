@@ -111,6 +111,16 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 .measurement-entry .height-fields{gap:7px}
 .measurement-entry input:not([type=range]),.measurement-entry select{padding:11px 8px}
 }
+
+/* Static, self-hosted wrist-measurement help: readable on desktop, tap to zoom on phones. */
+.wrist-guide{max-width:760px;margin:18px 0 0;padding:17px;background:#fff;border:1px solid #cedff7;border-radius:16px}
+.wrist-guide figcaption{display:flex;flex-direction:column;gap:3px;margin:0 0 12px}
+.wrist-guide figcaption strong{font-size:16px;color:#153357}
+.wrist-guide figcaption span{font-size:13px;color:#586b83;line-height:1.45}
+.wrist-guide-image-link{display:block;max-width:100%;border-radius:11px;overflow:hidden;border:1px solid #e5eaf2;cursor:zoom-in;outline-offset:4px}
+.wrist-guide-image-link img{display:block;width:100%;height:auto;background:#fff}
+.wrist-guide-image-link:focus-visible{outline:3px solid #0071e3}
+@media(max-width:480px){.wrist-guide{padding:11px;margin-top:15px}.wrist-guide figcaption strong{font-size:15px}.wrist-guide figcaption span{font-size:12px}}
 </style></head>
 <body>
 <div class="topbar"><strong>Ancestry Health</strong><nav aria-label="Site navigation"><a href="#calculator">Calculator</a><a href="#personalSummary">Results</a><a href="research-preview.html">Research sources</a></nav></div>
@@ -179,6 +189,17 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
     <div class="form-group"><label for="wristUnit">Units</label><select id="wristUnit"><option value="in" selected>inches</option><option value="cm">cm</option></select></div></div>
   </div>
   <small id="wristSliderHint" class="hint">Measure at the narrowest point, just past the wrist bone toward the hand.</small>
+  <figure class="wrist-guide" aria-labelledby="wristGuideTitle">
+    <figcaption>
+      <strong id="wristGuideTitle">How to measure your wrist</strong>
+      <span>Follow the illustrated steps below. Tap or click the picture to view it full size.</span>
+    </figcaption>
+    <a class="wrist-guide-image-link" href="assets/wrist-measurement-guide.png" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size five-step wrist measurement guide in a new tab">
+      <img id="wristGuideImage" src="assets/wrist-measurement-guide.png"
+        width="1448" height="1086" loading="lazy" decoding="async"
+        alt="Five illustrated steps: turn your palm up, use a flexible tape, wrap it at the narrowest part of your wrist just past the wrist bone, keep it snug without squeezing, and read the circumference where the tape overlaps. Example: 6.5 inches.">
+    </a>
+  </figure>
 </section>
 
 <details class="optional-panel"><summary>Optional · elbow and waist measurements</summary>
