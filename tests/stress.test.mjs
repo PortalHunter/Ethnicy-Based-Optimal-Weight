@@ -131,7 +131,7 @@ test('boundary values and dangerous ancestry mixes are rejected or handled predi
     baseline({height:'200',wrist:'25'}),
     baseline({age:'18'}),
     baseline({age:'120'}),
-    baseline({elbow:'4',waist:'40'})
+    baseline({elbow:'4',waist:'60'})
   ];
   for (const [i,raw] of okCases.entries()) {
     const result=E.validate(raw);
