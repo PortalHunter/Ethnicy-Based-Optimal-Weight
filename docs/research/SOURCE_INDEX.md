@@ -246,3 +246,22 @@ Each URL is accompanied by the research documents where it appeared. This does n
 - Source identity and quality should be checked against the original guideline version, study design, cohorts and population. Cross-team differences are documented in [the integration decisions](../EVIDENCE_INTEGRATION.md).
 - An ancestry-based BMI blend, experimental diabetes cap or pharmacogenetic allele frequency cannot be treated as a validated individual clinical recommendation.
 - No personal health inputs or genetic files are needed to browse the bibliography.
+
+
+## Phase 1 population profiles
+
+- **pop_hfe** — GeneReviews: HFE-Related Hemochromatosis, northern European ancestry.: https://www.ncbi.nlm.nih.gov/books/NBK1440/
+- **pop_finn** — The Finnish genetic heritage in 2022: founder variants and inherited disease.: https://pmc.ncbi.nlm.nih.gov/articles/PMC9637267/
+- **pop_thal** — CDC: Thalassemia inheritance, screening and population distribution.: https://www.cdc.gov/thalassemia/about/
+- **pop_apol1** — National Kidney Foundation: APOL1-Mediated Kidney Disease.: https://www.kidney.org/kidney-topics/apol1-mediated-kidney-disease-amkd
+- **pop_cdc** — Koyama et al. Cardiometabolic diseases among racial and ethnic subgroups. CDC MMWR 2024.: https://www.cdc.gov/mmwr/volumes/73/wr/mm7303a1.htm
+- **pop_tbc** — Moltke et al. Greenlandic TBC1D4 variant and diabetes risk. Nature 2014.: https://pubmed.ncbi.nlm.nih.gov/25043022/
+- **pop_cpt** — GeneReviews: CPT1A deficiency, Arctic variant, infant fasting tolerance.: https://www.ncbi.nlm.nih.gov/books/NBK1527/
+- **pop_fmf** — GeneReviews: Familial Mediterranean Fever, MEFV and population epidemiology.: https://www.ncbi.nlm.nih.gov/books/NBK1227/
+- **pop_samoa** — Minster et al. CREBRF and body mass index in Samoan populations. Nature Genetics 2016.: https://pubmed.ncbi.nlm.nih.gov/27455349/
+- **pop_samoa_dm** — CREBRF variants, diabetes and glucose in Polynesian populations. 2022.: https://pubmed.ncbi.nlm.nih.gov/35144939/
+- **pop_abs** — Australian Bureau of Statistics. Aboriginal and Torres Strait Islander Health Measures Survey 2022-24.: https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/national-aboriginal-and-torres-strait-islander-health-measures-survey/2022-24
+- **pop_fh** — GeneReviews: Familial Hypercholesterolemia and founder population estimates.: https://www.ncbi.nlm.nih.gov/books/NBK174884/
+- **pop_acog** — ACOG. Universal Hemoglobinopathy Testing, 2022; ancestry is a poor genetic proxy.: https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2022/08/hemoglobinopathies-in-pregnancy
+
+[Evidence scope and safeguards](../../research/PHASE1_POPULATION_PROFILES.md).
