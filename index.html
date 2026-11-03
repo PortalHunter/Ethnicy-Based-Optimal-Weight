@@ -67,6 +67,19 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 .population-note{margin:10px 0;padding:16px;border-left:3px solid #6e6e73;background:#f5f5f7;border-radius:10px}
 .population-note p{margin:5px 0}.population-choice select{max-width:100%}
 @media(min-width:700px){#singleBox{max-width:680px}.mix-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 20px}.mix-row label{grid-column:1}.mix-row select,.mix-row input{grid-column:2}}
+
+/* Accessible dual-unit measurement sliders; the existing numeric inputs and core remain authoritative. */
+.measurement-slider{margin:-2px 0 24px;padding:17px 19px;background:#f5f7fb;border:1px solid #e6eaf2;border-radius:17px}
+.measurement-slider-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.measurement-slider-head label{margin:0;font-size:14px;font-weight:650}
+.measurement-readouts{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:16px;font-variant-numeric:tabular-nums;font-weight:650}
+.measurement-readouts span{color:#92939b}
+.measurement-readouts output{color:#1d1d1f}
+.measurement-slider input[type=range]{display:block;width:100%;height:32px;min-height:32px;padding:0;margin:7px 0 0;border:0;border-radius:0;background:transparent;accent-color:#0071e3;cursor:pointer}
+.measurement-slider input[type=range]:focus-visible{outline:3px solid #0071e355;outline-offset:3px}
+.measurement-slider-ends{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:#6e6e73;font-variant-numeric:tabular-nums}
+.measurement-slider>.hint{display:block;margin-top:11px}
+@media(max-width:480px){.measurement-slider{padding:15px 14px}.measurement-readouts{font-size:15px}}
 </style></head>
 <body>
 <div class="topbar"><strong>Ancestry Health</strong><nav aria-label="Site navigation"><a href="#calculator">Calculator</a><a href="#personalSummary">Results</a><a href="research-preview.html">Research sources</a></nav></div>
@@ -97,6 +110,12 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 <div id="heightImperialFields" class="height-fields"><div><label for="heightFeet">Feet</label><input id="heightFeet" inputmode="numeric" type="text" placeholder="5" autocomplete="off"></div><div><label for="heightInches">Inches</label><input id="heightInches" inputmode="decimal" type="text" placeholder="10" autocomplete="off"></div></div>
 <div id="heightMetricField" hidden><label for="height">Centimeters</label><input type="text" inputmode="decimal" id="height" placeholder="178" autocomplete="off"></div><small class="hint">Inches must be less than 12.</small>
 </div><div class="form-group"><label for="heightUnit">Units</label><select id="heightUnit"><option value="in" selected>ft + in</option><option value="cm">cm</option></select></div></div>
+<div class="measurement-slider" role="group" aria-labelledby="heightSliderLabel">
+  <div class="measurement-slider-head"><label id="heightSliderLabel" for="heightSlider">Adjust height</label><div class="measurement-readouts"><output id="heightReadoutImperial" for="heightSlider heightFeet heightInches">—</output><span aria-hidden="true">·</span><output id="heightReadoutMetric" for="heightSlider height">—</output></div></div>
+  <input id="heightSlider" type="range" min="48" max="90" step="0.5" value="70" aria-describedby="heightSliderHint">
+  <div class="measurement-slider-ends"><span>4 ft (122 cm)</span><span>7 ft 6 in (229 cm)</span></div>
+  <small id="heightSliderHint" class="hint">Move the slider or type an exact height above. Both units update together.</small>
+</div>
 
 <div class="row">
 <div class="form-group">
@@ -107,6 +126,12 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 <label for="weightUnit">Weight unit</label>
 <select id="weightUnit"><option value="lb" selected>lbs</option><option value="kg">kg</option></select>
 </div>
+</div>
+<div class="measurement-slider" role="group" aria-labelledby="weightSliderLabel">
+  <div class="measurement-slider-head"><label id="weightSliderLabel" for="weightSlider">Adjust weight</label><div class="measurement-readouts"><output id="weightReadoutImperial" for="weightSlider weight">—</output><span aria-hidden="true">·</span><output id="weightReadoutMetric" for="weightSlider weight">—</output></div></div>
+  <input id="weightSlider" type="range" min="66" max="660" step="1" value="180" aria-describedby="weightSliderHint">
+  <div class="measurement-slider-ends"><span>66 lb (30 kg)</span><span>660 lb (299 kg)</span></div>
+  <small id="weightSliderHint" class="hint">Move the slider or type an exact weight above. Switch between pounds and kilograms at any time.</small>
 </div>
 
 <div class="row">
