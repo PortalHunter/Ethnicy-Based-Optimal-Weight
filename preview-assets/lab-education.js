@@ -9,7 +9,7 @@
     tg: ['ACC 2021 Hypertriglyceridemia Consensus', 'https://www.jacc.org/doi/10.1016/j.jacc.2021.06.011'],
     lab: ['MedlinePlus: Understanding Laboratory Results', 'https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/'],
     low: ['CDC: Low Blood Sugar', 'https://www.cdc.gov/diabetes/about/low-blood-sugar-hypoglycemia.html'],
-    potassium: ['National Kidney Foundation: Potassium', 'https://www.kidney.org/kidney-topics/potassium']
+    potassium: ['National Kidney Foundation: Potassium', 'https://www.kidney.org/kidney-topics/hyperkalemia-high-potassium']
   };
   var MARKERS = {
     a1c: {name: 'Hemoglobin A1c', units: ['%', 'mmol/mol']},
