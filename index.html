@@ -80,6 +80,37 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 .measurement-slider-ends{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:#6e6e73;font-variant-numeric:tabular-nums}
 .measurement-slider>.hint{display:block;margin-top:11px}
 @media(max-width:480px){.measurement-slider{padding:15px 14px}.measurement-readouts{font-size:15px}}
+
+/* Slider-first measurement cards: exact-entry fields remain in the same card, below the track. */
+.measurement-slider{margin:17px 0 24px;padding:24px 26px;background:linear-gradient(145deg,#eff6ff,#e8f1ff);border:1px solid #cedff7;border-radius:22px;box-shadow:0 5px 20px #1d487b09}
+.measurement-slider-head{align-items:center;gap:10px 16px;margin-bottom:13px}
+.measurement-slider-head label{font-size:19px;letter-spacing:-.015em;font-weight:750}
+.measurement-readouts{font-size:19px;gap:8px}
+.measurement-slider input[type=range]{height:44px;min-height:44px;margin:6px 0 0;touch-action:pan-y;accent-color:#0071e3}
+.measurement-slider-ends{font-size:12px;margin-top:0}
+.measurement-entry{border-top:1px solid #cfdded;margin-top:18px;padding-top:14px}
+.measurement-entry-title{font-size:13px;color:#495c73;font-weight:650;margin:0 0 10px}
+.measurement-entry .row{align-items:end}.measurement-entry .row>.form-group{flex:1;min-width:0;margin-bottom:0}
+.measurement-entry .row>.form-group:last-child{flex:0 0 min(34%,170px)}
+.measurement-entry .height-row{margin:0;grid-template-columns:1fr minmax(120px,170px);align-items:end}
+.measurement-entry .form-group label{font-size:13px}
+.measurement-entry input:not([type=range]),.measurement-entry select{background:#fff}
+.measurement-slider>.hint{margin:11px 0 0}
+.optional-panel>.hint{margin:8px 0 16px}
+.optional-panel>.measurement-slider{margin:18px 0;background:linear-gradient(145deg,#eff6ff,#e8f1ff)}
+.measurement-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:12px}
+.measurement-foot .hint{flex:1 1 220px}
+.measurement-reset{width:auto;min-height:36px;padding:7px 12px;margin:0;font-size:13px;font-weight:650;background:#fff;color:#0066cc;border:1px solid #bad2f2;border-radius:10px}
+.measurement-reset:hover{background:#e5efff}
+@media(max-width:480px){
+.measurement-slider{padding:19px 15px;border-radius:19px}
+.measurement-slider-head{align-items:flex-start}
+.measurement-readouts{font-size:17px}
+.measurement-entry .height-row{grid-template-columns:minmax(0,1fr) 110px;gap:9px}
+.measurement-entry .row>.form-group:last-child{flex:0 0 110px}
+.measurement-entry .height-fields{gap:7px}
+.measurement-entry input:not([type=range]),.measurement-entry select{padding:11px 8px}
+}
 </style></head>
 <body>
 <div class="topbar"><strong>Ancestry Health</strong><nav aria-label="Site navigation"><a href="#calculator">Calculator</a><a href="#personalSummary">Results</a><a href="research-preview.html">Research sources</a></nav></div>
@@ -106,65 +137,72 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 </div>
 
 </div>
-<div class="height-row"><div class="form-group"><label>Height</label>
-<div id="heightImperialFields" class="height-fields"><div><label for="heightFeet">Feet</label><input id="heightFeet" inputmode="numeric" type="text" placeholder="5" autocomplete="off"></div><div><label for="heightInches">Inches</label><input id="heightInches" inputmode="decimal" type="text" placeholder="10" autocomplete="off"></div></div>
-<div id="heightMetricField" hidden><label for="height">Centimeters</label><input type="text" inputmode="decimal" id="height" placeholder="178" autocomplete="off"></div><small class="hint">Inches must be less than 12.</small>
-</div><div class="form-group"><label for="heightUnit">Units</label><select id="heightUnit"><option value="in" selected>ft + in</option><option value="cm">cm</option></select></div></div>
-<div class="measurement-slider" role="group" aria-labelledby="heightSliderLabel">
-  <div class="measurement-slider-head"><label id="heightSliderLabel" for="heightSlider">Adjust height</label><div class="measurement-readouts"><output id="heightReadoutImperial" for="heightSlider heightFeet heightInches">—</output><span aria-hidden="true">·</span><output id="heightReadoutMetric" for="heightSlider height">—</output></div></div>
+
+<section class="measurement-slider" role="group" aria-labelledby="heightSliderLabel">
+  <div class="measurement-slider-head">
+    <label id="heightSliderLabel" for="heightSlider">Height</label>
+    <div class="measurement-readouts"><output id="heightReadoutImperial" for="heightSlider heightFeet heightInches">—</output><span aria-hidden="true">·</span><output id="heightReadoutMetric" for="heightSlider height">—</output></div>
+  </div>
   <input id="heightSlider" type="range" min="48" max="90" step="0.5" value="70" aria-describedby="heightSliderHint">
   <div class="measurement-slider-ends"><span>4 ft (122 cm)</span><span>7 ft 6 in (229 cm)</span></div>
-  <small id="heightSliderHint" class="hint">Move the slider or type an exact height above. Both units update together.</small>
-</div>
+  <div class="measurement-entry">
+    <p class="measurement-entry-title">Or enter your exact height</p>
+    <div class="height-row">
+      <div class="form-group">
+        <div id="heightImperialFields" class="height-fields"><div><label for="heightFeet">Feet</label><input id="heightFeet" inputmode="numeric" type="text" placeholder="5" autocomplete="off"></div><div><label for="heightInches">Inches</label><input id="heightInches" inputmode="decimal" type="text" placeholder="10" autocomplete="off"></div></div>
+        <div id="heightMetricField" hidden><label for="height">Centimeters</label><input type="text" inputmode="decimal" id="height" placeholder="178" autocomplete="off"></div>
+      </div>
+      <div class="form-group"><label for="heightUnit">Units</label><select id="heightUnit"><option value="in" selected>ft + in</option><option value="cm">cm</option></select></div>
+    </div>
+  </div>
+  <small id="heightSliderHint" class="hint">The slider and exact entry stay in sync. Inches must be less than 12.</small>
+</section>
 
-<div class="row">
-<div class="form-group">
-<label for="weight">Weight</label>
-<input type="text" inputmode="decimal" id="weight" placeholder="e.g. 160" autocomplete="off">
-</div>
-<div class="form-group">
-<label for="weightUnit">Weight unit</label>
-<select id="weightUnit"><option value="lb" selected>lbs</option><option value="kg">kg</option></select>
-</div>
-</div>
-<div class="measurement-slider" role="group" aria-labelledby="weightSliderLabel">
-  <div class="measurement-slider-head"><label id="weightSliderLabel" for="weightSlider">Adjust weight</label><div class="measurement-readouts"><output id="weightReadoutImperial" for="weightSlider weight">—</output><span aria-hidden="true">·</span><output id="weightReadoutMetric" for="weightSlider weight">—</output></div></div>
+<section class="measurement-slider" role="group" aria-labelledby="weightSliderLabel">
+  <div class="measurement-slider-head"><label id="weightSliderLabel" for="weightSlider">Weight</label><div class="measurement-readouts"><output id="weightReadoutImperial" for="weightSlider weight">—</output><span aria-hidden="true">·</span><output id="weightReadoutMetric" for="weightSlider weight">—</output></div></div>
   <input id="weightSlider" type="range" min="66" max="660" step="1" value="180" aria-describedby="weightSliderHint">
   <div class="measurement-slider-ends"><span>66 lb (30 kg)</span><span>660 lb (299 kg)</span></div>
-  <small id="weightSliderHint" class="hint">Move the slider or type an exact weight above. Switch between pounds and kilograms at any time.</small>
-</div>
+  <div class="measurement-entry">
+    <p class="measurement-entry-title">Or enter your exact weight</p>
+    <div class="row"><div class="form-group"><label for="weight">Weight</label><input type="text" inputmode="decimal" id="weight" placeholder="e.g. 160" autocomplete="off"></div>
+    <div class="form-group"><label for="weightUnit">Units</label><select id="weightUnit"><option value="lb" selected>lbs</option><option value="kg">kg</option></select></div></div>
+  </div>
+  <small id="weightSliderHint" class="hint">Move the slider or type a precise value. Pounds and kilograms are both displayed.</small>
+</section>
 
-<div class="row">
-<div class="form-group">
-<label for="wrist">Wrist circumference (narrowest point, just past the wrist bone toward the hand)</label>
-<input type="text" inputmode="decimal" id="wrist" placeholder="e.g. 6.8" autocomplete="off">
-</div>
-<div class="form-group">
-<label for="wristUnit">Wrist unit</label>
-<select id="wristUnit"><option value="in" selected>inches</option><option value="cm">cm</option></select>
-</div>
-</div>
+<section class="measurement-slider" role="group" aria-labelledby="wristSliderLabel">
+  <div class="measurement-slider-head"><label id="wristSliderLabel" for="wristSlider">Wrist circumference</label><div class="measurement-readouts"><output id="wristReadoutImperial" for="wristSlider wrist">—</output><span aria-hidden="true">·</span><output id="wristReadoutMetric" for="wristSlider wrist">—</output></div></div>
+  <input id="wristSlider" type="range" min="4" max="9.8" step="0.05" value="6.8" aria-describedby="wristSliderHint">
+  <div class="measurement-slider-ends"><span>4 in (10.2 cm)</span><span>9.8 in (24.9 cm)</span></div>
+  <div class="measurement-entry"><p class="measurement-entry-title">Or enter your exact wrist circumference</p>
+    <div class="row"><div class="form-group"><label for="wrist">Wrist</label><input type="text" inputmode="decimal" id="wrist" placeholder="e.g. 6.8" autocomplete="off"></div>
+    <div class="form-group"><label for="wristUnit">Units</label><select id="wristUnit"><option value="in" selected>inches</option><option value="cm">cm</option></select></div></div>
+  </div>
+  <small id="wristSliderHint" class="hint">Measure at the narrowest point, just past the wrist bone toward the hand.</small>
+</section>
 
-<details class="optional-panel"><summary>Optional · elbow and waist measurements</summary><div class="row"><div class="form-group"><label for="elbow">Elbow breadth (optional; arm bent 90&deg;, width across the two bony points)</label>
-<input type="text" inputmode="decimal" id="elbow" placeholder="e.g. 2.8" autocomplete="off">
-</div>
-<div class="form-group">
-<label for="elbowUnit">Elbow unit</label>
-<select id="elbowUnit"><option value="in" selected>inches</option><option value="cm">cm</option></select>
-</div>
-</div>
-
-<div class="row">
-<div class="form-group">
-<label for="waist">Waist circumference (optional; midway between lowest rib and top of hip bone)</label>
-<input type="text" inputmode="decimal" id="waist" placeholder="e.g. 32" autocomplete="off">
-</div>
-<div class="form-group">
-<label for="waistUnit">Waist unit</label>
-<select id="waistUnit"><option value="in" selected>inches</option><option value="cm">cm</option></select>
-</div>
-</div>
-
+<details class="optional-panel"><summary>Optional · elbow and waist measurements</summary>
+  <p class="hint">These are optional. Moving a slider enters a measurement; leave a field blank to skip it.</p>
+  <section class="measurement-slider" role="group" aria-labelledby="elbowSliderLabel">
+    <div class="measurement-slider-head"><label id="elbowSliderLabel" for="elbowSlider">Elbow breadth</label><div class="measurement-readouts"><output id="elbowReadoutImperial" for="elbowSlider elbow">—</output><span aria-hidden="true">·</span><output id="elbowReadoutMetric" for="elbowSlider elbow">—</output></div></div>
+    <input id="elbowSlider" type="range" min="1.6" max="3.9" step="0.05" value="2.8" aria-describedby="elbowSliderHint">
+    <div class="measurement-slider-ends"><span>1.6 in (4.1 cm)</span><span>3.9 in (9.9 cm)</span></div>
+    <div class="measurement-entry"><p class="measurement-entry-title">Or enter your exact elbow breadth</p>
+      <div class="row"><div class="form-group"><label for="elbow">Elbow (optional)</label><input type="text" inputmode="decimal" id="elbow" placeholder="e.g. 2.8" autocomplete="off"></div>
+      <div class="form-group"><label for="elbowUnit">Units</label><select id="elbowUnit"><option value="in" selected>inches</option><option value="cm">cm</option></select></div></div>
+    </div>
+    <div class="measurement-foot"><small id="elbowSliderHint" class="hint">Arm bent 90°, measure across the two bony points.</small><button id="elbowClear" class="measurement-reset" type="button">Clear elbow</button></div>
+  </section>
+  <section class="measurement-slider" role="group" aria-labelledby="waistSliderLabel">
+    <div class="measurement-slider-head"><label id="waistSliderLabel" for="waistSlider">Waist circumference</label><div class="measurement-readouts"><output id="waistReadoutImperial" for="waistSlider waist">—</output><span aria-hidden="true">·</span><output id="waistReadoutMetric" for="waistSlider waist">—</output></div></div>
+    <input id="waistSlider" type="range" min="16" max="78.5" step="0.5" value="34" aria-describedby="waistSliderHint">
+    <div class="measurement-slider-ends"><span>16 in (40.6 cm)</span><span>78.5 in (199.4 cm)</span></div>
+    <div class="measurement-entry"><p class="measurement-entry-title">Or enter your exact waist circumference</p>
+      <div class="row"><div class="form-group"><label for="waist">Waist (optional)</label><input type="text" inputmode="decimal" id="waist" placeholder="e.g. 32" autocomplete="off"></div>
+      <div class="form-group"><label for="waistUnit">Units</label><select id="waistUnit"><option value="in" selected>inches</option><option value="cm">cm</option></select></div></div>
+    </div>
+    <div class="measurement-foot"><small id="waistSliderHint" class="hint">Measure midway between the lowest rib and the top of the hip bone.</small><button id="waistClear" class="measurement-reset" type="button">Clear waist</button></div>
+  </section>
 </details><hr class="divider-line"><h3 class="form-heading">Your background</h3><p class="form-description">Ancestry gives population context, not your individual genes.</p><div class="form-group">
 <label>Ancestry / family heritage</label>
 <p class="hint">Choose a broad region, then a more specific population if you wish. These descriptions do not reveal your genes or create a diagnosis. Mixed ancestry is supported.</p>
