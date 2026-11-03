@@ -106,6 +106,60 @@ test('live site shows results below the form, works on phones, and matches the c
       assert.equal(await b.$eval('#results',el=>getComputedStyle(el).display),'block');
       assert.equal(await text(a,'#sugRange'),await text(b,'#sugRange'));
     });
+    await t.test('all five slider-first cards keep exact-entry fields inside the blue card',async()=>{
+      const layout = await b.evaluate(()=>{
+        return ['height','weight','wrist','elbow','waist'].map(name=>{
+          const slider=document.getElementById(name+'Slider');
+          const input=document.getElementById(name==='height'?'heightFeet':name);
+          const card=slider.closest('.measurement-slider');
+          return {name, cardHasInput:card.contains(input),sliderBeforeInput:!!(slider.compareDocumentPosition(input)&Node.DOCUMENT_POSITION_FOLLOWING),isBlueCard:getComputedStyle(card).backgroundImage.includes('gradient'),unitInside:card.contains(document.getElementById(name+'Unit'))};
+        });
+      });
+      assert.equal(layout.length,5);
+      for(const entry of layout) {
+        assert.equal(entry.cardHasInput,true,entry.name+' input should be inside card');
+        assert.equal(entry.sliderBeforeInput,true,entry.name+' slider should be first');
+        assert.equal(entry.isBlueCard,true,entry.name+' should have blue card styling');
+        assert.equal(entry.unitInside,true,entry.name+' unit selector should be inside card');
+      }
+      assert.equal(await b.$eval('#elbow',el=>el.value),'','optional elbow must start empty');
+      assert.equal(await b.$eval('#waist',el=>el.value),'','optional waist must start empty');
+    });
+    await t.test('wrist slider updates both units without changing the math',async()=>{
+      await b.$eval('#wristSlider',el=>{el.value='7.5';el.dispatchEvent(new Event('input',{bubbles:true}));});
+      assert.equal(await b.$eval('#wrist',el=>el.value),'7.5');
+      assert.equal(await text(b,'#wristReadoutMetric'),'19.1 cm');
+      await b.select('#wristUnit','cm');
+      assert.equal(await b.$eval('#wrist',el=>el.value),'19.05');
+      await b.$eval('#wrist',el=>{el.value='17.78';el.dispatchEvent(new Event('input',{bubbles:true}));});
+      assert.equal(await text(b,'#wristReadoutImperial'),'7 in');
+      await b.select('#wristUnit','in');
+      assert.equal(await b.$eval('#wrist',el=>el.value),'7');
+      assert.equal(await text(a,'#sugRange'),await text(b,'#sugRange'));
+    });
+    await t.test('optional elbow and waist sliders enter, convert and clear values',async()=>{
+      // Merely opening the optional panel never silently supplies a measurement.
+      await b.$eval('.optional-panel',el=>{el.open=true;});
+      assert.equal(await b.$eval('#elbow',el=>el.value),'');
+      assert.equal(await b.$eval('#waist',el=>el.value),'');
+      await b.$eval('#elbowSlider',el=>{el.value='2.8';el.dispatchEvent(new Event('input',{bubbles:true}));});
+      await b.$eval('#waistSlider',el=>{el.value='34';el.dispatchEvent(new Event('input',{bubbles:true}));});
+      assert.equal(await b.$eval('#elbow',el=>el.value),'2.8');
+      assert.equal(await b.$eval('#waist',el=>el.value),'34');
+      assert.equal(await text(b,'#elbowReadoutMetric'),'7.1 cm');
+      assert.equal(await text(b,'#waistReadoutMetric'),'86.4 cm');
+      await b.select('#waistUnit','cm');
+      assert.equal(await b.$eval('#waist',el=>el.value),'86.36');
+      await b.click('#elbowClear');
+      await b.click('#waistClear');
+      assert.equal(await b.$eval('#elbow',el=>el.value),'');
+      assert.equal(await b.$eval('#waist',el=>el.value),'');
+      assert.equal(await text(b,'#elbowReadoutMetric'),'—');
+      assert.equal(await text(b,'#waistReadoutImperial'),'—');
+      assert.equal(await b.$eval('#results',el=>getComputedStyle(el).display),'block');
+      assert.equal(await text(a,'#sugRange'),await text(b,'#sugRange'));
+      await b.$eval('.optional-panel',el=>{el.open=false;});
+    });
     await t.test('condition-sensitive result summary uses existing calculated buffer',async()=>{
       await a.bringToFront();
       await a.evaluate(() => document.querySelector('.cond[value="diabetes"]').click());
