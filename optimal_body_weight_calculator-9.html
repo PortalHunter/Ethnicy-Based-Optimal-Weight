@@ -30,7 +30,16 @@ table.t { border-collapse: collapse; width: 100%; font-size: 0.85rem; margin: 8p
 table.t th, table.t td { border: 1px solid #dee2e6; padding: 4px 6px; text-align: left; }
 tr.me td { font-weight: 700; outline: 2px solid #d00; }
 .b0 { background: #cce5ff; } .b1 { background: #d4edda; } .b2 { background: #fff3cd; } .b3 { background: #f8d7da; }
-details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
+details { margin: 8px 0; }
+.population-choice { margin-top: 12px; }
+.population-choice label { margin-top: 8px; }
+.mix-row { padding: 12px; border: 1px solid #dee2e6; border-radius: 12px; background: white; }
+.heritage-extra { margin-top: 14px; }
+.population-note { margin: 10px 0; padding: 12px; border-left: 3px solid #64748b; background: #f8fafc; }
+.population-note p { margin: 6px 0; }
+.weight-first { border: 1px solid #bfdbfe; background: #eff6ff; border-radius: 12px; padding: 16px; margin: 10px 0 18px; }
+.weight-first .main-range { font-size: clamp(1.4rem, 3.5vw, 2rem); line-height: 1.3; font-weight: 750; margin: 6px 0; }
+ summary { cursor: pointer; color: #0d6efd; }
 .hint { font-size: 0.8rem; color: #6c757d; font-weight: normal; }
 [hidden] { display: none !important; }
 [aria-invalid="true"] { border: 2px solid #d00; background: #fff5f5; }
@@ -114,24 +123,57 @@ details { margin: 8px 0; } summary { cursor: pointer; color: #0d6efd; }
 </div>
 
 <div class="form-group">
-<label>Ancestry / ethnic makeup</label>
+<label>Ancestry / family heritage</label>
+<p class="hint">Choose a broad region, then a more specific population if you wish. These descriptions do not reveal your genes or create a diagnosis. Mixed ancestry is supported.</p>
 <div class="inline">
-<label class="inline"><input type="radio" name="ancestryMode" value="single" checked> One main ancestry</label>
-&nbsp; <label class="inline"><input type="radio" name="ancestryMode" value="mixed"> Mixed (enter percentages)</label>
+<label class="inline"><input type="radio" name="ancestryMode" value="single" checked> One main background</label>
+&nbsp; <label class="inline"><input type="radio" name="ancestryMode" value="mixed"> Mixed backgrounds (percentages)</label>
 </div>
-<div id="singleBox"><select id="ancestry" aria-label="Ancestry"></select></div>
+<div id="singleBox" class="population-choice">
+  <label for="singleRegion">Region / heritage</label><select id="singleRegion"><option value="">-- choose --</option></select>
+  <label for="singleDetail">Specific population (optional)</label><select id="singleDetail" disabled><option value="">Use broad classification</option></select>
+  <select id="ancestry" aria-label="Underlying ancestry category" hidden></select>
+</div>
 <div id="mixedBox" hidden>
-<div class="row"><div><select id="mixAnc1" aria-label="Ancestry 1"></select></div><div><input type="text" inputmode="decimal" id="mixPct1" placeholder="%" aria-label="Percent for ancestry 1"></div></div>
-<div class="row" style="margin-top:6px"><div><select id="mixAnc2" aria-label="Ancestry 2"></select></div><div><input type="text" inputmode="decimal" id="mixPct2" placeholder="%" aria-label="Percent for ancestry 2"></div></div>
-<div class="row" style="margin-top:6px"><div><select id="mixAnc3" aria-label="Ancestry 3"></select></div><div><input type="text" inputmode="decimal" id="mixPct3" placeholder="%" aria-label="Percent for ancestry 3"></div></div>
-<div id="mixTotal" class="hint"></div>
-<fieldset id="cutoffBox" style="margin-top:8px;border:0;padding:0">
-<legend>Which BMI and waist cut-offs to use</legend>
-<label class="inline"><input type="radio" name="cutoffMode" value="identify" checked> Use cut-offs for the background I identify with (default; the ADA 2026 approach)</label>
-<select id="identifyWith" aria-label="Background you identify with"><option value="">-- enter backgrounds above --</option></select><br>
-<label class="inline"><input type="radio" name="cutoffMode" value="blend"> Blend by percentage (the calculator's own method, not guideline-based)</label>
-<div class="hint">The background with the largest share is picked until you choose one (if two are equal, the first one entered).</div>
-</fieldset>
+  <p class="hint">Up to three backgrounds, with percentages totaling 100%. You may choose two different subgroups within a broad region.</p>
+  <div class="population-choice mix-row">
+    <label for="mixRegion1">Background 1</label><select id="mixRegion1"><option value="">-- choose --</option></select>
+    <label for="mixDetail1">Specific population (optional)</label><select id="mixDetail1" disabled><option value="">Use broad classification</option></select>
+    <label for="mixPct1">Percentage</label><input id="mixPct1" type="text" inputmode="decimal" placeholder="e.g. 50" autocomplete="off">
+    <select id="mixAnc1" aria-label="Underlying ancestry 1" hidden></select>
+  </div>
+  <div class="population-choice mix-row">
+    <label for="mixRegion2">Background 2</label><select id="mixRegion2"><option value="">-- choose --</option></select>
+    <label for="mixDetail2">Specific population (optional)</label><select id="mixDetail2" disabled><option value="">Use broad classification</option></select>
+    <label for="mixPct2">Percentage</label><input id="mixPct2" type="text" inputmode="decimal" placeholder="e.g. 50" autocomplete="off">
+    <select id="mixAnc2" aria-label="Underlying ancestry 2" hidden></select>
+  </div>
+  <div class="population-choice mix-row">
+    <label for="mixRegion3">Background 3</label><select id="mixRegion3"><option value="">-- choose --</option></select>
+    <label for="mixDetail3">Specific population (optional)</label><select id="mixDetail3" disabled><option value="">Use broad classification</option></select>
+    <label for="mixPct3">Percentage</label><input id="mixPct3" type="text" inputmode="decimal" placeholder="e.g. 0" autocomplete="off">
+    <select id="mixAnc3" aria-label="Underlying ancestry 3" hidden></select>
+  </div>
+  <div id="mixTotal" class="hint" aria-live="polite"></div>
+  <fieldset id="cutoffBox" style="margin-top:8px;border:0;padding:0">
+    <legend>Which BMI and waist cut-offs to use</legend>
+    <label class="inline"><input type="radio" name="cutoffMode" value="identify" checked> Use the background I identify with (guideline default)</label>
+    <select id="identifyWith" aria-label="Background you identify with"><option value="">-- enter backgrounds above --</option></select>
+    <label class="inline"><input type="radio" name="cutoffMode" value="blend"> Blend by percentage (experimental; not guideline-based)</label>
+    <p class="hint">Until you select one, the background with the largest share is used. The optional blended cutoff is this calculator's own unvalidated method.</p>
+  </fieldset>
+</div>
+<div class="heritage-extra">
+<label for="heritageProfile">Additional family / founder heritage (optional)</label>
+<select id="heritageProfile">
+  <option value="none">None selected</option>
+  <option value="ashkenazi">Ashkenazi Jewish</option>
+  <option value="sephardic">Sephardic / Mizrahi Jewish</option>
+  <option value="frenchcanadian">French Canadian / Québec founder ancestry</option>
+  <option value="finnish">Finnish founder ancestry</option>
+  <option value="otherfounder">Other known founder-population heritage</option>
+</select>
+<p class="hint">Independent of your ancestry category. This adds research notes only. The static calculator does not transmit these selections to a server.</p>
 </div>
 </div>
 
@@ -170,7 +212,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
 </script>
 
 <div class="disclaimer">
-<strong>About these numbers.</strong> This is an educational estimate, not medical advice. BMI cannot tell muscle from fat, and the cut-offs are less reliable for very muscular people, people 65 and over, and during pregnancy (do not use it if pregnant). Ancestry cut-offs and gene notes describe population averages, not you personally. Frame size from a tape measure is approximate, and the ideal-weight formulas date from mid-20th-century US data. For these reasons the page gives ranges, not a single "perfect" weight. If you have a medical condition, check any weight or diet change with your doctor or a registered dietitian.
+<strong>About these numbers.</strong> Detailed population and founder-heritage selections add cited educational notes only; they never alter the weight calculations or clinical thresholds. Ethnicity is not a genetic test, and family history, diagnoses and lab results can be more informative.  This is an educational estimate, not medical advice. BMI cannot tell muscle from fat, and the cut-offs are less reliable for very muscular people, people 65 and over, and during pregnancy (do not use it if pregnant). Ancestry cut-offs and gene notes describe population averages, not you personally. Frame size from a tape measure is approximate, and the ideal-weight formulas date from mid-20th-century US data. For these reasons the page gives ranges, not a single "perfect" weight. If you have a medical condition, check any weight or diet change with your doctor or a registered dietitian.
 <details><summary>Limitations and how this calculator works</summary>
 <ul>
 <li><strong>Healthy range:</strong> BMI 18.5 up to the population's overweight cut-off (25 under WHO international cut-offs; 23 for groups NICE and WHO 2004 assign lower thresholds). The upper edge shown is 0.1 below the cut-off.</li>
@@ -920,10 +962,40 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
   }
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
 
-  function ancestryOptions(selected) {
-    return Object.keys(E.ANCESTRIES).map(function (k) {
+  function ancestryOptions(selected, includeSubgroups) {
+    return Object.keys(E.ANCESTRIES).filter(function (k) { return includeSubgroups || !E.ANCESTRIES[k].parent; }).map(function (k) {
       return '<option value="' + k + '"' + (k === selected ? ' selected' : '') + '>' + esc(E.ANCESTRIES[k].label) + '</option>';
     }).join('');
+  }
+
+
+  // UI adapter only: the original validation and weight algorithms read these
+  // underlying ancestry keys and remain unchanged.
+  function regionInfo(key) {
+    for (var i = 0; i < E.POP_REGIONS.length; i++) if (E.POP_REGIONS[i][0] === key) return E.POP_REGIONS[i];
+    return null;
+  }
+  function setupPopulationRow(prefix, underlyingId) {
+    var region = $(prefix+'Region'), detail = $(prefix+'Detail'), underlying = $(underlyingId);
+    region.innerHTML = '<option value="">-- choose --</option>' + E.POP_REGIONS.map(function (r) {
+      return '<option value="'+esc(r[0])+'">'+esc(r[1])+'</option>';
+    }).join('');
+    function sync(reset) {
+      var r = regionInfo(region.value), previous = reset ? '' : detail.value;
+      detail.innerHTML = '<option value="">Use broad classification</option>' +
+        (r ? r[3].map(function (a) {return '<option value="'+esc(a[0])+'">'+esc(a[1])+'</option>';}).join('') : '');
+      detail.disabled = !r || !r[3].length;
+      detail.value = r && r[3].some(function (a) {return a[0]===previous;}) ? previous : '';
+      underlying.value = r ? (detail.value || r[2]) : '';
+      refreshIdentify();
+    }
+    region.addEventListener('change', function () {sync(true);});
+    detail.addEventListener('change', function () {
+      var r = regionInfo(region.value);
+      underlying.value = r ? (detail.value || r[2]) : '';
+      refreshIdentify();
+    });
+    sync(true);
   }
 
   // Keep the identify-with list in step with the ancestries entered. A choice the person made is kept while
@@ -1013,8 +1085,10 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
   var FIELD_IDS = ['sex', 'age', 'height', 'weight', 'wrist', 'elbow', 'waist', 'ancestry', 'mixAnc1', 'mixPct1', 'mixAnc2', 'mixPct2', 'mixAnc3', 'mixPct3', 'identifyWith'];
   function markInvalid(ids) {
     FIELD_IDS.forEach(function (id) {
-      var el = $(id);
-      if (ids.indexOf(id) >= 0) el.setAttribute('aria-invalid', 'true'); else el.removeAttribute('aria-invalid');
+      var el=$(id), visibleId = id==='ancestry' ? 'singleRegion' : id.indexOf('mixAnc')===0 ? 'mixRegion'+id.slice(6) : id;
+      var visible=$(visibleId)||el;
+      if (ids.indexOf(id)>=0) {el.setAttribute('aria-invalid','true');visible.setAttribute('aria-invalid','true');}
+      else {el.removeAttribute('aria-invalid');visible.removeAttribute('aria-invalid');}
     });
   }
   // A unit typed in the box (e.g. "178cm", "180 lbs", 5'10") wins over the selector; keep the selector in step.
@@ -1056,9 +1130,25 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
   function render(res, r, unit) {
     var v = res.values, c = E.cite;
     var h = '<h2>Results</h2>';
+    if (!r.noRange) {
+      var first = r.buffered || r.suggested;
+      var edge = first.method==='at_cap' ||
+        (first.method==='edge' && first.reason!=='short');
+      var display = first.method==='at_cap' ? fmtEdge(first.highKg, 'ceiling', v.heightCm, unit) :
+        edge ? fmtEdge(first.lowKg, first.reason==='formulas_above' ? 'ceiling' : 'floor', v.heightCm, unit) :
+        fmtRange(first.lowKg, first.highKg, unit);
+      h += '<div class="weight-first" id="primaryWeight"><strong>Your estimated weight range</strong>' +
+        '<div class="main-range">'+display+'</div>' +
+        '<small>Educational estimate, not a clinical target; the population details below never change its formulas.</small></div>';
+    }
     if (res.warnings.length) h += '<div class="warn">' + res.warnings.map(esc).join('<br>') + '</div>';
     if (r.noRange === 'pregnancy') {
       h += '<div class="highlight" id="pregNote"><strong>No weight range is shown during pregnancy or breastfeeding.</strong> The BMI cut-offs and ideal-weight formulas on this page are for adults who are not pregnant, and weight change in pregnancy and while breastfeeding is expected and healthy. How much gain is advised depends on your weight before pregnancy, so please ask your midwife, obstetrician or doctor for a target, and do not use this page to plan weight loss now. The food notes below may still be useful; check any diet change with your care team.</div>';
+      var pregSubgroups=res.values.ancestries.map(function (x) {return x.key;}).filter(function (k) {return !!E.ANCESTRIES[k].parent;});
+      pregSubgroups.forEach(function (k) {
+        h += '<div class="population-note"><strong>'+esc(E.ANCESTRIES[k].label)+'</strong><p>'+E.populationNote(k)+'</p></div>';
+      });
+      if (E.heritageNote($('heritageProfile').value)) h += '<div class="population-note"><strong>Family heritage</strong><p>'+E.heritageNote($('heritageProfile').value)+'</p></div>';
       h += '<h2>Food &amp; nutrition notes</h2><ul>' + r.food.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul>';
       h += '<h2>References</h2><ol class="sources" id="refList"></ol>';
       var po = $('results'); po.innerHTML = h; po.style.display = 'block';
@@ -1094,6 +1184,18 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     var notes = {};
     v.ancestries.forEach(function (a) { notes[a.key] = true; });
     h += '<ul class="notes">' + Object.keys(notes).map(function (k) { return '<li><strong>' + esc(E.ANCESTRIES[k].label) + (v.ancestries.length > 1 ? ' (' + v.ancestries.filter(function (a) { return a.key === k; })[0].pct + '%)' : '') + ':</strong> ' + E.ancestryNote(k) + '</li>'; }).join('') + '</ul>';
+
+    // Research cards are informational; they never enter weight calculations.
+    var subgroups = Object.keys(notes).filter(function (k) {return !!E.ANCESTRIES[k].parent;});
+    var heritage = E.heritageNote($('heritageProfile').value);
+    if (subgroups.length || heritage) {
+      h += '<h3>Population-informed health information (not a diagnosis)</h3>';
+      subgroups.forEach(function (k) {
+        h += '<div class="population-note"><strong>'+esc(E.ANCESTRIES[k].label)+'</strong><p>'+E.populationNote(k)+'</p></div>';
+      });
+      if (heritage) h += '<div class="population-note"><strong>Additional founder / family heritage</strong><p>'+heritage+'</p></div>';
+      h += '<p class="hint">Population statistics do not identify your genotype. Family history, clinical measurements and testing take priority. Ancestry never rules someone out of indicated screening. '+c('pop_acog')+'</p>';
+    }
 
     // Buffer zone (display; lower-cut-off ancestry only)
     var z = r.bufferZone;
@@ -1154,7 +1256,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
 
     // Chart
     h += '<h2>Wrist size vs BMI chart</h2>';
-    h += '<label for="chartAncestry">Show cut-offs for:</label><select id="chartAncestry">' + (r.group.mixedGroups ? '<option value="__mine" selected>Your ancestry mix (' + esc(g.name) + ')</option>' : '') + ancestryOptions(r.group.mixedGroups ? '' : r.cutoffAncestries[0].key) + '</select>';
+    h += '<label for="chartAncestry">Show cut-offs for:</label><select id="chartAncestry">' + (r.group.mixedGroups ? '<option value="__mine" selected>Your ancestry mix (' + esc(g.name) + ')</option>' : '') + ancestryOptions(r.group.mixedGroups ? '' : (E.ANCESTRIES[r.cutoffAncestries[0].key].parent || r.cutoffAncestries[0].key)) + '</select>';
     h += '<div id="chartBox"></div>';
 
     // Height table
@@ -1257,8 +1359,14 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
   }
 
   function init() {
-    $('ancestry').innerHTML = '<option value="">-- choose --</option>' + ancestryOptions('');
-    for (var i = 1; i <= 3; i++) { $('mixAnc' + i).innerHTML = '<option value="">-- choose --</option>' + ancestryOptions(''); $('mixPct' + i).addEventListener('input', updateMixTotal); $('mixPct' + i).addEventListener('input', refreshIdentify); }
+    $('ancestry').innerHTML = '<option value="">-- choose --</option>' + ancestryOptions('', true);
+    setupPopulationRow('single', 'ancestry');
+    for (var i = 1; i <= 3; i++) {
+      $('mixAnc' + i).innerHTML = '<option value="">-- choose --</option>' + ancestryOptions('', true);
+      setupPopulationRow('mix'+i, 'mixAnc'+i);
+      $('mixPct' + i).addEventListener('input', updateMixTotal);
+      $('mixPct' + i).addEventListener('input', refreshIdentify);
+    }
     Array.prototype.forEach.call(document.querySelectorAll('input[name="ancestryMode"]'), function (el) { el.addEventListener('change', syncMode); });
     // Mark a choice the person made (on 'input' too: it reaches this element before the form's live recalculation).
     var markChoice = function () { $('identifyWith').dataset.user = '1'; };
