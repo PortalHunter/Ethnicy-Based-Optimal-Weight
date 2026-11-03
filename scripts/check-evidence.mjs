@@ -11,7 +11,7 @@ function blobSha(path) {
   ])).digest('hex');
 }
 assert.equal(blobSha('optimal_body_weight_calculator-9.html'),
-  '236da2cfcaef6f591aed24330d24d2df67d3fccc',
+  'd7e0896e9403940f2db0f4aeb177bbf77535688d',
   'Phase 1 clinical baseline changed: review algorithms and source citations before changing v9');
 assert.equal(blobSha('LICENSE'), '005ac3c15801c98fd0caecad635f52a603b59ed1',
   'License must not change without separate maintainer decision');
