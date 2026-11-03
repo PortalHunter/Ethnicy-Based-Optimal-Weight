@@ -224,6 +224,9 @@ test('live site: pregnancy and optional measurements', { skip:!CHROME && 'Chrome
     await p.type('#weight','140'); await p.type('#wrist','6');
     assert.equal(await p.$eval('#pregBox',e=>e.hidden),false);
     assert.equal(await p.$eval('.optional-panel',e=>e.open),false);
+    // The form uses smooth scrolling; stabilize the viewport before a pointer click
+    // so Chrome cannot hit the previous location while scrolling back upward.
+    await p.$eval('#pregnant',el=>el.scrollIntoView({behavior:'instant',block:'center'}));
     await p.click('#pregnant');
     assert.equal(await p.$eval('#pregnant',e=>e.checked),true,'checkbox must accept browser click');
     await p.click('#calcBtn');
