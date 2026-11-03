@@ -27,9 +27,18 @@ test('published preview loads separate JavaScript files and fully initializes', 
     await page.type('#wrist','7');
     await page.select('#singleRegion','southeastasia');
     await page.select('#singleDetail','sea_philippines');
+    await page.evaluate(() => {
+      window.__submitCount = 0;
+      document.getElementById('calcForm').addEventListener('submit', () => { window.__submitCount++; }, true);
+    });
     await page.click('#calcBtn');
     const details = await page.evaluate(() => ({
       summaryHidden: document.getElementById('personalSummary').hidden,
+      submitCount: window.__submitCount,
+      formOfButton: document.getElementById('calcBtn').form?.id,
+      formValidity: document.getElementById('calcForm').checkValidity(),
+      href: window.location.href,
+      jsNoticeHidden: document.getElementById('jsNotice').hidden,
       errorText: document.getElementById('errors').textContent,
       errorHidden: document.getElementById('errors').hidden,
       sex: document.getElementById('sex').value,
