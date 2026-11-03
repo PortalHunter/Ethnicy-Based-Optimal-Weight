@@ -62,12 +62,12 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style></head>
 <body>
-<div class="topbar"><strong>Ancestry Health · Research preview</strong><nav aria-label="Site navigation"><a href="#personalSummary">Your estimate</a><a href="#calculator">Calculator</a><a href="research-preview.html">Research sources</a></nav></div>
+<div class="topbar"><strong>Ancestry Health · Research preview</strong><nav aria-label="Site navigation"><a href="#calculator">Calculator</a><a href="#personalSummary">Results</a><a href="research-preview.html">Research sources</a></nav></div>
 <main>
 <header class="hero"><p class="eyebrow">Understand your numbers</p><h1>A clearer view of your weight and health.</h1><p>An ancestry-aware educational estimate, with transparent evidence and explanations.</p><a class="pill" href="#calculator">Enter your details</a></header>
-<section id="personalSummary" aria-labelledby="summaryTitle"><p class="eyebrow">Your result · first things first</p><h2 id="summaryTitle">Your ancestry &amp; health-condition weight estimate</h2><p class="intro">An experimental estimate, not a clinically validated medical target.</p><div id="resultsEmpty">Enter your details below to see the range first. All formulas, charts, and citations remain available beneath the summary.</div><div id="results" aria-live="polite"></div></section>
+
 <section id="calculator" class="input-panel"><h2>Tell us about yourself.</h2><p class="intro">Your measurements are calculated in the browser; they are not submitted to a server.</p>
-<div id="researchPreviewNotice" role="note" class="warn"><strong>Research preview:</strong> All existing calculation rules and references are unchanged. Some ancestry and diabetes adjustments are unvalidated research heuristics, not medical advice. <a href="research-preview.html">Read the evidence.</a></div>
+<div id="researchPreviewNotice" role="note" class="warn"><strong>Research preview:</strong> All existing calculation rules and references are unchanged. Some ancestry and diabetes adjustments are unvalidated research heuristics, not medical advice. <a href="research-preview.html">View scientific references.</a></div>
 <div id="jsNotice" role="alert">If you can read this, the viewer you opened this file in is not running the calculator's script, so the Calculate button will not work. Open the file in Safari, Chrome, Firefox or Edge. On iPhone/iPad, use Share &rarr; Open in Safari rather than the Files or Mail preview; on a Mac, open it in a browser rather than Quick Look.</div>
 <noscript><div class="fatal">JavaScript is turned off or blocked, so this calculator cannot run. Turn JavaScript on, or open the file in Safari, Chrome, Firefox or Edge.</div></noscript>
 
@@ -168,7 +168,9 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 
 <div id="errors" role="alert" tabindex="-1" hidden></div>
 <button type="submit" id="calcBtn">See my weight-range estimate</button>
-</form></section><section class="notes-panel"><p style="font-size:0.85rem; color:#555; margin-top:8px;"><strong>Measurement tips:</strong> use a soft tape; measure the wrist at its narrowest point just beyond the wrist bone (toward the hand) <a href="https://medlineplus.gov/ency/imagepages/17182.htm" target="_blank" rel="noopener noreferrer">(MedlinePlus)</a>. Elbow breadth is the width between the two bony points of the elbow with the arm bent at 90&deg;, ideally with a caliper; a tape against a ruler is less accurate. Errors of a tenth of an inch can change the frame result near a cut-off.</p>
+</form></section>
+<section id="personalSummary" aria-labelledby="summaryTitle" hidden><p class="eyebrow">Your personalized estimate</p><h2 id="summaryTitle">Your ancestry &amp; health-condition weight estimate</h2><p class="intro">An experimental estimate, not a clinically validated medical target.</p><div id="resultsEmpty" hidden></div><div id="results" aria-live="polite"></div></section>
+<section class="notes-panel"><p style="font-size:0.85rem; color:#555; margin-top:8px;"><strong>Measurement tips:</strong> use a soft tape; measure the wrist at its narrowest point just beyond the wrist bone (toward the hand) <a href="https://medlineplus.gov/ency/imagepages/17182.htm" target="_blank" rel="noopener noreferrer">(MedlinePlus)</a>. Elbow breadth is the width between the two bony points of the elbow with the arm bent at 90&deg;, ideally with a caliper; a tape against a ruler is less accurate. Errors of a tenth of an inch can change the frame result near a cut-off.</p>
 
 <script id="calc-guard">
 /* Loaded first: if anything later fails, show a plain message instead of failing silently. */
@@ -987,7 +989,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
       if (!res.ok) {
         errBox.innerHTML = '<strong>Please fix the following:</strong><ul>' + res.errors.map(function (e) { return '<li>' + esc(e) + '</li>'; }).join('') + '</ul>';
         errBox.hidden = false;
-        out.style.display = 'none'; out.innerHTML = ''; $('resultsEmpty').hidden = false;   // never leave stale results on screen
+        out.style.display = 'none'; out.innerHTML = ''; $('personalSummary').hidden = true; $('resultsEmpty').hidden = true;   // never leave stale results on screen
         lastValues = lastResult = null;
         if (userClicked) { errBox.scrollIntoView({ block: 'center' }); errBox.focus(); }
         return false;
@@ -996,10 +998,11 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
       errBox.hidden = true; errBox.innerHTML = '';
       lastValues = res.values; lastUnit = res.unitOverrides.weight || raw.weightUnit;
       lastResult = E.calculate(res.values);
-      render(res, lastResult, lastUnit); $('resultsEmpty').hidden = true;
+      render(res, lastResult, lastUnit); $('resultsEmpty').hidden = true; $('personalSummary').hidden = false;
        return true;
     } catch (err) {
       lastValues = lastResult = null;
+      $('personalSummary').hidden = false;
       window.ebowShowFatal(err && err.message ? err.message : String(err));
       return false;
     }

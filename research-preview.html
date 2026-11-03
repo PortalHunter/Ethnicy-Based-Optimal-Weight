@@ -2,101 +2,88 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Research-only educational overview integrating ancestry, hereditary nutrition and pharmacogenetics findings, without clinical predictions.">
-<title>Integrated Health Research — Ancestry, Nutrition and Pharmacogenetics</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Published studies and clinical guidelines informing the Ancestry Health educational calculator.">
+<title>Research &amp; Scientific Sources | Ancestry Health</title>
 <style>
-:root { color-scheme:light; font-family:system-ui,-apple-system,sans-serif; line-height:1.65; color:#202734; background:#f6f8fa; }
-body { max-width:1000px; margin:auto; padding:16px 20px 60px; }
-header,main section { background:white; padding:18px 24px; border:1px solid #dce1e8; border-radius:12px; margin:18px 0; }
-h1 { font-size:1.9rem; line-height:1.2; } h2 { margin-top:0; font-size:1.45rem; } h3 {font-size:1.08rem; margin-bottom:4px;}
-p,li { max-width:82ch; } nav a { margin-right:16px; }
-a { color:#095c97; } a:focus-visible { outline:3px solid #f39c2f; outline-offset:3px; }
-.notice {padding:12px 16px; background:#fff3d8; border-left:5px solid #946400; border-radius:6px;}
-.status {font-weight:bold; color:#5d3156;}
-.summary {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:12px;}
-.summary article { border:1px solid #dce1e8; border-radius:8px; padding:14px; }
-table { width:100%; border-collapse:collapse; font-size:.94rem; }
-th,td {padding:8px; border:1px solid #cfd7e2; text-align:left; vertical-align:top;}
-th {background:#eef1f5;}
-details {margin:8px 0;padding:10px;border:1px solid #dce1e8;border-radius:8px;}
-summary {cursor:pointer;font-weight:600;} small {color:#5f6878;}
-footer { margin-top:28px; font-size:.9rem; }
-@media(max-width:640px) { body {padding:10px;} header,main section {padding:15px;} table {display:block;overflow-x:auto;} }
+:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#1d1d1f;background:#f5f5f7;line-height:1.55}
+*{box-sizing:border-box}body{margin:0}a{color:#0066cc;text-decoration:none}a:hover{text-decoration:underline}
+nav{background:#fff;border-bottom:1px solid #e5e5ea;padding:17px max(20px,calc((100vw - 1080px)/2));display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}nav strong{font-size:16px}nav a{font-size:14px}
+main{max-width:1080px;margin:auto;padding:25px 20px 50px}
+header{text-align:center;padding:42px 10px 32px}h1{font-size:clamp(34px,5.3vw,58px);letter-spacing:-.055em;line-height:1.12;margin:0 0 19px}header p{max-width:680px;margin:0 auto;color:#666870;font-size:18px}
+.muted{color:#6e6e73}.source-section,.intro-note{padding:30px 36px;border-radius:22px;background:#fff;border:1px solid #e8e8ed;margin-bottom:20px}
+h2{font-size:clamp(23px,3vw,30px);letter-spacing:-.035em;line-height:1.2;margin:0 0 10px}
+details{margin-top:20px;border-top:1px solid #ededf0;padding-top:14px}
+summary{font-weight:650;color:#0066cc;cursor:pointer;padding:5px 0}
+.references{padding-left:24px;margin:20px 0 0}.references li{padding:9px 0;border-bottom:1px solid #f2f2f4;overflow-wrap:anywhere}
+.references li:last-child{border-bottom:0}
+footer{max-width:1080px;margin:0 auto 45px;padding:0 20px;color:#6e6e73;font-size:13px}
+:focus-visible{outline:3px solid #0066cc;outline-offset:3px}
+@media(max-width:650px){header{padding:30px 0}.source-section,.intro-note{padding:22px 18px;border-radius:17px}.references{padding-left:22px}}
 </style>
 </head>
 <body>
-<header>
-<h1>Integrated ancestry, hereditary nutrition and medication-response research</h1>
-<p class="status">Research-only educational reference · Evidence cut-off: November 1, 2026 · No clinical validation</p>
-<div class="notice"><strong>Important:</strong> This page does not ask for health details, infer your genotype, diagnose conditions, predict individual disease risk, recommend medication or doses, or generate weight targets. Population differences are not individual genetic test results. Clinical questions belong with qualified clinicians.</div>
-<nav aria-label="Page sections">
-<a href="#ancestry">Ancestry and anthropometry</a>
-<a href="#nutrition">Hereditary and nutritional evidence</a>
-<a href="#pharmacogenetics">Pharmacogenetics</a>
-<a href="#integration">Evidence boundaries</a>
-</nav>
-<p><a href="optimal_body_weight_calculator-11-ui-preview.html">New result-first calculator interface (experimental; original math unchanged)</a> · <a href="optimal_body_weight_calculator-10-research-preview.html">Previous interface preview</a> · <a href="optimal_body_weight_calculator-9.html">Original unchanged calculator</a></p>
-</header>
+<nav><strong>Ancestry Health</strong><a href="optimal_body_weight_calculator-11-ui-preview.html">Back to calculator</a></nav>
 <main>
-<section aria-labelledby="overview">
-<h2 id="overview">How to read this research</h2>
-<div class="summary">
-<article><h3>Guideline screening</h3><p>A professional group's criteria for defined populations, years and jurisdictions. Not a medical diagnosis or personal ideal weight.</p></article>
-<article><h3>Population observation</h3><p>Associations and prevalence from specific cohorts. Neither a deterministic genetic mechanism nor your predicted probability.</p></article>
-<article><h3>Experimental or not actionable</h3><p>Unvalidated hypotheses or calculator heuristics must not affect treatment, medication, or personal weight targets.</p></article>
-</div>
-<p>Research provenance is retained in the <a href="docs/EVIDENCE_INTEGRATION.md">integration decision log</a> and each team's original evidence matrix. Evidence grades in those documents are research-team judgments, not independent certification.</p>
+<header><h1>Research &amp; scientific sources.</h1><p>Explore the published research and clinical guidance informing the calculator and its educational explanations.</p></header>
+<div class="intro-note"><strong>How to interpret the evidence</strong><p>These references come from studies, professional guidance and medical information resources. They do not establish a clinically validated personal ideal weight. Where research concerns populations or genetic variants, it cannot predict a particular person's health or medication response. Some calculator methods are experimental and are explained as such alongside the results.</p><p class="muted">Some links lead to full research papers; others lead to abstracts, professional guidance or secondary summaries. Sources and guidelines may change over time.</p></div>
+<section class="source-section" id="body-weight">
+<h2>Body weight, BMI and ancestry</h2><p class="muted">Population-specific research, anthropometry and weight-estimation methods.</p>
+<details open><summary>Browse 25 references</summary><ol class="references"><li><a href="https://pubmed.ncbi.nlm.nih.gov/14726171/" target="_blank" rel="noopener noreferrer">WHO Expert Consultation. Appropriate body-mass index for Asian populations and its implications for policy and intervention strategies. Lancet. 2004;363(9403):157-163.</a></li>
+<li><a href="https://www.nice.org.uk/guidance/ng246/chapter/identifying-and-assessing-overweight-obesity-and-central-adiposity" target="_blank" rel="noopener noreferrer">NICE guideline NG246. Overweight and obesity management: identifying and assessing overweight, obesity and central adiposity (recs 1.9.10-1.9.15, 2022 wording).</a></li>
+<li><a href="https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight" target="_blank" rel="noopener noreferrer">WHO. Obesity and overweight - fact sheet (adult BMI classification).</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/33989535/" target="_blank" rel="noopener noreferrer">Caleyachetty R, et al. Ethnicity-specific BMI cutoffs for obesity based on type 2 diabetes risk in England: a population-based cohort study. Lancet Diabetes Endocrinol. 2021;9(7):419-426.</a></li>
+<li><a href="https://www.hi-r-ed.com/Anthro/Frame%20size%20(p4).htm" target="_blank" rel="noopener noreferrer">Grant JP. Handbook of Total Parenteral Nutrition. Philadelphia: W.B. Saunders; 1980 (source of the height/wrist &quot;r&quot; frame cut-offs; book, not online - secondary summary linked).</a></li>
+<li><a href="https://medlineplus.gov/ency/imagepages/17182.htm" target="_blank" rel="noopener noreferrer">MedlinePlus Medical Encyclopedia. Calculating body frame size (wrist measurement; a simpler alternative wrist chart).</a></li>
+<li><a href="https://halls.md/met-life-ideal-weight.html" target="_blank" rel="noopener noreferrer">Metropolitan Life Insurance Co. 1983 height-weight tables: elbow breadth for medium frame (heights in 1-inch heels) - reproduced with instructions at halls.md.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/6823895/" target="_blank" rel="noopener noreferrer">Frisancho AR, Flegel PN. Elbow breadth as a measure of frame size for US males and females. Am J Clin Nutr. 1983;37(2):311-314.</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4841935/" target="_blank" rel="noopener noreferrer">Peterson CM, Thomas DM, Blackburn GL, Heymsfield SB. Universal equation for estimating ideal body weight and body weight at any BMI. Am J Clin Nutr. 2016 (Table 3 lists the Hamwi, Devine, Robinson and Miller equations).</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/6869387/" target="_blank" rel="noopener noreferrer">Robinson JD, et al. Determination of ideal body weight for drug dosage calculations. Am J Hosp Pharm. 1983;40(6):1016-1019.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/10981254/" target="_blank" rel="noopener noreferrer">Pai MP, Paloucek FP. The origin of the &quot;ideal&quot; body weight equations. Ann Pharmacother. 2000;34(9):1066-1069.</a></li>
+<li><a href="https://www.anfponline.org/docs/default-source/supplemental-textbook-material/nf2015/nutrition-common-formulas-and-calculations-(2).pdf" target="_blank" rel="noopener noreferrer">Association of Nutrition &amp; Foodservice Professionals. Common Nutrition Calculations (Hamwi formula with -10% small / +10% large frame adjustment).</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/9877251/" target="_blank" rel="noopener noreferrer">Deurenberg P, Yap M, van Staveren WA. Body mass index and percent body fat: a meta analysis among different ethnic groups. Int J Obes Relat Metab Disord. 1998;22(12):1164-1171.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/10578208/" target="_blank" rel="noopener noreferrer">Swinburn BA, Ley SJ, Carmichael HE, Plank LD. Body size and composition in Polynesians. Int J Obes Relat Metab Disord. 1999;23(11):1178-1183.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/28915801/" target="_blank" rel="noopener noreferrer">Papier K, D'Este C, Bain C, et al. Body mass index and type 2 diabetes in Thai adults: defining risk thresholds and population impacts. BMC Public Health. 2017;17(1):707.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/19324946/" target="_blank" rel="noopener noreferrer">Odegaard AO, Koh WP, Vazquez G, et al. BMI and diabetes risk in Singaporean Chinese. Diabetes Care. 2009;32(6):1104-1106.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/16672195/" target="_blank" rel="noopener noreferrer">Asia Pacific Cohort Studies Collaboration. Body mass index and risk of diabetes mellitus in the Asia-Pacific region. Asia Pac J Clin Nutr. 2006;15(2):127-133.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/36273116/" target="_blank" rel="noopener noreferrer">Vicks WS, Lo JC, Guo L, et al. Prevalence of prediabetes and diabetes vary by ethnicity among U.S. Asian adults at healthy weight, overweight, and obesity ranges: an electronic health record study. BMC Public Health. 2022;22(1):1954.</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10472166/" target="_blank" rel="noopener noreferrer">Taylor R, Barnes AC, Hollingsworth KG, et al. Aetiology of Type 2 diabetes in people with a 'normal' body mass index: testing the personal fat threshold hypothesis (ReTUNE). Clin Sci (Lond). 2023;137(16):1333-1346.</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4995441/" target="_blank" rel="noopener noreferrer">Global BMI Mortality Collaboration. Body-mass index and all-cause mortality: individual-participant-data meta-analysis of 239 prospective studies in four continents. Lancet. 2016;388(10046):776-786.</a></li>
+<li><a href="https://diabetesjournals.org/docm-care/article/1/4/536/170058/Screening-Diagnosis-Evaluation-and-Staging-of" target="_blank" rel="noopener noreferrer">American Diabetes Association. 3. Screening, Diagnosis, Evaluation, and Staging of Obesity in Adults: Standards of Care in Overweight and Obesity-2026. Diabetes Obes Cardiometab Care. 2026;1(4):536-571. doi:10.2337/doci26-0003 (Table 3.1, recs 3.3a-3.3d).</a></li>
+<li><a href="https://iris.who.int/handle/10665/206936" target="_blank" rel="noopener noreferrer">World Health Organization Regional Office for the Western Pacific, International Association for the Study of Obesity, International Obesity Task Force. The Asia-Pacific perspective: redefining obesity and its treatment. Sydney: Health Communications Australia; 2000 (section 2, Table 2.2; provisional cut-offs).</a></li>
+<li><a href="https://asean-endocrinejournal.org/index.php/JAFES/article/view/357" target="_blank" rel="noopener noreferrer">Pagsisihan D, Sandoval MA, Paz-Pacheco E, Jimeno C. Low indices of overweight and obesity are associated with cardiometabolic diseases among adult Filipinos in a rural community. J ASEAN Fed Endocr Soc. 2016;31(2).</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5118592/" target="_blank" rel="noopener noreferrer">Battie CA, Borja-Hart N, Ancheta IB, Flores R, Rao G, Palaniappan L. Comparison of body mass index, waist circumference, and waist to height ratio in the prediction of hypertension and diabetes mellitus: Filipino-American women cardiovascular study. Prev Med Rep. 2016;4:608-613.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/21345101/" target="_blank" rel="noopener noreferrer">Zheng W, McLerran DF, Rolland B, et al. Association between body-mass index and risk of death in more than 1 million Asians. N Engl J Med. 2011;364(8):719-729.</a></li></ol></details>
 </section>
-<section id="ancestry" aria-labelledby="anc-title">
-<h2 id="anc-title">1. Ancestry and metabolic screening</h2>
-<p><strong>Key conclusion:</strong> More specific heritage categories can improve how research populations are described, but do not establish new Scandinavian, Mediterranean, Mexican or Brazilian “optimal BMI” cutoffs. Keep measured BMI, waist circumference and waist-to-height ratio conceptually separate from risk prediction and treatment goals. <a href="docs/research/source/01_Ancestry_Research_Review.md">Team 1 review</a> · <a href="docs/research/source/01_Ancestry_Evidence_Matrix.md">ANC evidence matrix</a>.</p>
-<h3>Research taxonomy — descriptive, not numeric</h3>
-<details><summary>European regional backgrounds</summary><p>Research descriptions may distinguish Nordic/Scandinavian (while separately respecting Finnish and Sámi contexts), Mediterranean Europe, Central Europe, Eastern Europe, Baltic regions and the Balkans. There is no validated region-specific correction that should alter someone's BMI threshold or ideal weight merely from these labels. <a href="docs/research/source/01_Ancestry_Calculator_Recommendations.md">ANC-006–008 and recommendations</a>.</p></details>
-<details><summary>Central America, South America and Caribbean backgrounds</summary><p>Mexican, Central American, Caribbean, Andean, Brazilian and Southern Cone descriptions can be recorded without turning nationality into genomic percentages. Afro-Latin identity and Indigenous American nations require respectful nonexclusive options. Cohort differences can reflect migration, structural exposures, lifestyle and access to care; no universal ancestry adjustment follows. <a href="docs/research/source/01_Ancestry_Research_Review.md">ANC-010–020</a>.</p></details>
-<details><summary>Mixed background, screening and jurisdiction</summary><p>Guideline decision criteria, self-identification, family history and DNA estimates are not interchangeable. NICE UK and ADA US approaches must retain their own labels. A percentage-blended cutoff is an experimental calculator method, not a guideline. The existing calculator's automatic ancestry-based diabetes weight cap is also not a validated treatment target. <a href="docs/research/source/01_Ancestry_Calculator_Recommendations.md">ANC-024–027: priority corrections</a>.</p></details>
-<p><strong>Practical message:</strong> A BMI in a conventional “normal” range does not rule out elevated blood pressure, glucose abnormalities or lipid disorders. Assessments require clinical context rather than automatic ethnic adjustment.</p>
+<section class="source-section" id="nutrition">
+<h2>Metabolic health and nutrition</h2><p class="muted">Evidence on diabetes, blood pressure, dietary choices, inherited conditions and metabolism.</p>
+<details ><summary>Browse 20 references</summary><ol class="references"><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12690172/" target="_blank" rel="noopener noreferrer">American Diabetes Association. 8. Obesity and Weight Management for the Prevention and Treatment of Diabetes: Standards of Care in Diabetes-2026. Diabetes Care.</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12690188/" target="_blank" rel="noopener noreferrer">American Diabetes Association. 5. Facilitating Positive Health Behaviors and Well-being to Improve Health Outcomes: Standards of Care in Diabetes-2026. Diabetes Care (recs 5.14, 5.24).</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/11832527/" target="_blank" rel="noopener noreferrer">Diabetes Prevention Program Research Group (Knowler WC, et al.). Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med. 2002;346(6):393-403.</a></li>
+<li><a href="https://www.ahajournals.org/doi/10.1161/CIR.0000000000001356" target="_blank" rel="noopener noreferrer">2025 AHA/ACC/multisociety Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults. Circulation. 2025.</a></li>
+<li><a href="https://www.nhlbi.nih.gov/education/dash/following-dash" target="_blank" rel="noopener noreferrer">NHLBI. Following the DASH eating plan.</a></li>
+<li><a href="https://www.cdc.gov/high-blood-pressure/data-research/facts-stats/index.html" target="_blank" rel="noopener noreferrer">CDC. High blood pressure facts (prevalence by race and ethnicity).</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/32954416/" target="_blank" rel="noopener noreferrer">Hasan B, et al. Weight loss and serum lipids in overweight and obese adults: a systematic review and meta-analysis. J Clin Endocrinol Metab. 2020;105(12):dgaa673.</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/books/NBK551722/" target="_blank" rel="noopener noreferrer">StatPearls (NCBI Bookshelf). Dietary Therapy for LDL Cholesterol Reduction.</a></li>
+<li><a href="https://www.nccih.nih.gov/health/providers/digest/high-cholesterol-and-natural-products-science" target="_blank" rel="noopener noreferrer">NCCIH. High Cholesterol and Natural Products: What the Science Says.</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/" target="_blank" rel="noopener noreferrer">FitzGerald JD, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res. 2020;72(6):744-760.</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3401057/" target="_blank" rel="noopener noreferrer">Mattar R, de Campos Mazo DF, Carrilho FJ. Lactose intolerance: diagnosis, genetic, and clinical factors. Clin Exp Gastroenterol. 2012;5:113-121.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/17828263/" target="_blank" rel="noopener noreferrer">Perry GH, et al. Diet and the evolution of human amylase gene copy number variation. Nat Genet. 2007;39(10):1256-1260.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/27188529/" target="_blank" rel="noopener noreferrer">Kothapalli KS, et al. Positive selection on a regulatory insertion-deletion polymorphism in FADS2 influences apparent endogenous synthesis of arachidonic acid. Mol Biol Evol. 2016;33(7):1726-1739.</a></li>
+<li><a href="https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1638843/full" target="_blank" rel="noopener noreferrer">Precision nutrition across climates: decoding diet, tradition, and genomic adaptations from South Asia to the Arctic. Front Nutr. 2025.</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2659709/" target="_blank" rel="noopener noreferrer">Brooks PJ, Enoch MA, Goldman D, Li TK, Yokoyama A. The alcohol flushing response: an unrecognized risk factor for esophageal cancer from alcohol consumption. PLoS Med. 2009;6(3):e50.</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/7695785/" target="_blank" rel="noopener noreferrer">Yoshida A. Genetic polymorphisms of alcohol metabolizing enzymes related to alcohol sensitivity and alcoholic diseases. Alcohol Alcohol. 1994;29(6):693-696.</a></li>
+<li><a href="https://www.niddk.nih.gov/health-information/liver-disease/hemochromatosis/definition-facts" target="_blank" rel="noopener noreferrer">NIDDK. Definition &amp; Facts for Hemochromatosis.</a></li>
+<li><a href="https://www.niddk.nih.gov/health-information/liver-disease/hemochromatosis/eating-diet-nutrition" target="_blank" rel="noopener noreferrer">NIDDK. Eating, Diet, &amp; Nutrition for Hemochromatosis.</a></li>
+<li><a href="https://www.niddk.nih.gov/health-information/liver-disease/hemochromatosis/treatment" target="_blank" rel="noopener noreferrer">NIDDK. Treatment of Hemochromatosis.</a></li>
+<li><a href="https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition" target="_blank" rel="noopener noreferrer">NIDDK. Eating, Diet, &amp; Nutrition for Celiac Disease.</a></li></ol></details>
 </section>
-<section id="nutrition" aria-labelledby="nut-title">
-<h2 id="nut-title">2. Hereditary disease and individual dietary response</h2>
-<p><strong>Key conclusion:</strong> Verified diagnosis, actual phenotype and relevant laboratory findings can be clinically important; family history alone cannot establish a disease or determine a specialized diet. <a href="docs/research/source/02_Hereditary_Health_Research_Review.md">Team 2 review</a> · <a href="docs/research/source/02_Nutrition_Evidence_Matrix.md">NUT evidence matrix</a>.</p>
-<table>
-<thead><tr><th>Topic</th><th>Evidence-informed interpretation</th><th>Boundary</th></tr></thead>
-<tbody>
-<tr><td>Diabetes and family history</td><td>First-degree affected relatives are one element of guideline-concordant screening discussions. Record confirmed diagnosis separately from parent affected, sibling affected or uncertain family history.</td><td>Maternal-versus-paternal patterns or offspring sex cannot independently assign a diet or diabetes probability without direct, validated evidence.</td></tr>
-<tr><td>Familial hypercholesterolemia</td><td>Suspected/diagnosed FH calls for specialist assessment, lipid evaluation and sometimes family cascade testing, beyond generic diet advice.</td><td>Do not equate a checkbox for high cholesterol with a confirmed inherited FH diagnosis.</td></tr>
-<tr><td>Celiac disease</td><td>A gluten-free diet is relevant to confirmed celiac disease under medical/dietetic management.</td><td>Do not recommend diagnostic elimination merely from ancestry; testing may need to occur before gluten removal.</td></tr>
-<tr><td>Hereditary hemochromatosis</td><td>Interpret iron indices and pathogenic variants clinically; population variant frequencies differ.</td><td>Genetic susceptibility does not by itself prove iron overload; avoid automatic iron bans or supplementation.</td></tr>
-<tr><td>Lactose digestion</td><td>Symptoms and tolerability guide food choices; lactase persistence variants vary in frequency.</td><td>Ancestry does not diagnose lactose intolerance or require universal dairy avoidance.</td></tr>
-<tr><td>Rare metabolic disorders</td><td>Some confirmed fatty-acid oxidation disorders make fasting or ketogenic diets unsafe.</td><td>No automated ketogenic/fasting recommendations based on family history or unverified genes.</td></tr>
-</tbody>
-</table>
-<p><strong>Evidence IDs:</strong> NUT- claims are maintained separately from ANC- and PGX- claims. They never automatically change an individual BMI, diet or medication calculation.</p>
-<p><strong>Further reading:</strong> <a href="docs/research/source/02_Dietary_Response_Research.md">Dietary response evidence</a>, <a href="docs/research/source/02_Nutrition_Calculator_Recommendations.md">Nutrition module design</a>, <a href="docs/research/source/02_Nutrition_Clinical_Validation.md">Clinical validation roadmap</a>. This module intentionally gives no person-specific treatment directions.</p>
-</section>
-<section id="pharmacogenetics" aria-labelledby="pgx-title">
-<h2 id="pgx-title">3. Pharmacogenetics and population differences in drug response</h2>
-<p><strong>Key conclusion:</strong> Pharmacogenetics uses specific measured variants and validated context—not assumed ethnicity—to interpret some medication responses. CPIC often advises how to act <em>when a genotype is already known</em>; that is different from whether everyone should undergo pre-treatment testing. <a href="docs/research/source/03_Pharmacogenetics_Research_Review.md">Team 3 review</a> · <a href="docs/research/source/03_Pharmacogenetics_Evidence_Matrix.md">PGX evidence matrix</a>.</p>
-<table>
-<thead><tr><th>Research example</th><th>Why it matters</th><th>What this tool does not do</th></tr></thead>
-<tbody>
-<tr><td>CYP2C19 and clopidogrel (PGX-001)</td><td>Variant-defined metabolism can be relevant in some cardiovascular indications.</td><td>No antiplatelet choice or medication recommendation.</td></tr>
-<tr><td>HLA-B*15:02 and carbamazepine (PGX-003)</td><td>Some tested genotypes are associated with severe cutaneous reactions.</td><td>No ancestry-based carrier assumption or drug risk score.</td></tr>
-<tr><td>HLA-B*58:01 and allopurinol (PGX-005)</td><td>Testing policy, allele prevalence and drug-specific clinical guidance differ.</td><td>No automatic population-based test order or prescription advice.</td></tr>
-<tr><td>TPMT / NUDT15 and thiopurines (PGX-007–008, PGX-036)</td><td>Variant interpretation and professional recommendations require current corrected tables.</td><td>No dose calculation or stale allele-to-phenotype table.</td></tr>
-<tr><td>CYP2D6, DPYD, SLCO1B1 (PGX-009–018)</td><td>Some medically relevant findings rely on structural variation, variant coverage, drug and indication.</td><td>No “normal” genotype inference from untested variants.</td></tr>
-<tr><td>GLP1R / GIPR weight-loss associations</td><td>Emerging population associations are research questions, not validated treatment-selection tools.</td><td>No GLP-1 drug choice based on heritage or candidate genetic markers.</td></tr>
-</tbody>
-</table>
-<p><strong>Research quality warning:</strong> An allele's population frequency is not an individual's genotype, a carrier rate or an adverse-event probability. Panel incompleteness and research underrepresentation can cause inequitable interpretations. Any future clinical module requires independently reviewed phenotype assignments, assay validation and medical oversight. <a href="docs/research/source/03_Population_Medication_Response.md">Population evidence</a> · <a href="docs/research/source/03_Pharmacogenetics_Clinical_Validation.md">Regulatory/clinical roadmap</a>.</p>
-</section>
-<section id="integration" aria-labelledby="integrate-title">
-<h2 id="integrate-title">4. Cross-team implementation rules</h2>
-<p>ANC, NUT and PGX research are peers. A claim from one stream cannot silently alter another stream's calculations or clinical conclusions. Cross-references are evidence links, not algorithmic dependencies. Release of user-facing medical recommendations requires a qualified reviewer, source/version verification, human approval, explicit intended use and a prospective validation plan where necessary.</p>
-<p><strong>No-go until approved:</strong> ancestry-percentage personal BMI targets, numeric ethnic diabetes weight ceilings, family-history genetic diagnosis, automated therapeutic diet changes, medication selection/doses, and genomic uploads. This page makes no such calculations.</p>
-<p><a href="docs/research/SOURCE_INDEX.md">Complete bibliography and all research file links</a> · <a href="docs/EVIDENCE_INTEGRATION.md">Integration decisions</a> · <a href="docs/CLINICAL_REVIEW.md">Evidence approval process</a> · <a href="PRIVACY.md">Privacy and data limits</a> · <a href="README.md">Repository overview</a></p>
+<section class="source-section" id="pharmacogenetics">
+<h2>Pharmacogenetics</h2><p class="muted">Professional resources on specific gene–drug relationships and their interpretation; not medication advice.</p>
+<details ><summary>Browse 3 references</summary><ol class="references"><li><a href="https://cpicpgx.org/guidelines/" target="_blank" rel="noopener noreferrer">Clinical Pharmacogenetics Implementation Consortium (CPIC): Clinical practice guidelines</a></li>
+<li><a href="https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations" target="_blank" rel="noopener noreferrer">U.S. Food and Drug Administration: Table of Pharmacogenetic Associations</a></li>
+<li><a href="https://www.clinpgx.org/" target="_blank" rel="noopener noreferrer">ClinPGx: Pharmacogenomics evidence and drug labeling resources</a></li></ol></details>
 </section>
 </main>
-<footer><p>Open-source research preview. Literature cut-off: 2026-11-01. Evidence labels and policies require periodic updates; this static page does not check your current health status, medications or regulatory jurisdiction.</p></footer>
-</body>
-</html>
+<footer><p>Educational information only. This page contains published sources, not patient-specific medical or prescribing advice. Research documents used during development are maintained separately in the repository.</p></footer>
+</body></html>
