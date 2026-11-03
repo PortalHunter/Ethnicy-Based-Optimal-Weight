@@ -140,7 +140,77 @@
     $('heightImperialFields').hidden = to !== 'in';
     $('heightMetricField').hidden = to !== 'cm';
   }
+
+  // Sliders are presentation-only controls. Existing height/weight fields remain the
+  // authoritative inputs read by EBOW.validate; never round manually entered values.
+  function normalizeSpacedHeight() {
+    if ($('heightUnit').value !== 'in' || $('heightInches').value.trim()) return;
+    // A common input such as "5 10" in the feet box should not cause an error.
+    var m = /^([3-8])\\s+(\\d{1,2}(?:[.,]\\d+)?)$/.exec($('heightFeet').value.trim());
+    if (!m) return;
+    var inches = E.parseNum(m[2]);
+    if (inches === null || !isFinite(inches) || inches < 0 || inches >= 12) return;
+    $('heightFeet').value = m[1];
+    $('heightInches').value = String(inches);
+  }
+  function currentHeightInches() {
+    var p = E.parseMeasure(visibleHeight(), 'length', true);
+    if (p.empty || p.error || p.value === undefined) return null;
+    var inches = p.unit === 'cm' || (!p.unit && $('heightUnit').value === 'cm') ? p.value / E.IN_TO_CM : p.value;
+    return isFinite(inches) && inches > 0 ? inches : null;
+  }
+  function updateHeightSlider() {
+    var inches = currentHeightInches(), readIn = $('heightReadoutImperial'), readCm = $('heightReadoutMetric');
+    if (inches === null) { readIn.textContent = '—'; readCm.textContent = '—'; return; }
+    var ft = Math.floor(inches / 12), rem = E.round(inches - ft * 12, 2);
+    if (rem >= 12) { ft++; rem = 0; }
+    readIn.textContent = ft + ' ft ' + rem + ' in';
+    readCm.textContent = E.round(inches * E.IN_TO_CM, 1) + ' cm';
+    var slider = $('heightSlider');
+    slider.value = String(Math.max(Number(slider.min), Math.min(Number(slider.max), inches)));
+  }
+  function currentWeightKg() {
+    var p = E.parseMeasure($('weight').value, 'weight', false);
+    if (p.empty || p.error || p.value === undefined) return null;
+    var src = p.unit || $('weightUnit').value;
+    var kg = src === 'kg' ? p.value : p.value * E.LB_TO_KG;
+    return isFinite(kg) && kg > 0 ? kg : null;
+  }
+  function updateWeightSlider() {
+    var kg = currentWeightKg(), readLb = $('weightReadoutImperial'), readKg = $('weightReadoutMetric');
+    if (kg === null) { readLb.textContent = '—'; readKg.textContent = '—'; return; }
+    var lb = E.kgToLb(kg);
+    readLb.textContent = E.round(lb, 1) + ' lb';
+    readKg.textContent = E.round(kg, 1) + ' kg';
+    var slider = $('weightSlider');
+    slider.value = String(Math.max(Number(slider.min), Math.min(Number(slider.max), lb)));
+  }
+  function setupMeasurementSliders() {
+    $('heightSlider').addEventListener('input', function () {
+      var inches = Number(this.value), feet = Math.floor(inches / 12);
+      $('heightFeet').value = String(feet);
+      $('heightInches').value = String(E.round(inches - feet * 12, 2));
+      $('height').value = String(E.round(inches * E.IN_TO_CM, 2));
+      updateHeightSlider();
+    });
+    $('weightSlider').addEventListener('input', function () {
+      var lb = Number(this.value);
+      $('weight').value = String($('weightUnit').value === 'kg' ? E.round(lb * E.LB_TO_KG, 2) : lb);
+      updateWeightSlider();
+    });
+    ['heightFeet', 'heightInches', 'height'].forEach(function (id) {
+      $(id).addEventListener('input', updateHeightSlider);
+    });
+    $('heightFeet').addEventListener('change', function () { normalizeSpacedHeight(); updateHeightSlider(); });
+    $('weight').addEventListener('input', updateWeightSlider);
+    $('heightUnit').addEventListener('change', updateHeightSlider);
+    $('weightUnit').addEventListener('change', updateWeightSlider);
+    updateHeightSlider();
+    updateWeightSlider();
+  }
+
   function readForm() {
+    normalizeSpacedHeight();
     refreshIdentify();
     var cm = document.querySelector('input[name="cutoffMode"]:checked');
     var mode = document.querySelector('input[name="ancestryMode"]:checked');
@@ -481,6 +551,7 @@
         sel.dataset.prev = to;
       });
     });
+    setupMeasurementSliders();
     // After the first calculation, any edit recalculates (or clears the results if the input becomes invalid).
     var live = function () { if (hasCalculated) run(false); };
     $('calcForm').addEventListener('change', refreshIdentify);   // before live, so the list is current
