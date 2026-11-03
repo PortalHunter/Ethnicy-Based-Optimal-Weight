@@ -2,37 +2,45 @@
 
 An **educational, research-stage** static HTML calculator. **Not** a diagnostic tool, prescribing system, treatment target generator, or clinically validated personal-risk score. The source code, published evidence, developer-proposed heuristics and research hypotheses must be distinguished.
 
-## Start here
+## Live website
 
-- **Phase 1 calculator on main:** [optimal_body_weight_calculator-9.html](optimal_body_weight_calculator-9.html) — original weight equations preserved, now with 62 optional population subgroups and referenced research notes.
-- **New, results-below-form UI preview (experimental):** [optimal_body_weight_calculator-11-ui-preview.html](optimal_body_weight_calculator-11-ui-preview.html) — two fields for feet/inches, results immediately below the form, compact detail panels, no upward jump; weight equations unchanged; new population research notes will be integrated into this preview.
-- **Previous research UI preview (archived):** [optimal_body_weight_calculator-10-research-preview.html](optimal_body_weight_calculator-10-research-preview.html)
-- **Public-facing scientific bibliography:** [research-preview.html](research-preview.html) — published sources only; no internal handoffs or development commentary
-- **Full research bibliography and 17-document inventory:** [docs/research/SOURCE_INDEX.md](docs/research/SOURCE_INDEX.md)
-- **Team 1–3 original handoffs and evidence matrices:** [docs/research/source](docs/research/source)
-- **Safety and integration decisions:** [docs/EVIDENCE_INTEGRATION.md](docs/EVIDENCE_INTEGRATION.md)
-- **Clinical review requirements:** [docs/CLINICAL_REVIEW.md](docs/CLINICAL_REVIEW.md)
-- **Privacy:** [PRIVACY.md](PRIVACY.md)
+**[Open the Ancestry Health Calculator](https://portalhunter.github.io/Ethnicy-Based-Optimal-Weight/)**
 
-The integrated v11 preview contains both the redesigned layout and Phase 1 population selection with educational source-linked notes. Once the user submits the form, the weight-range estimate appears directly below it. The clinical weight equations are preserved. Phase 1 adds source-linked information and self-described subgroup options; differences between older research previews and the Phase 1 baseline are tracked and tested. The existing experimental ancestry and diabetes assumptions remain explicitly labeled as such.
+Direct website URL: https://portalhunter.github.io/Ethnicy-Based-Optimal-Weight/
+
+## Explore the project
+
+- **Current website source:** [index.html](index.html) — redesigned interface, separate feet/inches inputs, results directly below the form, and expanded ancestry selection.
+- **Phase 1 reference calculator:** [optimal_body_weight_calculator-9.html](optimal_body_weight_calculator-9.html) — preserved weight equations, 62 optional population subgroups, and cited health notes.
+- **Earlier interface versions:** [v11 standalone preview](optimal_body_weight_calculator-11-ui-preview.html) and [v10 research preview](optimal_body_weight_calculator-10-research-preview.html), retained for comparison.
+- **Public scientific bibliography:** [research-preview.html](research-preview.html).
+- **Research bibliography and 17-document inventory:** [docs/research/SOURCE_INDEX.md](docs/research/SOURCE_INDEX.md).
+- **Research archive and evidence matrices:** [docs/research/source](docs/research/source) — population health and anthropometry, hereditary conditions and nutrition, and pharmacogenetics.
+- **Evidence integration and safeguards:** [docs/EVIDENCE_INTEGRATION.md](docs/EVIDENCE_INTEGRATION.md).
+- **Clinical review requirements:** [docs/CLINICAL_REVIEW.md](docs/CLINICAL_REVIEW.md).
+- **Privacy:** [PRIVACY.md](PRIVACY.md).
+
+The live website combines the redesigned layout with the detailed ancestry selector and source-linked educational notes. After form submission, the estimated weight range appears directly below the inputs. The established mathematical core is preserved; subgroup information does not introduce new individual weight thresholds. Experimental ancestry blending and diabetes-related assumptions remain explicitly labeled.
 
 ## Phase 1 population selection and research profiles
 
-The 11 broad population families and 62 optional subgroups are part of the new [Phase 1 calculator](optimal_body_weight_calculator-9.html); source register, evidence grading and limitations are in [research/PHASE1_POPULATION_PROFILES.md](research/PHASE1_POPULATION_PROFILES.md). Mixed ancestry and a separate founder-heritage layer are retained. New subgroup notes do not change the weight calculations. Run `node tests/population-phase1.test.mjs` for numerical-equivalence checks across all 62 subgroups.
+The calculator supports 11 broad population categories and 62 optional subgroups. The [Phase 1 population profiles](research/PHASE1_POPULATION_PROFILES.md) document the source register, evidence grading, safeguards, and limitations. Mixed ancestry and an independent founder-heritage selection are supported. Subgroup research notes do not alter the weight formulas.
+
+Run `node tests/population-phase1.test.mjs` to check numerical equivalence across all 62 subgroups.
 
 ## Local preview
 
-Open the HTML file directly in a modern browser (no server required). For automated tests: install Node.js 22+, then run `npm ci --prefix tests` and `npm test --prefix tests`. Browser-based tests require an installed Chrome/Chromium browser; specify `CHROME_PATH=/path/to/chrome` if it is not in a standard location. CI **must ensure Chrome is installed** rather than silently skipping the browser suite.
+Use the live GitHub Pages link above, or open the HTML source directly in a modern browser for local development (no server required). For automated tests: install Node.js 22+, then run `npm ci --prefix tests` and `npm test --prefix tests`. Browser-based tests require an installed Chrome/Chromium browser; specify `CHROME_PATH=/path/to/chrome` if it is not in a standard location. CI **must ensure Chrome is installed** rather than silently skipping the browser suite.
 
 ## Inputs and limits
 
 The original calculator accepts adult ages 18–120; sex-specific historical body-frame formulas use male/female inputs; height, weight, wrist, and age are required; elbow and waist are optional; height in inches/cm, weight lb/kg, body lengths inches/cm. Mixed ancestry percentages may sum to 100 within 1 percentage point for rounding. Inputs for pregnancy/breastfeeding suppress weight-range output. These are **existing software assumptions**, not clinical eligibility guidelines.
 
-The calculator includes experimental ancestry-weighted thresholds and a diabetes-related BMI buffer/cap. Research teams have identified these as **not independently clinically validated**. See [docs/EVIDENCE_INTEGRATION.md](docs/EVIDENCE_INTEGRATION.md) before using or revising them. A BMI screening threshold, weight estimate, clinical diagnosis and personalized target are **different concepts**.
+The calculator includes experimental ancestry-weighted thresholds and a diabetes-related BMI buffer/cap. These assumptions are **not independently clinically validated**. See [docs/EVIDENCE_INTEGRATION.md](docs/EVIDENCE_INTEGRATION.md) before using or revising them. A BMI screening threshold, weight estimate, clinical diagnosis and personalized target are **different concepts**.
 
 ## Repository workflow
 
-Use short-lived `feature/...` branches from `main`, reviewed pull requests and passing CI; do not push directly to `main`. The research integration branch is **not production**. Medical or ancestry-related claims require a primary-source review and human authorization before publication. See [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/REPOSITORY_PROTECTION.md](docs/REPOSITORY_PROTECTION.md).
+Use short-lived `feature/...` branches from `main`, reviewed pull requests and passing CI. The primary source branch is `main`, and the public GitHub Pages site is deployed from `gh-pages`. Medical or ancestry-related claims require a primary-source review and human authorization before publication. See [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/REPOSITORY_PROTECTION.md](docs/REPOSITORY_PROTECTION.md).
 
 ## Versioning, release and rollback
 
@@ -44,5 +52,5 @@ Code currently uses MIT (see [LICENSE](LICENSE)). MIT controls redistribution an
 
 ## Evidence
 
-Each original study/report has distinct methods, populations and limitations. All 17 unmodified research submissions are under `docs/research/source/`. This repository has not independently verified every source citation or guideline update; claim promotion to user-facing clinical output is gated by [docs/CLINICAL_REVIEW.md](docs/CLINICAL_REVIEW.md).
+Each original study/report has distinct methods, populations and limitations. The 17 research documents are available under `docs/research/source/`. This repository has not independently verified every source citation or guideline update; claim promotion to user-facing clinical output is gated by [docs/CLINICAL_REVIEW.md](docs/CLINICAL_REVIEW.md).
 
