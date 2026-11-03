@@ -257,7 +257,20 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     ['wpro', 'World Health Organization Regional Office for the Western Pacific, International Association for the Study of Obesity, International Obesity Task Force. The Asia-Pacific perspective: redefining obesity and its treatment. Sydney: Health Communications Australia; 2000 (section 2, Table 2.2; provisional cut-offs).', 'https://iris.who.int/handle/10665/206936'],
     ['pagsisihan', 'Pagsisihan D, Sandoval MA, Paz-Pacheco E, Jimeno C. Low indices of overweight and obesity are associated with cardiometabolic diseases among adult Filipinos in a rural community. J ASEAN Fed Endocr Soc. 2016;31(2).', 'https://asean-endocrinejournal.org/index.php/JAFES/article/view/357'],
     ['battie', 'Battie CA, Borja-Hart N, Ancheta IB, Flores R, Rao G, Palaniappan L. Comparison of body mass index, waist circumference, and waist to height ratio in the prediction of hypertension and diabetes mellitus: Filipino-American women cardiovascular study. Prev Med Rep. 2016;4:608-613.', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5118592/'],
-    ['zheng', 'Zheng W, McLerran DF, Rolland B, et al. Association between body-mass index and risk of death in more than 1 million Asians. N Engl J Med. 2011;364(8):719-729.', 'https://pubmed.ncbi.nlm.nih.gov/21345101/']
+    ['zheng', 'Zheng W, McLerran DF, Rolland B, et al. Association between body-mass index and risk of death in more than 1 million Asians. N Engl J Med. 2011;364(8):719-729.', 'https://pubmed.ncbi.nlm.nih.gov/21345101/'],
+    ['pop_hfe','GeneReviews: HFE-Related Hemochromatosis, northern European ancestry.','https://www.ncbi.nlm.nih.gov/books/NBK1440/'],
+    ['pop_finn','The Finnish genetic heritage in 2022: founder variants and inherited disease.','https://pmc.ncbi.nlm.nih.gov/articles/PMC9637267/'],
+    ['pop_thal','CDC: Thalassemia inheritance, screening and population distribution.','https://www.cdc.gov/thalassemia/about/'],
+    ['pop_apol1','National Kidney Foundation: APOL1-Mediated Kidney Disease.','https://www.kidney.org/kidney-topics/apol1-mediated-kidney-disease-amkd'],
+    ['pop_cdc','Koyama et al. Cardiometabolic diseases among racial and ethnic subgroups. CDC MMWR 2024.','https://www.cdc.gov/mmwr/volumes/73/wr/mm7303a1.htm'],
+    ['pop_tbc','Moltke et al. Greenlandic TBC1D4 variant and diabetes risk. Nature 2014.','https://pubmed.ncbi.nlm.nih.gov/25043022/'],
+    ['pop_cpt','GeneReviews: CPT1A deficiency, Arctic variant, infant fasting tolerance.','https://www.ncbi.nlm.nih.gov/books/NBK1527/'],
+    ['pop_fmf','GeneReviews: Familial Mediterranean Fever, MEFV and population epidemiology.','https://www.ncbi.nlm.nih.gov/books/NBK1227/'],
+    ['pop_samoa','Minster et al. CREBRF and body mass index in Samoan populations. Nature Genetics 2016.','https://pubmed.ncbi.nlm.nih.gov/27455349/'],
+    ['pop_samoa_dm','CREBRF variants, diabetes and glucose in Polynesian populations. 2022.','https://pubmed.ncbi.nlm.nih.gov/35144939/'],
+    ['pop_abs','Australian Bureau of Statistics. Aboriginal and Torres Strait Islander Health Measures Survey 2022-24.','https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/national-aboriginal-and-torres-strait-islander-health-measures-survey/2022-24'],
+    ['pop_fh','GeneReviews: Familial Hypercholesterolemia and founder population estimates.','https://www.ncbi.nlm.nih.gov/books/NBK174884/'],
+    ['pop_acog','ACOG. Universal Hemoglobinopathy Testing, 2022; ancestry is a poor genetic proxy.','https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2022/08/hemoglobinopathies-in-pregnancy']
   ];
   var REF_INDEX = {};
   REFS.forEach(function (r, i) { REF_INDEX[r[0]] = i + 1; });
@@ -296,10 +309,83 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     hispanic:        { label: 'Hispanic / Latino', group: 'standard' },
     pacific:         { label: 'Pacific Islander', group: 'standard' },
     native_american: { label: 'Native American / Indigenous American', group: 'standard' },
+    australian_indigenous: { label: 'Aboriginal Australian / Torres Strait Islander', group: 'standard' },
     other:           { label: 'Other / not listed', group: 'standard' }
   };
 
+
+  // Classification additions only; no clinical thresholds or weight equations are changed.
+  // Each subgroup inherits the exact WHO/NICE/ADA category of its existing broad parent.
+  var POP_REGIONS = [
+    ['europe','Europe','european',[['eu_scandi','Scandinavian (Norwegian, Swedish, Danish)'],['eu_finn','Finnish'],['eu_brit','British / Irish'],['eu_west','Western / Central European'],['eu_east','Eastern European / Baltic'],['eu_medit','Southern European / Mediterranean'],['eu_balkan','Balkan / Southeastern European']]],
+    ['africa','Sub-Saharan Africa / African diaspora','african',[['af_west','West African'],['af_central','Central African'],['af_east','East African / Horn of Africa'],['af_south','Southern African'],['af_american','African American'],['af_caribbean','Afro-Caribbean']]],
+    ['eastasia','East Asia','east_asian',[['ea_china','Chinese'],['ea_japan','Japanese'],['ea_korea','Korean'],['ea_other','Other East Asian (including Mongolian / Tibetan)']]],
+    ['southasia','South Asia','south_asian',[['sa_india','Indian'],['sa_pakistan','Pakistani'],['sa_bangladesh','Bangladeshi'],['sa_srilanka','Sri Lankan / Tamil'],['sa_nepal','Nepali'],['sa_other','Other South Asian']]],
+    ['southeastasia','Southeast Asia','se_asian',[['sea_philippines','Filipino'],['sea_vietnam','Vietnamese'],['sea_thai','Thai'],['sea_cambodia','Cambodian'],['sea_lao','Lao / Hmong'],['sea_indomalay','Indonesian / Malaysian'],['sea_other','Other Southeast Asian']]],
+    ['mena','Middle East / North Africa','middle_eastern',[['me_gulf','Arabian Peninsula / Gulf Arab'],['me_levant','Levantine Arab'],['me_iran','Iranian / Persian'],['me_turkey','Turkish / Anatolian'],['me_armenia','Armenian / Caucasus'],['me_northafrica','North African (Maghrebi Arab / Amazigh)']]],
+    ['latino','Hispanic / Latino heritage','hispanic',[['lat_mexico','Mexican / Mexican American'],['lat_puerto','Puerto Rican'],['lat_cuba','Cuban'],['lat_dominican','Dominican'],['lat_central','Central American'],['lat_south','South American'],['lat_other','Other Hispanic / Latino']]],
+    ['indigenous','Indigenous Americas / Arctic','native_american',[['ind_us','American Indian / Native American (US)'],['ind_firstnations','First Nations (Canada)'],['ind_greenland','Greenlandic Inuit'],['ind_caninuit','Canadian Inuit'],['ind_inupiat','Iñupiat / Yup\u0027ik (Alaska)'],['ind_alaska','Other Alaska Native peoples'],['ind_meso','Mesoamerican Indigenous'],['ind_andean','Andean Indigenous'],['ind_south','Other South American Indigenous']]],
+    ['pacific','Pacific Islands / Māori','pacific',[['pi_hawaii','Native Hawaiian'],['pi_samoa','Samoan'],['pi_tonga','Tongan'],['pi_maori','Māori'],['pi_fiji','Fijian'],['pi_chamorro','Chamorro / Guamanian'],['pi_marshall','Marshallese / other Micronesian'],['pi_other','Other Polynesian / Micronesian / Melanesian']]],
+    ['australia','Aboriginal Australian / Torres Strait Islander','australian_indigenous',[['au_aboriginal','Aboriginal Australian'],['au_torres','Torres Strait Islander']]],
+    ['other','Other / not listed','other',[]]
+  ];
+  POP_REGIONS.forEach(function (r) { r[3].forEach(function (item) {
+    var parent = ANCESTRIES[r[2]];
+    ANCESTRIES[item[0]] = {label:item[1],parent:r[2],group:parent.group,adaAsian:!!parent.adaAsian};
+  }); });
+  // Per-profile claim + source citation. Unlisted profiles are intentionally evidence-limited.
+  var POP_EVIDENCE = {
+    eu_scandi:['Inherited-condition evidence','Northern European HFE variants are relevant to investigating iron overload when family history, symptoms or blood tests suggest it. Heritage alone is not a diagnosis.',['pop_hfe']],
+    eu_brit:['Inherited-condition evidence','HFE-associated iron overload is more common in some northern European populations. Iron studies and family history are more informative than ancestry alone.',['pop_hfe']],
+    eu_finn:['Founder-population evidence','Finnish disease heritage includes rare founder-enriched conditions. The relevant screening question depends on personal or family history, not a different ideal weight.',['pop_finn']],
+    eu_medit:['Inherited-condition evidence','Thalassemia is documented in Mediterranean populations and many other regions. Unexplained anemia warrants clinician-led evaluation, not automatic iron supplementation.',['pop_thal','pop_acog']],
+    eu_balkan:['Population evidence','Inherited hemoglobin disorders occur in some Mediterranean and neighboring populations; appropriate screening should be based on medical context.',['pop_thal','pop_acog']],
+    af_west:['Genetic association','APOL1 kidney-risk variants occur in some West African populations. Individual risk cannot be determined without clinical and, when appropriate, genetic information.',['pop_apol1']],
+    af_central:['Genetic association','APOL1-associated kidney risk is documented in some Central African ancestry populations; personal kidney measures and family history are more useful for care.',['pop_apol1']],
+    af_american:['Population epidemiology','Blood pressure, kidney disease and diabetes deserve assessment using personal measurements and family history; broad population averages are not diagnoses.',['pop_cdc','pop_apol1']],
+    af_caribbean:['Population epidemiology','An English study identified different diabetes-risk-equivalent BMI values for Black Caribbean and Black African samples; these are not approved weight targets.',['caley']],
+    ea_china:['Population epidemiology','Diabetes risk can appear at lower BMI in Chinese ancestry populations; the existing Asian BMI action points remain unchanged here.',['caley','nice']],
+    ea_japan:['Population epidemiology','Diabetes prevalence varies across US East Asian subgroups. Ancestry alone cannot guide a different weight formula or rule out screening.',['pop_cdc']],
+    ea_korea:['Population epidemiology','US population studies report differences in cardiometabolic prevalence across East Asian subgroups; clinical measurements should guide individual care.',['pop_cdc']],
+    sa_india:['Population epidemiology','South Asian diabetes risk is often observed at BMI below international action points. Individual glucose and clinical findings matter more than an estimated subgroup risk.',['caley','nice']],
+    sa_pakistan:['Population epidemiology','English diabetes cohorts document risk at lower BMI among Pakistani and other South Asian adults. No new subgroup-specific weight threshold is assumed.',['caley']],
+    sa_bangladesh:['Population epidemiology','An English cohort observed particularly low diabetes-risk-equivalent BMI among Bangladeshi adults. This is not a validated ideal weight or screening cutoff.',['caley']],
+    sa_srilanka:['Population epidemiology','South Asian subgroup differences in diabetes risk have been reported in England. They do not establish a separate ideal-weight formula.',['caley']],
+    sa_nepal:['Population epidemiology','Nepali adults were included in research on ethnic diabetes-risk equivalence; no new BMI threshold is introduced.',['caley']],
+    sea_philippines:['Population epidemiology','A US CDC survey estimated diagnosed diabetes in 15.2% of Filipino adults versus 6.3% of Vietnamese adults, adjusted for age, sex and year. These are group averages.',['pop_cdc']],
+    sea_vietnam:['Population epidemiology','US CDC surveys reported a lower diagnosed-diabetes prevalence for Vietnamese than Filipino adults. This does not eliminate any individual need for diabetes screening.',['pop_cdc']],
+    me_gulf:['Inherited-condition evidence','Familial Mediterranean fever occurs in some Arab families; symptoms and family history, not heritage alone, guide evaluation.',['pop_fmf']],
+    me_turkey:['Inherited-condition evidence','Familial Mediterranean fever and thalassemia are documented in some Turkish populations. Medical assessment and carrier screening depend on clinical context.',['pop_fmf','pop_thal']],
+    me_armenia:['Inherited-condition evidence','Familial Mediterranean fever has increased prevalence in Armenian families; a confirmed diagnosis depends on symptoms and molecular findings.',['pop_fmf']],
+    me_northafrica:['Inherited-condition evidence','Hemoglobin disorders and familial Mediterranean fever occur in some North African communities. No different BMI threshold is validated here.',['pop_fmf','pop_thal']],
+    lat_mexico:['Population epidemiology','Hispanic and Latino subgroups differ in US cardiometabolic disease prevalence; identity does not reliably identify genetic ancestry or personal risk.',['pop_cdc']],
+    lat_puerto:['Population epidemiology','US CDC reports found differences in coronary heart disease prevalence among Puerto Rican and Cuban adults. These do not imply an ancestry-specific ideal-weight formula.',['pop_cdc']],
+    lat_cuba:['Population epidemiology','US CDC reports found differences in coronary heart disease prevalence among Cuban and Puerto Rican adults. These are group statistics, not personal probabilities.',['pop_cdc']],
+    ind_greenland:['Genotype-specific evidence','A TBC1D4 variant was linked to greater type 2 diabetes risk in Greenlandic people carrying two copies. This does not establish your genotype or a different BMI cutoff.',['pop_tbc']],
+    ind_caninuit:['Genotype-specific evidence','A CPT1A Arctic variant can affect fasting tolerance in some infants with certain genotypes. This is primarily a newborn/pediatric issue, not an adult diet recommendation.',['pop_cpt']],
+    ind_inupiat:['Genotype-specific evidence','Some Alaska Native infant populations have elevated frequency of a CPT1A Arctic variant relevant to newborn screening. Ancestry alone cannot establish the genotype.',['pop_cpt']],
+    pi_samoa:['Genetic association','CREBRF variation in Samoan cohorts was associated with higher BMI but lower odds of diabetes, illustrating why BMI is not an individual metabolic diagnosis.',['pop_samoa','pop_samoa_dm']],
+    pi_maori:['Body-composition evidence','Research on Polynesian and Māori body composition shows BMI can misrepresent fat mass relative to some European reference groups. Waist and lab values add context.',['swinburn']],
+    au_aboriginal:['Population health survey','A 2022–24 Australian First Nations survey identified important diabetes and nutrition findings; the figures combine social and clinical influences and are not genetic predictions.',['pop_abs']],
+    au_torres:['Population health survey','Australian First Nations survey findings justify attention to cardiometabolic health, but combined data must not be mislabeled as Torres Strait Islander genetic risk.',['pop_abs']]
+  };
+  function populationNote(key) {
+    var p=POP_EVIDENCE[key];
+    if (!ANCESTRIES[key] || !ANCESTRIES[key].parent) return '';
+    if (!p) return '<strong>Evidence: exploratory.</strong> No separately validated BMI or dietary rule for this selected subgroup; use family history, clinical results and guideline screening. '+cite('nice');
+    return '<strong>Evidence: '+p[0]+'.</strong> '+p[1]+' '+cite(p[2]);
+  }
+  var HERITAGE_NOTES = {
+    ashkenazi:'Inherited founder variants are documented in some Ashkenazi families. Genetic testing should be guided by family history and inclusive screening practices, not ethnic identity alone. '+cite('pop_acog'),
+    sephardic:'Some Sephardic / Mizrahi Jewish populations have increased familial Mediterranean fever prevalence. Symptoms and family history, not ethnicity alone, guide evaluation. '+cite('pop_fmf'),
+    frenchcanadian:'GeneReviews reports familial hypercholesterolemia in about 1 in 80 French Canadians. Personal LDL cholesterol and family history are the actionable factors. '+cite('pop_fh'),
+    finnish:'Finnish founder-population genetics includes rare inherited disorders; specific family history matters more than the ancestry label. '+cite('pop_finn'),
+    otherfounder:'Discuss any known familial variant or founder-associated condition with a clinician. This selection does not imply a diagnosis.'
+  };
+  function heritageNote(key) { return HERITAGE_NOTES[key] || ''; }
+
   function ancestryNote(key) {
+    if (ANCESTRIES[key] && ANCESTRIES[key].parent) return ancestryNote(ANCESTRIES[key].parent);
     switch (key) {
       case 'east_asian': case 'south_asian': case 'se_asian': case 'mixed_asian':
         return 'A WHO expert consultation found that a substantial share of Asian people have high risk of type 2 diabetes and cardiovascular disease below BMI 25, and proposed public-health action points of 23 and 27.5; it kept the standard WHO cut-offs as the international classification and noted the observed-risk cut-off varies from 22 to 25 between Asian populations. ' + cite('who_asian') +
@@ -324,6 +410,8 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
         return 'No major guideline (WHO, NICE, ADA 2026) sets separate BMI cut-offs for Hispanic / Latino adults, so the standard WHO cut-offs are used (healthy 18.5-24.9, overweight 25-29.9, obesity 30+). ' + cite(['who_fact', 'ada_obesity']);
       case 'native_american':
         return 'No major guideline (WHO, NICE, ADA 2026) sets separate BMI cut-offs for Native American / Indigenous American adults, so the standard WHO cut-offs are used (healthy 18.5-24.9, overweight 25-29.9, obesity 30+). ' + cite(['who_fact', 'ada_obesity']);
+      case 'australian_indigenous':
+        return 'Standard WHO international adult BMI cut-offs are retained. Australian First Nations health surveys do not establish separate validated ideal-weight thresholds. '+cite(['who_fact','pop_abs']);
       case 'european':
         return 'Standard WHO international adult cut-offs: underweight below 18.5, healthy 18.5-24.9, overweight 25-29.9, obesity 30 or more. ' + cite('who_fact') + ' NICE uses these for White adults and for groups it does not assign lower thresholds. ' + cite('nice');
       default:
@@ -711,11 +799,12 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
   // ---------- Food guidance ----------
   function foodRecs(ancestryKeys, conditions) {
     var recs = [];
-    var has = function (k) { return ancestryKeys.indexOf(k) >= 0; };
+    var has = function (k) { return ancestryKeys.some(function (a) { return a===k || (ANCESTRIES[a] && ANCESTRIES[a].parent===k); }); };
+    var northernEuropean = ancestryKeys.some(function (a) { return ['european','eu_scandi','eu_brit','eu_finn'].indexOf(a)>=0; });
     var anyAsian = ['east_asian', 'south_asian', 'se_asian', 'mixed_asian'].some(has);
     if (anyAsian || has('african')) recs.push('<strong>Lactose:</strong> lactase non-persistence (reduced ability to digest lactose as an adult) is common in many ' + (anyAsian && has('african') ? 'East Asian and African-descended' : anyAsian ? 'East Asian' : 'African-descended') + ' populations. If dairy causes symptoms, lactose-free milk, hard cheese, yogurt, or calcium-fortified alternatives are options. ' + cite('mattar'));
-    if (has('european')) recs.push('<strong>Lactose:</strong> lactase persistence is more common in Northern European populations, so many people of European ancestry digest dairy well - but not all. ' + cite('mattar'));
-    if (has('european')) recs.push('<strong>Iron:</strong> about 1 in 15 people of Northern European ancestry carry at least one copy of the HFE C282Y variant linked to hereditary hemochromatosis. Avoid iron supplements unless a blood test shows you need them. ' + cite('niddk_hemo'));
+    if (northernEuropean) recs.push('<strong>Lactose:</strong> lactase persistence is more common in Northern European populations, so many people of European ancestry digest dairy well - but not all. ' + cite('mattar'));
+    if (northernEuropean) recs.push('<strong>Iron:</strong> about 1 in 15 people of Northern European ancestry carry at least one copy of the HFE C282Y variant linked to hereditary hemochromatosis. Avoid iron supplements unless a blood test shows you need them. ' + cite('niddk_hemo'));
     if (anyAsian) recs.push('<strong>Starch:</strong> people from populations with traditionally high-starch diets (such as agricultural societies) have, on average, more copies of the salivary amylase gene AMY1 than people from traditionally low-starch populations. This is a population average and does not tell an individual how much starch to eat. ' + cite('perry'));
     if (has('south_asian')) recs.push('<strong>Omega fatty acids:</strong> a FADS2 "insertion" variant linked to greater conversion of plant fatty acids into long-chain forms is very common in South Asians (about 70% carry two copies) and appears to reflect adaptation to plant-based diets. Its practical dietary meaning for an individual is not established; including omega-3 sources (fish, or flax/chia/walnuts/algae for vegetarians) is reasonable. ' + cite(['kothapalli', 'frontiers']));
     if (has('east_asian')) recs.push('<strong>Alcohol:</strong> about 36% of East Asians (Japanese, Chinese, Korean) have the alcohol "flushing" reaction, mainly caused by inherited ALDH2 deficiency. People who flush and drink regularly have a much higher risk of esophageal cancer, so flushing is a reason to limit or avoid alcohol. ' + cite(['brooks', 'yoshida']));
@@ -789,6 +878,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
 
   root.EBOW = {
     IN_TO_CM: IN_TO_CM, LB_TO_KG: LB_TO_KG, LIMITS: LIMITS, REFS: REFS, GROUPS: GROUPS, ANCESTRIES: ANCESTRIES,
+    POP_REGIONS: POP_REGIONS, POP_EVIDENCE: POP_EVIDENCE, populationNote: populationNote, heritageNote: heritageNote,
     cite: cite, parseNum: parseNum, parseMeasure: parseMeasure, toCm: toCm, toKg: toKg, kgToLb: kgToLb, cmToIn: cmToIn, round: round,
     validate: validate, bmi: bmi, weightForBmi: weightForBmi, classifyBMI: classifyBMI, groupForAncestries: groupForAncestries,
     healthyBand: healthyBand, frameFromWrist: frameFromWrist, wristCutoffs: wristCutoffs, frameFromElbow: frameFromElbow,
