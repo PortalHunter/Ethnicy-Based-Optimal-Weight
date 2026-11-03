@@ -1,25 +1,8 @@
-## Summary and intent
-Describe the change; state whether it affects any health-related result.
+## What does this change?
 
-## Acceptance criteria (Given / When / Then)
-- Given:
-- When:
-- Then:
+## Does it affect any health-related result?
+If yes, list the source (guideline, study or evidence ID) that supports it.
 
-## Evidence and safety
-- Relevant ANC/NUT/PGX IDs and primary sources (or "not applicable"):
-- Intended population / guideline version:
-- Screening vs heuristic vs observational vs experimental:
-- Clinical-source reviewer and decision (if high-impact):
-- Privacy and accessibility impact:
-
-## Test evidence
-- [ ] Unit tests
-- [ ] Real-browser tests (Chrome configured; zero skipped)
-- [ ] HTML/JavaScript validation
-- [ ] Citation/link integrity review
-- [ ] No modification to the original calculator unless explicitly approved
-
-## Release and rollback
-Release note, version tag and rollback plan (or "not releasing").
-
+## Checks
+- [ ] Tests pass (`npm test --prefix tests`)
+- [ ] Links and sources check out (`node scripts/check-links.mjs`)
