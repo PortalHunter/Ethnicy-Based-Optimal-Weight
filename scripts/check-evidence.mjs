@@ -16,12 +16,20 @@ assert.equal(blobSha('optimal_body_weight_calculator-9.html'),
 assert.equal(blobSha('LICENSE'), '005ac3c15801c98fd0caecad635f52a603b59ed1',
   'License must not change without separate maintainer decision');
 
-const folder = new URL('../docs/research/source/', import.meta.url);
-const docs = readdirSync(folder).filter((s) => /^(01|02|03)_.*\.md$/.test(s)).sort();
+// The 17 original research reports live in two folders: evidence/ (matrices and reviews)
+// and process-notes/ (recommendations, validation plans, handoffs and the module proposal).
+const research = new URL('../docs/research/', import.meta.url);
+const located = {};
+for (const sub of ['evidence', 'process-notes']) {
+  for (const name of readdirSync(new URL(sub + '/', research)).filter((s) => /^(01|02|03)_.*\.md$/.test(s))) {
+    located[name] = new URL(sub + '/' + name, research);
+  }
+}
+const docs = Object.keys(located).sort();
 assert.equal(docs.length, 17, 'All 17 original source reports must remain archived');
 const counts = { '01': 0, '02': 0, '03': 0 };
 for (const file of docs) {
-  const content = readFileSync(new URL(file, folder), 'utf8');
+  const content = readFileSync(located[file], 'utf8');
   assert.ok(content.length > 3000, 'Empty or truncated research report: ' + file);
   counts[file.slice(0, 2)]++;
 }
@@ -30,7 +38,8 @@ for (const [file, prefix] of [
   ['01_Ancestry_Evidence_Matrix.md', 'ANC-'],
   ['02_Nutrition_Evidence_Matrix.md', 'NUT-'],
   ['03_Pharmacogenetics_Evidence_Matrix.md', 'PGX-']]) {
-  const content = readFileSync(new URL(file, folder), 'utf8');
+  assert.ok(located[file] && located[file].pathname.includes('/evidence/'), 'Evidence matrix must be in docs/research/evidence/: ' + file);
+  const content = readFileSync(located[file], 'utf8');
   assert.ok(content.includes(prefix), 'Missing claim registry prefix ' + prefix);
 }
 const { E } = loadCore();
@@ -44,7 +53,7 @@ const page = readFileSync(new URL('research-preview.html', base), 'utf8');
 for (const s of ['Research &amp; scientific sources', 'Body weight, BMI and ancestry', 'Metabolic health and nutrition', 'Pharmacogenetics', 'do not establish']) {
   assert.ok(page.toLowerCase().includes(s.toLowerCase()), 'Missing public source/safety content: ' + s);
 }
-for (const forbidden of [/docs\/research\/source\//i, /docs\/EVIDENCE_INTEGRATION/i, /cross-team implementation/i, /research-team notes/i, /AI agents/i, /bots/i]) {
+for (const forbidden of [/docs\/research\/(source|evidence|process-notes)\//i, /docs\/process\//i, /docs\/EVIDENCE_INTEGRATION/i, /cross-team implementation/i, /research-team notes/i, /AI agents/i, /bots/i]) {
   assert.ok(!forbidden.test(page), 'Internal project material leaked into public sources page: ' + forbidden);
 }
 for (const [key, , url] of E.REFS) {

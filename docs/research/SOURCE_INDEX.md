@@ -10,29 +10,29 @@ All 17 original team Markdown reports are linked below. The source reports prese
 
 ### Team 1 — Ancestry and anthropometry
 
-- [01_Ancestry_Calculator_Recommendations.md](source/01_Ancestry_Calculator_Recommendations.md) — Original research deliverable; **7 source/related URLs** extracted.
-- [01_Ancestry_Clinical_Validation.md](source/01_Ancestry_Clinical_Validation.md) — Original research deliverable; **5 source/related URLs** extracted.
-- [01_Ancestry_Evidence_Matrix.md](source/01_Ancestry_Evidence_Matrix.md) — Original research deliverable; **25 source/related URLs** extracted.
-- [01_Ancestry_Integration_Handoff.md](source/01_Ancestry_Integration_Handoff.md) — Original research deliverable; **7 source/related URLs** extracted.
-- [01_Ancestry_Research_Review.md](source/01_Ancestry_Research_Review.md) — Original research deliverable; **24 source/related URLs** extracted.
+- [01_Ancestry_Calculator_Recommendations.md](process-notes/01_Ancestry_Calculator_Recommendations.md) — Original research deliverable; **7 source/related URLs** extracted.
+- [01_Ancestry_Clinical_Validation.md](process-notes/01_Ancestry_Clinical_Validation.md) — Original research deliverable; **5 source/related URLs** extracted.
+- [01_Ancestry_Evidence_Matrix.md](evidence/01_Ancestry_Evidence_Matrix.md) — Original research deliverable; **25 source/related URLs** extracted.
+- [01_Ancestry_Integration_Handoff.md](process-notes/01_Ancestry_Integration_Handoff.md) — Original research deliverable; **7 source/related URLs** extracted.
+- [01_Ancestry_Research_Review.md](evidence/01_Ancestry_Research_Review.md) — Original research deliverable; **24 source/related URLs** extracted.
 
 ### Team 2 — Hereditary disease and nutrition
 
-- [02_Dietary_Response_Research.md](source/02_Dietary_Response_Research.md) — Original research deliverable; **18 source/related URLs** extracted.
-- [02_Hereditary_Health_Research_Review.md](source/02_Hereditary_Health_Research_Review.md) — Original research deliverable; **31 source/related URLs** extracted.
-- [02_Nutrition_Calculator_Recommendations.md](source/02_Nutrition_Calculator_Recommendations.md) — Original research deliverable; **12 source/related URLs** extracted.
-- [02_Nutrition_Clinical_Validation.md](source/02_Nutrition_Clinical_Validation.md) — Original research deliverable; **13 source/related URLs** extracted.
-- [02_Nutrition_Evidence_Matrix.md](source/02_Nutrition_Evidence_Matrix.md) — Original research deliverable; **28 source/related URLs** extracted.
-- [02_Nutrition_Integration_Handoff.md](source/02_Nutrition_Integration_Handoff.md) — Original research deliverable; **11 source/related URLs** extracted.
+- [02_Dietary_Response_Research.md](evidence/02_Dietary_Response_Research.md) — Original research deliverable; **18 source/related URLs** extracted.
+- [02_Hereditary_Health_Research_Review.md](evidence/02_Hereditary_Health_Research_Review.md) — Original research deliverable; **31 source/related URLs** extracted.
+- [02_Nutrition_Calculator_Recommendations.md](process-notes/02_Nutrition_Calculator_Recommendations.md) — Original research deliverable; **12 source/related URLs** extracted.
+- [02_Nutrition_Clinical_Validation.md](process-notes/02_Nutrition_Clinical_Validation.md) — Original research deliverable; **13 source/related URLs** extracted.
+- [02_Nutrition_Evidence_Matrix.md](evidence/02_Nutrition_Evidence_Matrix.md) — Original research deliverable; **28 source/related URLs** extracted.
+- [02_Nutrition_Integration_Handoff.md](process-notes/02_Nutrition_Integration_Handoff.md) — Original research deliverable; **11 source/related URLs** extracted.
 
 ### Team 3 — Pharmacogenetics
 
-- [03_Pharmacogenetics_Clinical_Validation.md](source/03_Pharmacogenetics_Clinical_Validation.md) — Original research deliverable; **17 source/related URLs** extracted.
-- [03_Pharmacogenetics_Evidence_Matrix.md](source/03_Pharmacogenetics_Evidence_Matrix.md) — Original research deliverable; **22 source/related URLs** extracted.
-- [03_Pharmacogenetics_Integration_Handoff.md](source/03_Pharmacogenetics_Integration_Handoff.md) — Original research deliverable; **2 source/related URLs** extracted.
-- [03_Pharmacogenetics_Module_Proposal.md](source/03_Pharmacogenetics_Module_Proposal.md) — Original research deliverable; **7 source/related URLs** extracted.
-- [03_Pharmacogenetics_Research_Review.md](source/03_Pharmacogenetics_Research_Review.md) — Original research deliverable; **33 source/related URLs** extracted.
-- [03_Population_Medication_Response.md](source/03_Population_Medication_Response.md) — Original research deliverable; **15 source/related URLs** extracted.
+- [03_Pharmacogenetics_Clinical_Validation.md](process-notes/03_Pharmacogenetics_Clinical_Validation.md) — Original research deliverable; **17 source/related URLs** extracted.
+- [03_Pharmacogenetics_Evidence_Matrix.md](evidence/03_Pharmacogenetics_Evidence_Matrix.md) — Original research deliverable; **22 source/related URLs** extracted.
+- [03_Pharmacogenetics_Integration_Handoff.md](process-notes/03_Pharmacogenetics_Integration_Handoff.md) — Original research deliverable; **2 source/related URLs** extracted.
+- [03_Pharmacogenetics_Module_Proposal.md](process-notes/03_Pharmacogenetics_Module_Proposal.md) — Original research deliverable; **7 source/related URLs** extracted.
+- [03_Pharmacogenetics_Research_Review.md](evidence/03_Pharmacogenetics_Research_Review.md) — Original research deliverable; **33 source/related URLs** extracted.
+- [03_Population_Medication_Response.md](evidence/03_Population_Medication_Response.md) — Original research deliverable; **15 source/related URLs** extracted.
 
 ## References registered in the original calculator
 
@@ -264,4 +264,4 @@ Each URL is accompanied by the research documents where it appeared. This does n
 - **pop_fh** — GeneReviews: Familial Hypercholesterolemia and founder population estimates.: https://www.ncbi.nlm.nih.gov/books/NBK174884/
 - **pop_acog** — ACOG. Universal Hemoglobinopathy Testing, 2022; ancestry is a poor genetic proxy.: https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2022/08/hemoglobinopathies-in-pregnancy
 
-[Evidence scope and safeguards](../../research/PHASE1_POPULATION_PROFILES.md).
+[Evidence scope and safeguards](PHASE1_POPULATION_PROFILES.md).

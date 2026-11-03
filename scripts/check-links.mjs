@@ -7,7 +7,9 @@ import { loadCore } from '../tests/load-core.mjs';
 const root = new URL('../', import.meta.url);
 const pages = ['README.md', 'CONTRIBUTING.md', 'index.html', 'research-preview.html',
   'optimal_body_weight_calculator-9.html', 'docs/EVIDENCE_INTEGRATION.md',
-  'docs/research/SOURCE_INDEX.md'];
+  'docs/research/SOURCE_INDEX.md', 'docs/README.md', 'docs/research/README.md',
+  'docs/research/evidence/README.md', 'docs/research/process-notes/README.md',
+  'docs/process/README.md', 'docs/research/PHASE1_POPULATION_PROFILES.md'];
 const internal = [];
 const external = new Set();
 for (const filename of pages) {

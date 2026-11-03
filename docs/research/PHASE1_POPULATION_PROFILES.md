@@ -8,7 +8,7 @@ The calculator supports **11 broad selectable ancestry/heritage families** and *
 
 The broad families are Europe; sub-Saharan Africa/African diaspora; East Asia; South Asia; Southeast Asia; Middle East/North Africa; Hispanic/Latino; Indigenous Americas/Arctic; Pacific Islands/Māori; Aboriginal Australian/Torres Strait Islander; and Other/not listed.
 
-Subgroups are defined in `POP_REGIONS` in [the calculator](../optimal_body_weight_calculator-9.html). The UI displays a **region first, specific population second** pattern, with optional detailed selection. Mixed ancestry retains up to three backgrounds and percentages totaling 100%; users may choose distinct subgroups within the same broad family. In addition, the UI retains an explicitly labelled *unvalidated* percentage-blending option already present in the calculator.
+Subgroups are defined in `POP_REGIONS` in [the calculator](../../optimal_body_weight_calculator-9.html). The UI displays a **region first, specific population second** pattern, with optional detailed selection. Mixed ancestry retains up to three backgrounds and percentages totaling 100%; users may choose distinct subgroups within the same broad family. In addition, the UI retains an explicitly labelled *unvalidated* percentage-blending option already present in the calculator.
 
 **Clinical preservation policy:** Every optional subgroup inherits its broad family's existing `group` and `adaAsian` flags. None of the 62 subgroups introduces a BMI, waist, weight, diabetes-buffer or body-frame formula. The existing broader category labels, legacy inputs and clinical calculations remain available. Australian First Nations populations are given the standard WHO international adult BMI category because no separately validated threshold is being claimed.
 
@@ -78,6 +78,6 @@ Original relevant sources preserved: [NICE NG246](https://www.nice.org.uk/guidan
 - All 62 subgroup entries map to existing BMI flags and preserve legacy formulas.
 - Results list claims beside individual links; references are renumbered and collected based on the claims actually displayed.
 - Other/not listed remains available; subgroup detail is optional.
-- Tests are in [tests/population-phase1.test.mjs](../tests/population-phase1.test.mjs). They compare key numeric results for every subgroup to its broad parent, check mixed-subgroup input, source-key integrity, and UI/script structure.
+- Tests are in [tests/population-phase1.test.mjs](../../tests/population-phase1.test.mjs). They compare key numeric results for every subgroup to its broad parent, check mixed-subgroup input, source-key integrity, and UI/script structure.
 
 **Not implemented (Phase 2):** changes to BMI thresholds; population-specific ideal-weight equations; genetic risk scoring; prescribing or dietary treatment based on genotype; clinical validation, individual probabilities, or recommendations to exclude patients from routine screening.

@@ -4,7 +4,7 @@
 
 ## Source provenance
 
-Seventeen unchanged source Markdown reports from 2026-11-01 are under [research/source/](research/source/). Team 1 owns `ANC-` population/anthropometry evidence; Team 2 owns `NUT-` hereditary disease and nutritional response; Team 3 owns `PGX-` pharmacogenetics. The three streams retain equal standing. See each team's evidence matrix, review, recommendations, validation roadmap and integration handoff. No study's effect size is automatically an individual prediction.
+Seventeen unchanged source Markdown reports from 2026-11-01 are under [research/evidence/](research/evidence/) (evidence matrices and reviews) and [research/process-notes/](research/process-notes/) (recommendations, validation plans and handoffs). Team 1 owns `ANC-` population/anthropometry evidence; Team 2 owns `NUT-` hereditary disease and nutritional response; Team 3 owns `PGX-` pharmacogenetics. The three streams retain equal standing. See each team's evidence matrix, review, recommendations, validation roadmap and integration handoff. No study's effect size is automatically an individual prediction.
 
 ## Readiness by feature
 
@@ -33,11 +33,11 @@ Seventeen unchanged source Markdown reports from 2026-11-01 are under [research/
 - **Unvalidated heuristic:** code-derived number with no proven clinical outcome calibration.
 - **Withheld:** do not emit in personal clinical advice.
 
-Any promotion to user-facing clinical logic requires [CLINICAL_REVIEW.md](CLINICAL_REVIEW.md) and maintainer sign-off.
+Any promotion to user-facing clinical logic requires [CLINICAL_REVIEW.md](process/CLINICAL_REVIEW.md) and maintainer sign-off.
 
 ## Links to source documents
 
-- [Team 1 recommendations](research/source/01_Ancestry_Calculator_Recommendations.md), [ANC matrix](research/source/01_Ancestry_Evidence_Matrix.md), [integration handoff](research/source/01_Ancestry_Integration_Handoff.md).
-- [Team 2 recommendations](research/source/02_Nutrition_Calculator_Recommendations.md), [NUT matrix](research/source/02_Nutrition_Evidence_Matrix.md), [integration handoff](research/source/02_Nutrition_Integration_Handoff.md).
-- [Team 3 proposal](research/source/03_Pharmacogenetics_Module_Proposal.md), [PGX matrix](research/source/03_Pharmacogenetics_Evidence_Matrix.md), [integration handoff](research/source/03_Pharmacogenetics_Integration_Handoff.md).
+- [Team 1 recommendations](research/process-notes/01_Ancestry_Calculator_Recommendations.md), [ANC matrix](research/evidence/01_Ancestry_Evidence_Matrix.md), [integration handoff](research/process-notes/01_Ancestry_Integration_Handoff.md).
+- [Team 2 recommendations](research/process-notes/02_Nutrition_Calculator_Recommendations.md), [NUT matrix](research/evidence/02_Nutrition_Evidence_Matrix.md), [integration handoff](research/process-notes/02_Nutrition_Integration_Handoff.md).
+- [Team 3 proposal](research/process-notes/03_Pharmacogenetics_Module_Proposal.md), [PGX matrix](research/evidence/03_Pharmacogenetics_Evidence_Matrix.md), [integration handoff](research/process-notes/03_Pharmacogenetics_Integration_Handoff.md).
 
