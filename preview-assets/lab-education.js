@@ -205,7 +205,7 @@
       box.appendChild(node('h4', '', r.name + ' — ' + (r.flag === 'critical' ? 'Critical flag' : r.flag === 'other' ? 'Other / unsure flag' : r.flag === 'high' ? 'High flag' : 'Low flag')));
       paragraph(box, 'You entered: ' + r.raw + ' ' + r.unit +
         (r.date ? ' | Collected: ' + r.date : '') +
-        (r.range ? ' | Report interval: ' + r.range : ' (not independently verified)' : ' | No laboratory interval provided'));
+        (r.range ? ' | Report interval: ' + r.range + ' (not independently verified)' : ' | No laboratory interval provided'));
       var item = describe(r, suppressNutrition);
       paragraph(box, (suppressNutrition && item.nutrition) ?
         'Diet-specific interpretation is withheld because another entered result may require more urgent or specialized clinical review. Discuss this flag with your clinician alongside the complete report.' :
