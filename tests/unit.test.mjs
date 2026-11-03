@@ -602,7 +602,9 @@ test('ancestry notes: each background gets its own evidence and no other group\u
   const asian = ['east_asian', 'south_asian', 'se_asian', 'mixed_asian'];
   for (const k of Object.keys(E.ANCESTRIES)) {
     const n = E.ancestryNote(k);
-    if (asian.includes(k)) assert.match(n, /Asian/, k);
+    // Phase 1 specific populations intentionally inherit their parent's evidence notes.
+    const parent = E.ANCESTRIES[k].parent || k;
+    if (asian.includes(parent)) assert.match(n, /Asian/, k);
     else assert.doesNotMatch(n, ASIAN_TEXT, k + ' note mentions Asian evidence');
   }
   const af = E.ancestryNote('african');
