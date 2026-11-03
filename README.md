@@ -14,7 +14,7 @@ An **educational, research-stage** static HTML calculator. **Not** a diagnostic 
 - **Clinical review requirements:** [docs/CLINICAL_REVIEW.md](docs/CLINICAL_REVIEW.md)
 - **Privacy:** [PRIVACY.md](PRIVACY.md)
 
-The v11 layout is an interface-only preview. Once the user submits the form, the weight-range estimate appears directly below it. The clinical weight equations are preserved. Phase 1 adds source-linked information and self-described subgroup options; differences between older research previews and the Phase 1 baseline are tracked and tested. The existing experimental ancestry and diabetes assumptions remain explicitly labeled as such.
+The integrated v11 preview contains both the redesigned layout and Phase 1 population selection with educational source-linked notes. Once the user submits the form, the weight-range estimate appears directly below it. The clinical weight equations are preserved. Phase 1 adds source-linked information and self-described subgroup options; differences between older research previews and the Phase 1 baseline are tracked and tested. The existing experimental ancestry and diabetes assumptions remain explicitly labeled as such.
 
 ## Phase 1 population selection and research profiles
 
