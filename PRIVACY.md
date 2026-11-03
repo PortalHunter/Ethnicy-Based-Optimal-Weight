@@ -8,3 +8,9 @@
 
 For local/offline use, open the HTML from disk. Questions about host-level logs should be directed to the website operator.
 
+
+## Optional lab entry (educational prototype)
+
+The lab-entry section holds values in page memory only. It does not store entries in localStorage, cookies, databases or external services, and it does not send them to the maintainer. Clearing entries or reloading the page discards them. The site does not currently parse or accept uploaded reports.
+
+The public hosting provider may still receive ordinary page requests and IP/access metadata (as described above), but the lab form does not transmit result values. Do not post personal lab reports or sensitive records to public GitHub issues.
