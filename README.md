@@ -5,16 +5,16 @@ An **educational, research-stage** static HTML calculator. **Not** a diagnostic 
 ## Start here
 
 - **Original implementation (unchanged):** [optimal_body_weight_calculator-9.html](optimal_body_weight_calculator-9.html)
-- **New, result-first UI preview (experimental):** [optimal_body_weight_calculator-11-ui-preview.html](optimal_body_weight_calculator-11-ui-preview.html) — two fields for feet/inches, prominent summary, compact detail panels; math and reference registry unchanged.
+- **New, results-below-form UI preview (experimental):** [optimal_body_weight_calculator-11-ui-preview.html](optimal_body_weight_calculator-11-ui-preview.html) — two fields for feet/inches, results immediately below the form, compact detail panels, no upward jump; math and reference registry unchanged.
 - **Previous research UI preview (archived):** [optimal_body_weight_calculator-10-research-preview.html](optimal_body_weight_calculator-10-research-preview.html)
-- **Cross-team educational research guide:** [research-preview.html](research-preview.html)
+- **Public-facing scientific bibliography:** [research-preview.html](research-preview.html) — published sources only; no internal handoffs or development commentary
 - **Full research bibliography and 17-document inventory:** [docs/research/SOURCE_INDEX.md](docs/research/SOURCE_INDEX.md)
 - **Team 1–3 original handoffs and evidence matrices:** [docs/research/source](docs/research/source)
 - **Safety and integration decisions:** [docs/EVIDENCE_INTEGRATION.md](docs/EVIDENCE_INTEGRATION.md)
 - **Clinical review requirements:** [docs/CLINICAL_REVIEW.md](docs/CLINICAL_REVIEW.md)
 - **Privacy:** [PRIVACY.md](PRIVACY.md)
 
-The v11 layout is an interface-only preview. The original calculator and its source citation keys remain unchanged; no new evidence or medical logic has been applied to the math. The original program's experimental ancestry and health-condition assumptions remain explicitly labeled as such.
+The v11 layout is an interface-only preview. Once the user submits the form, the weight-range estimate appears directly below it. The original calculator and its source citation keys remain unchanged; no new evidence or medical logic has been applied to the math. The original program's experimental ancestry and health-condition assumptions remain explicitly labeled as such.
 
 ## Local preview
 

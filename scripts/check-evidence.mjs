@@ -41,8 +41,14 @@ for (const [id, , url] of E.REFS) {
   assert.equal(new URL(url).protocol, 'https:', 'Unsafe or malformed source URL: ' + id);
 }
 const page = readFileSync(new URL('research-preview.html', base), 'utf8');
-for (const s of ['ANC-', 'NUT-', 'PGX-', 'does not', 'not a medical diagnosis']) {
-  assert.ok(page.toLowerCase().includes(s.toLowerCase()), 'Missing evidence/safety marker: ' + s);
+for (const s of ['Research &amp; scientific sources', 'Body weight, BMI and ancestry', 'Metabolic health and nutrition', 'Pharmacogenetics', 'does not establish']) {
+  assert.ok(page.toLowerCase().includes(s.toLowerCase()), 'Missing public source/safety content: ' + s);
+}
+for (const forbidden of [/docs\/research\/source\//i, /docs\/EVIDENCE_INTEGRATION/i, /cross-team implementation/i, /research-team notes/i, /AI agents/i, /bots/i]) {
+  assert.ok(!forbidden.test(page), 'Internal project material leaked into public sources page: ' + forbidden);
+}
+for (const [key, , url] of E.REFS) {
+  assert.ok(page.includes(url.replaceAll('&', '&amp;')), 'Public scientific bibliography missing calculator source: ' + key);
 }
 
 // A UI-only revision must never modify the original calculation core or research source keys.
@@ -54,7 +60,7 @@ const extract = html => {
   return m[0];
 };
 assert.equal(extract(redesigned), extract(baseline), 'UI redesign altered the mathematical engine or reference registry');
-assert.ok(redesigned.indexOf('id="personalSummary"') < redesigned.indexOf('id="calcForm"'), 'Results are no longer first');
+assert.ok(redesigned.indexOf('id="calcForm"') < redesigned.indexOf('id="personalSummary"'), 'Results should appear directly after the calculator form');
 for (const id of ['heightFeet', 'heightInches', 'heightMetricField']) {
   assert.ok(redesigned.includes('id="' + id + '"'), 'Missing accessible height UI: ' + id);
 }

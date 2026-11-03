@@ -16,7 +16,7 @@ async function fillCommon(page) {
   await page.type('#wrist', '7');
 }
 
-test('v11 is result-first, responsive, and math/citation-identical to v10', { skip: !CHROME && 'Chrome is missing' }, async (t) => {
+test('v11 presents results below the form, responsive, and math/citation-identical to v10', { skip: !CHROME && 'Chrome is missing' }, async (t) => {
   const browser = await puppeteer.launch({executablePath:CHROME,headless:true,args:['--no-sandbox'],protocolTimeout:12000});
   try {
     const a=await browser.newPage(), b=await browser.newPage();
@@ -27,13 +27,14 @@ test('v11 is result-first, responsive, and math/citation-identical to v10', { sk
     }
     await a.goto(originalPreview,{waitUntil:'load'});
     await b.goto(redesigned,{waitUntil:'load'});
-    await t.test('summary before inputs, separate imperial fields, no existing computed values',async()=>{
-      assert.equal(await b.evaluate(()=>document.querySelector('#personalSummary').compareDocumentPosition(document.querySelector('#calcForm'))&Node.DOCUMENT_POSITION_FOLLOWING),4);
+    await t.test('summary after inputs, separate imperial fields, no prefilled estimate',async()=>{
+      assert.equal(await b.evaluate(()=>document.querySelector('#calcForm').compareDocumentPosition(document.querySelector('#personalSummary'))&Node.DOCUMENT_POSITION_FOLLOWING),4);
       assert.equal(await b.$eval('#heightFeet',e=>getComputedStyle(e).display!=='none'),true);
       assert.equal(await b.$eval('#heightInches',e=>getComputedStyle(e).display!=='none'),true);
       assert.equal(await b.$eval('#heightMetricField',e=>e.hidden),true);
       assert.equal(await b.$eval('#results',e=>getComputedStyle(e).display==='none'),true);
-      assert.equal(await b.$eval('#resultsEmpty',e=>e.hidden),false);
+      assert.equal(await b.$eval('#resultsEmpty',e=>e.hidden),true);
+      assert.equal(await b.$eval('#personalSummary',e=>e.hidden),true);
     });
     await fillCommon(a);
     await fillCommon(b);
@@ -43,7 +44,7 @@ test('v11 is result-first, responsive, and math/citation-identical to v10', { sk
     await a.bringToFront();
     await a.evaluate(() => document.querySelector('#calcBtn').click());
     await b.bringToFront();
-    await b.evaluate(() => document.querySelector('#calcBtn').click());
+    await b.evaluate(() => { window.scrollTo(0,document.querySelector('#calcBtn').getBoundingClientRect().top+window.scrollY-120);document.querySelector('#calcBtn').click(); });
     const text=(p,id)=>p.$eval(id,e=>e.textContent);
     await t.test('weight ranges and all cited sources remain the same',async()=>{
       assert.equal(await text(a,'#sugRange'),await text(b,'#sugRange'));
@@ -52,8 +53,10 @@ test('v11 is result-first, responsive, and math/citation-identical to v10', { sk
       const newRefs=await b.$$eval('#refList a',a=>a.map(x=>x.href));
       assert.deepEqual(newRefs,oldRefs);
       assert.equal(await b.$eval('#resultsEmpty',e=>e.hidden),true);
+      assert.equal(await b.$eval('#personalSummary',e=>e.hidden),false);
       assert.ok((await text(b,'#quickRange')).includes((await text(b,'#sugRange')).trim()));
       assert.equal(await b.$eval('#results',e=>getComputedStyle(e).display==='block'),true);
+      assert.ok(await b.evaluate(()=>document.querySelector('#personalSummary').getBoundingClientRect().top>=document.querySelector('#calcBtn').getBoundingClientRect().bottom-2), 'Estimate should appear beneath Calculate, not above the form');
     });
     await t.test('height conversion preserves values on round-trip',async()=>{
       await b.select('#heightUnit','cm');
@@ -77,6 +80,7 @@ test('v11 is result-first, responsive, and math/citation-identical to v10', { sk
       await b.$eval('#heightInches',e=>{e.value='13';e.dispatchEvent(new Event('input',{bubbles:true}));});
       assert.match(await text(b,'#errors'),/inches must be/i);
       assert.equal(await b.$eval('#results',e=>getComputedStyle(e).display==='none'),true);
+      assert.equal(await b.$eval('#personalSummary',e=>e.hidden),true);
       assert.equal(await b.$eval('#heightInches',e=>e.getAttribute('aria-invalid')),'true');
     });
     await t.test('phone layout stays within the viewport',async()=>{
@@ -105,6 +109,7 @@ test('v11 pregnancy and optional measurements', { skip:!CHROME && 'Chrome missin
     await p.click('#calcBtn');
     assert.equal(await p.$('#quickRange'),null);
     assert.match(await p.$eval('#results',e=>e.textContent),/No weight estimate during pregnancy/);
+    assert.equal(await p.$eval('#personalSummary',e=>e.hidden),false);
     assert.equal(await p.$eval('#refList',e=>e.tagName),'OL');
     await p.close();
   } finally {await browser.close();}
