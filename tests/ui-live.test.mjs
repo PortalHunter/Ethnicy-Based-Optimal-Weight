@@ -125,6 +125,32 @@ test('live site shows results below the form, works on phones, and matches the c
       assert.equal(await b.$eval('#elbow',el=>el.value),'','optional elbow must start empty');
       assert.equal(await b.$eval('#waist',el=>el.value),'','optional waist must start empty');
     });
+    await t.test('approved wrist guide loads beneath wrist controls and opens at full resolution',async()=>{
+      const guide = await b.$eval('#wristGuideImage',async (img)=>{
+        img.loading = 'eager'; // Force the deferred asset to load in this browser check.
+        await img.decode();
+        const card = img.closest('.measurement-slider');
+        const input = card.querySelector('#wrist');
+        return {
+          naturalWidth:img.naturalWidth,naturalHeight:img.naturalHeight,
+          inWristCard:card.querySelector('#wristSlider')!==null,
+          belowInput:!!(input.compareDocumentPosition(img)&Node.DOCUMENT_POSITION_FOLLOWING),
+          alt:img.alt,cssWidth:getComputedStyle(img).width,
+          linkTarget:img.closest('a')?.target,
+          href:img.closest('a')?.getAttribute('href'),
+          source:img.getAttribute('src')
+        };
+      });
+      assert.equal(guide.naturalWidth,1448);
+      assert.equal(guide.naturalHeight,1086);
+      assert.equal(guide.inWristCard,true);
+      assert.equal(guide.belowInput,true);
+      assert.match(guide.alt,/narrowest part of your wrist/);
+      assert.equal(guide.linkTarget,'_blank');
+      assert.equal(guide.href,'assets/wrist-measurement-guide.png');
+      assert.equal(guide.source,'assets/wrist-measurement-guide.png');
+      assert.ok(parseFloat(guide.cssWidth)>0);
+    });
     await t.test('wrist slider updates both units without changing the math',async()=>{
       await b.$eval('#wristSlider',el=>{el.value='7.5';el.dispatchEvent(new Event('input',{bubbles:true}));});
       assert.equal(await b.$eval('#wrist',el=>el.value),'7.5');
