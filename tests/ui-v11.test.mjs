@@ -106,7 +106,9 @@ test('v11 pregnancy and optional measurements', { skip:!CHROME && 'Chrome missin
     assert.equal(await p.$eval('#pregBox',e=>e.hidden),false);
     assert.equal(await p.$eval('.optional-panel',e=>e.open),false);
     await p.click('#pregnant');
+    assert.equal(await p.$eval('#pregnant',e=>e.checked),true,'checkbox must accept browser click');
     await p.click('#calcBtn');
+    assert.equal(await p.$eval('#pregnant',e=>e.checked),true,'checkbox must remain checked on submit');
     assert.equal(await p.$('#quickRange'),null);
     assert.match(await p.$eval('#results',e=>e.textContent),/No weight estimate during pregnancy/);
     assert.equal(await p.$eval('#personalSummary',e=>e.hidden),false);
