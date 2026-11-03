@@ -28,7 +28,23 @@ test('published preview loads separate JavaScript files and fully initializes', 
     await page.select('#singleRegion','southeastasia');
     await page.select('#singleDetail','sea_philippines');
     await page.click('#calcBtn');
-    assert.equal(await page.$eval('#personalSummary',e=>e.hidden),false);
+    const details = await page.evaluate(() => ({
+      summaryHidden: document.getElementById('personalSummary').hidden,
+      errorText: document.getElementById('errors').textContent,
+      errorHidden: document.getElementById('errors').hidden,
+      sex: document.getElementById('sex').value,
+      age: document.getElementById('age').value,
+      heightFeet: document.getElementById('heightFeet').value,
+      heightInches: document.getElementById('heightInches').value,
+      heightUnit: document.getElementById('heightUnit').value,
+      ancestry: document.getElementById('ancestry').value,
+      region: document.getElementById('singleRegion').value,
+      detail: document.getElementById('singleDetail').value,
+      weight: document.getElementById('weight').value,
+      wrist: document.getElementById('wrist').value,
+      result: document.getElementById('results').textContent.slice(0,300)
+    }));
+    assert.equal(details.summaryHidden,false,JSON.stringify(details));
     assert.match(await page.$eval('#quickRange',e=>e.textContent),/lb/);
     assert.deepEqual(errors,[]);
   } finally {await browser.close();}
