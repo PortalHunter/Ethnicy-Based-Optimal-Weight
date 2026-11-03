@@ -12,7 +12,6 @@ Direct website URL: https://portalhunter.github.io/Ethnicy-Based-Optimal-Weight/
 
 - **Current website source:** [index.html](index.html) — redesigned interface, separate feet/inches inputs, results directly below the form, and expanded ancestry selection.
 - **Phase 1 reference calculator:** [optimal_body_weight_calculator-9.html](optimal_body_weight_calculator-9.html) — preserved weight equations, 62 optional population subgroups, and cited health notes.
-- **Earlier interface versions:** [v11 standalone preview](optimal_body_weight_calculator-11-ui-preview.html) and [v10 research preview](optimal_body_weight_calculator-10-research-preview.html), retained for comparison.
 - **Public scientific bibliography:** [research-preview.html](research-preview.html).
 - **Research bibliography and 17-document inventory:** [docs/research/SOURCE_INDEX.md](docs/research/SOURCE_INDEX.md).
 - **Research archive and evidence matrices:** [docs/research/source](docs/research/source) — population health and anthropometry, hereditary conditions and nutrition, and pharmacogenetics.

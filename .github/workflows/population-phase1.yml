@@ -3,7 +3,7 @@ name: Population Phase 1 regression tests
 on:
   push:
     branches:
-      - feature/phase1-population-profiles
+      - main
   pull_request:
 
 permissions:

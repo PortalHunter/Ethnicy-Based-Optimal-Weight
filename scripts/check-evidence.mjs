@@ -51,23 +51,25 @@ for (const [key, , url] of E.REFS) {
   assert.ok(page.includes(url.replaceAll('&', '&amp;')), 'Public scientific bibliography missing calculator source: ' + key);
 }
 
-// A UI-only revision must never modify the original calculation core or research source keys.
+// The live site's engine (preview-assets/core.js) is protected by fingerprint, and the classic
+// calculator's built-in engine must stay identical to it, so a UI change can never alter the math.
+assert.equal(blobSha('preview-assets/core.js'), 'a41cb39b53c15e4b975a59ccc27099bf848acf8c',
+  'Live calculation engine changed: review algorithms and source citations before changing preview-assets/core.js');
 const baseline = readFileSync(new URL('optimal_body_weight_calculator-9.html', base), 'utf8');
-const redesigned = readFileSync(new URL('optimal_body_weight_calculator-11-ui-preview.html', base), 'utf8');
-const extract = html => {
-  const m = html.match(/<script id="calc-core">[\s\S]*?<\/script>/);
-  assert.ok(m, 'Missing original calculation core');
-  return m[0];
-};
-assert.equal(extract(redesigned), extract(baseline), 'UI redesign altered the mathematical engine or reference registry');
-assert.ok(redesigned.indexOf('id="calcForm"') < redesigned.indexOf('id="personalSummary"'), 'Results should appear directly after the calculator form');
+const liveCore = readFileSync(new URL('preview-assets/core.js', base), 'utf8');
+const live = readFileSync(new URL('index.html', base), 'utf8');
+const m = baseline.match(/<script id="calc-core">([\s\S]*?)<\/script>/);
+assert.ok(m, 'Missing original calculation core in the classic calculator');
+assert.equal(liveCore.trim(), m[1].trim(), 'Live engine and classic calculator engine have drifted apart');
+assert.ok(live.includes('src="preview-assets/core.js"'), 'Live site must load the protected engine');
+assert.ok(live.indexOf('id="calcForm"') < live.indexOf('id="personalSummary"'), 'Results should appear directly after the calculator form');
 for (const id of ['heightFeet', 'heightInches', 'heightMetricField']) {
-  assert.ok(redesigned.includes('id="' + id + '"'), 'Missing accessible height UI: ' + id);
+  assert.ok(live.includes('id="' + id + '"'), 'Missing accessible height UI: ' + id);
 }
 const bibliography = readFileSync(new URL('docs/research/SOURCE_INDEX.md', base), 'utf8');
 for (const name of docs) assert.ok(bibliography.includes(name), 'Missing research report in source index: ' + name);
 for (const [id, , url] of E.REFS) {
   assert.ok(bibliography.includes(url), 'Missing original reference URL in source index: ' + id);
 }
-console.log('Verified protected v9 baseline, unchanged v11 EBOW core, 17 reports, all reference keys, and source index.');
+console.log('Verified protected classic calculator and live engine (identical), 17 reports, all reference keys, and source index.');
 

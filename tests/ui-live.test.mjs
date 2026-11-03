@@ -5,18 +5,19 @@ import { existsSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 
 const CHROME = process.env.CHROME_PATH || ['/usr/bin/google-chrome', '/usr/bin/chromium', '/usr/bin/chromium-browser'].find(existsSync);
-const originalPreview = pathToFileURL(new URL('../optimal_body_weight_calculator-10-research-preview.html', import.meta.url).pathname).href;
-const redesigned = pathToFileURL(new URL('../optimal_body_weight_calculator-11-ui-preview.html', import.meta.url).pathname).href;
+// The live site (index.html) is checked against the classic calculator, which shares the same engine.
+const originalPreview = pathToFileURL(new URL('../optimal_body_weight_calculator-9.html', import.meta.url).pathname).href;
+const redesigned = pathToFileURL(new URL('../index.html', import.meta.url).pathname).href;
 
 async function fillCommon(page) {
   await page.select('#sex', 'male');
   await page.type('#age', '40');
-  await page.select('#ancestry', 'se_asian');
+  await page.select('#singleRegion', 'southeastasia');
   await page.type('#weight', '180');
   await page.type('#wrist', '7');
 }
 
-test('v11 presents results below the form, responsive, and math/citation-identical to v10', { skip: !CHROME && 'Chrome is missing' }, async (t) => {
+test('live site shows results below the form, works on phones, and matches the classic calculator\'s math and citations', { skip: !CHROME && 'Chrome is missing' }, async (t) => {
   const browser = await puppeteer.launch({executablePath:CHROME,headless:true,args:['--no-sandbox'],protocolTimeout:12000});
   try {
     const a=await browser.newPage(), b=await browser.newPage();
@@ -94,13 +95,13 @@ test('v11 presents results below the form, responsive, and math/citation-identic
   } finally {await browser.close();}
 });
 
-test('v11 pregnancy and optional measurements', { skip:!CHROME && 'Chrome missing' },async()=>{
+test('live site: pregnancy and optional measurements', { skip:!CHROME && 'Chrome missing' },async()=>{
   const browser=await puppeteer.launch({executablePath:CHROME,headless:true,args:['--no-sandbox']});
   try {
     const p=await browser.newPage();
     await p.goto(redesigned);
     await p.select('#sex','female');
-    await p.select('#ancestry','european');
+    await p.select('#singleRegion','europe');
     await p.type('#age','30'); await p.type('#heightFeet','5'); await p.type('#heightInches','4');
     await p.type('#weight','140'); await p.type('#wrist','6');
     assert.equal(await p.$eval('#pregBox',e=>e.hidden),false);
