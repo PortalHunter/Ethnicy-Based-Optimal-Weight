@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "elements": ["html5"],
+  "rules": {
+    "doctype-html": "error",
+    "close-order": "error",
+    "no-dup-id": "error",
+    "attr-quotes": "error"
+  }
+}

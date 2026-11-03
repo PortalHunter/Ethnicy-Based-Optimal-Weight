@@ -975,8 +975,8 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     for (var i = 0; i < E.POP_REGIONS.length; i++) if (E.POP_REGIONS[i][0] === key) return E.POP_REGIONS[i];
     return null;
   }
-  function setupPopulationRow(prefix, underlyingId) {
-    var region = $(prefix+'Region'), detail = $(prefix+'Detail'), underlying = $(underlyingId);
+  function setupPopulationRow(prefix, underlyingId, index) {
+    var region = $(prefix+'Region'+(index || '')), detail = $(prefix+'Detail'+(index || '')), underlying = $(underlyingId);
     region.innerHTML = '<option value="">-- choose --</option>' + E.POP_REGIONS.map(function (r) {
       return '<option value="'+esc(r[0])+'">'+esc(r[1])+'</option>';
     }).join('');
@@ -1363,7 +1363,7 @@ window.onerror = function (msg) { window.ebowShowFatal(String(msg)); };
     setupPopulationRow('single', 'ancestry');
     for (var i = 1; i <= 3; i++) {
       $('mixAnc' + i).innerHTML = '<option value="">-- choose --</option>' + ancestryOptions('', true);
-      setupPopulationRow('mix'+i, 'mixAnc'+i);
+      setupPopulationRow('mix', 'mixAnc'+i, i);
       $('mixPct' + i).addEventListener('input', updateMixTotal);
       $('mixPct' + i).addEventListener('input', refreshIdentify);
     }

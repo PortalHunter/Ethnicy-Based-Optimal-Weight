@@ -1,25 +1,48 @@
-# Ancestry-Adjusted Optimal Body Weight & Nutrition Calculator
+# Ancestry-Adjusted Body Weight & Nutrition Calculator
 
-Open-source **educational** calculator for adult weight ranges, body frame, optional waist measurements, and evidence-linked nutritional and population health information. **Not medical advice or a validated individual risk prediction.** A clinician's advice, diagnoses, relevant laboratory results, individual genetic findings and family history take precedence.
+An **educational, research-stage** static HTML calculator. **Not** a diagnostic tool, prescribing system, treatment target generator, or clinically validated personal-risk score. The source code, published evidence, developer-proposed heuristics and research hypotheses must be distinguished.
 
-## Use the calculator
+## Start here
 
-[Open the standalone HTML calculator](optimal_body_weight_calculator-9.html) in a web browser. The page performs its calculations locally and does not submit ancestry or health information to a server. If opening a downloaded copy, keep JavaScript enabled.
+- **Phase 1 calculator on main:** [optimal_body_weight_calculator-9.html](optimal_body_weight_calculator-9.html) — original weight equations preserved, now with 62 optional population subgroups and referenced research notes.
+- **New, results-below-form UI preview (experimental):** [optimal_body_weight_calculator-11-ui-preview.html](optimal_body_weight_calculator-11-ui-preview.html) — two fields for feet/inches, results immediately below the form, compact detail panels, no upward jump; weight equations unchanged; new population research notes will be integrated into this preview.
+- **Previous research UI preview (archived):** [optimal_body_weight_calculator-10-research-preview.html](optimal_body_weight_calculator-10-research-preview.html)
+- **Public-facing scientific bibliography:** [research-preview.html](research-preview.html) — published sources only; no internal handoffs or development commentary
+- **Full research bibliography and 17-document inventory:** [docs/research/SOURCE_INDEX.md](docs/research/SOURCE_INDEX.md)
+- **Team 1–3 original handoffs and evidence matrices:** [docs/research/source](docs/research/source)
+- **Safety and integration decisions:** [docs/EVIDENCE_INTEGRATION.md](docs/EVIDENCE_INTEGRATION.md)
+- **Clinical review requirements:** [docs/CLINICAL_REVIEW.md](docs/CLINICAL_REVIEW.md)
+- **Privacy:** [PRIVACY.md](PRIVACY.md)
 
-## Population and heritage selection — Phase 1
+The integrated v11 preview contains both the redesigned layout and Phase 1 population selection with educational source-linked notes. Once the user submits the form, the weight-range estimate appears directly below it. The clinical weight equations are preserved. Phase 1 adds source-linked information and self-described subgroup options; differences between older research previews and the Phase 1 baseline are tracked and tested. The existing experimental ancestry and diabetes assumptions remain explicitly labeled as such.
 
-The form starts with a broad region/heritage category and optionally offers one of **62 specific population subgroups across 11 families**. Mixed ancestry (up to three selections with self-reported percentages) remains supported. A separate optional family/founder-heritage field adds information about selected inherited conditions. Every subgroup inherits its established broad BMI classification; **none of the 62 options creates a new weight equation, risk score or BMI cutoff**. The pre-existing percentage-blending option is explicitly marked experimental and is not clinical guidance.
+## Phase 1 population selection and research profiles
 
-The research notes are linked to their original sources in the result and compiled in the [Phase 1 evidence and methods register](research/PHASE1_POPULATION_PROFILES.md). Exploratory subgroups are included for inclusive self-description and deliberately do not trigger unsubstantiated health guidance. Ancestry/ethnicity does not determine genotype, and the app never excludes people from screening on that basis.
+The 11 broad population families and 62 optional subgroups are part of the new [Phase 1 calculator](optimal_body_weight_calculator-9.html); source register, evidence grading and limitations are in [research/PHASE1_POPULATION_PROFILES.md](research/PHASE1_POPULATION_PROFILES.md). Mixed ancestry and a separate founder-heritage layer are retained. New subgroup notes do not change the weight calculations. Run `node tests/population-phase1.test.mjs` for numerical-equivalence checks across all 62 subgroups.
 
-## Research and methods
+## Local preview
 
-- [Phase 1: population taxonomy, evidence levels, safeguards and sources](research/PHASE1_POPULATION_PROFILES.md)
-- Calculation methods, legacy references and limitations are documented directly in the calculator's **Limitations and how this calculator works** section and numbered **References** displayed with results.
-- [Population regression tests](tests/population-phase1.test.mjs) — run with `node tests/population-phase1.test.mjs`.
+Open the HTML file directly in a modern browser (no server required). For automated tests: install Node.js 22+, then run `npm ci --prefix tests` and `npm test --prefix tests`. Browser-based tests require an installed Chrome/Chromium browser; specify `CHROME_PATH=/path/to/chrome` if it is not in a standard location. CI **must ensure Chrome is installed** rather than silently skipping the browser suite.
 
-## Validation status and scope
+## Inputs and limits
 
-The calculator is a research/educational implementation, **not clinically validated**. Weight ranges combine established BMI action points with older ideal-body-weight formulas and body-frame estimates in a project-specific way. These algorithms have not been prospectively validated for individual outcomes. Some ethnic BMI action points differ between WHO/NICE/ADA authorities; the interface identifies them. Detailed population findings are educational only until clinically validated.
+The original calculator accepts adult ages 18–120; sex-specific historical body-frame formulas use male/female inputs; height, weight, wrist, and age are required; elbow and waist are optional; height in inches/cm, weight lb/kg, body lengths inches/cm. Mixed ancestry percentages may sum to 100 within 1 percentage point for rounding. Inputs for pregnancy/breastfeeding suppress weight-range output. These are **existing software assumptions**, not clinical eligibility guidelines.
 
-No medications are prescribed; dietary advice should be individualized. Do not use the calculator for children, pregnancy, or personalized medical weight targets established by a clinician. Review the full on-page limitations.
+The calculator includes experimental ancestry-weighted thresholds and a diabetes-related BMI buffer/cap. Research teams have identified these as **not independently clinically validated**. See [docs/EVIDENCE_INTEGRATION.md](docs/EVIDENCE_INTEGRATION.md) before using or revising them. A BMI screening threshold, weight estimate, clinical diagnosis and personalized target are **different concepts**.
+
+## Repository workflow
+
+Use short-lived `feature/...` branches from `main`, reviewed pull requests and passing CI; do not push directly to `main`. The research integration branch is **not production**. Medical or ancestry-related claims require a primary-source review and human authorization before publication. See [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/REPOSITORY_PROTECTION.md](docs/REPOSITORY_PROTECTION.md).
+
+## Versioning, release and rollback
+
+Use SemVer tags `vMAJOR.MINOR.PATCH` for reviewed releases. Do not create a release tag or publish until CI, scientific review and explicit human approval are complete. To roll back, redeploy the last approved tag; avoid force-pushing or deleting history. Current files are exploratory and **not automatically released**.
+
+## Licensing and security
+
+Code currently uses MIT (see [LICENSE](LICENSE)). MIT controls redistribution and warranty terms, **not** clinical safety, patent clearance, security or user-data protection. License changes require a separate legal/maintainer decision and may not revoke prior grants. See [SECURITY.md](SECURITY.md) and [docs/LICENSE_REVIEW.md](docs/LICENSE_REVIEW.md).
+
+## Evidence
+
+Each original study/report has distinct methods, populations and limitations. All 17 unmodified research submissions are under `docs/research/source/`. This repository has not independently verified every source citation or guideline update; claim promotion to user-facing clinical output is gated by [docs/CLINICAL_REVIEW.md](docs/CLINICAL_REVIEW.md).
+

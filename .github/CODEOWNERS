@@ -1,0 +1,6 @@
+# Add a qualified clinical reviewer as a separate code owner when available.
+# The existing maintainer is the fallback for all changes.
+* @PortalHunter
+/docs/research/ @PortalHunter
+/.github/workflows/ @PortalHunter
+
