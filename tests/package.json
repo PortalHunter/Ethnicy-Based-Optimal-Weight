@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test unit.test.mjs e2e.test.mjs ui-live.test.mjs ui-integrated.test.mjs preview-deployment.test.mjs stress.test.mjs"
+    "test": "node --test --test-concurrency=1 unit.test.mjs e2e.test.mjs ui-live.test.mjs ui-integrated.test.mjs preview-deployment.test.mjs stress.test.mjs"
   },
   "devDependencies": {
     "acorn": "^8.19.0",
