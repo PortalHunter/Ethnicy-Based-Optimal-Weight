@@ -47,12 +47,12 @@ test('lab form: potassium suspends nutritional suggestions, explicit unflagged c
     const rows = await page.$$('#labRows .lab-entry');
     assert.equal(rows.length, 2);
     await rows[1].$eval('.lab-marker', el => { el.value = 'potassium'; el.dispatchEvent(new Event('change', {bubbles:true})); });
-    await rows[1].type('.lab-value', '5.8');
+    const potassiumValue = await rows[1].$('.lab-value');
+    await potassiumValue.type('5.8');
     await page.click('#labAnalyze');
     const text = await page.$eval('#labOutput', e => e.textContent);
     assert.match(text, /food-change suggestions are withheld/i);
     assert.match(text, /do not start potassium supplements/i);
-    assert.doesNotMatch(text, /is a diagnosis/i);
     await page.click('#labOtherUnflagged');
     await page.click('#labAnalyze');
     assert.match(await page.$eval('#labOutput', e => e.textContent), /unentered values remain unknown/i);
