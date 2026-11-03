@@ -68,6 +68,44 @@ test('live site shows results below the form, works on phones, and matches the c
       assert.equal(await b.$eval('#heightInches',e=>e.value),'10');
       assert.equal(await text(a,'#sugRange'),await text(b,'#sugRange'));
     });
+    await t.test('sliders sync with typed entries and display imperial plus metric readings',async()=>{
+      // Dragging either slider writes the existing calculator inputs rather than bypassing validation.
+      await b.$eval('#heightSlider',el=>{el.value='72';el.dispatchEvent(new Event('input',{bubbles:true}));});
+      assert.equal(await b.$eval('#heightFeet',el=>el.value),'6');
+      assert.equal(await b.$eval('#heightInches',el=>el.value),'0');
+      assert.equal(await text(b,'#heightReadoutMetric'),'182.9 cm');
+      await b.$eval('#weightSlider',el=>{el.value='220';el.dispatchEvent(new Event('input',{bubbles:true}));});
+      assert.equal(await b.$eval('#weight',el=>el.value),'220');
+      assert.equal(await text(b,'#weightReadoutImperial'),'220 lb');
+      assert.equal(await text(b,'#weightReadoutMetric'),'99.8 kg');
+
+      // Switching units and manual edits both update the same slider.
+      await b.select('#heightUnit','cm');
+      assert.equal(await b.$eval('#height',el=>el.value),'182.88');
+      await b.select('#weightUnit','kg');
+      assert.equal(await b.$eval('#weight',el=>el.value),'99.79');
+      await b.$eval('#height',el=>{el.value='177.8';el.dispatchEvent(new Event('input',{bubbles:true}));});
+      assert.equal(await text(b,'#heightReadoutImperial'),'5 ft 10 in');
+      assert.equal(await b.$eval('#heightSlider',el=>el.value),'70');
+      await b.select('#heightUnit','in');
+      await b.select('#weightUnit','lb');
+
+      // A clinician typing "5 10" into the feet box with inches empty is accepted.
+      await b.evaluate(()=>{
+        document.querySelector('#heightFeet').value='5 10';
+        document.querySelector('#heightInches').value='';
+        document.querySelector('#heightFeet').dispatchEvent(new Event('change',{bubbles:true}));
+      });
+      assert.equal(await b.$eval('#heightFeet',el=>el.value),'5');
+      assert.equal(await b.$eval('#heightInches',el=>el.value),'10');
+      assert.equal(await text(b,'#heightReadoutMetric'),'177.8 cm');
+
+      // Restore inputs so the later classic-vs-live result comparisons remain meaningful.
+      await b.$eval('#weight',el=>{el.value='180';el.dispatchEvent(new Event('input',{bubbles:true}));});
+      assert.equal(await b.$eval('#weightSlider',el=>el.value),'180');
+      assert.equal(await b.$eval('#results',el=>getComputedStyle(el).display),'block');
+      assert.equal(await text(a,'#sugRange'),await text(b,'#sugRange'));
+    });
     await t.test('condition-sensitive result summary uses existing calculated buffer',async()=>{
       await a.bringToFront();
       await a.evaluate(() => document.querySelector('.cond[value="diabetes"]').click());
