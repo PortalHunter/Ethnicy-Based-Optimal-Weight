@@ -146,7 +146,7 @@
   function normalizeSpacedHeight() {
     if ($('heightUnit').value !== 'in' || $('heightInches').value.trim()) return;
     // A common input such as "5 10" in the feet box should not cause an error.
-    var m = /^([3-8])\\s+(\\d{1,2}(?:[.,]\\d+)?)$/.exec($('heightFeet').value.trim());
+    var m = /^([3-8])\s+(\d{1,2}(?:[.,]\d+)?)$/.exec($('heightFeet').value.trim());
     if (!m) return;
     var inches = E.parseNum(m[2]);
     if (inches === null || !isFinite(inches) || inches < 0 || inches >= 12) return;
