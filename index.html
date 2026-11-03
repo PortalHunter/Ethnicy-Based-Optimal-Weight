@@ -121,7 +121,38 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 .wrist-guide-image-link img{display:block;width:100%;height:auto;background:#fff}
 .wrist-guide-image-link:focus-visible{outline:3px solid #0071e3}
 @media(max-width:480px){.wrist-guide{padding:11px;margin-top:15px}.wrist-guide figcaption strong{font-size:15px}.wrist-guide figcaption span{font-size:12px}}
-</style></head>
+</style>
+<style id="lab-education-style">
+#labPanel{margin-top:0}
+#labPanel h2{margin:0 0 10px}
+#labDetails>summary{border:1px solid #cfdff7;background:#f3f8ff;padding:16px 20px;border-radius:14px;font-weight:700;color:#1458a6;list-style-position:inside}
+#labDetails[open]>summary{margin-bottom:22px}
+.lab-help{font-size:14px;color:#555761}
+.lab-safety,.lab-alert{background:#fff2e7;border-left:4px solid #aa3b06;border-radius:8px;padding:12px 14px;color:#633014}
+.lab-caution{background:#fff9e9;border-left:3px solid #9a6700;padding:11px;border-radius:8px}
+.lab-entry{border:1px solid #d9dfe9;background:#f9fafb;border-radius:16px;padding:17px 18px;margin:16px 0;min-width:0}
+.lab-entry legend{font-weight:700;padding:0 5px}
+.lab-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 16px}
+.lab-grid label{display:block;font-weight:600;font-size:14px;min-width:0}
+.lab-grid input,.lab-grid select{display:block;width:100%;margin-top:5px}
+#labPanel button{min-height:44px;font-weight:650}
+#labPanel .lab-secondary{background:#fff;color:#1458a6;border:1px solid #b8cce9}
+#labPanel .lab-remove{margin-top:14px;padding:7px 13px;font-size:13px;width:auto;min-height:39px;background:#fff;border:1px solid #d6d6dc;color:#494950}
+.lab-confirm{display:flex;gap:9px;align-items:start;background:#f3f8ff;border-radius:11px;padding:12px;font-size:14px;margin-top:17px}
+.lab-confirm input{flex-shrink:0}
+.lab-actions{display:grid;grid-template-columns:2fr 1fr;gap:12px;margin-top:12px}
+#labAnalyze{background:#0071e3;color:#fff}
+#labErrors{margin:12px 0;background:#fff1f0;border:1px solid #eeb2ae;padding:14px;border-radius:12px;color:#8b1e15}
+#labOutput{margin-top:24px;border-top:1px solid #e0e4e9;padding-top:12px}
+#labOutput:focus{outline:none}
+.lab-result-card{background:#fff;border:1px solid #e0e4ed;border-radius:14px;padding:18px;margin:15px 0;overflow-wrap:anywhere}
+.lab-result-card h4{margin:0;font-size:18px}
+.lab-result-card p{margin:10px 0}
+.lab-ancestry{background:#edf6ff;border-radius:10px;padding:12px}
+.lab-source{font-size:13px;margin:10px 0;color:#4e5460}
+@media(max-width:720px){.lab-grid,.lab-actions{grid-template-columns:1fr}.lab-entry{padding:14px}}
+</style>
+</head>
 <body>
 <div class="topbar"><strong>Ancestry Health</strong><nav aria-label="Site navigation"><a href="#calculator">Calculator</a><a href="#personalSummary">Results</a><a href="research-preview.html">Research sources</a></nav></div>
 <main>
@@ -294,6 +325,25 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 <button type="submit" id="calcBtn">See my weight-range estimate</button>
 </form></section>
 <section id="personalSummary" aria-labelledby="summaryTitle" hidden><p class="eyebrow">Your personalized estimate</p><h2 id="summaryTitle">Your ancestry &amp; health-condition weight estimate</h2><p class="intro">An experimental estimate, not a clinically validated medical target.</p><div id="resultsEmpty" hidden></div><div id="results" aria-live="polite"></div></section>
+<section id="labPanel" class="input-panel lab-panel" aria-labelledby="labTitle">
+  <h2 id="labTitle">Blood Test Results &amp; Nutrition</h2>
+  <p class="intro">Optional, research-informed discussion notes. Your weight estimate above is not changed by these results.</p>
+  <details id="labDetails">
+    <summary>Add results flagged high or low on my lab report</summary>
+    <p class="lab-help">Start with any abnormal results from your report. Enter the exact value and units; a flag does not tell us the cause or urgency. This educational section is not a medical diagnosis or treatment plan.</p>
+    <p class="lab-safety">If your laboratory has marked a result <strong>critical</strong> or told you to seek urgent care, follow those instructions immediately. Do not wait for this website.</p>
+    <form id="labForm" novalidate autocomplete="off">
+      <div id="labRows"></div>
+      <button id="labAdd" class="lab-secondary" type="button">+ Add another abnormal result</button>
+      <label class="lab-confirm"><input id="labOtherUnflagged" type="checkbox"> I reviewed the rest of this panel, and the report did not flag other results.</label>
+      <p class="lab-help">Unchecked or unentered tests are unknown. Even if checked, this does not supply the actual numbers or mean every other test is healthy.</p>
+      <div class="lab-actions"><button type="submit" id="labAnalyze">Show educational discussion notes</button><button id="labClear" type="button" class="lab-secondary">Clear lab entries</button></div>
+    </form>
+    <div id="labErrors" role="alert" tabindex="-1" hidden></div>
+    <div id="labOutput" tabindex="-1" role="region" aria-label="Laboratory result educational notes" aria-live="polite" hidden></div>
+    <p class="lab-help">Privacy: entries are processed in this browser tab only and are not stored or uploaded. No real lab reports should be added to GitHub issues. <a href="PRIVACY.md">Privacy details</a>.</p>
+  </details>
+</section>
 <section class="notes-panel"><p style="font-size:0.85rem; color:#555; margin-top:8px;"><strong>Measurement tips:</strong> use a soft tape; measure the wrist at its narrowest point just beyond the wrist bone (toward the hand) <a href="https://medlineplus.gov/ency/imagepages/17182.htm" target="_blank" rel="noopener noreferrer">(MedlinePlus)</a>. Elbow breadth is the width between the two bony points of the elbow with the arm bent at 90&deg;, ideally with a caliper; a tape against a ruler is less accurate. Errors of a tenth of an inch can change the frame result near a cut-off.</p>
 
 <script id="calc-guard" src="preview-assets/guard.js"></script>
@@ -324,5 +374,6 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 
 </section></main><footer class="footer"><a href="research-preview.html">Research sources</a> · <a href="optimal_body_weight_calculator-9.html">Classic calculator</a></footer><script id="calc-core" src="preview-assets/core.js"></script>
 <script id="calc-ui" src="preview-assets/ui.js"></script>
+<script id="lab-education" src="preview-assets/lab-education.js"></script>
 </body>
 </html>
