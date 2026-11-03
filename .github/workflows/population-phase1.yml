@@ -1,0 +1,23 @@
+name: Population Phase 1 regression tests
+
+on:
+  push:
+    branches:
+      - feature/phase1-population-profiles
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  population-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify math invariance, taxonomy, citations and form
+        run: node tests/population-phase1.test.mjs

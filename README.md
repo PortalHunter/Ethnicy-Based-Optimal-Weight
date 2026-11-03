@@ -4,8 +4,8 @@ An **educational, research-stage** static HTML calculator. **Not** a diagnostic 
 
 ## Start here
 
-- **Original implementation (unchanged):** [optimal_body_weight_calculator-9.html](optimal_body_weight_calculator-9.html)
-- **New, results-below-form UI preview (experimental):** [optimal_body_weight_calculator-11-ui-preview.html](optimal_body_weight_calculator-11-ui-preview.html) — two fields for feet/inches, results immediately below the form, compact detail panels, no upward jump; math and reference registry unchanged.
+- **Phase 1 calculator on main:** [optimal_body_weight_calculator-9.html](optimal_body_weight_calculator-9.html) — original weight equations preserved, now with 62 optional population subgroups and referenced research notes.
+- **New, results-below-form UI preview (experimental):** [optimal_body_weight_calculator-11-ui-preview.html](optimal_body_weight_calculator-11-ui-preview.html) — two fields for feet/inches, results immediately below the form, compact detail panels, no upward jump; weight equations unchanged; new population research notes will be integrated into this preview.
 - **Previous research UI preview (archived):** [optimal_body_weight_calculator-10-research-preview.html](optimal_body_weight_calculator-10-research-preview.html)
 - **Public-facing scientific bibliography:** [research-preview.html](research-preview.html) — published sources only; no internal handoffs or development commentary
 - **Full research bibliography and 17-document inventory:** [docs/research/SOURCE_INDEX.md](docs/research/SOURCE_INDEX.md)
@@ -14,7 +14,11 @@ An **educational, research-stage** static HTML calculator. **Not** a diagnostic 
 - **Clinical review requirements:** [docs/CLINICAL_REVIEW.md](docs/CLINICAL_REVIEW.md)
 - **Privacy:** [PRIVACY.md](PRIVACY.md)
 
-The v11 layout is an interface-only preview. Once the user submits the form, the weight-range estimate appears directly below it. The original calculator and its source citation keys remain unchanged; no new evidence or medical logic has been applied to the math. The original program's experimental ancestry and health-condition assumptions remain explicitly labeled as such.
+The v11 layout is an interface-only preview. Once the user submits the form, the weight-range estimate appears directly below it. The clinical weight equations are preserved. Phase 1 adds source-linked information and self-described subgroup options; differences between older research previews and the Phase 1 baseline are tracked and tested. The existing experimental ancestry and diabetes assumptions remain explicitly labeled as such.
+
+## Phase 1 population selection and research profiles
+
+The 11 broad population families and 62 optional subgroups are part of the new [Phase 1 calculator](optimal_body_weight_calculator-9.html); source register, evidence grading and limitations are in [research/PHASE1_POPULATION_PROFILES.md](research/PHASE1_POPULATION_PROFILES.md). Mixed ancestry and a separate founder-heritage layer are retained. New subgroup notes do not change the weight calculations. Run `node tests/population-phase1.test.mjs` for numerical-equivalence checks across all 62 subgroups.
 
 ## Local preview
 
@@ -24,7 +28,7 @@ Open the HTML file directly in a modern browser (no server required). For automa
 
 The original calculator accepts adult ages 18–120; sex-specific historical body-frame formulas use male/female inputs; height, weight, wrist, and age are required; elbow and waist are optional; height in inches/cm, weight lb/kg, body lengths inches/cm. Mixed ancestry percentages may sum to 100 within 1 percentage point for rounding. Inputs for pregnancy/breastfeeding suppress weight-range output. These are **existing software assumptions**, not clinical eligibility guidelines.
 
-The original includes experimental ancestry-weighted thresholds and a diabetes-related BMI buffer/cap. Research teams have identified these as **not independently clinically validated**. See [docs/EVIDENCE_INTEGRATION.md](docs/EVIDENCE_INTEGRATION.md) before using or revising them. A BMI screening threshold, weight estimate, clinical diagnosis and personalized target are **different concepts**.
+The calculator includes experimental ancestry-weighted thresholds and a diabetes-related BMI buffer/cap. Research teams have identified these as **not independently clinically validated**. See [docs/EVIDENCE_INTEGRATION.md](docs/EVIDENCE_INTEGRATION.md) before using or revising them. A BMI screening threshold, weight estimate, clinical diagnosis and personalized target are **different concepts**.
 
 ## Repository workflow
 
