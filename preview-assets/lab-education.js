@@ -227,6 +227,49 @@
     }
     return 'There is not enough context here for a lab-specific food recommendation.';
   }
+  // Study suggestions are for discussion only. No diet is selected as appropriate
+  // for a person, and no amount of lab change is predicted.
+  function renderDietStudyDiscussion(output, records, suppressNutrition) {
+    if (suppressNutrition) return;
+    var glycemic = records.some(function (r) {
+      return r.flag === 'high' && (r.marker === 'a1c' ||
+        (r.marker === 'glucose' && r.fasting === 'yes'));
+    });
+    var ldl = records.some(function (r) { return r.marker === 'ldl' && r.flag === 'high'; });
+    var tg = records.some(function (r) {
+      return r.marker === 'tg' && r.flag === 'high' && !severeTG(r);
+    });
+    if (!(glycemic || ldl || tg)) return;
+    var section = node('section', 'lab-diet-research');
+    section.appendChild(node('h4', '', 'Dietary patterns to discuss — study comparisons'));
+    paragraph(section, 'These are studies that may be relevant to the reported flag, not a personalized diet ranking or instruction to change what you eat. Ask your clinician or registered dietitian whether any approach suits your diagnoses, medicines, preferences and nutritional needs.');
+    function pattern(label, finding, url, studyTitle) {
+      var p = node('p', 'lab-diet-study', label + ': ' + finding + ' ');
+      var a = node('a', '', studyTitle);
+      a.href = url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      p.appendChild(a);
+      section.appendChild(p);
+    }
+    if (glycemic || ldl || tg) {
+      pattern('Mediterranean-style', 'Supported in cardiometabolic studies and ADA nutrition guidance; the benefits and suitability are not predicted from your lab number.',
+        'https://doi.org/10.2337/dc26-S005', 'ADA 2026 guidance');
+    }
+    if (ldl) {
+      pattern('Portfolio diet', 'Controlled trials in people with high cholesterol observed lower LDL with plant proteins, viscous fiber, nuts and plant sterols; this is not a substitute for assessment of very high LDL.',
+        'https://pubmed.ncbi.nlm.nih.gov/29807048/', 'Controlled-trials meta-analysis');
+    }
+    if (glycemic || tg) {
+      pattern('Quality-focused lower-carbohydrate pattern', 'Some studies report short-term improvements in glycemia or triglycerides; this is not necessarily a ketogenic diet, and longer-term differences may be smaller.',
+        'https://pubmed.ncbi.nlm.nih.gov/33441384/', 'Randomized-trials meta-analysis');
+      pattern('Ketogenic versus Mediterranean — comparison, not a recommendation',
+        'A small crossover trial found no significant difference in HbA1c between diets; triglycerides favored keto but LDL and fiber/nutrient intake favored Mediterranean. Ketogenic eating needs medical review, especially with diabetes medicines including SGLT2 inhibitors.',
+        'https://pubmed.ncbi.nlm.nih.gov/35641199/', 'Keto-Med randomized trial');
+    }
+    paragraph(section, 'The optional diet-study comparison below also explains DASH, plant-forward eating and time-restricted eating. No single laboratory result makes any pattern automatically suitable.');
+    output.appendChild(section);
+  }
   function render(records) {
     var output = $('labOutput');
     output.replaceChildren();
@@ -273,6 +316,7 @@
         records.some(function (r) { return r.marker === 'tg' && r.flag === 'high'; })) {
       paragraph(output, 'For your clinician: HbA1c and triglycerides were both reported high. Ask whether these findings should be assessed together in the context of glucose metabolism, medications and overall cardiovascular risk. This is not a diagnosis.', 'lab-ancestry');
     }
+    renderDietStudyDiscussion(output, records, suppressNutrition);
     paragraph(output, $('labOtherUnflagged').checked ?
       'You reported that the rest of your panel had no flags. Those unentered values remain unknown here; a non-flagged result is not a guarantee of health.' :
       'Other tests were not provided, so their values and status are unknown.');
