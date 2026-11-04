@@ -9,4 +9,6 @@
 | [evidence/](evidence/README.md) | Evidence matrices and research reviews: what the studies found. |
 | [process-notes/](process-notes/README.md) | Working notes from the research phase: recommendations, validation plans and handoffs. |
 
+Original narrative research and educational documentation may be reused under [CC BY 4.0](../../LICENSE-CONTENT.md) when the authors hold the rights; this **does not** relicense the third-party studies, figures or external publications cited in those reports. The calculator code remains [MIT-licensed](../../LICENSE).
+
 The reports are numbered by topic: **01** ancestry and body size, **02** hereditary conditions and nutrition, **03** medication response (pharmacogenetics). They are kept as originally written on 2026-11-01.

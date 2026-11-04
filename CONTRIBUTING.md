@@ -13,6 +13,12 @@
 
 **Privacy:** Never submit genuine personal health/ancestry/genomic data in issues, browser tests or logs. Use synthetic fixtures. Do not introduce telemetry, server submissions, storage or genetics uploads without privacy/legal review.
 
+## Licensing and research-content contributions
+
+The repository's software is [MIT-licensed](LICENSE). Eligible original educational prose and research summaries are **also** available under the [CC BY 4.0 content notice](LICENSE-CONTENT.md). When submitting original educational writing for inclusion under that notice, confirm you have the rights to contribute it under both applicable licenses. If you are contributing with other copyright holders, identify them and obtain any permissions needed; do not assume the repository can relicense their work.
+
+Do not add externally published figures, full-text journal papers, proprietary illustrations, or substantial third-party text without appropriate rights and a clear source-specific license. Citations and hyperlinks to external scientific works are not a grant of CC BY rights in those works. Preserve source attribution, research uncertainty and correction notices.
+
 ## Pull-request acceptance criteria examples
 
 - **Age:** Given an age under 18 or over 120, when the user calculates, then the calculator shows a clear error and no weight range.
