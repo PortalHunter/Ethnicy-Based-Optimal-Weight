@@ -1,5 +1,7 @@
 # Independent triage of four Grok dietary research handoffs — 2026-11-04
 
+**Archive follow-up:** The full 16 original handoff files and four separately normalized CSV copies are now preserved under [the source archive](handoffs/grok-2026-11-04/README.md), with SHA-256 integrity checking in CI. Earlier references below to the sources not yet being in GitHub describe their status **when this original triage was written**; they are no longer the current archive status. Archiving does not approve the content for clinical application.
+
 **Status:** Targeted source checks and data-integrity review; **not** exhaustive full-text review, clinical validation, release approval, or permission to add personalized diet advice. **No changes to the ideal-weight calculator, lab input model, or public nutrition logic in this audit.**
 
 ## Intake and provenance

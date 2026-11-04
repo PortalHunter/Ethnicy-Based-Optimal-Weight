@@ -1,17 +1,22 @@
-# Grok diet-study handoffs — controlled research staging
+# Grok diet-study handoffs — preserved sources and controlled research review
 
 **Received 2026-11-04.** The four teams submitted 16 files (12 Markdown + 4 CSV), containing **26 CSV records** plus candidate public claims and synthetic safety scenarios in Markdown.
 
-This folder is the **traceable integration index**, not a claim that the 16 source files have been uploaded to GitHub.
+This folder now contains **the full 16 original handoff files and four separate normalized CSV copies**, committed byte-for-byte under [`source-files/`](source-files/), alongside the claim register and original SHA-256 provenance manifest. The original authorship and AI-generated research claims are not automatically validated by archiving.
 
 | Resource | Purpose |
 |---|---|
+| [Original Team A research](source-files/A/KETO_FASTING_EVIDENCE.md) | Preserved ketogenic/fasting evidence and original audit, safety cases and source CSV in `source-files/A/`. |
+| [Original Team B research](source-files/B/CARDIOMETABOLIC_DIET_REVIEW.md) | Preserved dietary-pattern evidence and culturally adaptable examples in `source-files/B/`. |
+| [Original Team C research](source-files/C/CLINICAL_SAFETY_REVIEW.md) | Preserved lab safety, equity and synthetic comprehension cases in `source-files/C/`. |
+| [Original Team D research](source-files/D/INDEPENDENT_SOURCE_AUDIT.md) | Preserved independent audit, correction log and contradiction register in `source-files/D/`. |
+| [Corrected CSV copies](source-files/normalized/) | Four machine-readable CSVs retaining the original row IDs; structural normalization is not independent scientific verification. |
 | [CLAIM_REGISTER.json](CLAIM_REGISTER.json) | All 26 source-row IDs, originating team, a corroborating primary-source anchor, evidence-scope qualification, and *public-use gate*. |
 | [SOURCE_CHECKSUMS.json](SOURCE_CHECKSUMS.json) | SHA-256 checksums of every original file (16), all four normalized CSVs, and four original ZIP submissions. |
 | [Research triage](../../GROK_HANDOFF_TRIAGE_2026-11-04.md) | Previously merged review of import defects and claim-level caveats. |
 | [Dietary evidence review](../../DIET_PATTERN_EVIDENCE_2026-11-04.md) | Source-based comparison of studied diets; currently used for the optional educational diet library. |
 
-The full **unchanged original research files** and four normalized CSVs are in the conversation-delivered `Ancestry_Health_Grok_Reviewed_Research_Package_2026-11-04.zip`. Those bytes have **not yet been committed to the repository**, and the manifest honestly records `raw_sources_in_git: false`. The full package must not be confused with the narrower cross-study claim register committed here.
+The **20 files are now in GitHub** under `source-files/`. CI checks every archived file against its recorded byte length and SHA-256 and checks normalized CSV row widths and IDs. The combined ZIP package and four original ZIP submissions remain separate conversation-delivered artifacts; **the ZIP containers themselves are not stored in GitHub**. The source files are research submissions and should be read with the accompanying [claim register](CLAIM_REGISTER.json), which retains disputed and unverified claims.
 
 ## Meanings of review status
 
@@ -27,7 +32,7 @@ The independent research streams deliberately overlap. For example, Keto-Med app
 
 ## Two CSV import repairs
 
-The reviewed package includes *separate normalized copies* of the four CSVs, never overwritten originals. Only two required structural repair: Team C `C001` (unquoted commas, 28/22 columns) and Team A `VLC_KD_meta` (missing empty `counterevidence_notes` cell, 15/16 columns). Those changes **do not** increase evidence certainty. Check SHA-256 against the manifest before placing files under this folder's `original/` and `normalized/` paths.
+The reviewed package includes *separate normalized copies* of the four CSVs, never overwritten originals. Only two required structural repair: Team C `C001` (unquoted commas, 28/22 columns) and Team A `VLC_KD_meta` (missing empty `counterevidence_notes` cell, 15/16 columns). Those changes **do not** increase evidence certainty. The files are now archived as `source-files/A/`, `B/`, `C/`, `D/` and `source-files/normalized/`; each commit is checked against the manifest's SHA-256 digests. Do not fix errors in the originals: add explicitly dated errata or new derived versions.
 
 ## Clinical and equity guardrails
 
@@ -43,7 +48,7 @@ The reviewed package includes *separate normalized copies* of the four CSVs, nev
 
 ## Next integration procedure
 
-1. Verify every original byte and normalized CSV header/row width; then import the actual raw files in a **separate, clearly labeled archival PR**, flip the two `false` manifest flags only when GitHub contains all original bytes, and update CI accordingly.
+1. **Complete (archival phase):** all 16 originals and four normalized CSVs have been imported and the source archive is checked in CI. Preserve the original-byte hashes and maintain an explicit provenance record for future revisions.
 2. Reconcile overlapping papers and external source versions, noting the specific claim and study design rather than treating self-reported `source_verified_on` values as independent review.
 3. Where a proposed patient-facing output depends on medication, pregnancy, disease or assay data the site does not collect, **withhold the new individualized output**. Do not turn missing data into permission.
 4. Create a separate UI/content PR only after its precise statements pass source-specific review, synthetic safety regressions, and existing calculator/privac​​y protections.

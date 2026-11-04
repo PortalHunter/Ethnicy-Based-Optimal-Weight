@@ -6,9 +6,11 @@ Usage:
   python scripts/import-grok-diet-handoffs.py /path/to/Ancestry_Health_Grok_Reviewed_Research_Package_2026-11-04.zip
   python scripts/import-grok-diet-handoffs.py /path/to/package.zip --stage
 
-The source archive must be explicitly supplied. Running without --stage is read-only.
-After staging, review the files, commit the originals in a separate PR and only
-then update the two 'raw sources in Git' flags and corresponding CI checks.
+The original 16 handoffs and four normalized CSVs are now committed in
+docs/research/handoffs/grok-2026-11-04/source-files/. Running without --stage
+checks an external package read-only. --stage will refuse to overwrite any
+existing archived file, preventing accidental loss of the raw originals.
+GitHub CI separately verifies every committed source byte against SHA-256.
 """
 from __future__ import annotations
 import argparse

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-11-04",
   "review_scope": "Targeted primary-abstract or guideline anchor checks only; not full-text critical appraisal, not approval to personalize diet",
-  "raw_files_archived_on_github": false,
+  "raw_files_archived_on_github": true,
   "raw_file_manifest": "SOURCE_CHECKSUMS.json",
   "records": [
     {
@@ -291,5 +291,6 @@
       "scope_note": "AJCN 2024 (example) is not a sufficient citation; suppress numeric LDL/TG effect claim until DOI/PMID and study confirmed.",
       "grok_source_verified_date_is_independent_audit": false
     }
-  ]
+  ],
+  "source_file_root": "source-files/"
 }
