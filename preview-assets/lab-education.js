@@ -184,7 +184,8 @@
       return {text: 'HbA1c reflects average glucose exposure over roughly 2–3 months; one flagged result does not by itself establish a diagnosis. ADA nutrition guidance supports individualized patterns that emphasize vegetables, whole fruit, legumes, whole grains and fiber, while limiting sugary drinks and refined grains. This is not an individual diet prescription.', source: 'adaFood', nutrition: true};
     }
     if (record.marker === 'glucose') {
-      if (record.flag !== 'high') return {text: 'A low or uncertain glucose flag needs clinical context, especially symptoms and glucose-lowering medicines. Do not rely on this form to manage low glucose.', source: 'low'};
+      if (record.flag === 'low') return {text: 'Your laboratory flagged this glucose result low. Low blood sugar can be dangerous, particularly with some diabetes medicines. If the reading is current, follow your established care plan or contact your treating clinician promptly; severe symptoms require emergency help. Do not use this page for treatment or restrictive diet choices.', source: 'low', caution: true};
+      if (record.flag !== 'high') return {text: 'An unflagged or uncertain glucose result cannot be classified as normal by this form. Symptoms, fasting status and glucose-lowering medicines affect interpretation.', source: 'adaDx'};
       if (record.fasting !== 'yes') return {text: 'This test was not confirmed fasting. Meal timing, illness, medications and sample handling matter; ask your clinician how this value should be interpreted before using fasting-glucose guidance.', source: 'adaDx'};
       return {text: 'A reported high fasting glucose result warrants discussion of follow-up testing and overall metabolic risk. ADA guidance supports individualized high-fiber dietary patterns and replacing sugar-sweetened drinks with water or unsweetened alternatives; this is general education, not treatment.', source: 'adaFood', nutrition: true};
     }
@@ -309,6 +310,7 @@
     paragraph(output, 'These are educational notes based on the values and lab flags you selected, not a diagnosis. Food-pattern guidance is only shown for selected supported tests with a reported high flag; numeric safety exceptions are specifically identified. We do not independently verify the lab flag or infer normality from a number. No result changes the calculator’s weight estimate.');
     var suppressNutrition = records.some(function (r) {
       return r.flag === 'critical' || r.marker === 'potassium' ||
+        (r.marker === 'glucose' && r.flag === 'low') ||
         ((r.marker === 'egfr' || r.marker === 'uacr') && r.flag !== 'other') ||
         severeTG(r) || veryLowGlucose(r);
     });
