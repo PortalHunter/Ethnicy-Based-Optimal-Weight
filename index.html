@@ -150,6 +150,14 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 .lab-result-card p{margin:10px 0}
 .lab-ancestry{background:#edf6ff;border-radius:10px;padding:12px}
  .lab-source{font-size:13px;margin:10px 0;color:#4e5460}
+#dietEvidenceDetails{margin-top:18px;border:1px solid #d6dee9;border-radius:16px;padding:14px 18px;background:#fff}
+#dietEvidenceDetails>summary{font-weight:700;cursor:pointer;padding:4px 0}
+.diet-evidence-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
+.diet-evidence-card{padding:16px;border:1px solid #e0e4ed;border-radius:13px;min-width:0}
+.diet-evidence-card h3{font-size:17px;margin:0 0 8px}
+.diet-evidence-card p{margin:8px 0;overflow-wrap:anywhere}
+@media(max-width:720px){.diet-evidence-grid{grid-template-columns:1fr}}
+
 .lab-question{background:#f4f7fb;border-left:3px solid #5e7898;padding:11px 12px;border-radius:8px}
 .lab-food{background:#f0f8f3;border-left:3px solid #58866a;padding:11px 12px;border-radius:8px}
 @media(max-width:720px){.lab-grid,.lab-actions{grid-template-columns:1fr}.lab-entry{padding:14px}}
@@ -344,6 +352,55 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
     <div id="labErrors" role="alert" tabindex="-1" hidden></div>
     <div id="labOutput" tabindex="-1" role="region" aria-label="Laboratory result educational notes" aria-live="polite" hidden></div>
     <p class="lab-help">Privacy: entries are processed in this browser tab only and are not stored or uploaded. No real lab reports should be added to GitHub issues. <a href="PRIVACY.md">Privacy details</a>.</p>
+  </details>
+  <details id="dietEvidenceDetails" class="diet-evidence">
+    <summary>Compare diets studied in research (optional)</summary>
+    <p class="lab-help">These are summaries of studies, <strong>not a diet chosen for you</strong>. Study results describe groups, not how your body will respond. Discuss the options with your clinician or registered dietitian, especially if you take diabetes medicines or have kidney disease, are pregnant, or have an eating disorder history.</p>
+    <div class="diet-evidence-grid">
+      <article class="diet-evidence-card" id="diet-med">
+        <h3>Mediterranean-style</h3>
+        <p>Vegetables, beans, whole grains, nuts, olive oil and other unsaturated fats, with flexible regional food choices. Trials have found cardiovascular benefits in studied populations.</p>
+        <p class="lab-help"><strong>Evidence:</strong> PREDIMED (2018 reanalysis) and CORDIOPREV (2022). The original 2013 PREDIMED report was retracted because of randomization irregularities; use the corrected 2018 report.</p>
+        <p class="lab-source"><a href="https://doi.org/10.1056/NEJMoa1800389" target="_blank" rel="noopener noreferrer">PREDIMED reanalysis</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/35525255/" target="_blank" rel="noopener noreferrer">CORDIOPREV trial</a></p>
+      </article>
+      <article class="diet-evidence-card" id="diet-dash">
+        <h3>DASH</h3>
+        <p>A food pattern rich in fruits, vegetables, whole grains and lower-fat dairy or suitable alternatives. Studied mainly for blood pressure, including effects of sodium reduction.</p>
+        <p class="lab-help"><strong>Limit:</strong> the site's lab form does not measure blood pressure; a cholesterol or glucose flag is not a reason to start a personalized low-sodium plan.</p>
+        <p class="lab-source"><a href="https://doi.org/10.1056/NEJM200101043440101" target="_blank" rel="noopener noreferrer">DASH-Sodium randomized trial</a></p>
+      </article>
+      <article class="diet-evidence-card" id="diet-portfolio">
+        <h3>Portfolio diet</h3>
+        <p>Combines foods such as oats and other viscous-fiber sources, nuts, plant proteins and plant sterols. Trials in people with elevated cholesterol found reductions in LDL-C.</p>
+        <p class="lab-help"><strong>Limit:</strong> LDL changes do not prove this particular diet prevents cardiovascular events or replaces medical care for very high LDL.</p>
+        <p class="lab-source"><a href="https://pubmed.ncbi.nlm.nih.gov/29807048/" target="_blank" rel="noopener noreferrer">2018 controlled-trials meta-analysis</a></p>
+      </article>
+      <article class="diet-evidence-card" id="diet-lowcarb">
+        <h3>Moderate lower-carbohydrate</h3>
+        <p>Emphasizes carbohydrate quality and portion choices; it is <strong>not the same as a ketogenic diet</strong>. Some studies report short-term improvements in glycemia and triglycerides; long-term superiority is uncertain.</p>
+        <p class="lab-help"><strong>Limit:</strong> restrictions can change medication needs; do not stop or adjust medicines yourself. Food quality and sustainability matter.</p>
+        <p class="lab-source"><a href="https://doi.org/10.2337/dc26-S005" target="_blank" rel="noopener noreferrer">ADA 2026 nutrition guidance</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/33441384/" target="_blank" rel="noopener noreferrer">2021 systematic review</a></p>
+      </article>
+      <article class="diet-evidence-card" id="diet-keto">
+        <h3>Ketogenic (very low carbohydrate)</h3>
+        <p>In a small 2022 randomized crossover trial comparing keto with low-carb Mediterranean diets, the primary HbA1c difference was not significant. Triglycerides favored keto; LDL-C, fiber and some nutrient intakes favored Mediterranean.</p>
+        <p class="lab-help"><strong>Important safety:</strong> a ketogenic diet is <strong>not automatically recommended</strong> from lab flags. It may be unsafe with SGLT2 diabetes medicines, some other glucose-lowering treatments, kidney disease, pregnancy or disordered-eating risk. Discuss before attempting a restrictive plan.</p>
+        <p class="lab-source"><a href="https://pubmed.ncbi.nlm.nih.gov/35641199/" target="_blank" rel="noopener noreferrer">Keto-Med 2022 trial</a> · <a href="https://doi.org/10.2337/dc26-S005" target="_blank" rel="noopener noreferrer">ADA 2026 safety guidance</a></p>
+      </article>
+      <article class="diet-evidence-card" id="diet-plant">
+        <h3>Plant-forward / healthy low-fat</h3>
+        <p>A flexible pattern emphasizing minimally processed plant foods and suitable proteins. In the DIETFITS trial, healthy low-fat and healthy low-carb groups had no significant difference in 12-month weight loss.</p>
+        <p class="lab-help"><strong>Limit:</strong> that trial did not validate choosing a diet from ancestry, a small genotype panel or an insulin measurement.</p>
+        <p class="lab-source"><a href="https://pubmed.ncbi.nlm.nih.gov/29466592/" target="_blank" rel="noopener noreferrer">DIETFITS randomized trial</a></p>
+      </article>
+      <article class="diet-evidence-card" id="diet-fasting">
+        <h3>Time-restricted eating (timing strategy)</h3>
+        <p>Changes <em>when</em> food is eaten, not necessarily which foods. In one 12-month trial, adding an 8-hour eating window to calorie restriction did not produce significantly greater weight loss than calorie restriction alone.</p>
+        <p class="lab-help"><strong>Important safety:</strong> fasting can interact with diabetes medications, hypoglycemia and other conditions; plan it with a clinician if these apply.</p>
+        <p class="lab-source"><a href="https://pubmed.ncbi.nlm.nih.gov/35443107/" target="_blank" rel="noopener noreferrer">2022 randomized trial</a> · <a href="https://doi.org/10.2337/dc26-S005" target="_blank" rel="noopener noreferrer">ADA 2026 nutrition guidance</a></p>
+      </article>
+    </div>
+    <p class="lab-help">You can adapt evidence-informed food patterns to your own culture, traditions, budget and preferences. Ancestry does not determine which diet will succeed for you. <a href="docs/research/DIET_PATTERN_EVIDENCE_2026-11-04.md">Read the fuller study review and limitations.</a></p>
   </details>
 </section>
 <section class="notes-panel"><p style="font-size:0.85rem; color:#555; margin-top:8px;"><strong>Measurement tips:</strong> use a soft tape; measure the wrist at its narrowest point just beyond the wrist bone (toward the hand) <a href="https://medlineplus.gov/ency/imagepages/17182.htm" target="_blank" rel="noopener noreferrer">(MedlinePlus)</a>. Elbow breadth is the width between the two bony points of the elbow with the arm bent at 90&deg;, ideally with a caliper; a tape against a ruler is less accurate. Errors of a tenth of an inch can change the frame result near a cut-off.</p>
