@@ -34,6 +34,15 @@ Imported from the user-supplied `Research_Team_4_Laboratory_Research_Package.zip
 5. **Validation:** qualified clinical pathology, endocrinology/cardiovascular, renal and nutrition sign-off as applicable; synthetic harm cases, regression, accessibility, fairness, privacy assessment and user-comprehension testing.
 6. **User-facing scope:** finalize exact approved educational wording. Abnormal lab flags alone are not diagnosis or proof that a specific diet or weight target will work.
 
-## Proposed next gate
+## Updated integration status — November 4, 2026
 
-Maintain Issue #12 as the research/clinical review gate. Next prepare a separate content specification and synthetic scenario matrix, obtain independent clinical appraisal, and **only then** authorize a lab-entry development branch. Keep the current live calculator and original math unchanged.
+After this draft review was written, a **narrow educational laboratory-result prototype** was merged into `main` as [PR #14](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/14). Its source-linked statements, safeguards and privacy limitations are documented separately in [docs/LAB_EDUCATION.md](../../LAB_EDUCATION.md). That prototype does **not** validate the full Team 4 research ledger or turn the eight draft reports into approved personalized recommendations. The preceding report's pre-implementation language is historical; this paragraph supersedes it.
+
+## Next evidence gate
+
+- Keep [Issue #12](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/12) as the single progress tracker for the educational lab MVP, its outstanding research review, and later full-panel import.
+- Independently verify all 42 draft LAB claims against exact source sections and corrections; distinguish the limited claims already used in production from research-only or withheld proposals.
+- Reconcile Team 4 with ANC/NUT/PGX evidence; resolve contradictory assumptions before publishing additional lab interpretations.
+- Test unit/assay/context caveats, safety suppression, accessibility and fairness with synthetic cases. Consider human clinical appraisal especially before expanding higher-risk personalized outputs.
+- The original calculator weight engine remains unchanged. Ancestry/diabetes weight-target limitations remain tracked under [Issue #2](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/2).
+- **Research PR #13 is still unmerged pending maintainer review.** The free educational prototype is not represented as formally clinically certified.
