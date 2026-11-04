@@ -149,7 +149,9 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 .lab-result-card h4{margin:0;font-size:18px}
 .lab-result-card p{margin:10px 0}
 .lab-ancestry{background:#edf6ff;border-radius:10px;padding:12px}
-.lab-source{font-size:13px;margin:10px 0;color:#4e5460}
+ .lab-source{font-size:13px;margin:10px 0;color:#4e5460}
+.lab-question{background:#f4f7fb;border-left:3px solid #5e7898;padding:11px 12px;border-radius:8px}
+.lab-food{background:#f0f8f3;border-left:3px solid #58866a;padding:11px 12px;border-radius:8px}
 @media(max-width:720px){.lab-grid,.lab-actions{grid-template-columns:1fr}.lab-entry{padding:14px}}
 </style>
 </head>
@@ -326,18 +328,18 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 </form></section>
 <section id="personalSummary" aria-labelledby="summaryTitle" hidden><p class="eyebrow">Your personalized estimate</p><h2 id="summaryTitle">Your ancestry &amp; health-condition weight estimate</h2><p class="intro">An experimental estimate, not a clinically validated medical target.</p><div id="resultsEmpty" hidden></div><div id="results" aria-live="polite"></div></section>
 <section id="labPanel" class="input-panel lab-panel" aria-labelledby="labTitle">
-  <h2 id="labTitle">Blood Test Results &amp; Nutrition</h2>
-  <p class="intro">Optional, research-informed discussion notes. Your weight estimate above is not changed by these results.</p>
+  <h2 id="labTitle">Optional Lab Results &amp; Nutrition Guidance</h2>
+  <p class="intro">Choose whether to add reported lab results for evidence-linked explanations, general food-pattern ideas when appropriate, and questions to discuss with your clinician. Your ideal-weight calculation never changes.</p>
   <details id="labDetails">
-    <summary>Add results flagged high or low on my lab report</summary>
-    <p class="lab-help">Start with any abnormal results from your report. Enter the exact value and units; a flag does not tell us the cause or urgency. This educational section is not a medical diagnosis or treatment plan.</p>
+    <summary>Review my lab results (optional)</summary>
+    <p class="lab-help">Enter results exactly as printed, including units and any high, low, or critical flag. If a result is not flagged or you are unsure, keep “Not flagged / not sure” selected—no abnormality will be assumed. Supported glucose and lipid results may include general nutrition education; kidney results receive clinician-context information only. This section is not a diagnosis or individualized treatment plan.</p>
     <p class="lab-safety">If your laboratory has marked a result <strong>critical</strong> or told you to seek urgent care, follow those instructions immediately. Do not wait for this website.</p>
     <form id="labForm" novalidate autocomplete="off">
       <div id="labRows"></div>
-      <button id="labAdd" class="lab-secondary" type="button">+ Add another abnormal result</button>
+      <button id="labAdd" class="lab-secondary" type="button">+ Add another lab result</button>
       <label class="lab-confirm"><input id="labOtherUnflagged" type="checkbox"> I reviewed the rest of this panel, and the report did not flag other results.</label>
       <p class="lab-help">Unchecked or unentered tests are unknown. Even if checked, this does not supply the actual numbers or mean every other test is healthy.</p>
-      <div class="lab-actions"><button type="submit" id="labAnalyze">Show educational discussion notes</button><button id="labClear" type="button" class="lab-secondary">Clear lab entries</button></div>
+      <div class="lab-actions"><button type="submit" id="labAnalyze">Explain my entered results</button><button id="labClear" type="button" class="lab-secondary">Clear lab entries</button></div>
     </form>
     <div id="labErrors" role="alert" tabindex="-1" hidden></div>
     <div id="labOutput" tabindex="-1" role="region" aria-label="Laboratory result educational notes" aria-live="polite" hidden></div>

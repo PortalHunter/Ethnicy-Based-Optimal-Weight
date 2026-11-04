@@ -9,7 +9,8 @@
     tg: ['ACC 2021 Hypertriglyceridemia Consensus', 'https://www.jacc.org/doi/10.1016/j.jacc.2021.06.011'],
     lab: ['MedlinePlus: Understanding Laboratory Results', 'https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/'],
     low: ['CDC: Low Blood Sugar', 'https://www.cdc.gov/diabetes/about/low-blood-sugar-hypoglycemia.html'],
-    potassium: ['National Kidney Foundation: Potassium', 'https://www.kidney.org/kidney-topics/hyperkalemia-high-potassium']
+    potassium: ['National Kidney Foundation: Potassium', 'https://www.kidney.org/kidney-topics/hyperkalemia-high-potassium'],
+    kdigo: ['KDIGO 2024: CKD Evaluation (eGFR and Urine ACR)', 'https://doi.org/10.1016/j.kint.2023.10.016']
   };
   var MARKERS = {
     a1c: {name: 'Hemoglobin A1c', units: ['%', 'mmol/mol']},
@@ -19,6 +20,8 @@
     total: {name: 'Total cholesterol', units: ['mg/dL', 'mmol/L']},
     hdl: {name: 'HDL cholesterol', units: ['mg/dL', 'mmol/L']},
     potassium: {name: 'Potassium (safety/context only)', units: ['mmol/L', 'mEq/L']},
+    egfr: {name: 'Reported eGFR (kidney context only)', units: ['mL/min/1.73 m²']},
+    uacr: {name: 'Urine albumin-to-creatinine ratio (kidney context only)', units: ['mg/g', 'mg/mmol']},
     other: {name: 'Another test (explanation not yet supported)', units: ['mg/dL', 'mmol/L', '%', 'g/dL', 'U/L', 'mEq/L', 'other / not listed']}
   };
   var serial = 0;
@@ -69,14 +72,17 @@
       '<option value="total">Total cholesterol</option>' +
       '<option value="hdl">HDL cholesterol</option>' +
       '<option value="potassium">Potassium (safety/context)</option>' +
+      '<option value="egfr">Reported eGFR (kidney context)</option>' +
+      '<option value="uacr">Urine albumin-to-creatinine ratio (kidney context)</option>' +
       '<option value="other">Another test (not yet interpreted)</option>' +
       '</select></label>' +
       '<label class="lab-other-label" hidden>Test name<input class="lab-other" type="text" maxlength="80" autocomplete="off" placeholder="As written on the report"></label>' +
       '<label>Reported value<input class="lab-value" type="text" inputmode="decimal" maxlength="25" autocomplete="off" placeholder="e.g. 6.1"></label>' +
       '<label>Units<select class="lab-unit"></select></label>' +
       '<label>Flag on report<select class="lab-flag">' +
+      '<option value="other">Not flagged / not sure</option>' +
       '<option value="high">High</option><option value="low">Low</option>' +
-      '<option value="critical">Critical / urgent</option><option value="other">Other / not sure</option>' +
+      '<option value="critical">Critical / urgent</option>' +
       '</select></label>' +
       '<label>Laboratory reference interval (optional)<input class="lab-range" type="text" maxlength="100" autocomplete="off" placeholder="e.g. 3.5-5.0"></label>' +
       '<label>Collection date (optional)<input class="lab-date" type="date"></label>' +
@@ -159,6 +165,12 @@
       text: 'Potassium disturbances can sometimes be serious. Kidney function, medicines, specimen quality and symptoms matter. Contact your clinician promptly about this flag; do not start potassium supplements or potassium restriction based on this form.',
       source: 'potassium', caution: true
     };
+    if (record.marker === 'egfr' || record.marker === 'uacr') return {
+      text: record.marker === 'egfr' ?
+        'eGFR is an estimate of kidney filtration, not a diagnosis from one measurement. KDIGO recommends considering urine albumin, repeat results, duration and clinical context. Race or ancestry should not be inserted into the eGFR equation. This page does not recommend a kidney-specific diet.' :
+        'Urine albumin-to-creatinine ratio (ACR) helps assess kidney health alongside eGFR. KDIGO recommends confirming an abnormal urine ACR and evaluating persistence over time; one number does not establish chronic kidney disease. This page does not recommend a kidney-specific diet.',
+      source: 'kdigo', caution: record.flag !== 'other'
+    };
     if (veryLowGlucose(record)) return {
       text: 'This reported glucose value is in a range associated with clinically significant low blood sugar. If this value is current, seek prompt medical guidance; confusion, seizure, unconsciousness or inability to swallow requires emergency help. This is not a dietary assessment.',
       source: 'low', urgent: true
@@ -189,20 +201,48 @@
     }
     return {text: 'This marker is not yet supported for individualized nutrition education. Keep its original report and discuss the abnormal or uncertain flag with the ordering clinician. No diagnosis or diet recommendation is generated.', source: 'lab'};
   }
+  // These are prompts, not conclusions drawn from a patient's value or a care plan.
+  function clinicianQuestion(record) {
+    if (record.marker === 'a1c') return 'Should this finding be compared with a plasma glucose result, and could my red blood cell health or test method affect HbA1c?';
+    if (record.marker === 'glucose') return record.fasting === 'yes' ?
+      'Does the specimen and fasting history support interpreting this as a fasting result, and is follow-up testing appropriate?' :
+      'Does the meal timing or specimen type change how this result should be interpreted?';
+    if (record.marker === 'ldl') return 'How does LDL fit with my complete lipid panel, medical and family history, and any medicines?';
+    if (record.marker === 'tg') return 'Was this sample fasting, and do medications, alcohol use or other conditions change the next steps?';
+    if (record.marker === 'total' || record.marker === 'hdl') return 'How does this measurement fit with LDL, triglycerides, and overall cardiovascular risk?';
+    if (record.marker === 'potassium') return 'Does this result need prompt rechecking, especially considering sample handling, kidney function and medicines?';
+    if (record.marker === 'egfr') return 'Should we also review urine ACR, past kidney tests and the equation or method used to report this result?';
+    if (record.marker === 'uacr') return 'Should an unexpected urine ACR be confirmed using a first-morning sample and reviewed alongside eGFR and earlier tests?';
+    return 'What does this exact test measure, and what further clinical information is needed to interpret the reported flag?';
+  }
+  function generalFoodExamples(record) {
+    if (record.marker === 'a1c' || record.marker === 'glucose') {
+      return 'water or unsweetened drinks instead of sugar-sweetened beverages; vegetables, beans, whole grains and other fiber-rich foods. Medication use, pregnancy and other conditions can change what is appropriate.';
+    }
+    if (record.marker === 'ldl') {
+      return 'swapping butter or cream for unsaturated oils where suitable, and choosing foods with soluble fiber such as oats or beans. This does not replace medical assessment for very high LDL.';
+    }
+    if (record.marker === 'tg') {
+      return 'discussing added sugars, refined carbohydrates and alcohol intake with a clinician; very high triglycerides need a different, clinician-led approach.';
+    }
+    return 'There is not enough context here for a lab-specific food recommendation.';
+  }
   function render(records) {
     var output = $('labOutput');
     output.replaceChildren();
     output.appendChild(node('h3', '', 'Your lab discussion notes'));
-    paragraph(output, 'These are educational notes based on the values and flags you entered, not a diagnosis. No result changes the calculator’s weight estimate.');
+    paragraph(output, 'These are educational notes based on the values and lab flags you selected, not a diagnosis. Food-pattern guidance is only shown for selected supported tests with a reported high flag; numeric safety exceptions are specifically identified. We do not independently verify the lab flag or infer normality from a number. No result changes the calculator’s weight estimate.');
     var suppressNutrition = records.some(function (r) {
-      return r.flag === 'critical' || r.marker === 'potassium' || severeTG(r) || veryLowGlucose(r);
+      return r.flag === 'critical' || r.marker === 'potassium' ||
+        ((r.marker === 'egfr' || r.marker === 'uacr') && r.flag !== 'other') ||
+        severeTG(r) || veryLowGlucose(r);
     });
     if (suppressNutrition) {
       paragraph(output, 'A potential safety concern was entered. General food-change suggestions are withheld for this group of results until a clinician reviews the whole situation.', 'lab-alert');
     }
     records.forEach(function (r) {
       var box = node('section', 'lab-result-card');
-      box.appendChild(node('h4', '', r.name + ' — ' + (r.flag === 'critical' ? 'Critical flag' : r.flag === 'other' ? 'Other / unsure flag' : r.flag === 'high' ? 'High flag' : 'Low flag')));
+      box.appendChild(node('h4', '', r.name + ' — ' + (r.flag === 'critical' ? 'Critical flag' : r.flag === 'other' ? 'Not flagged / unsure' : r.flag === 'high' ? 'High flag' : 'Low flag')));
       paragraph(box, 'You entered: ' + r.raw + ' ' + r.unit +
         (r.date ? ' | Collected: ' + r.date : '') +
         (r.range ? ' | Report interval: ' + r.range + ' (not independently verified)' : ' | No laboratory interval provided'));
@@ -214,8 +254,17 @@
         paragraph(box, 'Ancestry-aware testing note: certain verified hemoglobin variants and red-cell conditions can make some HbA1c results misleading. These occur in diverse populations; ancestry alone cannot establish whether a person has a variant. Discuss known variants or disagreement with glucose results.', 'lab-ancestry');
         appendSource(box, 'adaDx');
       }
+      if (r.marker === 'egfr') {
+        paragraph(box, 'Ancestry and kidney testing: KDIGO recommends an eGFR calculation without a race factor. This tool does not calculate eGFR from ancestry.', 'lab-ancestry');
+      }
       if (r.marker === 'glucose' && r.fasting !== 'yes') {
         paragraph(box, 'Fasting status was not confirmed; this is not interpreted as a fasting laboratory result.');
+      }
+      if (!item.urgent) {
+        paragraph(box, 'For your clinician: ' + clinicianQuestion(r), 'lab-question');
+      }
+      if (!suppressNutrition && item.nutrition) {
+        paragraph(box, 'Food-pattern examples to discuss: ' + generalFoodExamples(r), 'lab-food');
       }
       appendSource(box, (suppressNutrition && item.nutrition) ? 'lab' : item.source);
       output.appendChild(box);
