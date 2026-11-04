@@ -3,6 +3,7 @@
 | Item | What it is |
 |---|---|
 | [SOURCE_INDEX.md](SOURCE_INDEX.md) | Every report and every web source the calculator cites, in one list. |
+| [handoffs/grok-2026-11-04/](handoffs/grok-2026-11-04/README.md) | Claim-level integration register for all 26 Grok handoff rows, provenance SHA-256 manifest, source-review statuses, safety release gates, and reproducible import procedure. |
 | [GROK_HANDOFF_TRIAGE_2026-11-04.md](GROK_HANDOFF_TRIAGE_2026-11-04.md) | Intake and independent source/data-quality triage of the four newly received dietary research handoffs; lists import blockers and safety gates. |
 | [DIET_PATTERN_EVIDENCE_2026-11-04.md](DIET_PATTERN_EVIDENCE_2026-11-04.md) | Primary diet trials, study corrections, safety limitations and guidance boundaries for optional lab notes. |
 | [GROK_DIET_RESEARCH_PROMPTS_2026-11-04.md](GROK_DIET_RESEARCH_PROMPTS_2026-11-04.md) | Four independent prompts for expanded diet evidence, source checks and adversarial research. |
