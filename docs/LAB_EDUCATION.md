@@ -53,6 +53,16 @@ The newly indexed 26 Grok handoff records in [the source-gated integration regis
 
 Media personalities (including Dr. Eric Berg, D.C.) may be a source of *hypotheses to check* but not independent evidence: no branded or influencer regimen is endorsed. The research review cites his own biography only for credential/claim provenance and evaluates published studies separately. The calculator engine and all ideal-weight outputs remain unchanged.
 
+## Adversarial laboratory safety regression — November 4, 2026
+
+The separate `tests/lab-adversarial.test.mjs` suite exercises **21 synthetic laboratory-panel scenarios** drawn from Team C's [32-case research handoff](research/handoffs/grok-2026-11-04/source-files/C/USER_COMPREHENSION_CASES.md), plus malformed numeric input checks. It verifies source-linked educational cards, the three-pattern cap, fasting uncertainty, special cases where numeric values trigger a warning even without a lab flag, and withholding when **critical flags, potassium, flagged kidney results, severe triglycerides, clinically significant low glucose or a laboratory-reported low glucose flag** coexist with otherwise diet-eligible results.
+
+**New conservative safety gate:** a self-reported *low* laboratory glucose flag now withholds all generic diet suggestions for that entered set, including when another test (e.g. LDL) is flagged high. It does not automatically diagnose hypoglycemia from the number. The clinician note references the [CDC low-blood-sugar guidance](https://www.cdc.gov/diabetes/about/low-blood-sugar-hypoglycemia.html); the severe numeric exception remains separately defined in the existing function.
+
+**Important coverage limitation:** the form does **not** ask about pregnancy, medication use (SGLT2 inhibitors, insulin/sulfonylureas), disordered eating, measured genotype, symptoms or assay interference. Consequently, tests **cannot** demonstrate that the site recognizes such information; these factors remain unknown, and no restrictive or ketogenic eating plan should be inferred to be safe. Team C's proposed clinical stop conditions that require missing inputs are research hypotheses for a future separate usability/safety design review, not implemented risk screening.
+
+The original weight engine, ancestry inputs and ideal-weight formula are unchanged. These browser regressions test limited behavior, **not** clinical validation, diagnosis accuracy, treatment suitability or human-factors usability.
+
 ## Known limitations and next work
 
 - This initial prototype does not parse uploaded panels; phase 2 needs explicit security/privacy design and mandatory extraction confirmation.
