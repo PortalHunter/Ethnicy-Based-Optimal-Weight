@@ -1,0 +1,9 @@
+# Keep informal feedback available alongside the guided scientific templates.
+blank_issues_enabled: true
+contact_links:
+  - name: "Scientific contribution and review guide"
+    url: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/main/docs/SCIENTIFIC_CONTRIBUTIONS.md
+    about: "How we evaluate research, corrections, and new educational modules."
+  - name: "Report a security vulnerability privately"
+    url: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/security/policy
+    about: "Please do not disclose security vulnerabilities or sensitive data in public issues."
