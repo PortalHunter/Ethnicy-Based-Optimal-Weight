@@ -46,3 +46,16 @@ After this draft review was written, a **narrow educational laboratory-result pr
 - Test unit/assay/context caveats, safety suppression, accessibility and fairness with synthetic cases. Consider human clinical appraisal especially before expanding higher-risk personalized outputs.
 - The original calculator weight engine remains unchanged. Ancestry/diabetes weight-target limitations remain tracked under [Issue #2](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/2).
 - **Research PR #13 is still unmerged pending maintainer review.** The free educational prototype is not represented as formally clinically certified.
+
+## Targeted 42-claim audit update — November 4, 2026
+
+The previous spot-check stage has progressed to an **individual disposition for every one of the 42 LAB records**, recorded in [04_LAB_CLAIM_AUDIT_2026-11-04.md](../evidence/04_LAB_CLAIM_AUDIT_2026-11-04.md). The review was limited to available primary guideline statements, original study abstracts and standards; this is **not** a formal systematic review, full risk-of-bias adjudication or clinical authorization.
+
+- **26 `SUPPORTED_SCOPE`:** a narrow statement was independently corroborated by a relevant primary source; it cannot automatically be turned into an individual diagnosis or numeric treatment target.
+- **8 `QUALIFIED`:** part of the evidence is relevant, but a precise citation, clinical scope or inferential step still needs verification.
+- **7 `SOURCE_GAP`:** mismatch or insufficiently specific support, including LAB-029 (thyroid testing improperly grounded in ADA nutrition) and LAB-030 (gout/urate inference improperly grounded in KDIGO CKD); withhold corresponding automated interpretations.
+- **1 `WITHHELD`:** LAB-040 (no justified lab-triggered personal ideal-weight equation); maintain prohibition on numeric adjustment.
+
+**New version-sensitive finding:** the original 2026 ACC/AHA lipid guideline has corrections dated June 22 and September 8, 2026. Confirm their exact downstream effects before treating the source's recommendation-level details as final. The [four-team map](../FOUR_TEAM_EVIDENCE_MAP.md) and [136-claim CSV inventory](../UNIFIED_CLAIM_INDEX_2026-11-04.csv) now include the 28 ANC, 30 NUT, 36 PGX and 42 LAB IDs, without falsely claiming the first three teams were re-audited in this pass.
+
+**Outstanding:** source corrections and exact article/paragraph locators for qualified/gap records, amendment-by-amendment lipid check, independent qualified clinical appraisal before higher-consequence personalization, and audit of the earlier ANC/NUT/PGX claims in their own future passes. All eight imported Team 4 research originals remain unchanged; the live calculator and patient-facing scripts remain untouched by this research PR.
