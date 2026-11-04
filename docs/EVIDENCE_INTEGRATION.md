@@ -1,3 +1,13 @@
+# Four-team research consolidation — November 4, 2026
+
+**Status:** Team 4 laboratory evidence has been cross-indexed with the original 28 ANC, 30 NUT and 36 PGX claims: **136 claim IDs in four streams**. All 42 LAB claims received an individual targeted source-status pass (26 narrow-source checks, 8 qualified, 7 citation/evidence gaps and 1 prohibited personalized application). This is not a full systematic review or professional clinical authorization. The prior three-team plan is retained below for chronology.
+
+**Go to:** [Four-team interpretation and conflict map](research/FOUR_TEAM_EVIDENCE_MAP.md) · [individual LAB claim audit](research/evidence/04_LAB_CLAIM_AUDIT_2026-11-04.md) · [machine-readable 136-claim index](research/UNIFIED_CLAIM_INDEX_2026-11-04.csv).
+
+**Key additional boundary:** The educational laboratory module shipped in PR #14, but lab results must not feed the personal ideal-weight algorithm. Evidence-level associations (including ancestry, measured lipid differences and dietary outcomes) cannot be transformed into individual diagnoses or drug/diet prescriptions. The 2026 dyslipidemia guideline has June and September 2026 corrections; check the amendment effect before expanding copied recommendation wording. Source mismatches for LAB-019/-027/-029/-030 and other records remain flagged. A qualified clinical review is still appropriate before higher-risk patient-specific outputs.
+
+---
+
 # Three-team research integration — evidence and decisions
 
 **2026-11-02 | Research-only, no clinical approval.**
