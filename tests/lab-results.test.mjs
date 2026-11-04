@@ -95,6 +95,14 @@ test('lab form: unknown test text is not interpreted or injected into DOM', {
     await page.type('.lab-value', '15');
     await page.type('.lab-range', '<svg onload=alert(1)>');
     await page.click('#labAnalyze');
+    const diagnostic = await page.evaluate(() => ({
+      marker: document.querySelector('.lab-marker').value,
+      measured: document.querySelector('.lab-value').value,
+      testNameEntered: Boolean(document.querySelector('.lab-other').value),
+      errors: document.getElementById('labErrors').textContent,
+      hidden: document.getElementById('labOutput').hidden
+    }));
+    assert.equal(diagnostic.hidden, false, JSON.stringify(diagnostic));
     assert.match(await page.$eval('#labOutput', e => e.textContent), /not yet supported/i);
     assert.equal((await page.$$('#labOutput img')).length, 0);
     assert.equal((await page.$$('#labOutput svg')).length, 0);
