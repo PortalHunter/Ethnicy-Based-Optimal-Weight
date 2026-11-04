@@ -82,3 +82,54 @@ for (const [id, , url] of E.REFS) {
 }
 console.log('Verified protected classic calculator and live engine (identical), 17 reports, all reference keys, and source index.');
 
+
+
+// Team 4: preserve eight original, unedited lab research reports. These are
+// research drafts, not clinical validation or authorization for app advice.
+const team4Originals = [
+  ['docs/research/evidence/04_Ancestry_Laboratory_Interactions.md','ba8121a25525f96691b5bff81dd13306afe7f2fd'],
+  ['docs/research/evidence/04_Laboratory_Biomarker_Research_Review.md','aef49b072cc658e6f7c11acce7fbf5244651fc30'],
+  ['docs/research/evidence/04_Laboratory_Evidence_Matrix.md','989f199d1663d32c6a3a41cecd31fbf3e6733f73'],
+  ['docs/research/evidence/04_Nutrition_Intervention_Matrix.md','f7713cd2b954dbf1ca7163d0c716009169bbc26b'],
+  ['docs/research/process-notes/04_Clinical_Validation_Roadmap.md','89506d8f8f837f1728c513a91a07351512b60ea1'],
+  ['docs/research/process-notes/04_Laboratory_Feature_Prioritization.md','a582178b72935d5093b9ab3f9db0ae0c376b6777'],
+  ['docs/research/process-notes/04_Laboratory_Integration_Handoff.md','9116998cca9c140bd685cc62385bc5eda79d4f83'],
+  ['docs/research/process-notes/04_Laboratory_Safety_Framework.md','9fa61b789ceaca623aeabfb0fdce47ef46b21017']
+];
+for (const [path, expectedSha] of team4Originals) {
+  assert.equal(blobSha(path), expectedSha, 'Original Team 4 research was modified: ' + path);
+}
+
+const unified = readFileSync(new URL('docs/research/UNIFIED_CLAIM_INDEX_2026-11-04.csv', base),'utf8')
+  .trim().split(/\r?\n/);
+assert.equal(unified.length, 137, 'Expected a header and 136 distinct team 1-4 claim rows');
+assert.ok(unified[0].startsWith('claim_id,team,topic,'));
+const counts = { ANC:0, NUT:0, PGX:0, LAB:0 };
+const distinct = new Set();
+for (const line of unified.slice(1)) {
+  const match = /^"(ANC|NUT|PGX|LAB)-(\d{3})",/.exec(line);
+  assert.ok(match, 'Malformed/unrecognized claim ID in unified index');
+  const id = match[1] + '-' + match[2];
+  assert.ok(!distinct.has(id), 'Duplicate claim ID: ' + id);
+  distinct.add(id); counts[match[1]]++;
+  if (match[1] !== 'LAB') {
+    assert.ok(line.includes('"NOT_AUDITED_IN_THIS_PASS"'),
+      'Do not imply earlier ANC/NUT/PGX research was independently audited: ' + id);
+  }
+}
+assert.deepEqual(counts, { ANC:28, NUT:30, PGX:36, LAB:42 });
+const team4Audit = readFileSync(
+  new URL('docs/research/evidence/04_LAB_CLAIM_AUDIT_2026-11-04.md',base),'utf8');
+for (let i = 1; i <= 42; i++) {
+  const id = 'LAB-' + String(i).padStart(3,'0');
+  assert.ok(team4Audit.includes('[' + id + ']'), 'Missing laboratory audit row: ' + id);
+}
+for (const n of [7,19,22,27,29,30,37]) {
+  const id = 'LAB-' + String(n).padStart(3,'0');
+  const matching = team4Audit.split('\n').find(line => line.includes('[' + id + ']'));
+  assert.ok(matching?.includes('SOURCE_GAP'), 'Unresolved citation gap must remain flagged: '+id);
+}
+const lab40 = team4Audit.split('\n').find(line => line.includes('[LAB-040]'));
+assert.ok(lab40?.includes('WITHHELD'), 'Lab-to-weight inference must remain explicitly withheld');
+
+console.log('Verified eight original Team 4 files, 136 cross-team claim IDs, 42 LAB audit rows, seven citation gaps and one withheld weight inference.');
