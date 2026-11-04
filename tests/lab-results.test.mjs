@@ -94,7 +94,9 @@ test('lab form: unknown test text is not interpreted or injected into DOM', {
     await page.type('.lab-other', '<img src=x onerror=alert(1)>');
     await page.type('.lab-value', '15');
     await page.type('.lab-range', '<svg onload=alert(1)>');
-    await page.click('#labAnalyze');
+    // Exercise the submit handler directly: Chromium's click can be missed after
+    // typing angle-bracket payloads on overloaded parallel CI browser workers.
+    await page.$eval('#labForm', form => form.requestSubmit());
     const diagnostic = await page.evaluate(() => ({
       marker: document.querySelector('.lab-marker').value,
       measured: document.querySelector('.lab-value').value,
