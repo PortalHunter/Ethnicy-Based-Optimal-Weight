@@ -22,7 +22,16 @@ An optional **Lab Results & Nutrition Guidance** section lets you enter values f
 - [`research-preview.html`](research-preview.html): the public list of sources.
 - [`docs/`](docs/README.md): how the calculator works, the research behind it, and maintainer notes.
 - [`tests/`](tests/) and [`scripts/`](scripts/): automated checks.
-- [PRIVACY.md](PRIVACY.md), [SECURITY.md](SECURITY.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE](LICENSE) (MIT).
+- [PRIVACY.md](PRIVACY.md), [SECURITY.md](SECURITY.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE](LICENSE) (MIT software) and [LICENSE-CONTENT.md](LICENSE-CONTENT.md) (CC BY 4.0 for eligible original educational content).
+
+## Licensing
+
+Ancestry Health uses **two clearly scoped licenses**:
+
+- **Software — [MIT License](LICENSE):** the calculator's HTML, CSS, JavaScript, calculation engine, tests and software files remain available under the existing MIT license.
+- **Original educational and research prose — [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CONTENT.md):** an **additional licensing option** for original research summaries, explanations and documentation where the authors own or have permission to license the content. See the notice for precise scope and [CC BY 4.0 terms](https://creativecommons.org/licenses/by/4.0/).
+
+CC BY 4.0 permits reuse, adaptations and commercial use with appropriate attribution, a license link and indication of changes. Existing MIT permissions are not withdrawn. **External journal articles, publisher figures, third-party media and other material not owned by this project are not relicensed.** Licensing educational content does not mean it is verified medical guidance.
 
 ## Running the tests
 
