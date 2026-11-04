@@ -1,6 +1,6 @@
 # Evidence
 
-What the research found, kept as originally written. The evidence matrices give each finding an ID (`ANC-`, `NUT-`, `PGX-`) that other documents refer to.
+What the research found, kept as originally written. The evidence matrices give each finding an ID (`ANC-`, `NUT-`, `PGX-`, `LAB-`) that other documents refer to. The Team 4 documents remain research drafts; their separate audit labels are not clinical approval.
 
 | File | Topic |
 |---|---|
@@ -12,3 +12,8 @@ What the research found, kept as originally written. The evidence matrices give 
 | [03_Pharmacogenetics_Evidence_Matrix.md](03_Pharmacogenetics_Evidence_Matrix.md) | Medication response: findings by ID |
 | [03_Pharmacogenetics_Research_Review.md](03_Pharmacogenetics_Research_Review.md) | Medication response: full review |
 | [03_Population_Medication_Response.md](03_Population_Medication_Response.md) | Medication response differences between populations |
+| [04_Laboratory_Evidence_Matrix.md](04_Laboratory_Evidence_Matrix.md) | Laboratory findings: 42 draft claim IDs |
+| [04_Laboratory_Biomarker_Research_Review.md](04_Laboratory_Biomarker_Research_Review.md) | Laboratory research: targeted scoping review |
+| [04_Ancestry_Laboratory_Interactions.md](04_Ancestry_Laboratory_Interactions.md) | Laboratory validity and ancestry interactions |
+| [04_Nutrition_Intervention_Matrix.md](04_Nutrition_Intervention_Matrix.md) | Literature on diet interventions and biomarkers |
+| [04_LAB_CLAIM_AUDIT_2026-11-04.md](04_LAB_CLAIM_AUDIT_2026-11-04.md) | Independent, limited source review and 42-claim disposition ledger |
