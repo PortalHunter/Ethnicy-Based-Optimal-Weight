@@ -2,8 +2,8 @@
   "date": "2026-11-04",
   "source_kind": "user-provided Grok research handoffs",
   "original_sha256_scheme": "SHA-256 of exact submitted file bytes; unchanged",
-  "raw_sources_in_git": false,
-  "archive_delivery": "The companion conversation provides Ancestry_Health_Grok_Reviewed_Research_Package_2026-11-04.zip. Repository records the manifest only; source archives must not be considered attached or published via this manifest.",
+  "raw_sources_in_git": true,
+  "archive_delivery": "All 16 original research files and four normalized CSV copies are committed under source-files/ with byte-for-byte SHA-256 checks in CI. The original ZIP submissions and combined reviewed ZIP remain conversation-delivered artifacts and are NOT themselves GitHub files.",
   "original_submission_zips": [
     {
       "team": "A",
@@ -139,5 +139,6 @@
     "Team C C001: quote the comma-containing diet-definition field to restore 22 columns.",
     "Team A VLC_KD_meta: insert missing empty counterevidence_notes field to restore 16 columns.",
     "Normalized CSV alignment is syntactic repair only and never source/clinical verification."
-  ]
+  ],
+  "source_root": "source-files/"
 }
