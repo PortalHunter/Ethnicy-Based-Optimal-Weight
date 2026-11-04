@@ -42,6 +42,58 @@ for (const [file, prefix] of [
   const content = readFileSync(located[file], 'utf8');
   assert.ok(content.includes(prefix), 'Missing claim registry prefix ' + prefix);
 }
+// Four-team research-only index checks. A claim's presence does not certify its clinical use.
+const claimCsv = readFileSync(new URL('UNIFIED_CLAIM_INDEX_2026-11-04.csv', research), 'utf8');
+const rows = claimCsv.trimEnd().split(/\r?\n/);
+assert.ok(rows[0].startsWith('claim_id,team,topic,legacy_grade,'), 'Unified claim CSV header drift');
+const identifiers = [];
+const grouped = { ANC: 0, NUT: 0, PGX: 0, LAB: 0 };
+const labAuditStatuses = { SUPPORTED_SCOPE: 0, QUALIFIED: 0, SOURCE_GAP: 0, WITHHELD: 0 };
+for (const line of rows.slice(1)) {
+  const m = line.match(/^"((ANC|NUT|PGX|LAB)-\d{3})","(ANC|NUT|PGX|LAB)",/);
+  assert.ok(m, 'Malformed claim index row: ' + line.slice(0, 100));
+  assert.equal(m[2], m[3], 'Claim prefix / team mismatch: ' + m[1]);
+  identifiers.push(m[1]);
+  grouped[m[2]]++;
+  const status = line.match(/,"(SUPPORTED_SCOPE|QUALIFIED|SOURCE_GAP|WITHHELD|NOT_AUDITED_IN_THIS_PASS)",/);
+  assert.ok(status, 'Missing explicit verification status: ' + m[1]);
+  if (m[2] === 'LAB') {
+    assert.notEqual(status[1], 'NOT_AUDITED_IN_THIS_PASS', 'LAB claim requires individual review: ' + m[1]);
+    labAuditStatuses[status[1]]++;
+  } else {
+    assert.equal(status[1], 'NOT_AUDITED_IN_THIS_PASS', 'Do not imply ANC/NUT/PGX claims have been independently re-audited: ' + m[1]);
+  }
+}
+assert.equal(identifiers.length, 136, 'Unexpected unified claim count');
+assert.equal(new Set(identifiers).size, 136, 'Duplicate evidence claim ID');
+assert.deepEqual(grouped, { ANC: 28, NUT: 30, PGX: 36, LAB: 42 });
+assert.deepEqual(labAuditStatuses, { SUPPORTED_SCOPE: 26, QUALIFIED: 8, SOURCE_GAP: 7, WITHHELD: 1 });
+const claimMatrices = {
+  ANC: '01_Ancestry_Evidence_Matrix.md',
+  NUT: '02_Nutrition_Evidence_Matrix.md',
+  PGX: '03_Pharmacogenetics_Evidence_Matrix.md',
+  LAB: '04_Laboratory_Evidence_Matrix.md'
+};
+for (const [team, name] of Object.entries(claimMatrices)) {
+  const matrix = readFileSync(new URL('evidence/' + name, research), 'utf8');
+  for (const id of identifiers.filter(x => x.startsWith(team + '-'))) {
+    assert.ok(matrix.includes(id), 'Missing ' + id + ' in ' + name);
+  }
+}
+const labAudit = readFileSync(new URL('evidence/04_LAB_CLAIM_AUDIT_2026-11-04.md', research), 'utf8');
+const audited = [...labAudit.matchAll(/^\| \[(LAB-\d{3})\]/gm)].map(m => m[1]);
+assert.equal(audited.length, 42, 'Expected exactly 42 LAB audit table rows');
+assert.equal(new Set(audited).size, 42, 'Duplicated LAB audit row');
+assert.deepEqual(audited.sort(), identifiers.filter(id => id.startsWith('LAB-')).sort(), 'LAB audit and registry differ');
+const researchTeam4 = ['evidence/04_Laboratory_Biomarker_Research_Review.md', 'evidence/04_Laboratory_Evidence_Matrix.md',
+  'evidence/04_Ancestry_Laboratory_Interactions.md', 'evidence/04_Nutrition_Intervention_Matrix.md',
+  'process-notes/04_Laboratory_Feature_Prioritization.md', 'process-notes/04_Laboratory_Integration_Handoff.md',
+  'process-notes/04_Laboratory_Safety_Framework.md', 'process-notes/04_Clinical_Validation_Roadmap.md'];
+for (const report of researchTeam4) {
+  assert.ok(readFileSync(new URL(report, research), 'utf8').length > 3000, 'Missing or truncated Team 4 source: ' + report);
+}
+console.log('Verified 136 unique four-team IDs, 42 explicit LAB audit rows, and eight original Team 4 reports.');
+
 const { E } = loadCore();
 assert.ok(E.REFS.length > 20, 'Expected baseline references');
 const ids = E.REFS.map((r) => r[0]);
