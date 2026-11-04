@@ -3,6 +3,7 @@
 | Item | What it is |
 |---|---|
 | [SOURCE_INDEX.md](SOURCE_INDEX.md) | Every report and every web source the calculator cites, in one list. |
+| [GROK_HANDOFF_TRIAGE_2026-11-04.md](GROK_HANDOFF_TRIAGE_2026-11-04.md) | Intake and independent source/data-quality triage of the four newly received dietary research handoffs; lists import blockers and safety gates. |
 | [DIET_PATTERN_EVIDENCE_2026-11-04.md](DIET_PATTERN_EVIDENCE_2026-11-04.md) | Primary diet trials, study corrections, safety limitations and guidance boundaries for optional lab notes. |
 | [GROK_DIET_RESEARCH_PROMPTS_2026-11-04.md](GROK_DIET_RESEARCH_PROMPTS_2026-11-04.md) | Four independent prompts for expanded diet evidence, source checks and adversarial research. |
 | [PHASE1_POPULATION_PROFILES.md](PHASE1_POPULATION_PROFILES.md) | How the 11 ancestry groups and 62 optional subgroups were set up, and the evidence behind each. |
