@@ -3,7 +3,7 @@
 A free, browser-only calculator that estimates a healthy weight range from your height, frame size, age, and ancestry, with notes on health conditions.
 It runs entirely in your browser. Nothing you type is sent anywhere.
 
-An optional **Blood Test Results & Nutrition** section lets you enter lab values flagged high or low and view source-linked educational discussion notes. It does not change the weight estimate or make diagnoses. The evidence scope and limitations are documented in [Lab Education](docs/LAB_EDUCATION.md).
+An optional **Lab Results & Nutrition Guidance** section lets you enter values from your own laboratory report, including units and the lab's high/low/critical flag when supplied. It offers source-linked explanations, practical questions for your clinician and general food-pattern examples where supported. Reported eGFR and urine ACR receive kidney-context notes only; unsupported tests receive no invented interpretation. **Lab entries never change the weight estimate or make diagnoses.** The evidence scope and limitations are documented in [Lab Education](docs/LAB_EDUCATION.md).
 
 **[Open the calculator](https://portalhunter.github.io/Ethnicy-Based-Optimal-Weight/)**
 
