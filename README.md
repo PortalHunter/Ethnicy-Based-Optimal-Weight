@@ -7,6 +7,18 @@ An optional **Lab Results & Nutrition Guidance** section lets you enter values f
 
 **[Open the calculator](https://portalhunter.github.io/Ethnicy-Based-Optimal-Weight/)**
 
+## Contribute research, corrections, or ideas
+
+**Ancestry Health welcomes scientific and community scrutiny.** Clinicians, registered dietitians, researchers, pharmacists, geneticists, statisticians, software developers, students, and the public can submit relevant studies, point out limitations, challenge existing claims, improve accessibility, or propose additional educational modules. No credentials are required to submit a question or correction.
+
+- **[Submit a scientific study or guideline](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/new?template=01-scientific-evidence.md)** — including contrary or negative findings.
+- **[Question or correct a health claim](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/new?template=02-evidence-correction.md)** — evidence-based criticism is especially welcome.
+- **[Propose a new module](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/new?template=03-module-proposal.md)** — extensions are welcome when they support the educational mission.
+- **[Share general or accessibility feedback](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/new?template=04-general-feedback.md)** — help make the project clearer and more inclusive.
+- **[Browse and discuss open issues](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues)** or contribute code/documentation through a pull request.
+
+See the [scientific contribution and review policy](docs/SCIENTIFIC_CONTRIBUTIONS.md) and [contributor guide](CONTRIBUTING.md). Submissions are evaluated for evidence quality, uncertainty, safety, scope and copyright, not accepted automatically. Research contributions do not authorize clinical advice, medication decisions or unvalidated changes to weight calculations. **Please do not post real patient records or genomic data in public issues.**
+
 ## How it works
 
 - **Your ancestry sets the healthy BMI range.** Some groups get the lower cut-offs recommended by WHO and NICE. With mixed ancestry, the cut-offs follow the background you identify with.
