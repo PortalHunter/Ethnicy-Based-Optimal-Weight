@@ -15,6 +15,7 @@ What the research found, kept as originally written. The evidence matrices give 
 | [04_Laboratory_Biomarker_Research_Review.md](04_Laboratory_Biomarker_Research_Review.md) | Original Team 4 laboratory biomarker literature review |
 | [04_Ancestry_Laboratory_Interactions.md](04_Ancestry_Laboratory_Interactions.md) | Original population/laboratory interaction research; ancestry is not genotype |
 | [04_Nutrition_Intervention_Matrix.md](04_Nutrition_Intervention_Matrix.md) | Original dietary intervention and biomarker research |
+| [LAB_SOURCE_GAP_FOLLOWUP_2026-11-04.md](LAB_SOURCE_GAP_FOLLOWUP_2026-11-04.md) | Seven original LAB gaps examined against more specific clinical guidelines; all remain SOURCE_GAP until exact-claim appraisal. |
 | [04_LAB_CLAIM_AUDIT_2026-11-04.md](04_LAB_CLAIM_AUDIT_2026-11-04.md) | Later targeted **42-claim source audit** with 7 citation gaps and 1 expressly withheld personalized inference |
 | [03_Population_Medication_Response.md](03_Population_Medication_Response.md) | Medication response differences between populations |
 
