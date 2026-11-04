@@ -104,20 +104,20 @@ const unified = readFileSync(new URL('docs/research/UNIFIED_CLAIM_INDEX_2026-11-
   .trim().split(/\r?\n/);
 assert.equal(unified.length, 137, 'Expected a header and 136 distinct team 1-4 claim rows');
 assert.ok(unified[0].startsWith('claim_id,team,topic,'));
-const counts = { ANC:0, NUT:0, PGX:0, LAB:0 };
+const team4Counts = { ANC:0, NUT:0, PGX:0, LAB:0 };
 const distinct = new Set();
 for (const line of unified.slice(1)) {
   const match = /^"(ANC|NUT|PGX|LAB)-(\d{3})",/.exec(line);
   assert.ok(match, 'Malformed/unrecognized claim ID in unified index');
   const id = match[1] + '-' + match[2];
   assert.ok(!distinct.has(id), 'Duplicate claim ID: ' + id);
-  distinct.add(id); counts[match[1]]++;
+  distinct.add(id); team4Counts[match[1]]++;
   if (match[1] !== 'LAB') {
     assert.ok(line.includes('"NOT_AUDITED_IN_THIS_PASS"'),
       'Do not imply earlier ANC/NUT/PGX research was independently audited: ' + id);
   }
 }
-assert.deepEqual(counts, { ANC:28, NUT:30, PGX:36, LAB:42 });
+assert.deepEqual(team4Counts, { ANC:28, NUT:30, PGX:36, LAB:42 });
 const team4Audit = readFileSync(
   new URL('docs/research/evidence/04_LAB_CLAIM_AUDIT_2026-11-04.md',base),'utf8');
 for (let i = 1; i <= 42; i++) {
