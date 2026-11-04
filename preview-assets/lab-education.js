@@ -242,7 +242,7 @@
     }
     records.forEach(function (r) {
       var box = node('section', 'lab-result-card');
-      box.appendChild(node('h4', '', r.name + ' — ' + (r.flag === 'critical' ? 'Critical flag' : r.flag === 'other' ? 'Other / unsure flag' : r.flag === 'high' ? 'High flag' : 'Low flag')));
+      box.appendChild(node('h4', '', r.name + ' — ' + (r.flag === 'critical' ? 'Critical flag' : r.flag === 'other' ? 'Not flagged / unsure' : r.flag === 'high' ? 'High flag' : 'Low flag')));
       paragraph(box, 'You entered: ' + r.raw + ' ' + r.unit +
         (r.date ? ' | Collected: ' + r.date : '') +
         (r.range ? ' | Report interval: ' + r.range + ' (not independently verified)' : ' | No laboratory interval provided'));
