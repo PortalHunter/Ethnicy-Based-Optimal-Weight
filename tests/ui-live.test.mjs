@@ -24,7 +24,9 @@ test('live site shows results below the form, works on phones, and matches the c
     const errors=[];
     for (const p of [a,b]) {
       p.on('pageerror',e=>errors.push(e.message));
-      p.on('request',r=>{if(!r.url().startsWith('file:'))errors.push('Unexpected network request: '+r.url());});
+      // Browser-generated data: icons (such as the native date-picker SVG) do not make network requests.
+      // Keep rejecting all HTTP(S) or other remote URLs, preserving the local-only guarantee.
+      p.on('request',r=>{if(!/^(?:file|data|blob):/.test(r.url()))errors.push('Unexpected network request: '+r.url());});
     }
     await a.goto(originalPreview,{waitUntil:'load'});
     await b.goto(redesigned,{waitUntil:'load'});
