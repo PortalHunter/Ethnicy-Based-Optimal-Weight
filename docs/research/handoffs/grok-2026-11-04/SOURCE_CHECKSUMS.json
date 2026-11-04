@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-04",
+  "source_kind": "user-provided Grok research handoffs",
+  "original_sha256_scheme": "SHA-256 of exact submitted file bytes; unchanged",
+  "raw_sources_in_git": false,
+  "archive_delivery": "The companion conversation provides Ancestry_Health_Grok_Reviewed_Research_Package_2026-11-04.zip. Repository records the manifest only; source archives must not be considered attached or published via this manifest.",
+  "original_submission_zips": [
+    {
+      "team": "A",
+      "name": "KETO_FASTING_RESEARCH_HANDOFF.zip",
+      "sha256": "8624b02f1f4c5def82f1beac97e282d9f3c1053fbe12ac75eb16edc2821f4825"
+    },
+    {
+      "team": "B",
+      "name": "DIET_PATTERN_RESEARCH_HANDOFF.zip",
+      "sha256": "587a750604d0db3f708397e9a891f63348afdd83f443fc68ebf387bda3e5d6d3"
+    },
+    {
+      "team": "C",
+      "name": "Team_C_Lab_Linked_Nutrition_Handoff.zip",
+      "sha256": "7f286e452404720dae363908257705b28868f3b1a70b7ae6c7324382dbd9039a"
+    },
+    {
+      "team": "D",
+      "name": "Ancestry_Health_TeamD_Audit_Handoff.zip",
+      "sha256": "9bbecca99c87968256d2419d581d0aba174fbdec0c47a8b77b0f86512a8afec0"
+    }
+  ],
+  "reviewed_package": {
+    "name": "Ancestry_Health_Grok_Reviewed_Research_Package_2026-11-04.zip",
+    "sha256": "3bb0004b7b638f564f3a005b34f6d0d58a1403b4b6975d2c92e1dc48421a08c5"
+  },
+  "raw_files": [
+    {
+      "relative_path": "A/BERG_CLAIM_AUDIT.md",
+      "sha256": "0e2150122092b0e8ce1ead85c9d1fb63fe8266df047596d7fa2c2b4007e249a4",
+      "bytes": 10363
+    },
+    {
+      "relative_path": "A/KETO_FASTING_EVIDENCE.md",
+      "sha256": "d8bffaab5ec14d209387b3d2143a32bdb35fab81d54c6c10f748725a398c8b06",
+      "bytes": 12385
+    },
+    {
+      "relative_path": "A/KETO_SAFETY_CASES.md",
+      "sha256": "f8ddf941d3b320f8a383146599cfe2c96308ace620489dce23761adbd72d0c29",
+      "bytes": 5582
+    },
+    {
+      "relative_path": "A/KETO_SOURCES.csv",
+      "sha256": "dd007fec7830480a3e403318cfeb3f1c3e96ca054548b6cbb521572a5c46fa9f",
+      "bytes": 3980
+    },
+    {
+      "relative_path": "B/CARDIOMETABOLIC_DIET_REVIEW.md",
+      "sha256": "fe9fc05dfc01f9175470356d3ed542a7647319766ab1e6fa6ff60f719bc7308c",
+      "bytes": 8962
+    },
+    {
+      "relative_path": "B/CULTURALLY_ADAPTABLE_EXAMPLES.md",
+      "sha256": "f8e72cb4333e2b86eff84fe8751511ad7cce76fa703d40b1becb59b6936ed6a7",
+      "bytes": 3989
+    },
+    {
+      "relative_path": "B/DIET_COMPARISON_LANGUAGE.md",
+      "sha256": "5cbf935887a048a20d1d3564a8c8a4c4f673f8a4650e2fcf87a9be1a8eaba5ca",
+      "bytes": 4280
+    },
+    {
+      "relative_path": "B/DIET_PATTERN_TRIAL_MATRIX.csv",
+      "sha256": "47d3a80d95f4fcec7ff6dedfcc4cea6f98c200e1a4dc084f02ee94e5ae404701",
+      "bytes": 13330
+    },
+    {
+      "relative_path": "C/CLINICAL_SAFETY_REVIEW.md",
+      "sha256": "e63c53759dd2241f6a1a6366746b691247b455b5a85b7ee801b24fe8d7cc1ec6",
+      "bytes": 6039
+    },
+    {
+      "relative_path": "C/EQUITY_AND_TRANSPORTABILITY.md",
+      "sha256": "85cb73b628e40d3724d306d40951842a899af1e72aa7ddf1f7219869f36b9f60",
+      "bytes": 4574
+    },
+    {
+      "relative_path": "C/LAB_TO_DIET_CLAIM_MAP.csv",
+      "sha256": "7c51f7efa71deafc011e355a4c08da33f937c4ff46c880c86d0cbcd966f4105b",
+      "bytes": 10783
+    },
+    {
+      "relative_path": "C/USER_COMPREHENSION_CASES.md",
+      "sha256": "273da929a2617f391b11a6bd8a71a8b78707b52a9666508ae0eacfb605a21b5f",
+      "bytes": 11179
+    },
+    {
+      "relative_path": "D/CONTRADICTION_REGISTER.csv",
+      "sha256": "29384705c765595978a87a403869910f01d750ba38043dcf8f31029be453e8f5",
+      "bytes": 4437
+    },
+    {
+      "relative_path": "D/CORRECTION_AND_RETRACTION_LOG.md",
+      "sha256": "6c6c01e5d3c88ad7798e2a0db89980f16f7ea4ea94e63e4dfc45748eff2c06bf",
+      "bytes": 3917
+    },
+    {
+      "relative_path": "D/INDEPENDENT_SOURCE_AUDIT.md",
+      "sha256": "7b9b7ca0444d9979e339c11545e74661bfcf31e6c8caf3f792e4d66e2e5600d3",
+      "bytes": 18971
+    },
+    {
+      "relative_path": "D/SAFE_CANDIDATE_COPY.md",
+      "sha256": "cc4df94412a4b51a8bbbe6b475d55279e1d35531e744f6b06f6be34b00b73b2e",
+      "bytes": 4765
+    }
+  ],
+  "normalized_csvs": [
+    {
+      "relative_path": "normalized/CONTRADICTION_REGISTER.csv",
+      "sha256": "4d053348693506176846db8788a73a73934754d70b392825cf61e09c51dfe53d",
+      "bytes": 4135
+    },
+    {
+      "relative_path": "normalized/DIET_PATTERN_TRIAL_MATRIX.csv",
+      "sha256": "6460b80ff8c312ee84d80b1731e8842d39df1ed2f161094af3e58ca4472ef4c9",
+      "bytes": 13084
+    },
+    {
+      "relative_path": "normalized/KETO_SOURCES.csv",
+      "sha256": "66def020db66083127ff5a53a8072d068fb480ba1f389658a7dc8e7d5cf173c4",
+      "bytes": 3973
+    },
+    {
+      "relative_path": "normalized/LAB_TO_DIET_CLAIM_MAP.csv",
+      "sha256": "289e9b623574315b22322d103ac6da80e41976f3683ede008af7a8d33d11dcb8",
+      "bytes": 10583
+    }
+  ],
+  "normalization_rules": [
+    "Retain all original bytes in source archive; normalized copies are separate.",
+    "Team C C001: quote the comma-containing diet-definition field to restore 22 columns.",
+    "Team A VLC_KD_meta: insert missing empty counterevidence_notes field to restore 16 columns.",
+    "Normalized CSV alignment is syntactic repair only and never source/clinical verification."
+  ]
+}
