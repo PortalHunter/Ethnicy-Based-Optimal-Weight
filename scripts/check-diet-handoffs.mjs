@@ -2,15 +2,18 @@
 // Only checks integrity/traceability; it does not certify the cited studies.
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
 const root = new URL('../docs/research/handoffs/grok-2026-11-04/', import.meta.url);
 const load = (name) => JSON.parse(readFileSync(new URL(name, root), 'utf8'));
 const manifest = load('SOURCE_CHECKSUMS.json');
 const index = load('CLAIM_REGISTER.json');
 assert.equal(manifest.date, '2026-11-04');
-assert.equal(manifest.raw_sources_in_git, false,
-  'Do not claim raw archive upload until all files are actually committed');
-assert.equal(index.raw_files_archived_on_github, false,
-  'Do not claim complete source import until raw files are actually committed');
+assert.equal(manifest.raw_sources_in_git, true,
+  'Source archives must be committed and verified against the published checksum manifest');
+assert.equal(index.raw_files_archived_on_github, true,
+  'The 16 originals and 4 corrected CSVs are now expected in GitHub');
+assert.equal(manifest.source_root, 'source-files/');
+assert.equal(index.source_file_root, manifest.source_root);
 assert.equal(manifest.raw_files.length, 16, 'Expected sixteen original files');
 assert.equal(manifest.normalized_csvs.length, 4, 'Expected four curated CSV files');
 const unique = new Set();
@@ -61,4 +64,71 @@ assert.deepEqual(countByReview,{
 const blocked=index.records.filter(r=>r.public_use_gate==='WITHHOLD');
 assert.deepEqual(blocked.map(r=>r.source_record_id),['KETO_LDL_META_EXAMPLE']);
 assert.ok(index.review_scope.includes('not full-text critical appraisal'));
-console.log('Diet handoff register verified: 16 raw source hashes, 4 curated hashes, 26 rows, 1 withheld untraceable citation. Original handoffs are not yet repository files.');
+
+// Parse CSV in the repository, including escaped quotes and quoted commas.
+// In particular, preserving the originally malformed rows is deliberate.
+function parseCsv(content) {
+  const rows = [];
+  let row = [], field = '', quoted = false;
+  for (let i = 0; i < content.length; i++) {
+    const ch = content[i];
+    if (ch === '"') {
+      if (quoted && content[i + 1] === '"') { field += '"'; i++; }
+      else quoted = !quoted;
+    } else if (ch === ',' && !quoted) {
+      row.push(field); field = '';
+    } else if ((ch === '\n' || ch === '\r') && !quoted) {
+      if (ch === '\r' && content[i + 1] === '\n') i++;
+      row.push(field); rows.push(row);
+      row = []; field = '';
+    } else {
+      field += ch;
+    }
+  }
+  assert.equal(quoted, false, 'Unterminated quoted CSV field');
+  if (row.length || field) { row.push(field); rows.push(row); }
+  return rows;
+}
+
+// Verify the actual Git-tracked files, not just a manifest of absent files.
+const byPath = new Map();
+for (const entry of [...manifest.raw_files, ...manifest.normalized_csvs]) {
+  const relative = manifest.source_root + entry.relative_path;
+  const bytes = readFileSync(new URL(relative, root));
+  assert.equal(bytes.length, entry.bytes, 'Changed archived bytes: ' + relative);
+  assert.equal(createHash('sha256').update(bytes).digest('hex'), entry.sha256,
+    'Original or normalized research checksum changed: ' + relative);
+  byPath.set(entry.relative_path, bytes.toString('utf8'));
+}
+const specs = {
+  'KETO_SOURCES.csv': { team: 'A', width: 16, count: 5 },
+  'DIET_PATTERN_TRIAL_MATRIX.csv': { team: 'B', width: 22, count: 8 },
+  'LAB_TO_DIET_CLAIM_MAP.csv': { team: 'C', width: 22, count: 6 },
+  'CONTRADICTION_REGISTER.csv': { team: 'D', width: 24, count: 7 },
+};
+for (const [filename, spec] of Object.entries(specs)) {
+  const unmodified = parseCsv(byPath.get(spec.team + '/' + filename));
+  const normalized = parseCsv(byPath.get('normalized/' + filename));
+  assert.equal(unmodified.length, spec.count + 1, 'Raw CSV row count changed: ' + filename);
+  assert.equal(normalized.length, spec.count + 1, 'Normalized CSV row count changed: ' + filename);
+  assert.equal(unmodified[0].length, spec.width);
+  assert.equal(normalized[0].length, spec.width);
+  assert.deepEqual(unmodified[0], normalized[0], 'Original header changed during repair: ' + filename);
+  for (const row of normalized.slice(1)) {
+    assert.equal(row.length, spec.width, 'Malformed corrected CSV row: ' + filename);
+  }
+  assert.deepEqual(unmodified.slice(1).map(r => r[0]), normalized.slice(1).map(r => r[0]),
+    'Corrected CSV lost or reordered an original claim ID: ' + filename);
+  if (spec.team === 'A') {
+    assert.deepEqual(unmodified.slice(1).map(r => r.length), [16,16,15,16,16],
+      'Original Team A missing-cell defect must remain reproducible');
+  } else if (spec.team === 'C') {
+    assert.deepEqual(unmodified.slice(1).map(r => r.length), [28,22,22,22,22,22],
+      'Original Team C unquoted-comma defect must remain reproducible');
+  } else {
+    assert.ok(unmodified.slice(1).every(r => r.length === spec.width));
+  }
+}
+assert.equal(byPath.size, 20);
+
+console.log('Diet handoffs: 16 unchanged originals and 4 normalized CSVs match exact SHA-256, CSV row integrity validated; 26 claim gates checked, one untraceable source withheld.');
