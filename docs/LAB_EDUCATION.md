@@ -41,6 +41,16 @@ The original Team 4 targeted scoping review (42 LAB claims; draft v0.9) remains 
 - High-risk or potentially complicated entries suppress generic food suggestions for the set of entered values. Pregnancy, symptoms, clinical diagnoses, prescriptions, assay methods and other vital context are not fully collected; users should not rely on this section to judge urgency or manage treatment.
 - Every informational suggestion is explicitly limited to the citation supporting that type of guidance; questions are not a diagnosis. No medication adjustment, genotype inference, ancestry-based lab threshold, personal risk score or lab-driven weight calculation is offered.
 
+## Dietary-pattern study comparison — November 4, 2026
+
+A second **collapsed, optional "Compare diets studied in research"** panel offers brief primary-source trial comparisons for **Mediterranean, DASH, Portfolio, quality-focused lower carbohydrate, ketogenic, plant-forward/healthy low-fat, and time-restricted eating**. See the [primary-source dietary evidence review](research/DIET_PATTERN_EVIDENCE_2026-11-04.md) for studies, populations, outcomes, corrections, limitations and the critical keto-vs-Mediterranean distinction. It covers PREDIMED's **2018 reanalysis**, CORDIOPREV, Keto-Med **and its 2022 figure-axis correction**, DASH-Sodium, Chiavaroli Portfolio meta-analysis, DIETFITS, ADA Standards 2026, and a time-restricted eating RCT.
+
+**Result-linked suggestions are strictly limited:** when a user **explicitly flags** supported A1c, confirmed fasting glucose, LDL or non-severe TG as high, the result panel may show matching **study comparisons to discuss**. Mediterranean-style is used as general cardiometabolic context; Portfolio for LDL; lower-carbohydrate and the balanced Keto-Med **trade-off** comparison for glycemic/TG flags. This is not an automated diet prescription, a recommendation to begin keto, a risk score or a prediction of clinical benefit. Keto comparison warns that LDL may rise and lists SGLT2/medication safety concerns. Unknown/unflagged measurements do not trigger suggestions.
+
+**Any critical/unsafe result, severe TG or low glucose, potassium concern, or flagged kidney test continues to suppress all result-linked food and study suggestions.** The independent, collapsed research library remains available as non-tailored reference material for anyone who opts to open it; its appearance is not a verdict that a diet is safe. The app does not collect medication details, disordered-eating risk or other context to clear ketogenic/fasting safety.
+
+Media personalities (including Dr. Eric Berg, D.C.) may be a source of *hypotheses to check* but not independent evidence: no branded or influencer regimen is endorsed. The research review cites his own biography only for credential/claim provenance and evaluates published studies separately. The calculator engine and all ideal-weight outputs remain unchanged.
+
 ## Known limitations and next work
 
 - This initial prototype does not parse uploaded panels; phase 2 needs explicit security/privacy design and mandatory extraction confirmation.

@@ -94,7 +94,9 @@ test('lab form: unknown test text is not interpreted or injected into DOM', {
     await page.type('.lab-other', '<img src=x onerror=alert(1)>');
     await page.type('.lab-value', '15');
     await page.type('.lab-range', '<svg onload=alert(1)>');
-    await page.click('#labAnalyze');
+    // Exercise the submit handler directly: Chromium's click can be missed after
+    // typing angle-bracket payloads on overloaded parallel CI browser workers.
+    await page.$eval('#labForm', form => form.requestSubmit());
     const diagnostic = await page.evaluate(() => ({
       marker: document.querySelector('.lab-marker').value,
       measured: document.querySelector('.lab-value').value,
@@ -192,5 +194,68 @@ test('lab form: low glucose numeric safety caution takes precedence over unrelat
     assert.match(text, /clinically significant low blood sugar/i);
     assert.match(text, /food-change suggestions are withheld/i);
     assert.doesNotMatch(text, /Food-pattern examples to discuss/i);
+  } finally { await browser.close(); }
+});
+
+test('diet research: optional comparison is available even without lab results and cites primary trials', {
+  skip: !CHROME && 'Chrome is missing'
+}, async () => {
+  const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--no-sandbox'] });
+  try {
+    const page = await browser.newPage();
+    await page.goto(url);
+    assert.equal(await page.$eval('#personalSummary', e => e.hidden), true);
+    assert.equal(await page.$eval('#dietEvidenceDetails', e => e.open), false);
+    await page.click('#dietEvidenceDetails > summary');
+    assert.equal(await page.$eval('#dietEvidenceDetails', e => e.open), true);
+    assert.equal((await page.$$('#dietEvidenceDetails .diet-evidence-card')).length, 7);
+    const text = await page.$eval('#dietEvidenceDetails', e => e.textContent);
+    for (const name of ['Mediterranean', 'DASH', 'Portfolio', 'Ketogenic', 'lower-carbohydrate', 'Plant-forward', 'Time-restricted']) {
+      assert.match(text.toLowerCase(), new RegExp(name.toLowerCase()));
+    }
+    assert.match(text, /not automatically recommended/i);
+    assert.equal(await page.$eval('#diet-keto a[href*="35641199"]', e => e.tagName), 'A');
+    assert.equal(await page.$eval('#personalSummary', e => e.hidden), true);
+  } finally { await browser.close(); }
+});
+
+test('lab result: reported high A1c shows balanced diet studies; high LDL points to Portfolio without keto selection', {
+  skip: !CHROME && 'Chrome is missing'
+}, async () => {
+  const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--no-sandbox'] });
+  try {
+    const page = await openPage(browser);
+    await page.type('.lab-value', '6.1');
+    await page.select('.lab-flag', 'high');
+    await page.click('#labAnalyze');
+    const output = await page.$eval('#labOutput', e => e.textContent);
+    assert.match(output, /Dietary patterns to discuss/i);
+    assert.match(output, /Mediterranean-style/i);
+    assert.match(output, /Ketogenic versus Mediterranean — comparison, not a recommendation/i);
+    assert.match(output, /triglycerides favored keto but LDL/i);
+    assert.match(output, /SGLT2 inhibitors/i);
+    await page.select('.lab-marker', 'ldl');
+    await page.click('#labAnalyze');
+    const ldlOutput = await page.$eval('#labOutput', e => e.textContent);
+    assert.match(ldlOutput, /Portfolio diet/i);
+    assert.match(ldlOutput, /Mediterranean-style/i);
+    assert.doesNotMatch(ldlOutput, /Ketogenic versus Mediterranean — comparison/i);
+  } finally { await browser.close(); }
+});
+
+test('lab result: unflagged result or critical value never generates diet-study suggestions', {
+  skip: !CHROME && 'Chrome is missing'
+}, async () => {
+  const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--no-sandbox'] });
+  try {
+    const page = await openPage(browser);
+    await page.type('.lab-value', '6.1');
+    await page.click('#labAnalyze');
+    assert.equal((await page.$$('#labOutput .lab-diet-research')).length, 0);
+    await page.select('.lab-flag', 'critical');
+    await page.click('#labAnalyze');
+    assert.equal((await page.$$('#labOutput .lab-diet-research')).length, 0);
+    assert.match(await page.$eval('#labOutput', e => e.textContent), /food-change suggestions are withheld/i);
+    assert.equal(await page.$eval('#personalSummary', e => e.hidden), true);
   } finally { await browser.close(); }
 });
