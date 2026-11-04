@@ -41,6 +41,8 @@ jobs:
           npx --yes eslint@9.39.2 --no-config-lookup --rule 'no-debugger:error' --rule 'no-unreachable:error' tests/*.mjs scripts/*.mjs
       - name: Evidence archive, citations and protected baseline checks
         run: node scripts/check-evidence.mjs
+      - name: Verify Grok dietary handoff provenance and public-use gates
+        run: node scripts/check-diet-handoffs.mjs
       - name: Unit and real-browser regression tests
         env:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
