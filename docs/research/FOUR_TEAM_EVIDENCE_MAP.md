@@ -47,7 +47,7 @@ The LAB audit status (`SUPPORTED_SCOPE`, `QUALIFIED`, `SOURCE_GAP`, `WITHHELD`) 
 
 1. Team 4 research is **not** merged into live calculations and does not expand the existing manual-entry laboratory module's narrow cited statements.
 2. Existing LAB educational advice remains separate from `preview-assets/core.js` and must not silently alter height, weight, body-frame or ancestry calculations. Personal therapeutic targets, emergencies, prescriptions, confirmed diagnoses and medication advice require distinct controls and qualified review.
-3. Re-check **both 2026 ACC/AHA guideline errata** before any new thresholds, clinical recommendations or grading claims are shown. Update the exact source version rather than quietly replacing original references.
+3. **Both 2026 ACC/AHA guideline errata were reviewed:** June corrected the ApoB-related TG example to ≥150 mg/dL; September corrected bile-acid-sequestrant medication table entries, including a critical unit typo. Preserve these amended versions in source provenance; any future new thresholds or medication-related text still require separate evidence review and cannot become app prescribing instructions.
 4. Independently review the 94 pre-existing ANC/NUT/PGX claims in future passes; the current index provides traceability but does not pretend those reviews occurred today. Recheck PGX gene–drug recommendations against current source/allele versions before any individual-facing content.
 5. If evidence cannot be supported at the requested specificity, output **unknown / insufficient evidence**. Never treat absent labs as normal, self-reported heritage as genotype, or a trial's average effect as a patient's prediction.
 
