@@ -59,6 +59,6 @@ Keep the original bytes unaltered. Curated copies must retain the original 26 ro
 
 **Withhold:** changes to `preview-assets/core.js` or ideal-weight results; personalized keto/fasting start advice; ancestry/genotype-based diet matching; new lab diagnosis, medication, dose or sodium/protein/carb targets; new patient-specific risk estimates; untraceable meta-analysis numbers; unverified personality quotations.
 
-**Next:** ingest normalized handoffs into the evidence staging process, audit remaining individual source claims, resolve exact transcript provenance, and review proposed clinical-safety UX with tests before any public recommendation changes. Related reviews: [four-team evidence map](FOUR_TEAM_EVIDENCE_MAP.md) (pending PR #13) and [diet-pattern review](DIET_PATTERN_EVIDENCE_2026-11-04.md).
+**Next:** ingest normalized handoffs into the evidence staging process, audit remaining individual source claims, resolve exact transcript provenance, and review proposed clinical-safety UX with tests before any public recommendation changes. Related reviews: [four-team evidence map (pending PR #13)](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/team-4-lab-evidence-2026-11-03/docs/research/FOUR_TEAM_EVIDENCE_MAP.md) and [diet-pattern review](DIET_PATTERN_EVIDENCE_2026-11-04.md).
 
 **This document records targeted independent corroboration only—not wholesale approval of any handoff's self-declared verification or research grade.**
