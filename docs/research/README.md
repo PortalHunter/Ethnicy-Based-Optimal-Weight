@@ -4,6 +4,7 @@
 |---|---|
 | [FOUR_TEAM_EVIDENCE_MAP.md](FOUR_TEAM_EVIDENCE_MAP.md) | Cross-team evidence boundaries across ancestry, hereditary nutrition, pharmacogenetics and laboratory testing; research only. |
 | [UNIFIED_CLAIM_INDEX_2026-11-04.csv](UNIFIED_CLAIM_INDEX_2026-11-04.csv) | 136 claim IDs (28 ANC, 30 NUT, 36 PGX, 42 LAB) with explicit verification status; unreviewed legacy claims are not automatically approved. |
+| [LAB_SOURCE_GAP_FOLLOWUP_2026-11-04.md](evidence/LAB_SOURCE_GAP_FOLLOWUP_2026-11-04.md) | Targeted verification of replacement primary/guideline references for seven LAB gaps; does not upgrade claim approval. |
 | [04_LAB_CLAIM_AUDIT_2026-11-04.md](evidence/04_LAB_CLAIM_AUDIT_2026-11-04.md) | Targeted claim-by-claim audit of 42 lab findings; seven citation gaps and lab-driven ideal-weight inference withheld. |
 | [SOURCE_INDEX.md](SOURCE_INDEX.md) | Every report and every web source the calculator cites, in one list. |
 | [handoffs/grok-2026-11-04/](handoffs/grok-2026-11-04/README.md) | Claim-level integration register for all 26 Grok handoff rows, provenance SHA-256 manifest, source-review statuses, safety release gates, and reproducible import procedure. |
