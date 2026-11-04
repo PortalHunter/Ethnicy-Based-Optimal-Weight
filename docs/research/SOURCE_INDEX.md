@@ -265,3 +265,7 @@ Each URL is accompanied by the research documents where it appeared. This does n
 - **pop_acog** — ACOG. Universal Hemoglobinopathy Testing, 2022; ancestry is a poor genetic proxy.: https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2022/08/hemoglobinopathies-in-pregnancy
 
 [Evidence scope and safeguards](PHASE1_POPULATION_PROFILES.md).
+
+## 2026-11-04 addendum — Team 4 lab-source archive
+
+The **17 reports / 150 extracted URLs** counted above are the historical Team 1–3 source-index scope; those figures do **not** include the newer Team 4 research or four Grok diet handoffs. The original Team 4 reports were subsequently archived unchanged in [evidence/](evidence/README.md) and [process-notes/](process-notes/README.md). A [136-claim unified index](UNIFIED_CLAIM_INDEX_2026-11-04.csv) covers the first four teams, and the [42 LAB claim audit](evidence/04_LAB_CLAIM_AUDIT_2026-11-04.md) identifies seven citation gaps and one withheld lab-to-weight inference. These sources are for documentation and independent review, not new medical guidance. The [Grok diet handoff archive](handoffs/grok-2026-11-04/README.md) is tracked separately with 20 byte-verified research files and 26 source-row records.

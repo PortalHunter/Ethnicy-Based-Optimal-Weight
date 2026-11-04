@@ -41,3 +41,11 @@ Any promotion to user-facing clinical logic requires [CLINICAL_REVIEW.md](proces
 - [Team 2 recommendations](research/process-notes/02_Nutrition_Calculator_Recommendations.md), [NUT matrix](research/evidence/02_Nutrition_Evidence_Matrix.md), [integration handoff](research/process-notes/02_Nutrition_Integration_Handoff.md).
 - [Team 3 proposal](research/process-notes/03_Pharmacogenetics_Module_Proposal.md), [PGX matrix](research/evidence/03_Pharmacogenetics_Evidence_Matrix.md), [integration handoff](research/process-notes/03_Pharmacogenetics_Integration_Handoff.md).
 
+
+## Team 4 laboratory research reconciliation — 2026-11-04
+
+Eight unchanged original Team 4 drafts from November 3 are now archived in [evidence](research/evidence/README.md) and [process notes](research/process-notes/README.md), with a separate [42-claim audit](research/evidence/04_LAB_CLAIM_AUDIT_2026-11-04.md), [four-team evidence boundary map](research/FOUR_TEAM_EVIDENCE_MAP.md), and [136-record claim index](research/UNIFIED_CLAIM_INDEX_2026-11-04.csv).
+
+**Status boundaries:** 28 ancestry (ANC), 30 nutritional genetics (NUT) and 36 pharmacogenetics (PGX) records are indexed **without claiming independent verification in this pass**. The 42 LAB entries received targeted source checks with **seven source gaps** and **one withheld lab-to-weight inference**. This is research traceability, not full-text clinical appraisal, certification, endorsement or permission to broaden public medical advice.
+
+**Decision:** preserve the existing weight equations, optional lab education and medication-safety boundaries. A lab result, ethnicity, sex or inferred genetic trait must never become an unvalidated personal treatment/ideal-weight equation. Changes to patient-facing guidance require separate primary-source review and synthetic adverse-case tests.
