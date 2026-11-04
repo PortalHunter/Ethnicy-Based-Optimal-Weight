@@ -1,5 +1,11 @@
 # Contributing and review policy
 
+**Everyone is welcome to contribute.** The project invites physicians, researchers, registered dietitians, pharmacists, geneticists, statisticians, health educators, software contributors, students, and interested members of the public. You can contribute by challenging a claim, submitting research, suggesting a module, improving accessibility, or proposing code. Scientific criticism is welcome even when it questions existing methods; professional credentials are not required to comment.
+
+**Starting with an issue is enough:** [submit evidence](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/new?template=01-scientific-evidence.md), [request a correction](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/new?template=02-evidence-correction.md), [propose a new module](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/new?template=03-module-proposal.md), or [share accessibility/general feedback](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/new?template=04-general-feedback.md). For scholarly source requirements, review outcomes, conflict-of-interest disclosure and copyright boundaries, see [Scientific Contributions](docs/SCIENTIFIC_CONTRIBUTIONS.md).
+
+The steps below apply to **code or content changes proposed for merge**, not to people merely reporting a problem or asking a question.
+
 1. Create a short-lived branch from `main` (e.g. `feature/improve-ancestry-labels`). Keep `main` deployable.
 2. Describe the intended change and attach **Given / When / Then** acceptance criteria. Include numeric boundary and invalid-input cases.
 3. Add failing tests **before** changing behavior; retain unit, browser and citation tests.
