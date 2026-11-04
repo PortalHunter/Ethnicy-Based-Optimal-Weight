@@ -66,6 +66,6 @@ For each row, compare the **precise original assertion**, publication identity/d
 ## Unresolved gates and next queue
 
 - **89 other original ANC/NUT/PGX claims** are not assessed in this batch. Preserve all 94 original index rows and research files; sequence further focused batches through primary-source verification before considering a separate cumulative register.
-- Each of the **seven LAB gaps** (LAB-007/-019/-022/-027/-029/-030/-037) remains `SOURCE_GAP`; **LAB-040 stays `WITHHELD`**. A candidate reference is not closure of an original evidence gap.
+- Each of the **seven LAB gaps** (LAB-007, LAB-019, LAB-022, LAB-027, LAB-029, LAB-030, LAB-037) remains `SOURCE_GAP`; **LAB-040 stays `WITHHELD`**. A candidate reference is not closure of an original evidence gap.
 - The 2026 UK CERSI-PGx guidance should be checked for any superseding statements in local US policy before citing publicly. More extensive correction/retraction checks, full-text bias appraisal, and actual site copy mapping remain open.
 - No public diet, lab, BMI or drug logic was changed. This record is for discussion and audit traceability only.
