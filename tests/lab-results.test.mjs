@@ -259,3 +259,72 @@ test('lab result: unflagged result or critical value never generates diet-study 
     assert.equal(await page.$eval('#personalSummary', e => e.hidden), true);
   } finally { await browser.close(); }
 });
+
+test('lab study cards: overlapping high glycemic, LDL and TG flags produce at most three research topics', {
+  skip: !CHROME && 'Chrome is missing'
+}, async () => {
+  const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--no-sandbox'] });
+  try {
+    const page = await openPage(browser);
+    await page.type('.lab-value', '6.1');
+    await page.select('.lab-flag', 'high');
+    await page.click('#labAdd');
+    await page.$eval('#labRows .lab-entry:nth-child(2) .lab-marker', el => {
+      el.value = 'ldl'; el.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+    await page.type('#labRows .lab-entry:nth-child(2) .lab-value', '190');
+    await page.select('#labRows .lab-entry:nth-child(2) .lab-flag', 'high');
+    await page.click('#labAdd');
+    await page.$eval('#labRows .lab-entry:nth-child(3) .lab-marker', el => {
+      el.value = 'tg'; el.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+    await page.type('#labRows .lab-entry:nth-child(3) .lab-value', '220');
+    await page.select('#labRows .lab-entry:nth-child(3) .lab-flag', 'high');
+    await page.$eval('#labForm', form => form.requestSubmit());
+    const cards = await page.$$eval('#labOutput .lab-diet-study-card h5', nodes => nodes.map(n => n.textContent));
+    assert.deepEqual(cards, ['Mediterranean-style', 'Portfolio diet', 'Quality-focused lower-carbohydrate pattern']);
+    assert.equal((await page.$$('#labOutput .lab-diet-tradeoff')).length, 1);
+    assert.match(await page.$eval('#labOutput', el => el.textContent), /not ranked recommendations/i);
+    assert.equal(await page.$eval('#personalSummary', el => el.hidden), true);
+  } finally { await browser.close(); }
+});
+
+test('lab study cards: high LDL alone shows Mediterranean and Portfolio, not ketogenic or lower-carb comparisons', {
+  skip: !CHROME && 'Chrome is missing'
+}, async () => {
+  const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--no-sandbox'] });
+  try {
+    const page = await openPage(browser);
+    await page.select('.lab-marker', 'ldl');
+    await page.type('.lab-value', '189');
+    await page.select('.lab-flag', 'high');
+    await page.$eval('#labForm', form => form.requestSubmit());
+    const cards = await page.$$eval('.lab-diet-study-card h5', nodes => nodes.map(n => n.textContent));
+    assert.deepEqual(cards, ['Mediterranean-style', 'Portfolio diet']);
+    assert.equal((await page.$$('.lab-diet-tradeoff')).length, 0);
+    assert.equal(await page.$eval('.lab-diet-study-card a[href*="NEJMoa1800389"]', el => el.tagName), 'A');
+  } finally { await browser.close(); }
+});
+
+test('lab study cards: unconfirmed fasting glucose does not create diet topics and severe TG suppresses all', {
+  skip: !CHROME && 'Chrome is missing'
+}, async () => {
+  const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--no-sandbox'] });
+  try {
+    const page = await openPage(browser);
+    await page.select('.lab-marker', 'glucose');
+    await page.type('.lab-value', '120');
+    await page.select('.lab-flag', 'high');
+    await page.$eval('#labForm', form => form.requestSubmit());
+    assert.equal((await page.$$('.lab-diet-study-card')).length, 0);
+    await page.select('.lab-fasting', 'yes');
+    await page.$eval('#labForm', form => form.requestSubmit());
+    assert.equal((await page.$$('.lab-diet-study-card')).length, 2);
+    await page.select('.lab-marker', 'tg');
+    await page.$eval('.lab-value', el => { el.value = '680'; el.dispatchEvent(new Event('input', { bubbles: true })); });
+    await page.$eval('#labForm', form => form.requestSubmit());
+    assert.equal((await page.$$('.lab-diet-study-card')).length, 0);
+    assert.equal((await page.$$('.lab-diet-tradeoff')).length, 0);
+    assert.match(await page.$eval('#labOutput', el => el.textContent), /food-change suggestions are withheld/i);
+  } finally { await browser.close(); }
+});

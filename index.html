@@ -158,7 +158,14 @@ input,select,button{border:1px solid #d2d2d7;border-radius:12px;padding:12px 14p
 .diet-evidence-card p{margin:8px 0;overflow-wrap:anywhere}
 .lab-diet-research{margin:20px 0;border:1px solid #cfdbe8;border-radius:14px;padding:16px;background:#f7f9fc}
 .lab-diet-research h4{margin:0 0 8px;font-size:18px}
-.lab-diet-study{margin:10px 0;overflow-wrap:anywhere}
+.lab-diet-pattern-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,235px),1fr));gap:12px;margin:14px 0}
+.lab-diet-study-card{background:#fff;border:1px solid #dce4ed;border-radius:12px;padding:14px;overflow-wrap:anywhere}
+.lab-diet-study-card h5,.lab-diet-tradeoff h5{font-size:16px;margin:0 0 8px}
+.lab-diet-study-card p{margin:8px 0}
+.lab-diet-limitation{color:#565d68}
+.lab-diet-tradeoff{border-left:3px solid #b18a50;background:#fffaf0;border-radius:10px;padding:14px;margin:14px 0;overflow-wrap:anywhere}
+.lab-diet-tradeoff p{margin:8px 0}
+@media(max-width:720px){.lab-diet-pattern-grid{grid-template-columns:1fr}}
 
 @media(max-width:720px){.diet-evidence-grid{grid-template-columns:1fr}}
 

@@ -227,8 +227,8 @@
     }
     return 'There is not enough context here for a lab-specific food recommendation.';
   }
-  // Study suggestions are for discussion only. No diet is selected as appropriate
-  // for a person, and no amount of lab change is predicted.
+  // Choose research *topics* from explicitly user-reported high flags, not a
+  // safe/personalized diet. Missing diagnoses/medications are unknown.
   function renderDietStudyDiscussion(output, records, suppressNutrition) {
     if (suppressNutrition) return;
     var glycemic = records.some(function (r) {
@@ -242,32 +242,64 @@
     if (!(glycemic || ldl || tg)) return;
     var section = node('section', 'lab-diet-research');
     section.appendChild(node('h4', '', 'Dietary patterns to discuss — study comparisons'));
-    paragraph(section, 'These are studies that may be relevant to the reported flag, not a personalized diet ranking or instruction to change what you eat. Ask your clinician or registered dietitian whether any approach suits your diagnoses, medicines, preferences and nutritional needs.');
-    function pattern(label, finding, url, studyTitle) {
-      var p = node('p', 'lab-diet-study', label + ': ' + finding + ' ');
+    paragraph(section,
+      'These are not ranked recommendations, a prescription, or a prediction of your results. ' +
+      'Your laboratory flags are self-reported and have not been independently assessed. ' +
+      'Discuss medical history, medicines, existing diagnoses, nutritional needs and preferences with your clinician or a registered dietitian.');
+    var patterns = node('div', 'lab-diet-pattern-grid');
+    function pattern(label, studiedScope, uncertainty, url, studyTitle) {
+      var card = node('article', 'lab-diet-study-card');
+      card.appendChild(node('h5', '', label));
+      paragraph(card, 'Research context: ' + studiedScope);
+      paragraph(card, 'Important limitation: ' + uncertainty, 'lab-diet-limitation');
+      var sourceLine = node('p', 'lab-source');
       var a = node('a', '', studyTitle);
       a.href = url;
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
-      p.appendChild(a);
-      section.appendChild(p);
+      sourceLine.appendChild(a);
+      card.appendChild(sourceLine);
+      patterns.appendChild(card);
     }
-    if (glycemic || ldl || tg) {
-      pattern('Mediterranean-style', 'Supported in cardiometabolic studies and ADA nutrition guidance; the benefits and suitability are not predicted from your lab number.',
-        'https://doi.org/10.2337/dc26-S005', 'ADA 2026 guidance');
-    }
+    // No more than three distinct studied patterns for overlapping high flags.
+    pattern('Mediterranean-style',
+      'A plant-rich pattern studied for cardiovascular prevention and glucose-related outcomes.',
+      'The studied populations and interventions do not establish your individual response.',
+      glycemic ? 'https://doi.org/10.2337/dc26-S005' : 'https://doi.org/10.1056/NEJMoa1800389',
+      glycemic ? 'ADA 2026 guidance' : 'PREDIMED 2018 reanalysis (corrected)');
     if (ldl) {
-      pattern('Portfolio diet', 'Controlled trials in people with high cholesterol observed lower LDL with plant proteins, viscous fiber, nuts and plant sterols; this is not a substitute for assessment of very high LDL.',
-        'https://pubmed.ncbi.nlm.nih.gov/29807048/', 'Controlled-trials meta-analysis');
+      pattern('Portfolio diet',
+        'Trials involving people with elevated cholesterol evaluated plant proteins, nuts, viscous fiber and plant sterols.',
+        'Reported LDL changes are averages and surrogate outcomes, not proof of an event reduction for you.',
+        'https://pubmed.ncbi.nlm.nih.gov/29807048/', 'Portfolio controlled-trial meta-analysis');
     }
     if (glycemic || tg) {
-      pattern('Quality-focused lower-carbohydrate pattern', 'Some studies report short-term improvements in glycemia or triglycerides; this is not necessarily a ketogenic diet, and longer-term differences may be smaller.',
-        'https://pubmed.ncbi.nlm.nih.gov/33441384/', 'Randomized-trials meta-analysis');
-      pattern('Ketogenic versus Mediterranean — comparison, not a recommendation',
-        'A small crossover trial found no significant difference in HbA1c between diets; triglycerides favored keto but LDL and fiber/nutrient intake favored Mediterranean. Ketogenic eating needs medical review, especially with diabetes medicines including SGLT2 inhibitors.',
-        'https://pubmed.ncbi.nlm.nih.gov/35641199/', 'Keto-Med randomized trial');
+      pattern('Quality-focused lower-carbohydrate pattern',
+        'Some controlled studies found short-term glycemic or triglyceride benefits from lower-carbohydrate eating.',
+        'Moderate lower-carb is not the same as ketogenic; benefits and adherence at 12 months are less certain, and medicine needs may change.',
+        'https://pubmed.ncbi.nlm.nih.gov/33441384/', 'Lower-carbohydrate randomized-trials review');
     }
-    paragraph(section, 'The optional diet-study comparison below also explains DASH, plant-forward eating and time-restricted eating. No single laboratory result makes any pattern automatically suitable.');
+    section.appendChild(patterns);
+    if (glycemic || tg) {
+      var note = node('aside', 'lab-diet-tradeoff');
+      note.appendChild(node('h5', '', 'Ketogenic versus Mediterranean — comparison, not a recommendation'));
+      paragraph(note,
+        'A small randomized crossover trial found no significant difference in HbA1c between diets after 12 weeks. ' +
+        'In that trial triglycerides favored keto but LDL and fiber/nutrient intake favored Mediterranean. ' +
+        'This is a tradeoff to discuss, not an instruction to start keto. ' +
+        'Ketogenic eating needs medical review, especially with diabetes medicines including SGLT2 inhibitors.');
+      var line = node('p', 'lab-source');
+      var link = node('a', '', 'Keto-Med trial (2022)');
+      link.href = 'https://pubmed.ncbi.nlm.nih.gov/35641199/';
+      link.rel = 'noopener noreferrer';
+      link.target = '_blank';
+      line.appendChild(link);
+      note.appendChild(line);
+      section.appendChild(note);
+    }
+    paragraph(section,
+      'Other research, including DASH, plant-forward and time-restricted eating, is in the separate optional study library below. ' +
+      'The library is general education and does not check whether any diet is safe for you.');
     output.appendChild(section);
   }
   function render(records) {
