@@ -133,3 +133,21 @@ const lab40 = team4Audit.split('\n').find(line => line.includes('[LAB-040]'));
 assert.ok(lab40?.includes('WITHHELD'), 'Lab-to-weight inference must remain explicitly withheld');
 
 console.log('Verified eight original Team 4 files, 136 cross-team claim IDs, 42 LAB audit rows, seven citation gaps and one withheld weight inference.');
+
+// A replacement reference is only a *candidate* until the entire original
+// clinical claim, study population, limitations and application have been checked.
+const gapFollowUp = readFileSync(
+  new URL('docs/research/evidence/LAB_SOURCE_GAP_FOLLOWUP_2026-11-04.md', base),
+  'utf8');
+for (const n of [7,19,22,27,29,30,37]) {
+  const id = 'LAB-' + String(n).padStart(3,'0');
+  const match = gapFollowUp.split('\n').find(line => line.startsWith('| **' + id + '**'));
+  assert.ok(match && match.includes('CANDIDATE_REFERENCE_FOUND') && match.includes('SOURCE_GAP'),
+    'Source follow-up must not silently promote an unresolved LAB claim: '+id);
+}
+assert.ok(gapFollowUp.includes('LAB-040') && gapFollowUp.includes('WITHHELD'),
+  'Lab-derived ideal-weight inference must stay withheld in source follow-up');
+assert.ok(!/auto.?diagnos(?:e|is)|automatic nutrient prescription/i.test(
+  gapFollowUp.split('## Release gate')[0].replaceAll('not a validated', '')),
+  'Review wording should not authorize clinical interpretation');
+
