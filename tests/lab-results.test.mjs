@@ -97,3 +97,23 @@ test('lab form: unknown test text is not interpreted or injected into DOM', {
     assert.equal((await page.$$('#labOutput svg')).length, 0);
   } finally { await browser.close(); }
 });
+
+test('lab form: changing the remainder-of-panel self-report invalidates stale notes', {
+  skip: !CHROME && 'Chrome is missing'
+}, async () => {
+  const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--no-sandbox'] });
+  try {
+    const page = await openPage(browser);
+    await page.type('.lab-value', '6.1');
+    await page.click('#labAnalyze');
+    assert.equal(await page.$eval('#labOutput', e => e.hidden), false);
+    assert.match(await page.$eval('#labOutput', e => e.textContent), /other tests were not provided/i);
+    await page.click('#labOtherUnflagged');
+    assert.equal(await page.$eval('#labOutput', e => e.hidden), true);
+    await page.click('#labAnalyze');
+    assert.equal(await page.$eval('#labOutput', e => e.hidden), false);
+    assert.match(await page.$eval('#labOutput', e => e.textContent), /unentered values remain unknown/i);
+    await page.click('#labOtherUnflagged');
+    assert.equal(await page.$eval('#labOutput', e => e.hidden), true);
+  } finally { await browser.close(); }
+});

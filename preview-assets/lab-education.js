@@ -235,6 +235,10 @@
   function init() {
     if (!$('labForm')) return;
     $('labAdd').addEventListener('click', addRow);
+    // Prevent stale notes when the unflagged-panel self-report changes.
+    $('labOtherUnflagged').addEventListener('change', function () {
+      $('labOutput').hidden = true;
+    });
     $('labForm').addEventListener('submit', function (ev) {
       ev.preventDefault();
       var data = collect();
