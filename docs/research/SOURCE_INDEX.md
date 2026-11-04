@@ -34,6 +34,23 @@ All 17 original team Markdown reports are linked below. The source reports prese
 - [03_Pharmacogenetics_Research_Review.md](evidence/03_Pharmacogenetics_Research_Review.md) — Original research deliverable; **33 source/related URLs** extracted.
 - [03_Population_Medication_Response.md](evidence/03_Population_Medication_Response.md) — Original research deliverable; **15 source/related URLs** extracted.
 
+## Additional research package and source audit — November 4, 2026
+
+The following Team 4 reports were imported unchanged in draft form after the original 17-file inventory was compiled. The original count of 150 URLs below is a **historical Team 1–3 index**, not a complete number for all four teams. Do not confuse these source links with independent validation.
+
+### Team 4 — Laboratory biomarkers (eight original draft reports)
+
+- [04_Laboratory_Biomarker_Research_Review.md](evidence/04_Laboratory_Biomarker_Research_Review.md) — targeted scoping review.
+- [04_Laboratory_Evidence_Matrix.md](evidence/04_Laboratory_Evidence_Matrix.md) — 42 LAB claim records.
+- [04_Ancestry_Laboratory_Interactions.md](evidence/04_Ancestry_Laboratory_Interactions.md) — limits of ancestry-related interpretation.
+- [04_Nutrition_Intervention_Matrix.md](evidence/04_Nutrition_Intervention_Matrix.md) — nutrition evidence boundaries.
+- [04_Laboratory_Feature_Prioritization.md](process-notes/04_Laboratory_Feature_Prioritization.md) — phased feature choices.
+- [04_Laboratory_Integration_Handoff.md](process-notes/04_Laboratory_Integration_Handoff.md) — cross-team requirements.
+- [04_Laboratory_Safety_Framework.md](process-notes/04_Laboratory_Safety_Framework.md) — risk and withholding design.
+- [04_Clinical_Validation_Roadmap.md](process-notes/04_Clinical_Validation_Roadmap.md) — validation planning.
+
+**New review files (not part of the eight originals):** [individual LAB verification ledger](evidence/04_LAB_CLAIM_AUDIT_2026-11-04.md), [four-team evidence map](FOUR_TEAM_EVIDENCE_MAP.md), and [136-claim CSV index](UNIFIED_CLAIM_INDEX_2026-11-04.csv).
+
 ## References registered in the original calculator
 
 These keys and URLs are listed for traceability. The existing calculator displays numbered references contextually for the claims shown on a given screen; its reference array has **not** been modified.
