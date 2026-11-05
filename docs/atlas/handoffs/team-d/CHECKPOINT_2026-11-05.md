@@ -1,3 +1,72 @@
+# Standalone Team D checkpoint — Batch 14 (2026-11-05)
+
+**Project:** Ancestry Health — independently sourced cross-border health-authority research, not a diagnostic or clinical recommendation engine.
+**Repository:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight  
+**Research branch:** `research/atlas-team-d-20261104`  
+**Draft PR:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70 — verified open/draft/unmerged immediately after the Batch 14 data commit.  
+**Batch 14 data + structural validator commit:** `6c86061d9b6742780aa8badf95a6a596d6aae1a7`. This standalone checkpoint is in a later documentation commit; independently verify the newest head on every restart.  
+**Original assignment:** `docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md` on `research/atlas-five-team-handoff-prompts-2026-11-04`.
+
+## New Batch 14 findings and exact files
+
+All work remains inside `docs/atlas/handoffs/team-d/`:
+
+- `data/paho_governance_categories_2026.csv`: **44 PAHO official formal categories** (35 member states, three *participating* states France/Netherlands/UK, four *associate* members Aruba/Curaçao/Puerto Rico/Dutch Sint Maarten, two *observer* states Portugal/Spain), with individually recorded published admission date or **month-only** precision. The 35 full-member links already existed. **Nine previously missing distinct typed graph links** now classify non-full-member roles. Official category/admission roster: <https://www.paho.org/en/planning-finance-and-accountability/member-states-pan-american-health-organization>; independent 35/4/3/2 summary: <https://www.paho.org/en/partnerships>. No WHO constitutional membership or sovereign legal authority is inferred from PAHO status.
+- `data/paho_technical_cooperation_2026.csv`: **21 independently named M49-area PAHO/WHO office-service observations**, linked through **21 new `receives_technical_cooperation_from`** edges to already-existing office nodes: 14 Barbados/Eastern Caribbean, two Jamaica (Bermuda, Cayman Islands), one Bahamas (Turks and Caicos), four Trinidad/Dutch Caribbean (Aruba, Curaçao, Dutch Sint Maarten, and **one combined M49 535** for Bonaire/Sint Eustatius/Saba). PAHO's **dated 2026-08-24** Eastern Caribbean notice supports 14 and uniquely includes **French Saint Martin (M49 663)**; an **undated** office overview enumerates only 13 and omits it. This is a source-document discrepancy, **not proof of an August 2026 accession or service starting date**. Dutch Sint Maarten (M49 534), covered from Trinidad, is a different jurisdiction. The other three PAHO office pages are undated; **2026-11-05 is a check date, not an asserted effective date**. An office serving a jurisdiction does not prove a WHO physical office within it, PAHO sovereign membership, WHO regional assignment, domestic legal mandate, country guideline adoption, or continuous operation.
+- `data/network_memberships.csv`: **30 newly typed links**, now **574**; its pre-existing **225 historical** WHO 2021–2022 office/service relationships remain untouched, still source-as-of the WHO 2023 report, not promoted to April/November 2026.
+- `PROVENANCE.csv`: eight new first-party PAHO indexed URLs, **TD-SRC-126–133**; **133 unique URLs**. Public indexed source text was available through search, but direct site-open returned HTTP 403 for several PAHO pages; the new provenance rows explicitly mark **`OFFICIAL_SEARCH_INDEX_TEXT_DIRECT_OPEN_403`**. Re-fetch and inspect authoritative pages independently before production approval. This is *source-level institutional verification with retrieval limitation*, not confirmation of statutory legal effects.
+- `validate.mjs`: new assertions for 44 mutually exclusive category codes, published date precision, all 21 service M49/office source links, and non-conflation of French Saint Martin and Dutch Sint Maarten. Every new graph edge has a source-ledger URL.
+
+## Complete retained snapshot at Batch 14 data commit
+
+| Item | Recorded quantity / status |
+| --- | --- |
+| International and programme nodes | 46 |
+| Typed source-stamped graph links | 574, of which 30 added Batch 14 |
+| Seven discovery-only condition keys | 20 institutional references across `diabetes`, `hypertension`, `high_chol`, `gout`, `lactose`, `celiac`, `hemochromatosis`; *not clinically appraised* |
+| M49/ISO seed candidates | 249; 248 official UN M49 rows plus one explicit retained exception `158` |
+| WHO administrative region assignments | 205 primary-source-verified; 44 `not_verified`, including French Saint Martin (663), Dutch Sint Maarten (534), and Liechtenstein (438) |
+| Current-survey-era WHO office findings | 153 roster labels: 106 April 2026 office-head responses, 46 retained September 2024 responses, one unavailable; 105 M49 hosts with April 2026 affirmative evidence; 144 candidates without equivalent positive evidence—not proof of absence |
+| Separate historical 2023 WHO presence report | 228 Jan 2021–Dec 2022 service records and 225 *historical* graph links; not current office operation |
+| EMA/EMRN human-medicines authority directory | 34 unjoined NCA identity candidates in 30 jurisdictions, legal remits not verified |
+| PAHO HEARTS catalog | 24 pathway titles; 22 local and two generic, without inferred official national adoption |
+| Aggregate public-health programmes | Five separate PAHO/AFRICA CDC aggregate facts, including APPM eight MoUs/15 intent/55 target and HEARTS 29 initial national standards vs 35 separate commitments |
+| ASEAN health-sector roles | Six published governance/workstream rows without per-country clinical/law adoption |
+| Egypt regulator/partner evidence | 19 agreement observations, mainly EDA government dev-domain self-report; legal instruments and statutory effects not verified |
+| New PAHO data | 44 category records / 21 dated-or-check-dated service links |
+| Unique provenance links | 133 |
+
+**Original acceptance criteria:** Six WHO administrative offices and dated transitions covered; 10+ documented cross-border relationships; 10+ documented negative/boundary cases; source-linked typed edges with historical preservation. The *broader research completeness objectives* remain unfinished; these structural counts are not an independent source-law or scientific appraisal.
+
+## Validation — checked, with precise limitations
+
+- At the Batch 14 data SHA `6c86061d9b6742780aa8badf95a6a596d6aae1a7`, full checked-in `validate.mjs` structural assertions **PASS** when run in an isolated JavaScript **read-only filesystem shim** against **23 CSV inputs** reconstructed from the actual 36-file live PR diff. The data commit initially had 34 pre-existing files plus two new CSVs. Validator recorded 46 nodes, 574 links, 205/44 WHO region statuses, 105 recent affirmative WHO host areas, 228 separate historical service records, 44 PAHO governance rows, 21 technical-cooperation rows, 133 provenance URLs.
+- **Post-commit independent readback:** the two new PAHO CSVs, expanded network graph, provenance ledger and validator were fetched individually from the GitHub branch; every one **matched the PR diff reconstruction byte-for-byte**. Full structural validator assertions passed again. This is **not a literal `node` CLI run, not a GitHub Actions result, and not a proof of agreement authenticity, clinical validity, treaty effects, or continuous office presence**.
+- The Batch 14 commit changed exactly five Team D research paths. No `main`, public website, other research teams' files, human health recommendations, issue states or PR merge were changed. This document is a standalone handoff while PR #70 remains draft for human/scientific review.
+
+## Outstanding research and next safe steps
+
+1. Independently re-open the eight PAHO institutional source URLs and establish which version/date controls the **13 vs 14** Eastern Caribbean service roster; do **not** treat 2026 publication as a service-effective date. Verify regional technical-cooperation offices independently from physical local WHO offices, and if necessary update only evidence-qualified typed relationships. Do not conflate M49 663 French Saint Martin, M49 534 Dutch Sint Maarten or combined M49 535 BES islands.
+2. Work through the **44 unresolved WHO administrative regions**, **46 older 2024 survey responses**, and 144 candidates lacking affirmative April 2026 host evidence. No inferred region/office absence from silence or historical coverage. Preserve WHO 2021–2022, September 2024, April 2026, and November 2026 *check dates* as separate.
+3. Identify original EDA signed instruments (17 bilateral plus distinct 2025 eight-party MoU), 2026 Algeria cooperation and UPA–Africa CDC APPM support independently; national competence statutes, effective dates and **exact Team A identity** joins. Egyptian state APPM MoU remains a distinct third instrument.
+4. Individually source the **seven remaining unnamed** APPM signed states, all 15 intent-country identities, local HEARTS national version adoption and ASEAN 2026–2030 work-plan implementation; do not infer participation from programme target or meeting rosters.
+5. Verify EMA/EMRN NCA agency-specific statutory remits and exact Team A IDs, societies and specialist links with Team B, journals/condition evidence with Team C, and less-visible condition research networks with bounded source appraisal. No patient-facing or ancestry-derived medical claims.
+6. Keep commits confined to Team D, recheck PR head before writes and compare changed paths; retain standalone GitHub checkpoints and **never** merge PR #70 or modify the website.
+
+## Same user continuation prompt for the next session
+
+```text
+Continue Research Team D in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70.
+
+Read `docs/atlas/handoffs/team-d/CONTINUATION_PROMPT.md` on branch `research/atlas-team-d-20261104`.
+
+Verify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, historical-versus-current source distinctions, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.
+
+If unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again.
+```
+
+---
+
 # Standalone Team D checkpoint — Batch 13 (2026-11-05)
 
 **Repository:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight  

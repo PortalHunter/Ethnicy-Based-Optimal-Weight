@@ -1,3 +1,13 @@
+## Batch 14 structural test and readback — 2026-11-05
+
+**Research and validator SHA:** `6c86061d9b6742780aa8badf95a6a596d6aae1a7`. 23 CSV inputs reconstructed from the complete 36-file GitHub PR diff; all checked-in `validate.mjs` assertions **PASS** before data write and again on the committed PR diff through a **read-only JavaScript filesystem shim**. Full result: 46 nodes, **574** typed edges, 20 seven-key institutional condition discovery records, 249 area candidates/248 M49 authoritative rows, 205 WHO region verified/44 unverified, 105 April 2026 affirmative office hosts, 153 mixed-date office survey source records, 228 historical WHO service records/225 historical edges, 34 EMA NCA candidates, 24 PAHO pathway catalog titles, 5 aggregates, 19 regulator agreement reports, one WHO Liechtenstein boundary, 44 PAHO governance rows, 21 PAHO service entries, **133** unique provenance URLs.
+
+Independently fetched from GitHub after commit: both new PAHO CSVs, network memberships, provenance ledger and validator; **all five exactly matched reconstructed GitHub PR diff bytes**. Existing 2021–2022 service edges were not promoted; the nine formal PAHO category edges and 21 service-coverage edges have different source/meaning and date fields. PAHO pages were checked via first-party search-indexed content, while direct opening returned HTTP 403 for several; provenance labels that limitation. `source_observed_on=2026-11-05` on undated pages is a **research check date**, not a service-effective date.
+
+**Limits:** Not a native `node` CLI invocation or GitHub Actions check; not independent primary source PDF archival verification, legal/regulatory authority determination or clinical appraisal. Native reproducible check in a real checkout: `node docs/atlas/handoffs/team-d/validate.mjs`. All changes confined to Team D.
+
+---
+
 ## Batch 13 validation — 2026-11-05
 
 **Data/validator SHA** `59ae6fcd79fefb1723d634f7c1091666c267fa4d` (corrects two regex errors in intermediate `1809d1404899e5d06babb2d588eb2242e856b5aa`). **PASS:** executed the exact checked-in `validate.mjs` assertion body (imports/file URL replaced by read-only equivalent) against complete content of all **22 CSV inputs** reconstructed from the live GitHub PR #70 unified diff, whose 34 changed paths are all Team D. The compiled source, newly added regulator CSV and `PROVENANCE.csv` exactly matched independent `fetch_file` responses for the data SHA. Both standalone new data sources also underwent independent CSV column-width, ID-uniqueness, M49 reference, date-precision and source-ledger checks.

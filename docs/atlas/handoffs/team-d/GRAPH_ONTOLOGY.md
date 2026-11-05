@@ -1,3 +1,12 @@
+## Batch 14 relationship semantics — PAHO governance vs administrative service
+
+- `member_of` to `PAHO`: 35 full member states, dated to individual published admission days. Existing edges retained.
+- `participating_state_of`, `associate_member_of`, `observer_state_of` to `PAHO`: distinct official legal/governance categories, three/four/two respectively. PAHO source only gives **admission month**, never invent day precision; no WHO constitutional determination.
+- `receives_technical_cooperation_from` to existing `WHO_MCO_*` office nodes: 21 explicitly named PAHO/WHO technical-cooperation service territories/areas, **not** jurisdictional membership, clinical adoption, **not** a separate local physical WHO office, **not** proof of uninterrupted 2026 operation. Service source publication/check date in `as_of` is not effective start/end.
+- PAHO's dated August 2026 Barbados/ECC 14-area roster and undated 13-area overview differ on French Saint Martin 663, not the Dutch Sint Maarten 534 which PAHO maps under Trinidad. M49 535 is the three-island BES group, not three separate official M49 areas.
+- No new WHO region assignments inferred from PAHO technical cooperation. `not_verified` values for WHO 663 and 534 persist.
+
+---
 # Team D — Typed institutional graph ontology
 
 Checked: 2026-11-04. The graph models relationships **between organizations and countries/areas**. Its edges are not clinical findings.

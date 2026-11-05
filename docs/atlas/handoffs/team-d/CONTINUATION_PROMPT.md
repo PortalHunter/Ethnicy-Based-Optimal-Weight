@@ -1,3 +1,23 @@
+## Latest verified restart — Batch 14 (2026-11-05)
+
+**Full standalone handoff:** `CHECKPOINT_2026-11-05.md` (read it first). Data and full checked-in structural validator SHA **`6c86061d9b6742780aa8badf95a6a596d6aae1a7`**; re-fetch latest live branch and PR head independently, because a later documentation-only commit updates the tip. Batch 14 added **44 PAHO formal status records** (35 previously linked full members; **3 participating / 4 associate / 2 observer** statuses newly linked) and **21 separate Caribbean technical-cooperation records** across Barbados/ECC 14, Jamaica 2, Bahamas 1 and Trinidad/Dutch Caribbean 4, bringing graph to **46 nodes/574 typed edges**. Dated PAHO 2026-08-24 notice lists **French Saint Martin 663** absent from undated 13-area ECC page; Dutch Sint Maarten 534 receives service from Trinidad and BES islands combine as M49 535. **Do not invent effective dates, physical local offices, WHO-region assignment, sovereign membership or clinical law.** Eight new source URLs have search-indexed first-party text but direct opens 403; provenance now **133**. Full structural PASS using 23 PR-diff-reconstructed CSVs in a read-only JS shim, five direct GitHub byte-identical readbacks (**not native Node/Actions or legal/clinical appraisal**). WHO 205/44 regional assignments, 105 April 2026 affirmative hosts, 46 older September 2024 responses and 228 separate historical Jan 2021–Dec 2022 service records preserved; 34 EMA candidates, PAHO HEARTS, ASEAN and EDA/APPM caveats unchanged.
+
+**Next:** confirm PAHO roster source disagreement, work 44 WHO direct-region gaps and 46 older surveys/144 host gaps, original regulator instruments and Team A joins, remaining seven named APPM MoUs/15 expressions of intent, EMA legal remits, national HEARTS 2.0 versions, ASEAN participation and Team B/C sources. Keep all writes inside Team D and PR #70 open/draft/unmerged; no main/website/clinical changes. Commit and validate scoped research and save a new standalone GitHub checkpoint.
+
+**Exact user continuation prompt:**
+
+```text
+Continue Research Team D in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70.
+
+Read `docs/atlas/handoffs/team-d/CONTINUATION_PROMPT.md` on branch `research/atlas-team-d-20261104`.
+
+Verify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, historical-versus-current source distinctions, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.
+
+If unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again.
+```
+
+---
+
 ## Latest verified restart — Batch 13 (2026-11-05)
 
 **Read `CHECKPOINT_2026-11-05.md` first** for the current full standalone handoff. Data and fully checked-in structural validator SHA **`59ae6fcd79fefb1723d634f7c1091666c267fa4d`**; independently discover newer live head and PR status. Batch 13 adds **19 source/date-qualified regulatory-cooperation observations** (17 Egyptian Drug Authority bilateral MoUs, one eight-party 2025 regulator MoU, one separate UPA–Africa CDC APPM support agreement), plus one WHO Liechtenstein boundary evidence row without falsely assigning WHO region. EDA source is a **government development-domain self-report**; Africa CDC independently confirms the Algeria and APPM-support agreement types. **125 unique provenance URLs**, graph **46 nodes/544 edges** unchanged, seven condition keys unchanged; historical 2021–2022 WHO office records remain distinct from April 2026 (105 direct affirmative) and 2024 retained (46) surveys. WHO 205 verified / 44 unverified regional assignments, EMA 34 identity candidates; no country adoption or legal delegation implied. Full validator assertions **PASS** using **22 GitHub PR diff–reconstructed CSV inputs** and read-only JS file shim, with three direct file content matches; **not literal Node CLI or Actions**. Check PR #70 remains open/draft/unmerged. No site, main, Team A/B/C, clinical, or merge writes.

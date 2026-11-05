@@ -1,3 +1,12 @@
+## Batch 14 follow-up gaps — 2026-11-05
+
+- **PAHO 13-versus-14 Eastern Caribbean source discrepancy:** PAHO's undated office overview names 13 service areas; a dated **2026-08-24** PAHO representative announcement adds **French Saint Martin (M49 663)** to the named service-coverage list. Neither provides a reliable service-effective date. Verify current controlling roster with PAHO itself; do not conflate French Saint Martin with **Dutch Sint Maarten (M49 534)**, listed under Trinidad/Dutch Caribbean service. The BES islands remain one combined UN M49 535 area.
+- **PAHO formal categories are not operational service:** 35 full member states, 3 participating states, 4 associates and 2 observers have distinct official statuses; technical-cooperation coverage at 21 locations is separate and does not grant a physical local WHO office, constitutional WHO membership, a domestic clinical-law remit, or national implementation.
+- **Retrieval limitation:** eight new PAHO institutional URLs had official search-indexed text but direct page opens returned 403 for several. Marked `OFFICIAL_SEARCH_INDEX_TEXT_DIRECT_OPEN_403` in `PROVENANCE.csv`. Verify with an independently accessible official copy before production-level source assurance.
+- **No other outstanding queue closed:** 44 WHO administrative-region unknowns including 663 and 534, 46 September 2024 survey rows, 144 candidates without recent affirmative host office evidence; retain 2021–2022 WHO historical records separately. Named APPM states, exact EDA/UPA legal instruments, EMA/Team A authority remits, HEARTS national editions, ASEAN implementation and Team B/C research joins remain pending.
+
+---
+
 ## Batch 13 follow-up gaps — 2026-11-05
 
 - **Egyptian Drug Authority (EDA):** 17 bilateral regulator MoUs and the separately named 25 June 2025 eight-party regulator MoU are **issuer self-reports** on `dev.edaegypt.gov.eg`, not independently verified copies of signed instruments. Confirm a canonical production-domain record, full original signed texts, legal bases, present in-force status, counterpart authority identity and exact Team A joins, especially for agreements reported only to the month (Zambia June 2024; Rwanda August 2024; Türkiye February 2026). Do not infer that an MoU transfers national approval or licensing authority or implements medicines policy. Confirm the 2025 eight-country participant roster separately with other signatories; do not explode its reported participation into seven bilateral agreements.

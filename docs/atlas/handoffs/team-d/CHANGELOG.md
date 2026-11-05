@@ -1,3 +1,10 @@
+## 2026-11-05 — Batch 14: PAHO categorical governance and Caribbean cooperation
+
+- Data and structural validation commit `6c86061d9b6742780aa8badf95a6a596d6aae1a7`; added `data/paho_governance_categories_2026.csv` (44 official PAHO category observations) and `data/paho_technical_cooperation_2026.csv` (21 PAHO/WHO office cooperation-area observations).
+- Added nine formal PAHO *participating/associate/observer* relationships and 21 distinct `receives_technical_cooperation_from` typed links to existing office nodes. Graph now **46 nodes / 574 edges**; 35 original PAHO full-member edges and 225 historical WHO service edges preserved.
+- Added TD-SRC-126–133 (eight distinct official PAHO indexed URLs; direct site 403 recorded), provenance now **133**. Added structural tests for category precision, exact 21 area/office joins and French Saint Martin versus Dutch Sint Maarten boundary.
+- Before and after GitHub commit full structural tests PASS in read-only JS shim using 23 CSVs reconstructed from PR diff. Five GitHub direct readbacks byte-identical. **Not literal Node CLI/Actions or scientific/legal signoff.** No main, website, other-team or PR merge changes.
+
 ## Batch 13 — 2026-11-05 (source-stamped regulatory cooperation and WHO boundary)
 
 - Data/validator commit `59ae6fcd79fefb1723d634f7c1091666c267fa4d`: added `data/regulatory_cooperation_evidence_2026.csv` (17 bilateral MoU self-reports, one eight-party regulatory MoU and one distinct UPA–Africa CDC partnership); added `data/who_region_boundary_evidence_2026.csv` (one Liechtenstein WHO membership boundary, no region assignment); appended TD-SRC-123–125 to provenance and extended structural validator.

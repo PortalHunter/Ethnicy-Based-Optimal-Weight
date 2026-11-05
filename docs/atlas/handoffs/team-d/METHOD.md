@@ -1,3 +1,10 @@
+## Batch 14 evidence protocol — PAHO
+
+Formal `member_of` versus `participating_state_of`, `associate_member_of`, `observer_state_of` follow PAHO's *own* category roster with exactly recorded **day versus month** admission precision. An institutional status is independent of WHO membership and country health-law authority. Caribbean `receives_technical_cooperation_from` edges use named PAHO service lists, with **`source_observed_on`** as PAHO publication date for the 2026-08-24 list or **check date only** for undated territory pages; blank `valid_from` intentionally avoids inferring when service began. Do not transmute technical-cooperation service into an in-territory local office, physical presence, clinical practice or WHO region assignment.
+
+PAHO official pages were indexed and their named text reviewed via search; direct page opens sometimes failed with HTTP 403. Record this limitation at TD-SRC-126–133 and prioritize independently retrievable first-party copies for legal/public-facing approval. A direct dated notice naming French Saint Martin 663 differs from a 13-place undated summary, while Dutch Sint Maarten 534 belongs to Trinidad service. These identities and sources remain distinct.
+
+---
 # Team D — Source method and overlap analysis
 
 Checked: 2026-11-04. All user-facing clinical advice remains unchanged.

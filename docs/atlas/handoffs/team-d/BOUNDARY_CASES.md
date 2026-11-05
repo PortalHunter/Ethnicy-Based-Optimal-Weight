@@ -1,3 +1,11 @@
+## Batch 14 PAHO/WHO jurisdiction and office-service boundaries
+
+- **French Saint Martin (M49 663) ≠ Dutch Sint Maarten (M49 534).** PAHO dated 2026-08-24 Barbados/ECC announcement explicitly lists the French territory. PAHO Trinidad/Dutch Caribbean service page names the Dutch territory. These two rows cannot be merged, and neither proves WHO administrative region or WHO sovereign membership.
+- **PAHO 13 vs 14:** the undated Barbados/ECC overview names 13 jurisdictions while its dated August 2026 press notice names 14 including French Saint Martin. Source snapshots are not enough to infer a *change date*.
+- **BES island triad M49 535** is one UN statistical area for Bonaire, Sint Eustatius and Saba; PAHO lists all three service locations. Do not create three invented M49 codes.
+- **Formal category != service:** PAHO's four associates/three participating states/two observers are institutionally distinct from 21 areas explicitly receiving subregional technical cooperation. A service edge never proves a physical office in each territory, WHO constitutional membership, country sovereign status, national law or medical guidance adoption.
+
+---
 ## Batch 13 boundary evidence — Liechtenstein and regulator cooperation
 
 - **Liechtenstein M49 438:** WHO/Europe's 5 November 2025 pan-European Protocol statement explicitly adds Liechtenstein to the WHO European Region's 53 Member States, rather than including it among those 53 (<https://www.who.int/europe/news/item/05-11-2025-pan-european-protocol-on-water-and-health-at-20--promoting-resilience-amid-global-crises>). Therefore programme collaboration/geographic proximity is not WHO regional membership. `who_region` remains `not_verified` pending precise official assignment evidence and future status check.
