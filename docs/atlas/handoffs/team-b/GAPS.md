@@ -304,3 +304,8 @@ Acceptance remains incomplete:47 areas without domiciled identity;1554 cells wit
 ## Batch 32 · 2026-11-05
 
 The two zero-resource categories now distinguish a targeted search with no linked item from a cell with no matching log. Some checks were limited to a register, an inaccessible publication list or a single historical record. The complete search records preserve those differences. General identity checks in other conditions remain described in coverage notes. The old metric named unresearched counted all cells without links in batches 1–31. From batch 32, without_linked_source is the comparable series, and unresearched counts zero-link cells without a matching logged check. No new search was inferred.
+
+
+## Batch 33 · 2026-11-05
+
+All 214 publication records received an exact-URL context, with 13 foreign source-country relationships and seven explicit unknowns. Unresolved: the Rwanda type 1 paper has NLM US and ISSN UK imprints; the Panama protocol has ministry approval and a PAHO host; the Swedish iron brochure has an unidentified original issuer; the WGO and ESPGHAN Portuguese documents require edition-specific evidence; both Shefa condition records come from one ministry-hosted presentation. Colombia’s online journal is registered in Colombia, while its editorial company is in Spain. PI-DPP’s US programme publication is distinct from each Pacific island project location. A journal catalogue’s current publisher is never backdated to an earlier article. None of these changes raises the clinical release state.

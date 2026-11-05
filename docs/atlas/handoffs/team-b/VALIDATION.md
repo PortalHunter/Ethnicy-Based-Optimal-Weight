@@ -71,3 +71,8 @@ Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator wi
 ## Batch 32 · 2026-11-05
 
 Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors. Verified parent: `f65ea551d832aa84dd9d486cc78b74201d33f0a9`. Independent immutable readback follows the branch update. Counts reconciled independently in Python against the ten input tables. The 120/1,414 split partitions the 1,534 source gaps. Perturbation checks target a removed search ID, a wrong state and a false resource count.
+
+
+## Batch 33 · 2026-11-05
+
+Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors. Verified parent: `0bd62e5ad33b21e56f6b12a5fc4d2c459d912455`. Independent immutable readback follows the branch update. Re-ran all existing checks and targeted malformed search/reference and context cases, including URL swaps, a missing foreign-issuer evidence ID and a known country with an unresolved basis.

@@ -199,3 +199,12 @@ Reconciled all 1,736 matrix cells to all 343 search records by exact M49 and con
 Each row now lists its exact search IDs or none_logged. The historical Monaco dissolution note and all other area-specific caveats remain available. A negative or inaccessible source check has a limited scope and does not prove absence.
 
 Added search_log_ids to the coverage matrix. The validator recomputes resource counts by relationship and verifies every matrix search reference against the exact area/condition pair; it cannot grant a covered condition from search activity alone.
+
+
+## Batch 33 · 2026-11-05
+
+All 214 publication contexts now match one exact organization/condition/URL and record organization domicile, issuer, publication-country basis, source attribution IDs, study population and healthcare jurisdiction separately. Thirteen relationships have a documented foreign issuer or journal country. Seven have an unresolved country and preserve the reason.
+
+The original Greenland report names a Danish publisher; the Hong Kong gout consensus appeared in a German-published journal. Two library authorities disagree on the publication country of the Rwanda type 1 diabetes article. Its Rwandan study population and the country conflict are both explicit.
+
+Added 17 source-attribution provenance records and retained all existing organization and research relationships. The exact-URL join now detects swapped resources for the same organization/condition. The validator permits an unknown source country only with an unresolved basis and checks independent country-tagged evidence for cross-area cases.

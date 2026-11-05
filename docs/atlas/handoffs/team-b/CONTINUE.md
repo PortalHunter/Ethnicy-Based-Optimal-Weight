@@ -1,4 +1,4 @@
-# Resume Team B · batch 32 · 2026-11-05
+# Resume Team B · batch 33 · 2026-11-05
 
 **INCOMPLETE.** Continue the assignment on `PortalHunter/Ethnicy-Based-Optimal-Weight`, branch `research/atlas-team-b-20261104`, [draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71). Verify the current PR head before using this snapshot. The original assignment, data contract and live GitHub files together are sufficient to resume.
 
@@ -19,21 +19,21 @@
 | Resource relationships / cells with a linked resource | 214 / 202 |
 | Cells without a linked resource | 1,534 |
 | Of those, cells with / without a logged targeted check | 120 / 1,414 |
-| Provenance records / targeted search checks | 586 / 343 |
+| Provenance records / targeted search checks | 603 / 343 |
 | Community records / cross-border service edges | 7 / 2 |
 | Approved clinical claims | 0 |
 
 diabetes 72 · hypertension 23 · high_chol 23 · gout 20 · lactose 15 · celiac 31 · hemochromatosis 18.
 
-Reconciled all 1,736 matrix cells to all 343 search records by exact M49 and condition key. Among the 1,534 cells without a link, 120 have a documented targeted check and 1,414 lack a matching condition-specific log. The 202 positive cells retain their actual resource counts.
+All 214 publication contexts now match one exact organization/condition/URL and record organization domicile, issuer, publication-country basis, source attribution IDs, study population and healthcare jurisdiction separately. Thirteen relationships have a documented foreign issuer or journal country. Seven have an unresolved country and preserve the reason.
 
-Each row now lists its exact search IDs or none_logged. The historical Monaco dissolution note and all other area-specific caveats remain available. A negative or inaccessible source check has a limited scope and does not prove absence.
+The original Greenland report names a Danish publisher; the Hong Kong gout consensus appeared in a German-published journal. Two library authorities disagree on the publication country of the Rwanda type 1 diabetes article. Its Rwandan study population and the country conflict are both explicit.
 
 ## Remaining work, in priority order
 
-- Key each publication context to its exact resource URL. Separate the issuer or journal’s publication country from organization domicile, study population and guideline jurisdiction; preserve unknowns.
-- Continue original-language source checks in the 40 areas without a domiciled identity and the 1,534 cells without a link. Use the search IDs to avoid repeating identical probes.
-- Continue source-specific verification, including original-language publication lists, legal status, cross-border reach, and community governance. Keep all seven conditions, the 14 broad-label examples and release boundaries.
+- Use primary local-language academic and organization publications to extend Africa and Central Asia; preserve local affiliation, recruitment setting, original issuer and clinical scope separately.
+- Return to the seven unresolved source-country relationships. Prioritize original imprints or dated edition evidence, including Portuguese translations, Swedish brochure, Shefa presentations, Panama protocol and conflicting serial authorities for Rwanda.
+- Continue original publication-list and lifecycle checks, regional/Indigenous governance documentation and precise condition boundaries. See GAPS.md and the remaining area roster.
 
 ## Ownership and acceptance
 

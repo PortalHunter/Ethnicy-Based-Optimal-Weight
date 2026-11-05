@@ -6,7 +6,7 @@
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
   "validated_data_commit": null,
-  "batch": 32,
+  "batch": 33,
   "metrics": {
     "organizations": 329,
     "areas": 208,
@@ -15,10 +15,12 @@
     "without_linked_source": 1534,
     "targeted_no_source": 120,
     "unresearched": 1414,
-    "provenance": 586,
+    "provenance": 603,
     "search_log": 343,
     "community": 7,
     "cross_border_edges": 2,
+    "issuer_country_unresolved": 7,
+    "issuer_country_differs_from_domicile": 13,
     "by_condition": {
       "diabetes": 72,
       "hypertension": 23,
@@ -35,7 +37,7 @@
     "new_domiciled_areas": 0,
     "resource_relationships": 0,
     "source_positive_cells": 0,
-    "provenance_rows": 0,
+    "provenance_rows": 17,
     "search_log_rows": 0,
     "community_records": 0,
     "cross_border_edges": 0
@@ -44,9 +46,9 @@
   "node_cli_run": true,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Key each publication context to its exact resource URL. Separate the issuer or journal’s publication country from organization domicile, study population and guideline jurisdiction; preserve unknowns.",
-    "Continue original-language source checks in the 40 areas without a domiciled identity and the 1,534 cells without a link. Use the search IDs to avoid repeating identical probes.",
-    "Continue source-specific verification, including original-language publication lists, legal status, cross-border reach, and community governance. Keep all seven conditions, the 14 broad-label examples and release boundaries."
+    "Use primary local-language academic and organization publications to extend Africa and Central Asia; preserve local affiliation, recruitment setting, original issuer and clinical scope separately.",
+    "Return to the seven unresolved source-country relationships. Prioritize original imprints or dated edition evidence, including Portuguese translations, Swedish brochure, Shefa presentations, Panama protocol and conflicting serial authorities for Rwanda.",
+    "Continue original publication-list and lifecycle checks, regional/Indigenous governance documentation and precise condition boundaries. See GAPS.md and the remaining area roster."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -225,15 +227,15 @@
   ],
   "readback_validation": {
     "status": "pending_immutable_readback",
-    "last_verified_parent": "f65ea551d832aa84dd9d486cc78b74201d33f0a9"
+    "last_verified_parent": "0bd62e5ad33b21e56f6b12a5fc4d2c459d912455"
   },
-  "previous_independently_verified_data_commit": "f65ea551d832aa84dd9d486cc78b74201d33f0a9",
+  "previous_independently_verified_data_commit": "0bd62e5ad33b21e56f6b12a5fc4d2c459d912455",
   "session_additions": {
     "organization_identities": 16,
     "new_domiciled_areas": 7,
     "resource_relationships": 22,
     "source_positive_cells": 20,
-    "provenance_rows": 51,
+    "provenance_rows": 68,
     "search_log_rows": 32,
     "community_records": 2,
     "cross_border_edges": 0
