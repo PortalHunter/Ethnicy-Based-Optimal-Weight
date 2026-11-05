@@ -11,11 +11,11 @@
       "name": "Algeria",
       "un_region": "Africa",
       "un_subregion": "Northern Africa",
-      "who_region": "EMRO",
+      "who_region": "AFRO",
       "identity_source": "https://unstats.un.org/unsd/methodology/M49/",
-      "who_region_source": "https://www.who.int/about/who-we-are/regional-offices",
+      "who_region_source": "https://www.afro.who.int/countries",
       "source_review": "COUNTRY_REFERENCE_SEEDED",
-      "note": "UN geographic grouping is not a statement of ethnicity or clinical applicability."
+      "note": "Despite Northern Africa UN geography, Algeria is classified in WHO AFRO, not EMRO. This is why geography and agency networks are separate."
     },
     {
       "id": "AUS",
