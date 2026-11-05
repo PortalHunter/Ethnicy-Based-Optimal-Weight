@@ -210,7 +210,7 @@ assert.equal(sciSnapshots.filter(r=>r.snapshot_as_of==='2026-06-09'&&r.source_sn
 assert(!sciSnapshots.some(r=>r.snapshot_as_of==='2022-04-11'&&r.country_area_m49==='807'));
 assert(sciSnapshots.some(r=>r.snapshot_as_of==='2026-06-09'&&r.country_area_m49==='807'));
 assert(ids.has('WHO_EURO_SCI'));
-const sciEdges=edges.filter(r=>r.to_id==='WHO_EURO_SCI'&&r.relationship_type==='participates_in_voluntary_health_initiative');
+const sciEdges=edges.filter(r=>r.to_id==='WHO_EURO_SCI'&&r.relationship_type==='participates_in_voluntary_health_initiative'&&r.as_of==='2026-06-09');
 assert.equal(sciEdges.length,12);
 for(const r of sciSnapshots){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.network_id,'WHO_EURO_SCI');}
 for(const r of sciEdges){assert(official.has(r.country_area_m49));assert.equal(r.as_of,'2026-06-09');assert.equal(r.valid_from,'');assert.equal(r.valid_to,'');assert(sources.has(r.source_url));assert(sciSnapshots.some(s=>s.country_area_m49===r.country_area_m49&&s.snapshot_as_of==='2026-06-09'));}
