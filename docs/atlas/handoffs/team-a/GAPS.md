@@ -1,3 +1,13 @@
+## Current unresolved queue after Batch 9 — 2026-11-05
+
+- **168** area principal authority identities unresolved; UN M49 248/248 geographic comparison remains completed. The identified 80 still require statutory powers/effective-date/devolved agency review before complete directory acceptance.
+- Priority next queue: Bouvet 074 (uninhabited/national vs territorial legal competence), Myanmar 104 (competing government/NUG and ministry title), Belarus 112, Chad 148 (403 blocked), Christmas Island 162 and Cocos 166 (Australian/territorial jurisdiction), Comoros 174 (placeholder/current title), Mayotte 175 (French overseas health competence), Cuba 192 and Equatorial Guinea 226. Unknown is not absence. No ministry or delegation assigned from a candidate-only source.
+- Other unresolved next: Ethiopia 231; Eritrea 232; Faroe Islands 234 (possible historical ministry name); Åland 248; French Guiana 254, French Polynesia 258, French Southern Territories 260; Gabon 266 (official ministry template page needs corroboration); Georgia 268; Gibraltar 292; India 356; Guinea 324; plus other ascending M49 unknown areas.
+- Batch 9 legal/devolution follow-up: Falklands 238 territorial government Public Health Unit transferred to health department July 2023, but UK/Argentine/overseas jurisdiction not inferred. Guam 316 public laws 7-101 and 9-147 and 5 GCA §3111 are cited by agency but current federal and territorial competence needs statutory review. Kenya 404 has two national state departments but county-level health allocations not established. Israel 376 is ministry identity only and says **nothing** about Palestinian territory/State of Palestine M49 275 or exclusive cross-border mandate. Kazakhstan 398 ministry committees and subdivisions need separate official mandates. Honduras 340 regional health units and changes need legal appraisal; Indonesia 360 regulation 161/2024, Permenkes 21/2024 and ministerial 155/2026 require close legal review of regional relationships.
+- Retain all Batch 8 caveats and Bosnia/Brčko, cantons, agencies/regulators/public-health institutes/renamed ministries in earlier GAPS. Two independent primary governmental/legal checks required for disputed parent delegation, contested authorities or major ministerial renames. No ancestral-genetics or patient-facing clinical claims authorized.
+
+## Prior unresolved question details and earlier caveats
+
 ## Batch 8 unresolved research priorities — 2026-11-05
 
 - **175 unresolved principal national/territorial authorities**; geographic official comparison 248/248 complete, not 248/248 ministries verified.
