@@ -69,30 +69,30 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 234,Faroe Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 238,Falkland Islands (Malvinas),Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 239,South Georgia and the South Sandwich Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-242,Fiji,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Timeout. Authority remains unknown; alternate official source needed.
-246,Finland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: HTTP 403. Authority remains unknown; alternate official source needed.
+242,Fiji,Oceania,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Official 2026 vacancy and September advisory; full legal mandate pending.
+246,Finland,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,PORTFOLIO_OR_DEVOLVED_MANDATE_REVIEW_PENDING,2026-11-05,30 October 2026 ministry-authored government source and September 2026 government budget corroborate identity; wellbeing services counties retain their own responsibilities.
 248,Åland Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
-250,France,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Security challenge only. Authority remains unknown; alternate official source needed.
+250,France,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,PORTFOLIO_OR_DEVOLVED_MANDATE_REVIEW_PENDING,2026-11-05,Current government ministry remit and February 2026 government composition; overseas-area allocation and legal effectivity not inferred.
 254,French Guiana,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 258,French Polynesia,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 260,French Southern Territories,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 262,Djibouti,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
 266,Gabon,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 268,Georgia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-270,Gambia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: URL inaccessible. Authority remains unknown; alternate official source needed.
+270,Gambia,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Own ministry and government ministry directory directly checked; legal statutes incomplete.
 275,State of Palestine,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 276,Germany,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
-288,Ghana,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Timeout. Authority remains unknown; alternate official source needed.
+288,Ghana,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Ministry remit and Ghana Health Service own Act 525 description independently corroborate; statute amendment currency pending.
 292,Gibraltar,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-296,Kiribati,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+296,Kiribati,Oceania,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,"Finance ministry health-service page and Office of President directory corroborate; own mhms.gov.ki page may be template, not relied on for authority proof."
 300,Greece,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Identity verified on official Greek portal; current news present. Legal mandate and separate regulator coverage remain pending.
 304,Greenland,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
-308,Grenada,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+308,Grenada,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,PORTFOLIO_OR_DEVOLVED_MANDATE_REVIEW_PENDING,2026-11-05,Government directory identifies ministries and separately named health/wellness/religious affairs ministerial responsibilities; legal portfolio scope pending.
 312,Guadeloupe,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 316,Guam,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Timeout. Authority remains unknown; alternate official source needed.
-320,Guatemala,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+320,Guatemala,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,2026 Guatemalan government health ministry publications directly identify body and activity; statutory and departmental competence pending.
 324,Guinea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-328,Guyana,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Placeholder page only. Authority remains unknown; alternate official source needed.
+328,Guyana,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Own ministry alternative working domain resolves previous moh.gov.gy placeholder; region-level authority requires separate checking.
 332,Haiti,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Own institutional mandate page checked. Detailed legal instruments and effective territorial service coverage not independently established.
 334,Heard Island and McDonald Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 336,Holy See,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -104,11 +104,11 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 360,Indonesia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 364,Iran (Islamic Republic of),Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 368,Iraq,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-372,Ireland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: HTTP 403. Authority remains unknown; alternate official source needed.
+372,Ireland,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Current own government department mandate and 2025–2028 health strategy; separate HSE statutory role pending.
 376,Israel,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-380,Italy,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Browser validation page only. Authority remains unknown; alternate official source needed.
+380,Italy,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,"Official four-department ministry organization based on 2024 structural regulation, 2026 governmental normative acts; no regional competence inferred."
 384,Côte d’Ivoire,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,UNSD M49 name correction 2026-11-05; authority still unresearched
-388,Jamaica,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: HTTP 521. Authority remains unknown; alternate official source needed.
+388,Jamaica,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Prime Minister ministry directory and October 2026 health ministry statement corroborate; regional health authorities not conflated.
 392,Japan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
 398,Kazakhstan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 400,Jordan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
