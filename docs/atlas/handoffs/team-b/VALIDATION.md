@@ -2,6 +2,11 @@
 
 ## Verified checkpoint · batches 30–36 · 2026-11-05
 
+## Batch 37 · 2026-11-05
+
+Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors before commit. Verified parent: `a031f8e4f5e738ba1782e713a776ef7da743bd92`. Independent immutable readback follows the branch update. Primary checks included the SPM association PDF, AFDD registry mirror, PCC zorgaanbod HTML, PLoS ONE final HTML (affiliations/methods), Vanuatu abstract PDF, ISSN 1654-9880 record, KU portal record, SGF catalogue shell, and Saint Helena government notices. Not a clinical appraisal, full URL crawl or legal-registry audit.
+
+
 For each batch, all 18 Team B files fetched by immutable SHA matched the prepared content and the GitHub tree's blob hashes. The ten CSV inputs passed the committed validator under Node v24.22.1 before the branch write and again on the byte-matched files after readback. Every row below had zero structural errors.
 
 | Batch | Verified commit | Organizations | Home areas | Resource relationships | Cells with a source |

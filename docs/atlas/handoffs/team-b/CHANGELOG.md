@@ -1,5 +1,14 @@
 # Team B changelog
 
+
+## 2026-11-05 — Batch 37: missing-area triage, Añisok final PLoS, issuer resolutions
+
+- Added 3 domiciled identities in previously empty areas: Diabète SPM (666), Association Futunienne des Diabétiques / RNA W9F1000194 (876), Primary Care Caribbean (535).
+- Linked 4 new resources: PCC Bonaire type 2 diabetes and CVD/BP programme pages; UNGE-affiliated final PLoS ONE 21(11):e0360673 geriatric Añisok diabetes and measured-lipid rows. Saint Helena diabetes/hypertension checks logged as government-only (Team A).
+- Resolved 4 issuer-country unknowns with edition-specific evidence: Rwanda GHA ISSN UK (NLM US conflict retained), Vanuatu Shefa document issuer via Port Vila abstract, Swedish SGF catalogue host for hemokromatos brochure. Unresolved issuers now 5.
+- Preserved 1500/202 split caveat between 2025 adult Anales Médicos and 2026 geriatric PLoS papers; AFDD statutes-2013 lifecycle stale; PCC not a scientific society; Futuna seat ≠ Wallisian society.
+- Node validate.mjs: 0 errors. Totals in STATUS.md / CHECKPOINT.json.
+
 ## 2026-11-04 — First substantive primary-source batch
 
 - Started dedicated team branch from `main`; seeded full 248-area M49 × seven-condition discovery status matrix.
