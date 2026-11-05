@@ -34,3 +34,10 @@ The latest research includes the Africa/Caribbean batch 4. The current count (su
 ## Latest metrics as of 2026-11-05 (batch 5)
 
 See latest appended STATUS.md: **84 organizations across 53 M49 areas; 74 source/resource entries; 70 linked source-positive cells; 1666 not-yet-researched area-condition cells**. Counts in older sections are historical. Original URLs and caveats are in PROVENANCE.csv and GAPS.md.
+## Batch 6 — 2026-11-05: sparse-condition discovery and QA correction
+
+Added 4 first-party organization identities (Germany DGE, Poland celiac association, Austria FHchol, UK BSH) and 4 resource relationships. Totals: **88 organizations in 54 areas, 78 resources, 73 source-positive cells, 1663 not-yet-researched cells, 168 provenance entries**. M49 skeleton remains 248×7 = 1736. No clinical claims approved.
+
+Corrected pre-existing Samoa rows: narrative had occupied source_review_status and notes were blank; restored typed uncertainty status and notes in publication/provenance rows. Both MANUIA cells now specialist_research_only, reflecting one unreported programme.
+
+Baseline: draft PR #71 HEAD f24f1bd4ba321b282511e956d3520cf732201f97. Batch checkpoint is the commit containing this section; fetch current HEAD for exact SHA. Next: non-sovereign areas and undercovered Africa/Asia; independently validate M49; audit guideline supersession and third-party-only identities.

@@ -33,3 +33,11 @@
 - Panama's Society of Cardiology **endorsed** an older HEARTS hypertension protocol; Panama Ministry of Health approved it and PAHO hosts. Its historical 2019 revision requires supersession review.
 - Samoa's two condition links refer to **one** proposed/active cardiometabolic pilot with conflicting ethics-status descriptions; no published efficacy evidence. Uzbekistan's own diabetology article listing is not a verified peer-reviewed recommendation. IDF-only Fiji/Tonga/PNG/El Salvador remain identity-only; PNG self-reports restructuring.
 - Uzbekistan's NAEU (2018 charter) and IDF's EDAU (renamed 2009) are indexed as **separate identities with unresolved legal continuity**; do not merge without source evidence.
+
+## 2026-11-05 — Batch 6
+
+- Added German lactose education, Polish celiac resource index, Austrian FH education, UK BSH historic hereditary haemochromatosis guidance listing.
+- Preserved DGE 20-vs-28-page conflict, BSH 2018 listing/2017 title, undated Polish guide. Full-text appraisal not claimed.
+- Corrected pre-existing Samoa status/notes field placement, empty provenance notes and inconsistent programme coverage classification; evidence uncertainty unchanged.
+- AILI direct open returned JavaScript shell: deferred, not counted. Discarded invalid guessed DGE about path; used navigation-discovered mission page.
+- Enhanced CSV checks passed: 88 identities, 78 resources, 73 positive and 1663 unresearched cells; 0 failures after explicit corrections.

@@ -61,3 +61,13 @@ These examples flag *metadata and study-transportability errors* to check; they 
 - **Argentina:** SAP 2025 celiac guideline expert consensus with CC BY-NC-ND license, not a primary independent trial. ACA public page says biopsy always required, which may diverge from contemporary age-specific guidance; medical appraisal #27 required.
 - **Chile:** Fundación Convivir's celiac questionnaire recruits volunteers and is not a population prevalence study or risk estimator. Do not collect personal records or misrepresent national registry existence.
 - **Dominican Republic:** society provides cardiology guideline menu but no original hypertension-specific publication confirmed; leave hypertension cell unresearched until primary link found. El Salvador ASADI independent first-party website unconfirmed.
+
+## Batch 6 open questions — 2026-11-05
+
+- DGE: 2026 catalogue lists 20 pages; official press says 28. Edition/page-count discrepancy unresolved. Brochure not purchased or fully read; catalogue metadata only.
+- Poland: guide index gives no edition date. Do not assign 2026 from PDF filename/copyright. Child guide exhausted with update planned; education is not a guideline.
+- FHchol: FH-specific education is not evidence that ordinary raised LDL is inherited. Screening advocacy/prognosis assertions require separate appraisal, no legal national screening mandate verified.
+- BSH: 2017 title, listing dated 2018-04-16; supersession and full-text methods unverified. BSG hosting is not separate authorship or independent evidence.
+- AILI Italy: search index returns association content; direct open JavaScript shell. Excluded pending substantive first-party retrieval.
+- Samoa structural corrections do not resolve conflicting ethics-status statements or create published trial results.
+- Latest totals: 54/248 areas have identities; 1663/1736 cells remain unresearched.

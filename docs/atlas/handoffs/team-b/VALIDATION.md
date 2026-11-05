@@ -42,3 +42,11 @@ Parse each CSV according to RFC 4180; enforce expected header fields from `READM
 - Checked 248 unique roster identifiers, all seven exact condition keys per M49 area, 1,736 unique composite keys, 84 unique organization IDs and valid M49 foreign keys, 74 condition resources and matched publication-context records, positive source-coverage support (70), 1666 explicit unresearched cells, 159 unique provenance IDs with metadata, official HTTPS URL syntax for organization and publication references, retained original organizational identity states, and 3 unchanged community-specific records.
 - **Result: 0 structural errors**; all scripted in-memory structural assertions passed.
 - Explicit pending external checks: UNSD independent machine-readable M49 code-set diff; complete live-link crawl and redirect audit; original third-party identity verification for IDF/ISE-only profiles; copyright and medical-scientific review; Samoa ethics discrepancy, Panama supersession, Uzbekistan association continuity. Structural integrity does not mean scientific validity.
+
+## Batch 6 — 2026-11-05
+
+CSV quote/width parsing; unique organization/provenance/resource keys; 248 M49 references; 1736 unique area×condition keys with seven keys each; organization area references; publication and context joins; publication URL presence in provenance; exact findings_count agreement; unsupported positive-cell rejection; HTTPS syntax and metadata: **0 failures after corrections**. Counts: {"organizations":88,"areas":54,"resources":78,"positive":73,"unresearched":1663,"provenance":168,"conditions":{"diabetes":38,"hypertension":12,"high_chol":6,"gout":4,"lactose":2,"celiac":8,"hemochromatosis":3},"structuralErrors":0}.
+
+New checks detected two old Samoa publication rows with blank notes and prose in review-state, plus two blank provenance notes. Restored typed uncertainty status and narrative notes. Hypertension MANUIA state corrected to specialist_research_only, consistent with its diabetes arm and no published results. Prior blanket metadata-pass statements were too broad for these fields.
+
+Targeted first-party page/catalogue checks covered four new resources. Not a comprehensive live crawl, independent UNSD export diff, full-text appraisal or clinical approval. Fourteen boundary examples retained in GAPS.md.

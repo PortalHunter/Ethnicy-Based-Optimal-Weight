@@ -46,3 +46,10 @@ No changes were made to `main`, public clinical copy, the weight engine, genetic
 - **84 organization records in 53 M49 areas**; **74 indexed publication/resource relationships**; **70 linked positive area-condition cells**; **1666 explicit not-yet-researched cells**; **159 provenance entries**.
 - M49 roster **248**, seven-condition matrix **1,736**; separate community-specific records **3**; **0** clinically approved claims. Batch 5 added **13 identities, 7 resource rows, 6 previously unresearched positive cells**.
 - **20 new areas indexed across 2026-11-05 batches 4+5** relative to the verified 33-area starting baseline. National-level research incompleteness remains substantial; client product and main untouched.
+## Batch 6 — 2026-11-05: sparse-condition discovery and QA correction
+
+Added 4 first-party organization identities (Germany DGE, Poland celiac association, Austria FHchol, UK BSH) and 4 resource relationships. Totals: **88 organizations in 54 areas, 78 resources, 73 source-positive cells, 1663 not-yet-researched cells, 168 provenance entries**. M49 skeleton remains 248×7 = 1736. No clinical claims approved.
+
+Corrected pre-existing Samoa rows: narrative had occupied source_review_status and notes were blank; restored typed uncertainty status and notes in publication/provenance rows. Both MANUIA cells now specialist_research_only, reflecting one unreported programme.
+
+Baseline: draft PR #71 HEAD f24f1bd4ba321b282511e956d3520cf732201f97. Batch checkpoint is the commit containing this section; fetch current HEAD for exact SHA. Next: non-sovereign areas and undercovered Africa/Asia; independently validate M49; audit guideline supersession and third-party-only identities.
