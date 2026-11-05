@@ -12,3 +12,11 @@
 - Appended provenance to **26** entries; synchronized **248** country coverage ledger records.
 - Documented current institutional changes, disputed territories, source limitations and deferred verification; added `validate.py` for offline data integrity.
 - No clinical formula, website or user medical record changes. PR remains draft.
+
+## 2026-11-04 — Batch 3
+- Researched and committed **15 additional principal official-government health authorities**: Bahrain, Bangladesh, Belize, Cambodia, Canada, Chile, China, Colombia, Costa Rica, Croatia, Cyprus, Czechia, Benin, Denmark and Djibouti.
+- Principal governmental institutions located now **34 of 248** M49 areas; **214** explicitly unresolved. All 248 geographic skeleton and coverage rows preserved.
+- Captured June 3 2026 Danish governmental health/church portfolio reorganization from its own official sources; distinguished Chinese National Health Commission from separate disease-control administration, and Bangladesh ministry's two divisions.
+- Added **11** distinct government health and disease surveillance, regulatory, health-statistics and biomedical institute bodies: now **55** total organizations and **14** officially sourced intra-government links.
+- Expanded source provenance to **52** records; passed independent JavaScript audit of **248** geographic and coverage keys, 55 body shape/ID references, 14 edges, government URL fields and six UN region buckets. See `QA_REPORT.md`.
+- Retained explicit jurisdiction uncertainty and original-language limitations; no medical application changes; PR remains draft.
