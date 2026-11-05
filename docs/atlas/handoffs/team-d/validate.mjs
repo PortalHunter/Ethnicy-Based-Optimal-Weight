@@ -95,6 +95,13 @@ for(const r of surveyRoster){assert(sources.has(r.source_url));if(r.country_area
 for(const r of officeAudits){assert(surveyRoster.some(s=>s.country_area_m49===r.country_area_m49&&s.latest_self_reported_survey==='2026-04'));}
 assert.equal(surveyRoster.filter(r=>r.latest_self_reported_survey==='2026-04'&&r.country_area_m49!=='not_verified').length,105);
 
-assert.equal(nodes.length,45);assert.equal(edges.length,542);assert.equal(prov.length,113);
+const emrnNcas=read('data/emrn_nca_identity_2026.csv');
+unique(emrnNcas,r=>r.record_id,'EMRN candidate IDs');
+unique(emrnNcas,r=>r.country_area_m49+'|'+r.ema_display_name,'EMRN country agency names');
+assert.equal(emrnNcas.length,34);
+assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
+for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
+for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
+assert.equal(nodes.length,45);assert.equal(edges.length,542);assert.equal(prov.length,114);
 
-console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length},null,2));
+console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length},null,2));

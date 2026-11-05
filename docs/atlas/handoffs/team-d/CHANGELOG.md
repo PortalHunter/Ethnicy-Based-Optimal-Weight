@@ -1,3 +1,7 @@
+## 2026-11-05 — Batch 10: EMA/EMRN provisional agency identity roster
+
+- Saved 34 EMA-listed human-medicines competent-authority identity candidates in 30 EU/EEA areas, preserving multi-agency distinctions and full source provenance TD-SRC-114. All exact Team A identity joins and individual legal remits remain pending. No graph edges added; source/structural checks updated.
+
 ## 2026-11-05 — Batch 9 validator correction
 
 - Replaced overly narrow ordinary-office-only assertion with the WHO source's four evidenced office-type categories. Other boundary/region and historical/current distinctions retained.

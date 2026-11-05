@@ -1,3 +1,7 @@
+## Batch 10 — regulator linkage gap (2026-11-05)
+
+The official EMA page yielded 34 agency labels across 30 EU/EEA countries. Exact Team A authority-ID joins, local original titles and agency-specific statutory remits remain unresolved, including the separate agencies in Germany, Netherlands and Poland. No NCA graph edges have been fabricated; scientific EMA evaluation, European Commission binding decisions and nationally competent procedures must remain distinct.
+
 ## Batch 9 update — current WHO office roster (2026-11-05)
 
 Direct source survey-year audit now captures all **153 WHO office profiles**: 106 April 2026, 46 retained September 2024, one unavailable. Only **105 M49-coded hosts** have affirmative April 2026 evidence (10 SEARO already in place, 95 in the typed audit); **144/249** candidate codes still lack affirmative recent office evidence. Four office labels are deliberately unmatched to an M49 code: Barbados/Eastern Caribbean MCO; South Pacific MCO; oPt operational office; Pristina (UNSC 1244). The 2024 retained entries need 2026 follow-up rather than false "current" status; service beneficiaries and office jurisdictions still need individual profile-level breakdown. The 44 unresolved regional classifications remain, with no parent inheritance.

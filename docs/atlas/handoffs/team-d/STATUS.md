@@ -1,3 +1,7 @@
+# Team D — Batch 10 checkpoint, 2026-11-05
+
+New EMA roster: **34 official-directory NCA identity candidates in 30 EU/EEA jurisdictions**. Country multiplicity: Germany 2, Netherlands 3, Poland 2; per-agency statutory and exact Team A joins pending. **114 provenance URLs**, graph still **45 nodes and 542 edges**. WHO research unchanged: 205 verified/44 unknown region assignments, 153 time-qualified 2026 dashboard office roster entries (106 April 2026, 46 retained September 2024, one unavailable), **105** affirmative April-2026 office-host codes; 144 seed areas lacking affirmative current evidence, not absent. 228 separate historical WHO service records. PR #70 stays draft and unmerged; no website or clinical changes.
+
 # Team D — latest checkpoint after Batch 9 (2026-11-05)
 
 Current WHO office survey roster: **153** WHO-labeled office records = **106 April 2026** office-head responses, **46 September 2024** retained responses, **one unavailable**. **149** exact normalized M49 joins, **four deliberately unmatched** office labels; the 153 entries do not correspond one-to-one to the 249 country/territory candidates. Current affirmative office presence: **105** unique M49 country/area rows (10 pre-existing SEARO plus 95 separately audited April 2026 WHO respondents). **144/249** candidates have not received a direct April 2026 office-presence attestation; this is not a negative/absence claim. April 2026 survey responses are not proof of uninterrupted operation through November 2026; 2024 survey data are strictly retained as earlier evidence.

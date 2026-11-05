@@ -1,3 +1,7 @@
+## Batch 10 structural checks (2026-11-05)
+
+Added 34 unique EMA-listed authority/country candidates, exactly 30 official M49 geographic joins, Germany 2 / Netherlands 3 / Poland 2, source validity, and mandatory unresolved statutory remits and Team A identity states. Provenance is 114; existing WHO historical/current, graph and seven-condition checks remain active. Execute validation at the final saved SHA; no Node CLI run is claimed merely from this edit.
+
 ## Batch 9 validator correction and execution-equivalent check (2026-11-05)
 
 The prior Batch 8 audit rule assumed all audited April 2026 offices were ordinary single-country offices. After adding the complete survey roster, that assertion was too restrictive: the WHO source separately identifies country offices also covering territories, multi-country offices and country liaison offices. The rule has been corrected to accept **only these four explicit source-labelled types**; row-level M49, survey date, provenance and cross-file assertions remain in force.
