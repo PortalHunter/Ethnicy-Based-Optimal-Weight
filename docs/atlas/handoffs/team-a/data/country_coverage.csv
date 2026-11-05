@@ -12,8 +12,8 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 036,Australia,Oceania,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
 040,Austria,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
 044,Bahamas,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-048,Bahrain,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-050,Bangladesh,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+048,Bahrain,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
+050,Bangladesh,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_OR_RENAME_REVIEW_PENDING,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
 051,Armenia,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
 052,Barbados,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
 056,Belgium,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
@@ -24,7 +24,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 072,Botswana,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
 074,Bouvet Island,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 076,Brazil,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
-084,Belize,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+084,Belize,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
 086,British Indian Ocean Territory,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 090,Solomon Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 092,British Virgin Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -33,31 +33,31 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 104,Myanmar,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 108,Burundi,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 112,Belarus,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-116,Cambodia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+116,Cambodia,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
 120,Cameroon,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-124,Canada,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+124,Canada,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
 132,Cabo Verde,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 136,Cayman Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 140,Central African Republic,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 144,Sri Lanka,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 148,Chad,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-152,Chile,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-156,China,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+152,Chile,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
+156,China,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_OR_RENAME_REVIEW_PENDING,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
 162,Christmas Island,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 166,Cocos (Keeling) Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-170,Colombia,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+170,Colombia,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
 174,Comoros,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 175,Mayotte,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 178,Congo,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 180,Democratic Republic of the Congo,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 184,Cook Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-188,Costa Rica,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-191,Croatia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+188,Costa Rica,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
+191,Croatia,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
 192,Cuba,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-196,Cyprus,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-203,Czechia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-204,Benin,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-208,Denmark,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+196,Cyprus,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_OR_RENAME_REVIEW_PENDING,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
+203,Czechia,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
+204,Benin,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
+208,Denmark,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_OR_RENAME_REVIEW_PENDING,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
 212,Dominica,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 214,Dominican Republic,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 218,Ecuador,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -76,7 +76,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 254,French Guiana,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 258,French Polynesia,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 260,French Southern Territories,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
-262,Djibouti,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+262,Djibouti,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
 266,Gabon,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 268,Georgia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 270,Gambia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
