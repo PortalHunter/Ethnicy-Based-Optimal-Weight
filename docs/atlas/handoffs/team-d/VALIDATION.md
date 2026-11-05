@@ -13,3 +13,5 @@ Batch 3 expected: 223 edges, 111 verified region statuses, 138 not_verified and 
 Batch 4 expected: 260 edges; 148 verified region statuses; 101 not_verified; 52 provenance URLs; 38 source-name match rows (ten aliases). WPRO exactly 38; Indonesia transfer date preserved; ISO-only 158 unassigned; US-territory cautions retained. Other counts unchanged.
 
 Batch 5 expected: 282 edges, 170 verified statuses, 79 not_verified, 75 provenance URLs and 21 individual-profile checks. Exactly 22 EMRO country/area assignments; 275 has independent explicit regional source and no WHO constitutional membership inference.
+
+Batch 6 expected: 317 edges; 205 verified statuses; 44 not_verified; 110 sources; 56 individual-profile checks (21 EMRO plus35 AMRO). All35 Americas region records require matching individual WHO profile audit record. US governance remains pending.

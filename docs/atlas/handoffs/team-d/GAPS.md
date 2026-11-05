@@ -2,7 +2,7 @@
 
 Historical gaps recorded 2026-11-04, the graph is a **verified seed plus explicit review queue**, not a comprehensive authority atlas.
 
-- Updated 2026-11-05: UN overview reconciliation now complete at 248 official country/area rows; ISO seed-only code 158 is a separate exception. 170 region status rows are verified (SEARO 10, EURO 53, AFRO 47, WPRO 38 and EMRO 22 country/area assignments), 79 remain not_verified. Ten SEARO office presence records are explicit; other 239 seed areas require office review. WHO region, membership and office presence remain distinct.
+- Updated 2026-11-05: UN overview reconciliation now complete at 248 official country/area rows; ISO seed-only code 158 is a separate exception. 205 region status rows are verified (SEARO 10, EURO 53, AFRO 47, WPRO 38, EMRO 22 and AMRO 35 country/area assignments), 44 remain not_verified. Ten SEARO office presence records are explicit; other 239 seed areas require office review. WHO region, membership and office presence remain distinct.
 - United States WHO constitutional governance remains `PENDING_GOVERNING_BODIES_REVIEW`; PAHO sovereign-state membership is independently documented and remains in its own edge set. [WHO country list](https://www.who.int/countries).
 - WPRO 38-country/area assignment roster is now captured. US-territory roster notices do not establish final governance outcomes; source-label alias table preserves ten name differences. WHO region for ISO candidate 158 remains not_verified.
 - EMRO main roster endpoints remain inaccessible, but 21 country profiles and a separately explicit WHO operational-area source establish 22 assignments. WHO's occupied Palestinian territory label is kept distinct from UN State of Palestine and constitutional membership.

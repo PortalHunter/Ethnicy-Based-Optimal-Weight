@@ -41,9 +41,11 @@ assert.equal(statuses.find(r=>r.m49_code==='158').who_region,'not_verified');
 for(const code of ['016','316','580'])assert(statuses.find(r=>r.m49_code===code).review_notes.includes('pending WHO governing-body consideration'));
 const profileChecks=read('data/who_region_profile_checks.csv');
 unique(profileChecks,r=>r.record_id,'profile-check IDs');
-assert.equal(profileChecks.length,21);
+assert.equal(profileChecks.filter(r=>r.normalized_who_region==='EMRO').length,21);
+assert.equal(profileChecks.filter(r=>r.normalized_who_region==='AMRO').length,35);
 for(const r of profileChecks){assert.equal(r.source_url,'https://data.who.int/countries/'+r.country_area_m49);assert(sources.has(r.source_url));assert.equal(statuses.find(s=>s.m49_code===r.country_area_m49).who_region,r.normalized_who_region);}
 assert.equal(statuses.filter(r=>r.who_region==='EMRO').length,22);
 assert.equal(statuses.find(r=>r.m49_code==='275').who_region,'EMRO');
 assert.equal(statuses.find(r=>r.m49_code==='275').who_membership_governance_status,'PENDING_VERIFICATION');
+assert.equal(statuses.filter(r=>r.who_region==='AMRO').length,35);
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,provenance:prov.length},null,2));

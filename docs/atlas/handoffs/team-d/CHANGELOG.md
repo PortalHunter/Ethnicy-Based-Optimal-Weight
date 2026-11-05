@@ -1,5 +1,12 @@
 # Team D — Changelog
 
+## 2026-11-05 — Batch 6: WHO Americas country profiles
+
+- Independently verified all 35 PAHO state candidates against explicit WHO region/M49 profile metadata.
+- Added 35 region statuses/edges, 35 individual audit records and 35 provenance URLs.
+- Totals: 317 edges, 205 verified statuses, 44 not_verified, 110 provenance URLs; 56 profile audit records.
+
+
 ## 2026-11-05 — Batch 5: Eastern Mediterranean
 
 - Verified 21 individual WHO country profiles and a separate explicit operational-area source for 275; 22 new statuses/edges.
