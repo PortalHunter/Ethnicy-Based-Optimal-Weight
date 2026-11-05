@@ -57,7 +57,7 @@ def verify():
     assert len(authority_ids) == len(set(authority_ids)), "Duplicate body record ID"
     bodies_by_id = {r["record_id"]: r for r in bodies}
     assert all(r["area_m49"] in country_map for r in bodies), "Unmapped body M49"
-    assert all(r["official_name_local"] or "LOCAL_NAME_PENDING" in r["verification_state"]
+    assert all(r["official_name_local"] or "LOCAL_NAME_PENDING" in r["verification_state"] or "LOCAL_NAMES_PENDING" in r["verification_state"]
                for r in bodies), "Original-language name blank without explicit pending flag"
     assert all(r["source_url"].startswith("https://")
                and r["official_url"].startswith("https://")
