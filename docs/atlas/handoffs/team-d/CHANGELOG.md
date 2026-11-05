@@ -1,3 +1,12 @@
+## Batch 21 — 2026-11-05 — 2025 WHO reporting-region evidence and structural validator regression fix
+
+- `ce3853587466f12366f8b9c606c375885204ef5f`: 15 individually M49-matched WHO 2025 epidemiological reporting table observations, from 2026 WER volume 101 issues 36–37. Includes 663 French Saint Martin and 534 Dutch Sint Maarten as different labels; zero 2026 WHO administrative region/status promotions.
+- `0d352d66dfcb7ee737cfaca3c67352e7a31504d5`: first-party WER source `TD-SRC-188` appended with historical-year and publication-date precision caveats; total 188 unique provenance URLs.
+- `b6cf6d66f3d19c675f142d57d20d85f0da96532b`: repaired obsolete `prov.length===170` Batch-18 validator condition, upgraded total to 188, added cross-file WER invariants, and moved JSON PASS output after final assertion.
+- **Validation:** complete checked-in structural assertions PASS against 47 reconstructed GitHub PR files/29 data reads using read-only JavaScript shim; three edited core files exact-readback-confirmed. **No native Node, CI, clinical or legal validation.** PR #70 remains draft/unmerged, main/website/other teams untouched. [Batch 21 standalone checkpoint](CHECKPOINT_BATCH_21_2026-11-05.md).
+
+---
+
 ## Batch 20 — 2026-11-05 — close older office-survey independent-source queue, not operational recency
 
 - `85d6e1eb25cbf72457e0e3b4fda6d225d580480a` — added **17** first-party WHO/PAHO independent office source observations (`TD-OFFICE-CORROBORATION-030–046`) for the previously unchecked 17 September-2024 survey labels, including two explicitly non-M49 multicountry labels. The original 153 survey rows and 105 April-2026 direct-positive hosts did not change.
