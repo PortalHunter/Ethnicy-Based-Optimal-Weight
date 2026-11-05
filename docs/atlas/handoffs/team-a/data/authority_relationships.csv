@@ -1,1 +1,10 @@
 parent_body_id,child_body_id,relationship_type,source_url,effective_from,effective_to,review_state
+gov-020-001,gov-020-002,LISTED_MINISTRY_STRUCTURAL_UNIT,https://www.govern.ad/ca/ministeris-i-secretaries-d-estat/ministeri-de-salut/el-ministeri/estructura-del-ministeri,,,OFFICIAL_GOVERNMENT_INSTITUTIONAL_LISTING_VERIFIED
+gov-020-001,gov-020-003,LISTED_MINISTRY_STRUCTURAL_UNIT,https://www.govern.ad/ca/ministeris-i-secretaries-d-estat/ministeri-de-salut/el-ministeri/estructura-del-ministeri,,,OFFICIAL_GOVERNMENT_INSTITUTIONAL_LISTING_VERIFIED
+gov-276-001,gov-276-002,LISTED_BMG_SUBORDINATE_FEDERAL_AUTHORITY,https://www.bundesgesundheitsministerium.de/ministerium/aufgaben-und-organisation/aufgaben/,,,OFFICIAL_GOVERNMENT_INSTITUTIONAL_LISTING_VERIFIED
+gov-276-001,gov-276-003,LISTED_BMG_SUBORDINATE_FEDERAL_AUTHORITY,https://www.bundesgesundheitsministerium.de/ministerium/aufgaben-und-organisation/aufgaben/,,,OFFICIAL_GOVERNMENT_INSTITUTIONAL_LISTING_VERIFIED
+gov-276-001,gov-276-004,LISTED_BMG_SUBORDINATE_FEDERAL_AUTHORITY,https://www.bundesgesundheitsministerium.de/ministerium/aufgaben-und-organisation/aufgaben/,,,OFFICIAL_GOVERNMENT_INSTITUTIONAL_LISTING_VERIFIED
+gov-276-001,gov-276-005,LISTED_BMG_SUBORDINATE_FEDERAL_AUTHORITY,https://www.bundesgesundheitsministerium.de/ministerium/aufgaben-und-organisation/aufgaben/,,,OFFICIAL_GOVERNMENT_INSTITUTIONAL_LISTING_VERIFIED
+gov-032-001,gov-032-002,MINISTRY_HEALTH_STATISTICS_UNIT,https://www.argentina.gob.ar/salud/deis/institucional,,,OFFICIAL_GOVERNMENT_INSTITUTIONAL_LISTING_VERIFIED
+gov-072-001,gov-072-002,MINISTRY_DEPARTMENT,https://www.gov.bw/ministries/ministry-health,,,OFFICIAL_GOVERNMENT_INSTITUTIONAL_LISTING_VERIFIED
+gov-072-001,gov-072-003,MINISTRY_PARASTATAL,https://www.gov.bw/ministries/ministry-health,,,OFFICIAL_GOVERNMENT_INSTITUTIONAL_LISTING_VERIFIED
