@@ -6,49 +6,49 @@
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
   "validated_data_commit": null,
-  "batch": 34,
+  "batch": 35,
   "metrics": {
-    "organizations": 339,
-    "areas": 216,
-    "resources": 226,
-    "positive": 213,
-    "without_linked_source": 1523,
-    "targeted_no_source": 119,
-    "unresearched": 1404,
-    "provenance": 644,
-    "search_log": 363,
+    "organizations": 351,
+    "areas": 220,
+    "resources": 238,
+    "positive": 224,
+    "without_linked_source": 1512,
+    "targeted_no_source": 123,
+    "unresearched": 1389,
+    "provenance": 684,
+    "search_log": 384,
     "community": 7,
-    "cross_border_edges": 2,
+    "cross_border_edges": 4,
     "issuer_country_unresolved": 9,
-    "issuer_country_differs_from_domicile": 19,
+    "issuer_country_differs_from_domicile": 22,
     "by_condition": {
-      "diabetes": 77,
-      "hypertension": 28,
-      "high_chol": 23,
-      "gout": 20,
-      "lactose": 15,
+      "diabetes": 80,
+      "hypertension": 30,
+      "high_chol": 24,
+      "gout": 21,
+      "lactose": 17,
       "celiac": 32,
-      "hemochromatosis": 18
+      "hemochromatosis": 20
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 10,
-    "new_domiciled_areas": 8,
+    "organization_identities": 12,
+    "new_domiciled_areas": 4,
     "resource_relationships": 12,
     "source_positive_cells": 11,
-    "provenance_rows": 41,
-    "search_log_rows": 20,
+    "provenance_rows": 40,
+    "search_log_rows": 21,
     "community_records": 0,
-    "cross_border_edges": 0
+    "cross_border_edges": 2
   },
   "validation_runtime": "node_cli_committed_validate_mjs",
   "node_cli_run": true,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Continue the remaining 32-area roster, prioritizing independent bodies or academic research in Comoros, Guinea-Bissau, Equatorial Guinea and Turkmenistan, then smaller territories and service arrangements. Check exact existing search logs first.",
-    "Broaden the least-covered streams: direct original-language resources for lactose, hereditary iron overload, clinical gout and FH. Mark serology, urate, ferritin and generic lipid measures precisely. Revisit older official directories and dated sources.",
-    "Resolve nine publication-country records where an original imprint or edition is unavailable or conflicting. Continue local professional governance and publication-list checks including Damascus, São Tomé, Djibouti, Chad and Tajikistan. Preserve the 14 diversity cases and all unresolved caveats in GAPS.md."
+    "Triage the 28 areas without an organization against the exact CHECKPOINT.json roster. Start with populated Pacific and Caribbean areas, including Kiribati, Naoero/Nauru, Niue, Tuvalu, and Turks and Caicos. Recheck newly logged leads before repeating earlier probes. For remote, uninhabited and disputed areas, document verified population/remit or cross-border service separately and avoid inventing a domiciled society.",
+    "Prioritize the least-covered streams (17 lactose, 20 hereditary iron overload, 21 clinical gout, 24 lipid cells) and verify additional FH, subnational and community-controlled sources. Keep clinical criteria outside this research index. Resolve Equatorial Guinea’s Añisok publication affiliation and distinguish it from the 2018 Conakry / Malabo case series.",
+    "Audit original-language publication lists and current governance for remaining organizations, including partner-only ACLD and ASLUCODIABETES-GB, and the nine unresolved publication-country records. Preserve source conflicts and the 14 broad-label cases. Of 1,512 cells without a source, 123 have at least one targeted check and 1,389 have no matching condition-specific search log."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -83,14 +83,6 @@
     {
       "m49": "166",
       "area": "Cocos (Keeling) Islands"
-    },
-    {
-      "m49": "174",
-      "area": "Comoros"
-    },
-    {
-      "m49": "226",
-      "area": "Equatorial Guinea"
     },
     {
       "m49": "238",
@@ -149,10 +141,6 @@
       "area": "Pitcairn"
     },
     {
-      "m49": "624",
-      "area": "Guinea-Bissau"
-    },
-    {
       "m49": "652",
       "area": "Saint Barthélemy"
     },
@@ -177,10 +165,6 @@
       "area": "Tokelau"
     },
     {
-      "m49": "795",
-      "area": "Turkmenistan"
-    },
-    {
       "m49": "796",
       "area": "Turks and Caicos Islands"
     },
@@ -195,17 +179,17 @@
   ],
   "readback_validation": {
     "status": "pending_immutable_readback",
-    "last_verified_parent": "6facc9e33263b26ca52b80948747d7e2a998c289"
+    "last_verified_parent": "bec0e063b4a32c5094773bbdc31857ad822527e0"
   },
-  "previous_independently_verified_data_commit": "6facc9e33263b26ca52b80948747d7e2a998c289",
+  "previous_independently_verified_data_commit": "bec0e063b4a32c5094773bbdc31857ad822527e0",
   "session_additions": {
-    "organization_identities": 26,
-    "new_domiciled_areas": 15,
-    "resource_relationships": 34,
-    "source_positive_cells": 31,
-    "provenance_rows": 109,
-    "search_log_rows": 52,
+    "organization_identities": 38,
+    "new_domiciled_areas": 19,
+    "resource_relationships": 46,
+    "source_positive_cells": 42,
+    "provenance_rows": 149,
+    "search_log_rows": 73,
     "community_records": 2,
-    "cross_border_edges": 0
+    "cross_border_edges": 2
   }
 }

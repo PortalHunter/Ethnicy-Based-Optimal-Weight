@@ -217,3 +217,12 @@ Added ten university or biomedical research organizations across eight previousl
 Direct checks include a six-facility Bangui workforce study, a São Tomé district-level conference abstract, Solomon Islands hospital self-reports and a Raqqa pediatric celiac study distinguishing 14 positive screens from seven biopsy-confirmed cases. A Syrian student thesis has conflicting sample sizes (abstract 153, subtype table 253). The Chad crisis abstract has an inconsistent subgroup sum. Both discrepancies are retained without estimates.
 
 Ten institutional identities in eight new areas, twelve typed publication relationships and twenty targeted searches. Programme proposals, neighbouring countries’ data and multiple versions of the same article receive no independent findings credit.
+
+
+## Batch 35 · 2026-11-05
+
+Added twelve organizations, twelve publication relationships, eleven newly linked cells and two cross-border service records. Comoros, Equatorial Guinea, Guinea-Bissau and Turkmenistan now have documented local academic or patient organizations. Equatorial Guinea receives identity credit only. The complete session adds 38 organizations in 19 newly represented areas, 46 relationships and 42 source-positive cells.
+
+Local evidence includes a multi-region Guinea-Bissau screening study with nonrandom recruitment, Comorian workshops documented by a French partner, and a Turkmen hypertension/serum-lipid study whose main table and translated abstracts disagree. Additional sources cover hereditary haemochromatosis in China and South Africa, lactose intolerance in the UK and New Zealand, and clinical gout education in Türkiye.
+
+Batch 34 was independently read back across all 18 files. Batch 35 adds 21 targeted checks, 40 provenance records and two documented services: France–Comoros and Switzerland–Guinea-Bissau. Twelve new relationships describe fewer unique underlying resources because an item can serve multiple condition or organization records.
