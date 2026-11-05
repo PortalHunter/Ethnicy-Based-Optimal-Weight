@@ -1,3 +1,11 @@
+## Batch 21 — WHO 2025 surveillance regional tables do not settle 2026 WHO administrative affiliation (2026-11-05)
+
+An official [WHO WER 101 (36–37) 2026](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-36-37/) Table 5 groups **15** territories already in the 44-item `not_verified` queue under **Region of the Americas** for **2025 epidemiological reporting**. New source `TD-SRC-188`, new `who_territory_wer_regional_reporting_2025.csv`, exact 15 M49s: `060,092,136,254,312,474,500,531,533,534,630,660,663,796,850`. This is **not** direct evidence of current administrative WHO-region assignment, constitutional WHO membership, a country-office survey/physical presence, or legal clinical remit; **all 44 remain unverified in the administrative matrix**. Some Table 5 values are dashes rather than completed reports. French Saint Martin `663` is distinguishable from Dutch Sint Maarten `534` but this table **does not resolve the PAHO 13-vs-14 Eastern Caribbean service discrepancy**. The exact WHO issue publication date is not assumed from the 2026 epidemiological weeks.
+
+Continue with direct WHO regional/administrative source attribution, office-operation recency, 144 areas without April 2026 affirmative office-host evidence, SCI accession instrument, APPM named signatories/legal instruments, EMA remits, PAHO HEARTS adoption, ASEAN implementation and exact Team A/B/C joins. This new WER source is not a new national disease claim or patient-facing evidence.
+
+---
+
 ## Batch 20 outstanding after source-check inventory closure (2026-11-05)
 
 **Source-check queue completed: 46/46 older September 2024 WHO survey labels have independent WHO/PAHO corroboration records.** This **does not close operational recency**: 25 crosschecks rely on undated pages, while 21 cite day-level 2026 source events/news; neither is a replacement April 2026 office-head survey. The two WHO multi-country office labels (Barbados/Eastern Caribbean and South Pacific) remain non-joined `not_verified` for a single M49 host; Tonga is a liaison office. No inference that every serviced area has premises. Morocco's 5 May 2026 is a reported MoU event rather than a verified page publication date; some PAHO pages have 403 direct-open limitations. **Full Node/JS structural execution is pending after this batch** (targeted checks passed only).
