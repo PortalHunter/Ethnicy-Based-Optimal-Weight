@@ -1,3 +1,13 @@
+## 2026-11-05 — Batch 19: ten additional WHO independent office-survey checks
+
+- `587083c1dbaab2b7e1f4ec8ec5b6ac2180933a08`: append 10 independent WHO checks (`020`–`029`) against existing retained September 2024 WHO office-survey labels. Eight undated site/biography pages and two date-specific events; no old survey timestamp or April 2026 affirmative office status changed.
+- `879589fe19e322f7038f8f4674594dd507ac2b9e`: append 10 unique WHO-source provenance URLs (`TD-SRC-161`–`TD-SRC-170`) with evidence-date limits, source disputes, direct WHO 502 caveats.
+- `cdba5ad40eb828728ed8a6fe41a69433d6344fe0`: adjust validator total and restrict old Batch 18 asserts to 010–019; add Batch 19 distinct-ID/code/date assertions. Full checked-in assertions **PASS** against 28 GitHub-derived CSVs in read-only JavaScript shim (**not** native Node or CI).
+- State: 29/46 older WHO survey labels independently crosschecked, 17 pending; 170 sources; existing graph 47/616, WHO current assignments 205/44, WHO April 2026 affirmative hosts 105 unchanged.
+- [Complete standalone Batch 19 checkpoint](CHECKPOINT_BATCH_19_2026-11-05.md). All writes Team D only; PR #70 remains draft/unmerged.
+
+---
+
 ## 2026-11-05 — Batch 18: independent official WHO crosschecks for 10 stale survey profiles
 
 - Research/data commit `dab5056c2aa3c84f5bd1adf22539ffb1b74ebd2d`: add 10 primary-source and date-qualified rows to `data/who_office_independent_checks_2026.csv`, ten unique URLs `TD-SRC-151`–`TD-SRC-160` to `PROVENANCE.csv`, and structural assertions. No April-2026 survey refresh inferred.
