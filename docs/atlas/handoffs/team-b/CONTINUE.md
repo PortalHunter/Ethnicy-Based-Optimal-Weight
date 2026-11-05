@@ -1,8 +1,8 @@
-# Team B — standalone continuation after batch28, 2026-11-05
+# Team B — standalone continuation after batch29, 2026-11-05
 
 **INCOMPLETE. Continue toward original acceptance criteria, not a batch quota. GitHub live state supersedes this snapshot.**
 
-Repository PortalHunter/Ethnicy-Based-Optimal-Weight; existing branch research/atlas-team-b-20261104; existing draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. Startup live parent 2fec11a5e585a7a3dabcb487cdac93b44f62d4fe; prepared batch28 requires immutable readback receipt in CHECKPOINT.json. Never replace branch/PR,merge,close,edit main or change website/calculator.
+Repository PortalHunter/Ethnicy-Based-Optimal-Weight; existing branch research/atlas-team-b-20261104; existing draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. Startup live parent 2fec11a5e585a7a3dabcb487cdac93b44f62d4fe; batch28 a43641bef34981c77faf4d72c1a46415df0882b2 independently fetched all18 files and matched contents/tree blobs,zero CSV errors. Batch29 receipt in CHECKPOINT.json supersedes prepared state. Never replace branch/PR,merge,close,edit main or change website/calculator.
 
 ## Startup
 
@@ -19,11 +19,19 @@ Keep based-in,serves,members,author,endorser,host separate. Residence,nationalit
 
 ## Verified data snapshot and batch28
 
-311 identities/200 domiciled areas;190 resource relationships;182 source-positive cells;1554 without source links;522 provenance;299 targeted search checks;5 community records;2 cross-border edges;zero approved clinical claims. Exact48 areas without domiciled identity in CHECKPOINT.json. By key diabetes68,hypertension18,high_chol21,gout17,lactose14,celiac27,hemochromatosis17.1736-cell skeleton is not full research coverage.
+313 identities/201 domiciled areas;192 resource relationships;182 source-positive cells;1554 without source links;535 provenance;311 targeted search checks;5 community records;2 cross-border edges;zero approved clinical claims. Exact47 areas without domiciled identity in CHECKPOINT.json. By key diabetes68,hypertension18,high_chol21,gout17,lactose14,celiac27,hemochromatosis17.1736-cell skeleton is not full research coverage.
 
 Batch28: Gabon SOGANEPH own French nonprofit identity/mission/legal page and2026 kidney-day BP/glycaemia screening report; planned registry/journal/congress not completed outputs, hyperglycaemia not confirmed type2 diagnosis or national prevalence. Brunei BMA primary MASEAN identity; MOH journal endorsement not article authorship/no condition link credit. Timor-Leste AMTL MASEAN identity + Sep2026 Dili government corroboration; Portuguese CMLP2022-2025 council dated, not current; association not proposed regulator. Palau BWC NGO executive-director interview and Grameen partner corroboration, clinic corporate/legal relationship unresolved. Chuuk CWC subnational NGO programme interview +2009 original research corroboration; own website now Account Suspended despite indexed text. No raw participant data or quantified effects copied.
 
 BWC/CWC2023 interviews publisher is external US PI-DPP/AAPCHO; source_country585/583 denotes local organization/programme, not publisher domicile. Programme reports are not guidelines, trials or efficacy approval; outcomes, current delivery, original Palauan/Chuukese publications and governance pending. Chuuk not all FSM; no clinical or genetic generalizations. See GAPS batch28 for full restrictions and earlier unresolved items.
+
+## Batch29 source-integrity progress
+
+Official2026 Gibraltar charity register resolves Diabetes Gibraltar local identity (entry45) and confirms GCA (entry283). Own GCA footer238 conflicts with registry,which assigns238 to another charity; preserve conflict. Government directory bridges GCA own website. Neither charity receives condition-source credit. IRA Indian patient index empty/guideline list Coming Soon; Mexican CMR Spanish lists no verified gout link on accessed pages. No all-country absence claim.
+
+SPGP original Portuguese index links English ACG2019 hemochromatosis guideline and English ESPGHAN breath-testing position paper labelled2021. ACG guideline DOI10.14309/ajg.0000000000000315 has December2019 correction DOI10.14309/ajg.0000000000000469 (PMID31724994); exact correction contents/incorporation in hosted copy unreviewed. ESPGHAN40-page ahead-of-print DOI10.1097/MPG.0000000000003245 has final2022;74:123-137 metadata,not a second study. Selected title pages visually checked and lactose section located; full methods/COI,clinical claims,ancestry categories,population applicability,supersession and copyright permissions not fully reviewed. Host Portugal not source authorship/translation or jurisdiction. No new positive cells from these2 links because Portugal already had lactose and iron links.
+
+External Portuguese gout campaign brochure with SPR logo/URL is not verified society ownership: campaign footer Circulo Medico Lda and commercial partnership; no new society credit. Preserve all original GAPS and batch29 details.
 
 ## Highest priority remaining work
 

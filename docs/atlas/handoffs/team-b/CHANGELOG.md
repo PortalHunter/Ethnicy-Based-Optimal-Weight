@@ -167,3 +167,8 @@ Three original-source/secondary provenance records and three targeted search rec
 ## Batch28 — 2026-11-05
 
 Added5 identities in5 previously unrepresented areas (Gabon266, Brunei096, Timor-Leste626, Palau585, FSM583),4 published-resource relationships,1 community record,13 provenance rows and10 targeted checks. Distinguished journal endorsement from article authorship, government from professional society, programme interview from guideline, and suspended own site from indexed historical content. No clinical claims approved. Node committed validator executed on baseline and prepared batch: zero structural errors (post-write output retained in checkpoint validation). Existing IDs and all source caveats preserved. Only TeamB handoff directory changed.
+
+
+## Batch29 — 2026-11-05
+
+Added2 Gibraltar charity identities in1 new area,2 SPGP externally authored English resource relationships (existing Portugal cells),13 provenance and12 targeted search/audit rows. No new source-positive area-condition cells. Verified Gibraltar registry pages visually and retained conflicting GCA footer number. Checked IRA and CMR original own publication navigation without inventing gout sources. Located final2022 breath-paper version and2019 iron-guideline correction; full clinical appraisal not done. Totals313 identities/201 areas,192 resources/182 positive cells,535 provenance,311 search logs,5 community records,2 cross-border edges. No website/main/merge changes.

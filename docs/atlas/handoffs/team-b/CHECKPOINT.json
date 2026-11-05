@@ -6,15 +6,15 @@
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
   "validated_data_commit": null,
-  "batch": 28,
+  "batch": 29,
   "metrics": {
-    "organizations": 311,
-    "areas": 200,
-    "resources": 190,
+    "organizations": 313,
+    "areas": 201,
+    "resources": 192,
     "positive": 182,
     "unresearched": 1554,
-    "provenance": 522,
-    "search_log": 299,
+    "provenance": 535,
+    "search_log": 311,
     "community": 5,
     "cross_border_edges": 2,
     "by_condition": {
@@ -29,24 +29,26 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 5,
-    "new_domiciled_areas": 5,
-    "resource_relationships": 4,
-    "source_positive_cells": 4,
+    "organization_identities": 2,
+    "new_domiciled_areas": 1,
+    "resource_relationships": 2,
+    "source_positive_cells": 0,
     "provenance_rows": 13,
-    "search_log_rows": 10,
-    "community_records": 1
+    "search_log_rows": 12
   },
   "validation_runtime": "node_cli_committed_validate_mjs",
   "node_cli_run": true,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "48 areas without domiciled identity; systematic original-language discovery across all seven streams",
+    "47 areas without domiciled identity; systematic original-language local-source discovery across all seven streams",
     "Directory-only organizations: own guidelines/publication lists and current lifecycle review",
     "1554 cells without sources: sparse gout/lactose/celiac/iron and cholesterol streams alongside diabetes/BP",
     "CWC suspended website; current governance/date continuity and BWC clinic corporate relationship pending",
     "Separate publisher domicile from organization/programme source_country in legacy context",
-    "Preserve all GAPS; no clinical approval or public website work"
+    "Preserve all GAPS; no clinical approval or public website work",
+    "ACG2019 correction contents and hosted-version incorporation; ESPGHAN2021 ahead-of-print versus2022 final version; full clinical appraisal separate",
+    "GCA footer238 vs official register283 retained conflict; Diabetes Gibraltar registry resolved but own publications unknown",
+    "IRA and CMR accessed lists do not supply gout; inspect historical or other own sources without inferring universal absence"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -60,7 +62,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch28 data awaiting immutable commit and independent readback; next metadata receipt will record exact SHA.",
+  "validated_data_commit_note": "Batch29 prepared; exact immutable SHA and readback receipt follow after commit. Batch28 a43641bef34981c77faf4d72c1a46415df0882b2 all18 files matched immutable contents/tree and revalidated zero errors.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -125,10 +127,6 @@
     {
       "m49": "262",
       "area": "Djibouti"
-    },
-    {
-      "m49": "292",
-      "area": "Gibraltar"
     },
     {
       "m49": "296",
@@ -256,9 +254,19 @@
     }
   ],
   "readback_validation": {
-    "status": "pending_for_batch28_commit",
-    "baseline_sha": "2fec11a5e585a7a3dabcb487cdac93b44f62d4fe",
-    "baseline_files_matched": 18,
-    "baseline_node_errors": 0
+    "status": "pending_for_batch29_commit",
+    "previous_batch28_sha": "a43641bef34981c77faf4d72c1a46415df0882b2",
+    "previous_files_matched": 18,
+    "previous_errors": 0
+  },
+  "previous_independently_verified_data_commit": "a43641bef34981c77faf4d72c1a46415df0882b2",
+  "session_additions": {
+    "organization_identities": 7,
+    "new_domiciled_areas": 6,
+    "resource_relationships": 6,
+    "source_positive_cells": 4,
+    "provenance_rows": 26,
+    "search_log_rows": 22,
+    "community_records": 1
   }
 }
