@@ -216,5 +216,8 @@ for(const r of sciSnapshots){assert(official.has(r.country_area_m49));assert(sou
 for(const r of sciEdges){assert(official.has(r.country_area_m49));assert.equal(r.as_of,'2026-06-09');assert.equal(r.valid_from,'');assert.equal(r.valid_to,'');assert(sources.has(r.source_url));assert(sciSnapshots.some(s=>s.country_area_m49===r.country_area_m49&&s.snapshot_as_of==='2026-06-09'));}
 assert.equal(officeCrosschecks.length,9);
 assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='day').length,4);
-assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='undated'&&r.source_published_on==='unknown').length,5);
-for(const r of officeCrosschecks){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.checked_on,'2026-11-05');assert.equal(r.source_claim_scope,'INDEPENDENT_SOURCE_CORROBORATION_NOT_SURVEY_REFRESH');assert(surveyRoster.some(s=>s.country_area_m49===r.country_area_m49&&s.latest_self_reported_survey==='2024-09'));if(r.source_date_precision==='day')assert.match(r.source_published_on,/^2026-\d{2}-\d{2}$/);}
+assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='undated'&&r.source_evidence_date==='unknown').length,5);
+for(const r of officeCrosschecks){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.checked_on,'2026-11-05');assert.equal(r.source_claim_scope,'INDEPENDENT_SOURCE_CORROBORATION_NOT_SURVEY_REFRESH');assert(surveyRoster.some(s=>s.country_area_m49===r.country_area_m49&&s.latest_self_reported_survey==='2024-09'));if(r.source_date_precision==='day')assert.match(r.source_evidence_date,/^2026-\d{2}-\d{2}$/);}
+
+// Batch 15 date-precision correction: the Montenegro WHO events page has event date, not verified publication date.
+assert(officeCrosschecks.some(r=>r.country_area_m49==='499'&&r.source_evidence_date==='2026-06-16'&&r.notes.includes('PUBLICATION_DATE_UNKNOWN')));
