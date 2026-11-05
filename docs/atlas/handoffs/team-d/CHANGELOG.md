@@ -1,3 +1,9 @@
+## 2026-11-05 — Batch 9: full time-qualified WHO office survey roster
+
+- Transcribed 153 entries from the official WHO 2026 reporting-year table; preserved 106 April 2026 / 46 September 2024 / one unavailable distinction. Explicitly retained four non-one-to-one M49 labels without synthetic joins.
+- Added 74 new April 2026 positive office-host attestations and 74 typed audit records: now 105 current office hosts and 95 typed April2026 external audits plus 10 existing SEARO assertions. Updated validator and all handoffs, without modifying historical WHO 2023 records or regional/governance metadata.
+- Source TD-SRC-113, https://data.who.int/dashboards/country-presence/country-office/office-profile-survey-reporting-year/ (checked 2026-11-05). This is office-head survey metadata, not legal or clinical authorization.
+
 ## 2026-11-05 — Batch 8: current WHO office presence expansion
 
 - Added 21 direct April 2026 WHO office survey attestations to the separate current office table, plus 21 typed source-by-source audit records. WHO regional assignments unchanged; historical 2021–2022 office/service report remains separate.

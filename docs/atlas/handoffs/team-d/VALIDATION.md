@@ -1,3 +1,7 @@
+## Batch 9 structural verification (2026-11-05)
+
+Validator now checks 153 source-labeled office survey records; 106 latest April 2026 / 46 latest September 2024 / 1 unavailable; four deliberately unmatched area-to-M49 joins; 105 distinct current affirmative office codes, 95 typed individual 2026 audit records, ten retained SEARO records. All 105 current office-host codes must appear among the official 248 UN M49 codes and among the 106 WHO April 2026 survey rows, without status contradictions. This does not turn unobserved office coverage into negative facts. The earlier historical WHO 2023 data and graph constraints remain unchanged. This GitHub connector session performed its own runtime structural tests and GitHub readback. It does **not** assert local execution of `node validate.mjs` or that GitHub Actions have succeeded.
+
 ## Batch 8 structural-check delta (2026-11-05)
 
 Data invariants added to validate.mjs: current office table 31 distinct M49 codes, preserves all 10 SEARO office attestations; 21 April 2026 WHO country-office survey audits with valid M49 and matching separately source-backed region/status; new official source TD-SRC-113 exists in provenance; total provenance 113. Other fixed baseline invariants remain 45 nodes, 542 edges, 205 verified regions, 44 unresolved and 228 historical WHO 2023 service records. **The validator script was updated and reviewed; a local `node validate.mjs` execution is not claimed by this connector-only session.** GitHub readback and connector-side structural checks are recorded in the final checkpoint.
