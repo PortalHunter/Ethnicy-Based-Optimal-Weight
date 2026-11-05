@@ -1,3 +1,11 @@
+## Most recent research — Batch 22, 2026-11-05
+
+[Complete standalone Batch 22 checkpoint](CHECKPOINT_BATCH_22_2026-11-05.md) · [Continuation prompt](CONTINUATION_PROMPT.md).
+
+The source-qualified PAHO Caribbean representative succession is in `data/paho_representative_terms_2026.csv` (**12 observations**) and Cayman HEARTS/Sint Maarten local cooperation evidence in `data/paho_local_implementation_evidence_2026.csv` (**4 observations**). Four added official PAHO URLs `TD-SRC-189–192` bring provenance to **192**. Distinguish Stein effective 22 October vs Boisson effective 29 October 2026, and do not discard the **January/February 2021 conflicting PAHO historical start months**. Indexed official article text was available but direct page access returned 403; source evidence is marked accordingly. Neither a representative's coverage nor HEARTS programme activity proves a WHO physical office, national legal policy adoption or clinically endorsed treatment. Structural validator **PASS via read-only JavaScript shim** (50 GitHub PR files, 31 inputs), not native Node/Actions/scientific signoff. Preserved 47 nodes / 616 edges, WHO 205 region assignments/44 unresolved, 105 direct April office positives and 228 separate 2021–22 service records. PR #70 is draft, unmerged.
+
+---
+
 ## Latest standalone checkpoint — Batch 21, 2026-11-05
 
 [Read the complete Batch 21 recovery handoff](CHECKPOINT_BATCH_21_2026-11-05.md). A new source-qualified 15-row WHO WER **2025 epidemiological reporting group** dataset is separated from **2026 WHO administrative region assignments**; all 44 pending WHO administrative statuses remain unchanged. Fixed a previously stale provenance-count invariant in the checked-in validator; all structural assertions **PASS in a read-only GitHub-PR-diff JavaScript replay** (47 files, 29 data inputs), not in native Node/Actions. Unique source URLs now 188; graph 47 nodes/616 edges, 105 April 2026 office hosts and 46/46 older survey independent checks unchanged. PR #70 stays draft/unmerged. No public website, clinical, legal, main or other-team edits.
