@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,46);assert.equal(edges.length,544);assert.equal(prov.length,125);
+assert.equal(nodes.length,46);assert.equal(edges.length,574);assert.equal(prov.length,133);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -165,4 +165,38 @@ assert.equal(whoBoundary[0].country_area_m49,'438');
 assert(sources.has(whoBoundary[0].source_url));
 assert.equal(statuses.find(r=>r.m49_code==='438').who_region,'not_verified');
 
-console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length},null,2));
+
+ // Batch 14 — PAHO legal participation categories versus cross-territory technical cooperation
+ const pahoGov=read('data/paho_governance_categories_2026.csv');
+ unique(pahoGov,r=>r.record_id,'PAHO category IDs');
+ unique(pahoGov,r=>r.country_area_m49,'PAHO category M49 codes');
+ assert.equal(pahoGov.length,44);
+ for(const [kind,n] of [['member_of',35],['participating_state_of',3],['associate_member_of',4],['observer_state_of',2]]){
+   assert.equal(pahoGov.filter(r=>r.relationship_type===kind).length,n);
+   assert.equal(edges.filter(r=>r.to_id==='PAHO'&&r.relationship_type===kind).length,n);
+ }
+ for(const r of pahoGov){
+   assert(official.has(r.country_area_m49));
+   assert(sources.has(r.source_url));
+   assert.equal(r.admission_date_precision,r.admission_date.length===7?'month':'day');
+   assert(edges.some(e=>e.from_id==='m49:'+r.country_area_m49&&e.to_id==='PAHO'&&e.relationship_type===r.relationship_type&&e.valid_from===r.admission_date));
+ }
+ const pahoTC=read('data/paho_technical_cooperation_2026.csv');
+ unique(pahoTC,r=>r.record_id,'PAHO technical-cooperation IDs');
+ unique(pahoTC,r=>r.country_area_m49,'PAHO technical-cooperation M49 codes');
+ assert.equal(pahoTC.length,21);
+ for(const [office,n] of [['WHO_MCO_BARBADOS',14],['WHO_MCO_JAMAICA',2],['WHO_MCO_BAHAMAS',1],['WHO_MCO_TRINIDAD',4]])
+   assert.equal(pahoTC.filter(r=>r.office_network_id===office).length,n);
+ for(const r of pahoTC){
+   assert(official.has(r.country_area_m49));assert(ids.has(r.office_network_id));assert(sources.has(r.source_url));
+   assert.equal(r.relationship_type,'receives_technical_cooperation_from');
+   assert(edges.some(e=>e.from_id==='m49:'+r.country_area_m49&&e.to_id===r.office_network_id&&e.relationship_type===r.relationship_type&&e.as_of===r.source_observed_on&&e.source_url===r.source_url));
+   assert(['PUBLISHED_DAY','UNDATED_PAGE_CHECKED'].includes(r.source_date_basis));
+ }
+ assert.equal(edges.filter(r=>r.relationship_type==='receives_technical_cooperation_from').length,21);
+ assert.equal(pahoTC.find(r=>r.country_area_m49==='663').office_network_id,'WHO_MCO_BARBADOS');
+ assert.equal(pahoTC.find(r=>r.country_area_m49==='534').office_network_id,'WHO_MCO_TRINIDAD');
+ assert.equal(statuses.find(r=>r.m49_code==='663').who_region,'not_verified');
+ assert.equal(statuses.find(r=>r.m49_code==='534').who_region,'not_verified');
+
+console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length},null,2));
