@@ -1,3 +1,11 @@
+## 2026-11-05 — Team A Batch 18 governmental health authorities
+
+- **DATA SHA `6329a090951f5e6fa518fdbfec15764e77bff94e`**: five new official-source primary identity entries **626 Timor-Leste** `gov-626-001`, **630 Puerto Rico** `gov-630-001`, **634 Qatar** `gov-634-001`, **642 Romania** `gov-642-001`, **646 Rwanda** `gov-646-001`; distinct Timor-Leste **INSP-TL** `gov-626-002` and source-limited ministerial dependency listing link. **13** issuer-specific source/provenance rows. Changes only to `data/countries.csv`, `data/country_coverage.csv`, `data/government_health_bodies.csv`, `data/authority_relationships.csv`, `PROVENANCE.csv`.
+- Totals **248** UN M49 geography, **125** identity-located / **123** unknown; **175** bodies, **40** links, **266** provenance, **248** coverage rows, **0** inferred parent M49 links. Distinguish territory and federal powers; Qatar 5 Nov 2026 food safety transfer START not completion.
+- Independent immutable six-CSV structural readback **PASS**; `validate.py` **NOT RUN** due local DNS failure. New [standalone Batch 18 checkpoint](CHECKPOINT_20261105_BATCH18.md). Existing research and older caveats untouched; PR remains DRAFT/unmerged; no website/clinical edits.
+
+---
+
 ## 2026-11-05 — Batch 17: four new principals, Portugal statutory DGS relationship
 
 - Immutable DATA SHA `14bf3f2e748d5d439bc645002592c4ae3dc2a41a`: ONLY Team A `data/countries.csv`, `data/government_health_bodies.csv`, `data/country_coverage.csv`, `PROVENANCE.csv`, `data/authority_relationships.csv`. Added Peru 604, Philippines 608, Poland 616, Portugal 620 principal identities; Portuguese DGS directorate separate, statutory direction Article 23 link; **4** principals / **5** body records / **10** source entries / **1** relationship; zero prior sources removed and zero invented parent M49.
