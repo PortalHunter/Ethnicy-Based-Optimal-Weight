@@ -66,3 +66,8 @@ Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator wi
 ## Batch 31 · 2026-11-05
 
 Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors. Verified parent: `09fd48481c10658452b8084b4d11cb7065a85866`. Independent immutable readback follows the branch update. Batch 30 source SHA 09fd48481c10658452b8084b4d11cb7065a85866 independently verified across 18 files and all ten Node CSV inputs. Batch 31 checked the image of the affected ACG page and selected sections/abstracts of other sources; no wholesale PDF or clinical review.
+
+
+## Batch 32 · 2026-11-05
+
+Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors. Verified parent: `f65ea551d832aa84dd9d486cc78b74201d33f0a9`. Independent immutable readback follows the branch update. Counts reconciled independently in Python against the ten input tables. The 120/1,414 split partitions the 1,534 source gaps. Perturbation checks target a removed search ID, a wrong state and a false resource count.

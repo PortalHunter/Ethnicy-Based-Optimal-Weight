@@ -1,8 +1,8 @@
 # Team B gaps and open questions
 
-Current checkpoint: batch22,293 identities/189 areas/175 resources/169 positive/1567 unresearched.59 areas have no identity. Historical totals below remain dated history; STATUS.md and CHECKPOINT.json supersede them. Unresolved caveats persist unless explicitly closed.
+Current counts are in [STATUS.md](STATUS.md) and [CHECKPOINT.json](CHECKPOINT.json). Historical batch totals are retained below. A caveat stays open until a later entry records the evidence that resolves it.
 
-- The 248 × 7 M49 coverage matrix is a **discovery-status skeleton**, not completed organization research. All unreviewed cells are explicitly `not_yet_researched`; never infer that a condition-specific body does not exist.
+- Each of the 1,736 area-condition cells records its linked resource count and the exact targeted search IDs available for it. Search limits and outcomes stay attached to the logged checks. Country-wide or condition-wide absence cannot be established from a zero count.
 - Current rendered UNSD overview has exact248-code match (batch9); separate direct downloadable-export comparison and WHO/legal-jurisdiction checks remain pending. The roster excludes ISO numeric 158 (Taiwan), absent from the UNSD overview. UN M49 statistical practice is not a sovereignty statement.
 - Country/area authorities in territories, areas without a permanent population, and cross-border societies require nuanced remit investigation. No fabricated society assigned.
 - Individual source relationships, governance structure, publication status, copyright and guideline currency require a second evidence review. The Diabetes Canada source currently resolves under `dev.diabetes.ca`; locate a canonical official destination.
@@ -299,3 +299,8 @@ Acceptance remains incomplete:47 areas without domiciled identity;1554 cells wit
 - Finland. Duodecim and Kustannus Oy Duodecim have distinct roles. The publishing company produced the signed Finnish lay articles on gout and hereditary iron overload. The separately verified fifth update of the Finnish BP guideline, on 21 September 2026, is the work of a group appointed by two societies. Do not transfer handbook claims, population-type assertions or clinical cutoffs to the calculator.
 - Germany. DGRh is the lead in register 060-005, version 2.1; a 2025-01 filename does not change the stated 2024 revision. IQWiG supported selected evidence work. The register host, supporting agency and guideline authors have distinct roles.
 - Portugal. The historical article appeared in the society’s official journal and received endorsement from a panel of 42 rheumatologists. Society adoption, current applicability and commercial gout campaign ownership were not established. The Portuguese government archive and Reuma.pt verify the society’s identity. The separate SPGP-hosted ACG iron guideline still displays the pre-erratum ferritin unit on printed p.1212, PDF page 11. The OHSU correction record and the page image resolve the two open version questions from batch 29. Use this entry for historical discovery only; funding, clinical criteria and all other medical appraisal remain pending.
+
+
+## Batch 32 · 2026-11-05
+
+The two zero-resource categories now distinguish a targeted search with no linked item from a cell with no matching log. Some checks were limited to a register, an inaccessible publication list or a single historical record. The complete search records preserve those differences. General identity checks in other conditions remain described in coverage notes. The old metric named unresearched counted all cells without links in batches 1–31. From batch 32, without_linked_source is the comparable series, and unresearched counts zero-link cells without a matching logged check. No new search was inferred.

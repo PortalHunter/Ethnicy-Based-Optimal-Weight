@@ -190,3 +190,12 @@ Batch 31 adds nine organizations and eleven relationships in ten previously unli
 The OHSU record of the ACG erratum specifies a ferritin-unit correction. The copy hosted by SPGP still displays the old unit on printed p. 1212 (PDF page 11). The affected discovery record now flags that passage explicitly.
 
 Two additional subnational records distinguish southern Morocco and Karachi. Two India associations share one article. Counts reflect relationships, not eleven independent studies. Earlier batch 30 data were independently re-fetched, all 18 hashes matched and the committed Node check passed.
+
+
+## Batch 32 · 2026-11-05
+
+Reconciled all 1,736 matrix cells to all 343 search records by exact M49 and condition key. Among the 1,534 cells without a link, 120 have a documented targeted check and 1,414 lack a matching condition-specific log. The 202 positive cells retain their actual resource counts.
+
+Each row now lists its exact search IDs or none_logged. The historical Monaco dissolution note and all other area-specific caveats remain available. A negative or inaccessible source check has a limited scope and does not prove absence.
+
+Added search_log_ids to the coverage matrix. The validator recomputes resource counts by relationship and verifies every matrix search reference against the exact area/condition pair; it cannot grant a covered condition from search activity alone.

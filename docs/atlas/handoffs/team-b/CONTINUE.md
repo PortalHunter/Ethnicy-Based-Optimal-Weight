@@ -1,4 +1,4 @@
-# Resume Team B · batch 31 · 2026-11-05
+# Resume Team B · batch 32 · 2026-11-05
 
 **INCOMPLETE.** Continue the assignment on `PortalHunter/Ethnicy-Based-Optimal-Weight`, branch `research/atlas-team-b-20261104`, [draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71). Verify the current PR head before using this snapshot. The original assignment, data contract and live GitHub files together are sufficient to resume.
 
@@ -18,22 +18,22 @@
 | Areas without a verified domiciled organization | 40 |
 | Resource relationships / cells with a linked resource | 214 / 202 |
 | Cells without a linked resource | 1,534 |
+| Of those, cells with / without a logged targeted check | 120 / 1,414 |
 | Provenance records / targeted search checks | 586 / 343 |
 | Community records / cross-border service edges | 7 / 2 |
 | Approved clinical claims | 0 |
 
 diabetes 72 · hypertension 23 · high_chol 23 · gout 20 · lactose 15 · celiac 31 · hemochromatosis 18.
 
-Batch 31 adds nine organizations and eleven relationships in ten previously unlinked cells. Mexico’s lactose guideline, the joint Indian biopsy consensus, Moroccan and Karachi celiac resources, the German gout guideline, historical Portuguese gout recommendations and three Finnish sources bring new coverage to five streams. Finland now has a linked source in all seven streams.
+Reconciled all 1,736 matrix cells to all 343 search records by exact M49 and condition key. Among the 1,534 cells without a link, 120 have a documented targeted check and 1,414 lack a matching condition-specific log. The 202 positive cells retain their actual resource counts.
 
-The OHSU record of the ACG erratum specifies a ferritin-unit correction. The copy hosted by SPGP still displays the old unit on printed p. 1212 (PDF page 11). The affected discovery record now flags that passage explicitly.
+Each row now lists its exact search IDs or none_logged. The historical Monaco dissolution note and all other area-specific caveats remain available. A negative or inaccessible source check has a limited scope and does not prove absence.
 
 ## Remaining work, in priority order
 
-- Reconcile logged searches with coverage states: at batch 30, 121 zero-link cells had a documented targeted check; derive the exact current count from area and condition keys.
-- Key every publication context to its exact URL and distinguish organization domicile from original issuer/publisher country. Verify attributions against existing primary evidence and label unresolved roles unknown.
-- Research the 40 areas without a domiciled identity and the 1,534 cells with no source, including Africa and Central Asia. Continue direct original-language governance and publication-list checks. The older 2014 Portugal consensus and commercial campaign have separate provenance.
-- All remaining source-specific limitations are in GAPS.md. Check Spanish lactose full text, specialist authority/editions, and community governance; clinical claim appraisal remains separate.
+- Key each publication context to its exact resource URL. Separate the issuer or journal’s publication country from organization domicile, study population and guideline jurisdiction; preserve unknowns.
+- Continue original-language source checks in the 40 areas without a domiciled identity and the 1,534 cells without a link. Use the search IDs to avoid repeating identical probes.
+- Continue source-specific verification, including original-language publication lists, legal status, cross-border reach, and community governance. Keep all seven conditions, the 14 broad-label examples and release boundaries.
 
 ## Ownership and acceptance
 

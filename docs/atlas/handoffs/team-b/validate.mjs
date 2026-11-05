@@ -18,12 +18,32 @@ for(const a of areas){ck(/^\d{3}$/.test(a[0]),"M49 format");const cs=cov.filter(
 for(const o of org){ck(am.has(o[1]),"org M49 "+o[0]);ck(o.every(Boolean),"org required metadata "+o[0]);ck([o[8],o[11]].every(u=>u.startsWith("https://")),"org URL "+o[0]);ck(prov.some(p=>p[0]===o[0]&&p[4]===o[11]),"org provenance "+o[0]);}
 for(const p of pub){const o=om.get(p[0]);ck(!!o,"pub org "+p[0]);ck(keys.includes(p[1]),"condition "+p[1]);ck(p.every(Boolean),"pub metadata "+p[0]);ck(p[2].startsWith("https://"),"pub URL "+p[0]);ck(prov.some(r=>r[4]===p[2]&&r[2]===o?.[1]),"pub provenance "+p[0]);ck(ctx.some(c=>c[0]===p[0]&&c[1]===p[1]&&c[2]===o?.[1]&&c[5]===p[6]&&c[6]==="research_lead_only"),"pub context "+p[0]);const k=o?.[1]+":"+p[1];counts.set(k,(counts.get(k)||0)+1);}
 ck(ctx.length===pub.length,"context count");for(const c of ctx){ck(om.has(c[0])&&keys.includes(c[1])&&c.every(Boolean)&&c[6]==="research_lead_only","context metadata "+c[0]);}
-for(const c of cov){const n=counts.get(c[0]+":"+c[1])||0;ck(am.has(c[0])&&keys.includes(c[1]),"coverage ref");ck(Number(c[4])===n,"findings count "+c[0]+":"+c[1]);ck(n>0?c[2]!=="not_yet_researched":c[2]==="not_yet_researched","coverage support "+c[0]+":"+c[1]);}
+const searchIdsByCell = new Map();
+for (const [id, area, condition] of search) {
+  const key = area + ":" + condition;
+  if (!searchIdsByCell.has(key)) searchIdsByCell.set(key, []);
+  searchIdsByCell.get(key).push(id);
+}
+const withoutSource = cov.filter(c => Number(c[4]) === 0);
+const targetedNoSource = withoutSource.filter(c => searchIdsByCell.has(c[0] + ":" + c[1]));
+const positiveStates = new Set(["national_or_cross_border_body_verified", "specialist_research_only"]);
+for (const [area, condition, state, , count, , logIds] of cov) {
+  const key = area + ":" + condition;
+  const n = counts.get(key) || 0;
+  const expectedIds = searchIdsByCell.get(key) || [];
+  const actualIds = logIds === "none_logged" ? [] : (logIds || "").split("|");
+  ck(am.has(area) && keys.includes(condition), "coverage reference " + key);
+  ck(String(n) === count, "findings count " + key);
+  ck(actualIds.length === expectedIds.length && new Set(actualIds).size === actualIds.length &&
+    actualIds.every(id => expectedIds.includes(id)), "coverage search references " + key);
+  const gapState = expectedIds.length ? "targeted_search_no_verified_resource" : "not_yet_researched";
+  ck(n > 0 ? positiveStates.has(state) : state === gapState, "coverage state " + key);
+}
 for(const p of prov)ck(p.every(Boolean)&&p[4].startsWith("https://"),"provenance metadata "+p[0]);
 for(const s of search)ck(am.has(s[1])&&keys.includes(s[2])&&s.every(Boolean)&&s[5].startsWith("https://"),"search metadata "+s[0]);
 for(const i of ind)ck(om.has(i[0])&&i[1]===om.get(i[0])[1],"indigenous foreign key");
 for(const e of cross){ck(e.every(Boolean)&&am.has(e[2])&&am.has(e[3])&&e[2]!==e[3],"cross-border metadata "+e[0]);ck(om.has(e[1])&&om.get(e[1])?.[1]===e[2],"cross-border organization domicile "+e[0]);ck(keys.includes(e[5])&&e[6].startsWith("https://"),"cross-border condition/source "+e[0]);ck(prov.some(p=>p[4]===e[6]&&p[2]===e[3]),"cross-border provenance "+e[0]);}
-return {errors,metrics:{organizations:org.length,areas:new Set(org.map(r=>r[1])).size,resources:pub.length,positive:counts.size,unresearched:cov.filter(r=>r[2]==="not_yet_researched").length,provenance:prov.length,search_log:search.length,community:ind.length,cross_border_edges:cross.length,by_condition:Object.fromEntries(keys.map(k=>[k,cov.filter(r=>r[1]===k&&r[2]!=="not_yet_researched").length]))}};
+return {errors,metrics:{organizations:org.length,areas:new Set(org.map(r=>r[1])).size,resources:pub.length,positive:counts.size,without_linked_source:withoutSource.length,targeted_no_source:targetedNoSource.length,unresearched:withoutSource.length-targetedNoSource.length,provenance:prov.length,search_log:search.length,community:ind.length,cross_border_edges:cross.length,by_condition:Object.fromEntries(keys.map(k=>[k,cov.filter(r=>r[1]===k&&Number(r[4])>0).length]))}};
 }
 
 function validateOverview(files,result){const a=parseCSV(files["data/m49_verified_overview.csv"]),rows=a.slice(1),codes=rows.map(r=>r[0]),known=parseCSV(files["data/m49_area_codes.csv"]).slice(1).map(r=>r[0]);if(rows.length!==248||new Set(codes).size!==248||rows.some(r=>r.length!==a[0].length)||known.some(c=>!codes.includes(c))||codes.some(c=>!known.includes(c)))result.errors.push("UNSD snapshot code-set/width mismatch");result.metrics.current_unsd_overview_codes=rows.length;return result;}
