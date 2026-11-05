@@ -19,6 +19,14 @@ for(const r of data.journals)if(!areas.has(r.publisher_area_m49))throw Error('jo
 for(const r of data.article_candidates){if(!j.has(r.journal_id)||!conditions.has(r.condition_key)||r.review_state!=='unappraised')throw Error('article reference/state');if(r.study_area_m49&&!areas.has(r.study_area_m49))throw Error('study geography');}
 for(const r of data.journal_index_relationships)if(!j.has(r.journal_id)||!idx.has(r.index_id))throw Error('relationship reference');
 if(areas.size!==248||data.coverage_by_area_condition.length!==1736)throw Error('queue count');
-console.log(JSON.stringify({result:'PASS',counts:Object.fromEntries(files.map(f=>[f,data[f].length])),provenance:prov.length-1}));
+
 
 const keys=new Set();for(const r of data.coverage_by_area_condition){const key=r.area_m49+'|'+r.condition_key;if(!areas.has(r.area_m49)||!conditions.has(r.condition_key)||keys.has(key)||r.condition_search_status!=='not_searched')throw Error('coverage reference/state');keys.add(key);}
+
+const auditRows=parse(fs.readFileSync(path.join(root,'data/geographic_field_audits.csv'),'utf8'));
+if(auditRows.some(r=>r.length!==auditRows[0].length))throw Error('audit width');
+const audit=auditRows.slice(1).map(r=>Object.fromEntries(auditRows[0].map((k,i)=>[k,r[i]])));
+unique(audit,'audit_id');unique(audit,'area_m49');
+for(const a of audit){const r=data.areas_m49.find(r=>r.area_m49===a.area_m49);if(!r)throw Error('audit geography');for(const k of ['iso_alpha2','iso_alpha3','un_region','un_subregion','un_intermediate_region'])if(a[k]!==r[k])throw Error('audit field '+k);if(a.official_area_name!==r.area_name||r.verification_state!=='official_UNSD_name_ISO_region_fields_verified')throw Error('audit name/state');}
+if(audit.length!==7||data.areas_m49.filter(r=>r.verification_state==='official_UNSD_name_ISO_region_fields_verified').length!==7)throw Error('audit verification count');
+console.log(JSON.stringify({result:'PASS',counts:Object.fromEntries(files.map(f=>[f,data[f].length])),provenance:prov.length-1,geographic_audits:audit.length}));

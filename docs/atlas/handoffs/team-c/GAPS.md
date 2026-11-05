@@ -25,3 +25,9 @@
 - MLI_MALI online ISSN 1993-0836 confirmed in ISSN registry; print record fetch 429, publisher legal identity and policies unresolved. ISSN-L alone was not used to fill print field.
 - Two Persian policy searches did not establish the Iranian primary journal policy; no negative existence conclusion follows.
 - Existing gaps 8 and 11 describe initial batches: CHL_ARS and ESP_REED identity improved in batch 5; current counterexample count is 13. Journal discovery and scientific appraisal remain separate.
+
+## 2026-11-05 batch 7 reconciliation
+- Seven Northern African geographic rows independently matched official UNSD fields (see geographic_field_audits.csv); gap 6 now applies to remaining 241 rows. This does not complete discovery in those seven areas.
+- CUB_RCE identity is now primary-registry verified. ISSN registry explicitly lists print 0864-4462; Latindex note gives 0864-4482. Preserve discrepancy; separate print-record access timed out. Online 1561-2953 confirmed. Registry lists published but this does not independently establish a current issue.
+- Latindex Directory presence is confirmed; Catalogue 2.0 is pending qualification, not acceptance. Directory last modified 2020-03-30. Its indexing list does not independently verify LILACS/SciELO membership. Direct journal policy unavailable; ethics, corrections and contemporary language/peer-review policies remain open.
+- Additional Spanish and Persian discovery did not resolve primary editorial policies. A 2023 aggregator contents page was not imported as a verified 2024 article.
