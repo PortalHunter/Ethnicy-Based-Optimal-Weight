@@ -1,5 +1,12 @@
 # Team B changelog
 
+## 2026-11-05 — Batch 44: five first-party European hypertension organizations
+
+- Indexed **Belgian Hypertension Committee**, **Nederlandse Hypertensie Vereniging**, **Sociedade Portuguesa de Hipertensão**, **Sociedad Española de Hipertensión–LELHA**, and **Polskie Towarzystwo Nadciśnienia Tętniczego** with local names, M49 domicile, identity evidence, provenance, five exact source links and publisher/population/jurisdiction contexts. +5 orgs, +0 new areas, +5 resource relations, +5 positive cells, +5 search logs, +11 provenance.
+- Authority boundaries: BHC hosts ESH translations; NHV links dated outside guidelines; SPH lists joint SPH/SPC consensus and external guidance; Spain's society publishes a **2022 announcement**, not independently inspected underlying guidance; Poland's PTNT **jointly** announces PTNT/PTK 2024 guidelines in 2025. 2026 Polish presidential election sourced separately, legal succession still open. All `research_lead_only`; 0 clinical approvals.
+- A 5-cell CSV newline/search-ID error was caught in first full-CSV validation, corrected and then **fully revalidated**; no invalid checkpoint left as final state. Immutable data commit [`0eb0b70f1102a9911588e3b1c3d427efc31a6e96`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/0eb0b70f1102a9911588e3b1c3d427efc31a6e96) passed 10/10 blob matches, nontruncated 145-entry tree, zero independent full structural errors. Actual Node CLI not run due DNS. The correction and metadata commits are traced in VALIDATION.md.
+- End: 380 orgs in 227 domiciled areas; 277 resources, 253 linked cells; 1,483 empty (128 checked, 1,355 unsearched); 778 provenance, 453 logs, 7 community, 8 cross-border, 5 unresolved issuers. No public website, other team files, main or PR merge.
+
 ## 2026-11-05 — Batch 43: five original-language hypertension organizations
 
 - Added five source-backed professional bodies in Denmark, France, Germany, Italy and the UK, with exactly five typed publication URLs and issuer/population/jurisdiction contexts. +5 first-positive hypertension cells, +10 provenance rows and +5 targeted checks; 0 new domiciled areas.
