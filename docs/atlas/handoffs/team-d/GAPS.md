@@ -1,3 +1,14 @@
+## Batch 15 unresolved — 2026-11-05
+
+- New WHO Europe SCI 2026 source lists twelve members including North Macedonia; 2022 WHO initiative video metadata tags eleven without North Macedonia. Historical video tags are NOT a comprehensive roster and do not establish nonmembership or exact admission date. Seek an official dated admission instrument.
+- Nine separate WHO country-office source checks DO NOT replace the 46 September 2024 self-reported survey responses. Four 2026-dated office activity or inauguration notices are distinct from five undated WHO pages; no annual survey refresh or physical office continuity inferred.
+- Full revised checked-in validator execution via native Node or full JS filesystem shim remains PENDING. Only targeted in-memory data checks and live GitHub readback were performed for Batch 15.
+- Existing priorities still outstanding: 44 WHO region unknowns, 144 areas without affirmative 2026 survey host attestation, PAHO 13-versus-14 Eastern Caribbean source disagreement, primary regulator agreements/statutes, APPM named signatories, HEARTS national adoption, ASEAN implementation, exact Team A/B/C organization joins.
+
+Standalone checkpoint: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-d-20261104/docs/atlas/handoffs/team-d/CHECKPOINT_BATCH_15_2026-11-05.md
+
+---
+
 ## Batch 14 follow-up gaps — 2026-11-05
 
 - **PAHO 13-versus-14 Eastern Caribbean source discrepancy:** PAHO's undated office overview names 13 service areas; a dated **2026-08-24** PAHO representative announcement adds **French Saint Martin (M49 663)** to the named service-coverage list. Neither provides a reliable service-effective date. Verify current controlling roster with PAHO itself; do not conflate French Saint Martin with **Dutch Sint Maarten (M49 534)**, listed under Trinidad/Dutch Caribbean service. The BES islands remain one combined UN M49 535 area.

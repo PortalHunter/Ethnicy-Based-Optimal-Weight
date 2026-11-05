@@ -1,3 +1,9 @@
+## 2026-11-05 — Batch 15 SCI and WHO office source audit
+
+Data commit 163c3ed821b44692c6ce678bcb27c7745b7e1890 added one WHO Europe Small Countries Initiative node, 12 explicit June 2026 country-to-initiative links, 23 separated old video topic and 2026 roster observations, nine independently sourced WHO office checks, and 12 additional primary WHO URLs (TD-SRC-134–145). New totals: 47 nodes, 586 graph edges, 145 source URLs. No update to April 2026/September 2024 survey values or 2021–2022 historical observations. Post-commit GitHub readbacks and targeted data integrity checks pass; full native Node validation not executed. Standalone handoff: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-d-20261104/docs/atlas/handoffs/team-d/CHECKPOINT_BATCH_15_2026-11-05.md. PR #70 open/draft/unmerged; site/main/other teams not touched.
+
+---
+
 ## 2026-11-05 — Batch 14: PAHO categorical governance and Caribbean cooperation
 
 - Data and structural validation commit `6c86061d9b6742780aa8badf95a6a596d6aae1a7`; added `data/paho_governance_categories_2026.csv` (44 official PAHO category observations) and `data/paho_technical_cooperation_2026.csv` (21 PAHO/WHO office cooperation-area observations).

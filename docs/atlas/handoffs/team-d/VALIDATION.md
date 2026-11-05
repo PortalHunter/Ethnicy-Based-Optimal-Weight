@@ -1,3 +1,9 @@
+## Batch 15 validation boundary — 2026-11-05
+
+Research and edited validator SHA: 163c3ed821b44692c6ce678bcb27c7745b7e1890. Pre-commit in-memory CSV parsing and checks passed for field widths, 47/586/145 counts, 23 SCI snapshots, nine office checks, unique source IDs/URLs and typed-edge composite keys, SCI M49 crosswalk identity, and nine matches to retained September 2024 survey areas. GitHub read back each of the six modified research/validator files; compare_commits found only those six Team D paths. WARNING: This is NOT a full run of the updated checked-in validate.mjs (neither native Node nor full JS shim), and it does not supersede Batch 14's historical full shim result. In a Node checkout run: node docs/atlas/handoffs/team-d/validate.mjs. No legal/clinical acceptance is claimed. See https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-d-20261104/docs/atlas/handoffs/team-d/CHECKPOINT_BATCH_15_2026-11-05.md
+
+---
+
 ## Batch 14 structural test and readback — 2026-11-05
 
 **Research and validator SHA:** `6c86061d9b6742780aa8badf95a6a596d6aae1a7`. 23 CSV inputs reconstructed from the complete 36-file GitHub PR diff; all checked-in `validate.mjs` assertions **PASS** before data write and again on the committed PR diff through a **read-only JavaScript filesystem shim**. Full result: 46 nodes, **574** typed edges, 20 seven-key institutional condition discovery records, 249 area candidates/248 M49 authoritative rows, 205 WHO region verified/44 unverified, 105 April 2026 affirmative office hosts, 153 mixed-date office survey source records, 228 historical WHO service records/225 historical edges, 34 EMA NCA candidates, 24 PAHO pathway catalog titles, 5 aggregates, 19 regulator agreement reports, one WHO Liechtenstein boundary, 44 PAHO governance rows, 21 PAHO service entries, **133** unique provenance URLs.

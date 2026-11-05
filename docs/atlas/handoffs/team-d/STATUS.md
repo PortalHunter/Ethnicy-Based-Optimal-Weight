@@ -1,3 +1,11 @@
+## Latest Team D state — Batch 15 (2026-11-05)
+
+Full standalone current research handoff: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-d-20261104/docs/atlas/handoffs/team-d/CHECKPOINT_BATCH_15_2026-11-05.md
+
+Data+validator commit 163c3ed821b44692c6ce678bcb27c7745b7e1890. Now 47 institutional nodes, 586 typed relationships, 145 verified-source URLs. Batch adds 12 source-dated WHO Europe Small Countries Initiative cooperation edges, 23 distinct 2022-video-tag/2026-roster records, and nine independent WHO office source checks for countries with retained September 2024 surveys. Four office checks cite publications dated 2026; five cite undated WHO pages. WHO 205 verified/44 unknown region assignments; 105 direct April 2026 office hosts; 46 retained 2024 surveys; 228 historical Jan 2021–Dec 2022 service records unchanged. Targeted CSV integrity checks and post-commit GitHub readback succeeded. Updated native Node full regression NOT executed. PR #70 remained draft and unmerged after writes. Details and open limitations in standalone Batch 15 checkpoint.
+
+---
+
 ## Latest checked status — Team D Batch 14 (2026-11-05)
 
 Data+validator commit `6c86061d9b6742780aa8badf95a6a596d6aae1a7`. **46 network nodes / 574 typed source-stamped edges**; **133 unique provenance URLs**. New: **44 PAHO formal participation statuses** (35 full-member, 3 participating, 4 associate, 2 observer), **21 PAHO/WHO regional technical-cooperation coverage entries** (14 Barbados/ECC, 2 Jamaica, 1 Bahamas, 4 Trinidad/Dutch Caribbean), and **30 added graph relationships**. PAHO service coverage is not local WHO office presence or PAHO membership. French Saint Martin 663 versus Dutch Sint Maarten 534 are explicitly distinct; PAHO dated August 2026 14-place ECC roster versus undated 13-place page remains a bounded source discrepancy. Eight new PAHO URLs TD-SRC-126–133 are flagged as indexed official pages with direct HTTP-403 retrieval limitations.

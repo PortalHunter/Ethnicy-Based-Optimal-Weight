@@ -1,3 +1,13 @@
+# Newest standalone Team D handoff — Batch 15 (2026-11-05)
+
+The current complete standalone checkpoint is CHECKPOINT_BATCH_15_2026-11-05.md:
+
+https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-d-20261104/docs/atlas/handoffs/team-d/CHECKPOINT_BATCH_15_2026-11-05.md
+
+The Batch 14 material retained below is a HISTORICAL checkpoint. Batch 15 adds WHO Europe SCI date-separated roster evidence (12 current participation edges, 23 older/current source observations), nine WHO office source checks (four dated 2026, five undated), and twelve new first-party URLs. Current totals: 47 network nodes, 586 typed links, 145 provenance URLs. Revised checked-in validator has not been fully executed for this batch. All earlier historical/current boundaries remain applicable. Fetch live branch head before writing.
+
+---
+
 # Standalone Team D checkpoint — Batch 14 (2026-11-05)
 
 **Project:** Ancestry Health — independently sourced cross-border health-authority research, not a diagnostic or clinical recommendation engine.
