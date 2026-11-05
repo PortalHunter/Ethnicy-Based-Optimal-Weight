@@ -1,6 +1,6 @@
 # Team B research status — 2026-11-05
 
-## Latest: Batch 8
+## Historical batch 8 snapshot (superseded below)
 
 **INCOMPLETE — active organization and resource discovery.** Geographic matrix is a skeleton, not a completed census. No clinical claims approved.
 
@@ -33,3 +33,11 @@ Continue African/Asian and territory discovery, parallel seven-condition stream 
 ## Validation
 
 validate.mjs core evaluated in orchestration runtime against all eight CSV tables: zero structural failures. Node CLI entry is provided for reproduction, not yet independently run in this session. Counts, keys, joins, metadata, URL syntax and source support checked. This is not a scientific or legal identity audit. Main and live calculator untouched. Historical batch snapshots are retained in Git history and CHANGELOG.md.
+
+## Latest: Batch 9 — 2026-11-05
+
+**132 organizations in 91 areas, 101 resources, 95 source-positive cells, 1641 unresearched cells, 236 provenance rows, 42 logged targeted searches, 3 community-specific records; zero clinical approvals.** Adds 20 identities and 6 first-party resources across Africa and South/Southeast Asia. Most directory-only identities still need original-publication discovery; association presence is not a completed condition search. Country-script legal names remain unverified for several English-source identities.
+
+**UNSD roster check completed at current rendered-table level:** exact 248-code set, zero missing/extra codes. data/m49_verified_overview.csv saves the English official table's names/ISO/geographic fields. This is an independently extracted rendered-table snapshot, not a direct downloadable-export diff or WHO/jurisdiction audit. Old pending code-set statements are superseded at this level.
+
+Batch 8 saved/read back: 1ad107d58d5017a0225a2180123232b25a385237. Latest checkpoint is commit containing this section. validate.mjs core checked all nine CSVs with zero errors; Node CLI not separately executed. Continue until original scope completed; still 157 areas without organization identities and 1641 condition cells without resources. Full global research remains incomplete.

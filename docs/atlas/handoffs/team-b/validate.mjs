@@ -1,4 +1,4 @@
-// Team B structural checks. No scientific appraisal or live link checks.
+// Team B structural checks; no live URL/clinical appraisal.
 import fs from "node:fs";
 import path from "node:path";
 import {fileURLToPath} from "node:url";
@@ -24,8 +24,12 @@ for(const s of search)ck(am.has(s[1])&&keys.includes(s[2])&&s.every(Boolean)&&s[
 for(const i of ind)ck(om.has(i[0])&&i[1]===om.get(i[0])[1],"indigenous foreign key");
 return {errors,metrics:{organizations:org.length,areas:new Set(org.map(r=>r[1])).size,resources:pub.length,positive:counts.size,unresearched:cov.filter(r=>r[2]==="not_yet_researched").length,provenance:prov.length,search_log:search.length,community:ind.length,by_condition:Object.fromEntries(keys.map(k=>[k,cov.filter(r=>r[1]===k&&r[2]!=="not_yet_researched").length]))}};
 }
+
+function validateOverview(files,result){const a=parseCSV(files["data/m49_verified_overview.csv"]),rows=a.slice(1),codes=rows.map(r=>r[0]),known=parseCSV(files["data/m49_area_codes.csv"]).slice(1).map(r=>r[0]);if(rows.length!==248||new Set(codes).size!==248||rows.some(r=>r.length!==a[0].length)||known.some(c=>!codes.includes(c))||codes.some(c=>!known.includes(c)))result.errors.push("UNSD snapshot code-set/width mismatch");result.metrics.current_unsd_overview_codes=rows.length;return result;}
+
 const root=path.dirname(fileURLToPath(import.meta.url));
-const paths=["data/m49_area_codes.csv","data/specialist_organizations.csv","data/condition_organizations.csv","data/publication_context.csv","data/coverage_by_area_condition.csv","data/subnational_and_indigenous_organizations.csv","PROVENANCE.csv","data/search_log.csv"];
-const result=validate(Object.fromEntries(paths.map(p=>[p,fs.readFileSync(path.join(root,p),"utf8")])));
+const paths=["data/m49_area_codes.csv","data/specialist_organizations.csv","data/condition_organizations.csv","data/publication_context.csv","data/coverage_by_area_condition.csv","data/subnational_and_indigenous_organizations.csv","PROVENANCE.csv","data/search_log.csv","data/m49_verified_overview.csv"];
+const files=Object.fromEntries(paths.map(p=>[p,fs.readFileSync(path.join(root,p),"utf8")]));
+const result=validateOverview(files,validate(files));
 console.log(JSON.stringify(result,null,2));
 if(result.errors.length)process.exitCode=1;

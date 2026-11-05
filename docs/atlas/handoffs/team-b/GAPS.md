@@ -92,3 +92,14 @@ These examples flag *metadata and study-transportability errors* to check; they 
 - Italian AIC condition-page counters rendered as zeros while linking 2024 Ministry report; zero is a rendering artifact, not epidemiological data. No prevalence figures imported. Austrian handbook/member content not fully read or copied.
 - Malta diagnosis child page yielded no substantive body; only homepage guide catalogue indexed. Andorra clinical percentages/terminology remain unappraised. HLA predisposition is not confirmed disease.
 - 1647 cells remain without source resources. Newly logged access attempts do not prove absence of societies or research.
+
+## Batch 9 — Africa / South Asia / current geography check
+
+- Official English UNSD rendered table independently extracted: 248 unique codes, exact match to retained roster. Reproducible snapshot saved. Historical pending numeric code-set gap resolved for rendered overview; separate downloadable-export comparison and ISO/WHO/legal assignment review not performed.
+- DRC AVDC is based in Kinshasa: M49 180, not Congo 178. Do not transfer jurisdiction based on the ambiguous word Congo.
+- Botswana own-site history launch 2005 vs IDF profile 2004 unresolved; patient page cutoffs require clinical appraisal. Ethiopian own-site 502; Eswatini wordpress inaccessible; Mali/Madagascar/Togo/Seychelles/Burundi/Eritrea/Mauritania/Zimbabwe/DRC remain directory-led without original resource claims.
+- Eswatini WDF22-1864 lists CHAI, not Diabetes eSwatini, as partner; rejected proposed linkage. IDF country-page adult/case figures also appeared inconsistent; no epidemiological numbers imported.
+- Mauritius T1 Diams source is type 1-specific; does not fill type 2 ancestry evidence or authorize diagnostic thresholds.
+- Nepal DEAN and Nepal Diabetes Association retained separately. DEAN hosts named members' article list, not sole society authorship. Bhutan narrow association query returned studies without a verified in-scope society; not a comprehensive negative search.
+- Maldives listed dsmaldives.org inaccessible; unlinked staging-looking dsm.vortxlab.com and conflicting IDF-join years not used to establish first-party identity. Native-script legal association names remain unverified where English directory identity is retained.
+- Bangladesh catalogue lists dietary guidelines without verified underlying date/full text. Myanmar public article index includes Burmese content, not all articles fully read. Sri Lankan investigator summary describes young urban volunteers and a funded KCL collaboration, not country-wide or ancestry-specific effects; full trial methods/registration appraisal pending.

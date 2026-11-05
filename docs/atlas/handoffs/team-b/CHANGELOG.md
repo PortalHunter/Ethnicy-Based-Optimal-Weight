@@ -56,3 +56,10 @@
 - Distinguished two Belgian language-community associations; Czech ministry-supported education from government authorship; Danish external government guide; DZG external DGVS/ESPGHAN links; Italian Ministry report and broken dynamic counters.
 - Refreshed STATUS.md to show current rather than historical counts first. Prior snapshots remain in history.
 - Validation core evaluated against eight CSVs: 0 failures; 112 identities/72 areas/95 resources/89 positive/1647 unresearched/209 provenance/20 logged searches.
+
+## 2026-11-05 — Batch 9
+
+- Added 20 organization identities (19 new areas), six first-party condition resources and 22 targeted-search log entries. Distinguished 14 directory-only identities from six resource-bearing official organizations.
+- Rejected unsupported Eswatini project partner attribution; separated Kinshasa DRC from Republic of Congo; preserved two Nepal bodies, Maldives site uncertainty and Botswana launch-date disagreement.
+- Independently extracted all 248 English UNSD overview rows; exact code-set equality to retained roster, zero missing/extra/duplicates. Added normalized source snapshot and validator assertion; updated roster check state without claiming direct export verification.
+- Nine-CSV structural validator core: zero failures; totals 132 identities/91 areas/101 resources/95 positive/1641 unresearched/236 provenance/42 searches.
