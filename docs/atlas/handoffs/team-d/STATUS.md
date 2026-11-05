@@ -1,3 +1,7 @@
+## Final GitHub-verified checkpoint (2026-11-05)
+
+Full standalone restart: `CHECKPOINT_2026-11-05.md`; validated data snapshot `43b1743a1d01be065530c0a0c2b1996fcc9a5986`. All changed Team D files read back from GitHub, source counts and historical-versus-current distinctions preserved; 17-dataset structural assertion run PASS (not a literal Node CLI run). See latest Batch 10 overview immediately below.
+
 # Team D — Batch 10 checkpoint, 2026-11-05
 
 New EMA roster: **34 official-directory NCA identity candidates in 30 EU/EEA jurisdictions**. Country multiplicity: Germany 2, Netherlands 3, Poland 2; per-agency statutory and exact Team A joins pending. **114 provenance URLs**, graph still **45 nodes and 542 edges**. WHO research unchanged: 205 verified/44 unknown region assignments, 153 time-qualified 2026 dashboard office roster entries (106 April 2026, 46 retained September 2024, one unavailable), **105** affirmative April-2026 office-host codes; 144 seed areas lacking affirmative current evidence, not absent. 228 separate historical WHO service records. PR #70 stays draft and unmerged; no website or clinical changes.

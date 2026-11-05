@@ -1,3 +1,7 @@
+## Final verified restart checkpoint — 2026-11-05
+
+Read `CHECKPOINT_2026-11-05.md` first for a self-contained evidence inventory, 17-CSV structural pass, exact data-snapshot SHA `43b1743a1d01be065530c0a0c2b1996fcc9a5986`, unresolved work and the same original continuation prompt. That document is created in a later documentation-only commit; **always discover the latest live branch head** rather than treat the data snapshot as the branch tip.
+
 # Ancestry Health — Research Team D autonomous continuation
 
 Continue source-verified cross-border health authority research in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight. GitHub is authoritative. At every resume, independently retrieve the live branch head, PR #70 metadata, latest committed Team D handoff, and all source/data artifacts; live state supersedes this fallback.

@@ -1,3 +1,7 @@
+## Final Batch 10 GitHub-snapshot structural execution — 2026-11-05
+
+Snapshot `43b1743a1d01be065530c0a0c2b1996fcc9a5986`: **PASS**, with 17 GitHub-hosted CSV inputs evaluated by executing the checked-in `validate.mjs` assertions under an isolated JavaScript read-only-file shim. Output: 45 nodes, 542 edges, 20 condition keys, 249 statuses, 248 UN crosswalk, 1 seed exception, 205 verified/44 unverified regions, 105 current positive offices, 95 typed 2026 audits, 153 time-qualified office survey rows, 34 EMA NCA identity candidates, 228 historical office/service rows, 225 historical edges, 114 provenance records. GitHub readback of all 13 changed data/docs paths succeeded. **No literal Node CLI invocation or GitHub Actions success asserted.** See `CHECKPOINT_2026-11-05.md`.
+
 ## Batch 10 structural checks (2026-11-05)
 
 Added 34 unique EMA-listed authority/country candidates, exactly 30 official M49 geographic joins, Germany 2 / Netherlands 3 / Poland 2, source validity, and mandatory unresolved statutory remits and Team A identity states. Provenance is 114; existing WHO historical/current, graph and seven-condition checks remain active. Execute validation at the final saved SHA; no Node CLI run is claimed merely from this edit.
