@@ -1,5 +1,14 @@
 # Team B changelog
 
+## 2026-11-05 — Batch 42: original-source lactose indexing, new Chile/NZ societies
+
+- Added independently identified [Coeliac New Zealand](https://coeliac.org.nz/associated-conditions/) and [Sociedad Chilena de Gastroenterología](https://sociedadgastro.cl/gastroweb/documentos/2021/Congreso_pacientes_programa_2.pdf) (+2 organizations, no new M49 domicile).
+- Linked 5 original first-party lactose materials (Coeliac Australia, Coeliac UK, FACE Spain, Coeliac New Zealand and Chilean society historic educational programme). Chile becomes newly source-positive for lactose; all sources still research leads only. Society programme does **not** demonstrate completed event or verified clinical guidance.
+- Added five condition search logs and seven provenance records; corrected the two new organization identity IDs to meet validator foreign-key requirements.
+- **Verified data commits:** [source batch `8136a5710150566ddc12ef938967fb15c7f7461b`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/8136a5710150566ddc12ef938967fb15c7f7461b), [provenance-ID correction `db5b050d6a9139959e5ced1cecfefe0828b5eb4d`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/db5b050d6a9139959e5ced1cecfefe0828b5eb4d).
+- Immutable GitHub readback: 10/10 CSV blob SHA matches, nontruncated tree; full structural JS-equivalent check **0 errors**. Node CLI unavailable due direct GitHub DNS failure; no medical claim or license approval.
+- Final 370 organizations / 227 areas, 267 resource relationships / 243 positive cells, 1,493 zero-source cells (128 with a targeted no-source check, 1,365 unchecked), 757 provenance, 443 logs. Leave PR as draft and unmerged; all edits in Team B directory.
+
 ## 2026-11-05 — Batch 41: first-party society outreach, Saint Lucia press and Mexican gout issuer provenance
 
 - Verified first-party Côte d'Ivoire AODCI 2021 activity archive for historic local diabetes and hypertension screening (two conditions on the same source, not two studies), SLDHA 2025 published diabetes education press brief, and undated Trinidad and Tobago DATT screening blog. All publication-role and temporal caveats retained.

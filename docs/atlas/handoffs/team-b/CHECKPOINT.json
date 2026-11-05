@@ -5,18 +5,18 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "1c323d266f523967c538dd58ee4bb690044b5332",
-  "batch": 41,
+  "validated_data_commit": "db5b050d6a9139959e5ced1cecfefe0828b5eb4d",
+  "batch": 42,
   "metrics": {
-    "organizations": 368,
+    "organizations": 370,
     "areas": 227,
-    "resources": 262,
-    "positive": 242,
-    "without_linked_source": 1494,
+    "resources": 267,
+    "positive": 243,
+    "without_linked_source": 1493,
     "targeted_no_source": 128,
-    "unresearched": 1366,
-    "provenance": 750,
-    "search_log": 438,
+    "unresearched": 1365,
+    "provenance": 757,
+    "search_log": 443,
     "community": 7,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
@@ -26,19 +26,19 @@
       "hypertension": 32,
       "high_chol": 26,
       "gout": 25,
-      "lactose": 17,
+      "lactose": 18,
       "celiac": 34,
       "hemochromatosis": 20
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 0,
+    "organization_identities": 2,
     "new_domiciled_areas": 0,
     "resource_relationships": 5,
-    "source_positive_cells": 5,
-    "provenance_rows": 6,
-    "search_log_rows": 7,
+    "source_positive_cells": 1,
+    "provenance_rows": 7,
+    "search_log_rows": 5,
     "community_records": 0,
     "cross_border_edges": 0
   },
@@ -46,14 +46,12 @@
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Audit first-party original-language guideline and research listings, with historical-vs-current lifecycle: 21 remaining M49 areas lack eligible domiciled identity.",
-    "Search 1366 unlinked condition cells without a targeted check; do not infer national absence, population prevalence or ancestry-based risk from blank cells.",
-    "Address sparse lactose (17), hereditary hemochromatosis (20), gout (25) and high_chol/FH (26) streams using first-party local material, with diagnostic subtypes distinct.",
-    "Resolve five existing edition-specific issuer-country unknowns using primary published-edition evidence; maintain source issuer vs organization domicile vs study sample and jurisdiction.",
-    "Primary registry corroboration for Le Coeur de Saint Barth seat 663/target service 652 and operating status; find M-CRIN own papers/governance distinct from Monaco public CSM.",
-    "Follow up 2026 Mexico CG030 gout conference abstract's n=68 versus 67 summed risk classifications using original author/edition evidence before any quantitative synthesis.",
-    "Do not carry 2021 AODCI activities, undated Trinidad blog or 2025 SLDHA press claims forward as present-day guideline evidence; verify external statistics separately.",
-    "Preserve 14 broad-label misclassification examples and community permissions; all claims research_lead_only pending #27."
+    "Search 1365 no-targeted-search zero-resource cells; do not turn unsearched into evidence of national absence.",
+    "Investigate 21 undomiciled areas with independent first-party identities and strict based-in versus serves distinctions.",
+    "Resolve five edition-specific issuer-country unknowns without conflating publisher, host, sample, jurisdiction, ancestry.",
+    "Preserve historic/current distinctions: NDF Jan 2026 cessation, Monaco dissolution/M-CRIN, Côte d'Ivoire 2021 AODCI, Trinidad blog, Saint Lucia 2025/2026 activity and Mexico CG030 n=68 vs 67.",
+    "Differentiate primary lactase non-persistence/secondary intolerance, FH versus general LDL, genetic hemochromatosis versus ferritin, gout versus asymptomatic urate.",
+    "Maintain community permissions and 14 anti-generalization cases. No clinical release pending issue #27."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -156,17 +154,16 @@
   ],
   "readback_validation": {
     "status": "passed",
-    "verified_data_sha": "1c323d266f523967c538dd58ee4bb690044b5332",
-    "verified_tree_sha": "9a9f6209dd394ac659690c36c1140da71bb820ce",
+    "verified_data_sha": "db5b050d6a9139959e5ced1cecfefe0828b5eb4d",
     "tree_truncated": false,
     "files_matched": 10,
     "validated_csv_inputs": 10,
-    "validation_runtime": "connector_javascript_equivalent_prewrite_and_independent_immutable_readback_reconciliation",
+    "validation_runtime": "independent_connector_orchestrated_javascript_full_structural_equivalent",
     "node_cli_run": false,
     "structural_errors": 0,
-    "scope": "Prewrite full validator-equivalent structural checks; immutable readback 10/10 CSV Git blob matches, and independent counts/resource/context/search join checks. Does not prove clinical results, guideline validity, current status, licenses, copyright or community permission."
+    "scope": "All ten immutable CSVs matched exact nontruncated tree blobs; full organization/resource/provenance/context/coverage/search/UN M49/community/cross-border checks. Not a clinical/rights/currentness review."
   },
-  "previous_independently_verified_data_commit": "1d7f0a326be34482b782ef704bb57b84f29677ec",
+  "previous_independently_verified_data_commit": "1c323d266f523967c538dd58ee4bb690044b5332",
   "session_additions": {
     "organization_identities": 3,
     "new_domiciled_areas": 3,
@@ -182,14 +179,15 @@
     "37": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
     "38": "34ecd66b59c24da0b15ed321bc76b8d01a758c70",
     "40": "1d7f0a326be34482b782ef704bb57b84f29677ec",
-    "41": "1c323d266f523967c538dd58ee4bb690044b5332"
+    "41": "1c323d266f523967c538dd58ee4bb690044b5332",
+    "42": "db5b050d6a9139959e5ced1cecfefe0828b5eb4d"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "248 areas and 1736 explicit cells verified; geographic matrix structurally met",
-    "source_population_jurisdiction": "262/262 relationships have separate issuer-country, study-population and healthcare-jurisdiction fields; five unresolved issuer countries; specific source validity requires further appraisal",
-    "disease_subtypes_and_release": "All seven streams retain disease subtype and ancestry/phenotype distinctions; zero approved claims; all resources research_lead_only",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 missing domiciled identities; 1494 zero-source cells, 1366 without targeted condition searches. First-party 2021 outreach, 2025 press brief and 2026 congress abstract have narrow historical/issuer caveats.",
-    "diversity_examples": "14 preserved broad-label non-generalization cases in GAPS.md"
+    "m49_area_condition_roster": "Structurally met 248×7 cells",
+    "source_population_jurisdiction": "267/267 resource contexts separate issuer, sample and healthcare jurisdiction; 5 issuer countries unresolved",
+    "disease_subtypes_and_release": "Seven streams with phenotype/genotype caution; all research_lead_only, 0 approved",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete, 21 missing domicile identities, 1365 cells lack targeted searches; original-source lifecycle and supersession audits remain",
+    "diversity_examples": "14 preserved in GAPS.md"
   },
   "batch40_sources": [
     {
@@ -263,5 +261,48 @@
     "B-TT-DATT-DM-B41",
     "B-MX-CMR-GOUT-B41",
     "B-IN-IRA-GOUT-B41"
+  ],
+  "batch42_sources": [
+    {
+      "org_id": "B-AU-COELIAC",
+      "condition": "lactose",
+      "url": "https://coeliac.org.au/article/lactose-intolerance/",
+      "state": "own patient education not guideline"
+    },
+    {
+      "org_id": "B-GB-COELIAC",
+      "condition": "lactose",
+      "url": "https://www.coeliac.org.uk/about-coeliac-disease/related-conditions/lactose-intolerance/",
+      "state": "own patient education not guideline"
+    },
+    {
+      "org_id": "B-ES-FACE",
+      "condition": "lactose",
+      "url": "https://celiacos.org/enfermedad-celiaca/enfermedades-asociadas/",
+      "state": "original Spanish association education not a diagnostic guideline"
+    },
+    {
+      "org_id": "B-NZ-CNZ",
+      "condition": "lactose",
+      "url": "https://coeliac.org.nz/associated-conditions/",
+      "state": "own first-party patient education; new organizational identity legal status not audited"
+    },
+    {
+      "org_id": "B-CL-SCHG",
+      "condition": "lactose",
+      "url": "https://sociedadgastro.cl/gastroweb/documentos/2021/Congreso_pacientes_programa_2.pdf",
+      "state": "historical scheduled educational talk, PDF text only/screenshot failed, not a verified event or guideline"
+    }
+  ],
+  "batch42_source_commits": {
+    "source_batch": "8136a5710150566ddc12ef938967fb15c7f7461b",
+    "provenance_correction": "db5b050d6a9139959e5ced1cecfefe0828b5eb4d"
+  },
+  "batch42_added_search_ids": [
+    "B-AU-COELIAC-LACTOSE-SEARCH-B42",
+    "B-GB-COELIAC-LACTOSE-SEARCH-B42",
+    "B-ES-FACE-LACTOSE-SEARCH-B42",
+    "B-NZ-CNZ-LACTOSE-SEARCH-B42",
+    "B-CL-SCHG-LACTOSE-SEARCH-B42"
   ]
 }

@@ -1,5 +1,13 @@
 # Team B validation history
 
+## Batch 42 · immutable data commit `db5b050d6a9139959e5ced1cecfefe0828b5eb4d` · 2026-11-05
+
+- At write: PR #71 open/draft/unmerged, expected branch `research/atlas-team-b-20261104`. Batch source commit `8136a5710150566ddc12ef938967fb15c7f7461b` updated six Team B CSV files; subsequent `db5b050d6a9139959e5ced1cecfefe0828b5eb4d` corrected two new organization-provenance IDs. No public site, formulas, main, or other team touched.
+- At readback: fetched **all 10 CSVs by immutable SHA**. The Git tree was **nontruncated**; **10/10 content blob SHAs matched**, 0 mismatches.
+- Independently parsed all ten CSVs and ran checked-in Node-validator-equivalent JavaScript checks across 248 M49 codes, 1,736 seven-condition cells, unique IDs, 370 orgs and provenance matches, 267 exact publication/context joins and issuer bases, all search-log-to-coverage IDs, 7 community and 8 cross-border foreign keys. **Zero errors**. 757 provenance; 443 search logs. Five issuer countries remain unknown; 0 approved clinical claims.
+- Coeliac-linked lactose source materials are educational, not original independent clinical studies. The Chilean 2021 programme is a **historical scheduled talk**; the original PDF text was retrieved but the web screenshot returned an error, so **no visual inspection is claimed**.
+- **Actual Node CLI was NOT run**: Node exists in the local container, but GitHub cloning fails DNS resolution and the connected GitHub files cannot be shared directly into that container. No URL-wide recrawl, quantitative claim appraisal, legal/copyright or Indigenous permission audit was performed.
+
 ## Batch 41 · data commit `1c323d266f523967c538dd58ee4bb690044b5332` · 2026-11-05
 
 - The existing PR #71 was checked **open, draft, unmerged** with expected parent `c6c231f90e7cc811caef646bc7ea16d6e2785b7c`. Five CSVs updated as one Git tree/commit with expected-head lease; no other project paths changed.
