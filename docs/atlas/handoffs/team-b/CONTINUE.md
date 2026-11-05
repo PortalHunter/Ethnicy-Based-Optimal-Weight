@@ -37,3 +37,8 @@ Read new data/search_log.csv and validate.mjs as well as previous handoffs/datas
 ## Superseding Batch 10 checkpoint
 
 {"organizations":152,"areas":93,"resources":123,"positive":117,"unresearched":1619,"provenance":278,"search_log":64,"community":3,"by_condition":{"diabetes":46,"hypertension":12,"high_chol":6,"gout":9,"lactose":5,"celiac":23,"hemochromatosis":16},"current_unsd_overview_codes":248}. Still incomplete. Batch9 f1af53ee2d44347fee639063dad7c404be231c81 saved and read back. Twenty identities and22 relationships diversified iron overload/gout/lactose. Read all new GAPS and source metadata; do not repeat completed discovery. Current UNSD248 overview check passed, scientific appraisal not done. Continue remaining geographic/seven-stream gaps, preserving provisional identities. No main/calculator/medical recommendation changes. Commit further validated batches, regenerate complete recursive prompt and update same draftPR71.
+
+
+## Superseding Batch11
+
+{"organizations":172,"areas":101,"resources":137,"positive":131,"unresearched":1605,"provenance":312,"search_log":85,"community":3,"by_condition":{"diabetes":46,"hypertension":13,"high_chol":19,"gout":9,"lactose":5,"celiac":23,"hemochromatosis":16},"current_unsd_overview_codes":248}. Still incomplete. Batch10 c6e0622855eddb731c52e18e3d21d36e4fd25308 saved/readback. Current FHEF roster supersedes old directory for leads.20identities/14resources added;7identity-only no positive-cell credit. Preserve FHPortugal questionable destination, Chinese network company footer, unresolved Slovak/Czech continuity and all earlier gaps. Continue original research mandate until completion/execution limit; no main/live clinical writes. Same branch and draftPR71.

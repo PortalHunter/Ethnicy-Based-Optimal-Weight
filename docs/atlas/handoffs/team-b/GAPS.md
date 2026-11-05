@@ -115,3 +115,13 @@ These examples flag *metadata and study-transportability errors* to check; they 
 - Hong Kong consensus 2023 corporate-author metadata/Delphi description checked, not full-methods appraisal; publication country Germany not healthcare jurisdiction. Thai patient page historic/undated revision; no dosing/diet advice imported.
 - Singapore society explicitly says members research individually but society does not itself conduct trials. 2023 gout lecture listing indexed as specialist_research_only, not national guideline or full lecture transcript.
 - Latest117 positive cells do not mean117 clinical claims or complete national research. Global seven-stream discovery still incomplete.
+
+## Batch11 — familial lipid disorders
+
+- Historical fheurope.org roster contains2016 statements (e.g. no Finnish FH organization yet). Current successor fhef.org/our-network used for identity leads; old statements are not current absence evidence. International network itself not duplicated into TeamB national dataset.
+- China FH/Hongmili patient network has company-named Chinese footer; legal/nonprofit form not established.2026 HoFH report announcement based on registered patients/families; not national prevalence. No patient details or numerical medical effects extracted.
+- FH Iraq and Bulgarian federation directory/social-channel identities unverified first-party resources; Slovakia own-site502, Czech alias site timeout. Do not consolidate Slovak Rodiny S FH with Srdce rodiny/MEDPED or Czech alliance with historical Diagnóza FH without continuity evidence.
+- Portugal fhportugal.pt now generic wellness/shop content despite old FH navigation; domain ownership/continuity unresolved. Directory corroborates association, but no first-party clinical resource credited.
+- Romanian FOBAC and Israeli Heart Association own identities verified but no condition-specific FH resource confirmed this batch, so no lipid cell credited solely from membership. Broad cardiovascular education is not automatically FH expertise.
+- Slovenian resource has2017 and2026 dates with older text; do not assume comprehensive update. Swedish FH site retains before2025 target; not proof target achieved. Dutch LEEFH hosts external science/guidelines; not sole authorship.
+- Lipid resources distinguish FH/HoFH, general raisedLDL, Lp(a), FCS and other inherited conditions; no automatic disease diagnosis from checkbox/ancestry. Several native legal names/registry status still unverified.

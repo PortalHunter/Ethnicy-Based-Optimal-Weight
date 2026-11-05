@@ -70,3 +70,9 @@
 - Distinguished Brazil university-hosted group governance, French 2021 FFAMH merger, national patient education vs clinical guideline; rejected genotype/ancestry as clinical penetrance.
 - Located current Malaysian Ministry PDF after old404 and society502; MaHTAS publisher/copyright and MSR listed distribution-host role preserved. Japanese third-edition supplement/errata noted with copyright limits. Hong Kong Delphi consensus not primary trial; Singapore lecture listing not guideline or society-conducted trial.
 - Validation core zero errors: 152 identities/93 areas/123 resources/117 positive/1619 unresearched/278 provenance/64 searches. Batch9 fourteen-file immutable readbacks matched.
+
+## 2026-11-05 — Batch11: FH national organizations
+
+- Added20 identities across20areas (8 new areas),14resources,14positivecells and21search-log entries. Current FHEF network used for leads with own-site follow-up; historical2016 roster not treated as current.
+- Preserved Chinese service-company footer governance uncertainty and selected HoFH sample; detected suspicious FHPortugal domain replacement and omitted clinical source. Seven identity-only/provisional records do not change source coverage.
+- Nine-CSV core checks zero failures:172 identities/101areas/137resources/131positive/1605unresearched/312provenance/85searches.
