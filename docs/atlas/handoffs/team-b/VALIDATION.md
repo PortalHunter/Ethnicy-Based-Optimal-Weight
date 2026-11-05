@@ -36,3 +36,9 @@ Parse each CSV according to RFC 4180; enforce expected header fields from `READM
 - Checks executed: M49 count (248), seven-condition matrix count and unique composite keys (1,736), organization ID uniqueness (71), publication-to-organization ID and condition joins (67), HTTPS publication URLs, positive-vs-unresearched cell count (64/1672), publication-context row count (67).
 - Result: **0 observed structural check failures**; counts and indexed foreign keys passed. This does **not** establish complete M49 code-set equivalence, external link accessibility, legal identity, resource authenticity or guideline medical validity.
 - Pending: full UNSD numeric roster diff, actual live HTTP crawl, source-governance and publication copyright review; Ghana co-authorship/copyright, Barbados page accuracy, Tanzania/Zanzibar remit, historical Netherlands NDF status re-audit.
+
+## 2026-11-05 — Batch 5 enhanced structural QA, prior to commit
+
+- Checked 248 unique roster identifiers, all seven exact condition keys per M49 area, 1,736 unique composite keys, 84 unique organization IDs and valid M49 foreign keys, 74 condition resources and matched publication-context records, positive source-coverage support (70), 1666 explicit unresearched cells, 159 unique provenance IDs with metadata, official HTTPS URL syntax for organization and publication references, retained original organizational identity states, and 3 unchanged community-specific records.
+- **Result: 0 structural errors**; all scripted in-memory structural assertions passed.
+- Explicit pending external checks: UNSD independent machine-readable M49 code-set diff; complete live-link crawl and redirect audit; original third-party identity verification for IDF/ISE-only profiles; copyright and medical-scientific review; Samoa ethics discrepancy, Panama supersession, Uzbekistan association continuity. Structural integrity does not mean scientific validity.

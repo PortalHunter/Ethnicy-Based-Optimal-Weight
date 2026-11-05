@@ -25,3 +25,11 @@
 - Added 11 organization identities in 11 previously unindexed areas (Senegal, Burkina Faso, Ghana, Rwanda, Tanzania, Kenya, Cameroon, Nigeria, Zambia, Barbados, Trinidad and Tobago). IDF/ISE directory-only identity states are explicitly provisional pending source-owner corroboration.
 - Added seven distinct resource rows (six areas) including Ghana government-issued 2023 diabetes guidance (DEMSoG is technical contributor/host, not sole issuing authority), Rwanda type 1 EMR research, a Senegal hypertension-resource index, Burkina cardiology workshop, Tanzania research programme, and Barbados patient education for diabetes and hypertension.
 - Workshop/programme/educational resources are not independent studies or scientifically validated guidelines. Preserve all clinical release gates and URL/copyright review flags.
+
+## 2026-11-05 — Batch 5 (Central Asia, Pacific, Latin America)
+
+- Added 13 organization identities across 11 M49 areas (Kazakhstan, Uzbekistan (two distinct associations), Samoa, Fiji, Tonga, Papua New Guinea, Dominican Republic, El Salvador, Panama; plus celiac-specific Argentina and Chile); 7 condition-resource rows and 6 newly positive area-condition keys.
+- Indexed explicit 2025 Argentine pediatric celiac expert-consensus authorship and **CC BY-NC-ND 4.0** license without reproducing its text. Added separate Argentine patient celiac association and Chilean voluntary celiac registry; latter is **not** a national population sample.
+- Panama's Society of Cardiology **endorsed** an older HEARTS hypertension protocol; Panama Ministry of Health approved it and PAHO hosts. Its historical 2019 revision requires supersession review.
+- Samoa's two condition links refer to **one** proposed/active cardiometabolic pilot with conflicting ethics-status descriptions; no published efficacy evidence. Uzbekistan's own diabetology article listing is not a verified peer-reviewed recommendation. IDF-only Fiji/Tonga/PNG/El Salvador remain identity-only; PNG self-reports restructuring.
+- Uzbekistan's NAEU (2018 charter) and IDF's EDAU (renamed 2009) are indexed as **separate identities with unresolved legal continuity**; do not merge without source evidence.

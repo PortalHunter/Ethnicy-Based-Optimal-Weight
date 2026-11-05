@@ -30,3 +30,7 @@ The most recent batch includes named gout, FH, celiac, hypertension, and iron-ov
 ## Continuation update (2026-11-05)
 
 The latest research includes the Africa/Caribbean batch 4. The current count (superseding the 2026-11-04 historical pilot above) is **71 organization identities in 44 M49 areas**, **67 indexed resource rows**, **64 source-positive cells**, and **1672 not-yet-researched cells**. See STATUS.md, VALIDATION.md and GAPS.md for institutional-identity-only records, government authorship distinctions and pending clinical review.
+
+## Latest metrics as of 2026-11-05 (batch 5)
+
+See latest appended STATUS.md: **84 organizations across 53 M49 areas; 74 source/resource entries; 70 linked source-positive cells; 1666 not-yet-researched area-condition cells**. Counts in older sections are historical. Original URLs and caveats are in PROVENANCE.csv and GAPS.md.

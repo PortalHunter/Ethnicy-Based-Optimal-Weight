@@ -40,3 +40,9 @@ No changes were made to `main`, public clinical copy, the weight engine, genetic
 - Source-index aggregate: **71 organizations, 44 M49 areas, 67 linked resources, 64 positive area-condition cells, 1672 explicit unresearched cells, 139 provenance entries**. Coverage matrix remains 248 × 7 = 1736 rows; three Indigenous-specific records unchanged.
 - **11** new organizational identities, **7** resource entries. Professional workshop, programme description and patient education are discoverable resources, **not clinically appraised evidence**.
 - Branch commit verifies persistence; no source claims approved for public clinical guidance. This section supersedes the 2026-11-04 figures above.
+
+## Latest batch 5 — 2026-11-05; supersedes earlier numerical snapshots
+
+- **84 organization records in 53 M49 areas**; **74 indexed publication/resource relationships**; **70 linked positive area-condition cells**; **1666 explicit not-yet-researched cells**; **159 provenance entries**.
+- M49 roster **248**, seven-condition matrix **1,736**; separate community-specific records **3**; **0** clinically approved claims. Batch 5 added **13 identities, 7 resource rows, 6 previously unresearched positive cells**.
+- **20 new areas indexed across 2026-11-05 batches 4+5** relative to the verified 33-area starting baseline. National-level research incompleteness remains substantial; client product and main untouched.
