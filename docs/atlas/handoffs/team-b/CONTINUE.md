@@ -1,4 +1,4 @@
-# Resume Team B · batch 35 · 2026-11-05
+# Resume Team B · batch 36 · 2026-11-05
 
 **INCOMPLETE.** Continue the assignment on `PortalHunter/Ethnicy-Based-Optimal-Weight`, branch `research/atlas-team-b-20261104`, [draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71). Verify the current PR head before using this snapshot. The original assignment, data contract and live GitHub files together are sufficient to resume.
 
@@ -14,26 +14,26 @@
 | Measure | Count |
 |---|---:|
 | UN M49 areas / unique area-condition cells | 248 / 1,736 |
-| Organizations / areas with a domiciled organization | 351 / 220 |
-| Areas without a verified domiciled organization | 28 |
-| Resource relationships / cells with a linked resource | 238 / 224 |
-| Cells without a linked resource | 1,512 |
-| Of those, cells with / without a logged targeted check | 123 / 1,389 |
-| Provenance records / targeted search checks | 684 / 384 |
-| Community records / cross-border service edges | 7 / 4 |
+| Organizations / areas with a domiciled organization | 358 / 223 |
+| Areas without a verified domiciled organization | 25 |
+| Resource relationships / cells with a linked resource | 245 / 228 |
+| Cells without a linked resource | 1,508 |
+| Of those, cells with / without a logged targeted check | 128 / 1,380 |
+| Provenance records / targeted search checks | 711 / 407 |
+| Community records / cross-border service edges | 7 / 8 |
 | Approved clinical claims | 0 |
 
-diabetes 80 · hypertension 30 · high_chol 24 · gout 21 · lactose 17 · celiac 32 · hemochromatosis 20.
+diabetes 83 · hypertension 30 · high_chol 25 · gout 21 · lactose 17 · celiac 32 · hemochromatosis 20.
 
-Added twelve organizations, twelve publication relationships, eleven newly linked cells and two cross-border service records. Comoros, Equatorial Guinea, Guinea-Bissau and Turkmenistan now have documented local academic or patient organizations. Equatorial Guinea receives identity credit only. The complete session adds 38 organizations in 19 newly represented areas, 46 relationships and 42 source-positive cells.
+This batch adds seven organizations, seven resource relationships, four newly linked area-condition cells and four cross-border service records. Kiribati, Tuvalu and the Turks and Caicos Islands now have documented domestic organizations. The session has added 45 organizations across 22 additional areas and 53 relationships across 46 additional cells.
 
-Local evidence includes a multi-region Guinea-Bissau screening study with nonrandom recruitment, Comorian workshops documented by a French partner, and a Turkmen hypertension/serum-lipid study whose main table and translated abstracts disagree. Additional sources cover hereditary haemochromatosis in China and South Africa, lactose intolerance in the UK and New Zealand, and clinical gout education in Türkiye.
+The Kiribati clinic’s advertised services, Tuvalu’s committee roster and the historical Pacific survey are distinguished from delivered programmes. The Australian programme’s visits to Kiribati, Niue and Naoero/Nauru are documented separately. A 2025 Añisok adult study names an Equatorial Guinean university author and reports on diabetes and measured lipids. Its method describes both weekday allocation and groups defined by blood pressure and BMI.
 
 ## Remaining work, in priority order
 
-- Triage the 28 areas without an organization against the exact CHECKPOINT.json roster. Start with populated Pacific and Caribbean areas, including Kiribati, Naoero/Nauru, Niue, Tuvalu, and Turks and Caicos. Recheck newly logged leads before repeating earlier probes. For remote, uninhabited and disputed areas, document verified population/remit or cross-border service separately and avoid inventing a domiciled society.
-- Prioritize the least-covered streams (17 lactose, 20 hereditary iron overload, 21 clinical gout, 24 lipid cells) and verify additional FH, subnational and community-controlled sources. Keep clinical criteria outside this research index. Resolve Equatorial Guinea’s Añisok publication affiliation and distinguish it from the 2018 Conakry / Malabo case series.
-- Audit original-language publication lists and current governance for remaining organizations, including partner-only ACLD and ASLUCODIABETES-GB, and the nine unresolved publication-country records. Preserve source conflicts and the 14 broad-label cases. Of 1,512 cells without a source, 123 have at least one targeted check and 1,389 have no matching condition-specific search log.
+- Triage the exact 25 missing M49 identities in CHECKPOINT.json. Among populated areas, check Caribbean Netherlands (535), Saint Pierre and Miquelon (666), Wallis and Futuna (876), and Saint Helena (654). For Naoero/Nauru, Niue and Tokelau, read the newly logged historical survey and contemporary overseas activity before seeking independent local bodies. Document service geography and historical evidence separately.
+- Prioritize the least-covered streams (17 lactose, 20 hereditary iron overload, 21 gout and 25 lipid cells), especially locally issued FH, community-controlled sources and original-language guidance. Verify all nine unresolved publication-country records where edition-specific evidence exists.
+- Check the lifecycle and original-language publication lists of directory-only, registry-only and partner-only organizations. For Añisok, obtain the final PLoS ONE 21(11):e0360673 source and verify its affiliations and group definitions separately from the 2025 adult paper. Preserve 14 diversity cases and source-specific caveats. Of 1,508 unlinked cells, 128 have a targeted check and 1,380 have no matching condition-specific search log.
 
 ## Ownership and acceptance
 

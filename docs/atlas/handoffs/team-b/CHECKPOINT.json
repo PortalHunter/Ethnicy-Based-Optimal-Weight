@@ -6,25 +6,25 @@
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
   "validated_data_commit": null,
-  "batch": 35,
+  "batch": 36,
   "metrics": {
-    "organizations": 351,
-    "areas": 220,
-    "resources": 238,
-    "positive": 224,
-    "without_linked_source": 1512,
-    "targeted_no_source": 123,
-    "unresearched": 1389,
-    "provenance": 684,
-    "search_log": 384,
+    "organizations": 358,
+    "areas": 223,
+    "resources": 245,
+    "positive": 228,
+    "without_linked_source": 1508,
+    "targeted_no_source": 128,
+    "unresearched": 1380,
+    "provenance": 711,
+    "search_log": 407,
     "community": 7,
-    "cross_border_edges": 4,
+    "cross_border_edges": 8,
     "issuer_country_unresolved": 9,
-    "issuer_country_differs_from_domicile": 22,
+    "issuer_country_differs_from_domicile": 24,
     "by_condition": {
-      "diabetes": 80,
+      "diabetes": 83,
       "hypertension": 30,
-      "high_chol": 24,
+      "high_chol": 25,
       "gout": 21,
       "lactose": 17,
       "celiac": 32,
@@ -33,22 +33,22 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 12,
-    "new_domiciled_areas": 4,
-    "resource_relationships": 12,
-    "source_positive_cells": 11,
-    "provenance_rows": 40,
-    "search_log_rows": 21,
+    "organization_identities": 7,
+    "new_domiciled_areas": 3,
+    "resource_relationships": 7,
+    "source_positive_cells": 4,
+    "provenance_rows": 27,
+    "search_log_rows": 23,
     "community_records": 0,
-    "cross_border_edges": 2
+    "cross_border_edges": 4
   },
   "validation_runtime": "node_cli_committed_validate_mjs",
   "node_cli_run": true,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Triage the 28 areas without an organization against the exact CHECKPOINT.json roster. Start with populated Pacific and Caribbean areas, including Kiribati, Naoero/Nauru, Niue, Tuvalu, and Turks and Caicos. Recheck newly logged leads before repeating earlier probes. For remote, uninhabited and disputed areas, document verified population/remit or cross-border service separately and avoid inventing a domiciled society.",
-    "Prioritize the least-covered streams (17 lactose, 20 hereditary iron overload, 21 clinical gout, 24 lipid cells) and verify additional FH, subnational and community-controlled sources. Keep clinical criteria outside this research index. Resolve Equatorial Guinea’s Añisok publication affiliation and distinguish it from the 2018 Conakry / Malabo case series.",
-    "Audit original-language publication lists and current governance for remaining organizations, including partner-only ACLD and ASLUCODIABETES-GB, and the nine unresolved publication-country records. Preserve source conflicts and the 14 broad-label cases. Of 1,512 cells without a source, 123 have at least one targeted check and 1,389 have no matching condition-specific search log."
+    "Triage the exact 25 missing M49 identities in CHECKPOINT.json. Among populated areas, check Caribbean Netherlands (535), Saint Pierre and Miquelon (666), Wallis and Futuna (876), and Saint Helena (654). For Naoero/Nauru, Niue and Tokelau, read the newly logged historical survey and contemporary overseas activity before seeking independent local bodies. Document service geography and historical evidence separately.",
+    "Prioritize the least-covered streams (17 lactose, 20 hereditary iron overload, 21 gout and 25 lipid cells), especially locally issued FH, community-controlled sources and original-language guidance. Verify all nine unresolved publication-country records where edition-specific evidence exists.",
+    "Check the lifecycle and original-language publication lists of directory-only, registry-only and partner-only organizations. For Añisok, obtain the final PLoS ONE 21(11):e0360673 source and verify its affiliations and group definitions separately from the 2025 adult paper. Preserve 14 diversity cases and source-specific caveats. Of 1,508 unlinked cells, 128 have a targeted check and 1,380 have no matching condition-specific search log."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -95,10 +95,6 @@
     {
       "m49": "260",
       "area": "French Southern Territories"
-    },
-    {
-      "m49": "296",
-      "area": "Kiribati"
     },
     {
       "m49": "334",
@@ -165,31 +161,23 @@
       "area": "Tokelau"
     },
     {
-      "m49": "796",
-      "area": "Turks and Caicos Islands"
-    },
-    {
-      "m49": "798",
-      "area": "Tuvalu"
-    },
-    {
       "m49": "876",
       "area": "Wallis and Futuna Islands"
     }
   ],
   "readback_validation": {
     "status": "pending_immutable_readback",
-    "last_verified_parent": "bec0e063b4a32c5094773bbdc31857ad822527e0"
+    "last_verified_parent": "88f2acd640d37c12f66e07f865fd546a5f823c30"
   },
-  "previous_independently_verified_data_commit": "bec0e063b4a32c5094773bbdc31857ad822527e0",
+  "previous_independently_verified_data_commit": "88f2acd640d37c12f66e07f865fd546a5f823c30",
   "session_additions": {
-    "organization_identities": 38,
-    "new_domiciled_areas": 19,
-    "resource_relationships": 46,
-    "source_positive_cells": 42,
-    "provenance_rows": 149,
-    "search_log_rows": 73,
+    "organization_identities": 45,
+    "new_domiciled_areas": 22,
+    "resource_relationships": 53,
+    "source_positive_cells": 46,
+    "provenance_rows": 176,
+    "search_log_rows": 96,
     "community_records": 2,
-    "cross_border_edges": 2
+    "cross_border_edges": 6
   }
 }

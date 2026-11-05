@@ -86,3 +86,8 @@ Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator wi
 ## Batch 35 · 2026-11-05
 
 Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors. Verified parent: `bec0e063b4a32c5094773bbdc31857ad822527e0`. Independent immutable readback follows the branch update. The exact-URL contexts and search-ID joins were checked against all ten CSV inputs. Original-language paper, publisher, funder and/or organization sources were used for individual roles. Structural checks do not appraise study validity or verify that an organization with missing data does not exist.
+
+
+## Batch 36 · 2026-11-05
+
+Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors. Verified parent: `88f2acd640d37c12f66e07f865fd546a5f823c30`. Independent immutable readback follows the branch update. Primary source checks included the territorial exempt-NPO section, programme reports, government committee list, historical survey tables, the adult study’s full methods and tables, and the NLM record for its journal country. Geriatric journal record identified in a secondary index. Final primary full text of that separate paper is outstanding.

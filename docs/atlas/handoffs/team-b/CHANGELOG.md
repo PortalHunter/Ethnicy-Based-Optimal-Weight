@@ -226,3 +226,12 @@ Added twelve organizations, twelve publication relationships, eleven newly linke
 Local evidence includes a multi-region Guinea-Bissau screening study with nonrandom recruitment, Comorian workshops documented by a French partner, and a Turkmen hypertension/serum-lipid study whose main table and translated abstracts disagree. Additional sources cover hereditary haemochromatosis in China and South Africa, lactose intolerance in the UK and New Zealand, and clinical gout education in Türkiye.
 
 Batch 34 was independently read back across all 18 files. Batch 35 adds 21 targeted checks, 40 provenance records and two documented services: France–Comoros and Switzerland–Guinea-Bissau. Twelve new relationships describe fewer unique underlying resources because an item can serve multiple condition or organization records.
+
+
+## Batch 36 · 2026-11-05
+
+This batch adds seven organizations, seven resource relationships, four newly linked area-condition cells and four cross-border service records. Kiribati, Tuvalu and the Turks and Caicos Islands now have documented domestic organizations. The session has added 45 organizations across 22 additional areas and 53 relationships across 46 additional cells.
+
+The Kiribati clinic’s advertised services, Tuvalu’s committee roster and the historical Pacific survey are distinguished from delivered programmes. The Australian programme’s visits to Kiribati, Niue and Naoero/Nauru are documented separately. A 2025 Añisok adult study names an Equatorial Guinean university author and reports on diabetes and measured lipids. Its method describes both weekday allocation and groups defined by blood pressure and BMI.
+
+Added seven organizations, seven relationships, 27 provenance rows, 23 targeted checks and four service edges. The current snapshot supersedes earlier identity-only status for Equatorial Guinea’s diabetes and lipid cells. Batch 35 was independently read back across all 18 files and validated in Node.
