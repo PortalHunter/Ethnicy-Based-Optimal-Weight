@@ -4,7 +4,9 @@ Checked: 2026-11-05. Branch: `research/atlas-team-d-20261104`. Draft PR: https:/
 
 ## Current batch 3 checkpoint
 
-Baseline saved commit: `8b44fae4fa8472e5b076a166651c699c1cde9752`. This file and the datasets are committed atomically; use the latest branch commit containing this file as the exact batch checkpoint.
+Latest substantive research commit: `8b5e40bc2cfb68ca972d77f59f54d14063b0c20c`. Earlier new research commits: `5d687ba9d0633354bc5e10d878a76f6e53c2cb28` and `8b44fae4fa8472e5b076a166651c699c1cde9752`. This subsequent checkpoint records the final handoff; independently inspect the branch head for its own commit SHA.
+
+Fresh standalone continuation: [CONTINUATION_PROMPT.md](CONTINUATION_PROMPT.md).
 
 | Artifact | Rows |
 |---|---:|

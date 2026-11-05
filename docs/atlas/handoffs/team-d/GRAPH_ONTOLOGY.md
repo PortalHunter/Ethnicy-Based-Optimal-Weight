@@ -43,3 +43,7 @@ The seven exact condition keys are `diabetes`, `hypertension`, `high_chol`, `gou
 - Do not allow simultaneous non-overlapping WHO region assignments for the same territory/date without review.
 - Never substitute `covered_by` for `member_of`, or vice versa.
 - Every future model of an inferred overlap should record the input source IDs and be marked derived rather than `VERIFIED_PRIMARY`.
+
+## 2026-11-05 additions
+
+The captured canonical UN overview crosswalk has 248 rows; the legacy 249 ISO seed retains code 158 as a separately documented exception. Do not label every retained seed code a canonical UN roster entry. New unknown date values are literal unknown; unreviewed region/source/flags are not_verified. These supplement legacy empty cells without changing their historical meaning. Country-office presence uses a separate stable-ID table; profile links or aggregate office counts cannot create country-specific office records.
