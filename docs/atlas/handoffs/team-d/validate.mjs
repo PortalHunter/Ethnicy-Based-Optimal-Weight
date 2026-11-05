@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,586);assert.equal(prov.length,145);
+assert.equal(nodes.length,47);assert.equal(edges.length,616);assert.equal(prov.length,148);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -204,7 +204,7 @@ console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,
 // Batch 15: WHO Europe SCI 2022 video metadata versus explicit 2026 roster; office checks separate from 2024 surveys.
 const sciSnapshots=read('data/who_europe_sci_snapshots.csv'), officeCrosschecks=read('data/who_office_independent_checks_2026.csv');
 unique(sciSnapshots,r=>r.record_id,'SCI snapshot ID');unique(officeCrosschecks,r=>r.record_id,'office source crosscheck ID');
-assert.equal(sciSnapshots.length,23);
+assert.equal(sciSnapshots.length,53);
 assert.equal(sciSnapshots.filter(r=>r.snapshot_as_of==='2022-04-11'&&r.source_snapshot_kind==='WHO_VIDEO_TOPIC_METADATA').length,11);
 assert.equal(sciSnapshots.filter(r=>r.snapshot_as_of==='2026-06-09'&&r.source_snapshot_kind==='WHO_DATED_PARTICIPANT_ROSTER').length,12);
 assert(!sciSnapshots.some(r=>r.snapshot_as_of==='2022-04-11'&&r.country_area_m49==='807'));
@@ -214,6 +214,23 @@ const sciEdges=edges.filter(r=>r.to_id==='WHO_EURO_SCI'&&r.relationship_type==='
 assert.equal(sciEdges.length,12);
 for(const r of sciSnapshots){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.network_id,'WHO_EURO_SCI');}
 for(const r of sciEdges){assert(official.has(r.country_area_m49));assert.equal(r.as_of,'2026-06-09');assert.equal(r.valid_from,'');assert.equal(r.valid_to,'');assert(sources.has(r.source_url));assert(sciSnapshots.some(s=>s.country_area_m49===r.country_area_m49&&s.snapshot_as_of==='2026-06-09'));}
+
+ // Batch 16: distinct dated membership and meeting observer snapshots; exact accession day unknown.
+const sci2023=sciSnapshots.filter(r=>r.snapshot_as_of==='2023-05-12'),sci2024=sciSnapshots.filter(r=>r.snapshot_as_of==='2024-04-12');
+assert.equal(sci2023.filter(r=>r.relationship_state==='EXPLICIT_MEMBER_COHORT_AT_MEETING').length,11);
+assert.equal(sci2023.filter(r=>r.relationship_state==='OBSERVER_AT_SPECIFIC_MEETING_NOT_MEMBERSHIP').length,5);
+assert.equal(sci2024.filter(r=>r.source_snapshot_kind==='WHO_2024_PRE_ACCESSION_MEMBER_ROSTER').length,11);
+assert.equal(sci2024.filter(r=>r.source_snapshot_kind==='WHO_2024_NEW_MEMBER_ACCESSION').length,1);
+assert.equal(sci2024.filter(r=>r.relationship_state==='OBSERVER_AT_SPECIFIC_MEETING_NOT_MEMBERSHIP').length,2);
+assert(sci2023.some(r=>r.country_area_m49==='807'&&r.relationship_state==='OBSERVER_AT_SPECIFIC_MEETING_NOT_MEMBERSHIP'));
+assert(sci2024.some(r=>r.country_area_m49==='807'&&r.relationship_state==='JOINED_DURING_APRIL_10_TO_12_MEETING'));
+const sciOldEdges=edges.filter(r=>r.to_id==='WHO_EURO_SCI'&&['2023-05-12','2024-04-12'].includes(r.as_of));
+assert.equal(sciOldEdges.length,30);
+assert.equal(sciOldEdges.filter(r=>r.relationship_type==='attended_voluntary_initiative_meeting_as_observer').length,7);
+assert.equal(sciOldEdges.filter(r=>r.relationship_type==='participates_in_voluntary_health_initiative').length,23);
+assert(sciOldEdges.every(r=>r.valid_from===''&&r.valid_to===''));
+assert(!sciOldEdges.some(r=>r.from_id==='m49:052'&&r.relationship_type==='participates_in_voluntary_health_initiative'));
+
 assert.equal(officeCrosschecks.length,9);
 assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='day').length,4);
 assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='undated'&&r.source_evidence_date==='unknown').length,5);
