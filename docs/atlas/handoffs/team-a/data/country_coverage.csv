@@ -136,7 +136,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 474,Martinique,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 478,Mauritania,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 480,Mauritius,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-484,Mexico,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+484,Mexico,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,FEDERAL_STATE_HEALTH_REVIEW_PENDING,2026-11-05,Batch 16 official identity: Official federal identity; decree cited by government but full enacted text and states/IMSS/ISSSTE division not audited
 492,Monaco,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 496,Mongolia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 498,Republic of Moldova,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -155,7 +155,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 535,"Bonaire, Sint Eustatius and Saba",Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 540,New Caledonia,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 548,Vanuatu,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-554,New Zealand,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+554,New Zealand,Oceania,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,HEALTH_REFORM_AND_MAORI_LEGAL_REVIEW_PENDING,2026-11-05,Batch 16 official identity: Official bilingual name; annual report says Pae Ora amendment received assent 9 July 2026 but consolidated enacted text not independently read; Māori Health Authority disestablishment under Treaty/court scrutiny
 558,Nicaragua,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 562,Niger,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 566,Nigeria,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -206,7 +206,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 706,Somalia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 710,South Africa,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
 716,Zimbabwe,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-724,Spain,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+724,Spain,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,DEVOLVED_AUTONOMOUS_COMMUNITY_REVIEW_PENDING,2026-11-05,Batch 16 official identity: Ministry references enacted RD 718/2024 for organisation but not independently audited; 2026 waiting-list draft not enacted
 728,South Sudan,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 729,Sudan,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 732,Western Sahara,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
@@ -214,7 +214,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 744,Svalbard and Jan Mayen Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 748,Eswatini,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 752,Sweden,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_OR_CARETAKER_GOVERNMENT_REVIEW_PENDING,2026-11-05,2026-11-05 Batch 15: Socialdepartementet active under Swedish caretaker government since Sept 17 2026. Distinguish central national policy from region/municipal service provision; current statutory split incomplete.
-756,Switzerland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+756,Switzerland,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,FEDERAL_CANTONAL_REVIEW_PENDING,2026-11-05,Batch 16 official identity: Federal BAG is an office NOT a free-standing cabinet ministry. Fedlex EDI organisational ordinance exists but full current federal/cantonal mandate law not line-by-line audited
 760,Syrian Arab Republic,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 762,Tajikistan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 764,Thailand,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -240,7 +240,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 840,United States of America,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,FEDERAL_TRIBAL_TERRITORIAL_REVIEW_PENDING,2026-11-05,"2026-11-05 Batch 15: HHS federal identity confirmed; legal division among US states, tribal governments, local public health authorities, and separately indexed territories still needs comprehensive statute review."
 850,United States Virgin Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 854,Burkina Faso,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-858,Uruguay,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+858,Uruguay,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Batch 16 official identity: Nov 2026 government ministry portal and Oct presidency decree index establish identity; strategy not law and underlying enactment/full provider split pending
 860,Uzbekistan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 862,Venezuela (Bolivarian Republic of),Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 876,Wallis and Futuna Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
