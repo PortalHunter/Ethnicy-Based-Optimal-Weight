@@ -1,44 +1,37 @@
-# Ancestry Health — Team B standalone continuation
+# Ancestry Health — Team B complete standalone continuation prompt
 
-Continue autonomously until Team B's original goal is complete or execution limits require another durable checkpoint. GitHub is authoritative; independently verify current branch/PR and newer commits first.
+You are Research Team B. Continue the original task autonomously, without restarting completed batches or expanding scope. GitHub is authoritative memory. Independently verify current state before relying on this2026-11-05 fallback.
 
-Repository https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight
+Repository: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight
 Existing branch: research/atlas-team-b-20261104
 Existing draft PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71
-Checkpoint: batch13 is commit containing this file; resolve exact HEAD. Previous saved checkpoint 9014620378d6f645810a66b60c7d318bdeed6aca.
+Latest verified substantive data commit: 6c2519f5e1ebb64513cc50b553b3f355419fb593 (batch17). A subsequent handoff-only commit may be current HEAD; resolve and verify it. Never create replacement branch/PR, merge, close PR, write main or modify live calculator.
 
-Read original TEAM_B_CLINICAL_ORGANIZATIONS.md and shared DATA_CONTRACT.md under docs/atlas/research-team-prompts/ on research/atlas-five-team-handoff-prompts-2026-11-04. Then read all docs/atlas/handoffs/team-b/ files, including README,STATUS,GAPS,PROVENANCE,CHANGELOG,VALIDATION,validate.mjs and all nine CSV datasets.
+## Required startup
+1. Read original TEAM_B_CLINICAL_ORGANIZATIONS.md and shared DATA_CONTRACT.md under docs/atlas/research-team-prompts/ on branch research/atlas-five-team-handoff-prompts-2026-11-04.
+2. Fetch current PR71 state,branch HEAD and newer commits. Verify open,draft,unmerged. Newer independently verified evidence supersedes this fallback.
+3. Read all docs/atlas/handoffs/team-b/ files: README,STATUS,GAPS,PROVENANCE,CHANGELOG,VALIDATION,CONTINUE,CHECKPOINT.json,validate.mjs and all data CSVs. Preserve stable IDs and historical caveats.
 
-Exclusive scope: non-government specialist societies, patient-condition organizations, biomedical and community-controlled research bodies across248 M49 areas and seven streams: diabetes,hypertension,high_chol,gout,lactose,celiac,hemochromatosis. Do not redo government census, international-network census or journal catalog. Write only team-b/ on existing branch; no main writes, merge, live calculator or clinical activation.
+## Exclusive task and safeguards
+Census non-government professional societies,patient-condition organizations,biomedical/university/research and community-controlled organizations for every M49 area, across diabetes,hypertension,high_chol,gout,lactose,celiac,hemochromatosis. Do not redo TeamA government census,TeamC journal catalog or international-network census. A network can corroborate national-member identity; membership is not authorship,endorsement,regulatory jurisdiction or completed resource research. Write only docs/atlas/handoffs/team-b/ on existing branch.
 
-Current totals:246 identities in153 areas,164 resource relationships,158 positive cells,1578 unresearched,414 provenance,182 search rows,3 community-specific records,zero clinical approvals. Research INCOMPLETE;129 areas lack identities. Search log began batch8; historical attempts not backfilled.
+Ancestry,residence,nationality,language,Indigenous community,genotype and measured clinical phenotype are distinct. Disease subtype and scope stay explicit: FH versus ordinary highLDL; gout versus asymptomatic urate/CPPD; lactase nonpersistence versus symptoms; HLA versus confirmed celiac; ferritin versus hereditary iron overload. No individual diagnosis,dosing,dietary recommendation,genomic uploads or clinical activation. All sources research_lead_only; #27 is separate claim appraisal. No private patient data or copyrighted full texts. Preserve14 broad-label boundary cases and community governance.
 
-This run batches8–12 added98 identities and57 resources. B8 celiac Europe; B9 Africa/Asia and independently extracted current UNSD rendered table; B10 iron overload/gout/lactose; B11 FH; B12 Caribbean/territories. Exact UN code-set248 match passed, but direct downloadable-export/WHO/legal audits remain open.
+## Verified current state
+246 identities in153 areas;164 resource relationships;158 source-positive cells;1578 not_yet_researched cells;414 provenance rows;182 logged searches;3 community-specific records;zero clinical approvals. Conditions: diabetes56,hypertension14,high_chol20,gout16,lactose13,celiac23,hemochromatosis16. Geographic matrix248×7 complete structurally; research INCOMPLETE.95 areas lack an identity. Search log began batch8 and is not a historical exhaustive log. Positive means discovery source,not approved evidence or completed country review.
 
-Next: verify original-language publications and identity continuity for directory-only rows, especially Caribbean17, Africa/Asia14 and provisional FH rows. Aruba Papiamento resource index verified; PDFs/course outcomes unappraised. Haiti proposed reference centre is not a completed facility; Belize naming continuity unresolved; ADNC New Caledonia hospital listing is not its own publication and ass.nc is a separate agency. Curacao no member shown on IDF area page; Cayman unresolved. Expand unsearched Africa/Asia/territories and weak lactose/gout streams. Do not inherit parent-state jurisdiction.
+Batches13–17 added56 identities/34 new areas/26 resources.13:3 Haiti/Belize resources,3 Caribbean identity upgrades.14:7 identities/eight lactose resources.15:20 MENA identities/six sources.16:9 rheumatology identities/seven gout sources.17:20 identities/16 new areas/two Russian/Faroese resources. Do not duplicate these. See datasets for exact records and GAPS for every caveat.
 
-Preserve ALL GAPS caveats including Samoa conflicting ethics/shared programme, Uzbekistan legal identities, Netherlands NDF cessation, Ghana government authorship, Panama historic endorsement, DGE page-count discrepancy, Polish edition, BSH date/supersession, Guernsey access, Jersey statistic, Bermuda screening, Uruguay context, Malaysia publisher/host attribution, Japan errata/copyright, HK consensus, Singapore lecture, French FFH merger, Brazilian host status, obsolete FH directory and Portuguese domain repurposing. Preserve14 boundary examples. Never convert ancestry into individual clinical evidence.
+## Exact next priorities
+1. Identify original-language publications for directory-only identities and expand95 unrepresented areas, especially remaining Africa,Pacific,Latin America and territories. Compute missing areas from m49 roster minus organization area IDs. Do not invent societies for uninhabited areas or infer parent-state remit.
+2. Strengthen all seven streams; lactose13/gout16 remain sparse and most area-condition cells untouched. Document targeted unsuccessful/inaccessible searches without calling absence from a narrow query. Directory identities never earn resource credit.
+3. Investigate source integrity: Ukrainian Diabetology Association listed own homepage returned Account Suspended (older indexed content not current availability); keep three Ukrainian entities separate. Mongolia listed diabetes.mongolia.com inaccessible; differing email domain not a verified replacement. VADE Vietnamese site contains unrelated gambling links; do not follow them or credit the foot-ulcer guide until independent Ministry1530/QD-BYT2023 copy and society contribution verified. Bosnia publications access challenge; Moldova PRODIAB site inaccessible and separate from endocrinology society.
+4. Review source-quality boundaries: Argentina SAR gout introduction mixes CPPD text; Canadian and NZ gout education assertions unappraised; NZ page2026 update versus2024 clinical review. Spain SER funding disclosed. Russian RAE2022 catalogue/251-page linked PDF does not establish current government approval or supersession; government-looking clinirec.ru mirror not official government evidence. Faroese family-risk figures unappraised; no Denmark clinical jurisdiction inherited.
+5. Preserve earlier unresolved caveats in GAPS: Samoa ethics conflict/shared planned trial; Uzbekistan identities; NDF cessation; Ghana ministry copyright; Panama historical endorsement; DGE page counts; Polish edition; BSH date/supersession; Guernsey access; Jersey/Bermuda statistics; Uruguay diagnostics; Malaysia authorship/host; Japan errata/rights; HK consensus; Singapore lecture; FFH merger; Brazil host; stale FH network/Portuguese repurposed domain. Haiti proposed centre remains distinct from verified education. Belize branding continuity unresolved. ASEDIACT is not STEDIAM; INEAS coordinates Tunisian2026 guide. DAP hosts NADEP-published PROMPT2017 with ministry endorsement,not sole authorship.
 
-Use primary original-language sources; preserve stable IDs, leading-zero area codes and provenance. Every resource requires organization, publication-context and source-provenance joins; all release states research_lead_only. Log failures/unresolved findings without guessing or asserting absence. Run validate.mjs and overview checks; prior core evaluated in orchestration runtime with zero errors, CLI not separately executed. No full live crawl/legal/clinical validation claimed.
+## Datasets and checks
+Nine CSVs: PROVENANCE.csv; data/m49_area_codes.csv; data/m49_verified_overview.csv; data/specialist_organizations.csv; data/condition_organizations.csv; data/publication_context.csv; data/coverage_by_area_condition.csv; data/subnational_and_indigenous_organizations.csv; data/search_log.csv. Preserve leading-zero M49 IDs and exact seven keys. Every resource requires valid organization,source-country,study-population,jurisdiction,relationship,release-state and provenance joins.
 
-Commit each validated batch directly to existing branch with expected-head lease; read immutable files back and revalidate; update existing draft PR and all handoff files. If write fails explicitly report and preserve recoverable work. At stopping point report exact SHA,branch,PR,new records,remaining gaps,validation and a fresh standalone continuation prompt. Do not declare goal complete from a populated matrix or directory roster.
+Run committed validate.mjs core plus overview checks. Previous core evaluated in orchestration JS runtime:zero structural errors; Node CLI not separately run. Checks cover CSV widths,keys,joins,248×7 matrix,findings counts,metadata,HTTPS and provenance support. Current independently extracted UNSD rendered overview code-set248 matches; direct downloadable-export/WHO/legal audits not completed. Full live-link crawl,legal registry and clinical appraisal not claimed.
 
-
-Latest batch13: Verified Haiti French diabetes and hypertension education and Belize non-www patient education (3 resources); upgraded Haiti, Belize and Saint Lucia identities. Logged five unresolved/identity-only resource follow-ups and current Suriname government corroboration.
-Next priorities: Expand sparse lactose/gout streams using original-language professional sources; follow up Caribbean publications without mistaking services for studies.
-
-
-Latest batch14: Added7 specialist/patient identities and8 lactose source relationships across8 areas; all research leads. Logged Italy in-development project and inaccessible Portuguese lead without coverage credit.
-Next priorities: Prioritize new-area Africa/MENA/Asia discovery and original publications for directory-only organizations; preserve lactose phenotype distinctions.
-
-
-Latest batch15: Added20 organization identities in18 newly covered M49 areas and6 resource relationships (Lebanon,Pakistan,Tunisia,Saudi Arabia,Qatar diabetes and lipids). Fourteen identities remain directory-led; Oman own-site identity only. Regulatory supervision, foundation membership, hosting,publishing and guideline coordination distinguished.
-Next priorities: Verify original publications for remaining MENA identities; extend remaining Africa,Asia,Europe and Pacific areas and gout/lactose streams.
-
-
-Latest batch16: Added9 rheumatology/patient identities and7 gout resources in7 areas; India/Mexico identity-only. Argentine page CPPD/gout mixture explicitly flagged; Chile2007 archive specialist-only; funding/currency/ancestry issues retained.
-Next priorities: Resume unsearched-area discovery, focusing Pacific,remaining Africa and Asia; verify remaining provisional identities and original condition publications.
-
-
-Latest batch17: Added20 identities across16 previously uncovered areas; Russian guideline catalogue and Faroese type2 education add2 resource cells. Vietnamese resource withheld for site-integrity concerns; Ukrainian live suspension, Mongolia/Moldova access failures and directory-only identities explicit.
-Next priorities: Prioritize95 areas without identities (remaining Africa,Pacific,Latin America and territories), then seven-stream original-publication searches for provisional identities; preserve all access and clinical-appraisal boundaries.
+Continue manageable primary-source batches. Update STATUS,GAPS,PROVENANCE,CHANGELOG,VALIDATION and fresh complete CONTINUE after each substantive batch. Commit directly with expected-head lease,then immutable file readback and revalidation. Update existing draft PR. If any GitHub write/readback fails report exact error and preserve recoverable work. At execution limit,commit all validated work and report exact SHA,branch,PR,new records,remaining gaps,validation and standalone continuation prompt. Do not call the goal complete from a populated skeleton,directory list or these totals.

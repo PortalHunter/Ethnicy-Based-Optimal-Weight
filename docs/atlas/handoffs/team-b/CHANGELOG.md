@@ -100,3 +100,7 @@ Added9 rheumatology/patient identities and7 gout resources in7 areas; India/Mexi
 
 ## Batch 17 — 2026-11-05
 Added20 identities across16 previously uncovered areas; Russian guideline catalogue and Faroese type2 education add2 resource cells. Vietnamese resource withheld for site-integrity concerns; Ukrainian live suspension, Mongolia/Moldova access failures and directory-only identities explicit. Totals: {"organizations":246,"areas":153,"resources":164,"positive":158,"unresearched":1578,"provenance":414,"search_log":182,"community":3,"by_condition":{"diabetes":56,"hypertension":14,"high_chol":20,"gout":16,"lactose":13,"celiac":23,"hemochromatosis":16},"current_unsd_overview_codes":248}. Zero structural errors.
+
+
+## Run checkpoint and handoff refresh — 2026-11-05
+Verified immutable data commit 6c2519f5e1ebb64513cc50b553b3f355419fb593; batches13–17 add56 identities/34 new areas/26 resource relationships. Replaced accumulated continuation text with standalone current prompt; added machine-readable CHECKPOINT.json. Current totals246/153/164/158/1578;95 areas lack identity. Historical counts explicitly marked superseded. No additional clinical/data claims in this handoff-only change.

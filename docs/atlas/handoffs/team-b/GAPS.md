@@ -1,5 +1,7 @@
 # Team B gaps and open questions
 
+Current checkpoint: batch17,246 identities/153 areas/164 resources/158 positive/1578 unresearched.95 areas have no identity. Historical batch counts below are retained as dated history; STATUS.md and CHECKPOINT.json supersede those totals. Every provisional, inaccessible and scientifically unappraised source remains unresolved unless a later explicit entry closes that exact gap.
+
 - The 248 × 7 M49 coverage matrix is a **discovery-status skeleton**, not completed organization research. All unreviewed cells are explicitly `not_yet_researched`; never infer that a condition-specific body does not exist.
 - Current rendered UNSD overview has exact248-code match (batch9); separate direct downloadable-export comparison and WHO/legal-jurisdiction checks remain pending. The roster excludes ISO numeric 158 (Taiwan), absent from the UNSD overview. UN M49 statistical practice is not a sovereignty statement.
 - Country/area authorities in territories, areas without a permanent population, and cross-border societies require nuanced remit investigation. No fabricated society assigned.

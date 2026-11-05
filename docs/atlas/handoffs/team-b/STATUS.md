@@ -1,23 +1,27 @@
 # Team B status — 2026-11-05
 
-**INCOMPLETE.** Global seven-stream discovery remains active; no clinical approvals.
+**INCOMPLETE — active global organization and seven-condition resource discovery.** No clinical approvals. A directory identity does not constitute completed research.
 
-- organizations: 246
-- areas: 153
-- resources: 164
-- positive: 158
-- unresearched: 1578
-- provenance: 414
-- search_log: 182
-- community: 3
-- current_unsd_overview_codes: 248
+| Metric | Count |
+|---|---:|
+| M49 areas |248|
+| Area × condition cells |1736|
+| Organization identities |246|
+| Areas with identities |153|
+| Resource relationships |164|
+| Source-positive cells |158|
+| not_yet_researched cells |1578|
+| Provenance records |414|
+| Logged targeted searches |182|
+| Community-specific records |3|
+| Approved clinical claims |0|
 
-Condition positives: {"diabetes":56,"hypertension":14,"high_chol":20,"gout":16,"lactose":13,"celiac":23,"hemochromatosis":16}.
+Condition positives: diabetes56; hypertension14; high_chol20; gout16; lactose13; celiac23; hemochromatosis16.
 
-Batch 17: Added20 identities across16 previously uncovered areas; Russian guideline catalogue and Faroese type2 education add2 resource cells. Vietnamese resource withheld for site-integrity concerns; Ukrainian live suspension, Mongolia/Moldova access failures and directory-only identities explicit.
+Batches13–17 added56 identities in34 newly covered areas and26 source relationships. Batch13: Haiti/Belize sources and Caribbean identity upgrades.14: eight lactose resources.15:20 MENA identities/six resources.16:nine rheumatology identities/seven gout resources.17:20 identities in16 new areas/two Russian and Faroese resources. All resources remain research_lead_only; withheld/inaccessible leads receive no resource credit.
 
-95 areas lack identities; 1578 condition cells lack resources. Directory-only records receive no source-positive credit. Next: Prioritize95 areas without identities (remaining Africa,Pacific,Latin America and territories), then seven-stream original-publication searches for provisional identities; preserve all access and clinical-appraisal boundaries.
+Verified immutable research data checkpoint: **6c2519f5e1ebb64513cc50b553b3f355419fb593**. Existing branch: research/atlas-team-b-20261104. [Draft PR71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) stays open/unmerged. Resolve current branch HEAD for any newer handoff-only or research commit. CHECKPOINT.json and CONTINUE.md provide exact resumption state.
 
-Nine-CSV structural validator core plus current UNSD overview code-set checks: zero errors in orchestration runtime; Node CLI not separately executed. Exact248-code rendered-table match; no downloadable-export, WHO/legal-jurisdiction audit, full URL crawl or clinical appraisal claimed.
+95 areas lack identities and1578 cells lack linked sources. Priority: remaining Africa/Pacific/Latin America/territories and original-language publications for directory-only identities; verify rights,authors,currency,identity continuity and source integrity. Preserve VADE compromised-looking footer, UDA suspension, ARG CPPD/gout text mix and all GAPS caveats.
 
-Branch research/atlas-team-b-20261104; draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. Previous checkpoint 5ed9fe03eaef3e8b2abaa7ddd9d4a08de26b583a; batch17 checkpoint is commit containing this file.
+Nine-CSV validator core and current UNSD rendered overview checks: zero errors in orchestration JavaScript runtime. Node CLI not separately run. Exact248-code rendered-table match; direct downloadable export, WHO/legal-jurisdiction audit, full URL crawl, independent registry checks and clinical appraisal not completed. No main/calculator or personalized-medical changes.
