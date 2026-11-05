@@ -9,11 +9,11 @@ Team A maintains a geography-keyed atlas of **government** institutions with leg
 
 ## Durable files
 
-- `data/countries.csv`: **248 UN M49 countries/areas** represented, including territories and Antarctica; M49 identifiers retained with leading zeroes. **19** source-backed ministry/competent health departments; **229** unknowns.
-- `data/government_health_bodies.csv`: **29** distinct government organizations with original-script name (when checked), English translation, body type, jurisdiction, mandate summary, source language, government URL, checked date and verification state.
-- `data/authority_relationships.csv`: **9** government-source-verified intra-government structural/listed subordinate relationships; independent external parent-area delegation not asserted without evidence.
+- `data/countries.csv`: **248 UN M49 countries/areas** represented, including territories and Antarctica; M49 identifiers retained with leading zeroes. **34** source-backed ministry/competent health departments; **214** unknowns.
+- `data/government_health_bodies.csv`: **55** distinct government organizations with original-script name (when checked), English translation, body type, jurisdiction, mandate summary, source language, government URL, checked date and verification state.
+- `data/authority_relationships.csv`: **14** government-source-verified intra-government structural/listed subordinate relationships; independent external parent-area delegation not asserted without evidence.
 - `data/country_coverage.csv`: **248** per-area research coverage statuses, missing government site flags and complex-jurisdiction review markers.
-- `PROVENANCE.csv`: **26** per-source records including UN, secondary geography transcription, ministries and statutory agency sources.
+- `PROVENANCE.csv`: **52** per-source records including UN, secondary geography transcription, ministries and statutory agency sources.
 - `STATUS.md`: current counts and next M49-ordered research batch.
 - `GAPS.md`: queue of contested, devolved and special jurisdictions and unresolved authorities.
 - `CHANGELOG.md`: commit-by-commit logical batch history.
