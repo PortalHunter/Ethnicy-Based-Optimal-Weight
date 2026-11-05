@@ -1,3 +1,9 @@
+## Latest standalone Team D handoff is now Batch 16 — 2026-11-05
+
+Read [CHECKPOINT_BATCH_16_2026-11-05.md](CHECKPOINT_BATCH_16_2026-11-05.md) for the newest committed 2023–2024 SCI observer/member transition evidence, 47 nodes / 616 time-qualified graph edges / 148 sources, full isolated-JS-shim structural PASS and exact restrictions. Existing historical Batch 15 and prior checkpoints are retained below. The new checkpoint supersedes only the older state summary; no historical sources were removed.
+
+---
+
 ## Batch 15 independent source-date correction and audit — 2026-11-05
 
 Newest self-contained handoff: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-d-20261104/docs/atlas/handoffs/team-d/CHECKPOINT_BATCH_15_2026-11-05.md

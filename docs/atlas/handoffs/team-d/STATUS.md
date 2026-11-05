@@ -1,3 +1,9 @@
+## Latest status — Batch 16, 2026-11-05
+
+**Committed and validated:** SCI observer-to-member transition, 2023–2024, with explicit source/meeting-date separation. Data commit `2225b8a883e5fa6dc017c19eec3a6b278238e2f7`, corrected validator commit `cae759dfc5e05648fcc0f9db62b99dd73abce301`. Standalone new checkpoint: [CHECKPOINT_BATCH_16_2026-11-05.md](CHECKPOINT_BATCH_16_2026-11-05.md). **47 nodes, 616 typed edges, 148 unique source URLs, 53 SCI snapshots.** Additions: 30 historical SCI time snapshots and 30 corresponding source-qualified relationships (23 historical member roster observations and 7 meeting observers) based on three WHO pages. North Macedonia 2023 observer and joined during April 10–12 2024; exact entry day unknown. Observer attendance is NOT formal membership. Full checked-in validator assertions passed against all 25 CSVs via read-only JS shim with GitHub patch/directory source; **not a native Node or Actions run**. PR #70 remains open/draft/unmerged; all edits Team D-only. 44 WHO region unknowns, 46 old surveys, and other priorities remain.
+
+---
+
 **Batch 15 precision correction:** research evidence dates are separated from publication dates. The Montenegro WHO event starts 2026-06-16, but the page publication date was not independently established. CSV column renamed `source_evidence_date` (not `source_published_on`); new validator assertion records `PUBLICATION_DATE_UNKNOWN`. Data/provenance/validator correction commit `7b9cfd7c7d774ad9ce182cf490370a759ce7288b`. A separate independent targeted cross-file audit of 12 CSV datasets passed (47 nodes, 586 typed edges, 145 unique sources, 249 area candidates, 205 verified/44 unverified WHO regions, 23 SCI snapshots and 9 office checks); this is NOT a full invocation of the checked-in Node validator.
 
 ## Latest Team D state — Batch 15 (2026-11-05)

@@ -1,3 +1,12 @@
+## 2026-11-05 — Batch 16 SCI historical membership, meeting observers, and full structural regression
+
+- Research/validator data commit `2225b8a883e5fa6dc017c19eec3a6b278238e2f7` added 30 as-of WHO/Europe SCI 2023/2024 snapshots, 30 typed graph edges, three directly read official WHO source URLs TD-SRC-146–148 and expanded validation checks. North Macedonia was a May 2023 meeting observer and joined as member during 10–12 April 2024 (exact day unknown). Five 2023 and two 2024 meeting observers remain **nonmembers** in this event-specific relation.
+- Validator follow-up commit `cae759dfc5e05648fcc0f9db62b99dd73abce301` restricted the earlier June 2026 SCI-roster assertions to that specific as-of date; historical edges do not inflate June roster counts.
+- Complete current checked-in validator executed with a read-only in-memory JS/FS shim against all 25 GitHub-derived CSVs and provenance: **PASS**; 47 nodes / 616 edges / 148 unique URLs / 53 SCI snapshots, 205 verified/44 unverified WHO region candidates. NOT native Node CLI or Actions, legal or clinical review.
+- New fully standalone GitHub recovery handoff `CHECKPOINT_BATCH_16_2026-11-05.md`. Research branch only, PR #70 remains draft and unmerged.
+
+---
+
 ## 2026-11-05 — Batch 15 source-date precision and cross-file audit
 
 - Corrected the Montenegro WHO event's 2026-06-16 **event-start date** versus UNKNOWN page publication date; renamed the independent office-check column `source_published_on` to `source_evidence_date`, and amended provenance and validator assertions in commit `7b9cfd7c7d774ad9ce182cf490370a759ce7288b`.

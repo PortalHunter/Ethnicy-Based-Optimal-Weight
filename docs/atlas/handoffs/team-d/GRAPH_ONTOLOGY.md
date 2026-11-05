@@ -1,3 +1,9 @@
+## Batch 16 SCI meeting-observer relationship semantics
+
+`attended_voluntary_initiative_meeting_as_observer` is a **documented, one-meeting attendance role** at the WHO Europe SCI's May 2023 or April 2024 high-level meeting. It is categorically **not** `participates_in_voluntary_health_initiative`, permanent institutional observer status, WHO Member State observer/governance status or national clinical policy adoption. The recorded `as_of` date is the **end of the documented meeting**, not admission date or proof of indefinite continuation; `valid_from`/`valid_to` remain unset. `participates_in_voluntary_health_initiative` with historical meeting observations is a dated roster assertion, not legal membership inception. North Macedonia's WHO-confirmed April 2024 accession happened **within 10–12 April**, exact day unavailable. Related records: `data/who_europe_sci_snapshots.csv` and TD-SRC-146–148 in `PROVENANCE.csv`.
+
+---
+
 ## Batch 14 relationship semantics — PAHO governance vs administrative service
 
 - `member_of` to `PAHO`: 35 full member states, dated to individual published admission days. Existing edges retained.

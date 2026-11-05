@@ -1,3 +1,9 @@
+## Batch 16 historical SCI transition — resolved in part, 2026-11-05
+
+**Resolved:** WHO original sources now document that North Macedonia was an SCI **meeting observer in May 2023** and became the **12th SCI member during 10–12 April 2024**. The former 2022 video topic-tag absence did NOT establish 2022 nonmembership and has not been reclassified. **Still unresolved:** exact accession day or signed instrument; date range only, no invented `valid_from`. WHO records separately document five 2023 and two 2024 meeting observers; attendance does not make them SCI member states or permanent governance observers. Dates are meeting end versus publication date; the April WHO event page's publication date is unknown. See [Batch 16 standalone checkpoint](CHECKPOINT_BATCH_16_2026-11-05.md). All other WHO region/office, PAHO, APPM, EDA/UPA, EMA, HEARTS, ASEAN and Team A/B/C gaps remain.
+
+---
+
 ## Batch 15 source-date refinement — 2026-11-05
 
 Montenegro's WHO page confirms a June 16–18, 2026 **event** involving the Country Office. It does not establish when the event webpage was published. The machine-readable field is now `source_evidence_date` and its Montenegro record explicitly marks the event's start date and unknown page publication date; this remains distinct from three other dated 2026 news articles and five undated country-office profiles. Do not upgrade September 2024 WHO survey responses from these checks. Source review for exact office operational continuity remains open.
