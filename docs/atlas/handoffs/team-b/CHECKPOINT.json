@@ -5,20 +5,21 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "01f67a5dd6a8993f208153df2b3d05e591a60159",
-  "batch": 25,
+  "validated_data_commit": "0761c580b39b3c62502f7c8408c9572e39e80912",
+  "batch": 26,
   "metrics": {
-    "organizations": 304,
-    "areas": 194,
-    "resources": 184,
-    "positive": 176,
-    "unresearched": 1560,
-    "provenance": 497,
-    "search_log": 280,
+    "organizations": 306,
+    "areas": 195,
+    "resources": 186,
+    "positive": 178,
+    "unresearched": 1558,
+    "provenance": 506,
+    "search_log": 286,
     "community": 4,
+    "cross_border_edges": 2,
     "by_condition": {
-      "diabetes": 64,
-      "hypertension": 16,
+      "diabetes": 65,
+      "hypertension": 17,
       "high_chol": 21,
       "gout": 17,
       "lactose": 14,
@@ -28,20 +29,23 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 11,
-    "new_areas": 5,
-    "resource_relationships": 9,
-    "provenance_rows": 20,
-    "search_log_rows": 18
+    "organization_identities": 2,
+    "new_domiciled_areas": 1,
+    "resource_relationships": 2,
+    "source_positive_cells": 2,
+    "provenance_rows": 9,
+    "search_log_rows": 6,
+    "cross_border_edges": 2
   },
-  "validation_runtime": "orchestration_javascript_core_plus_overview",
+  "validation_runtime": "orchestration_javascript_core_plus_overview_plus_cross_border",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "54 areas without domiciled identity; exact list retained below",
-    "Original-language own publications for directory-only identities across all seven streams",
-    "Normalize cross-border serves versus based-in and foreign publisher versus source/programme country with explicit provenance",
-    "Resolve GAPS source-integrity/currency/translation/legal continuity questions; never call unknown absent"
+    "53 areas without locally domiciled identity; list below; cross-border coverage is not domicile",
+    "Five other LI condition streams need local source discovery; UFL diabetes and BP publications are not clinical guidance",
+    "Original-language own publications for directory-only societies; increase sparse gout,lactose,iron and other streams",
+    "Audit source publisher versus source setting, population, service area and guideline jurisdiction separately",
+    "Resolve GAPS site-integrity, local identity/currency, translations, and Indigenous/community governance; no implicit absence"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -52,9 +56,10 @@
     "data/publication_context.csv",
     "data/coverage_by_area_condition.csv",
     "data/subnational_and_indigenous_organizations.csv",
-    "data/search_log.csv"
+    "data/search_log.csv",
+    "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "All17 files fetched from this immutable batch25 commit matched exact UTF-8 intended contents; nine fetched CSVs revalidated zero errors. Later handoff-only commit may be HEAD.",
+  "validated_data_commit_note": "Immutable batch26 substantive SHA read back all 18 handoff files against GitHub tree blob SHAs, zero mismatches; all 10 CSVs structurally revalidated with zero errors. Node CLI not run.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -151,10 +156,6 @@
     {
       "m49": "408",
       "area": "Democratic People's Republic of Korea"
-    },
-    {
-      "m49": "438",
-      "area": "Liechtenstein"
     },
     {
       "m49": "492",
@@ -274,11 +275,12 @@
     }
   ],
   "readback_validation": {
-    "immutable_data_sha": "01f67a5dd6a8993f208153df2b3d05e591a60159",
-    "files_matched": 17,
-    "csv_count": 9,
+    "immutable_data_sha": "0761c580b39b3c62502f7c8408c9572e39e80912",
+    "files_matched": 18,
+    "csv_count": 10,
     "errors": 0,
-    "runtime": "orchestration_javascript_committed_validator_core_plus_overview",
-    "node_cli_run": false
+    "runtime": "orchestration_javascript_committed_validator_equivalent_plus_cross_border",
+    "node_cli_run": false,
+    "github_tree_truncated": false
   }
 }
