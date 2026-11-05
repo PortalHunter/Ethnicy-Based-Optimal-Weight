@@ -2,22 +2,22 @@
 
 **INCOMPLETE.** Global seven-stream discovery remains active; no clinical approvals.
 
-- organizations: 226
-- areas: 137
-- resources: 162
-- positive: 156
-- unresearched: 1580
-- provenance: 392
-- search_log: 158
+- organizations: 246
+- areas: 153
+- resources: 164
+- positive: 158
+- unresearched: 1578
+- provenance: 414
+- search_log: 182
 - community: 3
 - current_unsd_overview_codes: 248
 
-Condition positives: {"diabetes":54,"hypertension":14,"high_chol":20,"gout":16,"lactose":13,"celiac":23,"hemochromatosis":16}.
+Condition positives: {"diabetes":56,"hypertension":14,"high_chol":20,"gout":16,"lactose":13,"celiac":23,"hemochromatosis":16}.
 
-Batch 16: Added9 rheumatology/patient identities and7 gout resources in7 areas; India/Mexico identity-only. Argentine page CPPD/gout mixture explicitly flagged; Chile2007 archive specialist-only; funding/currency/ancestry issues retained.
+Batch 17: Added20 identities across16 previously uncovered areas; Russian guideline catalogue and Faroese type2 education add2 resource cells. Vietnamese resource withheld for site-integrity concerns; Ukrainian live suspension, Mongolia/Moldova access failures and directory-only identities explicit.
 
-111 areas lack identities; 1580 condition cells lack resources. Directory-only records receive no source-positive credit. Next: Resume unsearched-area discovery, focusing Pacific,remaining Africa and Asia; verify remaining provisional identities and original condition publications.
+95 areas lack identities; 1578 condition cells lack resources. Directory-only records receive no source-positive credit. Next: Prioritize95 areas without identities (remaining Africa,Pacific,Latin America and territories), then seven-stream original-publication searches for provisional identities; preserve all access and clinical-appraisal boundaries.
 
 Nine-CSV structural validator core plus current UNSD overview code-set checks: zero errors in orchestration runtime; Node CLI not separately executed. Exact248-code rendered-table match; no downloadable-export, WHO/legal-jurisdiction audit, full URL crawl or clinical appraisal claimed.
 
-Branch research/atlas-team-b-20261104; draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. Previous checkpoint 5f904e04a5355e09f0b65d73aad2fd406a12b31a; batch16 checkpoint is commit containing this file.
+Branch research/atlas-team-b-20261104; draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. Previous checkpoint 5ed9fe03eaef3e8b2abaa7ddd9d4a08de26b583a; batch17 checkpoint is commit containing this file.

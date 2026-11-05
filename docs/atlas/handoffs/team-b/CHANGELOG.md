@@ -96,3 +96,7 @@ Added20 organization identities in18 newly covered M49 areas and6 resource relat
 
 ## Batch 16 — 2026-11-05
 Added9 rheumatology/patient identities and7 gout resources in7 areas; India/Mexico identity-only. Argentine page CPPD/gout mixture explicitly flagged; Chile2007 archive specialist-only; funding/currency/ancestry issues retained. Totals: {"organizations":226,"areas":137,"resources":162,"positive":156,"unresearched":1580,"provenance":392,"search_log":158,"community":3,"by_condition":{"diabetes":54,"hypertension":14,"high_chol":20,"gout":16,"lactose":13,"celiac":23,"hemochromatosis":16},"current_unsd_overview_codes":248}. Zero structural errors.
+
+
+## Batch 17 — 2026-11-05
+Added20 identities across16 previously uncovered areas; Russian guideline catalogue and Faroese type2 education add2 resource cells. Vietnamese resource withheld for site-integrity concerns; Ukrainian live suspension, Mongolia/Moldova access failures and directory-only identities explicit. Totals: {"organizations":246,"areas":153,"resources":164,"positive":158,"unresearched":1578,"provenance":414,"search_log":182,"community":3,"by_condition":{"diabetes":56,"hypertension":14,"high_chol":20,"gout":16,"lactose":13,"celiac":23,"hemochromatosis":16},"current_unsd_overview_codes":248}. Zero structural errors.

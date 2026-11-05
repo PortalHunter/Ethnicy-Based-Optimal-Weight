@@ -11,7 +11,7 @@ Read original TEAM_B_CLINICAL_ORGANIZATIONS.md and shared DATA_CONTRACT.md under
 
 Exclusive scope: non-government specialist societies, patient-condition organizations, biomedical and community-controlled research bodies across248 M49 areas and seven streams: diabetes,hypertension,high_chol,gout,lactose,celiac,hemochromatosis. Do not redo government census, international-network census or journal catalog. Write only team-b/ on existing branch; no main writes, merge, live calculator or clinical activation.
 
-Current totals:226 identities in137 areas,162 resource relationships,156 positive cells,1580 unresearched,392 provenance,158 search rows,3 community-specific records,zero clinical approvals. Research INCOMPLETE;129 areas lack identities. Search log began batch8; historical attempts not backfilled.
+Current totals:246 identities in153 areas,164 resource relationships,158 positive cells,1578 unresearched,414 provenance,182 search rows,3 community-specific records,zero clinical approvals. Research INCOMPLETE;129 areas lack identities. Search log began batch8; historical attempts not backfilled.
 
 This run batches8–12 added98 identities and57 resources. B8 celiac Europe; B9 Africa/Asia and independently extracted current UNSD rendered table; B10 iron overload/gout/lactose; B11 FH; B12 Caribbean/territories. Exact UN code-set248 match passed, but direct downloadable-export/WHO/legal audits remain open.
 
@@ -38,3 +38,7 @@ Next priorities: Verify original publications for remaining MENA identities; ext
 
 Latest batch16: Added9 rheumatology/patient identities and7 gout resources in7 areas; India/Mexico identity-only. Argentine page CPPD/gout mixture explicitly flagged; Chile2007 archive specialist-only; funding/currency/ancestry issues retained.
 Next priorities: Resume unsearched-area discovery, focusing Pacific,remaining Africa and Asia; verify remaining provisional identities and original condition publications.
+
+
+Latest batch17: Added20 identities across16 previously uncovered areas; Russian guideline catalogue and Faroese type2 education add2 resource cells. Vietnamese resource withheld for site-integrity concerns; Ukrainian live suspension, Mongolia/Moldova access failures and directory-only identities explicit.
+Next priorities: Prioritize95 areas without identities (remaining Africa,Pacific,Latin America and territories), then seven-stream original-publication searches for provisional identities; preserve all access and clinical-appraisal boundaries.
