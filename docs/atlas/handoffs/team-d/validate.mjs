@@ -231,10 +231,20 @@ assert.equal(sciOldEdges.filter(r=>r.relationship_type==='participates_in_volunt
 assert(sciOldEdges.every(r=>r.valid_from===''&&r.valid_to===''));
 assert(!sciOldEdges.some(r=>r.from_id==='m49:052'&&r.relationship_type==='participates_in_voluntary_health_initiative'));
 
-assert.equal(officeCrosschecks.length,9);
-assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='day').length,4);
-assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='undated'&&r.source_evidence_date==='unknown').length,5);
+assert.equal(officeCrosschecks.length,19);
+assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='day').length,7);
+assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='undated'&&r.source_evidence_date==='unknown').length,12);
 for(const r of officeCrosschecks){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.checked_on,'2026-11-05');assert.equal(r.source_claim_scope,'INDEPENDENT_SOURCE_CORROBORATION_NOT_SURVEY_REFRESH');assert(surveyRoster.some(s=>s.country_area_m49===r.country_area_m49&&s.latest_self_reported_survey==='2024-09'));if(r.source_date_precision==='day')assert.match(r.source_evidence_date,/^2026-\d{2}-\d{2}$/);}
+
+// Batch 18: independently dated/undated WHO evidence for 10 older 2024 office-survey entries.
+assert.deepEqual(officeCrosschecks.filter(r=>Number(r.record_id.split('-').at(-1))>=10).map(r=>r.country_area_m49).sort(),['148','226','480','508','516','686','716','728','748','834'].sort());
+assert.equal(officeCrosschecks.filter(r=>Number(r.record_id.split('-').at(-1))>=10&&r.source_date_precision==='undated').length,7);
+assert.equal(officeCrosschecks.filter(r=>Number(r.record_id.split('-').at(-1))>=10&&r.source_date_precision==='day').length,3);
+assert.equal(new Set(officeCrosschecks.map(r=>r.country_area_m49)).size,19);
+assert.equal(new Set(officeCrosschecks.map(r=>r.source_url)).size,19);
+assert.equal(prov.length,160);
+for(const r of officeCrosschecks.filter(r=>Number(r.record_id.split('-').at(-1))>=10)){assert.equal(r.verification_state,r.source_date_precision==='day'?'OFFICIAL_DATED_PRIMARY_WHO':'OFFICIAL_UNDATED_PRIMARY_WHO_PAGE');if(r.source_date_precision==='undated')assert.equal(r.source_evidence_date,'unknown');}
+console.log('Batch 18 office independent crosschecks PASS: 19 total, including 10 new; survey roster dates unchanged');
 
 // Batch 15 date-precision correction: the Montenegro WHO events page has event date, not verified publication date.
 assert(officeCrosschecks.some(r=>r.country_area_m49==='499'&&r.source_evidence_date==='2026-06-16'&&r.notes.includes('PUBLICATION_DATE_UNKNOWN')));
