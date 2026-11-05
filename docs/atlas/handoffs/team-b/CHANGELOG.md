@@ -48,3 +48,11 @@
 - Separated Guernsey directory corroboration/current-registration uncertainty, Jersey/Guernsey/UK jurisdictions, Bermuda screening attendees from national prevalence, and ACELU licensing from public regulation.
 - Structural checks repeated: 0 failures, 92 organizations, 81 resources, 76 positive/1660 unresearched cells and 175 provenance rows.
 - Batch 6 verified on GitHub at 82c4990d773bc8f636c9a578fc38d8a0d386b21c; exact publication CSV readback matched.
+
+## 2026-11-05 — Batch 8: European celiac discovery
+
+- Added 20 organization identities in 19 areas, including 14 previously unindexed areas; 14 first-party resource relationships in 13 new positive cells. Added detailed targeted-search ledger (20 rows) and reproducible structural validator.
+- Croatia, Estonia, Iceland, Ireland and Luxembourg remain directory-corroborated only after inaccessible/insufficient first-party retrieval. Hungary identity-only: legal-continuity/footer inconsistencies retained. Directory identities do not promote cells to researched.
+- Distinguished two Belgian language-community associations; Czech ministry-supported education from government authorship; Danish external government guide; DZG external DGVS/ESPGHAN links; Italian Ministry report and broken dynamic counters.
+- Refreshed STATUS.md to show current rather than historical counts first. Prior snapshots remain in history.
+- Validation core evaluated against eight CSVs: 0 failures; 112 identities/72 areas/95 resources/89 positive/1647 unresearched/209 provenance/20 logged searches.

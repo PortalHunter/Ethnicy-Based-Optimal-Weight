@@ -81,3 +81,14 @@ These examples flag *metadata and study-transportability errors* to check; they 
 - Uruguay ACELU public diagnostic text is biopsy-centred; age-specific exemptions/clinical currency require #27 review. Its trademark licensing does not replace Ministry regulatory powers.
 - Gibraltar search found government/news mentions but no first-party organization publication; not added, no absence asserted.
 - Latest state: 92 organizations/58 areas, 81 resource links, 76 positive cells, 1660 unresearched, 175 provenance entries.
+
+## Batch 8 — European celiac index, 2026-11-05
+
+- AOECS is an identity/discovery lead only; membership is not a regulatory mandate, guideline authorship or clinical validation. No directory-only resource cells credited.
+- Croatia own site returned 403; Estonia and Iceland timeouts; Ireland 403; Luxembourg initial title then repeated timeouts. Original local Croatian name remains unverified. AOECS Finland website link points to an email-shaped path; independent official-site search succeeded.
+- Czech materials explicitly financially supported by Ministry of Health: not sole government-authored standards. Denmark index includes a government-issued July 2026 guide; do not attribute it to association authorship.
+- Belgian SBC and Flemish VCV are separate entities with different language/community reach. VCV medical page contains older ESPGHAN 2012 references and reimbursement statements; clinical/currency audit required.
+- Hungarian liszterzekeny.hu redirects to coeliakia.hu, which retains older organizational name and an AOECS legal footer; registry/continuity check needed. No resource counted from generic site text.
+- Italian AIC condition-page counters rendered as zeros while linking 2024 Ministry report; zero is a rendering artifact, not epidemiological data. No prevalence figures imported. Austrian handbook/member content not fully read or copied.
+- Malta diagnosis child page yielded no substantive body; only homepage guide catalogue indexed. Andorra clinical percentages/terminology remain unappraised. HLA predisposition is not confirmed disease.
+- 1647 cells remain without source resources. Newly logged access attempts do not prove absence of societies or research.

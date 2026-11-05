@@ -45,3 +45,7 @@ Baseline: draft PR #71 HEAD f24f1bd4ba321b282511e956d3520cf732201f97. Batch chec
 ## Latest checkpoint: Batch 7 (2026-11-05)
 
 92 organizations / 58 M49 areas; 81 resources; 76 source-positive cells; 1660 unresearched; 175 provenance entries. These supersede earlier snapshots. Read STATUS.md and CONTINUE.md. Research remains incomplete; no clinical release approved.
+
+## Batch 8 update
+
+See current STATUS.md. New data/search_log.csv records only searches starting batch 8; it is not a retroactive claim of systematic searching. validate.mjs checks structural integrity and may be run with node; its core was evaluated against the committed candidate tables. Identity-only findings do not resolve condition research gaps.
