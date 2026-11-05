@@ -1,3 +1,29 @@
+# Team B status · 2026-11-05 · batch 45
+
+**INCOMPLETE, research only.** [Draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) remains open and unmerged on `research/atlas-team-b-20261104`, targeting `main`. Final independently readback-validated **data** commit [`5d5bb3654aba9b4870c8e848754598ddf34bced5`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/5d5bb3654aba9b4870c8e848754598ddf34bced5) (after a failed intermediary persistence check and corrective commit). No public website, formula, main, other research team files, private records or patient advice were edited.
+
+| Measure | Verified count |
+|---|---:|
+| UN M49 areas × seven conditions | **248 × 7 = 1,736** |
+| Organizations / locally domiciled areas / missing eligible local identities | **384 / 227 / 21** |
+| Exact source relations / source-positive area-condition cells | **281 / 256** |
+| Zero-resource cells / targeted with no link / no condition-specific targeted check | **1,480 / 127 / 1,353** |
+| Provenance rows / targeted search rows | **786 / 457** |
+| Indigenous and subnational community records / cross-border edges | **7 / 8** |
+| Edition-specific unresolved issuer countries / clinically approved claims | **5 / 0** |
+
+Source-positive cells: diabetes **88**, hypertension **42**, high_chol **29**, gout **25**, lactose **18**, celiac **34**, hemochromatosis **20**. This is **source discovery, not validated treatment efficacy, accepted national recommendations, genetic/ancestry risk, or a diagnostic application**. Every one of 281 contexts remains `research_lead_only`.
+
+**Batch 45:** Four specialist lipid societies and their first-party original-language resource catalogues/announcements: Argentina **SAL**, Czechia **ČSAT**, Spain **SEA**, and Poland **PTL**. **+4 organizations**, **+4 exact resource contexts**, **+3 first-positive high_chol cells** (Spain already had a separate source and is now two relationships in one positive cell), **+8 provenance**, **+4 searches**, **+0 new domiciled areas**. Czechia's earlier bounded no-resource search was retained and made source-positive; three other formerly unsearched cells became positive.
+
+The Argentine society index separates 2014 FH and 2019 dyslipidaemia sources from later materials; the Czech ČSAT index distinguishes its own FH position from IAS/EAS/ESC summaries; Spain's SEA dates include 2026 documents and **older 2015/2019 FH** materials, and does not replace the existing Spanish FH patient organization; Poland's **2 Nov 2026** PTL page links a document **explicitly labelled uncorrected proof**, not a verified final edited text. No full guideline/paper clinical appraisal or copyright check was performed.
+
+**Validation:** 10/10 immutable CSV blobs matched nontruncated Git tree (145 entries), complete independent connector-orchestrated structural checks **0 errors**; actual `node validate.mjs` CLI **not run**, so this is not an independently executed checkout validator or clinical audit. See VALIDATION.md.
+
+---
+
+## Previous status preserved (historical batch 44)
+
 # Team B status · 2026-11-05 · batch 44
 
 **INCOMPLETE; open draft [PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71); not merged.** Branch `research/atlas-team-b-20261104`, base `main`. Immutable validated Batch 44 data SHA [`0eb0b70f1102a9911588e3b1c3d427efc31a6e96`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/0eb0b70f1102a9911588e3b1c3d427efc31a6e96).

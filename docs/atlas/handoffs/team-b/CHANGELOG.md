@@ -1,5 +1,12 @@
 # Team B changelog
 
+## 2026-11-05 — Batch 45: four professional lipid societies, corrected and validated
+
+- Indexed original-language specialist society source leads in Argentina (SAL), Czechia (ČSAT), Spain (SEA) and Poland (PTL). Delta **+4 organization identities, +4 resource and publisher/care-jurisdiction contexts, +3 first-positive high_chol cells, +8 provenance, +4 logs**, zero new M49 domiciled areas. Spain already had FHF source and now has two links.
+- Kept 2014/2019 historical Argentine and Spanish FH guidance separate from 2026 lists, Czech external EAS/IAS commentaries distinct from local authored statements, and Poland's **2 Nov 2026 uncorrected proof** explicitly not a validated final guideline.
+- First data commit `f628cf194e6315256b327491aa93919590fd5507` failed independent readback with 11 structural errors because append-only rows were omitted from serialized CSV output. Corrective [`5d5bb3654aba9b4870c8e848754598ddf34bced5`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/5d5bb3654aba9b4870c8e848754598ddf34bced5) saved complete rows, restored prior CSV formatting and passed 10/10 immutable CSV blob matches and full independent structural validation **0 errors**. Actual Node CLI not run. No patient-facing content, main, clinical calculators or other teams changed.
+
+
 ## 2026-11-05 — Batch 44: five first-party European hypertension organizations
 
 - Indexed **Belgian Hypertension Committee**, **Nederlandse Hypertensie Vereniging**, **Sociedade Portuguesa de Hipertensão**, **Sociedad Española de Hipertensión–LELHA**, and **Polskie Towarzystwo Nadciśnienia Tętniczego** with local names, M49 domicile, identity evidence, provenance, five exact source links and publisher/population/jurisdiction contexts. +5 orgs, +0 new areas, +5 resource relations, +5 positive cells, +5 search logs, +11 provenance.

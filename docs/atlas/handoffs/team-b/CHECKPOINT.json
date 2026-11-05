@@ -5,18 +5,18 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "0eb0b70f1102a9911588e3b1c3d427efc31a6e96",
-  "batch": 44,
+  "validated_data_commit": "5d5bb3654aba9b4870c8e848754598ddf34bced5",
+  "batch": 45,
   "metrics": {
-    "organizations": 380,
+    "organizations": 384,
     "areas": 227,
-    "resources": 277,
-    "positive": 253,
-    "without_linked_source": 1483,
-    "targeted_no_source": 128,
-    "unresearched": 1355,
-    "provenance": 778,
-    "search_log": 453,
+    "resources": 281,
+    "positive": 256,
+    "without_linked_source": 1480,
+    "targeted_no_source": 127,
+    "unresearched": 1353,
+    "provenance": 786,
+    "search_log": 457,
     "community": 7,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
@@ -24,7 +24,7 @@
     "by_condition": {
       "diabetes": 88,
       "hypertension": 42,
-      "high_chol": 26,
+      "high_chol": 29,
       "gout": 25,
       "lactose": 18,
       "celiac": 34,
@@ -33,26 +33,25 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 5,
+    "organization_identities": 4,
     "new_domiciled_areas": 0,
-    "resource_relationships": 5,
-    "source_positive_cells": 5,
-    "provenance_rows": 11,
-    "search_log_rows": 5,
+    "resource_relationships": 4,
+    "source_positive_cells": 3,
+    "provenance_rows": 8,
+    "search_log_rows": 4,
     "community_records": 0,
     "cross_border_edges": 0
   },
-  "validation_runtime": "connector_orchestrated_javascript_equivalent_of_validate_mjs",
+  "validation_runtime": "independent_connector_orchestrated_javascript_full_structural_equivalent",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Search 1355 zero-resource cells with no targeted condition check; 128 bounded checks do not prove no national research.",
-    "Investigate 21 remaining M49 areas without independently verified locally domiciled eligible body; based-in, serves and members-located-in are distinct.",
-    "Resolve 5 edition-specific unknown issuer countries (Panama HEARTS; Portuguese WGO lactose translation; Portuguese ESPGHAN celiac translation; Chad OA Pub/JHC; South Sudan PAMJ imprint).",
-    "Verify guideline edition succession and multi-issuer author roles: Belgian ESH translations, older Netherlands reference list, mixed Portugal SPH/SPC catalogue, Spain 2022 notice, Poland 2024 PTNT/PTK notice; Polish October 2026 election versus prior board page.",
-    "Preserve lifecycle and limits: Dutch NDF Jan 2026 cessation, dissolved Monaco diabetes association, M-CRIN governance, Côte d'Ivoire AODCI 2021 archive, Trinidad undated DATT blog, Saint Lucia 2025 press and 2026 meeting announcement, Mexico gout CG030 n=68 versus subgroups=67.",
-    "Distinguish hereditary lactase nonpersistence versus lactose symptoms, FH versus high LDL, clinical gout versus asymptomatic hyperuricaemia, genetic haemochromatosis versus high ferritin, and coeliac predisposition versus diagnosed disease.",
-    "Keep all 14 population anti-generalization examples in GAPS.md, 7 community/governance caution records, 8 explicit cross-border service edges. No ancestry risk extrapolation, clinical claim approval or public website changes."
+    "Target 1353 no-source cells lacking any condition-specific search; 127 bounded negative checks cannot establish area-wide absence.",
+    "Investigate 21 missing eligible locally domiciled identities, avoiding service-region/domicile conflation.",
+    "Reconcile five original-document issuer-country unknowns; do not infer publisher geography from authors or participating populations.",
+    "Appraise edition succession and rights for 2014/2019 Argentina FH/dyslipidaemia, Czech own vs EAS/IAS documents, Spain 2026 vs historic FH, Poland Nov 2 2026 uncorrected proof; maintain earlier hypertension caveats.",
+    "Preserve Dutch NDF/Monaco dissolution and later entities; Côte d'Ivoire, Trinidad, Saint Lucia dated history; Mexico gout 68 vs 67 internal abstract discrepancy.",
+    "Preserve 14 population diversity examples, 7 Indigenous and subnational permission-caution records, 8 cross-border service edges; no genetic inference or clinical release."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -66,7 +65,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch 44 verified 10/10 exact immutable CSV blobs against nontruncated Git recursive tree (145 items), full connector-orchestrated structural JS-equivalent validation 0 errors. Data SHA 0eb0b70f1102a9911588e3b1c3d427efc31a6e96. Six CSVs expanded through regular Git commits; initial CRLF search reference mismatch was identified and corrected before final validation. 380 organizations, 277 resources, 1736 area-condition cells, 778 provenance, 453 logs, 7 community, 8 cross-border. Actual Node CLI not run due local GitHub DNS resolution; no clinical appraisal, full live-site audit or permissions validation.",
+  "validated_data_commit_note": "Batch 45 corrected data SHA 5d5bb3654aba9b4870c8e848754598ddf34bced5; initial commit f628cf1 failed independent readback with 11 errors (append-only rows omitted), corrected in separate non-force commit; final 10/10 immutable CSV matches in 145-entry nontruncated tree; structural errors 0. Actual Node CLI not run.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -155,16 +154,18 @@
   ],
   "readback_validation": {
     "status": "passed",
-    "verified_data_sha": "0eb0b70f1102a9911588e3b1c3d427efc31a6e96",
+    "verified_data_sha": "5d5bb3654aba9b4870c8e848754598ddf34bced5",
+    "tree_sha": "f3685c7d65965eb74641183483645c55a7dbce29",
     "tree_truncated": false,
+    "tree_items": 145,
     "files_matched": 10,
     "validated_csv_inputs": 10,
     "validation_runtime": "independent_connector_orchestrated_javascript_full_structural_equivalent",
     "node_cli_run": false,
     "structural_errors": 0,
-    "scope": "All 10 CSVs fetched at immutable data SHA and blob-matched nontruncated 145-entry Git tree; 248x7 M49 roster, 277 resource/context joins, issuer-country/provenance, 453 search/coverage join, 7 community and 8 cross-border links. No clinical efficacy, copyrights, Indigenous permissions or universal current-link validation."
+    "scope": "Immutable 10/10 CSV blob matches on nontruncated Git tree; full M49 248x7, 281 exact resource/context joins, 457 search/coverage links, 7 community and 8 cross-border FK checks; not a clinical, licensing, copyright, community permissions or all-source currency audit."
   },
-  "previous_independently_verified_data_commit": "1e20927dfebe5f31cab326bfd2d38a8c615eb489",
+  "previous_independently_verified_data_commit": "0eb0b70f1102a9911588e3b1c3d427efc31a6e96",
   "session_additions": {
     "organization_identities": 3,
     "new_domiciled_areas": 3,
@@ -183,14 +184,15 @@
     "41": "1c323d266f523967c538dd58ee4bb690044b5332",
     "42": "db5b050d6a9139959e5ced1cecfefe0828b5eb4d",
     "43": "1e20927dfebe5f31cab326bfd2d38a8c615eb489",
-    "44": "0eb0b70f1102a9911588e3b1c3d427efc31a6e96"
+    "44": "0eb0b70f1102a9911588e3b1c3d427efc31a6e96",
+    "45": "5d5bb3654aba9b4870c8e848754598ddf34bced5"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "Structurally met 248×7 cells",
-    "source_population_jurisdiction": "277/277 resource contexts separate issuer/publisher, organization domicile, study population and care jurisdiction; 5 edition-specific issuer-country values unresolved",
-    "disease_subtypes_and_release": "Seven streams maintain distinct diagnoses/phenotypes; all 277 exact resources research_lead_only and 0 claims approved",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 missing locally domiciled eligible identities, 1355 no-resource cells with no targeted check; multi-issuer/translated/legacy guideline and legal-lifecycle review ongoing",
-    "diversity_examples": "14 broad-label counterexamples preserved in GAPS.md"
+    "m49_area_condition_roster": "Structurally met 248x7 cells",
+    "source_population_jurisdiction": "281/281 contexts separate issuer country, organization domicile, study population and care jurisdiction; five edition-specific issuer countries unresolved",
+    "disease_subtypes_and_release": "All 281 resource links research_lead_only and 0 claims approved; FH distinct from high LDL and other phenotype/disease boundaries retained",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 eligible local domicile gaps; 1353 unresearched empty cells; published versions, rights and guideline multi-issuer roles pending; 2026 Polish PTL PDF is uncorrected proof",
+    "diversity_examples": "All 14 original broad-population cautions preserved in GAPS.md"
   },
   "batch40_sources": [
     {
@@ -385,5 +387,35 @@
     "B-PT-SPH-SEARCH-B44",
     "B-ES-SEHLELHA-SEARCH-B44",
     "B-PL-PTNT-SEARCH-B44"
-  ]
+  ],
+  "batch45_sources": [
+    {
+      "org_id": "B-AR-SAL",
+      "m49": "032",
+      "source_url": "https://www.sociedadargentinadelipidos.com/guias",
+      "caveat": "2014 FH and 2019 adult dyslipidaemia guides are historical; no latest-edition audit"
+    },
+    {
+      "org_id": "B-CZ-CSAT",
+      "m49": "203",
+      "source_url": "https://athero.cz/odborna-doporuceni/doporuceni-a-stanoviska-csat/",
+      "caveat": "own committee positions mixed with summaries of European/International guidance"
+    },
+    {
+      "org_id": "B-ES-SEA",
+      "m49": "724",
+      "source_url": "https://www.se-arteriosclerosis.org/guias-documentos-consenso",
+      "caveat": "2026 and historical FH references, Spain previously source-positive"
+    },
+    {
+      "org_id": "B-PL-PTL",
+      "m49": "616",
+      "source_url": "https://ptlipid.pl/blog/2026/11/02/wytyczne-polskiego-towarzystwa-lipidologicznego-ptl-na-temat-diagnostyki-i-leczenia-zaburzen-lipidowych-w-polsce-2026/",
+      "caveat": "uncorrected proof, not independently final guideline"
+    }
+  ],
+  "batch45_source_commits": {
+    "incomplete_intermediate": "f628cf194e6315256b327491aa93919590fd5507",
+    "final_validated_data": "5d5bb3654aba9b4870c8e848754598ddf34bced5"
+  }
 }

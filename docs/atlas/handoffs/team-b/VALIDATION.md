@@ -1,5 +1,14 @@
 # Team B validation history
 
+## Batch 45 · independently verified data SHA `5d5bb3654aba9b4870c8e848754598ddf34bced5` · 2026-11-05
+
+- First-party source-backed entries in Argentina, Czechia, Spain and Poland add **four** independently indexed society identities; four exact high_chol resource/context links; **3** new source-positive cells (Spain already had one); **8** organization/resource provenance records and **4** targeted search logs.
+- **Persistence fault and correction:** Commit `f628cf194e6315256b327491aa93919590fd5507` unintentionally persisted matrix edits without appended organization, resource, context, provenance and search rows because prewrite serialization used the wrong array after appending. The first *independent immutable readback* caught **11** foreign-key/matrix/log errors. **Do not use that intermediate commit as a validated dataset.** Corrective commit [`5d5bb3654aba9b4870c8e848754598ddf34bced5`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/5d5bb3654aba9b4870c8e848754598ddf34bced5) restored original CSV formatting, appended all missing rows, and reconciled matrix counts and prior search IDs. Both commits remain auditable; no rewritten history.
+- Final independent readback of **all 10 CSVs** at immutable `5d5bb3654aba9b4870c8e848754598ddf34bced5` matched exactly **10/10 Git blob SHAs** from nontruncated **145-entry** recursive tree (`f3685c7d65965eb74641183483645c55a7dbce29`). Independent JavaScript structural equivalent of checked-in `validate.mjs` checked row widths, unique IDs, 248×7 M49 cells, complete organization and resource/context/provenance joins, separate issuer country/population/care jurisdiction, all search/matrix IDs, seven community records, eight cross-border edges and coverage states. **Final structural errors: 0.**
+- Verified totals: **384 organizations / 227 domiciled M49 areas / 281 links / 256 positive cells / 1,480 empty (127 bounded targeted; 1,353 no targeted check) / 786 provenance / 457 logs / 7 community / 8 cross-border / 5 unknown issuer countries / 0 approved clinical claims.**
+- **Actual `node docs/atlas/handoffs/team-b/validate.mjs` CLI not run.** Direct checkout unavailable in this tool runtime. The independent connector-orchestrated equivalent is a structural check, **not** a full source-reachability, guideline-currency, efficacy, legal/copyright, Indigenous cultural-permission or clinical appraisal.
+
+
 ## Batch 44 · immutable data SHA `0eb0b70f1102a9911588e3b1c3d427efc31a6e96` · 2026-11-05
 
 - PR #71: open/draft/unmerged; existing branch `research/atlas-team-b-20261104`. Five hypertension society identities (Belgium, Netherlands, Portugal, Spain and Poland), five exact first-party resource links and contexts, 11 provenance rows (including separate Polish university announcement), five search logs and five positive matrix cells added across **six CSV files**.
