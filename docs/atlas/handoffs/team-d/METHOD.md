@@ -1,3 +1,9 @@
+## Batch 21 — additional WHO reporting source, not an administrative override
+
+WHO *Weekly Epidemiological Record* volume 101 issues 36–37 contains Table 5, **Global leprosy situation by WHO Region and country or territory, 2025**, in an issue marked epidemiological weeks 31 August–13 September **2026**. We indexed 15 area labels under its **Region of the Americas** section against pre-existing unresolved M49 codes. Their grouping is an **epidemiology table observation for 2025**, not proof of current WHO constitutional membership or contemporary country office/administrative assignment. Some rows contain dashes rather than surveillance values; do not infer completed data submissions, zero cases, clinical guidance, or absence. The original `m49_network_status.csv` administrative unknowns, the September-2024 vs April-2026 office survey years, 2019/2021–2022 historical records and the PAHO 13-vs-14 service discrepancy are unaffected. Source: https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-36-37/ (checked 2026-11-05). Exact publication day not verified; source data reference year 2025.
+
+---
+
 ## Batch 14 evidence protocol — PAHO
 
 Formal `member_of` versus `participating_state_of`, `associate_member_of`, `observer_state_of` follow PAHO's *own* category roster with exactly recorded **day versus month** admission precision. An institutional status is independent of WHO membership and country health-law authority. Caribbean `receives_technical_cooperation_from` edges use named PAHO service lists, with **`source_observed_on`** as PAHO publication date for the 2026-08-24 list or **check date only** for undated territory pages; blank `valid_from` intentionally avoids inferring when service began. Do not transmute technical-cooperation service into an in-territory local office, physical presence, clinical practice or WHO region assignment.
