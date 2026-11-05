@@ -1,3 +1,11 @@
+## 2026-11-05 — Team A Batch 19 source-backed governmental identity additions
+
+- Independently read-back/structurally audited DATA SHA **`0d7c71823fd4ad552cce2a77122f197f545b4ec0`**: three new principals **662 Saint Lucia** `gov-662-001`, **674 San Marino** `gov-674-001`, **682 Saudi Arabia** `gov-682-001`; two additional distinct bodies **Saint Lucia Bureau of Health** internal department `gov-662-002` and **San Marino ISS** autonomous public institution `gov-674-002`; one limited `gov-662-001` → `gov-662-002` official department-listing relation; **9** separate provenance records including explicit site timeout/HTTP403.
+- Exact data counts **248** official M49 geographic skeletons, **128/248** identified / **120** explicitly unresolved, **180** separate government bodies, **41** supported intra-area relations, **275** dated provenance checks, **248** coverage ledger, **0** speculative legal parent-area assignments. Only five normalized Team A CSV files changed; prior historical/source/issuer limitations preserved.
+- San Marino ISS legal source currently **official legislative index, not audited full act**; Saudi Arabic+English are SAME issuer; Saint Lucia current ministry directory header differs historic URL slug. Full statute/rename/agency roles pending. Independently refetched six files exact-SHA structural **PASS**, local Python validator **NOT RUN** (GitHub DNS). Complete [Batch 19 standalone checkpoint](CHECKPOINT_20261105_BATCH19.md), PR DRAFT/unmerged, website untouched.
+
+---
+
 ## 2026-11-05 — Team A Batch 18 governmental health authorities
 
 - **DATA SHA `6329a090951f5e6fa518fdbfec15764e77bff94e`**: five new official-source primary identity entries **626 Timor-Leste** `gov-626-001`, **630 Puerto Rico** `gov-630-001`, **634 Qatar** `gov-634-001`, **642 Romania** `gov-642-001`, **646 Rwanda** `gov-646-001`; distinct Timor-Leste **INSP-TL** `gov-626-002` and source-limited ministerial dependency listing link. **13** issuer-specific source/provenance rows. Changes only to `data/countries.csv`, `data/country_coverage.csv`, `data/government_health_bodies.csv`, `data/authority_relationships.csv`, `PROVENANCE.csv`.
