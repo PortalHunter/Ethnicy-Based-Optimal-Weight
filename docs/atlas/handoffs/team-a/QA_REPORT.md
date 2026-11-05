@@ -1,3 +1,19 @@
+## CURRENT Team A Batch24 — 2026-11-05
+
+**Immutable DATA SHA [`68a7445f111ee0800402d10960d176d8beae82e9`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/68a7445f111ee0800402d10960d176d8beae82e9) independently re-read/audited.** Exact 248/248 official dated UN M49 geographic country/area records; **156** source-identified principal government health-authority **IDENTITIES ONLY** (62.9% of geographies, NOT all mandates), **92** explicitly unresolved; **211** separate governmental health bodies; **44** source-bounded same-area institutional relationships; **353** dated provenance records including historical/failed and 12 new official checks; **248** matching coverage review rows; **0** invented cross-area parent M49.
+
+**New principal identities:** 458 Malaysia, 504 Morocco, 512 Oman, 566 Nigeria. Critically distinguish Malaysia federal/state division and same-issuer Ministry sources; Morocco 2026 current expanded Health and Social Protection name versus historic 1994 mission law and stale pre-Oct minister names; Oman original Arabic broad functions versus unreviewed authenticated Royal Decree and governorates; Nigeria federal health and social welfare ministry versus unverified state/FCT/local law and one ministry issuer. **No enacted current full mandate certifications inferred.**
+
+**Independent exact-SHA quote-aware six-CSV structural QA PASS** (37 special/devolved/disputed sentinels). **Python `validate.py` NOT RUN:** container git checkout cannot resolve `github.com` DNS. [Full standalone Batch24 checkpoint](CHECKPOINT_20261105_BATCH24.md); preserve [Batch23](CHECKPOINT_20261105_BATCH23.md) and all older evidence. Changed only four Team A CSVs in DATA commit; PR #68 OPEN DRAFT/unmerged, website/main/calculator/clinical and other-team files untouched.
+
+---
+
+## Independent Batch24 six-CSV structural audit
+
+**PASS structural** on exact immutable DATA commit `68a7445f111ee0800402d10960d176d8beae82e9`: M49 248 official master exact attributes; identity 156/unknown 92 with proper IDs, 211 body keys, 44 same-M49 source-limited edges, 353 dated provenance entries, 248 synced coverage, 37 territory/federation/dispute sentinel checks, 0 inferred parent M49. Compare predecessor `f5947f258ccc743acadda3cc38c390241cf4ab00` to data commit: ONLY four Team A CSVs changed. **Python validator NOT RUN**, local GitHub clone DNS unavailable. Neither external source/legal enactment nor full mandate/clinical completeness certified. See [Batch24](CHECKPOINT_20261105_BATCH24.md).
+
+---
+
 ## CURRENT — Team A Batch23 (2026-11-05)
 
 Official M49 geography **248/248**; principal governmental health authority **IDENTITIES 152/248** and **96 explicitly unknown** (61.3% identity coverage, NOT 61.3% completed legal mandates); **207** governmental body records; **44** sourced same-area limited relationships; **341** provenance entries; **248** review records; **0** assigned/invented parent M49. Batch23 new areas: 776 Tonga, 780 Trinidad and Tobago, 784 United Arab Emirates, 792 Türkiye, 800 Uganda, 804 Ukraine, 807 North Macedonia, 818 Egypt, 834 United Republic of Tanzania, 894 Zambia.
