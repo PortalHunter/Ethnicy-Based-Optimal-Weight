@@ -1,63 +1,48 @@
-# Continue Research Team B · batch 40 · 2026-11-05
+# Continue Research Team B · batch 41 · 2026-11-05
 
-**INCOMPLETE.** Same open draft [PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71), branch `research/atlas-team-b-20261104`, base `main`. Do not merge, publish or edit the website/calculator or any other team's files. All source relationships are `research_lead_only`; clinical appraisal belongs to issue #27. **Data commit:** `1d7f0a326be34482b782ef704bb57b84f29677ec`.
+**INCOMPLETE.** Continue the same open draft [PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71), research branch `research/atlas-team-b-20261104`, base `main`. **Verified batch 41 data commit:** `1c323d266f523967c538dd58ee4bb690044b5332`. Do **not** merge, touch public website/calculator/main or another team's files. Entire dataset and all claimed resource relationships are **`research_lead_only`**; claim appraisal belongs to issue #27.
 
-## Live verification and handoff
+## Mandatory live restart
 
-1. Verify current PR open, draft, unmerged, head `research/atlas-team-b-20261104`, base `main`; read newest commits, reviews, comments and non-truncated recursive Git tree/AGENTS.md before writing. Never rewind another agent's changes.
-2. Original prompt and data contract are on branch `research/atlas-five-team-handoff-prompts-2026-11-04` under `docs/atlas/research-team-prompts/TEAM_B_CLINICAL_ORGANIZATIONS.md` and `DATA_CONTRACT.md`.
-3. Read **all 18 files** under `docs/atlas/handoffs/team-b/`; specifically current counts in CHECKPOINT.json/STATUS.md, original 14 diversity examples and historical caveats in GAPS.md, logs and provenance, ten CSVs, and committed validate.mjs. Do not duplicate URLs, IDs or prior targeted checks.
-4. At data commit `1d7f0a326be34482b782ef704bb57b84f29677ec`, independently fetched **10/10 CSVs** matched immutable Git tree `aab96a8178329374cada6e4f209a1335956704e5` and passed equivalent full structural JavaScript checks with **zero errors**. **Actual Node CLI did not run.** Run `node docs/atlas/handoffs/team-b/validate.mjs` when filesystem is available; do not claim clinical verification.
+1. Check latest PR is open/draft/unmerged, correct branch/base; inspect newest commits, comments, reviews and nontruncated Git tree, `AGENTS.md` if present, before writing. If a different agent advanced the branch, reconcile instead of rewinding it.
+2. Read the original Team B assignment and `DATA_CONTRACT.md` on `research/atlas-five-team-handoff-prompts-2026-11-04`. Read **all 18 files** under `docs/atlas/handoffs/team-b/` (ten CSVs, six Markdown files, JSON checkpoint, validator), including all 14 diversity examples in GAPS.md and historic lifecycle cautions.
+3. Prefer performing the actual `node docs/atlas/handoffs/team-b/validate.mjs` when a checkout is available. Current batch 41 data independently passed ten-CSV GitHub readback, exact blob comparison and structural JavaScript-equivalent checks with **zero errors**, but **actual Node CLI was not run**.
+4. Restrict writes **only to `docs/atlas/handoffs/team-b/` on the existing branch**, no outreach, private records, copyrighted full-text uploads, cross-team edits or clinical rollout.
 
-## Live counts after batch 40
+## Batch 41 immutable status
 
-| Measure | Count |
+| Metric | Count |
 |---|---:|
-| M49 areas / × 7 cells | 248 / 1,736 |
-| Organizations / domiciled areas / areas missing identity | 368 / 227 / 21 |
-| Exact resource links / source-positive cells | 257 / 237 |
-| Unlinked cells / targeted no-link / no targeted check | 1,499 / 130 / 1,369 |
-| Provenance / searches / community / cross-border | 744 / 431 / 7 / 8 |
-| Unknown issuer country / approved clinical claims | 5 / 0 |
+| UN M49 areas / × seven conditions | 248 / 1,736 |
+| Organizations / domiciled areas / no domiciled identity | 368 / 227 / 21 |
+| Exact resource edges / source-positive cells | 262 / 242 |
+| Unlinked / targeted no-link / no targeted check | 1,494 / 128 / 1,366 |
+| Provenance / condition checks / Indigenous-community records / service edges | 750 / 438 / 7 / 8 |
+| Unresolved issuer-country assignments / approved clinical claims | 5 / 0 |
 
-Positive cells: diabetes 85 · hypertension 31 · high_chol 26 · gout 24 · lactose 17 · celiac 34 · hemochromatosis 20.
+Positive cells: diabetes **88**, hypertension **32**, high_chol **26**, gout **25**, lactose **17**, celiac **34**, hemochromatosis **20**. These counts describe **source-index coverage, not evidence strength**. Full details: STATUS.md, CHECKPOINT.json, VALIDATION.md.
 
-## Current 21 areas without a verified domiciled organization
+### What changed
 
-- 010 — Antarctica
-- 074 — Bouvet Island
-- 086 — British Indian Ocean Territory
-- 162 — Christmas Island
-- 166 — Cocos (Keeling) Islands
-- 238 — Falkland Islands (Malvinas)
-- 239 — South Georgia and the South Sandwich Islands
-- 260 — French Southern Territories
-- 334 — Heard Island and McDonald Islands
-- 336 — Holy See
-- 408 — Democratic People's Republic of Korea
-- 520 — Naoero
-- 570 — Niue
-- 574 — Norfolk Island
-- 581 — United States Minor Outlying Islands
-- 612 — Pitcairn
-- 652 — Saint Barthélemy
-- 654 — Saint Helena
-- 732 — Western Sahara
-- 744 — Svalbard and Jan Mayen Islands
-- 772 — Tokelau
+- Côte d'Ivoire **AODCI 2021 French activity archive**: historical joint diabetes and HTA screening (same original archive for two condition edges, no independent studies or measured outcomes).
+- Saint Lucia **SLDHA November 2025 first-party diabetes press brief** (population numbers cited there NOT separately confirmed); 2026 association meeting invitation is only *planned meeting* evidence. Separate first-party hypertension-scope check without original clinical guidance.
+- Trinidad and Tobago **DATT undated historical Test2Prevent blog** (no cohort/operation claims).
+- Mexico **2026 Reumatología Clínica CG030 gout abstract** (CMR journal hosting, Guadalajara hospital study authors, Spain journal publication per NLM Spanish ISSN, Mexico sample/jurisdiction distinct). Explicit internal discrepancy **n=68** versus **28+26+13=67**; no prevalence or clinical inference; congress abstract not society-authored guideline. Cover and original p.234 visually inspected.
+- India official **Indian Rheumatology Association guideline list says “Coming Soon”**, limited site navigation, not proof of a country research absence.
+- New data commit `1c323d266f523967c538dd58ee4bb690044b5332`: five CSV updates; immutable readback matched **10/10** data blob hashes, zero structural errors; Node CLI unavailable.
 
-## Batch 40 caution, sources and immediate work
+## High-priority continuation
 
-- M-CRIN is a **Monaco-registered association** described in the official [2025 declaration](https://journaldemonaco.gouv.mc/Journaux/2025/Journal-8733/RECEPISSE-DE-DECLARATION-D-UNE-ASSOCIATION2); its host CSM is a **public body**. Separate organizational identity from host, research collaborator and paper author. Own site, operating status and actual seven-condition publications still unverified.
-- The [Monaco Red Cross history](https://croix-rouge.mc/la-maison-croix-rouge/histoire/lhistoire-de-la-croix-rouge-monegasque/) verifies independent identity; the [2025 diabetes screening notice](https://croix-rouge.mc/journee-mondiale-du-diabete-14-novembre-2025/) is *patient outreach/event information*, not an authored guideline, completed study or representative disease estimate. Old Monaco diabetes association's 2023 dissolution remains documented.
-- [Le Coeur de Saint Barth secondary RNA listing](https://assoce.fr/waldec/W9G3005084/LE-COEUR-DE-SAINT-BARTH) gives **Saint-Martin (663) seat** despite **Saint-Barthélemy (652) intended service**. Verify with primary official register; do not infer legal domicile, completed work or guideline authorship. The Monaco hospital hypertension catalogue is not a standalone professional society source.
-- Continue targeted first-party original-language guideline publication checks, condition research for the remaining **1,369** no-check zero-link cells (especially lactose 17, hemochromatosis 20, gout 24, high_chol 26), 21 missing-area identity investigations and explicit current vs superseded lifecycle checks. Do not substitute hospital or government for Team B nongovernmental identities. Search community-controlled groups with specific governance and permission evidence.
-- Five issuer-country unknowns remain: Panama HEARTS edition; Portuguese WGO lactose translation; Portuguese ESPGHAN celiac translation; Chad Open Access Pub/JHC; South Sudan PAMJ imprint conflict. Resolve only with edition-specific primary evidence. Coeliac Society of Ireland research index direct 403: do not assert unseen study findings. AFDD 2013 statutes, Diabète SPM active status and cross-border issuer/jurisdiction boundaries need review.
-- Distinguish FH from high LDL, gout from asymptomatic urate, lactase genotype from symptomatic lactose intolerance, celiac serology/HLA from confirmed disease, inherited haemochromatosis from raised ferritin, and diabetes type/prediabetes/diagnosis. Never conflate ancestry, ethnicity, residence, study site, self-identification, genotype, and clinical phenotype. Retain all 14 original broad-label cautions.
+1. Work through the remaining **1,366 no-targeted-search zero-resource cells**, prioritizing original-language sources for lactose intolerance vs lactase genotype, hereditary hemochromatosis vs raised ferritin, gout vs asymptomatic hyperuricemia, and FH vs general high LDL.
+2. Investigate the **21 M49 areas without a verified local eligible organization**, including disputed domicile vs service for Saint Barth/ Saint-Martin, without inventing bodies or missing-area population.
+3. Recheck current versus superseded guideline editions and independent legal identity. Decommissioned Dutch NDF after Jan 2026, Monaco 2023 diabetes association dissolution, 2025 M-CRIN registration hosted by public CSM, legacy 2021 AODCI events, the DATT undated archive, and 2026 SLDHA activity evidence need lifecycle caution.
+4. Resolve **five exact-edition source-country unknowns**: Panama HEARTS, Portuguese WGO lactose translation, Portuguese ESPGHAN celiac translation, Chad OA Pub/JHC, South Sudan PAMJ imprint. Do not equate publisher, host, national society, affiliation, study population, ancestry or clinical jurisdiction.
+5. Seek correction/author primary explanation for **CG030 68 vs 67 gout classifications**, but do not infer results from an unappraised abstract. All resources stay `research_lead_only` pending #27; do not contact authors or collect patient data.
+6. Verify Indigenous/community-controlled governance and permissions; preserve 14 original broad-label failure examples. Team A = governmental bodies; C = journal catalogue; D = multinational organizations.
 
-## Mandatory next checkpoint
+## Checkpoint obligations
 
-Write **only** to `docs/atlas/handoffs/team-b/` and the existing draft PR #71. Commit periodically, verify GitHub readback; preserve complete source URLs, languages, dates, issuer, jurisdiction, review state and caveats. If unfinished update CHECKPOINT.json, STATUS.md, GAPS.md, CHANGELOG.md, VALIDATION.md, CONTINUE.md and the PR description with exact commits and counts. Do **not** merge, perform outreach, collect personal health/genetic data, reproduce copyrighted full papers or promote any clinical claims.
+Commit source-backed batches and rerun validator-equivalent structural checks, ideally Node. Validate GitHub immutable readback and preserve complete URLs/issuer/source language/source date/population/jurisdiction, conflict and review states. Update `CHECKPOINT.json`, `STATUS.md`, `GAPS.md`, `CHANGELOG.md`, `VALIDATION.md`, `CONTINUE.md` and draft PR description with accurate final counts, exact SHA and remaining work. If unfinished, write a complete standalone GitHub checkpoint. **No merge, no website changes, no clinical claim approval.**
 
 ## Exact continuation prompt
 

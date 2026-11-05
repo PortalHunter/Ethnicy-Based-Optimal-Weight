@@ -1,5 +1,14 @@
 # Team B validation history
 
+## Batch 41 · data commit `1c323d266f523967c538dd58ee4bb690044b5332` · 2026-11-05
+
+- The existing PR #71 was checked **open, draft, unmerged** with expected parent `c6c231f90e7cc811caef646bc7ea16d6e2785b7c`. Five CSVs updated as one Git tree/commit with expected-head lease; no other project paths changed.
+- Before writing, parsed all **10 CSV inputs** and ran committed-validator-equivalent JavaScript checks: fixed columns; M49 code roster 248; full seven-condition matrix 1736; uniqueness; exact org/resource/context joins; source-country and source-population/jurisdiction fields; independent journal-country provenance; coverage count/search IDs; community and cross-border FKs. **Zero errors**.
+- After GitHub write, independently fetched all **10/10 CSVs** using immutable commit `1c323d266f523967c538dd58ee4bb690044b5332`. A nontruncated Git recursive tree matched each exact fetched **blob SHA**, zero mismatches. Independent readback checks verified context/resource 1:1 links, all 1,736 cell counts and search-log ID joins, provenance uniqueness and new counts: 368 organizations, 227 areas, 262 resources, 242 positive cells, 750 provenance, 438 search logs, 5 issuer unknowns. **Zero readback structural errors**.
+- Batch 41 linked exactly five first-party/historical/hosted resources; **none is a validated clinical recommendation**. Mexican gout abstract's 68 versus 67 risk-group mismatch, Spain issuer vs Mexico study site and institutional author distinct from professional-journal host are recorded explicitly. No numerical risk inference accepted.
+- **Actual `node docs/atlas/handoffs/team-b/validate.mjs` was not executed in this runtime**: the local container cannot resolve github.com, and connector content is not mounted there. Do not equate JavaScript structural checks with original clinical publication appraisal, permission review or a comprehensive external URL check. No patient data or copyright full-text ingested.
+
+
 ## Batch 40 · data commit 1d7f0a326be34482b782ef704bb57b84f29677ec · 2026-11-05
 
 - PR #71 verified **open, draft, unmerged**, on `research/atlas-team-b-20261104`; six data-file changes stay within Team B. Original 248-code M49/1736-cell matrix retained.

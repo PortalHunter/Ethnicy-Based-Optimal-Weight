@@ -1,36 +1,39 @@
 # Team B status · 2026-11-05
 
-**INCOMPLETE after batch 40.** [Draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) on `research/atlas-team-b-20261104`. No website, calculator, main or merge changes. [Data commit 1d7f0a326be34482b782ef704bb57b84f29677ec](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1d7f0a326be34482b782ef704bb57b84f29677ec).
+**INCOMPLETE after batch 41.** [Open draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) on `research/atlas-team-b-20261104`, base `main`. No edits to website/calculator/main, other teams' work or PR merge state. [Verified data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1c323d266f523967c538dd58ee4bb690044b5332).
 
 | Measure | Verified result |
 |---|---:|
 | UN M49 areas / seven-condition cells | 248 / 1,736 |
 | Organizations / domiciled areas | 368 / 227 |
-| Areas without domiciled organization | 21 |
-| Exact resource relationships / positive cells | 257 / 237 |
-| Without a linked resource | 1,499 |
-| Unlinked: condition-targeted check / not checked | 130 / 1,369 |
-| Provenance records / targeted searches | 744 / 431 |
+| Areas without eligible domiciled identity | 21 |
+| Exact resource relationships / positive cells | 262 / 242 |
+| Zero-source cells | 1,494 |
+| Zero-source: targeted check / no targeted check | 128 / 1,366 |
+| Provenance rows / condition search rows | 750 / 438 |
 | Community records / cross-border edges | 7 / 8 |
-| Unresolved source issuer countries / clinical claims approved | 5 / 0 |
+| Unresolved source-country issuers / approved clinical claims | 5 / 0 |
 
-Positive cells by condition: diabetes **85**, hypertension **31**, high_chol **26**, gout **24**, lactose **17**, celiac **34**, hemochromatosis **20**.
+Source-positive cells: diabetes **88**, hypertension **32**, high_chol **26**, gout **25**, lactose **17**, celiac **34**, hemochromatosis **20**.
 
-## Batch 40: Monaco identities and Saint-Barthélemy boundary
+## Batch 41 · +5 resource relationships, +5 positive cells, +6 provenance, +7 searches
 
-- New Monaco domiciled identities: **Croix-Rouge monégasque** (first-party 2026 website, NGO prevention role) and **M-CRIN** (official 2025 legal declaration, association hosted at the *public* Monaco Scientific Centre, but separate legal entity). Do not relabel public CSM as a nongovernmental society or claim M-CRIN authored partners' studies.
-- One new **diabetes awareness/event notice**, issued by Monaco Red Cross for November 2025 public screening. It is not clinical guidance, a completed trial, a representative prevalence result or proof that all planned event outcomes occurred.
-- One Monaco hypertension hospital-research catalogue check without a qualifying independent hypertension guideline. Two Saint-Barthélemy targeted checks note that Le Coeur de Saint Barth's registry-derived **registered seat is Saint-Martin (663)**, while **Saint-Barthélemy (652)** is the intended service area. No NGO domicile or clinical publication assigned to 652 from that mirror.
-- All resource metadata remain `research_lead_only`; none of these links approves a clinical claim. Old Monaco diabetes association's documented dissolution remains unchanged.
+- **Côte d'Ivoire (384)**: AODCI's original French 2021 activities archive describes historical joint diabetes/HTA screening in Songon-Agban. Separate diabetes and hypertension relationships refer to the **same archive**, not independent studies, guidelines or numerical outcomes.
+- **Saint Lucia (662)**: SLDHA's original 2025 World Diabetes Day *press brief*, not a guideline, covers public education and local programmes. Its IDF/STEPS prevalence quotations have **not** been separately checked. The association's Sept 2026 AGM notice is recent activity, **not proof that the meeting occurred**. Hypertension service pages were inspected without finding a standalone authored guideline in those pages.
+- **Trinidad and Tobago (780)**: DATT's own blog records a UWI Test2Prevent diabetes outreach activity; the article date, cohort and outcome verification are unknown. An old blog is not evidence of present activity.
+- **Mexico (484)**: CMR hosts the February 2026 LIV Congreso supplement of **Reumatología Clínica**, with gout conference abstract **CG030** (printed p.234). Author affiliation is Hospital Civil de Guadalajara/ISSSTE, **not CMR authorship**. Journal country of publication is **Spain (724)** per NLM's Spanish-edition ISSN record; research location Mexico, organization domicile Mexico, no clinical guideline jurisdiction. It reports 68 cases, but listed risk groups 28+26+13 = 67: **unresolved abstract discrepancy**. The PDF cover and p.234 were visually inspected; full methodology was not independently appraised.
+- **India (356)**: own rheumatology association's guideline index currently says “Coming Soon”; logged as a limited first-party negative check, **not** a conclusion that Indian gout research does not exist.
 
 ## Original acceptance gates
 
-| Requirement | State |
+| Requirement | Current state |
 |---|---|
-| Full 248 × 7 M49 matrix | **Structurally met.** |
-| Source issuer country, study population and healthcare jurisdiction separately | **Structurally met** for 257 contexts; five issuer-country unknowns and source-quality limits remain. |
-| Diagnostic/condition subtype boundaries and safe educational release | **Maintained.** Zero clinical approvals; no ancestry-to-risk shortcut. |
-| Verify own official original-language guideline lists and organizational lifecycle worldwide | **Incomplete.** 21 missing domiciles, 1,369 zero-resource cells with no targeted search, and study/permission reviews outstanding. |
-| Ten or more broad-label conflation cases | **14 preserved** in GAPS.md. |
+| Full M49 × seven-condition roster | Structurally met, 248×7. |
+| Separate source country, population and healthcare jurisdiction | Fields present in 262 contexts; 5 issuer unknowns and substantial paper appraisal remain. |
+| Disease-subtype boundaries and safe educational release | Retained, no ancestry-based diagnosis, all `research_lead_only`, no approved clinical claims. |
+| First-party original-language guidance lists, current/defunct organization review | Still incomplete: 21 domicile gaps, 1,366 unsearched zero-resource cells, and many historical/source-lifecycle checks. |
+| At least 10 diversity cautions | 14 preserved in GAPS.md. |
 
-Validation: **zero structural errors** on 10 GitHub-fetched CSVs, read back from immutable data commit 1d7f0a326be34482b782ef704bb57b84f29677ec; all 10 matched Git tree blob IDs. Equivalent JavaScript implementation of the checked-in validator; **Node CLI was not run**, and this is not a clinical, lifecycle, external-URL or permission audit. See VALIDATION.md and CHECKPOINT.json. Continue only within `docs/atlas/handoffs/team-b/`.
+**Validation:** Prewrite ten-CSV structural checks produced zero errors. Independently reread all ten CSVs from immutable data commit `1c323d266f523967c538dd58ee4bb690044b5332`, matched **10/10 exact Git tree blob IDs**, confirmed tree was nontruncated, and independently reconciled resource/context/coverage/search joins and counts with zero errors. **Actual Node CLI was not run** because local GitHub network resolution was unavailable. Not a clinical/permissions/total URL crawl. See VALIDATION.md.
+
+Only commit under `docs/atlas/handoffs/team-b/`. Continue from CONTINUE.md.

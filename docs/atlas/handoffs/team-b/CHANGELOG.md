@@ -1,5 +1,14 @@
 # Team B changelog
 
+## 2026-11-05 — Batch 41: first-party society outreach, Saint Lucia press and Mexican gout issuer provenance
+
+- Verified first-party Côte d'Ivoire AODCI 2021 activity archive for historic local diabetes and hypertension screening (two conditions on the same source, not two studies), SLDHA 2025 published diabetes education press brief, and undated Trinidad and Tobago DATT screening blog. All publication-role and temporal caveats retained.
+- Visually checked the 2026 *Reumatología Clínica* congress PDF cover and gout abstract CG030 printed p.234. Distinct journal publisher Spain (NLM Spanish-edition country record), Mexican CMR hosting, Guadalajara hospital authors, and local patient study. Noted 68 stated patients vs 67 classified risk categories; no clinical outcome promoted.
+- Targeted seven condition-source navigations including Indian gout guidelines index “Coming Soon” and Saint Lucia hypertension services without standalone original guidance. Both source-negative checks are **limited to the inspected pages**.
+- **Delta:** +0 organizations/+0 domiciled areas, **+5 exact source relationships/+5 new source-positive cells**, +6 provenance, +7 searches, 0 Indigenous/cross-border changes. Result: 368 organizations/227 areas, 262 resource relationships, 242 positive cells, 1,494 zero-resource cells (128 checked, 1,366 unchecked).
+- [Batch 41 immutable data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1c323d266f523967c538dd58ee4bb690044b5332) passed structural preflight and independent 10/10 Git blob readback; zero structural errors in connector-orchestrated JavaScript checks. Actual Node CLI not run; no clinical approvals. PR remains draft, no website changes.
+
+
 ## 2026-11-05 — Batch 40: Monaco registered NGOs, diabetes outreach and Saint-Barthélemy boundary
 
 - Added two Monaco-domiciled independent associations: Croix-Rouge monégasque (own governance/site) and M-CRIN (2025 *Journal de Monaco* registration; no original independent condition study yet). The public CSM remains a Team A institution, not an NGO.

@@ -5,27 +5,27 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "1d7f0a326be34482b782ef704bb57b84f29677ec",
-  "batch": 40,
+  "validated_data_commit": "1c323d266f523967c538dd58ee4bb690044b5332",
+  "batch": 41,
   "metrics": {
     "organizations": 368,
     "areas": 227,
-    "resources": 257,
-    "positive": 237,
-    "without_linked_source": 1499,
-    "targeted_no_source": 130,
-    "unresearched": 1369,
-    "provenance": 744,
-    "search_log": 431,
+    "resources": 262,
+    "positive": 242,
+    "without_linked_source": 1494,
+    "targeted_no_source": 128,
+    "unresearched": 1366,
+    "provenance": 750,
+    "search_log": 438,
     "community": 7,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
-    "issuer_country_differs_from_domicile": 27,
+    "issuer_country_differs_from_domicile": 28,
     "by_condition": {
-      "diabetes": 85,
-      "hypertension": 31,
+      "diabetes": 88,
+      "hypertension": 32,
       "high_chol": 26,
-      "gout": 24,
+      "gout": 25,
       "lactose": 17,
       "celiac": 34,
       "hemochromatosis": 20
@@ -33,12 +33,12 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 2,
-    "new_domiciled_areas": 1,
-    "resource_relationships": 1,
-    "source_positive_cells": 1,
-    "provenance_rows": 5,
-    "search_log_rows": 4,
+    "organization_identities": 0,
+    "new_domiciled_areas": 0,
+    "resource_relationships": 5,
+    "source_positive_cells": 5,
+    "provenance_rows": 6,
+    "search_log_rows": 7,
     "community_records": 0,
     "cross_border_edges": 0
   },
@@ -46,11 +46,14 @@
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Review primary original-language published guideline lists and lifecycle for existing organizations; 21 areas still have no domiciled identity.",
-    "Investigate 1,369 zero-source cells without a condition-specific check; no absence or epidemiologic inference from unlinked cells.",
-    "Verify primary French RNA/SIRENE entry and active work of Le Coeur de Saint Barth (seat 663, service 652), without creating a fake 652 identity.",
-    "Find M-CRIN's own publications and governance, distinct from the public Monaco Scientific Centre; do not attribute research partner papers to M-CRIN without proof.",
-    "Resolve five edition-specific issuer-country unknowns; appraise original papers and permission under issue #27; keep all 14 diversity examples."
+    "Audit first-party original-language guideline and research listings, with historical-vs-current lifecycle: 21 remaining M49 areas lack eligible domiciled identity.",
+    "Search 1366 unlinked condition cells without a targeted check; do not infer national absence, population prevalence or ancestry-based risk from blank cells.",
+    "Address sparse lactose (17), hereditary hemochromatosis (20), gout (25) and high_chol/FH (26) streams using first-party local material, with diagnostic subtypes distinct.",
+    "Resolve five existing edition-specific issuer-country unknowns using primary published-edition evidence; maintain source issuer vs organization domicile vs study sample and jurisdiction.",
+    "Primary registry corroboration for Le Coeur de Saint Barth seat 663/target service 652 and operating status; find M-CRIN own papers/governance distinct from Monaco public CSM.",
+    "Follow up 2026 Mexico CG030 gout conference abstract's n=68 versus 67 summed risk classifications using original author/edition evidence before any quantitative synthesis.",
+    "Do not carry 2021 AODCI activities, undated Trinidad blog or 2025 SLDHA press claims forward as present-day guideline evidence; verify external statistics separately.",
+    "Preserve 14 broad-label misclassification examples and community permissions; all claims research_lead_only pending #27."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -64,7 +67,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch 40 six-CSV source/identity/coverage change at 1d7f0a326be34482b782ef704bb57b84f29677ec; ten live GitHub-fetched CSVs independently checked against the committed validate.mjs structural invariants with zero errors, plus 10/10 exact blob SHA match against immutable Git tree aab96a8178329374cada6e4f209a1335956704e5. Actual Node CLI not run. Clinical/permission appraisals not complete.",
+  "validated_data_commit_note": "Batch 41 five changed CSV files saved in one atomic Git commit 1c323d266f523967c538dd58ee4bb690044b5332. Prewrite all ten CSVs passed structural validator-equivalent checks with zero errors. Postwrite immutable readback: 10/10 CSV Git blob matches, nontruncated tree, independently reconciled 262 resource contexts, 1736 coverage cells, 438 logs, 750 provenance with zero errors. Actual Node CLI unavailable because local runtime has no GitHub DNS connection. Not clinical appraisal.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -153,16 +156,17 @@
   ],
   "readback_validation": {
     "status": "passed",
-    "verified_data_sha": "1d7f0a326be34482b782ef704bb57b84f29677ec",
-    "verified_tree_sha": "aab96a8178329374cada6e4f209a1335956704e5",
+    "verified_data_sha": "1c323d266f523967c538dd58ee4bb690044b5332",
+    "verified_tree_sha": "9a9f6209dd394ac659690c36c1140da71bb820ce",
+    "tree_truncated": false,
     "files_matched": 10,
     "validated_csv_inputs": 10,
-    "validation_runtime": "connector_javascript_equivalent",
+    "validation_runtime": "connector_javascript_equivalent_prewrite_and_independent_immutable_readback_reconciliation",
     "node_cli_run": false,
     "structural_errors": 0,
-    "scope": "CSV shape, unique IDs, resource-to-organization links, publication contexts, provenance, coverage search states, M49 reference and cross-border/community foreign keys; not clinical verification"
+    "scope": "Prewrite full validator-equivalent structural checks; immutable readback 10/10 CSV Git blob matches, and independent counts/resource/context/search join checks. Does not prove clinical results, guideline validity, current status, licenses, copyright or community permission."
   },
-  "previous_independently_verified_data_commit": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
+  "previous_independently_verified_data_commit": "1d7f0a326be34482b782ef704bb57b84f29677ec",
   "session_additions": {
     "organization_identities": 3,
     "new_domiciled_areas": 3,
@@ -177,14 +181,15 @@
   "session_receipts": {
     "37": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
     "38": "34ecd66b59c24da0b15ed321bc76b8d01a758c70",
-    "40": "1d7f0a326be34482b782ef704bb57b84f29677ec"
+    "40": "1d7f0a326be34482b782ef704bb57b84f29677ec",
+    "41": "1c323d266f523967c538dd58ee4bb690044b5332"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "248 areas and 1736 explicit cells verified; full M49 enumeration structurally met",
-    "source_population_jurisdiction": "257 of 257 relationships have separate issuer-country, study-population and healthcare-jurisdiction fields; five issuer countries unresolved; documented fields do not prove clinical or jurisdictional validity",
-    "disease_subtypes_and_release": "All seven streams retain subtype caution, all resources research_lead_only and zero approved claims",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 missing domiciled identities, 1499 zero-source cells, 1369 without targeted condition search. Monaco Red Cross first-party page confirms outreach only, M-CRIN legal declaration confirms identity but own site/publications pending",
-    "diversity_examples": "14 preserved documented broad-label failure cases in GAPS.md"
+    "m49_area_condition_roster": "248 areas and 1736 explicit cells verified; geographic matrix structurally met",
+    "source_population_jurisdiction": "262/262 relationships have separate issuer-country, study-population and healthcare-jurisdiction fields; five unresolved issuer countries; specific source validity requires further appraisal",
+    "disease_subtypes_and_release": "All seven streams retain disease subtype and ancestry/phenotype distinctions; zero approved claims; all resources research_lead_only",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 missing domiciled identities; 1494 zero-source cells, 1366 without targeted condition searches. First-party 2021 outreach, 2025 press brief and 2026 congress abstract have narrow historical/issuer caveats.",
+    "diversity_examples": "14 preserved broad-label non-generalization cases in GAPS.md"
   },
   "batch40_sources": [
     {
@@ -208,5 +213,55 @@
       "source_url": "https://assoce.fr/waldec/W9G3005084/LE-COEUR-DE-SAINT-BARTH",
       "verification": "secondary registry-derived domicile check: Saint-Martin 663 vs Saint-Barthélemy 652; primary registry/current work pending"
     }
+  ],
+  "batch41_sources": [
+    {
+      "org_id": "B-CI-AODCI",
+      "conditions": [
+        "diabetes",
+        "hypertension"
+      ],
+      "source_url": "https://www.aodci.org/page_c_actualites.php",
+      "verification": "first-party French 2021 archive of joint community screening; not clinical guidance or population data"
+    },
+    {
+      "org_id": "B-LC-DIAB",
+      "condition": "diabetes",
+      "source_url": "https://sldha.org/news_publisher/news/view/press-brief-a-saint-lucia-diabetes-and-hypertension-association-world-diabetes-day-2025-theme-a-diabetes-and-well-beinga",
+      "verification": "first-party 2025 press brief; third-party population statistics unverified"
+    },
+    {
+      "org_id": "B-TT-DATT",
+      "condition": "diabetes",
+      "source_url": "https://diabetesassociation.wixsite.com/datt/blog",
+      "verification": "undated first-party outreach blog; historic relevance only"
+    },
+    {
+      "org_id": "B-MX-CMR",
+      "condition": "gout",
+      "source_url": "https://reumatologia.org.mx/wp-content/uploads/2026/02/Liv_Reuma.pdf",
+      "verification": "CMR hosted journal congress abstract CG030 (2026) visually checked printed p.234; hospital authors and clinical limitations kept distinct; Spain journal publication via NLM ISSN 1699-258X"
+    },
+    {
+      "area_m49": "662",
+      "condition": "hypertension",
+      "source_url": "https://www.sldha.org/",
+      "verification": "targeted first-party service check; no independent society-authored HTN guideline found in inspected pages"
+    },
+    {
+      "area_m49": "356",
+      "condition": "gout",
+      "source_url": "https://indianrheumatology.org/indian-guidelines-recommendation/",
+      "verification": "own Indian Rheumatology Association guideline catalogue says Coming Soon; not a nationwide absence claim"
+    }
+  ],
+  "batch41_added_search_ids": [
+    "B-CI-AODCI-DM-B41",
+    "B-CI-AODCI-HT-B41",
+    "B-LC-SLDHA-DM-B41",
+    "B-LC-SLDHA-HT-B41",
+    "B-TT-DATT-DM-B41",
+    "B-MX-CMR-GOUT-B41",
+    "B-IN-IRA-GOUT-B41"
   ]
 }
