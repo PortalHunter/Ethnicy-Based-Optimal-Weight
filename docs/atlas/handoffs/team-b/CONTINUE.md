@@ -1,10 +1,10 @@
-# Resume Team B · batch 37 · 2026-11-05
+# Resume Team B · batch 38 · 2026-11-05
 
 **INCOMPLETE.** Continue the assignment on `PortalHunter/Ethnicy-Based-Optimal-Weight`, branch `research/atlas-team-b-20261104`, [draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71). Verify the current PR head before using this snapshot. The original assignment, data contract and live GitHub files together are sufficient to resume.
 
 ## Start from live state
 
-1. Confirm PR #71 is open, draft and unmerged, its head is the stated branch and its base is main. Read new commits, comments, reviews and the recursive tree for applicable AGENTS.md files. At session start the head was `a031f8e4f5e738ba1782e713a776ef7da743bd92`, with zero comments or reviews and no AGENTS.md.
+1. Confirm PR #71 is open, draft and unmerged, its head is the stated branch and its base is main. Read new commits, comments, reviews and the recursive tree for applicable AGENTS.md files. At session start the head was `ac84f4a0f5b2609abf837c8ccd2e1f8ef4955699`, with zero comments or reviews and no AGENTS.md.
 2. On branch `research/atlas-five-team-handoff-prompts-2026-11-04`, read `docs/atlas/research-team-prompts/TEAM_B_CLINICAL_ORGANIZATIONS.md` and `docs/atlas/research-team-prompts/DATA_CONTRACT.md`. Those contain the original acceptance criteria.
 3. On the live research head, read every file in `docs/atlas/handoffs/team-b/`. [CHECKPOINT.json](CHECKPOINT.json) has the exact remaining M49 roster and validation metadata. [GAPS.md](GAPS.md) preserves the original 14 diversity cases and all earlier source-specific exceptions. [CHANGELOG.md](CHANGELOG.md), [PROVENANCE.csv](PROVENANCE.csv), [STATUS.md](STATUS.md), [VALIDATION.md](VALIDATION.md), the data CSVs and [README.md](README.md) are required context. Inspect existing IDs and searches before adding rows.
 4. Run `node docs/atlas/handoffs/team-b/validate.mjs` on files fetched from the verified commit and compare their Git blob hashes. An unlinked area-condition cell can already have a targeted search in `data/search_log.csv`.
@@ -14,24 +14,24 @@
 | Measure | Count |
 |---|---:|
 | UN M49 areas / unique area-condition cells | 248 / 1,736 |
-| Organizations / areas with a domiciled organization | 361 / 226 |
+| Organizations / areas with a domiciled organization | 363 / 226 |
 | Areas without a verified domiciled organization | 22 |
-| Resource relationships / cells with a linked resource | 249 / 230 |
-| Cells without a linked resource | 1,506 |
-| Of those, cells with / without a logged targeted check | 129 / 1,377 |
-| Provenance records / targeted search checks | 726 / 420 |
+| Resource relationships / cells with a linked resource | 252 / 232 |
+| Cells without a linked resource | 1,504 |
+| Of those, cells with / without a logged targeted check | 129 / 1,375 |
+| Provenance records / targeted search checks | 732 / 423 |
 | Community records / cross-border service edges | 7 / 8 |
 | Approved clinical claims | 0 |
 
-diabetes 84 · hypertension 31 · high_chol 25 · gout 21 · lactose 17 · celiac 32 · hemochromatosis 20.
+diabetes 84 · hypertension 31 · high_chol 25 · gout 23 · lactose 17 · celiac 32 · hemochromatosis 20.
 
-This batch adds three organizations in three previously empty areas, four resource relationships and two newly linked area-condition cells (Caribbean Netherlands diabetes and hypertension). Four issuer-country unknowns were resolved with edition-specific evidence; five remain. The final PLoS ONE Añisok geriatric paper is indexed separately from the 2025 adult Anales Médicos study.
+Batch 38 adds Morocco SMR and Indonesian IRA identities plus three gout society resources (gout-positive cells 23). Batch 37 added three organizations in three previously empty areas, four resource relationships and two newly linked area-condition cells (Caribbean Netherlands diabetes and hypertension). Four issuer-country unknowns were resolved with edition-specific evidence; five remain. The final PLoS ONE Añisok geriatric paper is indexed separately from the 2025 adult Anales Médicos study.
 
 ## Remaining work, in priority order
 
 - Triage the exact 22 missing M49 identities in CHECKPOINT.json. Populated gaps still include Saint Helena (654; government-only logged), Naoero/Nauru (520), Niue (570), Tokelau (772), Saint Barthélemy (652), Norfolk Island (574), Falkland Islands (238), and Monaco (492 historical dissolution already logged). Keep Antarctic/uninhabited codes as documented absences when justified. For Naoero/Nauru, Niue and Tokelau, read the already logged historical survey and overseas activity before seeking independent local bodies.
 - Prioritize the least-covered streams (17 lactose, 20 hereditary iron overload, 21 gout and 25 lipid cells), especially locally issued FH, community-controlled sources and original-language guidance. Resolve the five remaining issuer-country unknowns (Panama HEARTS host, Portuguese WGO/ESPGHAN hosted translations, Chad Open Access Pub, PAMJ South Sudan imprint conflict) where edition-specific evidence exists.
-- Check the lifecycle and original-language publication lists of directory-only, registry-only and partner-only organizations (including AFDD statutes-2013 and Diabète SPM without own site). Preserve the Añisok 1,500/202 independence caveat between the 2025 adult and 2026 geriatric papers. Preserve 14 diversity cases and source-specific caveats. Of 1,506 unlinked cells, 129 have a targeted check and 1,377 have no matching condition-specific search log.
+- Check the lifecycle and original-language publication lists of directory-only, registry-only and partner-only organizations (including AFDD statutes-2013 and Diabète SPM without own site). Preserve the Añisok 1,500/202 independence caveat between the 2025 adult and 2026 geriatric papers. Preserve 14 diversity cases and source-specific caveats. Of 1,504 unlinked cells, 129 have a targeted check and 1,377 have no matching condition-specific search log.
 
 ## Ownership and acceptance
 
@@ -45,7 +45,7 @@ Commit regularly on this PR using the expected current head and an ordinary fast
 
 ## Verified stopping point
 
-The last research commit is [8becb1962fa1baf9fa8f79ef446ed49b9998f488](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/8becb1962fa1baf9fa8f79ef446ed49b9998f488). All 18 handoff files and all ten CSV inputs matched GitHub and passed validation. See [VALIDATION.md](VALIDATION.md) for receipts and [STATUS.md](STATUS.md) for the original acceptance-criterion review.
+The last research commit is [34ecd66b59c24da0b15ed321bc76b8d01a758c70](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/34ecd66b59c24da0b15ed321bc76b8d01a758c70). All 18 handoff files and all ten CSV inputs matched GitHub and passed validation. See [VALIDATION.md](VALIDATION.md) for receipts and [STATUS.md](STATUS.md) for the original acceptance-criterion review.
 
 Remaining unresolved issuer records (not applied further in this batch):
 

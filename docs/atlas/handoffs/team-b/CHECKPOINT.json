@@ -5,18 +5,18 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
-  "batch": 37,
+  "validated_data_commit": "34ecd66b59c24da0b15ed321bc76b8d01a758c70",
+  "batch": 38,
   "metrics": {
-    "organizations": 361,
+    "organizations": 363,
     "areas": 226,
-    "resources": 249,
-    "positive": 230,
-    "without_linked_source": 1506,
+    "resources": 252,
+    "positive": 232,
+    "without_linked_source": 1504,
     "targeted_no_source": 129,
-    "unresearched": 1377,
-    "provenance": 726,
-    "search_log": 420,
+    "unresearched": 1375,
+    "provenance": 732,
+    "search_log": 423,
     "community": 7,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
@@ -25,7 +25,7 @@
       "diabetes": 84,
       "hypertension": 31,
       "high_chol": 25,
-      "gout": 21,
+      "gout": 23,
       "lactose": 17,
       "celiac": 32,
       "hemochromatosis": 20
@@ -33,15 +33,14 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 3,
-    "new_domiciled_areas": 3,
-    "resource_relationships": 4,
+    "organization_identities": 2,
+    "new_domiciled_areas": 0,
+    "resource_relationships": 3,
     "source_positive_cells": 2,
-    "provenance_rows": 15,
-    "search_log_rows": 13,
+    "provenance_rows": 6,
+    "search_log_rows": 3,
     "community_records": 0,
-    "cross_border_edges": 0,
-    "issuer_country_resolved": 4
+    "cross_border_edges": 0
   },
   "validation_runtime": "node_cli_committed_validate_mjs",
   "node_cli_run": true,
@@ -63,7 +62,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Immutable batch 37 research snapshot. Each of its 18 handoff files was fetched from GitHub and matched in content and Git blob hash. The committed validator passed on all ten byte-matched CSV inputs.",
+  "validated_data_commit_note": "Immutable batch 38 research snapshot after Node CLI zero-error validation on archived CSVs.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -156,15 +155,15 @@
   ],
   "readback_validation": {
     "status": "passed",
-    "verified_data_sha": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
-    "verified_parent_sha": "a031f8e4f5e738ba1782e713a776ef7da743bd92",
+    "verified_data_sha": "34ecd66b59c24da0b15ed321bc76b8d01a758c70",
+    "verified_parent_sha": "ac84f4a0f5b2609abf837c8ccd2e1f8ef4955699",
     "handoff_files_matched": 18,
     "validated_csv_inputs": 10,
     "node_version": "v24.22.1",
     "structural_errors": 0,
     "scope": "structure, provenance joins, exact resource contexts, search links, retained M49 roster and cross-border edges"
   },
-  "previous_independently_verified_data_commit": "f917e48b0a181a391b2e30d7b39c987d5171e86e",
+  "previous_independently_verified_data_commit": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
   "session_additions": {
     "organization_identities": 3,
     "new_domiciled_areas": 3,
@@ -177,11 +176,12 @@
     "issuer_country_resolved": 4
   },
   "session_receipts": {
-    "37": "8becb1962fa1baf9fa8f79ef446ed49b9998f488"
+    "37": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
+    "38": "34ecd66b59c24da0b15ed321bc76b8d01a758c70"
   },
   "acceptance_review": {
     "m49_area_condition_roster": "248 areas and 1,736 explicit cells verified",
-    "source_population_jurisdiction": "249 of 249 relationships have separate fields. Five issuer-country entries remain unresolved. Evidence and jurisdiction can be limited even when a field is populated.",
+    "source_population_jurisdiction": "252 of 252 relationships have separate fields. Five issuer-country entries remain unresolved. Evidence and jurisdiction can be limited even when a field is populated.",
     "disease_subtypes_and_release": "Seven indexed streams use distinct subtypes and endpoints. All records remain research_lead_only, with zero approved clinical claims.",
     "official_sites_publication_lists_and_lifecycle": "Incomplete. Verify remaining local identities, current status and original-language publication lists. The 22 areas without a domiciled identity and 1,506 cells without a linked resource have explicit gaps. An appropriate documented absence can satisfy a cell review.",
     "diversity_examples": "14 broad-label counterexamples in GAPS.md"

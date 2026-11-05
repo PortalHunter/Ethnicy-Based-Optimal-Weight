@@ -28,4 +28,4 @@ Batch 38 adds two rheumatology society identities (Morocco SMR; Indonesian IRA) 
 | Check official websites, original-language lists and organizational lifecycle | Incomplete. 22 areas without a documented domestic body; 1,375 zero-link cells without a logged condition-specific check. |
 | Document at least ten broad-label counterexamples | 14 cases are documented in [GAPS.md](GAPS.md). |
 
-See [VALIDATION.md](VALIDATION.md) and [CONTINUE.md](CONTINUE.md). Latest research SHA is filled after push.
+See [VALIDATION.md](VALIDATION.md) and [CONTINUE.md](CONTINUE.md). The latest research commit is [34ecd66b59c24da0b15ed321bc76b8d01a758c70](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/34ecd66b59c24da0b15ed321bc76b8d01a758c70).
