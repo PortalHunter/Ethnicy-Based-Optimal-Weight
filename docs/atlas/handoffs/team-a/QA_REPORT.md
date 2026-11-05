@@ -1,3 +1,23 @@
+## NEWEST Batch 11 independent reproducible audit — 2026-11-05
+
+**Exact data commit:** `f777fa04b567b41a8ae8810f4422dafec47c1906`.
+
+| Audit | Result |
+|---|---|
+| UN M49 full official row-by-row code/ISO/name/region/subregion comparison | **PASS 248/248** |
+| Principal government authority identities | **PASS 90 identified / 158 unknown** |
+| Government body unique IDs and M49 area references | **PASS 131** |
+| Government organizational edges with existing parent/child IDs | **PASS 31** |
+| Provenance unique IDs and required issuer language/date/state/HTTPS checks | **PASS 177** |
+| Area coverage ledger aligned to country statuses | **PASS 248** |
+| 20 special-status territory no-spurious-parent/legal-scope sentinels | **PASS** |
+| `python docs/atlas/handoffs/team-a/validate.py` executed on Batch 11 | **NOT RUN**: outbound checkout unavailable, not a Python PASS |
+| Contested, renamed, delegated or devolved statutory mandate completeness | **UNFINISHED** |
+
+Independent exact-SHA GitHub readback of all five normalized data CSVs plus the 248-row dated official M49 master: **PASS** quote-aware rows, codes, ISO/name/regions, 90/158 statuses, all 131 unique body IDs, all 31 relationship references, 177 unique provenance IDs and fields, 248 synced ledger rows, 20 high-risk territorial/scope sentinels. **Python `validate.py` was NOT executed on Batch 11** (no outbound Git checkout); a prior earlier-batch Python pass is not transferable. Structural checks do not establish current statutes, jurisdiction delegation or clinical authority.
+
+This stage contains no medical or patient-facing recommendations; research-only files modified, PR #68 stays draft and unmerged. Older audits below are retained as history.
+
 ## Batch 10 independent commit audit — 2026-11-05 (current)
 
 **Audited data commit SHA:** `6a8679492553d3d24cba790608fbb3d017b7d854`. All six CSVs (five changed + official dated master) re-fetched from that **exact SHA**, parsed quote-aware, and checked independent of the in-memory write.
