@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,616);assert.equal(prov.length,170);
+assert.equal(nodes.length,47);assert.equal(edges.length,616);assert.equal(prov.length,187);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -231,17 +231,17 @@ assert.equal(sciOldEdges.filter(r=>r.relationship_type==='participates_in_volunt
 assert(sciOldEdges.every(r=>r.valid_from===''&&r.valid_to===''));
 assert(!sciOldEdges.some(r=>r.from_id==='m49:052'&&r.relationship_type==='participates_in_voluntary_health_initiative'));
 
-assert.equal(officeCrosschecks.length,29);
-assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='day').length,9);
-assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='undated'&&r.source_evidence_date==='unknown').length,20);
-for(const r of officeCrosschecks){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.checked_on,'2026-11-05');assert.equal(r.source_claim_scope,'INDEPENDENT_SOURCE_CORROBORATION_NOT_SURVEY_REFRESH');assert(surveyRoster.some(s=>s.country_area_m49===r.country_area_m49&&s.latest_self_reported_survey==='2024-09'));if(r.source_date_precision==='day')assert.match(r.source_evidence_date,/^2026-\d{2}-\d{2}$/);}
+assert.equal(officeCrosschecks.length,46);
+assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='day').length,21);
+assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='undated'&&r.source_evidence_date==='unknown').length,25);
+for(const r of officeCrosschecks){if(r.country_area_m49!=='not_verified')assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.checked_on,'2026-11-05');assert.equal(r.source_claim_scope,'INDEPENDENT_SOURCE_CORROBORATION_NOT_SURVEY_REFRESH');assert(surveyRoster.some(s=>s.country_area_m49===r.country_area_m49&&s.latest_self_reported_survey==='2024-09'&&(r.country_area_m49!=='not_verified'||s.who_office_label===r.who_office_label)));if(r.source_date_precision==='day')assert.match(r.source_evidence_date,/^2026-\d{2}-\d{2}$/);else assert.equal(r.source_evidence_date,'unknown');}
 
 // Batch 18: independently dated/undated WHO evidence for 10 older 2024 office-survey entries.
 assert.deepEqual(officeCrosschecks.filter(r=>(Number(r.record_id.split('-').at(-1))>=10&&Number(r.record_id.split('-').at(-1))<=19)).map(r=>r.country_area_m49).sort(),['148','226','480','508','516','686','716','728','748','834'].sort());
 assert.equal(officeCrosschecks.filter(r=>(Number(r.record_id.split('-').at(-1))>=10&&Number(r.record_id.split('-').at(-1))<=19)&&r.source_date_precision==='undated').length,7);
 assert.equal(officeCrosschecks.filter(r=>(Number(r.record_id.split('-').at(-1))>=10&&Number(r.record_id.split('-').at(-1))<=19)&&r.source_date_precision==='day').length,3);
-assert.equal(new Set(officeCrosschecks.map(r=>r.country_area_m49)).size,29);
-assert.equal(new Set(officeCrosschecks.map(r=>r.source_url)).size,29);
+assert.equal(new Set(officeCrosschecks.map(r=>r.country_area_m49)).size,45);assert.equal(new Set(officeCrosschecks.map(r=>r.who_office_label)).size,46);
+assert.equal(new Set(officeCrosschecks.map(r=>r.source_url)).size,46);
 assert.equal(prov.length,170);
 for(const r of officeCrosschecks.filter(r=>(Number(r.record_id.split('-').at(-1))>=10&&Number(r.record_id.split('-').at(-1))<=19))){assert.equal(r.verification_state,r.source_date_precision==='day'?'OFFICIAL_DATED_PRIMARY_WHO':'OFFICIAL_UNDATED_PRIMARY_WHO_PAGE');if(r.source_date_precision==='undated')assert.equal(r.source_evidence_date,'unknown');}
 console.log('Batch 18 original 10 records retained; survey roster dates unchanged');
@@ -249,7 +249,7 @@ console.log('Batch 18 original 10 records retained; survey roster dates unchange
 
 // Batch 19: 10 additional independent WHO checks for previously retained 2024 survey offices.
 // Event start day and reported appointment month are NOT publication dates.
-const officeBatch19=officeCrosschecks.filter(r=>Number(r.record_id.split('-').at(-1))>=20);
+const officeBatch19=officeCrosschecks.filter(r=>Number(r.record_id.split('-').at(-1))>=20&&Number(r.record_id.split('-').at(-1))<=29);
 assert.equal(officeBatch19.length,10);
 assert.deepEqual(officeBatch19.map(r=>r.country_area_m49).sort(),['048','112','364','368','434','682','706','729','760','795'].sort());
 assert.equal(officeBatch19.filter(r=>r.source_date_precision==='day').length,2);
@@ -258,7 +258,17 @@ assert(officeBatch19.some(r=>r.country_area_m49==='795'&&r.notes.includes('EVENT
 assert(officeBatch19.filter(r=>r.notes.includes('conflict')||r.notes.includes('different')).length>=3);
 assert.equal(surveyRoster.filter(r=>r.latest_self_reported_survey==='2024-09').length,46);
 assert.equal(surveyRoster.filter(r=>r.latest_self_reported_survey==='2026-04').length,106);
-console.log('Batch 19 office primary-source crosschecks PASS: 29/46; original survey dates retained');
+console.log('Batch 19 original crosschecks retained without recasting source dates');
+
+// Batch 20: all 46 retained 2024 WHO survey labels now have independent primary-source corroboration.
+const officeBatch20=officeCrosschecks.filter(r=>Number(r.record_id.split('-').at(-1))>=30&&Number(r.record_id.split('-').at(-1))<=46);
+assert.equal(officeBatch20.length,17);
+assert.equal(officeBatch20.filter(r=>r.source_date_precision==='day').length,12);
+assert.equal(officeBatch20.filter(r=>r.source_date_precision==='undated').length,5);
+assert.equal(officeBatch20.filter(r=>r.country_area_m49==='not_verified').length,2);
+assert.deepEqual(officeCrosschecks.filter(r=>r.country_area_m49!=='not_verified').map(r=>r.country_area_m49).sort(),surveyRoster.filter(r=>r.latest_self_reported_survey==='2024-09'&&r.country_area_m49!=='not_verified').map(r=>r.country_area_m49).sort());
+assert.deepEqual(officeBatch20.filter(r=>r.country_area_m49==='not_verified').map(r=>r.who_office_label).sort(),surveyRoster.filter(r=>r.latest_self_reported_survey==='2024-09'&&r.country_area_m49==='not_verified').map(r=>r.who_office_label).sort());
+console.log('Batch 20 independently corroborated 46/46 older WHO survey labels; 21 dated sources, 25 undated; two MCO labels unjoined; no survey-date promotion');
 
 // Batch 15 date-precision correction: the Montenegro WHO events page has event date, not verified publication date.
 assert(officeCrosschecks.some(r=>r.country_area_m49==='499'&&r.source_evidence_date==='2026-06-16'&&r.notes.includes('PUBLICATION_DATE_UNKNOWN')));
