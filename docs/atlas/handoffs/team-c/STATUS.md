@@ -1,15 +1,16 @@
-# Status — Team C (2026-11-04)
+# Team C status — 2026-11-04
 
-**Work state:** Two durable research batches on dedicated draft PR. Unsearched ≠ no local research.
+**Draft PR #69. Research-only, not clinically appraised or deployed.**
 
-| Data element | Exact count | State |
+| Metric | Count | Interpretation |
 |---|---:|---|
-| Regional/global index platform records | 10 | Provider/portal URLs checked; some subfields pending |
-| UN M49 standard-list area baseline | 248 | Derived 249 ISO-code file minus TWN (158); fieldwise UNSD reconciliation pending |
-| Area × condition queue rows | 1736 | **All `not_searched`**, no country-level scientific claims |
-| Confirmed individual journals | 0 | Pending per-journal checks |
-| Journal–index relationships | 0 | Pending membership checks |
-| Article candidates | 0 | Pending exact paper discovery |
-| Actually executed platform discovery queries | 8 | English; regional-index finding only |
+| Regional/national literature discovery platforms | 10 | Portal identity & mandate recorded; partial policy work remains |
+| UN M49 standard-list area/territory rows | 248 | Derived baseline; fieldwise official-UN check pending |
+| Area×seven-condition queue rows | 1,736 | All `not_searched` as comprehensive country literature audits; selective discovery sources listed separately |
+| Named journal identity/archives | 23 | Mix of high-confidence and explicitly provisional/historical, each labeled |
+| Directly verified hosting/index links | 10 | Membership/hosting NOT article endorsement |
+| Exact sourced article candidates | 10 | **ALL unappraised**; types include reviews, guidelines and food audits |
+| Actual executed search-log rows | 24 | 8 platform searches + 16 targeted queries; successes/failures recorded individually |
+| Research visibility counterexamples | 12 | Examples of restrictive English-title/prestige-only discovery failure, not claims of PubMed nonlisting |
 
-**Next:** independently verify individual original-language journal identities and archive/ethics links; log actual local-language searches and exact article sources; audit exclusions and geographic gaps. Do not merge or use in clinical advice.
+**Remaining:** UN authoritative table reconciliation, every area×condition local-language systematic search, peer-review/ethics verification for provisional journals, independent article appraisal and index membership checks. All country queue rows remain intentionally pending systematic search; finding a few articles does NOT justify marking an area completely searched.

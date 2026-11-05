@@ -1,1 +1,11 @@
 journal_id,index_id,claim_of_indexing,independently_verified,source_url,valid_as_of,notes
+"RWA_RMJ","AJOL","journal_hosted_by_AJOL","true","https://www.ajol.info/index.php/rmj/about","2026-11-04","Independent AJOL journal page confirms hosting."
+"RWA_RMJ","DOAJ","indexed_in_DOAJ_as_of_2019","true","https://doaj.org/toc/2410-8626","2019-06-29","Independently verified directory entry; publisher metadata stale and listing must be rechecked periodically."
+"ETH_EJHS","AJOL","journal_hosted_by_AJOL","true","https://www.ajol.info/index.php/ejhs/about","2026-11-04","Independently hosted journal page."
+"UGA_AHS","AJOL","journal_hosted_by_AJOL","true","https://www.ajol.info/index.php/ahs/about","2026-11-04","Journal page and peer review on AJOL."
+"BRA_RSP","SCIELO","article_archive_hosted_in_SciELO","true","https://www.scielo.br/j/rsp/","2026-11-04","SciELO collection confirms archived journal."
+"BRA_CSC","SCIELO","article_archive_hosted_in_SciELO","true","https://www.scielo.br/j/csc/a/4Qh3Rd46QRJky4nnvqWHrPk/","2026-11-04","Full HTML article present in SciELO."
+"BRA_ABC","SCIELO","article_archive_hosted_in_SciELO","true","https://www.scielo.br/j/abc/a/tRJrwGzKX6C4GvMqdJpZcGk/","2026-11-04","Exact guideline HTML present in SciELO."
+"BRA_RBHH","SCIELO","historical_article_archive_hosted_in_SciELO","true","https://www.scielo.br/j/rbhh/a/YGX8c3fghWkWCDntKCgtxMN/","2026-11-04","Historical article archive, not current journal certification."
+"CHL_RMC","SCIELO","journal_archive_hosted_in_SciELO_Chile","true","https://www.scielo.cl/scielo.php?lng=es&pid=0034-9887&script=sci_serial","2026-11-04","SciELO Chile journal record."
+"JPN_TONY","JSTAGE","journal_archive_hosted_in_J_STAGE","true","https://www.jstage.jst.go.jp/browse/tonyobyo/list/-char/ja","2026-11-04","2026 issue archive present."
