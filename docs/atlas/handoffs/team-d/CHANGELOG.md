@@ -1,3 +1,11 @@
+## 2026-11-05 — Batch 15 source-date precision and cross-file audit
+
+- Corrected the Montenegro WHO event's 2026-06-16 **event-start date** versus UNKNOWN page publication date; renamed the independent office-check column `source_published_on` to `source_evidence_date`, and amended provenance and validator assertions in commit `7b9cfd7c7d774ad9ce182cf490370a759ce7288b`.
+- Fixed Batch 15 standalone checkpoint, restart prompt, batch notes and status so only three WHO office news articles are described as 2026-published; Montenegro is a dated event with unknown webpage publication date.
+- Independent read-only targeted cross-file audit of 12 CSVs succeeded: 47 nodes, 586 edge composites without duplicates, 145 unique source URLs and IDs, all referenced node/provisional organization/geography/source IDs, 205 verified/44 unverified WHO regions, 46 older/106 April 2026 survey profiles, 228 historical observations, 23 SCI time-snapshots and nine WHO office checks. **Not** the full checked-in Node validator or GitHub Actions.
+
+---
+
 ## 2026-11-05 — Batch 15 SCI and WHO office source audit
 
 Data commit 163c3ed821b44692c6ce678bcb27c7745b7e1890 added one WHO Europe Small Countries Initiative node, 12 explicit June 2026 country-to-initiative links, 23 separated old video topic and 2026 roster observations, nine independently sourced WHO office checks, and 12 additional primary WHO URLs (TD-SRC-134–145). New totals: 47 nodes, 586 graph edges, 145 source URLs. No update to April 2026/September 2024 survey values or 2021–2022 historical observations. Post-commit GitHub readbacks and targeted data integrity checks pass; full native Node validation not executed. Standalone handoff: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-d-20261104/docs/atlas/handoffs/team-d/CHECKPOINT_BATCH_15_2026-11-05.md. PR #70 open/draft/unmerged; site/main/other teams not touched.

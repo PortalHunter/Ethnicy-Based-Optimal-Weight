@@ -1,3 +1,9 @@
+## Batch 15 source-date refinement — 2026-11-05
+
+Montenegro's WHO page confirms a June 16–18, 2026 **event** involving the Country Office. It does not establish when the event webpage was published. The machine-readable field is now `source_evidence_date` and its Montenegro record explicitly marks the event's start date and unknown page publication date; this remains distinct from three other dated 2026 news articles and five undated country-office profiles. Do not upgrade September 2024 WHO survey responses from these checks. Source review for exact office operational continuity remains open.
+
+---
+
 ## Batch 15 unresolved — 2026-11-05
 
 - New WHO Europe SCI 2026 source lists twelve members including North Macedonia; 2022 WHO initiative video metadata tags eleven without North Macedonia. Historical video tags are NOT a comprehensive roster and do not establish nonmembership or exact admission date. Seek an official dated admission instrument.

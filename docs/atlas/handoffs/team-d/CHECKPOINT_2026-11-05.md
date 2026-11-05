@@ -1,3 +1,11 @@
+## Batch 15 independent source-date correction and audit — 2026-11-05
+
+Newest self-contained handoff: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-d-20261104/docs/atlas/handoffs/team-d/CHECKPOINT_BATCH_15_2026-11-05.md
+
+Three separate WHO country-office news items have verifiable 2026 publication dates (Cyprus, Ethiopia, South Africa); the fourth WHO source is a Montenegro **June 16–18, 2026 event listing whose webpage publication date is unknown**. Five additional WHO office profiles remain undated. The office evidence CSV uses `source_evidence_date` rather than a blanket publication-date claim. Source/provenance/validator correction SHA `7b9cfd7c7d774ad9ce182cf490370a759ce7288b`; targeted independent 12-CSV structural audit PASS. Full checked-in native Node validator execution still pending.
+
+---
+
 # Newest standalone Team D handoff — Batch 15 (2026-11-05)
 
 The current complete standalone checkpoint is CHECKPOINT_BATCH_15_2026-11-05.md:
