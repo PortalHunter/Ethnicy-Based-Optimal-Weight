@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,616);assert.equal(prov.length,188);
+assert.equal(nodes.length,47);assert.equal(edges.length,616);assert.equal(prov.length,192);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -322,4 +322,58 @@ assert.equal(werTerritories.find(r=>r.country_area_m49==='663').source_label,'Sa
 assert.equal(werTerritories.find(r=>r.country_area_m49==='534').source_label,'Sint Maarten');
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 console.log('Batch 21 WHO WER 2025 surveillance-group evidence: 15 territory observations; 44 WHO administrative assignments remain pending');
-console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length},null,2));
+
+// Batch 22: date-qualified Caribbean PAHO representative transitions and local cooperation.
+// Direct PAHO page opens returned 403; indexed official-source text was available.
+// These are representation and programme-activity observations, NOT a dedicated office,
+// administrative WHO regional assignment, WHO membership or locally binding guidance.
+const repTerms=read('data/paho_representative_terms_2026.csv');
+const pahoLocal=read('data/paho_local_implementation_evidence_2026.csv');
+const uIan='https://www.paho.org/en/news/23-10-2026-mr-ian-stein-appointed-pahowho-representative-bahamas-and-turks-and-caicos-islands';
+const uEldonna='https://www.paho.org/en/news/30-10-2026-pahowho-appoints-dr-eldonna-boisson-representative-jamaica-bermuda-and-cayman';
+const uCayman='https://www.paho.org/en/news/13-10-2026-steps-hearts-new-chapter-cardiovascular-care-cayman-islands';
+const uSxmLab='https://www.paho.org/en/news/29-10-2026-paho-supports-efforts-strengthen-laboratory-services-sint-maarten';
+assert.equal(repTerms.length,12);assert.equal(pahoLocal.length,4);
+unique(repTerms,r=>r.record_id,'PAHO representative source observations');
+unique(pahoLocal,r=>r.record_id,'PAHO local cooperation observations');
+for(const [id,url] of [['TD-SRC-189',uIan],['TD-SRC-190',uEldonna],['TD-SRC-191',uCayman],['TD-SRC-192',uSxmLab]]){
+  assert.equal(prov.filter(p=>p.source_url===url).length,1);
+  assert.equal(prov.find(p=>p.source_url===url).source_id,id);
+}
+for(const row of [...repTerms,...pahoLocal]){
+  assert(official.has(row.country_area_m49));
+  assert(sources.has(row.source_url));
+  assert.equal(row.checked_on,'2026-11-05');
+  assert.equal(row.verification_state,'OFFICIAL_PAHO_INDEXED_DIRECT_OPEN_403');
+}
+for(const r of repTerms) assert.equal(r.relationship_type,'official_representative_of');
+const newIan=repTerms.filter(r=>r.assignment_context==='NEW_APPOINTMENT'&&r.representative_name==='Ian A. Stein');
+const newEldonna=repTerms.filter(r=>r.assignment_context==='NEW_APPOINTMENT'&&r.representative_name==='Eldonna V. Boisson');
+assert.deepEqual(newIan.map(r=>r.country_area_m49).sort(),['044','796']);
+assert.deepEqual(newEldonna.map(r=>r.country_area_m49).sort(),['060','136','388']);
+for(const r of newIan){assert.equal(r.reported_start,'2026-10-22');assert.equal(r.reported_start_precision,'day');assert.equal(r.reported_end,'unknown');assert.equal(r.source_url,uIan);}
+for(const r of newEldonna){assert.equal(r.reported_start,'2026-10-29');assert.equal(r.reported_start_precision,'day');assert.equal(r.reported_end,'unknown');assert.equal(r.source_url,uEldonna);}
+const prior=repTerms.filter(r=>r.assignment_context==='PRIOR_TERM_REPORTED');
+assert.equal(prior.length,7);
+for(const m49 of ['044','796']){
+ const v=prior.filter(r=>r.country_area_m49===m49&&r.representative_name==='Eldonna V. Boisson');
+ assert.equal(v.length,2);
+ assert.deepEqual(v.map(r=>r.reported_start).sort(),['2021-01','2021-02']);
+ assert.deepEqual(v.map(r=>r.source_url).sort(),[uIan,uEldonna].sort());
+ for(const r of v){assert.equal(r.reported_end,'2026-10');assert.equal(r.reported_end_precision,'month');}
+}
+const priorIan=prior.filter(r=>r.representative_name==='Ian A. Stein');
+assert.deepEqual(priorIan.map(r=>r.country_area_m49).sort(),['060','136','388']);
+for(const r of priorIan){assert.equal(r.reported_start,'2021');assert.equal(r.reported_start_precision,'year');assert.equal(r.reported_end,'unknown');assert.equal(r.source_url,uIan);}
+assert.deepEqual(pahoLocal.filter(r=>r.country_area_m49==='136').map(r=>r.observed_relation).sort(),[
+'WHO_STEPS_SURVEY_COLLABORATION_REPORTED','PAHO_HEARTS_TECHNICAL_SUPPORT_VISIT_REPORTED','LOCAL_HEARTS_IMPLEMENTATION_REPORTED'].sort());
+assert(pahoLocal.some(r=>r.country_area_m49==='136'&&r.reported_event_time==='2023'&&r.event_date_precision==='year'));
+assert(pahoLocal.some(r=>r.country_area_m49==='136'&&r.reported_event_time==='2025-09'&&r.event_date_precision==='month'));
+assert(pahoLocal.some(r=>r.country_area_m49==='136'&&r.reported_event_time==='unknown'&&r.source_published_on==='2026-10-13'));
+assert(pahoLocal.some(r=>r.country_area_m49==='534'&&r.reported_event_time==='2026-10-28'&&r.source_published_on==='2026-10-29'&&r.observed_relation==='PAHO_LABORATORY_POLICY_REVISION_SUPPORT_REPORTED'));
+for(const code of ['060','136','534','796']) assert.equal(statuses.find(s=>s.m49_code===code).who_region,'not_verified');
+assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
+assert.equal(statuses.filter(r=>r.who_region!=='not_verified').length,205);
+console.log('Batch 22 PAHO role transitions and local cooperation: 12 representative source observations, 4 local programme/policy observations, 4 primary URLs, month conflict retained; regional and clinical status unchanged');
+
+console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length},null,2));
