@@ -30,3 +30,9 @@ Run date: **2026-11-04**. Scope: committed CSV files in `docs/atlas/handoffs/tea
 ## Reproducible developer checks
 
 Parse each CSV according to RFC 4180; enforce expected header fields from `README.md`; ensure each organization ID unique; verify `area_m49` exists in area index; `condition_organizations.org_id` and `publication_context.org_id` reference a real organization; join each condition row to its source country's M49 code and confirm the corresponding coverage cell records positive discovery. Count coverage `not_yet_researched` explicitly. Flag any discontinued organization or duplicate consortium publication before presenting current sources. Do not conflate external host, contributor, author, funder and clinical regulator.
+
+## 2026-11-05 — Batch 4 structural check (local in-memory, pre-commit)
+
+- Checks executed: M49 count (248), seven-condition matrix count and unique composite keys (1,736), organization ID uniqueness (71), publication-to-organization ID and condition joins (67), HTTPS publication URLs, positive-vs-unresearched cell count (64/1672), publication-context row count (67).
+- Result: **0 observed structural check failures**; counts and indexed foreign keys passed. This does **not** establish complete M49 code-set equivalence, external link accessibility, legal identity, resource authenticity or guideline medical validity.
+- Pending: full UNSD numeric roster diff, actual live HTTP crawl, source-governance and publication copyright review; Ghana co-authorship/copyright, Barbados page accuracy, Tanzania/Zanzibar remit, historical Netherlands NDF status re-audit.

@@ -26,3 +26,7 @@ The draft branch contains **60** official-source-identified organizations across
 The Netherlands' **Nederlandse Diabetes Federatie** ceased activities on **2026-01-01** per its own website ([source](https://diabetesfederatie.nl/)). Its historic standard was not reassigned to a successor without an authorship audit. The 2026 Filipino diabetes practice guidance is **led by PCEDM, published/approved through DOH and developed with collaborator societies** ([source](https://doh-gabay.telehealth.ph/view_guideline.php?id=85)); a government-hosted page is not evidence of a government-operated medical society. Thailand's 2023 diabetes guideline similarly credits several professional and government issuers.
 
 The most recent batch includes named gout, FH, celiac, hypertension, and iron-overload publications to prevent a diabetes-only atlas. **Research discovery is not equivalent to guideline scientific appraisal.** See `VALIDATION.md` and `GAPS.md` before reuse.
+
+## Continuation update (2026-11-05)
+
+The latest research includes the Africa/Caribbean batch 4. The current count (superseding the 2026-11-04 historical pilot above) is **71 organization identities in 44 M49 areas**, **67 indexed resource rows**, **64 source-positive cells**, and **1672 not-yet-researched cells**. See STATUS.md, VALIDATION.md and GAPS.md for institutional-identity-only records, government authorship distinctions and pending clinical review.

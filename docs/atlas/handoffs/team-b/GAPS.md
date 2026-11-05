@@ -41,3 +41,12 @@ These examples flag *metadata and study-transportability errors* to check; they 
 - **Study population:** Finnish Diabetesbarometri 2025 is a survey, not a whole-population genetic or clinical phenotype estimate. AFDiAG Vie100Glut' uses testimony and local survey scope. Do not treat national survey participants as ancestry-linked risk cohorts.
 - **Disputed or oversimplified medical statements:** Association education pages can lag evolving clinical recommendations, including some celiac diagnostic criteria, older gout patient leaflets and South African diabetes guidance. Record the linked source as a lead, not a clinical recommendation. Explicit current clinical appraisal required under #27.
 - **Condition scarcity:** Outside the US, direct lactose-specific professional sources are especially scarce in this batch; celiac, inherited FH, gout and iron-overload still have large regional gaps. Distinguish actual searches with no body found from no search attempted.
+
+## 2026-11-05 discoveries needing follow-up
+
+- Ghana 2023 National Guidelines for the Management of Diabetes Mellitus: **Ministry of Health issuer and copyright holder**, Ghana Health Service and DEMSoG involved, pharma support acknowledged. Do not assign sole DEMSoG authorship. Official document is listed on DEMSoG; independent currency and clinical appraisal pending.
+- Diabetes Kenya, Zambia DAZ and Nigeria EMSON have authoritative network-member identity evidence, but an independently accessible original organization website and first-party publications are not yet confirmed; do not mark their condition cells source-positive.
+- Barbados DHAB patient education has visible placeholder elements and threshold claims requiring independent clinical review; never promote page content directly to the calculator.
+- Rwanda RDA site contains generic/placeholder-looking research listing descriptions; journal article about district-hospital type 1 diabetes EMR work can be independently linked but authorship and sample transportability require appraisal.
+- Senegal SOSECAR recommends a downloadable hypertension resource on its own site, but PDF destination, date and editorial ownership remain unverified; Burkina Faso SOCARB's 2026 workshop is not a guideline.
+- Zanzibar has a separately listed IDF diabetes association; do not infer Tanzania Diabetes Association authorship/authority for its governance or population. Additional standalone M49 territory and Indigenous research still needed.

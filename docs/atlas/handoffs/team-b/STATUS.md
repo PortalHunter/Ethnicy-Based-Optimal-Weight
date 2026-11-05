@@ -34,3 +34,9 @@
 - Any potentially user-visible medical proposition requires the separate claim appraisal process in [issue #27](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/27) and maintainer/human review.
 
 No changes were made to `main`, public clinical copy, the weight engine, genetic inferences, user inputs or patient datasets.
+
+## Verified in-process batch 4 — 2026-11-05
+
+- Source-index aggregate: **71 organizations, 44 M49 areas, 67 linked resources, 64 positive area-condition cells, 1672 explicit unresearched cells, 139 provenance entries**. Coverage matrix remains 248 × 7 = 1736 rows; three Indigenous-specific records unchanged.
+- **11** new organizational identities, **7** resource entries. Professional workshop, programme description and patient education are discoverable resources, **not clinically appraised evidence**.
+- Branch commit verifies persistence; no source claims approved for public clinical guidance. This section supersedes the 2026-11-04 figures above.
