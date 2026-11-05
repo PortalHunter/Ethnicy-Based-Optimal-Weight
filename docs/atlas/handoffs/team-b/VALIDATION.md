@@ -37,3 +37,6 @@ Ten CSVs (nine previous plus explicit cross-border edges) checked for structural
 
 
 Batch26 immutable verification: 0761c580b39b3c62502f7c8408c9572e39e80912. Independently fetched all18 handoff files from immutable commit and compared each GitHub contents blob SHA against the recursive Git tree (all18 matched; tree not truncated). Revalidated10 CSVs with independently reconstructed committed core+overview+cross-border structural checks:zero errors. Node CLI not run; source pages/PDFs not all live-checked. This checkpoint documentation commit does not alter substantive data.
+
+
+Batch27: 10 CSVs revalidated after Monaco source-integrity annotations (core+retained M49 overview+cross-border edge FKs, uniqueness, published-resource coverage, research_lead_only);0 errors, metrics {"organizations":306,"areas":195,"resources":186,"positive":178,"unresearched":1558,"provenance":509,"search_log":289,"community":4,"cross_border_edges":2,"by_condition":{"diabetes":65,"hypertension":17,"high_chol":21,"gout":17,"lactose":14,"celiac":27,"hemochromatosis":17},"current_unsd_overview_codes":248}. Monaco historical dissolution remains research-only lead with no fabricated current organizational publication. Node CLI/full URL/legal registry/clinical review not run. Immutable data readback documented in following checkpoint.

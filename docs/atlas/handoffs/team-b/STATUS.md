@@ -20,3 +20,6 @@ Data and validation restrictions: 10 CSVs including new cross_border_services.cs
 
 
 Batch26 independently read-back substantive SHA: **0761c580b39b3c62502f7c8408c9572e39e80912**. All18 handoff files matched Git tree blob SHAs;10 CSVs passed independent core+overview+cross-border checks with zero errors; Node CLI not run. Following checkpoint metadata commit does not alter CSV contents.
+
+
+**Batch27 quality check:** Official Journal de Monaco authorizes former diabetes society in1996 and documents dissolution effective27March2023, despite surviving commercial directory listing. Logged3 provenance and3 search rows, no active Monaco identity or published clinical source. Totals remain 306/195 identities/areas and186/178 resource/positive cells; provenance **509**, search **289**,53 domiciled-area gaps,1558 unlinked source cells. Narrow check does not prove no newer Monaco associations. Research incomplete.
