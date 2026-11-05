@@ -1,3 +1,9 @@
+## Latest Team A Atlas — Batch 18 (2026-11-05)
+
+[Complete standalone Batch 18 GitHub checkpoint](CHECKPOINT_20261105_BATCH18.md) | [Continuation](CONTINUE.md) | DATA SHA `6329a090951f5e6fa518fdbfec15764e77bff94e`. **248/248** individually matched dated official M49 geography (not verified ministries); **125/248** principal governmental health identities found, **123 unknown**, **175** government bodies, **40** cited within-area links, **266** source/provenance checks, **248** coverage rows, **0** inferred legal cross-area parents. Five new identity areas Timor-Leste 626, Puerto Rico 630, Qatar 634, Romania 642, Rwanda 646; distinct Timor INSP-TL government institute and source-limited within-area relation. Qatar's 5 Nov 2026 food safety transfer is **in progress, not a completed law allocation**; Puerto Rico US federal division remains unresolved. Independent exact DATA-SHA six-file quote-aware structural audit **PASS**; `validate.py` **NOT RUN** due local DNS error. Legal mandates are not complete and no clinical guidance is authorized. Only Team A research folder; PR #68 remains DRAFT and unmerged; public site unchanged.
+
+---
+
 ## Latest Team A census — Batch 17 (2026-11-05)
 
 [Complete standalone Batch 17 checkpoint](CHECKPOINT_20261105_BATCH17.md) and [continuation](CONTINUE.md): 248/248 UN M49 geographic inventory; **120/248 government principal identities**, **128 unknown**, 169 separate government bodies, 39 cited internal links, 253 provenance records, 248 coverage rows; DATA SHA `14bf3f2e748d5d439bc645002592c4ae3dc2a41a`. Peru, Philippines, Poland and Portugal now have official-source identity records; Portugal DGS separately mapped under **enacted consolidated Article 23 ministerial power of direction**. Exact independent GitHub SHA six-CSV integrity audit PASS, **Python validator NOT RUN** due local DNS. Most legal mandates and devolved functions incomplete. Only Team A files on DRAFT PR #68; website and clinical app untouched.
