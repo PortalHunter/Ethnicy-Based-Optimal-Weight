@@ -1,0 +1,876 @@
+{
+  "schema_version": "1.0.0",
+  "generated_on": "2026-11-04",
+  "description": "Authority identities and remit candidates; no institution entry alone validates a medical claim. WHO regional offices and transnational networks are distinguished from national legal jurisdictions.",
+  "organizations": [
+    {
+      "id": "NET-WHO",
+      "name": "World Health Organization",
+      "type": "intergovernmental_global",
+      "scope": "Global public-health coordination",
+      "primary_website": "https://www.who.int/",
+      "topics": [
+        "general"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "REG-WHO-AFRO",
+      "name": "WHO Regional Office for Africa",
+      "type": "intergovernmental_regional",
+      "scope": "WHO geographic administrative coverage",
+      "primary_website": "https://www.afro.who.int/",
+      "topics": [
+        "general"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "WHO regional coordination is not identical to national regulatory jurisdiction.",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "REG-WHO-AMRO",
+      "name": "Pan American Health Organization / WHO Regional Office for the Americas",
+      "type": "intergovernmental_regional",
+      "scope": "WHO geographic administrative coverage",
+      "primary_website": "https://www.paho.org/en/who-we-are",
+      "topics": [
+        "general"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "PAHO also has a separate role as specialized health agency for the Inter-American System; do not double-count it.",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "REG-WHO-EMRO",
+      "name": "WHO Regional Office for the Eastern Mediterranean",
+      "type": "intergovernmental_regional",
+      "scope": "WHO geographic administrative coverage",
+      "primary_website": "https://www.emro.who.int/",
+      "topics": [
+        "general"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "WHO regional coordination is not identical to national regulatory jurisdiction.",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "REG-WHO-EURO",
+      "name": "WHO Regional Office for Europe",
+      "type": "intergovernmental_regional",
+      "scope": "WHO geographic administrative coverage",
+      "primary_website": "https://www.who.int/europe",
+      "topics": [
+        "general"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "WHO regional coordination is not identical to national regulatory jurisdiction.",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "REG-WHO-SEARO",
+      "name": "WHO Regional Office for South-East Asia",
+      "type": "intergovernmental_regional",
+      "scope": "WHO geographic administrative coverage",
+      "primary_website": "https://www.who.int/southeastasia",
+      "topics": [
+        "general"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "WHO regional coordination is not identical to national regulatory jurisdiction.",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "REG-WHO-WPRO",
+      "name": "WHO Regional Office for the Western Pacific",
+      "type": "intergovernmental_regional",
+      "scope": "WHO geographic administrative coverage",
+      "primary_website": "https://www.who.int/westernpacific",
+      "topics": [
+        "general"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "WHO regional coordination is not identical to national regulatory jurisdiction.",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "NET-AFRICACDC",
+      "name": "Africa Centres for Disease Control and Prevention",
+      "type": "regional_public_health_agency",
+      "scope": "African Union Member States",
+      "primary_website": "https://africacdc.org/about-us/",
+      "topics": [
+        "general",
+        "noncommunicable_disease",
+        "surveillance"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "An African Union health agency, not a substitute for national ministries or specialist guidelines.",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "NET-ECDC",
+      "name": "European Centre for Disease Prevention and Control",
+      "type": "regional_public_health_agency",
+      "scope": "EU/EEA infectious disease surveillance remit",
+      "primary_website": "https://www.ecdc.europa.eu/en/about-us/what-we-do",
+      "topics": [
+        "infectious_disease"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Its primary mandate is infectious disease, not a blanket medical guideline authority for the seven noncommunicable conditions.",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "NET-EMA",
+      "name": "European Medicines Agency",
+      "type": "regional_medicines_regulator",
+      "scope": "EU/EEA medicines regulatory network",
+      "primary_website": "https://www.ema.europa.eu/en",
+      "topics": [
+        "pharmacology"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Medicines regulation and scientific evaluation; national authorities retain defined responsibilities. Distinguish EU from all WHO Europe.",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "NET-ASEANHEALTH",
+      "name": "ASEAN Health Sector",
+      "type": "regional_cooperation_network",
+      "scope": "ASEAN health cooperation",
+      "primary_website": "https://asean.org/our-communities/asean-socio-cultural-community/health/",
+      "topics": [
+        "general",
+        "noncommunicable_disease"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Cooperative health governance and programs; not a national prescribing authority.",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "NET-EASL",
+      "name": "European Association for the Study of the Liver",
+      "type": "transnational_medical_professional_society",
+      "scope": "International hepatology professional association",
+      "primary_website": "https://easl.eu/",
+      "topics": [
+        "hemochromatosis"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Publishes specialist liver clinical guidance; each guideline version and claim must be reviewed separately.",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "NET-IDF",
+      "name": "International Diabetes Federation",
+      "type": "transnational_disease_association",
+      "scope": "International diabetes network",
+      "primary_website": "https://idf.org/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Worldwide federation and research/epidemiology resource; not a national clinical regulator.",
+      "country_id": null,
+      "language": null
+    },
+    {
+      "id": "NAT-DZA-HEALTH",
+      "name": "Algerian Ministry of Health",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.sante.gov.dz/",
+      "topics": [],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "DZA",
+      "language": "French/Arabic"
+    },
+    {
+      "id": "NAT-AUS-HEALTH",
+      "name": "Australian Government Department of Health, Disability and Ageing",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.health.gov.au/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "AUS",
+      "language": "English"
+    },
+    {
+      "id": "NAT-BRA-HEALTH",
+      "name": "Ministério da Saúde",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.gov.br/saude/pt-br",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "BRA",
+      "language": "Portuguese"
+    },
+    {
+      "id": "NAT-CAN-PHAC",
+      "name": "Public Health Agency of Canada",
+      "type": "national_public_health_institute",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.canada.ca/en/public-health.html",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "CAN",
+      "language": "English/French"
+    },
+    {
+      "id": "NAT-CHN-HEALTH",
+      "name": "National Health Commission of the People's Republic of China",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.nhc.gov.cn/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "CHN",
+      "language": "Chinese"
+    },
+    {
+      "id": "NAT-FIN-THL",
+      "name": "Finnish Institute for Health and Welfare (THL)",
+      "type": "national_public_health_institute",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://thl.fi/en",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "FIN",
+      "language": "Finnish/Swedish/English"
+    },
+    {
+      "id": "NAT-GHA-HEALTH",
+      "name": "Ministry of Health, Ghana",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.moh.gov.gh/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "GHA",
+      "language": "English"
+    },
+    {
+      "id": "NAT-IND-ICMR",
+      "name": "Indian Council of Medical Research (ICMR)",
+      "type": "national_research_council",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.icmr.gov.in/",
+      "topics": [
+        "diabetes",
+        "celiac"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "IND",
+      "language": "English/Hindi"
+    },
+    {
+      "id": "NAT-IDN-HEALTH",
+      "name": "Kementerian Kesehatan Republik Indonesia",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://kemkes.go.id/",
+      "topics": [
+        "diabetes",
+        "hypertension"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "IDN",
+      "language": "Indonesian"
+    },
+    {
+      "id": "NAT-IRN-HEALTH",
+      "name": "Iran Ministry of Health and Medical Education",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://behdasht.gov.ir/",
+      "topics": [
+        "celiac"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "IRN",
+      "language": "Persian"
+    },
+    {
+      "id": "NAT-JPN-HEALTH",
+      "name": "Ministry of Health, Labour and Welfare",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.mhlw.go.jp/english/",
+      "topics": [
+        "general"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "JPN",
+      "language": "Japanese/English"
+    },
+    {
+      "id": "NAT-KOR-KDCA",
+      "name": "Korea Disease Control and Prevention Agency",
+      "type": "national_public_health_institute",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.kdca.go.kr/eng/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "KOR",
+      "language": "Korean/English"
+    },
+    {
+      "id": "NAT-MYS-HEALTH",
+      "name": "Ministry of Health Malaysia",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.moh.gov.my/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "MYS",
+      "language": "Malay/English"
+    },
+    {
+      "id": "NAT-MEX-HEALTH",
+      "name": "Secretaría de Salud, México",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.gob.mx/salud",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "MEX",
+      "language": "Spanish"
+    },
+    {
+      "id": "NAT-NZL-HEALTH",
+      "name": "Ministry of Health | Manatū Hauora",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.health.govt.nz/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "NZL",
+      "language": "English/Māori"
+    },
+    {
+      "id": "NAT-NGA-HEALTH",
+      "name": "Federal Ministry of Health and Social Welfare, Nigeria",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://health.gov.ng/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "NGA",
+      "language": "English"
+    },
+    {
+      "id": "NAT-PAK-HEALTH",
+      "name": "Ministry of National Health Services, Regulations and Coordination",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.nhsrc.gov.pk/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "PAK",
+      "language": "English/Urdu"
+    },
+    {
+      "id": "NAT-PRT-DGS",
+      "name": "Direção-Geral da Saúde (DGS)",
+      "type": "national_public_health_authority",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.dgs.pt/",
+      "topics": [
+        "hemochromatosis"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "PRT",
+      "language": "Portuguese"
+    },
+    {
+      "id": "NAT-WSM-HEALTH",
+      "name": "Ministry of Health, Samoa",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.health.gov.ws/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "WSM",
+      "language": "English/Samoan"
+    },
+    {
+      "id": "NAT-SAU-HEALTH",
+      "name": "Ministry of Health, Kingdom of Saudi Arabia",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.moh.gov.sa/en",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "SAU",
+      "language": "Arabic/English"
+    },
+    {
+      "id": "NAT-ZAF-HEALTH",
+      "name": "National Department of Health, South Africa",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.health.gov.za/",
+      "topics": [
+        "diabetes",
+        "hypertension"
+      ],
+      "identity_status": "OFFICIAL_SITE_SPOT_CHECKED",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "ZAF",
+      "language": "English"
+    },
+    {
+      "id": "NAT-ESP-HEALTH",
+      "name": "Ministerio de Sanidad, España",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.sanidad.gob.es/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "ESP",
+      "language": "Spanish"
+    },
+    {
+      "id": "NAT-THA-HEALTH",
+      "name": "Ministry of Public Health, Thailand",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.moph.go.th/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "THA",
+      "language": "Thai"
+    },
+    {
+      "id": "NAT-USA-CDC",
+      "name": "Centers for Disease Control and Prevention",
+      "type": "national_public_health_institute",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://www.cdc.gov/",
+      "topics": [
+        "general",
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "USA",
+      "language": "English"
+    },
+    {
+      "id": "NAT-VNM-HEALTH",
+      "name": "Bộ Y tế Việt Nam",
+      "type": "national_health_ministry",
+      "scope": "National policy/research/health jurisdiction",
+      "primary_website": "https://moh.gov.vn/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Entity identity candidate; precise authority for any medical guidance is conditional on each document and effective date.",
+      "country_id": "VNM",
+      "language": "Vietnamese"
+    },
+    {
+      "id": "SOC-JPN-JDS",
+      "name": "Japanese Diabetes Society",
+      "type": "national_medical_professional_society",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://www.jds.or.jp/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RDI-006; source origin and endorsement must still be independently checked.",
+      "country_id": "JPN",
+      "language": "Japanese"
+    },
+    {
+      "id": "SOC-JPN-JSH",
+      "name": "Japanese Society of Hypertension",
+      "type": "national_medical_professional_society",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://www.jpnsh.jp/",
+      "topics": [
+        "hypertension"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RHT-001; source origin and endorsement must still be independently checked.",
+      "country_id": "JPN",
+      "language": "Japanese"
+    },
+    {
+      "id": "SOC-JPN-JAS",
+      "name": "Japan Atherosclerosis Society",
+      "type": "national_medical_professional_society",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://www.j-athero.org/",
+      "topics": [
+        "high_chol"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RLD-001; source origin and endorsement must still be independently checked.",
+      "country_id": "JPN",
+      "language": "Japanese"
+    },
+    {
+      "id": "SOC-KOR-KDA",
+      "name": "Korean Diabetes Association",
+      "type": "national_medical_professional_society",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://www.diabetes.or.kr/eng/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RDI-007; source origin and endorsement must still be independently checked.",
+      "country_id": "KOR",
+      "language": "Korean"
+    },
+    {
+      "id": "SOC-IND-RSSDI",
+      "name": "Research Society for the Study of Diabetes in India",
+      "type": "national_medical_professional_society",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://www.rssdi.in/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RDI-008; source origin and endorsement must still be independently checked.",
+      "country_id": "IND",
+      "language": "English"
+    },
+    {
+      "id": "SOC-FIN-KAYPA",
+      "name": "Finnish Medical Society Duodecim / Käypä hoito",
+      "type": "national_guideline_program",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://www.kaypahoito.fi/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RDI-001; source origin and endorsement must still be independently checked.",
+      "country_id": "FIN",
+      "language": "Finnish"
+    },
+    {
+      "id": "SOC-GHA-DEMSOG",
+      "name": "Diabetes, Endocrine & Metabolic Society of Ghana",
+      "type": "national_medical_professional_society",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://demsog.com/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RDI-003; source origin and endorsement must still be independently checked.",
+      "country_id": "GHA",
+      "language": "English"
+    },
+    {
+      "id": "SOC-PAK-PES",
+      "name": "Pakistan Endocrine Society",
+      "type": "national_medical_professional_society",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://pakendosociety.org/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RDI-009; source origin and endorsement must still be independently checked.",
+      "country_id": "PAK",
+      "language": "English"
+    },
+    {
+      "id": "SOC-ESP-SED",
+      "name": "Sociedad Española de Diabetes",
+      "type": "national_medical_professional_society",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://www.sediabetes.org/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RDI-002; source origin and endorsement must still be independently checked.",
+      "country_id": "ESP",
+      "language": "Spanish"
+    },
+    {
+      "id": "SOC-BRA-SBD",
+      "name": "Sociedade Brasileira de Diabetes",
+      "type": "national_medical_professional_society",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://diretriz.diabetes.org.br/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RDI-018; source origin and endorsement must still be independently checked.",
+      "country_id": "BRA",
+      "language": "Portuguese"
+    },
+    {
+      "id": "SOC-NZL-NZSSD",
+      "name": "New Zealand Society for the Study of Diabetes",
+      "type": "national_medical_professional_society",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://www.t2dm.nzssd.org.nz/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RDI-022; source origin and endorsement must still be independently checked.",
+      "country_id": "NZL",
+      "language": "English"
+    },
+    {
+      "id": "SOC-CAN-DIABETESCA",
+      "name": "Diabetes Canada",
+      "type": "national_disease_association",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://guidelines.diabetes.ca/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RDI-019; source origin and endorsement must still be independently checked.",
+      "country_id": "CAN",
+      "language": "English/French"
+    },
+    {
+      "id": "SOC-USA-ADA",
+      "name": "American Diabetes Association",
+      "type": "national_disease_association",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://diabetes.org/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "No individual claim endorsed by entry alone.",
+      "country_id": "USA",
+      "language": "English"
+    },
+    {
+      "id": "SOC-AUS-DIABETESAU",
+      "name": "Diabetes Australia",
+      "type": "national_disease_association",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://www.diabetesaustralia.com.au/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "No individual claim endorsed by entry alone.",
+      "country_id": "AUS",
+      "language": "English"
+    },
+    {
+      "id": "SOC-ZAF-SEMDSA",
+      "name": "Society for Endocrinology, Metabolism and Diabetes of South Africa",
+      "type": "national_medical_professional_society",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://www.semdsa.org.za/",
+      "topics": [
+        "diabetes"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RDI-004; source origin and endorsement must still be independently checked.",
+      "country_id": "ZAF",
+      "language": "English"
+    },
+    {
+      "id": "SOC-PRT-SPMI",
+      "name": "Sociedade Portuguesa de Medicina Interna",
+      "type": "national_medical_professional_society",
+      "scope": "Professional publication / advocacy within country; not government regulation",
+      "primary_website": "https://www.spmi.pt/",
+      "topics": [
+        "hemochromatosis"
+      ],
+      "identity_status": "CANDIDATE_OFFICIAL_SOURCE",
+      "evidence_evaluation_status": "NOT_A_CLAIM_APPRAISAL",
+      "review_date": "2026-11-04",
+      "notes": "Relevant review candidate: RFE-003; source origin and endorsement must still be independently checked.",
+      "country_id": "PRT",
+      "language": "Portuguese"
+    }
+  ]
+}
