@@ -5,16 +5,16 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "b0e80aad880909bbf3eacdd838f7bacf1d5e3850",
-  "batch": 22,
+  "validated_data_commit": "b97d1ac7a0a356718f0507435228cd439962433c",
+  "batch": 23,
   "metrics": {
-    "organizations": 293,
-    "areas": 189,
-    "resources": 175,
-    "positive": 169,
-    "unresearched": 1567,
-    "provenance": 477,
-    "search_log": 262,
+    "organizations": 296,
+    "areas": 191,
+    "resources": 178,
+    "positive": 170,
+    "unresearched": 1566,
+    "provenance": 483,
+    "search_log": 270,
     "community": 4,
     "by_condition": {
       "diabetes": 63,
@@ -22,17 +22,15 @@
       "high_chol": 20,
       "gout": 16,
       "lactose": 13,
-      "celiac": 25,
+      "celiac": 26,
       "hemochromatosis": 17
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 47,
-    "new_areas": 36,
-    "resource_relationships": 11,
-    "community_specific_records": 1,
-    "existing_resource_upgraded": 1
+    "organization_identities": 3,
+    "new_areas": 2,
+    "resource_relationships": 3
   },
   "validation_runtime": "orchestration_javascript_core_plus_overview",
   "node_cli_run": false,
@@ -54,7 +52,7 @@
     "data/subnational_and_indigenous_organizations.csv",
     "data/search_log.csv"
   ],
-  "validated_data_commit_note": "Batch22 substantive data commit independently fetched back; all17 files matched exactly and nine CSVs revalidated. Later handoff-only commit may be HEAD.",
+  "validated_data_commit_note": "Starting immutable checkpoint revalidated this session; batch23 commit SHA must be resolved from live branch then independently read back.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -169,10 +167,6 @@
       "area": "Monaco"
     },
     {
-      "m49": "499",
-      "area": "Montenegro"
-    },
-    {
       "m49": "520",
       "area": "Naoero"
     },
@@ -223,10 +217,6 @@
     {
       "m49": "626",
       "area": "Timor-Leste"
-    },
-    {
-      "m49": "638",
-      "area": "Réunion"
     },
     {
       "m49": "652",
@@ -292,13 +282,5 @@
       "m49": "876",
       "area": "Wallis and Futuna Islands"
     }
-  ],
-  "readback_validation": {
-    "immutable_data_sha": "b0e80aad880909bbf3eacdd838f7bacf1d5e3850",
-    "files_matched": 17,
-    "csv_count": 9,
-    "errors": 0,
-    "runtime": "orchestration_javascript_committed_validator_core",
-    "node_cli_run": false
-  }
+  ]
 }

@@ -199,3 +199,11 @@ Nine identities/seven gout resources, no new geographic identity area. Argentina
 - AFD971 Guadeloupe and AFD972 Martinique own hosted identities are local associations; national federation footer dates/SIRET/public-utility status cannot be assumed local. Martinique name variants/legal wording and ISO policy versus certification unresolved. ADiAG French Guiana own site has unfinished templates; no placeholder education credit.
 - Mayotte Rediab Ylang976 own association/network identity and public diabetes explanation retrieved; historical IDF6th edition link and three-type summary not current comprehensive classification. Coco BaCoco2016 catalogue/local-language title verified, full booklet and Shimaore/Shibushi versions not reviewed. Do not turn local cuisine into genotype/ancestry dietary claims.
 - Greenland Steno centre integrated in public health service since2020; funder support does not make it NGO and2025 building inauguration not founding. Excluded TeamA scope. Gibraltar generic2024 Diabetic Association/secondary2026 Diabetes Gibraltar naming continuity unresolved; no identity credited yet.
+
+
+## Batch23 original-language education and scope
+
+- SBP2025 lactose page independently retrieved; new page is not proven formal replacement of2017 education. Genetic test does not establish current symptoms. SBP2025 celiac page has broad Caucasian wording, unreferenced penetrance, blanket biopsy and oat claims; all withheld from clinical use.
+- SNFGE iron-overload patient page dated September2019 credits H.Joubert and C.Bureau/J-M.Peron; not current guidance. Simplified HFE definition and numeric diagnostic/treatment assertions unappraised.
+- Reunion ADJ974 own identity verified; type1 focus does not satisfy type2 stream. AFD974 directory/own-site access gap and ADN974 remain separate leads. Montenegro DOB adult type1 and UECG endocrinology are separate; mission/workshop counters and CGM draft announcement not clinical resource credit.
+- Liechtenstein cross-border remit explicitly verified on Swiss Chur-based diabetesGL-GR-FL own page. Current single-area identity table cannot express based-in756 versus serves438 cleanly; no false Liechtenstein domicile or new438 coverage credited. Own education route challenge-blocked. Add normalized multi-area relationship only with provenance and corresponding validator support.

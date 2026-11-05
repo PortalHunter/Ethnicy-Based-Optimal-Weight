@@ -135,3 +135,7 @@ Added8 identities in8 new areas (Isle of Man,Cayman Islands,Curacao,Aland,Martin
 ## 2026-11-05 — Immutable batch22 handoff checkpoint
 
 Verified substantive SHA b0e80aad880909bbf3eacdd838f7bacf1d5e3850;17 exact file readbacks and9 CSVs revalidated with zero errors. This handoff-only update records verified SHA and exact59-area missing-identity list. Run total47 identities/36 new areas/11 new relationships/one resource upgrade/one community record. Research remains incomplete; all clinical release states research_lead_only.
+
+
+## 2026-11-05 — Batch23
+Added3 own-site identities in2 new areas (Reunion,Montenegro),3 education links (Brazil lactose/celiac,France hereditary iron overload),8 search rows and6 provenance rows. Cross-border Liechtenstein scope logged without false domicile. Zero structural errors. Metrics: {"organizations":296,"areas":191,"resources":178,"positive":170,"unresearched":1566,"provenance":483,"search_log":270,"community":4,"by_condition":{"diabetes":63,"hypertension":15,"high_chol":20,"gout":16,"lactose":13,"celiac":26,"hemochromatosis":17},"current_unsd_overview_codes":248}.
