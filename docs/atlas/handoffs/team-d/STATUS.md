@@ -2,9 +2,9 @@
 
 Checked: 2026-11-05. Branch: `research/atlas-team-d-20261104`. Draft PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70
 
-## Current checkpoint after batches 4–6
+## Current checkpoint after Batch 7
 
-Last substantive research commit: `6f1573cd64fa1343ab84a4a0a358b662f1736f63`. Earlier new batches: WPRO `b532c3f1da839e6adb9e18798e42152cb86b75ca`; EMRO `76e566dc189882934af3231ffd1f313ce36a3c5d`. This subsequent handoff commit records final source-conflict audit and continuation. Independently retrieve branch head for the handoff's own SHA.
+Batch 7 data commit: `a757ec3979d3bce2449e5e9cd6be4c60c8fb6561`. Follow-up handoff repair commit: `4869b0486541a5b9f45679cc9ee7ffd0f46da31a` (restored the prior batch narrative and retained Batch 7). At this checkpoint PR #70 is open, draft and unmerged. Re-fetch branch head at the beginning of the next session; any subsequent handoff commit supersedes these SHAs.
 
 | Artifact | Rows |
 |---|---:|

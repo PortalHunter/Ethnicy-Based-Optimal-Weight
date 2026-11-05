@@ -5,6 +5,7 @@
 - Added 42 Annex 3 office coverage relationships and 32 Annex 4 regional-office focal-point relationships. Focal-point coverage is not modeled as physical office presence or membership. MCO qualification does not mean an area lacks a local office.
 - Added nine office nodes and 225 unique M49-indexed edges (two source labels collapse onto the shared Bonaire–Sint Eustatius–Saba M49 code 535); total graph now 45 nodes / 542 edges. Provenance is source 112. Current office presence remains ten records; historical report rows do not establish 2026 status.
 - Updated validator, handoff, gap and boundary documentation. No claims about legal membership, adoption of guidance, clinical evidence or personalized recommendations.
+- Batch data commit: `a757ec3979d3bce2449e5e9cd6be4c60c8fb6561`; follow-up commit `4869b0486541a5b9f45679cc9ee7ffd0f46da31a` restored the earlier batch log while retaining Batch 7. Verify newer branch head on every resume.
 
 # Team D — Changelog
 

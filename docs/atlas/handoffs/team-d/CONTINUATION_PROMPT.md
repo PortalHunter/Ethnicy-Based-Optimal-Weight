@@ -15,7 +15,7 @@ Read `docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md` and `DA
 
 ## Verified fallback checkpoint after Batch 7, 2026-11-05
 
-Branch: `research/atlas-team-d-20261104`; draft PR #70 remains the existing workstream. Last known predecessor SHA: `eeeddd68df8041d975dcb9943d34a85da5fc1cde`; this continuation is to be committed on the branch in the Batch 7 continuation.
+Branch: `research/atlas-team-d-20261104`; draft PR #70 remains the existing workstream. Batch 7 data commit: `a757ec3979d3bce2449e5e9cd6be4c60c8fb6561`. Batch-log restoration/handoff commit: `4869b0486541a5b9f45679cc9ee7ffd0f46da31a`. Independently retrieve the newest branch head on resume; later handoff commits supersede these.
 
 - Graph: 45 network nodes, 542 typed edges; 20 institutional condition references across all seven health keys.
 - WHO/M49: 249 retained ISO candidates, 248 official UN overview rows, exception 158; 205 verified WHO region records and 44 `not_verified` records. Regional status totals: AFRO47, AMRO35, EMRO22, EURO53, SEARO10, WPRO38. These are administrative/geographic assignments, not a WHO constitutional membership count.
