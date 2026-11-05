@@ -1,3 +1,13 @@
+## Batch 22 — 2026-11-05 — documented PAHO Caribbean representative succession, local programme evidence and explicit source uncertainty
+
+- `7dbbe72e3d4fe763f9854d9b4caf75bd78170d07`: **12** PAHO assignment-source rows, five new country/area appointments with 2026-10-22 or 2026-10-29 effective dates plus seven older-term claims. Official notices disagree on **Jan vs Feb 2021** start of Boisson's former term; keep both.
+- `05ebd29752117197f3d5cdc1f00f218e0ecbf7fc`: **four** Cayman STEPS/HEARTS and Dutch Sint Maarten laboratory-policy cooperation observations, each time-qualified, no binding adoption inferred.
+- `b0f3e68a6b114b4584f43673ad6e4558fa8564bd`: **four** first-party PAHO news URLs `TD-SRC-189–192` bring source ledger to **192**, all indexed official excerpts with **HTTP 403 direct-open** caveat.
+- `f8dc3c781cccec092aec8095c91cc53ecae4e6eb`: provenance count and new cross-file invariants. **Full structural replay PASS** in read-only JS shim across 50 PR files/31 data reads, not native Node/Actions or legal/clinical validation.
+- Graph unchanged 47/616, WHO verified/unknown 205/44, 105 April office positives, 153 survey labels, 228 2021–22 historical service records. Team D-only; PR remains OPEN/DRAFT/UNMERGED. [Complete recovery checkpoint](CHECKPOINT_BATCH_22_2026-11-05.md).
+
+---
+
 ## Batch 21 — 2026-11-05 — 2025 WHO reporting-region evidence and structural validator regression fix
 
 - `ce3853587466f12366f8b9c606c375885204ef5f`: 15 individually M49-matched WHO 2025 epidemiological reporting table observations, from 2026 WER volume 101 issues 36–37. Includes 663 French Saint Martin and 534 Dutch Sint Maarten as different labels; zero 2026 WHO administrative region/status promotions.
