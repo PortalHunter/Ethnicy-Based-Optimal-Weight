@@ -1,3 +1,13 @@
+# Team D latest verified status — Batch 22 (2026-11-05)
+
+**[Complete standalone Batch 22 checkpoint](CHECKPOINT_BATCH_22_2026-11-05.md)** · [Continuation prompt](CONTINUATION_PROMPT.md).
+
+**Four source-qualified new PAHO evidence URLs** (`TD-SRC-189–192`), **12** historical/current representative source observations, **4** dated local cooperation observations. Data commits `7dbbe72e3d4fe763f9854d9b4caf75bd78170d07` and `05ebd29752117197f3d5cdc1f00f218e0ecbf7fc`; ledger `b0f3e68a6b114b4584f43673ad6e4558fa8564bd`; validator `f8dc3c781cccec092aec8095c91cc53ecae4e6eb`. New PAHO representative terms: Ian Stein Bahamas/Turks effective **22 Oct 2026**, Eldonna Boisson Jamaica/Bermuda/Cayman effective **29 Oct 2026**. PAHO gives conflicting **January vs February 2021** historical Boisson starts; both retained, no precise prior handover date. Cayman 2023 STEPS/2025 HEARTS visit/2026 implementation report and Dutch Sint Maarten 28–29 Oct laboratory-policy revision are **not** verified statutory or clinical adoption.
+
+**Original PAHO news page opens returned HTTP 403**; indexed official excerpts used and explicitly flagged, requiring independent rereview. **Full checked-in validator PASS via read-only JS shim** (50 GitHub PR files, 31 read dependencies); **not native Node/Actions or clinical/legal approval**. Preserved 47 nodes/616 typed edges, 205 directly verified/44 unresolved WHO administrative regions, 105 April 2026 affirmative office-host records, 153 surveys (106 April 2026/46 Sep 2024/1 unavailable), 46/46 older survey source checks, 228 separate historical 2021–22 records, and **192** unique URLs. No public site/main or other-team edits. PR #70 **OPEN/DRAFT/UNMERGED**.
+
+---
+
 # Team D current verified state — Batch 21 (2026-11-05)
 
 **[Standalone Batch 21 checkpoint](CHECKPOINT_BATCH_21_2026-11-05.md)** · WHO WER territory reporting data commit `ce3853587466f12366f8b9c606c375885204ef5f` · Source ledger `0d352d66dfcb7ee737cfaca3c67352e7a31504d5` · Validator repair `b6cf6d66f3d19c675f142d57d20d85f0da96532b`.
