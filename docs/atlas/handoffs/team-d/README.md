@@ -1,3 +1,12 @@
+## New verified Team D artifacts — Batch 11 (2026-11-05)
+
+- `data/hearts_pathway_catalog_2026.csv`: 24 dated PAHO source-title catalog entries, no inferred legal national adoption or local recommendation.
+- `data/cross_border_programme_evidence_2026.csv`: five aggregate status observations with distinct time/denominator meanings. No country edges inferred.
+- Validated data/validator commit `e430702b371b9393603c94f7fc40f9712f61d378`, **19 CSV** structural assertion run PASS in read-only JavaScript shim, **118** unique provenance URLs. See latest standalone `CHECKPOINT_2026-11-05.md`.
+- Preserve `main`, public website, other research teams, and the draft/unmerged PR #70.
+
+---
+
 # Team D — international health network atlas
 
 Current research checkpoint:2026-11-05. Branch:`research/atlas-team-d-20261104`. Draft PR:https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70

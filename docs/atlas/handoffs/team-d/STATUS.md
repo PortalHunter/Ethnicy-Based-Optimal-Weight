@@ -1,3 +1,15 @@
+## Latest verified Batch 11 — 2026-11-05
+
+**Data/validator SHA:** `e430702b371b9393603c94f7fc40f9712f61d378`; original draft PR #70 remains open and unmerged. **Two new evidence datasets:** 24 dated PAHO clinical-pathway catalog entries (22 local jurisdictions/subnational examples; two regional templates) and five aggregate official programme observations. Catalog local entries include three distinct Mexico state labels, two UK overseas-territory/area labels, and one deliberately withheld M49 join for PAHO's ambiguous “DOMINICA REPUBLIC” source title. New official provenance URLs TD-SRC-115–118 bring the ledger to **118 unique URLs** (the main HEARTS page is already TD-SRC-024, not re-added).
+
+**Programme facts are aggregate only:** 15 October 2026 Africa CDC APPM report says **8 AU states signed** MoUs, **15 expressed intent** and the programme **targets 55**; country identities were not supplied, so no signatory graph edges. PAHO's 15 May 2026 release says the *first* HEARTS pathway version had been adopted as a national standard by **29 countries**; an undated PAHO overview says **35 committed** to the initiative, a different denominator/status. Neither count establishes adoption of the **2026 HEARTS 2.0** template or of any specific catalog entry. No clinical appraisal.
+
+**Unchanged baseline:** 45 network nodes, 542 sourced typed relationships, 20 institutional records across seven keys, 249 M49 candidates / 248 official crosswalk / ISO exception 158, 205 verified WHO region assignments / 44 unresolved, 105 April 2026 WHO office positives / 144 without equivalent recent positive evidence, 153 time-labelled office roster entries (106 April 2026, 46 retained September 2024, one unavailable), 34 EMA candidate authority labels, and 228 *historical* 2021–2022 WHO service records.
+
+**Validation:** checked-in `validate.mjs` structural assertions **PASS** with **19 GitHub-hosted CSV inputs** in a read-only JavaScript file shim at `e430702b371b9393603c94f7fc40f9712f61d378`. This is *not* a literal Node CLI invocation or GitHub Actions result. See `VALIDATION.md` and standalone `CHECKPOINT_2026-11-05.md`.
+
+---
+
 ## Final GitHub-verified checkpoint (2026-11-05)
 
 Full standalone restart: `CHECKPOINT_2026-11-05.md`; validated data snapshot `43b1743a1d01be065530c0a0c2b1996fcc9a5986`. All changed Team D files read back from GitHub, source counts and historical-versus-current distinctions preserved; 17-dataset structural assertion run PASS (not a literal Node CLI run). See latest Batch 10 overview immediately below.

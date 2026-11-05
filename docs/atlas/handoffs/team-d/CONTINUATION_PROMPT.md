@@ -1,3 +1,15 @@
+## Latest verified restart — Batch 11 (2026-11-05)
+
+Read `CHECKPOINT_2026-11-05.md` for the newest standalone checkpoint; its new Batch 11 section supersedes the Batch 10 snapshot below. **Validated data/validator SHA:** `e430702b371b9393603c94f7fc40f9712f61d378`; **discover the live branch tip independently** because later documentation-only commits move the head. PR #70 must remain open/draft/unmerged.
+
+Added `data/hearts_pathway_catalog_2026.csv` (**24 PAHO catalog titles: 22 local, two generic standards**) and `data/cross_border_programme_evidence_2026.csv` (**5 separate aggregate observations**) without adding country/member graph edges. New PAHO and Africa CDC evidence is recorded at TD-SRC-115–118; the main PAHO HEARTS URL is *already* TD-SRC-024. Unique provenance URLs **118**. PAHO title “DOMINICA REPUBLIC” is intentionally not M49-joined, and three Mexico local versions are explicitly subnational. HEARTS v1 national adoptions reported **29** in May 2026 differ from **35** undated PAHO initiative commitments; Africa CDC APPM **8 MoU signatories**, **15 expressions of intent** and **55 target** are different stages and do not identify countries. Source-list presence is not national adoption, clinical evidence or legal mandate.
+
+**Structural PASS:** full checked-in validator assertions executed against **19 GitHub CSV inputs** with a read-only JS file shim at `e430702b371b9393603c94f7fc40f9712f61d378`; no literal `node` CLI or Actions claim. Preserved 45 nodes/542 edges; WHO 205 verified/44 unknown region status, 105 affirmative April-2026 host offices (144 lacking equivalent direct evidence), 46 older 2024 survey profiles, 228 separate 2021–2022 service records, EMA 34 candidate agencies. Next: 44 WHO region unknowns, 46 older office records, named APPM signatories, national HEARTS adoption/edition sources, exact Team A identity/remit joins and ASEAN/society participants. Only Team D files may be edited; no website/merge/clinical deployment.
+
+At run end, commit complete standalone checkpoint, validate, re-fetch all changed artifacts, verify PR state and repeat the user's continuation prompt verbatim.
+
+---
+
 ## Final verified restart checkpoint — 2026-11-05
 
 Read `CHECKPOINT_2026-11-05.md` first for a self-contained evidence inventory, 17-CSV structural pass, exact data-snapshot SHA `43b1743a1d01be065530c0a0c2b1996fcc9a5986`, unresolved work and the same original continuation prompt. That document is created in a later documentation-only commit; **always discover the latest live branch head** rather than treat the data snapshot as the branch tip.

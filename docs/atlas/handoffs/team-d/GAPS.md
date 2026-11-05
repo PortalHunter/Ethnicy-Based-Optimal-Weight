@@ -1,3 +1,11 @@
+## Batch 11 follow-up gaps (2026-11-05)
+
+- **PAHO HEARTS:** 22 local catalog titles are individually dated (plus two generic templates), but catalog publication does **not** verify a local health ministry's national legal adoption, version in force, treatment algorithm, document authorship or clinical appraisal. PAHO's **29 first-version national-standard adoptions** and **35 current programme commitments** are different, aggregate reports; individual country lists and as-of denominators still need direct confirmation. HEARTS 2.0 (cataloged 8 May; launched 15 May 2026) cannot automatically replace a 2024 country/subnational pathway. Verify country documents and territorial/subnational jurisdiction explicitly. PAHO source title “DOMINICA REPUBLIC” deliberately stays without M49 join until identity resolved; “DOMINICA” remains separate 212. Bermuda pathway listing alone does not decide its pending WHO region classification.
+- **Africa CDC APPM:** the 15 October 2026 statement supports **eight signed**, **15 intentions**, **55-target** counts without identifying the signatory/intent countries. No country-level APPM edges, no assumption that procurement agreements displace national medicines regulators. Seek named MoU signatories, dated accession evidence and legal remits.
+- **Previously open:** 44 direct-evidence WHO region queue records, 46 older WHO office survey responses, 144 seed areas without recent affirmative office attestations (not proof of absence), EMA per-agency laws and Team A identity joins, ASEAN participant rosters, professional-society identity links and jurisdiction-specific HEARTS adoption. Do not turn institutional research into individualized recommendations.
+
+---
+
 ## Batch 10 — regulator linkage gap (2026-11-05)
 
 The official EMA page yielded 34 agency labels across 30 EU/EEA countries. Exact Team A authority-ID joins, local original titles and agency-specific statutory remits remain unresolved, including the separate agencies in Germany, Netherlands and Poland. No NCA graph edges have been fabricated; scientific EMA evaluation, European Commission binding decisions and nationally competent procedures must remain distinct.

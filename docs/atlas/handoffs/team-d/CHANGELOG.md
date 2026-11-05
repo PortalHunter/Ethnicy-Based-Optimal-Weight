@@ -1,3 +1,11 @@
+## 2026-11-05 — Batch 11: PAHO pathway catalog and bounded programme participation
+
+- Data commit `e3959112ad1095c7f0e0c202d323cd3190a1670e`: added `data/hearts_pathway_catalog_2026.csv` (**24** dated PAHO entries; two regional templates, 22 local; three Mexico state labels, two territory labels, one unjoined ambiguous source name) and `data/cross_border_programme_evidence_2026.csv` (**5** aggregate observations: Africa CDC APPM 8 signed/15 intent/55 target; PAHO HEARTS v1 29 adopted national standards vs 35 undated initiative commitments). Added four new source URLs (TD-SRC-115–118) and validation assertions.
+- Correction commit `e430702b371b9393603c94f7fc40f9712f61d378`: removed accidental duplicate TD-SRC-119 URL, preserving the existing provenance TD-SRC-024. The validator's uniqueness rule flagged it and full rerun **PASS** on 19 GitHub-hosted CSVs with a read-only JS shim. Unique sources **118**, graph unchanged 45 nodes/542 edges; 2023 WHO history and April 2026 WHO surveys not modified.
+- This documentation/checkpoint update records the remaining legal, identity, national adoption and 44/46/144 WHO gaps. No website, main, other team data, medical recommendation, issue closure or PR merge.
+
+---
+
 ## 2026-11-05 — Complete standalone Team D continuation checkpoint
 
 - Independently fetched all 17 validator input CSVs at `43b1743a1d01be065530c0a0c2b1996fcc9a5986` and executed stored structural assertions in an isolated JS read-only-file environment: PASS. Re-fetched all 13 touched paths from GitHub and confirmed diff limited to Team D; recorded exact data counts, dated source caveats, remaining priorities and copyable restart prompt in `CHECKPOINT_2026-11-05.md`. PR #70 remains an unmerged draft.

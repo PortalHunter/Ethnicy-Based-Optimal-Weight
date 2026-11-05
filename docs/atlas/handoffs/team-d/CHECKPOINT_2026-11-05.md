@@ -1,3 +1,49 @@
+# Latest standalone Team D checkpoint — Batch 11 (2026-11-05)
+
+**Repository:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight  
+**Research branch:** `research/atlas-team-d-20261104`  
+**Existing draft pull request:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70 — open/draft/unmerged at source verification.  
+**Validated data/validator commit SHA:** `e430702b371b9393603c94f7fc40f9712f61d378` (the subsequent documentation commit changes branch head; always fetch live PR/head first).  
+**Restart instructions:** `docs/atlas/handoffs/team-d/CONTINUATION_PROMPT.md`.  
+**Original assignment:** `docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md` and `DATA_CONTRACT.md` on branch `research/atlas-five-team-handoff-prompts-2026-11-04`.
+
+## New independently sourced data and preserved distinctions
+
+- `data/hearts_pathway_catalog_2026.csv`: **24** official PAHO catalog records, **18** source-listed on catalog page 0 and **6** page 1. Two are regional templates (18 Jul 2024 and 8 May 2026); **22** are local 2024 catalog labels. Three represent Mexico **subnational** pathways (Sonora, Yucatán, Chiapas) rather than a national Mexico pathway; Bermuda (060) and British Virgin Islands (092) are area/territory labels; PAHO's “DOMINICA REPUBLIC” is deliberately **not_verified M49** pending exact source identity review, distinct from Dominica 212. Index publication ≠ country legal adoption, national guidance approval or clinical appraisal.
+- `data/cross_border_programme_evidence_2026.csv`: **five aggregate provenance-linked programme observations**. Africa CDC APPM official 15 Oct 2026 announcement: **8 MoU signatories**, **15 expressions of interest**, **55-state coverage target**; no signatory identities cited, so no country graph links. PAHO official 15 May 2026 announcement: first HEARTS pathway version adopted nationally in **29** countries (names not supplied). Undated PAHO programme page: **35** countries committed to the initiative (date/denominator distinguished). None establishes that particular countries adopted the 2026 HEARTS 2.0 standard.
+- **Four new unique original source URLs** TD-SRC-115 through 118; total `PROVENANCE.csv` **118**. PAHO general site already TD-SRC-024: the duplicate URL detected by validator was removed in correction commit `e430702b371b9393603c94f7fc40f9712f61d378`.
+- Research data commit `e3959112ad1095c7f0e0c202d323cd3190a1670e`; uniqueness repair/validated data commit `e430702b371b9393603c94f7fc40f9712f61d378`. No original records were overwritten; no new regulator or programme country-member edge asserted.
+
+## Exact preserved baseline and validation
+
+**45 network nodes, 542 typed sourced edges, 20 non-clinically-appraised seven-condition institutional references.** Geographic 249 ISO-seed candidates / 248 official UN M49 overview rows / special seed exception 158. **205** verified WHO administrative regions and **44** unresolved; all six regional offices. **153** current-dashboard WHO source labels: **106** office-head April 2026 survey entries, **46** retained September 2024, **one** without data. **105** affirmative M49-coded April-2026 WHO host-office evidence entries; other **144** candidates lack equivalent recent affirmative source evidence (not evidence of absent office). **228** 2023 WHO report office/service records refer to **Jan 2021–Dec 2022** and retain **225** typed historical graph links, not silently upgraded to 2026. EMA **34** human-medicines national-competent-authority candidates across 30 areas, with all agency-specific legal remits and Team A identity joins pending.
+
+**PASS:** fetched and ran the *full checked-in* `validate.mjs` structural assertions against **19 GitHub-hosted CSV files**, using a JavaScript read-only-filesystem shim at `e430702b371b9393603c94f7fc40f9712f61d378`; new rules cover PAHO and APPM rows, unique source IDs/URLs and M49 boundaries. This is **not** a literal Node shell run, Actions/CI result, statutory remit validation, national adoption claim or clinical appraisal. Full latest report in `VALIDATION.md`.
+
+## Explicit unresolved research
+
+1. All **44** remaining WHO regional assignment records must receive direct WHO country/area evidence before promotion; no parent geographic inheritance. Bermuda WHO regional CPCD label and Indonesia's stale CPCD SEARO listing remain conflict-only; Indonesia transfer to WPRO effective 2025-05-23 preserved. US WHO constitutional governance remains pending.
+2. **46** WHO office records retained from September 2024 need individual later evidence; **144** geographic candidates lack an April 2026 affirmative country-office survey record. Do not reinterpret Jan 2021–Dec 2022 WHO historical Annex 2/3/4 coverage as November 2026 office operation; MCO, liaison, focal-point and physical host differ.
+3. Identify **eight actual APPM signatories** and 15 intent countries before any signed/expressed-intent country edges, and verify legal authority of each participant; current source gives only counts.
+4. Identify national HEARTS v1 adopters (**29 aggregate**) and separate programme commitments (**35 undated aggregate**), check local ministry versions, dates, publishing vs legal adoption, and distinguish 2026 HEARTS 2.0 availability from country adoption. Confirm identity for source typo “DOMINICA REPUBLIC”. No individualized health advice.
+5. Complete per-agency EMA/EMRN national legal remits and exact Team A joins, ASEAN health programme participants, Africa CDC/AU programme identity, professional society links to Team B, local HEARTS editions and study appraisal to Team C only where documented.
+
+## Branch scope and restart
+
+**Only `docs/atlas/handoffs/team-d/` is editable.** No main, live website, calculator, clinical recommendations, cross-team datasets, research issue closure or merge. PR #70 stays draft for maintainer review. Use the GitHub live head, source dates and expected-head ref updates. Validate and re-fetch every changed artifact after each batch; continue until all original acceptance criteria are reviewed.
+
+**Repeat this exact next prompt at end of each run:**
+
+> Continue Research Team D in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70.
+>
+> Read `docs/atlas/handoffs/team-d/CONTINUATION_PROMPT.md` on branch `research/atlas-team-d-20261104`.
+>
+> Verify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, historical-versus-current source distinctions, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.
+>
+> If unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again.
+
+---
+
 # Team D — Standalone GitHub continuation checkpoint (2026-11-05)
 
 **Repository:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight  

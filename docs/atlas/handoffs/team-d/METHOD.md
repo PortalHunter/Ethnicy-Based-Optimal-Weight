@@ -32,3 +32,10 @@ See `GAPS.md`, `data/network_coverage_gaps.csv` and `BOUNDARY_CASES.md`.
 ## 2026-11-05 geographic reconciliation update
 
 The 248 English rows in the current UN M49 overview were extracted from rendered lines 16–263, deduplicated by three-character code and compared in both directions with the original 249 ISO candidates. No official UN row is missing from the seed; seed-only 158 is preserved in geographic_seed_exceptions.csv. un_m49_geographic_crosswalk.csv is authoritative for this captured UN overview roster, while m49_network_status.csv retains all legacy candidates for continuity. Region, governance and office presence are independent. Unknown inception dates use unknown; unreviewed status fields use not_verified. Consult BATCH_2026-11-05.md for stale-source conflicts.
+
+
+## Batch 11 — catalogue/aggregate evidence and non-edges (2026-11-05)
+
+PAHO document *listing* has a publication/title date; a PAHO local pathway label does **not** independently establish ministry authorship, legal adoption, date of entry into force, or whether its technical recommendations are currently used. Preserve two regional standards separately from 2024 country/territory/subnational titles. Three Mexico state titles stay subnational; Bermuda and BVI have distinct area M49s; do not infer their WHO regions or sovereign membership from a hypertension catalog. An ambiguous title, “DOMINICA REPUBLIC”, has no promoted M49 join. PAHO's aggregate 29 first-version national standards and separate 35 undated programme commitments cannot be disaggregated by assuming catalog titles are the signatories or adopters.
+
+Africa CDC APPM counts **8 signed**, **15 intention**, **55 target** have distinct stages and no identified member-state roster. A signed procurement MoU does not change country pharmaceutical regulator authority. These are recorded in a separate `cross_border_programme_evidence_2026.csv` observation table, not as `network_memberships.csv` edges. All clinical pathway contents require independent evidence review before any patient-facing publication.
