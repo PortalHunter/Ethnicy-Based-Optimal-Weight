@@ -9,3 +9,5 @@
 - 2026-11-05 batch 6: improved two existing journal records (UGA_AHS publisher/ISSNs/policies; MLI_MALI registry-confirmed online ISSN), added five provenance rows and four executed queries. Explicit 403/429 barriers and unresolved Persian policy searches retained. No new article or clinical claim. Added reproducible structural validator and standalone continuation handoff.
 
 - 2026-11-05 batch 7: fieldwise matched seven Northern African seed rows against official UNSD with no differences; upgraded only these verification states and added geographic_field_audits.csv. Reconciled CUB_RCE online identity/publisher from ISSN registry and recorded conflicting Latindex print note, stale directory date and Catalogue 2.0 pending state. Added three provenance records and six actual queries. No new article or medical claim.
+
+- 2026-11-05 batch 8: completed 248-area official UNSD field reconciliation, aligned 21 names, synchronized coverage labels; zero ISO/region differences. Expanded geographic validator to 248 and executed successfully using local Node. Added primary geographic provenance P026 (61 rows total).

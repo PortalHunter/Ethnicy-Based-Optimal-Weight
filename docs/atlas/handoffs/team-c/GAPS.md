@@ -31,3 +31,6 @@
 - CUB_RCE identity is now primary-registry verified. ISSN registry explicitly lists print 0864-4462; Latindex note gives 0864-4482. Preserve discrepancy; separate print-record access timed out. Online 1561-2953 confirmed. Registry lists published but this does not independently establish a current issue.
 - Latindex Directory presence is confirmed; Catalogue 2.0 is pending qualification, not acceptance. Directory last modified 2020-03-30. Its indexing list does not independently verify LILACS/SciELO membership. Direct journal policy unavailable; ethics, corrections and contemporary language/peer-review policies remain open.
 - Additional Spanish and Persian discovery did not resolve primary editorial policies. A 2023 aggregator contents page was not imported as a verified 2024 article.
+
+## Batch 8 supersession
+The full official UNSD fieldwise reconciliation gap is CLOSED for the 248 main-list areas as retrieved 2026-11-05. The historical 241-pending statements above are superseded. Official Naoero (520) label replaces intermediary Nauru; retain Nauru as a search alias. This does not certify country-specific literature coverage, WHO region or local jurisdiction. Systematic searches remain pending; next work must prioritize discovery rather than repeating geographic audit.
