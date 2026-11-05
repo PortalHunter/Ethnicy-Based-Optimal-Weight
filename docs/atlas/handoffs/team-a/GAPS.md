@@ -1,3 +1,9 @@
+## CURRENT Batch25 gaps (2026-11-05)
+
+**87/248** principal governmental health authority identities remain explicitly unknown, not absent; full enacted/current statutory competence and two independent legal checks for major renames/devolution/disputed areas remain substantially unfinished even among **161** identified bodies. **Nepal 524:** signed gazette/2083 allocation of business rules, province/local statutory division, official English naming conflicts from secondary reports. **Kuwait 414:** direct ministry site timed out; official government and embassy directories identity only. **Lebanon 422:** 2025 Cabinet roster historical; local administration law/current effective powers not independently assessed. **Mauritius 480:** Rodrigues/outer-island rules and own-site historical background figures. **Mongolia 496:** 2026 public consultation DRAFTS not enacted, regional competences. Official 248 M49 geography and 50 sentinel structural tests PASS, but **Python validator NOT RUN** due local DNS. Complete unknown queue, exact issuer URLs and handoff: [Batch25 checkpoint](CHECKPOINT_20261105_BATCH25.md). Keep research-only, DRAFT/unmerged.
+
+---
+
 ## CURRENT Team A Batch24 — 2026-11-05
 
 **Immutable DATA SHA [`68a7445f111ee0800402d10960d176d8beae82e9`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/68a7445f111ee0800402d10960d176d8beae82e9) independently re-read/audited.** Exact 248/248 official dated UN M49 geographic country/area records; **156** source-identified principal government health-authority **IDENTITIES ONLY** (62.9% of geographies, NOT all mandates), **92** explicitly unresolved; **211** separate governmental health bodies; **44** source-bounded same-area institutional relationships; **353** dated provenance records including historical/failed and 12 new official checks; **248** matching coverage review rows; **0** invented cross-area parent M49.
