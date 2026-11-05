@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,616);assert.equal(prov.length,187);
+assert.equal(nodes.length,47);assert.equal(edges.length,616);assert.equal(prov.length,188);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -199,7 +199,6 @@ assert.equal(statuses.find(r=>r.m49_code==='438').who_region,'not_verified');
  assert.equal(statuses.find(r=>r.m49_code==='663').who_region,'not_verified');
  assert.equal(statuses.find(r=>r.m49_code==='534').who_region,'not_verified');
 
-console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length},null,2));
 
 // Batch 15: WHO Europe SCI 2022 video metadata versus explicit 2026 roster; office checks separate from 2024 surveys.
 const sciSnapshots=read('data/who_europe_sci_snapshots.csv'), officeCrosschecks=read('data/who_office_independent_checks_2026.csv');
@@ -242,7 +241,7 @@ assert.equal(officeCrosschecks.filter(r=>(Number(r.record_id.split('-').at(-1))>
 assert.equal(officeCrosschecks.filter(r=>(Number(r.record_id.split('-').at(-1))>=10&&Number(r.record_id.split('-').at(-1))<=19)&&r.source_date_precision==='day').length,3);
 assert.equal(new Set(officeCrosschecks.map(r=>r.country_area_m49)).size,45);assert.equal(new Set(officeCrosschecks.map(r=>r.who_office_label)).size,46);
 assert.equal(new Set(officeCrosschecks.map(r=>r.source_url)).size,46);
-assert.equal(prov.length,170);
+assert.deepEqual(prov.filter(r=>/^TD-SRC-(15[1-9]|160)$/.test(r.source_id)).map(r=>r.source_id).sort(),Array.from({length:10},(_,i)=>'TD-SRC-'+(i+151)).sort());
 for(const r of officeCrosschecks.filter(r=>(Number(r.record_id.split('-').at(-1))>=10&&Number(r.record_id.split('-').at(-1))<=19))){assert.equal(r.verification_state,r.source_date_precision==='day'?'OFFICIAL_DATED_PRIMARY_WHO':'OFFICIAL_UNDATED_PRIMARY_WHO_PAGE');if(r.source_date_precision==='undated')assert.equal(r.source_evidence_date,'unknown');}
 console.log('Batch 18 original 10 records retained; survey roster dates unchanged');
 
@@ -294,3 +293,33 @@ assert(historicSids.some(r=>r.country_area_m49==='534'));
 assert.equal(statuses.filter(r=>r.who_region!=='not_verified').length,205);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 console.log('Batch 17 historical source-layer assertions PASS: SIDS=13 ECC=14; current 205/44 unchanged');
+
+// Batch 21: WHO WER volume 101 issue 36-37 Table 5 describes 2025 leprosy surveillance
+// entries under Region of the Americas. It is a dated reporting *group*, NOT a
+// 2026 administrative WHO region assignment, constitutional membership, or office.
+const werTerritories=read('data/who_territory_wer_regional_reporting_2025.csv');
+const werSource='https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-36-37/';
+const werCodes=['060','092','136','254','312','474','500','531','533','534','630','660','663','796','850'];
+assert.equal(werTerritories.length,15);
+unique(werTerritories,r=>r.record_id,'2025 WER territory reporting IDs');
+unique(werTerritories,r=>r.country_area_m49,'2025 WER territory reporting M49');
+assert.deepEqual(werTerritories.map(r=>r.country_area_m49).sort(),werCodes);
+assert.equal(prov.filter(r=>r.source_url===werSource).length,1);
+assert.equal(prov.find(r=>r.source_url===werSource).source_id,'TD-SRC-188');
+for(const r of werTerritories){
+  assert(official.has(r.country_area_m49));
+  assert.equal(r.source_url,werSource);
+  assert.equal(r.source_regional_heading,'Region of the Americas');
+  assert.equal(r.data_reference_year,'2025');
+  assert.equal(r.source_issue_epidemiological_weeks,'2026-08-31_to_2026-09-13');
+  assert.equal(r.observed_relation,'WHO_EPIDEMIOLOGICAL_TABLE_GROUPING_ONLY');
+  assert.equal(r.who_admin_assignment_state,'not_verified');
+  assert.equal(r.checked_on,'2026-11-05');
+  assert.equal(statuses.find(x=>x.m49_code===r.country_area_m49).who_region,'not_verified');
+  assert(pending.some(x=>x.country_area_m49===r.country_area_m49&&x.who_region_review_state==='UNKNOWN_REVIEW_NEEDED'));
+}
+assert.equal(werTerritories.find(r=>r.country_area_m49==='663').source_label,'Saint Martin');
+assert.equal(werTerritories.find(r=>r.country_area_m49==='534').source_label,'Sint Maarten');
+assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
+console.log('Batch 21 WHO WER 2025 surveillance-group evidence: 15 territory observations; 44 WHO administrative assignments remain pending');
+console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length},null,2));
