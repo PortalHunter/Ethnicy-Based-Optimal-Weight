@@ -1,5 +1,14 @@
 # Team B changelog
 
+## 2026-11-05 — Batch 39: Ireland and US condition-specific sources
+
+- Added Arthritis Ireland (gout patient page), Croí (inherited FH patient page, Galway charity) and US Celiac Disease Foundation (2026 dietitian-led classes) as verified non-government organizations.
+- Linked Coeliac Society of Ireland original research-project index, preserving the own-site HTTP 403 and lack of original paper results appraisal.
+- Four newly source-positive area-condition cells; 3 identities, 4 resources, 7 provenance rows and 4 condition-specific searches. Country/issuer and clinical jurisdiction remain separate. Source types are **not** professional guideline or independent-study evidence merely because relevant.
+- Revalidated all 10 CSVs from current GitHub readback using equivalent structural checks: zero errors. No Node CLI or clinical appraisal performed this session.
+
+
+
 
 ## 2026-11-05 — Batch 38: Morocco, Indonesia and Thailand gout society sources
 
