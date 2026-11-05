@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,46);assert.equal(edges.length,544);assert.equal(prov.length,122);
+assert.equal(nodes.length,46);assert.equal(edges.length,544);assert.equal(prov.length,125);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -140,5 +140,29 @@ assert.equal(aseanGov.length,6);
 assert.deepEqual(aseanGov.map(r=>r.body_acronym),['AHMM','SOMHD','AHC1','AHC2','AHC3','AHC4']);
 for(const r of aseanGov){assert.equal(r.network_id,'ASEAN');assert.equal(r.as_of,'2026-11-05');assert.equal(r.verification_state,'OFFICIAL_PORTAL_STRUCTURE_ONLY');assert(sources.has(r.source_url));assert(r.notes.length>10);}
 for(const r of aseanGov.filter(r=>r.body_acronym.startsWith('AHC')))assert.equal(r.programme_cycle_label,'2026-2030 label');
+
+// Batch 13 — regulator-cooperation self-reports, APPM support partnership and Liechtenstein boundary.
+const regulatory=read('data/regulatory_cooperation_evidence_2026.csv');
+unique(regulatory,r=>r.record_id,'regulatory cooperation evidence IDs');
+assert.equal(regulatory.length,19);
+assert.equal(regulatory.filter(r=>r.relationship_group==='BILATERAL_REGULATORY_MOU_REPORTED').length,17);
+assert.equal(regulatory.filter(r=>r.relationship_group==='MULTILATERAL_REGULATORY_MOU_REPORTED').length,1);
+assert.equal(regulatory.filter(r=>r.relationship_group==='APPM_SUPPORT_PARTNERSHIP_REPORTED').length,1);
+for(const r of regulatory){
+  assert(sources.has(r.source_url));
+  assert.match(r.reported_signed_on,/^\\d{4}-\\d{2}(-\\d{2})?$/);
+  assert.equal(r.date_precision,r.reported_signed_on.length===7?'month':'day');
+  if(/^\\d{3}$/.test(r.counterparty_country_area_m49))assert(official.has(r.counterparty_country_area_m49));
+  else assert.equal(r.counterparty_country_area_m49,'not_applicable_multilateral');
+  assert(r.exact_id_join_state.startsWith('PENDING_'));
+  assert(r.legal_remit_state.includes('UNVERIFIED'));
+}
+assert.equal(regulatory.find(r=>r.record_id==='TD-REGCOOP-015').reported_signed_on,'2026-06-15');
+const whoBoundary=read('data/who_region_boundary_evidence_2026.csv');
+unique(whoBoundary,r=>r.record_id,'WHO boundary evidence IDs');
+assert.equal(whoBoundary.length,1);
+assert.equal(whoBoundary[0].country_area_m49,'438');
+assert(sources.has(whoBoundary[0].source_url));
+assert.equal(statuses.find(r=>r.m49_code==='438').who_region,'not_verified');
 
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length},null,2));
