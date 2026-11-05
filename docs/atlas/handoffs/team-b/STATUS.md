@@ -30,4 +30,4 @@ The count of source links measures discovery. A condition entry can be a dated p
 | Check official websites, original-language lists and organizational lifecycle | Incomplete. There are 22 areas without a documented domestic body and 1,377 zero-link cells without a logged condition-specific check. Partner-only, historical, redirected and registry-only sources require further verification. Document justified gaps without assuming an organization exists. |
 | Document at least ten broad-label counterexamples | 14 cases are documented in [GAPS.md](GAPS.md). |
 
-Batch 37 validation is recorded in [VALIDATION.md](VALIDATION.md). The latest research commit SHA is filled after push.
+Batch 37 validation is recorded in [VALIDATION.md](VALIDATION.md). The latest research commit is [8becb1962fa1baf9fa8f79ef446ed49b9998f488](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/8becb1962fa1baf9fa8f79ef446ed49b9998f488).

@@ -1,10 +1,10 @@
-# Resume Team B · batch 36 · 2026-11-05
+# Resume Team B · batch 37 · 2026-11-05
 
 **INCOMPLETE.** Continue the assignment on `PortalHunter/Ethnicy-Based-Optimal-Weight`, branch `research/atlas-team-b-20261104`, [draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71). Verify the current PR head before using this snapshot. The original assignment, data contract and live GitHub files together are sufficient to resume.
 
 ## Start from live state
 
-1. Confirm PR #71 is open, draft and unmerged, its head is the stated branch and its base is main. Read new commits, comments, reviews and the recursive tree for applicable AGENTS.md files. At session start the head was `7133fb56aaf3e14d843177d95d3e91fd8a5bcab7`, with zero comments or reviews and no AGENTS.md.
+1. Confirm PR #71 is open, draft and unmerged, its head is the stated branch and its base is main. Read new commits, comments, reviews and the recursive tree for applicable AGENTS.md files. At session start the head was `a031f8e4f5e738ba1782e713a776ef7da743bd92`, with zero comments or reviews and no AGENTS.md.
 2. On branch `research/atlas-five-team-handoff-prompts-2026-11-04`, read `docs/atlas/research-team-prompts/TEAM_B_CLINICAL_ORGANIZATIONS.md` and `docs/atlas/research-team-prompts/DATA_CONTRACT.md`. Those contain the original acceptance criteria.
 3. On the live research head, read every file in `docs/atlas/handoffs/team-b/`. [CHECKPOINT.json](CHECKPOINT.json) has the exact remaining M49 roster and validation metadata. [GAPS.md](GAPS.md) preserves the original 14 diversity cases and all earlier source-specific exceptions. [CHANGELOG.md](CHANGELOG.md), [PROVENANCE.csv](PROVENANCE.csv), [STATUS.md](STATUS.md), [VALIDATION.md](VALIDATION.md), the data CSVs and [README.md](README.md) are required context. Inspect existing IDs and searches before adding rows.
 4. Run `node docs/atlas/handoffs/team-b/validate.mjs` on files fetched from the verified commit and compare their Git blob hashes. An unlinked area-condition cell can already have a targeted search in `data/search_log.csv`.
@@ -14,26 +14,24 @@
 | Measure | Count |
 |---|---:|
 | UN M49 areas / unique area-condition cells | 248 / 1,736 |
-| Organizations / areas with a domiciled organization | 358 / 223 |
-| Areas without a verified domiciled organization | 25 |
-| Resource relationships / cells with a linked resource | 245 / 228 |
-| Cells without a linked resource | 1,508 |
-| Of those, cells with / without a logged targeted check | 128 / 1,380 |
-| Provenance records / targeted search checks | 711 / 407 |
+| Organizations / areas with a domiciled organization | 361 / 226 |
+| Areas without a verified domiciled organization | 22 |
+| Resource relationships / cells with a linked resource | 249 / 230 |
+| Cells without a linked resource | 1,506 |
+| Of those, cells with / without a logged targeted check | 129 / 1,377 |
+| Provenance records / targeted search checks | 726 / 420 |
 | Community records / cross-border service edges | 7 / 8 |
 | Approved clinical claims | 0 |
 
-diabetes 83 · hypertension 30 · high_chol 25 · gout 21 · lactose 17 · celiac 32 · hemochromatosis 20.
+diabetes 84 · hypertension 31 · high_chol 25 · gout 21 · lactose 17 · celiac 32 · hemochromatosis 20.
 
-This batch adds seven organizations, seven resource relationships, four newly linked area-condition cells and four cross-border service records. Kiribati, Tuvalu and the Turks and Caicos Islands now have documented domestic organizations. The session has added 45 organizations across 22 additional areas and 53 relationships across 46 additional cells.
-
-The Kiribati clinic’s advertised services, Tuvalu’s committee roster and the historical Pacific survey are distinguished from delivered programmes. The Australian programme’s visits to Kiribati, Niue and Naoero/Nauru are documented separately. A 2025 Añisok adult study names an Equatorial Guinean university author and reports on diabetes and measured lipids. Its method describes both weekday allocation and groups defined by blood pressure and BMI.
+This batch adds three organizations in three previously empty areas, four resource relationships and two newly linked area-condition cells (Caribbean Netherlands diabetes and hypertension). Four issuer-country unknowns were resolved with edition-specific evidence; five remain. The final PLoS ONE Añisok geriatric paper is indexed separately from the 2025 adult Anales Médicos study.
 
 ## Remaining work, in priority order
 
-- Triage the exact 25 missing M49 identities in CHECKPOINT.json. Among populated areas, check Caribbean Netherlands (535), Saint Pierre and Miquelon (666), Wallis and Futuna (876), and Saint Helena (654). For Naoero/Nauru, Niue and Tokelau, read the newly logged historical survey and contemporary overseas activity before seeking independent local bodies. Document service geography and historical evidence separately.
-- Prioritize the least-covered streams (17 lactose, 20 hereditary iron overload, 21 gout and 25 lipid cells), especially locally issued FH, community-controlled sources and original-language guidance. Verify all nine unresolved publication-country records where edition-specific evidence exists.
-- Check the lifecycle and original-language publication lists of directory-only, registry-only and partner-only organizations. For Añisok, obtain the final PLoS ONE 21(11):e0360673 source and verify its affiliations and group definitions separately from the 2025 adult paper. Preserve 14 diversity cases and source-specific caveats. Of 1,508 unlinked cells, 128 have a targeted check and 1,380 have no matching condition-specific search log.
+- Triage the exact 22 missing M49 identities in CHECKPOINT.json. Populated gaps still include Saint Helena (654; government-only logged), Naoero/Nauru (520), Niue (570), Tokelau (772), Saint Barthélemy (652), Norfolk Island (574), Falkland Islands (238), and Monaco (492 historical dissolution already logged). Keep Antarctic/uninhabited codes as documented absences when justified. For Naoero/Nauru, Niue and Tokelau, read the already logged historical survey and overseas activity before seeking independent local bodies.
+- Prioritize the least-covered streams (17 lactose, 20 hereditary iron overload, 21 gout and 25 lipid cells), especially locally issued FH, community-controlled sources and original-language guidance. Resolve the five remaining issuer-country unknowns (Panama HEARTS host, Portuguese WGO/ESPGHAN hosted translations, Chad Open Access Pub, PAMJ South Sudan imprint conflict) where edition-specific evidence exists.
+- Check the lifecycle and original-language publication lists of directory-only, registry-only and partner-only organizations (including AFDD statutes-2013 and Diabète SPM without own site). Preserve the Añisok 1,500/202 independence caveat between the 2025 adult and 2026 geriatric papers. Preserve 14 diversity cases and source-specific caveats. Of 1,506 unlinked cells, 129 have a targeted check and 1,377 have no matching condition-specific search log.
 
 ## Ownership and acceptance
 
@@ -47,14 +45,14 @@ Commit regularly on this PR using the expected current head and an ordinary fast
 
 ## Verified stopping point
 
-The last research commit is [f917e48b0a181a391b2e30d7b39c987d5171e86e](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f917e48b0a181a391b2e30d7b39c987d5171e86e). All 18 handoff files and all ten CSV inputs matched GitHub and passed validation. See [VALIDATION.md](VALIDATION.md) for the seven batch receipts and [STATUS.md](STATUS.md) for the original acceptance-criterion review.
+The last research commit is [8becb1962fa1baf9fa8f79ef446ed49b9998f488](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/8becb1962fa1baf9fa8f79ef446ed49b9998f488). All 18 handoff files and all ten CSV inputs matched GitHub and passed validation. See [VALIDATION.md](VALIDATION.md) for receipts and [STATUS.md](STATUS.md) for the original acceptance-criterion review.
 
-For the nine unresolved issuer records, these already located sources give the next researcher a starting point. They have not been applied to the CSVs.
+Remaining unresolved issuer records (not applied further in this batch):
 
-- The Rwanda article names the company that published this edition. Its university record corroborates the imprint. Compare those sources with the conflicting title-level catalogue records. [Article PDF](https://www.tandfonline.com/doi/pdf/10.1080/16549716.2025.2457826) · [University record](https://researchprofiles.ku.dk/en/publications/evaluation-of-care-and-clinical-outcomes-after-the-implementation/)
-- Vanuatu’s symposium links the abstract and slides separately. The abstract names the Port Vila organization, and both sources describe the same programme. [Proceedings](https://moh.gov.vu/healthsymposium/) · [Conference abstract](https://moh.gov.vu/healthsymposium/docs/2022/VHRS%20abstract-DORRAS%20Emma.pdf)
-- For the Juba study, distinguish the journal's 2025 editorial office and operator from its older catalogue imprint. [2025 publisher report](https://www.blog.panafrican-med-journal.com/posts/2026/1341/Pamj_Annual_Report_2025.pdf)
-- The Swedish society’s historical brochure URL and catalogue page returned a third-party redirect when checked. Preserve the prior retrieval and verify an official replacement before relying on the live link. [Catalogue record](https://svenskgastroenterologi.se/kunskap/patientinformation-hemokromatos/)
+- Panama HEARTS protocol: ministry approval and PAHO host; original place of issue still unresolved.
+- Portuguese SPG WGO lactose PDF and SPGP ESPGHAN celiac translation: edition-specific place of issue unresolved.
+- Chad Open Access Pub / Journal of Hypertension and Cardiology issue-country pending.
+- South Sudan PAMJ article: older NLM imprint versus present operator still conflict.
 
 ## Exact continuation prompt
 

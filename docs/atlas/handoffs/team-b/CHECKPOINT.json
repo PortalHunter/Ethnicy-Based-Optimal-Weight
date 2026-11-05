@@ -5,25 +5,25 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "f917e48b0a181a391b2e30d7b39c987d5171e86e",
-  "batch": 36,
+  "validated_data_commit": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
+  "batch": 37,
   "metrics": {
-    "organizations": 358,
-    "areas": 223,
-    "resources": 245,
-    "positive": 228,
-    "without_linked_source": 1508,
-    "targeted_no_source": 128,
-    "unresearched": 1380,
-    "provenance": 711,
-    "search_log": 407,
+    "organizations": 361,
+    "areas": 226,
+    "resources": 249,
+    "positive": 230,
+    "without_linked_source": 1506,
+    "targeted_no_source": 129,
+    "unresearched": 1377,
+    "provenance": 726,
+    "search_log": 420,
     "community": 7,
     "cross_border_edges": 8,
-    "issuer_country_unresolved": 9,
-    "issuer_country_differs_from_domicile": 24,
+    "issuer_country_unresolved": 5,
+    "issuer_country_differs_from_domicile": 27,
     "by_condition": {
-      "diabetes": 83,
-      "hypertension": 30,
+      "diabetes": 84,
+      "hypertension": 31,
       "high_chol": 25,
       "gout": 21,
       "lactose": 17,
@@ -33,22 +33,23 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 7,
+    "organization_identities": 3,
     "new_domiciled_areas": 3,
-    "resource_relationships": 7,
-    "source_positive_cells": 4,
-    "provenance_rows": 27,
-    "search_log_rows": 23,
+    "resource_relationships": 4,
+    "source_positive_cells": 2,
+    "provenance_rows": 15,
+    "search_log_rows": 13,
     "community_records": 0,
-    "cross_border_edges": 4
+    "cross_border_edges": 0,
+    "issuer_country_resolved": 4
   },
   "validation_runtime": "node_cli_committed_validate_mjs",
   "node_cli_run": true,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Triage the exact 25 missing M49 identities in CHECKPOINT.json. Among populated areas, check Caribbean Netherlands (535), Saint Pierre and Miquelon (666), Wallis and Futuna (876), and Saint Helena (654). For Naoero/Nauru, Niue and Tokelau, read the newly logged historical survey and contemporary overseas activity before seeking independent local bodies. Document service geography and historical evidence separately.",
-    "Prioritize the least-covered streams (17 lactose, 20 hereditary iron overload, 21 gout and 25 lipid cells), especially locally issued FH, community-controlled sources and original-language guidance. Verify all nine unresolved publication-country records where edition-specific evidence exists.",
-    "Check the lifecycle and original-language publication lists of directory-only, registry-only and partner-only organizations. For Añisok, obtain the final PLoS ONE 21(11):e0360673 source and verify its affiliations and group definitions separately from the 2025 adult paper. Preserve 14 diversity cases and source-specific caveats. Of 1,508 unlinked cells, 128 have a targeted check and 1,380 have no matching condition-specific search log."
+    "Triage the remaining 22 missing M49 identities. Populated gaps still include Saint Helena (654; government-only logged), Naoero/Nauru (520), Niue (570), Tokelau (772), Saint Barthélemy (652), Norfolk Island (574), Falkland Islands (238), and Monaco (492 historical dissolution already logged). Keep Antarctic/uninhabited codes as documented absences when justified.",
+    "Prioritize least-covered streams (17 lactose, 20 hereditary iron overload, 21 gout, 25 lipid cells), especially locally issued FH, community-controlled sources and original-language guidance. Resolve the five remaining issuer-country unknowns (Panama HEARTS host, Portuguese WGO/ESPGHAN hosted translations, Chad Open Access Pub, PAMJ South Sudan imprint conflict) where edition-specific evidence exists.",
+    "Check lifecycle and original-language publication lists of directory-only, registry-only and partner-only organizations (including AFDD statutes-2013 and Diabète SPM without own site). Preserve the Añisok 1,500/202 independence caveat between the 2025 adult and 2026 geriatric papers. Of 1,506 unlinked cells, 129 have a targeted check and 1,377 have no matching condition-specific search log. Preserve all 14 diversity cases."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -62,7 +63,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Immutable batch 36 research snapshot. Each of its 18 handoff files was fetched from GitHub and matched in content and Git blob hash. The committed validator passed on all ten byte-matched CSV inputs.",
+  "validated_data_commit_note": "Immutable batch 37 research snapshot. Each of its 18 handoff files was fetched from GitHub and matched in content and Git blob hash. The committed validator passed on all ten byte-matched CSV inputs.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -117,10 +118,6 @@
       "area": "Naoero"
     },
     {
-      "m49": "535",
-      "area": "Bonaire, Sint Eustatius and Saba"
-    },
-    {
       "m49": "570",
       "area": "Niue"
     },
@@ -145,10 +142,6 @@
       "area": "Saint Helena"
     },
     {
-      "m49": "666",
-      "area": "Saint Pierre and Miquelon"
-    },
-    {
       "m49": "732",
       "area": "Western Sahara"
     },
@@ -159,47 +152,38 @@
     {
       "m49": "772",
       "area": "Tokelau"
-    },
-    {
-      "m49": "876",
-      "area": "Wallis and Futuna Islands"
     }
   ],
   "readback_validation": {
     "status": "passed",
-    "verified_data_sha": "f917e48b0a181a391b2e30d7b39c987d5171e86e",
-    "verified_parent_sha": "88f2acd640d37c12f66e07f865fd546a5f823c30",
+    "verified_data_sha": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
+    "verified_parent_sha": "a031f8e4f5e738ba1782e713a776ef7da743bd92",
     "handoff_files_matched": 18,
     "validated_csv_inputs": 10,
     "node_version": "v24.22.1",
     "structural_errors": 0,
     "scope": "structure, provenance joins, exact resource contexts, search links, retained M49 roster and cross-border edges"
   },
-  "previous_independently_verified_data_commit": "88f2acd640d37c12f66e07f865fd546a5f823c30",
+  "previous_independently_verified_data_commit": "f917e48b0a181a391b2e30d7b39c987d5171e86e",
   "session_additions": {
-    "organization_identities": 45,
-    "new_domiciled_areas": 22,
-    "resource_relationships": 53,
-    "source_positive_cells": 46,
-    "provenance_rows": 176,
-    "search_log_rows": 96,
-    "community_records": 2,
-    "cross_border_edges": 6
+    "organization_identities": 3,
+    "new_domiciled_areas": 3,
+    "resource_relationships": 4,
+    "source_positive_cells": 2,
+    "provenance_rows": 15,
+    "search_log_rows": 13,
+    "community_records": 0,
+    "cross_border_edges": 0,
+    "issuer_country_resolved": 4
   },
   "session_receipts": {
-    "30": "09fd48481c10658452b8084b4d11cb7065a85866",
-    "31": "f65ea551d832aa84dd9d486cc78b74201d33f0a9",
-    "32": "0bd62e5ad33b21e56f6b12a5fc4d2c459d912455",
-    "33": "6facc9e33263b26ca52b80948747d7e2a998c289",
-    "34": "bec0e063b4a32c5094773bbdc31857ad822527e0",
-    "35": "88f2acd640d37c12f66e07f865fd546a5f823c30",
-    "36": "f917e48b0a181a391b2e30d7b39c987d5171e86e"
+    "37": "8becb1962fa1baf9fa8f79ef446ed49b9998f488"
   },
   "acceptance_review": {
     "m49_area_condition_roster": "248 areas and 1,736 explicit cells verified",
-    "source_population_jurisdiction": "245 of 245 relationships have separate fields. Nine issuer-country entries remain unresolved. Evidence and jurisdiction can be limited even when a field is populated.",
+    "source_population_jurisdiction": "249 of 249 relationships have separate fields. Five issuer-country entries remain unresolved. Evidence and jurisdiction can be limited even when a field is populated.",
     "disease_subtypes_and_release": "Seven indexed streams use distinct subtypes and endpoints. All records remain research_lead_only, with zero approved clinical claims.",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete. Verify remaining local identities, current status and original-language publication lists. The 25 areas without a domiciled identity and 1,508 cells without a linked resource have explicit gaps. An appropriate documented absence can satisfy a cell review.",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete. Verify remaining local identities, current status and original-language publication lists. The 22 areas without a domiciled identity and 1,506 cells without a linked resource have explicit gaps. An appropriate documented absence can satisfy a cell review.",
     "diversity_examples": "14 broad-label counterexamples in GAPS.md"
   }
 }

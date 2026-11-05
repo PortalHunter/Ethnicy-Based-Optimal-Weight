@@ -114,3 +114,5 @@ Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator wi
 ## Batch 36 · 2026-11-05
 
 Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors. Verified parent: `88f2acd640d37c12f66e07f865fd546a5f823c30`. Independent immutable readback follows the branch update. Primary source checks included the territorial exempt-NPO section, programme reports, government committee list, historical survey tables, the adult study’s full methods and tables, and the NLM record for its journal country. Geriatric journal record identified in a secondary index. Final primary full text of that separate paper is outstanding.
+
+**Batch37 immutable verification receipt:** `8becb1962fa1baf9fa8f79ef446ed49b9998f488`. Independently fetched all 18 handoff files; zero content/blob mismatches. Re-ran committed validate.mjs in Node v24.22.1 on archived CSVs: zero errors. Metrics 361/226/249/230; 1,506 without linked source; 129 targeted / 1,377 unresearched; 726 provenance; 420 searches; 5 unresolved issuers; 0 approved claims. Metadata-only checkpoint commit that follows does not alter substantive data.
