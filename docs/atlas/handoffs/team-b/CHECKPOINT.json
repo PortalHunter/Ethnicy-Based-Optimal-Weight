@@ -5,20 +5,20 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "6c2519f5e1ebb64513cc50b553b3f355419fb593",
-  "batch": 17,
+  "validated_data_commit": "1fbafe117d5fb25005f50e7dad7f63b4dec02a49",
+  "batch": 18,
   "metrics": {
-    "organizations": 246,
-    "areas": 153,
-    "resources": 164,
-    "positive": 158,
-    "unresearched": 1578,
-    "provenance": 414,
-    "search_log": 182,
+    "organizations": 262,
+    "areas": 166,
+    "resources": 167,
+    "positive": 161,
+    "unresearched": 1575,
+    "provenance": 433,
+    "search_log": 204,
     "community": 3,
     "by_condition": {
-      "diabetes": 56,
-      "hypertension": 14,
+      "diabetes": 58,
+      "hypertension": 15,
       "high_chol": 20,
       "gout": 16,
       "lactose": 13,
@@ -28,15 +28,15 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 56,
-    "new_areas": 34,
-    "resource_relationships": 26
+    "organization_identities": 16,
+    "new_areas": 13,
+    "resource_relationships": 3
   },
   "validation_runtime": "orchestration_javascript_core_plus_overview",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "95 areas without identities",
+    "82 areas without identities, especially Latin America/Pacific/territories",
     "Original-language publications for directory-only identities",
     "Seven-condition stream diversification",
     "Source-integrity and attribution gaps"
@@ -51,5 +51,6 @@
     "data/coverage_by_area_condition.csv",
     "data/subnational_and_indigenous_organizations.csv",
     "data/search_log.csv"
-  ]
+  ],
+  "validated_data_commit_note": "Previous immutable checkpoint; batch18 data are in the same commit as this file. Resolve current branch HEAD and verify immutable files."
 }

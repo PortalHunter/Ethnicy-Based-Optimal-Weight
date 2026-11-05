@@ -104,3 +104,9 @@ Added20 identities across16 previously uncovered areas; Russian guideline catalo
 
 ## Run checkpoint and handoff refresh — 2026-11-05
 Verified immutable data commit 6c2519f5e1ebb64513cc50b553b3f355419fb593; batches13–17 add56 identities/34 new areas/26 resource relationships. Replaced accumulated continuation text with standalone current prompt; added machine-readable CHECKPOINT.json. Current totals246/153/164/158/1578;95 areas lack identity. Historical counts explicitly marked superseded. No additional clinical/data claims in this handoff-only change.
+
+
+## 2026-11-05 — Batch18 Africa
+
+Batch18:16 identities in13 newly represented African areas and3 resource relationships (Malawi diabetes education; Benin integrated diabetes/hypertension programme). Malawi WDF12-0714 reports completed education outputs; Benin WDF20-1787 remains completion-phase with expected results. Neither establishes clinical efficacy. Directory-only identities receive no resource credit.
+22 additional targeted search-log rows and19 provenance rows. Totals:262 identities,166 areas,167 relationships,161 positive cells,1575 not_yet_researched cells. Nine-CSV core validation:zero errors; Node CLI not separately run.
