@@ -1,3 +1,11 @@
+## Latest verified restart — Batch 12 (2026-11-05)
+
+Data and validator commit `f430ad45e83ae183656ba468648d2f0e4123f382` adds individually sourced **Egypt APPM MoU signature (2026-06-15)** as the only named state among Africa CDC's eight reported signatories (seven identities remain pending), a distinct Africa CDC-led APPM programme node, and **six ASEAN health-governance/cluster roles** with no individual country implementation inferred. Graph **46 nodes / 544 relationships**, **122 unique source URLs**, seven shared condition keys unchanged. WHO 205 verified / 44 region unknown; 105 affirmative April 2026 office hosts and 46 retained September 2024 office survey profiles; 228 **historical 2021–2022** service records remain temporally separate. Data/validator structural assertions PASS using a JS read-only shim (19 GitHub CSVs plus one authored source-equivalent ASEAN CSV fixture), all changed files read back from GitHub; no Node CLI/Actions or clinical appraisal claim. See `CHECKPOINT_2026-11-05.md` for standalone Batch 12 state; verify live head and PR independently.
+
+Remaining priorities: seven unnamed APPM MoU signatories and 15 intent states; exact Egyptian UPA Team A identity/legal remits; ASEAN 2026–2030 named country work-programme implementation; 44 WHO regions, 46 stale WHO office surveys and 144 positive office gaps; EMA/EMRN statutory roles, HEARTS national adoption versions, Team B/C joins. Update Team D only; PR #70 stays draft and unmerged; no website/clinical changes. Commit validated scoped batches and repeat the original user's continuation prompt **verbatim** at run end.
+
+---
+
 ## Latest verified restart — Batch 11 (2026-11-05)
 
 Read `CHECKPOINT_2026-11-05.md` for the newest standalone checkpoint; its new Batch 11 section supersedes the Batch 10 snapshot below. **Validated data/validator SHA:** `e430702b371b9393603c94f7fc40f9712f61d378`; **discover the live branch tip independently** because later documentation-only commits move the head. PR #70 must remain open/draft/unmerged.

@@ -1,3 +1,13 @@
+## Latest verified Batch 12 — 2026-11-05
+
+**Research data and structural validator commit:** `f430ad45e83ae183656ba468648d2f0e4123f382`. Draft PR #70 verified open/draft/unmerged before documentation update. A new `AFRICA_APPM` programme node and two sourced typed relationships now bring the graph to **46 nodes / 544 edges**. Africa CDC's **15 June 2026** announcement explicitly names **Egypt (UN M49 818)** as its first APPM MoU signatory; its distinct **15 October 2026** statement reports **8 signed MoUs, 15 expressions of intent and 55 target AU members**, without naming the remaining seven signatories or 15 intent countries. Egypt's MoU is not domestic procurement execution, product marketing authorization or adopted treatment guidance.
+
+**ASEAN:** `data/asean_health_governance_2026.csv` separately records **six official health-sector bodies/workstreams** (AHMM, SOMHD and four Health Clusters AHC1–AHC4). ASEAN's portal labels an **ASHA 2026–2030** programme period but retains older references to **ten ASEAN member states**; this page is not used to override separately dated 11-member admission evidence or to infer any country's programme participation or legal implementation.
+
+**Provenance:** TD-SRC-119–122 add four official URLs; **122 unique URLs**. All prior WHO 2021–2022 historical, April 2026 current survey, September 2024 retained survey and 205/44 region uncertainties are unchanged. All seven condition reference groups remain present. Structural checks **PASS** using the checked-in validator and 19 GitHub-fetched CSV inputs plus one exact authored ASEAN fixture; all five changed data/validator files were independently read back from GitHub at the data commit. Not a Node CLI, GitHub Actions, legal or clinical validation. A complete standalone checkpoint follows in CHECKPOINT_2026-11-05.md.
+
+---
+
 ## Latest verified Batch 11 — 2026-11-05
 
 **Data/validator SHA:** `e430702b371b9393603c94f7fc40f9712f61d378`; original draft PR #70 remains open and unmerged. **Two new evidence datasets:** 24 dated PAHO clinical-pathway catalog entries (22 local jurisdictions/subnational examples; two regional templates) and five aggregate official programme observations. Catalog local entries include three distinct Mexico state labels, two UK overseas-territory/area labels, and one deliberately withheld M49 join for PAHO's ambiguous “DOMINICA REPUBLIC” source title. New official provenance URLs TD-SRC-115–118 bring the ledger to **118 unique URLs** (the main HEARTS page is already TD-SRC-024, not re-added).

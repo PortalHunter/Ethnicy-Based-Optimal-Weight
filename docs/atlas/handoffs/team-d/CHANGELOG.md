@@ -1,3 +1,12 @@
+## 2026-11-05 — Batch 12: first named APPM MoU signatory and ASEAN health governance
+
+- Data and validator commit `f430ad45e83ae183656ba468648d2f0e4123f382`: added `AFRICA_APPM` node; `AFRICA_APPM → AFRICA_CDC` `operated_by` relationship and dated `m49:818 → AFRICA_APPM` `signed_participation_mou` relationship, with the official June 15 Egypt source. No other country programme edge inferred from Africa CDC's eight-signatory aggregate.
+- Added `data/asean_health_governance_2026.csv`: six documented ASEAN sector governance and workstream roles (two meetings; four clusters, explicitly not national legal mandates), with 2026–2030 agenda labelling kept separate from country implementation. Avoid stale ASEAN web copy referring to ten states.
+- New original provenance TD-SRC-119–122 (**122 unique URLs**). Graph **46 nodes / 544 typed edges**. The prior 205 verified / 44 unresolved WHO regions, 105 April 2026 offices, 46 retained September 2024 office records, 228 historical 2021–2022 WHO service records, 34 EMA candidate agencies, 24 PAHO catalog rows and five aggregate programme facts remain unchanged.
+- Checked-in validator full structural assertions **PASS** against 19 GitHub files and one newly authored fixture; independently read back all five changed paths from GitHub after commit. No literal Node CLI or Actions result, medical appraisal, national regulator mandate, or clinical deployment. Draft PR stays unmerged.
+
+---
+
 ## 2026-11-05 — Batch 11: PAHO pathway catalog and bounded programme participation
 
 - Data commit `e3959112ad1095c7f0e0c202d323cd3190a1670e`: added `data/hearts_pathway_catalog_2026.csv` (**24** dated PAHO entries; two regional templates, 22 local; three Mexico state labels, two territory labels, one unjoined ambiguous source name) and `data/cross_border_programme_evidence_2026.csv` (**5** aggregate observations: Africa CDC APPM 8 signed/15 intent/55 target; PAHO HEARTS v1 29 adopted national standards vs 35 undated initiative commitments). Added four new source URLs (TD-SRC-115–118) and validation assertions.
