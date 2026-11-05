@@ -1,3 +1,9 @@
+## Batch 24 WHO SPH source-type distinction (2026-11-05)
+
+WHO SPH annual self-assessment pages use **reporting years** (`2019`, `2024`) distinct from article publish dates and programme effective dates. A status of `Submitted` in IHR SPAR does not establish 2026 constitutional WHO membership, domestic legal mandate, clinical adoption or WHO premises. The WHO/Europe 2025 pan-European press notice explicitly describes **53 Region Member States plus Liechtenstein**, so SPH European Region metadata for Liechtenstein cannot erase that boundary. An **undated** Cayman SPH profile and **2020** SPH event classification labels for Bermuda/BVI/USVI are different source types from contemporary WHO administrative region-office rosters. All six recorded source-specific `source_regional_label` values live in a new standalone table without status promotions. New direct WHO HTML URLs TD-SRC-196–201; source-specific limitations and exact checks in [Batch 24 checkpoint](CHECKPOINT_BATCH_24_2026-11-05.md).
+
+---
+
 ## Batch 22 method addendum — 2026-11-05
 
 New `paho_representative_terms_2026.csv` rows are **source statements**, not a fabricated continuous executive-office appointment timeline. PAHO's 23 Oct 2026 first-party statement says Boisson's previous Bahamas and Turks tenure began **February 2021**, while the 30 Oct first-party statement says **January 2021**; retained both with a separate source URL on each historical row. The 22 Oct Ian Stein and 29 Oct Eldonna Boisson new appointment effective days are direct announcement details. Role coverage of several M49 areas does not prove separate resident representatives or physical WHO country-office premises, nor is an appointment the area's WHO administrative region.

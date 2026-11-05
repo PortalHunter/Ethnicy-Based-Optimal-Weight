@@ -1,3 +1,13 @@
+## Batch 24 validation — 2026-11-05, method and scope
+
+- Verified research commit `aa8e5c74b649b4481c61780cac74356198374467` and PR #70 open/draft/unmerged.
+- Independently fetched `data/who_sph_reporting_region_context.csv`, `PROVENANCE.csv`, `validate.mjs`, `data/m49_network_status.csv`, and `data/who_region_unresolved_queue.csv` at the new branch head.
+- **Targeted checks PASS:** six width-valid WHO SPH records / six unique IDs / 201 unique source IDs and URLs / five required M49 codes / all source URLs joined to provenance / all five M49 areas in unresolved queue with administrative WHO state `not_verified` / region totals 205 verified and 44 unknown / revised validator includes Batch-24 assertions and new provenance count.
+- **Not run:** native `node docs/atlas/handoffs/team-d/validate.mjs`, GitHub Actions, or a full executable JS shim of the revised Batch-24 validator. The **prior** complete structural JavaScript-shim PASS was for Batch 23. Targeted checks do not establish that *all* assertions in the new file execute, nor primary document/legal validity or clinical clearance.
+- Pending: run full checked-in validator in authorized Node checkout, record exit/tool output, archive/review primary page captures as needed, obtain scientific and legal review. Historical/source-specific regional reporting must remain separate from current administration, constitutional membership, governance and office operation.
+
+---
+
 ## Batch 23 structural validation — PASS (2026-11-05)
 
 At commit `5bb0e50dd3c911941d72c81f1b562323892e4258`, fetched 52 Team D-only PR file patches; reconstructed 50 added files and fetched oversized `data/m49_network_status.csv` / `data/network_memberships.csv` directly; read back `validate.mjs` to verify patch identity. Supplied all **32 unique inputs** to complete checked-in assertions in **read-only JavaScript with Node-style shims**. Terminal `result: PASS`: 47 nodes, 617 edges, 20 seven-condition references, 249 geographic candidates, 205 verified/44 unknown WHO current regions, 105 April office hosts, 153 survey labels, 228 historical office/service records, 195 distinct provenance URLs and four new Greenland records. Edited data, source ledger and validator files matched direct GitHub readback. **Not native `node`**, GitHub Actions, legal/clinical/scientific acceptance. [Complete Batch 23 checkpoint](CHECKPOINT_BATCH_23_2026-11-05.md).

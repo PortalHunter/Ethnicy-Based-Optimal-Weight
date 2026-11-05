@@ -1,3 +1,11 @@
+## Batch 24 — 2026-11-05 — WHO SPH health-security reporting boundaries
+
+- Research/data/validator [commit `aa8e5c74b649b4481c61780cac74356198374467`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/aa8e5c74b649b4481c61780cac74356198374467): `data/who_sph_reporting_region_context.csv` **six** rows (Liechtenstein 2019/2024 submitted SPAR European Region; Cayman undated Americas SPH; Bermuda/BVI/USVI 2020 COVID event Americas metadata). `PROVENANCE.csv` adds six directly opened official WHO URLs `TD-SRC-196–201` (now **201** unique). `validate.mjs` adds source-year/date/unknown-state assertions.
+- WHO administrative matrix remains **205/44**, graph **47/617**, 105 April affirmative offices and all separate 2021–2022 history unchanged. Portal region metadata is neither 2026 WHO administration/constitutional membership nor domestic health law.
+- GitHub readbacks and targeted cross-file assertions **PASS**, full revised checked-in validator **not run** native Node/Actions/complete JS shim. [Full standalone checkpoint](CHECKPOINT_BATCH_24_2026-11-05.md). Only Team D paths, PR #70 open/draft/unmerged.
+
+---
+
 ## Batch 23 — 2026-11-05 — Greenland WHO/Europe cooperation evidence with strict time/legal separation
 
 - Data/source/validator commit `5bb0e50dd3c911941d72c81f1b562323892e4258`: four Greenland records in `data/who_greenland_cooperation_2023_2024.csv`, one dated `m49:304 → WHO_EURO` cooperation link, three directly reviewed WHO URLs `TD-SRC-193–195`. All four edited files independently read back byte-identically. **47 nodes / 617 typed links / 195 unique URLs**; WHO administrative status 205/44 unchanged, no assumed regional membership or local adoption.

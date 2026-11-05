@@ -1,3 +1,9 @@
+## Batch 24 unresolved — WHO SPH metadata is not constitutional/office membership (2026-11-05)
+
+WHO SPH directly labels Liechtenstein `European Region` for **2019 and 2024** submitted IHR SPAR reporting, despite WHO/Europe separately describing the region as **53 Member States plus Liechtenstein**. A Cayman Islands profile has an **undated** Americas region tag; Bermuda/BVI/USVI tags are **2020** emergency-event metadata, not current regional-affiliation law. New six-record evidence layer is *source-specific* and **does not change the 44 current WHO administrative unknowns**. Need independently authoritative contemporary affiliation/office declarations and native Node check. All prior open gaps (144 without April 2026 direct office positive, 46 old survey recency, PAHO 13/14/403 and Jan/Feb dispute, SCI, APPM, EMA, HEARTS, ASEAN and Team A/B/C joins) remain. [Standalone Batch 24 checkpoint](CHECKPOINT_BATCH_24_2026-11-05.md).
+
+---
+
 ## Batch 23 unresolved — Greenland regional cooperation versus membership (2026-11-05)
 
 Directly reviewed WHO/Europe primary notices support a March/June **2023** high-level Greenland relationship and a **1 July 2024** five-year health cooperation MoU, not a definitive **2026** WHO administrative affiliation, constitutional member status, SCI/RHN formal participation, physical office, an enacted national health policy or a precise agreement expiration. Greenland M49 `304` remains `not_verified` among **44** administrative WHO region gaps. Full signed MoU instrument unreviewed. The other **144** office direct-positive gaps, 46 aged office-survey recency questions, PAHO 13/14 and 403/source-term contradiction, SCI North Macedonia exact accession, APPM signatories, EMA remits, HEARTS/ASEAN actual implementation and A/B/C exact joins remain. [Batch 23 checkpoint](CHECKPOINT_BATCH_23_2026-11-05.md).

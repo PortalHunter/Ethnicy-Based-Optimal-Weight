@@ -1,3 +1,9 @@
+# Team D verified latest status — Batch 24 (2026-11-05)
+
+[Complete standalone Batch 24 checkpoint](CHECKPOINT_BATCH_24_2026-11-05.md). Data/validator commit `aa8e5c74b649b4481c61780cac74356198374467`: **six** directly reviewed WHO health-security portal reporting-context records for **five** unresolved M49 areas (two Liechtenstein SPAR years, one undated Cayman profile, three 2020 Caribbean COVID event tags), official sources `TD-SRC-196–201`. WHO SPH reporting labels are NOT present 2026 administrative WHO-region/member assignments, office operation, statutes or clinical approval. **47 nodes / 617 graph edges / 201 unique URLs**; WHO 205 source-verified / 44 unresolved administrative regions and 105 April WHO office positives unchanged. GitHub post-commit **targeted cross-file checks PASS**; complete revised Node/JS validator NOT executed. PR #70 open/draft/unmerged, Team D-only. Full details, remaining work and precise source links in checkpoint.
+
+---
+
 # Team D verified latest status — Batch 23 (2026-11-05)
 
 [Complete standalone Batch 23 checkpoint](CHECKPOINT_BATCH_23_2026-11-05.md). Data/validator commit `5bb0e50dd3c911941d72c81f1b562323892e4258`: four Greenland WHO/Europe dated historical/cooperation/proposed-network observations, one 1 July 2024 typed `cooperates_with` edge, three directly reviewed WHO source URLs `TD-SRC-193–195`. **47 nodes / 617 edges / 195 URLs**, current WHO regions **205 verified / 44 unknown**, 105 April office positives and 228 historical 2021–22 office/service rows unchanged. Full checked-in structural assertions **PASS** via read-only JavaScript shim using 52 PR files/32 inputs; **not native Node/Actions or scientific/legal/clinical approval**. PR #70 open/draft/unmerged, Team D only.
