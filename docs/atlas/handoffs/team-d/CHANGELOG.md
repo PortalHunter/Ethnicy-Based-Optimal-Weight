@@ -1,5 +1,12 @@
 # Team D — Changelog
 
+## 2026-11-05 — Batch 5: Eastern Mediterranean
+
+- Verified 21 individual WHO country profiles and a separate explicit operational-area source for 275; 22 new statuses/edges.
+- Added 21 metadata audit records and 23 provenance URLs. No clinical statistics extracted.
+- Totals: 282 edges, 170 verified statuses, 79 not_verified, 75 provenance URLs.
+
+
 ## 2026-11-05 — Batch 4: WHO Western Pacific
 
 - Verified all 38 countries/areas; added 37 statuses and 37 region edges. Indonesia effective date preserved.

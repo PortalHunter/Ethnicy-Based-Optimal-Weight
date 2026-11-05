@@ -1,0 +1,22 @@
+record_id,country_area_m49,source_country_name,source_who_region,normalized_who_region,source_url,checked_on,verification_state
+TD-PROFILE-004,004,Afghanistan,Eastern Mediterranean,EMRO,https://data.who.int/countries/004,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-048,048,Bahrain,Eastern Mediterranean,EMRO,https://data.who.int/countries/048,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-262,262,Djibouti,Eastern Mediterranean,EMRO,https://data.who.int/countries/262,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-818,818,Egypt,Eastern Mediterranean,EMRO,https://data.who.int/countries/818,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-364,364,Iran (Islamic Republic of),Eastern Mediterranean,EMRO,https://data.who.int/countries/364,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-368,368,Iraq,Eastern Mediterranean,EMRO,https://data.who.int/countries/368,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-400,400,Jordan,Eastern Mediterranean,EMRO,https://data.who.int/countries/400,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-414,414,Kuwait,Eastern Mediterranean,EMRO,https://data.who.int/countries/414,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-422,422,Lebanon,Eastern Mediterranean,EMRO,https://data.who.int/countries/422,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-434,434,Libya,Eastern Mediterranean,EMRO,https://data.who.int/countries/434,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-504,504,Morocco,Eastern Mediterranean,EMRO,https://data.who.int/countries/504,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-512,512,Oman,Eastern Mediterranean,EMRO,https://data.who.int/countries/512,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-586,586,Pakistan,Eastern Mediterranean,EMRO,https://data.who.int/countries/586,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-634,634,Qatar,Eastern Mediterranean,EMRO,https://data.who.int/countries/634,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-682,682,Saudi Arabia,Eastern Mediterranean,EMRO,https://data.who.int/countries/682,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-706,706,Somalia,Eastern Mediterranean,EMRO,https://data.who.int/countries/706,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-729,729,Sudan,Eastern Mediterranean,EMRO,https://data.who.int/countries/729,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-760,760,Syrian Arab Republic,Eastern Mediterranean,EMRO,https://data.who.int/countries/760,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-788,788,Tunisia,Eastern Mediterranean,EMRO,https://data.who.int/countries/788,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-784,784,United Arab Emirates,Eastern Mediterranean,EMRO,https://data.who.int/countries/784,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
+TD-PROFILE-887,887,Yemen,Eastern Mediterranean,EMRO,https://data.who.int/countries/887,2026-11-05,OFFICIAL_PRIMARY_VERIFIED
