@@ -1,3 +1,11 @@
+## 2026-11-05 — Batch 22 six official ministry identities and independent immutable six-file QA
+
+- Committed DATA **`1b861eeece12671b88ae242b387cee2eb26ad3b3`**: resolved **728 South Sudan, 740 Suriname, 748 Eswatini, 762 Tajikistan, 764 Thailand, 768 Togo**, adding six separate body rows and **19** official-source checks, with **0 new unsupported organizational edges**. Only `data/countries.csv`, `data/government_health_bodies.csv`, `data/country_coverage.csv`, `PROVENANCE.csv` changed.
+- Verified **248/248** exact dated M49 geographies; **142 identified/106 explicit unknown**, **197** government bodies, **44** source-limited same-area relationships, **319** provenance entries, **248** coverage records, **0** inferred cross-area parent keys. Source caveats: SSD old/new personnel conflict and regulator under Cabinet Affairs; SUR merged portfolio vs legacy page; SWZ old naming; TJK official website spam and latest ADLIA version pending; THA historic/current mixed and source 403; TGO 2023 commune-law **proposal** and 2024 cabinet portfolio distinct from current 2026 ministry name.
+- Independent exact-SHA six CSV quote-aware readback and sensitive sentinel references **PASS structural**. Python `validate.py` **NOT RUN** owing GitHub DNS failure in container, no complete legal/clinical verification. [Full standalone Batch22 checkpoint](CHECKPOINT_20261105_BATCH22.md). PR OPEN DRAFT/unmerged; website and all other teams unaffected.
+
+---
+
 ## 2026-11-05 — Batch 21 government source and current enacted law research
 
 - Immutable audited DATA commit **`7fca741cdf7f705d572f907d342153269750b456`** resolves principal identities **703 Slovakia `gov-703-001`**, **704 Viet Nam `gov-704-001`**, **705 Slovenia `gov-705-001`**, **716 Zimbabwe `gov-716-001`**. Added two Vietnamese decree-listed **internal, nonautonomous** units `gov-704-002` Cục Phòng bệnh and `gov-704-003` Cục Quản lý Dược, two 313/2026 Article3 **effective Aug18 2026** listing links, 12 original-government/parliamentary official provenance rows. Changed only five Team A data CSVs.
