@@ -1,6 +1,6 @@
 # Team B gaps and open questions
 
-Current checkpoint: batch19,276 identities/176 areas/170 resources/164 positive/1572 unresearched.72 areas have no identity. Historical totals below remain dated history; STATUS.md and CHECKPOINT.json supersede them. All unresolved caveats persist.
+Current checkpoint: batch20,283 identities/181 areas/172 resources/166 positive/1570 unresearched.67 areas have no identity. Historical totals below remain dated history; STATUS.md and CHECKPOINT.json supersede them. All unresolved caveats persist.
 
 - The 248 × 7 M49 coverage matrix is a **discovery-status skeleton**, not completed organization research. All unreviewed cells are explicitly `not_yet_researched`; never infer that a condition-specific body does not exist.
 - Current rendered UNSD overview has exact248-code match (batch9); separate direct downloadable-export comparison and WHO/legal-jurisdiction checks remain pending. The roster excludes ISO numeric 158 (Taiwan), absent from the UNSD overview. UN M49 statistical practice is not a sovereignty statement.
@@ -172,3 +172,12 @@ Nine identities/seven gout resources, no new geographic identity area. Argentina
 - FUPACEL own celiac education is a discovery resource; gluten/proline/oats wording and frequency assertions unappraised. Dynamic guide exposed no product records; no food/medicine safety approval. FUPADI is a separate diabetes foundation; former Diabeticos/current Diabetes name transition merits decree chronology audit.
 - Costa Rica Día Vida footer names Asociación Costarricense Lucha contra la Diabetes; sponsor relationships disclosed, not assumed independent. Honduras FCCD own site inaccessible. Nicaragua para/de name variants and current registry continuity unresolved.
 - Puerto Rico APD is distinct from APRADE; historic ADA affiliation does not establish current endorsement. Type1 viral-causation wording, type2 age generalization, fixed gestational follow-up risk and screening/treatment assertions are unappraised. Do not adopt them as recommendations or equate territory with ancestry.
+
+
+## Batch20 Pacific and SE Asia: current versus historical identity
+
+- Pacific2021 association survey is historical; no current activity or absence inferred for Cook Islands,Solomon Islands,Micronesia,Kiribati,Palau,Niue,Tokelau or other islands. Vanuatu IDF country index and regional member roster inconsistent; direct navigation loop, no new Vanuatu identity credited. Brunei search returned government material only, not absence of nongovernment bodies.
+- Guam hosted GDA identity is distinct from tax listing names Diabetic Association of Guam and Diabetes Foundation of Guam until exact continuity verified. Copyright notice applies; no conference materials reproduced. French Polynesia ADOPF secondary RNA mirror is a lead pending direct official corroboration; ASALEE is separate, locally autonomous from metropolitan model. Generic ETP training not condition publication credit; claims of clinical improvement unappraised, template links visible.
+- Kwajalein Diak Coalition participant interview verifies community education context; self-reported programme effects are not causal evidence. Ebeye/Kwajalein scope does not generalize to all Marshallese or diaspora. Formal legal independence/community governance and data reuse authority unresolved; only public organizational metadata indexed.
+- Cambodian CDA and MoPoTsyo are distinct. MoPoTsyo peer course outline accessible in English; Khmer CCC directory corroborates NGO identity but Khmer education edition not reviewed. Broad rice/diet claims unappraised; no ancestry-specific dietary recommendation. Public facility collaboration not government identity.
+- Laos LDEA and Internal Medicine Association independently named as collaborators in IDF/Sanofi2025 training, not sole authors. Sponsor role explicit; future-tense membership inclusion is not completed membership. No Lao-language own publication retrieved; event attendance does not earn a resource relationship.

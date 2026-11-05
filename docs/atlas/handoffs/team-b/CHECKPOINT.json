@@ -5,19 +5,19 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "6448a9f28123474ae61900e5bf1d1bb572f72f41",
-  "batch": 19,
+  "validated_data_commit": "0eb06349587e67f4884dcda7eb014c59413b8c89",
+  "batch": 20,
   "metrics": {
-    "organizations": 276,
-    "areas": 176,
-    "resources": 170,
-    "positive": 164,
-    "unresearched": 1572,
-    "provenance": 450,
-    "search_log": 225,
-    "community": 3,
+    "organizations": 283,
+    "areas": 181,
+    "resources": 172,
+    "positive": 166,
+    "unresearched": 1570,
+    "provenance": 459,
+    "search_log": 240,
+    "community": 4,
     "by_condition": {
-      "diabetes": 60,
+      "diabetes": 62,
       "hypertension": 15,
       "high_chol": 20,
       "gout": 16,
@@ -28,18 +28,19 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 30,
-    "new_areas": 23,
-    "resource_relationships": 6
+    "organization_identities": 37,
+    "new_areas": 28,
+    "resource_relationships": 8,
+    "community_specific_records": 1
   },
   "validation_runtime": "orchestration_javascript_core_plus_overview",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "72 areas without identities: Pacific/territories plus remaining Africa/Asia",
+    "67 areas without identities: remaining Africa/Asia/Pacific and territories",
     "Original-language publications for directory-only identities",
-    "Seven-condition stream diversification",
-    "Source-integrity, legal continuity and attribution gaps"
+    "Seven-condition diversification beyond diabetes",
+    "Historical Pacific association re-verification and source-integrity/legal continuity gaps"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -52,5 +53,5 @@
     "data/subnational_and_indigenous_organizations.csv",
     "data/search_log.csv"
   ],
-  "validated_data_commit_note": "Previous immutable data checkpoint batch18; batch19 data are committed together with this file. Resolve branch HEAD and independently verify."
+  "validated_data_commit_note": "Previous immutable data checkpoint batch19; batch20 data committed alongside this file. Resolve branch HEAD and independently verify."
 }

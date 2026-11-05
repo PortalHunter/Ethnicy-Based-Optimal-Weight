@@ -115,3 +115,8 @@ Batch18:16 identities in13 newly represented African areas and3 resource relatio
 ## 2026-11-05 — Batch19 Latin America
 
 Added14 identities in10 new areas (Bolivia,Ecuador,Guatemala,Paraguay,Costa Rica,Honduras,Nicaragua,Venezuela,Cuba,Puerto Rico) and3 research-index/education relationships (Ecuador diabetes,Paraguay celiac,Puerto Rico diabetes).17 provenance and21 search rows. Totals276 identities/176 areas/170 resources/164 positive cells/1572 not_yet_researched. Full-text access and source-quality caveats retained; no clinical claims approved. Nine-CSV core:zero errors.
+
+
+## 2026-11-05 — Batch20 Pacific and SE Asia
+
+Added7 identities across5 new areas (Guam,French Polynesia,Marshall Islands,Cambodia,Laos),2 source relationships (MoPoTsyo course outline,KDC community programme interview),1 community-specific record,9 provenance and15 search rows. Historical Pacific survey separated from current organizational status; Vanuatu/ADOPF unresolved leads not promoted. Totals283 identities/181 areas/172 relationships/166 positive/1570 not_yet_researched; zero clinical approvals; nine-CSV core zero errors.
