@@ -1,3 +1,9 @@
+## Latest Team A census status — Batch 16 (2026-11-05)
+
+[Complete standalone latest Batch 16 checkpoint](CHECKPOINT_20261105_BATCH16.md) / [continuation](CONTINUE.md). **248/248** verified official M49 geographic skeletons; **116/248** principal governmental health-policy identities only, **132** explicit unknowns; **164** distinct bodies, **38** supported links, **243** source checks, **248** coverage rows. DATA commit `fa345c550e47213c780557038a881fb8e612b75d`; independent immutable six-CSV audit PASS; **Python validator NOT RUN** due local DNS. Full statutory/devolved powers and 2 independent source checks remain unfinished. PR #68 DRAFT and unmerged; Team A folder only; no public website change.
+
+---
+
 ## Current Team A research snapshot — Batch 15 (2026-11-05)
 
 See [complete standalone Batch 15 GitHub checkpoint](CHECKPOINT_20261105_BATCH15.md) and [latest continuation](CONTINUE.md). Official M49 **248/248** geographic skeletons; **111** principal health-authority identities supported at limited identity level and **137** explicit unknowns; **159** governmental bodies, **38** source-backed links, **231** provenance checks, **248** synced coverage. Exact data commit `96ab1bae36eee3171793a0f0dae87bb765611623`, separate six-CSV structural readback PASS, **Python `validate.py` NOT RUN**, legal competence and two-independent-source checks remain incomplete. Only Team A handoff branch edits; PR #68 DRAFT/unmerged.

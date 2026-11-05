@@ -1,3 +1,12 @@
+## 2026-11-05 — Batch 16: five governmental principals and original-language names
+
+- **DATA SHA `fa345c550e47213c780557038a881fb8e612b75d`** updates only Team A `data/countries.csv`, `data/government_health_bodies.csv`, `data/country_coverage.csv`, `PROVENANCE.csv`. New area identities Mexico 484, Aotearoa New Zealand 554, Spain 724, Switzerland 756, Uruguay 858; five distinct body records and **12** dated official provenance entries; **0** new relationship edges.
+- Overall **248/248 official M49** geographic records; **116 located identities / 132 explicit unknowns**; **164** government bodies; **38** relationships; **243** provenance; **248** coverage. No inferred cross-M49 legal parent, no deleted prior research.
+- Independent immutable DATA SHA six-GitHub-CSV quote-aware readback **PASS** with row-for-row UNSD geographic matching, sources, links, region counts and sensitive jurisdiction checks. Python validator **NOT RUN** because local GitHub DNS fails. Distinct legal/2026 proposal and statute limitations in [Batch 16 standalone checkpoint](CHECKPOINT_20261105_BATCH16.md).
+- Entire Team A handoff only, open DRAFT PR #68 unmerged; no website, patient-facing or other-team changes. Earlier Batch 15 full work preserved below.
+
+---
+
 ## 2026-11-05 — Batch 15 six original-language/current health authorities
 
 - **DATA commit `96ab1bae36eee3171793a0f0dae87bb765611623`** changed only four Team A CSVs: `data/countries.csv`, `data/government_health_bodies.csv`, `data/country_coverage.csv`, `PROVENANCE.csv`; no relationship changes. Promoted six previously unknown principals (304 Greenland, 344 Hong Kong SAR, 578 Norway, 752 Sweden, 826 UK, 840 USA). Added six body IDs and sixteen dated government-source records with language, source issuer, scope, same-issuer/legal-status caveats.
