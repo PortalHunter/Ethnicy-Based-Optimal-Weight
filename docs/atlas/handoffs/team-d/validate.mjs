@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,616);assert.equal(prov.length,192);
+assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,195);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -375,5 +375,25 @@ for(const code of ['060','136','534','796']) assert.equal(statuses.find(s=>s.m49
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 assert.equal(statuses.filter(r=>r.who_region!=='not_verified').length,205);
 console.log('Batch 22 PAHO role transitions and local cooperation: 12 representative source observations, 4 local programme/policy observations, 4 primary URLs, month conflict retained; regional and clinical status unchanged');
+
+
+
+// Batch 23: distinguish Greenland-WHO Europe formal cooperation from WHO region membership.
+const greenland=read('data/who_greenland_cooperation_2023_2024.csv');
+unique(greenland,r=>r.record_id,'Greenland evidence IDs');assert.equal(greenland.length,4);
+assert.deepEqual(greenland.map(r=>r.observed_relation).sort(),['WHO_EUROPE_GEOGRAPHIC_CHARACTERIZATION_HISTORICAL','HIGH_LEVEL_COOPERATION_DIALOGUE','FIVE_YEAR_HEALTH_COOPERATION_MOU_REPORTED','SCI_RHN_TECHNICAL_PARTICIPATION_PROPOSED'].sort());
+for(const [sid,url] of [['TD-SRC-193','https://www.who.int/europe/news-room/photo-stories/item/regional-director-undertakes-first-ever-high-level-visit-to-greenland'],['TD-SRC-194','https://www.who.int/europe/news/item/04-07-2023-a-new-era-of-partnership-and-exchange-between-who-europe-and-greenland'],['TD-SRC-195','https://www.who.int/europe/news-room/01-07-2024-strengthening-health-and-well-being-in-greenland--a-landmark-collaboration-agreement-with-who-europe']]){
+ assert.equal(prov.filter(p=>p.source_url===url).length,1);assert.equal(prov.find(p=>p.source_url===url).source_id,sid);
+}
+for(const r of greenland){assert.equal(r.country_area_m49,'304');assert.equal(r.who_partner_node,'WHO_EURO');assert(official.has(r.country_area_m49));assert(ids.has(r.who_partner_node));assert(sources.has(r.source_url));assert.equal(r.checked_on,'2026-11-05');assert.equal(r.who_admin_assignment_state,'not_verified');assert.equal(r.who_membership_state,'not_verified');}
+assert.equal(greenland.find(r=>r.record_id==='TD-WHO-GREENLAND-001').reported_event_date,'2023-03');
+assert.equal(greenland.find(r=>r.record_id==='TD-WHO-GREENLAND-002').reported_event_date,'2023-06-28');
+assert.equal(greenland.find(r=>r.record_id==='TD-WHO-GREENLAND-003').reported_agreement_term,'5_years_reported_end_day_not_independently_verified');
+assert.equal(greenland.find(r=>r.record_id==='TD-WHO-GREENLAND-004').local_implementation_state,'PROPOSED_NOT_CONFIRMED');
+const gEdge=edges.filter(e=>e.from_id==='m49:304'&&e.to_id==='WHO_EURO'&&e.relationship_type==='cooperates_with');
+assert.equal(gEdge.length,1);assert.equal(gEdge[0].valid_from,'2024-07-01');assert.equal(gEdge[0].source_url,'https://www.who.int/europe/news-room/01-07-2024-strengthening-health-and-well-being-in-greenland--a-landmark-collaboration-agreement-with-who-europe');assert.equal(gEdge[0].verification_state,'VERIFIED_PRIMARY_MOU_PRESS_NOTICE_ONLY');
+assert.equal(statuses.find(s=>s.m49_code==='304').who_region,'not_verified');assert(pending.some(x=>x.country_area_m49==='304'));
+assert.equal(statuses.filter(s=>s.who_region==='not_verified').length,44);
+console.log('Batch 23 Greenland: four dated observations; one WHO Europe MoU graph link; three reviewed WHO URLs; 44 WHO regional assignments still unresolved');
 
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length},null,2));
