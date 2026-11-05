@@ -1,3 +1,17 @@
+# Team B status — batch 51 — 2026-11-05
+
+**INCOMPLETE; draft, unmerged.** 401 organizations in 227 of 248 M49 areas (21 local identity gaps); of 1,736 condition cells, 274 source-positive, 138 targeted without verified eligible resource, and 1,324 not yet targeted. There are 300 exact research source relationships, 833 provenance records, 488 searches, 7 community and 8 cross-border records, and 5 unresolved original-document issuer countries. All 300 links are research_lead_only: zero clinically approved claims.
+
+Batch 51 adds four identities and four first-positive resource cells: Slovenia (705) diabetes and hypertension, Croatia (191) diabetes and hypertension; eight provenance rows and four search logs. No new domiciled area, solved issuer-country imprint, Indigenous record or cross-border edge.
+
+Immutable [data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/fb0614580f0a84b877e0443c60264c3c9a8688cd) readback: complete nontruncated 145-entry Git tree; all ten CSV inputs plus unchanged validator blob SHA values independently matched, 11/11. An independent JavaScript structural check of matrix, ID uniqueness, exact resource-context-provenance joins, issuer/organization domicile, search IDs and coverage counts detected zero errors. The Node CLI **was not run in batch 51**; earlier batches 49–50 have separate Node CLI receipts. No clinical, rights, source-currency or complete-world coverage review was performed.
+
+The 248 × 7 matrix is fully enumerated but source discovery is not complete. No website or other-team changes.
+
+---
+
+## Previous research and audit history retained
+
 # Team B status · batch 50 · 2026-11-05
 
 397 organizations in 227 of 248 M49 areas; 21 local identity gaps. Of 1,736 condition cells, 270 have sources, 138 have bounded searches with no verified resource, and 1,328 await a targeted search. There are 296 source contexts, 825 provenance rows, 484 searches, 7 community records, 8 cross-border links and 5 unresolved issuer countries. All 296 contexts are research leads; zero clinical claims approved.

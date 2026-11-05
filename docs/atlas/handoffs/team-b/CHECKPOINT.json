@@ -5,25 +5,25 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "4ef562c15d6f9d37198f481f4f86bdef2c9b0355",
-  "batch": 50,
+  "validated_data_commit": "fb0614580f0a84b877e0443c60264c3c9a8688cd",
+  "batch": 51,
   "metrics": {
-    "organizations": 397,
+    "organizations": 401,
     "areas": 227,
-    "resources": 296,
-    "positive": 270,
-    "without_linked_source": 1466,
+    "resources": 300,
+    "positive": 274,
+    "without_linked_source": 1462,
     "targeted_no_source": 138,
-    "unresearched": 1328,
-    "provenance": 825,
-    "search_log": 484,
+    "unresearched": 1324,
+    "provenance": 833,
+    "search_log": 488,
     "community": 7,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
     "issuer_country_differs_from_domicile": 28,
     "by_condition": {
-      "diabetes": 92,
-      "hypertension": 45,
+      "diabetes": 94,
+      "hypertension": 47,
       "high_chol": 35,
       "gout": 26,
       "lactose": 18,
@@ -33,26 +33,25 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 5,
+    "organization_identities": 4,
     "new_domiciled_areas": 0,
-    "resource_relationships": 6,
-    "source_positive_cells": 6,
-    "provenance_rows": 18,
-    "search_log_rows": 11,
+    "resource_relationships": 4,
+    "source_positive_cells": 4,
+    "provenance_rows": 8,
+    "search_log_rows": 4,
     "community_records": 0,
     "cross_border_edges": 0,
     "issuer_country_resolved": 0
   },
-  "validation_runtime": "node_cli_on_connector_materialized_files",
-  "node_cli_run": true,
+  "validation_runtime": "independent_immutable_readback_and_js_structural_check",
+  "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Complete 1328 untargeted zero-link condition cells; 138 bounded no-source searches are not national absence claims.",
-    "Verify eligible locally domiciled organizations in 21 M49 areas without mistaking foreign coverage/outreach for domicile.",
-    "Resolve five specific original-document publisher/issuer-country uncertainties (Panama HEARTS; Portuguese WGO lactose; Portuguese ESPGHAN coeliac; Chad OA Pub/JHC; South Sudan PAMJ).",
-    "Do not treat AU 2024 lipid toolkit as a completed future dynamic guideline; CA 2021 dyslipidaemia as 2026; NZ externally compiled resource as society-written; IT 2019/2013 gout as current replacement; BR 2025 press as its jointly issued 2024 source document.",
-    "Preserve Japanese 2022/2023 and Korean 2026 specialist editions, Greek third-party guidance host, 2014/2019 historical FH, Poland 2026 uncorrected proof, Dutch NDF/Monaco cessation, Saint Lucia announcements and Mexico gout n68-vs-67.",
-    "Retain diversity/community/cross-border safeguards; all 296 leads research_lead_only, zero clinical approvals."
+    "1324 untargeted condition cells; 138 targeted empty searches do not imply absence",
+    "21 verified local domicile gaps",
+    "Five unresolved original document issuer country cases",
+    "Check Slovenia/Croatia catalogue original editions and credited authors separately",
+    "Preserve 14 diversity 7 community 8 cross-border protections; no clinical appraisals or release"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -66,7 +65,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "The actual `node docs/atlas/handoffs/team-b/validate.mjs` CLI ran on locally materialized branch files at baseline, before writes and on independently fetched immutable data. Both source batches returned zero structural errors after readback. Final [validated data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/4ef562c15d6f9d37198f481f4f86bdef2c9b0355) has a nontruncated 145-entry Git tree, actual root tree `cfa3799edb8c590ec7c3e253fbac45f443dd97b3`. All ten CSV inputs plus the unchanged validator were independently fetched as base64, decoded and locally recomputed as Git blob hashes: **11/11 match**, 0 mismatches; Node reproduced the metrics above with 0 errors. The ten CSV inputs are not assumed valid from a write response: each saved input was fetched and hashed; the line-ending correction's unchanged blobs were also compared to the final tree. Source-batch 49: `f3e8380068b2c4be03f00ad2f6da8beb6f50ea81`; batch 50: `b8913e2cf17de42b3ac6c4877b916dd7fbfb83fd`; final formatting-preservation commit: `4ef562c15d6f9d37198f481f4f86bdef2c9b0355`. GitHub compare from restart head `f9a597d6697be5933e04cfb6d7bff9f7b1f4b9ad` shows only six Team B CSVs, with exactly ten changed coverage rows. A serializer initially normalized coverage line endings; final commit restores original per-row endings without changing research values. Prior data rows remain preserved. Baseline CI population-tests and quality-gates passed; latest-head CI must be checked separately. No clinical, copyright, permissions, statutory adoption, full-site completeness or source-currency certification is implied.",
+  "validated_data_commit_note": "Immutable [data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/fb0614580f0a84b877e0443c60264c3c9a8688cd) readback: complete nontruncated 145-entry Git tree; all ten CSV inputs plus unchanged validator blob SHA values independently matched, 11/11. An independent JavaScript structural check of matrix, ID uniqueness, exact resource-context-provenance joins, issuer/organization domicile, search IDs and coverage counts detected zero errors. The Node CLI **was not run in batch 51**; earlier batches 49–50 have separate Node CLI receipts. No clinical, rights, source-currency or complete-world coverage review was performed.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -155,25 +154,25 @@
   ],
   "readback_validation": {
     "status": "passed",
-    "verified_data_sha": "4ef562c15d6f9d37198f481f4f86bdef2c9b0355",
-    "tree_sha": "cfa3799edb8c590ec7c3e253fbac45f443dd97b3",
+    "verified_data_sha": "fb0614580f0a84b877e0443c60264c3c9a8688cd",
+    "tree_sha": "69a0d2aa4d4642d17be379dd318f438d6f3b8ef4",
     "tree_truncated": false,
     "tree_items": 145,
     "files_matched": 11,
     "validated_csv_inputs": 10,
-    "validation_runtime": "independent_base64_fetch_git_blob_hash_and_node_cli",
-    "node_cli_run": true,
+    "validation_runtime": "independent_immutable_fetch_and_javascript_structural_check",
+    "node_cli_run": false,
     "structural_errors": 0,
-    "scope": "All ten CSVs and validator independently fetched by immutable commit and hashed; unchanged blobs also checked against final formatting-corrected tree."
+    "scope": "11/11 fetched SHA tree matches; all ten CSVs plus validator; no Node CLI this session; historical Node receipts retained."
   },
-  "previous_independently_verified_data_commit": "9ce76f0631aa73f4e25ee772894ade8ae96953b5",
+  "previous_independently_verified_data_commit": "4ef562c15d6f9d37198f481f4f86bdef2c9b0355",
   "session_additions": {
-    "organization_identities": 5,
+    "organization_identities": 4,
     "new_domiciled_areas": 0,
-    "resource_relationships": 6,
-    "source_positive_cells": 6,
-    "provenance_rows": 18,
-    "search_log_rows": 11,
+    "resource_relationships": 4,
+    "source_positive_cells": 4,
+    "provenance_rows": 8,
+    "search_log_rows": 4,
     "community_records": 0,
     "cross_border_edges": 0,
     "issuer_country_resolved": 0
@@ -189,14 +188,15 @@
     "45": "5d5bb3654aba9b4870c8e848754598ddf34bced5",
     "46": "1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f",
     "47": "bfebee420dc0c8158e372b7173920a407ae6e59e",
-    "48": "9ce76f0631aa73f4e25ee772894ade8ae96953b5"
+    "48": "9ce76f0631aa73f4e25ee772894ade8ae96953b5",
+    "51": "fb0614580f0a84b877e0443c60264c3c9a8688cd"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "Structurally complete 248x7; 1338 zero-resource cells still without targeted condition searches.",
-    "source_population_jurisdiction": "290/290 source relationships distinguish linked page issuer, domicile, population and healthcare jurisdiction. Five original-document issuer-country cases unknown. No full appraisals.",
-    "disease_subtypes_and_release": "All 290/290 source links research_lead_only; 0 approved claims; FH/gout/lactose/coeliac/iron phenotypes not conflated.",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 local domicile gaps, 1338 unsearched area-condition cells and edition, source-credit, license and original document checks remaining.",
-    "diversity_examples": "14 population non-generalization counterexamples unchanged; seven community and eight cross-border records retained."
+    "m49_area_condition_roster": "248x7 complete structural; 1324 untargeted empty cells",
+    "source_population_jurisdiction": "300 research contexts distinguish linked page issuer, domicile, population and care jurisdiction; five unknown original document imprints",
+    "disease_subtypes_and_release": "All 300 source links research_lead_only; zero approved clinical claims",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 domiciles, 1324 untouched condition cells, original editions and rights checks open",
+    "diversity_examples": "14 counterexamples preserved, seven community and eight cross-border cases preserved"
   },
   "batch40_sources": [
     {
@@ -573,5 +573,14 @@
     "source_caveats": "- **Luxembourg B-LU-ALD:** [own French education](https://www.ald.lu/fr/comprendre-les-diabetes), [own contact](https://www.ald.lu/fr/contact), [scope](https://www.ald.lu/fr/a-propos). Undated; type 2/prediabetes education is not a current national guideline or population study. Patient ALD and professional SLD are separate.\n- **Cyprus B-CY-PDS:** [own Greek diabetes introduction](https://diabetes.org.cy/schetika-me-ton-diaviti/isagogi/), [Nicosia office](https://diabetes.org.cy/epikinonia/), [scope](https://diabetes.org.cy/o-syndesmos/to-ergo-tou-syndesmou/). Undated; screening criteria, aetiology and broad ethnic-risk labels are unappraised. No ancestry-risk or legal authority inference.\n- **Iceland B-IS-DI:** [2011-11-22 course notice](https://www.diabetes.is/namskeid-um-sykursyki-tegund-2), [own identity and Reykjavik address](https://www.diabetes.is/). Historical notice advertises an Insula type 2 course using IDF conversation maps. Neither delivery nor current availability is established. Legacy Samtök sykursjúkra name and current Diabetes Ísland legal succession were not audited. Template address placeholders coexist with the specific Reykjavik footer; no generic placeholder was used as domicile.\n- **Malta B-MT-MDA:** [own association page](https://www.diabetesmalta.org/the-association), [site construction notice](https://www.diabetesmalta.org/). Identity only: newsletters are self-reported, no issue was inspected. Original own English name retained; Maltese alias appeared in the IDF directory but was not asserted as a verified own legal name.\n- **Malta B-MT-MHF:** [own registered-in-Malta statement](https://www.maltaheartfoundation.org/), [diabetes](https://www.maltaheartfoundation.org/edu-malti/dijabete), [hypertension](https://www.maltaheartfoundation.org/edu-malti/pressjoni), [cholesterol](https://www.maltaheartfoundation.org/edu-malti/kolesterol). All three original Maltese articles are dated **2021-09-29** and credit named authors/editors, the Maltese Cardiac Society and University of Malta Maltese department. Collaboration is not sole foundation authorship or government adoption. Population projections, broad skin-colour/African/Caribbean labels, thresholds and treatment claims remain unappraised. FH is separate from generic high cholesterol.\n- **Bounded lactose gaps:** [ALIG guide navigation redirects to members-only notice](https://www.alig.lu/contenu-reserve-aux-membres-de-la-l-i-g/); [Cyprus Greek-route FAQ](https://cypruscoeliac.org/faqs/) still shows largely English content with no eligible lactose-specific source verified; [Malta disease page](https://coeliacassociationmalta.org/about-coeliac-disease/) gave a verification challenge; [gluten.is](https://gluten.is/) returned 502. French/Greek/Icelandic condition terms and English were searched with two engines. No access controls bypassed; other organizations and nonindexed work remain open.",
     "restrictions": "Only Team B directory; no website/main/calculator/formulas/other teams/clinical release/merge",
     "original_acceptance_status": "Matrix complete; 14 diversity examples retained; authoritative worldwide source/lifecycle discovery incomplete."
+  },
+  "previous_batch49_50_node_validation_note": "The actual `node docs/atlas/handoffs/team-b/validate.mjs` CLI ran on locally materialized branch files at baseline, before writes and on independently fetched immutable data. Both source batches returned zero structural errors after readback. Final [validated data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/4ef562c15d6f9d37198f481f4f86bdef2c9b0355) has a nontruncated 145-entry Git tree, actual root tree `cfa3799edb8c590ec7c3e253fbac45f443dd97b3`. All ten CSV inputs plus the unchanged validator were independently fetched as base64, decoded and locally recomputed as Git blob hashes: **11/11 match**, 0 mismatches; Node reproduced the metrics above with 0 errors. The ten CSV inputs are not assumed valid from a write response: each saved input was fetched and hashed; the line-ending correction's unchanged blobs were also compared to the final tree. Source-batch 49: `f3e8380068b2c4be03f00ad2f6da8beb6f50ea81`; batch 50: `b8913e2cf17de42b3ac6c4877b916dd7fbfb83fd`; final formatting-preservation commit: `4ef562c15d6f9d37198f481f4f86bdef2c9b0355`. GitHub compare from restart head `f9a597d6697be5933e04cfb6d7bff9f7b1f4b9ad` shows only six Team B CSVs, with exactly ten changed coverage rows. A serializer initially normalized coverage line endings; final commit restores original per-row endings without changing research values. Prior data rows remain preserved. Baseline CI population-tests and quality-gates passed; latest-head CI must be checked separately. No clinical, copyright, permissions, statutory adoption, full-site completeness or source-currency certification is implied.",
+  "batch51": {
+    "data_sha": "fb0614580f0a84b877e0443c60264c3c9a8688cd",
+    "summary": "Batch 51 adds four identities and four first-positive resource cells: Slovenia (705) diabetes and hypertension, Croatia (191) diabetes and hypertension; eight provenance rows and four search logs. No new domiciled area, solved issuer-country imprint, Indigenous record or cross-border edge.",
+    "new_source_notes": "- Slovenia B-SI-ZDDS diabetes: [own identity](https://www.diabetes-zveza.si/o-nas/predstavitev/) and [original-language FAQ](https://www.diabetes-zveza.si/o-nas/pogosta-vprasanja/). Undated patient education differentiating type 1/type 2; not a current clinical guideline.\n- Slovenia B-SI-ZAH hypertension: [professional society details](https://hipertenzija.org/o-nas/) and [guidance catalogue](https://hipertenzija.org/smernice-in-publikacije/). Society section of Slovensko zdravniško društvo; 2023-labelled pocket guidance vs older editions; catalogue is not proof of current replacement or legal adoption.\n- Croatia B-HR-HSDU diabetes: [identity/contact](https://www.dijabetes.hr/contact/) and [magazine index](https://www.dijabetes.hr/casopis-dijabetes/). Own issues indexed through 2024; undated new-issue text does not establish a 2026 issue; publisher is not author of all contributions.\n- Croatia B-HR-HDH hypertension: [identity](https://hdh.healthmed.hr/o-drustvu) and [guidance catalogue](https://hdh.healthmed.hr/edukacije/smjernice). Society within Hrvatski liječnički zbor, with mixed 2017 domestic, 2019 paediatric and external 2021 ESH materials; hosting not sole authorship or legal adoption.",
+    "readback": "Immutable [data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/fb0614580f0a84b877e0443c60264c3c9a8688cd) readback: complete nontruncated 145-entry Git tree; all ten CSV inputs plus unchanged validator blob SHA values independently matched, 11/11. An independent JavaScript structural check of matrix, ID uniqueness, exact resource-context-provenance joins, issuer/organization domicile, search IDs and coverage counts detected zero errors. The Node CLI **was not run in batch 51**; earlier batches 49–50 have separate Node CLI receipts. No clinical, rights, source-currency or complete-world coverage review was performed.",
+    "continuation_prompt": "Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71.\n\nRead `docs/atlas/handoffs/team-b/CONTINUE.md` on branch `research/atlas-team-b-20261104`.\n\nVerify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, source caveats, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.\n\nIf unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again.",
+    "scope": "Remain on this existing open draft unmerged PR. Write only `docs/atlas/handoffs/team-b/`. Do not edit main, website, calculator, formulas, patient medical data or other teams; do not merge. Government belongs to Team A, journals to C and networks to D; clinical appraisal separately governed by issue #27. Preserve organization domicile vs linked-page issuer vs document issuer, local language, exact URL, edition, jurisdiction, study population and source type; do not infer risk from ethnicity or nationality."
   }
 }

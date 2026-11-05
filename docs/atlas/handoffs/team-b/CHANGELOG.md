@@ -1,3 +1,20 @@
+# Team B changelog — batch 51 — 2026-11-05
+
+Batch 51 adds four identities and four first-positive resource cells: Slovenia (705) diabetes and hypertension, Croatia (191) diabetes and hypertension; eight provenance rows and four search logs. No new domiciled area, solved issuer-country imprint, Indigenous record or cross-border edge.
+
+- Slovenia B-SI-ZDDS diabetes: [own identity](https://www.diabetes-zveza.si/o-nas/predstavitev/) and [original-language FAQ](https://www.diabetes-zveza.si/o-nas/pogosta-vprasanja/). Undated patient education differentiating type 1/type 2; not a current clinical guideline.
+- Slovenia B-SI-ZAH hypertension: [professional society details](https://hipertenzija.org/o-nas/) and [guidance catalogue](https://hipertenzija.org/smernice-in-publikacije/). Society section of Slovensko zdravniško društvo; 2023-labelled pocket guidance vs older editions; catalogue is not proof of current replacement or legal adoption.
+- Croatia B-HR-HSDU diabetes: [identity/contact](https://www.dijabetes.hr/contact/) and [magazine index](https://www.dijabetes.hr/casopis-dijabetes/). Own issues indexed through 2024; undated new-issue text does not establish a 2026 issue; publisher is not author of all contributions.
+- Croatia B-HR-HDH hypertension: [identity](https://hdh.healthmed.hr/o-drustvu) and [guidance catalogue](https://hdh.healthmed.hr/edukacije/smjernice). Society within Hrvatski liječnički zbor, with mixed 2017 domestic, 2019 paediatric and external 2021 ESH materials; hosting not sole authorship or legal adoption.
+
+Immutable [data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/fb0614580f0a84b877e0443c60264c3c9a8688cd) readback: complete nontruncated 145-entry Git tree; all ten CSV inputs plus unchanged validator blob SHA values independently matched, 11/11. An independent JavaScript structural check of matrix, ID uniqueness, exact resource-context-provenance joins, issuer/organization domicile, search IDs and coverage counts detected zero errors. The Node CLI **was not run in batch 51**; earlier batches 49–50 have separate Node CLI receipts. No clinical, rights, source-currency or complete-world coverage review was performed.
+
+Six data CSVs only, all under Team B. Separate documentation checkpoint follows.
+
+---
+
+## Previous research and audit history retained
+
 # Team B changelog · batches 49–50 · 2026-11-05
 
 Batches 49–50 added five organization identities, six exact resource relationships, six first-positive cells, eighteen provenance rows and eleven search records across ten previously untargeted cells. No new domiciled area or issuer-country resolution. Diabetes cells: Luxembourg (442), Cyprus (196), Iceland (352), Malta (470). Malta also gains hypertension and high_chol. Four association-focused lactose searches (442/196/470/352) yielded no eligible resource in the bounded pass; this is not a national absence finding.

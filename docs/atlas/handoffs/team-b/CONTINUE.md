@@ -1,3 +1,41 @@
+# Continue Research Team B — batch 51 — 2026-11-05
+
+**STANDALONE RESTART; INCOMPLETE, DRAFT AND UNMERGED.** [PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) is on `research/atlas-team-b-20261104` into `main`. Data validated at [fb0614580f0a84b877e0443c60264c3c9a8688cd](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/fb0614580f0a84b877e0443c60264c3c9a8688cd); a subsequent documentation commit stores this handoff. Verify live branch HEAD before new edits; never force-push.
+
+401 organizations in 227 of 248 M49 areas (21 local identity gaps); of 1,736 condition cells, 274 source-positive, 138 targeted without verified eligible resource, and 1,324 not yet targeted. There are 300 exact research source relationships, 833 provenance records, 488 searches, 7 community and 8 cross-border records, and 5 unresolved original-document issuer countries. All 300 links are research_lead_only: zero clinically approved claims.
+
+Batch 51 adds four identities and four first-positive resource cells: Slovenia (705) diabetes and hypertension, Croatia (191) diabetes and hypertension; eight provenance rows and four search logs. No new domiciled area, solved issuer-country imprint, Indigenous record or cross-border edge.
+
+### Batch 51 sources
+
+- Slovenia B-SI-ZDDS diabetes: [own identity](https://www.diabetes-zveza.si/o-nas/predstavitev/) and [original-language FAQ](https://www.diabetes-zveza.si/o-nas/pogosta-vprasanja/). Undated patient education differentiating type 1/type 2; not a current clinical guideline.
+- Slovenia B-SI-ZAH hypertension: [professional society details](https://hipertenzija.org/o-nas/) and [guidance catalogue](https://hipertenzija.org/smernice-in-publikacije/). Society section of Slovensko zdravniško društvo; 2023-labelled pocket guidance vs older editions; catalogue is not proof of current replacement or legal adoption.
+- Croatia B-HR-HSDU diabetes: [identity/contact](https://www.dijabetes.hr/contact/) and [magazine index](https://www.dijabetes.hr/casopis-dijabetes/). Own issues indexed through 2024; undated new-issue text does not establish a 2026 issue; publisher is not author of all contributions.
+- Croatia B-HR-HDH hypertension: [identity](https://hdh.healthmed.hr/o-drustvu) and [guidance catalogue](https://hdh.healthmed.hr/edukacije/smjernice). Society within Hrvatski liječnički zbor, with mixed 2017 domestic, 2019 paediatric and external 2021 ESH materials; hosting not sole authorship or legal adoption.
+
+### Mandatory restart procedure
+
+1. Verify the live PR is still open, draft and unmerged, head/base, comments, reviews, CI and full nontruncated tree. Last data HEAD had 145 entries and no `AGENTS.md`; no comments at initial restart. Reconcile concurrent commits.
+2. Read original `docs/atlas/research-team-prompts/TEAM_B_CLINICAL_ORGANIZATIONS.md` and `DATA_CONTRACT.md` from branch `research/atlas-five-team-handoff-prompts-2026-11-04`. Read all 18 Team B files and run `node docs/atlas/handoffs/team-b/validate.mjs` on a materialized checkout. Immutable [data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/fb0614580f0a84b877e0443c60264c3c9a8688cd) readback: complete nontruncated 145-entry Git tree; all ten CSV inputs plus unchanged validator blob SHA values independently matched, 11/11. An independent JavaScript structural check of matrix, ID uniqueness, exact resource-context-provenance joins, issuer/organization domicile, search IDs and coverage counts detected zero errors. The Node CLI **was not run in batch 51**; earlier batches 49–50 have separate Node CLI receipts. No clinical, rights, source-currency or complete-world coverage review was performed.
+3. Remain on this existing open draft unmerged PR. Write only `docs/atlas/handoffs/team-b/`. Do not edit main, website, calculator, formulas, patient medical data or other teams; do not merge. Government belongs to Team A, journals to C and networks to D; clinical appraisal separately governed by issue #27. Preserve organization domicile vs linked-page issuer vs document issuer, local language, exact URL, edition, jurisdiction, study population and source type; do not infer risk from ethnicity or nationality.
+4. Search 1,324 still untouched cells (not these newly positive 191/705 diabetes/hypertension cells), or investigate 21 local identity gaps or five uncertain document imprints. Bounded searches with no result are not proof of national absence. Commit small batches and verify SHA readback and joins.
+5. Preserve Dutch NDF Jan 2026 cessation; Monaco historic dissolved society vs M-CRIN; Côte d’Ivoire 2021; Trinidad undated; Saint Lucia 2025 press vs proposed 2026 AGM; Mexico gout 68 vs subgroup 67; historical Argentina/Spain FH 2014-2019; Czech third-party EAS/IAS; Poland PTL Nov 2 2026 uncorrected proof vs PTNT issuer; Australia 2024 toolkit vs future guideline, Canada 2021 adult vs 2022 paediatric, New Zealand Otago compiler, Italy 2019 vs 2013 gout, Brazil 2025 press about joint 2024 guidance, distinct Japanese/Korean editions, Greek external hosting, Iceland 2011 course and Malta 2021 originals. Five unresolved imprint countries: Panama HEARTS; Portuguese WGO lactose; Portuguese ESPGHAN coeliac; Chad OA Pub/JHC; South Sudan PAMJ. Saint Barthélemy 652 ≠ Saint Martin 663. Retain 14 diversity counterexamples, 7 community-governance cases and 8 cross-border links; FH ≠ generic LDL, gout ≠ asymptomatic urate, genetic haemochromatosis ≠ high ferritin, lactase nonpersistence ≠ symptomatic intolerance, HLA/coeliac predisposition ≠ diagnosis.
+6. Refresh STATUS/GAPS/CHANGELOG/VALIDATION/CHECKPOINT/CONTINUE and PR description after each validated batch. Keep all links research_lead_only until separate issue #27 appraisal. Matrix enumeration and diversity examples met structurally; authoritative society/edition verification worldwide **not complete**.
+
+### Exact continuation prompt
+
+Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71.
+
+Read `docs/atlas/handoffs/team-b/CONTINUE.md` on branch `research/atlas-team-b-20261104`.
+
+Verify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, source caveats, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.
+
+If unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again.
+
+---
+
+## Previous research and audit history retained
+
 # Continue Research Team B · batch 50 · 2026-11-05
 
 **STANDALONE RESTART — INCOMPLETE, DRAFT, UNMERGED.** [PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71), branch `research/atlas-team-b-20261104` into `main`. Latest independently validated data commit: [`4ef562c15d6f9d37198f481f4f86bdef2c9b0355`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/4ef562c15d6f9d37198f481f4f86bdef2c9b0355). A documentation checkpoint follows it; use live branch HEAD for restart and preserve concurrent work.

@@ -1,3 +1,24 @@
+# Team B gaps — batch 51 — 2026-11-05
+
+401 organizations in 227 of 248 M49 areas (21 local identity gaps); of 1,736 condition cells, 274 source-positive, 138 targeted without verified eligible resource, and 1,324 not yet targeted. There are 300 exact research source relationships, 833 provenance records, 488 searches, 7 community and 8 cross-border records, and 5 unresolved original-document issuer countries. All 300 links are research_lead_only: zero clinically approved claims.
+
+### Source and edition limitations
+
+- Slovenia B-SI-ZDDS diabetes: [own identity](https://www.diabetes-zveza.si/o-nas/predstavitev/) and [original-language FAQ](https://www.diabetes-zveza.si/o-nas/pogosta-vprasanja/). Undated patient education differentiating type 1/type 2; not a current clinical guideline.
+- Slovenia B-SI-ZAH hypertension: [professional society details](https://hipertenzija.org/o-nas/) and [guidance catalogue](https://hipertenzija.org/smernice-in-publikacije/). Society section of Slovensko zdravniško društvo; 2023-labelled pocket guidance vs older editions; catalogue is not proof of current replacement or legal adoption.
+- Croatia B-HR-HSDU diabetes: [identity/contact](https://www.dijabetes.hr/contact/) and [magazine index](https://www.dijabetes.hr/casopis-dijabetes/). Own issues indexed through 2024; undated new-issue text does not establish a 2026 issue; publisher is not author of all contributions.
+- Croatia B-HR-HDH hypertension: [identity](https://hdh.healthmed.hr/o-drustvu) and [guidance catalogue](https://hdh.healthmed.hr/edukacije/smjernice). Society within Hrvatski liječnički zbor, with mixed 2017 domestic, 2019 paediatric and external 2021 ESH materials; hosting not sole authorship or legal adoption.
+
+### Remaining gates
+
+1,324 untouched condition cells; 138 bounded no-link searches (not proof of absence); 21 local domiciles; five unresolved document issuer countries. Preserve Dutch NDF Jan 2026 cessation; Monaco historic dissolved society vs M-CRIN; Côte d’Ivoire 2021; Trinidad undated; Saint Lucia 2025 press vs proposed 2026 AGM; Mexico gout 68 vs subgroup 67; historical Argentina/Spain FH 2014-2019; Czech third-party EAS/IAS; Poland PTL Nov 2 2026 uncorrected proof vs PTNT issuer; Australia 2024 toolkit vs future guideline, Canada 2021 adult vs 2022 paediatric, New Zealand Otago compiler, Italy 2019 vs 2013 gout, Brazil 2025 press about joint 2024 guidance, distinct Japanese/Korean editions, Greek external hosting, Iceland 2011 course and Malta 2021 originals. Five unresolved imprint countries: Panama HEARTS; Portuguese WGO lactose; Portuguese ESPGHAN coeliac; Chad OA Pub/JHC; South Sudan PAMJ. Saint Barthélemy 652 ≠ Saint Martin 663. Retain 14 diversity counterexamples, 7 community-governance cases and 8 cross-border links; FH ≠ generic LDL, gout ≠ asymptomatic urate, genetic haemochromatosis ≠ high ferritin, lactase nonpersistence ≠ symptomatic intolerance, HLA/coeliac predisposition ≠ diagnosis.
+
+No clinical release.
+
+---
+
+## Previous research and audit history retained
+
 # Team B gaps · batches 49–50 · 2026-11-05
 
 397 organizations in 227 of 248 M49 areas; 21 local identity gaps. Of 1,736 condition cells, 270 have sources, 138 have bounded searches with no verified resource, and 1,328 await a targeted search. There are 296 source contexts, 825 provenance rows, 484 searches, 7 community records, 8 cross-border links and 5 unresolved issuer countries. All 296 contexts are research leads; zero clinical claims approved.
