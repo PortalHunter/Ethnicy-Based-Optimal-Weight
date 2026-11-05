@@ -1,3 +1,14 @@
+## 2026-11-05 — Batch 12 official-source governmental directory enrichment
+
+- **DATA commit:** `3aa199259d0a569e67dfb42980434bbf7b48d4b2`; latest documentation commit is a separate follow-up. Promoted five formerly explicit unknown principal M49 entries to source-backed *identity/limited-remit* findings: 174 Comoros `gov-174-001`, 234 Faroe Islands `gov-234-001`, 440 Lithuania `gov-440-001`, 462 Maldives `gov-462-001`, 470 Malta `gov-470-001`. No assumption of complete legal authority.
+- Added government bodies `gov-234-002` Faroese public-health authority and `gov-440-002` Lithuanian accreditation regulator; added two locally sourced within-area agency relations; **12** issuer/date/language/scope/limitations provenance rows. No cross-area inferred parent delegations.
+- Counts now **248/248** official M49 geographic rows; **95 identified / 153 unresolved**, **138 bodies**, **33 relationships**, **189 provenance**, **248 ledger**. All previous records and caveats retained.
+- Independent exact-data-SHA quote-aware readback of six CSVs including official M49 master PASS; per-field geography, ID/edge/source checks and **24** high-risk sentinels. Python `validate.py` NOT EXECUTED on latest Batch 12. See `QA_REPORT.md` for bounds.
+- Current-government changes caveated: Comoros portal template vs indexed decree; Faroese 2025-versus-2026 ministry restructures and proposed transfer; Maldives April 2026 ministry rename and November tertiary group; Malta stale copy and legal scope; Lithuania current statutory devolution.
+- Updated `CHECKPOINT_20261105_BATCH12.md`, `CONTINUE.md`, `STATUS.md`, `GAPS.md`, `README.md`, `CHANGELOG.md`, `QA_REPORT.md`; PR stays draft and unmerged; no production or other-team files changed.
+
+---
+
 # Team A change log
 
 ## 2026-11-04 — Batch 1

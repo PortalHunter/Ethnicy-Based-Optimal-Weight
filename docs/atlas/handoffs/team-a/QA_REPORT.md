@@ -1,3 +1,26 @@
+## NEWEST Batch 12 exact-SHA independent structural audit — 2026-11-05
+
+**Research data commit:** `3aa199259d0a569e67dfb42980434bbf7b48d4b2` (read back from actual GitHub commit, NOT simply the write buffer).
+
+| Independent check | Result |
+|---|---|
+| Dated official M49 master and countries: row-by-row M49 key, ISO2/ISO3, UN name, region/subregion | **PASS 248/248** |
+| Ministry/authority identity and unknown status | **PASS 95 identified / 153 `UNKNOWN_REVIEW_NEEDED`** |
+| Government bodies unique IDs and same-M49 country references | **PASS 138** |
+| Within-government relation endpoints, distinct ID, HTTPS source | **PASS 33** |
+| Provenance unique IDs and required issuer, language, check date, state, HTTPS source | **PASS 189** |
+| Area country-coverage row presence and exact status agreement | **PASS 248** |
+| Region distribution | **PASS** (Africa 60, Americas 57, Asia 50, Europe 51, Oceania 29, unassigned 1) |
+| Special/devolved/contested/territorial negative sentinel presence | **PASS 24** |
+| Inferred parent-area M49 links | **PASS none** |
+| `python docs/atlas/handoffs/team-a/validate.py` on Batch 12 | **NOT RUN**; cannot claim Python pass |
+| Original legal/territorial/delegated/rename acceptance criteria | **INCOMPLETE**; identity is not full jurisdiction certification |
+| Public website, main, clinical guidance, other teams | **NOT CHANGED** |
+
+Method: independently fetched all five current normalized CSV files and `M49_OFFICIAL_SNAPSHOT_20261105.csv` using exact data commit SHA, quote-aware parsed independently, compared 248 complete geography rows and synchronized references and coverage. Cross-area parent M49 fields remained empty, including 24 high-risk territory controls. This is structural integrity, NOT a substitute for legal-source investigation, international status adjudication, exact statutes, original local languages, delegated competence or a Python validator execution. Batch 12 source caveats and the complete outstanding queue in `CHECKPOINT_20261105_BATCH12.md` and `GAPS.md`. Previous Batch 11/earlier audits below are historical.
+
+---
+
 ## NEWEST Batch 11 independent reproducible audit — 2026-11-05
 
 **Exact data commit:** `f777fa04b567b41a8ae8810f4422dafec47c1906`.

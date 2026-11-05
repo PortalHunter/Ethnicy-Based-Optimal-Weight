@@ -1,3 +1,20 @@
+## NEWEST Batch 12 open research gaps — 2026-11-05
+
+**153/248 principal government health-authority identities still unresolved**; 95 identity findings do not prove all current statutory mandates. All 248 official M49 country-or-area keys reconciled. Newly identified 174/234/440/462/470 have distinct legal/source gaps; do NOT use the older Batch 11 queue below as a current unknown list.
+
+- **Comoros 174:** own `minsante.egouv.km` ministry portal includes test/placeholder content and inconsistent heading; indexed decree No. 26-108PR names Health and Social Protection but full instrument and authority statutes not appraised. Comoros portal geographical paragraph includes Mayotte: **do not extrapolate health competence to separate M49 175**.
+- **Faroe 234:** 2026 `Heilsu- og orkumálaráðið` official website and October minister notices supersede older 2025 titles. Find actual restructuring instrument/effective date and Danish kingdom medical supervisory powers. `Heilsustýrið` active since 2023; Aug 2026 proposed pharmacy transfer is NOT evidence of enacted transfer. No guessed parent country M49 208.
+- **Lithuania 440:** health ministry and under-ministry regulator identified by current local-language sites; confirm full legal mandates and municipalities, insurer, licensing/medical-device statutory hierarchy. Agency English title is reviewer translation.
+- **Maldives 462:** Presidency official romanized Dhivehi title and April 2026 ministry rename found; verify original Thaana text, precise effective provisions and Nov 2 presidentially controlled tertiary hospital group; affiliation is NOT unqualified subordinate status.
+- **Malta 470:** current 2026 `Ministry for Health and Active Ageing` supported by Gazette and official consultation; health.gov.mt undated 'Office of Deputy Prime Minister' copy may be stale; independent bilingual title, parliament/Gozo scopes and statutory public-health powers remain.
+- Continue priority unknown areas 074 Bouvet, 104 Myanmar (competing/effective control), 112 Belarus, 162 Christmas Island, 166 Cocos, 175 Mayotte, 192 Cuba, 226 Equatorial Guinea (portfolio conflict/INSESO proposed transfer), 232 Eritrea, 248 Åland, French overseas 254/258/260, Gibraltar 292, Guinea 324 and ascending unreconciled legal institutions. For these and all identified areas, two independent legal/government sources where disputed, delegated or materially renamed, no WHO office as ministry and no unsupported cross-area M49 parent.
+- Public-health institutes, government research/statutory regulators, Bosnia ten cantons/Brčko, federal vs state/provincial powers and local original scripts still incomplete. Gabon, Hungary, Georgia, Chad, Ethiopia, India, Equatorial Guinea and Myanmar previous source and legal cautions remain binding.
+- Quote-aware independent SHA audit of Batch 12 is structural PASS; latest `validate.py` Python execution still unperformed.
+
+Earlier Batch 11 and older entries below are retained as HISTORICAL evidence and counts, not current queue.
+
+---
+
 ## NEWEST open research queue after Batch 11 — 2026-11-05
 
 - **158 unresolved principal government authority identities**; 248/248 M49 geography completeness does not imply directory legal completeness. Unresolved priorities: 074 Bouvet, 104 Myanmar competing institutions, 112 Belarus, 162 Christmas Island, 166 Cocos, 174 Comoros (placeholder/title), 175 Mayotte, 192 Cuba, 226 Equatorial Guinea (changing ministry portfolio + prospective INSESO transfer), 232 Eritrea, 234 Faroe Islands, 248 Åland, French overseas areas, Gibraltar and other ascending unknown M49. Legal completeness of the 90 identified remains unfinished; include Bosnia/Herzegovina cantons/Brčko, government public-health institutes and regulatory agencies, federal/state/devolved powers, original scripts and current statutes. Two independent official legal/government sources for disputed, delegated or significant renamed authorities; never infer cross-area parents.
