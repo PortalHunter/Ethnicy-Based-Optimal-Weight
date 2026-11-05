@@ -1,0 +1,898 @@
+{
+  "schema_version": "1.0.0",
+  "generated_on": "2026-11-04",
+  "description": "Typed cross-border and organization/source relationships. WHO region and UN M49 geography are distinct; no edge authorizes individualized medical guidance. CLAIM-* nodes refer to external GitHub appraisal issues that will be joined when the regional evidence ledger merges.",
+  "edges": [
+    {
+      "from": "DZA",
+      "to": "REG-WHO-AFRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.afro.who.int/countries",
+      "notes": "Algeria is WHO AFRO while geographically UN Northern Africa.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "AUS",
+      "to": "REG-WHO-WPRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "BRA",
+      "to": "REG-WHO-AMRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "CAN",
+      "to": "REG-WHO-AMRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "CHN",
+      "to": "REG-WHO-WPRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "FIN",
+      "to": "REG-WHO-EURO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "GHA",
+      "to": "REG-WHO-AFRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "IND",
+      "to": "REG-WHO-SEARO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "IDN",
+      "to": "REG-WHO-WPRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/southeastasia/about/history",
+      "notes": "Reassignment from SEARO effective May 23, 2025.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": "2025-05-23"
+    },
+    {
+      "from": "IRN",
+      "to": "REG-WHO-EMRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "JPN",
+      "to": "REG-WHO-WPRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "KOR",
+      "to": "REG-WHO-WPRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "MYS",
+      "to": "REG-WHO-WPRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "MEX",
+      "to": "REG-WHO-AMRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NZL",
+      "to": "REG-WHO-WPRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NGA",
+      "to": "REG-WHO-AFRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "PAK",
+      "to": "REG-WHO-EMRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "PRT",
+      "to": "REG-WHO-EURO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "WSM",
+      "to": "REG-WHO-WPRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "SAU",
+      "to": "REG-WHO-EMRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "ZAF",
+      "to": "REG-WHO-AFRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "ESP",
+      "to": "REG-WHO-EURO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "THA",
+      "to": "REG-WHO-SEARO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "USA",
+      "to": "REG-WHO-AMRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "Regional categorization, WHO governance/membership status requires separate 2026 check.",
+      "verification": "MEMBERSHIP_GOVERNANCE_REVIEW",
+      "valid_from": null
+    },
+    {
+      "from": "VNM",
+      "to": "REG-WHO-WPRO",
+      "kind": "classified_in_WHO_region",
+      "source_url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/immunization-analysis-and-insights/global-monitoring/data-statistics-and-graphics/regional-summaries",
+      "notes": "WHO regional coordination is not national medical jurisdiction.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "REG-WHO-AFRO",
+      "to": "NET-WHO",
+      "kind": "regional_office_of",
+      "source_url": "https://www.who.int/about/who-we-are/regional-offices",
+      "notes": "WHO is a public health coordination framework.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "REG-WHO-AMRO",
+      "to": "NET-WHO",
+      "kind": "regional_office_of",
+      "source_url": "https://www.who.int/about/who-we-are/regional-offices",
+      "notes": "PAHO also has separate Pan-American intergovernmental agency identity; do not duplicate in counting.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "REG-WHO-EMRO",
+      "to": "NET-WHO",
+      "kind": "regional_office_of",
+      "source_url": "https://www.who.int/about/who-we-are/regional-offices",
+      "notes": "WHO is a public health coordination framework.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "REG-WHO-EURO",
+      "to": "NET-WHO",
+      "kind": "regional_office_of",
+      "source_url": "https://www.who.int/about/who-we-are/regional-offices",
+      "notes": "WHO is a public health coordination framework.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "REG-WHO-SEARO",
+      "to": "NET-WHO",
+      "kind": "regional_office_of",
+      "source_url": "https://www.who.int/about/who-we-are/regional-offices",
+      "notes": "WHO is a public health coordination framework.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "REG-WHO-WPRO",
+      "to": "NET-WHO",
+      "kind": "regional_office_of",
+      "source_url": "https://www.who.int/about/who-we-are/regional-offices",
+      "notes": "WHO is a public health coordination framework.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-DZA-HEALTH",
+      "to": "DZA",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.sante.gov.dz/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-AUS-HEALTH",
+      "to": "AUS",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.health.gov.au/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-BRA-HEALTH",
+      "to": "BRA",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.gov.br/saude/pt-br",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "OFFICIAL_ENTITY_SPOT_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-CAN-PHAC",
+      "to": "CAN",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.canada.ca/en/public-health.html",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-CHN-HEALTH",
+      "to": "CHN",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.nhc.gov.cn/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-FIN-THL",
+      "to": "FIN",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://thl.fi/en",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-GHA-HEALTH",
+      "to": "GHA",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.moh.gov.gh/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-IND-ICMR",
+      "to": "IND",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.icmr.gov.in/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "OFFICIAL_ENTITY_SPOT_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-IDN-HEALTH",
+      "to": "IDN",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://kemkes.go.id/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "OFFICIAL_ENTITY_SPOT_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-IRN-HEALTH",
+      "to": "IRN",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://behdasht.gov.ir/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-JPN-HEALTH",
+      "to": "JPN",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.mhlw.go.jp/english/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "OFFICIAL_ENTITY_SPOT_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-KOR-KDCA",
+      "to": "KOR",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.kdca.go.kr/eng/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "OFFICIAL_ENTITY_SPOT_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-MYS-HEALTH",
+      "to": "MYS",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.moh.gov.my/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-MEX-HEALTH",
+      "to": "MEX",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.gob.mx/salud",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-NZL-HEALTH",
+      "to": "NZL",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.health.govt.nz/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-NGA-HEALTH",
+      "to": "NGA",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://health.gov.ng/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-PAK-HEALTH",
+      "to": "PAK",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.nhsrc.gov.pk/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-PRT-DGS",
+      "to": "PRT",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.dgs.pt/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-WSM-HEALTH",
+      "to": "WSM",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.health.gov.ws/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "OFFICIAL_ENTITY_SPOT_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-SAU-HEALTH",
+      "to": "SAU",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.moh.gov.sa/en",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-ZAF-HEALTH",
+      "to": "ZAF",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.health.gov.za/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "OFFICIAL_ENTITY_SPOT_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-ESP-HEALTH",
+      "to": "ESP",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.sanidad.gob.es/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-THA-HEALTH",
+      "to": "THA",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.moph.go.th/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-USA-CDC",
+      "to": "USA",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.cdc.gov/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NAT-VNM-HEALTH",
+      "to": "VNM",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://moh.gov.vn/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-JPN-JDS",
+      "to": "JPN",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.jds.or.jp/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-JPN-JSH",
+      "to": "JPN",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.jpnsh.jp/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-JPN-JAS",
+      "to": "JPN",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.j-athero.org/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-KOR-KDA",
+      "to": "KOR",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.diabetes.or.kr/eng/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-IND-RSSDI",
+      "to": "IND",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.rssdi.in/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-FIN-KAYPA",
+      "to": "FIN",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.kaypahoito.fi/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-GHA-DEMSOG",
+      "to": "GHA",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://demsog.com/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-PAK-PES",
+      "to": "PAK",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://pakendosociety.org/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-ESP-SED",
+      "to": "ESP",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.sediabetes.org/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-BRA-SBD",
+      "to": "BRA",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://diretriz.diabetes.org.br/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-NZL-NZSSD",
+      "to": "NZL",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.t2dm.nzssd.org.nz/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-CAN-DIABETESCA",
+      "to": "CAN",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://guidelines.diabetes.ca/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-USA-ADA",
+      "to": "USA",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://diabetes.org/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-AUS-DIABETESAU",
+      "to": "AUS",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.diabetesaustralia.com.au/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-ZAF-SEMDSA",
+      "to": "ZAF",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.semdsa.org.za/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-PRT-SPMI",
+      "to": "PRT",
+      "kind": "based_in_or_primarily_serves_country",
+      "source_url": "https://www.spmi.pt/",
+      "notes": "Authority's geographic reference; does not validate individual statements.",
+      "verification": "CANDIDATE_ENTITY_LINK",
+      "valid_from": null
+    },
+    {
+      "from": "NET-AFRICACDC",
+      "to": "DZA",
+      "kind": "regional_member_state_cooperation",
+      "source_url": "https://africacdc.org/about-us/",
+      "notes": "Cooperates with African Union member states, not a replacement for national institutions.",
+      "verification": "REGIONAL_REMIT_CONFIRMED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-AFRICACDC",
+      "to": "GHA",
+      "kind": "regional_member_state_cooperation",
+      "source_url": "https://africacdc.org/about-us/",
+      "notes": "Cooperates with African Union member states, not a replacement for national institutions.",
+      "verification": "REGIONAL_REMIT_CONFIRMED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-AFRICACDC",
+      "to": "NGA",
+      "kind": "regional_member_state_cooperation",
+      "source_url": "https://africacdc.org/about-us/",
+      "notes": "Cooperates with African Union member states, not a replacement for national institutions.",
+      "verification": "REGIONAL_REMIT_CONFIRMED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-AFRICACDC",
+      "to": "ZAF",
+      "kind": "regional_member_state_cooperation",
+      "source_url": "https://africacdc.org/about-us/",
+      "notes": "Cooperates with African Union member states, not a replacement for national institutions.",
+      "verification": "REGIONAL_REMIT_CONFIRMED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-ASEANHEALTH",
+      "to": "THA",
+      "kind": "regional_member_state_cooperation",
+      "source_url": "https://asean.org/our-communities/asean-socio-cultural-community/health/",
+      "notes": "Health sector coordination, not individual clinical rule.",
+      "verification": "REGIONAL_REMIT_CONFIRMED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-ASEANHEALTH",
+      "to": "IDN",
+      "kind": "regional_member_state_cooperation",
+      "source_url": "https://asean.org/our-communities/asean-socio-cultural-community/health/",
+      "notes": "Health sector coordination, not individual clinical rule.",
+      "verification": "REGIONAL_REMIT_CONFIRMED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-ASEANHEALTH",
+      "to": "MYS",
+      "kind": "regional_member_state_cooperation",
+      "source_url": "https://asean.org/our-communities/asean-socio-cultural-community/health/",
+      "notes": "Health sector coordination, not individual clinical rule.",
+      "verification": "REGIONAL_REMIT_CONFIRMED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-ASEANHEALTH",
+      "to": "VNM",
+      "kind": "regional_member_state_cooperation",
+      "source_url": "https://asean.org/our-communities/asean-socio-cultural-community/health/",
+      "notes": "Health sector coordination, not individual clinical rule.",
+      "verification": "REGIONAL_REMIT_CONFIRMED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-ECDC",
+      "to": "FIN",
+      "kind": "infectious_disease_surveillance_remit",
+      "source_url": "https://www.ecdc.europa.eu/en/about-us/what-we-do",
+      "notes": "ECDC remit is infectious diseases; does not create cross-border diabetes/gout guidance.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-EMA",
+      "to": "FIN",
+      "kind": "EU_medicines_regulatory_network",
+      "source_url": "https://www.ema.europa.eu/en/partners-networks/eu-partners/eu-member-states/national-competent-authorities-human",
+      "notes": "Medicines regulation scope; national competent authorities retain roles.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-ECDC",
+      "to": "ESP",
+      "kind": "infectious_disease_surveillance_remit",
+      "source_url": "https://www.ecdc.europa.eu/en/about-us/what-we-do",
+      "notes": "ECDC remit is infectious diseases; does not create cross-border diabetes/gout guidance.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-EMA",
+      "to": "ESP",
+      "kind": "EU_medicines_regulatory_network",
+      "source_url": "https://www.ema.europa.eu/en/partners-networks/eu-partners/eu-member-states/national-competent-authorities-human",
+      "notes": "Medicines regulation scope; national competent authorities retain roles.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-ECDC",
+      "to": "PRT",
+      "kind": "infectious_disease_surveillance_remit",
+      "source_url": "https://www.ecdc.europa.eu/en/about-us/what-we-do",
+      "notes": "ECDC remit is infectious diseases; does not create cross-border diabetes/gout guidance.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "NET-EMA",
+      "to": "PRT",
+      "kind": "EU_medicines_regulatory_network",
+      "source_url": "https://www.ema.europa.eu/en/partners-networks/eu-partners/eu-member-states/national-competent-authorities-human",
+      "notes": "Medicines regulation scope; national competent authorities retain roles.",
+      "verification": "NETWORK_SOURCE_CHECKED",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-JPN-JDS",
+      "to": "CLAIM-RDI-006",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/33",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-JPN-JSH",
+      "to": "CLAIM-RHT-001",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/51",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-JPN-JAS",
+      "to": "CLAIM-RLD-001",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/54",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-KOR-KDA",
+      "to": "CLAIM-RDI-007",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/34",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-FIN-KAYPA",
+      "to": "CLAIM-RDI-001",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/28",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-GHA-DEMSOG",
+      "to": "CLAIM-RDI-003",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/30",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-PAK-PES",
+      "to": "CLAIM-RDI-009",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/36",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-ESP-SED",
+      "to": "CLAIM-RDI-002",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/29",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-BRA-SBD",
+      "to": "CLAIM-RDI-018",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/45",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-NZL-NZSSD",
+      "to": "CLAIM-RDI-022",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/49",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-CAN-DIABETESCA",
+      "to": "CLAIM-RDI-019",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/46",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-ZAF-SEMDSA",
+      "to": "CLAIM-RDI-004",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/31",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    },
+    {
+      "from": "SOC-PRT-SPMI",
+      "to": "CLAIM-RFE-003",
+      "kind": "candidate_source_relationship",
+      "source_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/62",
+      "notes": "Issue discusses potential local guideline/study link; direct authorship/endorsement not yet independently verified.",
+      "verification": "APPRAISAL_PENDING",
+      "valid_from": null
+    }
+  ]
+}
