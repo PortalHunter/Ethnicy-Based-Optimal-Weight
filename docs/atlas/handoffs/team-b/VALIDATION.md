@@ -50,3 +50,7 @@ CSV quote/width parsing; unique organization/provenance/resource keys; 248 M49 r
 New checks detected two old Samoa publication rows with blank notes and prose in review-state, plus two blank provenance notes. Restored typed uncertainty status and narrative notes. Hypertension MANUIA state corrected to specialist_research_only, consistent with its diabetes arm and no published results. Prior blanket metadata-pass statements were too broad for these fields.
 
 Targeted first-party page/catalogue checks covered four new resources. Not a comprehensive live crawl, independent UNSD export diff, full-text appraisal or clinical approval. Fourteen boundary examples retained in GAPS.md.
+
+## Batch 7 — 2026-11-05
+
+Repeated all batch-6 structural checks against updated seven CSV tables: **0 failures**. {"organizations":92,"areas":58,"resources":81,"positive":76,"unresearched":1660,"provenance":175,"conditions":{"diabetes":40,"hypertension":12,"high_chol":6,"gout":4,"lactose":2,"celiac":9,"hemochromatosis":3},"structuralErrors":0}. Three Indigenous/community rows unchanged. Guernsey identity has no resource so all its coverage cells remain unresearched. Separate territory M49 codes verified against retained roster; no independent fresh UNSD diff claimed. Targeted first-party URL inspection covered Bermuda/Jersey/Uruguay; Guernsey own-site retrieval failed and directory explicitly disclaims registration currency. No full external link crawl, underlying screening-PDF methods appraisal or clinical endorsement.

@@ -53,3 +53,11 @@ Added 4 first-party organization identities (Germany DGE, Poland celiac associat
 Corrected pre-existing Samoa rows: narrative had occupied source_review_status and notes were blank; restored typed uncertainty status and notes in publication/provenance rows. Both MANUIA cells now specialist_research_only, reflecting one unreported programme.
 
 Baseline: draft PR #71 HEAD f24f1bd4ba321b282511e956d3520cf732201f97. Batch checkpoint is the commit containing this section; fetch current HEAD for exact SHA. Next: non-sovereign areas and undercovered Africa/Asia; independently validate M49; audit guideline supersession and third-party-only identities.
+
+## Latest checkpoint — Batch 7, 2026-11-05
+
+**92 organizations in 58 M49 areas; 81 publication/resource relationships; 76 source-positive cells; 1660 not_yet_researched cells; 175 provenance rows; 3 community-specific records; 0 clinically approved claims.** Full 248×7 skeleton unchanged. Batch 7 adds 4 identities and 3 source relationships; Guernsey is directory-only, not counted as researched condition coverage. Batch 6 saved and read back at 82c4990d773bc8f636c9a578fc38d8a0d386b21c.
+
+Counts by source-positive condition: {"diabetes":40,"hypertension":12,"high_chol":6,"gout":4,"lactose":2,"celiac":9,"hemochromatosis":3}. Current batch SHA is the GitHub commit containing this section; recursive prompt is CONTINUE.md. Full research remains incomplete.
+
+Next priorities: (1) underserved Africa/Asia and remaining territories with original-language first-party resources; (2) especially lactose, gout, FH and hereditary iron-overload sources; (3) first-party verification of Guernsey and other directory-only entities; (4) current independent UNSD machine-readable diff and comprehensive URL audit; (5) methods/supersession/copyright and claim appraisal #27. Do not restart completed batches.

@@ -41,3 +41,10 @@
 - Corrected pre-existing Samoa status/notes field placement, empty provenance notes and inconsistent programme coverage classification; evidence uncertainty unchanged.
 - AILI direct open returned JavaScript shell: deferred, not counted. Discarded invalid guessed DGE about path; used navigation-discovered mission page.
 - Enhanced CSV checks passed: 88 identities, 78 resources, 73 positive and 1663 unresearched cells; 0 failures after explicit corrections.
+
+## 2026-11-05 — Batch 7
+
+- Added Bermuda, Jersey, Guernsey and Uruguay identities (4 new areas); 3 first-party condition resources, no Guernsey source-positive cell.
+- Separated Guernsey directory corroboration/current-registration uncertainty, Jersey/Guernsey/UK jurisdictions, Bermuda screening attendees from national prevalence, and ACELU licensing from public regulation.
+- Structural checks repeated: 0 failures, 92 organizations, 81 resources, 76 positive/1660 unresearched cells and 175 provenance rows.
+- Batch 6 verified on GitHub at 82c4990d773bc8f636c9a578fc38d8a0d386b21c; exact publication CSV readback matched.

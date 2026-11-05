@@ -41,3 +41,7 @@ Added 4 first-party organization identities (Germany DGE, Poland celiac associat
 Corrected pre-existing Samoa rows: narrative had occupied source_review_status and notes were blank; restored typed uncertainty status and notes in publication/provenance rows. Both MANUIA cells now specialist_research_only, reflecting one unreported programme.
 
 Baseline: draft PR #71 HEAD f24f1bd4ba321b282511e956d3520cf732201f97. Batch checkpoint is the commit containing this section; fetch current HEAD for exact SHA. Next: non-sovereign areas and undercovered Africa/Asia; independently validate M49; audit guideline supersession and third-party-only identities.
+
+## Latest checkpoint: Batch 7 (2026-11-05)
+
+92 organizations / 58 M49 areas; 81 resources; 76 source-positive cells; 1660 unresearched; 175 provenance entries. These supersede earlier snapshots. Read STATUS.md and CONTINUE.md. Research remains incomplete; no clinical release approved.

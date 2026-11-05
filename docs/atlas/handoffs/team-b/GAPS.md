@@ -71,3 +71,13 @@ These examples flag *metadata and study-transportability errors* to check; they 
 - AILI Italy: search index returns association content; direct open JavaScript shell. Excluded pending substantive first-party retrieval.
 - Samoa structural corrections do not resolve conflicting ethics-status statements or create published trial results.
 - Latest totals: 54/248 areas have identities; 1663/1736 cells remain unresearched.
+
+## Batch 7 — territories and Uruguay, 2026-11-05
+
+- Guernsey charity-network identity only: AGC member number 590 is not proof of current legal registration; directory explicitly warns of this. Listed diabetesguernsey.org was inaccessible. No original condition resource verified; seven condition cells remain not_yet_researched.
+- Jersey is M49 832 and Guernsey 831, distinct from UK 826; do not inherit NHS guidance jurisdiction. Bermuda is M49 060, also separately indexed. No parent-state coverage inferred.
+- Bermuda 2026 webpage describes 2025 two-day screening with Lahey collaboration, not representative prevalence. Underlying summary PDF methods not appraised; no numeric outcome imported. Resource-index prevention percentages likewise unappraised.
+- Jersey type-2 page gives an uncited circa-90-percent figure; no denominator/date independently established, no prevalence inference or diagnosis from its broad blood-test wording.
+- Uruguay ACELU public diagnostic text is biopsy-centred; age-specific exemptions/clinical currency require #27 review. Its trademark licensing does not replace Ministry regulatory powers.
+- Gibraltar search found government/news mentions but no first-party organization publication; not added, no absence asserted.
+- Latest state: 92 organizations/58 areas, 81 resource links, 76 positive cells, 1660 unresearched, 175 provenance entries.
