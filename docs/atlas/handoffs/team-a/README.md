@@ -1,3 +1,15 @@
+## CURRENT — Team A Batch23 (2026-11-05)
+
+Official M49 geography **248/248**; principal governmental health authority **IDENTITIES 152/248** and **96 explicitly unknown** (61.3% identity coverage, NOT 61.3% completed legal mandates); **207** governmental body records; **44** sourced same-area limited relationships; **341** provenance entries; **248** review records; **0** assigned/invented parent M49. Batch23 new areas: 776 Tonga, 780 Trinidad and Tobago, 784 United Arab Emirates, 792 Türkiye, 800 Uganda, 804 Ukraine, 807 North Macedonia, 818 Egypt, 834 United Republic of Tanzania, 894 Zambia.
+
+**Immutable DATA commit:** [`7279e30cc31f13576502785c1cb225b463400865`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/7279e30cc31f13576502785c1cb225b463400865), independently re-fetched six-CSV quote-aware **PASS structural**, 33 jurisdiction-sentinel cases; **Python `validate.py` NOT RUN** (container git DNS blocked). [Full standalone Batch23 checkpoint](CHECKPOINT_20261105_BATCH23.md); issuer, language, negative observations and previous caveats preserved. Authentic current legal mandates, local powers, renamed/contested authorities, issuer independence and current statutes remain unfinished. **Only Team A research branch changes; PR #68 remains OPEN DRAFT/unmerged.** Public website, `main`, calculator, clinical/patient-facing content and other teams untouched.
+
+---
+
+**Read first:** [Batch23 COMPLETE standalone recovery](CHECKPOINT_20261105_BATCH23.md) and [CONTINUE](CONTINUE.md). Original authority directory has full M49 skeleton but major enacted legal delegations remain open. Historical research preserved below.
+
+---
+
 ## Latest Team A government health atlas — Batch 22 (2026-11-05)
 
 [Complete standalone Batch 22 checkpoint](CHECKPOINT_20261105_BATCH22.md) | [Current continuation](CONTINUE.md) | Independently QA-re-fetched immutable DATA SHA **`1b861eeece12671b88ae242b387cee2eb26ad3b3`**. **248/248** official geographic M49 records; **142** located government health principal identities, **106** explicit unknowns (not legal absence), **197** governmental bodies, **44** same-area source-backed relations, **319** dated provenance records, **248** coverage ledger, **0** conjectured parent M49. Six newly researched 728 South Sudan, 740 Suriname, 748 Eswatini, 762 Tajikistan, 764 Thailand, 768 Togo; +19 source checks including negative access, old/current name and draft-vs-law warnings. Exact SHA six-CSV integrity PASS; Python validator **not executed** due container GitHub DNS. Partial identity census is NOT full statutory or clinical guidance. PR #68 DRAFT/unmerged; website untouched.

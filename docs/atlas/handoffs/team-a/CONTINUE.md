@@ -1,3 +1,15 @@
+## CURRENT — Team A Batch23 (2026-11-05)
+
+Official M49 geography **248/248**; principal governmental health authority **IDENTITIES 152/248** and **96 explicitly unknown** (61.3% identity coverage, NOT 61.3% completed legal mandates); **207** governmental body records; **44** sourced same-area limited relationships; **341** provenance entries; **248** review records; **0** assigned/invented parent M49. Batch23 new areas: 776 Tonga, 780 Trinidad and Tobago, 784 United Arab Emirates, 792 Türkiye, 800 Uganda, 804 Ukraine, 807 North Macedonia, 818 Egypt, 834 United Republic of Tanzania, 894 Zambia.
+
+**Immutable DATA commit:** [`7279e30cc31f13576502785c1cb225b463400865`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/7279e30cc31f13576502785c1cb225b463400865), independently re-fetched six-CSV quote-aware **PASS structural**, 33 jurisdiction-sentinel cases; **Python `validate.py` NOT RUN** (container git DNS blocked). [Full standalone Batch23 checkpoint](CHECKPOINT_20261105_BATCH23.md); issuer, language, negative observations and previous caveats preserved. Authentic current legal mandates, local powers, renamed/contested authorities, issuer independence and current statutes remain unfinished. **Only Team A research branch changes; PR #68 remains OPEN DRAFT/unmerged.** Public website, `main`, calculator, clinical/patient-facing content and other teams untouched.
+
+---
+
+Read [COMPLETE standalone Batch23 checkpoint](CHECKPOINT_20261105_BATCH23.md) first for 22 source URLs, independent QA and full remaining 96-area queue. Earlier sections retained below for context. Continue only if live PR and HEAD verified; repeat identical prompt at end.
+
+---
+
 # Team A — Batch 22 latest FULL GitHub continuation (2026-11-05)
 
 **READ FIRST:** [COMPLETE standalone Batch 22 checkpoint](CHECKPOINT_20261105_BATCH22.md). Independently audited DATA SHA **`1b861eeece12671b88ae242b387cee2eb26ad3b3`**; documentation HEAD is later and must be re-verified live. **248/248** exact official M49 geographic skeletons; **142/248** principal governmental health authority **identities** located (**106 explicitly unknown**), **197** separate bodies, **44** sourced same-area links, **319** distinct dated provenance checks, **248** synced coverage ledger, **0** speculative parent M49. Newly resolved **728 South Sudan, 740 Suriname, 748 Eswatini, 762 Tajikistan, 764 Thailand, 768 Togo** (+6 body records, +19 source checks, no new relationships). Critical caveats: South Sudan ministry old minister vs 2026 site 403 and Council supervised by **Cabinet Affairs**, Suriname new combined VWA name vs older about page, Eswatini old *Swaziland* text, Tajik Justice legal version 2026 uninspected and Ministry page spam contamination, Thailand old/current officer mixed and about HTTP403, Togo current longer portfolio vs 2024 Cabinet and **2023 proposed** commune decree **NOT enacted**. Exact six-CSV structural readback **PASS**, Python `validate.py` **NOT RUN** because container GitHub DNS failed. **Identity is NOT full legal jurisdiction**. Only Team A branch paths, PR #68 remains OPEN DRAFT/unmerged, public website/clinical content untouched.

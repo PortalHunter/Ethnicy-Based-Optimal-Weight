@@ -1,3 +1,17 @@
+## CURRENT — Team A Batch23 (2026-11-05)
+
+Official M49 geography **248/248**; principal governmental health authority **IDENTITIES 152/248** and **96 explicitly unknown** (61.3% identity coverage, NOT 61.3% completed legal mandates); **207** governmental body records; **44** sourced same-area limited relationships; **341** provenance entries; **248** review records; **0** assigned/invented parent M49. Batch23 new areas: 776 Tonga, 780 Trinidad and Tobago, 784 United Arab Emirates, 792 Türkiye, 800 Uganda, 804 Ukraine, 807 North Macedonia, 818 Egypt, 834 United Republic of Tanzania, 894 Zambia.
+
+**Immutable DATA commit:** [`7279e30cc31f13576502785c1cb225b463400865`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/7279e30cc31f13576502785c1cb225b463400865), independently re-fetched six-CSV quote-aware **PASS structural**, 33 jurisdiction-sentinel cases; **Python `validate.py` NOT RUN** (container git DNS blocked). [Full standalone Batch23 checkpoint](CHECKPOINT_20261105_BATCH23.md); issuer, language, negative observations and previous caveats preserved. Authentic current legal mandates, local powers, renamed/contested authorities, issuer independence and current statutes remain unfinished. **Only Team A research branch changes; PR #68 remains OPEN DRAFT/unmerged.** Public website, `main`, calculator, clinical/patient-facing content and other teams untouched.
+
+---
+
+### Batch23 immutable six-CSV checks
+
+**PASS structural**: 248/248 official matching M49, 152/96 statuses and IDs, 207 unique matching same-area governmental bodies, 44 source-cited in-area edges, 341 dated source records, 248 synced review rows, 33 jurisdiction-sensitive sentinel checks, 0 invented parent M49. Only four Team A CSVs changed. No Python `validate.py` execution (local DNS). See full checkpoint; not a present legal-statute certification.
+
+---
+
 ## Batch 22 independent exact-commit QA — 2026-11-05
 
 **DATA SHA:** [`1b861eeece12671b88ae242b387cee2eb26ad3b3`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1b861eeece12671b88ae242b387cee2eb26ad3b3), checked **after commit** by independently re-fetching six GitHub CSVs at that immutable SHA (4 modified files + unchanged `authority_relationships.csv` and official M49 dated snapshot). **PASS structural:** quote-aware CSV parse, all row widths and unique keys; official UN M49 248 exact individual code/ISO2/ISO3/name/region/subregion matches; Africa 60, Americas 57, Asia 50, Europe 51, Oceania 29, Antarctic unassigned 1; 142 linked identified areas and 106 explicit unknowns with no body links; 197 source-complete unique governmental bodies; 44 valid same-area cited relationships, 319 unique HTTPS issuer/language/check-date/verification entries, 248 status-matched coverage ledger, 0 nonblank invented parent M49. Sentinel presence checked including Bouvet/BIOT/Myanmar/Belarus/Palestine/French overseas/Caribbean Netherlands 535/Antarctica/6 new Batch22 areas; 158 Taiwan stays outside official 248, and 535 remains unresolved. Exact git comparison of previous docs HEAD `47967869e4513bb05636deb49d82efce482a0ce5` vs DATA SHA found **only four Team A CSV paths changed**. PR #68 remained OPEN DRAFT/unmerged. **Python `validate.py` NOT RUN against this batch:** container `git ls-remote` reports `Could not resolve host: github.com`. Connector-based structural readback is not Python execution, nor comprehensive law/mandate certification. See [standalone checkpoint](CHECKPOINT_20261105_BATCH22.md) for source caveats and exact continuation.
