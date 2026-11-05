@@ -335,7 +335,7 @@
 "174","lactose","not_yet_researched","","0","Discovery not started; absence of records does not imply absence of local research"
 "174","celiac","not_yet_researched","","0","Discovery not started; absence of records does not imply absence of local research"
 "174","hemochromatosis","not_yet_researched","","0","Discovery not started; absence of records does not imply absence of local research"
-"175","diabetes","not_yet_researched","","0","Discovery not started; absence of records does not imply absence of local research"
+"175","diabetes","specialist_research_only","Qu'est ce que le diabète ?","1","Substantive own French diabetes explanation retrieved. Links historical IDF sixth edition and enumerates three major types; not current comprehensive classification or updated guideline. Mayotte service jurisdiction not all French territories. No treatment/screening thresholds or individualized advice imported."
 "175","hypertension","not_yet_researched","","0","Discovery not started; absence of records does not imply absence of local research"
 "175","high_chol","not_yet_researched","","0","Discovery not started; absence of records does not imply absence of local research"
 "175","gout","not_yet_researched","","0","Discovery not started; absence of records does not imply absence of local research"

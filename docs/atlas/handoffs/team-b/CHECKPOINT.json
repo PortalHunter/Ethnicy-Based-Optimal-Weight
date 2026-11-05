@@ -5,19 +5,19 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "03b0568f8321639416343bdd7d231faee59873aa",
-  "batch": 21,
+  "validated_data_commit": "0f533b79fa25f0784b80e127dd79055e7650b5c4",
+  "batch": 22,
   "metrics": {
-    "organizations": 285,
-    "areas": 181,
-    "resources": 174,
-    "positive": 168,
-    "unresearched": 1568,
-    "provenance": 467,
-    "search_log": 248,
+    "organizations": 293,
+    "areas": 189,
+    "resources": 175,
+    "positive": 169,
+    "unresearched": 1567,
+    "provenance": 477,
+    "search_log": 262,
     "community": 4,
     "by_condition": {
-      "diabetes": 62,
+      "diabetes": 63,
       "hypertension": 15,
       "high_chol": 20,
       "gout": 16,
@@ -28,9 +28,9 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 39,
-    "new_areas": 28,
-    "resource_relationships": 10,
+    "organization_identities": 47,
+    "new_areas": 36,
+    "resource_relationships": 11,
     "community_specific_records": 1,
     "existing_resource_upgraded": 1
   },
@@ -38,10 +38,10 @@
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "67 areas without identities: remaining Africa/Asia/Pacific and territories",
+    "59 areas without identities: see exact areas_without_identity list",
     "Original-language publications for directory-only identities",
     "Seven-condition diversification beyond diabetes",
-    "Historical Pacific association re-verification and source-integrity/legal continuity gaps"
+    "Historical Pacific association re-verification; registry continuity and source-quality gaps"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -54,5 +54,243 @@
     "data/subnational_and_indigenous_organizations.csv",
     "data/search_log.csv"
   ],
-  "validated_data_commit_note": "Previous immutable data checkpoint batch20; batch21 data committed alongside this file. Resolve HEAD and independently verify."
+  "validated_data_commit_note": "Previous immutable data checkpoint batch21; batch22 data committed alongside this file. Resolve HEAD and independently verify.",
+  "areas_without_identity": [
+    {
+      "m49": "010",
+      "area": "Antarctica"
+    },
+    {
+      "m49": "016",
+      "area": "American Samoa"
+    },
+    {
+      "m49": "064",
+      "area": "Bhutan"
+    },
+    {
+      "m49": "074",
+      "area": "Bouvet Island"
+    },
+    {
+      "m49": "086",
+      "area": "British Indian Ocean Territory"
+    },
+    {
+      "m49": "090",
+      "area": "Solomon Islands"
+    },
+    {
+      "m49": "096",
+      "area": "Brunei Darussalam"
+    },
+    {
+      "m49": "140",
+      "area": "Central African Republic"
+    },
+    {
+      "m49": "148",
+      "area": "Chad"
+    },
+    {
+      "m49": "162",
+      "area": "Christmas Island"
+    },
+    {
+      "m49": "166",
+      "area": "Cocos (Keeling) Islands"
+    },
+    {
+      "m49": "174",
+      "area": "Comoros"
+    },
+    {
+      "m49": "184",
+      "area": "Cook Islands"
+    },
+    {
+      "m49": "226",
+      "area": "Equatorial Guinea"
+    },
+    {
+      "m49": "238",
+      "area": "Falkland Islands (Malvinas)"
+    },
+    {
+      "m49": "239",
+      "area": "South Georgia and the South Sandwich Islands"
+    },
+    {
+      "m49": "260",
+      "area": "French Southern Territories"
+    },
+    {
+      "m49": "262",
+      "area": "Djibouti"
+    },
+    {
+      "m49": "266",
+      "area": "Gabon"
+    },
+    {
+      "m49": "292",
+      "area": "Gibraltar"
+    },
+    {
+      "m49": "296",
+      "area": "Kiribati"
+    },
+    {
+      "m49": "304",
+      "area": "Greenland"
+    },
+    {
+      "m49": "334",
+      "area": "Heard Island and McDonald Islands"
+    },
+    {
+      "m49": "336",
+      "area": "Holy See"
+    },
+    {
+      "m49": "408",
+      "area": "Democratic People's Republic of Korea"
+    },
+    {
+      "m49": "438",
+      "area": "Liechtenstein"
+    },
+    {
+      "m49": "446",
+      "area": "China, Macao Special Administrative Region"
+    },
+    {
+      "m49": "492",
+      "area": "Monaco"
+    },
+    {
+      "m49": "499",
+      "area": "Montenegro"
+    },
+    {
+      "m49": "520",
+      "area": "Naoero"
+    },
+    {
+      "m49": "535",
+      "area": "Bonaire, Sint Eustatius and Saba"
+    },
+    {
+      "m49": "548",
+      "area": "Vanuatu"
+    },
+    {
+      "m49": "562",
+      "area": "Niger"
+    },
+    {
+      "m49": "570",
+      "area": "Niue"
+    },
+    {
+      "m49": "574",
+      "area": "Norfolk Island"
+    },
+    {
+      "m49": "580",
+      "area": "Northern Mariana Islands"
+    },
+    {
+      "m49": "581",
+      "area": "United States Minor Outlying Islands"
+    },
+    {
+      "m49": "583",
+      "area": "Micronesia (Federated States of)"
+    },
+    {
+      "m49": "585",
+      "area": "Palau"
+    },
+    {
+      "m49": "612",
+      "area": "Pitcairn"
+    },
+    {
+      "m49": "624",
+      "area": "Guinea-Bissau"
+    },
+    {
+      "m49": "626",
+      "area": "Timor-Leste"
+    },
+    {
+      "m49": "638",
+      "area": "Réunion"
+    },
+    {
+      "m49": "652",
+      "area": "Saint Barthélemy"
+    },
+    {
+      "m49": "654",
+      "area": "Saint Helena"
+    },
+    {
+      "m49": "663",
+      "area": "Saint Martin (French Part)"
+    },
+    {
+      "m49": "666",
+      "area": "Saint Pierre and Miquelon"
+    },
+    {
+      "m49": "678",
+      "area": "Sao Tome and Principe"
+    },
+    {
+      "m49": "728",
+      "area": "South Sudan"
+    },
+    {
+      "m49": "732",
+      "area": "Western Sahara"
+    },
+    {
+      "m49": "744",
+      "area": "Svalbard and Jan Mayen Islands"
+    },
+    {
+      "m49": "760",
+      "area": "Syrian Arab Republic"
+    },
+    {
+      "m49": "762",
+      "area": "Tajikistan"
+    },
+    {
+      "m49": "772",
+      "area": "Tokelau"
+    },
+    {
+      "m49": "795",
+      "area": "Turkmenistan"
+    },
+    {
+      "m49": "796",
+      "area": "Turks and Caicos Islands"
+    },
+    {
+      "m49": "798",
+      "area": "Tuvalu"
+    },
+    {
+      "m49": "850",
+      "area": "United States Virgin Islands"
+    },
+    {
+      "m49": "876",
+      "area": "Wallis and Futuna Islands"
+    }
+  ]
 }

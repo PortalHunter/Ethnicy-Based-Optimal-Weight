@@ -1,6 +1,6 @@
 # Team B gaps and open questions
 
-Current checkpoint: batch21,285 identities/181 areas/174 resources/168 positive/1568 unresearched.67 areas have no identity. Historical totals below remain dated history; STATUS.md and CHECKPOINT.json supersede them. All unresolved caveats persist unless explicitly closed below.
+Current checkpoint: batch22,293 identities/189 areas/175 resources/169 positive/1567 unresearched.59 areas have no identity. Historical totals below remain dated history; STATUS.md and CHECKPOINT.json supersede them. Unresolved caveats persist unless explicitly closed.
 
 - The 248 × 7 M49 coverage matrix is a **discovery-status skeleton**, not completed organization research. All unreviewed cells are explicitly `not_yet_researched`; never infer that a condition-specific body does not exist.
 - Current rendered UNSD overview has exact248-code match (batch9); separate direct downloadable-export comparison and WHO/legal-jurisdiction checks remain pending. The roster excludes ISO numeric 158 (Taiwan), absent from the UNSD overview. UN M49 statistical practice is not a sovereignty statement.
@@ -189,3 +189,13 @@ Nine identities/seven gout resources, no new geographic identity area. Argentina
 - Malta diagnosis page now substantively readable: existing homepage-index edge upgraded in place, not a second resource. Universal biopsy/only-tests wording, fixed gluten-challenge duration and biennial family testing need current age-specific guideline comparison. No self-directed challenge/screening instruction approved.
 - Cyprus English about text reverses gluten/gluten-free wording; separate educational page differs. Translation quality concern; Greek navigation redirected to English, no independent Greek review claimed. Andorra communal register corroborates existing ACEA, no duplicate; registration-number suffix not founding-year evidence.
 - Two Swedish identities added. Hemokromatosförbundet own founding2018 identified, but uncited Celtic/lactose/blood-group/penetrance assertions receive no resource credit. SGF hosts four-page patient brochure dated in catalogue2022-09-07; PDF individual author/edition unverified. Fixed penetrance,biopsy/exclusion and treatment assertions unappraised. HFE genotype,measured iron overload and clinical penetrance remain separate; no treatment schedules imported.
+
+
+## Batch22 territories: local identity versus inherited authority
+
+- Diabetes Isle of Man own site names former Manx Diabetic Group and charity415, not independently registry-verified. DiabetesUK literature partnership explicitly nonfinancial, distinct entities. Historical funding/access claims not current service guarantees; homepage prevalence not imported. Cayman CIDA IDF identity verified, own site inaccessible.
+- Curacao Medical Center indexed referral corroborates Diabetesvereniging Curacao/sokudi.org; direct429/own domain inaccessible, legal expansion of SOKUDI unresolved. Government-funded Sentro Salu Publiko is separate and not added as NGO.
+- Aland member page and2025 two-page own report verify local association; report signed2026-02-11, not a clinical study or independent resource credit. Cooperation with Finland/Swedish-language materials does not imply Swedish jurisdiction.
+- AFD971 Guadeloupe and AFD972 Martinique own hosted identities are local associations; national federation footer dates/SIRET/public-utility status cannot be assumed local. Martinique name variants/legal wording and ISO policy versus certification unresolved. ADiAG French Guiana own site has unfinished templates; no placeholder education credit.
+- Mayotte Rediab Ylang976 own association/network identity and public diabetes explanation retrieved; historical IDF6th edition link and three-type summary not current comprehensive classification. Coco BaCoco2016 catalogue/local-language title verified, full booklet and Shimaore/Shibushi versions not reviewed. Do not turn local cuisine into genotype/ancestry dietary claims.
+- Greenland Steno centre integrated in public health service since2020; funder support does not make it NGO and2025 building inauguration not founding. Excluded TeamA scope. Gibraltar generic2024 Diabetic Association/secondary2026 Diabetes Gibraltar naming continuity unresolved; no identity credited yet.

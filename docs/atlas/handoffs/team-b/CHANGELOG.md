@@ -125,3 +125,8 @@ Added7 identities across5 new areas (Guam,French Polynesia,Marshall Islands,Camb
 ## 2026-11-05 — Batch21 celiac/hemochromatosis quality review
 
 Added2 Swedish identities and2 net new source relationships (Luxembourg celiac,Sweden hereditary iron overload). Upgraded Malta existing guide-index edge to substantive diagnosis page without double counting; reverified ALIG own identity,Andorra registry and Cyprus translation concern.8 provenance/8 search rows added. Totals285 identities/181 areas/174 resources/168 positive/1568 not_yet_researched. Nine-CSV core zero errors. No clinical approvals.
+
+
+## 2026-11-05 — Batch22 territories
+
+Added8 identities in8 new areas (Isle of Man,Cayman Islands,Curacao,Aland,Martinique,French Guiana,Guadeloupe,Mayotte) andone substantive Mayotte diabetes education edge.10 provenance/14 search rows. Identity-only activity report and mission pages not counted as resources. Greenland government-service exclusion and Gibraltar naming gap logged. Totals293 identities/189 areas/175 resources/169 positive/1567 not_yet_researched; zero clinical approvals; nine-CSV core zero errors.
