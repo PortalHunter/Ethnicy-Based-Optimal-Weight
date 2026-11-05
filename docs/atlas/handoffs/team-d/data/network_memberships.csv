@@ -15,3 +15,12 @@ m49:360,WHO_WPRO,WHO_region,360,,2025-05-23,,2026-11-04,https://www.who.int/sout
 m49:012,WHO_AFRO,WHO_region,012,,,,2026-11-04,https://www.who.int/data/gho/data/countries/country-details/GHO/algeria?countryProfileId=d4fe1e31-462d-4859-b76e-dd550a5d7cbf,VERIFIED_PRIMARY,Algeria UN Northern Africa but WHO AFRO
 m49:626,ASEAN,member_of,626,,2025-10-26,,2026-11-04,https://asean.org/forging-a-new-era-timor-leste-admitted-into-asean/,VERIFIED_PRIMARY,Timor-Leste becomes eleventh ASEAN Member State
 m49:360,ASEAN,member_of,360,,1967-08-08,,2026-11-04,https://asean.org/about-asean,VERIFIED_PRIMARY,Founding ASEAN Member State
+PAHO_HEARTS,PAHO,operated_by,,,,,2026-11-04,https://www.paho.org/en/hearts-americas,VERIFIED_PRIMARY,PAHO provides technical support to country-led initiative
+AFRICA_SPARK,AFRICA_CDC,operated_by,,,,,2026-11-04,https://africacdc.org/news-item/africa-cdc-rolls-out-continental-spark-ncds-programme-as-noncommunicable-diseases-rise-across-africa/,VERIFIED_PRIMARY,Africa CDC programme launched March 2026
+WHO_SEA_DIABETES,WHO_SEARO,published_by,,,,,2026-11-04,https://www.who.int/southeastasia/publications/i/item/9789290222255,VERIFIED_PRIMARY,Historical case study included Indonesia; does not override WPRO assignment
+WHO_PAC_NCD,WHO_WPRO,operated_by,,,,,2026-11-04,https://www.who.int/westernpacific/activities/addressing-ncds-in-the-pacific,VERIFIED_PRIMARY,WHO regional programme not statutory national adoption
+PAHO_HEARTS,WHO_HEARTS,regional_implementation_of,,,,,2026-11-04,https://www.paho.org/en/hearts-americas,VERIFIED_PRIMARY,HEARTS regional implementation with country-led adaptations
+ECDC,EU,agency_of,,,,,2026-11-04,https://www.ecdc.europa.eu/en/about-us,VERIFIED_PRIMARY,Public health agency with infectious disease remit
+EMA,EU,agency_of,,,,,2026-11-04,https://www.ema.europa.eu/en/about-us/how-we-work/european-medicines-regulatory-network,VERIFIED_PRIMARY,EU medicines agency; scientific opinions distinct from Commission binding decisions
+WHL,ISH,cooperates_with,,,,,2026-11-04,https://www.whleague.org/about-us,VERIFIED_PRIMARY,WHL describes official relations with ISH
+PAHO_HEARTS,WHL,cooperates_with,,,,,2026-11-04,https://www.paho.org/en/hearts-americas,VERIFIED_PRIMARY,PAHO lists WHL as HEARTS partner; programme partnership only
