@@ -1,3 +1,9 @@
+## Latest Team A batch 13 — 2026-11-05
+
+**DATA commit:** `c7049a1293112ae93b91962802d732b5931e7bf2`; newest standalone [Batch 13 checkpoint](CHECKPOINT_20261105_BATCH13.md) and [complete continuation](CONTINUE.md). 248/248 dated official M49 geography, **100/248 located governmental principal identities**, **148** unresolved; 147 government bodies, 37 internal relations, 204 provenance rows, 248 ledger. Promoted 162 Christmas, 166 Cocos (Australia administrative health role, not local ministry); 232 Eritrea (government English only, original Tigrinya pending); 292 Gibraltar (ministerial portfolio, GHA/Public Health distinct); 324 Guinea (official French identity; undated presidential directory personnel conflict). Legal instruments and all cross-M49 parent claims pending. **Independent exact-commit structural audit PASS**, **Python validate.py NOT RUN**. PR remains DRAFT and unmerged; website unchanged. See standalone checkpoint for every source/caveat.
+
+---
+
 ## Latest Team A research-only Batch 12 checkpoint — 2026-11-05
 
 Data commit `3aa199259d0a569e67dfb42980434bbf7b48d4b2` added **five** principal governmental ministry identities: Comoros 174 `gov-174-001`; Faroe Islands 234 `gov-234-001`; Lithuania 440 `gov-440-001`; Maldives 462 `gov-462-001`; Malta 470 `gov-470-001`. Two separate national/territorial government health bodies `gov-234-002` (Heilsustýrið, Faroe Islands) and `gov-440-002` (Lithuanian health-care accreditation regulator) and two supported **within-area** institutional relations were added. Dated issuer/language/limitations and exact governmental sources are in `PROVENANCE.csv`, bodies, and [Batch 12 checkpoint](CHECKPOINT_20261105_BATCH12.md). No cross-M49 parent was inferred.

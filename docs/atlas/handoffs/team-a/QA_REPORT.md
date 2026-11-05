@@ -1,3 +1,9 @@
+## Batch 13 exact-SHA independent structural validation — 2026-11-05
+
+**Data SHA:** `c7049a1293112ae93b91962802d732b5931e7bf2`. Independently re-fetched all five normalized CSVs plus official 248-row dated M49 snapshot from exact commit; quote-aware parser validated **248** distinct geography records and ISO/name/region/subregion matching master; 100 identified/148 explicit unknown; 147 unique bodies with area references, government URLs/language/verification state and missing Tigrinya flag; 37 referenced government links; 204 unique provenance source IDs with issuer/date/language/state/HTTPS; 248 synced coverage; 24 territory/special-status sentinels and no unproved cross-area parent M49. Region distribution Africa 60, Americas 57, Asia 50, Europe 51, Oceania 29, unassigned 1. **PASS structural.** `python docs/atlas/handoffs/team-a/validate.py` was **NOT EXECUTED** for Batch 13 due local Git checkout DNS inability; do not call structural audit a Python pass. Statutory/current mandates and 2-independent-check completeness **NOT CERTIFIED**. See [checkpoint](CHECKPOINT_20261105_BATCH13.md) for evidence and scope caveats.
+
+---
+
 ## NEWEST Batch 12 exact-SHA independent structural audit — 2026-11-05
 
 **Research data commit:** `3aa199259d0a569e67dfb42980434bbf7b48d4b2` (read back from actual GitHub commit, NOT simply the write buffer).

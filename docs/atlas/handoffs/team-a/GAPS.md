@@ -1,3 +1,9 @@
+## Latest Batch 13 unresolved — 2026-11-05
+
+**148/248** principal M49 identities remain explicitly unknown; 100 identities located do NOT imply statutes/mandates fully checked. New identity findings 162/166 require legal instrument for Australian Commonwealth responsibilities, WA applied laws, SDA and any parent M49 036; 232 Eritrea needs ministry primary site/Tigrinya name/statutes; 292 Gibraltar needs official legal hierarchy, UK reserved powers and Public Health Department relationships; 324 Guinea needs signed/current cabinet or health law decree to reconcile undated presidential roster vs current ministry site. All 5 details/URLs in [Batch 13 checkpoint](CHECKPOINT_20261105_BATCH13.md). Queue 074,104,112,175,192,226,248,254,258,260, and remaining unknowns. Preserve **all** Batch 12 and older legislative/draft/disputed-source caveats below.
+
+---
+
 ## NEWEST Batch 12 open research gaps — 2026-11-05
 
 **153/248 principal government health-authority identities still unresolved**; 95 identity findings do not prove all current statutory mandates. All 248 official M49 country-or-area keys reconciled. Newly identified 174/234/440/462/470 have distinct legal/source gaps; do NOT use the older Batch 11 queue below as a current unknown list.

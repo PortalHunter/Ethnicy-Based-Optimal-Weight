@@ -1,3 +1,11 @@
+## 2026-11-05 — Batch 13 official-government authority census enrichment
+
+- **Data commit `c7049a1293112ae93b91962802d732b5931e7bf2`**: source-verified 5 formerly unknown M49 principal administrative health identities (162 Christmas, 166 Cocos, 232 Eritrea, 292 Gibraltar, 324 Guinea). New 9 distinct government bodies, 4 within-government relations, 15 provenance rows. 100 identity located / 148 unresolved, 147 bodies, 37 links, 204 provenance, 248 official M49 geography and ledger.
+- Independent Australian ANAO + Commonwealth administrative checks distinguish territory health authority from IOTHS services and WA SDA; Eritrea Ministry of Information 2026 sources have local Tigrinya/statutory caveat; Gibraltar sources identify ministerial *portfolio* not free-standing ministry; Guinea ministry 2026 site conflicts with undated presidential personnel directory. No inferred parent M49, no enacted claims based on draft law.
+- Exact DATA SHA 6-CSV independent structural audit **PASS**; Python validator **NOT RUN**. Complete GitHub [Batch 13 standalone checkpoint](CHECKPOINT_20261105_BATCH13.md) and renewed source/QA/handoff docs. Prior caveats untouched, PR draft/unmerged, no website/medical changes.
+
+---
+
 ## 2026-11-05 — Batch 12 official-source governmental directory enrichment
 
 - **DATA commit:** `3aa199259d0a569e67dfb42980434bbf7b48d4b2`; latest documentation commit is a separate follow-up. Promoted five formerly explicit unknown principal M49 entries to source-backed *identity/limited-remit* findings: 174 Comoros `gov-174-001`, 234 Faroe Islands `gov-234-001`, 440 Lithuania `gov-440-001`, 462 Maldives `gov-462-001`, 470 Malta `gov-470-001`. No assumption of complete legal authority.
