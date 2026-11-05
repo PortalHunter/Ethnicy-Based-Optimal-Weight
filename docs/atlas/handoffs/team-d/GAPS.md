@@ -1,3 +1,9 @@
+## Batch 23 unresolved — Greenland regional cooperation versus membership (2026-11-05)
+
+Directly reviewed WHO/Europe primary notices support a March/June **2023** high-level Greenland relationship and a **1 July 2024** five-year health cooperation MoU, not a definitive **2026** WHO administrative affiliation, constitutional member status, SCI/RHN formal participation, physical office, an enacted national health policy or a precise agreement expiration. Greenland M49 `304` remains `not_verified` among **44** administrative WHO region gaps. Full signed MoU instrument unreviewed. The other **144** office direct-positive gaps, 46 aged office-survey recency questions, PAHO 13/14 and 403/source-term contradiction, SCI North Macedonia exact accession, APPM signatories, EMA remits, HEARTS/ASEAN actual implementation and A/B/C exact joins remain. [Batch 23 checkpoint](CHECKPOINT_BATCH_23_2026-11-05.md).
+
+---
+
 ## Batch 22 outstanding — 2026-11-05
 
 PAHO's dated 2026-10-23 announcement sets Ian Stein's Bahamas (`044`) / Turks and Caicos (`796`) representation effective **2026-10-22**; its 2026-10-30 notice sets Boisson's Jamaica (`388`) / Bermuda (`060`) / Cayman (`136`) role effective **2026-10-29**. **Conflicting official historical month:** the first notice says Boisson's previous Bahamas/Turks tenure began **February 2021**; the later says **January 2021**. Both archived as separate source observations, not adjudicated. Ian's previous tenure was described only as **since 2021** and its exact end remains unknown; do not invent a 22–29 October interim transfer.

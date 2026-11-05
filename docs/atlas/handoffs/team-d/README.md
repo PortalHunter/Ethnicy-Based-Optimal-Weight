@@ -1,3 +1,9 @@
+## Latest Team D Batch 23 research — 2026-11-05
+
+[Standalone complete checkpoint](CHECKPOINT_BATCH_23_2026-11-05.md). Four source-qualified WHO/Europe Greenland 2023–24 observations, one dated cooperation MoU graph edge, three directly reviewed WHO URLs: **47 network nodes / 617 relationships / 195 provenance URLs**. Historical WHO regional description and formal WHO-Europe cooperation **are not 2026 WHO administrative/constitutional membership, a physical office or local clinical adoption**. Greenland 304 remains unknown; total current WHO regions 205 verified/44 unknown. Full checked-in structural assertions **PASS via read-only JS shim** (52 PR files, 32 reads), not native Node/Actions or clinical/legal review. PR #70 draft and unmerged.
+
+---
+
 ## Most recent research — Batch 22, 2026-11-05
 
 [Complete standalone Batch 22 checkpoint](CHECKPOINT_BATCH_22_2026-11-05.md) · [Continuation prompt](CONTINUATION_PROMPT.md).

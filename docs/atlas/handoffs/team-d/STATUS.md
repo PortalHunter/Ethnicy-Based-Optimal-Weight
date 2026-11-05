@@ -1,3 +1,9 @@
+# Team D verified latest status — Batch 23 (2026-11-05)
+
+[Complete standalone Batch 23 checkpoint](CHECKPOINT_BATCH_23_2026-11-05.md). Data/validator commit `5bb0e50dd3c911941d72c81f1b562323892e4258`: four Greenland WHO/Europe dated historical/cooperation/proposed-network observations, one 1 July 2024 typed `cooperates_with` edge, three directly reviewed WHO source URLs `TD-SRC-193–195`. **47 nodes / 617 edges / 195 URLs**, current WHO regions **205 verified / 44 unknown**, 105 April office positives and 228 historical 2021–22 office/service rows unchanged. Full checked-in structural assertions **PASS** via read-only JavaScript shim using 52 PR files/32 inputs; **not native Node/Actions or scientific/legal/clinical approval**. PR #70 open/draft/unmerged, Team D only.
+
+---
+
 # Team D latest verified status — Batch 22 (2026-11-05)
 
 **[Complete standalone Batch 22 checkpoint](CHECKPOINT_BATCH_22_2026-11-05.md)** · [Continuation prompt](CONTINUATION_PROMPT.md).

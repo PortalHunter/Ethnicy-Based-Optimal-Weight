@@ -1,3 +1,11 @@
+## Batch 23 — 2026-11-05 — Greenland WHO/Europe cooperation evidence with strict time/legal separation
+
+- Data/source/validator commit `5bb0e50dd3c911941d72c81f1b562323892e4258`: four Greenland records in `data/who_greenland_cooperation_2023_2024.csv`, one dated `m49:304 → WHO_EURO` cooperation link, three directly reviewed WHO URLs `TD-SRC-193–195`. All four edited files independently read back byte-identically. **47 nodes / 617 typed links / 195 unique URLs**; WHO administrative status 205/44 unchanged, no assumed regional membership or local adoption.
+- Full checked-in structural validator **PASS** using read-only JS/Node-compatible shim from 52 Team D PR files and 32 CSV/provenance dependencies (two large files fetched separately). Not literal native Node, Actions, signed MoU instrument, legal/clinical appraisal.
+- [Complete standalone Batch 23 checkpoint](CHECKPOINT_BATCH_23_2026-11-05.md). Only Team D research branch, PR #70 draft/open/unmerged.
+
+---
+
 ## Batch 22 — 2026-11-05 — documented PAHO Caribbean representative succession, local programme evidence and explicit source uncertainty
 
 - `7dbbe72e3d4fe763f9854d9b4caf75bd78170d07`: **12** PAHO assignment-source rows, five new country/area appointments with 2026-10-22 or 2026-10-29 effective dates plus seven older-term claims. Official notices disagree on **Jan vs Feb 2021** start of Boisson's former term; keep both.
