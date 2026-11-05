@@ -1,3 +1,11 @@
+## 2026-11-05 — Batch 17: four new principals, Portugal statutory DGS relationship
+
+- Immutable DATA SHA `14bf3f2e748d5d439bc645002592c4ae3dc2a41a`: ONLY Team A `data/countries.csv`, `data/government_health_bodies.csv`, `data/country_coverage.csv`, `PROVENANCE.csv`, `data/authority_relationships.csv`. Added Peru 604, Philippines 608, Poland 616, Portugal 620 principal identities; Portuguese DGS directorate separate, statutory direction Article 23 link; **4** principals / **5** body records / **10** source entries / **1** relationship; zero prior sources removed and zero invented parent M49.
+- **248/248** official UN M49 geography, **120** identified / **128** unknown, **169** bodies, **39** links, **253** provenance, **248** coverage. Exact GitHub immutable six-CSV quote-aware audit **PASS structural**; **Python validator NOT RUN** due local DNS. Full source-issuer and enactment distinctions in [complete checkpoint](CHECKPOINT_20261105_BATCH17.md).
+- DRAFT PR #68 remains open/unmerged; public website, main, calculator, clinical and other teams unchanged.
+
+---
+
 ## 2026-11-05 — Batch 16: five governmental principals and original-language names
 
 - **DATA SHA `fa345c550e47213c780557038a881fb8e612b75d`** updates only Team A `data/countries.csv`, `data/government_health_bodies.csv`, `data/country_coverage.csv`, `PROVENANCE.csv`. New area identities Mexico 484, Aotearoa New Zealand 554, Spain 724, Switzerland 756, Uruguay 858; five distinct body records and **12** dated official provenance entries; **0** new relationship edges.

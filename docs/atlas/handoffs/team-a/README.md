@@ -1,3 +1,9 @@
+## Latest Team A census — Batch 17 (2026-11-05)
+
+[Complete standalone Batch 17 checkpoint](CHECKPOINT_20261105_BATCH17.md) and [continuation](CONTINUE.md): 248/248 UN M49 geographic inventory; **120/248 government principal identities**, **128 unknown**, 169 separate government bodies, 39 cited internal links, 253 provenance records, 248 coverage rows; DATA SHA `14bf3f2e748d5d439bc645002592c4ae3dc2a41a`. Peru, Philippines, Poland and Portugal now have official-source identity records; Portugal DGS separately mapped under **enacted consolidated Article 23 ministerial power of direction**. Exact independent GitHub SHA six-CSV integrity audit PASS, **Python validator NOT RUN** due local DNS. Most legal mandates and devolved functions incomplete. Only Team A files on DRAFT PR #68; website and clinical app untouched.
+
+---
+
 ## Latest Team A census status — Batch 16 (2026-11-05)
 
 [Complete standalone latest Batch 16 checkpoint](CHECKPOINT_20261105_BATCH16.md) / [continuation](CONTINUE.md). **248/248** verified official M49 geographic skeletons; **116/248** principal governmental health-policy identities only, **132** explicit unknowns; **164** distinct bodies, **38** supported links, **243** source checks, **248** coverage rows. DATA commit `fa345c550e47213c780557038a881fb8e612b75d`; independent immutable six-CSV audit PASS; **Python validator NOT RUN** due local DNS. Full statutory/devolved powers and 2 independent source checks remain unfinished. PR #68 DRAFT and unmerged; Team A folder only; no public website change.

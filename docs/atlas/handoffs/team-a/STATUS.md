@@ -1,3 +1,12 @@
+## 2026-11-05 — Batch 17 live research status
+
+- **248/248** UN M49 official country/area geographic skeleton and aligned ledger; **120** principal governmental health-policy identities located, **128** explicitly `UNKNOWN_REVIEW_NEEDED` (not proved absence); **169** governmental body records, **39** internal relations, **253** dated provenance records. Identity is **not** current full legal mandate verification.
+- Latest immutable **data SHA `14bf3f2e748d5d439bc645002592c4ae3dc2a41a`**, [complete standalone Batch 17 checkpoint](CHECKPOINT_20261105_BATCH17.md). Four current principals: Peru, Philippines, Poland, Portugal; extra Portuguese DGS record + single statutory Article 23 direction link. Ten new official-source records; prior work preserved.
+- Independent exact-data-SHA six-CSV quote-aware structural readback **PASS**; **Python `validate.py` NOT RUN** due GitHub DNS from local sandbox. Do not confuse structural checks with current statutory powers, independent legal evidence for every territory or clinical accuracy.
+- PR #68 **OPEN/DRAFT/unmerged**; only `docs/atlas/handoffs/team-a/` changed, zero inferred parent M49, no patient-facing app/site modifications. 128 unknown and deep statutory/devolution checks remain.
+
+---
+
 ## Latest 2026-11-05 Batch 16 government health-authority census
 
 **Independently audited DATA commit:** [`fa345c550e47213c780557038a881fb8e612b75d`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/fa345c550e47213c780557038a881fb8e612b75d). **248/248** UN M49 skeletons; **116** principal identity finds / **132 unknown**; **164** bodies, **38** cited links, **243** provenance checks, **248** coverage rows, **no unverified parent M49**. This batch: Mexico 484, NZ 554, Spain 724, Swiss BAG 756, Uruguay 858 (five body records, twelve source records; no relationship claims). All source URLs, independent issuer and proposal/enactment limitations in [complete Batch 16 checkpoint](CHECKPOINT_20261105_BATCH16.md). **Identity is NOT full statutory competence**. Separate immutable GitHub six-CSV quote-aware audit PASS; Python `validate.py` NOT RUN (DNS). Historical Batch 15 retained below. PR #68 DRAFT/unmerged; no website, clinical or other-team modifications.
