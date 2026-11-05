@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,46);assert.equal(edges.length,574);assert.equal(prov.length,133);
+assert.equal(nodes.length,47);assert.equal(edges.length,586);assert.equal(prov.length,145);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -200,3 +200,21 @@ assert.equal(statuses.find(r=>r.m49_code==='438').who_region,'not_verified');
  assert.equal(statuses.find(r=>r.m49_code==='534').who_region,'not_verified');
 
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length},null,2));
+
+// Batch 15: WHO Europe SCI 2022 video metadata versus explicit 2026 roster; office checks separate from 2024 surveys.
+const sciSnapshots=read('data/who_europe_sci_snapshots.csv'), officeCrosschecks=read('data/who_office_independent_checks_2026.csv');
+unique(sciSnapshots,r=>r.record_id,'SCI snapshot ID');unique(officeCrosschecks,r=>r.record_id,'office source crosscheck ID');
+assert.equal(sciSnapshots.length,23);
+assert.equal(sciSnapshots.filter(r=>r.snapshot_as_of==='2022-04-11'&&r.source_snapshot_kind==='WHO_VIDEO_TOPIC_METADATA').length,11);
+assert.equal(sciSnapshots.filter(r=>r.snapshot_as_of==='2026-06-09'&&r.source_snapshot_kind==='WHO_DATED_PARTICIPANT_ROSTER').length,12);
+assert(!sciSnapshots.some(r=>r.snapshot_as_of==='2022-04-11'&&r.country_area_m49==='807'));
+assert(sciSnapshots.some(r=>r.snapshot_as_of==='2026-06-09'&&r.country_area_m49==='807'));
+assert(ids.has('WHO_EURO_SCI'));
+const sciEdges=edges.filter(r=>r.to_id==='WHO_EURO_SCI'&&r.relationship_type==='participates_in_voluntary_health_initiative');
+assert.equal(sciEdges.length,12);
+for(const r of sciSnapshots){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.network_id,'WHO_EURO_SCI');}
+for(const r of sciEdges){assert(official.has(r.country_area_m49));assert.equal(r.as_of,'2026-06-09');assert.equal(r.valid_from,'');assert.equal(r.valid_to,'');assert(sources.has(r.source_url));assert(sciSnapshots.some(s=>s.country_area_m49===r.country_area_m49&&s.snapshot_as_of==='2026-06-09'));}
+assert.equal(officeCrosschecks.length,9);
+assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='day').length,4);
+assert.equal(officeCrosschecks.filter(r=>r.source_date_precision==='undated'&&r.source_published_on==='unknown').length,5);
+for(const r of officeCrosschecks){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.checked_on,'2026-11-05');assert.equal(r.source_claim_scope,'INDEPENDENT_SOURCE_CORROBORATION_NOT_SURVEY_REFRESH');assert(surveyRoster.some(s=>s.country_area_m49===r.country_area_m49&&s.latest_self_reported_survey==='2024-09'));if(r.source_date_precision==='day')assert.match(r.source_published_on,/^2026-\d{2}-\d{2}$/);}
