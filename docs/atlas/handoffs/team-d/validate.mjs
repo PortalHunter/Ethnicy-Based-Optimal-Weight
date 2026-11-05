@@ -253,7 +253,7 @@ assert(sources.has(historicSidsUrl));assert(sources.has(historicEccUrl));
 for(const r of historicSids){assert(official.has(r.country_area_m49));assert.equal(r.who_region_heading,'AMRO');assert.equal(r.source_url,historicSidsUrl);assert.equal(r.source_snapshot_as_of,'2021-07');assert.equal(r.source_date_precision,'month');assert.equal(r.source_context_period,'2019-2020 WHO country presence context');assert.equal(statuses.find(x=>x.m49_code===r.country_area_m49).who_region,'not_verified');}
 for(const r of historicEcc){assert(official.has(r.country_area_m49));assert.equal(r.office_network_id,'WHO_MCO_BARBADOS');assert.equal(r.source_url,historicEccUrl);assert.equal(r.source_report_year,'2019');assert.equal(r.observed_valid_from,'');assert.equal(r.observed_valid_to,'');}
 assert.equal(historicEcc.filter(r=>r.relationship_type==='OFFICE_HOST_IN_2019').length,1);
-assert.equal(historicEcc.filter(r=>r.relationship_type==='COVERED_BY_BARBDOS_WHO_MCO_2019').length,13);
+assert.equal(historicEcc.filter(r=>r.relationship_type==='COVERED_BY_BARBADOS_WHO_MCO_2019').length,13);
 assert(historicEcc.some(r=>r.country_area_m49==='663'));
 assert(!historicSids.some(r=>r.country_area_m49==='663'));
 assert(historicSids.some(r=>r.country_area_m49==='534'));
