@@ -2,7 +2,7 @@
 
 **Current snapshot: 2026-11-05. See STATUS.md for authoritative current counts; the inventory below is the original 2026-11-04 baseline.**
 
-Current additional work: all 53 WHO Europe region assignments verified. Current totals in STATUS.md.
+Current additional work: all 53 WHO Europe and 47 WHO Africa region assignments verified. Current totals in STATUS.md.
 
 Batch 1 added: 248 official UN M49 crosswalk records; one separately retained ISO seed exception; ten new SEARO region edges; ten independent office presence records. See BATCH_2026-11-05.md.
 

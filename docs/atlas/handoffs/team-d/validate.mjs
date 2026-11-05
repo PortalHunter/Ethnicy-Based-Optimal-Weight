@@ -29,4 +29,5 @@ assert(!offices.some(r=>r.country_area_m49==='360'));
 assert.equal(statuses.filter(r=>r.who_region==='EURO').length,53);
 assert.equal(statuses.find(r=>r.m49_code==='438').who_region,'not_verified');
 assert.equal(statuses.find(r=>r.m49_code==='398').who_region,'EURO');
+assert.equal(statuses.filter(r=>r.who_region==='AFRO').length,47);
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,provenance:prov.length},null,2));

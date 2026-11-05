@@ -1,5 +1,12 @@
 # Team D — Changelog
 
+## 2026-11-05 — Batch 3: WHO African Region
+
+- Verified all 47 countries on current official AFRO directory; added 46 assignments and 46 region edges, rechecked Algeria.
+- Documented three explicit country-name aliases. No geography-to-membership or profile-to-office inference.
+- Totals: 223 edges, 111 verified region statuses, 138 not_verified, 51 provenance URLs.
+
+
 ## 2026-11-05 — Batch 2: WHO Europe
 
 - Verified 53 current regional assignments by exact UN name matching; added 53 region edges.
