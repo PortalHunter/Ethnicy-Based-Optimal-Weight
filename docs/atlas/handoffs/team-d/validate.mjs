@@ -150,9 +150,9 @@ assert.equal(regulatory.filter(r=>r.relationship_group==='MULTILATERAL_REGULATOR
 assert.equal(regulatory.filter(r=>r.relationship_group==='APPM_SUPPORT_PARTNERSHIP_REPORTED').length,1);
 for(const r of regulatory){
   assert(sources.has(r.source_url));
-  assert.match(r.reported_signed_on,/^\\d{4}-\\d{2}(-\\d{2})?$/);
+  assert.match(r.reported_signed_on,/^\d{4}-\d{2}(-\d{2})?$/);
   assert.equal(r.date_precision,r.reported_signed_on.length===7?'month':'day');
-  if(/^\\d{3}$/.test(r.counterparty_country_area_m49))assert(official.has(r.counterparty_country_area_m49));
+  if(/^\d{3}$/.test(r.counterparty_country_area_m49))assert(official.has(r.counterparty_country_area_m49));
   else assert.equal(r.counterparty_country_area_m49,'not_applicable_multilateral');
   assert(r.exact_id_join_state.startsWith('PENDING_'));
   assert(r.legal_remit_state.includes('UNVERIFIED'));
@@ -165,4 +165,4 @@ assert.equal(whoBoundary[0].country_area_m49,'438');
 assert(sources.has(whoBoundary[0].source_url));
 assert.equal(statuses.find(r=>r.m49_code==='438').who_region,'not_verified');
 
-console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length},null,2));
+console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length},null,2));
