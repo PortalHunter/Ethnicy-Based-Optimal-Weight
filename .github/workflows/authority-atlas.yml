@@ -1,0 +1,24 @@
+name: Authority atlas integrity
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/atlas/**'
+      - 'scripts/check-authority-atlas.mjs'
+      - '.github/workflows/authority-atlas.yml'
+  pull_request:
+    paths:
+      - 'docs/atlas/**'
+      - 'scripts/check-authority-atlas.mjs'
+      - '.github/workflows/authority-atlas.yml'
+permissions:
+  contents: read
+jobs:
+  atlas-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/check-authority-atlas.mjs
