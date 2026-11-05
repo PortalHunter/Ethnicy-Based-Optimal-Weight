@@ -18,6 +18,7 @@ Team A maintains a geography-keyed atlas of **government** institutions with leg
 - `GAPS.md`: queue of contested, devolved and special jurisdictions and unresolved authorities.
 - `CHANGELOG.md`: commit-by-commit logical batch history.
 - `validate.py`: self-contained offline checks to help next researcher test coverage, links and M49 integrity.
+- `QA_REPORT.md`: executed GitHub CSV integrity audit, region summary and edge-case tests; explicitly distinguishes passing structural tests from incomplete canonical-UN and legal verification.
 
 ## Canonical geography and limitations
 
