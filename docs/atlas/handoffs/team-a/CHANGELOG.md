@@ -46,3 +46,9 @@ Added gov-233-001 Estonia, gov-300-001 Greece, gov-332-001 Haiti, gov-500-001 Mo
 
 Python validate.py passed against the complete datasets. Pending sources include Fiji, Finland, Ethiopia, Ghana, Gambia, Guyana, Jamaica, Guam, France, Ireland, Italy, Malaysia, Rwanda and Zambia; no failed retrieval is evidence of an absent authority. Continue remaining unknown areas in ascending M49 order, seeking alternate official sources for blocked pages. Legal/devolved/rename requirements remain in GAPS.md. The commit containing this section is the batch checkpoint; resolve exact SHA from live branch. Prior parent: 61ae4d2fdfa7e818e7560d43cae28162ca0fb902.
 
+
+## 2026-11-05 — Batch 8: 12 principal authorities plus 2 government health bodies
+
+- Used current government-issued sources to identify Fiji 242, Finland 246, France 250, The Gambia 270, Ghana 288, Kiribati 296, Grenada 308, Guatemala 320, Guyana 328, Ireland 372, Italy 380 and Jamaica 388. Added gov-270-002 and gov-288-002 and two genuinely sourced intra-government edges. A prior failed URL was not overwritten as proof of absence.
+- Full aligned data committed as `413def180d3982ddae65f7cacf453017e389c5c2` and independently fetched back. 73 identified / 175 unknown, 107 bodies, 24 relationships, 136 provenance rows, and 248 M49+coverage rows. All rows matched dated official UN geography snapshot.
+- Executed quote-aware full CSV structural checks and 17 special-area sentinels; did not execute Python against new commit due outbound Git clone restriction (previous batch Python pass recorded separately). Staged research only; main/public site/clinical content unchanged.

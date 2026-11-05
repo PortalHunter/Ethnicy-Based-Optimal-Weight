@@ -1,3 +1,13 @@
+## Latest checkpoint — Batch 8, 2026-11-05
+
+**73/248 areas have government-identified principal health authorities; 175 remain explicitly unresolved.** All 248 M49 countries/areas and 248 coverage rows match the official dated UNSD geography snapshot; 107 governmental health bodies, 24 sourced organizational relationships, and 136 source-provenance rows (including candidate, failed and second-check evidence). This summary supersedes older counts below.
+
+New principal IDs: gov-242-001 (Fiji), gov-246-001 (Finland), gov-250-001 (France), gov-270-001 (The Gambia), gov-288-001 (Ghana), gov-296-001 (Kiribati), gov-308-001 (Grenada), gov-320-001 (Guatemala), gov-328-001 (Guyana), gov-372-001 (Ireland), gov-380-001 (Italy), gov-388-001 (Jamaica). New secondary bodies: gov-270-002 (The Gambia's Ministry Directorate of Health Research) and gov-288-002 (Ghana Health Service), with two internal published structural edges. Earlier failed direct-page attempts remain recorded as failed, even when an alternate official government source verified the identity. These are identity and limited institutional-remit records, **not exhaustive legal mandates**; do not infer parent-country authority or an effective date from the source alone.
+
+Dataset commit: `413def180d3982ddae65f7cacf453017e389c5c2`. Its full five-CSV data integrity and M49 official-snapshot readback were independently checked at this exact SHA: PASS (73 identified, 175 unknown; 248 M49 matches, 107 bodies, 24 edges, 136 provenance). This accompanying checkpoint-document commit follows it; resolve its own SHA from current branch HEAD. The Python `validate.py` baseline passed in the prior batch; **Python was not independently rerun for Batch 8** because the execution sandbox could not access GitHub to clone. Quote-aware full-data JS structural tests and 17 disputed/delegated boundary sentinels passed. Maintain PR #68 as draft; no site, main or clinical code modifications.
+
+## Earlier status notes — prior counts historical
+
 ## Current batch checkpoint — 2026-11-05
 
 This section supersedes earlier coverage counts: **61 identified areas / 187 unresolved**, 93 health bodies, 22 sourced relationships, 111 provenance rows and 248 coverage rows. Official geography remains 248/248 compared. Provenance includes failed retrievals; 111 is not a count of verified sources.

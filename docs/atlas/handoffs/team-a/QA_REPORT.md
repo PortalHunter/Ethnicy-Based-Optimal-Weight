@@ -100,3 +100,11 @@ Source retrieval limitations: Chad ministry and Primature HTTP 403; Brcko govern
 ## Five-area batch validation — 2026-11-05
 
 Python validator passed: 248 official snapshot matches; 61 identified / 187 unresolved; 93 unique bodies; 22 source-linked relationships; 248 aligned coverage rows; 111 unique provenance rows. Failed retrievals remain explicit. Six new IDs and Montserrat internal edge checked; no cross-area delegation introduced.
+
+## 2026-11-05 — Batch 8 complete data commit QA
+
+**Exact independently read-back data SHA:** `413def180d3982ddae65f7cacf453017e389c5c2`.
+
+PASS: 248 unique area rows, 248 coverage rows and every official M49 snapshot key, ISO field, name, region and subregion equal. PASS: 73 identified, 175 unknown with synchronized coverage statuses and no invalid principal body references. PASS: 107 distinct body IDs with dated official-source/issuer notes. PASS: 24 internal relationship edges use valid distinct body IDs. PASS: 136 provenance IDs; three global geography sources intentionally have empty M49 code and must not be misread as missing national authority. PASS: 17 high-risk unresolved special-area checks, including Antarctica, Bouvet, Myanmar, Chad, Christmas/Cocos, Comoros, Mayotte, Caribbean Netherlands, Western Sahara; no unsupported American Samoa parent.
+
+LIMITATION: An integrity check is not a statutory legal-mandate verification. Batch 8 used a complete quote-aware JavaScript validator and postcommit GitHub readback, **not a newly run Python `validate.py`** because the local sandbox lacks outbound GitHub clone access. Previous Python PASS applies to earlier checkpoint only. Run full Python validation on the latest branch in next executable environment; investigate and record any discrepancy.

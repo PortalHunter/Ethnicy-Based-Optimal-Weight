@@ -1,3 +1,13 @@
+## Batch 8 unresolved research priorities — 2026-11-05
+
+- **175 unresolved principal national/territorial authorities**; geographic official comparison 248/248 complete, not 248/248 ministries verified.
+- Initial complicated/high-risk queue: 074 Bouvet; 104 Myanmar (Health vs Health and Sports, competing NUG authority/mandate); 112 Belarus; 148 Chad (403); 162 Christmas; 166 Cocos; 174 Comoros (template placeholders/title conflict); 175 Mayotte; 192 Cuba; 226 Equatorial Guinea (portfolio title), then ascending remaining unknown M49 areas. No source snippet or blocked page establishes an absent authority.
+- Further unresolved: 231 Ethiopia; 232 Eritrea; 234 Faroe Islands (government directory may show historical Ministry of Health and the Interior; confirm current name before promotion); 238 Falkland Islands; 248 Åland; 254 French Guiana; 258 French Polynesia; 260 French Southern Territories; 266 Gabon; 268 Georgia; 316 Guam; 324 Guinea; and subsequent areas. Preserve earlier access failures as provenance.
+- Detailed jurisdiction gaps in newly verified identities: France 250 overseas and 2026 portfolio changes, Finland 246 wellbeing service counties, Italy 380 regions, Grenada 308 ministerial split, Ireland 372 HSE versus ministry, Guatemala 320 departmental systems, Guyana 328 regional authorities, Kiribati 296 outer islands, Jamaica 388 regional health authorities, Fiji 242 statutory agencies; Ghana 288 service statute amendments and Gambia 270 proposed research council status. Proposed council is **not** a verified existing body.
+- Earlier legal gaps persist, including Bosnia 070 ten cantons/Brčko, territory parent competence and other renamed/devolved ministries. Prior GAPS text retained below. Two independent original governmental/legal sources needed before asserting disputed, renamed or delegated responsibility. Unknown is not not-applicable and official M49 geography is not health jurisdiction or genetic ancestry.
+
+## Earlier gaps — source caveats preserved
+
 ## Current batch checkpoint — 2026-11-05
 
 This section supersedes earlier coverage counts: **61 identified areas / 187 unresolved**, 93 health bodies, 22 sourced relationships, 111 provenance rows and 248 coverage rows. Official geography remains 248/248 compared. Provenance includes failed retrievals; 111 is not a count of verified sources.
