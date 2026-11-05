@@ -1,3 +1,23 @@
+# Team B gaps — batch 52 — 2026-11-05
+
+404 organization records across 227/248 M49 areas (21 verified-local-domicile identity gaps). 1,736 area-condition cells: **277 source-positive**, **138 bounded condition searches without a verified resource**, **1,321 not yet condition-targeted**. **303** exact resources/contexts, **839** provenance records, **491** condition-search logs, **7** community/subnational records, **8** cross-border relationships, **5** unresolved original-document issuer countries. All **303** links remain `research_lead_only`; **0** clinically approved claims.
+
+### New source and lifecycle limitations
+
+- **Estonia (233), B-EE-EDIABET, diabetes:** [association's Tallinn register and member list](https://www.diabetes.ee/kontakt) and [own original-language explainer](https://www.diabetes.ee/mis-on-diabeet). Undated education distinguishes type 1, type 2, gestational and other diabetes; historical/undated prevalence counts, diagnostic thresholds and treatment suggestions are **not** current verified statistics or approved guidance. Member affiliates are not separately inferred as nationwide issuers.
+- **Latvia (428), B-LV-LDF, diabetes:** [federation's Riga legal contact](https://www.diabets.lv/kontakti) and [Latvian education catalogue](https://www.diabets.lv/informativi-materiali). Own index shows separately labelled type 1 and type 2 materials, including a type 2 handbook and external IDF Europe material. Catalogue hosting does **not** confer sole authorship, clinical authority, latest-edition or licensing status. The similarly named Latvian Diabetes Association is a different organization; older third-party address listings may be stale.
+- **Lithuania (440), B-LT-LDA, diabetes:** [association's first-party site/search index](https://www.dia.lt/), [historic original-language Diabetas issue with publisher imprint](https://www.dia.lt/laikrastis/45/index.html), and [IDF Europe society profile](https://idf.org/europe/our-network/our-members/lithuania/lithuanian-diabetes-association/). The own search-indexed homepage advertises issue 131 and educational leaflets; **live homepage open timed out**. Historic paper imprint verifies prior publisher role, not authorship or edition year of issue 131. No current issue, medical claim or national guideline was clinically inspected.
+
+### Remaining acceptance work
+
+Continue the remaining 1,321 unsearched condition cells, 21 local eligible-organization domicile gaps or 5 unresolved original document issuer country cases. Bounded unsuccessful searches are not national absence proof. Preserve historic/current edition attribution, page issuer versus document issuer versus domicile, 14 diversity counterexamples, 7 community governance-sensitive records and 8 cross-border services; no ancestry-risk inference. All Team B writes stay under this directory. Teams A, C, D retain government, journal and network scopes respectively; clinical appraisal separately follows issue #27. No public site, patient records, calculator, medical formula, main, other teams or PR merge.
+
+### Verification boundary
+
+[immutable data commit `8b9e9cad1e3f`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/8b9e9cad1e3f57b7b00167f5fc38d9ad56b076b4) has a complete **145-entry nontruncated tree**, **11/11** GitHub blob SHA comparisons for the ten CSV inputs and unchanged validator, and **0** independent JavaScript structural join/coverage/metadata errors after committed readback. GitHub object hashes were compared against the tree; **local cryptographic recomputation and the Node CLI were not performed in this batch** because repository cloning failed (github.com DNS). Historical Node receipts from batches 49–50 are retained. No live-link audit of every URL, clinical quality appraisal, rights clearance or world-completeness certification is implied.
+
+---
+
 # Team B gaps — batch 51 — 2026-11-05
 
 401 organizations in 227 of 248 M49 areas (21 local identity gaps); of 1,736 condition cells, 274 source-positive, 138 targeted without verified eligible resource, and 1,324 not yet targeted. There are 300 exact research source relationships, 833 provenance records, 488 searches, 7 community and 8 cross-border records, and 5 unresolved original-document issuer countries. All 300 links are research_lead_only: zero clinically approved claims.
