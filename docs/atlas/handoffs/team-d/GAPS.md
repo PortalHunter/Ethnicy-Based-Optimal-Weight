@@ -1,3 +1,11 @@
+## Batch 17 historic WHO evidence still requires current corroboration (2026-11-05)
+
+- **13** areas unresolved in current WHO M49 region matrix are individually named under **WHO Region of the Americas** in the selective **July 2021 SIDS Annex**. Keep 44 current statuses `not_verified`: July 2021 publication, 2019–2020 report context, and regional grouping in a *SIDS-only appendix* are not authoritative 2026 country/area region assignments or permanent membership. New `data/who_region_historical_sids_2021.csv` preserves the earlier evidence for targeted present-day source verification.
+- **2019 WHO Barbados/ECC Table 2** includes Barbados host and **13** other named service areas, including French Saint Martin M49 663. The 2021 SIDS *subset* omits French Saint Martin and should not be treated as a complete ECC coverage list. PAHO's undated 13-area office overview still conflicts with its dated **2026-08-24** 14-area notice; do not choose a controlling contemporary roster or effective service start without independent confirmation. New `data/who_ecc_historical_scope_2019.csv` is strictly historical.
+- PDF extracted/indexed text was reviewed but web screenshot retrieval returned 403 for both WHO reports. Verify page images independently for production. Existing 46 older survey records, 144 lacking direct April-2026 affirmative evidence and 228 separate historical 2021–22 records remain unchanged.
+
+---
+
 ## Batch 16 historical SCI transition — resolved in part, 2026-11-05
 
 **Resolved:** WHO original sources now document that North Macedonia was an SCI **meeting observer in May 2023** and became the **12th SCI member during 10–12 April 2024**. The former 2022 video topic-tag absence did NOT establish 2022 nonmembership and has not been reclassified. **Still unresolved:** exact accession day or signed instrument; date range only, no invented `valid_from`. WHO records separately document five 2023 and two 2024 meeting observers; attendance does not make them SCI member states or permanent governance observers. Dates are meeting end versus publication date; the April WHO event page's publication date is unknown. See [Batch 16 standalone checkpoint](CHECKPOINT_BATCH_16_2026-11-05.md). All other WHO region/office, PAHO, APPM, EDA/UPA, EMA, HEARTS, ASEAN and Team A/B/C gaps remain.

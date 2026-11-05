@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,616);assert.equal(prov.length,148);
+assert.equal(nodes.length,47);assert.equal(edges.length,616);assert.equal(prov.length,150);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -238,3 +238,25 @@ for(const r of officeCrosschecks){assert(official.has(r.country_area_m49));asser
 
 // Batch 15 date-precision correction: the Montenegro WHO events page has event date, not verified publication date.
 assert(officeCrosschecks.some(r=>r.country_area_m49==='499'&&r.source_evidence_date==='2026-06-16'&&r.notes.includes('PUBLICATION_DATE_UNKNOWN')));
+
+
+// Batch 17: historical WHO SIDS region heading and 2019 Eastern Caribbean technical-coverage roster.
+// Neither historical layer may populate present-day WHO region statuses or positive 2026 office presence.
+const historicSids=read('data/who_region_historical_sids_2021.csv'),historicEcc=read('data/who_ecc_historical_scope_2019.csv');
+unique(historicSids,r=>r.record_id,'historical SIDS IDs');unique(historicSids,r=>r.country_area_m49,'historical SIDS codes');
+unique(historicEcc,r=>r.record_id,'2019 ECC IDs');unique(historicEcc,r=>r.country_area_m49,'2019 ECC codes');
+assert.equal(historicSids.length,13);assert.equal(historicEcc.length,14);
+assert.deepEqual(historicSids.map(r=>r.country_area_m49).sort(),["060","092","136","312","474","500","531","533","534","630","660","796","850"]);
+assert.deepEqual(historicEcc.map(r=>r.country_area_m49).sort(),["028","052","092","212","254","308","312","474","500","659","660","662","663","670"]);
+const historicSidsUrl="https://iris.who.int/bitstream/handle/10665/344252/9789240033573-eng.pdf?sequence=1",historicEccUrl="https://iris.who.int/bitstream/handle/10665/311592/WHO-CCU-19.01-eng.pdf";
+assert(sources.has(historicSidsUrl));assert(sources.has(historicEccUrl));
+for(const r of historicSids){assert(official.has(r.country_area_m49));assert.equal(r.who_region_heading,'AMRO');assert.equal(r.source_url,historicSidsUrl);assert.equal(r.source_snapshot_as_of,'2021-07');assert.equal(r.source_date_precision,'month');assert.equal(r.source_context_period,'2019-2020 WHO country presence context');assert.equal(statuses.find(x=>x.m49_code===r.country_area_m49).who_region,'not_verified');}
+for(const r of historicEcc){assert(official.has(r.country_area_m49));assert.equal(r.office_network_id,'WHO_MCO_BARBADOS');assert.equal(r.source_url,historicEccUrl);assert.equal(r.source_report_year,'2019');assert.equal(r.observed_valid_from,'');assert.equal(r.observed_valid_to,'');}
+assert.equal(historicEcc.filter(r=>r.relationship_type==='OFFICE_HOST_IN_2019').length,1);
+assert.equal(historicEcc.filter(r=>r.relationship_type==='COVERED_BY_BARBDOS_WHO_MCO_2019').length,13);
+assert(historicEcc.some(r=>r.country_area_m49==='663'));
+assert(!historicSids.some(r=>r.country_area_m49==='663'));
+assert(historicSids.some(r=>r.country_area_m49==='534'));
+assert.equal(statuses.filter(r=>r.who_region!=='not_verified').length,205);
+assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
+console.log('Batch 17 historical source-layer assertions PASS: SIDS=13 ECC=14; current 205/44 unchanged');

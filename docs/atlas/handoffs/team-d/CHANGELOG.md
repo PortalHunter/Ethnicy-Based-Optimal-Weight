@@ -1,3 +1,11 @@
+## 2026-11-05 — Batch 17: WHO 2019 Eastern Caribbean coverage and 2021 historical SIDS region heading
+
+- Added `data/who_region_historical_sids_2021.csv` (13 unique WHO July 2021 AMRO-heading observations which remain unknown in the current 2026 status matrix) and `data/who_ecc_historical_scope_2019.csv` (14 distinct WHO 2019 Barbados/Eastern Caribbean host-or-service observations). Sources TD-SRC-149/150; provenance count 150.
+- Validated exact M49 roster, source URLs, no duplicate IDs, 2021 month-only date precision, 2019 report year vs absent exact service start dates, and preserved 205/44 current WHO region statuses. Both source PDFs supplied extracted/indexed official text but screenshots returned HTTP403; therefore report image-level validation as pending.
+- WHO 2019 Table 2 and PAHO 2026-08-24 both name French Saint Martin (663); WHO July 2021 SIDS-only grouping is selective and omission cannot establish service withdrawal. Separate Dutch Sint Maarten (534). No graph node/edge, current office, local clinical, law or site modification; prior 47 nodes/616 typed links remain.
+
+---
+
 ## 2026-11-05 — Batch 16 SCI historical membership, meeting observers, and full structural regression
 
 - Research/validator data commit `2225b8a883e5fa6dc017c19eec3a6b278238e2f7` added 30 as-of WHO/Europe SCI 2023/2024 snapshots, 30 typed graph edges, three directly read official WHO source URLs TD-SRC-146–148 and expanded validation checks. North Macedonia was a May 2023 meeting observer and joined as member during 10–12 April 2024 (exact day unknown). Five 2023 and two 2024 meeting observers remain **nonmembers** in this event-specific relation.
