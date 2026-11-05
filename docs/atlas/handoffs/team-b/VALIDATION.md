@@ -27,3 +27,5 @@ Nine CSVs validated after each of batches23,24,25 using committed validate.mjs c
 }
 
 Batch23 immutable19098e95ea86b1ee4fc1aa77ebcc7d391fd5f0c8 and batch24 immutable d627375974dce6aeea709f754c69595e0b308870:17 exact file readbacks each; batch24 nine fetched CSVs revalidated zero errors. Resolve current branch for later batch25 and immutable readback.
+
+Final immutable batch25 verification: 01f67a5dd6a8993f208153df2b3d05e591a60159;17 exact file readbacks;9 fetched CSVs core+overview zero errors. No writes/readbacks failed this session.

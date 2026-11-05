@@ -19,3 +19,5 @@ Session batches23–25 added11 identities in5 new areas,9 resource relationships
 Latest independently read-back substantive checkpoint before batch25: d627375974dce6aeea709f754c69595e0b308870 (17 exact file readbacks,9 CSVs zero errors). Resolve current research/atlas-team-b-20261104 HEAD for batch25/newer checkpoint. Draft PR71 stays unmerged. [CONTINUE.md](CONTINUE.md) is standalone handoff; [GAPS.md](GAPS.md) includes itemized acceptance review. Original-language own-publication checks and geographically comprehensive seven-stream discovery remain incomplete.
 
 Validation: committed validate.mjs core+overview in orchestration JS,zero errors after every batch; Node CLI not run. Retained UN snapshot,not newly verified UN data. Full-link,legal/WHO/direct-UN-export audits and clinical appraisal not completed. All resources research_lead_only. No website/main changes.
+
+Final verified substantive batch25 commit: **01f67a5dd6a8993f208153df2b3d05e591a60159**. All17 immutable file readbacks matched; all9 fetched CSVs revalidated with zero errors. Later checkpoint-only commit may be HEAD.

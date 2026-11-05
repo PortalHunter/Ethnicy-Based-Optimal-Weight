@@ -5,7 +5,7 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "d627375974dce6aeea709f754c69595e0b308870",
+  "validated_data_commit": "01f67a5dd6a8993f208153df2b3d05e591a60159",
   "batch": 25,
   "metrics": {
     "organizations": 304,
@@ -54,7 +54,7 @@
     "data/subnational_and_indigenous_organizations.csv",
     "data/search_log.csv"
   ],
-  "validated_data_commit_note": "Last immutable checkpoint already read back before batch25; resolve latest branch and verify batch25 commit.",
+  "validated_data_commit_note": "All17 files fetched from this immutable batch25 commit matched exact UTF-8 intended contents; nine fetched CSVs revalidated zero errors. Later handoff-only commit may be HEAD.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -272,5 +272,13 @@
       "m49": "876",
       "area": "Wallis and Futuna Islands"
     }
-  ]
+  ],
+  "readback_validation": {
+    "immutable_data_sha": "01f67a5dd6a8993f208153df2b3d05e591a60159",
+    "files_matched": 17,
+    "csv_count": 9,
+    "errors": 0,
+    "runtime": "orchestration_javascript_committed_validator_core_plus_overview",
+    "node_cli_run": false
+  }
 }

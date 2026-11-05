@@ -5,7 +5,7 @@ Continue Research Team B to the original acceptance criteria,not an arbitrary ba
 Repository: PortalHunter/Ethnicy-Based-Optimal-Weight
 Branch: research/atlas-team-b-20261104
 Draft PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71
-Last independently read-back checkpoint before batch25: d627375974dce6aeea709f754c69595e0b308870. Batch25/newer handoff may now be HEAD: fetch live ref,PR and files. Never replace branch/PR,merge,close,write main or change public website.
+Latest independently read-back substantive data commit: 01f67a5dd6a8993f208153df2b3d05e591a60159 (batch25). All17 immutable files matched exact UTF-8 contents and9 fetched CSVs revalidated zero errors. A newer handoff-only commit may now be HEAD: fetch live ref,PR and files. Never replace branch/PR,merge,close,write main or change public website.
 
 ## Startup
 1. Fetch original docs/atlas/research-team-prompts/TEAM_B_CLINICAL_ORGANIZATIONS.md and DATA_CONTRACT.md from research/atlas-five-team-handoff-prompts-2026-11-04.

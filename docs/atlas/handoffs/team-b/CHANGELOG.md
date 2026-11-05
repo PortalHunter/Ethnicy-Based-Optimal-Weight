@@ -148,3 +148,7 @@ Batch23 immutable SHA19098e95ea86b1ee4fc1aa77ebcc7d391fd5f0c8: all17 files match
 
 ## 2026-11-05 — Batch25 and acceptance review
 Added2 Portuguese organization identities and2 external-guideline hosting relationships (lactose,celiac);4 provenance/2 search rows. Session batches23–25 add11 identities in5 newly represented areas,9 relationships,20 provenance and18 search rows. All seven streams have at least one newly indexed resource relationship; no clinical approvals. {"organizations":304,"areas":194,"resources":184,"positive":176,"unresearched":1560,"provenance":497,"search_log":280,"community":4,"by_condition":{"diabetes":64,"hypertension":16,"high_chol":21,"gout":17,"lactose":14,"celiac":27,"hemochromatosis":17},"current_unsd_overview_codes":248}. Nine-CSV core+overview zero errors. Batch24 immutable d627375974dce6aeea709f754c69595e0b308870:17 exact file readbacks and9 CSVs revalidated.
+
+
+## Batch25 immutable checkpoint
+01f67a5dd6a8993f208153df2b3d05e591a60159 independently read back:17 files exact and9 CSVs zero errors. Handoff-only refresh records SHA and resumption instructions; no additional data or clinical claims.
