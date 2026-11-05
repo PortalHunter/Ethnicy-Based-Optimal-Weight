@@ -80,3 +80,7 @@
 
 ## Batch 12 — 2026-11-05
 Added 18 directory/site-corroborated identities in 18 new Caribbean/territory areas, including New Caledonia hospital corroboration. Added one Papiamento resource index for Aruba; 17 identity-only rows have no coverage credit. Totals190 organizations/119 areas/138 resources/132 positive/1604 unresearched/331 provenance/103 search rows. Nine-CSV checks zero errors. Original scope incomplete.
+
+
+## Batch 13 — 2026-11-05
+Verified Haiti French diabetes and hypertension education and Belize non-www patient education (3 resources); upgraded Haiti, Belize and Saint Lucia identities. Logged five unresolved/identity-only resource follow-ups and current Suriname government corroboration. Totals: {"organizations":190,"areas":119,"resources":141,"positive":135,"unresearched":1601,"provenance":335,"search_log":111,"community":3,"by_condition":{"diabetes":49,"hypertension":14,"high_chol":19,"gout":9,"lactose":5,"celiac":23,"hemochromatosis":16},"current_unsd_overview_codes":248}. Zero structural errors.

@@ -137,3 +137,6 @@
 "B-NL-LEEFH","high_chol","528","not_a_primary_study_or_not_specified","Source oriented to 528; ancestry/language/domicile not clinical evidence","hosts_and_links_external_science_guidelines_index","research_lead_only"
 "B-LT-LSA","hypertension","440","not_a_primary_study_or_not_specified","Lithuania oriented education; statutory guideline mandate unverified","authors_patient_education_not_guideline","research_lead_only"
 "B-AW-DIAB","diabetes","533","not_a_primary_study_or_not_specified","Aruba education; no inferred Netherlands jurisdiction","authors_patient_resource_index_downloads_not_appraised","research_lead_only"
+"B-HT-DIAB","diabetes","332","not_a_primary_study_or_not_specified","Area 332 oriented source; statutory authority and ancestry transportability not established","authors_patient_education_not_guideline","research_lead_only"
+"B-HT-DIAB","hypertension","332","not_a_primary_study_or_not_specified","Area 332 oriented source; statutory authority and ancestry transportability not established","authors_patient_education_not_guideline","research_lead_only"
+"B-BZ-DIAB","diabetes","084","not_a_primary_study_or_not_specified","Area 084 oriented source; statutory authority and ancestry transportability not established","hosts_patient_education_authorship_not_fully_attributed","research_lead_only"

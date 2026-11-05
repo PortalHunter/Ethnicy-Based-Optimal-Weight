@@ -5,13 +5,13 @@ Continue autonomously until Team B's original goal is complete or execution limi
 Repository https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight
 Existing branch: research/atlas-team-b-20261104
 Existing draft PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71
-Checkpoint: batch12 is the commit containing this file; resolve exact HEAD. Previous batch11 SHA109aa8b15d109740c8ace3a2cfee8ba4005037d4.
+Checkpoint: batch13 is commit containing this file; resolve exact HEAD. Previous saved checkpoint 9014620378d6f645810a66b60c7d318bdeed6aca.
 
 Read original TEAM_B_CLINICAL_ORGANIZATIONS.md and shared DATA_CONTRACT.md under docs/atlas/research-team-prompts/ on research/atlas-five-team-handoff-prompts-2026-11-04. Then read all docs/atlas/handoffs/team-b/ files, including README,STATUS,GAPS,PROVENANCE,CHANGELOG,VALIDATION,validate.mjs and all nine CSV datasets.
 
 Exclusive scope: non-government specialist societies, patient-condition organizations, biomedical and community-controlled research bodies across248 M49 areas and seven streams: diabetes,hypertension,high_chol,gout,lactose,celiac,hemochromatosis. Do not redo government census, international-network census or journal catalog. Write only team-b/ on existing branch; no main writes, merge, live calculator or clinical activation.
 
-Current totals:190 identities in119 areas,138 resource relationships,132 source-positive cells,1604 not_yet_researched cells,331 provenance records,103 logged targeted searches,3 community-specific records,zero clinical approvals. Positives {"diabetes":47,"hypertension":13,"high_chol":19,"gout":9,"lactose":5,"celiac":23,"hemochromatosis":16}. Research remains INCOMPLETE:129 areas lack identities. Directory presence is not resource verification or completed searching. Search log began batch8; historical attempts not backfilled.
+Current totals:190 identities in119 areas,141 resource relationships,135 positive cells,1601 unresearched,335 provenance,111 search rows,3 community-specific records,zero clinical approvals. Research INCOMPLETE;129 areas lack identities. Search log began batch8; historical attempts not backfilled.
 
 This run batches8–12 added98 identities and57 resources. B8 celiac Europe; B9 Africa/Asia and independently extracted current UNSD rendered table; B10 iron overload/gout/lactose; B11 FH; B12 Caribbean/territories. Exact UN code-set248 match passed, but direct downloadable-export/WHO/legal audits remain open.
 
@@ -22,3 +22,7 @@ Preserve ALL GAPS caveats including Samoa conflicting ethics/shared programme, U
 Use primary original-language sources; preserve stable IDs, leading-zero area codes and provenance. Every resource requires organization, publication-context and source-provenance joins; all release states research_lead_only. Log failures/unresolved findings without guessing or asserting absence. Run validate.mjs and overview checks; prior core evaluated in orchestration runtime with zero errors, CLI not separately executed. No full live crawl/legal/clinical validation claimed.
 
 Commit each validated batch directly to existing branch with expected-head lease; read immutable files back and revalidate; update existing draft PR and all handoff files. If write fails explicitly report and preserve recoverable work. At stopping point report exact SHA,branch,PR,new records,remaining gaps,validation and a fresh standalone continuation prompt. Do not declare goal complete from a populated matrix or directory roster.
+
+
+Latest batch13: Verified Haiti French diabetes and hypertension education and Belize non-www patient education (3 resources); upgraded Haiti, Belize and Saint Lucia identities. Logged five unresolved/identity-only resource follow-ups and current Suriname government corroboration.
+Next priorities: Expand sparse lactose/gout streams using original-language professional sources; follow up Caribbean publications without mistaking services for studies.
