@@ -120,3 +120,8 @@ Added14 identities in10 new areas (Bolivia,Ecuador,Guatemala,Paraguay,Costa Rica
 ## 2026-11-05 — Batch20 Pacific and SE Asia
 
 Added7 identities across5 new areas (Guam,French Polynesia,Marshall Islands,Cambodia,Laos),2 source relationships (MoPoTsyo course outline,KDC community programme interview),1 community-specific record,9 provenance and15 search rows. Historical Pacific survey separated from current organizational status; Vanuatu/ADOPF unresolved leads not promoted. Totals283 identities/181 areas/172 relationships/166 positive/1570 not_yet_researched; zero clinical approvals; nine-CSV core zero errors.
+
+
+## 2026-11-05 — Batch21 celiac/hemochromatosis quality review
+
+Added2 Swedish identities and2 net new source relationships (Luxembourg celiac,Sweden hereditary iron overload). Upgraded Malta existing guide-index edge to substantive diagnosis page without double counting; reverified ALIG own identity,Andorra registry and Cyprus translation concern.8 provenance/8 search rows added. Totals285 identities/181 areas/174 resources/168 positive/1568 not_yet_researched. Nine-CSV core zero errors. No clinical approvals.

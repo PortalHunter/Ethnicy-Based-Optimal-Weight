@@ -1,6 +1,6 @@
 # Team B gaps and open questions
 
-Current checkpoint: batch20,283 identities/181 areas/172 resources/166 positive/1570 unresearched.67 areas have no identity. Historical totals below remain dated history; STATUS.md and CHECKPOINT.json supersede them. All unresolved caveats persist.
+Current checkpoint: batch21,285 identities/181 areas/174 resources/168 positive/1568 unresearched.67 areas have no identity. Historical totals below remain dated history; STATUS.md and CHECKPOINT.json supersede them. All unresolved caveats persist unless explicitly closed below.
 
 - The 248 × 7 M49 coverage matrix is a **discovery-status skeleton**, not completed organization research. All unreviewed cells are explicitly `not_yet_researched`; never infer that a condition-specific body does not exist.
 - Current rendered UNSD overview has exact248-code match (batch9); separate direct downloadable-export comparison and WHO/legal-jurisdiction checks remain pending. The roster excludes ISO numeric 158 (Taiwan), absent from the UNSD overview. UN M49 statistical practice is not a sovereignty statement.
@@ -181,3 +181,11 @@ Nine identities/seven gout resources, no new geographic identity area. Argentina
 - Kwajalein Diak Coalition participant interview verifies community education context; self-reported programme effects are not causal evidence. Ebeye/Kwajalein scope does not generalize to all Marshallese or diaspora. Formal legal independence/community governance and data reuse authority unresolved; only public organizational metadata indexed.
 - Cambodian CDA and MoPoTsyo are distinct. MoPoTsyo peer course outline accessible in English; Khmer CCC directory corroborates NGO identity but Khmer education edition not reviewed. Broad rice/diet claims unappraised; no ancestry-specific dietary recommendation. Public facility collaboration not government identity.
 - Laos LDEA and Internal Medicine Association independently named as collaborators in IDF/Sanofi2025 training, not sole authors. Sponsor role explicit; future-tense membership inclusion is not completed membership. No Lao-language own publication retrieved; event attendance does not earn a resource relationship.
+
+
+## Batch21 access resolution and source-quality review
+
+- ALIG public own French identity and education now retrieved: closes prior own-site access gap, not legal/clinical appraisal. Former AOECS identity provenance retained under historical record ID; current org ID points to own-source provenance. Guides/brochures remain members-only and unreviewed. Education uses celiac/intolerance naming and unreferenced fixed wheat-damage/cancer assertions; no threshold or advice imported.
+- Malta diagnosis page now substantively readable: existing homepage-index edge upgraded in place, not a second resource. Universal biopsy/only-tests wording, fixed gluten-challenge duration and biennial family testing need current age-specific guideline comparison. No self-directed challenge/screening instruction approved.
+- Cyprus English about text reverses gluten/gluten-free wording; separate educational page differs. Translation quality concern; Greek navigation redirected to English, no independent Greek review claimed. Andorra communal register corroborates existing ACEA, no duplicate; registration-number suffix not founding-year evidence.
+- Two Swedish identities added. Hemokromatosförbundet own founding2018 identified, but uncited Celtic/lactose/blood-group/penetrance assertions receive no resource credit. SGF hosts four-page patient brochure dated in catalogue2022-09-07; PDF individual author/edition unverified. Fixed penetrance,biopsy/exclusion and treatment assertions unappraised. HFE genotype,measured iron overload and clinical penetrance remain separate; no treatment schedules imported.

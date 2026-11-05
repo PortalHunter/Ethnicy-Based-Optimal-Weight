@@ -5,16 +5,16 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "0eb06349587e67f4884dcda7eb014c59413b8c89",
-  "batch": 20,
+  "validated_data_commit": "03b0568f8321639416343bdd7d231faee59873aa",
+  "batch": 21,
   "metrics": {
-    "organizations": 283,
+    "organizations": 285,
     "areas": 181,
-    "resources": 172,
-    "positive": 166,
-    "unresearched": 1570,
-    "provenance": 459,
-    "search_log": 240,
+    "resources": 174,
+    "positive": 168,
+    "unresearched": 1568,
+    "provenance": 467,
+    "search_log": 248,
     "community": 4,
     "by_condition": {
       "diabetes": 62,
@@ -22,16 +22,17 @@
       "high_chol": 20,
       "gout": 16,
       "lactose": 13,
-      "celiac": 24,
-      "hemochromatosis": 16
+      "celiac": 25,
+      "hemochromatosis": 17
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 37,
+    "organization_identities": 39,
     "new_areas": 28,
-    "resource_relationships": 8,
-    "community_specific_records": 1
+    "resource_relationships": 10,
+    "community_specific_records": 1,
+    "existing_resource_upgraded": 1
   },
   "validation_runtime": "orchestration_javascript_core_plus_overview",
   "node_cli_run": false,
@@ -53,5 +54,5 @@
     "data/subnational_and_indigenous_organizations.csv",
     "data/search_log.csv"
   ],
-  "validated_data_commit_note": "Previous immutable data checkpoint batch19; batch20 data committed alongside this file. Resolve branch HEAD and independently verify."
+  "validated_data_commit_note": "Previous immutable data checkpoint batch20; batch21 data committed alongside this file. Resolve HEAD and independently verify."
 }

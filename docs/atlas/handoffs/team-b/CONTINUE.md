@@ -5,7 +5,7 @@ You are Research Team B. Continue the original task autonomously, without restar
 Repository: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight
 Existing branch: research/atlas-team-b-20261104
 Existing draft PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71
-Previous independently verified immutable data commit: 0eb06349587e67f4884dcda7eb014c59413b8c89 (batch19). Batch20 data and this prompt committed together; resolve current HEAD. Never create replacement branch/PR, merge, close PR, write main or modify live calculator.
+Previous independently verified immutable data commit: 03b0568f8321639416343bdd7d231faee59873aa (batch20). Batch21 data and prompt committed together; resolve current HEAD. Never create replacement branch/PR, merge, close PR, write main or modify live calculator.
 
 ## Required startup
 1. Read original TEAM_B_CLINICAL_ORGANIZATIONS.md and shared DATA_CONTRACT.md under docs/atlas/research-team-prompts/ on branch research/atlas-five-team-handoff-prompts-2026-11-04.
@@ -18,7 +18,7 @@ Census non-government professional societies,patient-condition organizations,bio
 Ancestry,residence,nationality,language,Indigenous community,genotype and measured clinical phenotype are distinct. Disease subtype and scope stay explicit: FH versus ordinary highLDL; gout versus asymptomatic urate/CPPD; lactase nonpersistence versus symptoms; HLA versus confirmed celiac; ferritin versus hereditary iron overload. No individual diagnosis,dosing,dietary recommendation,genomic uploads or clinical activation. All sources research_lead_only; #27 is separate claim appraisal. No private patient data or copyrighted full texts. Preserve14 broad-label boundary cases and community governance.
 
 ## Verified current state
-283 identities in181 areas;172 resource relationships;166 source-positive cells;1570 not_yet_researched cells;459 provenance rows;240 logged searches;4 community-specific records;zero clinical approvals. Conditions: diabetes62,hypertension15,high_chol20,gout16,lactose13,celiac24,hemochromatosis16. Geographic matrix248×7 complete structurally; research INCOMPLETE.67 areas lack an identity. Search log began batch8 and is not a historical exhaustive log. Positive means discovery source,not approved evidence or completed country review.
+285 identities in181 areas;174 resource relationships;168 source-positive cells;1568 not_yet_researched cells;467 provenance rows;248 logged searches;4 community-specific records;zero clinical approvals. Conditions: diabetes62,hypertension15,high_chol20,gout16,lactose13,celiac25,hemochromatosis17. Geographic matrix248×7 complete structurally; research INCOMPLETE.67 areas lack an identity. Search log began batch8 and is not a historical exhaustive log. Positive means discovery source,not approved evidence or completed country review.
 
 Batches13–17 added56 identities/34 new areas/26 resources.13:3 Haiti/Belize resources,3 Caribbean identity upgrades.14:7 identities/eight lactose resources.15:20 MENA identities/six sources.16:9 rheumatology identities/seven gout sources.17:20 identities/16 new areas/two Russian/Faroese resources. Do not duplicate these. See datasets for exact records and GAPS for every caveat.
 
@@ -29,6 +29,8 @@ Batch18 unresolved details: see GAPS; preserve Benin separate identities/expecte
 Batch19 added14 identities/10 new areas/3 resource links. See GAPS for Cuban SOCEND reorganization, Guatemala exclusivity contradiction, Ecuador7-city index/full PDF retrieval limit, Paraguay dynamic guide/education issues, Puerto Rico unappraised educational claims. Total this run batches18–19:30 identities/23 new areas/6 links.
 
 Batch20 added7 identities/5 new areas/2 links/one community-specific record. Current this-run total37 identities/28 new areas/8 links. See GAPS for historical Pacific survey not current absence; Guam legal aliases; French Polynesia ASALEE/ADOPF distinction; KDC Ebeye/Kwajalein scope/governance; Cambodia English course/Khmer directory limits and unappraised rice claims; Laos sponsor/collaborator roles. No new Vanuatu or ADOPF identity credited.
+
+Batch21:2 Swedish identities;2 net new links (Luxembourg celiac,Sweden hemochromatosis); Malta existing resource upgraded; ALIG own-site gap closed; Cyprus translation issue/Andorra registry corroboration documented. Swedish patient-federation ancestry/lactose/blood-group assertions not credited. See GAPS. Cumulative this run39 identities/28 new areas/10 links,1 community-specific record and1 resource upgrade.
 
 ## Exact next priorities
 1. Identify original-language publications for directory-only identities and expand67 unrepresented areas, especially remaining Africa,Pacific,Latin America and territories. Compute missing areas from m49 roster minus organization area IDs. Do not invent societies for uninhabited areas or infer parent-state remit.
