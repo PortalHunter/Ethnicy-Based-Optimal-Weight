@@ -51,3 +51,7 @@ Continue manageable primary-source batches. Update STATUS,GAPS,PROVENANCE,CHANGE
 
 ## Newer batch23 checkpoint (supersedes batch22 totals above)
 296 identities/191 domiciled areas/178 links/170 source-positive/1566 unresearched/483 provenance/270 logs. Added Reunion ADJ974,Montenegro DOB and UECG identities; SBP2025 lactose/celiac and SNFGE2019 hemochromatosis links. No type1-only resource credit.57 areas without domiciled identity. Liechtenstein verified Swiss cross-border service scope logged only: no false438 domicile. Read new GAPS section. Nine-CSV validator core+overview zero errors. Resolve current branch SHA and read back before relying on totals. All earlier caveats persist; no completion claimed.
+
+
+## Newer batch24 checkpoint
+302 identities/194 domiciled areas/182 links/174 source-positive/1562 unresearched/493 provenance/278 logs.54 areas lack domiciled identity. Batch24 added PRA,SChH,SCC,BKF,FORSANI,Macau AADM;4 links(PH gout2009,CL external hypertension catalogue,CO lipids2024,NE completed diabetes programme). Own publications for Bhutan/Macao still pending. Source country/programme setting differs from publisher domicile,especially WDF Denmark. Review new GAPS and latest STATUS before resuming; all earlier caveats remain.

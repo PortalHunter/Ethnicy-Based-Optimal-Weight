@@ -1,22 +1,22 @@
 # Team B status — 2026-11-05
 
-**INCOMPLETE — batch23 validated.** Discovery only; zero clinical approvals.
+**INCOMPLETE — batch24 validated.** Zero clinical approvals.
 
 ```json
 {
-  "organizations": 296,
-  "areas": 191,
-  "resources": 178,
-  "positive": 170,
-  "unresearched": 1566,
-  "provenance": 483,
-  "search_log": 270,
+  "organizations": 302,
+  "areas": 194,
+  "resources": 182,
+  "positive": 174,
+  "unresearched": 1562,
+  "provenance": 493,
+  "search_log": 278,
   "community": 4,
   "by_condition": {
-    "diabetes": 63,
-    "hypertension": 15,
-    "high_chol": 20,
-    "gout": 16,
+    "diabetes": 64,
+    "hypertension": 16,
+    "high_chol": 21,
+    "gout": 17,
     "lactose": 13,
     "celiac": 26,
     "hemochromatosis": 17
@@ -25,6 +25,6 @@
 }
 ```
 
-This session added3 identities in2 new areas,3 resources and8 targeted logs. 57 areas lack a local/domiciled identity; cross-border service evidence for Liechtenstein is logged separately. 1566 cells lack linked sources. Type1-only organizations do not earn type2 resource credit. Continue all seven conditions, directory-only own publications and unrepresented areas. Original acceptance criteria not fully met: geographic skeleton and14 boundary examples exist, but comprehensive local-source cross-check/discovery remains unfinished.
+Session batches23–24:9 identities in5 new areas,7 source relationships,16 search rows.54 areas lack domiciled identities;1562 cells lack linked sources. All seven streams remain unfinished. Structural geography and14 broad-label boundary cases satisfied; comprehensive local-source discovery and own-site cross-check not complete. New GAPS sections record historical guideline,external-catalogue,source-country/publisher and type1 boundaries.
 
-Prior immutable checkpoint b97d1ac7a0a356718f0507435228cd439962433c. Existing branch research/atlas-team-b-20261104; draft PR71 remains unmerged. Nine-CSV committed validator core+overview executed in orchestration JavaScript with zero errors; Node CLI not separately run. Full URL crawl,legal registry,WHO/legal jurisdiction,downloadable UN export and clinical appraisal not completed. No public website changes.
+Latest independently read-back batch23 commit19098e95ea86b1ee4fc1aa77ebcc7d391fd5f0c8 (17 exact files); resolve newer branch HEAD. Branch research/atlas-team-b-20261104; draftPR71 unmerged. Nine-CSV core+overview zero errors in orchestration JS,Node CLI not run. Live-link,legal/WHO/direct-UN-export audits and clinical appraisal not completed. No public website changes.
