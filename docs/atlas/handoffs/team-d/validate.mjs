@@ -30,4 +30,13 @@ assert.equal(statuses.filter(r=>r.who_region==='EURO').length,53);
 assert.equal(statuses.find(r=>r.m49_code==='438').who_region,'not_verified');
 assert.equal(statuses.find(r=>r.m49_code==='398').who_region,'EURO');
 assert.equal(statuses.filter(r=>r.who_region==='AFRO').length,47);
+const nameMatches=read('data/who_region_name_matches.csv');
+unique(nameMatches,r=>r.record_id,'source-name match IDs');
+assert.equal(nameMatches.length,38);
+assert.equal(nameMatches.filter(r=>r.match_method==='EXPLICIT_REVIEWED_ALIAS').length,10);
+for(const r of nameMatches){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(statuses.find(s=>s.m49_code===r.country_area_m49).who_region,'WPRO');assert.equal(un.find(u=>u.m49_code===r.country_area_m49).country_area_name_un,r.un_country_area_name);}
+assert.equal(statuses.filter(r=>r.who_region==='WPRO').length,38);
+assert.equal(statuses.find(r=>r.m49_code==='360').who_assignment_effective_date,'2025-05-23');
+assert.equal(statuses.find(r=>r.m49_code==='158').who_region,'not_verified');
+for(const code of ['016','316','580'])assert(statuses.find(r=>r.m49_code===code).review_notes.includes('pending WHO governing-body consideration'));
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,provenance:prov.length},null,2));

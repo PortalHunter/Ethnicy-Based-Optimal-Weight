@@ -1,5 +1,12 @@
 # Team D — Changelog
 
+## 2026-11-05 — Batch 4: WHO Western Pacific
+
+- Verified all 38 countries/areas; added 37 statuses and 37 region edges. Indonesia effective date preserved.
+- Added 38 source-name match records (28 exact/ten explicit aliases); retained US-territory governance notices.
+- Totals: 260 edges, 148 verified statuses, 101 not_verified, 52 provenance URLs.
+
+
 ## 2026-11-05 — Final continuation checkpoint
 
 - Verified substantive commits: batch 1 `5d687ba9d0633354bc5e10d878a76f6e53c2cb28`; batch 2 `8b44fae4fa8472e5b076a166651c699c1cde9752`; batch 3 `8b5e40bc2cfb68ca972d77f59f54d14063b0c20c`.
