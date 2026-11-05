@@ -43,3 +43,8 @@ Batch27: 10 CSVs revalidated after Monaco source-integrity annotations (core+ret
 
 
 **Batch27 immutable readback:** `df0ffd28c60e86ae30f23ec7790b06899ae883db`, all18 Team B files independently fetched and their contents blob SHA matched against Git tree; no mismatches, tree not truncated. All10 CSVs independently re-parsed for row width and key metrics (306/195/186/178/1558;509 provenance;289 searches;2 edges), zero structural errors; full original core+overview+edge checks passed before write. Node CLI not run; complete live URL/clinical/registry audits NOT done.
+
+
+## Batch28 actual Node validation — 2026-11-05
+
+Baseline18 files independently fetched at 2fec11a5e585a7a3dabcb487cdac93b44f62d4fe matched recursive Git-tree blob SHAs. All10 CSVs validated by executing committed validate.mjs in Node v24.22.1, zero errors. Prepared batch28 passes the same validator in orchestration JavaScript and actual Node v24.22.1 before commit, zero errors. Validation checks structural references/counts, not clinical accuracy, external URL availability, all Indigenous governance requirements or worldwide absence. Full URL crawl, legal/WHO audit and direct UN export not done. All190 resources research_lead_only. Latest metrics in CHECKPOINT.json.

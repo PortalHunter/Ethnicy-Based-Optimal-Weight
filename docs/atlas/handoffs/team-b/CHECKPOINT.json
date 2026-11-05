@@ -5,21 +5,21 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "df0ffd28c60e86ae30f23ec7790b06899ae883db",
-  "batch": 27,
+  "validated_data_commit": null,
+  "batch": 28,
   "metrics": {
-    "organizations": 306,
-    "areas": 195,
-    "resources": 186,
-    "positive": 178,
-    "unresearched": 1558,
-    "provenance": 509,
-    "search_log": 289,
-    "community": 4,
+    "organizations": 311,
+    "areas": 200,
+    "resources": 190,
+    "positive": 182,
+    "unresearched": 1554,
+    "provenance": 522,
+    "search_log": 299,
+    "community": 5,
     "cross_border_edges": 2,
     "by_condition": {
-      "diabetes": 65,
-      "hypertension": 17,
+      "diabetes": 68,
+      "hypertension": 18,
       "high_chol": 21,
       "gout": 17,
       "lactose": 14,
@@ -29,25 +29,24 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 0,
-    "new_domiciled_areas": 0,
-    "resource_relationships": 0,
-    "source_positive_cells": 0,
-    "provenance_rows": 3,
-    "search_log_rows": 3,
-    "cross_border_edges": 0,
-    "documented_dissolved_association_cases": 1
+    "organization_identities": 5,
+    "new_domiciled_areas": 5,
+    "resource_relationships": 4,
+    "source_positive_cells": 4,
+    "provenance_rows": 13,
+    "search_log_rows": 10,
+    "community_records": 1
   },
-  "validation_runtime": "orchestration_javascript_core_plus_overview_plus_cross_border",
-  "node_cli_run": false,
+  "validation_runtime": "node_cli_committed_validate_mjs",
+  "node_cli_run": true,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "53 M49 areas without domiciled organization identities, including Monaco: no local society absence conclusion",
-    "Continue primary-source original-language organizations and own-published condition links across all seven streams",
-    "Verify historical, renamed, dissolved and stale-directory entities against official notices, e.g. Monaco 2023 dissolution",
-    "UFL local LI research indexes vs national guidelines and Swiss 756→438 service edges remain distinct",
-    "Audit source publisher and programme setting, study population and healthcare jurisdiction; reconcile legacy metadata",
-    "Preserve all GAPS community governance, original-language, legal/source-integrity caveats; no clinical activation"
+    "48 areas without domiciled identity; systematic original-language discovery across all seven streams",
+    "Directory-only organizations: own guidelines/publication lists and current lifecycle review",
+    "1554 cells without sources: sparse gout/lactose/celiac/iron and cholesterol streams alongside diabetes/BP",
+    "CWC suspended website; current governance/date continuity and BWC clinic corporate relationship pending",
+    "Separate publisher domicile from organization/programme source_country in legacy context",
+    "Preserve all GAPS; no clinical approval or public website work"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -61,7 +60,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch27 substantive SHA all18 handoff files independently read back and matched Git tree blob SHAs,10 CSVs core+overview+cross-border revalidated in orchestration JS,zero errors. No Node CLI.",
+  "validated_data_commit_note": "Batch28 data awaiting immutable commit and independent readback; next metadata receipt will record exact SHA.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -82,10 +81,6 @@
     {
       "m49": "090",
       "area": "Solomon Islands"
-    },
-    {
-      "m49": "096",
-      "area": "Brunei Darussalam"
     },
     {
       "m49": "140",
@@ -130,10 +125,6 @@
     {
       "m49": "262",
       "area": "Djibouti"
-    },
-    {
-      "m49": "266",
-      "area": "Gabon"
     },
     {
       "m49": "292",
@@ -192,24 +183,12 @@
       "area": "United States Minor Outlying Islands"
     },
     {
-      "m49": "583",
-      "area": "Micronesia (Federated States of)"
-    },
-    {
-      "m49": "585",
-      "area": "Palau"
-    },
-    {
       "m49": "612",
       "area": "Pitcairn"
     },
     {
       "m49": "624",
       "area": "Guinea-Bissau"
-    },
-    {
-      "m49": "626",
-      "area": "Timor-Leste"
     },
     {
       "m49": "652",
@@ -277,12 +256,9 @@
     }
   ],
   "readback_validation": {
-    "immutable_data_sha": "df0ffd28c60e86ae30f23ec7790b06899ae883db",
-    "files_matched": 18,
-    "csv_count": 10,
-    "errors": 0,
-    "runtime": "orchestration_javascript_committed_validator_equivalent_core_overview_cross_border",
-    "node_cli_run": false,
-    "github_tree_truncated": false
+    "status": "pending_for_batch28_commit",
+    "baseline_sha": "2fec11a5e585a7a3dabcb487cdac93b44f62d4fe",
+    "baseline_files_matched": 18,
+    "baseline_node_errors": 0
   }
 }

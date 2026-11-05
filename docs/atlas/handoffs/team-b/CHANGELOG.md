@@ -162,3 +162,8 @@ Added 2 first-party verified non-government identities (UFL in LI 438; diabetesG
 ## 2026-11-05 — Batch27 Monaco historical association lifecycle and directory integrity
 
 Three original-source/secondary provenance records and three targeted search records added (1996 founding authorization, 2023 official dissolution, inconsistent surviving commercial directory). Monaco diabetes coverage note now documents narrow source check, still findings_count0/not_yet_researched by schema because no independently qualifying current own publication. No active/domiciled identity inferred; 306 identities/195 domiciled areas,186 resources/178 source-positive cells/1558 without linked sources,509 provenance/289 searches,2 cross-border edges,0 clinical approvals. Ten-CSV core+overview+cross-border JavaScript structural validation:0 errors. Independent PDF,legal registry-wide,clinical appraisal/Node CLI not run.
+
+
+## Batch28 — 2026-11-05
+
+Added5 identities in5 previously unrepresented areas (Gabon266, Brunei096, Timor-Leste626, Palau585, FSM583),4 published-resource relationships,1 community record,13 provenance rows and10 targeted checks. Distinguished journal endorsement from article authorship, government from professional society, programme interview from guideline, and suspended own site from indexed historical content. No clinical claims approved. Node committed validator executed on baseline and prepared batch: zero structural errors (post-write output retained in checkpoint validation). Existing IDs and all source caveats preserved. Only TeamB handoff directory changed.
