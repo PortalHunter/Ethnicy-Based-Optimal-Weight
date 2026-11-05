@@ -1,3 +1,9 @@
+## Latest research checkpoint — Batch 10, 2026-11-05
+
+**85/248** authority identities found; **163** explicitly unresolved; **248/248** official M49 geography; **126** government health bodies; **31** documented internal relationships; **167** provenance rows; **248** coverage rows. Last dataset commit `6a8679492553d3d24cba790608fbb3d017b7d854`. Batch 10 includes Chad, Ethiopia, Gabon, Georgia and India, plus Ethiopian Public Health Institute and two Indian federal health entities. These figures supersede historical totals below; verified identity **does not certify legal responsibility**. Government/legislative source caveats and failures are preserved; no guessed territory parent links or clinical implications. Official geography and references passed independent exact-commit quote-aware readback; Python validator is outstanding for Batch 10.
+
+**Restart exclusively from [CONTINUE.md](CONTINUE.md)**, [GAPS.md](GAPS.md), [QA_REPORT.md](QA_REPORT.md), current CSV datasets and the original Team A assignment. This remains a draft-only research staging PR; do not merge or edit production.
+
 ## Current official-source checkpoint — Batch 9 (2026-11-05)
 
 **Authority identity coverage: 80/248 M49 country/area principal governmental health authorities identified; 168 explicitly unresolved.** Dated official UN M49 comparison remains **248/248** complete (country keys, ISO, English names and region/subregion). Current normalized files hold 118 governmental bodies, 28 sourced within-government relationships, 154 provenance rows including failed and corroboration attempts, and 248 area coverage rows. Counts supersede older summaries below; source provenance quantity is not a count of fully legally certified mandates.

@@ -1,3 +1,23 @@
+## Batch 10 independent commit audit — 2026-11-05 (current)
+
+**Audited data commit SHA:** `6a8679492553d3d24cba790608fbb3d017b7d854`. All six CSVs (five changed + official dated master) re-fetched from that **exact SHA**, parsed quote-aware, and checked independent of the in-memory write.
+
+| Test | Outcome |
+|---|---|
+| 248 distinct M49 skeletons; date-stamped master has 248 | **PASS** |
+| Per-row official M49 code / ISO2 / ISO3 / name / region / subregion equality | **PASS (248/248)** |
+| Country status count | **PASS (85 identified, 163 explicit unknown)** |
+| Governmental bodies, unique ID and M49 mapping | **PASS (126)** |
+| Source-linked internal governmental relationships, valid body references | **PASS (31)** |
+| Provenance ID uniqueness, primary HTTPS URI/date/language/verification fields | **PASS (167)** |
+| Coverage ledger matches all 248 area statuses | **PASS (248)** |
+| 20 at-risk territory/contested/parent-link sentinels | **PASS** |
+| Python `python docs/atlas/handoffs/team-a/validate.py` on Batch 10 | **NOT RUN** (sandbox cannot directly checkout GitHub; historical Python pass not reused) |
+| Current statutory legal/territorial mandates independently certified | **INCOMPLETE** |
+| Public website, main, calculator, clinical copy | **NOT MODIFIED** |
+
+**Method limitations:** integrity checks do not adjudicate disputed authority, parent-country delegated jurisdiction, current consolidated statutes or effective dates. Government media/portal documentation can confirm identity or limited remit, but no 2026 *proposed* decree was used as enacted authority. See Batch 10 `STATUS.md`, `GAPS.md`, `PROVENANCE.csv` and `CONTINUE.md`. Earlier QA retained below as historical, with older totals superseded.
+
 # Team A QA — 2026-11-05
 
 | Audit | Result |
