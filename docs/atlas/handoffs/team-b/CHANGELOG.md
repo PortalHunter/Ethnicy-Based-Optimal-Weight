@@ -1,3 +1,14 @@
+# Team B changelog · batches 49–50 · 2026-11-05
+
+Batches 49–50 added five organization identities, six exact resource relationships, six first-positive cells, eighteen provenance rows and eleven search records across ten previously untargeted cells. No new domiciled area or issuer-country resolution. Diabetes cells: Luxembourg (442), Cyprus (196), Iceland (352), Malta (470). Malta also gains hypertension and high_chol. Four association-focused lactose searches (442/196/470/352) yielded no eligible resource in the bounded pass; this is not a national absence finding.
+
+- Batch 49 `f3e8380068b2c4be03f00ad2f6da8beb6f50ea81`: +5 orgs, +4 diabetes contexts/cells, +12 provenance, +5 searches.
+- Batch 50 `b8913e2cf17de42b3ac6c4877b916dd7fbfb83fd`: +2 Malta cardiovascular contexts/cells, +6 provenance, +6 searches including four bounded lactose gaps.
+- Final `4ef562c15d6f9d37198f481f4f86bdef2c9b0355` restores original coverage line endings; final diff is ten cells only. All historical research retained, zero clinical approvals, no website/main/other-team changes or merge.
+- Actual Node CLI prewrite and immutable readback pass; ten CSVs plus validator hash-match final nontruncated tree.
+
+---
+
 # Team B changelog · batch 48 · 2026-11-05
 
 Seven separate English condition searches for the Falkland Islands (238) returned no eligible publication in this pass. The community directory describes Southern Heartbeat’s AED and CPR remit. The 26 May 2026 charity index distinguishes local registrations from overseas tax recognition. Local domicile and eligible condition work still need verification.

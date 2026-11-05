@@ -1,3 +1,13 @@
+# Team B status · batch 50 · 2026-11-05
+
+397 organizations in 227 of 248 M49 areas; 21 local identity gaps. Of 1,736 condition cells, 270 have sources, 138 have bounded searches with no verified resource, and 1,328 await a targeted search. There are 296 source contexts, 825 provenance rows, 484 searches, 7 community records, 8 cross-border links and 5 unresolved issuer countries. All 296 contexts are research leads; zero clinical claims approved.
+
+Batches 49–50 added five organization identities, six exact resource relationships, six first-positive cells, eighteen provenance rows and eleven search records across ten previously untargeted cells. No new domiciled area or issuer-country resolution. Diabetes cells: Luxembourg (442), Cyprus (196), Iceland (352), Malta (470). Malta also gains hypertension and high_chol. Four association-focused lactose searches (442/196/470/352) yielded no eligible resource in the bounded pass; this is not a national absence finding.
+
+[Final validated data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/4ef562c15d6f9d37198f481f4f86bdef2c9b0355). Batch 49 `f3e8380068b2c4be03f00ad2f6da8beb6f50ea81`; batch 50 `b8913e2cf17de42b3ac6c4877b916dd7fbfb83fd`. Actual Node CLI and independent 11/11 Git blob hash readback passed. Research only; all original acceptance gates are tracked in CONTINUE/CHECKPOINT; website untouched and PR unmerged. Historical status follows.
+
+---
+
 # Team B status · batch 48 · 2026-11-05
 
 392 organizations in 227 of 248 areas; 21 local identity gaps. Of 1,736 condition cells, 264 have sources, 134 have bounded searches with no verified resource, and 1,338 await a targeted search. There are 290 source contexts, 807 provenance rows, 473 searches, 7 community records, 8 cross-border links and 5 unresolved issuer countries. All 290 contexts are research leads; zero clinical claims approved.

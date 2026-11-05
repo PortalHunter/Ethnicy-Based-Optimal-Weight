@@ -1,3 +1,58 @@
+# Continue Research Team B · batch 50 · 2026-11-05
+
+**STANDALONE RESTART — INCOMPLETE, DRAFT, UNMERGED.** [PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71), branch `research/atlas-team-b-20261104` into `main`. Latest independently validated data commit: [`4ef562c15d6f9d37198f481f4f86bdef2c9b0355`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/4ef562c15d6f9d37198f481f4f86bdef2c9b0355). A documentation checkpoint follows it; use live branch HEAD for restart and preserve concurrent work.
+
+397 organizations in 227 of 248 M49 areas; 21 local identity gaps. Of 1,736 condition cells, 270 have sources, 138 have bounded searches with no verified resource, and 1,328 await a targeted search. There are 296 source contexts, 825 provenance rows, 484 searches, 7 community records, 8 cross-border links and 5 unresolved issuer countries. All 296 contexts are research leads; zero clinical claims approved.
+
+Batches 49–50 added five organization identities, six exact resource relationships, six first-positive cells, eighteen provenance rows and eleven search records across ten previously untargeted cells. No new domiciled area or issuer-country resolution. Diabetes cells: Luxembourg (442), Cyprus (196), Iceland (352), Malta (470). Malta also gains hypertension and high_chol. Four association-focused lactose searches (442/196/470/352) yielded no eligible resource in the bounded pass; this is not a national absence finding.
+
+## Restart and scope
+
+1. Verify PR open/draft/unmerged, live head/base, full nontruncated tree, root/directory AGENTS if present, comments/reviews and CI. No AGENTS was in this run's 145-entry tree; no reviews/comments existed at restart. Never overwrite intervening commits or force-push.
+2. Read [original assignment](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/TEAM_B_CLINICAL_ORGANIZATIONS.md) and [data contract](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/DATA_CONTRACT.md), then all 18 Team B files, including ten CSV inputs and validator. Run `node docs/atlas/handoffs/team-b/validate.mjs`. Keep exact URLs, stable IDs, local names, M49 strings, page issuer versus document issuer, population, care jurisdiction and edition distinct.
+3. Write **only** `docs/atlas/handoffs/team-b/` on this existing branch. No public website, main, calculator, medical formula, other team files, clinical claims, patient/genomic data, proprietary full texts or PR merge. Teams A/C/D retain government/journal/international-network scopes. Issue #27 governs separate clinical appraisal.
+4. Continue source discovery in **1,328** untargeted empty cells or verify one of **21** local identity gaps / **5** unresolved document imprints. A bounded failed search does not mean absent local research. Suggested next region: unsearched Slovenia/Croatia diabetes and hypertension, or other cells confirmed `not_yet_researched`; do not repeat these ten cells as fresh progress. The four lactose gaps need other institutions or accessible primary sources.
+5. Validate before publication; independently fetch saved files and verify hashes and joins. Commit small batches and refresh STATUS/GAPS/CHANGELOG/VALIDATION/CHECKPOINT/CONTINUE and PR summary. End unfinished work with a standalone recoverable checkpoint and exact prompt.
+
+## New source caveats
+
+- **Luxembourg B-LU-ALD:** [own French education](https://www.ald.lu/fr/comprendre-les-diabetes), [own contact](https://www.ald.lu/fr/contact), [scope](https://www.ald.lu/fr/a-propos). Undated; type 2/prediabetes education is not a current national guideline or population study. Patient ALD and professional SLD are separate.
+- **Cyprus B-CY-PDS:** [own Greek diabetes introduction](https://diabetes.org.cy/schetika-me-ton-diaviti/isagogi/), [Nicosia office](https://diabetes.org.cy/epikinonia/), [scope](https://diabetes.org.cy/o-syndesmos/to-ergo-tou-syndesmou/). Undated; screening criteria, aetiology and broad ethnic-risk labels are unappraised. No ancestry-risk or legal authority inference.
+- **Iceland B-IS-DI:** [2011-11-22 course notice](https://www.diabetes.is/namskeid-um-sykursyki-tegund-2), [own identity and Reykjavik address](https://www.diabetes.is/). Historical notice advertises an Insula type 2 course using IDF conversation maps. Neither delivery nor current availability is established. Legacy Samtök sykursjúkra name and current Diabetes Ísland legal succession were not audited. Template address placeholders coexist with the specific Reykjavik footer; no generic placeholder was used as domicile.
+- **Malta B-MT-MDA:** [own association page](https://www.diabetesmalta.org/the-association), [site construction notice](https://www.diabetesmalta.org/). Identity only: newsletters are self-reported, no issue was inspected. Original own English name retained; Maltese alias appeared in the IDF directory but was not asserted as a verified own legal name.
+- **Malta B-MT-MHF:** [own registered-in-Malta statement](https://www.maltaheartfoundation.org/), [diabetes](https://www.maltaheartfoundation.org/edu-malti/dijabete), [hypertension](https://www.maltaheartfoundation.org/edu-malti/pressjoni), [cholesterol](https://www.maltaheartfoundation.org/edu-malti/kolesterol). All three original Maltese articles are dated **2021-09-29** and credit named authors/editors, the Maltese Cardiac Society and University of Malta Maltese department. Collaboration is not sole foundation authorship or government adoption. Population projections, broad skin-colour/African/Caribbean labels, thresholds and treatment claims remain unappraised. FH is separate from generic high cholesterol.
+- **Bounded lactose gaps:** [ALIG guide navigation redirects to members-only notice](https://www.alig.lu/contenu-reserve-aux-membres-de-la-l-i-g/); [Cyprus Greek-route FAQ](https://cypruscoeliac.org/faqs/) still shows largely English content with no eligible lactose-specific source verified; [Malta disease page](https://coeliacassociationmalta.org/about-coeliac-disease/) gave a verification challenge; [gluten.is](https://gluten.is/) returned 502. French/Greek/Icelandic condition terms and English were searched with two engines. No access controls bypassed; other organizations and nonindexed work remain open.
+
+## Historical caveats that remain mandatory
+
+Preserve Dutch NDF ended Jan 2026; dissolved Monaco diabetes society vs modern M-CRIN; Côte d’Ivoire AODCI 2021; Trinidad undated blog; Saint Lucia 2025 press and announced—not confirmed delivered—2026 AGM; Mexico gout abstract n68 vs listed subgroups 67. Keep Argentina/Spain historical 2014–2019 FH, Czech external EAS/IAS attribution, Polish PTL Nov 2 2026 Uncorrected_Proof and distinct PTNT/PTL issuers. Australian 2024 toolkit is not the planned future dynamic guideline; Canada 2021 adult and 2022 paediatric editions differ; NZ resource compiler is an Otago academic; Italian gout 2019 vs 2013; Brazilian 2025 press refers to joint 2024 SBR/SBPC-ML guidance. Japanese/Korean editions and Greek external-guideline hosting remain distinct. Five unknown document issuer countries: Panama HEARTS; Portuguese WGO lactose; Portuguese ESPGHAN coeliac; Chad OA Pub/JHC; South Sudan PAMJ. Batch 48 secondary serial-country leads do not resolve edition imprints. Keep Saint Barthélemy 652 separate from Saint Martin 663.
+
+Retain 14 documented diversity counterexamples, seven community/governance cases and eight cross-border edges. FH ≠ generic high LDL; gout ≠ asymptomatic urate; hereditary haemochromatosis ≠ high ferritin; lactase nonpersistence ≠ symptomatic lactose intolerance; HLA/coeliac predisposition ≠ diagnosis. New Cyprus/Malta broad labels are **source limitations**, never approved ancestry rules.
+
+## Validation receipt
+
+The actual `node docs/atlas/handoffs/team-b/validate.mjs` CLI ran on locally materialized branch files at baseline, before writes and on independently fetched immutable data. Both source batches returned zero structural errors after readback. Final [validated data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/4ef562c15d6f9d37198f481f4f86bdef2c9b0355) has a nontruncated 145-entry Git tree, actual root tree `cfa3799edb8c590ec7c3e253fbac45f443dd97b3`. All ten CSV inputs plus the unchanged validator were independently fetched as base64, decoded and locally recomputed as Git blob hashes: **11/11 match**, 0 mismatches; Node reproduced the metrics above with 0 errors. The ten CSV inputs are not assumed valid from a write response: each saved input was fetched and hashed; the line-ending correction's unchanged blobs were also compared to the final tree. Source-batch 49: `f3e8380068b2c4be03f00ad2f6da8beb6f50ea81`; batch 50: `b8913e2cf17de42b3ac6c4877b916dd7fbfb83fd`; final formatting-preservation commit: `4ef562c15d6f9d37198f481f4f86bdef2c9b0355`. GitHub compare from restart head `f9a597d6697be5933e04cfb6d7bff9f7b1f4b9ad` shows only six Team B CSVs, with exactly ten changed coverage rows. A serializer initially normalized coverage line endings; final commit restores original per-row endings without changing research values. Prior data rows remain preserved. Baseline CI population-tests and quality-gates passed; latest-head CI must be checked separately. No clinical, copyright, permissions, statutory adoption, full-site completeness or source-currency certification is implied.
+
+## Acceptance status
+
+- Complete 248 × 7 geographic matrix and 10+ diversity examples: retained.
+- Separate country/population/jurisdiction, subtypes, source role and explicit gaps: structurally validated, clinical claims withheld.
+- Every area's seven streams authoritatively discovered and organization/edition lifecycle fully checked: **not complete**. All identity and source-positive counts describe verified leads, not comprehensive authority or clinical appraisal.
+
+## Exact reusable continuation prompt
+
+Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71.
+
+Read `docs/atlas/handoffs/team-b/CONTINUE.md` on branch `research/atlas-team-b-20261104`.
+
+Verify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, source caveats, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.
+
+If unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again.
+
+---
+
+## Historical continuation retained below
+
 # Continue Research Team B · batch 48 · 2026-11-05
 
 392 organizations in 227 of 248 areas; 21 local identity gaps. Of 1,736 condition cells, 264 have sources, 134 have bounded searches with no verified resource, and 1,338 await a targeted search. There are 290 source contexts, 807 provenance rows, 473 searches, 7 community records, 8 cross-border links and 5 unresolved issuer countries. All 290 contexts are research leads; zero clinical claims approved.
