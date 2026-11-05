@@ -1,3 +1,20 @@
+# Current Team C discovery limitations — 2026-11-05
+
+The bounded worldwide discovery handoff is complete with these disclosed limitations. No record of absent research is inferred.
+
+1. **Coverage depth:** every area received an initial query, but 228 areas still have no journal record established here. The 744 search leads are unverified: foreign publications, country-name ambiguity, sponsored geographic journal pages and unrelated results can occur. These require source-body assessment before import.
+2. **Seven-condition review:** all 1,736 systematic condition-search states remain not_searched. The broad discovery pass used diabetes/hypertension anchors; it is not seven completed searches per area. Article samples cover all seven keys but do not establish area-wide evidence coverage.
+3. **Language:** fifty reviewer-generated language variants were executed; translation naturalness and recall are not certified. English-only queries and one translated query cannot establish local research absence.
+4. **Editorial integrity:** 27 policy assessments preserve missing fields explicitly. Most dedicated correction/retraction procedures have not been independently established. Policy existence is not enforcement; journal identity is not article validity.
+5. **Primary access:** Iranian and Cuban primary editorial policies remain unresolved after targeted searches; REED direct homepage previously403; LILACS /en/ path404; RMST submission policy403. These are retrieval barriers, not proof the services or policies do not exist.
+6. **Metadata conflicts:** Rwanda publisher/guidance metadata; Cuban registry print0864-4462 vs stale Latindex note0864-4482; RMST generic citationISSN1987-037X vs SeriesB footer1987-1031; Batna journal home ASCOP/monthly vs ASJP university/semiannual/quarterly metadata. Publisher role, university affiliation and frequency are not silently merged.
+7. **Date/identifier limits:** Mali issue2021 and HTML posting2023 differ; Iranian Solar-Hijri issue remains unconverted; missing displayed DOI is not proof no DOI exists. Only publisher traces are asserted.
+8. **New article provenance:** Algerian screening PDF has header/footer issue/page and geographic wording discrepancies and screening-threshold differences. Chinese2024-edition guideline was published2025; primary issue and society metadata verified, full-article route returns an error/paywall template. Mauritanian dialysis report is published as a letter and cannot estimate national hypertension prevalence.
+9. **Platform boundaries:** SciELO's current homepage distinguishes national/thematic and in-development links; IMSEAR is active in GIM but independent selection policy remains not verified; aggregation/hosting is not journal quality or scientific endorsement. Journal self-indexing claims need independent index records.
+10. **Downstream science:** none of the 15 article candidates has clinical-quality approval. Effect-size synthesis, independent full-text appraisal, retraction surveillance, condition-specific systematic reviews and individualized applicability remain downstream. Ancestry, clinical jurisdiction, publisher country and participant location stay separate.
+
+## Historical research-gap log (superseded where the current list says so)
+
 # Research gaps — 2026-11-04
 
 1. All M49 country/area-specific journal searches and seven-condition searches are pending. Missing data are not evidence of no locally published research.

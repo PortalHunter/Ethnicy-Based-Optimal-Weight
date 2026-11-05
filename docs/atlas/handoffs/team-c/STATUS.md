@@ -1,37 +1,39 @@
-# Team C status — 2026-11-05
+# Team C — discovery handoff status, 2026-11-05
 
-**Five prior durable data commits plus batches 6–7 continuation; draft PR #69. Research-only, not clinically appraised or deployed.**
+**DISCOVERY_HANDOFF_COMPLETE_WITH_DISCLOSED_GAPS.** The original discovery-layer acceptance checklist is satisfied at the explicitly bounded level below. This is a research-source directory and sample, not an exhaustive country-by-condition literature review, journal accreditation or clinical evidence approval.
 
-| Metric | Exact count | Interpretation |
-|---|---:|---|
-| International and national research discovery platforms | 13 | Includes regional WHO sources and national hosting/aggregation portals, distinct from clinical endorsements |
-| UN M49 standard-list country/area entries | 248 | Derived code baseline; 7 Northern African rows fieldwise verified; remaining 241 pending |
-| Country/area × 7-condition queue rows | 1,736 | All `not_searched` **for a complete area-specific literature audit**; selectively discovered article sources tracked separately |
-| Journal and archival records | 23 across 17 publisher areas | Entries have verification-state tiers; some publisher/editorial fields pending |
-| Hosting or directly verified index relationships | 14 | Host != publisher != clinical evidence endorsement |
-| Exact article candidates | 11 | **All unappraised**; seven condition keys represented, different study designs; at least one source displays no DOI |
-| Recorded executed queries | 35 | Includes original-language search queries, positive/negative results |
-| Visibility counterexamples | 13 | Illustrate restrictive title-language/prestige-only failures; do not establish absence from PubMed |
-| Provenance ledger rows | 60 | Sources and checking states |
+| Deliverable | Verified count / state |
+|---|---|
+| Official UNSD country/area records, fieldwise reconciled | 248 / 248; 21 intermediary names aligned, zero ISO/region differences |
+| Areas with executed initial country-specific journal discovery | 248 / 248; 249 calls including one successful HTTP503 retry |
+| All executed search-log entries | 297; 50 reviewer-generated query languages in the all-area pass |
+| Unverified search leads, kept separate from journals | 744 |
+| Journal/periodical records | 27 across 20 publishing areas; field-level uncertainty retained |
+| Platform/index records | 13; hosting, aggregation and indexing distinguished |
+| Journal–index/hosting relationships | 14; dated assertions, not scientific endorsements |
+| Exact article candidates | 15, all unappraised; all seven condition keys represented |
+| Article discovery detail rows | 15; no effect estimates or ancestry assignments approved |
+| Journal policy assessment rows | 27; missing corrections/retraction procedures explicit |
+| Geographic/condition queue rows | 1,736; all systematic condition-search states remain not_searched |
+| Areas without a journal record in this handoff | 228; unknown, not absence of a journal |
+| Source provenance entries | 329 |
+| Visibility counterexamples | 17; no asserted PubMed omissions |
+| Local validation | Node PASS; 17 deliberately invalid structural fixtures rejected |
 
-**Remaining:** Full official-UN field-by-field reconciliation; systematic country-by-condition article discovery for every area; full journal ethics/peer-review review (including Cuban/Iranian provisional journal sources); genuine DOI-less confirmation where metadata lacks DOI; actual-index membership validation and full clinical appraisal. The 1,736 unsearched rows deliberately do not claim no research exists. No live medical app changes or main merge.
+## Completion boundary
 
-## Batch 6 checkpoint
-Parent: `d86444069580fb754d35abe318757918ad1c8732`; existing branch `research/atlas-team-c-20261104-local-journals-1851`, draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/69. The batch 6 commit is the commit containing this status (resolve via GitHub commit history; a commit cannot contain its own SHA).
-Two journal records improved; zero new journals/articles; 5 new provenance entries; 4 executed queries. All 11 candidates stay unappraised; all 1,736 systematic search queue rows unchanged. Validation: CSV widths, unique scoped IDs, geographic/journal/index foreign keys, seven condition keys and queue cardinality checked; see VALIDATION.md and validate.mjs. No main or application changes.
-Next: official UNSD fieldwise reconciliation; Iranian/Cuban primary policies; Mali publisher and correction policies; country-by-condition local-language discovery, without duplicating completed source checks.
+The original assignment asks for all-area search-status rows, locally discoverable sources including records usable without a DOI, separate journal/article assessment, at least 15 representative discoveries and at least 10 visibility counterexamples. See ACCEPTANCE_AUDIT.md and REPRESENTATIVE_DISCOVERIES.md. It does not authorize clinical appraisal, comprehensive systematic review of every condition in every area, or patient-facing recommendations. Earlier handoffs listing full clinical appraisal as Team C acceptance work overextended this discovery scope; that remains a separate downstream review gate.
 
-## Batch 7 checkpoint
-Verified parent: bd4fc6ef95e8b2f70dc4058fdd2727eed3c0008d. This batch's SHA is the commit containing this section, independently resolvable from branch history.
-- Seven Northern African area records matched official UNSD code, name, ISO2/3, region, subregion and empty intermediate-region fields with zero differences. Verification states/dates updated; source audit file added. Remaining 241 rows retain derived/pending status. Systematic search queue untouched.
-- One existing journal record (CUB_RCE) improved with registry identity/publisher provenance; current editorial policies and current issue remain unverified. Explicit print-ISSN conflict between Latindex note and registry; no guessed print-field fill.
-- Three provenance entries, six queries added. Totals 60 and 35. Article candidates remain 11, all unappraised; journal count remains 23.
-- Structural validation PASS in JavaScript against complete proposed dataset; no Node/Actions execution success asserted. All changed files to be independently fetched after branch write.
-Next: geographic field audit of the 241 remaining rows in bounded regional batches; Iranian and Cuban primary policies; Mali publisher/corrections; source-linked country-condition discovery. No live calculator, main or clinical recommendations changed.
+The 1,736 condition rows intentionally remain a future systematic-review queue. A broad country discovery query using diabetes/hypertension anchors cannot complete the seven individual condition searches. Fifty language variants are actual executed queries, not certified translations or proof of comprehensive native-language coverage.
 
-## Batch 8 — complete geographic reconciliation
-All 248 main-list areas now matched by code against the official UNSD English table (2026-11-05): name, ISO2/3, region, subregion and intermediate region. Twenty-one names aligned; no ISO or regional-field differences. All 1,736 queue-row geography labels synchronized. Source checksum and per-row deltas recorded. This is geographic completion only: country-specific journal and seven-condition searches remain pending. Provenance total 61. Local Node validator PASS (248 geographic audits), superseding the earlier orchestration-only execution limitation. Parent f8f6ecf84b5b1e6d9095aea9dc77dd4febedca0e. Next: all-area bounded discovery pass and remaining journal-policy/source-provenance gaps.
+## Completed this continuation
 
-## Batch 9 — all-area bounded discovery pass
-{"areas": 248, "leads": 744, "queries": 284, "provenance": 309, "query_languages": 50}
-Every area has an actually executed country-specific query (249 calls including one successful retry of HTTP503). Result leads are CANDIDATE_UNVERIFIED and not added to the verified journal table. Original-language query variants cover 50 languages, generated by reviewer and not linguistically certified. Existing 23 journal records and 11 article candidates unchanged. All 1,736 systematic seven-condition states remain not_searched; journal discovery status now bounded_country_query_executed. This completes the first geographic discovery pass, not a comprehensive literature review. Next: source-body verification and representative discoveries, editorial/DOI-less assessment, acceptance audit.
+- Batch 8: official geographic reconciliation; commit 76fb1c6625a2fa0c6f3ffa3e035ec0b317bf50af, independently read back.
+- Batch 9: all-area bounded query pass and candidate-only trace; commit dacdd0d6c9b107cba9e7062088dabb961596366b, independently read back.
+- Batch 10: four primary-source journal discoveries, four unappraised article candidates, policy and claim-intake detail tables, explicit unknowns, index refresh, acceptance audit and offline negative validation. This batch's exact SHA is the commit containing this status; final GitHub PR update records it after write/readback.
+
+Existing branch: `research/atlas-team-c-20261104-local-journals-1851`; draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/69. Batch 10 parent: dacdd0d6c9b107cba9e7062088dabb961596366b. Only Team C handoff paths changed. No main merge or live-calculator edit.
+
+## Remaining uncertainty
+
+Read GAPS.md for inaccessible primary policies (including Iran/Cuba), journal corrections/retraction procedures, metadata discrepancies, unverified lead relevance, full-text barriers and future literature-review work. These gaps remain explicit within the completed discovery handoff; they are not certified negative findings or medical evidence.

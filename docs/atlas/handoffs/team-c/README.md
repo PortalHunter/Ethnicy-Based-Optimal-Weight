@@ -1,3 +1,15 @@
+# Team C — worldwide local-journal discovery handoff
+
+**Current checkpoint: discovery handoff complete with disclosed gaps (2026-11-05).** Start with STATUS.md, ACCEPTANCE_AUDIT.md and GAPS.md. The completed unit is the original source-discovery assignment; comprehensive country-by-condition literature review and clinical appraisal are not claimed.
+
+Added current data: area_discovery_pass.csv (248 executed initial country queries), discovery_leads.csv (744 unverified leads), geographic_field_audits.csv (248 official UNSD reconciliations), journal_policy_assessment.csv (27 field-specific assessments), and article_discovery_details.csv (15 unappraised provisional sources). All files live under this Team C handoff folder. Existing datasets, provenance and history are retained.
+
+Run `node docs/atlas/handoffs/team-c/validate.mjs` and `python docs/atlas/handoffs/team-c/validate_negative_cases.py`. Unknown journal/index/article fields use explicit not_verified/unknown/not_applicable. Empty intermediate-region fields are intentional empty source-table values; they do not represent missing verification. Condition queue count blanks retain historical unknown counts and must not be interpreted as zero.
+
+See REPRESENTATIVE_DISCOVERIES.md and COUNTEREXAMPLES.md. No clinical calculation, ancestry inference, medical recommendation or main merge is authorized by this directory.
+
+## Historical method and checkpoints
+
 # Team C — Local medical journals and regional-language research
 
 Date: 2026-11-04. Research-only handoff for Ancestry Health; related issues [#64](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/64), [#66](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/66), [#27](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/27).

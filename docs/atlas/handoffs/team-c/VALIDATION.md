@@ -12,3 +12,6 @@ Validator JavaScript executed in tool orchestration against proposed data and ex
 
 ## Batch 8
 Local `node docs/atlas/handoffs/team-c/validate.mjs` PASS: 248 official geographic audits, eight other CSV datasets and 1,736 unique queue pairs. Geographic comparison: 21 name differences, no ISO/region differences. Official HTML SHA256 in P026; raw HTML is temporary, not committed copyrighted material. All 11 article candidates still unappraised; no new clinical claims.
+
+## Batch10 final discovery verification
+Actual local Node validation PASS:248 official geography audits;248 discovery-area rows;744 candidate-only leads;27 journals and policy assessments;15 unappraised papers and intake details;13 indexes;14 relationships;297 queries;329 provenance;1736 unique condition queue pairs. All systematic condition-search states remain not_searched. All17 intentionally invalid fixtures rejected (duplicate IDs, invalid geographies/references, false clinical approval, false systematic completion, missing source-query reference, implicit blank identifier and mismatched geographic label). PDFs inspected for bibliographic identity only; no full clinical appraisal claimed. Batch8 and9 changed files independently read back from GitHub; batch10 to be read back after write. No GitHub Actions result asserted.

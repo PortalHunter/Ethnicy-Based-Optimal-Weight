@@ -283,3 +283,16 @@ Q280,Western Sahara,"""Western Sahara"" (""مجلة طبية"" OR ""medical jour
 Q281,Yemen,"""Yemen"" (""مجلة طبية"" OR ""medical journal"") (السكري OR ارتفاع ضغط الدم OR diabetes OR hypertension)",ar,web_search_system2,2026-11-05,not_yet_relevance_verified,"Bounded discovery query; returned metadata is not primary journal verification. Reviewer-generated language variants are search aids, not certified translations. No negative existence conclusion."
 Q282,Zambia,"""Zambia"" (""medical journal"" OR ""medical journal"") (diabetes OR hypertension OR diabetes OR hypertension)",en,web_search_system2,2026-11-05,not_yet_relevance_verified,"Bounded discovery query; returned metadata is not primary journal verification. Reviewer-generated language variants are search aids, not certified translations. No negative existence conclusion."
 Q283,Zimbabwe,"""Zimbabwe"" (""medical journal"" OR ""medical journal"") (diabetes OR hypertension OR diabetes OR hypertension)",en,web_search_system2,2026-11-05,not_yet_relevance_verified,"Bounded discovery query; returned metadata is not primary journal verification. Reviewer-generated language variants are search aids, not certified translations. No negative existence conclusion."
+Q285,Mali,"site:malimedical.org ""diabète"" hypertension article",fr,web_search_system1,2026-11-05,see_notes,RMST article found; requested Mali Medical exact source not established
+Q286,Cameroon,"site:hsd-fmsb.org diabète hypertension ""Cameroun""",fr,web_search_system1,2026-11-05,see_notes,Publisher articles found but not imported in this batch
+Q287,China,site:cmab.yiigle.com 中华 糖尿病 杂志 乳糖,zh,web_search_system1,2026-11-05,see_notes,Journal identity and historical guidance; no specific lactose claim imported
+Q288,Algeria,site:batnajms.net diabète hypertension étude,fr,web_search_system2,2026-11-05,see_notes,No exact article from this query independently established
+Q289,Mauritania,"site:ejournals.univ-nkc.mr/index.php/Medicales/article ""diabète""",fr,web_search_system2,2026-11-05,see_notes,"Dialysis letter found, thyroid article excluded from seven keys"
+Q290,China,"""中国糖尿病防治指南（2024版）"" ""2025"" DOI",zh,web_search_system2,2026-11-05,see_notes,Official issue and society release found
+Q291,Algeria,"""Batna Journal"" ""diabète"" ""hypertension""",fr,web_search_system1,2026-11-05,see_notes,Screening PDF and platform metadata found
+Q292,Mauritania,"site:ejournals.univ-nkc.mr/index.php/Medicales/article ""diabète"" ""2020""",fr,web_search_system1,2026-11-05,see_notes,Primary archive and letter metadata found
+Q293,Algeria,"""Screening for type 2 diabetes in South"" Mascara Boudali 2023",en,web_search_system1,2026-11-05,see_notes,Exact primary PDF found
+Q294,Algeria,"""Hyperuricémie"" ""155516"" DOI",fr,web_search_system1,2026-11-05,see_notes,No exact own DOI established; unrelated rheumatology results excluded
+Q295,Iran,"site:ijdld.tums.ac.ir ""اخلاق"" ""داوری""",fa,web_search_system1,2026-11-05,see_notes,Primary policy unresolved; no absence inference
+Q296,Cuba,"site:revendocrinologia.sld.cu ""Ética"" ""revisión""",es,web_search_system1,2026-11-05,see_notes,Primary policy unresolved; unrelated journals excluded
+Q297,Mali,"site:malimedical.org ""société"" ""revue"" ""publication""",fr,web_search_system1,2026-11-05,see_notes,No legal publisher confirmation established
