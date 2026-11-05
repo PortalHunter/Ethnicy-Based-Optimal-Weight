@@ -1,3 +1,58 @@
+# Latest standalone Team D checkpoint — Batch 12 (2026-11-05)
+
+**Project:** Ancestry Health, independent cross-border institutional research atlas. **Repository:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight  
+**Branch:** `research/atlas-team-d-20261104`  
+**Existing review:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70 — open/draft/unmerged at this checkpoint.  
+**Data and full structural validator commit:** `f430ad45e83ae183656ba468648d2f0e4123f382`.  
+**Batch 12 status/batch-log/gap/validation documentation commit:** `96737488e38afec2e614cc0c8e71023e4473ef17`.  
+**Scope:** `docs/atlas/handoffs/team-d/` only; no main or live website or other teams' directories modified. GitHub is the source of truth; always recheck live branch head and PR state after this document is committed.
+
+## Batch 12 independently source-verified contributions
+
+1. **Egypt's APPM MoU:** Africa CDC's official **15 June 2026** announcement identifies Egypt as its **first AU Member State to sign the APPM MoU**; the Egyptian Unified Procurement Authority chair signed for the Egyptian government. Its exact independent participation edge is `m49:818 → AFRICA_APPM`, type `signed_participation_mou`, valid_from/as_of `2026-06-15`, valid_to `unknown`. Evidence: https://africacdc.org/news-item/egypt-joins-african-pooled-procurement-mechanism-appm/ (TD-SRC-119). Do not convert an MoU to active national procurement, statutory medicines licensing, medicine approval, or clinical guidance.
+2. **APPM programme identity:** New source-verifiable `AFRICA_APPM` institutional node and programme-to-`AFRICA_CDC` `operated_by` edge. AU Assembly endorsed mechanism **February 2024**; Africa CDC describes itself as leading it. Official programme: https://africacdc.org/appm/ (TD-SRC-120). Africa CDC's **15 October 2026** report says **8** AU state MoU signatories, **15** intent expressions and an eventual **55-state target**; aside from separately sourced Egypt, country identities are not identified by that aggregate announcement. National regulators still oversee national product approvals. Aggregate source: https://africacdc.org/news-item/africas-pooled-procurement-mechanism-seeks-to-lower-medical-product-costs/ (existing TD-SRC-118).
+3. **ASEAN health structure:** New `data/asean_health_governance_2026.csv` with **six separate official sector roles**: ASEAN Health Ministers' Meeting (AHMM), Senior Officials' Meeting on Health Development (SOMHD), and four Health Clusters (AHC1 healthy lifestyles, AHC2 all hazards/emerging threats, AHC3 health systems/access, AHC4 food safety). The official priorities page places these clusters under an **ASHA 2026–2030** programme heading alongside earlier work-plan cycles. These are sectoral coordination/portal-listing facts, **not** state-by-state project participation, current focal-point membership, binding national health law or patient-specific guidance. Sector source: https://asean.org/our-communities/asean-socio-cultural-community/health/ (TD-SRC-121). Priorities source: https://asean.org/our-communities/asean-socio-cultural-community/health/priority-areas-of-cooperation/ (TD-SRC-122). The sector overview still refers to ten member states in older material; the separately source-verified 2025 Timor-Leste ASEAN accession and its membership graph must not be reversed using that stale sentence.
+
+## Complete preserved dataset inventory, counts and caveats
+
+- **46 international/WHO/programme nodes**, **544 typed and source-stamped graph edges**; **20 institution-level references** covering `diabetes`, `hypertension`, `high_chol`, `gout`, `lactose`, `celiac`, `hemochromatosis` (not a clinical appraisal).
+- **249 retained geographic/ISO seed candidates**, **248 official UN M49 crosswalk areas** and one explicit seed exception `158`. **205** independently verified WHO administrative-region assignments; **44** still `not_verified` and queued. Six WHO regional offices included. UN statistical region, WHO region, WHO governance, WHO physical office and institution membership must remain separate. Indonesia moved from SEARO to WPRO effective **23 May 2025**; some old WHO CPCD references conflict and are not promoted. U.S. WHO governance unresolved.
+- **153** WHO April 2026 dashboard office roster labels: **106** April 2026 office-head responses, **46** retained September 2024 survey results and **one** unavailable. **105** distinct M49 area hosts have affirmative April 2026 self-reported office evidence; **144** others lack such direct evidence (unknown, not absent). Four operational/multicountry labels not forced into M49 joins. Office presence is not a present-day continuous-operations guarantee.
+- WHO's **2023 presence report** covers **January 2021–December 2022**. Its **228** historical physical office/MCO/focal-point service observations and **225** typed historical graph edges are **not** 2026 office statuses.
+- **34** EMA listed NCA identity candidates in **30** EU/EEA areas; legal powers and exact Team A registry IDs still pending. No automatic national medicines-regulator edges.
+- **24** PAHO HEARTS clinical-pathway catalog titles (**22** local, **two** regional standards) and **five** strictly aggregate programme observations. Three Mexico documents are **subnational**; PAHO's `DOMINICA REPUBLIC` title is deliberately unjoined. PAHO's May 2026 **29** first-version national standard adopters differ from its undated **35** initiative commitments; neither confirms any named country adopted HEARTS **2.0**.
+- **122 unique provenance URLs**, with TD-SRC-119–122 newly added in Batch 12. No new condition-level efficacy claim, genotype inference, prescription, clinical recommendation or public website change.
+
+## Validation and durable GitHub state
+
+The full checked-in `validate.mjs` structural assertions **PASS** at data SHA `f430ad45e83ae183656ba468648d2f0e4123f382`. Implementation: isolated JavaScript execution with read-only file-read shim, **19 CSV inputs fetched at the exact GitHub data commit plus one exact source-equivalent authored ASEAN governance fixture** (to remain within connector call limits). Result: 46 nodes, 544 edges, 20 condition records, 249 statuses, 205 verified/44 unknown regions, 105 affirmative April 2026 offices, 153 mixed-date survey labels, 34 EMA candidates, 228 historical records, 122 unique provenance URLs, 24 PAHO catalog titles, five programme observations, six ASEAN governance rows. **All five new data/validator paths were independently re-fetched from GitHub** and their updated row counts and source IDs confirmed. This is **not** an assertion that a literal Node CLI command or GitHub Actions ran, or that legal mandates/clinical claims were approved. For independent local validation run `node docs/atlas/handoffs/team-d/validate.mjs` in a Node-capable checkout.
+
+## Remaining original-assignment acceptance work
+
+1. Find direct individual WHO evidence for all **44 unresolved regions**, without extrapolating territories from parent governments or statistical UN geography. Separate Bermuda conflict, Liechtenstein roster omission and stale Indonesia listings.
+2. Recheck the **46** WHO September-2024 office survey records for new genuine office-specific sources; audit address, type, MCO/local physical presence, liaison versus focal point, and the **144** other candidate areas without affirmative April-2026 survey records. Unknown does not mean absent.
+3. Identify other **seven named APPM signers** and **15 intent countries**, independently date their MoU/intent sources, and verify the Egyptian UPA legal identity/remit with Team A before precise authority joins.
+4. Verify country-specific **ASEAN 2026–2030 health programme** participation/focal points, adopted work plans and statutory effects instead of assuming that any of 11 ASEAN members locally implemented the agenda.
+5. Verify EMA/EMRN **per-agency statutory remits** and exact joins to Team A, specialized organization relationships to Team B, and evidence to Team C; verify PAHO HEARTS **29 country adopter identities** and current local pathway editions, while separating adoption, catalogue, PAHO advice and national legislation.
+6. Maintain at least ten boundary cases, temporal histories, explicit unknowns, provenance and all seven non-clinically-appraised condition discovery keys. This remains a **draft research deliverable for maintainer and scientific review**.
+
+## Mandatory next-run protocol
+
+Read `docs/atlas/handoffs/team-d/CONTINUATION_PROMPT.md`, this file, `STATUS.md`, `GAPS.md`, `PROVENANCE.csv`, `data/*.csv`, and `validate.mjs` at **the latest live branch head**, plus the original `TEAM_D_INTERNATIONAL_NETWORKS.md` and `DATA_CONTRACT.md` on `research/atlas-five-team-handoff-prompts-2026-11-04`. Verify PR #70 open/draft/unmerged. Work only inside Team D; source and date every record. Use expected-head branch writes; re-fetch changed artifacts and validate. Do not modify the website, main, issues, other teams' work or clinical deployment. If still unfinished, commit a new standalone GitHub checkpoint.
+
+**Repeat the user's continuation prompt verbatim at the end of every run:**
+
+> Continue Research Team D in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70.
+>
+> Read `docs/atlas/handoffs/team-d/CONTINUATION_PROMPT.md` on branch `research/atlas-team-d-20261104`.
+>
+> Verify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, historical-versus-current source distinctions, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.
+>
+> If unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again.
+
+
+---
+
 # Latest standalone Team D checkpoint — Batch 11 (2026-11-05)
 
 **Repository:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight  
