@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,45);assert.equal(edges.length,542);assert.equal(prov.length,118);
+assert.equal(nodes.length,46);assert.equal(edges.length,544);assert.equal(prov.length,122);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -122,5 +122,23 @@ assert.equal(programmeFacts.length,5);
 for(const r of programmeFacts){assert(ids.has(r.network_id));assert(sources.has(r.source_url));assert(/^\d+$/.test(r.reported_count));assert(r.verification_state.startsWith('AGGREGATE_'));}
 for(const [measure,count] of [['signed_mou_states','8'],['expressed_intent_states','15'],['programme_target_states','55'],['first_version_national_standard_adoption_count','29'],['reported_committed_countries','35']])assert.equal(programmeFacts.find(r=>r.measure===measure).reported_count,count);
 
+
+
+// Batch 12: named APPM state participation and nonbinding ASEAN sector structure.
+const appmNode=nodes.find(r=>r.network_id==='AFRICA_APPM');
+assert(appmNode&&appmNode.source_url==='https://africacdc.org/appm/');
+const appmMous=edges.filter(r=>r.relationship_type==='signed_participation_mou'&&r.to_id==='AFRICA_APPM');
+assert.equal(appmMous.length,1);assert.equal(appmMous[0].from_id,'m49:818');
+assert.equal(appmMous[0].country_area_m49,'818');assert.equal(appmMous[0].valid_from,'2026-06-15');
+assert.equal(appmMous[0].as_of,'2026-06-15');
+assert.equal(appmMous[0].source_url,'https://africacdc.org/news-item/egypt-joins-african-pooled-procurement-mechanism-appm/');
+assert(edges.some(r=>r.from_id==='AFRICA_APPM'&&r.to_id==='AFRICA_CDC'&&r.relationship_type==='operated_by'));
+const aseanGov=read('data/asean_health_governance_2026.csv');
+unique(aseanGov,r=>r.record_id,'ASEAN governance IDs');
+unique(aseanGov,r=>r.body_acronym,'ASEAN body acronyms');
+assert.equal(aseanGov.length,6);
+assert.deepEqual(aseanGov.map(r=>r.body_acronym),['AHMM','SOMHD','AHC1','AHC2','AHC3','AHC4']);
+for(const r of aseanGov){assert.equal(r.network_id,'ASEAN');assert.equal(r.as_of,'2026-11-05');assert.equal(r.verification_state,'OFFICIAL_PORTAL_STRUCTURE_ONLY');assert(sources.has(r.source_url));assert(r.notes.length>10);}
+for(const r of aseanGov.filter(r=>r.body_acronym.startsWith('AHC')))assert.equal(r.programme_cycle_label,'2026-2030 label');
 
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length},null,2));
