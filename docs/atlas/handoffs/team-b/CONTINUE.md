@@ -1,4 +1,4 @@
-# Resume Team B · batch 30 · 2026-11-05
+# Resume Team B · batch 31 · 2026-11-05
 
 **INCOMPLETE.** Continue the assignment on `PortalHunter/Ethnicy-Based-Optimal-Weight`, branch `research/atlas-team-b-20261104`, [draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71). Verify the current PR head before using this snapshot. The original assignment, data contract and live GitHub files together are sufficient to resume.
 
@@ -14,26 +14,26 @@
 | Measure | Count |
 |---|---:|
 | UN M49 areas / unique area-condition cells | 248 / 1,736 |
-| Organizations / areas with a domiciled organization | 320 / 208 |
+| Organizations / areas with a domiciled organization | 329 / 208 |
 | Areas without a verified domiciled organization | 40 |
-| Resource relationships / cells with a linked resource | 203 / 192 |
-| Cells without a linked resource | 1,544 |
-| Provenance records / targeted search checks | 557 / 330 |
-| Community records / cross-border service edges | 5 / 2 |
+| Resource relationships / cells with a linked resource | 214 / 202 |
+| Cells without a linked resource | 1,534 |
+| Provenance records / targeted search checks | 586 / 343 |
+| Community records / cross-border service edges | 7 / 2 |
 | Approved clinical claims | 0 |
 
-diabetes 72 · hypertension 22 · high_chol 23 · gout 17 · lactose 14 · celiac 27 · hemochromatosis 17.
+diabetes 72 · hypertension 23 · high_chol 23 · gout 20 · lactose 15 · celiac 31 · hemochromatosis 18.
 
-Seven previously unrepresented areas gained an eligible organization: American Samoa, Cook Islands, Greenland, Northern Mariana Islands, French Saint-Martin, US Virgin Islands and Vanuatu. Eleven source relationships cover ten new cells. American Samoa, Cook Islands and French Saint-Martin receive identity credit only.
+Batch 31 adds nine organizations and eleven relationships in ten previously unlinked cells. Mexico’s lactose guideline, the joint Indian biopsy consensus, Moroccan and Karachi celiac resources, the German gout guideline, historical Portuguese gout recommendations and three Finnish sources bring new coverage to five streams. Finland now has a linked source in all seven streams.
 
-The survey indexed at Ilisimatusarfik names Denmark as its publication country and Greenland as the study location. The Danish and Kalaallisut editions represent one survey. The Vanuatu and Saipan sources describe programme participants; the US Virgin Islands testimony reports centre patients.
+The OHSU record of the ACG erratum specifies a ferritin-unit correction. The copy hosted by SPGP still displays the old unit on printed p. 1212 (PDF page 11). The affected discovery record now flags that passage explicitly.
 
 ## Remaining work, in priority order
 
-- Investigate the 40 remaining area identity gaps in CHECKPOINT.json and pursue condition-specific publications in the 1,544 cells without links. Start with appropriate local bodies in Africa and Asia as well as sparse conditions worldwide.
-- Separate publisher country from organization domicile in publication_context.csv and key each context to its source URL. Recheck current roles against the source before assigning country.
-- Audit directory-only identities against own current original-language websites, guideline lists and lifecycle records. The Cook Islands employee survey attachment, Saint-Martin Santé publications, American Samoa type 2 resources, Saba scientific remit and the source conflicts documented in GAPS.md remain open.
-- Preserve earlier caveats, especially Gibraltar’s registry/footer conflict, the SPGP/ACG correction and ESPGHAN editions, suspended Chuuk site, Monaco dissolution, sparse conditions and community governance. Keep claim appraisal separate.
+- Reconcile logged searches with coverage states: at batch 30, 121 zero-link cells had a documented targeted check; derive the exact current count from area and condition keys.
+- Key every publication context to its exact URL and distinguish organization domicile from original issuer/publisher country. Verify attributions against existing primary evidence and label unresolved roles unknown.
+- Research the 40 areas without a domiciled identity and the 1,534 cells with no source, including Africa and Central Asia. Continue direct original-language governance and publication-list checks. The older 2014 Portugal consensus and commercial campaign have separate provenance.
+- All remaining source-specific limitations are in GAPS.md. Check Spanish lactose full text, specialist authority/editions, and community governance; clinical claim appraisal remains separate.
 
 ## Ownership and acceptance
 

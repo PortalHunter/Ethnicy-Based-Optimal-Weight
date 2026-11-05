@@ -61,3 +61,8 @@ Batch28 immutable substantive SHA a43641bef34981c77faf4d72c1a46415df0882b2: all1
 ## Batch 30 · 2026-11-05
 
 Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors. Verified parent: `7133fb56aaf3e14d843177d95d3e91fd8a5bcab7`. Independent immutable readback follows the branch update. Baseline 18 immutable files matched the previous branch tree and the baseline validator reported zero errors. Selected sources were checked in original HTML or PDF text; full visual PDF appraisal was not performed.
+
+
+## Batch 31 · 2026-11-05
+
+Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors. Verified parent: `09fd48481c10658452b8084b4d11cb7065a85866`. Independent immutable readback follows the branch update. Batch 30 source SHA 09fd48481c10658452b8084b4d11cb7065a85866 independently verified across 18 files and all ten Node CSV inputs. Batch 31 checked the image of the affected ACG page and selected sections/abstracts of other sources; no wholesale PDF or clinical review.

@@ -6,46 +6,46 @@
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
   "validated_data_commit": null,
-  "batch": 30,
+  "batch": 31,
   "metrics": {
-    "organizations": 320,
+    "organizations": 329,
     "areas": 208,
-    "resources": 203,
-    "positive": 192,
-    "unresearched": 1544,
-    "provenance": 557,
-    "search_log": 330,
-    "community": 5,
+    "resources": 214,
+    "positive": 202,
+    "unresearched": 1534,
+    "provenance": 586,
+    "search_log": 343,
+    "community": 7,
     "cross_border_edges": 2,
     "by_condition": {
       "diabetes": 72,
-      "hypertension": 22,
+      "hypertension": 23,
       "high_chol": 23,
-      "gout": 17,
-      "lactose": 14,
-      "celiac": 27,
-      "hemochromatosis": 17
+      "gout": 20,
+      "lactose": 15,
+      "celiac": 31,
+      "hemochromatosis": 18
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 7,
-    "new_domiciled_areas": 7,
+    "organization_identities": 9,
+    "new_domiciled_areas": 0,
     "resource_relationships": 11,
     "source_positive_cells": 10,
-    "provenance_rows": 22,
-    "search_log_rows": 19,
-    "community_records": 0,
+    "provenance_rows": 29,
+    "search_log_rows": 13,
+    "community_records": 2,
     "cross_border_edges": 0
   },
   "validation_runtime": "node_cli_committed_validate_mjs",
   "node_cli_run": true,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Investigate the 40 remaining area identity gaps in CHECKPOINT.json and pursue condition-specific publications in the 1,544 cells without links. Start with appropriate local bodies in Africa and Asia as well as sparse conditions worldwide.",
-    "Separate publisher country from organization domicile in publication_context.csv and key each context to its source URL. Recheck current roles against the source before assigning country.",
-    "Audit directory-only identities against own current original-language websites, guideline lists and lifecycle records. The Cook Islands employee survey attachment, Saint-Martin Santé publications, American Samoa type 2 resources, Saba scientific remit and the source conflicts documented in GAPS.md remain open.",
-    "Preserve earlier caveats, especially Gibraltar’s registry/footer conflict, the SPGP/ACG correction and ESPGHAN editions, suspended Chuuk site, Monaco dissolution, sparse conditions and community governance. Keep claim appraisal separate."
+    "Reconcile logged searches with coverage states: at batch 30, 121 zero-link cells had a documented targeted check; derive the exact current count from area and condition keys.",
+    "Key every publication context to its exact URL and distinguish organization domicile from original issuer/publisher country. Verify attributions against existing primary evidence and label unresolved roles unknown.",
+    "Research the 40 areas without a domiciled identity and the 1,534 cells with no source, including Africa and Central Asia. Continue direct original-language governance and publication-list checks. The older 2014 Portugal consensus and commercial campaign have separate provenance.",
+    "All remaining source-specific limitations are in GAPS.md. Check Spanish lactose full text, specialist authority/editions, and community governance; clinical claim appraisal remains separate."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -224,17 +224,17 @@
   ],
   "readback_validation": {
     "status": "pending_immutable_readback",
-    "last_verified_parent": "7133fb56aaf3e14d843177d95d3e91fd8a5bcab7"
+    "last_verified_parent": "09fd48481c10658452b8084b4d11cb7065a85866"
   },
-  "previous_independently_verified_data_commit": "b0ee31156c660b05379b2006abafddf1d3bb3890",
+  "previous_independently_verified_data_commit": "09fd48481c10658452b8084b4d11cb7065a85866",
   "session_additions": {
-    "organization_identities": 7,
+    "organization_identities": 16,
     "new_domiciled_areas": 7,
-    "resource_relationships": 11,
-    "source_positive_cells": 10,
-    "provenance_rows": 22,
-    "search_log_rows": 19,
-    "community_records": 0,
+    "resource_relationships": 22,
+    "source_positive_cells": 20,
+    "provenance_rows": 51,
+    "search_log_rows": 32,
+    "community_records": 2,
     "cross_border_edges": 0
   }
 }

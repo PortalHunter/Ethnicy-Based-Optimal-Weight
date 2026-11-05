@@ -181,3 +181,12 @@ Seven previously unrepresented areas gained an eligible organization: American S
 The survey indexed at Ilisimatusarfik names Denmark as its publication country and Greenland as the study location. The Danish and Kalaallisut editions represent one survey. The Vanuatu and Saipan sources describe programme participants; the US Virgin Islands testimony reports centre patients.
 
 All seven organization identities have their own source and a distinct relationship to the condition evidence. Scoped search findings also record the Saba provider exclusion and Vanuatu abstract-book redirect.
+
+
+## Batch 31 · 2026-11-05
+
+Batch 31 adds nine organizations and eleven relationships in ten previously unlinked cells. Mexico’s lactose guideline, the joint Indian biopsy consensus, Moroccan and Karachi celiac resources, the German gout guideline, historical Portuguese gout recommendations and three Finnish sources bring new coverage to five streams. Finland now has a linked source in all seven streams.
+
+The OHSU record of the ACG erratum specifies a ferritin-unit correction. The copy hosted by SPGP still displays the old unit on printed p. 1212 (PDF page 11). The affected discovery record now flags that passage explicitly.
+
+Two additional subnational records distinguish southern Morocco and Karachi. Two India associations share one article. Counts reflect relationships, not eleven independent studies. Earlier batch 30 data were independently re-fetched, all 18 hashes matched and the committed Node check passed.
