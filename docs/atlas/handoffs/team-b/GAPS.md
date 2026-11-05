@@ -1,3 +1,11 @@
+# Team B gaps and open questions · batch 48 · 2026-11-05
+
+Seven separate English condition searches for the Falkland Islands (238) returned no eligible publication in this pass. The community directory describes Southern Heartbeat’s AED and CPR remit. The 26 May 2026 charity index distinguishes local registrations from overseas tax recognition. Local domicile and eligible condition work still need verification.
+
+For Chad/JHC, OpenAlex supplies a US serial-country lead, while the original article confirms the journal and DOI. For South Sudan/PAMJ, the ISSN record identifies Uganda but predates the article. Both edition-level questions remain open. See the four batch-48 provenance records.
+
+---
+
 # Team B gaps and open questions
 
 ## Batch 47 · own-source attribution, version and jurisdiction limits · 2026-11-05

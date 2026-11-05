@@ -1,3 +1,11 @@
+# Team B status · batch 48 · 2026-11-05
+
+392 organizations in 227 of 248 areas; 21 local identity gaps. Of 1,736 condition cells, 264 have sources, 134 have bounded searches with no verified resource, and 1,338 await a targeted search. There are 290 source contexts, 807 provenance rows, 473 searches, 7 community records, 8 cross-border links and 5 unresolved issuer countries. All 290 contexts are research leads; zero clinical claims approved.
+
+[data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/9ce76f0631aa73f4e25ee772894ade8ae96953b5)
+
+---
+
 # Team B status · 2026-11-05 · batch 47
 
 **INCOMPLETE — DRAFT RESEARCH ONLY.** [PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) open/unmerged, research branch `research/atlas-team-b-20261104` to `main`; independently verified [batch-47 data commit `bfebee420dc0c8158e372b7173920a407ae6e59e`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/bfebee420dc0c8158e372b7173920a407ae6e59e). No main, website, calculators, other teams or private/patient records edited.

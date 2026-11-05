@@ -5,18 +5,18 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "bfebee420dc0c8158e372b7173920a407ae6e59e",
-  "batch": 47,
+  "validated_data_commit": "9ce76f0631aa73f4e25ee772894ade8ae96953b5",
+  "batch": 48,
   "metrics": {
     "organizations": 392,
     "areas": 227,
     "resources": 290,
     "positive": 264,
     "without_linked_source": 1472,
-    "targeted_no_source": 127,
-    "unresearched": 1345,
-    "provenance": 803,
-    "search_log": 466,
+    "targeted_no_source": 134,
+    "unresearched": 1338,
+    "provenance": 807,
+    "search_log": 473,
     "community": 7,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
@@ -33,20 +33,21 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 4,
+    "organization_identities": 0,
     "new_domiciled_areas": 0,
-    "resource_relationships": 5,
-    "source_positive_cells": 4,
-    "provenance_rows": 9,
-    "search_log_rows": 5,
+    "resource_relationships": 0,
+    "source_positive_cells": 0,
+    "provenance_rows": 4,
+    "search_log_rows": 7,
     "community_records": 0,
-    "cross_border_edges": 0
+    "cross_border_edges": 0,
+    "issuer_country_resolved": 0
   },
-  "validation_runtime": "independent_connector_orchestrated_javascript_full_structural_equivalent",
-  "node_cli_run": false,
+  "validation_runtime": "checked_out_node_cli",
+  "node_cli_run": true,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Complete 1345 zero-link condition cells without targeted first-party local-language searches; 127 bounded failed condition searches do not prove absence.",
+    "Complete 1338 zero-link condition cells without targeted first-party local-language searches; 134 bounded failed condition searches do not prove absence.",
     "Verify eligible locally domiciled organizations in 21 M49 areas without mistaking foreign coverage/outreach for domicile.",
     "Resolve five specific original-document publisher/issuer-country uncertainties (Panama HEARTS; Portuguese WGO lactose; Portuguese ESPGHAN coeliac; Chad OA Pub/JHC; South Sudan PAMJ).",
     "Do not treat AU 2024 lipid toolkit as a completed future dynamic guideline; CA 2021 dyslipidaemia as 2026; NZ externally compiled resource as society-written; IT 2019/2013 gout as current replacement; BR 2025 press as its jointly issued 2024 source document.",
@@ -65,7 +66,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch 47 atomic six-CSV immutable readback against Git tree: prewrite 0 structural errors; 10/10 matching committed Git blob SHA IDs, nontruncated 145-entry tree SHA eb436e02b424f9663591749c77b7378c6df5998f; postwrite 0 independent structural errors. Actual Node CLI not run (container github.com DNS failure); no external URL, legal, copyright, Indigenous or clinical clearance.",
+  "validated_data_commit_note": "The checked-out Node validator passed at restart and before publication. An independent fetch of [data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/9ce76f0631aa73f4e25ee772894ade8ae96953b5) matched the entire prepared Git tree (ad9bb33a43cd14ed2c56ed28686af0188f1ddb7a); running the validator from the fetched archive reproduced all metrics with zero errors. Validation covers structural consistency. Clinical appraisal, source currency and permissions require separate review.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -154,25 +155,25 @@
   ],
   "readback_validation": {
     "status": "passed",
-    "verified_data_sha": "bfebee420dc0c8158e372b7173920a407ae6e59e",
-    "tree_sha": "eb436e02b424f9663591749c77b7378c6df5998f",
+    "verified_data_sha": "9ce76f0631aa73f4e25ee772894ade8ae96953b5",
+    "tree_sha": "ad9bb33a43cd14ed2c56ed28686af0188f1ddb7a",
     "tree_truncated": false,
     "tree_items": 145,
     "files_matched": 10,
     "validated_csv_inputs": 10,
-    "validation_runtime": "independent_connector_orchestrated_javascript_full_structural_equivalent",
-    "node_cli_run": false,
+    "validation_runtime": "fetched_archive_node_cli",
+    "node_cli_run": true,
     "structural_errors": 0,
-    "scope": "Immutable 10/10 CSV Git blob SHA verification, nontruncated tree, independent structurally cross-referenced 392 organization/290 resource and contexts, 248x7 coverage, 803 provenance, 466 searches, 7 community and 8 cross-border; not checked-out Node CLI or clinical/legal/full source verification."
+    "scope": "Complete remote tree matched prepared tree. Node metrics and errors matched prepublication output."
   },
-  "previous_independently_verified_data_commit": "1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f",
+  "previous_independently_verified_data_commit": "bfebee420dc0c8158e372b7173920a407ae6e59e",
   "session_additions": {
-    "organization_identities": 4,
+    "organization_identities": 0,
     "new_domiciled_areas": 0,
-    "resource_relationships": 5,
-    "source_positive_cells": 4,
-    "provenance_rows": 9,
-    "search_log_rows": 5,
+    "resource_relationships": 0,
+    "source_positive_cells": 0,
+    "provenance_rows": 4,
+    "search_log_rows": 7,
     "community_records": 0,
     "cross_border_edges": 0,
     "issuer_country_resolved": 0
@@ -187,13 +188,14 @@
     "44": "0eb0b70f1102a9911588e3b1c3d427efc31a6e96",
     "45": "5d5bb3654aba9b4870c8e848754598ddf34bced5",
     "46": "1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f",
-    "47": "bfebee420dc0c8158e372b7173920a407ae6e59e"
+    "47": "bfebee420dc0c8158e372b7173920a407ae6e59e",
+    "48": "9ce76f0631aa73f4e25ee772894ade8ae96953b5"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "Structurally complete 248x7; 1345 zero-resource cells still without targeted condition searches.",
+    "m49_area_condition_roster": "Structurally complete 248x7; 1338 zero-resource cells still without targeted condition searches.",
     "source_population_jurisdiction": "290/290 source relationships distinguish linked page issuer, domicile, population and healthcare jurisdiction. Five original-document issuer-country cases unknown. No full appraisals.",
     "disease_subtypes_and_release": "All 290/290 source links research_lead_only; 0 approved claims; FH/gout/lactose/coeliac/iron phenotypes not conflated.",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 local domicile gaps, 1345 unsearched area-condition cells and edition, source-credit, license and original document checks remaining.",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 local domicile gaps, 1338 unsearched area-condition cells and edition, source-credit, license and original document checks remaining.",
     "diversity_examples": "14 population non-generalization counterexamples unchanged; seven community and eight cross-border records retained."
   },
   "batch40_sources": [
@@ -499,5 +501,24 @@
       "source_url": "https://www.reumatologia.org.br/press-releases/gota-excessos-na-alimentacao-pode-desencadear-crises/",
       "caveat": "existing org/cell; Dec 2025 society press about 2024 SBR/SBPC-ML jointly issued guidance, not original text"
     }
-  ]
+  ],
+  "batch48": {
+    "summary": "Seven separate English condition searches for the Falkland Islands (238) returned no eligible publication in this pass. The community directory describes Southern Heartbeat’s AED and CPR remit. The 26 May 2026 charity index distinguishes local registrations from overseas tax recognition. Local domicile and eligible condition work still need verification.",
+    "publisher_followup": "For Chad/JHC, OpenAlex supplies a US serial-country lead, while the original article confirms the journal and DOI. For South Sudan/PAMJ, the ISSN record identifies Uganda but predates the article. Both edition-level questions remain open. See the four batch-48 provenance records.",
+    "search_ids": [
+      "B-FK-DIABETES-B48",
+      "B-FK-HYPERTENSION-B48",
+      "B-FK-HIGH_CHOL-B48",
+      "B-FK-GOUT-B48",
+      "B-FK-LACTOSE-B48",
+      "B-FK-CELIAC-B48",
+      "B-FK-HEMOCHROMATOSIS-B48"
+    ],
+    "provenance_ids": [
+      "B-FK-REG-B48",
+      "B-FK-DIR-B48",
+      "B-PAMJ-ISSN-B48",
+      "B-JHC-OA-B48"
+    ]
+  }
 }

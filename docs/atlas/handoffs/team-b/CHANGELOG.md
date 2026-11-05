@@ -1,3 +1,11 @@
+# Team B changelog · batch 48 · 2026-11-05
+
+Seven separate English condition searches for the Falkland Islands (238) returned no eligible publication in this pass. The community directory describes Southern Heartbeat’s AED and CPR remit. The 26 May 2026 charity index distinguishes local registrations from overseas tax recognition. Local domicile and eligible condition work still need verification.
+
+Added seven search rows and four provenance records. [data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/9ce76f0631aa73f4e25ee772894ade8ae96953b5)
+
+---
+
 # Team B changelog
 
 ## 2026-11-05 — Batch 47: first-party lipid and gout leads with edition/copyright boundaries

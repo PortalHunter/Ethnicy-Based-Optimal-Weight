@@ -1,3 +1,17 @@
+# Continue Research Team B · batch 48 · 2026-11-05
+
+392 organizations in 227 of 248 areas; 21 local identity gaps. Of 1,736 condition cells, 264 have sources, 134 have bounded searches with no verified resource, and 1,338 await a targeted search. There are 290 source contexts, 807 provenance rows, 473 searches, 7 community records, 8 cross-border links and 5 unresolved issuer countries. All 290 contexts are research leads; zero clinical claims approved.
+
+Seven separate English condition searches for the Falkland Islands (238) returned no eligible publication in this pass. The community directory describes Southern Heartbeat’s AED and CPR remit. The 26 May 2026 charity index distinguishes local registrations from overseas tax recognition. Local domicile and eligible condition work still need verification.
+
+For Chad/JHC, OpenAlex supplies a US serial-country lead, while the original article confirms the journal and DOI. For South Sudan/PAMJ, the ISSN record identifies Uganda but predates the article. Both edition-level questions remain open. See the four batch-48 provenance records.
+
+The checked-out Node validator passed at restart and before publication. An independent fetch of [data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/9ce76f0631aa73f4e25ee772894ade8ae96953b5) matched the entire prepared Git tree (ad9bb33a43cd14ed2c56ed28686af0188f1ddb7a); running the validator from the fetched archive reproduced all metrics with zero errors. Validation covers structural consistency. Clinical appraisal, source currency and permissions require separate review.
+
+Resume on the existing draft PR. Verify live head, base, comments and reviews; read the original specification and data contract linked below and all 18 Team B files. Run node docs/atlas/handoffs/team-b/validate.mjs. Select unsearched cells or verify one of the remaining 21 domiciles or 5 edition imprints. Preserve the historical source caveats below. Commit only under docs/atlas/handoffs/team-b/, verify GitHub readback and refresh the checkpoint and PR summary. Keep website, main and clinical formulas outside this work.
+
+---
+
 # Continue Research Team B · batch 47 · 2026-11-05
 
 **STANDALONE RESTART — INCOMPLETE, DRAFT AND UNMERGED.** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71 tracks `research/atlas-team-b-20261104` into `main`. Last independently prewrite- and immutable-postwrite-validated **data commit**: [`bfebee420dc0c8158e372b7173920a407ae6e59e`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/bfebee420dc0c8158e372b7173920a407ae6e59e); batch 47 has a separate documentation checkpoint after that data commit. The latest files and `CHECKPOINT.json` are the authoritative restart record. **No** public website, main, calculator, medical formula, other team file, private health record or patient-facing material changed. All **290/290** linked resources are `research_lead_only`; **zero** clinically approved claims. Clinical appraisal is separately governed in [issue #27](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/27).
