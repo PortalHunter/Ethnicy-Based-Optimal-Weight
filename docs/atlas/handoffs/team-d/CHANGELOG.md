@@ -1,3 +1,12 @@
+## 2026-11-05 — Batch 18: independent official WHO crosschecks for 10 stale survey profiles
+
+- Research/data commit `dab5056c2aa3c84f5bd1adf22539ffb1b74ebd2d`: add 10 primary-source and date-qualified rows to `data/who_office_independent_checks_2026.csv`, ten unique URLs `TD-SRC-151`–`TD-SRC-160` to `PROVENANCE.csv`, and structural assertions. No April-2026 survey refresh inferred.
+- Validator correction `0023c58ca6538d5733a5bc651d66888d1990f741`: update hardcoded provenance count to 160 after full-assertion run detected mismatch; complete 28-CSV and provenance full structural PASS in read-only JS shim (not native Node/Actions).
+- Office independent checks now 19/46, source total 160; unchanged 47 nodes/616 edges, current regions 205/44, 105 affirmative April-2026 WHO hosts, 46 retained September 2024 survey entries and historical WHO office layers.
+- Added standalone [Batch 18 checkpoint](CHECKPOINT_BATCH_18_2026-11-05.md). All writes Team D only; PR remains open/draft/unmerged.
+
+---
+
 ## 2026-11-05 — Batch 17 machine-tag spelling correction and rerun
 
 Corrected 13 source-layer values and one validator assertion from `COVERED_BY_BARBDOS_WHO_MCO_2019` to `COVERED_BY_BARBADOS_WHO_MCO_2019` and aligned standalone checkpoint, commit `95b8bd50759c95f39c4b4c5dd530dda2dc840e71`. Full checked-in validator **PASS again** with 28 GitHub-derived CSVs and provenance (150) via read-only JS shim; no changes to nodes 47, edges 616, current region 205/44 or historical counts 13/14. Native Node and CI still pending.

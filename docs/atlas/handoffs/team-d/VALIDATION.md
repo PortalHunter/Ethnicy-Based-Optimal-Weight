@@ -1,3 +1,9 @@
+## Batch 18 complete checked-in structural assertion pass — 2026-11-05
+
+**PASS** at corrected `0023c58ca6538d5733a5bc651d66888d1990f741`: checked-in `validate.mjs` assertions executed against **28 GitHub-derived Team D CSVs and 160 provenance records** (26 smaller additions-only PR patches + two directly fetched large CSVs) via isolated read-only JS filesystem/assertion shim. Result: 47 nodes, 616 edges, 205 verified/44 unknown current WHO region assignments, 105 current April-2026 office-positive hosts, 153 mixed-year roster rows, 19 independent older-office checks with 7 dated/12 undated source entries, 13 2021 SIDS and 14 2019 ECC historical-only observations, 160 unique source URLs. The initial run detected a stale 150-source assertion after the ten additions; this was fixed in a dedicated follow-up commit, and the complete validator rerun passed. **This is not native Node CLI or GitHub Actions, nor legal/clinical validation.** See [Batch 18 checkpoint](CHECKPOINT_BATCH_18_2026-11-05.md).
+
+---
+
 ## Batch 17 full checked-in validator — 2026-11-05
 
 **Corrected post-checkpoint validator SHA `95b8bd50759c95f39c4b4c5dd530dda2dc840e71` also PASS**, including spelling-correct historic ECC tag, with all 28 CSVs and 150 provenance rows from the latest GitHub patch and two oversized direct CSV downloads in the same read-only shim; *not native Node/CI*. Earlier Batch 17 data commit remains `d239c2f7398fed62ee526eded2c9b800371d4869`.

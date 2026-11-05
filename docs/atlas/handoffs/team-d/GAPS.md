@@ -1,3 +1,11 @@
+## Batch 18 outstanding WHO office survey and source-date gaps — 2026-11-05
+
+- 10 additional retained September-2024 WHO survey countries now have *independent* official WHO corroboration; **19/46 checked, 27 lacking independent source checks**. 7 of the new records use **undated** WHO office/contact pages, which must not be represented as a 2026 survey or dated proof of ongoing premises; 3 source-dated 2026 news items document leadership/contact, not necessarily physical office sites.
+- All 46 original 2024 self-reported survey timestamps remain September 2024. The 105 April 2026 affirmative M49 office-host rows and 144 without equivalent affirmative recent host attestation are unchanged. Recheck specific operational status and source time separately.
+- The previous 44 unresolved current WHO regions, 2019/2021 historical-only categories, PAHO 13/14 French Saint Martin dispute, SCI admission instrument and legal/clinical review queues remain open. Validation limitations and full details: [Batch 18 checkpoint](CHECKPOINT_BATCH_18_2026-11-05.md).
+
+---
+
 ## Batch 17 historic WHO evidence still requires current corroboration (2026-11-05)
 
 - **13** areas unresolved in current WHO M49 region matrix are individually named under **WHO Region of the Americas** in the selective **July 2021 SIDS Annex**. Keep 44 current statuses `not_verified`: July 2021 publication, 2019–2020 report context, and regional grouping in a *SIDS-only appendix* are not authoritative 2026 country/area region assignments or permanent membership. New `data/who_region_historical_sids_2021.csv` preserves the earlier evidence for targeted present-day source verification.
