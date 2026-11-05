@@ -1,5 +1,12 @@
 # Team D — Changelog
 
+## 2026-11-05 — Batch 2: WHO Europe
+
+- Verified 53 current regional assignments by exact UN name matching; added 53 region edges.
+- Corroborated region roster with WHO Gateway. Recorded 33-office/53-country boundary without country-level office inference.
+- Totals: 177 edges, 65 verified region statuses, 184 not_verified, 50 provenance URLs.
+
+
 ## 2026-11-05 — Batch 1: UN reconciliation and SEARO
 
 - Added 248 official UN crosswalk records and one explicit ISO candidate exception (158), preserving all 249 prior status IDs.
