@@ -19,3 +19,9 @@
 14. A SciELO Brazilian hemochromatosis review was accepted in December 2009 but belongs to a 2010 issue and was added to the SciELO collection in February 2012; the metadata year and DOI were corrected.
 
 15. The official REED journal website is referenced by independent Spanish society and NLM records but returned HTTP 403 to automated retrieval; scientific society peer review/ethics and NLM ISSN/ongoing MEDLINE record have independent provenance.
+
+## 2026-11-05 batch 6 reconciliation
+- Gap 4 is historical, not a current blanket statement: UGA_AHS now has primary publisher, peer-review, ethics, licensing and identifiers checked. A distinct corrections/errata workflow and policy enforcement remain unverified.
+- MLI_MALI online ISSN 1993-0836 confirmed in ISSN registry; print record fetch 429, publisher legal identity and policies unresolved. ISSN-L alone was not used to fill print field.
+- Two Persian policy searches did not establish the Iranian primary journal policy; no negative existence conclusion follows.
+- Existing gaps 8 and 11 describe initial batches: CHL_ARS and ESP_REED identity improved in batch 5; current counterexample count is 13. Journal discovery and scientific appraisal remain separate.

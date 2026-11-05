@@ -1,4 +1,4 @@
-search_id,area_or_region,query,language,search_engine_or_index,searched_date,relevant_result_identified,notes
+"search_id","area_or_region","query","language","search_engine_or_index","searched_date","relevant_result_identified","notes"
 "S001","global","Global Index Medicus regional indexes AIM IMEMR IMSEAR WPRIM LILACS","en","web_search","2026-11-04","yes","Identified WHO GIM portal; platform-discovery only."
 "S002","Africa","African Index Medicus WHO AFRO journal indexing","en","web_search","2026-11-04","yes","Found official AIM live site and about page."
 "S003","Eastern Mediterranean","Index Medicus for Eastern Mediterranean region selection languages","en","web_search","2026-11-04","yes","Found WHO IMEMR policy page."
@@ -24,3 +24,7 @@ search_id,area_or_region,query,language,search_engine_or_index,searched_date,rel
 "Q023","Thailand","site:he02.tci-thaijo.org/index.php/TJHP/article/view","th","journal_page_browse","2026-11-04","yes","Thai original cohort article title and English field translation recorded."
 "Q024","Mali","site:malimedical.org diabète hypertension 2025 article","fr","web_search","2026-11-04","no","No exact article confirmed; journal identity separately verified."
 "Q025","Iran","site:magiran.com/paper/ ""دیابت"" ""متابولیسم ایران"" 1404 چربی","fa","web_search","2026-11-04","yes","Fasa anthropometry/diabetes Persian article found on independent targeted search; publisher field distinct from population."
+"Q026","Uganda","site.ahs.mak.ac.ug African Health Sciences peer review publication ethics ISSN","en","web_search_system2","2026-11-05","yes","Retrieved journal official policies and Makerere primary journal portal; no country-condition systematic search."
+"Q027","Iran","site:ijdld.tums.ac.ir مجله دیابت متابولیسم اخلاق داوری","fa","web_search_system2","2026-11-05","not_confirmed","No relevant primary policy established from returned results; not evidence no policy exists."
+"Q028","Iran","site:ijdld.tums.ac.ir ""داوری""","fa","web_search_system1","2026-11-05","not_confirmed","Primary journal peer-review policy remains unresolved."
+"Q029","Mali","site:malimedical.org ""ISSN"" ""recommandation""","fr","web_search_system1","2026-11-05","yes","Discovery returned journal-hosted 2026 PDF; no full PDF review claimed. Registry HTML independently checked for online ISSN."
