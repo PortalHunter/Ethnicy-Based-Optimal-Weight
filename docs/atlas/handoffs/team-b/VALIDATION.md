@@ -1,5 +1,13 @@
 # Team B validation history
 
+## Batch 44 · immutable data SHA `0eb0b70f1102a9911588e3b1c3d427efc31a6e96` · 2026-11-05
+
+- PR #71: open/draft/unmerged; existing branch `research/atlas-team-b-20261104`. Five hypertension society identities (Belgium, Netherlands, Portugal, Spain and Poland), five exact first-party resource links and contexts, 11 provenance rows (including separate Polish university announcement), five search logs and five positive matrix cells added across **six CSV files**.
+- Data was saved as regular GitHub file commits, not one atomic multi-file commit. A CRLF search-log reference parsing error on the five new coverage cells was detected by an **independent full 10-CSV validation**, explicitly corrected in commit `16ed4e283b5221d04554ff2e0e1fef88385c0e83`. Five publisher-name fields were made human-readable in `fa66ae9d54b2a0b49cfd3fbf66edc86a19b35f86`. Final Polish board-succession evidence was added in `0eb0b70f1102a9911588e3b1c3d427efc31a6e96`.
+- **Post-correction, immutable 10/10 data CSVs fetched by final SHA** and all matched the **nontruncated 145-entry Git recursive tree**, zero mismatches; 18 Team B files in the tree. Full independent JavaScript structural validator-equivalent: CSV row widths; 248 M49 codes × seven conditions = 1,736; exact organization/resource/context joins; 277/277 issuer/population/healthcare-jurisdiction fields; 778 provenance IDs; 453 searches and coverage references; seven community and eight cross-border links. **0 errors**.
+- Final: **380** organizations in **227** M49 domiciles, **277** source relationships and **253** positive cells; **1,483** empty cells (**128** bounded checks, **1,355** no targeted check); **5** unknown issuer-country attributions; **0** clinically approved claims.
+- **Actual Node CLI not run.** Direct local clone cannot resolve `github.com`; connector data cannot be injected into the checkout. Independent JS checks follow the committed `validate.mjs` invariants but do **not** constitute clinical appraisal, current-guideline review, complete live-link verification, legal/rights clearance or Indigenous governance permission.
+
 ## Batch 42 · immutable data commit `db5b050d6a9139959e5ced1cecfefe0828b5eb4d` · 2026-11-05
 
 - At write: PR #71 open/draft/unmerged, expected branch `research/atlas-team-b-20261104`. Batch source commit `8136a5710150566ddc12ef938967fb15c7f7461b` updated six Team B CSV files; subsequent `db5b050d6a9139959e5ced1cecfefe0828b5eb4d` corrected two new organization-provenance IDs. No public site, formulas, main, or other team touched.
