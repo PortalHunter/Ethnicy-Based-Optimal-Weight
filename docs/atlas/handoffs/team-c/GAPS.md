@@ -17,3 +17,5 @@
 12. Iranian Fasa source has no DOI *displayed* by Magiran and has issue 1404 (Solar Hijri); do not mark definitely DOI-less or convert to Gregorian publication year without verifying the exact issue's publication date. The article's reported population is the Fasa cohort sample, not all Iranians or an ancestry cohort.
 13. DergiPark hosting is explicitly separate from TR Dizin selection, and ThaiJO hosting is separate from Thai Citation Index quality tier. Only direct platform hosting asserted.
 14. A SciELO Brazilian hemochromatosis review was accepted in December 2009 but belongs to a 2010 issue and was added to the SciELO collection in February 2012; the metadata year and DOI were corrected.
+
+15. The official REED journal website is referenced by independent Spanish society and NLM records but returned HTTP 403 to automated retrieval; scientific society peer review/ethics and NLM ISSN/ongoing MEDLINE record have independent provenance.

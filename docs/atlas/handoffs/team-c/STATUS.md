@@ -1,6 +1,6 @@
 # Team C status — 2026-11-04
 
-**Four durable data commits; draft PR #69. Research-only, not clinically appraised or deployed.**
+**Five durable data commits; draft PR #69. Research-only, not clinically appraised or deployed.**
 
 | Metric | Exact count | Interpretation |
 |---|---:|---|
@@ -12,6 +12,6 @@
 | Exact article candidates | 11 | **All unappraised**; seven condition keys represented, different study designs; at least one source displays no DOI |
 | Recorded executed queries | 25 | Includes original-language search queries, positive/negative results |
 | Visibility counterexamples | 13 | Illustrate restrictive title-language/prestige-only failures; do not establish absence from PubMed |
-| Provenance ledger rows | 50 | Sources and checking states |
+| Provenance ledger rows | 52 | Sources and checking states |
 
 **Remaining:** Full official-UN field-by-field reconciliation; systematic country-by-condition article discovery for every area; full journal ethics/peer-review review (including Cuban/Iranian provisional journal sources); genuine DOI-less confirmation where metadata lacks DOI; actual-index membership validation and full clinical appraisal. The 1,736 unsearched rows deliberately do not claim no research exists. No live medical app changes or main merge.

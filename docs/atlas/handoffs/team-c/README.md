@@ -30,3 +30,5 @@ All 248 areas × seven condition keys = **1,736 explicit rows** initially marked
 
 ## National discovery platforms
 ThaiJO (Thailand), DergiPark (Türkiye) and Magiran (Iran) are separately recorded as **hosting/index/aggregation platforms** with source provenance. They are not equivalent to PubMed, nor is platform inclusion an article-level credibility endorsement. Iranian source `A_IR_DIA_01` has a traceable Persian record with no DOI shown by the catalog; a missing displayed DOI must not be interpreted as proved DOI absence.
+
+The Chilean ARS MEDICA record has its journal-specific 2026 official website and editorial policy (separate from the original paper on SciELO Chile). Spanish REED has a society and NLM verified official website, though direct automated access returned HTTP 403; peer review and ownership were checked against SEPD and NLM records. Journal website access barriers are flagged rather than silently replaced with an article URL.
