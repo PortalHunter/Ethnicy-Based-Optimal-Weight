@@ -29,4 +29,10 @@ const audit=auditRows.slice(1).map(r=>Object.fromEntries(auditRows[0].map((k,i)=
 unique(audit,'audit_id');unique(audit,'area_m49');
 for(const a of audit){const r=data.areas_m49.find(r=>r.area_m49===a.area_m49);if(!r)throw Error('audit geography');for(const k of ['iso_alpha2','iso_alpha3','un_region','un_subregion','un_intermediate_region'])if(a[k]!==r[k])throw Error('audit field '+k);if(a.official_area_name!==r.area_name||r.verification_state!=='official_UNSD_name_ISO_region_fields_verified')throw Error('audit name/state');}
 if(audit.length!==248||data.areas_m49.filter(r=>r.verification_state==='official_UNSD_name_ISO_region_fields_verified').length!==248)throw Error('audit verification count');
-console.log(JSON.stringify({result:'PASS',counts:Object.fromEntries(files.map(f=>[f,data[f].length])),provenance:prov.length-1,geographic_audits:audit.length}));
+function table(name){const rows=parse(fs.readFileSync(path.join(root,'data',name+'.csv'),'utf8'));if(rows.some(r=>r.length!==rows[0].length))throw Error(name+' width');return rows.slice(1).map(r=>Object.fromEntries(rows[0].map((k,i)=>[k,r[i]])));}
+const passes=table('area_discovery_pass'),leads=table('discovery_leads');
+unique(passes,'area_m49');unique(leads,'lead_id');
+const searchIds=new Set(data.local_language_searches.map(r=>r.search_id));
+for(const r of [...passes,...leads]){if(!areas.has(r.area_m49))throw Error('discovery geography');for(const id of r.search_ids.split(';'))if(!searchIds.has(id))throw Error('discovery search reference');}
+if(passes.length!==248||leads.some(r=>r.verification_state!=='CANDIDATE_UNVERIFIED'))throw Error('discovery coverage or premature approval');
+console.log(JSON.stringify({result:'PASS',counts:Object.fromEntries(files.map(f=>[f,data[f].length])),provenance:prov.length-1,geographic_audits:audit.length,discovery_areas:passes.length,candidate_leads:leads.length}));

@@ -17,3 +17,6 @@ Run node docs/atlas/handoffs/team-c/validate.mjs where available. Prior batch 7 
 
 ## Batch 8 supersession
 Latest completed batch: full official-UNSD reconciliation of all 248 area rows and associated 1,736 queue labels; 21 name corrections, no ISO/region differences. Provenance total now 61. Local Node validator executed PASS. Read current live HEAD: this is the commit containing this update, parent f8f6ecf84b5b1e6d9095aea9dc77dd4febedca0e. Next complete bounded journal/index discovery for every area, then address policy gaps and representative article provenance. Do not repeat the now-completed geographic audit. Earlier 241-pending geography statements are superseded.
+
+## Batch 9 supersession
+Complete first all-area bounded journal discovery pass (248 areas, 249 new calls including retry); search ledger total 284. Read area_discovery_pass.csv and discovery_leads.csv, all lead records candidate-only. Provenance total 309. Geographic audit complete. Systematic seven-condition search still pending and must not be conflated with the first pass. Next: verify representative primary-source bodies and journal policies, expand article samples/DOI-less traces, then review acceptance against original discovery-only assignment; do not introduce clinical appraisal scope.

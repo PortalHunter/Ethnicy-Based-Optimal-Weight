@@ -34,3 +34,6 @@
 
 ## Batch 8 supersession
 The full official UNSD fieldwise reconciliation gap is CLOSED for the 248 main-list areas as retrieved 2026-11-05. The historical 241-pending statements above are superseded. Official Naoero (520) label replaces intermediary Nauru; retain Nauru as a search alias. This does not certify country-specific literature coverage, WHO region or local jurisdiction. Systematic searches remain pending; next work must prioritize discovery rather than repeating geographic audit.
+
+## Batch 9 supersession and limits
+All 248 country-specific initial journal discovery queries have been executed. The historical all-unsearched journal-discovery statement is superseded. Systematic seven-condition searching is still incomplete (1,736 queue rows); the broad query used diabetes/hypertension as discovery anchors. Leads include irrelevant or external publications (e.g. Jersey vs New Jersey, Congo ambiguity, geographically branded commercial journal pages); none are treated as confirmed local journals. English-only or reviewer-translated single queries cannot establish research absence. Country journal counts remain unknown unless confirmed in journals.csv. A failed Mauritania query was retried successfully and not silently labeled negative.
