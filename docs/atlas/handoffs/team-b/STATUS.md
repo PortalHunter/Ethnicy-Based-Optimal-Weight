@@ -21,3 +21,6 @@ Ten CSVs pass committed validator core+overview+cross-border checks; Node CLI no
 
 
 Batch29: two Gibraltar registry-verified charities, with GCA own-footer number conflict retained. Two SPGP-hosted English sources add relationships in existing lactose/iron cells. Publication-stage mismatch and iron correction flagged. IRA/Mexico CMR gout index checks yielded no verified new source. Session total7 new organizations,6 new areas,6 resource links and4 new source-positive cells; no clinical claims approved.47 area identity gaps remain. Baseline actual Node and batch28 validation passed; batch29 Node/readback status in CHECKPOINT.json.
+
+
+**Latest independently verified substantive data commit:** b0ee31156c660b05379b2006abafddf1d3bb3890. All18 handoff files matched immutable fetched contents and Git-tree blob SHAs; all10 CSVs matched local Git blob hashes and passed actual Node v24.22.1 validator with zero errors. Subsequent receipt commit is metadata-only. No clinical approval or completion claim.

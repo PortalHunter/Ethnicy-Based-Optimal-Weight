@@ -5,7 +5,7 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": null,
+  "validated_data_commit": "b0ee31156c660b05379b2006abafddf1d3bb3890",
   "batch": 29,
   "metrics": {
     "organizations": 313,
@@ -62,7 +62,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch29 prepared; exact immutable SHA and readback receipt follow after commit. Batch28 a43641bef34981c77faf4d72c1a46415df0882b2 all18 files matched immutable contents/tree and revalidated zero errors.",
+  "validated_data_commit_note": "Batch29 immutable substantive commit independently read back: all18 files matched exact prepared contents and Git tree blob SHAs; all10 local CSVs matched immutable Git blob hashes and actual Node v24.22.1 validator passed with zero errors. Following receipt is metadata-only.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -254,10 +254,14 @@
     }
   ],
   "readback_validation": {
-    "status": "pending_for_batch29_commit",
-    "previous_batch28_sha": "a43641bef34981c77faf4d72c1a46415df0882b2",
-    "previous_files_matched": 18,
-    "previous_errors": 0
+    "immutable_data_sha": "b0ee31156c660b05379b2006abafddf1d3bb3890",
+    "files_matched": 18,
+    "csv_count": 10,
+    "errors": 0,
+    "runtime": "actual_node_v24.22.1_committed_validate_mjs_plus_orchestration_independent_recheck",
+    "node_cli_run": true,
+    "github_tree_truncated": false,
+    "local_csv_git_blob_mismatches": 0
   },
   "previous_independently_verified_data_commit": "a43641bef34981c77faf4d72c1a46415df0882b2",
   "session_additions": {

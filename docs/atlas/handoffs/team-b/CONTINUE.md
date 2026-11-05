@@ -2,14 +2,14 @@
 
 **INCOMPLETE. Continue toward original acceptance criteria, not a batch quota. GitHub live state supersedes this snapshot.**
 
-Repository PortalHunter/Ethnicy-Based-Optimal-Weight; existing branch research/atlas-team-b-20261104; existing draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. Startup live parent 2fec11a5e585a7a3dabcb487cdac93b44f62d4fe; batch28 a43641bef34981c77faf4d72c1a46415df0882b2 independently fetched all18 files and matched contents/tree blobs,zero CSV errors. Batch29 receipt in CHECKPOINT.json supersedes prepared state. Never replace branch/PR,merge,close,edit main or change website/calculator.
+Repository PortalHunter/Ethnicy-Based-Optimal-Weight; existing branch research/atlas-team-b-20261104; existing draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. Startup live parent 2fec11a5e585a7a3dabcb487cdac93b44f62d4fe; latest verified substantive data commit **b0ee31156c660b05379b2006abafddf1d3bb3890** (batch29). All18 files independently fetched and matched contents/tree blobs;all10 actual-Node CSV inputs matched immutable Git blob hashes;zero structural errors. A later metadata-only receipt HEAD may follow; verify live state. Never replace branch/PR,merge,close,edit main or change website/calculator.
 
 ## Startup
 
 1. Verify live PR open,draft,unmerged,branch HEAD,base and newer commits/comments. Inspect recursive tree for AGENTS.md (none at startup). Read this complete file and CHECKPOINT.json.
 2. Read original docs/atlas/research-team-prompts/TEAM_B_CLINICAL_ORGANIZATIONS.md and DATA_CONTRACT.md on research/atlas-five-team-handoff-prompts-2026-11-04. Do not redefine acceptance or repeat completed work.
 3. Fetch every file in docs/atlas/handoffs/team-b/: README,STATUS,GAPS,PROVENANCE,CHANGELOG,VALIDATION,CHECKPOINT,validate.mjs and data CSVs. Read all caveats. GitHub records are authoritative, not prior chat.
-4. Run node docs/atlas/handoffs/team-b/validate.mjs against fetched files. Actual Node now available; baseline passed with zero errors. Fetch/run does not establish clinical correctness.
+4. Run node docs/atlas/handoffs/team-b/validate.mjs against fetched files. Actual Node now available; baseline and batch28–29 passed with zero errors. Fetch/run does not establish clinical correctness.
 
 ## Scope and restrictions
 
@@ -17,7 +17,7 @@ Own nongovernment professional/patient societies, biomedical institutes/universi
 
 Keep based-in,serves,members,author,endorser,host separate. Residence,nationality,ancestry,language,community,genotype,phenotype distinct. FH not ordinary high LDL; hyperuricaemia/CPPD not gout; lactase nonpersistence not symptomatic intolerance; HLA/serology not confirmed celiac; raised ferritin not hereditary iron overload. No diagnosis,dose or individual diet advice. Fourteen broad-label failure cases in GAPS retained. Community identity does not imply data reuse consent or Indigenous accreditation.
 
-## Verified data snapshot and batch28
+## Verified data snapshot and batch28–29
 
 313 identities/201 domiciled areas;192 resource relationships;182 source-positive cells;1554 without source links;535 provenance;311 targeted search checks;5 community records;2 cross-border edges;zero approved clinical claims. Exact47 areas without domiciled identity in CHECKPOINT.json. By key diabetes68,hypertension18,high_chol21,gout17,lactose14,celiac27,hemochromatosis17.1736-cell skeleton is not full research coverage.
 
@@ -39,7 +39,7 @@ External Portuguese gout campaign brochure with SPR logo/URL is not verified soc
 - Audit directory-only identities against own current pages/guideline lists, lifecycle, renaming, legal continuity and source access. Strengthen all seven streams, including sparse lactose,gout,iron,celiac and cholesterol.
 - Normalize source publisher,author,host,programme setting,study population and healthcare jurisdiction; many legacy context source_country values are org/programme domicile,not publisher. Explicit unknown is better than inferred jurisdiction. New batch28 notes preserve this distinction.
 - Preserve all GAPS sections; do not silently close. CWC own site suspension and founding-date continuity; BWC NGO/clinic relationship; Brunei own Malay site; AMTL own condition sources; SOGANEPH registry/methods pending.
-- Earlier priorities remain: Monaco1996 diabetes authorization superseded by official dissolution effective27March2023 despite commercial directory. Liechtenstein UFL university research indexes not national guideline; Swiss756 diabetesGL-GR-FL serves438 through separately typed edges. Comoros ACLD, Solomon historical diabetes society and Gibraltar charity remain unresolved leads.
+- Earlier priorities remain: Monaco1996 diabetes authorization superseded by official dissolution effective27March2023 despite commercial directory. Liechtenstein UFL university research indexes not national guideline; Swiss756 diabetesGL-GR-FL serves438 through separately typed edges. Comoros ACLD, Solomon historical diabetes society and Gibraltar charity publication remains unresolved, but batch29 official register resolves Diabetes Gibraltar identity.
 - All older clinical/site caveats remain binding: Ukraine suspended UDA and separate entities; Mongolia access; Vietnam gambling footer and ministry authorship; Bosnia/Moldova access; Samoa conflicting ethics status; Uzbekistan identities; NDF cessation; Ghana ministry authorship; Panama currency; Argentina CPPD/gout; Spain funding; Japan copyright/errata; HK/Singapore lecture limits; FFH merger; Brazil hosting; stale FH directories. Read complete GAPS,not this abbreviated list alone.
 - Recent Portugal SPG-hosted WGO2018 and SPGP-hosted ESPGHAN2020 translations not local authorship; permission,fidelity,supersession and clinical claims unappraised. Philippines PRA2009 historical; Chile external BP guidelines not national adaptation; Colombia supplement ownership/COI/dates pending; Bhutan mission not publication; Niger WDF foreign publisher/project outputs not current registry; Macau aliases not bridged. Preserve every source caveat.
 
