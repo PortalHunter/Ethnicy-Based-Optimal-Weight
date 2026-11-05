@@ -1,6 +1,6 @@
 # Team B gaps and open questions
 
-Current checkpoint: batch18,262 identities/166 areas/167 resources/161 positive/1575 unresearched.82 areas have no identity. Historical batch counts below are retained as dated history; STATUS.md and CHECKPOINT.json supersede those totals. Every provisional, inaccessible and scientifically unappraised source remains unresolved unless a later explicit entry closes that exact gap.
+Current checkpoint: batch19,276 identities/176 areas/170 resources/164 positive/1572 unresearched.72 areas have no identity. Historical totals below remain dated history; STATUS.md and CHECKPOINT.json supersede them. All unresolved caveats persist.
 
 - The 248 × 7 M49 coverage matrix is a **discovery-status skeleton**, not completed organization research. All unreviewed cells are explicitly `not_yet_researched`; never infer that a condition-specific body does not exist.
 - Current rendered UNSD overview has exact248-code match (batch9); separate direct downloadable-export comparison and WHO/legal-jurisdiction checks remain pending. The roster excludes ISO numeric 158 (Taiwan), absent from the UNSD overview. UN M49 statistical practice is not a sovereignty statement.
@@ -162,3 +162,13 @@ Nine identities/seven gout resources, no new geographic identity area. Argentina
 - Congo178 Diabaction Congo (Brazzaville) is distinct from Congo180 Kinshasa AVDC. Liberia diabetes patient association and DESoL are separate. Planned DESoL guideline/registry outputs receive no completion credit.
 - Sierra Leone FODSL is distinct from UK charity1187745. Somalia Diabetes Somalia is distinct from similarly named foundations/childhood groups; direct site access failed though own indexed identity text was visible.
 - Djibouti CJDD is Ministry-operated and excluded from TeamB census. Niger SOS diabétique and Gabon ADG remain leads without adequate current primary identity verification. Narrow unsuccessful searches do not establish absence.
+
+
+## Batch19 Latin America: identity and source limitations
+
+- SOCEND2018 reorganization is described by IDF under older Sociedad Cubana de Diabetes heading; do not duplicate predecessor/group/society. Legal independence from state-hosted institute not established. FENADIABETES magazine mention is not a retrieved issue.
+- Guatemala Patronato own site claims exclusive IDF endorsement, while IDF also lists EduMed; exclusivity/endorsement not adopted. Education link404. Bolivia site has localhost links; events do not count as publications.
+- FUVIDA, FDJE, Los Fresnos and similarly named FLUVIDA are separate Ecuadorian entities. Los Fresnos survey index covers seven cities2022–2023 and asserts national extrapolation. Linked38.9MB report exceeded retrieval limit; weights, definitions and representativeness not verified; no prevalence estimate imported.
+- FUPACEL own celiac education is a discovery resource; gluten/proline/oats wording and frequency assertions unappraised. Dynamic guide exposed no product records; no food/medicine safety approval. FUPADI is a separate diabetes foundation; former Diabeticos/current Diabetes name transition merits decree chronology audit.
+- Costa Rica Día Vida footer names Asociación Costarricense Lucha contra la Diabetes; sponsor relationships disclosed, not assumed independent. Honduras FCCD own site inaccessible. Nicaragua para/de name variants and current registry continuity unresolved.
+- Puerto Rico APD is distinct from APRADE; historic ADA affiliation does not establish current endorsement. Type1 viral-causation wording, type2 age generalization, fixed gestational follow-up risk and screening/treatment assertions are unappraised. Do not adopt them as recommendations or equate territory with ancestry.

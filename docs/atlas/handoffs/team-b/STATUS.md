@@ -1,29 +1,27 @@
 # Team B status — 2026-11-05
 
-**INCOMPLETE — active global organization and seven-condition resource discovery.** No clinical approvals. A directory identity does not constitute completed research.
+**INCOMPLETE — batch19 validated.** All records remain discovery leads; zero clinical approvals.
 
 | Metric | Count |
 |---|---:|
 | M49 areas |248|
 | Area × condition cells |1736|
-| Organization identities |262|
-| Areas with identities |166|
-| Resource relationships |167|
-| Source-positive cells |161|
-| not_yet_researched cells |1575|
-| Provenance records |433|
-| Logged targeted searches |204|
+| Organization identities |276|
+| Areas with identities |176|
+| Resource relationships |170|
+| Source-positive cells |164|
+| not_yet_researched cells |1572|
+| Provenance records |450|
+| Logged targeted searches |225|
 | Community-specific records |3|
 | Approved clinical claims |0|
 
-Condition positives: diabetes58; hypertension15; high_chol20; gout16; lactose13; celiac23; hemochromatosis16.
+Condition positives: diabetes:60; hypertension:15; high_chol:20; gout:16; lactose:13; celiac:24; hemochromatosis:16.
 
-Batches13–17 added56 identities in34 newly covered areas and26 source relationships. Batch13: Haiti/Belize sources and Caribbean identity upgrades.14: eight lactose resources.15:20 MENA identities/six resources.16:nine rheumatology identities/seven gout resources.17:20 identities in16 new areas/two Russian and Faroese resources. All resources remain research_lead_only; withheld/inaccessible leads receive no resource credit.
+This run batches18–19 added30 identities in23 newly represented areas and6 resource relationships. Batch18 Africa:16 identities/3 programme sources. Batch19 Latin America:14 identities/3 education or research-index sources. Index discovery does not mean full text or clinical appraisal.
 
-Batch18:16 identities in13 newly represented African areas and3 resource relationships (Malawi diabetes education; Benin integrated diabetes/hypertension programme). Malawi WDF12-0714 reports completed education outputs; Benin WDF20-1787 remains completion-phase with expected results. Neither establishes clinical efficacy. Directory-only identities receive no resource credit.
+Previous independently verified immutable data commit: 6448a9f28123474ae61900e5bf1d1bb572f72f41 (batch18). Batch19 data and this handoff are committed together; resolve branch HEAD and verify immutable readbacks. Branch research/atlas-team-b-20261104; [draft PR71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) remains open/unmerged.
 
-Previous verified immutable research data checkpoint: **6c2519f5e1ebb64513cc50b553b3f355419fb593**. Existing branch: research/atlas-team-b-20261104. [Draft PR71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) stays open/unmerged. Resolve current branch HEAD for any newer handoff-only or research commit. CHECKPOINT.json and CONTINUE.md provide exact resumption state.
+72 areas lack identities;1572 cells lack linked sources. Continue Pacific/territories and original-language seven-stream research. Preserve all GAPS caveats, particularly Cuban reorganization, Guatemala exclusive-endorsement claim, Ecuador seven-city survey/full-PDF access limit, FUPACEL dynamic guide and educational-claim limitations.
 
-82 areas lack identities and1575 cells lack linked sources. Priority: remaining Africa/Pacific/Latin America/territories and original-language publications for directory-only identities; verify rights,authors,currency,identity continuity and source integrity. Preserve VADE compromised-looking footer, UDA suspension, ARG CPPD/gout text mix and all GAPS caveats.
-
-Nine-CSV validator core and current UNSD rendered overview checks: zero errors in orchestration JavaScript runtime. Node CLI not separately run. Exact248-code rendered-table match; direct downloadable export, WHO/legal-jurisdiction audit, full URL crawl, independent registry checks and clinical appraisal not completed. No main/calculator or personalized-medical changes.
+Nine-CSV committed validator core plus overview checks in orchestration JavaScript runtime:zero errors. Node CLI not separately run. Current rendered UNSD exact248-code set matched; direct export, WHO/legal-jurisdiction audit, full URL crawl, independent legal registry and clinical appraisal incomplete. No main/calculator/personalized-medical changes.

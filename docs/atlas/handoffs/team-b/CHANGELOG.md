@@ -110,3 +110,8 @@ Verified immutable data commit 6c2519f5e1ebb64513cc50b553b3f355419fb593; batches
 
 Batch18:16 identities in13 newly represented African areas and3 resource relationships (Malawi diabetes education; Benin integrated diabetes/hypertension programme). Malawi WDF12-0714 reports completed education outputs; Benin WDF20-1787 remains completion-phase with expected results. Neither establishes clinical efficacy. Directory-only identities receive no resource credit.
 22 additional targeted search-log rows and19 provenance rows. Totals:262 identities,166 areas,167 relationships,161 positive cells,1575 not_yet_researched cells. Nine-CSV core validation:zero errors; Node CLI not separately run.
+
+
+## 2026-11-05 — Batch19 Latin America
+
+Added14 identities in10 new areas (Bolivia,Ecuador,Guatemala,Paraguay,Costa Rica,Honduras,Nicaragua,Venezuela,Cuba,Puerto Rico) and3 research-index/education relationships (Ecuador diabetes,Paraguay celiac,Puerto Rico diabetes).17 provenance and21 search rows. Totals276 identities/176 areas/170 resources/164 positive cells/1572 not_yet_researched. Full-text access and source-quality caveats retained; no clinical claims approved. Nine-CSV core:zero errors.
