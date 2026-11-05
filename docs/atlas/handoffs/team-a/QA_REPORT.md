@@ -1,3 +1,21 @@
+# Team A QA — 2026-11-05
+
+| Audit | Result |
+|---|---|
+| 248 country records, 248 synchronized coverage rows | PASS structural JavaScript check |
+| 54 found/194 explicitly unknown governmental health authorities | PASS count; identity not complete statutory competence |
+| 81 unique governmental body entries | PASS structural JavaScript check |
+| 19 sourced body-to-body relations | PASS reference integrity JavaScript check |
+| 78 source provenance rows | PASS required field/ID JavaScript check |
+| 21 per-row official UN M49 checks | PARTIAL: 227 remaining |
+| M49 384 official name Côte d’Ivoire vs Ivory Coast | CORRECTED |
+| Execute repository Python `validate.py` | NOT RUN in GitHub-only connected environment |
+| Confirm all legal mandates, disputed/delegated systems and original-script ministry names | INCOMPLETE |
+
+Source limits: Bahamas May 2026 Gazette, Bermuda separate governmental institutions, Cayman April 2026 HSA public-health transfer *began* but has not been legally confirmed complete, DRC conflicting official title; precise limits in STATUS and GAPS. No clinical/app content changed.
+
+## Historical QA (2026-11-04)
+
 # Team A — Data integrity, spot checks and acceptance audit
 Date: 2026-11-04. Scope: research branch `research/atlas-team-a-20261104`, draft PR [#68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68).
 

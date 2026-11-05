@@ -1,38 +1,16 @@
-# Team A status — 2026-11-04
+# Team A status — 2026-11-05
 
-- **State:** OPEN / partial research, draft PR [#68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68). Do not merge without maintainer review.
-- **Branch:** `research/atlas-team-a-20261104`; base `main`.
-- **Geography:** **248 / 248** expected UN M49 country-or-area skeleton rows staged from documented secondary metadata; verified against the [UNSD overview](https://unstats.un.org/unsd/methodology/m49/overview/) for table count and high-level distribution, **NOT row-by-row formally verified**. 60 Africa, 57 Americas, 50 Asia, 51 Europe, 29 Oceania, one unassigned Antarctica.
-- **Authority coverage:** **34 / 248** governmental health ministries/competent departments linked to official domestic government sites; **214 / 248** have explicitly unresolved authority status. These 34 are identity/mandate-page checks, not complete governmental systems verified.
-- **Government health bodies:** **55** distinct official source-linked ministry/agency/laboratory/regulator/statistics records (34 principal plus 21 distinct institute/agency records).
-- **Organization relationships:** **14** source-linked direct structural or subordinate-sector listings; no guessed delegation or parent-area relationship.
-- **Provenance:** **52** government/UN/secondary source records, with source issuer, title, language, reviewed date, geographic scope, status, limitations.
-- **UN M49 codes:** 3-character text preserving leading zeros. Geography source mirror contained one non-UN-overview ISO area 158 and was filtered; current official overview has 248 entries. Geography text fields still require full canonical reconciliation.
-- **Tests:** `validate.py` added for offline reproducible integrity checks; structural audits of committed CSVs confirmed 248 unique M49 codes, 248 coverage rows, 55 body IDs and 14 valid relationship cross-references. This is not proof of authority legal accuracy.
-- **Safety:** no changes to the website, medical formulas, patient guidance, individualized ancestry interpretation or private data.
+Research branch `research/atlas-team-a-20261104`, existing draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68; base `main`. **Do not merge.**
 
-## Newly source-checked areas in batch 2 (14)
+- **248/248** M49 geographic skeletons; **21** direct official UNSD per-row checks recorded in `M49_RECONCILIATION_20261105.csv`; **227** still pending individual canonical verification.
+- Geography correction: **384 Côte d’Ivoire**, replacing mirror name `Ivory Coast`, aligned in countries and coverage records.
+- **54** principal governmental health authorities identified from official government sources; **194** unknown. Identification does **not** certify all legal mandates.
+- **81** separately listed governmental health bodies; **19** official-source-supported relationships; **78** provenance records; **248** area coverage rows.
+- New batch on 2026-11-05: 20 principal authorities: 012 Algeria; 044 Bahamas; 060 Bermuda; 068 Bolivia (Plurinational State of); 090 Solomon Islands; 092 British Virgin Islands; 096 Brunei Darussalam; 100 Bulgaria; 108 Burundi; 120 Cameroon; 132 Cabo Verde; 136 Cayman Islands; 144 Sri Lanka; 178 Congo; 180 Democratic Republic of the Congo; 184 Cook Islands; 212 Dominica; 214 Dominican Republic; 218 Ecuador; 222 El Salvador.
+- Six separate agency/programme records; five official government listing links, 26 new provenance entries.
+- Structural integrity verified on prospective complete CSV contents with JavaScript checks. **Python `validate.py` not executed** in connected GitHub-only environment; run locally/CI. Structural validation is not legal/clinical verification.
+- Source limitations: Algeria government directory identity but mandate and Arabic title pending; Bahamas May 2026 Gazette; Cayman April 2026 HSA transfer initiated but completion unverified; Bermuda quango separate; DRC conflicting title; Congo mandate text not retrieved; Burundi, Cabo Verde, Sri Lanka, Dominican Republic rename histories incomplete.
 
-004 Afghanistan, 008 Albania, 016 American Samoa, 020 Andorra, 024 Angola, 028 Antigua and Barbuda, 031 Azerbaijan, 032 Argentina, 040 Austria, 051 Armenia, 052 Barbados, 056 Belgium, 064 Bhutan, 072 Botswana.
+## Next priorities
 
-In combination with the initial five: 036 Australia, 076 Brazil, 276 Germany, 392 Japan, 710 South Africa.
-
-**Important:** Some official English-language ministry websites have their local-script names pending; Albania, Antigua and Barbuda, Austria and Armenia require legal gazette/rename follow-up. American Samoa territorial competence is documented, but a legal parent M49 key is **not** asserted. For Belgian, German, Austrian, Brazilian and Australian devolved health authorities, national-only source checks are incomplete.
-
-## Batch 3 — newly researched 15 areas
-
-048 Bahrain, 050 Bangladesh, 084 Belize, 116 Cambodia, 124 Canada, 152 Chile, 156 China, 170 Colombia, 188 Costa Rica, 191 Croatia, 196 Cyprus, 203 Czechia, 204 Benin, 208 Denmark, 262 Djibouti.
-
-**Principal authorities now checked:** 5 from batch 1 + 14 from batch 2 + 15 from batch 3 = **34**. This is identity/mandate evidence, not exhaustive 248-area ministry verification.
-
-**Audit record:** [QA_REPORT.md](QA_REPORT.md) records the executed quote-aware CSV integrity audit with zero structural errors. `validate.py` is in the repository for reproducing its checks; that Python script was **not** independently run in this session.
-
-## Next independent batch
-
-1. Download/compare each of 248 M49 geography rows directly with official UNSD dated master; document corrections separately.
-2. Work 20–40 country/area authority records per commit, in M49 order, with local-language mandate links; use official legal acts for names and devolved structures.
-3. Target the **214 unresolved** national/territorial authorities and add their medicines regulators, public-health institutes, biomedical councils, and surveillance/data units.
-4. Two independent authoritative checks for legal delegation, contested jurisdiction and significant ministry name changes. Populate parent-area M49 and agency relationship rows only after direct evidence; keep unknown explicit.
-5. Update `PROVENANCE.csv`, `GAPS.md`, `data/country_coverage.csv`, and this file with accurate counts after every batch.
-
-**NOT a complete worldwide verified ministry list. NOT approved for patient-facing clinical use.**
+Finish **227** official UN individual-row checks and research **194** unresolved principal health authorities, beginning ascending M49 070 Bosnia and Herzegovina, 074 Bouvet Island, 104 Myanmar, 112 Belarus, 140 Central African Republic, 148 Chad, 162 Christmas Island, 166 Cocos (Keeling) Islands, 174 Comoros, 175 Mayotte, 192 Cuba. Two independent legal/government sources for renames, disputed and delegated territories. Add ministries, institutes, regulators, surveillance and statistics separately. Run offline validator and commit to same branch; no clinical app changes.
