@@ -1,3 +1,9 @@
+## CURRENT — Team A Batch 18 (2026-11-05)
+
+**248/248** authoritative official M49 skeleton rows, **125/248** located principal governmental health authority **identities only**, **123** explicitly unresolved, **175** governmental bodies, **40** sourced within-area relations, **266** dated provenance rows, **248** aligned review records, **0** unproved parent M49 assignments. Exact independently read-back DATA SHA **`6329a090951f5e6fa518fdbfec15764e77bff94e`**; [standalone checkpoint](CHECKPOINT_20261105_BATCH18.md). **New identities:** 626 Timor-Leste, 630 Puerto Rico, 634 Qatar, 642 Romania, 646 Rwanda; Timor INSP-TL separate government agency. Independent structural **PASS**; Python validator **NOT RUN** (local DNS). All legal mandates/delegated powers still substantially unfinished and some renamed/contested areas require 2 independent legal issuers. Qatar's 2026 food safety transfer just commenced; Puerto Rico federal and territorial powers distinct. PR #68 DRAFT/unmerged and no website/clinical changes.
+
+---
+
 ## 2026-11-05 — Batch 17 live research status
 
 - **248/248** UN M49 official country/area geographic skeleton and aligned ledger; **120** principal governmental health-policy identities located, **128** explicitly `UNKNOWN_REVIEW_NEEDED` (not proved absence); **169** governmental body records, **39** internal relations, **253** dated provenance records. Identity is **not** current full legal mandate verification.
