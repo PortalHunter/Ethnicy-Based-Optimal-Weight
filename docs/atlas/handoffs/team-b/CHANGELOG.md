@@ -1,5 +1,12 @@
 # Team B changelog
 
+## 2026-11-05 — Batch 46: Japanese/Korean specialist guidance and Greek external-guidance catalogue
+
+- Added **B-JP-JAS** (Japan, high_chol), **B-KR-KSLA** (South Korea, high_chol), **B-KR-KSH** (South Korea, hypertension), **B-GR-EEY** (Greece, hypertension) with own original-language society pages, documented domicile, direct professional publication URLs and edition-specific cautions. Four **newly positive** matrix cells; Greek society cataloguing ESH/ACC/AHA does not imply Greek authorship, endorsement or legal adoption.
+- Delta: **+4 organizations, +0 domiciled areas, +4 exact resources/context, +4 source-positive cells, +8 provenance, +4 searches**, no changes to prior community/cross-border records or issuer-country unknowns.
+- Immutable atomic six-CSV data commit [`1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f); **10/10** CSV blob SHA readback against complete nontruncated 145-entry Git tree, **0** connector-orchestrated structural errors (actual Node CLI not run). All **285** clinical release states remain `research_lead_only`; zero approved clinical claims. No website/main or other team edits.
+
+
 ## 2026-11-05 — Batch 45: four professional lipid societies, corrected and validated
 
 - Indexed original-language specialist society source leads in Argentina (SAL), Czechia (ČSAT), Spain (SEA) and Poland (PTL). Delta **+4 organization identities, +4 resource and publisher/care-jurisdiction contexts, +3 first-positive high_chol cells, +8 provenance, +4 logs**, zero new M49 domiciled areas. Spain already had FHF source and now has two links.

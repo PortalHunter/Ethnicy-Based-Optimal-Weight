@@ -1,5 +1,13 @@
 # Team B validation history
 
+## Batch 46 · independent immutable data readback `1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f` · 2026-11-05
+
+- Source additions: Japan JAS (2022/2023 different originals and 2024 errata), Korea KSoLA 2026-09-10 own new edition, Korea KSH 2026-05-22 revised sixth edition, Greece EEY's external-issuer professional guideline catalogue. Four organizations and exact resources, four positive cells, eight provenance, four search checks. No other team files.
+- **Prewrite structural equivalent:** 0 errors for six modified CSVs with 248 × 7 M49, original organization/resource/context/provenance and search joins. **Independent postcommit** connector fetched all **10** CSV inputs by immutable commit SHA, matched **10/10** exact Git blob SHAs in nontruncated **145-item** tree (`a24342f19155b6168c3add870df2450046499a67`), checked unique stable IDs and references, all exact link contexts, origin-country basis, every matrix cell's search IDs, 7 community and 8 cross-border edges: **0 errors**. Git compare from previous checkpoint found only six changed CSVs under Team B.
+- **Verified totals:** 388 orgs / 227 domiciles / 285 linked resources / 260 positive cells / 1,476 zero-link cells (127 targeted, 1,349 not targeted) / 794 provenance / 461 search logs / 5 issuer unknowns / 0 approved claims. Positive by condition: 88, 44, 31, 25, 18, 34, 20 in canonical condition order.
+- **Execution caveat:** This was not an actual `node docs/atlas/handoffs/team-b/validate.mjs` CLI invocation; GitHub checkout was unavailable from container DNS. Independent JavaScript equivalent and immutable readback are structural, not live-URL, full clinical, legal, licensing, copyright, Indigenous permissions, final text or effective-edition review.
+
+
 ## Batch 45 · independently verified data SHA `5d5bb3654aba9b4870c8e848754598ddf34bced5` · 2026-11-05
 
 - First-party source-backed entries in Argentina, Czechia, Spain and Poland add **four** independently indexed society identities; four exact high_chol resource/context links; **3** new source-positive cells (Spain already had one); **8** organization/resource provenance records and **4** targeted search logs.

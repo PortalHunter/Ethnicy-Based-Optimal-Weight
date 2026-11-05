@@ -1,3 +1,27 @@
+# Team B status · 2026-11-05 · batch 46
+
+**INCOMPLETE, research leads only.** [Draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) remains open/unmerged; branch `research/atlas-team-b-20261104` to `main`. Immutable independently verified [data commit `1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f). No main/public website, calculators, source formulas, other teams or private/patient data changed.
+
+| Metric | Independently verified |
+|---|---:|
+| M49 × seven condition cells | **248 × 7 = 1,736** |
+| Organizations / distinct domiciled areas / missing local eligible identities | **388 / 227 / 21** |
+| Exact resource contexts / source-positive area-condition cells | **285 / 260** |
+| Zero-link / bounded targeted no-source / no targeted condition check | **1,476 / 127 / 1,349** |
+| Provenance / search logs | **794 / 461** |
+| Community/subnational / cross-border | **7 / 8** |
+| Unresolved document-issuer countries / clinical approved claims | **5 / 0** |
+
+Source-positive cells: diabetes **88**, hypertension **44**, high_chol **31**, gout **25**, lactose **18**, celiac **34**, hemochromatosis **20**. All **285/285** linked contexts are `research_lead_only`, with no diagnosis, treatment, phenotype or ancestry-risk approval.
+
+**Batch 46:** +4 professionally based organization identities, +4 exact source/issuer contexts, +4 first-positive cells (**Japan high_chol**, **South Korea high_chol and hypertension**, **Greece hypertension**), +8 provenance rows, +4 targeted searches, +0 domiciled areas. First-party sources: Japan Atherosclerosis Society's separate **2022/2023** publications and later errata; Korean Lipid Society's **Sept 10, 2026** edition; Korean Hypertension Society's **May 22, 2026** revised sixth-edition availability notice; Hellenic Hypertension Society's first-party Greek catalogue of predominantly **external ESH/ACC/AHA** publications. Original issuer, edition, geography, legal adoption, proprietary rights and medical evidence remain distinct. Full PDFs were not clinically appraised or reproduced.
+
+**Validation:** Independent **postcommit immutable** readback of **10/10 CSV Git blob SHA IDs** against a complete **145-entry, nontruncated** Git tree; full connector-orchestrated JavaScript equivalent of `validate.mjs`: **0 structural errors**. Changed data commit paths: six CSVs under Team B exclusively. The actual Node CLI was **not** run (checkout network DNS unavailable); no complete external source-lifecycle crawl, copyright/legal/Indigenous permissions or clinical appraisal was performed.
+
+---
+
+## Historical status: Batch 45 (preserved verbatim below)
+
 # Team B status · 2026-11-05 · batch 45
 
 **INCOMPLETE, research only.** [Draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) remains open and unmerged on `research/atlas-team-b-20261104`, targeting `main`. Final independently readback-validated **data** commit [`5d5bb3654aba9b4870c8e848754598ddf34bced5`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/5d5bb3654aba9b4870c8e848754598ddf34bced5) (after a failed intermediary persistence check and corrective commit). No public website, formula, main, other research team files, private records or patient advice were edited.
