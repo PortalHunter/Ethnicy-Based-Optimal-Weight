@@ -2,22 +2,22 @@
 
 **INCOMPLETE.** Global seven-stream discovery remains active; no clinical approvals.
 
-- organizations: 190
+- organizations: 197
 - areas: 119
-- resources: 141
-- positive: 135
-- unresearched: 1601
-- provenance: 335
-- search_log: 111
+- resources: 149
+- positive: 143
+- unresearched: 1593
+- provenance: 350
+- search_log: 121
 - community: 3
 - current_unsd_overview_codes: 248
 
-Condition positives: {"diabetes":49,"hypertension":14,"high_chol":19,"gout":9,"lactose":5,"celiac":23,"hemochromatosis":16}.
+Condition positives: {"diabetes":49,"hypertension":14,"high_chol":19,"gout":9,"lactose":13,"celiac":23,"hemochromatosis":16}.
 
-Batch 13: Verified Haiti French diabetes and hypertension education and Belize non-www patient education (3 resources); upgraded Haiti, Belize and Saint Lucia identities. Logged five unresolved/identity-only resource follow-ups and current Suriname government corroboration.
+Batch 14: Added7 specialist/patient identities and8 lactose source relationships across8 areas; all research leads. Logged Italy in-development project and inaccessible Portuguese lead without coverage credit.
 
-129 areas lack identities; 1601 condition cells lack resources. Directory-only records receive no source-positive credit. Next: Expand sparse lactose/gout streams using original-language professional sources; follow up Caribbean publications without mistaking services for studies.
+129 areas lack identities; 1593 condition cells lack resources. Directory-only records receive no source-positive credit. Next: Prioritize new-area Africa/MENA/Asia discovery and original publications for directory-only organizations; preserve lactose phenotype distinctions.
 
 Nine-CSV structural validator core plus current UNSD overview code-set checks: zero errors in orchestration runtime; Node CLI not separately executed. Exact248-code rendered-table match; no downloadable-export, WHO/legal-jurisdiction audit, full URL crawl or clinical appraisal claimed.
 
-Branch research/atlas-team-b-20261104; draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. Previous checkpoint 9014620378d6f645810a66b60c7d318bdeed6aca; batch13 checkpoint is commit containing this file.
+Branch research/atlas-team-b-20261104; draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. Previous checkpoint c849609f1767c493ec4d1fa8ab4c9b564996df31; batch14 checkpoint is commit containing this file.

@@ -84,3 +84,7 @@ Added 18 directory/site-corroborated identities in 18 new Caribbean/territory ar
 
 ## Batch 13 — 2026-11-05
 Verified Haiti French diabetes and hypertension education and Belize non-www patient education (3 resources); upgraded Haiti, Belize and Saint Lucia identities. Logged five unresolved/identity-only resource follow-ups and current Suriname government corroboration. Totals: {"organizations":190,"areas":119,"resources":141,"positive":135,"unresearched":1601,"provenance":335,"search_log":111,"community":3,"by_condition":{"diabetes":49,"hypertension":14,"high_chol":19,"gout":9,"lactose":5,"celiac":23,"hemochromatosis":16},"current_unsd_overview_codes":248}. Zero structural errors.
+
+
+## Batch 14 — 2026-11-05
+Added7 specialist/patient identities and8 lactose source relationships across8 areas; all research leads. Logged Italy in-development project and inaccessible Portuguese lead without coverage credit. Totals: {"organizations":197,"areas":119,"resources":149,"positive":143,"unresearched":1593,"provenance":350,"search_log":121,"community":3,"by_condition":{"diabetes":49,"hypertension":14,"high_chol":19,"gout":9,"lactose":13,"celiac":23,"hemochromatosis":16},"current_unsd_overview_codes":248}. Zero structural errors.
