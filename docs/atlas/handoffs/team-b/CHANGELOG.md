@@ -152,3 +152,8 @@ Added2 Portuguese organization identities and2 external-guideline hosting relati
 
 ## Batch25 immutable checkpoint
 01f67a5dd6a8993f208153df2b3d05e591a60159 independently read back:17 files exact and9 CSVs zero errors. Handoff-only refresh records SHA and resumption instructions; no additional data or clinical claims.
+
+
+## 2026-11-05 — Batch26: Liechtenstein local research and Swiss cross-border service normalization
+
+Added 2 first-party verified non-government identities (UFL in LI 438; diabetesGL-GR-FL in CH 756), 2 UFL research/publication-index relationships (LI diabetes and hypertension), 2 source-specific cross-border service edges 756 -> 438, 9 provenance rows and 6 targeted source-log rows. Added data/cross_border_services.csv and edge foreign-key/provenance validation. Comoros, Solomon Islands and Gibraltar findings recorded only as unresolved leads, without invented standalone official sites or disease-guidance endorsements. All linked publication claims unappraised; larger magazine PDF screenshot unavailable due file-size limit, HTML index retrieved. Counts: {"organizations":306,"areas":195,"resources":186,"positive":178,"unresearched":1558,"provenance":506,"search_log":286,"community":4,"cross_border_edges":2,"by_condition":{"diabetes":65,"hypertension":17,"high_chol":21,"gout":17,"lactose":14,"celiac":27,"hemochromatosis":17},"current_unsd_overview_codes":248}. Verified structural/data attribution in orchestration JS, zero errors; Node CLI/full URL/clinical/legal audit not run. Branch and PR remain open draft/unmerged; readback and exact immutable SHA recorded in subsequent checkpoint.

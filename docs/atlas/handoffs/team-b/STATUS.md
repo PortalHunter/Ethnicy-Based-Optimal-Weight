@@ -1,23 +1,19 @@
 # Team B status — 2026-11-05
 
-**INCOMPLETE — batch25 validated; original acceptance criteria not fully satisfied.**
+**INCOMPLETE — batch26 validated against committed Team B structural rules in orchestration JavaScript; original acceptance criteria remain open.**
 
 | Metric | Count |
 |---|---:|
-|M49 areas / area-condition cells|248 /1736|
-|Organization identities / domiciled areas|304 /194|
-|Resource relationships / source-positive cells|184 /176|
-|Cells without linked sources|1560|
-|Provenance / targeted search logs|497 /280|
-|Community-specific identities|4|
-|Clinical approvals|0|
+| M49 areas / area-condition cells | 248 / 1736 |
+| Organization identities / domiciled areas | 306 / 195 |
+| Resource relationships / source-positive cells | 186 / 178 |
+| Cells lacking linked source | 1558 |
+| Provenance / targeted search logs | 506 / 286 |
+| Community-specific identities / cross-border service edges | 4 / 2 |
+| Approved clinical claims | 0 |
 
-Condition-positive cells: diabetes64,hypertension16,high_chol21,gout17,lactose14,celiac27,hemochromatosis17. Positive is discovery,not country completion or clinical validation.54 areas lack domiciled identities.
+Positive cells by condition: diabetes 65; hypertension 17; high_chol 21; gout 17; lactose 14; celiac 27; hemochromatosis 17. These record published-source discovery, **not** verified nationwide condition coverage or clinically appraised recommendations. 53 areas still lack a locally domiciled verified organization; cross-border service reach is separate from domicile.
 
-Session batches23–25 added11 identities in5 new areas,9 resource relationships (all7 streams),20 provenance and18 search rows. New countries/areas: Reunion,Montenegro,Bhutan,Niger,Macao. Directory/mission/type1-only material does not fill type2 evidence gaps. Liechtenstein Swiss cross-border service scope logged without false local domicile. Portuguese translation versus original-issuer distinctions retained.
+Batch26: Liechtenstein's private nonprofit university (UFL) with German original research listings for diabetes and GAPP blood-pressure work; Swiss diabetesGL-GR-FL regional society separately domiciled M49 756, expressly serving Liechtenstein 438, with Vaduz counselling location. Two normalized cross-border edges prevent false 438 domicile. Six targeted search records include unresolved Comoros ACLD, Solomon Islands historical/inactive-at-survey society and Gibraltar Diabetes Gibraltar name/official-site leads. Zero speculative local organization credit for those three areas. Old caveats retained in GAPS.
 
-Latest independently read-back substantive checkpoint before batch25: d627375974dce6aeea709f754c69595e0b308870 (17 exact file readbacks,9 CSVs zero errors). Resolve current research/atlas-team-b-20261104 HEAD for batch25/newer checkpoint. Draft PR71 stays unmerged. [CONTINUE.md](CONTINUE.md) is standalone handoff; [GAPS.md](GAPS.md) includes itemized acceptance review. Original-language own-publication checks and geographically comprehensive seven-stream discovery remain incomplete.
-
-Validation: committed validate.mjs core+overview in orchestration JS,zero errors after every batch; Node CLI not run. Retained UN snapshot,not newly verified UN data. Full-link,legal/WHO/direct-UN-export audits and clinical appraisal not completed. All resources research_lead_only. No website/main changes.
-
-Final verified substantive batch25 commit: **01f67a5dd6a8993f208153df2b3d05e591a60159**. All17 immutable file readbacks matched; all9 fetched CSVs revalidated with zero errors. Later checkpoint-only commit may be HEAD.
+Data and validation restrictions: 10 CSVs including new cross_border_services.csv; unchanged retained UN 248-code snapshot, not freshly verified source; committed validate.mjs core+overview plus cross-border checks reproduced in orchestration JS, 0 errors; Node CLI **not** run. Full live URL crawl, legal/WHO/UN direct-export comparison, per-study population appraisal, and clinical review **not** done. All resource release states research_lead_only; no website/main edit or PR merge. See CHECKPOINT.json and CONTINUE.md for immutable SHA/readback status and resumable work.

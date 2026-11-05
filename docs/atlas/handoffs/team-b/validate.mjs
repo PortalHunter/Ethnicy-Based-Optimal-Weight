@@ -8,10 +8,10 @@ function validate(files){
 const keys=["diabetes","hypertension","high_chol","gout","lactose","celiac","hemochromatosis"],errors=[];
 const ck=(ok,message)=>{if(!ok)errors.push(message);};
 const get=n=>{const a=parseCSV(files[n]);ck(a.every(r=>r.length===a[0].length),"CSV row width: "+n);return a.slice(1);};
-const names=["data/m49_area_codes.csv","data/specialist_organizations.csv","data/condition_organizations.csv","data/publication_context.csv","data/coverage_by_area_condition.csv","data/subnational_and_indigenous_organizations.csv","PROVENANCE.csv","data/search_log.csv"];
-const [areas,org,pub,ctx,cov,ind,prov,search]=names.map(get);
+const names=["data/m49_area_codes.csv","data/specialist_organizations.csv","data/condition_organizations.csv","data/publication_context.csv","data/coverage_by_area_condition.csv","data/subnational_and_indigenous_organizations.csv","PROVENANCE.csv","data/search_log.csv","data/cross_border_services.csv"];
+const [areas,org,pub,ctx,cov,ind,prov,search,cross]=names.map(get);
 const unique=(a,k,n)=>ck(new Set(a.map(k)).size===a.length,"duplicate "+n);
-unique(areas,r=>r[0],"M49");unique(org,r=>r[0],"organization");unique(prov,r=>r[0],"provenance");unique(cov,r=>r[0]+":"+r[1],"coverage");unique(pub,r=>r[0]+":"+r[1]+":"+r[2],"resource");unique(search,r=>r[0],"search");
+unique(areas,r=>r[0],"M49");unique(org,r=>r[0],"organization");unique(prov,r=>r[0],"provenance");unique(cov,r=>r[0]+":"+r[1],"coverage");unique(pub,r=>r[0]+":"+r[1]+":"+r[2],"resource");unique(search,r=>r[0],"search");unique(cross,r=>r[0],"cross-border edge");
 ck(areas.length===248,"M49 count");ck(cov.length===248*7,"coverage count");
 const am=new Set(areas.map(r=>r[0])),om=new Map(org.map(r=>[r[0],r])),counts=new Map();
 for(const a of areas){ck(/^\d{3}$/.test(a[0]),"M49 format");const cs=cov.filter(c=>c[0]===a[0]);ck(cs.length===7&&keys.every(k=>cs.some(c=>c[1]===k)),"seven keys "+a[0]);}
@@ -22,13 +22,14 @@ for(const c of cov){const n=counts.get(c[0]+":"+c[1])||0;ck(am.has(c[0])&&keys.i
 for(const p of prov)ck(p.every(Boolean)&&p[4].startsWith("https://"),"provenance metadata "+p[0]);
 for(const s of search)ck(am.has(s[1])&&keys.includes(s[2])&&s.every(Boolean)&&s[5].startsWith("https://"),"search metadata "+s[0]);
 for(const i of ind)ck(om.has(i[0])&&i[1]===om.get(i[0])[1],"indigenous foreign key");
-return {errors,metrics:{organizations:org.length,areas:new Set(org.map(r=>r[1])).size,resources:pub.length,positive:counts.size,unresearched:cov.filter(r=>r[2]==="not_yet_researched").length,provenance:prov.length,search_log:search.length,community:ind.length,by_condition:Object.fromEntries(keys.map(k=>[k,cov.filter(r=>r[1]===k&&r[2]!=="not_yet_researched").length]))}};
+for(const e of cross){ck(e.every(Boolean)&&am.has(e[2])&&am.has(e[3])&&e[2]!==e[3],"cross-border metadata "+e[0]);ck(om.has(e[1])&&om.get(e[1])?.[1]===e[2],"cross-border organization domicile "+e[0]);ck(keys.includes(e[5])&&e[6].startsWith("https://"),"cross-border condition/source "+e[0]);ck(prov.some(p=>p[4]===e[6]&&p[2]===e[3]),"cross-border provenance "+e[0]);}
+return {errors,metrics:{organizations:org.length,areas:new Set(org.map(r=>r[1])).size,resources:pub.length,positive:counts.size,unresearched:cov.filter(r=>r[2]==="not_yet_researched").length,provenance:prov.length,search_log:search.length,community:ind.length,cross_border_edges:cross.length,by_condition:Object.fromEntries(keys.map(k=>[k,cov.filter(r=>r[1]===k&&r[2]!=="not_yet_researched").length]))}};
 }
 
 function validateOverview(files,result){const a=parseCSV(files["data/m49_verified_overview.csv"]),rows=a.slice(1),codes=rows.map(r=>r[0]),known=parseCSV(files["data/m49_area_codes.csv"]).slice(1).map(r=>r[0]);if(rows.length!==248||new Set(codes).size!==248||rows.some(r=>r.length!==a[0].length)||known.some(c=>!codes.includes(c))||codes.some(c=>!known.includes(c)))result.errors.push("UNSD snapshot code-set/width mismatch");result.metrics.current_unsd_overview_codes=rows.length;return result;}
 
 const root=path.dirname(fileURLToPath(import.meta.url));
-const paths=["data/m49_area_codes.csv","data/specialist_organizations.csv","data/condition_organizations.csv","data/publication_context.csv","data/coverage_by_area_condition.csv","data/subnational_and_indigenous_organizations.csv","PROVENANCE.csv","data/search_log.csv","data/m49_verified_overview.csv"];
+const paths=["data/m49_area_codes.csv","data/specialist_organizations.csv","data/condition_organizations.csv","data/publication_context.csv","data/coverage_by_area_condition.csv","data/subnational_and_indigenous_organizations.csv","PROVENANCE.csv","data/search_log.csv","data/m49_verified_overview.csv","data/cross_border_services.csv"];
 const files=Object.fromEntries(paths.map(p=>[p,fs.readFileSync(path.join(root,p),"utf8")]));
 const result=validateOverview(files,validate(files));
 console.log(JSON.stringify(result,null,2));
