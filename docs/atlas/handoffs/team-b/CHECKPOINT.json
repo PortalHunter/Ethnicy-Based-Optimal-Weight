@@ -6,39 +6,39 @@
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
   "validated_data_commit": null,
-  "batch": 33,
+  "batch": 34,
   "metrics": {
-    "organizations": 329,
-    "areas": 208,
-    "resources": 214,
-    "positive": 202,
-    "without_linked_source": 1534,
-    "targeted_no_source": 120,
-    "unresearched": 1414,
-    "provenance": 603,
-    "search_log": 343,
+    "organizations": 339,
+    "areas": 216,
+    "resources": 226,
+    "positive": 213,
+    "without_linked_source": 1523,
+    "targeted_no_source": 119,
+    "unresearched": 1404,
+    "provenance": 644,
+    "search_log": 363,
     "community": 7,
     "cross_border_edges": 2,
-    "issuer_country_unresolved": 7,
-    "issuer_country_differs_from_domicile": 13,
+    "issuer_country_unresolved": 9,
+    "issuer_country_differs_from_domicile": 19,
     "by_condition": {
-      "diabetes": 72,
-      "hypertension": 23,
+      "diabetes": 77,
+      "hypertension": 28,
       "high_chol": 23,
       "gout": 20,
       "lactose": 15,
-      "celiac": 31,
+      "celiac": 32,
       "hemochromatosis": 18
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 0,
-    "new_domiciled_areas": 0,
-    "resource_relationships": 0,
-    "source_positive_cells": 0,
-    "provenance_rows": 17,
-    "search_log_rows": 0,
+    "organization_identities": 10,
+    "new_domiciled_areas": 8,
+    "resource_relationships": 12,
+    "source_positive_cells": 11,
+    "provenance_rows": 41,
+    "search_log_rows": 20,
     "community_records": 0,
     "cross_border_edges": 0
   },
@@ -46,9 +46,9 @@
   "node_cli_run": true,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Use primary local-language academic and organization publications to extend Africa and Central Asia; preserve local affiliation, recruitment setting, original issuer and clinical scope separately.",
-    "Return to the seven unresolved source-country relationships. Prioritize original imprints or dated edition evidence, including Portuguese translations, Swedish brochure, Shefa presentations, Panama protocol and conflicting serial authorities for Rwanda.",
-    "Continue original publication-list and lifecycle checks, regional/Indigenous governance documentation and precise condition boundaries. See GAPS.md and the remaining area roster."
+    "Continue the remaining 32-area roster, prioritizing independent bodies or academic research in Comoros, Guinea-Bissau, Equatorial Guinea and Turkmenistan, then smaller territories and service arrangements. Check exact existing search logs first.",
+    "Broaden the least-covered streams: direct original-language resources for lactose, hereditary iron overload, clinical gout and FH. Mark serology, urate, ferritin and generic lipid measures precisely. Revisit older official directories and dated sources.",
+    "Resolve nine publication-country records where an original imprint or edition is unavailable or conflicting. Continue local professional governance and publication-list checks including Damascus, São Tomé, Djibouti, Chad and Tajikistan. Preserve the 14 diversity cases and all unresolved caveats in GAPS.md."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -77,18 +77,6 @@
       "area": "British Indian Ocean Territory"
     },
     {
-      "m49": "090",
-      "area": "Solomon Islands"
-    },
-    {
-      "m49": "140",
-      "area": "Central African Republic"
-    },
-    {
-      "m49": "148",
-      "area": "Chad"
-    },
-    {
       "m49": "162",
       "area": "Christmas Island"
     },
@@ -115,10 +103,6 @@
     {
       "m49": "260",
       "area": "French Southern Territories"
-    },
-    {
-      "m49": "262",
-      "area": "Djibouti"
     },
     {
       "m49": "296",
@@ -181,28 +165,12 @@
       "area": "Saint Pierre and Miquelon"
     },
     {
-      "m49": "678",
-      "area": "Sao Tome and Principe"
-    },
-    {
-      "m49": "728",
-      "area": "South Sudan"
-    },
-    {
       "m49": "732",
       "area": "Western Sahara"
     },
     {
       "m49": "744",
       "area": "Svalbard and Jan Mayen Islands"
-    },
-    {
-      "m49": "760",
-      "area": "Syrian Arab Republic"
-    },
-    {
-      "m49": "762",
-      "area": "Tajikistan"
     },
     {
       "m49": "772",
@@ -227,16 +195,16 @@
   ],
   "readback_validation": {
     "status": "pending_immutable_readback",
-    "last_verified_parent": "0bd62e5ad33b21e56f6b12a5fc4d2c459d912455"
+    "last_verified_parent": "6facc9e33263b26ca52b80948747d7e2a998c289"
   },
-  "previous_independently_verified_data_commit": "0bd62e5ad33b21e56f6b12a5fc4d2c459d912455",
+  "previous_independently_verified_data_commit": "6facc9e33263b26ca52b80948747d7e2a998c289",
   "session_additions": {
-    "organization_identities": 16,
-    "new_domiciled_areas": 7,
-    "resource_relationships": 22,
-    "source_positive_cells": 20,
-    "provenance_rows": 68,
-    "search_log_rows": 32,
+    "organization_identities": 26,
+    "new_domiciled_areas": 15,
+    "resource_relationships": 34,
+    "source_positive_cells": 31,
+    "provenance_rows": 109,
+    "search_log_rows": 52,
     "community_records": 2,
     "cross_border_edges": 0
   }

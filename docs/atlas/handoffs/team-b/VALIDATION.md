@@ -76,3 +76,8 @@ Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator wi
 ## Batch 33 · 2026-11-05
 
 Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors. Verified parent: `0bd62e5ad33b21e56f6b12a5fc4d2c459d912455`. Independent immutable readback follows the branch update. Re-ran all existing checks and targeted malformed search/reference and context cases, including URL swaps, a missing foreign-issuer evidence ID and a known country with an unresolved basis.
+
+
+## Batch 34 · 2026-11-05
+
+Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors. Verified parent: `6facc9e33263b26ca52b80948747d7e2a998c289`. Independent immutable readback follows the branch update. Checked original paper/author affiliation and selected methods or population descriptions, paired publisher references for cross-area sources, and re-ran the Node validator and six deliberate input perturbations. Verified all 18 prior handoff files at 6facc9e33263b26ca52b80948747d7e2a998c289.

@@ -1,4 +1,4 @@
-# Resume Team B · batch 33 · 2026-11-05
+# Resume Team B · batch 34 · 2026-11-05
 
 **INCOMPLETE.** Continue the assignment on `PortalHunter/Ethnicy-Based-Optimal-Weight`, branch `research/atlas-team-b-20261104`, [draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71). Verify the current PR head before using this snapshot. The original assignment, data contract and live GitHub files together are sufficient to resume.
 
@@ -14,26 +14,26 @@
 | Measure | Count |
 |---|---:|
 | UN M49 areas / unique area-condition cells | 248 / 1,736 |
-| Organizations / areas with a domiciled organization | 329 / 208 |
-| Areas without a verified domiciled organization | 40 |
-| Resource relationships / cells with a linked resource | 214 / 202 |
-| Cells without a linked resource | 1,534 |
-| Of those, cells with / without a logged targeted check | 120 / 1,414 |
-| Provenance records / targeted search checks | 603 / 343 |
+| Organizations / areas with a domiciled organization | 339 / 216 |
+| Areas without a verified domiciled organization | 32 |
+| Resource relationships / cells with a linked resource | 226 / 213 |
+| Cells without a linked resource | 1,523 |
+| Of those, cells with / without a logged targeted check | 119 / 1,404 |
+| Provenance records / targeted search checks | 644 / 363 |
 | Community records / cross-border service edges | 7 / 2 |
 | Approved clinical claims | 0 |
 
-diabetes 72 · hypertension 23 · high_chol 23 · gout 20 · lactose 15 · celiac 31 · hemochromatosis 18.
+diabetes 77 · hypertension 28 · high_chol 23 · gout 20 · lactose 15 · celiac 32 · hemochromatosis 18.
 
-All 214 publication contexts now match one exact organization/condition/URL and record organization domicile, issuer, publication-country basis, source attribution IDs, study population and healthcare jurisdiction separately. Thirteen relationships have a documented foreign issuer or journal country. Seven have an unresolved country and preserve the reason.
+Added ten university or biomedical research organizations across eight previously uncovered areas: Central African Republic, Chad, Djibouti, São Tomé and Príncipe, Solomon Islands, South Sudan, Syria and Tajikistan. Twelve relationships add sources in eleven area-condition cells. The study site, author affiliation, publisher and clinical scope are recorded separately.
 
-The original Greenland report names a Danish publisher; the Hong Kong gout consensus appeared in a German-published journal. Two library authorities disagree on the publication country of the Rwanda type 1 diabetes article. Its Rwandan study population and the country conflict are both explicit.
+Direct checks include a six-facility Bangui workforce study, a São Tomé district-level conference abstract, Solomon Islands hospital self-reports and a Raqqa pediatric celiac study distinguishing 14 positive screens from seven biopsy-confirmed cases. A Syrian student thesis has conflicting sample sizes (abstract 153, subtype table 253). The Chad crisis abstract has an inconsistent subgroup sum. Both discrepancies are retained without estimates.
 
 ## Remaining work, in priority order
 
-- Use primary local-language academic and organization publications to extend Africa and Central Asia; preserve local affiliation, recruitment setting, original issuer and clinical scope separately.
-- Return to the seven unresolved source-country relationships. Prioritize original imprints or dated edition evidence, including Portuguese translations, Swedish brochure, Shefa presentations, Panama protocol and conflicting serial authorities for Rwanda.
-- Continue original publication-list and lifecycle checks, regional/Indigenous governance documentation and precise condition boundaries. See GAPS.md and the remaining area roster.
+- Continue the remaining 32-area roster, prioritizing independent bodies or academic research in Comoros, Guinea-Bissau, Equatorial Guinea and Turkmenistan, then smaller territories and service arrangements. Check exact existing search logs first.
+- Broaden the least-covered streams: direct original-language resources for lactose, hereditary iron overload, clinical gout and FH. Mark serology, urate, ferritin and generic lipid measures precisely. Revisit older official directories and dated sources.
+- Resolve nine publication-country records where an original imprint or edition is unavailable or conflicting. Continue local professional governance and publication-list checks including Damascus, São Tomé, Djibouti, Chad and Tajikistan. Preserve the 14 diversity cases and all unresolved caveats in GAPS.md.
 
 ## Ownership and acceptance
 

@@ -208,3 +208,12 @@ All 214 publication contexts now match one exact organization/condition/URL and 
 The original Greenland report names a Danish publisher; the Hong Kong gout consensus appeared in a German-published journal. Two library authorities disagree on the publication country of the Rwanda type 1 diabetes article. Its Rwandan study population and the country conflict are both explicit.
 
 Added 17 source-attribution provenance records and retained all existing organization and research relationships. The exact-URL join now detects swapped resources for the same organization/condition. The validator permits an unknown source country only with an unresolved basis and checks independent country-tagged evidence for cross-area cases.
+
+
+## Batch 34 · 2026-11-05
+
+Added ten university or biomedical research organizations across eight previously uncovered areas: Central African Republic, Chad, Djibouti, São Tomé and Príncipe, Solomon Islands, South Sudan, Syria and Tajikistan. Twelve relationships add sources in eleven area-condition cells. The study site, author affiliation, publisher and clinical scope are recorded separately.
+
+Direct checks include a six-facility Bangui workforce study, a São Tomé district-level conference abstract, Solomon Islands hospital self-reports and a Raqqa pediatric celiac study distinguishing 14 positive screens from seven biopsy-confirmed cases. A Syrian student thesis has conflicting sample sizes (abstract 153, subtype table 253). The Chad crisis abstract has an inconsistent subgroup sum. Both discrepancies are retained without estimates.
+
+Ten institutional identities in eight new areas, twelve typed publication relationships and twenty targeted searches. Programme proposals, neighbouring countries’ data and multiple versions of the same article receive no independent findings credit.
