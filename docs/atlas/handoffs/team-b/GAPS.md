@@ -217,3 +217,22 @@ Nine identities/seven gout resources, no new geographic identity area. Argentina
 - Bhutan BKF own NGO identity and preventive programme verified; royal patronage not government identity. Screening mission not independent diabetes/hypertension publication; no resource cells credited. Dzongkha identity/materials still unverified.
 - Niger FORSANI WDF17-1561 partner and2018-2022 completed outputs verified. WDF publisher in Denmark,programme in Niger; source_country field here encodes organization/programme setting,not publisher domicile. Screening counts not population prevalence and registry output not proof of present operation. Own French source pending; SOS diabetique separate lead.
 - Macau IDF AADM directory identity only; Chinese registry association name not equated without original name bridge. No resource credit. Narrow Gabon searches still lack adequate primary diabetes identity; no absence conclusion.
+
+
+## Batch25 Portuguese source attribution
+
+- SPG2022 statutes verify nonprofit scientific association,1986 constitution and1960 predecessor section; SPGP own statutes identify autonomous society integrated in SPP,not automatically independent legal corporation. Keep SPG/SPGP/SPP distinct.
+- SPG hosts WGO Portuguese Dieta e intestino April2018,34pages;2023 URL path is not edition date. Lactase deficiency,malabsorption,symptomatic intolerance and milk allergy distinct. Broad ethnicity/geography and age assertions unappraised; no Portuguese-population study or all-Lusophone jurisdiction inferred.
+- SPGP hosts15-page Portuguese ESPGHAN2020 pediatric celiac diagnosis translation. Selected non-biopsy pathway and local translator annotation visible; translator identities,permission/fidelity and current supersession not fully audited. This flags blanket biopsy claims elsewhere for appraisal,not approval of a diagnostic pathway.2022 management document listed but not separately appraised.
+
+## Acceptance review at batch25
+
+| Original requirement | Verified state | Remaining work |
+|---|---|---|
+|248 M49 areas ×7 conditions,explicit gaps|Structurally satisfied,1736 unique cells|1560 cells lack linked sources; targeted discovery incomplete|
+|Source country,study population,healthcare jurisdiction separate|Separate fields exist|Many populations/jurisdictions explicit unknown; source-country setting versus foreign publisher must be normalized/audited,not inferred|
+|Disease subtypes distinct;no checkbox diagnosis|Safeguards retained;all research_lead_only|No clinical activation authorized; per-source appraisal remains separate|
+|Own websites/original-language guideline lists;questionable/renamed bodies flagged|Partially satisfied;new primary pages checked|Directory-only identities,site integrity,currency,translations,legal continuity and original-language gaps remain|
+|10+ broad-label boundary cases|Satisfied:14 documented examples|Community permissions and cohort specificity continue to apply|
+
+Completion is NOT established by counts,geographic skeleton or passing structural validation. No universal absence search,legal registry/WHO audit,full live-link crawl or clinical appraisal claimed.54 areas remain without a domiciled identity; cross-border Liechtenstein remit recorded without fabricated local domicile.

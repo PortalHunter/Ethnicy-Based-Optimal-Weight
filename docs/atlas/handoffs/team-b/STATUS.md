@@ -1,30 +1,21 @@
 # Team B status — 2026-11-05
 
-**INCOMPLETE — batch24 validated.** Zero clinical approvals.
+**INCOMPLETE — batch25 validated; original acceptance criteria not fully satisfied.**
 
-```json
-{
-  "organizations": 302,
-  "areas": 194,
-  "resources": 182,
-  "positive": 174,
-  "unresearched": 1562,
-  "provenance": 493,
-  "search_log": 278,
-  "community": 4,
-  "by_condition": {
-    "diabetes": 64,
-    "hypertension": 16,
-    "high_chol": 21,
-    "gout": 17,
-    "lactose": 13,
-    "celiac": 26,
-    "hemochromatosis": 17
-  },
-  "current_unsd_overview_codes": 248
-}
-```
+| Metric | Count |
+|---|---:|
+|M49 areas / area-condition cells|248 /1736|
+|Organization identities / domiciled areas|304 /194|
+|Resource relationships / source-positive cells|184 /176|
+|Cells without linked sources|1560|
+|Provenance / targeted search logs|497 /280|
+|Community-specific identities|4|
+|Clinical approvals|0|
 
-Session batches23–24:9 identities in5 new areas,7 source relationships,16 search rows.54 areas lack domiciled identities;1562 cells lack linked sources. All seven streams remain unfinished. Structural geography and14 broad-label boundary cases satisfied; comprehensive local-source discovery and own-site cross-check not complete. New GAPS sections record historical guideline,external-catalogue,source-country/publisher and type1 boundaries.
+Condition-positive cells: diabetes64,hypertension16,high_chol21,gout17,lactose14,celiac27,hemochromatosis17. Positive is discovery,not country completion or clinical validation.54 areas lack domiciled identities.
 
-Latest independently read-back batch23 commit19098e95ea86b1ee4fc1aa77ebcc7d391fd5f0c8 (17 exact files); resolve newer branch HEAD. Branch research/atlas-team-b-20261104; draftPR71 unmerged. Nine-CSV core+overview zero errors in orchestration JS,Node CLI not run. Live-link,legal/WHO/direct-UN-export audits and clinical appraisal not completed. No public website changes.
+Session batches23–25 added11 identities in5 new areas,9 resource relationships (all7 streams),20 provenance and18 search rows. New countries/areas: Reunion,Montenegro,Bhutan,Niger,Macao. Directory/mission/type1-only material does not fill type2 evidence gaps. Liechtenstein Swiss cross-border service scope logged without false local domicile. Portuguese translation versus original-issuer distinctions retained.
+
+Latest independently read-back substantive checkpoint before batch25: d627375974dce6aeea709f754c69595e0b308870 (17 exact file readbacks,9 CSVs zero errors). Resolve current research/atlas-team-b-20261104 HEAD for batch25/newer checkpoint. Draft PR71 stays unmerged. [CONTINUE.md](CONTINUE.md) is standalone handoff; [GAPS.md](GAPS.md) includes itemized acceptance review. Original-language own-publication checks and geographically comprehensive seven-stream discovery remain incomplete.
+
+Validation: committed validate.mjs core+overview in orchestration JS,zero errors after every batch; Node CLI not run. Retained UN snapshot,not newly verified UN data. Full-link,legal/WHO/direct-UN-export audits and clinical appraisal not completed. All resources research_lead_only. No website/main changes.

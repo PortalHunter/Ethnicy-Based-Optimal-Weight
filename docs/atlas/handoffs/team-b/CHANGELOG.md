@@ -144,3 +144,7 @@ Added3 own-site identities in2 new areas (Reunion,Montenegro),3 education links 
 ## 2026-11-05 — Batch24
 Added6 identities (Philippines,Chile,Colombia,Bhutan,Niger,Macao),3 new geographic identity areas,4 source relationships across gout,hypertension,lipids and diabetes;10 provenance/8 search rows. Nine-CSV core+overview zero errors. {"organizations":302,"areas":194,"resources":182,"positive":174,"unresearched":1562,"provenance":493,"search_log":278,"community":4,"by_condition":{"diabetes":64,"hypertension":16,"high_chol":21,"gout":17,"lactose":13,"celiac":26,"hemochromatosis":17},"current_unsd_overview_codes":248}
 Batch23 immutable SHA19098e95ea86b1ee4fc1aa77ebcc7d391fd5f0c8: all17 files matched readbacks.
+
+
+## 2026-11-05 — Batch25 and acceptance review
+Added2 Portuguese organization identities and2 external-guideline hosting relationships (lactose,celiac);4 provenance/2 search rows. Session batches23–25 add11 identities in5 newly represented areas,9 relationships,20 provenance and18 search rows. All seven streams have at least one newly indexed resource relationship; no clinical approvals. {"organizations":304,"areas":194,"resources":184,"positive":176,"unresearched":1560,"provenance":497,"search_log":280,"community":4,"by_condition":{"diabetes":64,"hypertension":16,"high_chol":21,"gout":17,"lactose":14,"celiac":27,"hemochromatosis":17},"current_unsd_overview_codes":248}. Nine-CSV core+overview zero errors. Batch24 immutable d627375974dce6aeea709f754c69595e0b308870:17 exact file readbacks and9 CSVs revalidated.

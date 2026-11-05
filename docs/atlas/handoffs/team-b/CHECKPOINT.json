@@ -5,41 +5,43 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "19098e95ea86b1ee4fc1aa77ebcc7d391fd5f0c8",
-  "batch": 24,
+  "validated_data_commit": "d627375974dce6aeea709f754c69595e0b308870",
+  "batch": 25,
   "metrics": {
-    "organizations": 302,
+    "organizations": 304,
     "areas": 194,
-    "resources": 182,
-    "positive": 174,
-    "unresearched": 1562,
-    "provenance": 493,
-    "search_log": 278,
+    "resources": 184,
+    "positive": 176,
+    "unresearched": 1560,
+    "provenance": 497,
+    "search_log": 280,
     "community": 4,
     "by_condition": {
       "diabetes": 64,
       "hypertension": 16,
       "high_chol": 21,
       "gout": 17,
-      "lactose": 13,
-      "celiac": 26,
+      "lactose": 14,
+      "celiac": 27,
       "hemochromatosis": 17
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 9,
+    "organization_identities": 11,
     "new_areas": 5,
-    "resource_relationships": 7
+    "resource_relationships": 9,
+    "provenance_rows": 20,
+    "search_log_rows": 18
   },
   "validation_runtime": "orchestration_javascript_core_plus_overview",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "59 areas without identities: see exact areas_without_identity list",
-    "Original-language publications for directory-only identities",
-    "Seven-condition diversification beyond diabetes",
-    "Historical Pacific association re-verification; registry continuity and source-quality gaps"
+    "54 areas without domiciled identity; exact list retained below",
+    "Original-language own publications for directory-only identities across all seven streams",
+    "Normalize cross-border serves versus based-in and foreign publisher versus source/programme country with explicit provenance",
+    "Resolve GAPS source-integrity/currency/translation/legal continuity questions; never call unknown absent"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -52,7 +54,7 @@
     "data/subnational_and_indigenous_organizations.csv",
     "data/search_log.csv"
   ],
-  "validated_data_commit_note": "Starting immutable checkpoint revalidated this session; batch23 commit SHA must be resolved from live branch then independently read back.",
+  "validated_data_commit_note": "Last immutable checkpoint already read back before batch25; resolve latest branch and verify batch25 commit.",
   "areas_without_identity": [
     {
       "m49": "010",
