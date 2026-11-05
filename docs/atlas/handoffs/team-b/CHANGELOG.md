@@ -1,6 +1,13 @@
 # Team B changelog
 
 
+## 2026-11-05 — Batch 38: Morocco, Indonesia and Thailand gout society sources
+
+- Added Société Marocaine de Rhumatologie (504) with 2019 RMR gout recommendations; Perhimpunan Reumatologi Indonesia / IRA (360) with 2026 IJR recommendations on hyperuricaemia and gouty arthritis (distinct from Indian IRA).
+- Added 2026 Thai Rheumatism Association gout/hyperuricemia guideline PDF (RCPT-endorsed) as a second TRA gout URL alongside the older patient-education page.
+- Preserved asymptomatic hyperuricaemia vs clinical gout boundaries. Node validate.mjs: 0 errors.
+
+
 ## 2026-11-05 — Batch 37: missing-area triage, Añisok final PLoS, issuer resolutions
 
 - Added 3 domiciled identities in previously empty areas: Diabète SPM (666), Association Futunienne des Diabétiques / RNA W9F1000194 (876), Primary Care Caribbean (535).
