@@ -9,3 +9,8 @@
 - Recent changes requiring gazette/second-check: Albania, Antigua and Barbuda, Austria, Armenia, Burundi, Cabo Verde, Sri Lanka, Dominican Republic; Afghan and Belgian original-script names pending. Subordinate agencies in Germany, Andorra and Botswana require own statutory source.
 
 WHO country office is not a domestic agency. Statistical geography is not ancestry, ethnicity or genotype. No clinical medical guidance or patient data.
+
+
+## Full M49 reconciliation checkpoint — 2026-11-05
+
+All 248 country-or-area rows were independently extracted from the official English UNSD overview table and compared for M49 key, ISO-alpha2, ISO-alpha3, name, region and subregion. **248/248 compared; zero pending geographic comparisons.** Corrected 238 to Falkland Islands (Malvinas) in countries and coverage. See `M49_OFFICIAL_SNAPSHOT_20261105.csv` and `M49_CORRECTIONS_20261105.csv`; the earlier 21-row ledger is historical. All earlier pending-reconciliation counts above are superseded. Authority coverage remains 54 identified / 194 unknown; 81 bodies / 19 relationships / 79 provenance rows. No institutional or clinical approval follows from geography.

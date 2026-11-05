@@ -14,3 +14,8 @@ Research branch `research/atlas-team-a-20261104`, existing draft PR https://gith
 ## Next priorities
 
 Finish **227** official UN individual-row checks and research **194** unresolved principal health authorities, beginning ascending M49 070 Bosnia and Herzegovina, 074 Bouvet Island, 104 Myanmar, 112 Belarus, 140 Central African Republic, 148 Chad, 162 Christmas Island, 166 Cocos (Keeling) Islands, 174 Comoros, 175 Mayotte, 192 Cuba. Two independent legal/government sources for renames, disputed and delegated territories. Add ministries, institutes, regulators, surveillance and statistics separately. Run offline validator and commit to same branch; no clinical app changes.
+
+
+## Full M49 reconciliation checkpoint — 2026-11-05
+
+All 248 country-or-area rows were independently extracted from the official English UNSD overview table and compared for M49 key, ISO-alpha2, ISO-alpha3, name, region and subregion. **248/248 compared; zero pending geographic comparisons.** Corrected 238 to Falkland Islands (Malvinas) in countries and coverage. See `M49_OFFICIAL_SNAPSHOT_20261105.csv` and `M49_CORRECTIONS_20261105.csv`; the earlier 21-row ledger is historical. All earlier pending-reconciliation counts above are superseded. Authority coverage remains 54 identified / 194 unknown; 81 bodies / 19 relationships / 79 provenance rows. No institutional or clinical approval follows from geography.

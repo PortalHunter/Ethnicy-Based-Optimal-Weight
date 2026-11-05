@@ -15,3 +15,8 @@ Committed handoff at `docs/atlas/handoffs/team-a/`:
 Official UN M49: https://unstats.un.org/unsd/methodology/m49/overview/. The initial 248-area geography skeleton used a community transcription: equal count is not official verification of each row. Require official original-language government mandate sources. Distinguish provisional authority from legal verification, and require two sources for disputed, delegated and changed portfolios. No inferred parent-area M49 links; avoid WHO field-office substitutions. Geography is not ancestry, ethnicity, genotype or sovereignty.
 
 Resume by retrieving latest existing branch HEAD, reading all handoff files and PR, researching batches of about 20–40 M49 identities, updating all datasets and provenance, performing official UN row checks, executing `python docs/atlas/handoffs/team-a/validate.py` when environment permits, committing to the same branch/PR and leaving full recurring prompt. Never modify main or clinical application, nor merge draft PR without authorization.
+
+
+## Full M49 reconciliation checkpoint — 2026-11-05
+
+All 248 country-or-area rows were independently extracted from the official English UNSD overview table and compared for M49 key, ISO-alpha2, ISO-alpha3, name, region and subregion. **248/248 compared; zero pending geographic comparisons.** Corrected 238 to Falkland Islands (Malvinas) in countries and coverage. See `M49_OFFICIAL_SNAPSHOT_20261105.csv` and `M49_CORRECTIONS_20261105.csv`; the earlier 21-row ledger is historical. All earlier pending-reconciliation counts above are superseded. Authority coverage remains 54 identified / 194 unknown; 81 bodies / 19 relationships / 79 provenance rows. No institutional or clinical approval follows from geography.

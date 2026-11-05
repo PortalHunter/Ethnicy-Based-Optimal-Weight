@@ -29,6 +29,13 @@ def load(name):
 
 def verify():
     countries = load("data/countries.csv")
+    official = load("M49_OFFICIAL_SNAPSHOT_20261105.csv")
+    assert len(official) == 248 and len({r["m49_code"] for r in official}) == 248
+    om = {r["m49_code"]: r for r in official}
+    assert set(om) == {r["m49_code"] for r in countries}
+    for row in countries:
+        for field in ("iso_alpha2", "iso_alpha3", "un_name", "un_region", "un_subregion"):
+            assert row[field] == om[row["m49_code"]][field], f"Official M49 mismatch {row['m49_code']} {field}"
     bodies = load("data/government_health_bodies.csv")
     relations = load("data/authority_relationships.csv")
     coverage = load("data/country_coverage.csv")
@@ -109,14 +116,14 @@ def verify():
         "American Samoa parent-country relationship requires independent legal corroboration")
     assert country_map["535"]["health_authority_resolution"] == "UNKNOWN_REVIEW_NEEDED", (
         "Caribbean Netherlands requires special-jurisdiction study")
-    print("PASS: 248 distinct M49 country-or-area skeletons (staged; row-level official comparison pending)")
+    print("PASS: 248 distinct M49 country-or-area rows match dated official snapshot")
     print(f"PASS: {verified} government ministry/department identities located; "
           f"{len(countries)-verified} explicitly unresearched")
     print(f"PASS: {len(bodies)} separately identified government health bodies; "
           f"{len(relations)} sourced relationships")
     print(f"PASS: {len(coverage)} coverage records; {len(provenance)} provenance rows")
     print("PASS: region totals, reference integrity, source fields and complex-jurisdiction sentinels")
-    print("LIMITATION: Integrity tests do NOT certify institutional mandates or complete UN row fidelity")
+    print("LIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date")
 
 if __name__ == "__main__":
     try:
