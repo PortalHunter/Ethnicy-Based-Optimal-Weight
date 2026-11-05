@@ -1,0 +1,17 @@
+from_id,to_id,relationship_type,country_area_m49,organization_id,valid_from,valid_to,as_of,source_url,verification_state,notes
+WHO_AFRO,WHO,regional_office_of,,,,,2026-11-04,https://www.who.int/about/who-we-are/regional-offices,VERIFIED_PRIMARY,Administrative WHO regional office; not equivalent to UN M49 subregion
+WHO_AMRO,WHO,regional_office_of,,,,,2026-11-04,https://www.who.int/about/who-we-are/regional-offices,VERIFIED_PRIMARY,Administrative WHO regional office; not equivalent to UN M49 subregion
+WHO_EMRO,WHO,regional_office_of,,,,,2026-11-04,https://www.who.int/about/who-we-are/regional-offices,VERIFIED_PRIMARY,Administrative WHO regional office; not equivalent to UN M49 subregion
+WHO_EURO,WHO,regional_office_of,,,,,2026-11-04,https://www.who.int/about/who-we-are/regional-offices,VERIFIED_PRIMARY,Administrative WHO regional office; not equivalent to UN M49 subregion
+WHO_SEARO,WHO,regional_office_of,,,,,2026-11-04,https://www.who.int/about/who-we-are/regional-offices,VERIFIED_PRIMARY,Administrative WHO regional office; not equivalent to UN M49 subregion
+WHO_WPRO,WHO,regional_office_of,,,,,2026-11-04,https://www.who.int/about/who-we-are/regional-offices,VERIFIED_PRIMARY,Administrative WHO regional office; not equivalent to UN M49 subregion
+PAHO,WHO_AMRO,serves_as,,,1949,,2026-11-04,https://www.paho.org/en/who-we-are,VERIFIED_PRIMARY,PAHO is the Americas WHO regional office; separate Inter-American agency role
+PAHO,INTER_AMERICAN,specialized_health_agency_of,,,,,2026-11-04,https://www.paho.org/en/who-we-are,VERIFIED_PRIMARY,PAHO dual institutional role; no automatic national guideline adoption
+AFRICA_CDC,AU,agency_of,,,2017-01,,2026-11-04,https://africacdc.org/about-us/,VERIFIED_PRIMARY,Africa CDC supports AU Member States; does not legislate for them
+EMA,EMRN,coordinates_regulatory_network,,,,,2026-11-04,https://www.ema.europa.eu/en/about-us/how-we-work/european-medicines-regulatory-network,VERIFIED_PRIMARY,Network involves national competent medicines authorities
+EC,EMRN,participates_in,,,,,2026-11-04,https://www.ema.europa.eu/en/about-us/how-we-work/european-medicines-regulatory-network,VERIFIED_PRIMARY,Commission takes specified binding EU authorization decisions after EMA scientific advice
+m49:360,WHO_SEARO,WHO_region,360,,,2025-05-22,2026-11-04,https://www.who.int/southeastasia/about/history,VERIFIED_PRIMARY,Historical assignment; exact original effective date not established
+m49:360,WHO_WPRO,WHO_region,360,,2025-05-23,,2026-11-04,https://www.who.int/southeastasia/about/history,VERIFIED_PRIMARY,WHO reassignment; UN M49 remains South-eastern Asia
+m49:012,WHO_AFRO,WHO_region,012,,,,2026-11-04,https://www.who.int/data/gho/data/countries/country-details/GHO/algeria?countryProfileId=d4fe1e31-462d-4859-b76e-dd550a5d7cbf,VERIFIED_PRIMARY,Algeria UN Northern Africa but WHO AFRO
+m49:626,ASEAN,member_of,626,,2025-10-26,,2026-11-04,https://asean.org/forging-a-new-era-timor-leste-admitted-into-asean/,VERIFIED_PRIMARY,Timor-Leste becomes eleventh ASEAN Member State
+m49:360,ASEAN,member_of,360,,1967-08-08,,2026-11-04,https://asean.org/about-asean,VERIFIED_PRIMARY,Founding ASEAN Member State
