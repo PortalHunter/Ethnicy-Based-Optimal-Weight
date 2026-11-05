@@ -1,0 +1,7 @@
+# Research gaps — 2026-11-04
+
+1. All M49 country/area-specific journal searches and seven-condition searches are pending. Missing data are not evidence of no locally published research.
+2. IMSEAR independently hosted current selection criteria and the current SciELO member roster need recheck; GIM explicitly indexes IMSEAR.
+3. Some LILACS pathways may require BVS search; directly checked LILACS English landing path did not consistently render in search view, but official PAHO operator description is available.
+4. Journal ISSN, publisher identities, explicit peer review, ethics and corrections policies have not been validated in this initial platform-only batch.
+5. Article candidates must be screened for study design, populations and original document access; classification is not evidence grading.

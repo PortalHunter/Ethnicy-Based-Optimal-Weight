@@ -1,0 +1,9 @@
+search_id,area_or_region,query,language,search_engine_or_index,searched_date,relevant_result_identified,notes
+"S001","global","Global Index Medicus regional indexes AIM IMEMR IMSEAR WPRIM LILACS","en","web_search","2026-11-04","yes","Identified WHO GIM portal; platform-discovery only."
+"S002","Africa","African Index Medicus WHO AFRO journal indexing","en","web_search","2026-11-04","yes","Found official AIM live site and about page."
+"S003","Eastern Mediterranean","Index Medicus for Eastern Mediterranean region selection languages","en","web_search","2026-11-04","yes","Found WHO IMEMR policy page."
+"S004","Western Pacific","WPRIM selection criteria August 2026","en","web_search","2026-11-04","yes","Found live WPRIM index policy."
+"S005","Americas","LILACS PAHO BIREME indexed literature","en","web_search","2026-11-04","yes","Found official PAHO LILACS description."
+"S006","Africa","AJOL local African scholarly journals criteria","en","web_search","2026-11-04","yes","Found AJOL criteria and explanation that AJOL is not the publisher."
+"S007","global","DOAJ quality criteria peer review ISSN editorial board","en","web_search","2026-11-04","yes","Found DOAJ application criteria."
+"S008","Japan","J-STAGE JST medical journals platform","en","web_search","2026-11-04","yes","Found current JST platform overview."
