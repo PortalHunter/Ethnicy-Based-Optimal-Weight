@@ -1,3 +1,11 @@
+## 2026-11-05 — Team A Batch 20 four additional official government authority identities
+
+- **Immutable independently audited data commit `f0069dc868ba619302343c651161ca032c63d110`** adds four principals: **686 Senegal `gov-686-001`**, **688 Serbia `gov-688-001`**, **690 Seychelles `gov-690-001`**, **694 Sierra Leone `gov-694-001`**, plus distinct Seychelles public health body `gov-690-002` and **one limited ministry component-listing-only same-area relation**. Appended **13** provenance checks recording independently issuing sources and historical/current conflicts. Changed exactly five normalized Team A CSV files; pre-existing records untouched.
+- Now **248** exact official M49 geographies, **132** identities found / **116** unknown (not nonexistent), **185** bodies, **42** cited internal edges, **288** provenance sources, **248** ledgers, **0** speculative cross-M49 parents. Source limitations: Senegal same presidential Decree 1130 mirrored on different websites vs unresolved service law; Serbia provincial/contested effective scope; Seychelles future dated Dec1 2026 personnel entry and conflicting care-agency vs department; Sierra Leone historic *Health and Sanitation* on DHSE. Identity != audited contemporary legal mandate.
+- Independent exact-SHA six-file geography/body/relationship/provenance mirror audit **PASS** with **40** sensitive area controls; Python `validate.py` **NOT RUN** due local GitHub DNS. [Complete standalone Batch 20 recovery](CHECKPOINT_20261105_BATCH20.md). Only Team A handoff folder; PR remains DRAFT/unmerged; website/clinical outputs untouched.
+
+---
+
 ## 2026-11-05 — Team A Batch 19 source-backed governmental identity additions
 
 - Independently read-back/structurally audited DATA SHA **`0d7c71823fd4ad552cce2a77122f197f545b4ec0`**: three new principals **662 Saint Lucia** `gov-662-001`, **674 San Marino** `gov-674-001`, **682 Saudi Arabia** `gov-682-001`; two additional distinct bodies **Saint Lucia Bureau of Health** internal department `gov-662-002` and **San Marino ISS** autonomous public institution `gov-674-002`; one limited `gov-662-001` → `gov-662-002` official department-listing relation; **9** separate provenance records including explicit site timeout/HTTP403.
