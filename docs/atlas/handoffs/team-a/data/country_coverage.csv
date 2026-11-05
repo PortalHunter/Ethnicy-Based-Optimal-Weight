@@ -98,8 +98,8 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 336,Holy See,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 340,Honduras,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Own ministry mission and independently hosted state transparency portal organigram updated October 2026 corroborate institution. Secretariat also referred to as Secretaría de Salud; detailed law and regional structure not fully appraised.
 344,"China, Hong Kong Special Administrative Region",Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
-348,Hungary,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-352,Iceland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+348,Hungary,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,2026_MINISTRY_REORGANIZATION_LEGAL_EFFECTIVE_DATE_PENDING,2026-11-05,Current 2026 government page expressly names separate Egészségügyi Minisztérium and minister; dated October 2026 draft public-health/pharmaceutical agency restructuring corroborates ministry identity but is NOT enacted legislation. Previous Interior Ministry portfolio is historical; transition decree and effective date pending.
+352,Iceland,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,PRESIDENTIAL_PORTFOLIO_DECREE_REVIEW_PENDING,2026-11-05,Ministry's own Icelandic remit and Ísland.is government service directory agree identity. Ministry itself points to presidential allocation instrument; that current instrument and attached directorate statutes require separate legal review.
 356,India,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,FEDERAL_STATE_UT_COMPETENCE_PENDING,2026-11-05,Official government directory identifies two constituent departments. Directorate General of Health Services separately identifies itself as ministry-attached; allocation-of-business rules and state constitutional authority need detailed validation.
 360,Indonesia,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,"Own mission cites Presidential Regulation 161/2024 and Ministry Regulation 21/2024; 2026 ministry legal database lists effective ministerial decision HK.01.07/Menkes/155/2026, but internal regional powers not fully parsed."
 364,Iran (Islamic Republic of),Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -111,16 +111,16 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 388,Jamaica,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Prime Minister ministry directory and October 2026 health ministry statement corroborate; regional health authorities not conflated.
 392,Japan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
 398,Kazakhstan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Own Kazakh-language government agency remit and English-language official government organizational chart agree on ministry identity; legal subsidiary and regional functions remain pending.
-400,Jordan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+400,Jordan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,HIGHER_HEALTH_COUNCIL_AND_PUBLIC_HEALTH_LAW_SCOPE_PENDING,2026-11-05,Arabic official 2026 organizational/operations guidance and ministry English portal confirm agency. Public Health Law exact consolidated articles and Higher Health Council's statutory authority need direct legal appraisal.
 404,Kenya,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_REVIEW_PENDING,SPECIAL_JURISDICTION_OR_DEVOLUTION_REVIEW_PENDING,2026-11-05,Government ministry site has November 2026 updates and identifies two state departments; does not establish sole county health powers; internal departments recorded separately.
 408,Democratic People's Republic of Korea,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-410,Republic of Korea,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+410,Republic of Korea,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,AFFILIATED_HEALTH_AGENCIES_AND_LAW_PENDING,2026-11-05,Own official English institutional chart and Korean 14 August 2026 ministry division listing corroborate identity and broad functions. Detailed disease surveillance and associated statutory agency duties still unreviewed; does not speak to DPR Korea.
 414,Kuwait,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 417,Kyrgyzstan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 418,Lao People's Democratic Republic,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 422,Lebanon,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 426,Lesotho,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-428,Latvia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+428,Latvia,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,STATUTORY_AGENCIES_AND_REGIONAL_COMPETENCE_PENDING,2026-11-05,Government ministry mission plus about-page updated 19 Aug 2026 confirm ongoing identity. Formation history states 1 Feb 2003 separation from Welfare Ministry; current health agency structure and exact statutory division not certified.
 430,Liberia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 434,Libya,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 438,Liechtenstein,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
