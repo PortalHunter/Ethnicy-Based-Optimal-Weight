@@ -103,3 +103,15 @@ These examples flag *metadata and study-transportability errors* to check; they 
 - Nepal DEAN and Nepal Diabetes Association retained separately. DEAN hosts named members' article list, not sole society authorship. Bhutan narrow association query returned studies without a verified in-scope society; not a comprehensive negative search.
 - Maldives listed dsmaldives.org inaccessible; unlinked staging-looking dsm.vortxlab.com and conflicting IDF-join years not used to establish first-party identity. Native-script legal association names remain unverified where English directory identity is retained.
 - Bangladesh catalogue lists dietary guidelines without verified underlying date/full text. Myanmar public article index includes Burmese content, not all articles fully read. Sri Lankan investigator summary describes young urban volunteers and a funded KCL collaboration, not country-wide or ancestry-specific effects; full trial methods/registration appraisal pending.
+
+## Batch 10 — sparse-condition evidence boundaries
+
+- Hemochromatosis patient education remains discovery only. Genotype carriage, penetrance, ferritin, transfusional/secondary overload and hereditary iron overload are distinct; no clinical thresholds/treatments or ancestry risks approved.
+- French FFH documents merger of regional FFAMH associations in 2021; do not duplicate former members as independent current issuers. Brazilian GBH hosted on UNIFESP federal university domain; independence/governance unresolved, not a government authority census record.
+- Portugal APH homepage contains unrelated external followreference.info link; not followed. Resource page official-source corroborated, site integrity/governance require audit.
+- Sweden explicitly distinguishes genetic susceptibility tests from current lactose symptoms; Swiss English patient page implies genetic test can confirm intolerance. This cross-source wording discrepancy requires phenotype-specific appraisal, not a new clinical recommendation. Netherlands source addresses celiac-associated intolerance separately.
+- Malaysia MSR own-site and PDF 502; old Ministry PDF404; new Ministry /images/04-penerbitan/ path retrieved. Issued2021 MaHTAS-owned guidance lists MSR as distribution website, no sole MSR authorship assigned. Current supersession pending.
+- Japan third edition 2018, supplement2022 and multiple errata must be reconciled before reuse; no copyrighted text copied. Asymptomatic hyperuricaemia not gout.
+- Hong Kong consensus 2023 corporate-author metadata/Delphi description checked, not full-methods appraisal; publication country Germany not healthcare jurisdiction. Thai patient page historic/undated revision; no dosing/diet advice imported.
+- Singapore society explicitly says members research individually but society does not itself conduct trials. 2023 gout lecture listing indexed as specialist_research_only, not national guideline or full lecture transcript.
+- Latest117 positive cells do not mean117 clinical claims or complete national research. Global seven-stream discovery still incomplete.

@@ -41,3 +41,9 @@ validate.mjs core evaluated in orchestration runtime against all eight CSV table
 **UNSD roster check completed at current rendered-table level:** exact 248-code set, zero missing/extra codes. data/m49_verified_overview.csv saves the English official table's names/ISO/geographic fields. This is an independently extracted rendered-table snapshot, not a direct downloadable-export diff or WHO/jurisdiction audit. Old pending code-set statements are superseded at this level.
 
 Batch 8 saved/read back: 1ad107d58d5017a0225a2180123232b25a385237. Latest checkpoint is commit containing this section. validate.mjs core checked all nine CSVs with zero errors; Node CLI not separately executed. Continue until original scope completed; still 157 areas without organization identities and 1641 condition cells without resources. Full global research remains incomplete.
+
+## Latest: Batch 10 — 2026-11-05
+
+**152 organizations/93 areas, 123 resources, 117 positive cells, 1619 unresearched, 278 provenance, 64 logged searches.** Three community-specific records and zero clinical approvals retained. Added 20 identities and 22 resource relationships, especially 13 new iron-overload country sources, five gout resources and three lactose cells. Current positives: {"diabetes":46,"hypertension":12,"high_chol":6,"gout":9,"lactose":5,"celiac":23,"hemochromatosis":16}.
+
+Independent current UNSD rendered overview code-set check remains passed. Batch 9 saved/read back at f1af53ee2d44347fee639063dad7c404be231c81. Latest SHA is commit containing this section. Nine-CSV validator core zero failures. Global discovery remains incomplete: 155 areas lack an organization identity, and 1619 condition cells lack linked resources; several identity rows are provisional. Continue current mandate until completed or execution limits require another durable checkpoint.

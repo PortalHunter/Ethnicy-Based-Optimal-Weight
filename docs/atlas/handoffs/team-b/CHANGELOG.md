@@ -63,3 +63,10 @@
 - Rejected unsupported Eswatini project partner attribution; separated Kinshasa DRC from Republic of Congo; preserved two Nepal bodies, Maldives site uncertainty and Botswana launch-date disagreement.
 - Independently extracted all 248 English UNSD overview rows; exact code-set equality to retained roster, zero missing/extra/duplicates. Added normalized source snapshot and validator assertion; updated roster check state without claiming direct export verification.
 - Nine-CSV structural validator core: zero failures; totals 132 identities/91 areas/101 resources/95 positive/1641 unresearched/236 provenance/42 searches.
+
+## 2026-11-05 — Batch 10: iron overload, gout and lactose
+
+- Added 20 national-body identities, 22 source relationships, 22 positive cells, 22 targeted-search entries. Linked thirteen iron-overload resources, five gout sources, Swiss/Swedish/Dutch lactose resources and Swedish celiac school education.
+- Distinguished Brazil university-hosted group governance, French 2021 FFAMH merger, national patient education vs clinical guideline; rejected genotype/ancestry as clinical penetrance.
+- Located current Malaysian Ministry PDF after old404 and society502; MaHTAS publisher/copyright and MSR listed distribution-host role preserved. Japanese third-edition supplement/errata noted with copyright limits. Hong Kong Delphi consensus not primary trial; Singapore lecture listing not guideline or society-conducted trial.
+- Validation core zero errors: 152 identities/93 areas/123 resources/117 positive/1619 unresearched/278 provenance/64 searches. Batch9 fourteen-file immutable readbacks matched.
