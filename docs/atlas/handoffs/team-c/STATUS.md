@@ -1,14 +1,15 @@
 # Status — Team C (2026-11-04)
 
-**Work state:** Initial durable batch committed; source discovery continuing. No medical-content deployment or appraisal approval.
+**Work state:** Two durable research batches on dedicated draft PR. Unsearched ≠ no local research.
 
-| Data element | Initial batch count | State |
+| Data element | Exact count | State |
 |---|---:|---|
-| Regional/global index platform records | 10 | Operator/platform source checked; some subfields explicitly pending |
-| Confirmed individual journals | 0 | Pending per-journal validation |
+| Regional/global index platform records | 10 | Provider/portal URLs checked; some subfields pending |
+| UN M49 standard-list area baseline | 248 | Derived 249 ISO-code file minus TWN (158); fieldwise UNSD reconciliation pending |
+| Area × condition queue rows | 1736 | **All `not_searched`**, no country-level scientific claims |
+| Confirmed individual journals | 0 | Pending per-journal checks |
 | Journal–index relationships | 0 | Pending membership checks |
-| Article candidates | 0 | Pending article-level source discovery |
-| Exact executed search queries | 8 | English platform discovery, not journal/condition searches |
-| M49 area-condition coverage rows | 0 | Pending canonical geography import |
+| Article candidates | 0 | Pending exact paper discovery |
+| Actually executed platform discovery queries | 8 | English; regional-index finding only |
 
-**Next:** populate the complete dated UN M49 baseline, search original-language journal records, collect article candidates, identify >15 representative discoveries, and record >10 concrete English-only/prestige-filter exclusion cases. All coverage counts must track *searched* separately from *pending*.
+**Next:** independently verify individual original-language journal identities and archive/ethics links; log actual local-language searches and exact article sources; audit exclusions and geographic gaps. Do not merge or use in clinical advice.

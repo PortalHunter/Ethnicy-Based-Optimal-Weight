@@ -5,3 +5,6 @@
 3. Some LILACS pathways may require BVS search; directly checked LILACS English landing path did not consistently render in search view, but official PAHO operator description is available.
 4. Journal ISSN, publisher identities, explicit peer review, ethics and corrections policies have not been validated in this initial platform-only batch.
 5. Article candidates must be screened for study design, populations and original document access; classification is not evidence grading.
+
+6. The M49 country-name and region fields are from a community-maintained ISO/M49-coded table, with a primary official UNSD code reference. A full field-by-field UN synchronization and local jurisdiction review remains pending. The ISO data include Taiwan numeric 158, excluded from the 248 standard UN listing as explained in UNSD FAQ; do not assume absence of Taiwanese research.
+7. Area×condition entries currently all indicate `not_searched`; do not interpret a zero identified-paper count as a confirmed search negative.
