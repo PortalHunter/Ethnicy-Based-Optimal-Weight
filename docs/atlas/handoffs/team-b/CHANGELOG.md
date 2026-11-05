@@ -92,3 +92,7 @@ Added7 specialist/patient identities and8 lactose source relationships across8 a
 
 ## Batch 15 — 2026-11-05
 Added20 organization identities in18 newly covered M49 areas and6 resource relationships (Lebanon,Pakistan,Tunisia,Saudi Arabia,Qatar diabetes and lipids). Fourteen identities remain directory-led; Oman own-site identity only. Regulatory supervision, foundation membership, hosting,publishing and guideline coordination distinguished. Totals: {"organizations":217,"areas":137,"resources":155,"positive":149,"unresearched":1587,"provenance":376,"search_log":149,"community":3,"by_condition":{"diabetes":54,"hypertension":14,"high_chol":20,"gout":9,"lactose":13,"celiac":23,"hemochromatosis":16},"current_unsd_overview_codes":248}. Zero structural errors.
+
+
+## Batch 16 — 2026-11-05
+Added9 rheumatology/patient identities and7 gout resources in7 areas; India/Mexico identity-only. Argentine page CPPD/gout mixture explicitly flagged; Chile2007 archive specialist-only; funding/currency/ancestry issues retained. Totals: {"organizations":226,"areas":137,"resources":162,"positive":156,"unresearched":1580,"provenance":392,"search_log":158,"community":3,"by_condition":{"diabetes":54,"hypertension":14,"high_chol":20,"gout":16,"lactose":13,"celiac":23,"hemochromatosis":16},"current_unsd_overview_codes":248}. Zero structural errors.
