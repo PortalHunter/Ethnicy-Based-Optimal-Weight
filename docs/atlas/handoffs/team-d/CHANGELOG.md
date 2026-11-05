@@ -1,3 +1,9 @@
+## 2026-11-05 — Batch 17 machine-tag spelling correction and rerun
+
+Corrected 13 source-layer values and one validator assertion from `COVERED_BY_BARBDOS_WHO_MCO_2019` to `COVERED_BY_BARBADOS_WHO_MCO_2019` and aligned standalone checkpoint, commit `95b8bd50759c95f39c4b4c5dd530dda2dc840e71`. Full checked-in validator **PASS again** with 28 GitHub-derived CSVs and provenance (150) via read-only JS shim; no changes to nodes 47, edges 616, current region 205/44 or historical counts 13/14. Native Node and CI still pending.
+
+---
+
 **Full structural regression executed and PASS:** checked-in `validate.mjs` against all 28 GitHub-derived Team D CSVs plus provenance in isolated JS with read-only shims, including new 13/14 assertions; no native Node CLI or CI claim. [Batch 17 standalone checkpoint](CHECKPOINT_BATCH_17_2026-11-05.md).
 
 ## 2026-11-05 — Batch 17: WHO 2019 Eastern Caribbean coverage and 2021 historical SIDS region heading

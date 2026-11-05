@@ -1,5 +1,9 @@
 # Team D standalone checkpoint — Batch 17 — 2026-11-05
 
+## Post-checkpoint integrity correction — 2026-11-05
+
+After the Batch 17 checkpoint was first committed, a machine-readable relationship label typo was fixed in the 2019 ECC CSV, the validator, and this handoff (`BARBDOS` → `BARBADOS`), commit **`95b8bd50759c95f39c4b4c5dd530dda2dc840e71`**. The **complete checked-in structural validator was re-executed and passed** at that corrected commit against **28 CSVs and 150 provenance URLs** using live GitHub source patches and two directly fetched large CSVs in a read-only JavaScript shim. All source evidence, graph counts, 205/44 current-region statuses, 13 historical SIDS rows and 14 historical ECC rows are unchanged. This is not native Node/Actions. **Refetch live branch head after this documentation-only update.**
+
 ## Repository authority and strict permissions
 
 - Repository: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight

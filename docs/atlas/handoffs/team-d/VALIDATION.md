@@ -1,5 +1,7 @@
 ## Batch 17 full checked-in validator — 2026-11-05
 
+**Corrected post-checkpoint validator SHA `95b8bd50759c95f39c4b4c5dd530dda2dc840e71` also PASS**, including spelling-correct historic ECC tag, with all 28 CSVs and 150 provenance rows from the latest GitHub patch and two oversized direct CSV downloads in the same read-only shim; *not native Node/CI*. Earlier Batch 17 data commit remains `d239c2f7398fed62ee526eded2c9b800371d4869`.
+
 **PASS** at data/validator SHA `d239c2f7398fed62ee526eded2c9b800371d4869`. Entire checked-in `validate.mjs` executed in isolated JavaScript with read-only `fs.readFileSync` and assertion shims. Inputs: **28 GitHub-derived CSVs** (26 reconstructed intact from PR #70 additive patches; two oversized `m49_network_status.csv` and `network_memberships.csv` fetched directly by GitHub connector), plus `PROVENANCE.csv`; validator source also from live GitHub PR patch. Result: 47 nodes, 616 edges, 20 condition refs, 249 status rows, 205 source-verified WHO regions, 44 not_verified, 105 April 2026 positive office hosts, 153 office-survey rows, 228 strictly historical 2021–22 service rows, 150 unique provenance URLs, 13 historical SIDS AMRO heading records, 14 WHO 2019 ECC host/coverage records; all old and new assertions passed. This is **not** native Node CLI or GitHub Actions; legal/clinical appraisal unperformed. Both additional WHO source PDFs' indexed/extracted text was reviewed but page-image screenshot fetch returned 403. See [full standalone Batch 17 checkpoint](CHECKPOINT_BATCH_17_2026-11-05.md).
 
 ---
