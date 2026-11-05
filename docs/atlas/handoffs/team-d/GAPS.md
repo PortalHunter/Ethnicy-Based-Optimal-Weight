@@ -1,3 +1,12 @@
+## Batch 13 follow-up gaps — 2026-11-05
+
+- **Egyptian Drug Authority (EDA):** 17 bilateral regulator MoUs and the separately named 25 June 2025 eight-party regulator MoU are **issuer self-reports** on `dev.edaegypt.gov.eg`, not independently verified copies of signed instruments. Confirm a canonical production-domain record, full original signed texts, legal bases, present in-force status, counterpart authority identity and exact Team A joins, especially for agreements reported only to the month (Zambia June 2024; Rwanda August 2024; Türkiye February 2026). Do not infer that an MoU transfers national approval or licensing authority or implements medicines policy. Confirm the 2025 eight-country participant roster separately with other signatories; do not explode its reported participation into seven bilateral agreements.
+- **Africa CDC APPM:** ExCon 2026 reports a separate UPA–Africa CDC support agreement as well as the state APPM MoU and EDA–Algeria regulator agreement. Seek agreement text, UPA’s statutory remit and Team A exact registry identity; do not conflate three different legal instruments. APPM's other **seven** unnamed October signatories and **15** intent states remain unverified.
+- **WHO Liechtenstein:** WHO/Europe's November 2025 statement places Liechtenstein outside the 53 WHO European Region Member States while including it in a broader pan-European Protocol context. **Neither a WHO region nor an IHR/Protocol treaty legal status has been inferred.** M49 `438` stays `not_verified`; review any later WHO membership and office evidence independently.
+- Unchanged: 44 unresolved region mappings; 46 older 2024 survey responses; 144 geography candidates lacking direct April 2026 affirmative WHO office presence; NCA remits, named ASEAN participation, local HEARTS country-version adoption, Team B/C joins and clinical appraisal. Jan 2021–Dec 2022 WHO historical office records must not become November 2026 current office attestations.
+
+---
+
 ## Batch 12 remaining verification (2026-11-05)
 
 - **APPM named MoUs:** Egypt is individually documented as the first MoU signatory on **15 June 2026**. Africa CDC's **15 October 2026** aggregate identifies eight signed states and 15 expressions of intent, but the **other seven signer identities and all 15 intent identities remain unverified**. Do not assign edges for unlisted states. Egyptian Unified Procurement Authority's signatory role must not be reclassified as a statutory medicines licensing remit; Team A exact authority ID join remains outstanding.

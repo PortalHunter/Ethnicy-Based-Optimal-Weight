@@ -1,3 +1,19 @@
+## Latest verified restart — Batch 13 (2026-11-05)
+
+**Read `CHECKPOINT_2026-11-05.md` first** for the current full standalone handoff. Data and fully checked-in structural validator SHA **`59ae6fcd79fefb1723d634f7c1091666c267fa4d`**; independently discover newer live head and PR status. Batch 13 adds **19 source/date-qualified regulatory-cooperation observations** (17 Egyptian Drug Authority bilateral MoUs, one eight-party 2025 regulator MoU, one separate UPA–Africa CDC APPM support agreement), plus one WHO Liechtenstein boundary evidence row without falsely assigning WHO region. EDA source is a **government development-domain self-report**; Africa CDC independently confirms the Algeria and APPM-support agreement types. **125 unique provenance URLs**, graph **46 nodes/544 edges** unchanged, seven condition keys unchanged; historical 2021–2022 WHO office records remain distinct from April 2026 (105 direct affirmative) and 2024 retained (46) surveys. WHO 205 verified / 44 unverified regional assignments, EMA 34 identity candidates; no country adoption or legal delegation implied. Full validator assertions **PASS** using **22 GitHub PR diff–reconstructed CSV inputs** and read-only JS file shim, with three direct file content matches; **not literal Node CLI or Actions**. Check PR #70 remains open/draft/unmerged. No site, main, Team A/B/C, clinical, or merge writes.
+
+**Next:** confirm signed agreement instruments, agency laws and Team A identity joins; named APPM MoUs and 15 expressions of intent; 44 WHO region gaps, 46 aging office surveys and 144 without recent positive attestations; national HEARTS/ASEAN, specialist societies and Team B/C joins. Commit evidence-qualified, scoped batches and new standalone checkpoint. At end repeat the exact user continuation prompt:
+
+Continue Research Team D in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70.
+
+Read `docs/atlas/handoffs/team-d/CONTINUATION_PROMPT.md` on branch `research/atlas-team-d-20261104`.
+
+Verify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, historical-versus-current source distinctions, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.
+
+If unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again.
+
+---
+
 ## Latest verified restart — Batch 12 (2026-11-05)
 
 Data and validator commit `f430ad45e83ae183656ba468648d2f0e4123f382` adds individually sourced **Egypt APPM MoU signature (2026-06-15)** as the only named state among Africa CDC's eight reported signatories (seven identities remain pending), a distinct Africa CDC-led APPM programme node, and **six ASEAN health-governance/cluster roles** with no individual country implementation inferred. Graph **46 nodes / 544 relationships**, **122 unique source URLs**, seven shared condition keys unchanged. WHO 205 verified / 44 region unknown; 105 affirmative April 2026 office hosts and 46 retained September 2024 office survey profiles; 228 **historical 2021–2022** service records remain temporally separate. Data/validator structural assertions PASS using a JS read-only shim (19 GitHub CSVs plus one authored source-equivalent ASEAN CSV fixture), all changed files read back from GitHub; no Node CLI/Actions or clinical appraisal claim. See `CHECKPOINT_2026-11-05.md` for standalone Batch 12 state; verify live head and PR independently.

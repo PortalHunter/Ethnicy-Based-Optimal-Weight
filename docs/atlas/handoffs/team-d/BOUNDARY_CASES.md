@@ -1,3 +1,11 @@
+## Batch 13 boundary evidence — Liechtenstein and regulator cooperation
+
+- **Liechtenstein M49 438:** WHO/Europe's 5 November 2025 pan-European Protocol statement explicitly adds Liechtenstein to the WHO European Region's 53 Member States, rather than including it among those 53 (<https://www.who.int/europe/news/item/05-11-2025-pan-european-protocol-on-water-and-health-at-20--promoting-resilience-amid-global-crises>). Therefore programme collaboration/geographic proximity is not WHO regional membership. `who_region` remains `not_verified` pending precise official assignment evidence and future status check.
+- **Separate June 2026 Egyptian instruments:** Africa CDC's ExCon report (<https://africacdc.org/download/africa-health-excon-2026-report/>) distinguishes Egypt's **state APPM participation MoU**, **UPA–Africa CDC operational support partnership**, and **EDA–Algeria regulatory cooperation MoU**. A state procurement participation commitment, an organizational support agreement and a regulator cooperation agreement must not be collapsed into one membership edge or interpreted as national licensing authority.
+- **EDA cross-border register** (<https://dev.edaegypt.gov.eg/en/about-us/foreign-affairs-and-international-memberships/>): 17 bilateral MoUs and one separately named eight-party MoU are first-party development-site reports. A reported MoU signature is not international mutual-recognition authorization, statutory transfer or documented implementation; exact counterpart identities require Team A joins.
+
+---
+
 # Team D — Documented boundary and negative cases
 
 Checked 2026-11-04. Each case describes a **non-equivalence**; negative cases do not imply clinical conclusions.

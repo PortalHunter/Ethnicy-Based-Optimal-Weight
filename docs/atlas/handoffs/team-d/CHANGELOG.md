@@ -1,3 +1,12 @@
+## Batch 13 — 2026-11-05 (source-stamped regulatory cooperation and WHO boundary)
+
+- Data/validator commit `59ae6fcd79fefb1723d634f7c1091666c267fa4d`: added `data/regulatory_cooperation_evidence_2026.csv` (17 bilateral MoU self-reports, one eight-party regulatory MoU and one distinct UPA–Africa CDC partnership); added `data/who_region_boundary_evidence_2026.csv` (one Liechtenstein WHO membership boundary, no region assignment); appended TD-SRC-123–125 to provenance and extended structural validator.
+- Corrective validator commit is included in final data SHA above; the earlier Batch 13 initial data commit `1809d1404899e5d06babb2d588eb2242e856b5aa` had two over-escaped regex patterns and was promptly fixed in `59ae6fcd79fefb1723d634f7c1091666c267fa4d`. **Do not validate against the intermediate commit.**
+- Source distinction: EDA government development-host self-report vs Africa CDC published event-report corroboration of Egypt–Algeria and UPA–Africa CDC. WHO pan-European programme inclusion does not establish WHO European Region membership.
+- 125 unique source URLs; institutional graph still 46/544 and WHO evidence temporal statuses unchanged. Full checked-in JS validator assertions PASS against 22 CSV inputs reconstructed from GitHub PR diff; no literal Node CLI/Actions or clinical/legal audit claimed. All changes inside Team D handoff.
+
+---
+
 ## 2026-11-05 — Batch 12: first named APPM MoU signatory and ASEAN health governance
 
 - Data and validator commit `f430ad45e83ae183656ba468648d2f0e4123f382`: added `AFRICA_APPM` node; `AFRICA_APPM → AFRICA_CDC` `operated_by` relationship and dated `m49:818 → AFRICA_APPM` `signed_participation_mou` relationship, with the official June 15 Egypt source. No other country programme edge inferred from Africa CDC's eight-signatory aggregate.

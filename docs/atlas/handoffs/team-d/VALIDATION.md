@@ -1,3 +1,13 @@
+## Batch 13 validation — 2026-11-05
+
+**Data/validator SHA** `59ae6fcd79fefb1723d634f7c1091666c267fa4d` (corrects two regex errors in intermediate `1809d1404899e5d06babb2d588eb2242e856b5aa`). **PASS:** executed the exact checked-in `validate.mjs` assertion body (imports/file URL replaced by read-only equivalent) against complete content of all **22 CSV inputs** reconstructed from the live GitHub PR #70 unified diff, whose 34 changed paths are all Team D. The compiled source, newly added regulator CSV and `PROVENANCE.csv` exactly matched independent `fetch_file` responses for the data SHA. Both standalone new data sources also underwent independent CSV column-width, ID-uniqueness, M49 reference, date-precision and source-ledger checks.
+
+Validator output: `nodes=46; edges=544; conditions=20; statuses=249; verified_regions=205; unverified_regions=44; office_presence=105; office_survey_roster=153; emrn_candidates=34; historical_office_records=228; historical_office_edges=225; provenance=125; hearts_catalog=24; programme_evidence=5; regulatory_agreements=19; who_region_boundary_evidence=1`.
+
+This was **not** a literal `node docs/atlas/handoffs/team-d/validate.mjs` command in a Node checkout, a GitHub Actions run, full original agreement-text verification, statutory/legal appraisal, or scientific/clinical evidence appraisal. Such claims require separate execution/review. On a Node-capable checkout, run `node docs/atlas/handoffs/team-d/validate.mjs` and preserve the resulting log.
+
+---
+
 ## Batch 12 validation — 2026-11-05
 
 **PASS (structural assertions):** full checked-in `validate.mjs` body, data/validator commit `f430ad45e83ae183656ba468648d2f0e4123f382`, evaluated under a read-only JavaScript filesystem shim using **19 CSV inputs fetched from GitHub** plus **one newly authored exact ASEAN governance fixture**. Independent GitHub readback afterward confirmed the five committed changed paths: `data/international_networks.csv` (**46 nodes**), `data/network_memberships.csv` (**544 typed edges**), `PROVENANCE.csv` (**122 unique source URLs**), `data/asean_health_governance_2026.csv` (**6 source roles**) and `validate.mjs` (new APPM and ASEAN consistency assertions). Other asserted counts: 20 condition records; 249 candidates (248 official M49 + special exception); 205 verified and 44 unverified WHO regions; 105 affirmative April 2026 office hosts; 95 additional office audits; 153 mixed-year survey labels; 34 EMA agency candidates; 228 *historical* office/service records and 225 linked historical edges; 24 HEARTS catalog titles; five aggregate programme observations.
