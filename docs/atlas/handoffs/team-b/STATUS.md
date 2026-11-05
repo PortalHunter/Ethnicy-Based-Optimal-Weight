@@ -20,7 +20,7 @@ Condition positives: diabetes:63; hypertension:15; high_chol:20; gout:16; lactos
 
 This run batches18–22 added47 identities in36 newly represented areas and11 resource relationships. Batch18 Africa:16 identities/3 programme sources. Batch19 Latin America:14 identities/3 education or research-index sources. Batch20 Pacific/SE Asia:7 identities/2 community education sources; one additional community-specific record. Batch21:2 Swedish identities,2 net new links,Malta resource upgraded and source-quality corrections. Batch22:8 territory identities/one Mayotte diabetes education source. Index discovery does not mean full text or clinical appraisal.
 
-Previous independently verified immutable data commit: 0f533b79fa25f0784b80e127dd79055e7650b5c4 (batch21). Batch22 data and this handoff committed together; resolve HEAD and verify immutable files. Branch research/atlas-team-b-20261104; [draft PR71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) remains open/unmerged.
+Verified immutable batch22 data checkpoint: **b0e80aad880909bbf3eacdd838f7bacf1d5e3850**. All17 files matched exact readbacks and all9 CSVs passed committed core+overview validation. A subsequent handoff-only commit may be HEAD; resolve current branch research/atlas-team-b-20261104. [Draft PR71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) stays open/unmerged.
 
 59 areas lack identities;1567 cells lack linked sources. Continue Pacific/territories and original-language seven-stream research. Preserve all GAPS caveats, particularly Cuban reorganization, Guatemala exclusive-endorsement claim, Ecuador seven-city survey/full-PDF access limit, FUPACEL dynamic guide and educational-claim limitations.
 

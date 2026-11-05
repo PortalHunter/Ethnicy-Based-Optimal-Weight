@@ -5,7 +5,7 @@ You are Research Team B. Continue the original task autonomously, without restar
 Repository: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight
 Existing branch: research/atlas-team-b-20261104
 Existing draft PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71
-Previous independently verified immutable data commit: 0f533b79fa25f0784b80e127dd79055e7650b5c4 (batch21). Batch22 data and prompt committed together; resolve current HEAD. Never create replacement branch/PR, merge, close PR, write main or modify live calculator.
+Latest independently verified substantive data commit: b0e80aad880909bbf3eacdd838f7bacf1d5e3850 (batch22). All17 files exact immutable readback; nine-CSV core zero errors. Later handoff-only commit may be current HEAD; resolve and verify it. Never create replacement branch/PR, merge, close PR, write main or modify live calculator.
 
 ## Required startup
 1. Read original TEAM_B_CLINICAL_ORGANIZATIONS.md and shared DATA_CONTRACT.md under docs/atlas/research-team-prompts/ on branch research/atlas-five-team-handoff-prompts-2026-11-04.

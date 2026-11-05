@@ -130,3 +130,8 @@ Added2 Swedish identities and2 net new source relationships (Luxembourg celiac,S
 ## 2026-11-05 — Batch22 territories
 
 Added8 identities in8 new areas (Isle of Man,Cayman Islands,Curacao,Aland,Martinique,French Guiana,Guadeloupe,Mayotte) andone substantive Mayotte diabetes education edge.10 provenance/14 search rows. Identity-only activity report and mission pages not counted as resources. Greenland government-service exclusion and Gibraltar naming gap logged. Totals293 identities/189 areas/175 resources/169 positive/1567 not_yet_researched; zero clinical approvals; nine-CSV core zero errors.
+
+
+## 2026-11-05 — Immutable batch22 handoff checkpoint
+
+Verified substantive SHA b0e80aad880909bbf3eacdd838f7bacf1d5e3850;17 exact file readbacks and9 CSVs revalidated with zero errors. This handoff-only update records verified SHA and exact59-area missing-identity list. Run total47 identities/36 new areas/11 new relationships/one resource upgrade/one community record. Research remains incomplete; all clinical release states research_lead_only.
