@@ -1,3 +1,27 @@
+# Team B status · 2026-11-05 · batch 47
+
+**INCOMPLETE — DRAFT RESEARCH ONLY.** [PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) open/unmerged, research branch `research/atlas-team-b-20261104` to `main`; independently verified [batch-47 data commit `bfebee420dc0c8158e372b7173920a407ae6e59e`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/bfebee420dc0c8158e372b7173920a407ae6e59e). No main, website, calculators, other teams or private/patient records edited.
+
+| Measure | Verified |
+|---|---:|
+| UN M49 × seven conditions | **248 × 7 = 1,736** |
+| Organizations / domiciled areas / missing eligible local identity | **392 / 227 / 21** |
+| Exact source contexts / source-positive cells | **290 / 264** |
+| Zero-link / bounded targeted no-source / no targeted condition check | **1,472 / 127 / 1,345** |
+| Provenance / searches | **803 / 466** |
+| Indigenous/subnational / cross-border | **7 / 8** |
+| Source-country unknown / clinically approved claims | **5 / 0** |
+
+Positive by condition: diabetes **88**, hypertension **44**, high_chol **34**, gout **26**, lactose **18**, celiac **34**, hemochromatosis **20**. **All 290/290** links are `research_lead_only`.
+
+**Batch 47:** +4 identities in AU/CA/NZ/IT; +5 exact source/context relationships including an additional Brazilian gout press announcement; +4 first-positive cells (**036/124/554 high_chol; 380 gout**), +9 provenance, +5 search logs; +0 domiciled areas, Indigenous records or cross-border edges. Retain original issuer and 2024/2021/undated/2019/2025–2024 chronology; no clinical efficacy appraisal or copyright clearance.
+
+**Data validation:** precommit full 10-CSV structural audit 0 errors; postcommit independently fetched all **10/10 Git blob SHA** by immutable commit SHA, matched nontruncated 145-item tree; independent structural joins 0 errors. The checked-out Node CLI **was not run** because `github.com` DNS in the container failed. No complete live URLs, clinical guideline appraisal, Indigenous permission, legal/rights review. No PR merge.
+
+---
+
+## Historical status: Batch 46 (preserved)
+
 # Team B status · 2026-11-05 · batch 46
 
 **INCOMPLETE, research leads only.** [Draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) remains open/unmerged; branch `research/atlas-team-b-20261104` to `main`. Immutable independently verified [data commit `1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f). No main/public website, calculators, source formulas, other teams or private/patient data changed.

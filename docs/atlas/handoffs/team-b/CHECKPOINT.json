@@ -5,18 +5,18 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f",
-  "batch": 46,
+  "validated_data_commit": "bfebee420dc0c8158e372b7173920a407ae6e59e",
+  "batch": 47,
   "metrics": {
-    "organizations": 388,
+    "organizations": 392,
     "areas": 227,
-    "resources": 285,
-    "positive": 260,
-    "without_linked_source": 1476,
+    "resources": 290,
+    "positive": 264,
+    "without_linked_source": 1472,
     "targeted_no_source": 127,
-    "unresearched": 1349,
-    "provenance": 794,
-    "search_log": 461,
+    "unresearched": 1345,
+    "provenance": 803,
+    "search_log": 466,
     "community": 7,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
@@ -24,8 +24,8 @@
     "by_condition": {
       "diabetes": 88,
       "hypertension": 44,
-      "high_chol": 31,
-      "gout": 25,
+      "high_chol": 34,
+      "gout": 26,
       "lactose": 18,
       "celiac": 34,
       "hemochromatosis": 20
@@ -35,10 +35,10 @@
   "run_additions": {
     "organization_identities": 4,
     "new_domiciled_areas": 0,
-    "resource_relationships": 4,
+    "resource_relationships": 5,
     "source_positive_cells": 4,
-    "provenance_rows": 8,
-    "search_log_rows": 4,
+    "provenance_rows": 9,
+    "search_log_rows": 5,
     "community_records": 0,
     "cross_border_edges": 0
   },
@@ -46,12 +46,12 @@
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Check 1349 zero-link area-condition cells without targeted condition-specific searches; 127 bounded negatives do not prove absence.",
-    "Investigate 21 missing locally domiciled eligible identities; separate chapter/service reach from registered domicile.",
-    "Resolve five edition-specific source-issuer country unknowns without guessing from study location or author affiliation.",
-    "Appraise version and original issuer distinctions for Japan JAS 2022/2023, Korea KSoLA 2026 vs fifth-edition corrections, Korea KSH May 2026 revision/Nov supplementary item, and Greece EEY catalogue of external ESH/ACC/AHA texts.",
-    "Retain 2014/2019 historical FH publications, Polish 2026 uncorrected proof, Dutch NDF/Monaco dissolution, Saint Lucia AGM announcement, Mexico abstract n68-versus-67 conflict.",
-    "Preserve 14 broad-population cautions, seven community/Indigenous permissions cases and eight cross-border edges; 0 approved clinical claims."
+    "Complete 1345 zero-link condition cells without targeted first-party local-language searches; 127 bounded failed condition searches do not prove absence.",
+    "Verify eligible locally domiciled organizations in 21 M49 areas without mistaking foreign coverage/outreach for domicile.",
+    "Resolve five specific original-document publisher/issuer-country uncertainties (Panama HEARTS; Portuguese WGO lactose; Portuguese ESPGHAN coeliac; Chad OA Pub/JHC; South Sudan PAMJ).",
+    "Do not treat AU 2024 lipid toolkit as a completed future dynamic guideline; CA 2021 dyslipidaemia as 2026; NZ externally compiled resource as society-written; IT 2019/2013 gout as current replacement; BR 2025 press as its jointly issued 2024 source document.",
+    "Preserve Japanese 2022/2023 and Korean 2026 specialist editions, Greek third-party guidance host, 2014/2019 historical FH, Poland 2026 uncorrected proof, Dutch NDF/Monaco cessation, Saint Lucia announcements and Mexico gout n68-vs-67.",
+    "Maintain 14 anti-generalization examples, 7 Indigenous/community governance cases, 8 cross-border service edges; all 290 leads research_lead_only and 0 clinically approved claims."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -65,7 +65,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch 46 six-CSV atomic commit; exact 10/10 independent immutable CSV Git blob SHA matches against 145-entry nontruncated tree; full connector-orchestrated structural equivalent 0 errors, actual Node CLI not run. Previous batch 45 intermediate f628cf1 was invalid and corrected in 5d5bb365.",
+  "validated_data_commit_note": "Batch 47 atomic six-CSV immutable readback against Git tree: prewrite 0 structural errors; 10/10 matching committed Git blob SHA IDs, nontruncated 145-entry tree SHA eb436e02b424f9663591749c77b7378c6df5998f; postwrite 0 independent structural errors. Actual Node CLI not run (container github.com DNS failure); no external URL, legal, copyright, Indigenous or clinical clearance.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -154,8 +154,8 @@
   ],
   "readback_validation": {
     "status": "passed",
-    "verified_data_sha": "1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f",
-    "tree_sha": "a24342f19155b6168c3add870df2450046499a67",
+    "verified_data_sha": "bfebee420dc0c8158e372b7173920a407ae6e59e",
+    "tree_sha": "eb436e02b424f9663591749c77b7378c6df5998f",
     "tree_truncated": false,
     "tree_items": 145,
     "files_matched": 10,
@@ -163,16 +163,16 @@
     "validation_runtime": "independent_connector_orchestrated_javascript_full_structural_equivalent",
     "node_cli_run": false,
     "structural_errors": 0,
-    "scope": "Independent immutable 10/10 CSV blob and full M49 248x7 joins, 285 exact source/context/provenance, 461 search references, 7 community, 8 cross-border. Not actual Node CLI, complete live-source crawl, legal/copyright, Indigenous permissions or clinical appraisal."
+    "scope": "Immutable 10/10 CSV Git blob SHA verification, nontruncated tree, independent structurally cross-referenced 392 organization/290 resource and contexts, 248x7 coverage, 803 provenance, 466 searches, 7 community and 8 cross-border; not checked-out Node CLI or clinical/legal/full source verification."
   },
-  "previous_independently_verified_data_commit": "5d5bb3654aba9b4870c8e848754598ddf34bced5",
+  "previous_independently_verified_data_commit": "1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f",
   "session_additions": {
     "organization_identities": 4,
     "new_domiciled_areas": 0,
-    "resource_relationships": 4,
+    "resource_relationships": 5,
     "source_positive_cells": 4,
-    "provenance_rows": 8,
-    "search_log_rows": 4,
+    "provenance_rows": 9,
+    "search_log_rows": 5,
     "community_records": 0,
     "cross_border_edges": 0,
     "issuer_country_resolved": 0
@@ -186,13 +186,14 @@
     "43": "1e20927dfebe5f31cab326bfd2d38a8c615eb489",
     "44": "0eb0b70f1102a9911588e3b1c3d427efc31a6e96",
     "45": "5d5bb3654aba9b4870c8e848754598ddf34bced5",
-    "46": "1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f"
+    "46": "1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f",
+    "47": "bfebee420dc0c8158e372b7173920a407ae6e59e"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "Structurally met 248x7 rows; 1349 unsearched zero-source cells remain.",
-    "source_population_jurisdiction": "285/285 separate issuer country, organization domicile, study population and healthcare jurisdiction; 5 edition-specific issuer country unknowns; full clinical appraisal open.",
-    "disease_subtypes_and_release": "All 285/285 links research_lead_only, zero clinical approval; FH/gout/lactose/coeliac/iron phenotypes distinct.",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 domiciled area gaps, 1349 untargeted cells, many source edition and rights checks, Greek external guidance not Greek authored.",
+    "m49_area_condition_roster": "Structurally complete 248x7; 1345 zero-resource cells still without targeted condition searches.",
+    "source_population_jurisdiction": "290/290 source relationships distinguish linked page issuer, domicile, population and healthcare jurisdiction. Five original-document issuer-country cases unknown. No full appraisals.",
+    "disease_subtypes_and_release": "All 290/290 source links research_lead_only; 0 approved claims; FH/gout/lactose/coeliac/iron phenotypes not conflated.",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 local domicile gaps, 1345 unsearched area-condition cells and edition, source-credit, license and original document checks remaining.",
     "diversity_examples": "14 population non-generalization counterexamples unchanged; seven community and eight cross-border records retained."
   },
   "batch40_sources": [
@@ -458,5 +459,45 @@
   ],
   "batch46_source_commits": {
     "data": "1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f"
-  }
+  },
+  "batch47_source_commits": {
+    "data": "bfebee420dc0c8158e372b7173920a407ae6e59e"
+  },
+  "batch47_sources": [
+    {
+      "org_id": "B-AU-NHFA",
+      "m49": "036",
+      "condition": "high_chol",
+      "source_url": "https://www.heartfoundation.org.au/heart-health-check-toolkit/pharmacological-lipid",
+      "caveat": "2024 toolkit not a completed announced national 2026 dynamic guideline"
+    },
+    {
+      "org_id": "B-CA-CCS",
+      "m49": "124",
+      "condition": "high_chol",
+      "source_url": "https://ccs.ca/guidelines-and-clinical-practice-update-library/",
+      "caveat": "2021 adult edition distinct from 2022 paediatric update"
+    },
+    {
+      "org_id": "B-NZ-HFNZ",
+      "m49": "554",
+      "condition": "high_chol",
+      "source_url": "https://www.heartfoundation.org.nz/resources/management-of-dyslipidaemia-in-primary-care",
+      "caveat": "University of Otago professor compiler; hosting not guideline authorship; undated page"
+    },
+    {
+      "org_id": "B-IT-SIR",
+      "m49": "380",
+      "condition": "gout",
+      "source_url": "https://www.reumatologia.it/en/linee-guida-sir.asp",
+      "caveat": "2019 gout guideline vs 2013 older recommendations; no current-edition claim"
+    },
+    {
+      "org_id": "B-BR-SBR",
+      "m49": "076",
+      "condition": "gout",
+      "source_url": "https://www.reumatologia.org.br/press-releases/gota-excessos-na-alimentacao-pode-desencadear-crises/",
+      "caveat": "existing org/cell; Dec 2025 society press about 2024 SBR/SBPC-ML jointly issued guidance, not original text"
+    }
+  ]
 }

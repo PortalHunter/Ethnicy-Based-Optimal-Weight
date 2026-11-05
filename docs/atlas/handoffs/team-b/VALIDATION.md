@@ -1,5 +1,13 @@
 # Team B validation history
 
+## Batch 47 · independent immutable data readback `bfebee420dc0c8158e372b7173920a407ae6e59e` · 2026-11-05
+
+- Additions: 4 newly domiciled (but no *new* M49 domiciles) non-government professional/charitable organizations, five exact source relationships including Brazilian SBR's additional gout press and four newly positive condition cells. Source issuers = linked first-party website page, not inferred document imprint or independent author; no additional cross-area or Indigenous records.
+- **Prewrite:** full ten-input JavaScript structural equivalent of the local `validate.mjs`: CSV row width, 248 M49 × seven complete cells, unique organization/resource/context/provenance/search IDs, exact resource-context roles, home/issuer attribution, coverage counts and search links, community/cross-border references: **0 errors**.
+- **Independent immutable postwrite:** branch commit [`bfebee420dc0c8158e372b7173920a407ae6e59e`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/bfebee420dc0c8158e372b7173920a407ae6e59e); full nontruncated **145-entry** Git tree SHA `eb436e02b424f9663591749c77b7378c6df5998f`; fetched **all ten** CSV inputs at that immutable commit, SHA compared against tree: **10/10 matched**, independent structural checks on saved rows/joins: **0 errors**. Six changed files were the Team B CSVs `PROVENANCE.csv`, `data/specialist_organizations.csv`, `data/condition_organizations.csv`, `data/publication_context.csv`, `data/coverage_by_area_condition.csv`, `data/search_log.csv`.
+- **Metrics:** 392 orgs in 227 M49 domiciles, 290 source/context relations, 264 positive cells, 1,472 zero-link (127 targeted empty, 1,345 unsearched), 803 provenance rows, 466 search logs, 7 community, 8 cross-border, 5 issuer-country unknown, **0** clinical approvals. By condition: 88/44/34/26/18/34/20 in canonical key order.
+- **Limits:** `node docs/atlas/handoffs/team-b/validate.mjs` was **not executed** in a real checkout: `git ls-remote` could not resolve `github.com` (DNS). This independent structural check does **not** validate external URL freshness, full text, clinical accuracy, current edition, legal authority, licensing, Indigenous permissions or population representativeness.
+
 ## Batch 46 · independent immutable data readback `1cb3f79606cfe5ea2cab88eeb6e831883dc1f52f` · 2026-11-05
 
 - Source additions: Japan JAS (2022/2023 different originals and 2024 errata), Korea KSoLA 2026-09-10 own new edition, Korea KSH 2026-05-22 revised sixth edition, Greece EEY's external-issuer professional guideline catalogue. Four organizations and exact resources, four positive cells, eight provenance, four search checks. No other team files.

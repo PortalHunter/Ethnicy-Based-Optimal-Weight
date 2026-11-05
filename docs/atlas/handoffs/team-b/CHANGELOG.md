@@ -1,5 +1,11 @@
 # Team B changelog
 
+## 2026-11-05 — Batch 47: first-party lipid and gout leads with edition/copyright boundaries
+
+- Four new organizations: Australian Heart Foundation (**036 high_chol**; 2024 professional lipid toolkit distinct from planned national guidance); Canadian Cardiovascular Society (**124 high_chol**; 2021 adult and distinct 2022 paediatric edition); Heart Foundation New Zealand (**554 high_chol**; undated host page credits a University of Otago academic compiler); Italian Society of Rheumatology (**380 gout**; 2019 own-guideline index separate from 2013 legacy recommendations). Brazil's existing SBR (**076 gout**) gains a **second** source: 2025 original-language press referring to jointly issued **2024** guidance with SBPC/ML, not independently appraised full text.
+- Delta: **+4 organizations, +0 domiciled areas, +5 exact source/context relationships, +4 positive cells, +9 provenance, +5 search logs**. No Indigenous/subnational, cross-border, foreign issuer attribution, clinical approvals, public website or other team files modified.
+- Atomic six-CSV [data commit `bfebee420dc0c8158e372b7173920a407ae6e59e`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/bfebee420dc0c8158e372b7173920a407ae6e59e). Prewrite all-10-CSV independent structural check **0 errors**; postwrite immutable Git **10/10 blobs** match nontruncated **145-entry** tree and independent joins **0 errors**. Actual Node CLI not run because container GitHub DNS was unavailable; clinical, copyright, national-adoption and original full-guideline review still open.
+
 ## 2026-11-05 — Batch 46: Japanese/Korean specialist guidance and Greek external-guidance catalogue
 
 - Added **B-JP-JAS** (Japan, high_chol), **B-KR-KSLA** (South Korea, high_chol), **B-KR-KSH** (South Korea, hypertension), **B-GR-EEY** (Greece, hypertension) with own original-language society pages, documented domicile, direct professional publication URLs and edition-specific cautions. Four **newly positive** matrix cells; Greek society cataloguing ESH/ACC/AHA does not imply Greek authorship, endorsement or legal adoption.
