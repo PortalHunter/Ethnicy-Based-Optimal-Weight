@@ -1,3 +1,13 @@
+## Batch 20 — 2026-11-05 — close older office-survey independent-source queue, not operational recency
+
+- `85d6e1eb25cbf72457e0e3b4fda6d225d580480a` — added **17** first-party WHO/PAHO independent office source observations (`TD-OFFICE-CORROBORATION-030–046`) for the previously unchecked 17 September-2024 survey labels, including two explicitly non-M49 multicountry labels. The original 153 survey rows and 105 April-2026 direct-positive hosts did not change.
+- `b1809f88403e0896f822a1a1061622ffb13dc2f0` — registered **17** distinct new URLs `TD-SRC-171–187`; total **187** unique primary-source URLs.
+- `406846e114e5e40e3efd815b7b43bf80fdc00715` — amended `validate.mjs` to check **46/46** old-survey crosschecks, preserve 29 earlier cohorts and allow the two non-joined multi-country labels. 21 dated/25 undated source records.
+- `6e1b6d4ba62494dce0ca0fcb4c173a4cb7d8e381` — added [standalone Batch 20 checkpoint](CHECKPOINT_BATCH_20_2026-11-05.md) with full recovery inventory, 17 per-source links, current caveats and original continuation prompt.
+- **Validation:** read-only GitHub file re-fetch and 18 cross-file targeted assertions PASS. Full native Node/Actions or complete checked-in JS shim **NOT executed**; separate clinical/legal review NOT performed. No website/main/other-team writes; leave PR #70 draft/unmerged.
+
+---
+
 ## 2026-11-05 — Batch 19: ten additional WHO independent office-survey checks
 
 - `587083c1dbaab2b7e1f4ec8ec5b6ac2180933a08`: append 10 independent WHO checks (`020`–`029`) against existing retained September 2024 WHO office-survey labels. Eight undated site/biography pages and two date-specific events; no old survey timestamp or April 2026 affirmative office status changed.
