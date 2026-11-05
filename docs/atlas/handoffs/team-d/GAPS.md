@@ -1,3 +1,12 @@
+## Batch 19 unresolved items — 2026-11-05
+
+- **17/46 retained September 2024 WHO office surveys still lack separate source checks.** Existing 29 first-party checks vary in date strength: 20 are undated pages, 9 give day-level reported engagements/events. An independent check is not a refreshed WHO dashboard survey or confirmation of continuous physical operation.
+- WHO EMRO Bahrain, Islamic Republic of Iran, Iraq and Somalia pages may show **different/unsynchronized incumbent representative names** across WHO profiles. Do not resolve current leadership or country presence using one undated biographical page. Verify authoritative dated appointment notices and separate on-site versus multicountry coverage.
+- Libya and Sudan WHO EMRO indexed official excerpts were visible but direct opens returned **502**; refetch/independently archive. For Turkmenistan, the event starts 2026-10-20; **publication date unknown**.
+- Other existing blockers remain, including 44 direct WHO region assignment gaps, 144 absent-equivalent direct April-2026 affirmative host attestations, PAHO Caribbean 13/14 discrepancy, SCI precise accession date, regulator legal instruments and cross-team exact joins. No inference from ancestry, government jurisdiction or clinical adoption.
+
+---
+
 ## Batch 18 outstanding WHO office survey and source-date gaps — 2026-11-05
 
 - 10 additional retained September-2024 WHO survey countries now have *independent* official WHO corroboration; **19/46 checked, 27 lacking independent source checks**. 7 of the new records use **undated** WHO office/contact pages, which must not be represented as a 2026 survey or dated proof of ongoing premises; 3 source-dated 2026 news items document leadership/contact, not necessarily physical office sites.
