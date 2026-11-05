@@ -23,3 +23,4 @@ search_id,area_or_region,query,language,search_engine_or_index,searched_date,rel
 "Q022","Vietnam","site:tapchiyhocvietnam.vn ""Tạp chí Y học Việt Nam"" ISSN","vi","web_search","2026-11-04","yes","Vietnamese publisher journal archive identified."
 "Q023","Thailand","site:he02.tci-thaijo.org/index.php/TJHP/article/view","th","journal_page_browse","2026-11-04","yes","Thai original cohort article title and English field translation recorded."
 "Q024","Mali","site:malimedical.org diabète hypertension 2025 article","fr","web_search","2026-11-04","no","No exact article confirmed; journal identity separately verified."
+"Q025","Iran","site:magiran.com/paper/ ""دیابت"" ""متابولیسم ایران"" 1404 چربی","fa","web_search","2026-11-04","yes","Fasa anthropometry/diabetes Persian article found on independent targeted search; publisher field distinct from population."

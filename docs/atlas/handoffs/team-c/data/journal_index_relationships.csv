@@ -9,3 +9,7 @@ journal_id,index_id,claim_of_indexing,independently_verified,source_url,valid_as
 "BRA_RBHH","SCIELO","historical_article_archive_hosted_in_SciELO","true","https://www.scielo.br/j/rbhh/a/YGX8c3fghWkWCDntKCgtxMN/","2026-11-04","Historical article archive, not current journal certification."
 "CHL_RMC","SCIELO","journal_archive_hosted_in_SciELO_Chile","true","https://www.scielo.cl/scielo.php?lng=es&pid=0034-9887&script=sci_serial","2026-11-04","SciELO Chile journal record."
 "JPN_TONY","JSTAGE","journal_archive_hosted_in_J_STAGE","true","https://www.jstage.jst.go.jp/browse/tonyobyo/list/-char/ja","2026-11-04","2026 issue archive present."
+"IRN_IJDLD","MAGIRAN","journal_catalogued_in_Magiran","true","https://www.magiran.com/magazine/about/2991","2026-11-04","Iranian periodical catalog and ISSN shown; Magiran selection criteria not independently verified."
+"THA_TJHP","THAIJO","journal_hosted_on_ThaiJO","true","https://he02.tci-thaijo.org/index.php/TJHP/about","2026-11-04","Publisher's ThaiJO-hosted journal has independent journal-specific policy."
+"THA_TJPH","THAIJO","journal_hosted_on_ThaiJO","true","https://he02.tci-thaijo.org/index.php/tjph","2026-11-04","Journal host confirms presence; TCI rating not verified."
+"TUR_TJPH","DERGIPARK","journal_hosted_on_DergiPark","true","https://dergipark.org.tr/en/pub/tjph","2026-11-04","Platform hosting does not imply TR Dizin indexing."

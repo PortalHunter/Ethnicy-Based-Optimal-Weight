@@ -13,3 +13,7 @@
 9. The original AJOL Rwanda Medical Journal author-submission guidance contains a conflicting reference to a different Rwanda journal; the independently verified official RMJ author instructions should govern until resolved. DOAJ's historic publisher metadata says Rwanda Biomedical Centre while the current journal says AHSU. Keep audit flag.
 10. DOI-less article candidates may be added after stable archival title/volume/page trace is found; this first article sample has DOI-rich examples and must not be mistaken for a representative DOI-less census.
 11. The 12 visibility examples do not establish negative PubMed indexing. All samples are unappraised; selection biases, incomplete original-language translations and historical guidance require independent checking.
+
+12. Iranian Fasa source has no DOI *displayed* by Magiran and has issue 1404 (Solar Hijri); do not mark definitely DOI-less or convert to Gregorian publication year without verifying the exact issue's publication date. The article's reported population is the Fasa cohort sample, not all Iranians or an ancestry cohort.
+13. DergiPark hosting is explicitly separate from TR Dizin selection, and ThaiJO hosting is separate from Thai Citation Index quality tier. Only direct platform hosting asserted.
+14. A SciELO Brazilian hemochromatosis review was accepted in December 2009 but belongs to a 2010 issue and was added to the SciELO collection in February 2012; the metadata year and DOI were corrected.

@@ -27,3 +27,6 @@ All 248 areas × seven condition keys = **1,736 explicit rows** initially marked
 
 ## Representative journal/article batch
 `journals.csv` includes both **verified-identity** and clearly labeled **provisional** journals. `journal_index_relationships.csv` records direct hosting/index evidence, not assumed publisher claims. `article_candidates.csv` identifies primary paper URLs and typology (cohort, cross-sectional, review, guideline, labeling audit) with seven-condition search keys; no paper has been independently appraised or authorized as medical advice. Consult `COUNTEREXAMPLES.md` for evidence-linked English-only/prestige-filter discovery limitations.
+
+## National discovery platforms
+ThaiJO (Thailand), DergiPark (Türkiye) and Magiran (Iran) are separately recorded as **hosting/index/aggregation platforms** with source provenance. They are not equivalent to PubMed, nor is platform inclusion an article-level credibility endorsement. Iranian source `A_IR_DIA_01` has a traceable Persian record with no DOI shown by the catalog; a missing displayed DOI must not be interpreted as proved DOI absence.
