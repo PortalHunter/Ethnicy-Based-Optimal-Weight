@@ -1,3 +1,11 @@
+## 2026-11-05 — Batch 21 government source and current enacted law research
+
+- Immutable audited DATA commit **`7fca741cdf7f705d572f907d342153269750b456`** resolves principal identities **703 Slovakia `gov-703-001`**, **704 Viet Nam `gov-704-001`**, **705 Slovenia `gov-705-001`**, **716 Zimbabwe `gov-716-001`**. Added two Vietnamese decree-listed **internal, nonautonomous** units `gov-704-002` Cục Phòng bệnh and `gov-704-003` Cục Quản lý Dược, two 313/2026 Article3 **effective Aug18 2026** listing links, 12 original-government/parliamentary official provenance rows. Changed only five Team A data CSVs.
+- New validated totals **248** official geographies, **136** identities found / **112** explicit unknown, **191** body entries, **44** institutional links, **300** source checks, **248** aligned coverage, **0** speculative M49 parent keys. Critical qualifications: Slovakia Slov-Lex HTML **informative not binding legal PDF**; Vietnam 313/2026 supersedes 42/2025, authentic signed PDF unexamined, separate delegated unit/local law pending; Slovenia October 2026 proposed accessibility legislation **not enacted**; Zimbabwe Parliament and Embassy confirm identity not all legal competences. Old batches retained.
+- Independently re-fetched immutable six-CSV DATA SHA and quote-aware QA **PASS structural with 46 territorial/complex sentinel records**. Repository Python `validate.py` **NOT RUN** (GitHub DNS). [Complete standalone Batch21 checkpoint](CHECKPOINT_20261105_BATCH21.md). PR open DRAFT/unmerged; website, calculator, other teams and clinical output untouched.
+
+---
+
 ## 2026-11-05 — Team A Batch 20 four additional official government authority identities
 
 - **Immutable independently audited data commit `f0069dc868ba619302343c651161ca032c63d110`** adds four principals: **686 Senegal `gov-686-001`**, **688 Serbia `gov-688-001`**, **690 Seychelles `gov-690-001`**, **694 Sierra Leone `gov-694-001`**, plus distinct Seychelles public health body `gov-690-002` and **one limited ministry component-listing-only same-area relation**. Appended **13** provenance checks recording independently issuing sources and historical/current conflicts. Changed exactly five normalized Team A CSV files; pre-existing records untouched.
