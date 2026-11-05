@@ -339,3 +339,12 @@ Kiribati Family Health Association’s own indexed page lists diabetes and blood
 - Morocco SMR 2019 RMR recommendations explicitly advise against hypouricemic drugs for asymptomatic hyperuricaemia; crystal-proven versus clinical diagnosis and comorbidity management remain unappraised. Distinct from SMEDIAN/diabetes leagues.
 - Indonesian IRA (Perhimpunan Reumatologi Indonesia) 2026 IJR recommendations cover hyperuricaemia and gouty arthritis together—keep phenotypes separate. Official journal of IRA; NLM Catalog had no hit at check time. Not the Indian Rheumatology Association (B-IN-IRA).
 - Thailand TRA 2026 guideline PDF (RCPT endorsement 29 Apr 2569) is a second gout URL distinct from the older undated patient-education page. Full Thai clinical body not appraised.
+
+
+## Batch 39 · Ireland and US sources (2026-11-05)
+
+- Irish (372) gout, FH and coeliac links are charity-owned patient education or a research-project directory. They are not new professional clinical guidelines, completed original publications or representative Irish clinical prevalence studies. Croí is based in Galway and prioritizes the West of Ireland, not an assumed national clinical jurisdiction.
+- Coeliac Society of Ireland `https://coeliac.ie/research/`: search-indexed first-party page lists projects about family prevalence, oat sensitivity and symptoms, but a direct web request gave HTTP 403. No results/methods/exact independent published papers can be credited from those titles alone. Revisit originals and publication lifecycle.
+- The US Celiac Disease Foundation's 2026 Dietitian Advisory Council online classes are educational activity, not a scientific trial, clinical guideline, diagnosis or approval of claims. HLA carriage and antibody positivity do not independently establish celiac disease.
+- Checked 2021 Malaysian MaHTAS gout guideline already exists at `B-MY-MSR` and must not be counted again. Existing CMR Mexico Spanish guideline catalogue did not display a gout-specific source at that bounded check; this is not evidence of Mexican national absence.
+- Batch 39 did not resolve five issuer-country uncertainties, the 22 area identity gaps or community governance/permissions. All 14 diversity cautions elsewhere in this document remain unchanged.
