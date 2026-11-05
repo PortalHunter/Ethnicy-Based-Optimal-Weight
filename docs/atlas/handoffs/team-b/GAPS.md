@@ -379,3 +379,14 @@ Kiribati Family Health Association’s own indexed page lists diabetes and blood
 - The US Celiac Disease Foundation's 2026 Dietitian Advisory Council online classes are educational activity, not a scientific trial, clinical guideline, diagnosis or approval of claims. HLA carriage and antibody positivity do not independently establish celiac disease.
 - Checked 2021 Malaysian MaHTAS gout guideline already exists at `B-MY-MSR` and must not be counted again. Existing CMR Mexico Spanish guideline catalogue did not display a gout-specific source at that bounded check; this is not evidence of Mexican national absence.
 - Batch 39 did not resolve five issuer-country uncertainties, the 22 area identity gaps or community governance/permissions. All 14 diversity cautions elsewhere in this document remain unchanged.
+
+## Batch 43 · first-party hypertension research limits (2026-11-05)
+
+- **208 · B-DK-DAHS:** Danish own guideline index; linked external specialty documents not ascribed to DAHS. First-party source: https://www.dahs.dk/guidelines/.
+- **250 · B-FR-SFHTA:** SFHTA is subsidiary of SFC; its recommendations list includes translations and other organizations' material. First-party source: https://www.sfhta.eu/recommandations-de-la-sfhta/.
+- **276 · B-DE-DHL:** 2023 first-party press confirms participation in multi-author NVL; not the guideline or exclusive authorship. First-party source: https://www.hochdruckliga.de/pressemitteilung/nvl-pm-20230705-2.
+- **380 · B-IT-SIIA:** 2024 SIIA technical 24h BP-monitoring recommendation; first page visually checked, no whole-PDF clinical appraisal. First-party source: https://siia.it/wp-content/uploads/2024/09/Standard-per-esecuzione-ed-interpretazione-MAP-SIIA-2024-2.pdf.
+- **826 · B-GB-BIHS:** 2024 professional position statements indexed; UK-domiciled UK-Ireland remit does not establish statutory Ireland jurisdiction or authorship of every linked guideline. First-party source: https://bihs.org.uk/education/guidelines.aspx.
+
+The five new hypertension-linked cells are **document-discovery positives only**. Denmark's linked index includes external specialty material; SFHTA membership is through SFC and the professional entity must not be assumed legally independent; Germany's association is a participant rather than sole national guideline issuer; Italy's technical 24-hour monitoring recommendations do not equal universal treatment standards; UK-domiciled BIHS's Irish remit is not a domicile or legal-adoption inference. No full therapeutic guideline appraisal, population sampling, or ancestry-risk generalization occurred. No source absence or historical lifecycle gap elsewhere is closed. Remaining 1,360 zero-resource cells without targeted searches; 21 areas without eligible verified locally domiciled organizations; 5 source-issuer-country unknowns. Retain all 14 diversity failure examples and each prior conflict.
+

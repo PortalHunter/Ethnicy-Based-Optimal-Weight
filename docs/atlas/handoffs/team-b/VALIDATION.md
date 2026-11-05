@@ -161,3 +161,12 @@ Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator wi
 
 
 **Batch 39 immutable GitHub readback (2026-11-05):** Commit `963342355814d850a0466a325eb27e4eac421e02` independently fetched against a non-truncated recursive tree. All **18/18** Team B file contents blob IDs matched the tree; **0 mismatches**. PR #71 remained open/draft/unmerged, with 18/18 changed paths confined to `docs/atlas/handoffs/team-b/`. This GitHub integrity check does not establish any external-source or clinical validity; actual Node CLI still not run.
+
+## Batch 43 · 2026-11-05 · immutable six-CSV hypertension batch
+
+- Parent branch data SHA before commit: `de235538dafffc08c85be12d9d18ea2f269ebfb5`. Atomic six-CSV source commit `1e20927dfebe5f31cab326bfd2d38a8c615eb489`: organizations, condition resources, exact publication contexts, M49×7 coverage, provenance, search logs. No modifications outside Team B.
+- Prewrite full JavaScript-equivalent validator: baseline **0 errors** (370/267/243/757/443). Prepared new sources verified structurally **0 errors** (375/272/248/767/448).
+- Independent **post-commit immutable readback** fetched all ten CSV inputs at `1e20927dfebe5f31cab326bfd2d38a8c615eb489` and compared their blob SHA to the nontruncated 145-entry Git recursive tree: **10/10 matched**, zero blob mismatches. Rebuilt full structural invariants on actual committed CSVs, **0 errors**: 248 M49 areas × seven conditions, M49 snapshot alignment, per-row CSV widths, unique IDs, exact resource/context/role joins, source country bases and evidence IDs, complete condition count/search-log foreign keys, seven community records, eight cross-border foreign keys, all ten original input tables. Counters: 375 organizations across 227 domicile areas; 272 exact relations, 248 positive cells; 1,488 zero-source cells (128 targeted; 1,360 without targeted check); 767 provenance, 448 search logs; five unknown issuer countries.
+- **Node CLI was not executed**: local container cannot resolve GitHub to clone the repository, and GitHub connector data are not mounted there. Equivalent JavaScript checks are **not** a claim of actual execution of `node docs/atlas/handoffs/team-b/validate.mjs`.
+- External source checks were bounded: original society pages and guideline lists inspected; first page of the SIIA 2024 PDF visually checked. No full clinical, legal, ethical, cultural-permission, source-lifecycle or complete site crawl asserted. All claims remain `research_lead_only`. PR remains draft/unmerged.
+

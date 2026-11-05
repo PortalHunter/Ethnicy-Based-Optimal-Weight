@@ -1,5 +1,12 @@
 # Team B changelog
 
+## 2026-11-05 — Batch 43: five original-language hypertension organizations
+
+- Added five source-backed professional bodies in Denmark, France, Germany, Italy and the UK, with exactly five typed publication URLs and issuer/population/jurisdiction contexts. +5 first-positive hypertension cells, +10 provenance rows and +5 targeted checks; 0 new domiciled areas.
+- Important boundaries: SFHTA is affiliated to parent SFC; DHL participated in a multi-issuer German NVL; SIIA issued a 2024 24-hour BP-monitoring technical document; BIHS's Irish professional reach is not Irish domicile or statutory jurisdiction; Danish index contains externally authored links.
+- [Immutable data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1e20927dfebe5f31cab326bfd2d38a8c615eb489): 10/10 Git blob matches on 145-entry nontruncated tree, all source/context/area/log joins checked independently (0 structural errors). Actual Node CLI not run due local GitHub DNS failure; all findings research leads only.
+- Current 375 organizations/227 areas; 272 exact resources/248 linked cells; 128 targeted no-link, 1,360 not-targeted zero-source cells; 767 provenance, 448 logs; 5 unresolved issuer countries; no approvals. No website edits or PR merge.
+
 ## 2026-11-05 — Batch 42: original-source lactose indexing, new Chile/NZ societies
 
 - Added independently identified [Coeliac New Zealand](https://coeliac.org.nz/associated-conditions/) and [Sociedad Chilena de Gastroenterología](https://sociedadgastro.cl/gastroweb/documentos/2021/Congreso_pacientes_programa_2.pdf) (+2 organizations, no new M49 domicile).

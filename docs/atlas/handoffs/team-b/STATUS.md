@@ -1,18 +1,33 @@
 # Team B status · 2026-11-05
 
-**INCOMPLETE after batch 42.** [Draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) is open, unmerged; branch `research/atlas-team-b-20261104`, base `main`. Verified data commit: [`db5b050d6a9139959e5ced1cecfefe0828b5eb4d`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/db5b050d6a9139959e5ced1cecfefe0828b5eb4d). Only Team B research directory changed; all resources remain `research_lead_only`.
+**INCOMPLETE after batch 43.** Draft [PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) remains open/unmerged, branch `research/atlas-team-b-20261104`, base `main`. Verified data SHA [`1e20927dfebe5f31cab326bfd2d38a8c615eb489`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1e20927dfebe5f31cab326bfd2d38a8c615eb489). Only Team B research files changed; no public website or clinical calculations.
 
 | Measure | Verified result |
 |---|---:|
-| UN M49 areas × seven conditions | 248 × 7 = **1,736** |
-| Organizations / domiciled areas / missing identities | **370 / 227 / 21** |
-| Resource relationships / positive area-condition cells | **267 / 243** |
-| Unlinked cells / targeted no-link / without targeted check | **1,493 / 128 / 1,365** |
-| Provenance / condition-search logs | **757 / 443** |
-| Indigenous/community records / cross-border edges | **7 / 8** |
-| Unresolved issuer-country cases / approved claims | **5 / 0** |
+| UN M49 areas × 7 conditions | 248 × 7 = **1,736** |
+| Organizations / domiciled areas / missing locally domiciled identity | **375 / 227 / 21** |
+| Exact resource relationships / positive area-condition cells | **272 / 248** |
+| Zero-resource cells / targeted no-link / no targeted check | **1,488 / 128 / 1,360** |
+| Provenance / search logs | **767 / 448** |
+| Community records / cross-border edges | **7 / 8** |
+| Unresolved issuer-country cases / approved clinical claims | **5 / 0** |
 
-Source-positive by condition: diabetes **88**, hypertension **32**, high_chol **26**, gout **25**, lactose **18**, celiac **34**, hemochromatosis **20**. The new lactose-positive Chile 152 cell is an **archival programme**, not clinical research evidence; other four newly linked lactose resources are in already source-positive areas.
+Source-positive cells: diabetes 88, hypertension **37**, high_chol 26, gout 25, lactose 18, celiac 34, hemochromatosis 20. A positive link is **not** proof of a valid medical recommendation or national evidence coverage.
+
+## Batch 43 · 2026-11-05 · five first-party hypertension society sources
+
+Five new verified source leads in five previously unlinked area-condition cells: Dansk Hypertensionsselskab (Denmark 208), SFHTA (France 250), Deutsche Hochdruckliga (Germany 276), SIIA (Italy 380), and British and Irish Hypertension Society (UK 826). **+5 organizations, +5 exact URL relations, +5 source-positive hypertension cells, +10 provenance rows, +5 searches; 0 new M49 domicile areas.**
+
+- Denmark: [DAHS guidance listing](https://www.dahs.dk/guidelines/) includes society-issued guidance and outbound links to other specialties; do not attribute external work to DAHS.
+- France: [SFHTA recommendations catalogue](https://www.sfhta.eu/recommandations-de-la-sfhta/) mixes society positions, translations and international guidance. Its [membership page](https://www.sfhta.eu/membres-sfhta/devenir-membre/) explicitly requires parent Société Française de Cardiologie membership; SFHTA is **not** recorded as independently incorporated.
+- Germany: [2023 DHL statement](https://www.hochdruckliga.de/pressemitteilung/nvl-pm-20230705-2) records **participation** in the multi-institutional German NVL, not exclusive guideline authorship. [Own imprint](https://www.hochdruckliga.de/impressum) documents its Heidelberg registered-association identity.
+- Italy: [original 2024 Italian SIIA 24-hour ambulatory BP monitoring recommendations](https://siia.it/wp-content/uploads/2024/09/Standard-per-esecuzione-ed-interpretazione-MAP-SIIA-2024-2.pdf). Its first PDF page was visually inspected and is explicit about monitoring/reporting; **not** a full treatment guideline or ancestry claim.
+- United Kingdom: [BIHS first-party guideline list](https://bihs.org.uk/education/guidelines.aspx) includes 2024 professional statements. UK-based British-and-Irish professional remit neither establishes a single healthcare jurisdiction nor a locally domiciled Irish society.
+
+Source issuer country equals each linked society's first-party page/document publisher, **not** patient ancestry, sampled population or legal guideline jurisdiction. All five new contexts are `research_lead_only`; no treatment, risk, diet or genetics recommendation released. All original 14 diverse-population cautions, five issuer-country unknowns, 21 missing local identities, 7 community records, 8 service edges, historical source distinctions and Mexican 2026 gout abstract 68-vs-67 discrepancy remain unresolved.
+
+**Data SHA:** [`1e20927dfebe5f31cab326bfd2d38a8c615eb489`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1e20927dfebe5f31cab326bfd2d38a8c615eb489). **Independent immutable validation:** 10/10 exact CSV blobs matched nontruncated 145-entry Git tree; all structural checks 0 errors; Node CLI **not run** (container GitHub DNS inaccessible). 375 organizations in 227 areas; 272 resource relationships, 248 source-positive cells; 1,488 without a linked source (128 previously targeted, 1,360 without targeted check); 767 provenance, 448 logs. This is a source index, not clinical appraisal.
+
 
 ## Batch 42 · two organizations and five first-party lactose resource links
 
