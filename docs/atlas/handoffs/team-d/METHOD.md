@@ -28,3 +28,7 @@ Checked: 2026-11-04. All user-facing clinical advice remains unchanged.
 - Program-specific participation lists in Africa/Pacific/Middle East/South Asia and study collaboration evidence links.
 
 See `GAPS.md`, `data/network_coverage_gaps.csv` and `BOUNDARY_CASES.md`.
+
+## 2026-11-05 geographic reconciliation update
+
+The 248 English rows in the current UN M49 overview were extracted from rendered lines 16–263, deduplicated by three-character code and compared in both directions with the original 249 ISO candidates. No official UN row is missing from the seed; seed-only 158 is preserved in geographic_seed_exceptions.csv. un_m49_geographic_crosswalk.csv is authoritative for this captured UN overview roster, while m49_network_status.csv retains all legacy candidates for continuity. Region, governance and office presence are independent. Unknown inception dates use unknown; unreviewed status fields use not_verified. Consult BATCH_2026-11-05.md for stale-source conflicts.

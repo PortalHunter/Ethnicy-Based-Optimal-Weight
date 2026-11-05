@@ -1,5 +1,14 @@
 # Team D — Changelog
 
+## 2026-11-05 — Batch 1: UN reconciliation and SEARO
+
+- Added 248 official UN crosswalk records and one explicit ISO candidate exception (158), preserving all 249 prior status IDs.
+- Verified nine new WHO region assignments and added ten region edges; rechecked Timor-Leste. Twelve region statuses verified, 237 unknown.
+- Added ten separate WHO office presence records. Added three provenance URLs and refreshed UN source 012.
+- Recorded stale WHO department roster conflict; did not promote inaccessible EMRO search extracts.
+- Source, uncertainty and structural validation details: BATCH_2026-11-05.md and VALIDATION.md.
+
+
 ## 2026-11-04 — Research Team D atlas created and committed to dedicated draft PR #70
 
 - Created isolated branch `research/atlas-team-d-20261104` from `main`; opened draft pull request before expansive data collection.

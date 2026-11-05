@@ -1,6 +1,10 @@
 # Ancestry Health — Team D international health network atlas
 
-**Research snapshot:** 2026-11-04 | **Status:** draft for maintainer and scientific review | **PR:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70
+**Current snapshot: 2026-11-05. See STATUS.md for authoritative current counts; the inventory below is the original 2026-11-04 baseline.**
+
+Added: 248 official UN M49 crosswalk records; one separately retained ISO seed exception; ten new SEARO region edges; ten independent office presence records. See BATCH_2026-11-05.md.
+
+**Original research snapshot:** 2026-11-04 | **Status:** draft for maintainer and scientific review | **PR:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70
 
 Team D maps **typed, source-linked, time-aware institutional relationships** among international and regional health organizations, formal member countries, scientific societies, and research/public-health initiatives. It does **not** decide clinical treatment, validate an individual study, or infer that countries automatically adopt an international clinical guideline. No public calculator or medical content has been changed.
 

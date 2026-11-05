@@ -1,8 +1,8 @@
 # Team D — Unresolved coverage and scientific safeguards
 
-As of 2026-11-04, the graph is a **verified seed plus explicit review queue**, not a comprehensive authority atlas.
+Historical gaps recorded 2026-11-04, the graph is a **verified seed plus explicit review queue**, not a comprehensive authority atlas.
 
-- WHO office count and membership are not country-office presence. Only Indonesia, Algeria and Timor-Leste have individually verified region values in the M49 status matrix. The remaining 246 are unresolved. The 249-code seed is derived from ISO numeric candidates and still requires a row-level match with the official UN M49 country/area universe; this is intentionally **not described as 249 source-verified UN regions**.
+- Updated 2026-11-05: UN overview reconciliation now complete at 248 official country/area rows; ISO seed-only code 158 is a separate exception. Twelve region status rows are verified, 237 remain not_verified. Ten SEARO office presence records are explicit; other 239 seed areas require office review. WHO region, membership and office presence remain distinct.
 - United States WHO constitutional governance remains `PENDING_VERIFICATION`; PAHO sovereign-state membership is independently documented and remains in its own edge set. [WHO country list](https://www.who.int/countries).
 - Africa CDC/AU, ASEAN Health Sector, and EMRN require explicit, time-stamped national/competent-agency rosters and bilateral legal remits before national country-level ties can be expanded. [Africa CDC](https://africacdc.org/about-us/), [EMA](https://www.ema.europa.eu/en/about-us/how-we-work/european-medicines-regulatory-network).
 - AOECS member count differs across pages on its own website (directory vs about page); retain versioned snapshots rather than select one number without explanation. [Members](https://www.aoecs.org/about-us/members/), [About](https://www.aoecs.org/about-us/).
