@@ -1,249 +1,249 @@
 m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,delegation_review,conflict_or_rename_flag,last_reviewed_utc,review_notes
-004,Afghanistan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-008,Albania,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-010,Antarctica,,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-012,Algeria,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-016,American Samoa,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-020,Andorra,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-024,Angola,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-028,Antigua and Barbuda,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-031,Azerbaijan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-032,Argentina,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-036,Australia,Oceania,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,2026-11-04,Official governmental authority page checked; detailed competencies still incomplete
-040,Austria,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-044,Bahamas,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-048,Bahrain,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-050,Bangladesh,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-051,Armenia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-052,Barbados,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-056,Belgium,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-060,Bermuda,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-064,Bhutan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-068,Bolivia (Plurinational State of),Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-070,Bosnia and Herzegovina,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-072,Botswana,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-074,Bouvet Island,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-076,Brazil,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,2026-11-04,Official governmental authority page checked; detailed competencies still incomplete
-084,Belize,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-086,British Indian Ocean Territory,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-090,Solomon Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-092,British Virgin Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-096,Brunei Darussalam,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-100,Bulgaria,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-104,Myanmar,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-108,Burundi,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-112,Belarus,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-116,Cambodia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-120,Cameroon,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-124,Canada,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-132,Cabo Verde,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-136,Cayman Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-140,Central African Republic,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-144,Sri Lanka,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-148,Chad,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-152,Chile,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-156,China,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-162,Christmas Island,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-166,Cocos (Keeling) Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-170,Colombia,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-174,Comoros,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-175,Mayotte,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-178,Congo,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-180,Democratic Republic of the Congo,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-184,Cook Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-188,Costa Rica,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-191,Croatia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-192,Cuba,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-196,Cyprus,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-203,Czechia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-204,Benin,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-208,Denmark,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-212,Dominica,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-214,Dominican Republic,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-218,Ecuador,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-222,El Salvador,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-226,Equatorial Guinea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-231,Ethiopia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-232,Eritrea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-233,Estonia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-234,Faroe Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-238,Falkland Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-239,South Georgia and the South Sandwich Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-242,Fiji,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-246,Finland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-248,Åland Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-250,France,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-254,French Guiana,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-258,French Polynesia,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-260,French Southern Territories,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-262,Djibouti,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-266,Gabon,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-268,Georgia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-270,Gambia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-275,State of Palestine,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-276,Germany,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,2026-11-04,Official governmental authority page checked; detailed competencies still incomplete
-288,Ghana,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-292,Gibraltar,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-296,Kiribati,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-300,Greece,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-304,Greenland,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-308,Grenada,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-312,Guadeloupe,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-316,Guam,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-320,Guatemala,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-324,Guinea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-328,Guyana,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-332,Haiti,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-334,Heard Island and McDonald Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-336,Holy See,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-340,Honduras,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-344,"China, Hong Kong Special Administrative Region",Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-348,Hungary,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-352,Iceland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-356,India,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-360,Indonesia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-364,Iran (Islamic Republic of),Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-368,Iraq,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-372,Ireland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-376,Israel,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-380,Italy,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-384,Ivory Coast,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-388,Jamaica,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-392,Japan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official governmental authority page checked; detailed competencies still incomplete
-398,Kazakhstan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-400,Jordan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-404,Kenya,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-408,Democratic People's Republic of Korea,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-410,Republic of Korea,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-414,Kuwait,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-417,Kyrgyzstan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-418,Lao People's Democratic Republic,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-422,Lebanon,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-426,Lesotho,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-428,Latvia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-430,Liberia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-434,Libya,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-438,Liechtenstein,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-440,Lithuania,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-442,Luxembourg,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-446,"China, Macao Special Administrative Region",Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-450,Madagascar,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-454,Malawi,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-458,Malaysia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-462,Maldives,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-466,Mali,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-470,Malta,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-474,Martinique,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-478,Mauritania,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-480,Mauritius,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-484,Mexico,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-492,Monaco,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-496,Mongolia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-498,Republic of Moldova,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-499,Montenegro,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-500,Montserrat,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-504,Morocco,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-508,Mozambique,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-512,Oman,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-516,Namibia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-520,Naoero,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-524,Nepal,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-528,Netherlands (Kingdom of the),Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-531,Curaçao,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-533,Aruba,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-534,Sint Maarten (Dutch part),Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-535,"Bonaire, Sint Eustatius and Saba",Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-540,New Caledonia,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-548,Vanuatu,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-554,New Zealand,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-558,Nicaragua,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-562,Niger,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-566,Nigeria,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-570,Niue,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-574,Norfolk Island,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-578,Norway,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-580,Northern Mariana Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-581,United States Minor Outlying Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-583,Micronesia (Federated States of),Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-584,Marshall Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-585,Palau,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-586,Pakistan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-591,Panama,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-598,Papua New Guinea,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-600,Paraguay,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-604,Peru,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-608,Philippines,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-612,Pitcairn,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-616,Poland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-620,Portugal,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-624,Guinea-Bissau,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-626,Timor-Leste,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-630,Puerto Rico,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-634,Qatar,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-638,Réunion,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-642,Romania,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-643,Russian Federation,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-646,Rwanda,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-652,Saint Barthélemy,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-654,Saint Helena,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-659,Saint Kitts and Nevis,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-660,Anguilla,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-662,Saint Lucia,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-663,Saint Martin (French Part),Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-666,Saint Pierre and Miquelon,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-670,Saint Vincent and the Grenadines,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-674,San Marino,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-678,Sao Tome and Principe,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-682,Saudi Arabia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-686,Senegal,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-688,Serbia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-690,Seychelles,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-694,Sierra Leone,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-702,Singapore,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-703,Slovakia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-704,Viet Nam,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-705,Slovenia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-706,Somalia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-710,South Africa,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official governmental authority page checked; detailed competencies still incomplete
-716,Zimbabwe,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-724,Spain,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-728,South Sudan,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-729,Sudan,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-732,Western Sahara,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_REVIEW_PENDING,,Governmental authority site has not yet been checked
-740,Suriname,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-744,Svalbard and Jan Mayen Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-748,Eswatini,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-752,Sweden,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-756,Switzerland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-760,Syrian Arab Republic,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-762,Tajikistan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-764,Thailand,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-768,Togo,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-772,Tokelau,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-776,Tonga,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-780,Trinidad and Tobago,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-784,United Arab Emirates,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-788,Tunisia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-792,Türkiye,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-795,Turkmenistan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-796,Turks and Caicos Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-798,Tuvalu,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-800,Uganda,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-804,Ukraine,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-807,North Macedonia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-818,Egypt,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-826,United Kingdom of Great Britain and Northern Ireland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-831,Guernsey,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-832,Jersey,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-833,Isle of Man,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-834,United Republic of Tanzania,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-840,United States of America,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-850,United States Virgin Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-854,Burkina Faso,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-858,Uruguay,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-860,Uzbekistan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-862,Venezuela (Bolivarian Republic of),Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-876,Wallis and Futuna Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-882,Samoa,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-887,Yemen,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
-894,Zambia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,Governmental authority site has not yet been checked
+004,Afghanistan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+008,Albania,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+010,Antarctica,,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+012,Algeria,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+016,American Samoa,Oceania,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+020,Andorra,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+024,Angola,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+028,Antigua and Barbuda,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+031,Azerbaijan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+032,Argentina,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+036,Australia,Oceania,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+040,Austria,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+044,Bahamas,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+048,Bahrain,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+050,Bangladesh,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+051,Armenia,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+052,Barbados,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+056,Belgium,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+060,Bermuda,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+064,Bhutan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+068,Bolivia (Plurinational State of),Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+070,Bosnia and Herzegovina,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+072,Botswana,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+074,Bouvet Island,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+076,Brazil,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+084,Belize,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+086,British Indian Ocean Territory,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+090,Solomon Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+092,British Virgin Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+096,Brunei Darussalam,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+100,Bulgaria,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+104,Myanmar,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+108,Burundi,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+112,Belarus,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+116,Cambodia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+120,Cameroon,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+124,Canada,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+132,Cabo Verde,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+136,Cayman Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+140,Central African Republic,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+144,Sri Lanka,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+148,Chad,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+152,Chile,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+156,China,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+162,Christmas Island,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+166,Cocos (Keeling) Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+170,Colombia,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+174,Comoros,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+175,Mayotte,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+178,Congo,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+180,Democratic Republic of the Congo,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+184,Cook Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+188,Costa Rica,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+191,Croatia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+192,Cuba,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+196,Cyprus,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+203,Czechia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+204,Benin,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+208,Denmark,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+212,Dominica,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+214,Dominican Republic,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+218,Ecuador,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+222,El Salvador,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+226,Equatorial Guinea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+231,Ethiopia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+232,Eritrea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+233,Estonia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+234,Faroe Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+238,Falkland Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+239,South Georgia and the South Sandwich Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+242,Fiji,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+246,Finland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+248,Åland Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+250,France,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+254,French Guiana,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+258,French Polynesia,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+260,French Southern Territories,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+262,Djibouti,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+266,Gabon,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+268,Georgia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+270,Gambia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+275,State of Palestine,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+276,Germany,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+288,Ghana,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+292,Gibraltar,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+296,Kiribati,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+300,Greece,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+304,Greenland,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+308,Grenada,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+312,Guadeloupe,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+316,Guam,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+320,Guatemala,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+324,Guinea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+328,Guyana,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+332,Haiti,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+334,Heard Island and McDonald Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+336,Holy See,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+340,Honduras,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+344,"China, Hong Kong Special Administrative Region",Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+348,Hungary,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+352,Iceland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+356,India,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+360,Indonesia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+364,Iran (Islamic Republic of),Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+368,Iraq,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+372,Ireland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+376,Israel,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+380,Italy,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+384,Ivory Coast,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+388,Jamaica,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+392,Japan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+398,Kazakhstan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+400,Jordan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+404,Kenya,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+408,Democratic People's Republic of Korea,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+410,Republic of Korea,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+414,Kuwait,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+417,Kyrgyzstan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+418,Lao People's Democratic Republic,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+422,Lebanon,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+426,Lesotho,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+428,Latvia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+430,Liberia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+434,Libya,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+438,Liechtenstein,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+440,Lithuania,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+442,Luxembourg,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+446,"China, Macao Special Administrative Region",Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+450,Madagascar,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+454,Malawi,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+458,Malaysia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+462,Maldives,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+466,Mali,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+470,Malta,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+474,Martinique,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+478,Mauritania,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+480,Mauritius,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+484,Mexico,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+492,Monaco,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+496,Mongolia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+498,Republic of Moldova,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+499,Montenegro,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+500,Montserrat,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+504,Morocco,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+508,Mozambique,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+512,Oman,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+516,Namibia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+520,Naoero,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+524,Nepal,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+528,Netherlands (Kingdom of the),Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+531,Curaçao,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+533,Aruba,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+534,Sint Maarten (Dutch part),Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+535,"Bonaire, Sint Eustatius and Saba",Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+540,New Caledonia,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+548,Vanuatu,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+554,New Zealand,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+558,Nicaragua,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+562,Niger,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+566,Nigeria,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+570,Niue,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+574,Norfolk Island,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+578,Norway,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+580,Northern Mariana Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+581,United States Minor Outlying Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+583,Micronesia (Federated States of),Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+584,Marshall Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+585,Palau,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+586,Pakistan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+591,Panama,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+598,Papua New Guinea,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+600,Paraguay,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+604,Peru,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+608,Philippines,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+612,Pitcairn,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+616,Poland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+620,Portugal,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+624,Guinea-Bissau,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+626,Timor-Leste,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+630,Puerto Rico,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+634,Qatar,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+638,Réunion,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+642,Romania,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+643,Russian Federation,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+646,Rwanda,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+652,Saint Barthélemy,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+654,Saint Helena,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+659,Saint Kitts and Nevis,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+660,Anguilla,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+662,Saint Lucia,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+663,Saint Martin (French Part),Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+666,Saint Pierre and Miquelon,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+670,Saint Vincent and the Grenadines,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+674,San Marino,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+678,Sao Tome and Principe,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+682,Saudi Arabia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+686,Senegal,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+688,Serbia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+690,Seychelles,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+694,Sierra Leone,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+702,Singapore,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+703,Slovakia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+704,Viet Nam,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+705,Slovenia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+706,Somalia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+710,South Africa,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
+716,Zimbabwe,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+724,Spain,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+728,South Sudan,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+729,Sudan,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+732,Western Sahara,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+740,Suriname,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+744,Svalbard and Jan Mayen Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+748,Eswatini,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+752,Sweden,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+756,Switzerland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+760,Syrian Arab Republic,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+762,Tajikistan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+764,Thailand,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+768,Togo,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+772,Tokelau,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+776,Tonga,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+780,Trinidad and Tobago,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+784,United Arab Emirates,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+788,Tunisia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+792,Türkiye,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+795,Turkmenistan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+796,Turks and Caicos Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+798,Tuvalu,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+800,Uganda,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+804,Ukraine,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+807,North Macedonia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+818,Egypt,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+826,United Kingdom of Great Britain and Northern Ireland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+831,Guernsey,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+832,Jersey,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+833,Isle of Man,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+834,United Republic of Tanzania,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+840,United States of America,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+850,United States Virgin Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+854,Burkina Faso,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+858,Uruguay,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+860,Uzbekistan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+862,Venezuela (Bolivarian Republic of),Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+876,Wallis and Futuna Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+882,Samoa,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+887,Yemen,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+894,Zambia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
