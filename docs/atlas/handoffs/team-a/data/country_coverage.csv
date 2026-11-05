@@ -46,7 +46,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 162,Christmas Island,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 166,Cocos (Keeling) Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 170,Colombia,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
-174,Comoros,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+174,Comoros,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,PORTAL_TEMPLATE_AND_CURRENT_STATUTE_PENDING;MAYOTTE_SEPARATE,2026-11-05,"Own August 2026 ministry news/portal plus a September 2026 government decree index name the ministry; the portal retains test/placeholder content and inconsistent singular/plural headings, and the indexed decree title is not a full legal competence instrument. Mayotte's separate M49 jurisdiction is not resolved by a portal geography paragraph. Statutory responsibilities and actual official title/effective dates require primary legal text."
 175,Mayotte,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 178,Congo,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Government identity page; mandate body unavailable at check
 180,Democratic Republic of the Congo,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_REVIEW_PENDING,2026-11-05,Own official site differs Prévoyance sociale versus Préventions; legal current title unresolved
@@ -66,7 +66,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 231,Ethiopia,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,FEDERAL_REGIONAL_COMPETENCE_PENDING,2026-11-05,Government ministry English mission page enumerates powers under Proclamation 1097/2018; current institutional identity independently corroborated by EPHI. Amharic-script title not independently verified; later legal amendments and regional bureau powers pending.
 232,Eritrea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 233,Estonia,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Institutional remit and local name directly checked; statutory instrument linked but not separately appraised. No agency hierarchy inferred.
-234,Faroe Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+234,Faroe Islands,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,RECENT_MINISTRY_RESTRUCTURING_AND_DANISH_SCOPE_PENDING,2026-11-05,"Current government ministry site and October 2026 Faroese notices identify Health and Energy ministry; former Heilsumálaráðið and 1 December 2025 Social Affairs and Health ministerial grouping are historical, not current 2026 titles. Exact effective act for subsequent restructuring and Danish/Faroese allocation remain to be independently checked; do not assign parent M49 208 by assumption."
 238,Falkland Islands (Malvinas),Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_REVIEW_PENDING,SPECIAL_JURISDICTION_OR_DEVOLUTION_REVIEW_PENDING,2026-11-05,Falkland Islands Government identifies own service department and CMO advisory roles; contested sovereignty and UK or Argentinian state competence not assessed or asserted; separate Public Health Unit documented.
 239,South Georgia and the South Sandwich Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 242,Fiji,Oceania,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Official 2026 vacancy and September advisory; full legal mandate pending.
@@ -124,15 +124,15 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 430,Liberia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 434,Libya,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 438,Liechtenstein,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-440,Lithuania,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+440,Lithuania,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,STATUTORY_AND_MUNICIPAL_SCOPE_PENDING,2026-11-05,"Current ministry site plus 14 July 2026 Lithuanian Government cabinet formation independently corroborate institution. Named minister portfolio page last updated 3 August 2026. Ministry current legal regulations, local competencies, and regulator enforcement mandates not fully adjudicated."
 442,Luxembourg,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 446,"China, Macao Special Administrative Region",Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 450,Madagascar,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 454,Malawi,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 458,Malaysia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Timeout. Authority remains unknown; alternate official source needed.
-462,Maldives,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+462,Maldives,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,APRIL_2026_RENAME;THAANA_AND_HOSPITAL_AFFILIATION_PENDING,2026-11-05,"President's Office Directive 8/2026 dated 15 April 2026 publishes the Dhivehi title in romanization and separate presidency restructuring release describes rename from Ministry of Health; ministry's current portal confirms the new English name. Original Thaana script and exact legal gazette text remain pending; November 2 tertiary hospital group is presidentially accountable and only affiliated with this ministry, not automatically subordinate."
 466,Mali,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-470,Malta,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+470,Malta,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,HISTORICAL_WEB_COPY_AND_BILINGUAL_SCOPE_PENDING,2026-11-05,"March 10 2026 government gazette appointments and April-June 2026 gov.mt consultation identify current Ministry for Health and Active Ageing. Some undated ministry web copy still says Office of Deputy Prime Minister and Ministry for Health: retain it as historical/possibly stale, not a verified current title. Precise statutory health/public-health allocations and bilingual Maltese title not certified."
 474,Martinique,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 478,Mauritania,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 480,Mauritius,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
