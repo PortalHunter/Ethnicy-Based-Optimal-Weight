@@ -11,7 +11,7 @@ Read original TEAM_B_CLINICAL_ORGANIZATIONS.md and shared DATA_CONTRACT.md under
 
 Exclusive scope: non-government specialist societies, patient-condition organizations, biomedical and community-controlled research bodies across248 M49 areas and seven streams: diabetes,hypertension,high_chol,gout,lactose,celiac,hemochromatosis. Do not redo government census, international-network census or journal catalog. Write only team-b/ on existing branch; no main writes, merge, live calculator or clinical activation.
 
-Current totals:197 identities in119 areas,149 resource relationships,143 positive cells,1593 unresearched,350 provenance,121 search rows,3 community-specific records,zero clinical approvals. Research INCOMPLETE;129 areas lack identities. Search log began batch8; historical attempts not backfilled.
+Current totals:217 identities in137 areas,155 resource relationships,149 positive cells,1587 unresearched,376 provenance,149 search rows,3 community-specific records,zero clinical approvals. Research INCOMPLETE;129 areas lack identities. Search log began batch8; historical attempts not backfilled.
 
 This run batches8–12 added98 identities and57 resources. B8 celiac Europe; B9 Africa/Asia and independently extracted current UNSD rendered table; B10 iron overload/gout/lactose; B11 FH; B12 Caribbean/territories. Exact UN code-set248 match passed, but direct downloadable-export/WHO/legal audits remain open.
 
@@ -30,3 +30,7 @@ Next priorities: Expand sparse lactose/gout streams using original-language prof
 
 Latest batch14: Added7 specialist/patient identities and8 lactose source relationships across8 areas; all research leads. Logged Italy in-development project and inaccessible Portuguese lead without coverage credit.
 Next priorities: Prioritize new-area Africa/MENA/Asia discovery and original publications for directory-only organizations; preserve lactose phenotype distinctions.
+
+
+Latest batch15: Added20 organization identities in18 newly covered M49 areas and6 resource relationships (Lebanon,Pakistan,Tunisia,Saudi Arabia,Qatar diabetes and lipids). Fourteen identities remain directory-led; Oman own-site identity only. Regulatory supervision, foundation membership, hosting,publishing and guideline coordination distinguished.
+Next priorities: Verify original publications for remaining MENA identities; extend remaining Africa,Asia,Europe and Pacific areas and gout/lactose streams.

@@ -88,3 +88,7 @@ Verified Haiti French diabetes and hypertension education and Belize non-www pat
 
 ## Batch 14 — 2026-11-05
 Added7 specialist/patient identities and8 lactose source relationships across8 areas; all research leads. Logged Italy in-development project and inaccessible Portuguese lead without coverage credit. Totals: {"organizations":197,"areas":119,"resources":149,"positive":143,"unresearched":1593,"provenance":350,"search_log":121,"community":3,"by_condition":{"diabetes":49,"hypertension":14,"high_chol":19,"gout":9,"lactose":13,"celiac":23,"hemochromatosis":16},"current_unsd_overview_codes":248}. Zero structural errors.
+
+
+## Batch 15 — 2026-11-05
+Added20 organization identities in18 newly covered M49 areas and6 resource relationships (Lebanon,Pakistan,Tunisia,Saudi Arabia,Qatar diabetes and lipids). Fourteen identities remain directory-led; Oman own-site identity only. Regulatory supervision, foundation membership, hosting,publishing and guideline coordination distinguished. Totals: {"organizations":217,"areas":137,"resources":155,"positive":149,"unresearched":1587,"provenance":376,"search_log":149,"community":3,"by_condition":{"diabetes":54,"hypertension":14,"high_chol":20,"gout":9,"lactose":13,"celiac":23,"hemochromatosis":16},"current_unsd_overview_codes":248}. Zero structural errors.
