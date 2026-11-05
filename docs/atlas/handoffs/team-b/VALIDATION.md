@@ -1,4 +1,22 @@
-# Team B validation — batch25
+# Team B validation history
+
+## Verified checkpoint · batches 30–36 · 2026-11-05
+
+For each batch, all 18 Team B files fetched by immutable SHA matched the prepared content and the GitHub tree's blob hashes. The ten CSV inputs passed the committed validator under Node v24.22.1 before the branch write and again on the byte-matched files after readback. Every row below had zero structural errors.
+
+| Batch | Verified commit | Organizations | Home areas | Resource relationships | Cells with a source |
+|---|---|---:|---:|---:|---:|
+| 30 | [09fd48481c10658452b8084b4d11cb7065a85866](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/09fd48481c10658452b8084b4d11cb7065a85866) | 320 | 208 | 203 | 192 |
+| 31 | [f65ea551d832aa84dd9d486cc78b74201d33f0a9](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f65ea551d832aa84dd9d486cc78b74201d33f0a9) | 329 | 208 | 214 | 202 |
+| 32 | [0bd62e5ad33b21e56f6b12a5fc4d2c459d912455](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/0bd62e5ad33b21e56f6b12a5fc4d2c459d912455) | 329 | 208 | 214 | 202 |
+| 33 | [6facc9e33263b26ca52b80948747d7e2a998c289](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/6facc9e33263b26ca52b80948747d7e2a998c289) | 329 | 208 | 214 | 202 |
+| 34 | [bec0e063b4a32c5094773bbdc31857ad822527e0](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/bec0e063b4a32c5094773bbdc31857ad822527e0) | 339 | 216 | 226 | 213 |
+| 35 | [88f2acd640d37c12f66e07f865fd546a5f823c30](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/88f2acd640d37c12f66e07f865fd546a5f823c30) | 351 | 220 | 238 | 224 |
+| 36 | [f917e48b0a181a391b2e30d7b39c987d5171e86e](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f917e48b0a181a391b2e30d7b39c987d5171e86e) | 358 | 223 | 245 | 228 |
+
+Batch 32 reconciled targeted searches with the matrix. Batch 33 keyed each publication context to its exact URL and separated the issuer from the organization’s home area. The final local perturbation checks rejected six deliberately corrupted inputs. Data validity and clinical interpretation require separate review. Earlier notes anticipating immutable checks are closed by these receipts.
+
+## Earlier validation records
 
 Nine CSVs validated after each of batches23,24,25 using committed validate.mjs core+overview in orchestration JavaScript:zero errors. Node CLI not run. Structural/geographic/key/provenance/relationship checks only; retained248-code UN snapshot,not fresh verification. No full link,legal registry,WHO/direct-UN-export or clinical audit claimed.
 

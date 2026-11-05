@@ -235,3 +235,7 @@ This batch adds seven organizations, seven resource relationships, four newly li
 The Kiribati clinic’s advertised services, Tuvalu’s committee roster and the historical Pacific survey are distinguished from delivered programmes. The Australian programme’s visits to Kiribati, Niue and Naoero/Nauru are documented separately. A 2025 Añisok adult study names an Equatorial Guinean university author and reports on diabetes and measured lipids. Its method describes both weekday allocation and groups defined by blood pressure and BMI.
 
 Added seven organizations, seven relationships, 27 provenance rows, 23 targeted checks and four service edges. The current snapshot supersedes earlier identity-only status for Equatorial Guinea’s diabetes and lipid cells. Batch 35 was independently read back across all 18 files and validated in Node.
+
+## Batch 36 checkpoint receipt · 2026-11-05
+
+Recorded the seven verified batch SHAs, the original acceptance-criterion review, the remaining 25-area roster and restart instructions. The data verified in batch 36 is [f917e48b0a181a391b2e30d7b39c987d5171e86e](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f917e48b0a181a391b2e30d7b39c987d5171e86e). This receipt changes handoff metadata only.

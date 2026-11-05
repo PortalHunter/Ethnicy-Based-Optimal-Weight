@@ -45,6 +45,17 @@ The 248 × 7 table and 14 diversity cases satisfy two structural gates. Source c
 
 Commit regularly on this PR using the expected current head and an ordinary fast-forward. On a lease conflict read the new head before reconciling. Validate the ten CSVs with the committed Node validator after each batch. Verify the immutable committed content and recursive tree blob hashes, rerun Node against those exact files, update the existing PR body and save a standalone receipt. Maintain provenance, search log, counts, GAPS and the exact outstanding roster. Clinical validity, global absence, live URL status and data permissions require separate evidence. Only declare completion when the original acceptance criteria are met.
 
+## Verified stopping point
+
+The last research commit is [f917e48b0a181a391b2e30d7b39c987d5171e86e](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f917e48b0a181a391b2e30d7b39c987d5171e86e). All 18 handoff files and all ten CSV inputs matched GitHub and passed validation. See [VALIDATION.md](VALIDATION.md) for the seven batch receipts and [STATUS.md](STATUS.md) for the original acceptance-criterion review.
+
+For the nine unresolved issuer records, these already located sources give the next researcher a starting point. They have not been applied to the CSVs.
+
+- The Rwanda article names the company that published this edition. Its university record corroborates the imprint. Compare those sources with the conflicting title-level catalogue records. [Article PDF](https://www.tandfonline.com/doi/pdf/10.1080/16549716.2025.2457826) · [University record](https://researchprofiles.ku.dk/en/publications/evaluation-of-care-and-clinical-outcomes-after-the-implementation/)
+- Vanuatu’s symposium links the abstract and slides separately. The abstract names the Port Vila organization, and both sources describe the same programme. [Proceedings](https://moh.gov.vu/healthsymposium/) · [Conference abstract](https://moh.gov.vu/healthsymposium/docs/2022/VHRS%20abstract-DORRAS%20Emma.pdf)
+- For the Juba study, distinguish the journal's 2025 editorial office and operator from its older catalogue imprint. [2025 publisher report](https://www.blog.panafrican-med-journal.com/posts/2026/1341/Pamj_Annual_Report_2025.pdf)
+- The Swedish society’s historical brochure URL and catalogue page returned a third-party redirect when checked. Preserve the prior retrieval and verify an official replacement before relying on the live link. [Catalogue record](https://svenskgastroenterologi.se/kunskap/patientinformation-hemokromatos/)
+
 ## Exact continuation prompt
 
 Continue Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. Read docs/atlas/handoffs/team-b/CONTINUE.md from research/atlas-team-b-20261104, verify live state, and continue autonomously toward all original acceptance criteria. Preserve scope, source caveats, and no-website/no-merge restrictions. Commit and validate regularly; save a complete standalone GitHub checkpoint if unfinished. At the end, provide this same continuation prompt again.
