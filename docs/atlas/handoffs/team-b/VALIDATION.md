@@ -56,3 +56,8 @@ Batch28 immutable substantive SHA a43641bef34981c77faf4d72c1a46415df0882b2: all1
 
 
 **Batch29 immutable verification receipt:** b0ee31156c660b05379b2006abafddf1d3bb3890. Independently fetched all18 handoff files; zero content/blob mismatches. All10 CSV files in the actual Node execution were checked against immutable Git blob hashes:zero mismatches. Re-ran committed validate.mjs in actual Node v24.22.1:zero errors. Independently reran core+overview+cross-border using retrieved contents:zero errors. Dataset totals313/201 identities/areas;192/182 resource relationships/positive cells;1554 unlinked cells;535 provenance;311 search logs;5 community;2 cross-border;0 approved claims. Metadata-only receipt does not alter any data file. This is not clinical validation.
+
+
+## Batch 30 · 2026-11-05
+
+Prepared in actual Node v24.22.1. All ten CSVs passed the committed validator with zero errors. Verified parent: `7133fb56aaf3e14d843177d95d3e91fd8a5bcab7`. Independent immutable readback follows the branch update. Baseline 18 immutable files matched the previous branch tree and the baseline validator reported zero errors. Selected sources were checked in original HTML or PDF text; full visual PDF appraisal was not performed.

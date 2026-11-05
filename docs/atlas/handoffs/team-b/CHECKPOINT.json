@@ -5,22 +5,22 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "b0ee31156c660b05379b2006abafddf1d3bb3890",
-  "batch": 29,
+  "validated_data_commit": null,
+  "batch": 30,
   "metrics": {
-    "organizations": 313,
-    "areas": 201,
-    "resources": 192,
-    "positive": 182,
-    "unresearched": 1554,
-    "provenance": 535,
-    "search_log": 311,
+    "organizations": 320,
+    "areas": 208,
+    "resources": 203,
+    "positive": 192,
+    "unresearched": 1544,
+    "provenance": 557,
+    "search_log": 330,
     "community": 5,
     "cross_border_edges": 2,
     "by_condition": {
-      "diabetes": 68,
-      "hypertension": 18,
-      "high_chol": 21,
+      "diabetes": 72,
+      "hypertension": 22,
+      "high_chol": 23,
       "gout": 17,
       "lactose": 14,
       "celiac": 27,
@@ -29,26 +29,23 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 2,
-    "new_domiciled_areas": 1,
-    "resource_relationships": 2,
-    "source_positive_cells": 0,
-    "provenance_rows": 13,
-    "search_log_rows": 12
+    "organization_identities": 7,
+    "new_domiciled_areas": 7,
+    "resource_relationships": 11,
+    "source_positive_cells": 10,
+    "provenance_rows": 22,
+    "search_log_rows": 19,
+    "community_records": 0,
+    "cross_border_edges": 0
   },
   "validation_runtime": "node_cli_committed_validate_mjs",
   "node_cli_run": true,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "47 areas without domiciled identity; systematic original-language local-source discovery across all seven streams",
-    "Directory-only organizations: own guidelines/publication lists and current lifecycle review",
-    "1554 cells without sources: sparse gout/lactose/celiac/iron and cholesterol streams alongside diabetes/BP",
-    "CWC suspended website; current governance/date continuity and BWC clinic corporate relationship pending",
-    "Separate publisher domicile from organization/programme source_country in legacy context",
-    "Preserve all GAPS; no clinical approval or public website work",
-    "ACG2019 correction contents and hosted-version incorporation; ESPGHAN2021 ahead-of-print versus2022 final version; full clinical appraisal separate",
-    "GCA footer238 vs official register283 retained conflict; Diabetes Gibraltar registry resolved but own publications unknown",
-    "IRA and CMR accessed lists do not supply gout; inspect historical or other own sources without inferring universal absence"
+    "Investigate the 40 remaining area identity gaps in CHECKPOINT.json and pursue condition-specific publications in the 1,544 cells without links. Start with appropriate local bodies in Africa and Asia as well as sparse conditions worldwide.",
+    "Separate publisher country from organization domicile in publication_context.csv and key each context to its source URL. Recheck current roles against the source before assigning country.",
+    "Audit directory-only identities against own current original-language websites, guideline lists and lifecycle records. The Cook Islands employee survey attachment, Saint-Martin Santé publications, American Samoa type 2 resources, Saba scientific remit and the source conflicts documented in GAPS.md remain open.",
+    "Preserve earlier caveats, especially Gibraltar’s registry/footer conflict, the SPGP/ACG correction and ESPGHAN editions, suspended Chuuk site, Monaco dissolution, sparse conditions and community governance. Keep claim appraisal separate."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -62,15 +59,11 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch29 immutable substantive commit independently read back: all18 files matched exact prepared contents and Git tree blob SHAs; all10 local CSVs matched immutable Git blob hashes and actual Node v24.22.1 validator passed with zero errors. Following receipt is metadata-only.",
+  "validated_data_commit_note": "Prepared dataset passed the committed Node validator. The immutable SHA and independent verification are recorded after the branch write.",
   "areas_without_identity": [
     {
       "m49": "010",
       "area": "Antarctica"
-    },
-    {
-      "m49": "016",
-      "area": "American Samoa"
     },
     {
       "m49": "074",
@@ -105,10 +98,6 @@
       "area": "Comoros"
     },
     {
-      "m49": "184",
-      "area": "Cook Islands"
-    },
-    {
       "m49": "226",
       "area": "Equatorial Guinea"
     },
@@ -131,10 +120,6 @@
     {
       "m49": "296",
       "area": "Kiribati"
-    },
-    {
-      "m49": "304",
-      "area": "Greenland"
     },
     {
       "m49": "334",
@@ -161,20 +146,12 @@
       "area": "Bonaire, Sint Eustatius and Saba"
     },
     {
-      "m49": "548",
-      "area": "Vanuatu"
-    },
-    {
       "m49": "570",
       "area": "Niue"
     },
     {
       "m49": "574",
       "area": "Norfolk Island"
-    },
-    {
-      "m49": "580",
-      "area": "Northern Mariana Islands"
     },
     {
       "m49": "581",
@@ -195,10 +172,6 @@
     {
       "m49": "654",
       "area": "Saint Helena"
-    },
-    {
-      "m49": "663",
-      "area": "Saint Martin (French Part)"
     },
     {
       "m49": "666",
@@ -245,32 +218,23 @@
       "area": "Tuvalu"
     },
     {
-      "m49": "850",
-      "area": "United States Virgin Islands"
-    },
-    {
       "m49": "876",
       "area": "Wallis and Futuna Islands"
     }
   ],
   "readback_validation": {
-    "immutable_data_sha": "b0ee31156c660b05379b2006abafddf1d3bb3890",
-    "files_matched": 18,
-    "csv_count": 10,
-    "errors": 0,
-    "runtime": "actual_node_v24.22.1_committed_validate_mjs_plus_orchestration_independent_recheck",
-    "node_cli_run": true,
-    "github_tree_truncated": false,
-    "local_csv_git_blob_mismatches": 0
+    "status": "pending_immutable_readback",
+    "last_verified_parent": "7133fb56aaf3e14d843177d95d3e91fd8a5bcab7"
   },
-  "previous_independently_verified_data_commit": "a43641bef34981c77faf4d72c1a46415df0882b2",
+  "previous_independently_verified_data_commit": "b0ee31156c660b05379b2006abafddf1d3bb3890",
   "session_additions": {
     "organization_identities": 7,
-    "new_domiciled_areas": 6,
-    "resource_relationships": 6,
-    "source_positive_cells": 4,
-    "provenance_rows": 26,
-    "search_log_rows": 22,
-    "community_records": 1
+    "new_domiciled_areas": 7,
+    "resource_relationships": 11,
+    "source_positive_cells": 10,
+    "provenance_rows": 22,
+    "search_log_rows": 19,
+    "community_records": 0,
+    "cross_border_edges": 0
   }
 }

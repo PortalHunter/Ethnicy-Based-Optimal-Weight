@@ -172,3 +172,12 @@ Added5 identities in5 previously unrepresented areas (Gabon266, Brunei096, Timor
 ## Batch29 — 2026-11-05
 
 Added2 Gibraltar charity identities in1 new area,2 SPGP externally authored English resource relationships (existing Portugal cells),13 provenance and12 targeted search/audit rows. No new source-positive area-condition cells. Verified Gibraltar registry pages visually and retained conflicting GCA footer number. Checked IRA and CMR original own publication navigation without inventing gout sources. Located final2022 breath-paper version and2019 iron-guideline correction; full clinical appraisal not done. Totals313 identities/201 areas,192 resources/182 positive cells,535 provenance,311 search logs,5 community records,2 cross-border edges. No website/main/merge changes.
+
+
+## Batch 30 · 2026-11-05
+
+Seven previously unrepresented areas gained an eligible organization: American Samoa, Cook Islands, Greenland, Northern Mariana Islands, French Saint-Martin, US Virgin Islands and Vanuatu. Eleven source relationships cover ten new cells. American Samoa, Cook Islands and French Saint-Martin receive identity credit only.
+
+The survey indexed at Ilisimatusarfik names Denmark as its publication country and Greenland as the study location. The Danish and Kalaallisut editions represent one survey. The Vanuatu and Saipan sources describe programme participants; the US Virgin Islands testimony reports centre patients.
+
+All seven organization identities have their own source and a distinct relationship to the condition evidence. Scoped search findings also record the Saba provider exclusion and Vanuatu abstract-book redirect.

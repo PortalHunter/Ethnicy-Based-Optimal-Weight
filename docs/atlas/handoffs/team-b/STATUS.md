@@ -1,26 +1,22 @@
-# Team B status — 2026-11-05
+# Team B status · 2026-11-05
 
-**INCOMPLETE — batch29.** Live startup verified PR71 open,draft,unmerged; parent HEAD 2fec11a5e585a7a3dabcb487cdac93b44f62d4fe. Original assignment and contract read from research/atlas-five-team-handoff-prompts-2026-11-04. No AGENTS.md in recursive tree.
+**Incomplete after batch 30.** Work on the existing branch `research/atlas-team-b-20261104` and [draft PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71). The session started from `7133fb56aaf3e14d843177d95d3e91fd8a5bcab7`. The independently checked parent for this batch is `7133fb56aaf3e14d843177d95d3e91fd8a5bcab7`.
 
-| Metric | Count |
+| Measure | Count |
 |---|---:|
-| M49 areas / unique condition cells |248 /1736|
-| Organization identities / domiciled areas |313 /201|
-| Resource relationships / source-positive cells |192 /182|
-| Cells without linked sources |1554|
-| Areas without domiciled identity |47|
-| Provenance / targeted search logs |535 /311|
-| Community records / cross-border service edges |5 /2|
-| Approved clinical claims |0|
+| UN M49 areas / unique area-condition cells | 248 / 1,736 |
+| Organizations / areas with a domiciled organization | 320 / 208 |
+| Areas without a verified domiciled organization | 40 |
+| Resource relationships / cells with a linked resource | 203 / 192 |
+| Cells without a linked resource | 1,544 |
+| Provenance records / targeted search checks | 557 / 330 |
+| Community records / cross-border service edges | 5 / 2 |
+| Approved clinical claims | 0 |
 
-By condition: diabetes68;hypertension18;high_chol21;gout17;lactose14;celiac27;hemochromatosis17. Counts are discovery, not completed national reviews, clinical validation or evidence of individual risk.
+Cells with linked resources by condition · diabetes 72 · hypertension 22 · high_chol 23 · gout 17 · lactose 14 · celiac 27 · hemochromatosis 17.
 
-Batch28 added Gabon SOGANEPH, Brunei BMA, Timor-Leste AMTL, Palau BWC and FSM Chuuk Women's Council. SOGANEPH own screening report contributes BP/glycaemia sources. BWC/CWC local participant interviews are externally programme-published, not national guidance or efficacy trials. Brunei journal endorsement not source authorship. AMTL professional association not proposed medical regulator. CWC own site suspended. Detailed qualifications preserved in GAPS and provenance.
+Seven previously unrepresented areas gained an eligible organization: American Samoa, Cook Islands, Greenland, Northern Mariana Islands, French Saint-Martin, US Virgin Islands and Vanuatu. Eleven source relationships cover ten new cells. American Samoa, Cook Islands and French Saint-Martin receive identity credit only.
 
-Ten CSVs pass committed validator core+overview+cross-border checks; Node CLI now run successfully on live-read baseline and prepared data. Retained UN snapshot not fresh live export. No full URL crawl, legal/WHO audit, full PDF review or clinical claim appraisal. All resources research_lead_only. Only docs/atlas/handoffs/team-b/ may be edited; no website/main/merge. CHECKPOINT.json and CONTINUE.md hold remaining work and readback status.
+The survey indexed at Ilisimatusarfik names Denmark as its publication country and Greenland as the study location. The Danish and Kalaallisut editions represent one survey. The Vanuatu and Saipan sources describe programme participants; the US Virgin Islands testimony reports centre patients.
 
-
-Batch29: two Gibraltar registry-verified charities, with GCA own-footer number conflict retained. Two SPGP-hosted English sources add relationships in existing lactose/iron cells. Publication-stage mismatch and iron correction flagged. IRA/Mexico CMR gout index checks yielded no verified new source. Session total7 new organizations,6 new areas,6 resource links and4 new source-positive cells; no clinical claims approved.47 area identity gaps remain. Baseline actual Node and batch28 validation passed; batch29 Node/readback status in CHECKPOINT.json.
-
-
-**Latest independently verified substantive data commit:** b0ee31156c660b05379b2006abafddf1d3bb3890. All18 handoff files matched immutable fetched contents and Git-tree blob SHAs; all10 CSVs matched local Git blob hashes and passed actual Node v24.22.1 validator with zero errors. Subsequent receipt commit is metadata-only. No clinical approval or completion claim.
+The count of source links measures discovery. A condition entry can be a dated programme report or education item. Each source requires its own appraisal before any clinical use. The corroboration, dates, roles, scope and outstanding checks are in [GAPS.md](GAPS.md), [CHECKPOINT.json](CHECKPOINT.json) and [VALIDATION.md](VALIDATION.md).
