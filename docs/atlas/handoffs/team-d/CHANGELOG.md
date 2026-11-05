@@ -1,3 +1,11 @@
+## 2026-11-05 — Batch 7: WHO country-office service topology (historical)
+
+- Read the official WHO 2023 Country Presence Report, Annexes 2–4. The report states its coverage period is January 2021–December 2022; all rows are historical and exact office opening/closure dates are not imputed.
+- Added 154 Annex 2 office-location labels: 153 M49-indexed entries plus Kosovo retained without an inferred M49 code. Kept the Cyprus January 2023 opening date and Israel host-agreement qualification.
+- Added 42 Annex 3 office coverage relationships and 32 Annex 4 regional-office focal-point relationships. Focal-point coverage is not modeled as physical office presence or membership. MCO qualification does not mean an area lacks a local office.
+- Added nine office nodes and 225 unique M49-indexed edges (two source labels collapse onto the shared Bonaire–Sint Eustatius–Saba M49 code 535); total graph now 45 nodes / 542 edges. Provenance is source 112. Current office presence remains ten records; historical report rows do not establish 2026 status.
+- Updated validator, handoff, gap and boundary documentation. No claims about legal membership, adoption of guidance, clinical evidence or personalized recommendations.
+
 # Team D — Changelog
 
 ## 2026-11-05 — Continuation checkpoint after batches4–6

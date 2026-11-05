@@ -57,4 +57,25 @@ const gaps=read('data/network_coverage_gaps.csv'),overlaps=read('data/network_ov
 unique(gaps,r=>r.gap_id,'gap IDs');unique(overlaps,r=>r.overlap_id,'overlap IDs');
 for(const r of gaps){assert(ids.has(r.network_id));assert(sources.has(r.source_url));}
 for(const r of overlaps){assert(sources.has(r.source_url_a));assert(sources.has(r.source_url_b));}
-console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,provenance:prov.length},null,2));
+
+const officeHistory=read('data/who_office_coverage_2023.csv');
+unique(officeHistory,r=>r.record_id,'WHO office history IDs');
+assert.equal(officeHistory.length,228);
+const officeCounts=Object.fromEntries(['AFRO','AMRO','EMRO','EURO','SEARO','WPRO'].map(k=>[k,officeHistory.filter(r=>r.relationship_type==='has_physical_who_office_reported'&&r.report_region===k).length]));
+assert.deepEqual(officeCounts,{AFRO:47,AMRO:27,EMRO:21,EURO:33,SEARO:11,WPRO:15});
+for(const label of ['Nauru','Netherlands (Kingdom of)','Macao Special Administrative Region (China)','Hong Kong Special Administrative Region (China)','Bonaire','Saba','Sint Eustatius','South Pacific (Fiji)'])assert(officeHistory.some(r=>r.source_name===label&&r.notes.length>0),'missing explicit alias note '+label);
+
+assert.equal(officeHistory.filter(r=>r.relationship_type==='has_physical_who_office_reported').length,154);
+assert.equal(officeHistory.filter(r=>r.relationship_type==='covered_by_multicountry_office').length,42);
+assert.equal(officeHistory.filter(r=>r.relationship_type==='covered_by_regional_office_focal_point').length,32);
+for(const r of officeHistory){assert(sources.has(r.source_url));if(r.country_area_m49!=='not_applicable'){assert(codes.has(r.country_area_m49));assert(official.has(r.country_area_m49));}}
+assert.equal(officeHistory.filter(r=>r.relationship_type==='has_physical_who_office_reported'&&r.country_area_m49!=='not_applicable').length,153);
+assert.equal(officeHistory.find(r=>r.source_name==='Kosovo').country_area_m49,'not_applicable');
+assert.equal(officeHistory.find(r=>r.source_name==='Cyprus'&&r.relationship_type==='has_physical_who_office_reported').notes.includes('January 2023'),true);
+assert.equal(officeHistory.find(r=>r.source_name==='Israel'&&r.relationship_type==='has_physical_who_office_reported').verification_state,'PENDING_VERIFICATION');
+const histEdges=edges.filter(r=>r.as_of==='2023'&&r.source_url==='https://iris.who.int/bitstream/handle/10665/367811/9789240073272-eng.pdf?sequence=1');
+assert.equal(histEdges.length,225);
+for(const r of histEdges){assert(sources.has(r.source_url));assert(ids.has(r.to_id));if(r.country_area_m49)assert(codes.has(r.country_area_m49));}
+assert.equal(nodes.length,45);assert.equal(edges.length,542);assert.equal(prov.length,112);
+
+console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length},null,2));

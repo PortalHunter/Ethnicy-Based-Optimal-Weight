@@ -36,3 +36,9 @@ Checked 2026-11-04. Each case describes a **non-equivalence**; negative cases do
 26. **WHO operational label differs from UN country label.** Occupied Palestinian territory is explicitly associated with EMRO by WHO, and PSE is crosswalked to UN State of Palestine275. Neither field proves WHO constitutional membership. [WHO](https://www.who.int/emergencies/situations/conflict-in-Israel-and-oPt), [PSE dashboard](https://immunizationdata.who.int/dashboard/regions/eastern-mediterranean-region/PSE).
 27. **Current crawl does not prove current institutional classification.** WHO CPCD still groups Indonesia under SEARO; current WPRO roster and dated transfer supersede it for current assignment. [CPCD](https://extranet.who.int/cpcd/countries-and-regions).
 28. **PAHO membership is a discovery aid, not WHO-region evidence.** Each of35 country candidates was independently checked against its WHO country profile; the US profile's Americas field does not resolve pending governance. [US profile](https://data.who.int/countries/840).
+
+
+## Added 2026-11-05 — WHO office and service distinctions
+
+29. **A WHO multi-country office link does not mean no local WHO office.** The 2023 report states the areas covered by Annex 3 offices had a physical WHO office and a resident country programme specialist, while the credentialed WHO Representative could be based elsewhere. Do not collapse physical presence into administrative residence. [WHO 2023 report, Annex 3](https://iris.who.int/bitstream/handle/10665/367811/9789240073272-eng.pdf?sequence=1).
+30. **Regional focal-point coverage is not a country office.** Annex 4 separately names 32 areas covered by a regional-office focal point; this is not proof of a dedicated office, constitutional membership or adoption of guidance. The report’s time scope is Jan 2021–Dec 2022. [WHO 2023 report, Annexes 2–4](https://iris.who.int/bitstream/handle/10665/367811/9789240073272-eng.pdf?sequence=1).

@@ -17,3 +17,11 @@ Batch 5 expected: 282 edges, 170 verified statuses, 79 not_verified, 75 provenan
 Batch 6 expected: 317 edges; 205 verified statuses; 44 not_verified; 110 sources; 56 individual-profile checks (21 EMRO plus35 AMRO). All 35 Americas region records require matching individual WHO profile audit record. US governance remains pending.
 
 Final handoff after batch6: 317 edges;205 verified statuses;44 not_verified;111 source URLs;44 unresolved queue rows exactly matching unknown status IDs;56 WHO profile audit records;38 WPRO name matches. Boundary cases total28. Queue reasons do not assert absent relationships.
+
+
+## Batch 7 expected results — WHO office topology
+
+- 45 nodes; 542 relationships; 112 provenance URLs; 228 historical rows in `who_office_coverage_2023.csv` (154 Annex 2 source labels, 42 MCO coverage, 32 focal-point coverage).
+- 153 Annex 2 rows have a candidate M49 join; Kosovo is retained without an M49 join. One Cyprus row records Jan 2023 establishment; Israel host-agreement uncertainty retained.
+- Structural validator checks source closure, unique historical row IDs, M49-indexed endpoints, office-node endpoints, exact type counts and separation of current ten SEARO office attestations from historical 2023 report data.
+- The historical batch does not establish current 2026 office presence or country/area absences. Regional focal point is not physical office; MCO coverage is not WHO constitutional membership.
