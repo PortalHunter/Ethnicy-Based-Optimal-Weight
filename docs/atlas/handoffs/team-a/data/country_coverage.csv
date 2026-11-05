@@ -20,7 +20,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 060,Bermuda,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-05,Territorial ministry with distinct department Chief Medical Officer and health council
 064,Bhutan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
 068,Bolivia (Plurinational State of),Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Ministerial health policy functions; subnational health powers pending
-070,Bosnia and Herzegovina,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+070,Bosnia and Herzegovina,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,DEVOLVED_COMPETENCE_PARTIALLY_MAPPED,2026-11-05,State coordination ministry plus entity ministries; full cantonal and Brcko mapping remains incomplete. No sole national health authority inferred.
 072,Botswana,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
 074,Bouvet Island,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 076,Brazil,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
@@ -38,7 +38,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 124,Canada,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
 132,Cabo Verde,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_REVIEW_PENDING,2026-11-05,2026 government reorganization legal instrument needs ministry-specific review
 136,Cayman Islands,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-05,Public Health Unit transfer from HSA announced as beginning April 2026; completion unknown
-140,Central African Republic,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+140,Central African Republic,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Ministry identity verified by own portal and Primature directory; detailed current statutory mandate and leadership currency pending.
 144,Sri Lanka,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_REVIEW_PENDING,2026-11-05,Legal portfolio name date and original Sinhala/Tamil titles pending
 148,Chad,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 152,Chile,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete

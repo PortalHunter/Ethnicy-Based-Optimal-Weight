@@ -1,21 +1,29 @@
 # Team A status — 2026-11-05
 
-Research branch `research/atlas-team-a-20261104`, existing draft PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68; base `main`. **Do not merge.**
+Branch: `research/atlas-team-a-20261104`; draft PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68. Research staging; do not merge.
 
-- **248/248** M49 geographic skeletons; **21** direct official UNSD per-row checks recorded in `M49_RECONCILIATION_20261105.csv`; **227** still pending individual canonical verification.
-- Geography correction: **384 Côte d’Ivoire**, replacing mirror name `Ivory Coast`, aligned in countries and coverage records.
-- **54** principal governmental health authorities identified from official government sources; **194** unknown. Identification does **not** certify all legal mandates.
-- **81** separately listed governmental health bodies; **19** official-source-supported relationships; **78** provenance records; **248** area coverage rows.
-- New batch on 2026-11-05: 20 principal authorities: 012 Algeria; 044 Bahamas; 060 Bermuda; 068 Bolivia (Plurinational State of); 090 Solomon Islands; 092 British Virgin Islands; 096 Brunei Darussalam; 100 Bulgaria; 108 Burundi; 120 Cameroon; 132 Cabo Verde; 136 Cayman Islands; 144 Sri Lanka; 178 Congo; 180 Democratic Republic of the Congo; 184 Cook Islands; 212 Dominica; 214 Dominican Republic; 218 Ecuador; 222 El Salvador.
-- Six separate agency/programme records; five official government listing links, 26 new provenance entries.
-- Structural integrity verified on prospective complete CSV contents with JavaScript checks. **Python `validate.py` not executed** in connected GitHub-only environment; run locally/CI. Structural validation is not legal/clinical verification.
-- Source limitations: Algeria government directory identity but mandate and Arabic title pending; Bahamas May 2026 Gazette; Cayman April 2026 HSA transfer initiated but completion unverified; Bermuda quango separate; DRC conflicting title; Congo mandate text not retrieved; Burundi, Cabo Verde, Sri Lanka, Dominican Republic rename histories incomplete.
+| Measure | Current checkpoint |
+|---|---:|
+| M49 country/area rows | 248/248 |
+| Official UN per-row comparisons | 248/248 |
+| Geographic comparisons outstanding | 0 |
+| Areas with identified principal government authority | 56 |
+| Areas with unresolved authority | 192 |
+| Separate governmental health-body records | 87 |
+| Sourced structural relationships | 21 |
+| Source provenance records, including explicit failed/candidate checks | 91 |
+| Coverage rows | 248 |
 
-## Next priorities
+## Completed this continuation
 
-Finish **227** official UN individual-row checks and research **194** unresolved principal health authorities, beginning ascending M49 070 Bosnia and Herzegovina, 074 Bouvet Island, 104 Myanmar, 112 Belarus, 140 Central African Republic, 148 Chad, 162 Christmas Island, 166 Cocos (Keeling) Islands, 174 Comoros, 175 Mayotte, 192 Cuba. Two independent legal/government sources for renames, disputed and delegated territories. Add ministries, institutes, regulators, surveillance and statistics separately. Run offline validator and commit to same branch; no clinical app changes.
+1. Geography batch committed as `4df172b19d6434cf5c2df93cb39ab1418bd790bd`, independently read back. Official English M49 overview table extracted for all 248 areas, including intermediate regions separately; name 238 corrected to Falkland Islands (Malvinas). Dated official snapshot and correction ledger committed. Historical 21-row ledger retained.
+2. Authority batch: Bosnia and Herzegovina 070 state coordinator, Health Sector, health statistics department, Federation ministry, and Republika Srpska ministry; Central African Republic 140 ministry identity. Added six body records and two genuine internal structural relationships. Entity ministries are not represented as subordinates of the state ministry.
+3. Recorded failed Chad HTTP 403 and Brcko timeout checks, Comoros placeholder/title concern and Myanmar competing/title uncertainty without promoting them to resolved authorities.
 
+Python validator executed successfully against complete local files before and after changes. It now enforces key-set and field equality against the dated official M49 snapshot. Structural QA is not legal mandate certification. Source provenance includes unsuccessful investigations explicitly; 91 is not a count of verified authorities or verified sources.
 
-## Full M49 reconciliation checkpoint — 2026-11-05
+## Exact checkpoint and next steps
 
-All 248 country-or-area rows were independently extracted from the official English UNSD overview table and compared for M49 key, ISO-alpha2, ISO-alpha3, name, region and subregion. **248/248 compared; zero pending geographic comparisons.** Corrected 238 to Falkland Islands (Malvinas) in countries and coverage. See `M49_OFFICIAL_SNAPSHOT_20261105.csv` and `M49_CORRECTIONS_20261105.csv`; the earlier 21-row ledger is historical. All earlier pending-reconciliation counts above are superseded. Authority coverage remains 54 identified / 194 unknown; 81 bodies / 19 relationships / 79 provenance rows. No institutional or clinical approval follows from geography.
+The commit containing this file is the authority-batch checkpoint; obtain its exact SHA from current branch/PR head, independently fetch the committed files, and check for newer work before resuming. Prior verified parent: `4df172b19d6434cf5c2df93cb39ab1418bd790bd`.
+
+Next unresolved M49 queue: 074 Bouvet; 104 Myanmar; 112 Belarus; 148 Chad; 162 Christmas Island; 166 Cocos (Keeling) Islands; 174 Comoros; 175 Mayotte; 192 Cuba, then remaining unknowns in ascending M49 order. Finish Bosnia Brcko and canton mapping, legal instruments and regulators. Follow GAPS.md and CONTINUE.md. Preserve two-source legal standards for disputed/delegated/renamed authorities. No clinical application, main, merges or patient-facing guidance changes.

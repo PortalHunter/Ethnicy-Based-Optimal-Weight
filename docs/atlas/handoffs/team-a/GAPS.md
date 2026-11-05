@@ -1,16 +1,16 @@
 # Team A gaps — 2026-11-05
 
-- **194** M49 areas still have `UNKNOWN_REVIEW_NEEDED` governmental authority. The **54** identified are often incomplete on statutory mandate/devolved functions.
-- **227** canonical UN M49 individual-row code/ISO/name/region/subregion checks remain. Directly checked 21 today; 384 name corrected to `Côte d’Ivoire`.
-- Queue: 070 Bosnia and Herzegovina; 074 Bouvet Island; 104 Myanmar; 112 Belarus; 140 Central African Republic; 148 Chad; 162 Christmas Island; 166 Cocos Islands; 174 Comoros; 175 Mayotte; 192 Cuba, then all unresolved in ascending M49 order.
-- Special legal/delegated jurisdictions (two independent authoritative sources required): Antarctica 010; Bouvet 074; British Indian Ocean Territory 086; Heard/McDonald 334; French Southern Territories 260; South Georgia/South Sandwich 239; US Minor Outlying Islands 581; Åland 248; Greenland 304; Caribbean Netherlands 535; Hong Kong 344; Macao 446; Pitcairn 612; Western Sahara 732; American Samoa 016.
-- Devolved federal/state competence pending Australia, Germany, Belgium, Brazil and Argentina. Denmark June 2026 government restructure still needs second legal source. No assumed parent M49 from political geography.
-- Algeria 012 ministry main site unavailable, Arabic title/legal powers pending; Congo 178 detailed mission not retrieved; DRC 180 government title conflict `Prévoyance sociale` versus `Préventions`; Cayman 136 public-health unit transfer from HSA began April 2026, not yet legally confirmed finished.
-- Recent changes requiring gazette/second-check: Albania, Antigua and Barbuda, Austria, Armenia, Burundi, Cabo Verde, Sri Lanka, Dominican Republic; Afghan and Belgian original-script names pending. Subordinate agencies in Germany, Andorra and Botswana require own statutory source.
+- **192/248** areas have unresolved principal authorities. The 56 identified areas still need varying statutory, public-health institute, regulator and devolved coverage work.
+- Official geographic reconciliation is complete for all 248 areas; the former 227-row gap is closed. This does not establish sovereignty or health jurisdiction. Snapshot currency must be rechecked in later runs.
+- Next queue: 074 Bouvet; 104 Myanmar; 112 Belarus; 148 Chad; 162 Christmas; 166 Cocos; 174 Comoros; 175 Mayotte; 192 Cuba; then ascending unresolved M49.
+- Bosnia 070: state coordinator and two entity ministries identified; 10 cantonal ministries, Brcko, public-health institutes and medicines regulator require separate verification. Brcko governmental departments page timed out. No state-ministry subordination of entity bodies inferred; no cross-area parent link.
+- CAR 140: own ministry portal plus Primature establish identity. Old homepage references mean current officeholder and detailed legal powers are not certified.
+- Chad 148: ministry and Primature pages yielded HTTP 403; indexed candidates are recorded, not counted as resolved authorities.
+- Myanmar 104: government directory headings and legacy Health and Sports content conflict; competing NUG ministry surfaced. Current mandate, rename instruments, effective control and competing authority scope require direct appraisal before resolution.
+- Comoros 174: e-government contact page has placeholder fields and differing ministry headings. Verify current portfolio against authentic government decree; do not infer Mayotte jurisdiction from a descriptive island list.
+- Special legal/delegated jurisdictions require two independent authoritative checks: Antarctica 010; Bouvet 074; BIOT 086; Heard/McDonald 334; French Southern Territories 260; South Georgia/South Sandwich 239; US Minor Outlying Islands 581; Aland 248; Greenland 304; Caribbean Netherlands 535; Hong Kong 344; Macao 446; Pitcairn 612; Western Sahara 732; American Samoa 016.
+- Devolved federal/state competence pending Australia, Germany, Belgium, Brazil and Argentina. Denmark June 2026 restructure needs second legal source.
+- Algeria 012 mandate and Arabic title pending; Congo 178 mission incomplete; DRC 180 title conflict; Cayman 136 public-health transfer completion unverified.
+- Renames needing second governmental/legal source: Albania, Antigua and Barbuda, Austria, Armenia, Burundi, Cabo Verde, Sri Lanka, Dominican Republic. Afghan and Belgian local names pending; some subordinate agencies still lack independent statutes.
 
-WHO country office is not a domestic agency. Statistical geography is not ancestry, ethnicity or genotype. No clinical medical guidance or patient data.
-
-
-## Full M49 reconciliation checkpoint — 2026-11-05
-
-All 248 country-or-area rows were independently extracted from the official English UNSD overview table and compared for M49 key, ISO-alpha2, ISO-alpha3, name, region and subregion. **248/248 compared; zero pending geographic comparisons.** Corrected 238 to Falkland Islands (Malvinas) in countries and coverage. See `M49_OFFICIAL_SNAPSHOT_20261105.csv` and `M49_CORRECTIONS_20261105.csv`; the earlier 21-row ledger is historical. All earlier pending-reconciliation counts above are superseded. Authority coverage remains 54 identified / 194 unknown; 81 bodies / 19 relationships / 79 provenance rows. No institutional or clinical approval follows from geography.
+WHO field offices are not domestic authorities. Unknown is not absence. Ancestry does not substitute for individual clinical evidence. No clinical recommendation is authorized by these directory records.

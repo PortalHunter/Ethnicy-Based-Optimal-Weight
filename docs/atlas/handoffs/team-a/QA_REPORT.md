@@ -87,3 +87,12 @@ Canonical geography: https://unstats.un.org/unsd/methodology/m49/overview/
 Secondary staging mirror (not authoritative): https://github.com/datasets/country-codes/blob/main/data/country-codes.csv
 
 **No change to clinical medical calculations or patient-facing recommendations.**
+
+
+## Executed continuation QA — 2026-11-05
+
+Current results supersede earlier not-executed statements: Python validate.py ran successfully before and after both batches. Official dated snapshot contains 248 unique keys and all staged codes, ISO fields, names, regions and subregions match it. No inferred delegation changes. Current counts: 248 countries and coverage rows; 56 identified areas / 192 unresolved; 87 bodies; 21 relationships; 91 provenance records, including explicitly failed/candidate checks.
+
+Twelve isolated temporary-copy mutation checks each produced a nonzero validator exit: duplicate M49; dropped leading zero; incorrect ISO; wrong official name; wrong region; dangling body reference; missing body source; duplicate body ID; self relationship; duplicate provenance ID; coverage-state mismatch; unsupported American Samoa parent-country inference. Baseline passed after tests. These tests validate integrity constraints, not source authenticity or clinical/legal completeness.
+
+Source retrieval limitations: Chad ministry and Primature HTTP 403; Brcko government timeout; Myanmar search-discovered competing/title ambiguity; Comoros placeholder contacts. None was promoted to a resolved authority. CAR identity corroborated by own ministry and Primature; old homepage leadership and mandate not certified. Bosnia entity bodies not encoded as subordinate to state coordinator. Geography snapshot was extracted from retrieved official English UNSD table, all 248 rows, with source table line and date retained; this is a structured factual snapshot, not a full HTML archive.

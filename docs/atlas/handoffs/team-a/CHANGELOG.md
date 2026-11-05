@@ -31,3 +31,7 @@
 ## 2026-11-05 — full official geography comparison
 
 Compared all 248 official UNSD overview rows with staged geography; added dated official snapshot and one-row correction ledger. Corrected 238 name to Falkland Islands (Malvinas). Preserved historical 21-row ledger. Executed existing Python validator successfully before and after comparison; added full-snapshot equality checks. Authority research unchanged.
+
+## 2026-11-05 — complex authority and access-failure batch
+
+Added six body records: gov-070-001 through gov-070-005 and gov-140-001; two internal structural edges; 12 source provenance entries. Coverage now 56 identified / 192 unresolved; 87 bodies; 21 relationships; 91 provenance records. Bosnia state coordination distinguished from entity/cantonal/district powers. CAR identity corroborated while old homepage currency is qualified. Chad 403, Brcko timeout, Myanmar competing/title questions and Comoros template concerns retained without guessed resolutions. Rewrote current summary files and added standalone CONTINUE.md. Python structural and boundary checks run; no clinical or main changes.
