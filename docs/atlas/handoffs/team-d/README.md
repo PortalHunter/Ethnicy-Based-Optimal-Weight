@@ -1,3 +1,9 @@
+## Latest standalone checkpoint — Batch 17, 2026-11-05
+
+[Read full source/research/validation/restart handoff](CHECKPOINT_BATCH_17_2026-11-05.md). Historic WHO July 2021 SIDS Annex region headings (**13**) and WHO 2019 Barbados/ECC office host/service areas (**14**) were added as separate temporal source layers; **150** provenance URLs total. Current WHO regions still **205 verified / 44 unknown**; graph **47 nodes / 616 edges**. Full structural assertions PASS in GitHub-derived JS read-only shim, not native Node or Actions. No website/clinical/merge changes.
+
+---
+
 ## New verified Team D artifacts — Batch 11 (2026-11-05)
 
 - `data/hearts_pathway_catalog_2026.csv`: 24 dated PAHO source-title catalog entries, no inferred legal national adoption or local recommendation.

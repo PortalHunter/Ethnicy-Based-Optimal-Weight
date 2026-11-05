@@ -1,3 +1,5 @@
+**Full structural regression executed and PASS:** checked-in `validate.mjs` against all 28 GitHub-derived Team D CSVs plus provenance in isolated JS with read-only shims, including new 13/14 assertions; no native Node CLI or CI claim. [Batch 17 standalone checkpoint](CHECKPOINT_BATCH_17_2026-11-05.md).
+
 ## 2026-11-05 — Batch 17: WHO 2019 Eastern Caribbean coverage and 2021 historical SIDS region heading
 
 - Added `data/who_region_historical_sids_2021.csv` (13 unique WHO July 2021 AMRO-heading observations which remain unknown in the current 2026 status matrix) and `data/who_ecc_historical_scope_2019.csv` (14 distinct WHO 2019 Barbados/Eastern Caribbean host-or-service observations). Sources TD-SRC-149/150; provenance count 150.
