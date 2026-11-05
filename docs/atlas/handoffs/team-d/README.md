@@ -1,3 +1,9 @@
+## Latest standalone checkpoint — Batch 21, 2026-11-05
+
+[Read the complete Batch 21 recovery handoff](CHECKPOINT_BATCH_21_2026-11-05.md). A new source-qualified 15-row WHO WER **2025 epidemiological reporting group** dataset is separated from **2026 WHO administrative region assignments**; all 44 pending WHO administrative statuses remain unchanged. Fixed a previously stale provenance-count invariant in the checked-in validator; all structural assertions **PASS in a read-only GitHub-PR-diff JavaScript replay** (47 files, 29 data inputs), not in native Node/Actions. Unique source URLs now 188; graph 47 nodes/616 edges, 105 April 2026 office hosts and 46/46 older survey independent checks unchanged. PR #70 stays draft/unmerged. No public website, clinical, legal, main or other-team edits.
+
+---
+
 ## Latest standalone checkpoint — Batch 17, 2026-11-05
 
 [Read full source/research/validation/restart handoff](CHECKPOINT_BATCH_17_2026-11-05.md). Historic WHO July 2021 SIDS Annex region headings (**13**) and WHO 2019 Barbados/ECC office host/service areas (**14**) were added as separate temporal source layers; **150** provenance URLs total. Current WHO regions still **205 verified / 44 unknown**; graph **47 nodes / 616 edges**. Full structural assertions PASS in GitHub-derived JS read-only shim, not native Node or Actions. No website/clinical/merge changes.
