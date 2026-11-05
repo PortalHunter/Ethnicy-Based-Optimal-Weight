@@ -1,5 +1,14 @@
 # Team B changelog
 
+## 2026-11-05 — Batch 40: Monaco registered NGOs, diabetes outreach and Saint-Barthélemy boundary
+
+- Added two Monaco-domiciled independent associations: Croix-Rouge monégasque (own governance/site) and M-CRIN (2025 *Journal de Monaco* registration; no original independent condition study yet). The public CSM remains a Team A institution, not an NGO.
+- Added one first-party Monaco Red Cross diabetes screening/awareness **event announcement**, explicitly not a clinical guideline, completed epidemiology study or proof of outcomes.
+- Logged one Monaco hypertension hospital-versus-society boundary and two Saint-Barthélemy condition checks. Le Coeur de Saint Barth is registered in **Saint-Martin (663)** per registry-derived secondary evidence, despite its **Saint-Barthélemy (652)** service plans. No 652 domicile or original research attributed.
+- Delta: +2 organizations, +1 domiciled area, +1 exact resource, +1 positive cell, +5 provenance, +4 searches; no clinical approvals. 368/227 identities/areas, 257 resources, 237 positive cells, 1,369 unsearched source gaps.
+- Ten GitHub-fetched CSVs checked against the committed structural invariants with zero errors and ten immutable blob matches after [data commit 1d7f0a326be34482b782ef704bb57b84f29677ec](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1d7f0a326be34482b782ef704bb57b84f29677ec). Actual Node CLI not run, no full URLs/medical claims audited.
+
+
 ## 2026-11-05 — Batch 39: Ireland and US condition-specific sources
 
 - Added Arthritis Ireland (gout patient page), Croí (inherited FH patient page, Galway charity) and US Celiac Disease Foundation (2026 dietitian-led classes) as verified non-government organizations.

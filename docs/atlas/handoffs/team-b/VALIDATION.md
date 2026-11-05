@@ -1,5 +1,15 @@
 # Team B validation history
 
+## Batch 40 · data commit 1d7f0a326be34482b782ef704bb57b84f29677ec · 2026-11-05
+
+- PR #71 verified **open, draft, unmerged**, on `research/atlas-team-b-20261104`; six data-file changes stay within Team B. Original 248-code M49/1736-cell matrix retained.
+- After pushing [data commit 1d7f0a326be34482b782ef704bb57b84f29677ec](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1d7f0a326be34482b782ef704bb57b84f29677ec), all **10 CSV inputs** were fetched by that immutable commit SHA, independently parsed and checked against the checked-in `validate.mjs` invariants: width and key uniqueness; 248×7 coverage; exact publication→organization→provenance/context joins; separate issuer basis/area and study-population fields; target-search ID reconciliation; community and cross-border foreign keys; original UNSD code-set equality. **Zero structural errors**.
+- Immutable Git tree `aab96a8178329374cada6e4f209a1335956704e5` returned **non-truncated**; all **10/10 CSV blob SHAs** matched the fetched files; zero data mismatches.
+- Counts: 368 organizations/227 areas; 257 resources/237 positive cells; 1,499 unlinked cells with 130 targeted checks and 1,369 no targeted check; 744 provenance, 431 search logs; 7 community, 8 cross-border; 5 unresolved issuers; zero clinical approvals.
+- Actual **Node CLI was not run** because the attached GitHub connector does not expose a shared local repository and local git networking is unavailable. This is equivalent JavaScript verification, **not** proof of original-paper reading, live link traversal, organization licence/permissions, guideline currency, ethics review, legal jurisdiction or clinical claim validity.
+- Two registered Monaco associations and an own-site diabetes **event notice** were added; no outcome/prevalence or treatment claims. Saint-Martin 663 registry seat vs Saint-Barthélemy 652 service boundary remains only secondary-corroborated.
+
+
 ## Verified checkpoint · batches 30–36 · 2026-11-05
 
 ## Batch 38 · 2026-11-05

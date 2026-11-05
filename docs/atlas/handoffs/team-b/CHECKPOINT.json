@@ -5,24 +5,24 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "45f84996012c3b8e458526763d0809fc40bc9bde",
-  "batch": 39,
+  "validated_data_commit": "1d7f0a326be34482b782ef704bb57b84f29677ec",
+  "batch": 40,
   "metrics": {
-    "organizations": 366,
-    "areas": 226,
-    "resources": 256,
-    "positive": 236,
-    "without_linked_source": 1500,
-    "targeted_no_source": 128,
-    "unresearched": 1372,
-    "provenance": 739,
-    "search_log": 427,
+    "organizations": 368,
+    "areas": 227,
+    "resources": 257,
+    "positive": 237,
+    "without_linked_source": 1499,
+    "targeted_no_source": 130,
+    "unresearched": 1369,
+    "provenance": 744,
+    "search_log": 431,
     "community": 7,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
     "issuer_country_differs_from_domicile": 27,
     "by_condition": {
-      "diabetes": 84,
+      "diabetes": 85,
       "hypertension": 31,
       "high_chol": 26,
       "gout": 24,
@@ -33,23 +33,24 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 3,
-    "new_domiciled_areas": 0,
-    "resource_relationships": 4,
-    "source_positive_cells": 4,
-    "provenance_rows": 7,
+    "organization_identities": 2,
+    "new_domiciled_areas": 1,
+    "resource_relationships": 1,
+    "source_positive_cells": 1,
+    "provenance_rows": 5,
     "search_log_rows": 4,
     "community_records": 0,
     "cross_border_edges": 0
   },
-  "validation_runtime": "orchestration_js_equivalent_committed_validator",
+  "validation_runtime": "connector_orchestrated_javascript_equivalent_of_validate_mjs",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Verify all original-language published-source lists and lifecycle; 22 M49 areas still lack a domiciled identity.",
-    "Investigate 1,372 unlinked cells without a targeted condition-specific check; no national absence inference.",
-    "Coeliac Society Ireland research-project index (direct access HTTP 403): locate and review original papers before any study-level inference.",
-    "Five unresolved source issuer countries require edition-specific verification; preserve all 14 diversity cases and zero approved clinical claims."
+    "Review primary original-language published guideline lists and lifecycle for existing organizations; 21 areas still have no domiciled identity.",
+    "Investigate 1,369 zero-source cells without a condition-specific check; no absence or epidemiologic inference from unlinked cells.",
+    "Verify primary French RNA/SIRENE entry and active work of Le Coeur de Saint Barth (seat 663, service 652), without creating a fake 652 identity.",
+    "Find M-CRIN's own publications and governance, distinct from the public Monaco Scientific Centre; do not attribute research partner papers to M-CRIN without proof.",
+    "Resolve five edition-specific issuer-country unknowns; appraise original papers and permission under issue #27; keep all 14 diversity examples."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -63,7 +64,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch 39 exact six CSV updates at 45f84996012c3b8e458526763d0809fc40bc9bde structurally revalidated on all 10 GitHub-fetched CSVs (zero errors). Actual Node CLI not run in this session; clinical claim appraisal not done.",
+  "validated_data_commit_note": "Batch 40 six-CSV source/identity/coverage change at 1d7f0a326be34482b782ef704bb57b84f29677ec; ten live GitHub-fetched CSVs independently checked against the committed validate.mjs structural invariants with zero errors, plus 10/10 exact blob SHA match against immutable Git tree aab96a8178329374cada6e4f209a1335956704e5. Actual Node CLI not run. Clinical/permission appraisals not complete.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -110,10 +111,6 @@
       "area": "Democratic People's Republic of Korea"
     },
     {
-      "m49": "492",
-      "area": "Monaco"
-    },
-    {
       "m49": "520",
       "area": "Naoero"
     },
@@ -156,13 +153,14 @@
   ],
   "readback_validation": {
     "status": "passed",
-    "verified_data_sha": "34ecd66b59c24da0b15ed321bc76b8d01a758c70",
-    "verified_parent_sha": "ac84f4a0f5b2609abf837c8ccd2e1f8ef4955699",
-    "handoff_files_matched": 18,
+    "verified_data_sha": "1d7f0a326be34482b782ef704bb57b84f29677ec",
+    "verified_tree_sha": "aab96a8178329374cada6e4f209a1335956704e5",
+    "files_matched": 10,
     "validated_csv_inputs": 10,
-    "node_version": "v24.22.1",
+    "validation_runtime": "connector_javascript_equivalent",
+    "node_cli_run": false,
     "structural_errors": 0,
-    "scope": "structure, provenance joins, exact resource contexts, search links, retained M49 roster and cross-border edges"
+    "scope": "CSV shape, unique IDs, resource-to-organization links, publication contexts, provenance, coverage search states, M49 reference and cross-border/community foreign keys; not clinical verification"
   },
   "previous_independently_verified_data_commit": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
   "session_additions": {
@@ -178,13 +176,37 @@
   },
   "session_receipts": {
     "37": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
-    "38": "34ecd66b59c24da0b15ed321bc76b8d01a758c70"
+    "38": "34ecd66b59c24da0b15ed321bc76b8d01a758c70",
+    "40": "1d7f0a326be34482b782ef704bb57b84f29677ec"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "248 areas and 1,736 explicit cells verified",
-    "source_population_jurisdiction": "252 of 252 relationships have separate fields. Five issuer-country entries remain unresolved. Evidence and jurisdiction can be limited even when a field is populated.",
-    "disease_subtypes_and_release": "Seven indexed streams use distinct subtypes and endpoints. All records remain research_lead_only, with zero approved clinical claims.",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete. Verify remaining local identities, current status and original-language publication lists. The 22 areas without a domiciled identity and 1,506 cells without a linked resource have explicit gaps. An appropriate documented absence can satisfy a cell review.",
-    "diversity_examples": "14 broad-label counterexamples in GAPS.md"
-  }
+    "m49_area_condition_roster": "248 areas and 1736 explicit cells verified; full M49 enumeration structurally met",
+    "source_population_jurisdiction": "257 of 257 relationships have separate issuer-country, study-population and healthcare-jurisdiction fields; five issuer countries unresolved; documented fields do not prove clinical or jurisdictional validity",
+    "disease_subtypes_and_release": "All seven streams retain subtype caution, all resources research_lead_only and zero approved claims",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 missing domiciled identities, 1499 zero-source cells, 1369 without targeted condition search. Monaco Red Cross first-party page confirms outreach only, M-CRIN legal declaration confirms identity but own site/publications pending",
+    "diversity_examples": "14 preserved documented broad-label failure cases in GAPS.md"
+  },
+  "batch40_sources": [
+    {
+      "org_id": "B-MC-MCRIN",
+      "source_url": "https://journaldemonaco.gouv.mc/Journaux/2025/Journal-8733/RECEPISSE-DE-DECLARATION-D-UNE-ASSOCIATION2",
+      "verification": "primary association-registration record; own original study unverified"
+    },
+    {
+      "org_id": "B-MC-CRM",
+      "source_url": "https://croix-rouge.mc/la-maison-croix-rouge/histoire/lhistoire-de-la-croix-rouge-monegasque/",
+      "verification": "first-party identity and national society; not clinical author"
+    },
+    {
+      "org_id": "B-MC-CRM",
+      "condition": "diabetes",
+      "source_url": "https://croix-rouge.mc/journee-mondiale-du-diabete-14-novembre-2025/",
+      "verification": "own event notice; planned screening and awareness only"
+    },
+    {
+      "area_m49": "652",
+      "source_url": "https://assoce.fr/waldec/W9G3005084/LE-COEUR-DE-SAINT-BARTH",
+      "verification": "secondary registry-derived domicile check: Saint-Martin 663 vs Saint-Barthélemy 652; primary registry/current work pending"
+    }
+  ]
 }
