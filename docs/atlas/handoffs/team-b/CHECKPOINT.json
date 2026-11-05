@@ -5,18 +5,18 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "34ecd66b59c24da0b15ed321bc76b8d01a758c70",
-  "batch": 38,
+  "validated_data_commit": "45f84996012c3b8e458526763d0809fc40bc9bde",
+  "batch": 39,
   "metrics": {
-    "organizations": 363,
+    "organizations": 366,
     "areas": 226,
-    "resources": 252,
-    "positive": 232,
-    "without_linked_source": 1504,
-    "targeted_no_source": 129,
-    "unresearched": 1375,
-    "provenance": 732,
-    "search_log": 423,
+    "resources": 256,
+    "positive": 236,
+    "without_linked_source": 1500,
+    "targeted_no_source": 128,
+    "unresearched": 1372,
+    "provenance": 739,
+    "search_log": 427,
     "community": 7,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
@@ -24,31 +24,32 @@
     "by_condition": {
       "diabetes": 84,
       "hypertension": 31,
-      "high_chol": 25,
-      "gout": 23,
+      "high_chol": 26,
+      "gout": 24,
       "lactose": 17,
-      "celiac": 32,
+      "celiac": 34,
       "hemochromatosis": 20
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 2,
+    "organization_identities": 3,
     "new_domiciled_areas": 0,
-    "resource_relationships": 3,
-    "source_positive_cells": 2,
-    "provenance_rows": 6,
-    "search_log_rows": 3,
+    "resource_relationships": 4,
+    "source_positive_cells": 4,
+    "provenance_rows": 7,
+    "search_log_rows": 4,
     "community_records": 0,
     "cross_border_edges": 0
   },
-  "validation_runtime": "node_cli_committed_validate_mjs",
-  "node_cli_run": true,
+  "validation_runtime": "orchestration_js_equivalent_committed_validator",
+  "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Triage the remaining 22 missing M49 identities. Populated gaps still include Saint Helena (654; government-only logged), Naoero/Nauru (520), Niue (570), Tokelau (772), Saint Barthélemy (652), Norfolk Island (574), Falkland Islands (238), and Monaco (492 historical dissolution already logged). Keep Antarctic/uninhabited codes as documented absences when justified.",
-    "Prioritize least-covered streams (17 lactose, 20 hereditary iron overload, 21 gout, 25 lipid cells), especially locally issued FH, community-controlled sources and original-language guidance. Resolve the five remaining issuer-country unknowns (Panama HEARTS host, Portuguese WGO/ESPGHAN hosted translations, Chad Open Access Pub, PAMJ South Sudan imprint conflict) where edition-specific evidence exists.",
-    "Check lifecycle and original-language publication lists of directory-only, registry-only and partner-only organizations (including AFDD statutes-2013 and Diabète SPM without own site). Preserve the Añisok 1,500/202 independence caveat between the 2025 adult and 2026 geriatric papers. Of 1,506 unlinked cells, 129 have a targeted check and 1,377 have no matching condition-specific search log. Preserve all 14 diversity cases."
+    "Verify all original-language published-source lists and lifecycle; 22 M49 areas still lack a domiciled identity.",
+    "Investigate 1,372 unlinked cells without a targeted condition-specific check; no national absence inference.",
+    "Coeliac Society Ireland research-project index (direct access HTTP 403): locate and review original papers before any study-level inference.",
+    "Five unresolved source issuer countries require edition-specific verification; preserve all 14 diversity cases and zero approved clinical claims."
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -62,7 +63,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Immutable batch 38 research snapshot after Node CLI zero-error validation on archived CSVs.",
+  "validated_data_commit_note": "Batch 39 exact six CSV updates at 45f84996012c3b8e458526763d0809fc40bc9bde structurally revalidated on all 10 GitHub-fetched CSVs (zero errors). Actual Node CLI not run in this session; clinical claim appraisal not done.",
   "areas_without_identity": [
     {
       "m49": "010",
