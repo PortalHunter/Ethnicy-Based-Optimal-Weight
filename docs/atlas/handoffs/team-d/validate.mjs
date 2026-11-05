@@ -102,6 +102,25 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,45);assert.equal(edges.length,542);assert.equal(prov.length,114);
+assert.equal(nodes.length,45);assert.equal(edges.length,542);assert.equal(prov.length,119);
 
-console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length},null,2));
+const pathways=read('data/hearts_pathway_catalog_2026.csv');
+unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
+unique(pathways,r=>r.paho_document_title,'PAHO HEARTS catalog titles');
+assert.equal(pathways.length,24);
+assert.equal(pathways.filter(r=>r.scope_type==='regional_template').length,2);
+assert.equal(pathways.filter(r=>r.scope_type==='subnational_catalog_label').length,3);
+assert.equal(pathways.filter(r=>r.scope_type==='territory_area_catalog_label').length,2);
+assert.equal(pathways.filter(r=>r.country_area_m49==='not_verified').length,1);
+assert.equal(pathways.find(r=>r.paho_document_title==='Clinical Pathway - DOMINICA REPUBLIC').country_area_m49,'not_verified');
+assert.equal(pathways.find(r=>r.paho_document_title==='Clinical Pathway - DOMINICA').country_area_m49,'212');
+assert.equal(pathways.find(r=>r.paho_document_title==='HEARTS 2.0 Clinical Pathway - Standard').catalog_date,'2026-05-08');
+for(const r of pathways){assert.equal(r.network_id,'PAHO_HEARTS');assert(sources.has(r.source_url));assert.equal(r.verification_state,'OFFICIAL_CATALOG_LISTED_ADOPTION_NOT_INFERRED');assert.match(r.catalog_date,/^202[46]-\d{2}-\d{2}$/);if(/^\d{3}$/.test(r.country_area_m49))assert(official.has(r.country_area_m49));else assert(['not_verified','not_applicable'].includes(r.country_area_m49));}
+const programmeFacts=read('data/cross_border_programme_evidence_2026.csv');
+unique(programmeFacts,r=>r.record_id,'programme evidence IDs');
+assert.equal(programmeFacts.length,5);
+for(const r of programmeFacts){assert(ids.has(r.network_id));assert(sources.has(r.source_url));assert(/^\d+$/.test(r.reported_count));assert(r.verification_state.startsWith('AGGREGATE_'));}
+for(const [measure,count] of [['signed_mou_states','8'],['expressed_intent_states','15'],['programme_target_states','55'],['first_version_national_standard_adoption_count','29'],['reported_committed_countries','35']])assert.equal(programmeFacts.find(r=>r.measure===measure).reported_count,count);
+
+
+console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length},null,2));
