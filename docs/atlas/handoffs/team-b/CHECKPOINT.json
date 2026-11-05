@@ -5,16 +5,16 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "0761c580b39b3c62502f7c8408c9572e39e80912",
-  "batch": 26,
+  "validated_data_commit": "df0ffd28c60e86ae30f23ec7790b06899ae883db",
+  "batch": 27,
   "metrics": {
     "organizations": 306,
     "areas": 195,
     "resources": 186,
     "positive": 178,
     "unresearched": 1558,
-    "provenance": 506,
-    "search_log": 286,
+    "provenance": 509,
+    "search_log": 289,
     "community": 4,
     "cross_border_edges": 2,
     "by_condition": {
@@ -29,23 +29,25 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organization_identities": 2,
-    "new_domiciled_areas": 1,
-    "resource_relationships": 2,
-    "source_positive_cells": 2,
-    "provenance_rows": 9,
-    "search_log_rows": 6,
-    "cross_border_edges": 2
+    "organization_identities": 0,
+    "new_domiciled_areas": 0,
+    "resource_relationships": 0,
+    "source_positive_cells": 0,
+    "provenance_rows": 3,
+    "search_log_rows": 3,
+    "cross_border_edges": 0,
+    "documented_dissolved_association_cases": 1
   },
   "validation_runtime": "orchestration_javascript_core_plus_overview_plus_cross_border",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "53 areas without locally domiciled identity; list below; cross-border coverage is not domicile",
-    "Five other LI condition streams need local source discovery; UFL diabetes and BP publications are not clinical guidance",
-    "Original-language own publications for directory-only societies; increase sparse gout,lactose,iron and other streams",
-    "Audit source publisher versus source setting, population, service area and guideline jurisdiction separately",
-    "Resolve GAPS site-integrity, local identity/currency, translations, and Indigenous/community governance; no implicit absence"
+    "53 M49 areas without domiciled organization identities, including Monaco: no local society absence conclusion",
+    "Continue primary-source original-language organizations and own-published condition links across all seven streams",
+    "Verify historical, renamed, dissolved and stale-directory entities against official notices, e.g. Monaco 2023 dissolution",
+    "UFL local LI research indexes vs national guidelines and Swiss 756→438 service edges remain distinct",
+    "Audit source publisher and programme setting, study population and healthcare jurisdiction; reconcile legacy metadata",
+    "Preserve all GAPS community governance, original-language, legal/source-integrity caveats; no clinical activation"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -59,7 +61,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Immutable batch26 substantive SHA read back all 18 handoff files against GitHub tree blob SHAs, zero mismatches; all 10 CSVs structurally revalidated with zero errors. Node CLI not run.",
+  "validated_data_commit_note": "Batch27 substantive SHA all18 handoff files independently read back and matched Git tree blob SHAs,10 CSVs core+overview+cross-border revalidated in orchestration JS,zero errors. No Node CLI.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -275,11 +277,11 @@
     }
   ],
   "readback_validation": {
-    "immutable_data_sha": "0761c580b39b3c62502f7c8408c9572e39e80912",
+    "immutable_data_sha": "df0ffd28c60e86ae30f23ec7790b06899ae883db",
     "files_matched": 18,
     "csv_count": 10,
     "errors": 0,
-    "runtime": "orchestration_javascript_committed_validator_equivalent_plus_cross_border",
+    "runtime": "orchestration_javascript_committed_validator_equivalent_core_overview_cross_border",
     "node_cli_run": false,
     "github_tree_truncated": false
   }

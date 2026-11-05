@@ -1,3 +1,17 @@
+# Batch27 latest standalone verified checkpoint (df0ffd28c60e86ae30f23ec7790b06899ae883db) — 2026-11-05
+
+**INCOMPLETE.** Existing Team B draft PR71 remains open/unmerged and branch is research/atlas-team-b-20261104. New batch27 research immutable substantive SHA `df0ffd28c60e86ae30f23ec7790b06899ae883db`; all18 committed handoff files independently fetched and checked against Git recursive tree blob SHAs,10 CSVs revalidated in orchestration JavaScript core+overview+cross-border:zero structural errors. Node CLI, full URL crawl, WHO/legal registry sweep, direct live UN export and clinical source/individual study appraisal NOT run. No public website or main files changed.
+
+**Current totals:**306 verified organization identities in195/248 domiciled M49 areas (53 without local identity);186 resource relationships;178 source-positive area-condition cells,1558 without own linked source;509 provenance records;289 targeted search logs;4 community-specific organization records;2 explicit Swiss→Liechtenstein cross-border service edges;0 approved clinical claims. Diabetes65;hypertension17;high_chol21;gout17;lactose14;celiac27;hemochromatosis17. Geographic matrix248×7=1736 exists; this is not full research coverage.
+
+**Batch27 source-integrity correction:** official Journal de Monaco 1996 ministerial authorization and 9June2023 dissolution announcement (effective27March2023) for the named diabetes society supersede its still-retrievable commercial directory listing. Logged 3 provenance and 3 search checks; no active entity, unqualified Monaco current clinical publication, or research-negative absence assertion. Previous batch26 local Liechtenstein UFL research indexes and Swiss diabetesGL-GR-FL based756/serves438 service edges stay distinct; no national guideline invented. All historical and community GAPS retained. See CHECKPOINT.json exact remaining 53 areas and VALIDATION.md.
+
+**Immediate next work:** Expand original-language primary organizations and their published source links for all 53 still unrepresented M49 areas and 1558 source-unlinked cells; audit original author's publication versus translation/third-party host, population/jurisdiction, site/legal lifecycle, disease subtypes, and Indigenous/community control. A link/search pass is not claim appraisal or current nationwide coverage. Update and independently revalidate all CSVs and complete GitHub checkpoint each substantive batch; keep PR open draft and untouched website/main.
+
+## How to resume
+
+Read this whole CONTINUE.md, original TEAM_B_CLINICAL_ORGANIZATIONS.md and DATA_CONTRACT.md from research/atlas-five-team-handoff-prompts-2026-11-04, GAPS, STATUS, CHECKPOINT.json, provenance, all ten CSVs, and validate.mjs on latest branch. Verify live PR HEAD, draft/unmerged status and any newer commits before writing. Only edit docs/atlas/handoffs/team-b/. Preserve stable IDs and all caveats. Complete original criteria, not arbitrary batch quota; if unfinished save independently read-back checkpoint then issue same continuation prompt at end.
+
 # Team B — standalone autonomous continuation
 
 Continue Research Team B to the original acceptance criteria,not an arbitrary batch quota. GitHub is authoritative; independently verify live state.
@@ -52,3 +66,8 @@ Continue Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/
 ## Batch26 exact next-chat continuation prompt
 
 Continue Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. Read docs/atlas/handoffs/team-b/CONTINUE.md from research/atlas-team-b-20261104,verify live state,and continue autonomously toward all original acceptance criteria. Preserve scope,source caveats and no-website/no-merge restrictions. Commit and validate regularly; save a complete standalone GitHub checkpoint if unfinished. At the end provide this same continuation prompt again.
+
+
+## Batch27 next-chat continuation prompt
+
+Continue Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. Read docs/atlas/handoffs/team-b/CONTINUE.md from research/atlas-team-b-20261104, verify live state, and continue autonomously toward all original acceptance criteria. Preserve scope, source caveats and no-website/no-merge restrictions. Commit and validate regularly; save a complete standalone GitHub checkpoint if unfinished. At the end, provide this same continuation prompt again.

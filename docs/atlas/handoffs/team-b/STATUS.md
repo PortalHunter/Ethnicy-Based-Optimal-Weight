@@ -23,3 +23,6 @@ Batch26 independently read-back substantive SHA: **0761c580b39b3c62502f7c8408c95
 
 
 **Batch27 quality check:** Official Journal de Monaco authorizes former diabetes society in1996 and documents dissolution effective27March2023, despite surviving commercial directory listing. Logged3 provenance and3 search rows, no active Monaco identity or published clinical source. Totals remain 306/195 identities/areas and186/178 resource/positive cells; provenance **509**, search **289**,53 domiciled-area gaps,1558 unlinked source cells. Narrow check does not prove no newer Monaco associations. Research incomplete.
+
+
+**Latest independently read-back substantive commit:** df0ffd28c60e86ae30f23ec7790b06899ae883db (batch27). All18 handoff files matched Git recursive tree blob SHAs;10 CSVs independently revalidated zero structural errors. Checkpoint-only follow-up commit does not change data; see CHECKPOINT.json. Replaced no legacy caveats. Still 53 areas without domiciled identity; structural pass is not scientific appraisal.

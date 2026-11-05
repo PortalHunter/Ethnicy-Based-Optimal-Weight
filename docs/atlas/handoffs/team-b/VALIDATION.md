@@ -40,3 +40,6 @@ Batch26 immutable verification: 0761c580b39b3c62502f7c8408c9572e39e80912. Indepe
 
 
 Batch27: 10 CSVs revalidated after Monaco source-integrity annotations (core+retained M49 overview+cross-border edge FKs, uniqueness, published-resource coverage, research_lead_only);0 errors, metrics {"organizations":306,"areas":195,"resources":186,"positive":178,"unresearched":1558,"provenance":509,"search_log":289,"community":4,"cross_border_edges":2,"by_condition":{"diabetes":65,"hypertension":17,"high_chol":21,"gout":17,"lactose":14,"celiac":27,"hemochromatosis":17},"current_unsd_overview_codes":248}. Monaco historical dissolution remains research-only lead with no fabricated current organizational publication. Node CLI/full URL/legal registry/clinical review not run. Immutable data readback documented in following checkpoint.
+
+
+**Batch27 immutable readback:** `df0ffd28c60e86ae30f23ec7790b06899ae883db`, all18 Team B files independently fetched and their contents blob SHA matched against Git tree; no mismatches, tree not truncated. All10 CSVs independently re-parsed for row width and key metrics (306/195/186/178/1558;509 provenance;289 searches;2 edges), zero structural errors; full original core+overview+edge checks passed before write. Node CLI not run; complete live URL/clinical/registry audits NOT done.
