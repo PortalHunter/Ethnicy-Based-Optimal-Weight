@@ -13,6 +13,10 @@ Continue source-verified cross-border health authority research in https://githu
 
 Read `docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md` and `DATA_CONTRACT.md` from `research/atlas-five-team-handoff-prompts-2026-11-04`. Fetch the latest Team D handoff files, every `data/*.csv`, `validate.mjs`, and current PR body. Verify PR remains open/draft/unmerged and use expected-head ref updates only. Avoid duplicate research.
 
+## Live continuation note after Batch 8, 2026-11-05
+
+Batch 8 added 21 April 2026 WHO Country Office survey attestations to 10 existing SEARO office-presence rows (now 31). Added the 21-row typed audit `data/who_office_profile_2026_checks.csv` and WHO official survey-year provenance TD-SRC-113 (now 113 URLs). Six region assignments and historical report unchanged (45 nodes, 542 edges, 205 verified WHO region / 44 unresolved). Current office-presence gaps: 218 retained ISO candidates; unknown ≠ absent. WHO 2026 dashboard reports 153 offices but only 106 with new April 2026 survey responses; retained September 2024 survey data must not be promoted as fresh 2026 attestation. Next prioritize completing this April 2026 directly evidenced office batch and review 44 WHO regional unknowns. Always fetch the newest branch SHA; any newer GitHub checkpoint supersedes this note. `node docs/atlas/handoffs/team-d/validate.mjs` remains mandatory for an execution-level validation claim.
+
 ## Verified fallback checkpoint after Batch 7, 2026-11-05
 
 Branch: `research/atlas-team-d-20261104`; draft PR #70 remains the existing workstream. Batch 7 data commit: `a757ec3979d3bce2449e5e9cd6be4c60c8fb6561`. Batch-log restoration/handoff commit: `4869b0486541a5b9f45679cc9ee7ffd0f46da31a`. Independently retrieve the newest branch head on resume; later handoff commits supersede these.

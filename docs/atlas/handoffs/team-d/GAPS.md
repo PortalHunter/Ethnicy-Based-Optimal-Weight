@@ -1,3 +1,7 @@
+## Update after Batch 8 (2026-11-05)
+
+WHO Country Office presence: 21 newly checked April 2026 office-head survey responses; current presence attestations 31 / 249 candidates; **218 candidates still need direct current office presence review**. This supersedes earlier references below to 10 current records/239 unresolved, retained as history. WHO's dashboard has 153 office profiles but 106 April 2026 self-reports, with September 2024 data retained for others; do not assume all are 2026 refreshed. Differentiate liaison, multi-country, area office, host office, country served, and survey age. The 44 WHO regional assignment gaps remain unchanged.
+
 # Team D — unresolved coverage, 2026-11-05
 
 - **44 WHO regional assignments remain not_verified** among 249 retained ISO seed statuses. See data/who_region_unresolved_queue.csv for exact IDs and reasons. This is not a finding that these areas have no WHO relationship. Do not inherit parent-country assignments. The canonical UN roster is248; ISO candidate158 remains a separately preserved exception.

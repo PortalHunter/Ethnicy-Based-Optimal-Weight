@@ -1,3 +1,9 @@
+## 2026-11-05 — Batch 8: current WHO office presence expansion
+
+- Added 21 direct April 2026 WHO office survey attestations to the separate current office table, plus 21 typed source-by-source audit records. WHO regional assignments unchanged; historical 2021–2022 office/service report remains separate.
+- Added official WHO survey metadata source TD-SRC-113; updated structural validator for 31 current offices, 21 new audits, and 113 provenance entries. Remaining 218 area candidates are not treated as office-absent.
+- Source https://data.who.int/dashboards/country-presence/country-office/office-profile-survey-reporting-year/ (checked 2026-11-05). Commit SHA must be obtained from GitHub after this batch is saved.
+
 ## 2026-11-05 — Batch 7: WHO country-office service topology (historical)
 
 - Read the official WHO 2023 Country Presence Report, Annexes 2–4. The report states its coverage period is January 2021–December 2022; all rows are historical and exact office opening/closure dates are not imputed.

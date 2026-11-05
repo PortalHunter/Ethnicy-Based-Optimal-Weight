@@ -1,3 +1,7 @@
+# Team D — latest checkpoint after Batch 8 (2026-11-05)
+
+Branch `research/atlas-team-d-20261104`; draft PR #70 open and unmerged at verified startup. **New data:** 21 individually checked WHO Country Office entries whose latest official office-head survey is April 2026, spanning all five non-SEARO WHO regions. The separate current office-presence table now has **31 positive attestations**; the survey-audit table has **21 rows**; provenance now has **113 URLs**. The 2023 WHO report remains historical (228 service records). No region/graph/membership change: 45 nodes, 542 typed edges, 205 verified WHO regions, 44 unresolved, 20 seven-key institutional references. **218/249** candidate areas have no affirmative *current* office presence record; no negative absence is implied. See BATCH_2026-11-05.md for source and limitations.
+
 # Team D — Research status
 
 Checked: 2026-11-05. Branch: `research/atlas-team-d-20261104`. Draft PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70

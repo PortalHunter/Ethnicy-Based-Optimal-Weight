@@ -22,10 +22,17 @@ for(const r of statuses){assert.match(r.m49_code,/^\d{3}$/);assert(r.who_region)
 for(const r of assigned){assert(['AFRO','AMRO','EMRO','EURO','SEARO','WPRO'].includes(r.who_region));assert(sources.has(r.who_region_source));}
 const sea=['050','064','104','144','356','408','462','524','626','764'];
 assert.deepEqual(statuses.filter(r=>r.who_region==='SEARO').map(r=>r.m49_code).sort(),sea);
-assert.deepEqual(offices.map(r=>r.country_area_m49).sort(),sea);
+assert.deepEqual(offices.filter(r=>r.office_presence_source==='https://www.who.int/southeastasia/about').map(r=>r.country_area_m49).sort(),sea);
+assert.equal(offices.length,31);
+assert.equal(new Set(offices.map(r=>r.country_area_m49)).size,31);
+assert.equal(offices.filter(r=>r.as_of==='2026-04').length,21);
 assert.equal(statuses.find(r=>r.m49_code==='360').who_region,'WPRO');
 assert.equal(statuses.find(r=>r.m49_code==='840').who_membership_governance_status,'PENDING_GOVERNING_BODIES_REVIEW');
-assert(!offices.some(r=>r.country_area_m49==='360'));
+assert(offices.some(r=>r.country_area_m49==='360'&&r.office_presence_source==='https://data.who.int/dashboards/country-presence/country-office/office-profile-survey-reporting-year/'));
+const officeAudits=read('data/who_office_profile_2026_checks.csv');
+unique(officeAudits,r=>r.record_id,'2026 office audit IDs');
+assert.equal(officeAudits.length,21);
+for(const r of officeAudits){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.presence_type,'WHO Country Office');assert.equal(r.latest_self_reported_survey,'2026-04');assert(offices.some(o=>o.country_area_m49===r.country_area_m49&&o.office_presence_source===r.source_url&&o.as_of==='2026-04'));assert.equal(statuses.find(s=>s.m49_code===r.country_area_m49).who_region,r.who_region);}
 assert.equal(statuses.filter(r=>r.who_region==='EURO').length,53);
 assert.equal(statuses.find(r=>r.m49_code==='438').who_region,'not_verified');
 assert.equal(statuses.find(r=>r.m49_code==='398').who_region,'EURO');
@@ -76,6 +83,6 @@ assert.equal(officeHistory.find(r=>r.source_name==='Israel'&&r.relationship_type
 const histEdges=edges.filter(r=>r.as_of==='2023'&&r.source_url==='https://iris.who.int/bitstream/handle/10665/367811/9789240073272-eng.pdf?sequence=1');
 assert.equal(histEdges.length,225);
 for(const r of histEdges){assert(sources.has(r.source_url));assert(ids.has(r.to_id));if(r.country_area_m49)assert(codes.has(r.country_area_m49));}
-assert.equal(nodes.length,45);assert.equal(edges.length,542);assert.equal(prov.length,112);
+assert.equal(nodes.length,45);assert.equal(edges.length,542);assert.equal(prov.length,113);
 
-console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length},null,2));
+console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length},null,2));
