@@ -119,7 +119,7 @@
 "052","celiac","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "052","hemochromatosis","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "056","diabetes","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
-"056","hypertension","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
+056,hypertension,national_or_cross_border_body_verified,Belgisch Hypertensie Comité; Comité Belge de Lutte contre l’Hypertension,1,"First-party society source indexed; separate issuer, guideline vintage, translations and evidence limitations in linked records. No clinically approved claims.","none_logged|B-BE-BHC-SEARCH-B44"
 "056","high_chol","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "056","gout","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "056","lactose","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
@@ -1043,7 +1043,7 @@
 "524","celiac","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "524","hemochromatosis","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "528","diabetes","national_or_cross_border_body_verified","diabetesvereniging richtlijnen","1","Official organization source is linked; differentiated authorship and publication type; no clinical evidence appraisal","none_logged"
-"528","hypertension","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
+528,hypertension,national_or_cross_border_body_verified,Nederlandse Hypertensie Vereniging; hoge bloeddruk; richtlijnen,1,"First-party society source indexed; separate issuer, guideline vintage, translations and evidence limitations in linked records. No clinically approved claims.","none_logged|B-NL-NHV-SEARCH-B44"
 "528","high_chol","national_or_cross_border_body_verified","Stichting LEEFH","1","Typed first-party resource relationship verified; inherited FH not general LDL elevation; no clinical approval","B-NL-LEEFH-SEARCH-B11"
 "528","gout","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "528","lactose","national_or_cross_border_body_verified","lactose; related condition patient resource","1","Verified national organization resource relationship; patient education/catalogue/consensus/lecture are not interchangeable; no clinical approval","B-NL-NCV-SEARCH-B10-lactose"
@@ -1225,14 +1225,14 @@
 "612","celiac","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "612","hemochromatosis","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "616","diabetes","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
-"616","hypertension","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
+616,hypertension,national_or_cross_border_body_verified,Polskie Towarzystwo Nadciśnienia Tętniczego; wytyczne PTNT PTK 2024,1,"First-party society source indexed; separate issuer, guideline vintage, translations and evidence limitations in linked records. No clinically approved claims.","none_logged|B-PL-PTNT-SEARCH-B44"
 "616","high_chol","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "616","gout","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "616","lactose","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "616","celiac","national_or_cross_border_body_verified","celiakia; stowarzyszenie; poradniki","1","Official organization and publishes_patient_education_resource_index verified; clinical appraisal pending; full-text research not claimed","none_logged"
 "616","hemochromatosis","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "620","diabetes","national_or_cross_border_body_verified","sociedade diabetes orientações","2","Official organization source is linked; differentiated authorship and publication type; no clinical evidence appraisal","none_logged"
-"620","hypertension","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
+620,hypertension,national_or_cross_border_body_verified,Sociedade Portuguesa de Hipertensão; recomendações; guidelines,1,"First-party society source indexed; separate issuer, guideline vintage, translations and evidence limitations in linked records. No clinically approved claims.","none_logged|B-PT-SPH-SEARCH-B44"
 "620","high_chol","national_or_cross_border_body_verified","sociedade diabetes orientações","1","Official organization source is linked; differentiated authorship and publication type; no clinical evidence appraisal","B-PT-FHPORTUGAL-SEARCH-B11"
 "620","gout","specialist_research_only","gota; recomendações portuguesas; Acta Reumatológica Portuguesa","1","Araújo and colleagues authored the 3e initiative paper. A panel of 42 rheumatologists endorsed the work. The society journal carried it. Separate from the commercial patient campaign previously withheld.","B-PT-GOUT-LEAD-B29|B-PT-SPR-gout-31-Q"
 "620","lactose","national_or_cross_border_body_verified","; Portuguese source review batch25","2","External guideline hosting verified; not sole national authorship or clinical appraisal Batch29 SPGP hosts external English source,not local authorship; version/correction checks pending.","B-PT-LACTOSE-SEARCH-B14|B-PT-SPG-B25|B-PT-BREATH-B29|B-PT-BREATH-YEAR-B29"
@@ -1449,7 +1449,7 @@
 "716","celiac","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "716","hemochromatosis","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
 "724","diabetes","national_or_cross_border_body_verified","sociedad diabetes endocrinología guías","1","Official organization source is linked; differentiated authorship and publication type; no clinical evidence appraisal","none_logged"
-"724","hypertension","not_yet_researched","","0","No condition-specific search is logged for this cell.","none_logged"
+724,hypertension,national_or_cross_border_body_verified,Sociedad Española de Hipertensión; guía práctica; diagnóstico,1,"First-party society source indexed; separate issuer, guideline vintage, translations and evidence limitations in linked records. No clinically approved claims.","none_logged|B-ES-SEHLELHA-SEARCH-B44"
 "724","high_chol","national_or_cross_border_body_verified","Fundación Hipercolesterolemia Familiar","1","Typed first-party resource relationship verified; inherited FH not general LDL elevation; no clinical approval","B-ES-FHF-SEARCH-B11"
 "724","gout","national_or_cross_border_body_verified","gout; GuipClinGot2020 — Guía de Práctica Clínica para el Manejo de Pacientes con Gota","1","Promoter SER; two laboratories Menarini/Grunenthal disclosed; guideline/methods appendix indexed, not fully appraised. Current supersession pending.","B-ES-SER-SEARCH-B16"
 "724","lactose","national_or_cross_border_body_verified","lactose; Protocolo de diagnóstico de la hipolactasia/intolerancia a la lactosa/malabsorción de lactosa en práctica clínica; intolerancia a la lactosa own site B42","2","Eight-page PDF metadata/attribution inspected, no full-methods appraisal; diagnostic test preferences/supersession need review. Copyright restricted; index only. Batch42: patient education, not a clinically appraised source.","B-ES-SEPD-SEARCH-B14|B-ES-FACE-LACTOSE-SEARCH-B42"
