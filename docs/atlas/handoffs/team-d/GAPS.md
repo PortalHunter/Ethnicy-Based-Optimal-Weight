@@ -1,3 +1,11 @@
+## Batch 20 outstanding after source-check inventory closure (2026-11-05)
+
+**Source-check queue completed: 46/46 older September 2024 WHO survey labels have independent WHO/PAHO corroboration records.** This **does not close operational recency**: 25 crosschecks rely on undated pages, while 21 cite day-level 2026 source events/news; neither is a replacement April 2026 office-head survey. The two WHO multi-country office labels (Barbados/Eastern Caribbean and South Pacific) remain non-joined `not_verified` for a single M49 host; Tonga is a liaison office. No inference that every serviced area has premises. Morocco's 5 May 2026 is a reported MoU event rather than a verified page publication date; some PAHO pages have 403 direct-open limitations. **Full Node/JS structural execution is pending after this batch** (targeted checks passed only).
+
+Unresolved: **44** direct current WHO regional assignments; **144** geographic areas without equivalent April 2026 affirmative office-host survey records; operational currency of all 46 older office profiles; PAHO Eastern Caribbean 13/14 discrepancy (French Saint Martin 663 is not Dutch Sint Maarten 534); exact 2024 North Macedonia SCI accession instrument/day; APPM named country agreements/intents, signed regulatory legal remits, EMA/Team A identity joins, PAHO HEARTS/ASEAN country implementations, professional seven-condition collaborations and Team B/C joins. Previous historical-versus-current separation and legal/clinical caveats remain binding. [Standalone checkpoint](CHECKPOINT_BATCH_20_2026-11-05.md).
+
+---
+
 ## Batch 19 unresolved items — 2026-11-05
 
 - **17/46 retained September 2024 WHO office surveys still lack separate source checks.** Existing 29 first-party checks vary in date strength: 20 are undated pages, 9 give day-level reported engagements/events. An independent check is not a refreshed WHO dashboard survey or confirmation of continuous physical operation.
