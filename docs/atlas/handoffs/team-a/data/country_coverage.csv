@@ -67,7 +67,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 232,Eritrea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 233,Estonia,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Institutional remit and local name directly checked; statutory instrument linked but not separately appraised. No agency hierarchy inferred.
 234,Faroe Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-238,Falkland Islands (Malvinas),Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+238,Falkland Islands (Malvinas),Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_REVIEW_PENDING,SPECIAL_JURISDICTION_OR_DEVOLUTION_REVIEW_PENDING,2026-11-05,Falkland Islands Government identifies own service department and CMO advisory roles; contested sovereignty and UK or Argentinian state competence not assessed or asserted; separate Public Health Unit documented.
 239,South Georgia and the South Sandwich Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 242,Fiji,Oceania,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Official 2026 vacancy and September advisory; full legal mandate pending.
 246,Finland,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,PORTFOLIO_OR_DEVOLVED_MANDATE_REVIEW_PENDING,2026-11-05,30 October 2026 ministry-authored government source and September 2026 government budget corroborate identity; wellbeing services counties retain their own responsibilities.
@@ -89,30 +89,30 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 304,Greenland,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 308,Grenada,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,PORTFOLIO_OR_DEVOLVED_MANDATE_REVIEW_PENDING,2026-11-05,Government directory identifies ministries and separately named health/wellness/religious affairs ministerial responsibilities; legal portfolio scope pending.
 312,Guadeloupe,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-316,Guam,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Timeout. Authority remains unknown; alternate official source needed.
+316,Guam,Oceania,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_REVIEW_PENDING,SPECIAL_JURISDICTION_OR_DEVOLUTION_REVIEW_PENDING,2026-11-05,"Guam department own statutory history cites Guam Public Laws 7-101 and 9-147, 5 GCA 3111 and Title 10; US delegated competence and full law currency not inferred; original Chamorro name taken from own agency homepage."
 320,Guatemala,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,2026 Guatemalan government health ministry publications directly identify body and activity; statutory and departmental competence pending.
 324,Guinea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 328,Guyana,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Own ministry alternative working domain resolves previous moh.gov.gy placeholder; region-level authority requires separate checking.
 332,Haiti,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Own institutional mandate page checked. Detailed legal instruments and effective territorial service coverage not independently established.
 334,Heard Island and McDonald Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 336,Holy See,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-340,Honduras,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+340,Honduras,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Own ministry mission and independently hosted state transparency portal organigram updated October 2026 corroborate institution. Secretariat also referred to as Secretaría de Salud; detailed law and regional structure not fully appraised.
 344,"China, Hong Kong Special Administrative Region",Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 348,Hungary,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 352,Iceland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 356,India,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-360,Indonesia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+360,Indonesia,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,"Own mission cites Presidential Regulation 161/2024 and Ministry Regulation 21/2024; 2026 ministry legal database lists effective ministerial decision HK.01.07/Menkes/155/2026, but internal regional powers not fully parsed."
 364,Iran (Islamic Republic of),Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 368,Iraq,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 372,Ireland,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Current own government department mandate and 2025–2028 health strategy; separate HSE statutory role pending.
-376,Israel,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+376,Israel,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_REVIEW_PENDING,SPECIAL_JURISDICTION_OR_DEVOLUTION_REVIEW_PENDING,2026-11-05,Original Hebrew name and current government English ministry remit corroborated. Does not adjudicate Israel/Palestine territorial claims or transfer to State of Palestine M49 275.
 380,Italy,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,"Official four-department ministry organization based on 2024 structural regulation, 2026 governmental normative acts; no regional competence inferred."
 384,Côte d’Ivoire,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,UNSD M49 name correction 2026-11-05; authority still unresearched
 388,Jamaica,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Prime Minister ministry directory and October 2026 health ministry statement corroborate; regional health authorities not conflated.
 392,Japan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
-398,Kazakhstan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+398,Kazakhstan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Own Kazakh-language government agency remit and English-language official government organizational chart agree on ministry identity; legal subsidiary and regional functions remain pending.
 400,Jordan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-404,Kenya,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+404,Kenya,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_REVIEW_PENDING,SPECIAL_JURISDICTION_OR_DEVOLUTION_REVIEW_PENDING,2026-11-05,Government ministry site has November 2026 updates and identifies two state departments; does not establish sole county health powers; internal departments recorded separately.
 408,Democratic People's Republic of Korea,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 410,Republic of Korea,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 414,Kuwait,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
