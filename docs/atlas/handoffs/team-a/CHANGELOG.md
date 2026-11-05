@@ -1,3 +1,9 @@
+## 2026-11-05 — Batch25 research identities, independent six-CSV QA and standalone checkpoint
+
+- **DATA SHA** `a07709058782d2360cdab90c4647af37ca4efbb9`. Five new principal identities (414 Kuwait, 422 Lebanon, 480 Mauritius, 496 Mongolia, 524 Nepal); six new government body records including Nepal DoHS, one scoped in-area affiliation, 15 dated source checks (Kuwait own-source timeout explicitly retained). Five Team A CSV files only, 5 GitHub commits.
+- **Totals:** 248 official M49 rows, 161 identity located / 87 unknown, 217 bodies, 45 relationships, 368 provenance, 248 coverage, zero invented parent-M49. Exact immutable six-CSV postcommit QA PASS structural, 50 jurisdiction sentinels. Python `validate.py` NOT RUN (container GitHub DNS). No full statutory/current mandate certification.
+- **Complete independent recovery:** [CHECKPOINT_20261105_BATCH25.md](CHECKPOINT_20261105_BATCH25.md); prior Batch24 and older source conflict/negative checks retained. PR #68 OPEN DRAFT/unmerged; no public site, main or clinical edits.
+
 ## CURRENT Team A Batch24 — 2026-11-05
 
 **Immutable DATA SHA [`68a7445f111ee0800402d10960d176d8beae82e9`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/68a7445f111ee0800402d10960d176d8beae82e9) independently re-read/audited.** Exact 248/248 official dated UN M49 geographic country/area records; **156** source-identified principal government health-authority **IDENTITIES ONLY** (62.9% of geographies, NOT all mandates), **92** explicitly unresolved; **211** separate governmental health bodies; **44** source-bounded same-area institutional relationships; **353** dated provenance records including historical/failed and 12 new official checks; **248** matching coverage review rows; **0** invented cross-area parent M49.
