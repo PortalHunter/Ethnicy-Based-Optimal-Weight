@@ -28,3 +28,11 @@ Checked 2026-11-04. Each case describes a **non-equivalence**; negative cases do
 21. **53 WHO Europe countries versus 33 country-level offices.** No country-specific office absence may be inferred from these aggregate counts. [WHO Europe](https://www.who.int/europe/about-us/about-who-europe/organization).
 22. **Liechtenstein EEA participation does not assign its WHO region.** It is absent from the captured 53-country WHO roster; its region stays not_verified while disease surveillance participation remains a separate existing edge. [WHO Europe](https://www.who.int/europe/about-us/about-who-europe/organization).
 23. **WHO AFRO is not the UN Africa geographic roster or Africa CDC membership.** Only 47 individually listed countries receive AFRO assignment from this directory. [AFRO](https://afro.who.int/countries).
+
+## Added after batches4–6, 2026-11-05
+
+24. **WPRO country/area roster is not a sovereign-member roster.** Thirty-eight named entries include territories; regional assignment does not settle constitutional status. [WPRO](https://www.who.int/westernpacific/about/where-we-work).
+25. **US-territory metadata carries pending WHO governance consideration.** American Samoa, Guam and Northern Mariana Islands retain sourced WPRO placement and the source qualification. [WPRO](https://www.who.int/westernpacific/about/where-we-work).
+26. **WHO operational label differs from UN country label.** Occupied Palestinian territory is explicitly associated with EMRO by WHO, and PSE is crosswalked to UN State of Palestine275. Neither field proves WHO constitutional membership. [WHO](https://www.who.int/emergencies/situations/conflict-in-Israel-and-oPt), [PSE dashboard](https://immunizationdata.who.int/dashboard/regions/eastern-mediterranean-region/PSE).
+27. **Current crawl does not prove current institutional classification.** WHO CPCD still groups Indonesia under SEARO; current WPRO roster and dated transfer supersede it for current assignment. [CPCD](https://extranet.who.int/cpcd/countries-and-regions).
+28. **PAHO membership is a discovery aid, not WHO-region evidence.** Each of35 country candidates was independently checked against its WHO country profile; the US profile's Americas field does not resolve pending governance. [US profile](https://data.who.int/countries/840).

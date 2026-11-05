@@ -48,4 +48,13 @@ assert.equal(statuses.filter(r=>r.who_region==='EMRO').length,22);
 assert.equal(statuses.find(r=>r.m49_code==='275').who_region,'EMRO');
 assert.equal(statuses.find(r=>r.m49_code==='275').who_membership_governance_status,'PENDING_VERIFICATION');
 assert.equal(statuses.filter(r=>r.who_region==='AMRO').length,35);
+const pending=read('data/who_region_unresolved_queue.csv');
+unique(pending,r=>r.record_id,'unresolved-queue IDs');
+assert.deepEqual(pending.map(r=>r.country_area_m49).sort(),statuses.filter(r=>r.who_region==='not_verified').map(r=>r.m49_code).sort());
+for(const r of pending)assert.equal(r.who_region_review_state,'UNKNOWN_REVIEW_NEEDED');
+for(const r of profileChecks){assert.equal(r.source_who_region,r.normalized_who_region==='EMRO'?'Eastern Mediterranean':'Americas');assert.equal(statuses.find(s=>s.m49_code===r.country_area_m49).who_region_source,r.source_url);}
+const gaps=read('data/network_coverage_gaps.csv'),overlaps=read('data/network_overlap_inventory.csv');
+unique(gaps,r=>r.gap_id,'gap IDs');unique(overlaps,r=>r.overlap_id,'overlap IDs');
+for(const r of gaps){assert(ids.has(r.network_id));assert(sources.has(r.source_url));}
+for(const r of overlaps){assert(sources.has(r.source_url_a));assert(sources.has(r.source_url_b));}
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,provenance:prov.length},null,2));

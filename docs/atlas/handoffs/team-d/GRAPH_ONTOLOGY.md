@@ -47,3 +47,7 @@ The seven exact condition keys are `diabetes`, `hypertension`, `high_chol`, `gou
 ## 2026-11-05 additions
 
 The captured canonical UN overview crosswalk has 248 rows; the legacy 249 ISO seed retains code 158 as a separately documented exception. Do not label every retained seed code a canonical UN roster entry. New unknown date values are literal unknown; unreviewed region/source/flags are not_verified. These supplement legacy empty cells without changing their historical meaning. Country-office presence uses a separate stable-ID table; profile links or aggregate office counts cannot create country-specific office records.
+
+## Profile metadata and source-label audits after batches4–6
+
+who_region_profile_checks.csv records explicit M49 and WHO regional metadata from individual country profiles; it never assigns constitutional membership. who_region_name_matches.csv retains WPRO original labels and reviewed UN-name joins, with no fuzzy matching. who_region_unresolved_queue.csv enumerates exactly the not_verified status IDs; a pending row is not an absent relationship. Source-conflict ledger entries are not evidence for current assignments. WHO occupied Palestinian territory operational designation and UN State of Palestine code275/PSE are separate labels joined only for the sourced regional record.

@@ -1,5 +1,12 @@
 # Team D — Changelog
 
+## 2026-11-05 — Continuation checkpoint after batches4–6
+
+- Research commits: WPRO `b532c3f1da839e6adb9e18798e42152cb86b75ca`; EMRO `76e566dc189882934af3231ffd1f313ce36a3c5d`; AMRO `6f1573cd64fa1343ab84a4a0a358b662f1736f63`.
+- Added44 explicit unresolved-area queue records, one conflict-only CPCD source, five boundary cases and expanded validator.
+- Current totals 317 edges,205 verified/44 unknown region statuses,111 provenance URLs. No main or calculator edits.
+
+
 ## 2026-11-05 — Batch 6: WHO Americas country profiles
 
 - Independently verified all 35 PAHO state candidates against explicit WHO region/M49 profile metadata.

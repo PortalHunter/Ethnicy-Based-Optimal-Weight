@@ -1,38 +1,46 @@
-# Ancestry Health — Research Team D continuation
+# Ancestry Health — Research Team D autonomous continuation
 
-Continue Team D international/regional institutional-network research in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight.
+Continue international/regional institutional-network research in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight . GitHub is authoritative; independently retrieve live branch, PR and newest committed handoff before accepting this fallback.
 
-GitHub is authoritative. First independently retrieve current branch and PR state; newer commits supersede this fallback. Existing branch: `research/atlas-team-d-20261104`. Existing draft PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70 . Do not create another branch/PR unless the current one is unavailable and recovery is necessary. Do not merge.
+Existing branch: `research/atlas-team-d-20261104`. Existing PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70 . At last verification it was open, draft and unmerged. Use this branch/PR, not main. Exclusive write directory: `docs/atlas/handoffs/team-d/`.
 
-Read the original assignment `docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md` and shared `DATA_CONTRACT.md` on `research/atlas-five-team-handoff-prompts-2026-11-04`. Read all current Team D handoff files, especially STATUS.md, GAPS.md, PROVENANCE.csv, CHANGELOG.md, BATCH_2026-11-05.md, GRAPH_ONTOLOGY.md, VALIDATION.md and data/*.csv.
+Read original TEAM_D_INTERNATIONAL_NETWORKS.md and DATA_CONTRACT.md under docs/atlas/research-team-prompts/ on branch research/atlas-five-team-handoff-prompts-2026-11-04. Read current STATUS.md, GAPS.md, PROVENANCE.csv, CHANGELOG.md, BATCH_2026-11-05.md, METHOD.md, GRAPH_ONTOLOGY.md, VALIDATION.md, validate.mjs and every data/*.csv. Check for newer activity and avoid duplicate work.
 
-Exclusive writes: `docs/atlas/handoffs/team-d/` on the existing research branch. Own cross-border networks and typed relationships. Do not recompile Team A ministries, Team B national societies or Team C journals. No main writes, live-calculator changes, clinical recommendation activation, issue closure or PR merge.
+## Verified fallback after batches4–6, 2026-11-05
 
-## Verified fallback checkpoint, 2026-11-05
+Prior continuation checkpoint: 39c7a58dcb69854eeea36bc46e8febafa8ea0982.
+- Batch4 WPRO: b532c3f1da839e6adb9e18798e42152cb86b75ca
+- Batch5 EMRO: 76e566dc189882934af3231ffd1f313ce36a3c5d
+- Batch6 AMRO: 6f1573cd64fa1343ab84a4a0a358b662f1736f63
 
-Research batch commits:
-- UN roster reconciliation and SEARO: 5d687ba9d0633354bc5e10d878a76f6e53c2cb28
-- WHO Europe roster: 8b44fae4fa8472e5b076a166651c699c1cde9752
-- WHO Africa roster: 8b5e40bc2cfb68ca972d77f59f54d14063b0c20c
+The subsequent handoff commit contains this prompt, the final conflict audit and exact unresolved queue; independently obtain its SHA from the live branch.
 
-Research data at the third commit: 36 network nodes; 223 typed edges; 20 condition references across all seven keys; 249 retained ISO seed status rows; 248 official UN M49 country/area crosswalk rows; one separately retained seed exception (158); 111 verified WHO region statuses; 138 not_verified; ten SEARO office-presence records; 20 open coverage gaps; 14 overlap cases; 51 provenance URLs; 23 sourced boundary cases.
+Current data:36 network nodes;317 typed edges;20 condition institutional references across all seven keys;249 retained ISO candidate status rows;248 official UN M49 overview crosswalk rows;one explicit ISO seed exception158;205 verified WHO region statuses and44 not_verified;ten SEARO office-presence records;56 individual WHO profile audit records;38 WPRO source-name match records (ten explicit aliases);44 unresolved-area queue records;20 network coverage tasks;14 overlap comparisons;111 provenance URLs;28 sourced boundary cases.
 
-All 248 UN overview rows match the legacy ISO seed; 158 is absent from the captured UN overview and is an explicit exception, not a canonical UN roster entry. Do not delete it silently or infer political/WHO status. Antarctica geographic region fields are not_applicable. Current verified regions: SEARO ten, EURO 53, AFRO 47, Indonesia WPRO. Nine SEARO statuses were new but ten edges were added because Timor-Leste had an existing status without a region edge. Algeria was rechecked without duplicating its edge.
+Verified region status counts:AFRO47;AMRO35;EMRO22;EURO53;SEARO10;WPRO38. This is205 geographic status records, not a constitutional WHO membership count. This continuation added94 statuses and94 edges:37 WPRO,22 EMRO,35 AMRO. Indonesia WPRO effective date2025-05-23 preserved. No duplicate Indonesia/Algeria edges.
 
-## Highest priorities
+## Next priorities
 
-1. Verify current AMRO, EMRO and WPRO country/area assignments from authoritative regional rosters or individually labeled WHO profiles. Preserve nonstate-area categories and effective dates. Do not extrapolate membership or WHO region from UN geography, PAHO membership or EU/EEA scope.
-2. Retrieve EMRO primary roster successfully: English and Arabic pages returned 502/timeouts in this run. Search extracts alone were deliberately not promoted. Keep unresolved areas not_verified.
-3. Expand country-office presence separately. SEARO explicitly attests offices in all ten named states. WHO Europe says 33 country-level offices for 53 countries; that aggregate does not identify which countries have or lack offices.
-4. Recheck US constitutional governance only against current primary records. Existing status is PENDING_GOVERNING_BODIES_REVIEW and PAHO membership is independent.
-5. Continue Africa CDC/AU and regional programme rosters, competent medicines agency jurisdiction, country-specific HEARTS pathway editions and Team B ID reconciliation with explicit identity provenance.
+1. Start with data/who_region_unresolved_queue.csv:44 IDs with explicit queue reasons, mostly territorial/special areas plus ISO-only 158. Source each assignment directly; do not inherit a parent country's region or infer political recognition. The captured official UN universe remains248;158 is a separate legacy exception.
+2. Country-office presence:only ten SEARO rows individually attested so far. Distinguish physical presence, dedicated office, multi-country office service, liaison and special representative. WHO Europe aggregate33 offices for 53 countries cannot establish country-specific presence/absence.
+3. Recheck US governance using new primary evidence only. US status remains PENDING_GOVERNING_BODIES_REVIEW; WPRO explicitly also qualifies references to US territories. Regional metadata and PAHO membership are independent of final constitutional status.
+4. Verify actual Africa CDC/AU/ASEAN programme rosters, EMA/EMRN competent-agency jurisdictions and local HEARTS editions. Match source-local society IDs to Team B only with explicit identity evidence. Do not duplicate ministries, national societies or journal catalogs owned by other teams.
 
-## Source and validation safeguards
+## Source lessons and unresolved retrieval limits
 
-The WHO immunization regional summaries still lists Indonesia among eleven SEARO states. It is a documented stale-roster counterexample, not evidence for current assignment. Current SEARO roster and dated 2025-05-23 transfer take precedence. WHO Gateway provides corroboration for 53 EURO countries; primary main roster names exactly match the UN crosswalk. AFRO aliases: Cote d'Ivoire=384 Côte d’Ivoire; Democratic Republic of Congo=180 Democratic Republic of the Congo; The Gambia=270 Gambia. Do not fuzzy-join.
+- WPRO official Where we work names38 countries/areas, including Indonesia and territories. Original labels and ten exact reviewed aliases are persisted in who_region_name_matches.csv. No sovereign-member inference.
+- EMRO English/Arabic main/slideshow endpoints failed repeatedly. All 21 country assignments were instead explicitly verified against individual data.who.int profiles showing M49 and region. The separately sourced WHO operational area occupied Palestinian territory maps to UN State of Palestine275/PSE via explicit WHO regional heading and PSE dashboard corroboration; no WHO constitutional membership finding.
+- All 35 AMRO country candidates were independently verified through individual WHO metadata; PAHO membership was used only to seed the discovery queue. Profile checks file totals 56 (21 EMRO plus35 AMRO).
+- Dominica and Saint Kitts pages are shorter:find WHO region or reference metadata rather than assuming line370. Only institutional geographic metadata was extracted, no clinical statistics.
+- WHO immunization regional summaries and WHO CPCD both retain stale Indonesia SEARO metadata. CPCD Bermuda Americas label was observed but not promoted without current independent confirmation. A fresh crawl is not evidence that every institutional classification is current.
+- data.who.int profile attempts275,630,533 were inaccessible. Do not infer absent WHO relationships from a failed page. Search snippets alone were not promoted into region assignments.
 
-Run `node docs/atlas/handoffs/team-d/validate.mjs` after downloading current handoff files. The validator checks CSV structure, IDs, references, provenance closure, seven condition keys, 248/249 geographic reconciliation, explicit unknowns, 53 EURO/47 AFRO/ten SEARO regions, ten office records and Indonesia/US/Liechtenstein boundaries. Structural PASS is not clinical or legal approval. Known baseline website retrieval failures are in the batch log.
+## Execution and persistence
 
-Work in manageable source-verified batches. Maintain stable IDs, exact jurisdictions, source dates/languages, explicit uncertainty and historical intervals. Commit each substantive validated batch directly to the existing branch with handoff updates; update PR metadata. Verify GitHub readback before claiming saved. Report failed writes explicitly and preserve recoverable results.
+Run `node docs/atlas/handoffs/team-d/validate.mjs` after fetching current files. Expected current totals:317 edges,205 verified/44 unknown statuses,111 source URLs;56 profile checks,38 name matches and44 pending rows. Validator checks IDs, composite edges, source closure, UN/ISO reconciliation, all seven health keys, regional counts, unknown-queue coverage and Indonesia/US/territory boundaries. Structural PASS is not clinical/legal appraisal or a GitHub Actions result.
 
-Before ending, update STATUS.md, GAPS.md, PROVENANCE.csv, CHANGELOG.md, VALIDATION.md and this continuation prompt. Report final verified commit SHA, branch, draft PR URL, exact new record counts, validation and remaining gaps. Ancestry never substitutes for individual clinical evidence; no unappraised discovery becomes a personalized clinical recommendation.
+Continue manageable original-language/source-verified batches. Preserve stable IDs, dates, exact source labels, historical intervals and explicit unknowns. Commit each substantive validated batch with handoff updates; use expected-head lease and verify readback. Update existing draft PR metadata. Report failed writes explicitly and preserve recovery outputs.
+
+Before ending, update STATUS.md, GAPS.md, PROVENANCE.csv, CHANGELOG.md, VALIDATION.md and this complete standalone prompt. Report verified final SHA, branch, PR URL, exact new findings, checks and remaining gaps.
+
+Do not write main, merge, close research issues, edit other teams' folders, change live calculator or activate patient-facing recommendations. Institutional identity does not appraise clinical evidence. Ancestry is not a substitute for individual clinical evidence; no unappraised discovery becomes a personalized clinical recommendation.
