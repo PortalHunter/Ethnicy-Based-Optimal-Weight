@@ -1,3 +1,9 @@
+# Team A — Batch 15 latest standalone continuation (2026-11-05)
+
+**LATEST CHECKPOINT:** [Complete standalone Batch 15](CHECKPOINT_20261105_BATCH15.md). Exact independent QA DATA SHA `96ab1bae36eee3171793a0f0dae87bb765611623`; later docs HEAD must be rechecked live. **111 identified / 137 explicit unknown** of 248 official M49 areas; **159** body records, **38** relationships, **231** source provenance rows, **248** synchronized ledger. Six new areas: Greenland 304, Hong Kong SAR 344, Norway 578, Sweden 752, UK 826, US 840. Six body records, 16 source entries; 0 inferred cross-M49 parents. Immutable GitHub CSV readback PASS; **Python validator NOT RUN** (local GitHub DNS unavailable). Full laws and independent statutory checks UNFINISHED. **Only Team A directory may be edited; PR #68 DRAFT/unmerged.** All historic information follows, superseded counts remain history.
+
+---
+
 # Team A — latest standalone Batch 14 continuation
 
 **Current GitHub handoff:** [Batch 14 checkpoint](CHECKPOINT_20261105_BATCH14.md). **Exact audited DATA SHA** `b9603d7ced8ea7c3b84595ad3cbe690dbca08fb4`; newer docs commit on branch HEAD. **Read Batch 14 standalone checkpoint first** for complete mission, sources, steps, QA and unmodified continuation prompt. Counts **105 identified / 143 unknown** of 248 official M49 areas; 153 bodies, 38 links, 215 provenance, 248 coverage. Python validator NOT run; structural readback PASS. Only edit Team A handoff branch; PR stays DRAFT and unmerged. All older material below remains for historical source caveats.

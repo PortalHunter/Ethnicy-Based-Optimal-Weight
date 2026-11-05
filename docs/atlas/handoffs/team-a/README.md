@@ -1,3 +1,9 @@
+## Current Team A research snapshot — Batch 15 (2026-11-05)
+
+See [complete standalone Batch 15 GitHub checkpoint](CHECKPOINT_20261105_BATCH15.md) and [latest continuation](CONTINUE.md). Official M49 **248/248** geographic skeletons; **111** principal health-authority identities supported at limited identity level and **137** explicit unknowns; **159** governmental bodies, **38** source-backed links, **231** provenance checks, **248** synced coverage. Exact data commit `96ab1bae36eee3171793a0f0dae87bb765611623`, separate six-CSV structural readback PASS, **Python `validate.py` NOT RUN**, legal competence and two-independent-source checks remain incomplete. Only Team A handoff branch edits; PR #68 DRAFT/unmerged.
+
+---
+
 ## Latest Batch 14 — 2026-11-05: five official-source government/territory identities
 
 **Data commit:** [`b9603d7ced8ea7c3b84595ad3cbe690dbca08fb4`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/b9603d7ced8ea7c3b84595ad3cbe690dbca08fb4). **Independent exact-SHA structural QA: PASS (14 controls; six GitHub files refetched).** The repository's **Python `validate.py` was NOT RUN** (local checkout could not resolve GitHub DNS). This is structural and identity verification, **not complete legal competence**.

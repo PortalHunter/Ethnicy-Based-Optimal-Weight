@@ -1,3 +1,12 @@
+## 2026-11-05 — Batch 15 six original-language/current health authorities
+
+- **DATA commit `96ab1bae36eee3171793a0f0dae87bb765611623`** changed only four Team A CSVs: `data/countries.csv`, `data/government_health_bodies.csv`, `data/country_coverage.csv`, `PROVENANCE.csv`; no relationship changes. Promoted six previously unknown principals (304 Greenland, 344 Hong Kong SAR, 578 Norway, 752 Sweden, 826 UK, 840 USA). Added six body IDs and sixteen dated government-source records with language, source issuer, scope, same-issuer/legal-status caveats.
+- New totals **111 identified / 137 unknown** across 248 official M49 geographical records; **159** bodies, **38** pre-existing cited links, **231** provenance records, **248** ledger rows, **0** inferred cross-M49 parent assignments.
+- Separate exact-DATA-SHA independent GitHub re-fetch of six CSVs, quote-aware structural/audit readback PASS: official master row equality, statuses, references, source metadata, high-risk sentinels. **Python `validate.py` NOT RUN**; local GitHub DNS failed. Details in [standalone Batch 15 checkpoint](CHECKPOINT_20261105_BATCH15.md).
+- Greenland 2026 devolution proposal and Hong Kong 2026 amendment bill NOT enacted merely by announcement; Swedish caretaker cabinet, UK devolved jurisdictions and US federal-state-tribal split preserved. PR #68 DRAFT/unmerged. No public website, calculator or other team edits.
+
+---
+
 ## 2026-11-05 — Batch 14 five jurisdiction governmental health authorities
 
 - Data commit `b9603d7ced8ea7c3b84595ad3cbe690dbca08fb4` promotes **five** previously unknown principals: M49 175 Mayotte, 248 Åland, 254 French Guiana, 258 French Polynesia, 442 Luxembourg; adds six bodies (including ÅHS as separate from Åland government policy bureau), one internal policy-steering relationship and 11 primary government provenance rows.

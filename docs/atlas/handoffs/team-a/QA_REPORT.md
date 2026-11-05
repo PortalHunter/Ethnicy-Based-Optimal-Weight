@@ -1,3 +1,11 @@
+## 2026-11-05 — Batch 15 independent post-commit immutable GitHub readback
+
+**Data SHA `96ab1bae36eee3171793a0f0dae87bb765611623`**: all **five** normalized CSVs plus authoritative dated official M49 master fetched independently with GitHub connector at exact immutable commit (not in-memory precommit values). Separate quote-aware record parser (including CSV quoted fields) confirmed: **PASS** 248 distinct M49 areas matching authoritative code/ISO2/ISO3/UN name/region/subregion; **PASS** 111 identified/137 unknown and correct linked body M49; **PASS** 159 distinct body IDs with HTTPS source/site and language/date/status; **PASS** 38 valid relationship references; **PASS** 231 unique provenance with HTTPS, issuer, language, check-date/state; **PASS** 248 synchronized ledger; **PASS** M49 region totals Africa 60/Americas 57/Asia 50/Europe 51/Oceania 29/unassigned 1; **PASS** 33 sensitive jurisdiction sentinel present, M49 535 stays unknown, 0 uninferred parent-country M49 assignments; **PASS** PR #68 DRAFT/open/unmerged at post-data QA. **Limit:** this is *structural* integrity only; it does NOT prove current 2026 statutory powers, two independent legal checks, all external URLs live, or absence of conflict.
+
+**Python validator: NOT RUN** for Batch 15. Container DNS lookups for `github.com` and `api.github.com` failed, preventing local GitHub checkout. Do not carry prior-batch Python PASS onto new data. Re-run `python docs/atlas/handoffs/team-a/validate.py` in a working full checkout next session. [Standalone evidence, source caveats and paths](CHECKPOINT_20261105_BATCH15.md).
+
+---
+
 ## 2026-11-05 — Batch 14 independent exact-SHA GitHub audit
 
 **Audited data commit** `b9603d7ced8ea7c3b84595ad3cbe690dbca08fb4`; five normalized CSVs plus dated official `M49_OFFICIAL_SNAPSHOT_20261105.csv` independently re-fetched by immutable SHA, not an in-memory write check.

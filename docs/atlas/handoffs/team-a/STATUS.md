@@ -1,3 +1,9 @@
+## 2026-11-05 — Batch 15 latest: 6 official-government health principal identities
+
+**Exact independently audited DATA SHA:** [`96ab1bae36eee3171793a0f0dae87bb765611623`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/96ab1bae36eee3171793a0f0dae87bb765611623). **248/248 official M49 geography; 111 principal identities found / 137 explicitly unresolved; 159 governmental bodies; 38 cited within-government links; 231 source checks; 248 coverage; no inferred parent-area M49 links.** Newly sourced Greenland 304, Hong Kong SAR 344, Norway 578, Sweden 752, UK 826 and USA 840. Preserve federal/territorial/devolution/source-issuer distinctions. All 16 new primary check URLs, original scripts, temporal caveats, exact independent 6-CSV audit and pending legal statutes in [standalone Batch 15](CHECKPOINT_20261105_BATCH15.md). **Python validate.py was NOT RUN** (local GitHub DNS failure). Source evidence establishes limited *identity*, not all enacted legal mandates. PR #68 remains DRAFT and unmerged, no website changes.
+
+---
+
 ## Latest Batch 14 — 2026-11-05: five official-source government/territory identities
 
 **Data commit:** [`b9603d7ced8ea7c3b84595ad3cbe690dbca08fb4`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/b9603d7ced8ea7c3b84595ad3cbe690dbca08fb4). **Independent exact-SHA structural QA: PASS (14 controls; six GitHub files refetched).** The repository's **Python `validate.py` was NOT RUN** (local checkout could not resolve GitHub DNS). This is structural and identity verification, **not complete legal competence**.
