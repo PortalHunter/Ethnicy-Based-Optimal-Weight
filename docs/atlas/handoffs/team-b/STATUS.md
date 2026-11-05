@@ -1,4 +1,27 @@
-# Team B status · 2026-11-05
+# Team B status · 2026-11-05 · batch 44
+
+**INCOMPLETE; open draft [PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71); not merged.** Branch `research/atlas-team-b-20261104`, base `main`. Immutable validated Batch 44 data SHA [`0eb0b70f1102a9911588e3b1c3d427efc31a6e96`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/0eb0b70f1102a9911588e3b1c3d427efc31a6e96).
+
+| Measure | Verified |
+|---|---:|
+| UN M49 × seven conditions | **248 × 7 = 1,736** |
+| Organizations / independently domiciled areas / without local verified body | **380 / 227 / 21** |
+| Exact source relations / source-positive area-condition cells | **277 / 253** |
+| Zero-resource cells / targeted no-link / no targeted search | **1,483 / 128 / 1,355** |
+| Provenance / search logs | **778 / 453** |
+| Indigenous/community records / cross-border edges | **7 / 8** |
+| Unresolved edition-specific source issuer countries / clinically approved claims | **5 / 0** |
+
+By condition, positive cells: diabetes **88**, hypertension **42**, high_chol **26**, gout **25**, lactose **18**, celiac **34**, hemochromatosis **20**.
+
+**Batch 44:** +5 newly indexed independent national hypertension societies/committees (Belgium, Netherlands, Portugal, Spain, Poland); +5 official first-party source-page relationships; +5 first-positive hypertension cells; +11 provenance (including independent 2026 Polish board-succession notice); +5 targeted search logs; no newly covered domiciled M49 area. All resource contexts remain `research_lead_only`. Translated/hosted ESH content, outdated external guidance, SPH/SPC and PTNT/PTK multi-issuer materials, a 2022 Spanish notice and a 2025 Polish availability notice are **not** exclusive society-authored, current, legally adopted or clinically appraised guidance.
+
+**Validation:** 10/10 immutable CSV blob IDs matched a nontruncated 145-entry tree; full connector-orchestrated JavaScript equivalent of `validate.mjs` returned **0 structural errors**. Actual Node CLI **not run** because container GitHub DNS fails. Not a clinical quality, permissions, source-rights or complete live-URL audit. Only Team B files edited; no public site/main/formula/other team's files modified.
+
+---
+
+## Previous status preserved below (batch 43, historical snapshot)
+
 
 **INCOMPLETE after batch 43.** Draft [PR #71](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71) remains open/unmerged, branch `research/atlas-team-b-20261104`, base `main`. Verified data SHA [`1e20927dfebe5f31cab326bfd2d38a8c615eb489`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/1e20927dfebe5f31cab326bfd2d38a8c615eb489). Only Team B research files changed; no public website or clinical calculations.
 
