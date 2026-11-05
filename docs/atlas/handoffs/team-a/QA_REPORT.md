@@ -96,3 +96,7 @@ Current results supersede earlier not-executed statements: Python validate.py ra
 Twelve isolated temporary-copy mutation checks each produced a nonzero validator exit: duplicate M49; dropped leading zero; incorrect ISO; wrong official name; wrong region; dangling body reference; missing body source; duplicate body ID; self relationship; duplicate provenance ID; coverage-state mismatch; unsupported American Samoa parent-country inference. Baseline passed after tests. These tests validate integrity constraints, not source authenticity or clinical/legal completeness.
 
 Source retrieval limitations: Chad ministry and Primature HTTP 403; Brcko government timeout; Myanmar search-discovered competing/title ambiguity; Comoros placeholder contacts. None was promoted to a resolved authority. CAR identity corroborated by own ministry and Primature; old homepage leadership and mandate not certified. Bosnia entity bodies not encoded as subordinate to state coordinator. Geography snapshot was extracted from retrieved official English UNSD table, all 248 rows, with source table line and date retained; this is a structured factual snapshot, not a full HTML archive.
+
+## Five-area batch validation — 2026-11-05
+
+Python validator passed: 248 official snapshot matches; 61 identified / 187 unresolved; 93 unique bodies; 22 source-linked relationships; 248 aligned coverage rows; 111 unique provenance rows. Failed retrievals remain explicit. Six new IDs and Montserrat internal edge checked; no cross-area delegation introduced.

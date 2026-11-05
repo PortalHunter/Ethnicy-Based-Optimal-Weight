@@ -63,37 +63,37 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 218,Ecuador,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Official ministry mission; separately delegated agencies pending
 222,El Salvador,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Own ministry mission; decentralized and other agency legislation pending
 226,Equatorial Guinea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-231,Ethiopia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+231,Ethiopia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: URL inaccessible. Authority remains unknown; alternate official source needed.
 232,Eritrea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-233,Estonia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+233,Estonia,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Institutional remit and local name directly checked; statutory instrument linked but not separately appraised. No agency hierarchy inferred.
 234,Faroe Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 238,Falkland Islands (Malvinas),Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 239,South Georgia and the South Sandwich Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-242,Fiji,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-246,Finland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+242,Fiji,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Timeout. Authority remains unknown; alternate official source needed.
+246,Finland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: HTTP 403. Authority remains unknown; alternate official source needed.
 248,Åland Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
-250,France,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+250,France,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Security challenge only. Authority remains unknown; alternate official source needed.
 254,French Guiana,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 258,French Polynesia,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 260,French Southern Territories,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 262,Djibouti,Africa,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Own national ministry/government source checked; statutory system or devolved duties still incomplete
 266,Gabon,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 268,Georgia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-270,Gambia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+270,Gambia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: URL inaccessible. Authority remains unknown; alternate official source needed.
 275,State of Palestine,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 276,Germany,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
-288,Ghana,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+288,Ghana,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Timeout. Authority remains unknown; alternate official source needed.
 292,Gibraltar,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 296,Kiribati,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-300,Greece,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+300,Greece,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Identity verified on official Greek portal; current news present. Legal mandate and separate regulator coverage remain pending.
 304,Greenland,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 308,Grenada,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 312,Guadeloupe,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-316,Guam,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+316,Guam,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Timeout. Authority remains unknown; alternate official source needed.
 320,Guatemala,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 324,Guinea,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-328,Guyana,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-332,Haiti,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+328,Guyana,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Placeholder page only. Authority remains unknown; alternate official source needed.
+332,Haiti,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Own institutional mandate page checked. Detailed legal instruments and effective territorial service coverage not independently established.
 334,Heard Island and McDonald Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 336,Holy See,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 340,Honduras,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -104,11 +104,11 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 360,Indonesia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 364,Iran (Islamic Republic of),Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 368,Iraq,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-372,Ireland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+372,Ireland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: HTTP 403. Authority remains unknown; alternate official source needed.
 376,Israel,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-380,Italy,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+380,Italy,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Browser validation page only. Authority remains unknown; alternate official source needed.
 384,Côte d’Ivoire,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,UNSD M49 name correction 2026-11-05; authority still unresearched
-388,Jamaica,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+388,Jamaica,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: HTTP 521. Authority remains unknown; alternate official source needed.
 392,Japan,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-04,Official national/territorial agency found; mandate granularity and delegated competencies may need more sources
 398,Kazakhstan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 400,Jordan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -129,7 +129,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 446,"China, Macao Special Administrative Region",Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 450,Madagascar,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 454,Malawi,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-458,Malaysia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+458,Malaysia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Timeout. Authority remains unknown; alternate official source needed.
 462,Maldives,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 466,Mali,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 470,Malta,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -141,7 +141,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 496,Mongolia,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 498,Republic of Moldova,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 499,Montenegro,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-500,Montserrat,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+500,Montserrat,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Identity and institutional remit verified; 2019–2022 plan text remains historical. External delegation and parent M49 not inferred.
 504,Morocco,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 508,Mozambique,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 512,Oman,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -183,7 +183,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 638,Réunion,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 642,Romania,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 643,Russian Federation,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-646,Rwanda,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+646,Rwanda,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Timeout. Authority remains unknown; alternate official source needed.
 652,Saint Barthélemy,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 654,Saint Helena,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 659,Saint Kitts and Nevis,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -199,7 +199,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 688,Serbia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 690,Seychelles,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 694,Sierra Leone,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-702,Singapore,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+702,Singapore,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Official government site directly states regulation remit; statutory boards require separate source checks. English is an official local-language name.
 703,Slovakia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 704,Viet Nam,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 705,Slovenia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -246,4 +246,4 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 876,Wallis and Futuna Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 882,Samoa,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 887,Yemen,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-894,Zambia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+894,Zambia,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,2026-11-05,Direct candidate source check: Timeout. Authority remains unknown; alternate official source needed.

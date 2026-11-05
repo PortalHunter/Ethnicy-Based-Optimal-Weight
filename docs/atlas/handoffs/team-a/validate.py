@@ -118,7 +118,7 @@ def verify():
         "Caribbean Netherlands requires special-jurisdiction study")
     print("PASS: 248 distinct M49 country-or-area rows match dated official snapshot")
     print(f"PASS: {verified} government ministry/department identities located; "
-          f"{len(countries)-verified} explicitly unresearched")
+          f"{len(countries)-verified} explicitly unresolved")
     print(f"PASS: {len(bodies)} separately identified government health bodies; "
           f"{len(relations)} sourced relationships")
     print(f"PASS: {len(coverage)} coverage records; {len(provenance)} provenance rows")
