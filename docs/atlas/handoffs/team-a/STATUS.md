@@ -19,6 +19,14 @@ In combination with the initial five: 036 Australia, 076 Brazil, 276 Germany, 39
 
 **Important:** Some official English-language ministry websites have their local-script names pending; Albania, Antigua and Barbuda, Austria and Armenia require legal gazette/rename follow-up. American Samoa territorial competence is documented, but a legal parent M49 key is **not** asserted. For Belgian, German, Austrian, Brazilian and Australian devolved health authorities, national-only source checks are incomplete.
 
+## Batch 3 — newly researched 15 areas
+
+048 Bahrain, 050 Bangladesh, 084 Belize, 116 Cambodia, 124 Canada, 152 Chile, 156 China, 170 Colombia, 188 Costa Rica, 191 Croatia, 196 Cyprus, 203 Czechia, 204 Benin, 208 Denmark, 262 Djibouti.
+
+**Principal authorities now checked:** 5 from batch 1 + 14 from batch 2 + 15 from batch 3 = **34**. This is identity/mandate evidence, not exhaustive 248-area ministry verification.
+
+**Audit record:** [QA_REPORT.md](QA_REPORT.md) records the executed quote-aware CSV integrity audit with zero structural errors. `validate.py` is in the repository for reproducing its checks; that Python script was **not** independently run in this session.
+
 ## Next independent batch
 
 1. Download/compare each of 248 M49 geography rows directly with official UNSD dated master; document corrections separately.
