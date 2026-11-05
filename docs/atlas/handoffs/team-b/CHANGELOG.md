@@ -76,3 +76,7 @@
 - Added20 identities across20areas (8 new areas),14resources,14positivecells and21search-log entries. Current FHEF network used for leads with own-site follow-up; historical2016 roster not treated as current.
 - Preserved Chinese service-company footer governance uncertainty and selected HoFH sample; detected suspicious FHPortugal domain replacement and omitted clinical source. Seven identity-only/provisional records do not change source coverage.
 - Nine-CSV core checks zero failures:172 identities/101areas/137resources/131positive/1605unresearched/312provenance/85searches.
+
+
+## Batch 12 — 2026-11-05
+Added 18 directory/site-corroborated identities in 18 new Caribbean/territory areas, including New Caledonia hospital corroboration. Added one Papiamento resource index for Aruba; 17 identity-only rows have no coverage credit. Totals190 organizations/119 areas/138 resources/132 positive/1604 unresearched/331 provenance/103 search rows. Nine-CSV checks zero errors. Original scope incomplete.

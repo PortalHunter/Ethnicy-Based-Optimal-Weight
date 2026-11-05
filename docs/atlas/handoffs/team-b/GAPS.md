@@ -125,3 +125,7 @@ These examples flag *metadata and study-transportability errors* to check; they 
 - Romanian FOBAC and Israeli Heart Association own identities verified but no condition-specific FH resource confirmed this batch, so no lipid cell credited solely from membership. Broad cardiovascular education is not automatically FH expertise.
 - Slovenian resource has2017 and2026 dates with older text; do not assume comprehensive update. Swedish FH site retains before2025 target; not proof target achieved. Dutch LEEFH hosts external science/guidelines; not sole authorship.
 - Lipid resources distinguish FH/HoFH, general raisedLDL, Lp(a), FCS and other inherited conditions; no automatic disease diagnosis from checkbox/ancestry. Several native legal names/registry status still unverified.
+
+
+## Batch 12 checkpoint
+18 new identities/18 areas; only Aruba has a first-party resource index. Caribbean directory names require own-site and local-language identity verification. Belize naming/branding continuity remains unresolved. Haiti planned reference-centre proposal must not be described as an operational completed centre. New Caledonia hospital corroborates ADNC; ass.nc is a separate agency and cannot be credited as its own website. Curaçao IDF area page displayed no member identity; a country listing is not an organization. Cayman/Curacao remain unresolved, not absence findings. No automatic UK/French/Dutch parent-state clinical jurisdiction. 129 areas without identities,1604 cells without resources. Aruba PDF downloads and PRISMA course effects not appraised.
