@@ -1,3 +1,17 @@
+## Latest Batch 14 — 2026-11-05: five official-source government/territory identities
+
+**Data commit:** [`b9603d7ced8ea7c3b84595ad3cbe690dbca08fb4`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/b9603d7ced8ea7c3b84595ad3cbe690dbca08fb4). **Independent exact-SHA structural QA: PASS (14 controls; six GitHub files refetched).** The repository's **Python `validate.py` was NOT RUN** (local checkout could not resolve GitHub DNS). This is structural and identity verification, **not complete legal competence**.
+
+**Now 248/248 official dated UN M49 geographic records; 105/248 principal health-authority identities located; 143 unknown explicitly retained; 153 distinct government bodies; 38 sourced intra-area links; 215 provenance checks including limited/conflicting checks; 248 coverage ledger rows; 0 speculative cross-M49 parent assignments.**
+
+**New area identities:** Mayotte 175 `gov-175-001` French regional ARS (not independent territorial ministry); Åland 248 `gov-248-001` self-government health and medical-care bureau with separate service `gov-248-002` ÅHS; French Guiana 254 `gov-254-001` ARS Guyane with distinct CTG roles; French Polynesia 258 `gov-258-001` territorial Direction de la santé under health minister, not proved to be entire government ministry; Luxembourg 442 `gov-442-001` Ministry of Health and Social Security. One **policy-steering** link Åland bureau→ÅHS, NOT asserted legal ownership.
+
+**Read first:** [standalone Batch 14 checkpoint](CHECKPOINT_20261105_BATCH14.md) for the 11 exact primary source URLs, 2026 and historic/source qualifications, all outstanding legal/devolution checks, independent structural test bounds, original contract and unmodified short continuation prompt. Prior entries below retain historical source caveats and numbers superseded by this Batch 14 block.
+
+**Scope:** only `docs/atlas/handoffs/team-a/`, keep DRAFT PR #68 open/unmerged. No website, calculator, main, clinical, patient-facing, ancestry/genetic or other-team edits.
+
+---
+
 ## Latest Team A batch 13 — 2026-11-05
 
 **DATA commit:** `c7049a1293112ae93b91962802d732b5931e7bf2`; newest standalone [Batch 13 checkpoint](CHECKPOINT_20261105_BATCH13.md) and [complete continuation](CONTINUE.md). 248/248 dated official M49 geography, **100/248 located governmental principal identities**, **148** unresolved; 147 government bodies, 37 internal relations, 204 provenance rows, 248 ledger. Promoted 162 Christmas, 166 Cocos (Australia administrative health role, not local ministry); 232 Eritrea (government English only, original Tigrinya pending); 292 Gibraltar (ministerial portfolio, GHA/Public Health distinct); 324 Guinea (official French identity; undated presidential directory personnel conflict). Legal instruments and all cross-M49 parent claims pending. **Independent exact-commit structural audit PASS**, **Python validate.py NOT RUN**. PR remains DRAFT and unmerged; website unchanged. See standalone checkpoint for every source/caveat.

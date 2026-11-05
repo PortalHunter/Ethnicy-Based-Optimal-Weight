@@ -1,3 +1,9 @@
+# Team A — latest standalone Batch 14 continuation
+
+**Current GitHub handoff:** [Batch 14 checkpoint](CHECKPOINT_20261105_BATCH14.md). **Exact audited DATA SHA** `b9603d7ced8ea7c3b84595ad3cbe690dbca08fb4`; newer docs commit on branch HEAD. **Read Batch 14 standalone checkpoint first** for complete mission, sources, steps, QA and unmodified continuation prompt. Counts **105 identified / 143 unknown** of 248 official M49 areas; 153 bodies, 38 links, 215 provenance, 248 coverage. Python validator NOT run; structural readback PASS. Only edit Team A handoff branch; PR stays DRAFT and unmerged. All older material below remains for historical source caveats.
+
+---
+
 # Team A — standalone research checkpoint, Batch 13 (2026-11-05)
 
 **Repository:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight

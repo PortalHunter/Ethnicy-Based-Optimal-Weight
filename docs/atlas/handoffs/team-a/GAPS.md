@@ -1,3 +1,18 @@
+## Batch 14 outstanding research — 2026-11-05 (supersedes old counts)
+
+**143/248 principal area identities still explicitly unknown**; all 248 country/area geographic skeletons match dated official M49. Remaining priority: Bouvet Island 074 (uninhabited; no invented ministry), Myanmar 104 (competing/effective institutions), Belarus 112, Cuba 192, Equatorial Guinea 226 (conflicting 2026 ministry changes), French Southern Territories 260 (no permanent population and unusual overseas competencies), Heard/McDonald 334, Caribbean Netherlands 535, then remaining ascending M49 unknowns. Do not promote search snippets or WHO country offices to domestic statutory bodies. 105 identities are not 105 complete legal jurisdiction assessments.
+
+**Batch 14 new-area legal gaps:**
+- **Mayotte 175:** ARS Mayotte regional agency within France's ministerial tutelle verified. Examine current French code and departmental/commune statutory health responsibilities, plus local Mayotte regulation; parent M49 250 not linked without direct legal evidence.
+- **Åland 248:** autonomous government bureau and separate ÅHS documented by Åland parliament. Self-government (1991:71), health law (2011:114), Finnish residual powers and communicable-disease exceptions require consolidated legislative review. **The adopted 29 Oct 2026 strategy's future proposals are not enacted legal amendments.** Two parliamentary reports are not two independent issuing bodies.
+- **French Guiana 254:** French prefectoral reports verify ARS Guyane and separate/shared CTG medico-social licensing duties. Current legal division among France/ARS/CTG and municipal responsibilities still unexamined; two prefectural records are not two independent legal issuers.
+- **French Polynesia 258:** current territorial Health Directorate and 2021 internal organization order reference verified at identity level. Territorial health minister title, ARASS's distinct regulatory remit, France reserved competence, consolidated legal instruments and date changes pending; three official sources share territorial-government issuer.
+- **Luxembourg 442:** Ministry of Health and Social Security 2026 current identity confirmed, but government internal attributions regulation and separate Direction de la santé and social security authority statutory delineations pending.
+
+**Inherited gaps unchanged:** 2026 Hungary and Gabon draft instruments are NOT enactments; Guinea current minister directory conflict; Maldives rename vs hospital competences; Comoros test-content and decree only index; Danish/Faroese and IOT/WA delegations; Gibraltar portfolio and GHA public-health split; Georgia consolidated decree access; India states/UT jurisdiction; Botswana/DRC/Cayman rename/delegation; Bosnia cantons/Brčko; original languages and two independent government/legal checks for significant changes. No guessed geographic parent-country M49 assignments.
+
+---
+
 ## Latest Batch 13 unresolved — 2026-11-05
 
 **148/248** principal M49 identities remain explicitly unknown; 100 identities located do NOT imply statutes/mandates fully checked. New identity findings 162/166 require legal instrument for Australian Commonwealth responsibilities, WA applied laws, SDA and any parent M49 036; 232 Eritrea needs ministry primary site/Tigrinya name/statutes; 292 Gibraltar needs official legal hierarchy, UK reserved powers and Public Health Department relationships; 324 Guinea needs signed/current cabinet or health law decree to reconcile undated presidential roster vs current ministry site. All 5 details/URLs in [Batch 13 checkpoint](CHECKPOINT_20261105_BATCH13.md). Queue 074,104,112,175,192,226,248,254,258,260, and remaining unknowns. Preserve **all** Batch 12 and older legislative/draft/disputed-source caveats below.

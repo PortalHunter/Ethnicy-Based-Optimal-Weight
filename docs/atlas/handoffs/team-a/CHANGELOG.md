@@ -1,3 +1,13 @@
+## 2026-11-05 — Batch 14 five jurisdiction governmental health authorities
+
+- Data commit `b9603d7ced8ea7c3b84595ad3cbe690dbca08fb4` promotes **five** previously unknown principals: M49 175 Mayotte, 248 Åland, 254 French Guiana, 258 French Polynesia, 442 Luxembourg; adds six bodies (including ÅHS as separate from Åland government policy bureau), one internal policy-steering relationship and 11 primary government provenance rows.
+- Counts: 248/248 dated official M49 geography, **105 located identities / 143 unknown**, **153** bodies, **38** organizational edges, **215** provenance records (not all independent statutory checks), **248** coverage ledger. Cross-area parent M49 links remain blank until legal verification.
+- Two official French government sources corroborate Mayotte; one Åland parliamentary steering description and separate adopted strategy document confirm bureau/ÅHS but do **not** prove every rule is enacted; French Guyane prefecture distinguishes regional ARS from CTG, same issuer; Polynesian directorate current activity, 2021 order reference and historic directory are not independent statutes; Luxembourg official ministry with October 2026 dated governmental corroboration.
+- Independent exact-SHA readback six CSVs and 14 structural/32 sensitive controls **PASS**; **Python validator NOT RUN**. See full standalone [Batch 14 checkpoint](CHECKPOINT_20261105_BATCH14.md).
+- Research branch only; PR #68 remains DRAFT/unmerged. No public website, clinical/patient-facing, calculator or other-team changes. Prior source caveats preserved.
+
+---
+
 ## 2026-11-05 — Batch 13 official-government authority census enrichment
 
 - **Data commit `c7049a1293112ae93b91962802d732b5931e7bf2`**: source-verified 5 formerly unknown M49 principal administrative health identities (162 Christmas, 166 Cocos, 232 Eritrea, 292 Gibraltar, 324 Guinea). New 9 distinct government bodies, 4 within-government relations, 15 provenance rows. 100 identity located / 148 unresolved, 147 bodies, 37 links, 204 provenance, 248 official M49 geography and ledger.

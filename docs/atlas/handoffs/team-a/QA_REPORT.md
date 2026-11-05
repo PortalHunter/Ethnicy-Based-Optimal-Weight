@@ -1,3 +1,25 @@
+## 2026-11-05 — Batch 14 independent exact-SHA GitHub audit
+
+**Audited data commit** `b9603d7ced8ea7c3b84595ad3cbe690dbca08fb4`; five normalized CSVs plus dated official `M49_OFFICIAL_SNAPSHOT_20261105.csv` independently re-fetched by immutable SHA, not an in-memory write check.
+
+| Control | Result |
+|---|---|
+| Official dated UN M49 code/ISO2/ISO3/English name/region/subregion equality for all geographic rows | **PASS 248/248** |
+| Principal authority identity/unknown state and body links | **PASS 105/143** |
+| Unique body IDs, area membership, local language/status and HTTPS provenance fields | **PASS 153** |
+| Within-area link reference/source/state integrity | **PASS 38** |
+| Unique provenance IDs and issuer/language/date/HTTPS/state fields | **PASS 215** |
+| Synchronized country coverage rows | **PASS 248** |
+| Distinct UN region counts, 32 jurisdiction sentinel presence checks, sensitive-unresolved negative controls | **PASS** |
+| No inferred cross-M49 governmental parent delegation | **PASS: 0** |
+| Independent quote-aware GitHub readback control cases | **PASS: 14/14** |
+| Python `python docs/atlas/handoffs/team-a/validate.py` executed on Batch 14 | **NOT RUN:** local container could not resolve github.com to clone; do not label a prior run current |
+| Two independent enacted legal instruments and full present statutory/devolved powers for every territory/rename | **UNFINISHED** |
+
+The initial mirror check used a stricter local-script-pending sentinel than `validate.py` and flagged existing `LOCAL_NAMES_PENDING` (plural) records. Retested using both forms supported by the actual repository validator; **all 14 controls passed**, and no data had to be altered. The exact-SHA readback cannot independently prove URLs remain live, legal effective dates, or scope of enacted laws.
+
+---
+
 ## Batch 13 exact-SHA independent structural validation — 2026-11-05
 
 **Data SHA:** `c7049a1293112ae93b91962802d732b5931e7bf2`. Independently re-fetched all five normalized CSVs plus official 248-row dated M49 snapshot from exact commit; quote-aware parser validated **248** distinct geography records and ISO/name/region/subregion matching master; 100 identified/148 explicit unknown; 147 unique bodies with area references, government URLs/language/verification state and missing Tigrinya flag; 37 referenced government links; 204 unique provenance source IDs with issuer/date/language/state/HTTPS; 248 synced coverage; 24 territory/special-status sentinels and no unproved cross-area parent M49. Region distribution Africa 60, Americas 57, Asia 50, Europe 51, Oceania 29, unassigned 1. **PASS structural.** `python docs/atlas/handoffs/team-a/validate.py` was **NOT EXECUTED** for Batch 13 due local Git checkout DNS inability; do not call structural audit a Python pass. Statutory/current mandates and 2-independent-check completeness **NOT CERTIFIED**. See [checkpoint](CHECKPOINT_20261105_BATCH13.md) for evidence and scope caveats.
