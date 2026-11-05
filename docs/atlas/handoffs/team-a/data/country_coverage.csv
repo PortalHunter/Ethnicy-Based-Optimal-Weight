@@ -86,7 +86,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 292,Gibraltar,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,GIBRALTAR_UK_RESERVED_AND_HEALTH_LAW_POWERS_PENDING,TERRITORIAL_PORTFOLIO_LEGAL_BASIS_PENDING,2026-11-05,Current Government of Gibraltar minister portfolio officially lists GHA and Public Health Gibraltar; government also confirms GHA and Department of Public Health. Treat ministerial portfolio as primary identity only; formal legal structures and UK reservation not adjudicated.
 296,Kiribati,Oceania,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,"Finance ministry health-service page and Office of President directory corroborate; own mhms.gov.ki page may be template, not relied on for authority proof."
 300,Greece,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Identity verified on official Greek portal; current news present. Legal mandate and separate regulator coverage remain pending.
-304,Greenland,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+304,Greenland,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-05,2026-11-05 Batch 15: Self-government health and disability department verified in Kalaallisut and Danish. Danish reserved powers and enacted competence split still pending; Oct 2026 decentralization proposal not law.
 308,Grenada,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,PORTFOLIO_OR_DEVOLVED_MANDATE_REVIEW_PENDING,2026-11-05,Government directory identifies ministries and separately named health/wellness/religious affairs ministerial responsibilities; legal portfolio scope pending.
 312,Guadeloupe,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 316,Guam,Oceania,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_REVIEW_PENDING,SPECIAL_JURISDICTION_OR_DEVOLUTION_REVIEW_PENDING,2026-11-05,"Guam department own statutory history cites Guam Public Laws 7-101 and 9-147, 5 GCA 3111 and Title 10; US delegated competence and full law currency not inferred; original Chamorro name taken from own agency homepage."
@@ -97,7 +97,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 334,Heard Island and McDonald Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 336,Holy See,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 340,Honduras,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,Own ministry mission and independently hosted state transparency portal organigram updated October 2026 corroborate institution. Secretariat also referred to as Secretaría de Salud; detailed law and regional structure not fully appraised.
-344,"China, Hong Kong Special Administrative Region",Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
+344,"China, Hong Kong Special Administrative Region",Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,2026-11-05,"2026-11-05 Batch 15: Health Bureau current policy remit verified by bureau organisation, separate HKSAR Chinese government announcement and 2026 LegCo submission; Medical Registration 2026 bill remains a bill; Health Authority/Department of Health legal split pending."
 348,Hungary,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,2026_MINISTRY_REORGANIZATION_LEGAL_EFFECTIVE_DATE_PENDING,2026-11-05,Current 2026 government page expressly names separate Egészségügyi Minisztérium and minister; dated October 2026 draft public-health/pharmaceutical agency restructuring corroborates ministry identity but is NOT enacted legislation. Previous Interior Ministry portfolio is historical; transition decree and effective date pending.
 352,Iceland,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,PRESIDENTIAL_PORTFOLIO_DECREE_REVIEW_PENDING,2026-11-05,Ministry's own Icelandic remit and Ísland.is government service directory agree identity. Ministry itself points to presidential allocation instrument; that current instrument and attached directorate statutes require separate legal review.
 356,India,Asia,OFFICIAL_AUTHORITY_IDENTIFIED,NO,LEGAL_SCOPE_PENDING,FEDERAL_STATE_UT_COMPETENCE_PENDING,2026-11-05,Official government directory identifies two constituent departments. Directorate General of Health Services separately identifies itself as ministry-attached; allocation-of-business rules and state constitutional authority need detailed validation.
@@ -161,7 +161,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 566,Nigeria,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 570,Niue,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 574,Norfolk Island,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-578,Norway,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+578,Norway,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,,2026-11-05,2026-11-05 Batch 15: Norwegian health and care ministry identity and headline policy mandate official. Municipal/regional legal split and Svalbard/Jan Mayen remain separate; October 2026 dental reform consultation not enacted.
 580,Northern Mariana Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 581,United States Minor Outlying Islands,Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,SPECIAL_JURISDICTION_REVIEW_PENDING,,"Agency unresearched; status unknown, NOT absence"
 583,Micronesia (Federated States of),Oceania,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -213,7 +213,7 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 740,Suriname,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 744,Svalbard and Jan Mayen Islands,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 748,Eswatini,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-752,Sweden,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+752,Sweden,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,RENAME_OR_CARETAKER_GOVERNMENT_REVIEW_PENDING,2026-11-05,2026-11-05 Batch 15: Socialdepartementet active under Swedish caretaker government since Sept 17 2026. Distinguish central national policy from region/municipal service provision; current statutory split incomplete.
 756,Switzerland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 760,Syrian Arab Republic,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 762,Tajikistan,Asia,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
@@ -232,12 +232,12 @@ m49_code,un_name,un_region,ministry_review_status,missing_official_health_site,d
 804,Ukraine,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 807,North Macedonia,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 818,Egypt,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-826,United Kingdom of Great Britain and Northern Ireland,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+826,United Kingdom of Great Britain and Northern Ireland,Europe,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,DEVOLVED_HEALTH_RESPONSIBILITIES_REVIEW_PENDING,2026-11-05,"2026-11-05 Batch 15: UK DHSC current ministerial department confirmed; Scottish/Welsh/Northern Irish devolved healthcare, England delivery and Crown Dependency governments need separate legal mapping."
 831,Guernsey,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 832,Jersey,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 833,Isle of Man,Europe,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 834,United Republic of Tanzania,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
-840,United States of America,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
+840,United States of America,Americas,OFFICIAL_AUTHORITY_IDENTIFIED,NO,NOT_REVIEWED,FEDERAL_TRIBAL_TERRITORIAL_REVIEW_PENDING,2026-11-05,"2026-11-05 Batch 15: HHS federal identity confirmed; legal division among US states, tribal governments, local public health authorities, and separately indexed territories still needs comprehensive statute review."
 850,United States Virgin Islands,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 854,Burkina Faso,Africa,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
 858,Uruguay,Americas,UNKNOWN_REVIEW_NEEDED,YES,NOT_REVIEWED,,,"Agency unresearched; status unknown, NOT absence"
