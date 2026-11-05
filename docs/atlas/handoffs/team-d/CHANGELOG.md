@@ -1,3 +1,8 @@
+## 2026-11-05 — Batch 9 validator correction
+
+- Replaced overly narrow ordinary-office-only assertion with the WHO source's four evidenced office-type categories. Other boundary/region and historical/current distinctions retained.
+- Executed the full checked-in structural assertions using the GitHub-hosted 16 CSV inputs in an isolated JavaScript runtime with a read-only filesystem shim: PASS. This is not a claim that the Node CLI or GitHub Actions executed `validate.mjs`. Recorded in VALIDATION.md.
+
 ## 2026-11-05 — Batch 9: full time-qualified WHO office survey roster
 
 - Transcribed 153 entries from the official WHO 2026 reporting-year table; preserved 106 April 2026 / 46 September 2024 / one unavailable distinction. Explicitly retained four non-one-to-one M49 labels without synthetic joins.

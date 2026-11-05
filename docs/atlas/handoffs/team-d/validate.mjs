@@ -32,7 +32,7 @@ assert(offices.some(r=>r.country_area_m49==='360'&&r.office_presence_source==='h
 const officeAudits=read('data/who_office_profile_2026_checks.csv');
 unique(officeAudits,r=>r.record_id,'2026 office audit IDs');
 assert.equal(officeAudits.length,95);
-for(const r of officeAudits){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.presence_type,'WHO Country Office');assert.equal(r.latest_self_reported_survey,'2026-04');assert(offices.some(o=>o.country_area_m49===r.country_area_m49&&o.office_presence_source===r.source_url&&o.as_of==='2026-04'));assert.equal(statuses.find(s=>s.m49_code===r.country_area_m49).who_region,r.who_region);}
+for(const r of officeAudits){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert(['WHO Country Office','WHO Country Office (also serving territories or areas)','WHO Multi-Country Office','WHO Country Liaison Office'].includes(r.presence_type),'unsupported WHO office type '+r.presence_type);assert.equal(r.latest_self_reported_survey,'2026-04');assert(offices.some(o=>o.country_area_m49===r.country_area_m49&&o.office_presence_source===r.source_url&&o.as_of==='2026-04'));assert.equal(statuses.find(s=>s.m49_code===r.country_area_m49).who_region,r.who_region);}
 assert.equal(statuses.filter(r=>r.who_region==='EURO').length,53);
 assert.equal(statuses.find(r=>r.m49_code==='438').who_region,'not_verified');
 assert.equal(statuses.find(r=>r.m49_code==='398').who_region,'EURO');
