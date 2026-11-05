@@ -1,3 +1,11 @@
+## Batch 22 — complete checked-in structural validation replay PASS (2026-11-05)
+
+At validator SHA `f8dc3c781cccec092aec8095c91cc53ecae4e6eb`, retrieved **50** live PR #70 per-file patches, confirmed Team D-only paths, reconstructed new-file text and directly fetched the two oversized CSVs absent from GitHub's patch text (`m49_network_status.csv`, `network_memberships.csv`). All **31** checked-in `read(...)` dependencies present; all assertions executed in a V8 read-only Node-`fs`/`assert` shim. Final **PASS**: 47 nodes, 616 graph edges, 249 candidates, 205 WHO regions verified/44 unknown, 105 positive April office-hosts, 153 WHO survey labels, 228 historical service rows, **192** provenance records, plus **12** new PAHO representative records and **4** local cooperation rows. New assertions verify four new distinct URLs, 22 vs 29 Oct effective appointments, conflicting 2021-01/2021-02 former-term start months, Cayman 2023/2025 time precision, Sint Maarten 534 distinct from 663 and unchanged WHO administrative classifications.
+
+**Qualification:** Not native Node CLI or GitHub Actions; original PAHO pages were indexed but **direct opens returned 403**, so not a page-facsimile audit; no legal, clinical or scientific certification. Native next step: `node docs/atlas/handoffs/team-d/validate.mjs` in approved checkout. [Standalone Batch 22 checkpoint](CHECKPOINT_BATCH_22_2026-11-05.md).
+
+---
+
 ## Batch 21 read-only full structural replay PASS — 2026-11-05
 
 Source: live draft PR #70 unified GitHub diff, which contained **47 newly created Team D paths**. Reconstructed their added UTF-8 text in an isolated JavaScript tool context, confirmed all **29** `read(...)` CSV/provenance dependencies were present, transformed only the two Node imports and `new URL(file,import.meta.url)` file resolver, supplied a read-only `fs.readFileSync` shim and assert-compatible equality/array/regex checks, and ran the complete checked-in `validate.mjs` logic. The resulting final JSON was `PASS` with 47 nodes, 616 edges, 249 statuses, 205 verified/44 unverified WHO administrative regions, 105 direct April hosts, 153 survey labels, 188 provenance URLs, 15 supplementary WER observations. All Batch 17–20 cohort assertions also passed.
