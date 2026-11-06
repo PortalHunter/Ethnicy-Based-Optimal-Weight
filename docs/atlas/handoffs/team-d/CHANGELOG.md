@@ -1,3 +1,13 @@
+## 2026-11-06 — Batch 34: Estonia Croatia Germany France authority role separation and legal time slice
+
+- `743f28d87cb7864026f5ecee967ed934d289921b`: nine source-qualified government/agency/dated-law NCA role observations (TD-NCA-REMIT-027–035).
+- `3cf51331591c6ae68c1b962c685ce2ececf17071`: six direct official source URLs (TD-SRC-237–242) with historical/current, agency/government/legal provenance boundaries.
+- `fa3cead94fc5b68bf919daf841ec3ecf4b8594d5`: tenth Estonia legal-index observation TD-NCA-REMIT-036; all six new source URLs referenced in data.
+- `875f579228015556c7c3e274824b94ae0102807e`: structurally test new government vs agency vs French dated-law evidence states and update role/source totals. **Full checked-in structural V8 shim PASS 11,946 assertions / 39 GitHub-derived data dependencies (32 full PR addition patches, 7 direct file reads); NOT native Node/Actions or legal/clinical/scientific signoff.**
+- `2eae38b835d295dee489a6eebd2d9bc4b3336520`: complete standalone [Batch 34 checkpoint](CHECKPOINT_BATCH_34_2026-11-06.md), byte-identical GitHub readback. All substantive writes confined to Team D; no membership/clinical/authority edges inferred. Cumulative 36 national role observations across 16/34 EMA agency candidate IDs; 18/34 lack first-party/government role checks and all 34 still require independent current law/delegation and Team A exact IDs. Baseline WHO 205/44 assignments and 105/144 office positives/gaps, 47/617 graph unchanged. Draft PR #70 stays unmerged.
+
+---
+
 ## 2026-11-06 — Batch 33: additional four national regulators and Maltese grant-authority source conflict
 
 - `be93ce8acb678601c5c2c9cb3e02e8469730601f`: append 8 directly sourced national NCA role observations (Belgium 2, Finland 1, Malta 3, Spain 2). First-party pages checked 2026-11-06; date types and different marketing/clinical-trial decision makers retained.
