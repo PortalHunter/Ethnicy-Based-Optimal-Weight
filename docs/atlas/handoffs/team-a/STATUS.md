@@ -1,3 +1,13 @@
+## CURRENT — Team A Batch51, 2026-11-06 — OPEN DRAFT / LEGAL ACCEPTANCE INCOMPLETE
+
+**[PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED**; branch `research/atlas-team-a-20261104`. Immutable data `4e628676afc0a13fe8b2855dbf9704d95a9c0c41`; [complete standalone checkpoint](CHECKPOINT_20261106_BATCH51.md); [eight-CSV exact QA](QA_BATCH51_20261106.json); [M49 624 BOE/INASA source note](source_recovery/CYCLE_624_GUINEA_BISSAU_BOE_INASA_20261106.md). **248/248 (100%)** exact M49 geographic skeletons, **231/248 (93.15%) provisional governmental authority identity areas**, **17/248 (6.85%) documented UNKNOWN**. 318 bodies, 45 relationships, 4 scopes, 248 coverage reviews, **688 dated provenance observations**. **Original complete current enacted legal-mandate acceptance NOT MEASURED and INCOMPLETE**; no clinical use.
+
+**Batch51:** Guinea-Bissau original Gazette no.4 published 27 Jan 2025 Decree 31/2024 health-development/HR strategy approved, not whole 2026 ministry health law. INASA 2024 own institute report/search-indexed page and BERC-Luso 2010 statute pointer qualified by incomplete direct/retrieval and non-independent issuer limitations. M49 624 remains UNKNOWN; original 2010 Gazette and amended present law pending. Four new source states preserve 684 prior ones; 16 other unknowns unchanged.
+
+**Validation:** eight full CSVs independently re-fetched and quote-aware structural test PASS at immutable data SHA; exact changed three Team A research paths and all readbacks. Python validate.py and all five unittest cases **NOT RUN Batch51** (local GitHub DNS failure, last recorded actual Batch41). No signed-law, geographic effective control or clinical certification. No website, main, other teams, approval, merge or ready state.
+
+---
+
 ## CURRENT — Team A Batch50, 2026-11-06 — OPEN DRAFT / ACCEPTANCE INCOMPLETE
 
 **PR:** https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68 ; branch `research/atlas-team-a-20261104`; immutable DATA `5a9336d6e8d36bcd99a4193090b4427a60d2af29`; [full standalone checkpoint](CHECKPOINT_20261106_BATCH50.md); [eight-CSV QA](QA_BATCH50_20261106.json).
