@@ -52,7 +52,6 @@
     "PLAS 2020 Philippine multisociety dyslipidemia guideline versus 2021 journal summary; FH2 project registry outcomes unverified",
     "AHA March 2026 multisociety dyslipidemia guideline index versus unappraised underlying original paper and clinical recommendations",
     "Preserve historical current-versus-past distinctions, 14 diversity counterexamples, seven community records, eight cross-border edges; zero clinical release",
-    "1,305 untouched cells and 139 scoped no verified source searches (not evidence of national absence)",
     "21 domiciled identity gaps, 5 unresolved original-document issuer imprints",
     "German DGFL 2024 renamed from DGFF and undated lipid page cites external ESC/EAS 2019 work",
     "French SFR 2021 index item references original 2020 gout recommendations; original not appraised",
@@ -162,8 +161,8 @@
   ],
   "readback_validation": {
     "status": "passed",
-    "verified_data_sha": "ba8a51b930f47a5aa5d1b744885c64f658599873",
-    "tree_sha": "285e771ae15dd6098a4ba611049428220e32afb6",
+    "verified_data_sha": "a18d5e31e96ddbccc9fe9f4c6623122979e5e26d",
+    "tree_sha": "57b93a68c803e09911e5e7d7897fee741aa8d9ab",
     "tree_truncated": false,
     "tree_items": 145,
     "files_matched": 11,
@@ -177,7 +176,7 @@
     "matching_github_tree_blob_shas": 11,
     "independent_structural_errors": 0,
     "clinical_approval": false,
-    "notes": "GitHub-reported blob SHAs and independent JS structural checks only; no local Node CLI/full original PDF/rights/clinical appraisal. CI initially population regression succeeded, calculator in progress."
+    "notes": "Batch 58 receipt documented in CONTINUE.md: 11/11 GitHub-reported blob/tree SHA matches at immutable a18d5e3; independent precommit JS structural checks zero errors. No actual Node CLI or clinical/rights/fulltext appraisal. Historical workflow status is not a current CI assertion."
   },
   "previous_independently_verified_data_commit": "f3def656d0087261ea5a6356269603e8e7a4a876",
   "session_additions": {
@@ -207,13 +206,15 @@
     "52": "8b9e9cad1e3f57b7b00167f5fc38d9ad56b076b4",
     "54": "b0220d29378e2548ecbf4033fa9c4ee00b772ffc",
     "55": "f3def656d0087261ea5a6356269603e8e7a4a876",
-    "56": "3063c15e03e7e46e4aeb6f1316a35afe0b954d0b"
+    "56": "3063c15e03e7e46e4aeb6f1316a35afe0b954d0b",
+    "57": "ba8a51b930f47a5aa5d1b744885c64f658599873",
+    "58": "a18d5e31e96ddbccc9fe9f4c6623122979e5e26d"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "248 x 7 structurally complete; 1309 untouched, 139 targeted no verified resources",
-    "source_population_jurisdiction": "314 exact contexts with source-country basis, page issuer, organization domicile, study population and healthcare jurisdiction separate; five unknown original issuers",
-    "disease_subtypes_and_release": "314 research_lead_only; zero approved clinical claims",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 locally domiciled identity gaps, 1309 untouched cells; original editions/rights and all-source current life cycle need review; dated Cambodia 2026 transition explicitly recorded",
+    "m49_area_condition_roster": "248 x 7 structurally complete; 1,304 untouched, 139 targeted no verified resources",
+    "source_population_jurisdiction": "321 exact contexts with source-country basis, page issuer, organization domicile, study population and healthcare jurisdiction separate; five unknown original issuers",
+    "disease_subtypes_and_release": "321 research_lead_only; zero approved clinical claims",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 locally domiciled identity gaps, 1,304 untouched cells; original editions/rights and all-source current lifecycle need review; dated Cambodia 2026 transition explicitly recorded",
     "diversity_examples": "14 counterexamples, 7 community/subnational cases, 8 cross-border links preserved"
   },
   "batch40_sources": [
