@@ -1,3 +1,12 @@
+## 2026-11-06 — Batch 35, scoped regulator authority and cross-border reporting evidence
+
+- Commit `596c22260d81dea15f898e1e8ee8af96e9ad361f`: 10 official direct-HTML institutional role observations TD-NCA-REMIT-037–046 across 5 newly covered EMA-listed agency identities in Netherlands, Poland and Slovenia. No new country inferred from graph membership.
+- Commit `500437898541ba12c66b54b7866d947c4b6d5008`: nine new primary institutional/government source URLs TD-SRC-243–251 in `PROVENANCE.csv`.
+- Commits `ae5fa29c2a66c79cc9a5ef7d180f1faa388f275a` / `a4c0610c74e1912bb4f6a56f751d0c8d8be17142`: updated and corrected `validate.mjs` invariants for 46 role rows, 21 distinct EMA candidates, 251 provenance URLs, identity/authority distinctions and historical 2017 date.
+- Full GitHub-sourced read-only V8 structural validator replay **PASS 12,092 assertions / 39 dependency files** (28 patch reconstructions, 11 direct reads), plus targeted six-file 61-assertion PASS. These are **not native Node/Actions, statutory approvals or clinical validation**. WHO 205/249 direct assignments, 105 affirmative April hosts, 47 nodes/617 graph links unchanged. Other networks and legal source conflicts remain pending.
+
+---
+
 ## 2026-11-06 — Batch 34: Estonia Croatia Germany France authority role separation and legal time slice
 
 - `743f28d87cb7864026f5ecee967ed934d289921b`: nine source-qualified government/agency/dated-law NCA role observations (TD-NCA-REMIT-027–035).
