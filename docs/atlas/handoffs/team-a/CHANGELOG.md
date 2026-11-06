@@ -1,3 +1,17 @@
+## CURRENT — Team A Batch39
+
+**Current Batch39, November 5, 2026. Original acceptance INCOMPLETE; PR #68 OPEN DRAFT/unmerged.**
+
+248 geographic rows; **231 areas with at least one scoped governmental health-body identity**, **17 documented unknowns**, **312 body records**, 45 institutional relationships, 603 source observations, 248 coverage rows, 4 explicit multi-area mappings. These are identity/record counts, not complete sole-authority or legal-mandate coverage. Legacy area-scoped aliases remain preserved.
+
+Immutable audited data: `ed9b14167525defa02389ce20c9f06da83a6129c`. [Standalone checkpoint](CHECKPOINT_20261105_BATCH39.md) · [QA hashes/results](QA_BATCH31_39_20261105.json).
+
+Batches31–38 published eight sourced identity batches (+47 area findings / +56 body records). Batch39 reviewed all 17 unresolved areas (+35 source observations) and added the explicit unresolved audit. Total new source observations across nine cycles: 157.
+
+Added shared-authority area mapping to avoid new duplicate institutions. Updated validator to require source-backed cross-area mappings and reconcile unresolved audit; replaced permanent BES-UNKNOWN assertion with a no-conflation/scope safeguard. Added five regression cases. Full immutable commit list, preservation results and source caveats are in the standalone checkpoint and QA JSON. No merge or production edits.
+
+---
+
 ## CURRENT — Team A Batch30 and Batch29 changes (2026-11-05)
 
 **Batch29 immutable data**: [b90457936096328d45dbde513c402e582ff86d4d](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/b90457936096328d45dbde513c402e582ff86d4d). +4 principals Pakistan 586, PNG 598, Paraguay 600, Samoa 882; +4 distinct regulator/surveillance/research/public-health units; +14 provenance records.

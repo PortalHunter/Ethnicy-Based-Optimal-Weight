@@ -1,3 +1,17 @@
+## CURRENT — Team A Batch39
+
+**Current Batch39, November 5, 2026. Original acceptance INCOMPLETE; PR #68 OPEN DRAFT/unmerged.**
+
+248 geographic rows; **231 areas with at least one scoped governmental health-body identity**, **17 documented unknowns**, **312 body records**, 45 institutional relationships, 603 source observations, 248 coverage rows, 4 explicit multi-area mappings. These are identity/record counts, not complete sole-authority or legal-mandate coverage. Legacy area-scoped aliases remain preserved.
+
+Immutable audited data: `ed9b14167525defa02389ce20c9f06da83a6129c`. [Standalone checkpoint](CHECKPOINT_20261105_BATCH39.md) · [QA hashes/results](QA_BATCH31_39_20261105.json).
+
+The full 17-area queue, precise source failures/conflicts and next actions are in `data/unresolved_area_audit.csv` and the standalone checkpoint. Unknown is not absent. All nine cycles retain draft/historical/indexed-only/same-issuer limitations, competing-administration boundaries and incomplete current enactments.
+
+Identity coverage does not close principal/sole authority, local-language statutory title, current consolidated law, devolution, Indigenous/municipal rights, or distinct government regulator/institute coverage. Important new gaps include mismatched law downloads, inaccessible legal originals, partial island scope and unverified competing administrations. All Batch30 and older legal gaps still apply; do not reinterpret this queue as the only remaining acceptance work.
+
+---
+
 ## CURRENT — Team A Batch30 remaining gaps
 
 **64 explicit UNKNOWN principal identities** (not absent, not necessarily delegated): the full 64-area ascending M49 code/name queue is in the standalone checkpoint. Current enacted legal powers, independent statutory sources, local-language names, organizational autonomy, recent renames, provincial/canton/Indigenous/territorial powers and service/regulation distinctions remain unproven for many of 184 located principal bodies. A draft law, source index, cabinet news or WHO office does not establish enacted local mandate. No assumed legal cross-area parent.

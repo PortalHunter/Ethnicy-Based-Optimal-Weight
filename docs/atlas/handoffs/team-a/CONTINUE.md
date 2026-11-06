@@ -1,3 +1,17 @@
+## CURRENT — Team A Batch39
+
+**Current Batch39, November 5, 2026. Original acceptance INCOMPLETE; PR #68 OPEN DRAFT/unmerged.**
+
+248 geographic rows; **231 areas with at least one scoped governmental health-body identity**, **17 documented unknowns**, **312 body records**, 45 institutional relationships, 603 source observations, 248 coverage rows, 4 explicit multi-area mappings. These are identity/record counts, not complete sole-authority or legal-mandate coverage. Legacy area-scoped aliases remain preserved.
+
+Immutable audited data: `ed9b14167525defa02389ce20c9f06da83a6129c`. [Standalone checkpoint](CHECKPOINT_20261105_BATCH39.md) · [QA hashes/results](QA_BATCH31_39_20261105.json).
+
+Read the complete Batch39 checkpoint first, then original assignment, current tables and both new ledgers. Check live PR HEAD before any write. Next: follow all 17 concrete source-recovery/jurisdiction actions in `data/unresolved_area_audit.csv`, then finish independent legal-issuer, current enactment, original-name and devolved/institute/regulator reviews for identified areas. Do not repeat generic already-located identities. Each source failure and prior caveat must persist.
+
+One agency may serve multiple M49 areas: `data/authority_area_scope.csv` authorizes exact source-backed mappings; never invent another institution or country-parent key. Use the repository Python validator and regression tests; verify exact committed blobs. Scope remains **only** `docs/atlas/handoffs/team-a/` on existing research branch. No public website, main, calculator, clinical/ancestry/private-health or other-team edits. Never merge/mark ready. Continue autonomous sourced cycles and save a complete standalone checkpoint if unfinished.
+
+---
+
 ## CURRENT — Team A Batch30 complete continuation instructions
 
 Resolve live GitHub HEAD before new writes; read the complete [Batch30 standalone checkpoint](CHECKPOINT_20261105_BATCH30.md), original assignment and older preserved history. Process new official source-backed batches on the existing branch and repeat the user's exact original continuation prompt at stopping point.

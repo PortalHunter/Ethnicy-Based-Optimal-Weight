@@ -1,3 +1,17 @@
+## CURRENT — Team A Batch39
+
+**Current Batch39, November 5, 2026. Original acceptance INCOMPLETE; PR #68 OPEN DRAFT/unmerged.**
+
+248 geographic rows; **231 areas with at least one scoped governmental health-body identity**, **17 documented unknowns**, **312 body records**, 45 institutional relationships, 603 source observations, 248 coverage rows, 4 explicit multi-area mappings. These are identity/record counts, not complete sole-authority or legal-mandate coverage. Legacy area-scoped aliases remain preserved.
+
+Immutable audited data: `ed9b14167525defa02389ce20c9f06da83a6129c`. [Standalone checkpoint](CHECKPOINT_20261105_BATCH39.md) · [QA hashes/results](QA_BATCH31_39_20261105.json).
+
+Actual Python validator passed on all nine independently fetched immutable git snapshots; 61 connector blob hashes matched independent git object IDs. Five regression tests and 35 targeted boundary controls passed. Every per-batch changed path is under Team A. All original 256 body/446 source/45 relationship records are unchanged; all prior country/coverage review notes preserved. Exact results in JSON and checkpoint.
+
+Earlier historical “Python NOT RUN” statements remain accurate for those sessions; they do not describe Batches31–39. This is structural verification only: source accuracy, current legal competence, translations and effective control remain substantively incomplete.
+
+---
+
 ## CURRENT — Team A Batch30 immutable structural validation
 
 **PASS STRUCTURAL ONLY:** Exact DATA SHA above was independently read back (six CSVs), 248 official M49 area names/ISO/regions/subregions matched one-by-one; Africa 60, Americas 57, Asia 50, Europe 51, Oceania 29 and Antarctica 1 unassigned. 184 located / 64 UNKNOWN, 256 unique body IDs and same-area linked refs, 45 valid prior edges, 446 unique dated source-state rows, 248 coverage rows, 0 speculative parent M49, and 62 boundary/sentinel controls. Explicitly **NOT RUN**: repository Python validator (GitHub DNS checkout failure). Structural QA cannot certify enacted mandates or clinical/legal accuracy.

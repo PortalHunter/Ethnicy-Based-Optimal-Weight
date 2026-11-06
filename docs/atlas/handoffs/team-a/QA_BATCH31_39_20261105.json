@@ -1,0 +1,734 @@
+{
+  "review_date": "2026-11-05",
+  "scope": "STRUCTURAL_ONLY_NOT_LEGAL_OR_CLINICAL_CERTIFICATION",
+  "starting_head": "22cc68577408c8c3be16d3104e61e6a100d79657",
+  "latest_data_sha": "ed9b14167525defa02389ce20c9f06da83a6129c",
+  "independent_connector_blob_readbacks": 61,
+  "batches": [
+    {
+      "batch": 31,
+      "data_sha": "1fdf01331451a3bc055aa9e0640f71c234ef8aaa",
+      "python_validator": "PASS",
+      "stdout": "PASS: 248 distinct M49 country-or-area rows match dated official snapshot\nPASS: 192 government ministry/department identities located; 56 explicitly unresolved\nPASS: 265 separately identified government health bodies; 45 sourced relationships\nPASS: 248 coverage records; 466 provenance rows\nPASS: region totals, reference integrity, source fields and complex-jurisdiction sentinels\nLIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date\n",
+      "expected_blobs": {
+        "docs/atlas/handoffs/team-a/data/countries.csv": "1bfeeeaf11b72b2b1dea60d7c5968994f1e4a633",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv": "6a81db4e7df9eb265f7b7acb767e2797f39b62ff",
+        "docs/atlas/handoffs/team-a/data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv": "2171e38bc0ac174686ab658044d0f959f56b4b8f",
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv": "e55ba92e046ce1c6737f347cae3be341ba750461",
+        "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52"
+      },
+      "changed_paths": [
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+        "docs/atlas/handoffs/team-a/data/countries.csv",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv"
+      ],
+      "independent_connector_readbacks": [
+        {
+          "path": "docs/atlas/handoffs/team-a/data/countries.csv",
+          "expected_blob_sha": "1bfeeeaf11b72b2b1dea60d7c5968994f1e4a633",
+          "github_blob_sha": "1bfeeeaf11b72b2b1dea60d7c5968994f1e4a633",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+          "expected_blob_sha": "6a81db4e7df9eb265f7b7acb767e2797f39b62ff",
+          "github_blob_sha": "6a81db4e7df9eb265f7b7acb767e2797f39b62ff",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_relationships.csv",
+          "expected_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "github_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+          "expected_blob_sha": "2171e38bc0ac174686ab658044d0f959f56b4b8f",
+          "github_blob_sha": "2171e38bc0ac174686ab658044d0f959f56b4b8f",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "expected_blob_sha": "e55ba92e046ce1c6737f347cae3be341ba750461",
+          "github_blob_sha": "e55ba92e046ce1c6737f347cae3be341ba750461",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv",
+          "expected_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "github_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "readback": "PASS"
+        }
+      ]
+    },
+    {
+      "batch": 32,
+      "data_sha": "8a8b19abe6a4cc8f7d2bd038979d8d8ccfa316d2",
+      "python_validator": "PASS",
+      "stdout": "PASS: 248 distinct M49 country-or-area rows match dated official snapshot\nPASS: 201 government ministry/department identities located; 47 explicitly unresolved\nPASS: 275 separately identified government health bodies; 45 sourced relationships\nPASS: 248 coverage records; 489 provenance rows\nPASS: region totals, reference integrity, source fields and complex-jurisdiction sentinels\nLIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date\n",
+      "expected_blobs": {
+        "docs/atlas/handoffs/team-a/data/countries.csv": "84db2e3803d1c2fd5fb9964e0ff1dd405f503941",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv": "76419ca62a274112a1ec5d673e695f0fd717f70c",
+        "docs/atlas/handoffs/team-a/data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv": "326f5cb65c22a000009db69bef13d3da0153b889",
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv": "49051ce7c5288a41cbb37fe9f5cc8185261e989b",
+        "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52"
+      },
+      "changed_paths": [
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+        "docs/atlas/handoffs/team-a/data/countries.csv",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv"
+      ],
+      "independent_connector_readbacks": [
+        {
+          "path": "docs/atlas/handoffs/team-a/data/countries.csv",
+          "expected_blob_sha": "84db2e3803d1c2fd5fb9964e0ff1dd405f503941",
+          "github_blob_sha": "84db2e3803d1c2fd5fb9964e0ff1dd405f503941",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+          "expected_blob_sha": "76419ca62a274112a1ec5d673e695f0fd717f70c",
+          "github_blob_sha": "76419ca62a274112a1ec5d673e695f0fd717f70c",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_relationships.csv",
+          "expected_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "github_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+          "expected_blob_sha": "326f5cb65c22a000009db69bef13d3da0153b889",
+          "github_blob_sha": "326f5cb65c22a000009db69bef13d3da0153b889",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "expected_blob_sha": "49051ce7c5288a41cbb37fe9f5cc8185261e989b",
+          "github_blob_sha": "49051ce7c5288a41cbb37fe9f5cc8185261e989b",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv",
+          "expected_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "github_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "readback": "PASS"
+        }
+      ]
+    },
+    {
+      "batch": 33,
+      "data_sha": "a449a0c6fdf9025f03044a9bee76db062502c6ea",
+      "python_validator": "PASS",
+      "stdout": "PASS: 248 distinct M49 country-or-area rows match dated official snapshot\nPASS: 210 government ministry/department identities located; 38 explicitly unresolved\nPASS: 285 separately identified government health bodies; 45 sourced relationships\nPASS: 248 coverage records; 509 provenance rows\nPASS: region totals, reference integrity, source fields and complex-jurisdiction sentinels\nLIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date\n",
+      "expected_blobs": {
+        "docs/atlas/handoffs/team-a/data/countries.csv": "d58c8110d3714b1b148af4cb2c4cd058955c92dd",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv": "5f406a39c010fc814752103fcbc92753159e5a9c",
+        "docs/atlas/handoffs/team-a/data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv": "39c5133dc6acacd2e90402c4e256dc93ce9d26c1",
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv": "9496c6a19949c55b527b5aff5fb5237d746a11c9",
+        "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52"
+      },
+      "changed_paths": [
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+        "docs/atlas/handoffs/team-a/data/countries.csv",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv"
+      ],
+      "independent_connector_readbacks": [
+        {
+          "path": "docs/atlas/handoffs/team-a/data/countries.csv",
+          "expected_blob_sha": "d58c8110d3714b1b148af4cb2c4cd058955c92dd",
+          "github_blob_sha": "d58c8110d3714b1b148af4cb2c4cd058955c92dd",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+          "expected_blob_sha": "5f406a39c010fc814752103fcbc92753159e5a9c",
+          "github_blob_sha": "5f406a39c010fc814752103fcbc92753159e5a9c",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_relationships.csv",
+          "expected_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "github_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+          "expected_blob_sha": "39c5133dc6acacd2e90402c4e256dc93ce9d26c1",
+          "github_blob_sha": "39c5133dc6acacd2e90402c4e256dc93ce9d26c1",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "expected_blob_sha": "9496c6a19949c55b527b5aff5fb5237d746a11c9",
+          "github_blob_sha": "9496c6a19949c55b527b5aff5fb5237d746a11c9",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv",
+          "expected_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "github_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "readback": "PASS"
+        }
+      ]
+    },
+    {
+      "batch": 34,
+      "data_sha": "0ec038702522fd8eb508f3a5eb5aee3c1c4b4b0b",
+      "python_validator": "PASS",
+      "stdout": "PASS: 248 distinct M49 country-or-area rows match dated official snapshot\nPASS: 216 government ministry/department identities located; 32 explicitly unresolved\nPASS: 291 separately identified government health bodies; 45 sourced relationships\nPASS: 248 coverage records; 525 provenance rows\nPASS: region totals, reference integrity, source fields and complex-jurisdiction sentinels\nLIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date\n",
+      "expected_blobs": {
+        "docs/atlas/handoffs/team-a/data/countries.csv": "603b57a6e35145a43ba10e20b9668a556305eaac",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv": "4e479f2a7c50b432dba3046a5f28812c3a925091",
+        "docs/atlas/handoffs/team-a/data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv": "c5f1b9c6d8a855c46656df09265e05ad5562eeae",
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv": "6ee2a377c7ff2e87cbcbe678d86276987e42c3ad",
+        "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52"
+      },
+      "changed_paths": [
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+        "docs/atlas/handoffs/team-a/data/countries.csv",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv"
+      ],
+      "independent_connector_readbacks": [
+        {
+          "path": "docs/atlas/handoffs/team-a/data/countries.csv",
+          "expected_blob_sha": "603b57a6e35145a43ba10e20b9668a556305eaac",
+          "github_blob_sha": "603b57a6e35145a43ba10e20b9668a556305eaac",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+          "expected_blob_sha": "4e479f2a7c50b432dba3046a5f28812c3a925091",
+          "github_blob_sha": "4e479f2a7c50b432dba3046a5f28812c3a925091",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_relationships.csv",
+          "expected_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "github_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+          "expected_blob_sha": "c5f1b9c6d8a855c46656df09265e05ad5562eeae",
+          "github_blob_sha": "c5f1b9c6d8a855c46656df09265e05ad5562eeae",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "expected_blob_sha": "6ee2a377c7ff2e87cbcbe678d86276987e42c3ad",
+          "github_blob_sha": "6ee2a377c7ff2e87cbcbe678d86276987e42c3ad",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv",
+          "expected_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "github_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "readback": "PASS"
+        }
+      ]
+    },
+    {
+      "batch": 35,
+      "data_sha": "4a7af25f1ac88b8948a9313f3ffc920bb71d7ac3",
+      "python_validator": "PASS",
+      "stdout": "PASS: 248 distinct M49 country-or-area rows match dated official snapshot\nPASS: 220 government ministry/department identities located; 28 explicitly unresolved\nPASS: 298 separately identified government health bodies; 45 sourced relationships\nPASS: 248 coverage records; 536 provenance rows\nPASS: region totals, reference integrity, source fields and complex-jurisdiction sentinels\nLIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date\n",
+      "expected_blobs": {
+        "docs/atlas/handoffs/team-a/data/countries.csv": "418a01f4b2020e2f96ba10f6d9a1a3f1c8c79d0f",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv": "e02bd40fc6fb3c7de9dd022ef6cd54b74fbdf413",
+        "docs/atlas/handoffs/team-a/data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv": "4118abf63cb8b330dad301786d32433a7480a534",
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv": "e34d900317ea2bd9779c870c76410be34f5a0aae",
+        "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52"
+      },
+      "changed_paths": [
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+        "docs/atlas/handoffs/team-a/data/countries.csv",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+        "docs/atlas/handoffs/team-a/validate.py"
+      ],
+      "independent_connector_readbacks": [
+        {
+          "path": "docs/atlas/handoffs/team-a/data/countries.csv",
+          "expected_blob_sha": "418a01f4b2020e2f96ba10f6d9a1a3f1c8c79d0f",
+          "github_blob_sha": "418a01f4b2020e2f96ba10f6d9a1a3f1c8c79d0f",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+          "expected_blob_sha": "e02bd40fc6fb3c7de9dd022ef6cd54b74fbdf413",
+          "github_blob_sha": "e02bd40fc6fb3c7de9dd022ef6cd54b74fbdf413",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_relationships.csv",
+          "expected_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "github_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+          "expected_blob_sha": "4118abf63cb8b330dad301786d32433a7480a534",
+          "github_blob_sha": "4118abf63cb8b330dad301786d32433a7480a534",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "expected_blob_sha": "e34d900317ea2bd9779c870c76410be34f5a0aae",
+          "github_blob_sha": "e34d900317ea2bd9779c870c76410be34f5a0aae",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv",
+          "expected_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "github_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "readback": "PASS"
+        }
+      ]
+    },
+    {
+      "batch": 36,
+      "data_sha": "c7bdc5c43fee5089054eb7fdac3ad24e696c22af",
+      "python_validator": "PASS",
+      "stdout": "PASS: 248 distinct M49 country-or-area rows match dated official snapshot\nPASS: 225 government ministry/department identities located; 23 explicitly unresolved\nPASS: 302 separately identified government health bodies; 45 sourced relationships\nPASS: 248 coverage records; 547 provenance rows\nPASS: 4 explicit shared-authority area mappings\nPASS: region totals, reference integrity, source fields and complex-jurisdiction sentinels\nLIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date\n",
+      "expected_blobs": {
+        "docs/atlas/handoffs/team-a/data/countries.csv": "2df365775b42f120f32692f26d6d9586c1c0ea0c",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv": "5d82f038b0cf70964712b11a0c58b79538e3a5b8",
+        "docs/atlas/handoffs/team-a/data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv": "d80ba094e88234726f89fb1674121e721d9a2a61",
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv": "cd92121d588b16a1e5a3f6439b704b4f296bcfa2",
+        "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+        "docs/atlas/handoffs/team-a/data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44"
+      },
+      "changed_paths": [
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+        "docs/atlas/handoffs/team-a/data/authority_area_scope.csv",
+        "docs/atlas/handoffs/team-a/data/countries.csv",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+        "docs/atlas/handoffs/team-a/validate.py"
+      ],
+      "independent_connector_readbacks": [
+        {
+          "path": "docs/atlas/handoffs/team-a/data/countries.csv",
+          "expected_blob_sha": "2df365775b42f120f32692f26d6d9586c1c0ea0c",
+          "github_blob_sha": "2df365775b42f120f32692f26d6d9586c1c0ea0c",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+          "expected_blob_sha": "5d82f038b0cf70964712b11a0c58b79538e3a5b8",
+          "github_blob_sha": "5d82f038b0cf70964712b11a0c58b79538e3a5b8",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_relationships.csv",
+          "expected_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "github_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+          "expected_blob_sha": "d80ba094e88234726f89fb1674121e721d9a2a61",
+          "github_blob_sha": "d80ba094e88234726f89fb1674121e721d9a2a61",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "expected_blob_sha": "cd92121d588b16a1e5a3f6439b704b4f296bcfa2",
+          "github_blob_sha": "cd92121d588b16a1e5a3f6439b704b4f296bcfa2",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv",
+          "expected_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "github_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_area_scope.csv",
+          "expected_blob_sha": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+          "github_blob_sha": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+          "readback": "PASS"
+        }
+      ]
+    },
+    {
+      "batch": 37,
+      "data_sha": "c6d8e852e90bb292061765bca74e7b5ccfcddbc1",
+      "python_validator": "PASS",
+      "stdout": "PASS: 248 distinct M49 country-or-area rows match dated official snapshot\nPASS: 229 government ministry/department identities located; 19 explicitly unresolved\nPASS: 308 separately identified government health bodies; 45 sourced relationships\nPASS: 248 coverage records; 562 provenance rows\nPASS: 4 explicit shared-authority area mappings\nPASS: region totals, reference integrity, source fields and complex-jurisdiction sentinels\nLIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date\n",
+      "expected_blobs": {
+        "docs/atlas/handoffs/team-a/data/countries.csv": "0bfcf453ac8335c6d959e2f311e5ab2fb67161d0",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv": "dcf1b338e3ae55bb7c034ff65551970805811930",
+        "docs/atlas/handoffs/team-a/data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv": "aa9036f30d123e470adb4efaf975bb91f6731175",
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv": "8fa35848665bbe7e800b5a113365355e21a24617",
+        "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+        "docs/atlas/handoffs/team-a/data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44"
+      },
+      "changed_paths": [
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+        "docs/atlas/handoffs/team-a/data/countries.csv",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv"
+      ],
+      "independent_connector_readbacks": [
+        {
+          "path": "docs/atlas/handoffs/team-a/data/countries.csv",
+          "expected_blob_sha": "0bfcf453ac8335c6d959e2f311e5ab2fb67161d0",
+          "github_blob_sha": "0bfcf453ac8335c6d959e2f311e5ab2fb67161d0",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+          "expected_blob_sha": "dcf1b338e3ae55bb7c034ff65551970805811930",
+          "github_blob_sha": "dcf1b338e3ae55bb7c034ff65551970805811930",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_relationships.csv",
+          "expected_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "github_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+          "expected_blob_sha": "aa9036f30d123e470adb4efaf975bb91f6731175",
+          "github_blob_sha": "aa9036f30d123e470adb4efaf975bb91f6731175",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "expected_blob_sha": "8fa35848665bbe7e800b5a113365355e21a24617",
+          "github_blob_sha": "8fa35848665bbe7e800b5a113365355e21a24617",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv",
+          "expected_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "github_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_area_scope.csv",
+          "expected_blob_sha": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+          "github_blob_sha": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+          "readback": "PASS"
+        }
+      ]
+    },
+    {
+      "batch": 38,
+      "data_sha": "0dedd2baf9de2b2fae9f92df5da97db02d584d7e",
+      "python_validator": "PASS",
+      "stdout": "PASS: 248 distinct M49 country-or-area rows match dated official snapshot\nPASS: 231 government ministry/department identities located; 17 explicitly unresolved\nPASS: 312 separately identified government health bodies; 45 sourced relationships\nPASS: 248 coverage records; 568 provenance rows\nPASS: 4 explicit shared-authority area mappings\nPASS: region totals, reference integrity, source fields and complex-jurisdiction sentinels\nLIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date\n",
+      "expected_blobs": {
+        "docs/atlas/handoffs/team-a/data/countries.csv": "8595587c45a426bc72cd1ccde872f7db8fb3b1f8",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv": "b40016875a48a78b3fce679802d925a617b88048",
+        "docs/atlas/handoffs/team-a/data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv": "06224ddf1812c2825f4cc5898f4f1709b9687dc9",
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv": "186033ee419b65e2cd3fcdcea9176f14f91c71fd",
+        "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+        "docs/atlas/handoffs/team-a/data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44"
+      },
+      "changed_paths": [
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+        "docs/atlas/handoffs/team-a/data/countries.csv",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv"
+      ],
+      "independent_connector_readbacks": [
+        {
+          "path": "docs/atlas/handoffs/team-a/data/countries.csv",
+          "expected_blob_sha": "8595587c45a426bc72cd1ccde872f7db8fb3b1f8",
+          "github_blob_sha": "8595587c45a426bc72cd1ccde872f7db8fb3b1f8",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+          "expected_blob_sha": "b40016875a48a78b3fce679802d925a617b88048",
+          "github_blob_sha": "b40016875a48a78b3fce679802d925a617b88048",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_relationships.csv",
+          "expected_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "github_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+          "expected_blob_sha": "06224ddf1812c2825f4cc5898f4f1709b9687dc9",
+          "github_blob_sha": "06224ddf1812c2825f4cc5898f4f1709b9687dc9",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "expected_blob_sha": "186033ee419b65e2cd3fcdcea9176f14f91c71fd",
+          "github_blob_sha": "186033ee419b65e2cd3fcdcea9176f14f91c71fd",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv",
+          "expected_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "github_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_area_scope.csv",
+          "expected_blob_sha": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+          "github_blob_sha": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+          "readback": "PASS"
+        }
+      ]
+    },
+    {
+      "batch": 39,
+      "data_sha": "ed9b14167525defa02389ce20c9f06da83a6129c",
+      "python_validator": "PASS",
+      "stdout": "PASS: 248 distinct M49 country-or-area rows match dated official snapshot\nPASS: 231 government ministry/department identities located; 17 explicitly unresolved\nPASS: 312 separately identified government health bodies; 45 sourced relationships\nPASS: 248 coverage records; 603 provenance rows\nPASS: 4 explicit shared-authority area mappings\nPASS: region totals, reference integrity, source fields and complex-jurisdiction sentinels\nLIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date\n",
+      "expected_blobs": {
+        "docs/atlas/handoffs/team-a/data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+        "docs/atlas/handoffs/team-a/data/government_health_bodies.csv": "b40016875a48a78b3fce679802d925a617b88048",
+        "docs/atlas/handoffs/team-a/data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv": "1cccebbc3752b7d8b8ec6dd94e97dffb7f9fed64",
+        "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+        "docs/atlas/handoffs/team-a/data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+        "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv": "dcb591c6a2fcbaba4a399ec0c101ecb16a416545",
+        "docs/atlas/handoffs/team-a/validate.py": "0528740202cb0e354d2ef8f6d5a838f953d60713",
+        "docs/atlas/handoffs/team-a/test_validate.py": "f41c6ed5dcb0ababcbe4f7bb717dc32d776d9112"
+      },
+      "changed_paths": [
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+        "docs/atlas/handoffs/team-a/data/countries.csv",
+        "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+        "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+        "docs/atlas/handoffs/team-a/test_validate.py",
+        "docs/atlas/handoffs/team-a/validate.py"
+      ],
+      "regression_tests": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.060s\n\nOK\n",
+      "independent_connector_readbacks": [
+        {
+          "path": "docs/atlas/handoffs/team-a/data/countries.csv",
+          "expected_blob_sha": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+          "github_blob_sha": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+          "expected_blob_sha": "b40016875a48a78b3fce679802d925a617b88048",
+          "github_blob_sha": "b40016875a48a78b3fce679802d925a617b88048",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_relationships.csv",
+          "expected_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "github_blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+          "expected_blob_sha": "b54dda5d655f01d2ec311db22d07b17676f51032",
+          "github_blob_sha": "b54dda5d655f01d2ec311db22d07b17676f51032",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "expected_blob_sha": "1cccebbc3752b7d8b8ec6dd94e97dffb7f9fed64",
+          "github_blob_sha": "1cccebbc3752b7d8b8ec6dd94e97dffb7f9fed64",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv",
+          "expected_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "github_blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/authority_area_scope.csv",
+          "expected_blob_sha": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+          "github_blob_sha": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+          "expected_blob_sha": "dcb591c6a2fcbaba4a399ec0c101ecb16a416545",
+          "github_blob_sha": "dcb591c6a2fcbaba4a399ec0c101ecb16a416545",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/validate.py",
+          "expected_blob_sha": "0528740202cb0e354d2ef8f6d5a838f953d60713",
+          "github_blob_sha": "0528740202cb0e354d2ef8f6d5a838f953d60713",
+          "readback": "PASS"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-a/test_validate.py",
+          "expected_blob_sha": "f41c6ed5dcb0ababcbe4f7bb717dc32d776d9112",
+          "github_blob_sha": "f41c6ed5dcb0ababcbe4f7bb717dc32d776d9112",
+          "readback": "PASS"
+        }
+      ]
+    }
+  ],
+  "targeted_boundary_controls": [
+    {
+      "control": "Explicit unresolved 010",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 074",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 086",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 104",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 112",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 226",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 239",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 260",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 275",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 334",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 364",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 408",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 581",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 624",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 732",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 744",
+      "result": "PASS"
+    },
+    {
+      "control": "Explicit unresolved 887",
+      "result": "PASS"
+    },
+    {
+      "control": "No invented parent delegation across all 248",
+      "result": "PASS"
+    },
+    {
+      "control": "Non-master code 158 excluded",
+      "result": "PASS"
+    },
+    {
+      "control": "French Saint Martin uses shared ARS not Dutch Sint Maarten",
+      "result": "PASS"
+    },
+    {
+      "control": "Saint Barthelemy uses one shared agency",
+      "result": "PASS"
+    },
+    {
+      "control": "BES separate care directorate",
+      "result": "PASS"
+    },
+    {
+      "control": "Norfolk funder reused not new duplicate",
+      "result": "PASS"
+    },
+    {
+      "control": "Federal and Nevis ministries distinct",
+      "result": "PASS"
+    },
+    {
+      "control": "Naoero care and public health distinct",
+      "result": "PASS"
+    },
+    {
+      "control": "Iraq federal and regional ministries distinct",
+      "result": "PASS"
+    },
+    {
+      "control": "Sudan federal and state distinct",
+      "result": "PASS"
+    },
+    {
+      "control": "Libya verification explicitly contested",
+      "result": "PASS"
+    },
+    {
+      "control": "Somalia verification explicitly not exclusive",
+      "result": "PASS"
+    },
+    {
+      "control": "Syria verification explicitly not exclusive",
+      "result": "PASS"
+    },
+    {
+      "control": "St Helena remains partial area scope",
+      "result": "PASS"
+    },
+    {
+      "control": "Mali wrong decree download not promoted",
+      "result": "PASS"
+    },
+    {
+      "control": "Pitcairn policy and law distinct",
+      "result": "PASS"
+    },
+    {
+      "control": "UN M49 name preserved Naoero",
+      "result": "PASS"
+    },
+    {
+      "control": "Isle of Man original three body IDs preserved",
+      "result": "PASS"
+    }
+  ],
+  "predecessor_preservation": {
+    "all_256_existing_body_rows": "EXACT_PREFIX_MATCH",
+    "all_446_existing_provenance_rows": "EXACT_PREFIX_MATCH",
+    "all_45_existing_relationship_rows": "EXACT_MATCH",
+    "all_248_country_and_coverage_old_notes": "PRESERVED_AS_SUBSTRINGS"
+  }
+}

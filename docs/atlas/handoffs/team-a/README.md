@@ -1,3 +1,17 @@
+## CURRENT — Team A Batch39
+
+**Current Batch39, November 5, 2026. Original acceptance INCOMPLETE; PR #68 OPEN DRAFT/unmerged.**
+
+248 geographic rows; **231 areas with at least one scoped governmental health-body identity**, **17 documented unknowns**, **312 body records**, 45 institutional relationships, 603 source observations, 248 coverage rows, 4 explicit multi-area mappings. These are identity/record counts, not complete sole-authority or legal-mandate coverage. Legacy area-scoped aliases remain preserved.
+
+Immutable audited data: `ed9b14167525defa02389ce20c9f06da83a6129c`. [Standalone checkpoint](CHECKPOINT_20261105_BATCH39.md) · [QA hashes/results](QA_BATCH31_39_20261105.json).
+
+Team A owns governmental/statutory health-authority research only. Canonical schema and source caveats are in the original assignment and checkpoint. The new `authority_area_scope.csv` records a single institution's documented multi-area remit; `unresolved_area_audit.csv` records all still-unknown areas and next actions. English translations and exact source states remain explicit.
+
+Run `python docs/atlas/handoffs/team-a/validate.py` and `python -m unittest discover -s docs/atlas/handoffs/team-a -p 'test_*.py'`. Structural checks do not certify legal authority. Preserve original rows/IDs and historical notes; edit no other team's files or public site.
+
+---
+
 ## CURRENT — Team A Batch30 government authority research directory
 
 **Research-only staging, not patient-facing and not a completed enacted-law census.** Read [Batch30 complete standalone recovery](CHECKPOINT_20261105_BATCH30.md) for all source IDs, URLs, 64-area unresolved queue, legal caveats, quality limits and continuation prompt.

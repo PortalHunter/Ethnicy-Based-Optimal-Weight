@@ -1,3 +1,17 @@
+## CURRENT — Team A Batch39
+
+**Current Batch39, November 5, 2026. Original acceptance INCOMPLETE; PR #68 OPEN DRAFT/unmerged.**
+
+248 geographic rows; **231 areas with at least one scoped governmental health-body identity**, **17 documented unknowns**, **312 body records**, 45 institutional relationships, 603 source observations, 248 coverage rows, 4 explicit multi-area mappings. These are identity/record counts, not complete sole-authority or legal-mandate coverage. Legacy area-scoped aliases remain preserved.
+
+Immutable audited data: `ed9b14167525defa02389ce20c9f06da83a6129c`. [Standalone checkpoint](CHECKPOINT_20261105_BATCH39.md) · [QA hashes/results](QA_BATCH31_39_20261105.json).
+
+This run completed nine cycles (Batches31–39), adding 47 area identity findings, 56 body records and 157 source observations. Every remaining unknown has a recorded reason, source IDs and exact next action. St Helena remains partial island coverage; contested federal/territorial identities remain scoped.
+
+Actual Python validation passed on all nine immutable snapshots. 61 independent connector blob readbacks, 35 boundary controls and 5 regression tests passed. No full legal or clinical certification. See checkpoint for per-batch commits, counts and original acceptance matrix.
+
+---
+
 ## CURRENT — Team A Batch30 status
 
 **184 / 248 (74.2%) geographic areas have a source-backed principal government health-authority identity only; 64 remain explicitly UNKNOWN.** This is NOT 74.2% verified statutory/clinical completion.
