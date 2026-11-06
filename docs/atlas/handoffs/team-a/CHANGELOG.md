@@ -1,3 +1,12 @@
+## 2026-11-05 — Team A Batch27 five government identities, three institutes, twenty source caveats, audited data and standalone checkpoint
+
+- **Exact DATA SHA:** `2cff26c5d211fa45b3dfd8711838b8005825328c`, from previous documentation HEAD `a237f3393080ac0f5cde79e8533666ba35a85087`; eight sequential Team A CSV commits and **only four CSV paths changed**: `data/countries.csv`, `data/government_health_bodies.csv`, `data/country_coverage.csv`, `PROVENANCE.csv`. No relationships guessed, original M49 master/schema/validator and other-team/app files untouched.
+- **Five** government identities: Madagascar 450 (current Primature + independently live MSANP alternative to failed old ministry alias); Malawi 454 (Health and Sanitation 2025 government Cabinet vs stale Health and Population text); Moldova 498 (current ministry, separate Government 2026, 2026 bill DRAFT); Montenegro 499 (government ministry current, separate institute not falsely subordinate); Mozambique 508 (2025 Cabinet historical, 28 Oct 2026 Cabinet regulations original enactment unread; direct ministry timeout). **Three extra bodies:** Malawi PHIM, Moldova ANSP, Montenegro IJZCG. **20** source checks including historic/draft/failed observations.
+- Exact immutable independent six-CSV structural QA **PASS**: 248 geographic, 171 authority identities, 77 unknown, 232 bodies, 45 limited same-area links, 403 provenance, 248 coverage, 0 invented cross-M49 parent; 53 territory/devolution sentinels. **Python validator NOT RUN** (GitHub DNS); neither complete independent legal mandate nor clinical quality implied.
+- [Complete standalone Batch27 checkpoint](CHECKPOINT_20261105_BATCH27.md) retained beside all Batch26/older evidence and continuation. PR #68 remains **OPEN DRAFT/UNMERGED**; only Team A research folder touched, no website, main, calculator, clinical or other-team modification.
+
+---
+
 ## 2026-11-05 — Batch26 five more government authority identities, exact-data QA, and full checkpoint
 
 - **Immutable DATA SHA:** `8d9aa4f007672740028ea74cb498950753e45541`; previous starting Team A documentation HEAD `0ab9a04c39d6f470fa3a53f2c378bfd588b33453`. Four sequential CSV commits `9b33d0a05c000e2d6841f86c318e24e1c41780aa`, `4197b3cb8ecd57b6734c944605ab3af4ba0a4825`, `baabfb48accb01685b0adac4c7114805d14e2071`, `8d9aa4f007672740028ea74cb498950753e45541`. Changed **only** `data/countries.csv`, `data/government_health_bodies.csv`, `data/country_coverage.csv`, `PROVENANCE.csv`; no inferred organization-edge additions, M49 snapshot/schema/test/website/other-team changes.
