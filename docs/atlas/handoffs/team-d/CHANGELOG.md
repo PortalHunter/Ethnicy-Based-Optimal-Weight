@@ -1,3 +1,11 @@
+## 2026-11-06 — Batch 32 national agency jurisdiction and negative-boundary research
+
+- [`16696155c9d88fb80ead122325b15a8c54cfc902`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/16696155c9d88fb80ead122325b15a8c54cfc902) atomically updated `data/emrn_nca_national_remit_evidence_2026.csv`, `PROVENANCE.csv`, `validate.mjs`: **9** new national regulator role observations, **6** source URLs TD-SRC-224–229, Austria/Denmark/Netherlands, preserved all prior source/caveat/edge records.
+- Full structural replay exposed one stale provenance count in the validator at assertion **8218**; [`d282e6a400f6ad8821a0831d5d0c21208d78b303`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/d282e6a400f6ad8821a0831d5d0c21208d78b303) corrected **223 → 229**, GitHub readback PASS. **Full checked-in validator subsequently PASS, 11,710 JS/V8 assertions across 39 GitHub-derived dependencies**. Not a literal Node/CI run or legal/clinical approval.
+- **7/34** agency candidates now have agency-owned remit observations, 18 role rows and 229 unique provenance URLs. Keep 27 unmatched candidates and all 34 legal remits open, plus WHO, PAHO, office, network and evidence gaps. [Standalone checkpoint](CHECKPOINT_BATCH_32_2026-11-06.md).
+
+---
+
 ## 2026-11-06 — Batch 31 national NCA agency-role evidence and regression
 
 - Data commit [`aaf7bf5603a6f97615a69c645d9a98d34932d529`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/aaf7bf5603a6f97615a69c645d9a98d34932d529) adds **9** source-qualified agency remit statements across **4** exact existing EMA NCA candidate rows, without asserting national consolidated statutes or Team A joins.
