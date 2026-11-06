@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,229);
+assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,236);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -537,10 +537,10 @@ console.log('Batch 29: 11 first-party EMA/Commission role observations with 6 ne
 // exact Team A authority joins or evidence of a specific medicinal product permission.
 const nationalNcaRemits=read('data/emrn_nca_national_remit_evidence_2026.csv');
 unique(nationalNcaRemits,r=>r.record_id,'national NCA remit observations');
-assert.equal(nationalNcaRemits.length,18);
-assert.equal(new Set(nationalNcaRemits.map(r=>r.source_url)).size,12);
-assert.deepEqual([...new Set(nationalNcaRemits.map(r=>r.country_area_m49))].sort(),['040','203','208','372','380','528','578']);
-assert.deepEqual(nationalNcaRemits.map(r=>r.record_id).sort(),Array.from({length:18},(_,i)=>'TD-NCA-REMIT-'+String(i+1).padStart(3,'0')));
+assert.equal(nationalNcaRemits.length,26);
+assert.equal(new Set(nationalNcaRemits.map(r=>r.source_url)).size,19);
+assert.deepEqual([...new Set(nationalNcaRemits.map(r=>r.country_area_m49))].sort(),['040','056','203','208','246','372','380','470','528','578','724']);
+assert.deepEqual(nationalNcaRemits.map(r=>r.record_id).sort(),Array.from({length:26},(_,i)=>'TD-NCA-REMIT-'+String(i+1).padStart(3,'0')));
 for (const r of nationalNcaRemits) {
  assert.equal(r.network_id,'EMRN');
  assert.equal(r.checked_on,'2026-11-06');
@@ -556,7 +556,7 @@ for (const r of nationalNcaRemits) {
  assert(r.first_party_role_observation && r.notes);
 }
 assert.equal(nationalNcaRemits.filter(r=>r.historical_role_start_claimed==='2008-01-01').length,1);
-assert.equal(nationalNcaRemits.filter(r=>r.historical_role_start_claimed==='unknown').length,16);
+assert.equal(nationalNcaRemits.filter(r=>r.historical_role_start_claimed==='unknown').length,23);
 assert.equal(nationalNcaRemits.filter(r=>r.source_page_updated_on==='2026-05-21').length,1);
 assert.equal(nationalNcaRemits.filter(r=>r.source_page_updated_on==='2025-10-15').length,2);
 assert(nationalNcaRemits.find(r=>r.record_id==='TD-NCA-REMIT-003').first_party_role_observation.includes('European Commission'));
@@ -578,8 +578,21 @@ assert(nationalNcaRemits.find(r=>r.record_id==='TD-NCA-REMIT-012').notes.include
 for(const [id,url] of [["TD-SRC-224","https://www.basg.gv.at/en/about-us/activities"],["TD-SRC-225","https://www.basg.gv.at/en/about-us/"],["TD-SRC-226","https://laegemiddelstyrelsen.dk/en/licensing/authorisation-procedures/"],["TD-SRC-227","https://laegemiddelstyrelsen.dk/en/about/"],["TD-SRC-228","https://english.cbg-meb.nl/topics/about-meb-our-work/about-meb-our-tasks"],["TD-SRC-229","https://english.cbg-meb.nl/topics/about-meb-our-work/about-meb-our-tasks/about-meb-assessing-medicines"]]) {
  assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);
 }
-assert.equal(new Set(nationalNcaRemits.map(r=>r.emrn_nca_candidate_id)).size,7);
+assert.equal(new Set(nationalNcaRemits.map(r=>r.emrn_nca_candidate_id)).size,11);
 console.log('Batch 32: 9 additional agency role observations across Austria Denmark Netherlands; 6 official URLs; 7/34 candidate agencies now have source-qualified roles, no statutory or Team A approval.');
+
+
+// Batch 33: additional first-party regulator observations and preserved Maltese attribution dispute.
+assert.equal(nationalNcaRemits.filter(r=>r.historical_role_start_claimed==='2009-02-01').length,1);
+assert.equal(nationalNcaRemits.filter(r=>r.source_page_updated_on==='2024-04-04').length,1);
+assert(nationalNcaRemits.find(r=>r.record_id==='TD-NCA-REMIT-022').notes.includes('Conflicts'));
+assert(nationalNcaRemits.find(r=>r.record_id==='TD-NCA-REMIT-023').notes.includes('conflicts'));
+assert.equal(nationalNcaRemits.filter(r=>r.country_area_m49==='470').length,3);
+assert.equal(nationalNcaRemits.filter(r=>r.country_area_m49==='056').length,2);
+for (const [id,url] of [["TD-SRC-230","https://www.famhp.be/en/the_role_of_the_famhp"],["TD-SRC-231","https://www.famhp.be/en/about_the_famhp/our_organisation/organisation_chart"],["TD-SRC-232","https://fimea.fi/en/about_us"],["TD-SRC-233","https://medicinesauthority.gov.mt/howmedicinesregistered"],["TD-SRC-234","https://medicinesauthority.gov.mt/registration?l=1"],["TD-SRC-235","https://medicinesauthority.gov.mt/howmonitorsafetyproduct"],["TD-SRC-236","https://www.aemps.gob.es/aemps/quienes-somos/"]]) {
+ assert.equal(prov.filter(p=>p.source_id===id && p.source_url===url).length,1);
+}
+console.log('Batch 33: 8 first-party role observations in Belgium Finland Malta Spain, 7 official source URLs, 11/34 candidates source-described; Malta source conflict unresolved.');
 
 
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length,idf_nac_source_observations:idfNac.length,hi_source_observations:hi.length,aoecs_society_observations:aoecsSocieties.length,aoecs_external_role_observations:aoecsRelations.length,ema_regulatory_role_observations:emaRoles.length,national_nca_remit_observations:nationalNcaRemits.length},null,2));
