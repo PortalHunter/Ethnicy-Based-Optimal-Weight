@@ -1,3 +1,13 @@
+## CURRENT — Team A Batch42 (2026-11-06 UTC)
+
+**OPEN DRAFT PR #68, UNMERGED — original acceptance INCOMPLETE.** Latest immutable DATA: `2970560f8789ed73cf60c4658a60f93ae21e9881`. [Full standalone checkpoint](CHECKPOINT_20261106_BATCH42.md) · [QA](QA_BATCH42_20261106.json) · [CONTINUE](CONTINUE.md).
+
+**248** M49 skeletons; **231** identified area-scoped authority identities; **17** unresolved; **318** bodies; **45** limited relationships; **655** source checks; **248** coverage; **4** multi-area scopes. Two new cycles: 744 Svalbard/Jan Mayen six narrowly scoped body identities and 7 source checks; 581 U.S. islands 5 new legal/historical observations correcting 1989 administrative-source staleness. Neither unknown area promoted. No comprehensive enacted health mandate certification. Existing 312 bodies, 643 sources and other 15 unknown audits preserved.
+
+Quote-aware independent GitHub CSV structural readback **PASS**, 6 immutable research commits and exact path diff **Team A only**. Actual Python validator and 5 regression tests **NOT rerun** this batch (Batch41 passed them); current-original legal source, independent mandate issuers, territorial effective control and clinical applicability **NOT certified**. Continue 17 targeted unknown-area legal reviews and all 231 partially identified areas' deeper legal/devolved/regulator/institute reviews. No main, public website, calculator, clinical, other teams; never merge/ready PR.
+
+---
+
 ## CURRENT — Team A Batch39
 
 **Current Batch39, November 5, 2026. Original acceptance INCOMPLETE; PR #68 OPEN DRAFT/unmerged.**
