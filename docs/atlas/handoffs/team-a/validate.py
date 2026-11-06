@@ -110,6 +110,18 @@ def verify():
         area = country_map[row["m49_code"]]
         assert row["ministry_review_status"] == area["health_authority_resolution"], (
             f"Coverage mismatch {row['m49_code']}")
+    audit_path = ROOT / "data/unresolved_area_audit.csv"
+    if audit_path.exists():
+        unresolved_audit = load("data/unresolved_area_audit.csv")
+        expected_unknown = {r["m49_code"] for r in countries
+                            if r["health_authority_resolution"] == "UNKNOWN_REVIEW_NEEDED"}
+        assert len(unresolved_audit) == len(expected_unknown), "Unresolved audit count mismatch"
+        assert {r["m49_code"] for r in unresolved_audit} == expected_unknown, "Unresolved audit keys mismatch"
+        for row in unresolved_audit:
+            assert row["resolution"] == "UNKNOWN_REVIEW_NEEDED"
+            assert row["un_name"] == country_map[row["m49_code"]]["un_name"]
+            assert all(row[f] for f in ("reason", "next_action", "checked_utc", "source_ids"))
+            assert all(ref in source_ids for ref in row["source_ids"].split(";")), "Unresolved audit missing source"
     for r in relations:
         assert r["parent_body_id"] in bodies_by_id and r["child_body_id"] in bodies_by_id, (
             "Relationship references missing body ID")
