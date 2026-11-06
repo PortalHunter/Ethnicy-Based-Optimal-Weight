@@ -1,3 +1,9 @@
+## Batch58 QA — 2026-11-06
+
+[Immutable DATA e51a2f6fb478533579f3efd99555cd966ad42472](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/e51a2f6fb478533579f3efd99555cd966ad42472) independently re-fetched via GitHub, complete **ten-CSV quote-aware JS structural mirror PASS**: 18 positive checks, 5 negative controls (duplicate source, unscoped cross-area identity, nonexistent legal ID, premature acceptance, wrong UNKNOWN queue lane) rejected. [QA JSON and exact blob hashes](QA_BATCH58_20261106.json). Counts: 248 official M49; 231 provisional/17 UNKNOWN; 318 bodies/45 relationships/4 shared scopes; 717 unique sources; 15 partially triaged ledger; 233 unscored; 15 queue evidence unresolved; 0 legal completion. Pre-data `b226884f9db6a83dca45f387bb8ece437997cf63` to DATA diff **4 Team A-only files**. **Actual Python `validate.py` and unittests NOT RUN** — `git ls-remote` failed DNS `Could not resolve host: github.com`. No legal/medical approval or all-tier acceptance follows from structural QA. [Checkpoint](CHECKPOINT_20261106_BATCH58.md).
+
+---
+
 ## CURRENT — Team A Batch57 immutable data structural QA — 2026-11-06
 
 [Exact ten-CSV audit](QA_BATCH57_20261106.json) | [standalone checkpoint](CHECKPOINT_20261106_BATCH57.md) | DATA `bda23df761cc8542bedce1ed7bdb94b18de57d63`. **Independent quote-aware GitHub structural mirror PASS:** 248 official M49 keys, 231 provisional/17 UNKNOWN, 318 bodies, 45 relationships, four shared scopes, 709 unique provenance IDs (previous 705 identical), 12 partial legal/236 unscored, 12 queue evidence-added/236 queued, and source-area integrity. Five negative controls rejected fabricated IDs, cross-area source, premature complete, missing reviewed date and identity promotion. Compare pre-run to DATA showed only 5 Team A research paths. **Actual Python validation and unit tests NOT RUN** (github.com DNS checkout unavailable); structural checks do not certify enacted law or medical safety.

@@ -1,3 +1,11 @@
+## CURRENT — Team A Batch58 Argentina/Bahrain original-law legal triage and Wake-only ledger re-score — acceptance incomplete
+
+2026-11-06: [Batch58 standalone checkpoint](CHECKPOINT_20261106_BATCH58.md) | [immutable DATA e51a2f6fb478533579f3efd99555cd966ad42472](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/e51a2f6fb478533579f3efd99555cd966ad42472) | [ten-CSV structural QA](QA_BATCH58_20261106.json) | [source analysis](source_recovery/CYCLE_A58_032_048_581_ORIGINAL_LAW_TRIAGE_20261106.md).
+
+**717 provenance observations (+8), 15/248 PARTIAL_SOURCE_CHECKED (+3), 233 UNSCORED (-3), 15 queue evidence-added unresolved (+3).** Argentina 032 direct original July/Aug 2026 Presidential DNU narrow federal Health vs Economy food and medicine policy; Bahrain 048 official Arabic NHRA 2009/2015/2023 and health professions 2026 registry indexed but direct full texts HTTP403, no source-supported legal dimension; M49 581 existing Wake-only Air Force/GPO evidence triaged, no new source, 581 remains UNKNOWN. Geography **248**, identities **231 provisional/17 UNKNOWN**, **318** bodies, **45** relations, **4** shared scopes unchanged. **ZERO legal research complete; original enacted-all-tier legal acceptance NOT MEASURED/INCOMPLETE, no clinical/legal approval**. Independent 10-CSV quote-aware structural GitHub audit PASS 18 checks/5 negatives; **actual Python validator/unittests NOT RUN (GitHub DNS)**. PR #68 **OPEN DRAFT UNMERGED**, only Team A research changes.
+
+---
+
 ## CURRENT — Team A Batch57 original signed BOE/Angola/RIS legal-source triage — acceptance incomplete
 
 2026-11-06: [Batch57 standalone checkpoint](CHECKPOINT_20261106_BATCH57.md) | [immutable DATA bda23df761cc8542bedce1ed7bdb94b18de57d63](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/bda23df761cc8542bedce1ed7bdb94b18de57d63) | [exact ten-CSV structural QA](QA_BATCH57_20261106.json) | [source note](source_recovery/CYCLE_A57_226_024_040_LEGAL_TRIAGE_20261106.md).

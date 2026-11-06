@@ -1,3 +1,9 @@
+## CURRENT Team A Batch58 — 2026-11-06 (workflow source triage ONLY)
+
+Immutable [DATA e51a2f6fb478533579f3efd99555cd966ad42472](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/e51a2f6fb478533579f3efd99555cd966ad42472), [checkpoint](CHECKPOINT_20261106_BATCH58.md), [QA](QA_BATCH58_20261106.json). 248/248 official dated M49; 231 preliminary identities; 17 UNKNOWN; 318 bodies; 45 scoped institutional relationships; 4 shared scopes. Sources 709→717 (+8), partially legally reviewed ledger 12→15/248 (+3), unscored 236→233, evidence-unresolved queue 12→15. Argentina 032 original 2026 DNUs directly checked but legislative and subnational/current agencies incomplete. Bahrain 048 original Arabic 2009/2015/2023 and 2026 laws official INDEXED but direct full text 403, no SOURCE_SUPPORTED dimension. 581 Wake-only prior primary sources triaged, UNKNOWN unchanged. **0 legally complete.** Enacted full all-tier legal acceptance **NOT MEASURED, incomplete**. No legal/clinical signoff. Structural GitHub QA PASS; actual Python/test NOT RUN DNS. Scope only Team A, PR remains OPEN/DRAFT/UNMERGED.
+
+---
+
 ## CURRENT — Team A Batch57 original signed BOE/Angola/RIS legal-source triage — acceptance incomplete
 
 2026-11-06: [Batch57 standalone checkpoint](CHECKPOINT_20261106_BATCH57.md) | [immutable DATA bda23df761cc8542bedce1ed7bdb94b18de57d63](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/bda23df761cc8542bedce1ed7bdb94b18de57d63) | [exact ten-CSV structural QA](QA_BATCH57_20261106.json) | [source note](source_recovery/CYCLE_A57_226_024_040_LEGAL_TRIAGE_20261106.md).

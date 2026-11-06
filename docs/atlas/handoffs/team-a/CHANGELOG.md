@@ -1,3 +1,11 @@
+## 2026-11-06 Team A Batch58
+
+- Immutable DATA [`e51a2f6fb478533579f3efd99555cd966ad42472`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/e51a2f6fb478533579f3efd99555cd966ad42472) appended **8** scoped original/index provenance observations: Argentina 032 three federal 2026 legislative sources, Bahrain 048 five Arabic original registry amendment traces, and rescored previously discovered Wake-only 581 evidence without new 581 provenance.
+- Triage stages 12→15/248 PARTIAL_SOURCE_CHECKED, UNSCORED 236→233, evidence-unresolved queue 12→15; all 248 M49, 231 provisional identities, 17 UNKNOWN, 318 bodies, 45 relationships, 4 shared scopes unchanged.
+- [Source note](source_recovery/CYCLE_A58_032_048_581_ORIGINAL_LAW_TRIAGE_20261106.md) and [checkpoint](CHECKPOINT_20261106_BATCH58.md); [10 CSV GitHub QA](QA_BATCH58_20261106.json) structural PASS, 18 checks/5 negative. Actual repository Python and unittest NOT RUN due GitHub DNS; all-tier legal research acceptance NOT MEASURED, no approvals. PR #68 remains OPEN DRAFT UNMERGED, only Team A paths.
+
+---
+
 ## 2026-11-06 — Team A Batch57 source triage (226, 024, 040)
 
 DATA `bda23df761cc8542bedce1ed7bdb94b18de57d63`: +4 source observations 705→709; ledger partial 9→12 and unscored 239→236; queue evidence 9→12. Recovered original signed 226 decree on BOE host but **no exact publication date/Oct amendment/INSESO transfer**; national Angola 2020 Presidential and 2025 ministerial legal provisions read, 2026 regulator/devolution incomplete; Austrian RIS current federal law to 29 Oct 2026 but no Länder/regulator acceptance. [Checkpoint](CHECKPOINT_20261106_BATCH57.md) · [source note](source_recovery/CYCLE_A57_226_024_040_LEGAL_TRIAGE_20261106.md) · [ten-CSV QA](QA_BATCH57_20261106.json). Structural mirror PASS, Python NOT RUN (DNS). Original 248 areas, 231 provisional, 17 UNKNOWN unchanged, legal and clinical acceptance not approved. PR stays draft/unmerged.

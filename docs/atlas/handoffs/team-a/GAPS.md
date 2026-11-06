@@ -1,3 +1,12 @@
+## Batch58 open evidence gaps — 2026-11-06
+
+- **032 Argentina:** Verify congressional DNU 571/771 2026 review and any subsequent originals; ANMAT independent founding/amendment instruments, provinces and CABA health ministry statutes, municipal and Indigenous delegation, medical/regulator agency laws. Federal ministry policy is not all-tier regulatory or local competence.
+- **048 Bahrain:** Official LLOC Arabic 2009 Law38, 2015 D-L32, 2023 D-L12, 2026 Laws26/27 showed registry search text but **direct legal pages HTTP403**. Use Gazette 2904/3230 supplement/3700 and 2026 gazettes or other issuing government archive for actual operative clauses/current consolidation, distinguish NHRA vs Supreme Health Council vs Ministry, medicines/professions, surveillance and institutes.
+- **581 United States Minor Outlying Islands:** Existing Wake 935 text is island-specific and current editorial to 4 Nov; find current written 935.10 redelegation, signed post-4Nov rule and 2026 annual official version, plus independent health/worker/medicine law for **eight other islands**. UNKNOWN identity stays.
+- Original P0 and remaining P1/P2 gaps unchanged; do not infer absent evidence from 233 UNSCORED workflow flags. [Checkpoint](CHECKPOINT_20261106_BATCH58.md).
+
+---
+
 ## CURRENT — Team A Batch57 remaining legal gaps (2026-11-06)
 
 [Standalone checkpoint](CHECKPOINT_20261106_BATCH57.md) and [original source note](source_recovery/CYCLE_A57_226_024_040_LEGAL_TRIAGE_20261106.md) describe precise missing BOE issue date and independent INSESO transfer for **226**, 2026 Angola MINSA/DNSP amendment, province and medicines/profession regulators for **024**, and Austrian Länder, AGES/BASG and independent medicine/medical licensing issuer for **040**. 12/248 legal workflow partly triaged; **236 existing-research items UNSCORED**, not invalid or law-negative. All original 17 UNKNOWN intact and 231 identities provisional. Entire enacted-all-tier legal-completion percentage **NOT MEASURED** and not clinically approved. Structural QA PASS, actual Python NOT RUN due GitHub DNS.
