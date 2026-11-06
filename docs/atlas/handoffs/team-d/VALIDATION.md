@@ -1,3 +1,14 @@
+## 2026-11-06 — Batch 33 checked-in structural replay PASS, 11,811 assertions
+
+- GitHub-validated research/validator branch commit `90f85d82c34488964c83f187e7a88f17ab1ca500`; checked-in validator blob `3dd1a6a13c2e103e605740dc5d082de76ab8600b`.
+- First direct attempt to fetch **39** dependencies individually exceeded the connector call limit; **no PASS was claimed from that failed attempt**. Fetched full PR patch; reconstructed **35 complete addition-only** file patches, directly fetched four unavailable/oversize files (`data/network_memberships.csv`, `data/m49_network_status.csv`, `PROVENANCE.csv`, `data/who_territory_wer_regional_reporting_2025.csv`), fetched current checked-in `validate.mjs`, and replayed its full assertion body under a read-only in-memory V8 fs/assert shim.
+- **PASS 11,811 asserted checks**, result totals: 47 institutional nodes, 617 typed edges, 20 condition links, 249 M49 candidates, 205 current WHO region assignments, 44 unknown, 105 directly affirmative office hosts, 153 WHO survey labels, 228 separately historical 2021–22 service rows, 34 EMA agency identity candidates, 26 national regulator remit observations (11 distinct agency candidates) and 236 provenance URLs.
+- Targeted checks also passed: 26 unique NCA record IDs, 236 unique provenance source IDs and URLs, 16-column data and 10-column source-ledger widths, every new source URL resolved to provenance, every NCA candidate ID/M49/agency label consistent with EMA candidate directory, Malta's opposing first-party grant statements retained without invented legal authority.
+- Readback verified each committed research, provenance and validator file byte-for-byte, plus standalone Batch 33 checkpoint.
+- **Limits:** NOT literal `node docs/atlas/handoffs/team-d/validate.mjs` in local checkout, NOT GitHub Actions, NOT statutory legal-delegation audit, WHO source primary facsimile review, scientific/clinical validation or maintainer approval. Existing 44 WHO current region gaps, 144 missing equivalent April host affirmatives, PAHO source conflicts, 23 NCA self-description gaps, 34 national law/Team A joins, HEARTS/ASEAN and network membership issues remain open.
+
+---
+
 ## 2026-11-06 — Batch 32 complete checked-in structural regression (corrected PASS)
 
 Initial full GitHub-derived validator replay **FAIL at assertion 8,218**, solely because the global `prov.length` invariant still expected 223 after adding six source records. Corrected that validator constant to **229** in commit [`d282e6a400f6ad8821a0831d5d0c21208d78b303`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/d282e6a400f6ad8821a0831d5d0c21208d78b303) and read back exact SHA.
