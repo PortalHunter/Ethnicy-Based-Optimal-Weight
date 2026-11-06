@@ -1,8 +1,20 @@
-# Team B live research and verification queue (v1, initialized at batch 82)
+# Team B live research and verification queue (v2, initialized at batch 82; quality frontier added after batch 83)
 
 This is an **ordered, evidence-sensitive queue**, not a substitute for the full 248×7 coverage CSV. [RUNBOOK.md](RUNBOOK.md) controls methods, validation and completion claims. **Before acting, recheck each cell in live `data/coverage_by_area_condition.csv`**; skip/reclassify anything already researched by another run. Update this queue after substantive research with attempted date, source URLs or blockers, result, and next action, preserving historical entries. Use `GAPS.md` for detailed source conflicts and `CHECKPOINT.json` for canonical numeric counters.
 
 **Verified initial snapshot (batch 82, 2026-11-06, data `f652332c046aaae9f204496dff9fa9529acdf1c6`):** 490 organizations; 227/248 locally domiciled M49 reach; 378 source-positive, 171 bounded-unlinked, 1,187 untouched (1,358 without linked source) out of 1,736 cells; 414 research-only contexts, 1,117 provenance, 641 search logs; 5 unknown issuer imprints. This snapshot is historical once new commits land.
+
+## PRIORITY 0 — close evidence-quality and search-depth debt before inflating links
+
+**Read [QUALITY_AND_COMPLETION.md](QUALITY_AND_COMPLETION.md) and [data/research_quality_audit.csv](data/research_quality_audit.csv).** Batch 83's **379 raw source-positive** and **174 targeted-no-source** counts remain structurally accurate, but **NOT 379 individually quality-verified publications or 174 completed bounded negative searches**. Existing history is immutable; do not silently delete older research leads.
+
+- **Q0-1 Peru 604 gout, B-PE-SPR:** 2025 scheduled *Gota* lecture programme p.5 is provisional **M metadata-only**, despite the raw positive link. Find the actual completed lecture/original educational content or a genuine independent Peru gout publication; then perform a provenance-preserving correction if appropriate. Do not claim the talk occurred or was a guideline.
+- **Q0-2 India 356 lactose; Indonesia 360 celiac; Egypt 818 gout:** each Batch 83 no-resource check is **D1 exploratory** (single catalogue or society path). Seek a different original-language issuer/publication index or independent association directory before applying D2; log actual second route or why unavailable.
+- **Q0-3 Audit legacy links:** every substantive run include 2–5 risk-prioritized quality/issuer reviews where feasible; every fifth substantive data batch schedule deeper previously accepted-source auditing. Important risks: journal vs society authorship, externally hosted and translated guidance, broken PDFs, only lecture programmes, defunct organizations, regional/Indigenous governance, misinterpreted genetic or biomarker evidence.
+- **Q0-4 Test actual Node:** if normal GitHub checkout DNS fails, reconstruct exact ten core CSVs and unchanged validator into a temporary runnable tree using GitHub connector-fetched contents and run the original Node script if feasible. Otherwise report **NOT RUN**, never an invented pass. Verify supplementary audit ledger joins separately.
+- **Q0-5 Issuer-country unknowns C1–C5:** original colophon/imprint evidence or explicit evidence-limited escalation, not guessed geography from a publisher host or study location.
+
+**Schedule:** choose plausible original-language untouched low-positive conditions across at least two areas where feasible, a few deeper quality/attribution checks, and selective D1→D2 upgrades. Raw source count inflation and repeated equivalent single-page searches are not completion. Finish as an evidence-limited, individually audited census, not an impossible promise to find societies or authoritative clinical guidelines everywhere. Preserve unchanged 248×7 structural and zero-clinical-approval safeguards.
 
 ## A. First-pass untouched cells — rotate regions and low-covered conditions
 
