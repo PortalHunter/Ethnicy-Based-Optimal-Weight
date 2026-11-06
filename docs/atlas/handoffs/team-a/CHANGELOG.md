@@ -1,3 +1,9 @@
+## Batch42 — 2026-11-06 — two narrowly scoped source-recovery cycles
+
+Commits `476be6fa`, `678a0434`, `2452f256`, `fd5736f2`, `9114e833`, `2970560f` on research Team A branch. Added **six** narrowly scoped 744 government institutional records, **12** source observations (7 for 744 and 5 for 581), two standalone source-recovery notes and appended source-specific actions to 744/581 unresolved ledger, without changing any resolution/parent/relationship. **248 M49 / 231 identity areas / 17 unknowns / 318 bodies / 45 relationships / 655 provenance / 248 coverage / 4 scoped mappings.** Exact immutable data `2970560f8789ed73cf60c4658a60f93ae21e9881`, [standalone checkpoint](CHECKPOINT_20261106_BATCH42.md), [QA and blob hashes](QA_BATCH42_20261106.json). Independent quote-aware structural validation and exact branch-only diff PASS. Actual Python validator/regressions **not rerun**; enacted/current legal mandate and independent-issuer completion remain open. PR #68 OPEN DRAFT/UNMERGED; Team A folder only. Earlier history preserved.
+
+---
+
 ## CURRENT — Team A Batch39
 
 **Current Batch39, November 5, 2026. Original acceptance INCOMPLETE; PR #68 OPEN DRAFT/unmerged.**
