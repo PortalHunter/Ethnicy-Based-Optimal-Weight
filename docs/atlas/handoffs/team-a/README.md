@@ -1,3 +1,9 @@
+## CURRENT — Team A Batch45 (2026-11-06)
+
+**OPEN DRAFT / UNMERGED PR #68. Original acceptance INCOMPLETE.** Read [complete standalone Batch45 checkpoint](CHECKPOINT_20261106_BATCH45.md), [QA](QA_BATCH45_20261106.json), [226 source conflict review](source_recovery/CYCLE_226_JUNE_DECREE_OCT_CONFLICT_20261106.md), and [CONTINUE](CONTINUE.md) before editing. Immutable DATA `8e0b80be4a7af565758b5c4f2ba9eb3f6cd29dba`: **248 official geographic rows; 231 preliminary authority identity areas; 17 unknown; 318 government bodies; 45 edges; 4 shared scopes; 248 area reviews; 669 source checks.** New 226 2026 presidential law text/appointment versus October ministry-name conflict and incomplete INSESO transfer remain unresolved; no artificial authority was added. All existing sources and legal caveats preserved. Independent structural QA PASS, **actual Python validation not run Batch45** due checkout DNS; no legal or clinical certification. Only Team A folder, never website/main/other teams or merge/ready.
+
+---
+
 ## CURRENT — Team A Batch41: six legal-source recovery cycles (2026-11-06 UTC)
 
 **Original acceptance INCOMPLETE. PR #68 OPEN DRAFT/UNMERGED.**
