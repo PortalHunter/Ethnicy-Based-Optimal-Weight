@@ -5,27 +5,27 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "a466eee9e43799b4e90d07e8f1c9a8370ea33742",
-  "batch": "81",
+  "validated_data_commit": "f652332c046aaae9f204496dff9fa9529acdf1c6",
+  "batch": "82",
   "metrics": {
-    "organizations": 487,
+    "organizations": 490,
     "areas": 227,
-    "resources": 410,
-    "positive": 374,
-    "without_linked_source": 1362,
+    "resources": 414,
+    "positive": 378,
+    "without_linked_source": 1358,
     "targeted_no_source": 171,
-    "unresearched": 1191,
-    "provenance": 1107,
-    "search_log": 637,
+    "unresearched": 1187,
+    "provenance": 1117,
+    "search_log": 641,
     "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
     "issuer_country_differs_from_domicile": 28,
     "by_condition": {
       "diabetes": 110,
-      "hypertension": 74,
-      "high_chol": 46,
-      "gout": 39,
+      "hypertension": 75,
+      "high_chol": 48,
+      "gout": 40,
       "lactose": 32,
       "celiac": 49,
       "hemochromatosis": 24
@@ -33,26 +33,26 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organizations": 2,
-    "resources": 2,
-    "positive_cells": 2,
+    "organizations": 3,
+    "resources": 4,
+    "positive_cells": 4,
     "bounded_no_source_cells": 0,
-    "previously_untouched_cells_targeted": 2,
+    "previously_untouched_cells_targeted": 4,
     "previously_bounded_cells_converted_to_positive": 0,
-    "provenance": 6,
-    "searches": 2
+    "provenance": 10,
+    "searches": 4
   },
   "validation_runtime": "independent_JS_validator_0_errors_11_of_11_immutable_SHA_tree_matches_Node_CLI_not_run_DNS",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "1191 untouched area-condition cells, especially gout lactose coeliac hereditary iron overload",
-    "21 local M49 organization domicile gaps (original list preserved in areas_without_identity)",
-    "171 bounded no-link searches requiring wider original-language and official publisher checks",
-    "Five unresolved original issuer imprints: Panama HEARTS; Portuguese WGO lactose; Portuguese ESPGHAN coeliac; Chad OA Pub/JHC; South Sudan PAMJ",
-    "Poland PTR 2016 gout PDF screenshot failed 502 and is signed historical commentary, not current guideline; independent fulltext/right and journal-author reviews pending",
-    "2026 PTD diabetes guideline full PDF, named signatories, conflicts and clinical eligibility not yet reviewed",
-    "Preserve Bangladesh NHFB founder and BCS membership conflicts, Nepal FH/registry, Croatia 2012 historical journal, Turkish coeliac allergy wording, all older rights and Indigenous/community consent caveats"
+    "1187 untouched area-condition cells particularly gout lactose celiac hereditary haemochromatosis",
+    "21 M49 areas without locally domiciled specialist/nonprofit organization identities",
+    "171 bounded no eligible original resource; search expansion without absence conclusions",
+    "Five original issuer imprints unresolved: Panama HEARTS; Portuguese WGO lactose; Portuguese ESPGHAN coeliac; Chad OA Pub/JHC; South Sudan PAMJ",
+    "Further separate original NHC/SHA hypertension authorship and limited 39-physician LDL-C statement from statutory or population claims; no FH genotype inference",
+    "Preserve NHFB and BCS conflicts, Nepal FH/registry, Turkish coeliac allergy wording, Polish historic gout and all prior method/rights and community consent caveats",
+    "Run actual Node CLI from a viable checkout; independently appraise full PDF, current editions, citation rights, ethnicity/Indigenous governance and legal jurisdictions"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -66,7 +66,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Full independent GitHub immutable 147-entry tree readback; ten CSVs and unchanged validate.mjs matched 11/11; JS structural errors 0; actual Node CLI not run due github.com DNS. Six Team B CSVs only. Original 2016 PTR gout bulletin visual fetch 502 and full clinical/rights review outstanding.",
+  "validated_data_commit_note": "148-entry complete immutable tree; 11/11 ten CSV plus unchanged validator file SHAs matched GitHub tree. Independent JS structural checks 0 errors. Actual Node CLI NOT run; research_only, no clinical, source rights, legal, full PDF or live URL certification.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -2588,5 +2588,66 @@
     "independent_js_structural_errors": 0,
     "actual_node_cli_run": false,
     "clinical_claims_approved": 0
-  }
+  },
+  "current_data_root_tree": "051a3074c5f6ed7e56c1c27e0628281a8cf8b13f",
+  "last_standalone_checkpoint": "BATCH_82_CHECKPOINT.md",
+  "previous_checkpoint_snapshot": {
+    "batch": "81",
+    "validated_data_commit": "a466eee9e43799b4e90d07e8f1c9a8370ea33742",
+    "metrics": {
+      "organizations": 487,
+      "areas": 227,
+      "resources": 410,
+      "positive": 374,
+      "without_linked_source": 1362,
+      "targeted_no_source": 171,
+      "unresearched": 1191,
+      "provenance": 1107,
+      "search_log": 637,
+      "community": 10,
+      "cross_border_edges": 8,
+      "issuer_country_unresolved": 5,
+      "issuer_country_differs_from_domicile": 28,
+      "by_condition": {
+        "diabetes": 110,
+        "hypertension": 74,
+        "high_chol": 46,
+        "gout": 39,
+        "lactose": 32,
+        "celiac": 49,
+        "hemochromatosis": 24
+      },
+      "current_unsd_overview_codes": 248
+    }
+  },
+  "run_source_evidence": [
+    {
+      "area": "682",
+      "condition": "hypertension",
+      "org_id": "B-SA-SHA",
+      "url": "https://saudi-heart.com/wp-content/uploads/2023/12/NHC_SHA-2023-Guidelines-on-the-management-of-Hypertension..pdf",
+      "caveat": "NHC/SHA co-issued 2023, multiple individual authors, not statutory or clinically approved"
+    },
+    {
+      "area": "682",
+      "condition": "high_chol",
+      "org_id": "B-SA-SHA",
+      "url": "https://saudi-heart.com/wp-content/uploads/2023/12/SHA-statement-on-LDL-C-management-final.pdf",
+      "caveat": "2023 position paper 39 physicians at four centres, not FH/patient prevalence"
+    },
+    {
+      "area": "208",
+      "condition": "gout",
+      "org_id": "B-DK-GIGT",
+      "url": "https://www.gigtforeningen.dk/viden/diagnoser/urinsyregigt-og-podagra/",
+      "caveat": "2026 educational page, not government guideline"
+    },
+    {
+      "area": "208",
+      "condition": "high_chol",
+      "org_id": "B-DK-HF",
+      "url": "https://hjerteforeningen.dk/artikler/alle-artikler/nye-anbefalinger-for-forhoejet-kolesterol/",
+      "caveat": "2026 named editorial discussing separate ESC guidance, not original issuer"
+    }
+  ]
 }

@@ -1,3 +1,21 @@
+# Team B standalone continuation — batch 82 · 2026-11-06
+
+**Batch 82 (2026-11-06)** · [new standalone restart](BATCH_82_CHECKPOINT.md) · [validated immutable data commit `f652332c`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f652332c046aaae9f204496dff9fa9529acdf1c6). **490** independent/local specialist or nonprofit organization identities across **227/248** M49 domiciles (**21 gaps**); **378/1,736** source-positive condition-area cells, **171** bounded-unlinked, **1,187** untouched, **1,358** unlinked. **414** exact org/publication contexts; **1,117** provenance records, **641** logged searches; 10 governance-sensitive community/subnational cases, eight cross-border edges, 14 geographic diversity counterexamples and five unresolved original issuer-country imprints preserved. All **414/414 `research_lead_only`** and zero approved clinical claims. Added three first-party-verified local organizations (Saudi Heart Association, Gigtforeningen and Hjerteforeningen) and four previously untouched source-positive cells: Saudi Arabia 682 hypertension/high_chol and Denmark 208 gout/high_chol. Complete immutable tree **148 entries, truncated=false**; all ten CSVs and unchanged validator **11/11** GitHub SHA/tree matches; independent JavaScript structural checks **zero errors**. **Actual Node CLI was not run** because local GitHub clone DNS was unavailable. No legal, clinical, full-text, rights, medical-device, national prevalence or global source completeness approval. PR #71 remains draft/open/unmerged.
+
+**Full original acceptance criteria, verified source links, exact gaps and execution limits:** [BATCH_82_CHECKPOINT.md](BATCH_82_CHECKPOINT.md). Source-backed research remains INCOMPLETE. Data commit `f652332c046aaae9f204496dff9fa9529acdf1c6` and complete 148-entry tree `051a3074c5f6ed7e56c1c27e0628281a8cf8b13f`; CLI not executed. Keep the PR draft, preserve all older sections, and do not approve clinical claims.
+
+## Exact reusable continuation prompt
+
+Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71.
+
+Read `docs/atlas/handoffs/team-b/CONTINUE.md` on branch `research/atlas-team-b-20261104`, including its latest checkpoint and original acceptance criteria.
+
+Verify live GitHub state and continue autonomously, prioritizing untouched condition-area cells, missing organizations, source attribution, and research gaps. Preserve existing research, evidence caveats, and scope. Reconcile concurrent changes safely; commit, run validation, and verify readbacks regularly. Modify only Team B's research directory. Do not modify the public website, main, or other teams; do not merge the PR or approve clinical claims.
+
+If unfinished, save a complete standalone GitHub checkpoint. End with a concise status, this same reusable continuation prompt, and updated visual progress bars for geographic organization coverage and source-positive condition-area coverage, including remaining gaps.
+
+---
+
 # Team B standalone continuation — batch 81 · 2026-11-06
 
 **Batch 81 (2026-11-06)** · [standalone checkpoint](BATCH_81_CHECKPOINT.md) · [validated data commit a466eee9](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/a466eee9e43799b4e90d07e8f1c9a8370ea33742). **487** organizations in **227/248** M49 domiciles; **374/1,736** source-positive cells; **171** bounded-unlinked; **1,191** untouched (1,362 unlinked); **410** exact research contexts, **1,107** provenance, **637** search logs; 10 community/subnational, 8 cross-border and 14 diversity cases retained; 5 original issuer-country unknowns. +2 new Poland organizations and first-positive Poland diabetes (PTD 2026) / gout (historical PTR 2016 named-author section bulletin). 410/410 research_lead_only; zero approved clinical claims. Data tree 147 complete, 11/11 CSV/unchanged-validator SHA matches, independent JS structural errors 0. **Actual Node CLI not run** (local GitHub DNS failure); PDF gout visual retrieval 502. PR #71 remains draft, unmerged. No legal, clinical, rights, full-text or universal current-link approval.
