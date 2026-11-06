@@ -537,10 +537,10 @@ console.log('Batch 29: 11 first-party EMA/Commission role observations with 6 ne
 // exact Team A authority joins or evidence of a specific medicinal product permission.
 const nationalNcaRemits=read('data/emrn_nca_national_remit_evidence_2026.csv');
 unique(nationalNcaRemits,r=>r.record_id,'national NCA remit observations');
-assert.equal(nationalNcaRemits.length,9);
-assert.equal(new Set(nationalNcaRemits.map(r=>r.source_url)).size,6);
-assert.deepEqual([...new Set(nationalNcaRemits.map(r=>r.country_area_m49))].sort(),['203','372','380','578']);
-assert.deepEqual(nationalNcaRemits.map(r=>r.record_id).sort(),Array.from({length:9},(_,i)=>'TD-NCA-REMIT-'+String(i+1).padStart(3,'0')));
+assert.equal(nationalNcaRemits.length,18);
+assert.equal(new Set(nationalNcaRemits.map(r=>r.source_url)).size,12);
+assert.deepEqual([...new Set(nationalNcaRemits.map(r=>r.country_area_m49))].sort(),['040','203','208','372','380','528','578']);
+assert.deepEqual(nationalNcaRemits.map(r=>r.record_id).sort(),Array.from({length:18},(_,i)=>'TD-NCA-REMIT-'+String(i+1).padStart(3,'0')));
 for (const r of nationalNcaRemits) {
  assert.equal(r.network_id,'EMRN');
  assert.equal(r.checked_on,'2026-11-06');
@@ -556,7 +556,7 @@ for (const r of nationalNcaRemits) {
  assert(r.first_party_role_observation && r.notes);
 }
 assert.equal(nationalNcaRemits.filter(r=>r.historical_role_start_claimed==='2008-01-01').length,1);
-assert.equal(nationalNcaRemits.filter(r=>r.historical_role_start_claimed==='unknown').length,8);
+assert.equal(nationalNcaRemits.filter(r=>r.historical_role_start_claimed==='unknown').length,16);
 assert.equal(nationalNcaRemits.filter(r=>r.source_page_updated_on==='2026-05-21').length,1);
 assert.equal(nationalNcaRemits.filter(r=>r.source_page_updated_on==='2025-10-15').length,2);
 assert(nationalNcaRemits.find(r=>r.record_id==='TD-NCA-REMIT-003').first_party_role_observation.includes('European Commission'));
@@ -566,5 +566,20 @@ for(const [id,url] of [["TD-SRC-218","https://www.hpra.ie/about-us/our-role/what
 }
 assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 console.log('Batch 31: 9 national regulator first-party observations across Ireland Italy Czechia Norway; 6 official sources; no laws or Team A IDs independently certified.');
+
+// Batch 32: Austria, Denmark, and Netherlands first-party regulator role additions.
+// Preserve explicit negative responsibility (Dutch MEB does not assess prices or reimbursement).
+assert.equal(nationalNcaRemits.filter(r=>r.historical_role_start_claimed==='2006-01-02').length,1);
+assert.equal(nationalNcaRemits.filter(r=>r.source_page_updated_on==='2026-02-02').length,2);
+assert.equal(nationalNcaRemits.filter(r=>r.source_page_updated_on==='2026-06-17').length,2);
+assert.equal(nationalNcaRemits.filter(r=>r.source_page_updated_on==='2020-10-26').length,1);
+assert(nationalNcaRemits.find(r=>r.record_id==='TD-NCA-REMIT-018').role_class==='EXPLICIT_NONREMIT_PRICE_AND_REIMBURSEMENT');
+assert(nationalNcaRemits.find(r=>r.record_id==='TD-NCA-REMIT-012').notes.includes('not an independent'));
+for(const [id,url] of [["TD-SRC-224","https://www.basg.gv.at/en/about-us/activities"],["TD-SRC-225","https://www.basg.gv.at/en/about-us/"],["TD-SRC-226","https://laegemiddelstyrelsen.dk/en/licensing/authorisation-procedures/"],["TD-SRC-227","https://laegemiddelstyrelsen.dk/en/about/"],["TD-SRC-228","https://english.cbg-meb.nl/topics/about-meb-our-work/about-meb-our-tasks"],["TD-SRC-229","https://english.cbg-meb.nl/topics/about-meb-our-work/about-meb-our-tasks/about-meb-assessing-medicines"]]) {
+ assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);
+}
+assert.equal(new Set(nationalNcaRemits.map(r=>r.emrn_nca_candidate_id)).size,7);
+console.log('Batch 32: 9 additional agency role observations across Austria Denmark Netherlands; 6 official URLs; 7/34 candidate agencies now have source-qualified roles, no statutory or Team A approval.');
+
 
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length,idf_nac_source_observations:idfNac.length,hi_source_observations:hi.length,aoecs_society_observations:aoecsSocieties.length,aoecs_external_role_observations:aoecsRelations.length,ema_regulatory_role_observations:emaRoles.length,national_nca_remit_observations:nationalNcaRemits.length},null,2));
