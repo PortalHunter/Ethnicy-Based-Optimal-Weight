@@ -1,3 +1,13 @@
+## Batch 64 — Estonian Latvian and Italian lactose resources — 2026-11-05
+
+INCOMPLETE · DRAFT · DO NOT MERGE. 445 organizations; 362 exact research leads; 331 source-positive cells; 145 bounded no-resource cells; 1260 untouched. All resources research_lead_only; zero clinical claims approved.
+
+- **233 · B-EE-ETS · lactose** [Laktoositalumatus — Eesti Tsöliaakia Selts](https://tsoliaakia.ee/haigele/laktoositalumatus/): Estonian association page credits East Tallinn hospital approval6July2009 and later amendments by Riin Jõgi without amendment date. Hosting is not sole authorship of national nutrition recommendations. Broad geographic prevalence and testing/diet claims unappraised; not current2026 guidance or evidence that hypolactasia always causes symptoms.
+- **428 · B-LV-DZIVE · lactose** [Saistītas slimības — Laktozes nepanesība](https://dzivebezglutena.lv/par-celiakiju/saistitas-slimibas/): Latvian association related-condition page has substantive lactose section and external gastroenterologs.lv pointer; original author/date unresolved. Its inherited-only framing and calling Aspergillus bacteria require correction/appraisal before reuse; no medical or population claims approved. Own English contact/about pages returned verification loader. Existing identity evidence retained; local education does not establish genotype prevalence.
+- **380 · B-IT-AIC · lactose** [Se il latte non ti va giù — Miriam Cornicelli, Educazione Alimentare Gruppo AIC](https://www.celiachia.it/assets/uploads/2020/09/Intolleranza_Lattosio.pdf): Original Italian PDF text identifies Cornicelli/AIC food education and printed Cn1.2014 pp90–91;2020/09 URL is upload path, not edition. Distinguishes malabsorption/symptoms and primary/secondary intolerance; untraced prevalence, exclusive breath-test assertion, dietary claims and rights unappraised. Two PDF pages retrieved as text; no visual whole-document review or current-guideline status claimed.
+
+Actual Node structural validator passed with zero errors before commit. Commit-addressed readback is recorded separately in VALIDATION.md. Only Team B research files changed. All historical caveats below remain binding.
+
 ## Batch 63 — Dutch-language gout and Czech recommendations — 2026-11-05
 
 INCOMPLETE · DRAFT · DO NOT MERGE. 445 organizations; 359 exact research leads; 328 source-positive cells; 146 bounded no-resource cells; 1262 untouched. All resources research_lead_only; zero clinical claims approved.
