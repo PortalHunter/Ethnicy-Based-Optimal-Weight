@@ -1,3 +1,17 @@
+## CURRENT — Team A Batch41: six legal-source recovery cycles (2026-11-06 UTC)
+
+**Original acceptance INCOMPLETE. PR #68 OPEN DRAFT/UNMERGED.**
+
+Read the complete [Batch41 standalone checkpoint](CHECKPOINT_20261106_BATCH41.md) and [QA/hashes](QA_BATCH41_20261106.json) first. Immutable DATA SHA: `8920d236fb6054aec1ab4074f8e747b441287c59`. Six separate research commits; 20 appended provenance observations, **643 total**. All prior 623 observations preserved. Counts remain 248 M49 skeletons, 231 scoped identity areas, 17 explicit unknowns, 312 bodies, 45 relationships, 248 coverage rows and 4 shared-authority mappings. Six unresolved audit rows have new source-linked legal actions; other eleven unchanged.
+
+**Material legal progress:** recovered Norwegian FOR-2026-06-15-1084 VI (effective July 2026; REK Nord reference is 29e, older 2025 index stale); Belarus original Russian No1446 historical copy through 2020, current domestic register 403; HIMI Act sections 5–8 and possible substituted function-holder; Bouvet 2017 transplant-law extension versus earlier proposal; TAAF medical-service organization and precise Health Code leads; Wake statutory sanitation/quarantine powers and distinct Navassa/Palmyra civil-administration orders and exceptions. All source-access/current-version limitations remain. Full current-law acceptance is not complete.
+
+**Actual Python validator and all five regression tests PASS**, run at baseline and after each cycle; exact immutable GitHub blob hashes independently matched eight CSVs and both test/validator files. Every write read back; only Team A paths changed. Source/issuer/current-enactment and effective-control certification remain open.
+
+**Next:** reconcile live HEAD, read original assignment and all six Batch41 notes plus current unresolved ledger, then follow the checkpoint's full 17-area queue and prioritized current-law actions. Continue the other 231 areas' outstanding legal/devolved/regulator/institute reviews. Scope only Team A folder on existing research branch; no public website, main, calculator, clinical/private data, other teams, merge or ready-state change. Preserve all previous history below.
+
+---
+
 ## CURRENT — Team A Batch39
 
 **Current Batch39, November 5, 2026. Original acceptance INCOMPLETE; PR #68 OPEN DRAFT/unmerged.**
