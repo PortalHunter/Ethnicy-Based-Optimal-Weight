@@ -1,3 +1,13 @@
+# Latest verified Team D research — Batches 26–27, 2026-11-05
+
+**[Complete standalone Batch 27 checkpoint](CHECKPOINT_BATCH_27_2026-11-05.md)** · [IDF source/data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/a3ec0d92485da866e442536a2edc9d3ef8898599) · [HI data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f10a7768fb7a939dbfc9946ab3c16cacc11a2c33) · [HI provenance repair and validated data snapshot](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/2a760a79569c69ebfa5d7a74f82b355d5e74c31d).
+
+**New:** 25 IDF North America/Caribbean source-qualified organizational observations (22 geographic listings, 21 named organizations and one Curaçao name gap, three distinct transnational organizations), plus 19 HI membership/role records (15 country resources, Europe as non-M49, three membership/partner categories). **208 unique provenance URLs**, existing HI member URL TD-SRC-008 reused. IDF's 22-vs-23 official organizational total contradiction retained; no country-government or clinical mandate inferred.
+
+**Full checked-in structural shim PASS, 10,567 assertions, 35 dependencies / 58 Team D PR files at corrected data SHA `2a760a79569c69ebfa5d7a74f82b355d5e74c31d`**; NOT native Node/Actions, legal or clinical review. 47 institutional nodes / 617 dated typed edges / 205 directly verified WHO administrative regions / 44 unknown / 105 April 2026 affirmative WHO office hosts / 228 separately historical 2021–22 observations unchanged. No website/main/other-team changes or PR merge; #70 open/draft/unmerged when last checked.
+
+---
+
 # Team D latest verified status — Batch 25 (2026-11-05)
 
 [Complete standalone Batch 25 checkpoint](CHECKPOINT_BATCH_25_2026-11-05.md). Evidence/ledger/validator commit [`f2455ce`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f2455ce220cc307b2a0b7797d5baa96c78a838c0): three directly opened WHO SPH emergency-event metadata pages (Curaçao 2020/2026; French Guiana 2026), `TD-WHO-SPH-007–009`, `TD-SRC-202–204`. Nine SPH source-context observations, **204** unique provenance URLs. Source event years and regional reporting tags are **not** current constitutional WHO region/office membership or clinical/legal mandates. Existing **47 nodes/617 dated links**, **205 directly verified/44 unresolved WHO regions**, 105 April 2026 direct host positives unchanged. **Targeted five-file GitHub readback assertions PASS**; full revised validator not run (33-fetch connector cap), native Node unavailable. PR remains draft/unmerged, Team D only.

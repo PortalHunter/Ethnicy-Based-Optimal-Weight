@@ -1,3 +1,11 @@
+## Batch 27 checked-in structural validation — 2026-11-05
+
+**PASS** at corrected data head [`2a760a79569c69ebfa5d7a74f82b355d5e74c31d`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/2a760a79569c69ebfa5d7a74f82b355d5e74c31d). The entire checked-in `validate.mjs` ran under a read-only V8 JavaScript `fs.readFileSync`/assertion adapter using **35** current GitHub CSV/provenance dependencies reconstructed from **58** changed Team D PR files, including **two GitHub direct-fetch oversized datasets**. **10,567 structural assertions passed**; final JSON counts: 47 nodes, 617 edges, 20 institutional condition records, 249 M49 candidates, 205 verified WHO regions/44 unknown, 105 April direct WHO host positives, 228 historical office/service records, 208 provenance URLs, 25 IDF source observations and 19 HI source observations.
+
+An earlier full check correctly **FAILED** on the initial Batch 27 data commit (`TD-SRC-208` had nine rather than ten provenance columns); the error was repaired in the subsequent GitHub commit before re-executing the complete suite successfully. Batch 26 dataset/ledger/validator and Batch 27 HI/ledger/validator files were re-fetched with verified blob SHAs after writes. **Not a native Node CLI or GitHub Actions run**: local runtime's GitHub hostname could not be resolved. This is reproducible structural/provenance checking, not original source-law, clinical, scientific or maintainer approval. Preserve source-specific/report-year versus current WHO administrative distinctions, no legal authority or country guideline inference. [Standalone checkpoint](CHECKPOINT_BATCH_27_2026-11-05.md).
+
+---
+
 ## Batch 25 post-commit verification — 2026-11-05
 
 - Commit [`f2455ce220cc307b2a0b7797d5baa96c78a838c0`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f2455ce220cc307b2a0b7797d5baa96c78a838c0), Team D data/ledger/validator only.
