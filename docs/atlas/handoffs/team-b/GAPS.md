@@ -1,3 +1,16 @@
+## Team B batch 74-R738 — exact remaining gaps · 2026-11-06
+
+**INCOMPLETE · OPEN DRAFT · UNMERGED · RESEARCH LEADS ONLY.** 472 organizations, 227/248 M49 domiciles (21 locally domiciled organization gaps). Of 1,736 condition-area cells: **353 source-positive**, **166 bounded no-resource**, **1,217 untouched** (1,383 total source-unlinked). 387 exact resources, 1,055 provenance entries, 610 searches, 10 subnational/community records and eight cross-border edges. Five original-document issuer-country unknowns persist and 28 known issuer/domicile differences are preserved. **387/387 research_lead_only; zero approved clinical claims.**
+
+- **Hong Kong 344:** 4 new education-only leads remain clinically and licensing unappraised. Cholesterol page contains an apparent BMI formula error and disputed numeric advice. Joint HKNA/StartSmart 2026 sodium item and named-HKNA-member 2019 am730 lactose article must retain original publisher versus host and author distinctions.
+- **Hong Kong 344 celiac/hemochromatosis:** 2 bounded society catalogue checks; **no qualified original resource located in inspected catalogue**, not a finding of no local research. International celiac congress promotion is not a Hong Kong society publication; GI-bleeding anaemia is not hereditary haemochromatosis.
+- **Global:** 1,217 untouched cells; 166 bounded with no eligible resource; 1,383 source-unlinked cells; 21 local domiciled-identity gaps; 5 unresolved issuer-country imprints. Recheck historic legal/registry status, original guideline editions, site-versus-original authorship, full-text and licence/rights. Maintain 14 diversity counterexamples, 10 community/subnational entities, and 8 cross-border edges.
+- **Next candidate search:** still-unsearched Hong Kong-type cells elsewhere in East/Southeast Asia, minority-language territory and small-island professional organizations. Prioritize origin-language exact source links and avoid unsupported absence claims.
+
+Immutable [data commit `128f18d7a620b34e0a9d2616cade46769c70606c`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/128f18d7a620b34e0a9d2616cade46769c70606c) has a **complete nontruncated 145-entry Git tree**, 11/11 GitHub Team B ten-CSV-plus-unchanged-validator SHA/tree matches and independent readback. **Zero independent JS structural join/state/metadata errors** after readback; **actual Node CLI was not run** in this session (local GitHub checkout cannot resolve github.com). Previous actual Node CLI receipts are historical. This is not clinical, rights, original-edition, live-link or legal approval. Diff against parent changes only six Team B CSVs.
+
+---
+
 ## Batch 73-0712 targeted gaps · 2026-11-06
 
 **Remaining:** 1,223 untouched cells; 164 bounded without verified sources; 21 domicile identity gaps; 5 original issuer-country unknowns. Bounded unsuccessful research is never proof of national absence.

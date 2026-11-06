@@ -5,28 +5,28 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "06a10f43633536f04d557e1b07287f2ed45d24bd",
-  "batch": "73-0712",
+  "validated_data_commit": "128f18d7a620b34e0a9d2616cade46769c70606c",
+  "batch": "74-R738",
   "metrics": {
-    "organizations": 469,
+    "organizations": 472,
     "areas": 227,
-    "resources": 383,
-    "positive": 349,
-    "without_linked_source": 1387,
-    "targeted_no_source": 164,
-    "unresearched": 1223,
-    "provenance": 1045,
-    "search_log": 604,
+    "resources": 387,
+    "positive": 353,
+    "without_linked_source": 1383,
+    "targeted_no_source": 166,
+    "unresearched": 1217,
+    "provenance": 1055,
+    "search_log": 610,
     "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
     "issuer_country_differs_from_domicile": 28,
     "by_condition": {
-      "diabetes": 105,
-      "hypertension": 64,
-      "high_chol": 41,
+      "diabetes": 106,
+      "hypertension": 65,
+      "high_chol": 42,
       "gout": 37,
-      "lactose": 31,
+      "lactose": 32,
       "celiac": 47,
       "hemochromatosis": 24
     },
@@ -34,22 +34,23 @@
   },
   "run_additions": {
     "organizations": 3,
-    "resources": 2,
-    "positive_cells": 2,
-    "bounded_no_source_cells": 4,
+    "resources": 4,
+    "positive_cells": 4,
+    "bounded_no_source_cells": 2,
     "previously_untouched_cells_targeted": 6,
-    "provenance": 9,
+    "provenance": 10,
     "searches": 6
   },
-  "validation_runtime": "in_memory_JS_structural_equivalent_and_immutable_11_of_11_local_Git_SHA1_readback_Node_not_run_this_batch",
+  "validation_runtime": "independent_JS_structural_audit_at_immutable_data_commit_Node_CLI_not_run",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Continue 1223 untouched condition-area cells",
-    "Trace original BGS member thesis documents and issuers; avoid population claims",
-    "Review SLSG and NSG society lactose/celiac catalogues, NSG 403 issue",
-    "Address 21 local domicile identity gaps and five original document issuer-country uncertainties",
-    "Maintain Team A/C/D and issue #27 scope and rights caveats"
+    "Prioritize 1217 untouched condition-area cells with original-language first-party evidence",
+    "Review Hong Kong diabetes/LDL educational numeric claims and BMI formula error without clinical approval",
+    "Verify 2019 HKNA/am730 author and 2026 joint HKNA/StartSmart original publisher/rights",
+    "Seek distinct HKSGE celiac and hereditary iron originals beyond bounded catalogues",
+    "Resolve 21 local domicile organization gaps, five issuer-country unknowns and licensing/edition/attribution audits",
+    "Preserve teams A C D and issue 27 scope; no public site/formula or main changes"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -1936,5 +1937,84 @@
       "NSG own indexed page but direct HTTP403; original resources not verified"
     ],
     "local_node_cli_this_batch": false
+  },
+  "batch74_R738": {
+    "date": "2026-11-06",
+    "status": "incomplete_research_lead_only",
+    "data_commit": "128f18d7a620b34e0a9d2616cade46769c70606c",
+    "metrics": {
+      "organizations": 472,
+      "areas": 227,
+      "resources": 387,
+      "positive": 353,
+      "without_linked_source": 1383,
+      "targeted_no_source": 166,
+      "unresearched": 1217,
+      "provenance": 1055,
+      "search_log": 610,
+      "community": 10,
+      "cross_border_edges": 8,
+      "issuer_country_unresolved": 5,
+      "issuer_country_differs_from_domicile": 28,
+      "by_condition": {
+        "diabetes": 106,
+        "hypertension": 65,
+        "high_chol": 42,
+        "gout": 37,
+        "lactose": 32,
+        "celiac": 47,
+        "hemochromatosis": 24
+      },
+      "current_unsd_overview_codes": 248
+    },
+    "run_additions": {
+      "organizations": 3,
+      "resources": 4,
+      "positive_cells": 4,
+      "bounded_no_source_cells": 2,
+      "previously_untouched_cells_targeted": 6,
+      "provenance": 10,
+      "searches": 6
+    },
+    "new_organizations": [
+      "B-HK-DHK",
+      "B-HK-HKNA",
+      "B-HK-HKSGE"
+    ],
+    "area_m49": "344",
+    "new_positive_conditions": [
+      "diabetes",
+      "hypertension",
+      "high_chol",
+      "lactose"
+    ],
+    "bounded_no_source_conditions": [
+      "celiac",
+      "hemochromatosis"
+    ],
+    "data_changes": [
+      "data/specialist_organizations.csv",
+      "data/condition_organizations.csv",
+      "data/publication_context.csv",
+      "data/coverage_by_area_condition.csv",
+      "PROVENANCE.csv",
+      "data/search_log.csv"
+    ],
+    "source_caveats": [
+      "DHK cholesterol education has apparent BMI formula error; no clinical advice endorsed",
+      "HKNA sodium source is 2026-05-13 am730 joint HKNA/StartSmart taskforce piece; uploaded 2026-06-03",
+      "HKNA lactose source 2019 am730 named council officer; intolerance is not allergy/genotype",
+      "HKSGE celiac society calendar lists foreign ISSCD symposium; not original HK society author",
+      "GI bleeding anaemia is not hereditary iron overload; bounded negative is not national absence"
+    ],
+    "readback": {
+      "data_commit": "128f18d7a620b34e0a9d2616cade46769c70606c",
+      "full_tree_entries": 145,
+      "tree_truncated": false,
+      "github_tree_and_file_sha_matches": "11/11",
+      "independent_JS_structural_errors": 0,
+      "node_cli_run_this_batch": false
+    },
+    "clinical_claims_approved": 0
   }
 }
