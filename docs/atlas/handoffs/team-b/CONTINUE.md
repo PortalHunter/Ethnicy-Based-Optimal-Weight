@@ -1,3 +1,21 @@
+# Team B standalone continuation — batch 81 · 2026-11-06
+
+**Batch 81 (2026-11-06)** · [standalone checkpoint](BATCH_81_CHECKPOINT.md) · [validated data commit a466eee9](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/a466eee9e43799b4e90d07e8f1c9a8370ea33742). **487** organizations in **227/248** M49 domiciles; **374/1,736** source-positive cells; **171** bounded-unlinked; **1,191** untouched (1,362 unlinked); **410** exact research contexts, **1,107** provenance, **637** search logs; 10 community/subnational, 8 cross-border and 14 diversity cases retained; 5 original issuer-country unknowns. +2 new Poland organizations and first-positive Poland diabetes (PTD 2026) / gout (historical PTR 2016 named-author section bulletin). 410/410 research_lead_only; zero approved clinical claims. Data tree 147 complete, 11/11 CSV/unchanged-validator SHA matches, independent JS structural errors 0. **Actual Node CLI not run** (local GitHub DNS failure); PDF gout visual retrieval 502. PR #71 remains draft, unmerged. No legal, clinical, rights, full-text or universal current-link approval.
+
+**Full standalone restart and original acceptance criteria:** [BATCH_81_CHECKPOINT.md](BATCH_81_CHECKPOINT.md); existing [CHECKPOINT.json](CHECKPOINT.json), [GAPS.md](GAPS.md), [VALIDATION.md](VALIDATION.md), [STATUS.md](STATUS.md) and historical checkpoints remain authoritative for prior context. Current data commit `a466eee9e43799b4e90d07e8f1c9a8370ea33742`, root tree `d38210fd8e9a431ae03dc5929127e1bdedba71c2`. Two Poland cells formerly untouched became positive; 21 same local identity gaps. Preserve 2016 historic gout bulletin authors (Agata Sebastian and Roksana Kręcichwost), PTR historical vs current site, full-PDF visual 502 limitation; PTD 2026 own-index vs full clinical appraisal. No clinical authorization or rights approval. Branch is draft/open/unmerged; only Team B paths.
+
+## Exact reusable continuation prompt
+
+Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71.
+
+Read `docs/atlas/handoffs/team-b/CONTINUE.md` on branch `research/atlas-team-b-20261104`, including its latest checkpoint and original acceptance criteria.
+
+Verify live GitHub state and continue autonomously, prioritizing untouched condition-area cells, missing organizations, source attribution, and research gaps. Preserve existing research, evidence caveats, and scope. Reconcile concurrent changes safely; commit, run validation, and verify readbacks regularly. Modify only Team B's research directory. Do not modify the public website, main, or other teams; do not merge the PR or approve clinical claims.
+
+If unfinished, save a complete standalone GitHub checkpoint. End with a concise status, this same reusable continuation prompt, and updated visual progress bars for geographic organization coverage and source-positive condition-area coverage, including remaining gaps.
+
+---
+
 # Team B standalone continuation — batch 80 · 2026-11-06
 
 **Batch 80 (2026-11-06):** [standalone checkpoint](BATCH_80_CHECKPOINT.md) · [data commit 75fe8f60](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/09e3d63c55e7ced5e0303f2ea315a4f6e8a1c0d9). **485** local specialist/nonprofit organization identities in **227/248** M49 domiciles (21 identity gaps), **372/1,736** source-positive area-condition cells, **171** bounded-unlinked, **1,193** untouched, **1,364** without source link, **408** research-only exact publication/context pairs, **1,101** provenance and **635** logged searches. Added two Bangladesh local organizations and two first-positive Bangladesh cells (hypertension, high_chol/statin-use). Existing **10** community/subnational rows, **8** cross-border edges, **14** diversity counterexamples and **5** unknown issuer imprints preserved. All **408/408 research_lead_only** and **0** approved clinical claims. Immutable complete **147-entry** data tree, **11/11** CSV/unchanged-validator SHA matches, independent JS precommit structural checks 0 errors; **actual Node CLI not run** due local github.com DNS checkout failure. No licensing, legal, clinical, publication-accuracy, or universal link certification. PR #71 must stay draft, open, unmerged.

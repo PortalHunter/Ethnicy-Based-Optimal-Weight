@@ -5,27 +5,27 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "09e3d63c55e7ced5e0303f2ea315a4f6e8a1c0d9",
-  "batch": "80",
+  "validated_data_commit": "a466eee9e43799b4e90d07e8f1c9a8370ea33742",
+  "batch": "81",
   "metrics": {
-    "organizations": 485,
+    "organizations": 487,
     "areas": 227,
-    "resources": 408,
-    "positive": 372,
-    "without_linked_source": 1364,
+    "resources": 410,
+    "positive": 374,
+    "without_linked_source": 1362,
     "targeted_no_source": 171,
-    "unresearched": 1193,
-    "provenance": 1101,
-    "search_log": 635,
+    "unresearched": 1191,
+    "provenance": 1107,
+    "search_log": 637,
     "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
     "issuer_country_differs_from_domicile": 28,
     "by_condition": {
-      "diabetes": 109,
+      "diabetes": 110,
       "hypertension": 74,
       "high_chol": 46,
-      "gout": 38,
+      "gout": 39,
       "lactose": 32,
       "celiac": 49,
       "hemochromatosis": 24
@@ -42,18 +42,17 @@
     "provenance": 6,
     "searches": 2
   },
-  "validation_runtime": "full_independent_JS_replica_of_Team_B_validator_0_errors_11_of_11_immutable_SHA_tree_matches_actual_Node_CLI_not_run_DNS",
+  "validation_runtime": "independent_JS_validator_0_errors_11_of_11_immutable_SHA_tree_matches_Node_CLI_not_run_DNS",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "1193 untouched condition-area cells; gout lactose coeliac hereditary hemochromatosis",
-    "21 missing domiciled local organizations",
-    "171 bounded unlinked cells to research in original languages",
-    "Five original issuer imprints: Panama HEARTS, Portuguese WGO lactose, Portuguese ESPGHAN coeliac, Chad OA Pub/JHC, South Sudan PAMJ",
-    "Bangladesh NHFB 1978 versus 1979 founding-year conflict, Bangladesh Cardiac Society membership 600 vs 1500 vs older 285 directory",
-    "2026 Bangladesh HEARTS authorship and primary-care programme-denominator/methods independent review, 2025 NHFB statin survey not FH or high-LDL prevalence",
-    "Preserve Turkey multi-society 2025 HT and celiac allergy wording, Nepal single-centre registry methods, Croatia 2012 gout, Iceland PDF 502, Ireland Croí versus ESC authorship",
-    "Original PDF/full text, journal/publisher rights, provenance, clinical, copyright, Indigenous governance and informed consent checks pending"
+    "1191 untouched area-condition cells, especially gout lactose coeliac hereditary iron overload",
+    "21 local M49 organization domicile gaps (original list preserved in areas_without_identity)",
+    "171 bounded no-link searches requiring wider original-language and official publisher checks",
+    "Five unresolved original issuer imprints: Panama HEARTS; Portuguese WGO lactose; Portuguese ESPGHAN coeliac; Chad OA Pub/JHC; South Sudan PAMJ",
+    "Poland PTR 2016 gout PDF screenshot failed 502 and is signed historical commentary, not current guideline; independent fulltext/right and journal-author reviews pending",
+    "2026 PTD diabetes guideline full PDF, named signatories, conflicts and clinical eligibility not yet reviewed",
+    "Preserve Bangladesh NHFB founder and BCS membership conflicts, Nepal FH/registry, Croatia 2012 historical journal, Turkish coeliac allergy wording, all older rights and Indigenous/community consent caveats"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -67,7 +66,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Final corrected data revision after six-file batch and four-file issuer-basis/citation correction: complete 147-entry nontruncated immutable tree; 11/11 GitHub CSV/unchanged-validator SHA matches. Full independent JS reproduction of current Team B validator checked 248x7, all unique IDs, resource/org/provenance, issuer enum, exact search-state and community/cross-border joins with 0 errors. Node CLI not run (local github.com DNS failure). No clinical, legal, methods, original journal-publisher, rights or licensing approval.",
+  "validated_data_commit_note": "Full independent GitHub immutable 147-entry tree readback; ten CSVs and unchanged validate.mjs matched 11/11; JS structural errors 0; actual Node CLI not run due github.com DNS. Six Team B CSVs only. Original 2016 PTR gout bulletin visual fetch 502 and full clinical/rights review outstanding.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -155,9 +154,9 @@
     }
   ],
   "readback_validation": {
-    "batch": "80",
-    "sha": "09e3d63c55e7ced5e0303f2ea315a4f6e8a1c0d9",
-    "tree_sha": "e27e9bcc215818ee42e2fe94aad0e10deb2c5fc7",
+    "batch": "81",
+    "sha": "a466eee9e43799b4e90d07e8f1c9a8370ea33742",
+    "tree_sha": "d38210fd8e9a431ae03dc5929127e1bdedba71c2",
     "tree_entries": 147,
     "truncated": false,
     "files": 11,
@@ -165,7 +164,7 @@
     "local_hash_matches": null,
     "structural_errors": 0,
     "node_cli_run_this_batch": false,
-    "notes": "Final corrected data revision after six-file batch and four-file issuer-basis/citation correction: complete 147-entry nontruncated immutable tree; 11/11 GitHub CSV/unchanged-validator SHA matches. Full independent JS reproduction of current Team B validator checked 248x7, all unique IDs, resource/org/provenance, issuer enum, exact search-state and community/cross-border joins with 0 errors. Node CLI not run (local github.com DNS failure). No clinical, legal, methods, original journal-publisher, rights or licensing approval."
+    "notes": "Independent JavaScript validator reimplementation, not actual Node CLI; full text, legal, clinical and rights unreviewed. All new release states research_lead_only."
   },
   "previous_independently_verified_data_commit": "4a782e09f3505bc6acfcee48182760ca9b87d49c",
   "session_additions": {
@@ -206,11 +205,11 @@
     "78": "6f1710c0fe00b1dc3fe8251111141e9f4175ae3f"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "248×7 complete structurally, 1195 untouched, 171 bounded unlinked; substantive acceptance not met",
-    "source_population_jurisdiction": "406 exact contexts keep issuer/host/authors/domicile/sample/jurisdiction separate; 5 original imprints unknown",
-    "disease_subtypes_and_release": "406/406 research_lead_only, zero approvals; FH/LDL, gout/urate, hereditary overload/ferritin, lactase genotype/symptoms, coeliac HLA/diagnosis distinct",
-    "official_sites_publication_lists_and_lifecycle": "21 local gaps; Turkish multi-society author attribution, Nepal 2024 study design discrepancy, Croatian 2012 edition, Iceland 502, Nepal/Irish prior cautions; license/source reviews open",
-    "diversity_examples": "14 anti-overgeneralization examples; 10 community/subnational, eight cross-border relationships retained, consent and rights unreviewed"
+    "m49_area_condition_roster": "248×7 structurally complete; 1191 untouched and 171 bounded unlinked; substantive research incomplete",
+    "source_population_jurisdiction": "410 exact contexts with issuer, author/publisher, domicile, study population and jurisdiction separated; five unresolved imprints; signed 2016 PTR gout review not current guideline",
+    "disease_subtypes_and_release": "410/410 research_lead_only, zero clinical approvals; FH/LDL, gout/urate, hemochromatosis/ferritin, lactose genotype/symptoms, coeliac HLA/diagnosis separate",
+    "official_sites_publication_lists_and_lifecycle": "21 local identity gaps; 2026 PTD indexed but no full clinical PDF appraisal, 2016 PTR gout bulletin visual 502 and historic; previous Bangladesh and Nepal/Croatia conflicts remain",
+    "diversity_examples": "14 anti-overgeneralization examples, 10 community/subnational, eight cross-border; rights and consent not reviewed"
   },
   "batch40_sources": [
     {
@@ -2536,5 +2535,58 @@
     "corrected_source_country_basis": "issuer_of_linked_page",
     "statin_first_party_index": "https://epidemiology.nhf.org.bd/publications/b4dI5w7B2PwtX7rBs6YC",
     "original_statin_fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11908426/"
+  },
+  "batch81": {
+    "data_commit": "a466eee9e43799b4e90d07e8f1c9a8370ea33742",
+    "root_tree": "d38210fd8e9a431ae03dc5929127e1bdedba71c2",
+    "standalone_checkpoint": "docs/atlas/handoffs/team-b/BATCH_81_CHECKPOINT.md",
+    "new_organizations": [
+      "B-PL-PTDIAB",
+      "B-PL-PTR"
+    ],
+    "new_condition_area_positive": [
+      "616:diabetes",
+      "616:gout"
+    ],
+    "original_sources": [
+      "https://ptdiab.pl/o-towarzystwie/statut",
+      "https://ptdiab.pl/zalecenia-ptd/zalecenia-kliniczne-dotyczace-postepowania-u-osob-z-cukrzyca-2026",
+      "https://ptr.info.pl/aktualnosci/nowa-strona-ptr/",
+      "https://www.reumatologia.ptr.net.pl/files/biuletyn_mr_grudzien16.pdf"
+    ],
+    "source_caveats": [
+      "PTD 2026 recommendations indexed, no full-text appraisal",
+      "PTR 2016 individual-author society-section bulletin not current clinical guideline; PDF screenshot 502",
+      "No clinical release or rights approval"
+    ],
+    "metrics": {
+      "organizations": 487,
+      "areas": 227,
+      "resources": 410,
+      "positive": 374,
+      "without_linked_source": 1362,
+      "targeted_no_source": 171,
+      "unresearched": 1191,
+      "provenance": 1107,
+      "search_log": 637,
+      "community": 10,
+      "cross_border_edges": 8,
+      "issuer_country_unresolved": 5,
+      "issuer_country_differs_from_domicile": 28,
+      "by_condition": {
+        "diabetes": 110,
+        "hypertension": 74,
+        "high_chol": 46,
+        "gout": 39,
+        "lactose": 32,
+        "celiac": 49,
+        "hemochromatosis": 24
+      },
+      "current_unsd_overview_codes": 248
+    },
+    "validated_all_csv_and_validator_sha_tree_11_of_11": true,
+    "independent_js_structural_errors": 0,
+    "actual_node_cli_run": false,
+    "clinical_claims_approved": 0
   }
 }
