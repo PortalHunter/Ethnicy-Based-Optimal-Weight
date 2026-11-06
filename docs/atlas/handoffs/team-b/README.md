@@ -2,6 +2,8 @@
 
 Team B indexes clinical societies, patient groups, university research units and community-controlled health bodies across 248 UN M49 areas and seven condition streams. The original assignment and shared data contract are on branch `research/atlas-five-team-handoff-prompts-2026-11-04`, under `docs/atlas/research-team-prompts/`.
 
+**Current execution procedure:** [RUNBOOK.md](RUNBOOK.md) · [prioritized research queue](QUEUE.md). These take precedence over old repeated prompts preserved in the historical continuation log. Recompute live counts and show labeled progress bars **every run**, including runs with no net source discoveries.
+
 Start with [CONTINUE.md](CONTINUE.md). [STATUS.md](STATUS.md) gives current coverage, [CHECKPOINT.json](CHECKPOINT.json) lists the remaining areas and [GAPS.md](GAPS.md) preserves source-specific limitations and 14 examples of unsafe population generalization. [CHANGELOG.md](CHANGELOG.md) and [VALIDATION.md](VALIDATION.md) record work and verification.
 
 | File | Unit of observation |
