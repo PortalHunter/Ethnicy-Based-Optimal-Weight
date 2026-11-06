@@ -1,3 +1,9 @@
+## 2026-11-06 — Batch 42: PAHO historical multi-area country-office report groupings
+
+Committed **10** dated-to-2025 M49-indexed grouping observations (`data/paho_2025_multi_area_report_coverage.csv`) linked to **3** PAHO official indexed country-office annual report pages (`TD-SRC-276–278`); ledger reaches **278** unique URLs. PAHO pages return HTTP 403 on direct open. No country-specific physical office, direct current WHO administrative assignment, WHO membership or clinical/statutory conclusion inferred. All three research file blob readbacks and scoped compare PASS at validator commit `5c4dc2c579706969a74a27a115874461dff9bd12`. **Checked-in full structural V8 shim PASS 12,590 assertions across 44 GitHub-derived files**, not native Node/Actions/legal/clinical signoff. Checkpoint: [Batch 42](CHECKPOINT_BATCH_42_2026-11-06.md). WHO 205/249, April host 105/249, regulator law audits 0/34 unchanged. Only Team D research paths changed; PR #70 kept OPEN/DRAFT/UNMERGED.
+
+---
+
 ## 2026-11-06 — Batch 41: first-party WHO operational cooperation and future office land account
 
 - `TD-SRC-274` WHO Angola 2026-02-26 report: launched Feb 24–27 synchronized Angola–Namibia **subnational polio** campaign, Namibian delegation; source-scoped operational relation `TD-XBPH-001` in new `data/crossborder_public_health_coordination_2026.csv`. No signed instrument, all-campaign completion or seven-condition guideline endorsement.
