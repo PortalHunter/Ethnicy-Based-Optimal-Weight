@@ -1,3 +1,13 @@
+## Latest Team D Batch 37 research — 2026-11-06
+
+**[Standalone checkpoint](CHECKPOINT_BATCH_37_2026-11-06.md)** · [draft PR #70](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70) · [substantive commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/514cd3fc503408150157f793bfaf005ad2dadd5d). Eight new direct first-party regulator observations (Greece 2, Hungary 2, Portugal 2, Romania 2), URLs TD-SRC-258–265: **62** role observations across **29/34** EMA candidates (85.3%); **5** direct role candidates and **all 34** complete current consolidated statute/delegation and Team A exact joins pending. Source-date and role boundaries documented in the checkpoint; Hungary's 2026-09-01 change is administrative safety-signal reporting, Greece's older EMEA/CPMP naming is not current legal text.
+
+WHO unchanged: **205/249** direct current region assignments, **44 unknown**; **105/249** direct affirmative April 2026 WHO office-host records, **144** with no equivalent proof, NOT office absence. **46** older September 2024 surveys and **228** separate 2021–22 historic service records remain distinct. Graph **47 nodes / 617 typed dated edges**, **20** seven-condition network observations, **265** provenance URLs. Malta, PAHO, SCI, APPM, AOECS, IDF, Codex, HEARTS/ASEAN, identity and legal gaps open.
+
+**Full checked-in validator V8 read-only shim PASS: 12,317 assertions / 39 dependencies** at 514cd3fc503408150157f793bfaf005ad2dadd5d (27 complete PR patches + 12 direct reads); plus precommit role/source/identity checks PASS and three exact blob GitHub readbacks/compare PASS. **Not a native Node/Actions execution, independent national statute audit, scientific or clinical approval.** Only docs/atlas/handoffs/team-d/; PR #70 remains OPEN/DRAFT/UNMERGED; no changes to main, public website, other teams, no clinical/legal approval.
+
+---
+
 ## Latest Team D Batch 36 research — 2026-11-06
 
 **[Complete standalone checkpoint](CHECKPOINT_BATCH_36_2026-11-06.md)** · [draft PR #70](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70) · [research commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/d0c9ea10c24e1b1f7796d5a98a973d5dcf811633).

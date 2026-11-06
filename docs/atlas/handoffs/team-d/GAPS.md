@@ -1,3 +1,13 @@
+## Batch 37 outstanding research and source conflicts (2026-11-06)
+
+- WHO **44/249 direct-current administrative regions unknown**. Geographic M49 location, WHO service or WER historical/reporting source, parent country and past SIDS survey cannot supply present legal/administrative assignment.
+- WHO offices **144/249 without direct affirmative April 2026 host evidence**. Absence of an affirmative survey is not evidence of absent offices. Keep **46** older September 2024 surveys and **228** 2021–22 historical services separate.
+- EMA national role candidates **5/34 still without directly opened contemporary source descriptions**: Iceland, Latvia, Liechtenstein, Luxembourg, Sweden. New Batch 37 role descriptions cover Greece/Hungary/Portugal/Romania and bring to **29/34 (62 rows)** but **all 34/34** require independently audited currently consolidated statutes/delegations plus exact Team A authority IDs. Distinguish Hungary's 2026-09-01 *reporting-process* change, Greek obsolete EMEA/CPMP page wording, Romania cited 2019/2022 law years and Portuguese EU/PIC/S oversight from current whole-law mandate. Malta final marketing authorisation grant descriptions conflict; French dated article only supports April 2026 slice. Latvian 403, Iceland island.is 403 and retired old ima.is, Swedish JS-only remain caveats.
+- Cross-border unresolved PAHO ECC **13/14** and Boisson **Jan/Feb 2021** conflict; North Macedonia SCI exact admission document/day; Africa CDC APPM seven unnamed of eight signed states vs 15 intent states; IDF **22/23** counts; AOECS **43+1+3 versus 41+6** plus nonmembers; HI membership vs partner categories; Codex historical 1991 observer instrument; HEARTS country pathway enactment, ASEAN nonbinding roles; Teams A/B/C exact joins and scientific/clinical review.
+- Full checked-in **read-only V8 shim PASS (12,317 assertions over 39 dependencies)** does **not** establish native Node/Actions, primary source facsimile, updated legal power, clinical effectiveness or scientific approval. See [complete checkpoint](CHECKPOINT_BATCH_37_2026-11-06.md).
+
+---
+
 ## Batch 36 remaining gaps and evidence boundaries (2026-11-06)
 
 - **WHO regions: 44/249 unknown.** Needs *direct current WHO administrative designation*; regional geographic grouping, surveillance/event labels, parent-state and multicountry service routing insufficient. Preserve Indonesia WPRO 2025-05-23, Algeria AFRO versus UN Northern Africa, US constitutional WHO status unresolved.

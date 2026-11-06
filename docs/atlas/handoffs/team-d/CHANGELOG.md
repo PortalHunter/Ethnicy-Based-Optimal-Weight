@@ -1,3 +1,12 @@
+## 2026-11-06 — Batch 37: source-qualified Greece/Hungary/Portugal/Romania national medicine agencies
+
+- Substantive [commit `514cd3fc503408150157f793bfaf005ad2dadd5d`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/514cd3fc503408150157f793bfaf005ad2dadd5d) changes **three Team D-only paths**: `PROVENANCE.csv`, `data/emrn_nca_national_remit_evidence_2026.csv`, `validate.mjs`. Eight first-party direct HTML evidence rows TD-NCA-REMIT-055–062, eight new distinct URLs TD-SRC-258–265, four existing exact EMA agency identity IDs; **29/34** direct role-review coverage, **62** role observations and **265** unique provenance URLs.
+- Scope guard: Greek national versus Commission authorisation and GCP inspection; Hungarian NNGYK national product decision versus effective 2026-09-01 safety signal process; Portuguese authorisation/oversight versus international inspection cooperation; Romania NAMMDR national role versus EMA central procedures. All 34 current national consolidated statute/delegation audits and Team A joins remain pending, no inferred `regulates_medicines_in`.
+- Targeted cross-file checks **PASS**; full checked-in `validate.mjs` read-only V8-shim replay **PASS 12,317 assertions / 39 source dependencies**; three exact GitHub research-file blob readbacks and three-path compare confirmed. **Not native Node, Actions, legal, clinical or scientific signoff.** Standalone checkpoint: [Batch 37](CHECKPOINT_BATCH_37_2026-11-06.md).
+- WHO 205/249 current direct regional assignments and 105/249 April affirmative hosts unchanged; separate 46 older 2024 surveys and 228 historical 2021–22 services, PAHO/SCI/APPM/IDF/AOECS/HEARTS/ASEAN disputes preserved. PR remains draft/open/unmerged; no website/main/other-team files changed.
+
+---
+
 ## 2026-11-06 — Batch 36, first-party regulator process and oversight review
 
 - [Research commit `d0c9ea10c24e1b1f7796d5a98a973d5dcf811633`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/d0c9ea10c24e1b1f7796d5a98a973d5dcf811633) atomically adds 8 regulator role observations (TD-NCA-REMIT-047–054) and six unique official HTML URLs (TD-SRC-252–257); covers Bulgaria, Cyprus, Lithuania and Slovakia. Cumulative **54 role observations / 25 of 34 EMA candidates / 257 source URLs**.
