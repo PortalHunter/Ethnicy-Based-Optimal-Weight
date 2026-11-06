@@ -1,3 +1,12 @@
+## 2026-11-05 — Batch26 five more government authority identities, exact-data QA, and full checkpoint
+
+- **Immutable DATA SHA:** `8d9aa4f007672740028ea74cb498950753e45541`; previous starting Team A documentation HEAD `0ab9a04c39d6f470fa3a53f2c378bfd588b33453`. Four sequential CSV commits `9b33d0a05c000e2d6841f86c318e24e1c41780aa`, `4197b3cb8ecd57b6734c944605ab3af4ba0a4825`, `baabfb48accb01685b0adac4c7114805d14e2071`, `8d9aa4f007672740028ea74cb498950753e45541`. Changed **only** `data/countries.csv`, `data/government_health_bodies.csv`, `data/country_coverage.csv`, `PROVENANCE.csv`; no inferred organization-edge additions, M49 snapshot/schema/test/website/other-team changes.
+- **New principal identities:** Kyrgyzstan 417, Lao People's Democratic Republic 418, Lesotho 426, Liberia 430, Liechtenstein 438. Seven bodies including Liberia separate NPHIL and Liechtenstein ministerial portfolio; **15** issuer/language/date/source-caveat checks. Precisely preserve Kyrgyz 2026 legal-version issue, 2024 vs 2026 Laos materials, Lesotho April 2026 notices **mentioned but not directly read** vs outdated 1995–2000 government planning, Liberia current government name conflict, Liechtenstein office versus policy portfolio and Swiss-cross-border questions.
+- **After independent immutable readback:** **248** exact official M49 geographic records, **166 identity located / 82 explicitly unknown**, **224** government body records, **45** sourced same-area relationships, **383** provenance checks, **248** synchronized country coverage records, **0** guessed parent M49; **53** territory/dispute/rename sensitive sentinels PASS STRUCTURAL. **Python validator NOT RUN** (GitHub DNS/checkout failure). Identity coverage is not statutory-mandate completion.
+- Complete standalone [Batch26 checkpoint](CHECKPOINT_20261105_BATCH26.md) committed; all historic Batch25 and older records retained. PR #68 **DRAFT/unmerged**; research-only, no public clinical/website changes.
+
+---
+
 ## 2026-11-05 — Batch25 research identities, independent six-CSV QA and standalone checkpoint
 
 - **DATA SHA** `a07709058782d2360cdab90c4647af37ca4efbb9`. Five new principal identities (414 Kuwait, 422 Lebanon, 480 Mauritius, 496 Mongolia, 524 Nepal); six new government body records including Nepal DoHS, one scoped in-area affiliation, 15 dated source checks (Kuwait own-source timeout explicitly retained). Five Team A CSV files only, 5 GitHub commits.
