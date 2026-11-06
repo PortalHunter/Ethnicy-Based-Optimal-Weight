@@ -1,3 +1,13 @@
+# Team B standalone continuation — batch 83 · 2026-11-06
+
+> **CURRENT OPERATING INSTRUCTIONS:** Follow [RUNBOOK.md](RUNBOOK.md) and [QUEUE.md](QUEUE.md) first. Batch 83 [standalone checkpoint](BATCH_83_CHECKPOINT.md), [metrics and immutable receipts](CHECKPOINT.json), data SHA [`f2c23da058a350bbbec68a04dc1d481ec29a1022`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f2c23da058a350bbbec68a04dc1d481ec29a1022). **492** organization records, **227/248** local M49 identities, **379** source-positive, **174** bounded-unlinked and **1,183** untouched of 1,736; **415/415 research_lead_only**, zero clinical approvals, five unknown source-country imprints. Delta over batch 82: +2 identities, +1 positive gout program, +3 bounded, −4 untouched, +4 logs/+4 provenance. Exact Peru 2025 gout speaker index p.5 is NOT a guideline or delivered talk; new PGI identity not a celiac guideline issuer. Immutable 151-path tree, 11/11 readbacks, zero independent structural errors; actual Node CLI NOT RUN (github.com DNS). PR #71 draft/open/unmerged.
+
+## Short reusable prompt
+
+Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. On branch `research/atlas-team-b-20261104`, read `docs/atlas/handoffs/team-b/RUNBOOK.md`, `QUEUE.md`, and the latest `CONTINUE.md`. Follow the queue and safeguards; research, commit, validate, read back, and checkpoint Team B-only changes. Keep PR #71 draft/unmerged; approve no clinical claims. End with quantified run deltas, remaining gaps, and the required labeled progress bar graphs. Repeat this prompt.
+
+---
+
 # Team B standalone continuation — batch 82 · 2026-11-06
 
 > **CURRENT OPERATING INSTRUCTIONS (pinned 2026-11-06):** Follow [RUNBOOK.md](RUNBOOK.md) and its [live research queue](QUEUE.md) **before** the historical continuation text below. They define prioritized evidence work, conflict-safe GitHub commits, truthful validation, and **mandatory end-of-run bar graphs**. Older prompts below remain for history only. Recompute metrics from live CSVs each run; do not trust stale batch numbers. This documentation-only playbook update does **not** change batch 82 research coverage or imply clinical/legal approval.

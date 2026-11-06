@@ -5,18 +5,18 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "f652332c046aaae9f204496dff9fa9529acdf1c6",
-  "batch": "82",
+  "validated_data_commit": "f2c23da058a350bbbec68a04dc1d481ec29a1022",
+  "batch": "83",
   "metrics": {
-    "organizations": 490,
+    "organizations": 492,
     "areas": 227,
-    "resources": 414,
-    "positive": 378,
-    "without_linked_source": 1358,
-    "targeted_no_source": 171,
-    "unresearched": 1187,
-    "provenance": 1117,
-    "search_log": 641,
+    "resources": 415,
+    "positive": 379,
+    "without_linked_source": 1357,
+    "targeted_no_source": 174,
+    "unresearched": 1183,
+    "provenance": 1121,
+    "search_log": 645,
     "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
@@ -25,7 +25,7 @@
       "diabetes": 110,
       "hypertension": 75,
       "high_chol": 48,
-      "gout": 40,
+      "gout": 41,
       "lactose": 32,
       "celiac": 49,
       "hemochromatosis": 24
@@ -33,26 +33,29 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organizations": 3,
-    "resources": 4,
-    "positive_cells": 4,
-    "bounded_no_source_cells": 0,
+    "organizations": 2,
+    "locally_reached_new_m49_areas": 0,
+    "resources": 1,
+    "positive_cells": 1,
+    "bounded_no_source_cells": 3,
     "previously_untouched_cells_targeted": 4,
     "previously_bounded_cells_converted_to_positive": 0,
-    "provenance": 10,
-    "searches": 4
+    "provenance": 4,
+    "searches": 4,
+    "issuer_imprints_resolved": 0
   },
-  "validation_runtime": "independent_JS_validator_0_errors_11_of_11_immutable_SHA_tree_matches_Node_CLI_not_run_DNS",
+  "validation_runtime": "independent_JS_structural_0_errors_11_of_11_GitHub_immutable_tree_SHA_matches_Node_CLI_NOT_RUN_DNS",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "1187 untouched area-condition cells particularly gout lactose celiac hereditary haemochromatosis",
-    "21 M49 areas without locally domiciled specialist/nonprofit organization identities",
-    "171 bounded no eligible original resource; search expansion without absence conclusions",
-    "Five original issuer imprints unresolved: Panama HEARTS; Portuguese WGO lactose; Portuguese ESPGHAN coeliac; Chad OA Pub/JHC; South Sudan PAMJ",
-    "Further separate original NHC/SHA hypertension authorship and limited 39-physician LDL-C statement from statutory or population claims; no FH genotype inference",
-    "Preserve NHFB and BCS conflicts, Nepal FH/registry, Turkish coeliac allergy wording, Polish historic gout and all prior method/rights and community consent caveats",
-    "Run actual Node CLI from a viable checkout; independently appraise full PDF, current editions, citation rights, ethnicity/Indigenous governance and legal jurisdictions"
+    "1183 untouched cells: prioritise first-party original-language haemochromatosis, lactose, celiac and gout leads across at least two regions",
+    "174 bounded/unlinked cells: rotate new source/index hypotheses, never extrapolate national absence",
+    "21 M49 areas without verified locally domiciled organization; focus inhabited areas with plausible independent bodies",
+    "5 issuer-country imprints unresolved: Panama HEARTS; Portuguese WGO lactose translation; Portuguese ESPGHAN coeliac translation; Chad OA Pub/JHC; South Sudan PAMJ",
+    "Team B Peru SPR 2025 gout programme is an event schedule only, named Dr Elmer García Salazar; verify lecture proceedings/actual delivery before any scientific evidence claim",
+    "Indonesia PGI Bahasa consensus page had no celiac title; India ISG teaching index had no exact lactose item; Egypt EGYSIR site and distinct Springer consensus publisher not conflated",
+    "Preserve all earlier 14 anti-overgeneralization, 10 subnational/community, 8 cross-border and licensing/diagnostic caveats; issue #27 is separate clinical review",
+    "Try actual Node CLI when checkout network allows; independent journal original/source attribution and full-text/rights remain unapproved"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -66,7 +69,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "148-entry complete immutable tree; 11/11 ten CSV plus unchanged validator file SHAs matched GitHub tree. Independent JS structural checks 0 errors. Actual Node CLI NOT run; research_only, no clinical, source rights, legal, full PDF or live URL certification.",
+  "validated_data_commit_note": "Immutable Team B data f2c23da058a350bbbec68a04dc1d481ec29a1022 root tree 374304961a4f14ac85638349937672ce9b6139cd (151 entries, nontruncated). Exact direct 11/11 CSV+validator GitHub blob SHA/tree matches, independent JS structural errors zero; actual Node CLI NOT RUN because checkout GitHub DNS failed. No clinical, legal, licensing, fulltext, live-link or completeness approval.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -154,29 +157,30 @@
     }
   ],
   "readback_validation": {
-    "batch": "81",
-    "sha": "a466eee9e43799b4e90d07e8f1c9a8370ea33742",
-    "tree_sha": "d38210fd8e9a431ae03dc5929127e1bdedba71c2",
-    "tree_entries": 147,
+    "batch": "83",
+    "sha": "f2c23da058a350bbbec68a04dc1d481ec29a1022",
+    "tree_sha": "374304961a4f14ac85638349937672ce9b6139cd",
+    "tree_entries": 151,
     "truncated": false,
     "files": 11,
     "exact_matches": 11,
     "local_hash_matches": null,
     "structural_errors": 0,
     "node_cli_run_this_batch": false,
-    "notes": "Independent JavaScript validator reimplementation, not actual Node CLI; full text, legal, clinical and rights unreviewed. All new release states research_lead_only."
+    "notes": "Independent JavaScript structural checks, not the actual Node CLI. All 415 contexts research_lead_only, zero approvals; full text, legal, rights and medical review not done."
   },
-  "previous_independently_verified_data_commit": "4a782e09f3505bc6acfcee48182760ca9b87d49c",
+  "previous_independently_verified_data_commit": "f652332c046aaae9f204496dff9fa9529acdf1c6",
   "session_additions": {
-    "organizations": 1,
-    "resources": 3,
-    "positive_cells": 3,
-    "provenance": 6,
-    "searches": 3,
+    "organizations": 2,
+    "resources": 1,
+    "positive_cells": 1,
+    "bounded_no_source_cells": 3,
+    "previously_untouched_cells_targeted": 4,
+    "provenance": 4,
+    "searches": 4,
     "community": 0,
     "cross_border": 0,
-    "previously_untouched_cells_targeted": 2,
-    "previously_bounded_cells_converted_to_positive": 1
+    "issuer_imprints_resolved": 0
   },
   "session_receipts": {
     "37": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
@@ -205,11 +209,11 @@
     "78": "6f1710c0fe00b1dc3fe8251111141e9f4175ae3f"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "248×7 structurally complete; 1191 untouched and 171 bounded unlinked; substantive research incomplete",
-    "source_population_jurisdiction": "410 exact contexts with issuer, author/publisher, domicile, study population and jurisdiction separated; five unresolved imprints; signed 2016 PTR gout review not current guideline",
-    "disease_subtypes_and_release": "410/410 research_lead_only, zero clinical approvals; FH/LDL, gout/urate, hemochromatosis/ferritin, lactose genotype/symptoms, coeliac HLA/diagnosis separate",
-    "official_sites_publication_lists_and_lifecycle": "21 local identity gaps; 2026 PTD indexed but no full clinical PDF appraisal, 2016 PTR gout bulletin visual 502 and historic; previous Bangladesh and Nepal/Croatia conflicts remain",
-    "diversity_examples": "14 anti-overgeneralization examples, 10 community/subnational, eight cross-border; rights and consent not reviewed"
+    "m49_area_condition_roster": "248x7 structurally complete, 379 research links, 174 bounded and 1183 untouched: substantive study incomplete",
+    "source_population_jurisdiction": "415 exact research-only source/context relationships with issuer vs speaker vs host distinguished; 5 unresolved original document-country imprints",
+    "disease_subtypes_and_release": "415/415 research_lead_only, 0 clinical approvals; phenotype vs genotype, serum urate vs gout, ferritin vs haemochromatosis and HLA vs celiac diagnosis distinct",
+    "official_sites_publication_lists_and_lifecycle": "Peru SPR programme 2025 visually verified p.5 but not talk delivered; Indonesia PGI identity established; 21 domicile gaps and external original-title checks remain",
+    "diversity_examples": "14 geographic anti-overgeneralization examples, 10 community/subnational, eight cross-border; governance, reuse consent and legal rights not reviewed"
   },
   "batch40_sources": [
     {
@@ -2648,6 +2652,44 @@
       "org_id": "B-DK-HF",
       "url": "https://hjerteforeningen.dk/artikler/alle-artikler/nye-anbefalinger-for-forhoejet-kolesterol/",
       "caveat": "2026 named editorial discussing separate ESC guidance, not original issuer"
+    }
+  ],
+  "batch83_sources": [
+    {
+      "area_m49": "604",
+      "condition": "gout",
+      "url": "https://socreuma.org.pe/new/_recursos/eventos/archivos/202506201252189886.pdf",
+      "verification": "society original course-programme PDF p.5 visually checked, named scheduled lecturer Dr Elmer García Salazar, not guideline or outcome"
+    },
+    {
+      "area_m49": "360",
+      "identity": "B-ID-PGI",
+      "url": "https://pbpgigastro.com/tentang-kami/",
+      "verification": "Indonesian first-party society history plus Jakarta secretariat"
+    },
+    {
+      "area_m49": "604",
+      "identity": "B-PE-SPR",
+      "url": "https://socreuma.org.pe/new/",
+      "verification": "society current site and 2025 PDF Lima office"
+    },
+    {
+      "area_m49": "356",
+      "condition": "lactose",
+      "url": "https://www.isg.org.in/master-class",
+      "verification": "bounded index search no attributable condition item"
+    },
+    {
+      "area_m49": "360",
+      "condition": "celiac",
+      "url": "https://pbpgigastro.com/pedoman/konsensus/",
+      "verification": "bounded original Indonesian consensus index search, no eligible exact title"
+    },
+    {
+      "area_m49": "818",
+      "condition": "gout",
+      "url": "https://egysir.org/",
+      "verification": "bounded society site; 2022 separately authored journal consensus not assigned society provenance"
     }
   ]
 }
