@@ -5,18 +5,18 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "44b39bec2ee094c3b10303e6f841e5996bc6fe84",
-  "batch": "72-8967",
+  "validated_data_commit": "06a10f43633536f04d557e1b07287f2ed45d24bd",
+  "batch": "73-0712",
   "metrics": {
-    "organizations": 466,
+    "organizations": 469,
     "areas": 227,
-    "resources": 381,
-    "positive": 347,
-    "without_linked_source": 1389,
-    "targeted_no_source": 160,
-    "unresearched": 1229,
-    "provenance": 1036,
-    "search_log": 598,
+    "resources": 383,
+    "positive": 349,
+    "without_linked_source": 1387,
+    "targeted_no_source": 164,
+    "unresearched": 1223,
+    "provenance": 1045,
+    "search_log": 604,
     "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
@@ -26,26 +26,30 @@
       "hypertension": 64,
       "high_chol": 41,
       "gout": 37,
-      "lactose": 30,
-      "celiac": 46,
+      "lactose": 31,
+      "celiac": 47,
       "hemochromatosis": 24
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organizations": 7,
-    "resources": 4,
-    "documented_searches": 15,
-    "provenance": 28,
-    "concurrent_work_included_in_metrics": true
+    "organizations": 3,
+    "resources": 2,
+    "positive_cells": 2,
+    "bounded_no_source_cells": 4,
+    "previously_untouched_cells_targeted": 6,
+    "provenance": 9,
+    "searches": 6
   },
-  "validation_runtime": "actual_Node_v24.22.1_CLI_each_batch_plus_immutable_readback_and_final_local_Git_blob_hashes",
-  "node_cli_run": true,
+  "validation_runtime": "in_memory_JS_structural_equivalent_and_immutable_11_of_11_local_Git_SHA1_readback_Node_not_run_this_batch",
+  "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Verify live branch and reconcile concurrent session before writes",
-    "Sri Lanka144, Bangladesh050, Nepal524 lactose first-party discovery",
-    "Continue1229 untouched cells,21 domicile gaps and5 original issuer-country uncertainties"
+    "Continue 1223 untouched condition-area cells",
+    "Trace original BGS member thesis documents and issuers; avoid population claims",
+    "Review SLSG and NSG society lactose/celiac catalogues, NSG 403 issue",
+    "Address 21 local domicile identity gaps and five original document issuer-country uncertainties",
+    "Maintain Team A/C/D and issue #27 scope and rights caveats"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -147,15 +151,18 @@
     }
   ],
   "readback_validation": {
-    "batch": "final-snapshot-8967",
-    "sha": "44b39bec2ee094c3b10303e6f841e5996bc6fe84",
+    "batch": "73-0712",
+    "sha": "06a10f43633536f04d557e1b07287f2ed45d24bd",
+    "tree_sha": "7330075f63611174146feef490833c059d2e3535",
     "tree_entries": 145,
     "truncated": false,
     "files": 11,
     "exact_matches": 11,
-    "local_hash_matches": 11
+    "local_hash_matches": 11,
+    "structural_errors": 0,
+    "node_cli_run_this_batch": false
   },
-  "previous_independently_verified_data_commit": "73e73c6c2fab15c9ca370d1307e9819005df92c0",
+  "previous_independently_verified_data_commit": "44b39bec2ee094c3b10303e6f841e5996bc6fe84",
   "session_additions": {
     "organizations": 7,
     "resources": 12,
@@ -606,7 +613,7 @@
       "verification": "first-party search-index snapshot, live homepage timed out; historic first-party publisher imprint and IDF membership corroboration; issue 131 date not inspected"
     }
   ],
-  "exact_continuation_prompt": "Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71.\n\nRead `docs/atlas/handoffs/team-b/CONTINUE.md` on branch `research/atlas-team-b-20261104`.\n\nVerify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, source caveats, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.\n\nIf unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again.",
+  "exact_continuation_prompt": "Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71.\n\nRead `docs/atlas/handoffs/team-b/CONTINUE.md` on branch `research/atlas-team-b-20261104`, including its latest checkpoint and original acceptance criteria.\n\nVerify live GitHub state and continue autonomously, prioritizing untouched condition-area cells, missing organizations, source attribution, and research gaps. Preserve existing research, evidence caveats, and scope. Reconcile concurrent changes safely; commit, run validation, and verify readbacks regularly. Modify only Team B's research directory. Do not modify the public website, main, or other teams; do not merge the PR or approve clinical claims.\n\nIf unfinished, save a complete standalone GitHub checkpoint. End with a concise status, this same reusable continuation prompt, and updated visual progress bars for geographic organization coverage and source-positive condition-area coverage, including remaining gaps.",
   "batch52_checkpoint_meta": {
     "validated_data_commit": "8b9e9cad1e3f57b7b00167f5fc38d9ad56b076b4",
     "metrics": {
@@ -802,7 +809,7 @@
     "B-NZ-CNZ-CELIAC-SEARCH-B57",
     "B-NZ-HFNZ-HT-SEARCH-B57"
   ],
-  "continuation_prompt": "Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71.\n\nRead `docs/atlas/handoffs/team-b/CONTINUE.md` on branch `research/atlas-team-b-20261104`.\n\nVerify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, source caveats, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.\n\nIf unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again.",
+  "continuation_prompt": "Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71.\n\nRead `docs/atlas/handoffs/team-b/CONTINUE.md` on branch `research/atlas-team-b-20261104`, including its latest checkpoint and original acceptance criteria.\n\nVerify live GitHub state and continue autonomously, prioritizing untouched condition-area cells, missing organizations, source attribution, and research gaps. Preserve existing research, evidence caveats, and scope. Reconcile concurrent changes safely; commit, run validation, and verify readbacks regularly. Modify only Team B's research directory. Do not modify the public website, main, or other teams; do not merge the PR or approve clinical claims.\n\nIf unfinished, save a complete standalone GitHub checkpoint. End with a concise status, this same reusable continuation prompt, and updated visual progress bars for geographic organization coverage and source-positive condition-area coverage, including remaining gaps.",
   "previous_checkpoint_data_commit": "fa906311bc395a0b4cffdf5dc4178909bf692ff1",
   "batch57_validated_data_commit_note": "**Immutable batch-57 data validation:** [commit `ba8a51b930f47a5aa5d1b744885c64f658599873`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/ba8a51b930f47a5aa5d1b744885c64f658599873) has an independently refetched **145-entry, nontruncated** Git tree `285e771ae15dd6098a4ba611049428220e32afb6`. All **11/11** GitHub-reported tree blob SHAs matched fresh reads of the ten CSVs and unchanged `validate.mjs`. An independently implemented JavaScript structural validator checked CSV widths, ID uniqueness, 248 × 7 geography, exact organization/condition/URL attribution, research-only release states, provenance, issuer-country basis, search joins, seven community and eight cross-border records and found **0 errors**. **Node CLI not executed** in this batch because the environment could not resolve github.com for a checkout; historical actual Node receipts from batches 49–50 remain preserved. GitHub blob hashes were not recalculated locally. This is **not** a live-link census, original full-PDF review, licensing clearance, clinical or epidemiological appraisal, current-guideline certification, or full-world-completeness approval. On initial check, the Population Phase 1 workflow was successful and Calculator CI was still in progress; do not infer a later CI outcome.",
   "batch58_sources": [
@@ -1904,5 +1911,30 @@
     "files": 11,
     "exact_matches": 11,
     "local_hash_matches": 11
+  },
+  "batch73_0712": {
+    "data_commit": "06a10f43633536f04d557e1b07287f2ed45d24bd",
+    "date": "2026-11-06",
+    "organizations": [
+      "B-BD-BGS",
+      "B-LK-SLSG",
+      "B-NP-NSG"
+    ],
+    "positive_cells": [
+      "050:lactose",
+      "050:celiac"
+    ],
+    "bounded_cells": [
+      "144:lactose",
+      "144:celiac",
+      "524:lactose",
+      "524:celiac"
+    ],
+    "caveats": [
+      "BGS index is not original thesis or endorsement",
+      "SLSG knowledge-base check bounded, not national absence",
+      "NSG own indexed page but direct HTTP403; original resources not verified"
+    ],
+    "local_node_cli_this_batch": false
   }
 }

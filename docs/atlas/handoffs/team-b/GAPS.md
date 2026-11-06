@@ -1,3 +1,14 @@
+## Batch 73-0712 targeted gaps · 2026-11-06
+
+**Remaining:** 1,223 untouched cells; 164 bounded without verified sources; 21 domicile identity gaps; 5 original issuer-country unknowns. Bounded unsuccessful research is never proof of national absence.
+
+- Bangladesh 050 lactose/celiac: BGS member-thesis titles found, but original theses, awarding institutions, dates, population denominators and any peer-reviewed source remain unverified. Original host/publisher/author are distinct.
+- Sri Lanka 144 lactose/celiac: SLSG society knowledge-base catalogue has no exact titles in bounded review; local-language academic and society sources remain.
+- Nepal 524 lactose/celiac: NSG downloads index is visible to search engines, but direct originals return 403. Catalogue cannot establish exact publication or copyright status; continue lawful verification.
+- Clinical, copyright/licensing, original edition, and author/issuer verification are not approved. Preserve all prior gap documentation and caveats below.
+
+---
+
 ## Current gaps after run8967
 
 # Team B standalone continuation — five batches 68-8967 through 72-8967

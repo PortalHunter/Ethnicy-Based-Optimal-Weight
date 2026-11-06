@@ -1,3 +1,13 @@
+## Batch 73-0712 · immutable data audit (November 6, 2026)
+
+[Immutable data commit 06a10f43633536f04d557e1b07287f2ed45d24bd](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/06a10f43633536f04d557e1b07287f2ed45d24bd) was read back: all ten Team B CSVs and unchanged validator matched a complete 145-entry nontruncated Git tree; **11/11** independently computed local UTF-8 Git blob SHA-1 hashes matched GitHub's file and tree SHAs. Git tree for this data commit: `7330075f63611174146feef490833c059d2e3535`. Precommit independent JavaScript structural join/CSV/state checks returned **0 errors**. **Actual Node CLI not run for this batch** (github.com DNS failed for checkout); older Node validation receipts remain historical, not a new run. Structural/provenance validation does NOT certify medical reliability, current full text, copyright, clinical claims, source accuracy or global completeness.
+
+**Structural prepublication checks:** all 248 M49×7 condition rows; exact organization and resource/context joins, URL-linked provenance, distinct original issuer and org domicile, research-only release states, unique IDs, CSV widths/quoting, six coverage-search joins, original 8 cross-border edges and 10 community records. Original data entries outside six targeted coverage rows were retained byte-for-byte. Actual local Node execution was NOT performed in this batch; prior Node receipts must not be misrepresented as current.
+
+469 organizations / 227 of 248 M49 domiciles (21 locally domiciled identity gaps); 349/1736 source-positive condition cells, 164 bounded no-resource searches, 1223 untouched, 1387 source-unlinked; 383 research-only exact resources; 1045 provenance rows, 604 condition-search rows; 10 subnational/community records, 8 cross-border edges, 5 original-document issuer-country unknowns. All links research_lead_only, zero approved clinical claims.
+
+---
+
 # Team B standalone continuation — five batches 68-8967 through 72-8967
 
 **INCOMPLETE · DRAFT · OPEN · UNMERGED · RESEARCH LEADS ONLY.** Checked 2026-11-06 UTC (November 6 Central). This run completed five research batches, using suffix8967 to avoid collisions with a concurrent session. Seven new organizations, four exact resources and fifteen documented condition checks came from this run; concurrent branch contributions were preserved separately.
