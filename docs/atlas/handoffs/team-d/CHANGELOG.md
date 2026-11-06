@@ -1,3 +1,12 @@
+## 2026-11-06 — Batch 31 national NCA agency-role evidence and regression
+
+- Data commit [`aaf7bf5603a6f97615a69c645d9a98d34932d529`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/aaf7bf5603a6f97615a69c645d9a98d34932d529) adds **9** source-qualified agency remit statements across **4** exact existing EMA NCA candidate rows, without asserting national consolidated statutes or Team A joins.
+- Provenance/validator commit [`4cf2910e756a2fad4baff32c2b5dd0060e41c67f`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/4cf2910e756a2fad4baff32c2b5dd0060e41c67f) adds **6** direct official HTML sources TD-SRC-218–223 (**223** total unique URLs) and strict NCA/role/source/date/identity-preservation checks to `validate.mjs`.
+- Entire current checked-in structural validator **PASS in read-only JavaScript V8 replay: 11,598 assertions / 39 GitHub source dependencies (29 complete PR patches + 10 direct files)**. Not native Node, GitHub Actions, legal, scientific, or clinical approval. Existing network, office, historic and WHO region records preserved. [Batch 31 standalone checkpoint](CHECKPOINT_BATCH_31_2026-11-06.md).
+- Documentation/handoff commit is subsequent to validation; all writes restricted to `docs/atlas/handoffs/team-d/`; PR remains DRAFT/UNMERGED and no website change.
+
+---
+
 ## 2026-11-05 — Batch 29: EMA/Commission authorisation role separation
 
 - [`5690bcf`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/5690bcfb99ed123c0a12a010be6a05b088ad44f0): added `data/ema_authorisation_role_boundaries_2026.csv`, **11** dated-as-checked role-source observations; intentionally no inferred NCA legal remits, national medication approvals or new graph authority links.
