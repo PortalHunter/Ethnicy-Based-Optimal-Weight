@@ -1,3 +1,9 @@
+## CURRENT — Team A Batch45, 2026-11-06 (supersedes historical counts below)
+
+**Open draft PR #68, unmerged; original acceptance INCOMPLETE.** 248 official geographic rows / 231 provisional government authority identity areas / 17 documented unknown; 318 bodies / 45 relationships / 4 shared scope maps / 248 area reviews / **669 provenance**. Exact data commit `8e0b80be4a7af565758b5c4f2ba9eb3f6cd29dba`. [Standalone checkpoint](CHECKPOINT_20261106_BATCH45.md) · [QA](QA_BATCH45_20261106.json) · [source review](source_recovery/CYCLE_226_JUNE_DECREE_OCT_CONFLICT_20261106.md). Batch45 added four 226 original presidential law, appointment and later government conflict/prospective transfer checks; 226 **still UNKNOWN**, no promotion. All original limitations preserved. Independent eight-CSV structural QA **PASS**, actual Python/unit tests **NOT RUN Batch45** due GitHub checkout DNS; legal and clinical acceptance **not measured**. Only Team A folder changed; never merge/ready/website/main/other teams.
+
+---
+
 ## CURRENT — Team A Batch42 (2026-11-06 UTC)
 
 **OPEN DRAFT PR #68, UNMERGED — original acceptance INCOMPLETE.** Latest immutable DATA: `2970560f8789ed73cf60c4658a60f93ae21e9881`. [Full standalone checkpoint](CHECKPOINT_20261106_BATCH42.md) · [QA](QA_BATCH42_20261106.json) · [CONTINUE](CONTINUE.md).
