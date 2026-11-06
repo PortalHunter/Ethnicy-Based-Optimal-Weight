@@ -1,3 +1,13 @@
+## 2026-11-06 — Team A Batch50: signed 2023 DOI monument successor and Kingman primary-source reconciliation
+
+- Verified live PR #68 OPEN DRAFT/UNMERGED and branch; directly re-opened original Team A governmental-census assignment.
+- Recovered original signed DOI Kingman SO3223 (2001) with residual Navy proviso; 2016 SO3284 A1 intermediate; original four-page signed SO3284 A2 (September 11 2023) updating archived 2009 original; DOI Kingman explanatory-page Navy jurisdiction conflict remains. All same DOI issuer family; health/worker/medicines mandates not inferred. New full source-specific note: [CYCLE_581_DOI_3284_A2_2023_KINGMAN_20261106.md](source_recovery/CYCLE_581_DOI_3284_A2_2023_KINGMAN_20261106.md).
+- Three data commits: `c732ef2c84fae567ae667ab1988b31d204176253` source note, `9b7344a84d23e74f92bd9ad8b9fcc4a3c8206b6e` four provenance source states, `5a9336d6e8d36bcd99a4193090b4427a60d2af29` M49 581 UNKNOWN audit addenda. Four source IDs A50-581-01..04; preserve 680 previous entries and all 16 other UNKNOWN audit rows.
+- Eight-CSV independent immutable quote-aware structural QA **PASS** at DATA SHA `5a9336d6e8d36bcd99a4193090b4427a60d2af29`; QA commit `83e3b9d03d53da70b2191d22aecdf7d16b6da0dd`. Counts: 248 official M49 skeletons, 231 provisional identities, 17 unknown, 318 bodies, 45 sourced relations, four shared scopes, 248 reviews, 684 observations. Only three Team A data paths changed; all writes/readbacks exact.
+- Complete standalone [Batch50 checkpoint](CHECKPOINT_20261106_BATCH50.md) committed `730b59ec2f018c3bbae3a538eb661bb659f7f814`. Direct original assignment opened; all 17 unknown exact logical audits and next steps included. Actual Python validator/five unittests **NOT RUN Batch50** (local github.com DNS); last actual Batch41. Comprehensive current enacted mandate/independent issuers not measured or approved; PR stays draft/unmerged, Team A-only scope.
+
+---
+
 ## 2026-11-06 — Batch49: Palmyra original nine-exclusion split and archived island monument-order evidence
 
 - Original 2001 DOI SO3224 PDF pages 1–2 visually checked; nine excluded *tidal/submerged land* circles exclude water above and remain with OIA pending written FWS acceptance. DOI OIA self-published *Current Jurisdiction* page describes the same split without supplying signed current acceptance; same DOI issuer, not independent government issuance.
