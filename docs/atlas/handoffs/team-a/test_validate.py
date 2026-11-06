@@ -107,5 +107,16 @@ class CensusScopeValidation(unittest.TestCase):
             self.verify()
 
 
+    def test_historical_repealed_body_not_current_link(self):
+        def corrupt(rows):
+            for row in rows:
+                if row["m49_code"] == "020":
+                    row["authority_record_ids"] += ";gov-020-003"
+            return rows
+        self.rewrite("data/countries.csv", corrupt)
+        with self.assertRaisesRegex(AssertionError, "Historical body linked as current authority"):
+            self.verify()
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -90,6 +90,8 @@ def verify():
         links = [x for x in c["authority_record_ids"].split(";") if x]
         for body_id in links:
             assert body_id in bodies_by_id, f"Unmapped body ID {body_id}"
+            assert not bodies_by_id[body_id]["current_status"].startswith("FORMER_"), (
+                f"Historical body linked as current authority: {body_id}")
             assert (bodies_by_id[body_id]["area_m49"] == c["m49_code"]
                     or (body_id, c["m49_code"]) in scope_keys), (
                 f"Cross-area body ID mismatch: {body_id}")
