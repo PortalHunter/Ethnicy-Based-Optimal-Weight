@@ -1,3 +1,13 @@
+# Team B changelog — batch 57 — 2026-11-05
+
+- Added exact first-party lipid research/education lead in Germany (276), historical French gout professional recommendations index (250), undated NZ coeliac diagnostic/regional pathway educational lead (554) and dated 2026-05-01 Heart Foundation NZ hypertension-awareness release (554).
+- Added **B-DE-DGFL** and **B-FR-SFR**, both verified from official original-language society legal/identity pages; +2 identities, +4 source-positive cells, +4 resource/context, +6 provenance, +4 logged searches.
+- Retained all prior 14 diversity examples, 7 community and 8 cross-border records, five unknown original document issuer countries, historic society lifecycle distinctions and **research_lead_only** status throughout.
+- Commit [`ba8a51b930f47a5aa5d1b744885c64f658599873`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/ba8a51b930f47a5aa5d1b744885c64f658599873) contains the six Team-B-only changed CSVs. Complete tree, 11/11 immutable SHA readbacks and independent zero-error structural cross-check documented. Node CLI not run in batch 57; clinical/rights audit not performed.
+- Prepared standalone restart in `CONTINUE.md`, `CHECKPOINT.json`, `STATUS.md`, `GAPS.md` and `VALIDATION.md`; PR #71 remains draft and unmerged. No public website/main/other-team code modified.
+
+---
+
 # Team B changelog — batch 56 — 2026-11-05
 
 **INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.** **415** locally indexed organizations in **227/248** UN M49 areas (21 domiciled identity gaps). Of 1,736 condition cells, **288** link at least one research source, **139** have bounded no-eligible-resource searches and **1,309** have not been condition-targeted (**1,448** without linked sources). **314** exact resource/context rows, **862** provenance, **503** searches, **7** community-subnational and **8** cross-border records, **5** unresolved original-document issuer countries. **314/314 research_lead_only; 0 approved clinical claims.**

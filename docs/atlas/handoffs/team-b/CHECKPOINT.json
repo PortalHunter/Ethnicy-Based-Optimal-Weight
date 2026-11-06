@@ -5,29 +5,29 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "3063c15e03e7e46e4aeb6f1316a35afe0b954d0b",
-  "batch": 56,
+  "validated_data_commit": "ba8a51b930f47a5aa5d1b744885c64f658599873",
+  "batch": 57,
   "metrics": {
-    "organizations": 415,
+    "organizations": 417,
     "areas": 227,
-    "resources": 314,
-    "positive": 288,
-    "without_linked_source": 1448,
+    "resources": 318,
+    "positive": 292,
+    "without_linked_source": 1444,
     "targeted_no_source": 139,
-    "unresearched": 1309,
-    "provenance": 862,
-    "search_log": 503,
+    "unresearched": 1305,
+    "provenance": 868,
+    "search_log": 507,
     "community": 7,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
     "issuer_country_differs_from_domicile": 28,
     "by_condition": {
       "diabetes": 100,
-      "hypertension": 55,
-      "high_chol": 35,
-      "gout": 26,
+      "hypertension": 56,
+      "high_chol": 36,
+      "gout": 27,
       "lactose": 18,
-      "celiac": 34,
+      "celiac": 35,
       "hemochromatosis": 20
     },
     "current_unsd_overview_codes": 248
@@ -35,24 +35,26 @@
   "run_additions": {
     "organization_identities": 2,
     "new_domiciled_areas": 0,
-    "resource_relationships": 3,
-    "source_positive_cells": 3,
-    "provenance_rows": 5,
-    "search_log_rows": 3,
+    "resource_relationships": 4,
+    "source_positive_cells": 4,
+    "provenance_rows": 6,
+    "search_log_rows": 4,
     "community_records": 0,
     "cross_border_edges": 0,
     "issuer_country_resolved": 0
   },
-  "validation_runtime": "independent_precommit_js_structural_checks_and_github_immutable_tree_readback",
+  "validation_runtime": "independent_postcommit_js_structural_checks_and_11_of_11_immutable_github_tree_sha_readbacks",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "1309 untouched cells, 139 bounded no verified resource checks (not national absence)",
-    "21 local organization domicile gaps, five unverified document publisher countries",
-    "MoPoTsyo Q3 2026 explicit Sep 30 cessation of direct RDF/lab/consultation services despite stale undated homepage",
-    "Singapore SHS external PDF authorship and March 2026 governance list historical",
-    "Vietnam 2024 only some VSH/VNHA experts' consensus, 2022 link 404, full attached document unappraised",
-    "14 diversity examples, 7 community, 8 cross-border; zero clinical release"
+    "1,305 untouched cells and 139 scoped no verified source searches (not evidence of national absence)",
+    "21 domiciled identity gaps, 5 unresolved original-document issuer imprints",
+    "German DGFL 2024 renamed from DGFF and undated lipid page cites external ESC/EAS 2019 work",
+    "French SFR 2021 index item references original 2020 gout recommendations; original not appraised",
+    "Coeliac NZ child pathway historical Auckland regional only, HLA positive not disease",
+    "Heart Foundation NZ May 2026 hypertension press counts not original audited epidemiology",
+    "MoPoTsyo Sep 2026 RDF/labs/consultation phaseout, SHS historical council, VSH 2024 limited expert claim",
+    "14 diversity examples, seven community cases, eight cross-border edges, zero clinical release"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -66,7 +68,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "**Immutable batch-56 data validation:** [commit `3063c15e03e7e46e4aeb6f1316a35afe0b954d0b`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/3063c15e03e7e46e4aeb6f1316a35afe0b954d0b) has a complete **145-entry nontruncated GitHub tree**; all **11/11** refetched ten CSV inputs plus unchanged `validate.mjs` GitHub blob SHA values match tree entries. Independent JavaScript precommit structural checks found **zero errors** across CSV widths, IDs, 248 × 7 geographic rows, exact publication/context/provenance attribution, source-country and domicile, exact search coverage, seven community and eight cross-border records. **Node CLI not run** (local github.com checkout DNS unavailable); batches 49–50 retain historical actual Node receipts. Hashes were GitHub-reported, not independently recalculated; **no comprehensive live-link review, original PDF appraisal, clinical recommendations, rights/licensing clearance, source-currency or completion certification** was made.",
+  "validated_data_commit_note": "**Immutable batch-57 data validation:** [commit `ba8a51b930f47a5aa5d1b744885c64f658599873`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/ba8a51b930f47a5aa5d1b744885c64f658599873) has an independently refetched **145-entry, nontruncated** Git tree `285e771ae15dd6098a4ba611049428220e32afb6`. All **11/11** GitHub-reported tree blob SHAs matched fresh reads of the ten CSVs and unchanged `validate.mjs`. An independently implemented JavaScript structural validator checked CSV widths, ID uniqueness, 248 × 7 geography, exact organization/condition/URL attribution, research-only release states, provenance, issuer-country basis, search joins, seven community and eight cross-border records and found **0 errors**. **Node CLI not executed** in this batch because the environment could not resolve github.com for a checkout; historical actual Node receipts from batches 49–50 remain preserved. GitHub blob hashes were not recalculated locally. This is **not** a live-link census, original full-PDF review, licensing clearance, clinical or epidemiological appraisal, current-guideline certification, or full-world-completeness approval. On initial check, the Population Phase 1 workflow was successful and Calculator CI was still in progress; do not infer a later CI outcome.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -155,8 +157,8 @@
   ],
   "readback_validation": {
     "status": "passed",
-    "verified_data_sha": "3063c15e03e7e46e4aeb6f1316a35afe0b954d0b",
-    "tree_sha": "880af5ad2e99fe35d4c523f790802c77e71ba472",
+    "verified_data_sha": "ba8a51b930f47a5aa5d1b744885c64f658599873",
+    "tree_sha": "285e771ae15dd6098a4ba611049428220e32afb6",
     "tree_truncated": false,
     "tree_items": 145,
     "files_matched": 11,
@@ -164,7 +166,13 @@
     "validation_runtime": "independent_precommit_js_structural_checks_and_github_immutable_tree_readback",
     "node_cli_run": false,
     "structural_errors": 0,
-    "scope": "All 10 CSVs and unchanged validator independently refetched at immutable SHA; all 11 GitHub-reported blob SHAs match full tree. Independent JS precommit structural checks 0 errors. No actual Node CLI, clinical, source-current edition or rights approval."
+    "scope": "All 10 CSVs and unchanged validator independently refetched at immutable SHA; all 11 GitHub-reported blob SHAs match full tree. Independent JS precommit structural checks 0 errors. No actual Node CLI, clinical, source-current edition or rights approval.",
+    "tree_entry_count": 145,
+    "files_checked": 11,
+    "matching_github_tree_blob_shas": 11,
+    "independent_structural_errors": 0,
+    "clinical_approval": false,
+    "notes": "GitHub-reported blob SHAs and independent JS structural checks only; no local Node CLI/full original PDF/rights/clinical appraisal. CI initially population regression succeeded, calculator in progress."
   },
   "previous_independently_verified_data_commit": "f3def656d0087261ea5a6356269603e8e7a4a876",
   "session_additions": {
@@ -768,5 +776,44 @@
     "B-SG-SHS-HT-SEARCH-B56",
     "B-VN-VSH-HT-SEARCH-B56",
     "B-KH-MOPOTSYO-HT-SEARCH-B56"
-  ]
+  ],
+  "batch57_sources": [
+    {
+      "org_id": "B-DE-DGFL",
+      "area_m49": "276",
+      "condition": "high_chol",
+      "source_url": "https://www.lipid-liga.de/empfehlungen/",
+      "identity_url": "https://www.lipid-liga.de/ueber-uns/",
+      "limitation": "Society site undated; cites external ESC/EAS 2019; 2024 DGFF rename; no current original directive or clinical approval"
+    },
+    {
+      "org_id": "B-FR-SFR",
+      "area_m49": "250",
+      "condition": "gout",
+      "source_url": "https://www.larhumatologie.fr/pathologie/goutte/",
+      "identity_url": "https://www.larhumatologie.fr/mentions-legales/",
+      "limitation": "2021 index item references 2020 gout guidelines, not 2026 update; original full text and rights unreviewed"
+    },
+    {
+      "org_id": "B-NZ-CNZ",
+      "area_m49": "554",
+      "condition": "celiac",
+      "source_url": "https://coeliac.org.nz/diagnosis-information/",
+      "limitation": "Undated page; child pathway limited to historical named Auckland DHB jurisdictions; HLA predisposition not diagnosis"
+    },
+    {
+      "org_id": "B-NZ-HFNZ",
+      "area_m49": "554",
+      "condition": "hypertension",
+      "source_url": "https://www.heartfoundation.org.nz/about-us/news/media-releases/high-blood-pressure-a-silent-killer-get-your-numbers-checked",
+      "limitation": "2026-05-01 media release, estimates not independently original-study verified, no clinical guideline"
+    }
+  ],
+  "batch57_added_search_ids": [
+    "B-DE-DGFL-LIPID-SEARCH-B57",
+    "B-FR-SFR-GOUT-SEARCH-B57",
+    "B-NZ-CNZ-CELIAC-SEARCH-B57",
+    "B-NZ-HFNZ-HT-SEARCH-B57"
+  ],
+  "continuation_prompt": "Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71.\n\nRead `docs/atlas/handoffs/team-b/CONTINUE.md` on branch `research/atlas-team-b-20261104`.\n\nVerify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, source caveats, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.\n\nIf unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again."
 }
