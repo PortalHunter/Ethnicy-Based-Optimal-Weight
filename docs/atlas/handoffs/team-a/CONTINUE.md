@@ -1,3 +1,15 @@
+## CURRENT — Team A Batch46 (2026-11-06 UTC): official Equatorial Guinea BOE 114/2026 September source; legal acceptance still INCOMPLETE
+
+**OPEN DRAFT / UNMERGED PR #68.** [Complete standalone Batch46 recovery](CHECKPOINT_20261106_BATCH46.md) · [exact eight-CSV QA](QA_BATCH46_20261106.json) · [original September BOE source review](source_recovery/CYCLE_226_OFFICIAL_BOE_114_SEPTEMBER_20261106.md) · [original acceptance](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/TEAM_A_GOVERNMENT_CENSUS.md).
+
+**Immutable Batch46 DATA `72a427075275ff9925c9ef777e2552c47eb9a3ce`: 248/248 official M49 geography, 231/248 provisional governmental authority identity areas, 17/248 documented UNKNOWN, 318 bodies, 45 relationships, 4 shared scopes, 248 reviews, 670 provenance observations** (+1). ALL previous 669 sources and other 16 unknown audits exact preserved. Independent full eight-CSV structural QA PASS, only three Team A research file differences; actual Python validator and 5 unittest regressions **NOT RUN Batch46** (local GitHub DNS checkout failure; Batch41 last actual run). Enacted legal/clinical complete acceptance **NOT MEASURED or approved**.
+
+**226 new:** original scanned Sept 11 presidential **Decreto 114/2026** linked directly on Equatorial Guinea `boe.gob.gq`; verified visual page 3 item 15 uses `Ministerio de Sanidad e Infraestructuras Sanitarias`, item 18 separately `Ministerio de Igualdad de Género y Asuntos Sociales`. BOE hosting is distinct publishing route but same **Presidential issuing authority** as June, **not independent legal issuer**. **Not** original BOE publication proof for June Decreto Ley 02/2026. October longer health/social title, amendment and INSESO hospital transfer unresolved; **226 still UNKNOWN**.
+
+**NEXT:** authenticate BOE original 02/2026 issue/date, post-Sept legally effective ministerial amendments/implementation, separately issued INSESO transfer, digital verification of signed appointment; 744 current 747 original Norwegian effective law; 581 written Wake redelegations and eight other island rules; remaining 14 UNKNOWN areas and complete legal/regulator/devolution mapping of all 231 provisional identities. Preserve source/history, scope, no inferred parent. Only Team A directory; NO website/main/clinical/other teams; NEVER merge/mark ready. Save next complete checkpoint and repeat exact user prompt below, reproduced in Batch46 checkpoint.
+
+---
+
 ## CURRENT — Team A Batch45 (2026-11-06 UTC): original 226 decree and October portfolio conflict; original acceptance INCOMPLETE
 
 **PR #68 OPEN DRAFT/UNMERGED.** Read [complete standalone Batch45 checkpoint](CHECKPOINT_20261106_BATCH45.md), [eight-CSV immutable QA and hashes](QA_BATCH45_20261106.json), [226 original-language source-recovery review](source_recovery/CYCLE_226_JUNE_DECREE_OCT_CONFLICT_20261106.md), then Batch44/43/42/41 and [original assignment](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/TEAM_A_GOVERNMENT_CENSUS.md).
