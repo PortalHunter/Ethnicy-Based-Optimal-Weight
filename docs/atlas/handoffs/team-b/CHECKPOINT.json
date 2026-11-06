@@ -5,25 +5,25 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "128f18d7a620b34e0a9d2616cade46769c70606c",
-  "batch": "74-R738",
+  "validated_data_commit": "d5c9a35d2bceef8a3fea4c0a87c3483322229023",
+  "batch": "75-R808",
   "metrics": {
-    "organizations": 472,
+    "organizations": 474,
     "areas": 227,
-    "resources": 387,
-    "positive": 353,
-    "without_linked_source": 1383,
-    "targeted_no_source": 166,
-    "unresearched": 1217,
-    "provenance": 1055,
-    "search_log": 610,
+    "resources": 392,
+    "positive": 358,
+    "without_linked_source": 1378,
+    "targeted_no_source": 170,
+    "unresearched": 1208,
+    "provenance": 1064,
+    "search_log": 619,
     "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
     "issuer_country_differs_from_domicile": 28,
     "by_condition": {
-      "diabetes": 106,
-      "hypertension": 65,
+      "diabetes": 109,
+      "hypertension": 67,
       "high_chol": 42,
       "gout": 37,
       "lactose": 32,
@@ -33,24 +33,26 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organizations": 3,
-    "resources": 4,
-    "positive_cells": 4,
-    "bounded_no_source_cells": 2,
-    "previously_untouched_cells_targeted": 6,
-    "provenance": 10,
-    "searches": 6
+    "organizations": 2,
+    "resources": 5,
+    "positive_cells": 5,
+    "bounded_no_source_cells": 4,
+    "previously_untouched_cells_targeted": 9,
+    "provenance": 9,
+    "searches": 9
   },
-  "validation_runtime": "independent_JS_structural_audit_at_immutable_data_commit_Node_CLI_not_run",
+  "validation_runtime": "independent_JS_structural_precommit_and_immutable_readback_Node_CLI_not_run",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Prioritize 1217 untouched condition-area cells with original-language first-party evidence",
-    "Review Hong Kong diabetes/LDL educational numeric claims and BMI formula error without clinical approval",
-    "Verify 2019 HKNA/am730 author and 2026 joint HKNA/StartSmart original publisher/rights",
-    "Seek distinct HKSGE celiac and hereditary iron originals beyond bounded catalogues",
-    "Resolve 21 local domicile organization gaps, five issuer-country unknowns and licensing/edition/attribution audits",
-    "Preserve teams A C D and issue 27 scope; no public site/formula or main changes"
+    "Research 1208 untouched condition-area cells with first-party original-language exact links",
+    "Resolve 21 locally domiciled organization identity gaps without counting cross-border organizations as local",
+    "Audit original document issuers and dates for Cameroon SCC ten recommendations and remaining five unknown imprints",
+    "Review Fiji 2024/2025 screening event history and diabetes numeric assertions without approving medical claims",
+    "Verify Dominican SODENN historical/current board, Codigo Azul legislative status and distinct original condition sources",
+    "Revisit 170 bounded no-resource checks as scoped navigation outcomes, not national absences",
+    "Review original PDF/fulltext, study populations, source publication rights and clinical evidence separately",
+    "Preserve Team A government, C journals, D international networks and issue27 claim review; never touch public website/main"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -64,7 +66,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Immutable combined snapshot independently fetched11/11 files, equal tree/blob and local Git hashes; actual Node zero errors. Includes preserved concurrent research. Check final CI independently.",
+  "validated_data_commit_note": "Immutable 145-entry nontruncated Git tree, 11/11 GitHub file-SHA/tree-entry matches; independent JavaScript structural/attribution checks zero errors. No fresh Node CLI or independently recomputed local Git blob hashes; not clinical, legal, original-fulltext or rights approval.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -152,16 +154,17 @@
     }
   ],
   "readback_validation": {
-    "batch": "73-0712",
-    "sha": "06a10f43633536f04d557e1b07287f2ed45d24bd",
-    "tree_sha": "7330075f63611174146feef490833c059d2e3535",
+    "batch": "75-R808",
+    "sha": "d5c9a35d2bceef8a3fea4c0a87c3483322229023",
+    "tree_sha": "b61d369e852fcd67b008b3dc518e5ba7a360a350",
     "tree_entries": 145,
     "truncated": false,
     "files": 11,
     "exact_matches": 11,
-    "local_hash_matches": 11,
+    "local_hash_matches": null,
     "structural_errors": 0,
-    "node_cli_run_this_batch": false
+    "node_cli_run_this_batch": false,
+    "notes": "GitHub file SHA/tree matches and independent JS structural readback; local Git blob hash not recomputed; local Node checkout unavailable."
   },
   "previous_independently_verified_data_commit": "44b39bec2ee094c3b10303e6f841e5996bc6fe84",
   "session_additions": {
@@ -200,11 +203,11 @@
     "67": "6d5dc37241526f2cbc2657463819c481d625ae38"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "248x7 structurally complete;1254 untouched,147 bounded no-resource cells",
-    "source_population_jurisdiction": "368 exact contexts; five unresolved original-document issuer countries; field separation passes; full source appraisal incomplete",
-    "disease_subtypes_and_release": "368 research_lead_only; zero clinical claims approved",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete;21 domicile gaps; MCE/LÉOE continuity, Belgian HVV own access, source editions/rights/lifecycle remain open",
-    "diversity_examples": "14 original counterexamples retained;9 subnational/community rows including Flemish ReumaNet; eight cross-border edges unchanged"
+    "m49_area_condition_roster": "248 × 7 structurally complete; 1208 untouched and 170 bounded targeted no-source cells; not research acceptance-complete",
+    "source_population_jurisdiction": "392 exact research-only contexts with explicit fields; five unresolved document issuer-country imprints and original fulltext/rights/edition audit remaining",
+    "disease_subtypes_and_release": "392 research_lead_only, zero clinical approvals; blood pressure screening is not diagnosed hypertension; FH not generic cholesterol",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete; 21 local domicile identity gaps, Cameroon ten-recommendations original author/issuer, Fiji clinical assertions and Dominican 2023-25 vs newer leadership needs review",
+    "diversity_examples": "14 regional/national diversity counterexamples retained, 10 community/subnational rows, eight cross-border edges; no population-risk inference"
   },
   "batch40_sources": [
     {
@@ -2016,5 +2019,113 @@
       "node_cli_run_this_batch": false
     },
     "clinical_claims_approved": 0
+  },
+  "previous_readback_validation_before_batch75": {
+    "batch": "73-0712",
+    "sha": "06a10f43633536f04d557e1b07287f2ed45d24bd",
+    "tree_sha": "7330075f63611174146feef490833c059d2e3535",
+    "tree_entries": 145,
+    "truncated": false,
+    "files": 11,
+    "exact_matches": 11,
+    "local_hash_matches": 11,
+    "structural_errors": 0,
+    "node_cli_run_this_batch": false
+  },
+  "acceptance_review_before_batch75": {
+    "m49_area_condition_roster": "248x7 structurally complete;1254 untouched,147 bounded no-resource cells",
+    "source_population_jurisdiction": "368 exact contexts; five unresolved original-document issuer countries; field separation passes; full source appraisal incomplete",
+    "disease_subtypes_and_release": "368 research_lead_only; zero clinical claims approved",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete;21 domicile gaps; MCE/LÉOE continuity, Belgian HVV own access, source editions/rights/lifecycle remain open",
+    "diversity_examples": "14 original counterexamples retained;9 subnational/community rows including Flemish ReumaNet; eight cross-border edges unchanged"
+  },
+  "batch75_R808": {
+    "date": "2026-11-06",
+    "status": "incomplete_research_lead_only",
+    "data_commit": "d5c9a35d2bceef8a3fea4c0a87c3483322229023",
+    "tree_sha": "b61d369e852fcd67b008b3dc518e5ba7a360a350",
+    "metrics": {
+      "organizations": 474,
+      "areas": 227,
+      "resources": 392,
+      "positive": 358,
+      "without_linked_source": 1378,
+      "targeted_no_source": 170,
+      "unresearched": 1208,
+      "provenance": 1064,
+      "search_log": 619,
+      "community": 10,
+      "cross_border_edges": 8,
+      "issuer_country_unresolved": 5,
+      "issuer_country_differs_from_domicile": 28,
+      "by_condition": {
+        "diabetes": 109,
+        "hypertension": 67,
+        "high_chol": 42,
+        "gout": 37,
+        "lactose": 32,
+        "celiac": 47,
+        "hemochromatosis": 24
+      },
+      "current_unsd_overview_codes": 248
+    },
+    "run_additions": {
+      "organizations": 2,
+      "resources": 5,
+      "positive_cells": 5,
+      "bounded_no_source_cells": 4,
+      "previously_untouched_cells_targeted": 9,
+      "provenance": 9,
+      "searches": 9
+    },
+    "new_organization_ids": [
+      "B-CM-SCC",
+      "B-DO-SODENN"
+    ],
+    "existing_organization_corrob": [
+      "B-FJ-DF"
+    ],
+    "positive_cells": [
+      "120:diabetes",
+      "120:hypertension",
+      "242:diabetes",
+      "242:hypertension",
+      "214:diabetes"
+    ],
+    "bounded_cells": [
+      "120:high_chol",
+      "242:high_chol",
+      "214:high_chol",
+      "214:hypertension"
+    ],
+    "verified_first_party_sources": [
+      "https://www.sccardio.org/about",
+      "https://www.sccardio.org/pubdetail/2",
+      "https://www.sccardio.org/blog",
+      "https://diabetesfiji.com/about-us/",
+      "https://diabetesfiji.com/about-diabetes/risk-prevention/facts/",
+      "https://diabetesfiji.com/our-projects/1020-2/",
+      "https://sodenn.org/presentacion/",
+      "https://sodenn.org/",
+      "https://felaen.com/filiales/"
+    ],
+    "limitations": [
+      "Society catalogue host not original sole author or statutory guideline",
+      "Undated Fiji education numerical statements and diagnostics not clinically appraised",
+      "2025 posting of Fiji 2024 screening not survey or representative outcomes",
+      "SODENN proposed Codigo Azul law not enacted",
+      "Historical 2023-2025 SODENN homepage board not current; FELAEN directory distinct",
+      "Four negative checks bounded, not country absence"
+    ],
+    "data_changed_paths": [
+      "data/specialist_organizations.csv",
+      "data/condition_organizations.csv",
+      "data/publication_context.csv",
+      "data/coverage_by_area_condition.csv",
+      "PROVENANCE.csv",
+      "data/search_log.csv"
+    ],
+    "readback": "11/11 GitHub tree SHA matches, zero independent JavaScript structural errors, Node CLI not run, local Git blob hash not recomputed",
+    "original_team_b_acceptance": "248x7, separate issuer/domicile/population/jurisdiction, disease subtype caveats, official original-language sources, >=10 diversity counterexamples; full empirical/rights acceptance unfinished"
   }
 }
