@@ -1,3 +1,13 @@
+## Batch 69 — Slovenian and Croatian coeliac patient education — 2026-11-06
+
+INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.
+
+- **705 · B-SI-SDC · celiac** [Izobraževalni kotiček — SDC education catalogue](https://sdc.si/izobrazevalni-koticek/): Own catalogue links expert articles, historical pediatric criteria and dated2025–2026 videos/webinars. Catalogue hosting does not establish exclusive authorship or update older criteria. Maribor seat visible; membership and safety claims self-reported. Individual editions, video contents, guideline supersession and clinical accuracy not appraised; predisposition is not diagnosis.
+- **191 · B-HR-CELIVITA · celiac** [Celijakija — CeliVita patient explainer](https://celivita.hr/celijakija/): Own Croatian association explainer separates genetic predisposition, environmental exposure and diagnostic findings. Two displayed article dates2021-12-11/2023-02-14 differ from dynamic2026 site header; no2026 revision inferred. Text calls ESPGHAN2012 criteria current; historical wording requires supersession review, not verified current2026 guidance. Clinical/diagnostic statements and cited studies not appraised. Separate organization from Croatian Society for Coeliac Disease; not population-genotype evidence.
+- **191 · B-HR-CELIJAKIJA · celiac** [Hrvatsko društvo za celijakiju — own-contact access recheck](https://www.celijakija.hr/kontakt.php): Own search-indexed contact identifies Zagreb Celiko centre and local name, but direct homepage and contact retrieval still403. Preserve earlier directory-corroborated identity state; do not silently upgrade it from snippets. CeliVita is separately verified and supplies positive cell credit, not this inaccessible organization. No national absence inference.
+
+Node CLI structural validation: zero errors. All prior research and caveats retained; no clinical approval.
+
 ## Batch 69-8967 — South Asian rheumatology identities and bounded gout discovery — 2026-11-06
 
 INCOMPLETE · DRAFT · DO NOT MERGE. All sources research_lead_only; zero approved clinical claims.
