@@ -1,3 +1,12 @@
+## 2026-11-06 — Batch 46: close a PAHO historical effective-date subclaim; audit named evidence blockers
+
+- Five named case audit rows (`data/closure_case_review_2026-11-06_batch46.csv`) cover Bermuda current WHO region, Bermuda April survey, Liechtenstein existing WHO boundary, Malta national medicines delegation and Boisson 2021 PAHO appointment.
+- Two new contemporaneous issuer-date observations `TD-PAHO-REP-013/014` source qualify **27 January 2021** effective date for Bahamas/Turks from original PAHO indexed January 28 notice (direct 403), independently supported by ZNS reporting PHA and Bahamas PM office handover context. Preserve both source-conflicted 2026 January/February restatements and original signed instrument gap. No 2026 retrospect silently overwritten.
+- Six source-ledger additions `TD-SRC-284–289` for day-level appointment, govt/broadcast corroboration, October 2026 WHO epidemiological context, Malta regulator directorate, Malta June 2026 service route; 283→289 provenance. The other four contextual sources do not clear WHO/April/current-law numerators.
+- Structural counts remain **205/249 WHO regions**, **105/249 April 2026 affirmative office host**, **34/34 EMA agency roles** and **0/34 full independent law/delegation+Team A joins**, with 44/144/34 unconfirmed respectively. Liechtenstein boundary was already documented, not claimed newly discovered. No network graph edges invented. `validate.mjs` extended for 5 cases, two terms, six URLs and unchanged boundaries; full checked-in replay **not performed** because authorized checkout inaccessible via DNS. Scoped readbacks required. [Checkpoint](CHECKPOINT_BATCH_46_2026-11-06.md).
+
+---
+
 ## 2026-11-06 — Batch 45: distinguish PAHO statistical territory labels from contact hubs
 
 - **25 additional typed, source-qualified observations** under Team D: 14 unresolved M49 areas grouped by PAHO Core Indicators statistical subregions, and 11 PAHO/WHO indexed directory listings (four host contacts and seven out-of-area representation links). Statistical grouping does not convert `not_verified` WHO region status; remote contact does not prove dedicated physical office or absent office. Direct original PAHO opens were **HTTP 403**, so indexed first-party status and undated publication are explicit.

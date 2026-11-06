@@ -1,3 +1,13 @@
+## Batch 46 completion-first evidence audit — 2026-11-06
+
+[Standalone Batch 46 checkpoint](CHECKPOINT_BATCH_46_2026-11-06.md) · [five-case source/access/stop-rule audit](data/closure_case_review_2026-11-06_batch46.csv). Selected five existing cases rather than expanding generic networks. New contemporaneous **28 January 2021 PAHO/WHO** indexed primary announcement explicitly says Eldonna Boisson's Bahamas/Turks appointment effective **27 January 2021**; independently corroborated by 5 February 2021 Bahamas PHA report reproduced by ZNS and 2 February Bahamas government handover context. Two exact-day original-era observations added; conflicting later PAHO **January versus February** retrospective rows retained unaltered. Direct PAHO original open returned **403**; no signed appointment instrument retrieved.
+
+Bermuda current WHO region **not promoted**: October 2026 WHO dengue surveillance classification is not current WHO administrative authority. Bermuda represented from Jamaica is not an affirmative **April 2026** office survey nor proof of absence. Liechtenstein WHO-Europe 53-plus-Liechtenstein boundary reconfirmed (already recorded in TD-WHO-BOUNDARY-001). Malta Medicines Authority's licensing-directorate recommendation and 2026 government narrow special-authorisation route clarify but cannot adjudicate statute-versus-agency issuer or S.L. 458.39 full operative delegation; all 34 complete law/Team A identity audits pending.
+
+Evidence baseline: WHO **205/249** (44 not_verified), April affirmative host **105/249** (144 lack comparable positive, NOT absent), EMA role pages **34/34**, full current amended law+delegation+exact Team A join **0/34**. **14** PAHO representative observations (+2), **289** distinct source URLs (+6), 5 case audits. Full checked-in current-snapshot validator **NOT RUN**; targeted scoped checks and readbacks only, no native Node/Actions/legal/clinical review. PR #70 stays draft/unmerged; Team D-only.
+
+---
+
 ## Completion-first backlog protocol — effective 2026-11-06 (instruction change; no new research closure)
 
 **Start with [COMPLETION_PLAYBOOK.md](COMPLETION_PLAYBOOK.md) and [CONTINUATION_PROMPT.md](CONTINUATION_PROMPT.md).** This backlog is **not** closed by adding new sources unrelated to a named gap. For each attempted unresolved case, report the exact required primary evidence, M49/agency/network record, checked date and authority, which retrievals were tried, outcome (`DIRECTLY_VERIFIED` / documented boundary / still-conflicted / unavailable / pending instrument or ID), and next feasible escalation. Preserve the original dataset status and all historic evidence until closure criteria are satisfied.

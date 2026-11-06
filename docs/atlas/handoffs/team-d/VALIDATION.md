@@ -1,3 +1,11 @@
+## Batch 46 targeted structural/source preflight — 2026-11-06
+
+Preflight checks on exact GitHub-derived CSVs: five unique named case keys and current M49 references; two day-precision 2021 representative row IDs on M49 044/796 without editing prior Jan/Feb contradictory records; six unique provenance URLs TD-SRC-284–289 (289 total); existing 205/249 direct WHO regions, 105 April office positives, and 34 EMA identity candidates unchanged. In `validate.mjs`, updated provenance count assertions, historical Batch 22 representative assertions restricted to original 12 rows, and explicit Batch 46 new-record checks added. Scoped GitHub readbacks and compare results to be independently verified after commit.
+
+**FULL CURRENT-SNAPSHOT CHECKED-IN VALIDATOR NOT RUN**. Native Node checkout unavailable because container could not resolve github.com; this is not full V8 regression/CI, and no medical, legal, independent scientific or maintainer approval is implied. Source 2021 PAHO appointment page indexed original only, direct HTTP 403; source facsimile pending. Data dates and current administrative/statute/office deficits retained. [Batch 46 checkpoint](CHECKPOINT_BATCH_46_2026-11-06.md).
+
+---
+
 ## Batch 44 targeted structural/source readback checks (2026-11-06)
 
 **PASS: 18 targeted assertions** on five current GitHub branch sources (`data/malta_2026_primary_law_boundary_review.csv`, `PROVENANCE.csv`, `validate.mjs`, `data/m49_network_status.csv`, `data/who_country_office_presence.csv`). Verified CSV schema/widths, four distinct Malta law/delegation cases, source 281–282 ledger identity and unique provenance IDs/URLs (**282**), M49 (**249**), direct April hosts (**105**), scoped Malta candidate M49 470 and NCA identity TD-EMRN-NCA-022, the unverified operative delegation status, and new validator entry points. GitHub file readbacks of the two research data files were checked; corrected validator was fetched.
