@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,217);
+assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,223);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -532,4 +532,39 @@ for(const [id,url] of [
 ])assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);
 console.log('Batch 29: 11 first-party EMA/Commission role observations with 6 new sources; no individual NCA legal remit or marketing decision inferred.');
 
-console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length,idf_nac_source_observations:idfNac.length,hi_source_observations:hi.length,aoecs_society_observations:aoecsSocieties.length,aoecs_external_role_observations:aoecsRelations.length,ema_regulatory_role_observations:emaRoles.length},null,2));
+
+// Batch 31: national NCA role self-descriptions are NOT audited national statutes,
+// exact Team A authority joins or evidence of a specific medicinal product permission.
+const nationalNcaRemits=read('data/emrn_nca_national_remit_evidence_2026.csv');
+unique(nationalNcaRemits,r=>r.record_id,'national NCA remit observations');
+assert.equal(nationalNcaRemits.length,9);
+assert.equal(new Set(nationalNcaRemits.map(r=>r.source_url)).size,6);
+assert.deepEqual([...new Set(nationalNcaRemits.map(r=>r.country_area_m49))].sort(),['203','372','380','578']);
+assert.deepEqual(nationalNcaRemits.map(r=>r.record_id).sort(),Array.from({length:9},(_,i)=>'TD-NCA-REMIT-'+String(i+1).padStart(3,'0')));
+for (const r of nationalNcaRemits) {
+ assert.equal(r.network_id,'EMRN');
+ assert.equal(r.checked_on,'2026-11-06');
+ assert.equal(r.evidence_access,'DIRECT_FIRST_PARTY_HTML_REVIEWED');
+ assert.equal(r.verification_state,'OFFICIAL_NATIONAL_AGENCY_SELF_DESCRIPTION_ONLY');
+ assert.equal(r.legal_audit_state,'CONSOLIDATED_NATIONAL_STATUTE_NOT_INDEPENDENTLY_AUDITED');
+ assert.equal(r.team_a_join_state,'PENDING_EXACT_TEAM_A_ID_JOIN');
+ assert(sources.has(r.source_url),'national NCA role source not in provenance '+r.record_id);
+ const candidate=emrnNcas.find(n=>n.record_id===r.emrn_nca_candidate_id);
+ assert(candidate,'national NCA role lacks original EMA candidate '+r.record_id);
+ assert.equal(r.country_area_m49,candidate.country_area_m49);
+ assert.equal(r.agency_ema_label,candidate.ema_display_name);
+ assert(r.first_party_role_observation && r.notes);
+}
+assert.equal(nationalNcaRemits.filter(r=>r.historical_role_start_claimed==='2008-01-01').length,1);
+assert.equal(nationalNcaRemits.filter(r=>r.historical_role_start_claimed==='unknown').length,8);
+assert.equal(nationalNcaRemits.filter(r=>r.source_page_updated_on==='2026-05-21').length,1);
+assert.equal(nationalNcaRemits.filter(r=>r.source_page_updated_on==='2025-10-15').length,2);
+assert(nationalNcaRemits.find(r=>r.record_id==='TD-NCA-REMIT-003').first_party_role_observation.includes('European Commission'));
+assert(nationalNcaRemits.find(r=>r.record_id==='TD-NCA-REMIT-004').role_class.includes('REIMBURSEMENT'));
+for(const [id,url] of [["TD-SRC-218","https://www.hpra.ie/about-us/our-role/what-and-how-we-regulate"],["TD-SRC-219","https://www.aifa.gov.it/en/autorizzazione-dei-farmaci"],["TD-SRC-220","https://www.aifa.gov.it/en/mission"],["TD-SRC-221","https://sukl.gov.cz/en/about-us/basic-information/history-and-present/"],["TD-SRC-222","https://www.dmp.no/en/about-us/organisation-and-tasks/our-goals-and-tasks"],["TD-SRC-223","https://www.dmp.no/en/approval-of-medicines/approval-and-follow-up-of-marketing-authorisation-ma"]]) {
+ assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);
+}
+assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
+console.log('Batch 31: 9 national regulator first-party observations across Ireland Italy Czechia Norway; 6 official sources; no laws or Team A IDs independently certified.');
+
+console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length,idf_nac_source_observations:idfNac.length,hi_source_observations:hi.length,aoecs_society_observations:aoecsSocieties.length,aoecs_external_role_observations:aoecsRelations.length,ema_regulatory_role_observations:emaRoles.length,national_nca_remit_observations:nationalNcaRemits.length},null,2));
