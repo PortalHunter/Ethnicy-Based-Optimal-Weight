@@ -5,7 +5,7 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "7c2b0f8157d693f0f7e90e34496a9dbeb641560d",
+  "validated_data_commit": "44b39bec2ee094c3b10303e6f841e5996bc6fe84",
   "batch": "72-8967",
   "metrics": {
     "organizations": 466,
@@ -45,7 +45,7 @@
   "next_priorities": [
     "Verify live branch and reconcile concurrent session before writes",
     "Sri Lanka144, Bangladesh050, Nepal524 lactose first-party discovery",
-    "Continue1232 untouched cells,21 domicile gaps and5 original issuer-country uncertainties"
+    "Continue1229 untouched cells,21 domicile gaps and5 original issuer-country uncertainties"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -59,7 +59,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Documentation checkpoint follows immutable data commit; verify live head on restart.",
+  "validated_data_commit_note": "Immutable combined snapshot independently fetched11/11 files, equal tree/blob and local Git hashes; actual Node zero errors. Includes preserved concurrent research. Check final CI independently.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -147,8 +147,8 @@
     }
   ],
   "readback_validation": {
-    "batch": "audit-8967",
-    "sha": "7c2b0f8157d693f0f7e90e34496a9dbeb641560d",
+    "batch": "final-snapshot-8967",
+    "sha": "44b39bec2ee094c3b10303e6f841e5996bc6fe84",
     "tree_entries": 145,
     "truncated": false,
     "files": 11,
@@ -1895,5 +1895,14 @@
       "local_hash_matches": 11
     }
   ],
-  "run_8967_recovery": "Intermediate assembly truncation detected by readback and repaired at5761b175; all original rows/history retained and final immutable11-file hash/CLI validation passed."
+  "run_8967_recovery": "Intermediate assembly truncation detected by readback and repaired at5761b175; all original rows/history retained and final immutable11-file hash/CLI validation passed.",
+  "final_combined_snapshot_receipt": {
+    "batch": "final-snapshot-8967",
+    "sha": "44b39bec2ee094c3b10303e6f841e5996bc6fe84",
+    "tree_entries": 145,
+    "truncated": false,
+    "files": 11,
+    "exact_matches": 11,
+    "local_hash_matches": 11
+  }
 }
