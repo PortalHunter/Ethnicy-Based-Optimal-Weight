@@ -147,6 +147,85 @@ def verify():
                    for i in bes_ids), "BES conflated with a separate Kingdom country"
     assert country_map["535"]["parent_country_m49"] == "", (
         "A scoped VWS care directorate does not prove blanket legal delegation")
+    # New per-area research tracking (workflow QA, NOT legal certification).
+    ledger = load("data/legal_verification_ledger.csv")
+    queue = load("data/research_queue.csv")
+    assert len(ledger) == len(countries) and len({r["m49_code"] for r in ledger}) == len(countries), (
+        "Legal ledger must contain exactly one record per M49 area")
+    assert len(queue) == len(countries) and len({r["m49_code"] for r in queue}) == len(countries), (
+        "Research queue must contain exactly one record per M49 area")
+    assert {r["m49_code"] for r in ledger} == set(country_map), "Legal ledger M49 keys mismatch"
+    assert {r["m49_code"] for r in queue} == set(country_map), "Research queue M49 keys mismatch"
+    legal_dimensions = (
+        "establishing_law", "current_amendments", "policy_public_health",
+        "medicines_professional_regulation", "surveillance_institutes",
+        "devolution_territorial_scope", "independent_issuer_checks",
+        "effective_dates_conflicts")
+    dimension_states = {
+        "NOT_TRIAGED", "RESEARCHED_INCOMPLETE", "SOURCE_SUPPORTED",
+        "CONFLICT_UNRESOLVED", "NOT_APPLICABLE_WITH_EVIDENCE"}
+    legal_stages = {
+        "UNSCORED_EXISTING_RESEARCH", "IN_PROGRESS", "PARTIAL_SOURCE_CHECKED",
+        "RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW"}
+    acceptance_states = {
+        "NOT_MEASURED", "PARTIAL", "RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW"}
+    for row in ledger:
+        country = country_map[row["m49_code"]]
+        assert row["un_name"] == country["un_name"] and row["un_region"] == country["un_region"], (
+            "Legal ledger geography mismatch")
+        expected_identity = ("PROVISIONAL_IDENTITY"
+                             if country["health_authority_resolution"] == "OFFICIAL_AUTHORITY_IDENTIFIED"
+                             else "UNKNOWN_REVIEW_NEEDED")
+        assert row["identity_baseline"] == expected_identity, (
+            "Legal ledger identity baseline mismatch")
+        assert row["authority_record_ids"] == country["authority_record_ids"], (
+            "Legal ledger existing authority IDs mismatch")
+        assert row["legal_review_stage"] in legal_stages, "Invalid legal ledger review stage"
+        assert row["legal_research_acceptance"] in acceptance_states, (
+            "Invalid legal-research acceptance state")
+        assert all(row[field] in dimension_states for field in legal_dimensions), (
+            "Invalid legal evidence dimension state")
+        evidence_ids = [x for x in row["verified_legal_source_ids"].split(";") if x]
+        assert all(x in source_ids for x in evidence_ids), "Legal ledger missing provenance source"
+        if row["legal_review_stage"] != "UNSCORED_EXISTING_RESEARCH":
+            assert row["last_legal_review_utc"] and row["review_note"], (
+                "Scored legal ledger row needs dated review and limitations")
+        if any(row[f] in ("SOURCE_SUPPORTED", "NOT_APPLICABLE_WITH_EVIDENCE")
+               for f in legal_dimensions):
+            assert evidence_ids and row["last_legal_review_utc"], (
+                "Source-supported legal dimension needs dated provenance IDs")
+        if row["legal_research_acceptance"] == "RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW":
+            assert row["legal_review_stage"] == "RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW", (
+                "Premature legal research completion stage")
+            assert all(row[f] in ("SOURCE_SUPPORTED", "NOT_APPLICABLE_WITH_EVIDENCE")
+                       for f in legal_dimensions), "Premature legal research completion evidence"
+            assert evidence_ids and row["last_legal_review_utc"], (
+                "Premature legal research completion sources")
+    queue_states = {
+        "QUEUED", "IN_PROGRESS", "EVIDENCE_ADDED_NOT_RESOLVED",
+        "BLOCKED_NEW_SOURCE_REQUIRED", "RESEARCH_CLOSED_FOR_NOW"}
+    priorities = {
+        "P0_TARGETED_UNKNOWN", "P1_UNKNOWN",
+        "P1_PROVISIONAL_ROTATION", "P2_PROVISIONAL"}
+    for item in queue:
+        c = country_map[item["m49_code"]]
+        assert item["un_name"] == c["un_name"] and item["un_region"] == c["un_region"], (
+            "Research queue geography mismatch")
+        expected_lane = ("UNRESOLVED_AREA"
+                         if c["health_authority_resolution"] == "UNKNOWN_REVIEW_NEEDED"
+                         else "PROVISIONAL_LEGAL_REVIEW")
+        assert item["work_lane"] == expected_lane, "Research queue lane mismatch"
+        assert item["priority"] in priorities and item["queue_state"] in queue_states, (
+            "Invalid research queue state or priority")
+        assert item["next_action"] and item["source_strategy"], "Research queue missing next action"
+        assert item["linked_legal_ledger_m49"] == item["m49_code"], (
+            "Research queue missing legal ledger link")
+        if item["queue_state"] == "BLOCKED_NEW_SOURCE_REQUIRED":
+            assert item["blocked_reason"], "Blocked queue item missing source barrier"
+        if item["queue_state"] == "RESEARCH_CLOSED_FOR_NOW":
+            assert item["last_attempt_utc"] and item["last_outcome"], (
+                "Closed queue item missing dated outcome")
+    print(f"PASS: {len(ledger)} legal evidence ledger rows; {len(queue)} research queue items (workflow, not legal approval)")
     print("PASS: 248 distinct M49 country-or-area rows match dated official snapshot")
     print(f"PASS: {verified} government ministry/department identities located; "
           f"{len(countries)-verified} explicitly unresolved")
