@@ -1,3 +1,15 @@
+## CURRENT — Team A Batch51 legal/source gaps (2026-11-06)
+
+**248/248 dated M49 geography verified structurally; 231/248 provisional government-health identity; 17/248 explicitly UNKNOWN; full all-level current enacted legal acceptance NOT MEASURED / INCOMPLETE.** [Standalone checkpoint](CHECKPOINT_20261106_BATCH51.md), [QA](QA_BATCH51_20261106.json), [Guinea-Bissau BOE/INASA primary/secondary recovery](source_recovery/CYCLE_624_GUINEA_BISSAU_BOE_INASA_20261106.md). **688 provenance observations**; 318 bodies, 45 narrow relationships, 4 shared scopes, 248 reviews.
+
+**624 Guinea-Bissau newly narrowed, still UNKNOWN:** published original **27 Jan 2025** BOE no.4 Decree 31/2024 enacts PNDS III 2023–2028 and health human-resources plans; this is not a 2026 organic/current national/regional health ministry statute. INASA own-site indexed/own 2024 policy descriptions not direct statutory original and have timeout/screenshot limitations. Non-government BERC-Luso points to 2010 no.34 third-supplement Decrees 11/2010 pharmaceutical activity and 12/2010 INASA foundation: **original Gazette and all amendments pending**. Recover current Portuguese enacted ministry/regulator/devolution statutes and regional sanitaria/Autonomous Sector Bissau function holders. Never count two pages from INASA as independent law issuers, or unverified government-branded site as authenticated current government.
+
+**Other untouched unknown-area gaps:** 010, 074, 086, 104, 112, 226, 239, 260, 275, 334, 364, 408, 581, 732, 744, 887; exact source-ID reasons and actions remain in [unresolved audit](data/unresolved_area_audit.csv). Priority 581 signed current Wake/DOI Air Force-land and individual island medical/labor powers; 226 original June BOE and October/INSESO; 744 Norwegian original latest 2015-747 and separate Svalbard/Jan Mayen provisions. **All 231 provisional identities still require full current enacted ministries, medical/medicines/public-health regulators, institutes, research councils, local/Indigenous/municipal/devolved scopes and genuinely independent issuing verification.**
+
+Actual Python validator and 5 tests NOT RUN Batch51 due local GitHub DNS; structural JS mirror PASS is not legal/clinical approval. PR draft/unmerged; only Team A directory.
+
+---
+
 ## CURRENT — Team A Batch50 remaining legal gaps (2026-11-06)
 
 **Geography 248/248 = 100%; provisional governmental authority identities 231/248 = 93.15%; documented UNKNOWN 17/248 = 6.85% remain; full enacted legal mandates NOT MEASURED / INCOMPLETE.** [Complete Batch50](CHECKPOINT_20261106_BATCH50.md) · [immutable eight-CSV QA](QA_BATCH50_20261106.json) · [new original DOI successor source note](source_recovery/CYCLE_581_DOI_3284_A2_2023_KINGMAN_20261106.md). 318 bodies, 45 limited relationships, four shared scopes, 248 reviews and **684** dated source observations.
