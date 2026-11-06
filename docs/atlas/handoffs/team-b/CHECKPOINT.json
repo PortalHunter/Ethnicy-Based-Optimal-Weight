@@ -5,53 +5,55 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "4a782e09f3505bc6acfcee48182760ca9b87d49c",
-  "batch": "77-R911",
+  "validated_data_commit": "6f1710c0fe00b1dc3fe8251111141e9f4175ae3f",
+  "batch": "78-R980",
   "metrics": {
-    "organizations": 479,
+    "organizations": 480,
     "areas": 227,
-    "resources": 399,
-    "positive": 363,
-    "without_linked_source": 1373,
-    "targeted_no_source": 172,
-    "unresearched": 1201,
-    "provenance": 1079,
-    "search_log": 626,
+    "resources": 402,
+    "positive": 366,
+    "without_linked_source": 1370,
+    "targeted_no_source": 171,
+    "unresearched": 1199,
+    "provenance": 1085,
+    "search_log": 629,
     "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
     "issuer_country_differs_from_domicile": 28,
     "by_condition": {
       "diabetes": 109,
-      "hypertension": 70,
+      "hypertension": 72,
       "high_chol": 44,
       "gout": 37,
       "lactose": 32,
-      "celiac": 47,
+      "celiac": 48,
       "hemochromatosis": 24
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organizations": 2,
-    "resources": 2,
-    "positive_cells": 2,
-    "bounded_no_source_cells": 1,
-    "previously_untouched_cells_targeted": 3,
-    "provenance": 5,
+    "organizations": 1,
+    "resources": 3,
+    "positive_cells": 3,
+    "bounded_no_source_cells": 0,
+    "previously_untouched_cells_targeted": 2,
+    "previously_bounded_cells_converted_to_positive": 1,
+    "provenance": 6,
     "searches": 3
   },
-  "validation_runtime": "independent_JS_postcommit_structural_and_11_of_11_GitHub_blob_tree_readback;_Node_CLI_not_run",
+  "validation_runtime": "independent_JS_precommit_and_postcommit_structural_0_errors_11_of_11_GitHub_blob_tree_readback_Node_CLI_not_run_DNS",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "1201 untouched condition-area cells, especially gout/lactose/celiac/hereditary iron",
-    "21 locally domiciled organization identity gaps",
-    "172 bounded searches with no eligible exact resource; extend original-language discovery",
-    "five unresolved original-document issuer countries: Panama HEARTS, WGO Portuguese lactose, ESPGHAN Portuguese celiac, Chad OA Pub/JHC, South Sudan PAMJ",
-    "Ghana original article writer/media attribution, voluntary screen limitations and FH distinction",
-    "Kenya KCS enrollment planned-vs-reported conflict, founding-year discrepancy, publication and direct 403",
-    "licensing/edition, community governance and rights, independent issue #27 clinical appraisal"
+    "1199 untouched condition-area cells especially gout/lactose/celiac/hereditary iron overload",
+    "21 locally domiciled organization identity gaps, many remote or sparse territories",
+    "171 bounded no-resource checks; widen first-party original-language search",
+    "five unresolved original issuer imprints: Panama HEARTS, WGO Portuguese lactose translation, ESPGHAN Portuguese celiac translation, Chad OA Pub/JHC, South Sudan PAMJ",
+    "Iceland association first-party PDF search indexed but direct retrieval HTTP 502; verify actual edition and issuer",
+    "Nepal CSN member total conflicts; distinguish original 2023 expert authors from journal and society; review full article",
+    "Ireland Croí Galway/West scope versus national legal remit; linked external ESC patient guidance not Croí authored",
+    "legal/licensing, original document methods, community governance, clinical issue #27 appraisal"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -65,7 +67,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Complete 145-entry immutable tree, 11/11 GitHub blob SHA-to-tree matches for all 10 CSV plus validator, zero independent JS postcommit structural errors. Node CLI and independent local Git hash not run; no clinical, legal, full-text, original-publication, rights or link-currency certification.",
+  "validated_data_commit_note": "Complete immutable 145-entry nontruncated tree; 11/11 GitHub blob SHA-to-tree matches for ten CSVs and unchanged validator, zero independent JS structural errors, scope only Team B six CSVs. Node CLI and independent local Git hash not run; no legal, clinical, copyright, edition or external live URL certification.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -153,9 +155,9 @@
     }
   ],
   "readback_validation": {
-    "batch": "77-R911",
-    "sha": "4a782e09f3505bc6acfcee48182760ca9b87d49c",
-    "tree_sha": "9253855254c1d19fb1b51eeb82b11288f848f21d",
+    "batch": "78-R980",
+    "sha": "6f1710c0fe00b1dc3fe8251111141e9f4175ae3f",
+    "tree_sha": "4d0fd9bf801ceacec03ef51cb3dd2eeae3620a4b",
     "tree_entries": 145,
     "truncated": false,
     "files": 11,
@@ -163,18 +165,19 @@
     "local_hash_matches": null,
     "structural_errors": 0,
     "node_cli_run_this_batch": false,
-    "notes": "Independent immutable postcommit structure and GitHub tree/blob readback; actual Node CLI blocked by external clone DNS; not clinical/rights appraisal."
+    "notes": "Independent precommit and immutable postcommit JavaScript relational/CSV checks 0 errors; GitHub immutable file blob SHA matches direct tree entries 11/11. Local Node CLI not run due github.com DNS; not clinical, legal, fulltext, copyright, rights, all-current-links or medical-device certification."
   },
-  "previous_independently_verified_data_commit": "44b39bec2ee094c3b10303e6f841e5996bc6fe84",
+  "previous_independently_verified_data_commit": "4a782e09f3505bc6acfcee48182760ca9b87d49c",
   "session_additions": {
-    "organizations": 7,
-    "resources": 12,
-    "positive_cells": 10,
-    "provenance": 37,
-    "searches": 16,
-    "community": 1,
+    "organizations": 1,
+    "resources": 3,
+    "positive_cells": 3,
+    "provenance": 6,
+    "searches": 3,
+    "community": 0,
     "cross_border": 0,
-    "previously_untouched_cells_targeted": 11
+    "previously_untouched_cells_targeted": 2,
+    "previously_bounded_cells_converted_to_positive": 1
   },
   "session_receipts": {
     "37": "8becb1962fa1baf9fa8f79ef446ed49b9998f488",
@@ -199,14 +202,15 @@
     "64": "70f03445ff4a1a57c06c540a0611037d262ff027",
     "65": "72c7f13a1ce30d5a39c9c258debd2d2982cf2f66",
     "66": "52d537a6df81fc0b1037729c3c64e46e3daf6c23",
-    "67": "6d5dc37241526f2cbc2657463819c481d625ae38"
+    "67": "6d5dc37241526f2cbc2657463819c481d625ae38",
+    "78": "6f1710c0fe00b1dc3fe8251111141e9f4175ae3f"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "248 × 7 structurally complete; 1201 untouched and 172 bounded unlinked, hence research incomplete",
-    "source_population_jurisdiction": "399 exact research-only contexts with source/issuer/domicile/population/jurisdiction separation; five unresolved original imprints",
-    "disease_subtypes_and_release": "399/399 research_lead_only, zero approved; FH not generic LDL, gout not asymptomatic urate, iron overload not ferritin",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete; 21 local identities; Ghana article authorship and Kenya founding/recruitment conflict, original editions, licensing, 403 barriers",
-    "diversity_examples": "14 anti-overgeneralization examples, 10 governance-sensitive community/subnational and eight cross-border rows retained; permissions unreviewed"
+    "m49_area_condition_roster": "248 x 7 complete structurally, 1199 untouched and 171 bounded unlinked so incomplete",
+    "source_population_jurisdiction": "402 exact contexts separate source publisher, society domicile, population, jurisdiction; 5 original issuer-country imprints unresolved",
+    "disease_subtypes_and_release": "402/402 research_lead_only, 0 approved; FH != generic LDL, gout != asymptomatic urate, iron overload != elevated ferritin, lactose genotype != intolerance, coeliac HLA != diagnosis",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete 21 local identities, Iceland PDF 502, Nepal membership contradictions and article issuer/fulltext, Ireland ESC vs Croí, rights/edition/governance pending",
+    "diversity_examples": "14 anti-overgeneralization examples, 10 governance-sensitive community/subnational and 8 cross-border retained; rights/consent unreviewed"
   },
   "batch40_sources": [
     {
@@ -2388,5 +2392,10 @@
       "Othaya project not all-Kenya clinical guidance",
       "all resource links research_lead_only"
     ]
+  },
+  "latest_source_caveats": {
+    "iceland": "First-party association-named Icelandic PDF indexed excerpt only; direct PDF and screenshot HTTP 502; do not treat upload path as original date.",
+    "nepal": "CSN official society yes; official Nepalese Heart Journal 2023 named-expert consensus is not automatically a CSN-authored statutory guideline; own member totals conflict.",
+    "ireland": "Croí Galway charity educational blood-pressure page; linked ESC guideline issued externally; numeric/ethnicity advice unreviewed."
   }
 }

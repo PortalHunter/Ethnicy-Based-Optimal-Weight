@@ -1,3 +1,15 @@
+## Team B open research gaps after 78-R980 · 2026-11-06
+
+**Quantified:** 21/248 M49 domiciles still lack independently verified local specialist organization identity; 1,199/1,736 condition cells untouched; 171 bounded checks without eligible exact source; five original document issuer imprints unresolved. Positive **366/1,736** is discovery coverage only, not clinical validity; 1,370 cells have no exact linked source.
+
+**New source/identity audits:** (1) Iceland coeliac association original Icelandic PDF `iceland=>"gluten.is PDF"` search-indexed but direct download/screenshot HTTP 502; recheck archived/alternate official copy and original issue date; earlier negative searches retained; (2) Nepal CSN official journal expert-consensus 2023: resolve named authors, manuscript edition/full-text rights and whether society endorses it, without converting journal host to government or sole author; CSN own homepage membership numbers 130/200/4000 vs About >250 inconsistent; (3) Ireland Croí education may link external ESC patient PDF, which is not authored by Croí; regional Galway remit is not statutory national jurisdiction; site ancestry/numeric medical assertions not endorsed.
+
+**Prior unresolved:** original issuer-country imprints for Panama HEARTS, Portuguese WGO lactose translation, Portuguese ESPGHAN coeliac translation, Chad OA Pub/JHC, South Sudan PAMJ; professional-association versus source host, names and publication dates; full-text clinical study methods and denominators; lifecycle/current versus historical activities; rights/licensing, Indigenous/community consent and provenance; distinction of FH/urate/HH/lactose/coeliac disease subtypes. Do not interpret bounded negative searches as country-level absence. Retain 14 diversity counterexamples, 10 community/subnational and eight cross-border records. Cross-team authority and issue #27 clinical review remain separate.
+
+**Research handoff:** [data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/6f1710c0fe00b1dc3fe8251111141e9f4175ae3f); [CONTINUE.md](CONTINUE.md); [CHECKPOINT.json](CHECKPOINT.json); PR #71 remains draft/unmerged. Do not change public site, main, other teams or clinical formulas.
+
+---
+
 ## Team B batch 77-R911 — unresolved gaps and attribution boundaries · 2026-11-06
 
 **INCOMPLETE · OPEN DRAFT · UNMERGED · RESEARCH_LEAD_ONLY · 0 approved clinical claims.** **479** organizations domiciled in **227/248** M49 areas (**21** local identity gaps). **1,736** area-condition cells: **363 source-positive**, **172 bounded searched without eligible source**, **1,201 untouched**, hence **1,373 without linked source**. **399** exact resource/context records, **1,079** provenance, **626** searches, **10** community/subnational records, **8** cross-border edges, **5** unresolved original-document issuer countries and **28** verified issuer/domicile differences. Condition-positive cells: diabetes 109, hypertension 70, high_chol 44, gout 37, lactose 32, celiac 47, hereditary haemochromatosis 24.
