@@ -1,3 +1,11 @@
+## CURRENT — Team A Batch46 QA (2026-11-06)
+
+**Immutable DATA `72a427075275ff9925c9ef777e2552c47eb9a3ce`.** [Complete eight-CSV GitHub blob hashes and independent controls](QA_BATCH46_20261106.json) · [standalone checkpoint](CHECKPOINT_20261106_BATCH46.md). Quote-aware **full** eight-CSV structural readback **PASS** at immutable SHA: 248 official M49 exact ISO/name/regions, 248 coverage statuses, 231 linked preliminary identity / 17 source-audited UNKNOWN, 318 valid body IDs, 45 relationship edges, 4 source-backed cross-area scopes, 670 uniquely ID'd sources, zero M49 parent guesses, 669 older provenance observations byte-exact preserved, 16 other UNKNOWN audits exact unchanged, six stable prior CSV blob hashes. Three baseline-to-DATA changed paths only in Team A. **Each write independently exact-file read back**. BOE original p1/p3 of decree 114/2026 visually checked; electronic footer not independently cryptographically verified. Same Presidency issuer, not Gazette 02/2026 proof; no mandate promotion.
+
+**Actual repository `validate.py` and five `test_validate.py` unittest regressions NOT RUN Batch46**: local `git ls-remote` fails GitHub hostname DNS; last actual Python run reported Batch41. JS audit is NOT the Python suite, and neither is source/legal/clinical certification. Full legal completion NOT MEASURED. PR #68 OPEN DRAFT UNMERGED; no website/main/other-team edits.
+
+---
+
 ## CURRENT — Team A Batch45 QA (2026-11-06)
 
 Immutable DATA `8e0b80be4a7af565758b5c4f2ba9eb3f6cd29dba`. [Eight exact CSV blob hashes and checks](QA_BATCH45_20261106.json) · [complete standalone checkpoint](CHECKPOINT_20261106_BATCH45.md). Independent quote-aware full GitHub CSV readback **PASS structural**: 248/248 official M49 fields, 231 identity and 17 explicit unknown rows, 318 body IDs, 45 valid links, 4 shared scopes, 248 synced area reviews, 17 audit links, **669 unique provenance records**, four new 226 IDs, no guessed parent M49; baseline-to-data three commits touching only three Team A research files. Every update exact readback PASS.
