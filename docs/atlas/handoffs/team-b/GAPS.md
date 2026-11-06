@@ -1,3 +1,13 @@
+## Batch 71 — Baltic gout education and distinct issuer identities — 2026-11-06
+
+INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.
+
+- **440 · B-LT-LRA · gout** [Mokomoji medžiaga — Microcrystal Arthritis lecture catalogue](https://www.reumatologuasociacija.lt/informacija-specialistams/): Own catalogue links52-page English lecture by Alexander So, CHUV/UNIL Lausanne, delivered Vilnius22September2017;2018/03 path is upload context. Lithuanian hosting/venue does not make the presenter Lithuanian or foreign cohorts local. First-page/disclosure text inspected, not clinical/visual full appraisal. Pharma interests disclosed; asymptomatic urate, gout and other crystal arthritis distinct.
+- **233 · B-EE-ERS · gout** [Infomaterjalid patsientidele — Podagra](https://ers.ee/materjalid-patsientidele/infomaterjalid-patsientidele/): Own catalogue attributes gout leaflet to Piia Tuvik within2013–2015 patient-material project based on EULAR and specialty literature, with Russian link. No2026 clinical revision, translation fidelity or whole-leaflet review established. Catalogue verified, individual PDF claims/rights and supersession unappraised; not an Estonian prevalence/genotype study.
+- **428 · B-LV-LPRB · gout** [Vai reimatoloģisko slimību ārstēšanai ir speciāla diēta? — Podagra section](https://www.tavsreimatologs.lv/arstesana/vai-reimatologisko-slimibu-arstesanai-ir-speciala-dieta): Own Latvian page includes gout section and names nutritionists Zanda Mihailovska/Eva Kataja. Dietary, quantitative flare-risk and supplement statements unappraised; not a formal society-authored national guideline or genotype cohort. Own about page board is explicitly elected4February2015, not verified current2026 leadership. LPRB registry number differs from similarly named older association; continuity not inferred.
+
+Node CLI structural validation: zero errors. All prior research and caveats retained; no clinical approval.
+
 ## Batch 71-8967 — Historical Malaysian coeliac abstract and bounded regional checks — 2026-11-06
 
 INCOMPLETE · DRAFT · DO NOT MERGE. All sources research_lead_only; zero approved clinical claims.
