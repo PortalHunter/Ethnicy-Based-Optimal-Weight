@@ -1,3 +1,13 @@
+## Completion-first backlog protocol — effective 2026-11-06 (instruction change; no new research closure)
+
+**Start with [COMPLETION_PLAYBOOK.md](COMPLETION_PLAYBOOK.md) and [CONTINUATION_PROMPT.md](CONTINUATION_PROMPT.md).** This backlog is **not** closed by adding new sources unrelated to a named gap. For each attempted unresolved case, report the exact required primary evidence, M49/agency/network record, checked date and authority, which retrievals were tried, outcome (`DIRECTLY_VERIFIED` / documented boundary / still-conflicted / unavailable / pending instrument or ID), and next feasible escalation. Preserve the original dataset status and all historic evidence until closure criteria are satisfied.
+
+**Baseline from Batch 45 (must remeasure at each run):** 44/249 WHO direct-current administrative assignments unknown; 144/249 without a **direct affirmative April 2026** office-host survey join (not proved absent); 34/34 full current amended national statute/delegation + exact Team A identification audits incomplete. Distinguish reviewed-but-unverifiable cases from genuinely verified positives; non-applicable M49 boundaries and inaccessible authoritative instruments must be labeled separately rather than used to inflate completion.
+
+Every future checkpoint and final reply must include **before → after / Δ this run / remaining** and a **20-slot filled/empty horizontal bar** for each quantifiable track, plus the count of old gaps investigated, actually verified, classified as boundary, blocked and new source-only additions. Zero-change runs must explicitly say `Δ +0`, name the attempted records and identify blockers. The international network conflicts need an enumerated denominator before presenting a completion percentage. A full-current-snapshot structural validator is still a separate prerequisite and does not grant legal, scientific or clinical approval.
+
+---
+
 ## Batch 45 open verification priorities — 2026-11-06
 
 - **44 of 249** WHO geographic seed areas still lack **explicit current individual administrative-region assignment**. PAHO core-indicator subregions for 14 such areas are statistical/reporting labels only; do not upgrade WHO regions from these labels, older surveillance lists or parent-country geography.
