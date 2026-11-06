@@ -1,3 +1,25 @@
+## Team B batch 84 — latest queue outcomes — 2026-11-06
+
+A2 Indonesia lactose: done with new qualified S2 YGI 2019 education and independent Jakarta foundation identity; new first-positive cell. Next Indonesia haemochromatosis remains untouched.
+
+A2 / Q0-2 Indonesia celiac: previous PB PGI consensus-index D1 preserved; new independent YGI substantive S2 education links cell, not PB PGI-original guideline.
+
+A1 / Q0-2 India lactose: independent Indian Pediatrics 2020 original journal review searched as second evidence avenue; D2 evidence-limited audit added; no ISG-original publication credited, still unlinked.
+
+Q0-3 Indonesia gout: S1 provisional original-panel abstract quality audit added; 2025 issue vs 2026 online vs IRA2024 separate book, no clinical adoption claim.
+
+Q0-1 Peru gout M scheduled-course metadata-only unresolved; original substantive lecture/text remains needed.
+
+Q0-2 Egypt gout remains D1; seek distinct first-party source. C1–C5 original imprints unresolved.
+
+Next rotate low-positive untouched across at least two non-Indonesian regions; maintain team ownership, original author/publisher, and quality-first eligibility.
+
+Batch 83 → 84: +1 organization (492→493), +0 local M49 domiciles (227→227), +2 source-positive cells (379→381), −1 searched-unlinked cell (174→173), −1 untouched cell (1,183→1,182), +2 publication/context pairs (415→417), +4 provenance (1,121→1,125), +3 search logs (645→648), +0 issuer-country resolutions (5 unresolved).
+
+Supplemental quality audit ledger: 4 individually classified source records out of 417 contexts (S1=1 provisional abstract, S2=2 educational pages, H=0, M=1 scheduled programme, U=0); 413 contexts not individually quality audited. Search-depth ledger has 4 historical rows (D1=3, D2=1, D3=0). India lactose D1 superseded by D2; Indonesia celiac D1 superseded by the positive YGI link; Egypt gout remains active D1. Depth of the majority of 173 unlinked cells remains unaudited and cannot be called D2-complete.
+
+---
+
 # Team B live research and verification queue (v2, initialized at batch 82; quality frontier added after batch 83)
 
 This is an **ordered, evidence-sensitive queue**, not a substitute for the full 248×7 coverage CSV. [RUNBOOK.md](RUNBOOK.md) controls methods, validation and completion claims. **Before acting, recheck each cell in live `data/coverage_by_area_condition.csv`**; skip/reclassify anything already researched by another run. Update this queue after substantive research with attempted date, source URLs or blockers, result, and next action, preserving historical entries. Use `GAPS.md` for detailed source conflicts and `CHECKPOINT.json` for canonical numeric counters.

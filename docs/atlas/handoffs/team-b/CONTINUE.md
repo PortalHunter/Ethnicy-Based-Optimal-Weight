@@ -1,3 +1,23 @@
+# Team B standalone continuation — batch 84 — 2026-11-06
+
+CURRENT: Read RUNBOOK.md and QUEUE.md first, then QUALITY_AND_COMPLETION.md and BATCH_84_CHECKPOINT.md; old continuation blocks below are historical.
+
+493 nongovernmental organization records in 227/248 locally domiciled M49 areas (21 gaps); 381/1,736 raw source-positive area-condition cells (21.95%), 173/1,736 searched-unlinked (9.97%), 1,182/1,736 untouched (68.09%), 1,355 without a linked source; 417 exact contexts (all research_lead_only), 1,125 provenance and 648 search records. All 10 community/subnational, 8 cross-border and 14 ancestry-overgeneralization counterexamples retained. 5 original issuer-country imprints unresolved; zero approved clinical claims.
+
+Batch 83 → 84: +1 organization (492→493), +0 local M49 domiciles (227→227), +2 source-positive cells (379→381), −1 searched-unlinked cell (174→173), −1 untouched cell (1,183→1,182), +2 publication/context pairs (415→417), +4 provenance (1,121→1,125), +3 search logs (645→648), +0 issuer-country resolutions (5 unresolved).
+
+Supplemental quality audit ledger: 4 individually classified source records out of 417 contexts (S1=1 provisional abstract, S2=2 educational pages, H=0, M=1 scheduled programme, U=0); 413 contexts not individually quality audited. Search-depth ledger has 4 historical rows (D1=3, D2=1, D3=0). India lactose D1 superseded by D2; Indonesia celiac D1 superseded by the positive YGI link; Egypt gout remains active D1. Depth of the majority of 173 unlinked cells remains unaudited and cannot be called D2-complete.
+
+Immutable research data commit e20897f8b2d19dab43a44fe9c5aea0bd9a6d36ff (parent b3a50949fcbbf17010eb314a89c4892c6bfd5c25), full Git tree 95997b861cadb8eb9ec508cdfad52d038300b728, 154 entries nontruncated. All 10 canonical CSVs, unchanged validate.mjs and supplemental quality CSV independently refetched at immutable SHA and matched exact tree blob SHAs: 12/12. Independent JavaScript CSV widths, exact source/context/role/provenance and search joins, 248×7 roster, issuer enums, all research_lead_only, community/cross-border preservation and new audit ledger: zero structural errors. Actual Node CLI NOT RUN (direct GitHub git checkout DNS failed, no executable reconstruction completed). Combined commit status returned zero statuses; do not claim CI success or failure. No legal, copyright, clinical, fulltext or live-link approval.
+
+Still open: 1,182 untouched condition-area cells, especially haemochromatosis, lactose, gout and coeliac; 173 searched-unlinked cells with substantial D1/unknown-depth debt; 21 M49 local organization identity gaps; five unresolved original issuer-country imprints (Panama HEARTS, Portuguese WGO lactose translation, Portuguese ESPGHAN celiac translation, Chad OA Pub/JHC, South Sudan PAMJ). Peru original gout educational content versus scheduled programme; Egypt gout independent second search; society vs original authors and journal/host, rights, edition, clinical methods, Indigenous governance and consent remain unverified. No ancestry-to-individual-health inference. Team A government, Team C journals, Team D international networks, issue #27 clinical approval separate.
+
+Reusable prompt:
+
+Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71. On branch `research/atlas-team-b-20261104`, read `docs/atlas/handoffs/team-b/RUNBOOK.md`, `QUEUE.md`, and the latest `CONTINUE.md`. Follow the queue and safeguards; research, commit, validate, read back, and checkpoint Team B-only changes. Keep PR #71 draft/unmerged; approve no clinical claims. End with quantified run deltas, remaining gaps, and the required labeled progress bar graphs. Repeat this prompt.
+
+---
+
 # Team B standalone continuation — batch 83 · 2026-11-06
 
 > **2026-11-06 instruction-only optimization (NO new data batch or coverage):** [RUNBOOK.md](RUNBOOK.md) v2 now requires [QUALITY_AND_COMPLETION.md](QUALITY_AND_COMPLETION.md) and [data/research_quality_audit.csv](data/research_quality_audit.csv). [QUEUE.md](QUEUE.md) adds Priority 0 quality/issuer/search-depth work, including the Peru 2025 programme and three Batch 83 exploratory searches. Historical Batch 83 counts **227/248 local identities, 379 structural source-positive, 174 searched-unlinked, 1,183 untouched, 415/415 research_lead_only and zero approvals** are unchanged. Raw structural source counts are not content-qualified or clinical approval. Keep historical continuation text below; new instructions control conflicts. **Do not increment research batch for this maintenance commit.**

@@ -1,3 +1,17 @@
+## Team B batch 84 — current research status — 2026-11-06
+
+493 nongovernmental organization records in 227/248 locally domiciled M49 areas (21 gaps); 381/1,736 raw source-positive area-condition cells (21.95%), 173/1,736 searched-unlinked (9.97%), 1,182/1,736 untouched (68.09%), 1,355 without a linked source; 417 exact contexts (all research_lead_only), 1,125 provenance and 648 search records. All 10 community/subnational, 8 cross-border and 14 ancestry-overgeneralization counterexamples retained. 5 original issuer-country imprints unresolved; zero approved clinical claims.
+
+Batch 83 → 84: +1 organization (492→493), +0 local M49 domiciles (227→227), +2 source-positive cells (379→381), −1 searched-unlinked cell (174→173), −1 untouched cell (1,183→1,182), +2 publication/context pairs (415→417), +4 provenance (1,121→1,125), +3 search logs (645→648), +0 issuer-country resolutions (5 unresolved).
+
+Supplemental quality audit ledger: 4 individually classified source records out of 417 contexts (S1=1 provisional abstract, S2=2 educational pages, H=0, M=1 scheduled programme, U=0); 413 contexts not individually quality audited. Search-depth ledger has 4 historical rows (D1=3, D2=1, D3=0). India lactose D1 superseded by D2; Indonesia celiac D1 superseded by the positive YGI link; Egypt gout remains active D1. Depth of the majority of 173 unlinked cells remains unaudited and cannot be called D2-complete.
+
+Immutable research data commit e20897f8b2d19dab43a44fe9c5aea0bd9a6d36ff (parent b3a50949fcbbf17010eb314a89c4892c6bfd5c25), full Git tree 95997b861cadb8eb9ec508cdfad52d038300b728, 154 entries nontruncated. All 10 canonical CSVs, unchanged validate.mjs and supplemental quality CSV independently refetched at immutable SHA and matched exact tree blob SHAs: 12/12. Independent JavaScript CSV widths, exact source/context/role/provenance and search joins, 248×7 roster, issuer enums, all research_lead_only, community/cross-border preservation and new audit ledger: zero structural errors. Actual Node CLI NOT RUN (direct GitHub git checkout DNS failed, no executable reconstruction completed). Combined commit status returned zero statuses; do not claim CI success or failure. No legal, copyright, clinical, fulltext or live-link approval.
+
+PR #71 draft/open/unmerged. Exact sources and caveats in BATCH_84_CHECKPOINT.md.
+
+---
+
 ## Team B batch 83 — current status · 2026-11-06
 
 **[Batch 83 standalone checkpoint](BATCH_83_CHECKPOINT.md)** · [immutable data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f2c23da058a350bbbec68a04dc1d481ec29a1022). **492** nongovernmental/specialist identities across **227/248** verified local M49 domiciles; 21 identity gaps. **379/1,736** condition-area source-positive research links, **174** bounded-unlinked, **1,183** untouched; **415** exact contexts, **1,121** provenance, **645** search logs; 10 community/subnational, eight cross-border and 14 diversity cases preserved; five original issuer-country unknowns. **415/415 research_lead_only; zero clinical claims approved.** Delta from batch 82: +2 local identities (no additional domicile areas), +1 research-only Peru gout course-program source, +3 bounded cells, −4 untouched, +4 provenance and +4 logs.
