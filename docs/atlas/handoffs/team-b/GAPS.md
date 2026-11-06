@@ -1,3 +1,13 @@
+## Batch 63 — Dutch-language gout and Czech recommendations — 2026-11-05
+
+INCOMPLETE · DRAFT · DO NOT MERGE. 445 organizations; 359 exact research leads; 328 source-positive cells; 146 bounded no-resource cells; 1262 untouched. All resources research_lead_only; zero clinical claims approved.
+
+- **056 · B-BE-REUMANET · gout** [Jicht — ReumaNet](https://reumanet.be/jicht): Dutch patient explainer links European gout recommendations and English originals separately. No publication/review date established; medicine and numerical claims not appraised. Gout differs from asymptomatic elevated urate. Flemish scope is not national representativeness or Indigenous governance.
+- **528 · B-NL-REUMANEDERLAND · gout** [Jicht — ReumaNederland](https://reumanederland.nl/reuma/vormen-van-reuma/jicht): Own Dutch gout explainer refers readers to Reuma.nl and lists collaborative medical-information partners. Not a society-authored clinical guideline or prevalence study. Exact review date, medicine/diet statements and source methods unappraised; family history does not establish genotype or diagnosis.
+- **203 · B-CZ-CRS · gout** [Doporučené postupy ČRS — gout2012 and2019 entries](https://revmatologicka-spolecnost.cz/doporucene-postupy-crs/): Own Czech catalogue separately lists society gout recommendations2012 and2019. External ACR/EULAR recommendation catalogues are distinct, with original issuers retained. Full PDFs, supersession, methods and rights unappraised; not a2026 edition or national statutory adoption.
+
+Actual Node structural validator passed with zero errors before commit. Commit-addressed readback is recorded separately in VALIDATION.md. Only Team B research files changed. All historical caveats below remain binding.
+
 # Team B gaps — batches 59–62 — 2026-11-05
 
 **INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.** 442 organizations across 227/248 domiciles (21 identity gaps). Of 1,736 cells: 325 source-positive, 146 bounded targeted without verified resource, 1265 untouched; 1411 total source-unlinked. 356 exact resource/context leads; 941 provenance rows, 551 search logs, 8 subnational/community records, eight cross-border edges; five original-document issuer-country unknowns and 28 known issuer/domicile differences. Every resource remains research_lead_only; zero clinical claims approved.
@@ -677,4 +687,3 @@ Kiribati Family Health Association’s own indexed page lists diabetes and blood
 - **826 · B-GB-BIHS:** 2024 professional position statements indexed; UK-domiciled UK-Ireland remit does not establish statutory Ireland jurisdiction or authorship of every linked guideline. First-party source: https://bihs.org.uk/education/guidelines.aspx.
 
 The five new hypertension-linked cells are **document-discovery positives only**. Denmark's linked index includes external specialty material; SFHTA membership is through SFC and the professional entity must not be assumed legally independent; Germany's association is a participant rather than sole national guideline issuer; Italy's technical 24-hour monitoring recommendations do not equal universal treatment standards; UK-domiciled BIHS's Irish remit is not a domicile or legal-adoption inference. No full therapeutic guideline appraisal, population sampling, or ancestry-risk generalization occurred. No source absence or historical lifecycle gap elsewhere is closed. Remaining 1,360 zero-resource cells without targeted searches; 21 areas without eligible verified locally domiciled organizations; 5 source-issuer-country unknowns. Retain all 14 diversity failure examples and each prior conflict.
-

@@ -1,3 +1,13 @@
+## Batch 63 — Dutch-language gout and Czech recommendations — 2026-11-05
+
+INCOMPLETE · DRAFT · DO NOT MERGE. 445 organizations; 359 exact research leads; 328 source-positive cells; 146 bounded no-resource cells; 1262 untouched. All resources research_lead_only; zero clinical claims approved.
+
+- **056 · B-BE-REUMANET · gout** [Jicht — ReumaNet](https://reumanet.be/jicht): Dutch patient explainer links European gout recommendations and English originals separately. No publication/review date established; medicine and numerical claims not appraised. Gout differs from asymptomatic elevated urate. Flemish scope is not national representativeness or Indigenous governance.
+- **528 · B-NL-REUMANEDERLAND · gout** [Jicht — ReumaNederland](https://reumanederland.nl/reuma/vormen-van-reuma/jicht): Own Dutch gout explainer refers readers to Reuma.nl and lists collaborative medical-information partners. Not a society-authored clinical guideline or prevalence study. Exact review date, medicine/diet statements and source methods unappraised; family history does not establish genotype or diagnosis.
+- **203 · B-CZ-CRS · gout** [Doporučené postupy ČRS — gout2012 and2019 entries](https://revmatologicka-spolecnost.cz/doporucene-postupy-crs/): Own Czech catalogue separately lists society gout recommendations2012 and2019. External ACR/EULAR recommendation catalogues are distinct, with original issuers retained. Full PDFs, supersession, methods and rights unappraised; not a2026 edition or national statutory adoption.
+
+Actual Node structural validator passed with zero errors before commit. Commit-addressed readback is recorded separately in VALIDATION.md. Only Team B research files changed. All historical caveats below remain binding.
+
 # Team B changelog — batches 59–62 — 2026-11-05
 
 **INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.** 442 organizations across 227/248 domiciles (21 identity gaps). Of 1,736 cells: 325 source-positive, 146 bounded targeted without verified resource, 1265 untouched; 1411 total source-unlinked. 356 exact resource/context leads; 941 provenance rows, 551 search logs, 8 subnational/community records, eight cross-border edges; five original-document issuer-country unknowns and 28 known issuer/domicile differences. Every resource remains research_lead_only; zero clinical claims approved.
