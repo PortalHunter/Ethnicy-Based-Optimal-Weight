@@ -56,6 +56,10 @@ Three design distinctions matter:
 
 To test how food composition affects one individual's LDL-C and apoB—not to diagnose mechanism or predict MI risk—record baseline diet/medication and weight trend, alter one dietary variable at a time, document adherence and macros, repeat the same lipid laboratory/apoB after a defined 4–12 week interval under consistent conditions. Crossovers can improve internal validity but still have carryover and time effects. Major LDL-C/apoB elevations warrant clinician assessment without delaying guideline-directed prevention solely to finish an unproven plateau experiment. [S20]
 
+### Retrospective severe LDL-C chart series [S33]
+
+A 2023 referral-based case series identified **17** ketogenic-diet users with severe LDL-C elevations (mean on-diet LDL-C **316 mg/dL**). Among **13** with follow-up, mean LDL-C was approximately **143 mg/dL** after dietary change/discontinuation, often with lipid-lowering treatment; **8** had started statins. ApoB, available in only **10**, averaged **191 mg/dL**, showing that at least some severe ketogenic LDL-C rises are accompanied by substantial atherogenic particle elevation rather than mere cholesterol enrichment. The study does not isolate diet from treatment or quantify cardiovascular risk. [S33]
+
 ## 5. Imaging evidence and the retraction that materially changes interpretation
 
 ### Baseline KETO-CTA study, 2024 — [S13]
