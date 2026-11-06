@@ -1,3 +1,17 @@
+## CURRENT — Team A Batch52 legal/source gaps (2026-11-06)
+
+**Official M49 geography 248/248 = 100%; preliminary area-scoped governmental authority IDs 231/248 = 93.15%; 17/248 UNKNOWN = 6.85%; full enacted current comprehensive all-level legal acceptance NOT MEASURED / INCOMPLETE.** [Complete Batch52 checkpoint](CHECKPOINT_20261106_BATCH52.md) · [immutable eight-CSV QA](QA_BATCH52_20261106.json) · [010 and 624 source note](source_recovery/CYCLE_010_624_TREATY_AND_INASA_STATUTES_20261106.md). 318 body identities, 45 narrow relations, 4 explicit shared scopes, 248 coverage rows, **691** provenance observations.
+
+**010 Antarctica remains UNKNOWN:** Authentic Treaty Article VIII gives nationality jurisdiction only to treaty-designated observers, exchanged scientific staff and accompanying members performing treaty functions. The separately hosted UK governmental transcription shares the same underlying Treaty issuer. Verify original national health/worker/surveillance laws, station operators and personnel-specific application; no continent-wide health ministry or blanket health delegation, no adjudication of claims.
+
+**624 Guinea-Bissau remains UNKNOWN:** IANPHI Appendix C1 English translation of historic INASA statutes verifies historical autonomy, ministry tutelage, research/reference lab subject matter as a *translated archival lead*. Obtain **original Portuguese published 26 Aug 2010 BOE no.34 3rd supplement**, complete INASA and pharmaceutical law, current 2026 amendments and original current ministry organic/devolved medicines, district/regional/ethics duties; never mistake historical translation, government branding, 2025 PNDS policy decree or multiple INASA pages for current independent enacted statutory issuer.
+
+**Full unresolved 17:** `010, 074, 086, 104, 112, 226, 239, 260, 275, 334, 364, 408, 581, 624, 732, 744, 887`. Next 581 signed updated DOI/Air Force/DOI-Navy per-island health and worker powers, 226 June/October original BOE and INSESO, 744 full current Norwegian consolidated Svalbard/Jan Mayen law and §29e vs November research act; then 12 other unknowns and **231 provisionally identified** areas' independent current national/devolved/Indigenous/municipal medicine/public-health/regulator/institute enacted legal-issuer checks. All source states and unresolved audit reasons must be preserved.
+
+Independent JS quote-aware structural QA passed with exact blob readbacks; **actual Python validator and 5 tests NOT RUN Batch52** (local GitHub DNS, last actual Batch41). No inference of clinical or full legal signoff; PR stays OPEN DRAFT/UNMERGED; only Team A folder changes.
+
+---
+
 ## CURRENT — Team A Batch51 legal/source gaps (2026-11-06)
 
 **248/248 dated M49 geography verified structurally; 231/248 provisional government-health identity; 17/248 explicitly UNKNOWN; full all-level current enacted legal acceptance NOT MEASURED / INCOMPLETE.** [Standalone checkpoint](CHECKPOINT_20261106_BATCH51.md), [QA](QA_BATCH51_20261106.json), [Guinea-Bissau BOE/INASA primary/secondary recovery](source_recovery/CYCLE_624_GUINEA_BISSAU_BOE_INASA_20261106.md). **688 provenance observations**; 318 bodies, 45 narrow relationships, 4 shared scopes, 248 reviews.
