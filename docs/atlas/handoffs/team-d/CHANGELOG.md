@@ -1,3 +1,11 @@
+## 2026-11-06 — Batch 45: distinguish PAHO statistical territory labels from contact hubs
+
+- **25 additional typed, source-qualified observations** under Team D: 14 unresolved M49 areas grouped by PAHO Core Indicators statistical subregions, and 11 PAHO/WHO indexed directory listings (four host contacts and seven out-of-area representation links). Statistical grouping does not convert `not_verified` WHO region status; remote contact does not prove dedicated physical office or absent office. Direct original PAHO opens were **HTTP 403**, so indexed first-party status and undated publication are explicit.
+- Commits `358a216` (directory), `a9f4d79` (indicators), `c772be1` (provenance), `82ddc34` (validator) and independent [Batch 45 checkpoint](CHECKPOINT_BATCH_45_2026-11-06.md). One new provenance **TD-SRC-283**, 283 total unique URLs; reused existing source **TD-SRC-177**. Preserved concurrent Batch 44 Malta research.
+- GitHub full CSV readback/width/unique M49 and source joins, 205 current WHO assignments/44 unresolved and 105 positive April host survey joins, and V8 validator syntax **PASS**. Full multi-dependency checked-in validator and literal Node/Actions **NOT EXECUTED**; not legal/scientific/clinical or maintainer approval. PR remains open draft, Team D-only changes.
+
+---
+
 ## 2026-11-06 — Batch 44: Malta primary Act statutory issuer vs delegation boundary
 
 - Added **four** dated, narrow first-party Malta-law review cases `TD-MT-LAW-001–004`, distinct from the previous **71** EMA national agency remit descriptions. Official Chapter 458 published consolidated PDF Articles 3, 20–23 distinguishes statutory Licensing Authority from assessment by Medicines Authority, while agency registration page attributes grants to agency; indexed subsidiary delegation order S.L. 458.39 **operative text not obtained**. This is a sharpened legal/source conflict, **not** complete current issuer audit or legal interpretation.
