@@ -1,3 +1,12 @@
+## 2026-11-05 — Batch 29: EMA/Commission authorisation role separation
+
+- [`5690bcf`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/5690bcfb99ed123c0a12a010be6a05b088ad44f0): added `data/ema_authorisation_role_boundaries_2026.csv`, **11** dated-as-checked role-source observations; intentionally no inferred NCA legal remits, national medication approvals or new graph authority links.
+- [`4c24387`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/4c243877dd52764f201cd94bfb2684d5bd3923d1): six first-party source URLs `TD-SRC-212–217`, **217 unique provenance URLs**; published/effective dates deliberately unknown.
+- [`ec29b44`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/ec29b443970a394c650e743548679d931ce665ac): checked-in validator now asserts Batch 29 cohort and sources; **PASS: 11,479 assertions / 38 dependencies / read-only full JavaScript replay**, not native Node/Actions.
+- This documentation update and [standalone Batch 29 checkpoint](CHECKPOINT_BATCH_29_2026-11-05.md) preserve existing unknown WHO assignment, old WHO presence data, prior source conflicts, team-specific write scope and draft/unmerged status.
+
+---
+
 ## 2026-11-05 — Batch 28: AOECS member and nonmember society inventory
 
 - [`bac43d5`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/bac43d5e461e862200fba5e4843f2b9ec93d77a5): 68 unique AOECS named-society role observations in `data/aoecs_society_role_observations_2026.csv`, with **43 full-section/1 associate/3 affiliate/21 explicit nonmember** role labels, checked M49 geographic codes and unknown accession dates.
