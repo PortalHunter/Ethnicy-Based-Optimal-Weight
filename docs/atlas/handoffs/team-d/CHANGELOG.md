@@ -1,3 +1,9 @@
+## Batch 25 — 2026-11-05 — source-qualified WHO SPH event metadata
+
+- Atomic research commit [`f2455ce`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f2455ce220cc307b2a0b7797d5baa96c78a838c0) modifies only `data/who_sph_reporting_region_context.csv`, `PROVENANCE.csv` and `validate.mjs`. Adds `TD-WHO-SPH-007–009`, three directly reviewed first-party WHO SPH HTML URLs `TD-SRC-202–204`, event year 2020 Curaçao COVID-19 and 2026 Curaçao/French Guiana chikungunya region labels. No 2026 administrative/office/clinical/status inference. New totals: nine SPH records, 204 unique sources; graph 47/617 and WHO 205/44 unchanged. Targeted cross-file validation PASS, full checked-in Node/JS not run after this batch. [Complete checkpoint](CHECKPOINT_BATCH_25_2026-11-05.md).
+
+---
+
 ## Batch 24 — 2026-11-05 — WHO SPH health-security reporting boundaries
 
 - Research/data/validator [commit `aa8e5c74b649b4481c61780cac74356198374467`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/aa8e5c74b649b4481c61780cac74356198374467): `data/who_sph_reporting_region_context.csv` **six** rows (Liechtenstein 2019/2024 submitted SPAR European Region; Cayman undated Americas SPH; Bermuda/BVI/USVI 2020 COVID event Americas metadata). `PROVENANCE.csv` adds six directly opened official WHO URLs `TD-SRC-196–201` (now **201** unique). `validate.mjs` adds source-year/date/unknown-state assertions.

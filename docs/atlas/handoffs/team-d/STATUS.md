@@ -1,3 +1,9 @@
+# Team D latest verified status — Batch 25 (2026-11-05)
+
+[Complete standalone Batch 25 checkpoint](CHECKPOINT_BATCH_25_2026-11-05.md). Evidence/ledger/validator commit [`f2455ce`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f2455ce220cc307b2a0b7797d5baa96c78a838c0): three directly opened WHO SPH emergency-event metadata pages (Curaçao 2020/2026; French Guiana 2026), `TD-WHO-SPH-007–009`, `TD-SRC-202–204`. Nine SPH source-context observations, **204** unique provenance URLs. Source event years and regional reporting tags are **not** current constitutional WHO region/office membership or clinical/legal mandates. Existing **47 nodes/617 dated links**, **205 directly verified/44 unresolved WHO regions**, 105 April 2026 direct host positives unchanged. **Targeted five-file GitHub readback assertions PASS**; full revised validator not run (33-fetch connector cap), native Node unavailable. PR remains draft/unmerged, Team D only.
+
+---
+
 # Team D verified latest status — Batch 24 (2026-11-05)
 
 [Complete standalone Batch 24 checkpoint](CHECKPOINT_BATCH_24_2026-11-05.md). Data/validator commit `aa8e5c74b649b4481c61780cac74356198374467`: **six** directly reviewed WHO health-security portal reporting-context records for **five** unresolved M49 areas (two Liechtenstein SPAR years, one undated Cayman profile, three 2020 Caribbean COVID event tags), official sources `TD-SRC-196–201`. WHO SPH reporting labels are NOT present 2026 administrative WHO-region/member assignments, office operation, statutes or clinical approval. **47 nodes / 617 graph edges / 201 unique URLs**; WHO 205 source-verified / 44 unresolved administrative regions and 105 April WHO office positives unchanged. GitHub post-commit **targeted cross-file checks PASS**; complete revised Node/JS validator NOT executed. PR #70 open/draft/unmerged, Team D-only. Full details, remaining work and precise source links in checkpoint.

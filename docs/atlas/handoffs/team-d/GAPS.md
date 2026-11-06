@@ -1,3 +1,9 @@
+## Batch 25 still unresolved — 2026-11-05
+
+Three direct official WHO SPH emergency metadata entries add historic `2020` Curaçao and event-year `2026` Curaçao/French Guiana reporting-region labels. They **do not** close the present-day administrative WHO region gaps for `531` or `254`, or validate any current country office, enacted health law, clinical intervention, epidemiological case total, or exact publication day. All **44** contemporary region unknowns, **144** office-host evidence gaps, **46** September 2024 survey-recency questions, PAHO 13/14 scope and conflicting term months, SCI accession, APPM, EMA/EDA, HEARTS/ASEAN, Team A/B/C joins and native full validator remain. [Standalone checkpoint](CHECKPOINT_BATCH_25_2026-11-05.md).
+
+---
+
 ## Batch 24 unresolved — WHO SPH metadata is not constitutional/office membership (2026-11-05)
 
 WHO SPH directly labels Liechtenstein `European Region` for **2019 and 2024** submitted IHR SPAR reporting, despite WHO/Europe separately describing the region as **53 Member States plus Liechtenstein**. A Cayman Islands profile has an **undated** Americas region tag; Bermuda/BVI/USVI tags are **2020** emergency-event metadata, not current regional-affiliation law. New six-record evidence layer is *source-specific* and **does not change the 44 current WHO administrative unknowns**. Need independently authoritative contemporary affiliation/office declarations and native Node check. All prior open gaps (144 without April 2026 direct office positive, 46 old survey recency, PAHO 13/14/403 and Jan/Feb dispute, SCI, APPM, EMA, HEARTS, ASEAN and Team A/B/C joins) remain. [Standalone Batch 24 checkpoint](CHECKPOINT_BATCH_24_2026-11-05.md).

@@ -1,3 +1,11 @@
+## Batch 25 post-commit verification — 2026-11-05
+
+- Commit [`f2455ce220cc307b2a0b7797d5baa96c78a838c0`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f2455ce220cc307b2a0b7797d5baa96c78a838c0), Team D data/ledger/validator only.
+- **PASS** live GitHub five-file targeted cross-check: nine SPH rows / seven area codes, 204 source IDs and URL uniqueness, three new event IDs and years/M49 keys, `not_verified` preservation in 249-country status table and 44-row pending queue, 205 known assignments, validator expectations, precise event-reference-year semantics. File hashes and check detail in [Batch 25 checkpoint](CHECKPOINT_BATCH_25_2026-11-05.md).
+- **No full checked-in validator PASS claimed.** Attempted complete shim read of 33 inputs failed due GitHub connector tool-call cap; native Node checkout inaccessible from this session. Last earlier full compatible shim PASS applies to **Batch 23**, not Batch 25. Do not conflate these checks with legal/medical/scientific signoff or live CI.
+
+---
+
 ## Batch 24 validation — 2026-11-05, method and scope
 
 - Verified research commit `aa8e5c74b649b4481c61780cac74356198374467` and PR #70 open/draft/unmerged.
