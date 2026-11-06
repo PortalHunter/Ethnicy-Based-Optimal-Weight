@@ -1,3 +1,13 @@
+## Batch 72-8967 — Hereditary iron-overload gaps and disease-boundary audit — 2026-11-06
+
+INCOMPLETE · DRAFT · DO NOT MERGE. All sources research_lead_only; zero approved clinical claims.
+
+- **702 · B-SG-NFDD · hemochromatosis** [NFDD cirrhosis and liver catalogue — bounded hereditary iron check](https://nfdd.sg/understanding-the-digestive-systems/common-gi-conditions/cirrhosis/): Own cirrhosis page and liver catalogue discuss common liver disease without a substantive hereditary iron-overload resource in inspected output. Generic cirrhosis is not haemochromatosis evidence; ferritin/iron tests on separate bleeding page concern a different context. Singapore hospital HFE laboratory listing is not NFDD authorship. Bounded check only, not absence of local research.
+- **458 · B-MY-MSGH · hemochromatosis** [MSGH Publications — bounded hereditary haemochromatosis check](https://msgh.org.my/Publications.html): Inspected society resource index provides MASLD, IBD and endoscopy sources without a verified hereditary haemochromatosis publication. Thalassaemia/transfusion iron overload surfaced in ministry guidance and is a distinct disease/issuer, not a society hereditary iron source. Older abstract books were not exhaustively searched for iron; no national absence inference or new source-positive credit.
+- **608 · B-PH-PSG · hemochromatosis** [PSG handbook and education — bounded hereditary iron check](https://psgastro.org/guidelines-handbook/): Inspected own handbook and education lists do not establish a substantive hereditary iron-overload resource. Bleeding, anaemia and generic liver topics cannot substitute for inherited iron disease. Joint journal, external hepatology societies and older archives require separate research; no Philippine research absence or clinical advice inferred.
+
+Actual Node structural validator passed with zero errors before commit. Immutable readback receipts recorded in VALIDATION.md. Prior evidence and caveats remain binding.
+
 ## Batch 71 — Baltic gout education and distinct issuer identities — 2026-11-06
 
 INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.
