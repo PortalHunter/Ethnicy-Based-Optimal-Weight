@@ -1,3 +1,23 @@
+# Team D — current continuation entrypoint: close existing evidence gaps first
+
+**Read [COMPLETION_PLAYBOOK.md](COMPLETION_PLAYBOOK.md) in full before researching.** It is the current operational policy for case-level gap closure, source-saturation rules, evidence thresholds, acceptance tracking, concurrency, verification, and a **mandatory 20-slot visual progress-bar report with before/after counts, per-run deltas and remaining gaps**. Also read the latest standalone checkpoint below, [GAPS.md](GAPS.md), and the original Team D acceptance criteria. Historical batch instructions below remain evidence history, but **the completion-first priorities and required end-of-run reporting in the playbook take precedence over their older formatting/task-order wording**. This does not relax any original scientific, legal, source-provenance, scope or draft-PR restrictions.
+
+**Starting verified Batch 45 snapshot (2026-11-06, remeasure live):** WHO current assignment **205/249 with 44 unknown**; direct affirmative **April 2026** office survey **105/249 with 144 lacking equivalent positive, NOT absent offices**; EMA official role descriptions **34/34**; full current amended medicine law/delegation plus exact Team A ID audit **0/34**. Batch 45 added 25 source-bounded PAHO observations but no WHO assignment or April office numerator changes. Never inflate these categories using service coverage, post-April activity, a role self-description or a completed search. No clinical or legal approval is implied.
+
+**Research selection rule:** pick 2–5 named existing unresolved entries each run; attempt the primary documentary closure or record the precise access/authority blocker. After two distinct authoritative source routes fail on one item in that run, log it and move to the next priority rather than accumulating unrelated records. Save readback-verified Team D-only commits and, if unfinished, a complete new checkpoint. Keep PR #70 OPEN/DRAFT/UNMERGED.
+
+## Short reusable prompt to copy verbatim
+
+```text
+Continue Team D research in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70.
+
+Read `docs/atlas/handoffs/team-d/CONTINUATION_PROMPT.md` and its linked `COMPLETION_PLAYBOOK.md` on branch `research/atlas-team-d-20261104`. Follow the latest checkpoint and original acceptance criteria. Prioritize closing documented gaps, preserve caveats and concurrent work, and commit/validate/read back Team D-only changes. Do not modify main, the website or other teams, or merge/mark ready/approve clinical claims.
+
+Finish with a verified checkpoint link, a short summary of what was closed versus blocked, and updated 20-slot progress bars showing before → after, change this run and remaining gaps for WHO regions, April office evidence and regulator/legal audits. Keep legal/clinical approval separate.
+```
+
+---
+
 # Latest Team D autonomous restart — Batch 45 (2026-11-06)
 
 **START with [complete standalone Batch 45 checkpoint](CHECKPOINT_BATCH_45_2026-11-06.md)** and independently re-check live PR #70 and research branch HEAD; concurrent commits can supersede the checkpoint head. Added **25 source-qualified PAHO observations**: **14 still-unverified WHO-region M49 areas** in PAHO indicator statistical groupings, and **11 separate PAHO contact-directory entries** (four listed host contacts, seven areas represented elsewhere). Directory reused **TD-SRC-177**; new PAHO indicator indexed URL **TD-SRC-283**, total **283 provenance URLs**. Direct opening of PAHO pages returned HTTP **403**; classification is indexed first-party text without original facsimile. **Never infer direct WHO administrative region, physical occupied office, distinct country office, April survey response, constitutional membership, legal mandate or medical approval** from these service/reporting labels.
