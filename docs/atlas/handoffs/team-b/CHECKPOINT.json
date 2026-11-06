@@ -5,26 +5,26 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "152146e89c701b31d4356cafaf133a6c9c0fbb75",
-  "batch": "79",
+  "validated_data_commit": "75fe8f609a35876e35b71df9937fee585ff15eb8",
+  "batch": "80",
   "metrics": {
-    "organizations": 483,
+    "organizations": 485,
     "areas": 227,
-    "resources": 406,
-    "positive": 370,
-    "without_linked_source": 1366,
+    "resources": 408,
+    "positive": 372,
+    "without_linked_source": 1364,
     "targeted_no_source": 171,
-    "unresearched": 1195,
-    "provenance": 1095,
-    "search_log": 633,
+    "unresearched": 1193,
+    "provenance": 1101,
+    "search_log": 635,
     "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
     "issuer_country_differs_from_domicile": 28,
     "by_condition": {
       "diabetes": 109,
-      "hypertension": 73,
-      "high_chol": 45,
+      "hypertension": 74,
+      "high_chol": 46,
       "gout": 38,
       "lactose": 32,
       "celiac": 49,
@@ -33,29 +33,27 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organizations": 3,
-    "resources": 4,
-    "positive_cells": 4,
+    "organizations": 2,
+    "resources": 2,
+    "positive_cells": 2,
     "bounded_no_source_cells": 0,
-    "previously_untouched_cells_targeted": 4,
+    "previously_untouched_cells_targeted": 2,
     "previously_bounded_cells_converted_to_positive": 0,
-    "provenance": 10,
-    "searches": 4
+    "provenance": 6,
+    "searches": 2
   },
-  "validation_runtime": "independent_JS_precommit_and_immutable_postcommit_relational_0_errors_11_of_11_GitHub_SHA_tree_readback_Node_CLI_not_run",
+  "validation_runtime": "independent_JS_precommit_structural_0_errors_immutable_11_of_11_SHA_tree_matches_Node_CLI_not_run_DNS_unavailable",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "1195 untouched area-condition cells, especially gout/lactose/celiac/hemochromatosis",
-    "21 M49 domiciles without independently verified local organizations",
-    "171 bounded-unlinked targeted checks; original-language expansion",
-    "Five original issuer-country imprints: Panama HEARTS, WGO Portuguese lactose, ESPGHAN Portuguese coeliac, Chad OA Pub/JHC, South Sudan PAMJ",
-    "Turkish 2025 seven-society HT report original full text/authorship/methods/legal adoption and licensing",
-    "Turkish Çölyakla Yaşam Derneği education imprecise allergy characterization; do not endorse",
-    "Nepal NHJ 2024 one-centre high LDL registry cross-sectional/prospective conflict; severe LDL != FH",
-    "Croatian 2012 Reumatizam gout PDF full visual/rights appraisal and historic edition",
-    "Preserve Iceland PDF 502, Nepal CSN membership/2023 consensus, Ireland Croí external ESC distinctions",
-    "Clinical, Indigenous governance/consent, licensing, denomination and ancestry-generalization appraisal all remain open"
+    "1193 untouched condition-area cells; gout lactose coeliac hereditary hemochromatosis",
+    "21 missing domiciled local organizations",
+    "171 bounded unlinked cells to research in original languages",
+    "Five original issuer imprints: Panama HEARTS, Portuguese WGO lactose, Portuguese ESPGHAN coeliac, Chad OA Pub/JHC, South Sudan PAMJ",
+    "Bangladesh NHFB 1978 versus 1979 founding-year conflict, Bangladesh Cardiac Society membership 600 vs 1500 vs older 285 directory",
+    "2026 Bangladesh HEARTS authorship and primary-care programme-denominator/methods independent review, 2025 NHFB statin survey not FH or high-LDL prevalence",
+    "Preserve Turkey multi-society 2025 HT and celiac allergy wording, Nepal single-centre registry methods, Croatia 2012 gout, Iceland PDF 502, Ireland Croí versus ESC authorship",
+    "Original PDF/full text, journal/publisher rights, provenance, clinical, copyright, Indigenous governance and informed consent checks pending"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -69,7 +67,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Complete immutable 145-entry nontruncated tree; 11/11 GitHub blob SHA-to-tree matches for ten CSVs and unchanged validator, zero independent JS structural errors, scope only Team B six CSVs. Node CLI and independent local Git hash not run; no legal, clinical, copyright, edition or external live URL certification.",
+  "validated_data_commit_note": "Complete nontruncated 146-entry root tree; 11/11 GitHub blob SHA-to-tree readbacks for ten CSVs plus untouched validator, independent precommit JS structural joins 0 errors. GitHub data commit changes only six Team B CSVs. Actual Node CLI not executed due github.com DNS failure; no licensing, legal, clinical, method or full-text certification.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -157,17 +155,17 @@
     }
   ],
   "readback_validation": {
-    "batch": "79",
-    "sha": "152146e89c701b31d4356cafaf133a6c9c0fbb75",
-    "tree_sha": "648b0227c8c015e426df34839eb7b2b30a58fd62",
-    "tree_entries": 145,
+    "batch": "80",
+    "sha": "75fe8f609a35876e35b71df9937fee585ff15eb8",
+    "tree_sha": "bc78a0e9cee51fd16846f60b3cd65e6921b7f687",
+    "tree_entries": 146,
     "truncated": false,
     "files": 11,
     "exact_matches": 11,
     "local_hash_matches": null,
     "structural_errors": 0,
     "node_cli_run_this_batch": false,
-    "notes": "Ten Team B CSVs and unchanged validator refetched at immutable data commit; GitHub file SHA matches 145-entry complete tree 11/11; independent JavaScript structural joins/states/counts 0 errors. Node CLI not executed. Not medical, legal, rights, licensing, fulltext or full link verification."
+    "notes": "Complete nontruncated 146-entry root tree; 11/11 GitHub blob SHA-to-tree readbacks for ten CSVs plus untouched validator, independent precommit JS structural joins 0 errors. GitHub data commit changes only six Team B CSVs. Actual Node CLI not executed due github.com DNS failure; no licensing, legal, clinical, method or full-text certification."
   },
   "previous_independently_verified_data_commit": "4a782e09f3505bc6acfcee48182760ca9b87d49c",
   "session_additions": {
@@ -2283,25 +2281,25 @@
     "scope": "only Team B directory; PR remains draft/unmerged; no website/main/other-team files"
   },
   "latest": {
-    "batch": "79",
+    "batch": "80",
     "metrics": {
-      "organizations": 483,
+      "organizations": 485,
       "areas": 227,
-      "resources": 406,
-      "positive": 370,
-      "without_linked_source": 1366,
+      "resources": 408,
+      "positive": 372,
+      "without_linked_source": 1364,
       "targeted_no_source": 171,
-      "unresearched": 1195,
-      "provenance": 1095,
-      "search_log": 633,
+      "unresearched": 1193,
+      "provenance": 1101,
+      "search_log": 635,
       "community": 10,
       "cross_border_edges": 8,
       "issuer_country_unresolved": 5,
       "issuer_country_differs_from_domicile": 28,
       "by_condition": {
         "diabetes": 109,
-        "hypertension": 73,
-        "high_chol": 45,
+        "hypertension": 74,
+        "high_chol": 46,
         "gout": 38,
         "lactose": 32,
         "celiac": 49,
@@ -2309,8 +2307,8 @@
       },
       "current_unsd_overview_codes": 248
     },
-    "validated_data_commit": "152146e89c701b31d4356cafaf133a6c9c0fbb75",
-    "documentation": "BATCH_79_CHECKPOINT.md and first sections of CONTINUE/STATUS/GAPS/CHANGELOG/VALIDATION plus CHECKPOINT.json",
+    "validated_data_commit": "75fe8f609a35876e35b71df9937fee585ff15eb8",
+    "documentation": "BATCH_80_CHECKPOINT.md and latest headers of CONTINUE/STATUS/GAPS/CHANGELOG/VALIDATION with CHECKPOINT.json",
     "draft": true,
     "unmerged": true,
     "clinical_claims_approved": 0
@@ -2477,5 +2475,56 @@
       "Nepal hospital severe LDL registry one-centre 119 adults, study-design conflict, not FH",
       "Croatia society publishes historical 2012 journal issue, not a 2026 guideline; screenshot timed out"
     ]
+  },
+  "previous_checkpoint_before_batch80": {
+    "batch": "79",
+    "data_commit": "152146e89c701b31d4356cafaf133a6c9c0fbb75",
+    "metrics": {
+      "organizations": 483,
+      "areas": 227,
+      "resources": 406,
+      "positive": 370,
+      "without_linked_source": 1366,
+      "targeted_no_source": 171,
+      "unresearched": 1195,
+      "provenance": 1095,
+      "search_log": 633,
+      "community": 10,
+      "cross_border_edges": 8,
+      "issuer_country_unresolved": 5,
+      "issuer_country_differs_from_domicile": 28,
+      "by_condition": {
+        "diabetes": 109,
+        "hypertension": 73,
+        "high_chol": 45,
+        "gout": 38,
+        "lactose": 32,
+        "celiac": 49,
+        "hemochromatosis": 24
+      },
+      "current_unsd_overview_codes": 248
+    },
+    "documentation": "BATCH_79_CHECKPOINT.md"
+  },
+  "batch80": {
+    "new_organization_ids": [
+      "B-BD-NHFB",
+      "B-BD-BCS"
+    ],
+    "new_source_positive_cells": [
+      "050 hypertension",
+      "050 high_chol"
+    ],
+    "readback_matches": 11,
+    "tree_sha": "bc78a0e9cee51fd16846f60b3cd65e6921b7f687",
+    "all_source_relationships": "research_lead_only",
+    "important_caveats": [
+      "NHFB 1978/1979 own-site founding discrepancy",
+      "BCS source conflicts >600/about 1500 and older ESC 285",
+      "Global Heart 2026 HEARTS multi-affiliation not NGO-exclusive guidance",
+      "2025 original statin-uptake survey not FH or high LDL prevalence"
+    ],
+    "standalone_checkpoint": "BATCH_80_CHECKPOINT.md",
+    "node_cli_run": false
   }
 }

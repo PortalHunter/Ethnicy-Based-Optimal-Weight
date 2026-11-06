@@ -1,3 +1,23 @@
+# Team B standalone continuation — batch 80 · 2026-11-06
+
+**Batch 80 (2026-11-06):** [standalone checkpoint](BATCH_80_CHECKPOINT.md) · [data commit 75fe8f60](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/75fe8f609a35876e35b71df9937fee585ff15eb8). **485** local specialist/nonprofit organization identities in **227/248** M49 domiciles (21 identity gaps), **372/1,736** source-positive area-condition cells, **171** bounded-unlinked, **1,193** untouched, **1,364** without source link, **408** research-only exact publication/context pairs, **1,101** provenance and **635** logged searches. Added two Bangladesh local organizations and two first-positive Bangladesh cells (hypertension, high_chol/statin-use). Existing **10** community/subnational rows, **8** cross-border edges, **14** diversity counterexamples and **5** unknown issuer imprints preserved. All **408/408 research_lead_only** and **0** approved clinical claims. Immutable complete **146-entry** data tree, **11/11** CSV/unchanged-validator SHA matches, independent JS precommit structural checks 0 errors; **actual Node CLI not run** due local github.com DNS checkout failure. No licensing, legal, clinical, publication-accuracy, or universal link certification. PR #71 must stay draft, open, unmerged.
+
+Bangladesh NHFB official original [founder chronology](https://epidemiology.nhf.org.bd/founder) says NGO established 1978 while [parent site](https://www.nhf.org.bd/publications) describes founded 1979; do not settle year or invent statutory power. [Bangladesh Cardiac Society's own description](https://banglacardio.org/bangladesh-cardiac-society/) mixes >600 and ~1,500 members (and historical ESC directory 285), so no definitive current number. [2026 hypertension paper](https://epidemiology.nhf.org.bd/publications/jFY4x4kgfEpfwnevprdF) is Global Heart named multi-institutional authorship involving NHFB, DGHS and others, not Foundation-only or a government guideline; enrolled implementation data do not prove population-wide efficacy. [2025 Global Heart statin study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11908426/) uses WHO STEPS Bangladesh 2018 surveyed adults 40–69, n=3,140, and measures statin eligibility/use. It is **not** FH genotype, high-LDL prevalence, population-wide all-ages risk, clinical prescription guidance, or an institution-authored national guideline. Publisher and own-site index differ; rights and methods beyond source text unappraised.
+
+**Full standalone restart:** [BATCH_80_CHECKPOINT.md](BATCH_80_CHECKPOINT.md), [CHECKPOINT.json](CHECKPOINT.json). Original acceptance criteria, global exceptions and exact source attribution are in that checkpoint. Preserve all historical content below.
+
+## Exact reusable continuation prompt
+
+Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71.
+
+Read `docs/atlas/handoffs/team-b/CONTINUE.md` on branch `research/atlas-team-b-20261104`, including its latest checkpoint and original acceptance criteria.
+
+Verify live GitHub state and continue autonomously, prioritizing untouched condition-area cells, missing organizations, source attribution, and research gaps. Preserve existing research, evidence caveats, and scope. Reconcile concurrent changes safely; commit, run validation, and verify readbacks regularly. Modify only Team B's research directory. Do not modify the public website, main, or other teams; do not merge the PR or approve clinical claims.
+
+If unfinished, save a complete standalone GitHub checkpoint. End with a concise status, this same reusable continuation prompt, and updated visual progress bars for geographic organization coverage and source-positive condition-area coverage, including remaining gaps.
+
+---
+
 # Team B standalone continuation — batch 79 · 2026-11-06
 
 **PR #71 draft, open, unmerged and INCOMPLETE at data readback.** Branch `research/atlas-team-b-20261104`. Only Team B `docs/atlas/handoffs/team-b/` changed. No public website, main, other teams, formulas, calculators, private data or clinical claims changed. All **406/406 source relationships remain `research_lead_only`; 0 approved medical claims**.
