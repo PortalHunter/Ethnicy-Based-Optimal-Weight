@@ -1,6 +1,6 @@
 # Independent research checkpoint and continuation — ketogenic LDL / apoB / Filipino-Southeast Asian
 
-**Cut-off:** 2026-11-05. **Branch:** \`research/keto-ldl-apob-seasia-20261105\` (separate from Team A/B/C/D atlas branches). **Status:** substantive first and second-pass research complete as a **source-qualified narrative**, but not an exhaustive systematic review or clinically approved calculator feature. Separate draft PR should remain **OPEN, DRAFT and UNMERGED** pending review.
+**Cut-off:** 2026-11-05. **Branch:** `research/keto-ldl-apob-seasia-20261105` (separate from Team A/B/C/D atlas branches). **Status:** substantive first and second-pass research complete as a **source-qualified narrative**, but not an exhaustive systematic review or clinically approved calculator feature. Separate draft PR should remain **OPEN, DRAFT and UNMERGED** pending review.
 
 ## Work completed / deliverables
 
@@ -56,12 +56,12 @@
 ## Validation protocol
 
 - Fetch the six substantive files from branch, confirm Markdown links target existing files and each [S##] citation resolves to a source ledger entry (S01–S27).
-- Compare branch to main; only \`docs/research/keto-ldl-2026/**\` and the additive \`docs/research/README.md\` index entry are permitted.
+- Compare branch to main; only `docs/research/keto-ldl-2026/**` and the additive `docs/research/README.md` index entry are permitted.
 - Run any available repo Markdown/source-link checks before considering merge. **No native Node or site tests were executed through the GitHub connector**; plain-text readback and GitHub compare do not constitute native CI.
 - Draft PR should not be merged without source audit and medical review; this is knowledge base research, not patient-facing software.
 
 ## Standalone continuation prompt
 
-> Continue the ketogenic LDL / apoB / Filipino–Southeast Asian research in \`PortalHunter/Ethnicy-Based-Optimal-Weight\`, branch \`research/keto-ldl-apob-seasia-20261105\`. Read \`docs/research/keto-ldl-2026/CONTINUE.md\` and all research files in that folder. Verify the live GitHub branch and draft PR before editing. Deepen and independently verify primary sources, especially 8+ week weight-stable body-recomposition cholesterol flux, apoB vs NMR LDL-P discordance with low TG/high HDL, LMHR tracer kinetics and saturated-fat interventions, Filipino/SE Asian apoB and lipid particle cohorts, and corrections/retractions. Resolve the Singapore LPACO denominators and the Carter 2025 corrigendum or explicitly retain unresolved status. Preserve study design distinctions and negative/conflicting data; add original primary citations and a transparent QA log. Make research-only commits to this branch, keep the public website, lab algorithms, ancestry classification, atlas research teams and main unchanged, and **do not merge the PR**. Maintain an independent on-GitHub checkpoint and update this same continuation prompt if work remains.
+> Continue the ketogenic LDL / apoB / Filipino–Southeast Asian research in `PortalHunter/Ethnicy-Based-Optimal-Weight`, branch `research/keto-ldl-apob-seasia-20261105`. Read `docs/research/keto-ldl-2026/CONTINUE.md` and all research files in that folder. Verify the live GitHub branch and draft PR before editing. Deepen and independently verify primary sources, especially 8+ week weight-stable body-recomposition cholesterol flux, apoB vs NMR LDL-P discordance with low TG/high HDL, LMHR tracer kinetics and saturated-fat interventions, Filipino/SE Asian apoB and lipid particle cohorts, and corrections/retractions. Resolve the Singapore LPACO denominators and the Carter 2025 corrigendum or explicitly retain unresolved status. Preserve study design distinctions and negative/conflicting data; add original primary citations and a transparent QA log. Make research-only commits to this branch, keep the public website, lab algorithms, ancestry classification, atlas research teams and main unchanged, and **do not merge the PR**. Maintain an independent on-GitHub checkpoint and update this same continuation prompt if work remains.
 
 **Note:** The present research review identifies important gaps and does not represent all search paths as exhausted. The user's original query requested exhaustiveness; that requires a subsequent registered systematic search and independent primary-data extraction, not an unqualified claim from a selective source ledger.
