@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,201);
+assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,204);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -400,9 +400,9 @@ console.log('Batch 23 Greenland: four dated observations; one WHO Europe MoU gra
 
 // Batch 24: WHO SPH reporting metadata is not a current WHO constitutional or office assignment.
 const sph=read('data/who_sph_reporting_region_context.csv');
-assert.equal(sph.length,6);unique(sph,r=>r.record_id,'WHO SPH record IDs');
-assert.deepEqual([...new Set(sph.map(r=>r.country_area_m49))].sort(),['060','092','136','438','850']);
-const sphSources={"https://extranet.who.int/sph/liechtenstein-2019":"TD-SRC-196","https://extranet.who.int/sph/spar-liechtenstein-submitted2024":"TD-SRC-197","https://extranet.who.int/sph/cayman-islands":"TD-SRC-198","https://extranet.who.int/sph/coronavirus-disease-covid-19-bermuda":"TD-SRC-199","https://extranet.who.int/sph/coronavirus-disease-covid-19-british-virgin-islands":"TD-SRC-200","https://extranet.who.int/sph/coronavirus-disease-covid-19-united-states-virgin-islands":"TD-SRC-201"};
+assert.equal(sph.length,9);unique(sph,r=>r.record_id,'WHO SPH record IDs');
+assert.deepEqual([...new Set(sph.map(r=>r.country_area_m49))].sort(),['060','092','136','254','438','531','850']);
+const sphSources={"https://extranet.who.int/sph/liechtenstein-2019":"TD-SRC-196","https://extranet.who.int/sph/spar-liechtenstein-submitted2024":"TD-SRC-197","https://extranet.who.int/sph/cayman-islands":"TD-SRC-198","https://extranet.who.int/sph/coronavirus-disease-covid-19-bermuda":"TD-SRC-199","https://extranet.who.int/sph/coronavirus-disease-covid-19-british-virgin-islands":"TD-SRC-200","https://extranet.who.int/sph/coronavirus-disease-covid-19-united-states-virgin-islands":"TD-SRC-201","https://extranet.who.int/sph/coronavirus-disease-covid-19-curacao":"TD-SRC-202","https://extranet.who.int/sph/chikungunya-virus-disease-2026-curacao":"TD-SRC-203","https://extranet.who.int/sph/chikungunya-virus-disease-2026-french-guiana":"TD-SRC-204"};
 for(const [url,id] of Object.entries(sphSources)){assert.equal(prov.filter(r=>r.source_url===url).length,1);assert.equal(prov.find(r=>r.source_url===url).source_id,id);}
 for(const r of sph){assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.observed_relation,'SOURCE_SPECIFIC_WHO_HEALTH_SECURITY_PORTAL_METADATA_ONLY');assert.equal(r.who_admin_assignment_state,'not_verified');assert.equal(r.who_membership_state,'not_verified');assert.equal(r.checked_on,'2026-11-05');assert.equal(statuses.find(s=>s.m49_code===r.country_area_m49).who_region,'not_verified');assert(pending.some(p=>p.country_area_m49===r.country_area_m49));}
 const lie=sph.filter(r=>r.country_area_m49==='438');
@@ -411,6 +411,14 @@ for(const r of lie){assert.equal(r.source_record_type,'SPAR_ANNUAL_SELF_ASSESSME
 assert.equal(sph.find(r=>r.country_area_m49==='136').source_date_precision,'undated_profile');
 for(const [code,id] of [['060','2020-E000181'],['092','2020-E000243'],['850','2020-E000195']]){const r=sph.find(x=>x.country_area_m49===code);assert.equal(r.source_event_id,id);assert.equal(r.source_reference_year,'2020');assert.equal(r.source_record_type,'SPH_2020_EMERGENCY_EVENT_REGION_TAG');assert.equal(r.source_regional_label,'Region of the Americas');}
 assert.equal(statuses.filter(s=>s.who_region==='not_verified').length,44);
-console.log('Batch 24: WHO SPH six historical/source-specific metadata observations, five areas; no administrative region/membership/office reclassification');
+console.log('Batch 24/25: WHO SPH event and health security metadata; no administrative region/membership/office reclassification');
+const extraSph=sph.filter(r=>['TD-WHO-SPH-007','TD-WHO-SPH-008','TD-WHO-SPH-009'].includes(r.record_id));
+assert.equal(extraSph.length,3);
+assert.deepEqual(extraSph.map(r=>r.source_event_id).sort(),['2020-E000180','2026-E000054','2026-E000066']);
+assert.deepEqual(extraSph.map(r=>r.country_area_m49).sort(),['254','531','531']);
+for(const r of extraSph){assert.equal(r.source_date_precision,'event_year_only');assert.equal(r.source_regional_label,'Region of the Americas');assert.equal(r.who_admin_assignment_state,'not_verified');assert.equal(r.who_membership_state,'not_verified');assert.equal(r.observed_relation,'SOURCE_SPECIFIC_WHO_HEALTH_SECURITY_PORTAL_METADATA_ONLY');assert.equal(statuses.find(s=>s.m49_code===r.country_area_m49).who_region,'not_verified');}
+assert.equal(extraSph.filter(r=>r.source_reference_year==='2020').length,1);
+assert.equal(extraSph.filter(r=>r.source_reference_year==='2026').length,2);
+console.log('Batch 25: WHO SPH Curaçao 2020 and 2026 and French Guiana 2026; 3 directly opened first-party sources');
 
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length},null,2));
