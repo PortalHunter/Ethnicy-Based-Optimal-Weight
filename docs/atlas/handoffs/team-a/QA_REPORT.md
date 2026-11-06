@@ -1,3 +1,9 @@
+## CURRENT — Team A Batch57 immutable data structural QA — 2026-11-06
+
+[Exact ten-CSV audit](QA_BATCH57_20261106.json) | [standalone checkpoint](CHECKPOINT_20261106_BATCH57.md) | DATA `bda23df761cc8542bedce1ed7bdb94b18de57d63`. **Independent quote-aware GitHub structural mirror PASS:** 248 official M49 keys, 231 provisional/17 UNKNOWN, 318 bodies, 45 relationships, four shared scopes, 709 unique provenance IDs (previous 705 identical), 12 partial legal/236 unscored, 12 queue evidence-added/236 queued, and source-area integrity. Five negative controls rejected fabricated IDs, cross-area source, premature complete, missing reviewed date and identity promotion. Compare pre-run to DATA showed only 5 Team A research paths. **Actual Python validation and unit tests NOT RUN** (github.com DNS checkout unavailable); structural checks do not certify enacted law or medical safety.
+
+---
+
 ## CURRENT — Batch56 structural-only source integrity at immutable DATA `06d18072c95718d4ca3517534629babeb8112f11` (2026-11-06)
 
 [Exact ten-CSV blob hashes and negative controls](QA_BATCH56_20261106.json) | [standalone checkpoint](CHECKPOINT_20261106_BATCH56.md).

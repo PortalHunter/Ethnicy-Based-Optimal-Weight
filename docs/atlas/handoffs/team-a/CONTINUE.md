@@ -1,3 +1,11 @@
+## CURRENT — Team A Batch57 original signed BOE/Angola/RIS legal-source triage — acceptance incomplete
+
+2026-11-06: [Batch57 standalone checkpoint](CHECKPOINT_20261106_BATCH57.md) | [immutable DATA bda23df761cc8542bedce1ed7bdb94b18de57d63](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/bda23df761cc8542bedce1ed7bdb94b18de57d63) | [exact ten-CSV structural QA](QA_BATCH57_20261106.json) | [source note](source_recovery/CYCLE_A57_226_024_040_LEGAL_TRIAGE_20261106.md).
+
+**709 provenance observations (+4); 12/248 PARTIAL_SOURCE_CHECKED legal workflow (+3), 236 UNSCORED (-3); queue evidence-added unresolved 12 (+3).** 248 exact geography, 231 provisional identities, 17 UNKNOWN, 318 bodies, 45 relationships and four shared scopes unchanged. 226 original June BOE-hosted signed decree recovered but current publication date, October title and INSESO unresolved; 024 national 2020 President and 2025 Minister legal functions narrowed; 040 29 Oct 2026 RIS federal BMG scope checked but no complete Länder, agency or profession laws. **0 legally complete; original full all-tier enacted legal acceptance NOT MEASURED/INCOMPLETE.** Independent ten-CSV quote-aware Github structural mirror PASS; **Python validator and unittests NOT RUN** due github.com DNS. **No legal/clinical approval.** PR #68 remains OPEN/DRAFT/UNMERGED; only Team A changes.
+
+---
+
 ## CURRENT — Team A Batch56 original legal triage 624/012/028 — acceptance incomplete
 
 2026-11-06: [Batch56 standalone checkpoint](CHECKPOINT_20261106_BATCH56.md) | [immutable DATA 06d18072c95718d4ca3517534629babeb8112f11](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/06d18072c95718d4ca3517534629babeb8112f11) | [ten-CSV independent QA](QA_BATCH56_20261106.json) | [original source audit](source_recovery/CYCLE_A56_624_012_028_LEGAL_TRIAGE_20261106.md).

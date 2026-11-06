@@ -1,3 +1,9 @@
+## CURRENT — Team A Batch57 remaining legal gaps (2026-11-06)
+
+[Standalone checkpoint](CHECKPOINT_20261106_BATCH57.md) and [original source note](source_recovery/CYCLE_A57_226_024_040_LEGAL_TRIAGE_20261106.md) describe precise missing BOE issue date and independent INSESO transfer for **226**, 2026 Angola MINSA/DNSP amendment, province and medicines/profession regulators for **024**, and Austrian Länder, AGES/BASG and independent medicine/medical licensing issuer for **040**. 12/248 legal workflow partly triaged; **236 existing-research items UNSCORED**, not invalid or law-negative. All original 17 UNKNOWN intact and 231 identities provisional. Entire enacted-all-tier legal-completion percentage **NOT MEASURED** and not clinically approved. Structural QA PASS, actual Python NOT RUN due GitHub DNS.
+
+---
+
 ## CURRENT — Team A Batch56 legal evidence gaps (2026-11-06)
 
 [Checkpoint](CHECKPOINT_20261106_BATCH56.md), [source audit](source_recovery/CYCLE_A56_624_012_028_LEGAL_TRIAGE_20261106.md), [QA](QA_BATCH56_20261106.json). Three additional areas are partially legally triaged (6→9); 239 remain UNSCORED prior research, **not necessarily missing any old legal sources**. Original 17 UNKNOWN unchanged. **624** 2010 BOE/2021 order and 2024 own-source chronology still unresolved; **012** 2018/2020 official French Gazette statutes only, original Arabic and current amended 2026 legal scopes missing; **028** historic Cap353 Board powers, post-compilation 2026 amendments and expanded ministry/Barbuda/regulators missing. All-tier enacted law, professional/devolved/surveillance/legal-issuer acceptance remains **NOT MEASURED**. No clinical/legal approval. Python NOT RUN due DNS; structural audit passed.
