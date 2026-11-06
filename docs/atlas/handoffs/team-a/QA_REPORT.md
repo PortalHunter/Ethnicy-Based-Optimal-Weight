@@ -1,3 +1,11 @@
+## CURRENT — Team A Batch45 QA (2026-11-06)
+
+Immutable DATA `8e0b80be4a7af565758b5c4f2ba9eb3f6cd29dba`. [Eight exact CSV blob hashes and checks](QA_BATCH45_20261106.json) · [complete standalone checkpoint](CHECKPOINT_20261106_BATCH45.md). Independent quote-aware full GitHub CSV readback **PASS structural**: 248/248 official M49 fields, 231 identity and 17 explicit unknown rows, 318 body IDs, 45 valid links, 4 shared scopes, 248 synced area reviews, 17 audit links, **669 unique provenance records**, four new 226 IDs, no guessed parent M49; baseline-to-data three commits touching only three Team A research files. Every update exact readback PASS.
+
+**Actual Python validator and five unittest regressions were NOT run for Batch45.** Local git remote DNS failed; structural JavaScript QA is not equivalent. Original full Equatorial Guinea Gazette publication, completed INSESO transfer, other 16 unresolved and all 231 provisional legal/devolved mandates **not certified**. Do not equate identity coverage, structural QA or official press text with legal/clinical approval. Draft PR unmerged; no production edits.
+
+---
+
 ## CURRENT — Team A Batch39
 
 **Current Batch39, November 5, 2026. Original acceptance INCOMPLETE; PR #68 OPEN DRAFT/unmerged.**
