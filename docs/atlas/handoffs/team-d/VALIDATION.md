@@ -1,3 +1,7 @@
+## Batch 48 GitHub research commit readback and scoped validation
+
+Substantive data commit [762b11f](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/762b11f4f450a55b36c1ad36f0c99a88552c9247) confirmed OPEN/DRAFT/UNMERGED PR head before documentation, five Team D-only changed paths and five immutable blob readbacks. Original-case CSV four rows, 295 unique provenance URLs, 619 graph edges, WHO 205/249, April survey 105/249, EMA roles 34/34 and full law/Team A audit 0/34. Direct authoring checks passed complete CSV width and graph provenance joins. Updated `validate.mjs` source; **FULL CURRENT-SNAPSHOT CHECKED-IN VALIDATOR NOT RUN** (git DNS unavailable), no native Node/Actions/legal/clinical/maintainer approval. Documentation checkpoint commit also requires post-commit readback and scoped compare.
+
 **Batch 47 supplementary source-access/acceptance update:** PAHO 2026–2027 budget page direct open 403 (first-party indexed text only), so TD-SRC-292 and both 630 review cases now carry indexed-only access caveats. The standalone checkpoint now states the original Team D acceptance matrix; `STATUS.md` records current Batch 47 summary. No source, evidence or coverage metric changed; same full-checkout limitation remains. GitHub readback to be independently checked after this follow-up commit.
 
 ## Batch 47 targeted scoped/source verification — 2026-11-06
