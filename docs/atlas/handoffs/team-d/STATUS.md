@@ -1,3 +1,13 @@
+## Latest verified Team D Batch 39 — 2026-11-06
+
+**[Standalone Batch 39 checkpoint](CHECKPOINT_BATCH_39_2026-11-06.md)** · [draft PR #70](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70) · [research+validator commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f6ba340a5ee68e103b5221807744d49562703791).
+
+Five scoped official Iceland/Latvia/Sweden regulator-role observations added (`067–071`) and three new official provenance URLs (`269–271`): **34/34** EMA source-described national candidates, **71 role records**, **271 unique provenance URLs**. All **34/34** complete legal delegation/current amended statutes and exact Team A authority joins still pending. WHO direct current region **205/249**, **44 not verified**; affirmative April host **105/249**, **144 without equivalent positive**, **46** retained 2024 responses and **228** historical 2021–22 office/service records kept separate. Graph **47 nodes/617 dated typed edges**, **20** institution observations across seven condition keys.
+
+**Full checked-in structural read-only V8 shim PASS: 12,456 assertions /39 GitHub dependencies at Batch39 research SHA; 3 exact research-file readbacks PASS.** NOT native Node/Actions or full statute/legal/clinical/scientific approval. Existing international relationship conflicts and draft-only/no-main constraints persist. No direct-current WHO or April-host gap closed without suitable primary evidence.
+
+---
+
 ## Latest Team D Batch 38 research — 2026-11-06
 
 **[Complete standalone checkpoint](CHECKPOINT_BATCH_38_2026-11-06.md)** · [draft PR #70](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70) · [research commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/48bf94f90ecc06655665629eed39c947b98bc193) · [validator correction](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/048a77e02b5643989c07b3da90efb059a7b06b6a).

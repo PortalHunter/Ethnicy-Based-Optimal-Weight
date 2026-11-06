@@ -1,3 +1,9 @@
+## Batch 39 committed-validator verification — 2026-11-06
+
+At substantive research/validator GitHub SHA `f6ba340a5ee68e103b5221807744d49562703791`, **full checked-in structural validator PASS: 12,456 assertions with 39 GitHub-derived dependencies** reconstructed as **26 complete addition-only PR patches + 13 direct exact commit file reads** and executed in a read-only V8 JavaScript filesystem/assertion shim. Observed 249 geographies, 205 directly source-assigned current WHO regions/44 unknown, 105 April 2026 positive WHO office hosts, 47 nodes/617 graph edges, 20 seven-condition institutional records, 34 EMA candidate identities, 71 scoped official national roles, 271 provenance URLs. Pre-commit robust CSV width/uniqueness/sequence/EMA M49-name identity/provenance checks PASS; all three research/validator files after commit were fetched back byte-identical. Direct official evidence for Iceland parliamentary Act 100/2020 Art 6/11, Latvian current Regulation 537 Art 4, Swedish government agency remit; all 34 complete national statute audits remain open. **NOT native Node CLI, GitHub Actions, complete legal audit, signed-instrument review, clinical/scientific approval or maintainer acceptance.** [Standalone Batch 39 checkpoint](CHECKPOINT_BATCH_39_2026-11-06.md).
+
+---
+
 ## Batch 38 complete checked-in validator replay and GitHub readbacks (2026-11-06)
 
 At research commit [`48bf94f90ecc06655665629eed39c947b98bc193`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/48bf94f90ecc06655665629eed39c947b98bc193), precommit full-width CSV parsing, unique source/record IDs, original 34 EMA candidate identity labels/M49, 66 role/source joins, 268 provenance URLs and pending-law/Team A flags **PASS**. Scoped compare showed exactly three Team D paths; exact GitHub blobs: roles `8d8bf9209e13fdb1d7fb1708825c8e20ce6612b5`, provenance `a42f1e5fe44b9f62d237aae858068ca46dfcdd23`, initial validator `67018beed820970083687c41c02e45c00321da68`.

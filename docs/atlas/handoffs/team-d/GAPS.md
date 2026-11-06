@@ -1,3 +1,11 @@
+## Batch 39 remaining-gap audit — 2026-11-06
+
+**Source-scoped EMA agency role coverage is now 34/34** after direct official Iceland, Latvia and Sweden alternatives; **remaining source-scoped identity role gaps: 0**. **Full independently audited current consolidated national statutory/delegation + exact Team A join clearance remains 0/34, with 34 outstanding.** Iceland Act 100/2020 Art 6/11 (October 2026 collection) and Latvia operative 2022 Regulation 537 Art 4 are targeted legal excerpts, NOT complete audits; Sweden's government profile is a role description. Iceland future 2027 amendment cannot be treated as current. Latvian source 2012 adoption/2013 original commencement and 2022 operative amended text are distinct.
+
+WHO direct-current region assignments **205/249** with **44 unknown**, April 2026 affirmative hosts **105/249** with **144 lacking equivalent affirmative**; no fake negatives, and older 46 September 2024 WHO surveys and 228 2021–22 historical service records stay separate. Need original signed network instruments/dated accession, Malta contradictory national grant, PAHO ECC 13/14 and Boisson Jan/Feb, SCI day, APPM unlisted seven/15 intentions, IDF NAC 22/23, AOECS counts/class split, HI/Codex, HEARTS 29/35, ASEAN national uptake, US WHO governance, exact Teams A/B/C and clinical/scientific appraisal. [Standalone Batch 39 checkpoint](CHECKPOINT_BATCH_39_2026-11-06.md).
+
+---
+
 ## Batch 38 unresolved work and evidence limits (2026-11-06)
 
 - WHO **44/249** current administrative regional assignments unverified: explicit current WHO evidence required; no geography/parent-country/old SIDS/SPH/WER or service assumption. Maintain Indonesia WPRO 2025-05-23 and Algeria AFRO distinction.
