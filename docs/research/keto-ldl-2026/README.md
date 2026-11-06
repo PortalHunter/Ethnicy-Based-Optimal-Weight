@@ -23,7 +23,7 @@
 | Lipolysis occurs even without net weight loss | Established physiology | Mechanistic context; not by itself an LDL-C pathway |
 | Large active weight loss can be accompanied by transient increases in serum cholesterol | Demonstrated in a **small** longitudinal human series | [S01]; counterpoint [S02] |
 | Cholesterol released by shrinking adipose tissue **causes** sustained high LDL-C during ≥8 weeks of stable weight/recomposition | **Not demonstrated**; no validated lag time | [S01], [S02], [S03], [S21] |
-| Ketogenic/high-fat feeding can markedly raise LDL-C and apoB with an attempt to keep weight stable | Direct experimental support in a selected formulation/population | [S04] |
+| Ketogenic/high-fat feeding can markedly raise LDL-C and apoB without demonstrable body weight/composition change | Direct randomized evidence in short, selected interventions | [S04], [S26] |
 | Low TG, higher HDL and high LDL-C can coexist | Well described; not equivalent to low particle number | [S05], [S06], [S07], [S10] |
 | ApoB or NMR LDL-P may clarify cholesterol-mass versus particle-number discordance | Supported by outcomes cohorts and consensus | [S18], [S19], [S20] |
 | Large LDL size or high HDL neutralizes elevated apoB/LDL exposure | **Not established** | [S18], [S19], [S20] |
