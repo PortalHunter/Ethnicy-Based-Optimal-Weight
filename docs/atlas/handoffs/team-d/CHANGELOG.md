@@ -1,3 +1,11 @@
+## 2026-11-06 — Batch 38: official Liechtenstein and Luxembourg regulator-function boundary evidence
+
+- [Substantive research commit `48bf94f90ecc06655665629eed39c947b98bc193`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/48bf94f90ecc06655665629eed39c947b98bc193): 4 new source-qualified role rows (`TD-NCA-REMIT-063–066`) and 3 official first-party direct-HTML URLs (`TD-SRC-266–268`), exclusively `PROVENANCE.csv`, `data/emrn_nca_national_remit_evidence_2026.csv`, `validate.mjs`. Now **66 roles, 31/34 EMA agency identities, 268 provenance URLs**; no graph relationships invented. Liechtenstein Swissmedic national acceptance exception and separate domestic business licences, Luxembourg DPM medicine safety/Nancy reporting cooperation remain scoped government descriptions; all current complete law/Team A joins pending.
+- Initial full shim replay detected one excessive Batch 38 string assertion; [targeted correction commit `048a77e02b5643989c07b3da90efb059a7b06b6a`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/048a77e02b5643989c07b3da90efb059a7b06b6a) changes **only `validate.mjs`**. Corrected full checked-in structural V8 shim **PASS 12,381 assertions / 39 dependencies (27 complete PR patch reconstructed, 12 direct fetched)**, not native Node/CI or legal/clinical signoff.
+- Three research file GitHub readbacks, branch compare and corrected validator blob readback PASS; documentation checkpoint [Batch 38](CHECKPOINT_BATCH_38_2026-11-06.md). WHO 205/44 and 105/144 affirmative office unchanged, 46 2024 surveys and 228 historical services distinct. PR OPEN/DRAFT/UNMERGED, Team D directory only; no main/website/other-team actions.
+
+---
+
 ## 2026-11-06 — Batch 37: source-qualified Greece/Hungary/Portugal/Romania national medicine agencies
 
 - Substantive [commit `514cd3fc503408150157f793bfaf005ad2dadd5d`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/514cd3fc503408150157f793bfaf005ad2dadd5d) changes **three Team D-only paths**: `PROVENANCE.csv`, `data/emrn_nca_national_remit_evidence_2026.csv`, `validate.mjs`. Eight first-party direct HTML evidence rows TD-NCA-REMIT-055–062, eight new distinct URLs TD-SRC-258–265, four existing exact EMA agency identity IDs; **29/34** direct role-review coverage, **62** role observations and **265** unique provenance URLs.

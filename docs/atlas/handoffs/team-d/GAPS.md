@@ -1,3 +1,13 @@
+## Batch 38 unresolved work and evidence limits (2026-11-06)
+
+- WHO **44/249** current administrative regional assignments unverified: explicit current WHO evidence required; no geography/parent-country/old SIDS/SPH/WER or service assumption. Maintain Indonesia WPRO 2025-05-23 and Algeria AFRO distinction.
+- WHO **144/249** geographic candidates lack direct affirmative April 2026 host evidence; **46** September 2024 surveys and **228** 2021–22 historical office/services remain separate, unknown does not mean no physical office.
+- National regulator **3/34** agency candidates still without *directly opened* first-party scoped role descriptions: **Iceland, Latvia, Sweden**. Latvia zva.gov.lv indexed official materials returned 403 on direct open, Iceland island.is pages 403/ima.is retired, Sweden JS-only. **All 34/34** complete independent amended current national statute/delegation and exact Team A identity joins pending. Newly reviewed Liechtenstein (Swissmedic accepted except one category vs separate local manufacture/wholesale licence, Swiss and EEA regimes) and Luxembourg (DPM competent pharmacovigilance authority and Nancy cooperation) are government descriptions **not** legal-instrument audits, exact ID joins or bilateral treaty approval. Luxembourg 2025-10-15 is webpage revision only.
+- Crossborder source conflicts retained: PAHO ECC **14 dated/13 undated** incl. French Saint Martin vs Dutch Sint Maarten; Boisson historical representative Jan/Feb 2021; North Macedonia SCI accession exact day/instrument; APPM 8 signed only Egypt individually named vs 15 intent/55 target; IDF 22/23; AOECS 43+1+3 vs 41+6; HI partner vs member; Codex NGO observer claimed since 1991; HEARTS local guidelines not automatically national clinical law; ASEAN nonbinding; Teams A/B/C exact joins and clinical source appraisal.
+- Full corrected checked-in structural **PASS 12,381 V8 assertions across 39 GitHub-derived dependencies** is **not native Node CLI/Actions, amended legal audit, source facsimile, scientific, clinical or maintainer approval**. [Standalone checkpoint](CHECKPOINT_BATCH_38_2026-11-06.md).
+
+---
+
 ## Batch 37 outstanding research and source conflicts (2026-11-06)
 
 - WHO **44/249 direct-current administrative regions unknown**. Geographic M49 location, WHO service or WER historical/reporting source, parent country and past SIDS survey cannot supply present legal/administrative assignment.
