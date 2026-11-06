@@ -5,26 +5,26 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "d5c9a35d2bceef8a3fea4c0a87c3483322229023",
-  "batch": "75-R808",
+  "validated_data_commit": "b0a453ebdf6d477d10e63351d8bb774a8d7ce9b3",
+  "batch": "76-R850",
   "metrics": {
-    "organizations": 474,
+    "organizations": 477,
     "areas": 227,
-    "resources": 392,
-    "positive": 358,
-    "without_linked_source": 1378,
-    "targeted_no_source": 170,
-    "unresearched": 1208,
-    "provenance": 1064,
-    "search_log": 619,
+    "resources": 397,
+    "positive": 361,
+    "without_linked_source": 1375,
+    "targeted_no_source": 171,
+    "unresearched": 1204,
+    "provenance": 1074,
+    "search_log": 623,
     "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
     "issuer_country_differs_from_domicile": 28,
     "by_condition": {
       "diabetes": 109,
-      "hypertension": 67,
-      "high_chol": 42,
+      "hypertension": 68,
+      "high_chol": 44,
       "gout": 37,
       "lactose": 32,
       "celiac": 47,
@@ -33,26 +33,25 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organizations": 2,
+    "organizations": 3,
     "resources": 5,
-    "positive_cells": 5,
-    "bounded_no_source_cells": 4,
-    "previously_untouched_cells_targeted": 9,
-    "provenance": 9,
-    "searches": 9
+    "positive_cells": 3,
+    "bounded_no_source_cells": 1,
+    "previously_untouched_cells_targeted": 4,
+    "provenance": 10,
+    "searches": 4
   },
-  "validation_runtime": "independent_JS_structural_precommit_and_immutable_readback_Node_CLI_not_run",
+  "validation_runtime": "independent_JS_structural_precommit_and_immutable_GitHub_blob_tree_readback_Node_CLI_not_run",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Research 1208 untouched condition-area cells with first-party original-language exact links",
-    "Resolve 21 locally domiciled organization identity gaps without counting cross-border organizations as local",
-    "Audit original document issuers and dates for Cameroon SCC ten recommendations and remaining five unknown imprints",
-    "Review Fiji 2024/2025 screening event history and diabetes numeric assertions without approving medical claims",
-    "Verify Dominican SODENN historical/current board, Codigo Azul legislative status and distinct original condition sources",
-    "Revisit 170 bounded no-resource checks as scoped navigation outcomes, not national absences",
-    "Review original PDF/fulltext, study populations, source publication rights and clinical evidence separately",
-    "Preserve Team A government, C journals, D international networks and issue27 claim review; never touch public website/main"
+    "1204 condition-area cells not targeted by exact stream",
+    "21 locally domiciled organization identity gaps",
+    "171 bounded no-link cells with scope-limited search",
+    "five original document issuer-country imprints",
+    "primary original-language source, author/host distinction, edition and copyright checks",
+    "10 community/subnational records' governance/permissions; eight cross-border edges",
+    "issue #27 independent clinical review; zero source claims approved"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -66,7 +65,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Immutable 145-entry nontruncated Git tree, 11/11 GitHub file-SHA/tree-entry matches; independent JavaScript structural/attribution checks zero errors. No fresh Node CLI or independently recomputed local Git blob hashes; not clinical, legal, original-fulltext or rights approval.",
+  "validated_data_commit_note": "11/11 immutable GitHub SHA-to-tree matches in complete 145-entry tree, zero independent JS structural errors, Node CLI and independent local Git blob hashes not run; no clinical, rights, or source-currency approval.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -154,9 +153,9 @@
     }
   ],
   "readback_validation": {
-    "batch": "75-R808",
-    "sha": "d5c9a35d2bceef8a3fea4c0a87c3483322229023",
-    "tree_sha": "b61d369e852fcd67b008b3dc518e5ba7a360a350",
+    "batch": "76-R850",
+    "sha": "b0a453ebdf6d477d10e63351d8bb774a8d7ce9b3",
+    "tree_sha": "bae48ae548c910ec698e7a078d02993037865465",
     "tree_entries": 145,
     "truncated": false,
     "files": 11,
@@ -164,7 +163,7 @@
     "local_hash_matches": null,
     "structural_errors": 0,
     "node_cli_run_this_batch": false,
-    "notes": "GitHub file SHA/tree matches and independent JS structural readback; local Git blob hash not recomputed; local Node checkout unavailable."
+    "notes": "GitHub-reported file/tree SHAs independently compared with full 145-entry tree; independent JS joins verified; Node CLI unavailable without git DNS checkout. Full local Git blob hashing not performed."
   },
   "previous_independently_verified_data_commit": "44b39bec2ee094c3b10303e6f841e5996bc6fe84",
   "session_additions": {
@@ -203,11 +202,11 @@
     "67": "6d5dc37241526f2cbc2657463819c481d625ae38"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "248 × 7 structurally complete; 1208 untouched and 170 bounded targeted no-source cells; not research acceptance-complete",
-    "source_population_jurisdiction": "392 exact research-only contexts with explicit fields; five unresolved document issuer-country imprints and original fulltext/rights/edition audit remaining",
-    "disease_subtypes_and_release": "392 research_lead_only, zero clinical approvals; blood pressure screening is not diagnosed hypertension; FH not generic cholesterol",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete; 21 local domicile identity gaps, Cameroon ten-recommendations original author/issuer, Fiji clinical assertions and Dominican 2023-25 vs newer leadership needs review",
-    "diversity_examples": "14 regional/national diversity counterexamples retained, 10 community/subnational rows, eight cross-border edges; no population-risk inference"
+    "m49_area_condition_roster": "248 × 7 structurally complete; 1204 untouched and 171 bounded no-resource cells, so not research-complete",
+    "source_population_jurisdiction": "397 research-only exact contexts and distinct country basis; five original issuer-country unknowns, original PDF and rights appraisal still open",
+    "disease_subtypes_and_release": "All 397 research_lead_only and zero clinically approved; FH is not generic LDL, gout not asymptomatic urate, iron overload not high ferritin",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 local organization domiciles; 2024 Thai RCPT PDF rights, Paraguay hosted versus originally issued guides and conference peer-review still to verify",
+    "diversity_examples": "14 geographic/ethnic overgeneralization counterexamples retained; 10 community/subnational and eight cross-border rows retained; consent/authority review open"
   },
   "batch40_sources": [
     {
@@ -2127,5 +2126,254 @@
     ],
     "readback": "11/11 GitHub tree SHA matches, zero independent JavaScript structural errors, Node CLI not run, local Git blob hash not recomputed",
     "original_team_b_acceptance": "248x7, separate issuer/domicile/population/jurisdiction, disease subtype caveats, official original-language sources, >=10 diversity counterexamples; full empirical/rights acceptance unfinished"
+  },
+  "previous_readback_validation_before_batch76": {
+    "batch": "75-R808",
+    "sha": "d5c9a35d2bceef8a3fea4c0a87c3483322229023",
+    "tree_sha": "b61d369e852fcd67b008b3dc518e5ba7a360a350",
+    "tree_entries": 145,
+    "truncated": false,
+    "files": 11,
+    "exact_matches": 11,
+    "local_hash_matches": null,
+    "structural_errors": 0,
+    "node_cli_run_this_batch": false,
+    "notes": "GitHub file SHA/tree matches and independent JS structural readback; local Git blob hash not recomputed; local Node checkout unavailable."
+  },
+  "previous_acceptance_review_before_batch76": {
+    "m49_area_condition_roster": "248 × 7 structurally complete; 1208 untouched and 170 bounded targeted no-source cells; not research acceptance-complete",
+    "source_population_jurisdiction": "392 exact research-only contexts with explicit fields; five unresolved document issuer-country imprints and original fulltext/rights/edition audit remaining",
+    "disease_subtypes_and_release": "392 research_lead_only, zero clinical approvals; blood pressure screening is not diagnosed hypertension; FH not generic cholesterol",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete; 21 local domicile identity gaps, Cameroon ten-recommendations original author/issuer, Fiji clinical assertions and Dominican 2023-25 vs newer leadership needs review",
+    "diversity_examples": "14 regional/national diversity counterexamples retained, 10 community/subnational rows, eight cross-border edges; no population-risk inference"
+  },
+  "previous_checkpoint_before_batch76": {
+    "batch": "75-R808",
+    "data_commit": "d5c9a35d2bceef8a3fea4c0a87c3483322229023",
+    "metrics": {
+      "organizations": 474,
+      "areas": 227,
+      "resources": 392,
+      "positive": 358,
+      "without_linked_source": 1378,
+      "targeted_no_source": 170,
+      "unresearched": 1208,
+      "provenance": 1064,
+      "search_log": 619,
+      "community": 10,
+      "cross_border_edges": 8,
+      "issuer_country_unresolved": 5,
+      "issuer_country_differs_from_domicile": 28,
+      "by_condition": {
+        "diabetes": 109,
+        "hypertension": 67,
+        "high_chol": 42,
+        "gout": 37,
+        "lactose": 32,
+        "celiac": 47,
+        "hemochromatosis": 24
+      },
+      "current_unsd_overview_codes": 248
+    }
+  },
+  "batch76_R850": {
+    "date": "2026-11-06",
+    "status": "incomplete_research_lead_only",
+    "data_commit": "b0a453ebdf6d477d10e63351d8bb774a8d7ce9b3",
+    "tree_sha": "bae48ae548c910ec698e7a078d02993037865465",
+    "metrics": {
+      "organizations": 477,
+      "areas": 227,
+      "resources": 397,
+      "positive": 361,
+      "without_linked_source": 1375,
+      "targeted_no_source": 171,
+      "unresearched": 1204,
+      "provenance": 1074,
+      "search_log": 623,
+      "community": 10,
+      "cross_border_edges": 8,
+      "issuer_country_unresolved": 5,
+      "issuer_country_differs_from_domicile": 28,
+      "by_condition": {
+        "diabetes": 109,
+        "hypertension": 68,
+        "high_chol": 44,
+        "gout": 37,
+        "lactose": 32,
+        "celiac": 47,
+        "hemochromatosis": 24
+      },
+      "current_unsd_overview_codes": 248
+    },
+    "run_additions": {
+      "organizations": 3,
+      "resources": 5,
+      "positive_cells": 3,
+      "bounded_no_source_cells": 1,
+      "previously_untouched_cells_targeted": 4,
+      "provenance": 10,
+      "searches": 4
+    },
+    "new_organizations": [
+      "B-TH-RCPT",
+      "B-PY-SPHTA",
+      "B-PY-SPMI"
+    ],
+    "positive_cells": [
+      "764:high_chol",
+      "600:hypertension",
+      "600:high_chol"
+    ],
+    "bounded_cells": [
+      "600:gout"
+    ],
+    "source_urls": [
+      "https://www2.rcpt.org/web/",
+      "https://www2.rcpt.org/web/content/1022",
+      "https://sphta.org.py/la-sociedad/",
+      "https://sphta.org.py/lectura-y-posicionamiento/",
+      "https://sphta.org.py/descargar-certificados-articulos-originaeles/",
+      "https://www.spmi.org.py/",
+      "https://www.spmi.org.py/recursosold/"
+    ],
+    "attribution_guardrails": [
+      {
+        "pdf": "https://sphta.org.py/wp-content/uploads/2025/10/Indicadores-PARAGUAY-2024.pdf",
+        "issuer": "DIGIES / Ministerio de Salud Pública y Bienestar Social",
+        "note": "2024 publication incorporating 2021 observations, SPHTA page host not issuer"
+      },
+      {
+        "pdf": "https://www.spmi.org.py/wp-content/uploads/2025/07/Hipertension-Arterial-enfoques-practicos-segun-las-ultimas-guias.pdf",
+        "speaker": "Manuel Castillo Vázquez",
+        "note": "2025 slide first page, SPMI host not proven original author"
+      }
+    ],
+    "limitations": [
+      "2024 RCPT dyslipidemia is not FH-specific; original Drive PDF/rights not inspected",
+      "SPHTA external guidelines cannot be credited to host and conference submissions not audited as peer reviewed",
+      "SPMI LDL linked slide PDF challenged and no author/rights review",
+      "Paraguay gout bounded negative does not prove national absence"
+    ],
+    "source_release": "research_lead_only",
+    "clinical_claims_approved": 0,
+    "validation": {
+      "tree_entries": 145,
+      "truncated": false,
+      "sha_matches": 11,
+      "total_files": 11,
+      "structural_errors": 0,
+      "node_cli_run": false,
+      "local_hashes_recomputed": false
+    },
+    "changed_paths": [
+      "data/specialist_organizations.csv",
+      "data/condition_organizations.csv",
+      "data/publication_context.csv",
+      "data/coverage_by_area_condition.csv",
+      "PROVENANCE.csv",
+      "data/search_log.csv"
+    ],
+    "scope": "only Team B directory; PR remains draft/unmerged; no website/main/other-team files"
+  },
+  "latest": {
+    "date": "2026-11-06",
+    "status": "incomplete_research_lead_only",
+    "data_commit": "b0a453ebdf6d477d10e63351d8bb774a8d7ce9b3",
+    "tree_sha": "bae48ae548c910ec698e7a078d02993037865465",
+    "metrics": {
+      "organizations": 477,
+      "areas": 227,
+      "resources": 397,
+      "positive": 361,
+      "without_linked_source": 1375,
+      "targeted_no_source": 171,
+      "unresearched": 1204,
+      "provenance": 1074,
+      "search_log": 623,
+      "community": 10,
+      "cross_border_edges": 8,
+      "issuer_country_unresolved": 5,
+      "issuer_country_differs_from_domicile": 28,
+      "by_condition": {
+        "diabetes": 109,
+        "hypertension": 68,
+        "high_chol": 44,
+        "gout": 37,
+        "lactose": 32,
+        "celiac": 47,
+        "hemochromatosis": 24
+      },
+      "current_unsd_overview_codes": 248
+    },
+    "run_additions": {
+      "organizations": 3,
+      "resources": 5,
+      "positive_cells": 3,
+      "bounded_no_source_cells": 1,
+      "previously_untouched_cells_targeted": 4,
+      "provenance": 10,
+      "searches": 4
+    },
+    "new_organizations": [
+      "B-TH-RCPT",
+      "B-PY-SPHTA",
+      "B-PY-SPMI"
+    ],
+    "positive_cells": [
+      "764:high_chol",
+      "600:hypertension",
+      "600:high_chol"
+    ],
+    "bounded_cells": [
+      "600:gout"
+    ],
+    "source_urls": [
+      "https://www2.rcpt.org/web/",
+      "https://www2.rcpt.org/web/content/1022",
+      "https://sphta.org.py/la-sociedad/",
+      "https://sphta.org.py/lectura-y-posicionamiento/",
+      "https://sphta.org.py/descargar-certificados-articulos-originaeles/",
+      "https://www.spmi.org.py/",
+      "https://www.spmi.org.py/recursosold/"
+    ],
+    "attribution_guardrails": [
+      {
+        "pdf": "https://sphta.org.py/wp-content/uploads/2025/10/Indicadores-PARAGUAY-2024.pdf",
+        "issuer": "DIGIES / Ministerio de Salud Pública y Bienestar Social",
+        "note": "2024 publication incorporating 2021 observations, SPHTA page host not issuer"
+      },
+      {
+        "pdf": "https://www.spmi.org.py/wp-content/uploads/2025/07/Hipertension-Arterial-enfoques-practicos-segun-las-ultimas-guias.pdf",
+        "speaker": "Manuel Castillo Vázquez",
+        "note": "2025 slide first page, SPMI host not proven original author"
+      }
+    ],
+    "limitations": [
+      "2024 RCPT dyslipidemia is not FH-specific; original Drive PDF/rights not inspected",
+      "SPHTA external guidelines cannot be credited to host and conference submissions not audited as peer reviewed",
+      "SPMI LDL linked slide PDF challenged and no author/rights review",
+      "Paraguay gout bounded negative does not prove national absence"
+    ],
+    "source_release": "research_lead_only",
+    "clinical_claims_approved": 0,
+    "validation": {
+      "tree_entries": 145,
+      "truncated": false,
+      "sha_matches": 11,
+      "total_files": 11,
+      "structural_errors": 0,
+      "node_cli_run": false,
+      "local_hashes_recomputed": false
+    },
+    "changed_paths": [
+      "data/specialist_organizations.csv",
+      "data/condition_organizations.csv",
+      "data/publication_context.csv",
+      "data/coverage_by_area_condition.csv",
+      "PROVENANCE.csv",
+      "data/search_log.csv"
+    ],
+    "scope": "only Team B directory; PR remains draft/unmerged; no website/main/other-team files"
   }
 }
