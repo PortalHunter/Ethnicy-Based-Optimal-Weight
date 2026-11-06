@@ -69,6 +69,14 @@ Clinical NMR LDL-P estimates concentration of lipoprotein particles, whereas **l
 
 Importantly, MESA's four broad US race/ethnicity groups included **Chinese Americans**, but a Chinese American NMR risk estimate should not be relabeled “Filipino” or “Southeast Asian.” [S18]
 
+### Singapore lipidomics: important but not LDL-P [S31]
+
+A separate study used LC–MS/MS to profile **over 280 lipid species** in **359** healthy Singapore residents (Chinese 122, Indian 120, Malay 117). It reported differences in lipid molecular species and their associations with age and BMI. It included **no Filipino subgroup**, no ketogenic intervention, and measured molecular lipid species rather than the count or size of LDL particles. Its “ethnic-specific lipidomics” findings must **not** be translated into a claim that Malay or Filipino people have a particular safe LDL particle distribution. [S31]
+
+### Filipino-American KIF6 candidate genetic study [S32]
+
+A study of **235 Filipino-American women** found that a KIF6 rs20455 genotype did **not** predict mean LDL-C, HDL-C, or TG values. Its negative finding helps explain why using one candidate variant to customize ketogenic dietary fat or dismiss apoB elevation would be premature. [S32]
+
 ## 6. Research questions to pursue next
 
 1. **Matched feeding:** randomize Filipino, Malay, Vietnamese and comparator ancestry groups to identical low-carbohydrate diets, prospectively varying saturated versus unsaturated fat while holding calories, protein and fiber constant; measure LDL-C, apoB, non-HDL, TG, HDL, Lp(a), LDL-P, direct LDL-C and weight/fat mass before and after 4, 8, 12, 24 weeks.
