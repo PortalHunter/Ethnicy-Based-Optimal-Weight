@@ -1,3 +1,11 @@
+## Batch 44 targeted structural/source readback checks (2026-11-06)
+
+**PASS: 18 targeted assertions** on five current GitHub branch sources (`data/malta_2026_primary_law_boundary_review.csv`, `PROVENANCE.csv`, `validate.mjs`, `data/m49_network_status.csv`, `data/who_country_office_presence.csv`). Verified CSV schema/widths, four distinct Malta law/delegation cases, source 281–282 ledger identity and unique provenance IDs/URLs (**282**), M49 (**249**), direct April hosts (**105**), scoped Malta candidate M49 470 and NCA identity TD-EMRN-NCA-022, the unverified operative delegation status, and new validator entry points. GitHub file readbacks of the two research data files were checked; corrected validator was fetched.
+
+**Full checked-in `validate.mjs` runner on Batch 44 snapshot NOT RUN.** Checked-in validator now expects 282 URLs and adds four Malta boundary observations with strict unresolved-legal-state assertions; modified script was fetched but not executed in a native checkout. Native `git ls-remote` GitHub DNS resolution failed. Earlier Batch 42 **12,590** read-only V8-shim assertions were for an earlier 278-source snapshot, not this batch. Neither checks nor source page review approve a full amended 2026 statute/delegation analysis, original S.L. 458.39 text, clinical/scientific conclusions, or merge readiness.
+
+---
+
 ## Batch 42 structural run (2026-11-06)
 
 Full checked-in `validate.mjs` assertions executed in a read-only V8 JS shim with **29 complete GitHub PR addition-file patches and 15 direct GitHub branch-file reads**, **44 dependencies**, **12,590 assertions PASS** at validator GitHub blob `882c75ed357549cb977afeae15990c0c133fc8b7`. Verifies 278 source URLs, three indexed PAHO report IDs TD-SRC-276–278, ten M49 report group observations, three group sizes 2/3/5, the 535 combined-island row, preserved **205 current WHO regions / 44 unverified**, **105 April affirmative host joins** and role/graph invariants. Original PAHO report pages returned HTTP 403, so this is **not** original report facsimile review, native Node CLI/GitHub Actions, completed current-law/delegation audit, or clinical/scientific/maintainer approval. See [Batch 42 checkpoint](CHECKPOINT_BATCH_42_2026-11-06.md).
