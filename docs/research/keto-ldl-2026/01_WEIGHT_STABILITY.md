@@ -32,6 +32,8 @@ Note that DXA measures lean soft tissue, not muscle protein alone. Glycogen, ext
 
 ## C. Weight-stable ketogenic counterevidence and practical interpretation
 
+**[S26] Retterstøl et al. (2018):** In a randomized parallel study, 15 healthy normal-weight adults on <20 g/day carbohydrate for three weeks and 15 habitual-diet controls completed follow-up. LDL-C rose from 2.2 to 3.1 mmol/L in the LCHF arm (reported 44% relative change versus controls), and apoB rose significantly, while **body weight and body composition did not differ significantly between groups**. The trial is short and small, and the intervention increased saturated-fat exposure substantially. Nonetheless it directly undermines a claim that active or residual adipose fat loss is *necessary* for a large low-carbohydrate LDL-C response. It cannot answer how long cholesterol release persists after a former weight-loss plateau. [S26]
+
 **[S04] Burén et al.:** A randomized four-week ketogenic *feeding* intervention in 17 normal-weight women increased LDL-C by 1.82 mmol/L and apoB, with both large and small LDL cholesterol fractions increasing. The study attempted weight maintenance and adjusted for small weight differences; it demonstrates that severe weight loss is not required for an LDL/apoB response to a high-fat, low-carbohydrate diet. These data are not a test of adipose cholesterol release per se. [S04]
 
 **[S08] Crosier and McPherson:** Two cases reported stable body weight for years while consuming high-saturated-fat ketogenic diets and had substantially elevated LDL-C, which fell after diet modification. No serial DXA was obtained, and carbohydrate, saturated fat and cholesterol intake changed together. Nevertheless, prolonged stable *weight* does not preclude diet-related hypercholesterolemia. [S08]
@@ -77,6 +79,6 @@ A dietary n-of-1 perturbation can discriminate **responsive versus nonresponsive
 
 ## Bottom line
 
-**After ≥8 weeks of unchanged scale weight there is no evidence-based presumption that excess LDL-C is still “leftover cholesterol from fat burning.”** Continued fat loss is possible but requires measurement. The best available weight-loss evidence is tiny and partly contradictory, while controlled feeding and stable-weight case data show that an ongoing dietary effect can exist without substantial weight loss. [S01, S02, S04, S08]
+**After ≥8 weeks of unchanged scale weight there is no evidence-based presumption that excess LDL-C is still “leftover cholesterol from fat burning.”** Continued fat loss is possible but requires measurement. The best available weight-loss evidence is tiny and partly contradictory, while randomized short trials and stable-weight case data show that an ongoing dietary effect can exist without substantial weight loss. [S01, S02, S04, S08, S26]
 
 [Back to overview](README.md) · [Source ledger](SOURCE_LEDGER.md)
