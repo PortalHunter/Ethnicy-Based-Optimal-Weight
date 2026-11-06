@@ -114,8 +114,13 @@ def verify():
         assert code in country_map, f"Special-territory/devolution spot-check missing: {code}"
     assert country_map["016"]["parent_country_m49"] == "", (
         "American Samoa parent-country relationship requires independent legal corroboration")
-    assert country_map["535"]["health_authority_resolution"] == "UNKNOWN_REVIEW_NEEDED", (
-        "Caribbean Netherlands requires special-jurisdiction study")
+    # Status may advance with evidence. Prevent conflating BES with another
+    # constituent country, rather than permanently requiring UNKNOWN.
+    bes_ids = country_map["535"]["authority_record_ids"].split(";")
+    assert not any(i.startswith(("gov-531-", "gov-533-", "gov-534-"))
+                   for i in bes_ids), "BES conflated with a separate Kingdom country"
+    assert country_map["535"]["parent_country_m49"] == "", (
+        "A scoped VWS care directorate does not prove blanket legal delegation")
     print("PASS: 248 distinct M49 country-or-area rows match dated official snapshot")
     print(f"PASS: {verified} government ministry/department identities located; "
           f"{len(countries)-verified} explicitly unresolved")
