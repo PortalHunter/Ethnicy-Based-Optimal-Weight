@@ -1,3 +1,10 @@
+## CURRENT — Batch56 structural-only source integrity at immutable DATA `06d18072c95718d4ca3517534629babeb8112f11` (2026-11-06)
+
+[Exact ten-CSV blob hashes and negative controls](QA_BATCH56_20261106.json) | [standalone checkpoint](CHECKPOINT_20261106_BATCH56.md).
+Independent quote-aware complete GitHub readback: **PASS**; 248 exact official M49; 231 provisional/17 UNKNOWN; 318 bodies, 45 relationships, 4 shared scopes, 705 unique provenance, 9 partially scored legal/239 unscored, queue 9 evidence added/239 queued. Four A56 provenance sources; all preceding 701 preserved. 16 untouched unknown audits and 245 untouched tracking records preserved. Five negative controls passed. Actual Python validator/unittests **NOT RUN** (git DNS); structural PASS is not legal or clinical review.
+
+---
+
 ## CURRENT — Team A Batch55 immutable structural QA (2026-11-06)
 
 Immutable DATA 718edfd7c73933bff7bc9487a02973407d569d30; [exact QA JSON](QA_BATCH55_20261106.json); [checkpoint](CHECKPOINT_20261106_BATCH55.md). Independent complete quote-aware ten-CSV immutable GitHub structural mirror: **PASS**. 248 exact official geography; 701 unique sources; 318 bodies, 45 relationships, four shared scopes, 17 UNKNOWN-linked audit rows; new legal ledger 6 partial and 242 unscored, six evidence-not-resolved queue items. Four negative controls rejected. Three original globally unscoped geography provenance rows are allowed as prior data, not M49 area records. Actual Python validator and unittest suite **NOT RUN** (github.com DNS checkout failure); this is NOT certification of enacted legal status, source authenticity, independent issuer or clinical suitability. Exactly five Team A-only research files changed.

@@ -1,3 +1,9 @@
+## CURRENT — Team A Batch56 legal evidence gaps (2026-11-06)
+
+[Checkpoint](CHECKPOINT_20261106_BATCH56.md), [source audit](source_recovery/CYCLE_A56_624_012_028_LEGAL_TRIAGE_20261106.md), [QA](QA_BATCH56_20261106.json). Three additional areas are partially legally triaged (6→9); 239 remain UNSCORED prior research, **not necessarily missing any old legal sources**. Original 17 UNKNOWN unchanged. **624** 2010 BOE/2021 order and 2024 own-source chronology still unresolved; **012** 2018/2020 official French Gazette statutes only, original Arabic and current amended 2026 legal scopes missing; **028** historic Cap353 Board powers, post-compilation 2026 amendments and expanded ministry/Barbuda/regulators missing. All-tier enacted law, professional/devolved/surveillance/legal-issuer acceptance remains **NOT MEASURED**. No clinical/legal approval. Python NOT RUN due DNS; structural audit passed.
+
+---
+
 ## CURRENT — Team A Batch55 legal gaps (2026-11-06)
 
 Three additional areas have partial legal workflow triage, but **no UNKNOWN authority has been resolved**; 242 legal ledger rows remain UNSCORED existing research, not necessarily lacking prior sources. [Standalone Batch55 checkpoint](CHECKPOINT_20261106_BATCH55.md) and [source note](source_recovery/CYCLE_A55_010_008_016_ORIGINAL_STATUTE_TRIAGE_20261106.md) detail the new original-law scope and unresolved 010 operator health laws, 008 gazette effective dates, 016 later statutes and regulator/federal responsibilities. Follow P0 624/226/581/744 and rotate 012/028/004. Original gaps and caveats below preserved.
