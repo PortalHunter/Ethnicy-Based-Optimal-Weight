@@ -1,3 +1,15 @@
+# Team B changelog — batch 58 — 2026-11-05
+
+**INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.** 418 organization identities across 227/248 UN M49 domiciles (21 area gaps); 293 source-positive of 1,736 area-condition cells, 139 bounded no-resource searches and 1,304 untouched (1,443 source-unlinked). 321 exact resource/context leads, 872 provenance rows, 509 search logs, seven community records, eight cross-border edges, five unknown original-document issuer-country cases and 28 known issuer-vs-domicile differences. All 321/321 `research_lead_only`; zero clinically approved claims.
+
+- Added **B-PH-PLAS** as a first-party verified Philippines specialist lipidology organization, with two precisely attributed source/context leads (2020 multi-society dyslipidemia index and undated FH2 research-registry index).
+- Added an additional **AHA March 2026 dyslipidemia guideline index** to the existing USA high_chol source-positive cell; no claim approval.
+- Net: **+1 identity**, **+3 exact resources/contexts**, **+1 source-positive cell**, **+4 provenance**, **+2 logged searches**, zero new domiciles/community/cross-border/issuer-resolution changes.
+- **Immutable batch-58 data commit:** [`a18d5e31e96ddbccc9fe9f4c6623122979e5e26d`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/a18d5e31e96ddbccc9fe9f4c6623122979e5e26d), complete **145-entry nontruncated GitHub tree** (Git tree `57b93a68c803e09911e5e7d7897fee741aa8d9ab`). Independently refetched all 10 CSVs plus unchanged `validate.mjs` at immutable commit; **11/11 GitHub-reported blob SHAs matched complete tree entries**. Independently implemented JavaScript precommit structural check found **0 errors** for 248×7 M49 coverage, CSV widths, unique IDs, publication/context/exact-URL relationship and attribution evidence, source-country and domiciles, provenance and search references, research-only releases, seven community and eight cross-border records. **Actual Node CLI not executed** because local `git ls-remote` failed DNS lookup for github.com; batch-49–50 historical CLI receipts preserved. SHA equality is GitHub-reported, not separately hashed offline. No full PDF/rights/copyright appraisal, clinical validation, epidemiological inference, universal external-site recheck, or global source-completeness certification.
+- All six CSV changes in the data commit and a separate durable documentation commit; no website/main/other-team changes; PR #71 remains draft and unmerged.
+
+---
+
 # Team B changelog — batch 57 — 2026-11-05
 
 - Added exact first-party lipid research/education lead in Germany (276), historical French gout professional recommendations index (250), undated NZ coeliac diagnostic/regional pathway educational lead (554) and dated 2026-05-01 Heart Foundation NZ hypertension-awareness release (554).
