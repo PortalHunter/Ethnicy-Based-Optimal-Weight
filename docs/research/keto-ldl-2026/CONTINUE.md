@@ -7,7 +7,7 @@
 | Artifact | Content |
 |---|---|
 | [README.md](README.md) | Full overview, evidence confidence map, clinical and ancestry-specific inference boundaries |
-| [SOURCE_LEDGER.md](SOURCE_LEDGER.md) | 27 original study/guideline/review records (S01–S27), primary URLs, designs, data provenance, contradictory findings and corrections |
+| [SOURCE_LEDGER.md](SOURCE_LEDGER.md) | 34 original study/guideline/review records (S01–S34), primary URLs, designs, data provenance, contradictory findings and corrections |
 | [01_WEIGHT_STABILITY.md](01_WEIGHT_STABILITY.md) | Lipolysis vs adipose cholesterol vs LDL apoB kinetics, direct contradictory weight-loss studies, eight-week plateau question, randomized weight-stable studies, testable 24-week tracer protocol |
 | [02_APOB_NMR.md](02_APOB_NMR.md) | LDL-C vs non-HDL-C vs apoB vs NMR LDL-P vs particle size, MESA event analysis, discordance examples, test actionability |
 | [03_SOUTHEAST_ASIA.md](03_SOUTHEAST_ASIA.md) | Filipino FiLWHEL, Philippine General Hospital LIPAS apoB case series, Singapore LPACO apoB/Lp(a), Vietnamese ACS discordance, ancestry limitations |
@@ -35,7 +35,7 @@
 - [x] ApoB/NMR LDL-P measurement and prospective discordance research; no particle-size risk absolution.
 - [x] LMHR and lipid energy model, controlled fat composition evidence, correction/retraction caveats.
 - [x] Dedicated source ledger keyed to research files.
-- [ ] Independently inspect complete supplemental appendices and tables for all 27 sources, rechecking each numerical statement and threshold against full papers rather than abstracts; this first-pass evidence ledger is not systematic-review completeness.
+- [ ] Independently inspect complete supplemental appendices and tables for all 34 sources, rechecking each numerical statement and threshold against full papers rather than abstracts; this first-pass evidence ledger is not systematic-review completeness.
 - [ ] Resolve LPACO Singapore ethnicity n/percent inconsistencies via primary correction or author communication.
 - [ ] Obtain and inspect full Carter 2025 corrigendum; ensure revised table/units/subclass effects.
 - [ ] Locate Filipino-specific NMR LDL-P prospective cohorts, if any, via Philippines and regional local-language databases; document genuinely negative searches.
@@ -55,7 +55,7 @@
 
 ## Validation protocol
 
-- Fetch the six substantive files from branch, confirm Markdown links target existing files and each [S##] citation resolves to a source ledger entry (S01–S27).
+- Fetch the six substantive files from branch, confirm Markdown links target existing files and each [S##] citation resolves to a source ledger entry (S01–S34).
 - Compare branch to main; only `docs/research/keto-ldl-2026/**` and the additive `docs/research/README.md` index entry are permitted.
 - Run any available repo Markdown/source-link checks before considering merge. **No native Node or site tests were executed through the GitHub connector**; plain-text readback and GitHub compare do not constitute native CI.
 - Draft PR should not be merged without source audit and medical review; this is knowledge base research, not patient-facing software.
