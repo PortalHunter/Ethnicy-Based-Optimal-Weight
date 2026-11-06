@@ -1,3 +1,13 @@
+## 2026-11-06 — Team A Batch52: Antarctic Treaty Article VIII and IANPHI translated historical INASA statutes
+
+- Verified live [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN DRAFT/UNMERGED and pre-batch HEAD `40a4fe9a531f83b09961db5adb9f1cbd8a3e162b`. Reviewed Batch51 checkpoint and original comprehensive all-level government census acceptance.
+- New [010/624 legal-source note](source_recovery/CYCLE_010_624_TREATY_AND_INASA_STATUTES_20261106.md): Antarctic Treaty Article VIII restricts personal jurisdiction to named treaty personnel and functions, UK governmental transcription same underlying issuer (no whole-continent medical authority); IANPHI Appendix C1 English translated INASA statutes and case study visually checked pp. 37/39/40, **historical non-government translation not original Portuguese current Gazette**. Both remain UNKNOWN.
+- Commits: note `d101814666674f8c56ebf733c48d03a923efc36b`, three appended provenance entries `648dc8ab18c7143c99c415284666848dcfb241bd`, only 010/624 updated unknown audit `c918f03e053605cde57920dbc551f69a86b3965c` (**immutable data**), exact [QA](QA_BATCH52_20261106.json) `9edeb93ec04c371d36bff9a0bcf3a509e967639a`, [complete checkpoint](CHECKPOINT_20261106_BATCH52.md) `5267d8be7e366937991df84384fca9568f53ed18`. Prior 688 source rows exact prefix, other 15 unknown audits unchanged.
+- Exact eight-CSV GitHub connector quote-aware JS structural validation PASS; 248 official M49, 231 provisional identities, 17 unknowns, 318 body identities, 45 relationships, four area scopes, 248 reviews, **691** source observations. Five in-memory invariant positive/negative controls pass. From pre-batch HEAD to DATA SHA only three Team A research paths; source note, data/QA/checkpoint/continuation independently reread. **Actual Python validator and five unittest regressions NOT RUN** due unresolved local github.com DNS; last actual Batch41. Structural validity != legally enacted 2026/independent issuer/clinical approval.
+- All prior source distinctions and original acceptance limits maintained. Only Team A handoff directory; no main/site/calculator/other team changes; leave PR draft/unmerged.
+
+---
+
 ## 2026-11-06 — Team A Batch51: Guinea-Bissau original BOE national-plan enactment and INASA 2010 legal leads
 
 - Verified live PR #68 OPEN DRAFT/UNMERGED; read latest Batch50 checkpoint and original governmental census acceptance criteria; stayed only in `docs/atlas/handoffs/team-a/`.
