@@ -1,3 +1,32 @@
+## Team B batch 85 — immutable research data validation · 2026-11-06
+
+**Batch 85 (2026-11-06) — DRAFT / INCOMPLETE, no approved clinical claims.** [Immutable research data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f290fd4f8d0aded59f315e256e841a9db91fb6a5); 155-entry nontruncated tree `c0052f45afc4b1c32823d27ae3d7344fc6aff41b`; canonical 10 CSVs, unchanged validator and supplemental audit CSV **12/12 exact blob/tree matches**; independent JavaScript CSV, roster, resource/context/issuer/provenance/search and quality-ledger checks **0 structural errors**. Actual Node CLI **NOT RUN** because git checkout DNS for github.com failed. GitHub combined statuses: 0 reported, **not** CI success or failure. No medical, rights, legal, original full-text or clinical approval.
+
+**Current:** 495 organizations / **227/248** locally domiciled M49 areas (21 gaps); **381** raw positive / **175** searched-unlinked / **1,180** untouched = **1,736**; 417 research-only exact contexts, 1,127 provenance, 653 searches, five unknown issuer imprints, 10 community/subnational, 8 cross-border, 14 diversity cases retained; 0 clinical approvals. **This run:** +2 identities, +0 new M49 domiciles, +0 resources, +0 raw positives, +2 searched-unlinked, −2 untouched, +2 provenance, +5 searches, +1 individually audited source (5 total), +3 search-depth audit entries (7 historical total), +0 original issuer resolutions.
+
+**Audits:** Historical source tiers S1=1 (provisional), S2=3, H=0, M=1, U=0; **412/417 source links not individually classified**. Search-depth ledger historical D1=3 and D2=4; superseded old D1 rows are retained. **Four currently bounded cells have D2 ledgers; 171/175 other bounded cells lack active individual depth audit.** Neither legacy raw positive nor searched state equals quality-verified publication or fully investigated negative.
+
+**New findings:** Kenyan [ARSK nonprofit professional society](https://www.arthrheuma.co.ke/about) and own [Nairobi contact](https://www.arthrheuma.co.ke/); India's [INASL nonprofit](https://inasl.org.in/about-us/) and [PGIMER Chandigarh office](https://inasl.org.in/membership/), with [original guidance index](https://inasl.org.in/clinical-guidelines/) separately checked. Kenya gout D2: ARSK own society source and [AKU East Africa publications](https://www.aku.edu/mcea/medicine/Pages/Rheumatology-Education.aspx), which lists Nairobi 2014 **crystal arthropathy**, not automatically gout. India hereditary HH D2: INASL guidance catalogue and [named-author Kerala 2019-online/2020-issue genotyped cases](https://pubmed.ncbi.nlm.nih.gov/32189932/), not INASL-authored, nationally representative or merely ferritin. Egypt gout D2: earlier [EGYSIR](https://egysir.org/) and distinct [ESRd Giza society](https://www.esrdeg.com/) page, no exact independently attributable society gout paper on inspected pages; independent Springer authorship not transferred. Korea [2022 original society gout patient-education page](https://rheum.or.kr/m/board/view.html?code=issue&num=3050) individually classified S2, not new publication or medically approved advice. Direct ARSK About retrieval 502; search-indexed own profile supports limited identity, original publisher/legal registry unaudited.
+
+**Remaining:** 21 local identity gaps; 1,180 untouched; 175 searched-unlinked (171 not individually search-depth audited); 412 source contexts lacking individual quality classification; five original issuer-country imprints Panama HEARTS, Portuguese WGO lactose translation, Portuguese ESPGHAN celiac translation, Chad OA Pub/JHC and South Sudan PAMJ. Peru gout 2025 scheduled lecture index remains M unresolved; original substantive text required. Keep society vs named authors/publisher/journal/host, FH vs generic LDL, hereditary HH vs ferritin, crystal arthropathy vs gout, celiac diagnosis, population/genotype, source rights, Indigenous/community consent, law and clinical adoption separate. Team A government, C journals, D international networks, clinical issue #27 separate.
+
+**Progress bars, 20 slots proportional (raw discovery only):**
+
+```text
+Local M49 identity   [██████████████████··] verified 227/248 (91.53%), gaps 21 | 227 → 227 (Δ 0)
+Condition-area cells [████░░··············] source-positive 381/1736 (21.95%) | 381 → 381 (Δ 0)
+                      ░ bounded/unlinked 175/1736 (10.08%) | 173 → 175 (Δ +2)
+                      · untouched 1180/1736 (67.97%) | 1182 → 1180 (Δ −2)
+Legend: █ linked research lead only; ░ searched without linked source; · untouched
+By condition: diabetes 110/248; hypertension 75/248; high_chol 48/248; gout 41/248; lactose 33/248; celiac 50/248; hemochromatosis 24/248.
+```
+
+**Restart:** check live draft PR #71 head, reread RUNBOOK/QUEUE/CONTINUE/QUALITY/CHECKPOINT and all ten CSVs plus supplemental audit/validator. Focus A3 Kenya lactose/celiac/HH, A1 India other original issuer avenues, A6 Egypt Arabic society publication, A4 Peru substantive gout text, 21 domicile gaps where plausible and five issuer imprints. Continue first-party original-language and risk-ranked quality audits; no fabricated link, forced country coverage or clinical claim. Commit Team B only, independent readback and validation, standalone checkpoint, draft/unmerged.
+
+No executed Node CLI: local git DNS failed; GitHub immutable 12/12 blob/tree readbacks and independent JS full-join checks passed with zero errors; structurally valid research-lead-only inventory, not source/legal/medical approval.
+
+---
+
 ## Team B batch 84 — immutable data and source limitations — 2026-11-06
 
 Immutable research data commit e20897f8b2d19dab43a44fe9c5aea0bd9a6d36ff (parent b3a50949fcbbf17010eb314a89c4892c6bfd5c25), full Git tree 95997b861cadb8eb9ec508cdfad52d038300b728, 154 entries nontruncated. All 10 canonical CSVs, unchanged validate.mjs and supplemental quality CSV independently refetched at immutable SHA and matched exact tree blob SHAs: 12/12. Independent JavaScript CSV widths, exact source/context/role/provenance and search joins, 248×7 roster, issuer enums, all research_lead_only, community/cross-border preservation and new audit ledger: zero structural errors. Actual Node CLI NOT RUN (direct GitHub git checkout DNS failed, no executable reconstruction completed). Combined commit status returned zero statuses; do not claim CI success or failure. No legal, copyright, clinical, fulltext or live-link approval.
