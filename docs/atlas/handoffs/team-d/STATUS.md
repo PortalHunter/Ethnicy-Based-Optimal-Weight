@@ -1,3 +1,9 @@
+## Team D latest — Batch 49, 2026-11-06
+
+[Standalone checkpoint](CHECKPOINT_BATCH_49_2026-11-06.md). Five named pending cases audited: original 1956 WHO text documents **1955 provisional EURO** for Gibraltar/Greenland without current assignment promotion; visual PPRI original ministry-authored policy account corroborates Malta delegated agency practice but not operative S.L.458.39/current statutory signoff or Team A exact Medicines Authority identity; Libya/Tunisia APPM remain secondary-only. **47 nodes, 619 edges, 298 unique provenance URLs**; 205/249 WHO current regions, 105/249 affirmative April office survey, 34/34 EMA source remit identities, 0/34 complete law/delegation/Team A audits. Research commit `525e9346da5e901e387b545e9b569beac2975dae`; scoped GitHub readbacks and targeted checks passed, full current validator NOT RUN. PR draft/unmerged, no legal/clinical review/approval.
+
+---
+
 ## Batch 48 — close country-specific APPM signing evidence without equating MoA and MoU (2026-11-06)
 
 [Standalone checkpoint](CHECKPOINT_BATCH_48_2026-11-06.md) · [four audited cases](data/closure_case_review_2026-11-06_batch48.csv). Ghana NVI directly reports **August 21, 2026** APPM MoU signed with Africa CDC; Egypt and Ghana now **2 of the 8 aggregate MoUs individually first-party reported**, six remain without equivalent original issuer identification. WHO directly reports Namibia signed an **MoA** during August 20–21, not proven one of the eight MoUs; WHO “Namibia first” contradicts Africa CDC earlier “Egypt first”, not adjudicated. APA October 1 reports Tunisia and Libya signed but primary issuer records not located, so no graph promotion. **Two separate typed graph relationships: 617→619; provenance URLs 292→295 (+3).** Four cases selected, one named new MoU signatory plus one distinct MoA issuer observation, two secondary-only cases still open; none equals a complete legal audit.

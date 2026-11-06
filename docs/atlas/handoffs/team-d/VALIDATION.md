@@ -1,3 +1,9 @@
+## Batch 49 validation status (2026-11-06)
+
+At research SHA `525e9346da5e901e387b545e9b569beac2975dae`, targeted **CSV widths, IDs, provenance URL uniqueness, case-to-source joins, WHO M49 and queue invariants, office host and NCA counters** were checked from GitHub file readbacks: **PASS**. GitHub compare showed exactly five Team D-only paths. `validate.mjs` was updated to 298 provenance URLs and Batch49 assertions, **but full current checked-in Node validator WAS NOT RUN**: installed local Node could not retrieve authorized checkout because `github.com` DNS resolution failed. Do not claim native Node, complete V8 shim, GitHub Actions, legal, scientific, clinical or maintainer validation. Checkpoint: [Batch 49](CHECKPOINT_BATCH_49_2026-11-06.md).
+
+---
+
 ## Batch 48 GitHub research commit readback and scoped validation
 
 Substantive data commit [762b11f](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/762b11f4f450a55b36c1ad36f0c99a88552c9247) confirmed OPEN/DRAFT/UNMERGED PR head before documentation, five Team D-only changed paths and five immutable blob readbacks. Original-case CSV four rows, 295 unique provenance URLs, 619 graph edges, WHO 205/249, April survey 105/249, EMA roles 34/34 and full law/Team A audit 0/34. Direct authoring checks passed complete CSV width and graph provenance joins. Updated `validate.mjs` source; **FULL CURRENT-SNAPSHOT CHECKED-IN VALIDATOR NOT RUN** (git DNS unavailable), no native Node/Actions/legal/clinical/maintainer approval. Documentation checkpoint commit also requires post-commit readback and scoped compare.

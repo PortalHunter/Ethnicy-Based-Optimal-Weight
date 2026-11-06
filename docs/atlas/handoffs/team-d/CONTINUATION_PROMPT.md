@@ -1,3 +1,11 @@
+# Latest Team D restart — Batch 49 (2026-11-06)
+
+**START** with [complete standalone Batch 49 checkpoint](CHECKPOINT_BATCH_49_2026-11-06.md), then [COMPLETION_PLAYBOOK.md](COMPLETION_PLAYBOOK.md). Batch 49 reviewed five named old gaps, documented **1955 provisional historical WHO EURO assignments** for Gibraltar and Greenland (NOT current 2026 region assignments), located a visually inspected **2022 Malta government-authored PPRI delegated-agency description** (NOT operative original delegation/current law), and confirmed Libya/Tunisia APPM reports remain secondary-only. Team A read-only Ministry `gov-470-001` is **not** a Medicines Authority ID. **47 nodes / 619 edges / 298 unique URLs, WHO 205/249, April affirmative office 105/249, EMA role sources 34/34, full amended statute/delegation/exact Team A audits 0/34**. Targeted GitHub scope/readbacks/CSV source joins PASS; **full current validator NOT RUN** due unavailable git checkout. PR #70 OPEN/DRAFT/UNMERGED; no legal/scientific/clinical approval.
+
+**Next:** current WHO institutional assignment instruments for 292/304 and remaining 42 unverified codes; distinguish 1955 historical provisional status and undated emergency/reporting groups; pursue exact Malta 458.39/458.34 operative law and agency identity; original Libya/Tunisia signed APPM contracts and 8-name registry; classify April missing positives separately. Select 2–5 other old blockers if these sources saturate. Keep modifications Team D-only, preserve concurrent work and all prior caveats; read `COMPLETION_PLAYBOOK.md` before working.
+
+---
+
 # Team D — current continuation entrypoint: close existing evidence gaps first
 
 **START with [standalone Batch 48 checkpoint](CHECKPOINT_BATCH_48_2026-11-06.md)** and [completion-first playbook](COMPLETION_PLAYBOOK.md). Batch 48 adds Ghana's first-party APPM MoU country signing record (2026-08-21) and a distinct WHO-reported Namibia MoA, retaining Tunisia and Libya as secondary-only pending first-party records. **47 nodes / 619 typed dated edges / 295 unique provenance URLs**. WHO regions **205/249**, April affirmative office surveys **105/249**, EMA first-party source-remit identities **34/34**, complete amended law/delegation/Team A audit **0/34**; WHO, April and full-law strict metrics unchanged. Full current validator NOT RUN. PR #70 stays OPEN/DRAFT/UNMERGED; Team D only.
