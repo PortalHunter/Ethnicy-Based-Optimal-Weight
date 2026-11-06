@@ -1,23 +1,23 @@
 {
   "team": "B",
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "status": "incomplete",
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "6d5dc37241526f2cbc2657463819c481d625ae38",
-  "batch": 67,
+  "validated_data_commit": "7c2b0f8157d693f0f7e90e34496a9dbeb641560d",
+  "batch": "72-8967",
   "metrics": {
-    "organizations": 449,
+    "organizations": 466,
     "areas": 227,
-    "resources": 368,
-    "positive": 335,
-    "without_linked_source": 1401,
-    "targeted_no_source": 147,
-    "unresearched": 1254,
-    "provenance": 978,
-    "search_log": 567,
-    "community": 9,
+    "resources": 381,
+    "positive": 347,
+    "without_linked_source": 1389,
+    "targeted_no_source": 160,
+    "unresearched": 1229,
+    "provenance": 1036,
+    "search_log": 598,
+    "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
     "issuer_country_differs_from_domicile": 28,
@@ -25,32 +25,27 @@
       "diabetes": 105,
       "hypertension": 64,
       "high_chol": 41,
-      "gout": 33,
-      "lactose": 28,
-      "celiac": 41,
-      "hemochromatosis": 23
+      "gout": 37,
+      "lactose": 30,
+      "celiac": 46,
+      "hemochromatosis": 24
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
     "organizations": 7,
-    "resources": 12,
-    "positive_cells": 10,
-    "provenance": 37,
-    "searches": 16,
-    "community": 1,
-    "cross_border": 0,
-    "previously_untouched_cells_targeted": 11
+    "resources": 4,
+    "documented_searches": 15,
+    "provenance": 28,
+    "concurrent_work_included_in_metrics": true
   },
   "validation_runtime": "actual_Node_v24.22.1_CLI_each_batch_plus_immutable_readback_and_final_local_Git_blob_hashes",
   "node_cli_run": true,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Batch68: first-party local-language coeliac discovery in Lithuania440 and Bulgaria100, then lactose in Romania642. Verify each exact resource and organization independently; log bounded failures without absence inference.",
-    "1254 untouched cells and147 bounded no-resource cells remain;21 locally domiciled identity gaps unchanged. Five original issuer-country imprints unresolved.",
-    "Resolve MCE/LÉOE formal-name continuity against own statutes and registry before certifying legal rename. Belgian HVV own site inaccessible; do not credit directory alone as current identity/publication.",
-    "Retain Polish2026 translated coeliac PDF pagination??? and19-author section attribution; Indonesian2024 IRA/PAPDI book distinct from2025-volume/2026-online journal. Original fulltext appraisal and clinical approval belong to issue27.",
-    "Preserve every prior historical caveat,14 broad-label counterexamples, original community records and eight cross-border edges. Do not modify website/main/calculators/formulas/other teams or merge."
+    "Verify live branch and reconcile concurrent session before writes",
+    "Sri Lanka144, Bangladesh050, Nepal524 lactose first-party discovery",
+    "Continue1232 untouched cells,21 domicile gaps and5 original issuer-country uncertainties"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -152,72 +147,13 @@
     }
   ],
   "readback_validation": {
-    "status": "passed",
-    "verified_data_sha": "6d5dc37241526f2cbc2657463819c481d625ae38",
-    "tree_sha": "a01eb316827143d7f6135a8fb9a173f09b666e6d",
-    "tree_truncated": false,
-    "tree_items": 145,
-    "files_checked": 11,
-    "matching_github_tree_blob_shas": 11,
-    "exact_content_matches": 11,
-    "independently_recomputed_local_blob_hashes": 11,
-    "node_cli_run": true,
-    "structural_errors": 0,
-    "clinical_approval": false,
-    "batch_readback_receipts": {
-      "63": "39c93617aa924f7537a02f8e3f34fcf0d7ce5922",
-      "64": "70f03445ff4a1a57c06c540a0611037d262ff027",
-      "65": "72c7f13a1ce30d5a39c9c258debd2d2982cf2f66",
-      "66": "52d537a6df81fc0b1037729c3c64e46e3daf6c23",
-      "67": "6d5dc37241526f2cbc2657463819c481d625ae38"
-    },
-    "file_blob_receipts": [
-      {
-        "path": "docs/atlas/handoffs/team-b/PROVENANCE.csv",
-        "sha": "49993a8c0155bcd6191b196fc90ed29cfe12989e"
-      },
-      {
-        "path": "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
-        "sha": "3b3a5a39478e78783531942a2e4eb4ef827715ce"
-      },
-      {
-        "path": "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
-        "sha": "ef63da71bc77ae27f63401f4084d857d4f4cf6b0"
-      },
-      {
-        "path": "docs/atlas/handoffs/team-b/data/cross_border_services.csv",
-        "sha": "b1fec349b5c670cdacabc33e73f5567a9340842d"
-      },
-      {
-        "path": "docs/atlas/handoffs/team-b/data/m49_area_codes.csv",
-        "sha": "80da341f3a5d18ccb4eac30fdede82b0d4870629"
-      },
-      {
-        "path": "docs/atlas/handoffs/team-b/data/m49_verified_overview.csv",
-        "sha": "062b70cb9f19de17ac564d336c5580d622379f05"
-      },
-      {
-        "path": "docs/atlas/handoffs/team-b/data/publication_context.csv",
-        "sha": "bedb3c2e06f63268699e259ef8dcf8a69e182a5a"
-      },
-      {
-        "path": "docs/atlas/handoffs/team-b/data/search_log.csv",
-        "sha": "26b0a57401e17feec41349a822e90d8a7f247c16"
-      },
-      {
-        "path": "docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
-        "sha": "7d76c84e328e40430f55aa7f859addf433ef5920"
-      },
-      {
-        "path": "docs/atlas/handoffs/team-b/data/subnational_and_indigenous_organizations.csv",
-        "sha": "889947bf051306491e415baa23626b5afa47505c"
-      },
-      {
-        "path": "docs/atlas/handoffs/team-b/validate.mjs",
-        "sha": "4d40ac04963d30d0ec809c2f066eaa1a0c538a36"
-      }
-    ],
-    "scope": "All ten CSVs and unchanged validate.mjs independently fetched from each of the five immutable batch commits; 11/11 exact content and GitHub tree/blob SHA matches per batch. Final data commit additionally verified with 11 independently computed local Git blob hashes. Actual Node v24.22.1 CLI passed at each batch and final readback-matching snapshot, zero structural errors. CSV widths, exact resource/context joins, M49 coverage, attribution evidence, search IDs and research-only state passed. This does not certify clinical accuracy, copyright clearance, complete original fulltext or visual appraisal, universal live links, legal registry currency, or exhaustive discovery."
+    "batch": "audit-8967",
+    "sha": "7c2b0f8157d693f0f7e90e34496a9dbeb641560d",
+    "tree_entries": 145,
+    "truncated": false,
+    "files": 11,
+    "exact_matches": 11,
+    "local_hash_matches": 11
   },
   "previous_independently_verified_data_commit": "73e73c6c2fab15c9ca370d1307e9819005df92c0",
   "session_additions": {
@@ -1764,11 +1700,11 @@
     }
   },
   "completed_batches_this_run": [
-    63,
-    64,
-    65,
-    66,
-    67
+    "68-8967",
+    "69-8967",
+    "70-8967",
+    "71-8967",
+    "72-8967"
   ],
   "current_run_attribution_caveats": [
     "ČRS contact board2022–2025 versus parent2026–2029; both dated records preserved.",
@@ -1780,5 +1716,184 @@
     "ÖGGH and Polish catalogue bounded iron failures are not national absence. Belgian HVV directory lead not credited without current own verification.",
     "Polish coeliac PDF translated journal proof has pagination???;19 authors and Termedia copyright distinct from society hosting.",
     "Indonesian2024 original imprint collaboration PAPDI;81 PDF pages vs xiv+64 unresolved; reproduction restricted. Thai2026 existing guideline not duplicated; Malaysian own site still502."
-  ]
+  ],
+  "prior_summary_before_run_8967": {
+    "date": "2026-11-05",
+    "batch": 67,
+    "metrics": {
+      "organizations": 449,
+      "areas": 227,
+      "resources": 368,
+      "positive": 335,
+      "without_linked_source": 1401,
+      "targeted_no_source": 147,
+      "unresearched": 1254,
+      "provenance": 978,
+      "search_log": 567,
+      "community": 9,
+      "cross_border_edges": 8,
+      "issuer_country_unresolved": 5,
+      "issuer_country_differs_from_domicile": 28,
+      "by_condition": {
+        "diabetes": 105,
+        "hypertension": 64,
+        "high_chol": 41,
+        "gout": 33,
+        "lactose": 28,
+        "celiac": 41,
+        "hemochromatosis": 23
+      },
+      "current_unsd_overview_codes": 248
+    },
+    "validated_data_commit": "6d5dc37241526f2cbc2657463819c481d625ae38",
+    "completed_batches_this_run": [
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "readback_validation": {
+      "status": "passed",
+      "verified_data_sha": "6d5dc37241526f2cbc2657463819c481d625ae38",
+      "tree_sha": "a01eb316827143d7f6135a8fb9a173f09b666e6d",
+      "tree_truncated": false,
+      "tree_items": 145,
+      "files_checked": 11,
+      "matching_github_tree_blob_shas": 11,
+      "exact_content_matches": 11,
+      "independently_recomputed_local_blob_hashes": 11,
+      "node_cli_run": true,
+      "structural_errors": 0,
+      "clinical_approval": false,
+      "batch_readback_receipts": {
+        "63": "39c93617aa924f7537a02f8e3f34fcf0d7ce5922",
+        "64": "70f03445ff4a1a57c06c540a0611037d262ff027",
+        "65": "72c7f13a1ce30d5a39c9c258debd2d2982cf2f66",
+        "66": "52d537a6df81fc0b1037729c3c64e46e3daf6c23",
+        "67": "6d5dc37241526f2cbc2657463819c481d625ae38"
+      },
+      "file_blob_receipts": [
+        {
+          "path": "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+          "sha": "49993a8c0155bcd6191b196fc90ed29cfe12989e"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+          "sha": "3b3a5a39478e78783531942a2e4eb4ef827715ce"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
+          "sha": "ef63da71bc77ae27f63401f4084d857d4f4cf6b0"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-b/data/cross_border_services.csv",
+          "sha": "b1fec349b5c670cdacabc33e73f5567a9340842d"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-b/data/m49_area_codes.csv",
+          "sha": "80da341f3a5d18ccb4eac30fdede82b0d4870629"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-b/data/m49_verified_overview.csv",
+          "sha": "062b70cb9f19de17ac564d336c5580d622379f05"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-b/data/publication_context.csv",
+          "sha": "bedb3c2e06f63268699e259ef8dcf8a69e182a5a"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-b/data/search_log.csv",
+          "sha": "26b0a57401e17feec41349a822e90d8a7f247c16"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+          "sha": "7d76c84e328e40430f55aa7f859addf433ef5920"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-b/data/subnational_and_indigenous_organizations.csv",
+          "sha": "889947bf051306491e415baa23626b5afa47505c"
+        },
+        {
+          "path": "docs/atlas/handoffs/team-b/validate.mjs",
+          "sha": "4d40ac04963d30d0ec809c2f066eaa1a0c538a36"
+        }
+      ],
+      "scope": "All ten CSVs and unchanged validate.mjs independently fetched from each of the five immutable batch commits; 11/11 exact content and GitHub tree/blob SHA matches per batch. Final data commit additionally verified with 11 independently computed local Git blob hashes. Actual Node v24.22.1 CLI passed at each batch and final readback-matching snapshot, zero structural errors. CSV widths, exact resource/context joins, M49 coverage, attribution evidence, search IDs and research-only state passed. This does not certify clinical accuracy, copyright clearance, complete original fulltext or visual appraisal, universal live links, legal registry currency, or exhaustive discovery."
+    },
+    "next_priorities": [
+      "Batch68: first-party local-language coeliac discovery in Lithuania440 and Bulgaria100, then lactose in Romania642. Verify each exact resource and organization independently; log bounded failures without absence inference.",
+      "1254 untouched cells and147 bounded no-resource cells remain;21 locally domiciled identity gaps unchanged. Five original issuer-country imprints unresolved.",
+      "Resolve MCE/LÉOE formal-name continuity against own statutes and registry before certifying legal rename. Belgian HVV own site inaccessible; do not credit directory alone as current identity/publication.",
+      "Retain Polish2026 translated coeliac PDF pagination??? and19-author section attribution; Indonesian2024 IRA/PAPDI book distinct from2025-volume/2026-online journal. Original fulltext appraisal and clinical approval belong to issue27.",
+      "Preserve every prior historical caveat,14 broad-label counterexamples, original community records and eight cross-border edges. Do not modify website/main/calculators/formulas/other teams or merge."
+    ],
+    "run_additions": {
+      "organizations": 7,
+      "resources": 12,
+      "positive_cells": 10,
+      "provenance": 37,
+      "searches": 16,
+      "community": 1,
+      "cross_border": 0,
+      "previously_untouched_cells_targeted": 11
+    }
+  },
+  "run_8967_receipts": [
+    {
+      "batch": "68-8967",
+      "sha": "5761b17511474cc3b395092e156d5c29a612754b",
+      "tree_entries": 145,
+      "truncated": false,
+      "files": 11,
+      "exact_matches": 11,
+      "local_hash_matches": 11
+    },
+    {
+      "batch": "69-8967",
+      "sha": "26cd9ca14fb3e270674592fa4a2004d428ce5089",
+      "tree_entries": 145,
+      "truncated": false,
+      "files": 11,
+      "exact_matches": 11,
+      "local_hash_matches": 11
+    },
+    {
+      "batch": "70-8967",
+      "sha": "a20a963c8625c6bd2f026c9bbf8934dde173b607",
+      "tree_entries": 145,
+      "truncated": false,
+      "files": 11,
+      "exact_matches": 11,
+      "local_hash_matches": 11
+    },
+    {
+      "batch": "71-8967",
+      "sha": "f71b7e8474bec03bfd42c9b0e20f3dc8256d85e0",
+      "tree_entries": 145,
+      "truncated": false,
+      "files": 11,
+      "exact_matches": 11,
+      "local_hash_matches": 11
+    },
+    {
+      "batch": "72-8967",
+      "sha": "55e62cc21a2eb07c231a8f419139bb31f6107c32",
+      "tree_entries": 145,
+      "truncated": false,
+      "files": 11,
+      "exact_matches": 11,
+      "local_hash_matches": 11
+    },
+    {
+      "batch": "audit-8967",
+      "sha": "7c2b0f8157d693f0f7e90e34496a9dbeb641560d",
+      "tree_entries": 145,
+      "truncated": false,
+      "files": 11,
+      "exact_matches": 11,
+      "local_hash_matches": 11
+    }
+  ],
+  "run_8967_recovery": "Intermediate assembly truncation detected by readback and repaired at5761b175; all original rows/history retained and final immutable11-file hash/CLI validation passed."
 }

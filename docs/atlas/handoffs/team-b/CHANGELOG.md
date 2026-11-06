@@ -1,3 +1,46 @@
+# Team B standalone continuation — five batches 68-8967 through 72-8967
+
+**INCOMPLETE · DRAFT · OPEN · UNMERGED · RESEARCH LEADS ONLY.** Checked 2026-11-06 UTC (November 6 Central). This run completed five research batches, using suffix8967 to avoid collisions with a concurrent session. Seven new organizations, four exact resources and fifteen documented condition checks came from this run; concurrent branch contributions were preserved separately.
+
+Current combined branch: **466 organizations in 227/248 domiciles**,21 local-identity gaps. Of1736 condition cells: **347 source-positive**, 160 bounded without resource and **1229 untouched**; 1389 total source-unlinked. 381 exact resources, 1036 provenance rows, 598 searches, 10 community/subnational records and 8 cross-border edges. Five original issuer-country uncertainties remain. Zero approved clinical claims.
+
+Final audited data commit: `7c2b0f8157d693f0f7e90e34496a9dbeb641560d`. Actual Node v24.22.1 validator passed with zero errors. All ten CSVs plus unchanged validator independently fetched at immutable SHA, matched the complete nontruncated145-entry tree and11 locally computed Git blob hashes. All449 starting organizations,368 original resource/context rows and all other noncoverage CSV rows preserved exactly; all original Markdown history remains. Six original specialist_research_only classifications restored during final semantic audit. PP43 Malaysian cohort is explicit in publication_context rather than generic study-unspecified text.
+
+## Resume from repository alone
+
+1. Verify live PR71 remains draft/open/unmerged, base main and branch research/atlas-team-b-20261104. Read comments/reviews/checks, full recursive tree and any AGENTS.md. Starting145-entry tree had no AGENTS.md; starting population-tests and quality-gates both succeeded. No reviews or inline threads were returned at final audit. No completed final-CI result was yet available for the audit commit; check independently.
+2. Read original TEAM_B_CLINICAL_ORGANIZATIONS.md and DATA_CONTRACT.md under docs/atlas/research-team-prompts/ on research/atlas-five-team-handoff-prompts-2026-11-04, then all18 TeamB files. Preserve historical caveats and14 diversity boundary examples. Run `node docs/atlas/handoffs/team-b/validate.mjs`.
+3. Next distinct candidate batch: lactose discovery in Sri Lanka144, Bangladesh050 and Nepal524, using original-language terms and first-party gastroenterology/nutrition/academic sources. Reconcile live matrix first; another session is active. Continue untouched cells,21 domicile gaps and five issuer-imprint uncertainties. A failed bounded check is never national absence. Revisit BRS legacy/patient-education pages and NRA versus NCRD publication attribution separately.
+4. Write only docs/atlas/handoffs/team-b/. Before each commit reread live branch and reconcile new rows/history; update with expected-head lease. Never force-overwrite. Use unique run-scoped search/provenance IDs. Do not assume numeric batch labels identify unique sessions. Independently fetch immutable CSVs/validator and recompute local Git blob hashes before claiming readback; update checkpoint last.
+5. Keep publisher, host, document issuer, domicile, service jurisdiction, study location/population and genotype distinct. Government/journal/network work belongs to other teams; medical appraisal belongs to issue27. All resources remain research_lead_only. Do not alter public website,main,calculators,formulas,other teams or merge PR71.
+
+## This run's source and recovery caveats
+
+- Bulgaria coeliac.bg current organization and education verified; no assumed continuity with older bacbg.org association. Lithuania AOECS Other societies listing is not membership; begliuteno.lt now presents as personal blog. Concurrent Lithuanian gastroenterology resource is separately retained.
+- ARIG lactose PDF direct open returned verification loader despite indexed excerpt; no original imprint, fulltext or positive credit. Separate school-programme check and2026 guide announcement preserved.
+- Sri Lankan college's2026 gout programme is a scheduled professional education record, not verified attendance/outcomes or clinical guideline. Separate rheumatology.lk ownership unbridged. Bangladesh society catalogue shell and Nepal homepage not credited as gout publications; NCRD-affiliated survey not automatically NRA-authored.
+- NFDD lactose education's broad ancestry and dietary/testing claims unappraised; Yakult sponsorship recorded. MSGH current Putrajaya site separate from historical experiencesense committee copy. PSG component-society structure distinct from joint journal ownership.
+- MSGH GUT2012 PP43 is a historical selected high-risk hospital pilot with named hospital/IMR/CRC authors; antibody-based atypical label is not biopsy-confirmed disease or national prevalence. Printed104/PDFordinal106; selected text only. Screenshot calls returned placeholders, no visual review claimed. GUT2022 foreign-speaker oration is separate historical programme.
+- Iron checks in NFDD/MSGH/PSG are bounded catalogue checks. Cirrhosis, iron-deficiency anaemia, thalassaemia/transfusion iron and haemophilia are not interchangeable with hereditary haemochromatosis. No national-absence or clinical claims approved.
+- First attempted data assembly commit4e2f698a failed independent readback due a line-splitting bug that truncated files. Repair5761b175 restored complete history and passed11/11 exact remote/local hashes before work continued. Unreferenced e6df712d object never moved branch. Later lease rejections caused reconciliation, never force-overwrite. Final audited snapshot and preserved-row checks establish recovery; do not treat the failed intermediate commit as a validated dataset.
+
+## Immutable receipts
+
+| Batch | Verified commit | Readback |
+|---|---|---|
+| 68-8967 | `5761b17511474cc3b395092e156d5c29a612754b` | 11/11 exact content, tree/blob and local Git hashes |
+| 69-8967 | `26cd9ca14fb3e270674592fa4a2004d428ce5089` | 11/11 exact content, tree/blob and local Git hashes |
+| 70-8967 | `a20a963c8625c6bd2f026c9bbf8934dde173b607` | 11/11 exact content, tree/blob and local Git hashes |
+| 71-8967 | `f71b7e8474bec03bfd42c9b0e20f3dc8256d85e0` | 11/11 exact content, tree/blob and local Git hashes |
+| 72-8967 | `55e62cc21a2eb07c231a8f419139bb31f6107c32` | 11/11 exact content, tree/blob and local Git hashes |
+| audit-8967 | `7c2b0f8157d693f0f7e90e34496a9dbeb641560d` | 11/11 exact content, tree/blob and local Git hashes |
+
+Research remains incomplete. Structural validation and readback do not certify clinical accuracy, original fulltext/visual appraisal, rights, legal currency, universal live links or exhaustive discovery.
+
+---
+
+## Preserved earlier checkpoints and caveats
+
 ## Batch 72 — Baltic hereditary iron discovery and issuer boundaries — 2026-11-06
 
 INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.

@@ -1,3 +1,16 @@
+## Current gaps after run8967
+
+# Team B standalone continuation — five batches 68-8967 through 72-8967
+
+**INCOMPLETE · DRAFT · OPEN · UNMERGED · RESEARCH LEADS ONLY.** Checked 2026-11-06 UTC (November 6 Central). This run completed five research batches, using suffix8967 to avoid collisions with a concurrent session. Seven new organizations, four exact resources and fifteen documented condition checks came from this run; concurrent branch contributions were preserved separately.
+
+Current combined branch: **466 organizations in 227/248 domiciles**,21 local-identity gaps. Of1736 condition cells: **347 source-positive**, 160 bounded without resource and **1229 untouched**; 1389 total source-unlinked. 381 exact resources, 1036 provenance rows, 598 searches, 10 community/subnational records and 8 cross-border edges. Five original issuer-country uncertainties remain. Zero approved clinical claims.
+
+Final audited data commit: `7c2b0f8157d693f0f7e90e34496a9dbeb641560d`. Actual Node v24.22.1 validator passed with zero errors. All ten CSVs plus unchanged validator independently fetched at immutable SHA, matched the complete nontruncated145-entry tree and11 locally computed Git blob hashes. All449 starting organizations,368 original resource/context rows and all other noncoverage CSV rows preserved exactly; all original Markdown history remains. Six original specialist_research_only classifications restored during final semantic audit. PP43 Malaysian cohort is explicit in publication_context rather than generic study-unspecified text.
+
+
+Next action: Sri Lanka144/Bangladesh050/Nepal524 lactose discovery after live reconciliation. All earlier restrictions/source caveats remain binding.
+
 ## Batch 72 — Baltic hereditary iron discovery and issuer boundaries — 2026-11-06
 
 INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.
