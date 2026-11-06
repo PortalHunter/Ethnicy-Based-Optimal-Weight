@@ -1,3 +1,13 @@
+## Batch 69-8967 — South Asian rheumatology identities and bounded gout discovery — 2026-11-06
+
+INCOMPLETE · DRAFT · DO NOT MERGE. All sources research_lead_only; zero approved clinical claims.
+
+- **144 · B-LK-CSRRSL · gout** [20th Annual Scientific Sessions 2026 — crystal arthropathy plenary](https://rheumatology.org.lk/event-20th-annual-scientific-sessions-2026/): Own programme lists 17 October gout plenary by Chula N A Rajapakse, marked UK, within Colombo scientific sessions. Programme establishes a listed education activity, not attendance, completed learning outcomes, a Sri Lankan-authored guideline or population study. Registration open/closed labels coexist. Different rheumatology.lk patient site not assumed to be college-owned; no clinical or medication claims adopted.
+- **050 · B-BD-BRS · gout** [BRS National Guideline — bounded gout check](https://brsbd.com/national-guideline/): Own National Guideline page retrieves a heading and navigation but no substantive gout document in inspected output. Society identity and Dhaka contact established separately; no gout publication credit. General arthritis and rheumatoid-arthritis papers do not establish gout evidence. No inference of national research absence; legacy old.brsbd.com and patient-education pages remain follow-up.
+- **524 · B-NP-NRA · gout** [Nepal Rheumatology Association — bounded gout discovery](https://rheumatologynepal.org.np/): Own homepage verifies non-profit professional organization established 2019 and Lalitpur address, but no exact gout resource in inspected menu/content. Search identifies NCRD-affiliated clinician survey DOI10.1007/s00296-020-04712-3; authorship must not be assigned to NRA from overlapping personnel. Clinic and journal are distinct entities/scopes. No publication credit or national absence inference.
+
+Actual Node structural validator passed with zero errors before commit. Immutable readback receipts recorded in VALIDATION.md. Prior evidence and caveats remain binding.
+
 ## Batch 68-8967 — Bulgarian coeliac education and unresolved Lithuanian/Romanian leads — 2026-11-06
 
 INCOMPLETE · DRAFT · DO NOT MERGE. All sources research_lead_only; zero approved clinical claims.
