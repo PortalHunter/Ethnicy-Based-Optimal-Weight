@@ -1,3 +1,19 @@
+## CURRENT — Team A Batch42: two further source-specific legal research cycles (2026-11-06 UTC)
+
+**PR #68 OPEN DRAFT / UNMERGED; original acceptance INCOMPLETE.** Exact immutable Batch42 DATA SHA: `2970560f8789ed73cf60c4658a60f93ae21e9881`. **Read the [complete standalone Batch42 checkpoint](CHECKPOINT_20261106_BATCH42.md) and [QA/hashes](QA_BATCH42_20261106.json) first**, then predecessor [Batch41](CHECKPOINT_20261106_BATCH41.md) and original assignment.
+
+**248** dated official M49 geographic rows; **231** areas with one or more scoped governmental authority identities; **17** explicitly unresolved; **318** distinct government body rows; **45** relationships; **655** source/provenance observations; **248** coverage rows; **4** explicitly supported multi-area scopes. Identity or source count ≠ enacted comprehensive health-jurisdiction certification. Existing 312 bodies/643 sources and all other 15 unknown-area audits preserved unchanged.
+
+**Batch42 744:** six separate **component/section-specific** authorities identified: Svalbard Helse Nord RHF, Longyearbyen lokalstyre, Sysselmesteren and UNN Longyearbyen hospital; Jan Mayen Statsforvalteren i Nordland; §29e REK nord research ethics across components. Seven new source states including a **secondary private 2026 regulation consolidation**, not official authenticated full Lovdata (direct 405). The 2026 §29e amendment was indexed as enacted July 1. **M49 744 remains UNKNOWN**, no country-parent or blanket ministry inference. [Review](source_recovery/CYCLE_744_COMPONENT_BODIES_20261106.md).
+
+**Batch42 581:** historical 1989 DOI administrative manual is superseded in material parts by Midway 1996 FWS and Navassa 1999 SO3210; Johnston joint US Air Force/FWS access and renamed marine monument are **not health mandate evidence**. Five source observations, preserved current-year failures and no artificial nine-island authority. **M49 581 remains UNKNOWN**. [Review](source_recovery/CYCLE_581_HISTORICAL_CURRENT_20261106.md).
+
+Two unknown-area audit reasons/actions and source IDs were augmented. **Independent quote-aware GitHub readback structural QA PASS**, with exact M49 identities, body/source and relationship keys, 17 audits, original row preservation and Team A path-only diff. **Python validator/five regression tests NOT rerun in Batch42**; Batch41 did run them. No enactment/effective-control/clinical certification.
+
+**NEXT:** Authenticate official complete post-July-2026 2015-747 §§3/4/10/19/21 and six narrow bodies; audit current per-island M49 581 civil/health eCFR, SO3210/SO3224; continue all 17 actions in the standalone checkpoint plus 231 other areas' law, devolution, regulators/institutes. Read current branch HEAD, work only Team A directory, preserve earlier source failures, never edit public website/main/medical material, merge or mark PR ready. Save further complete standalone GitHub checkpoints if unfinished. Repeat exact user's continuation prompt.
+
+---
+
 ## CURRENT — Team A Batch41: six legal-source recovery cycles (2026-11-06 UTC)
 
 **Original acceptance INCOMPLETE. PR #68 OPEN DRAFT/UNMERGED.**
