@@ -1,3 +1,14 @@
+## Batch 70 — Regional Slovenian lactose education and access boundaries — 2026-11-06
+
+INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.
+
+- **705 · B-SI-CELIACSLO · lactose** [Strokovna mnenja — secondary lactose intolerance in coeliac disease](https://www.celiac.si/strokovna-mnenja/): Association hosts named hospital clinician contributions for its tenth anniversary; exact meeting/publication date unestablished. Secondary lactose intolerance in coeliac disease differs from inherited lactase nonpersistence and milk allergy. Two contributors give differing temporary dairy/lactose-exclusion periods; neither recommendation adopted. Clinical frequency, recovery and dietary assertions unappraised; regional education is not national genotype evidence.
+- **705 · B-SI-CELIACSLO · celiac** [Strokovna mnenja — coeliac expert contributions](https://www.celiac.si/strokovna-mnenja/): Same page as lactose context, not an independent additional study. Named adult/pediatric/hospital nutrition contributors discuss coeliac disease, with historical diagnostic and numerical statements unappraised. Regional hospital testing anecdotes do not establish Slovenian prevalence or represent all Slovenian communities. Exact publication date unknown; distinct from SDC national association.
+- **440 · B-LT-LGD · lactose** [Kada kreiptis į specialistą? — bounded lactose discovery](https://gastroenterologija.lt/kada-kreiptis-i-specialista/): Own symptom/referral page mentions food intolerance generically; no specific lactose education or lactase-persistence research verified in inspected page/search scope. Generic bloating or food intolerance is not lactose diagnosis. No positive lactose credit and no national absence inference; university/local original studies remain follow-up.
+- **191 · B-HR-CELIVITA · lactose** [CD SKILLS patient guide — bounded lactose fulltext access check](https://celivita.hr/wp-content/uploads/2021/12/CD-Skills-Vodic-za-pacijente.pdf): Search-indexed patient guide contains secondary carbohydrate/lactose intolerance passage, but direct PDF retrieval exceeded13.57MB size limit. Related-condition HTML returned verification loader. No original imprint/fulltext/translation or rights appraisal;2021/12 URL does not date edition. No positive lactose credit pending original verification; hosted collaborative project does not establish exclusive CeliVita authorship.
+
+Node CLI structural validation: zero errors. All prior research and caveats retained; no clinical approval.
+
 ## Batch 69 — Slovenian and Croatian coeliac patient education — 2026-11-06
 
 INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.
