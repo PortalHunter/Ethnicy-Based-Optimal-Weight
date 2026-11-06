@@ -1,3 +1,13 @@
+## Batch 68 — Lithuanian coeliac education and bounded Bulgarian/Romanian checks — 2026-11-06
+
+INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.
+
+- **440 · B-LT-LGD · celiac** [Celiakijos tyrimai](https://gastroenterologija.lt/pasiruosimai-tyrimams/celiakijos-tyrimai/): Own Lithuanian patient testing explainer distinguishes blood testing from confirmation in many adults. No displayed edition date established; screening and diagnostic claims unappraised. Serology or genetic susceptibility is not automatically confirmed coeliac disease. Not a guideline or population study.
+- **100 · B-BG-BAC-CANDIDATE · celiac** [Bulgarian coeliac association candidate access check](https://bacbg.org/): Own candidate site returned 403. Legacy directories name an association, but current own identity and a substantive coeliac resource not verified. Accessible BSG society homepage supplies no coeliac resource in inspected output; government pharmacotherapy material is separate Team A scope. No positive credit; not national absence.
+- **642 · B-RO-ARIG · lactose** [ARIG school programme 2026–2027 — bounded lactose check](https://arig.ro/programul-pentru-scoli-al-romaniei-an-scolar-2026-2027/): Own September 27/28 2026 page mentions lactose accommodation while focusing on gluten-free school provision. It interprets government legislation; not a substantive lactose diagnostic/research resource or independent legal verification. Separate Kaufland advertorial prevalence statements are untraced and withheld. No positive lactose credit; no absence inference.
+
+Node CLI structural validation: zero errors. All prior research and caveats retained; no clinical approval.
+
 ## Current unresolved work after batches63–67
 
 - Batch68: first-party local-language coeliac discovery in Lithuania440 and Bulgaria100, then lactose in Romania642. Verify each exact resource and organization independently; log bounded failures without absence inference.
