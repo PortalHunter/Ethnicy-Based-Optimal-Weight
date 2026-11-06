@@ -1,3 +1,19 @@
+## CURRENT — Team A Batch40: SIX verified source-recovery cycles (2026-11-05)
+
+**PR #68 MUST REMAIN OPEN DRAFT/UNMERGED. Original acceptance remains INCOMPLETE.**
+
+**Authoritative standalone recovery:** [CHECKPOINT_20261105_BATCH40.md](CHECKPOINT_20261105_BATCH40.md). **Immutable DATA commit:** `4605711f4a4c9ee4aac303e6a8db9dd674c2ab78`. Six individual source-recovery reviews with full primary/official URLs and caveats are in `source_recovery/CYCLE_086_BIOT_20261105.md`, `CYCLE_112_BELARUS_20261105.md`, `CYCLE_239_SOUTH_GEORGIA_20261105.md`, `CYCLE_334_HIMI_20261105.md`, `CYCLE_624_GUINEA_BISSAU_20261105.md` and `CYCLE_744_SVALBARD_JAN_MAYEN_20261105.md`.
+
+**Unchanged counts:** 248 official M49 geographic skeletons, 231 area-scoped identities, 17 explicit unknowns, 312 distinct government health bodies, 45 source-scoped relationships, 248 coverage records, 4 shared-authority area mappings. **New:** 623 provenance observations (**20 appended**, all 603 originals preserved), 6 unresolved audit rows augmented with A40 source IDs and narrowly qualified next actions. The last 11 unresolved rows remain unchanged; no invented body or legal delegation.
+
+**Fresh discoveries:** 2026 Chagos legislative proposals not enacted; Belarus 2026 independent state-agency health ministry name reference but not ministerial statute; GSGSSI Gazette versus legally non-binding index and visitor/worker distinction; HIMI Commonwealth/ACT/Jervis Bay layered applied-law framework; Guinea-Bissau 2026 WHO ministry identity corroboration **not** domestic law; Norway 2026 Svalbard and Jan Mayen health-law applicability, **FOR-2015-06-22-747** regulation and distinct local/Governor/provider competences, but full current enacted-text audit incomplete.
+
+**QA:** Exact immutable connector readback passed for eight core CSVs. Independent quote-aware JS structural audit: **PASS**, including 248 M49 equalities, 623 unique source IDs, 17 audits, all cross-refs, 16 territory sentinels and no parent-country links. The authentic Python validator and its regression tests were **NOT RUN** due local GitHub checkout DNS failure; no substantive current-law certification. Baseline-to-DATA comparison: eight commits, only Team A handoff files changed.
+
+**READ FIRST:** Full Batch40 standalone checkpoint, original assignment, current `data/unresolved_area_audit.csv`, `PROVENANCE.csv`, and six source reviews. Check live branch HEAD before writing; its later documentation commits differ from exact immutable DATA SHA. Next immediate legal research: **744 full current Norwegian regulation including Jan Mayen**, **112 Belarus authentic enabling law**, then remaining 17 source-linked recovery actions and comprehensive legal powers for located 231 areas. Run actual Python validation when possible and preserve all failures, drafts, language/issuer distinctions, earlier original notes, and prior versions. Only Team A branch paths. DO NOT edit website, main, calculator, clinical content or other teams; DO NOT merge or mark ready.
+
+---
+
 ## CURRENT — Team A Batch39
 
 **Current Batch39, November 5, 2026. Original acceptance INCOMPLETE; PR #68 OPEN DRAFT/unmerged.**
