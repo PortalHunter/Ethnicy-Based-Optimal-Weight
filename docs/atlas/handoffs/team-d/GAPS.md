@@ -1,3 +1,13 @@
+## Batch 44 open verification priorities — 2026-11-06
+
+**Batch 44 Malta scope:** Official consolidated Chapter 458 (2025-07-22 published snapshot) Articles 3, 20–23 expressly distinguish the Superintendent of Public Health as statutory Licensing Authority, the Medicines Authority's assessment/recommendation role, and the Licensing Authority's ordinary grant decision. The Medicines Authority's separate Registration webpage instead attributes national grants to that agency. Official S.L. 458.39 portal indexes a delegation order but only point-in-time 2010-07-22 metadata was accessible, **not its operative text or current scope**. Do not resolve the issuer conflict, infer absence/presence of delegation, equate publication to commencement or claim completed legal audit. Four source-scoped rows in `data/malta_2026_primary_law_boundary_review.csv` (`TD-MT-LAW-001–004`), two ledger URLs (`TD-SRC-281–282`, now **282**).
+
+**Law next step:** obtain the *actual text* and amendment history of S.L. 458.39; inspect current full Chapter 458 and S.L. 458.34, check independent present-day grants/competent authority signature and Team A exact agency identifier. No legal issuer resolution until all instruments are reviewed; **0/34** full statute/delegation/Team A audits remain completed. Preserved **205/249 (44 unknown)** direct current WHO regional assignments, **105/249** affirmative April 2026 WHO office-host joins (**144 without equivalent evidence, not absent offices**), **46** older Sept 2024 office surveys, **228** separately historical 2021–22 service/office records, **47 nodes / 617** time-qualified typed network relationships, **34/34** EMA role-described identities / **71** national role observations, but **0/34** complete amended national statute/delegation plus exact Team A ID audits. These are separate measures, not a combined acceptance score.
+
+**Other unresolved:** 44 WHO direct-current assignments, 144 without April affirmative hosts, PAHO 13-vs-14 eastern Caribbean service areas and Boisson term Jan/Feb conflict, WHO SCI 2024 accession day, Africa CDC APPM seven unnamed signers, IDF 22/23, AOECS membership classifications, HI/Codex, HEARTS 29/35, ASEAN original participation, GCTF agreements and national guidelines. Do not transpose historical/technical-service source roles into present physical offices, formal membership, enacted law or medical recommendations.
+
+---
+
 ## Batch 43 open verification priorities — 2026-11-06
 
 - **WHO current administrative assignment:** 44 of 249 candidates remain `not_verified`. No parent-jurisdiction, programme surveillance list or WHO cooperation report becomes an administrative assignment by inference. All six regions otherwise represented.
