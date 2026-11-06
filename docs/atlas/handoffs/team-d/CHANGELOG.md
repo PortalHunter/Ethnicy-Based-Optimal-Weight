@@ -1,3 +1,12 @@
+## 2026-11-06 — Batch 41: first-party WHO operational cooperation and future office land account
+
+- `TD-SRC-274` WHO Angola 2026-02-26 report: launched Feb 24–27 synchronized Angola–Namibia **subnational polio** campaign, Namibian delegation; source-scoped operational relation `TD-XBPH-001` in new `data/crossborder_public_health_coordination_2026.csv`. No signed instrument, all-campaign completion or seven-condition guideline endorsement.
+- `TD-SRC-275` WHO South Sudan 2026-02-25 news: reports **signed government-WHO land allocation for future permanent Juba country office**, row `TD-WHO-PREMISES-001` in new `data/who_office_premises_agreements_2026.csv`. Original agreement and precise signing day unverified (article header vs Thursday wording); construction/occupancy not established.
+- Two new provenance URLs (**275 total**); checked-in `validate.mjs` cross-file/instrument/office guard assertions. Research commits `49f339e`, `b5a09b3`, `f1425b5`, `d4c0f6f`, `e4176d2`; compare from `144e4cdc` shows **exactly four Team D files**. Full checked-in read-only V8 shim **PASS 12,498 assertions / 43 GitHub-derived dependencies**, 28 complete patches/15 direct sources; all 4 changed-file GitHub readbacks PASS. **Not native Node/Actions/legal/clinical approval**.
+- Geographic WHO **205/249**, April positive host **105/249**, current national complete statutes/Team A **0/34**, graph **47/617** unchanged. Saved [full standalone Batch 41 checkpoint](CHECKPOINT_BATCH_41_2026-11-06.md). PR remains draft/unmerged; no site/main/other-team modifications.
+
+---
+
 ## 2026-11-06 — Batch 40 (WHO dated office followups and narrowly bounded unexecuted procurement lead)
 
 - Evidence/validator commit `f85ff3c4d9f9c5eb881c0c415d7f13a7963bf4ab`. Two directly reviewed WHO sources `TD-SRC-272–273`, two dated office followup rows (`148` Chad June and `051` Armenia October) and one Chad–CAR proposed procurement-discussion objective (not an agreement or implemented network relationship). **273 unique source URLs**.
