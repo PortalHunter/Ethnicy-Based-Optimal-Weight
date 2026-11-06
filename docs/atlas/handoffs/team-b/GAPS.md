@@ -1,3 +1,11 @@
+## Current unresolved work after batches63–67
+
+- Batch68: first-party local-language coeliac discovery in Lithuania440 and Bulgaria100, then lactose in Romania642. Verify each exact resource and organization independently; log bounded failures without absence inference.
+- 1254 untouched cells and147 bounded no-resource cells remain;21 locally domiciled identity gaps unchanged. Five original issuer-country imprints unresolved.
+- Resolve MCE/LÉOE formal-name continuity against own statutes and registry before certifying legal rename. Belgian HVV own site inaccessible; do not credit directory alone as current identity/publication.
+- Retain Polish2026 translated coeliac PDF pagination??? and19-author section attribution; Indonesian2024 IRA/PAPDI book distinct from2025-volume/2026-online journal. Original fulltext appraisal and clinical approval belong to issue27.
+- Preserve every prior historical caveat,14 broad-label counterexamples, original community records and eight cross-border edges. Do not modify website/main/calculators/formulas/other teams or merge.
+
 ## Batch 67 — Polish and Indonesian originals; bounded lactose and iron gaps — 2026-11-05
 
 INCOMPLETE · DRAFT · DO NOT MERGE. 449 organizations; 368 exact research leads; 335 source-positive cells; 147 bounded no-resource cells; 1254 untouched. All resources research_lead_only; zero clinical claims approved.

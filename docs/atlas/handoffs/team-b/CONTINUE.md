@@ -1,3 +1,47 @@
+# Team B continuation — five completed batches63–67 — 2026-11-05
+
+**INCOMPLETE · DRAFT · OPEN · UNMERGED · RESEARCH LEADS ONLY.** Requested five batches completed and committed separately.449 organizations across227/248 domiciles;21 identity gaps. Of1736 cells:335 source-positive,147 bounded without verified resource,1254 untouched;1401 total source-unlinked.368 exact resource/context leads,978 provenance rows,567 searches,9 community/subnational records and8 cross-border edges. Five original issuer countries remain unresolved. Zero approved clinical claims.
+
+Run additions:7 organizations,12 resource/context leads,10 first-positive cells,16 searches,37 provenance rows and1 regional patient-platform record. Eleven previously untouched cells targeted. Geographic domicile coverage unchanged. New resource URLs can be additional catalogues or editions within an already positive cell; they are not necessarily independent studies.
+
+Validated data commit: `6d5dc37241526f2cbc2657463819c481d625ae38`. Actual root tree: `a01eb316827143d7f6135a8fb9a173f09b666e6d` (145 entries; not truncated). All ten CSVs and unchanged validate.mjs independently fetched from each of the five immutable batch commits; 11/11 exact content and GitHub tree/blob SHA matches per batch. Final data commit additionally verified with 11 independently computed local Git blob hashes. Actual Node v24.22.1 CLI passed at each batch and final readback-matching snapshot, zero structural errors. CSV widths, exact resource/context joins, M49 coverage, attribution evidence, search IDs and research-only state passed. This does not certify clinical accuracy, copyright clearance, complete original fulltext or visual appraisal, universal live links, legal registry currency, or exhaustive discovery.
+
+## Restart without chat history
+
+1. Verify live draft/open/unmerged PR71 and branch `research/atlas-team-b-20261104`, base/main, reviews/comments/checks and branch head. No AGENTS.md existed in the complete starting145-entry tree; recheck on resume. Startup checks at ce9cbe8120ed59b03c059172cb685e8fb267b24e both succeeded; batch67 population-tests succeeded while quality-gates was still running when checked. Check later results independently.
+2. Read original `docs/atlas/research-team-prompts/TEAM_B_CLINICAL_ORGANIZATIONS.md` and `DATA_CONTRACT.md` on `research/atlas-five-team-handoff-prompts-2026-11-04`, then all18 TeamB files. Historical sections below and GAPS.md remain binding; do not discard caveats.
+3. Run `node docs/atlas/handoffs/team-b/validate.mjs`. Next batch68: Lithuanian440 and Bulgarian100 coeliac resources, then Romanian642 lactose, using local-language first-party discovery. Reconcile live coverage before selecting; do not duplicate existing URLs or infer absence from failed searches.
+4. Continue1254 untouched cells,21 domicile gaps, five original issuer imprints and unresolved lifecycle/attribution. Keep publisher, host, domicile, professional jurisdiction, study population and genotype separate. Clinical appraisal belongs to issue27; no claims approved here.
+5. Write only `docs/atlas/handoffs/team-b/`, preserve existing rows/history, validate and commit each batch. Update existing branch with expected-head lease; inspect/reconcile concurrent commits, never force-overwrite. Fetch immutable content and verify tree/blob hashes before recording readback. Do not modify public website, main, calculators, formulas or other teams. Do not merge.
+
+## New source caveats
+
+- ČRS contact board2022–2025 versus parent2026–2029; both dated records preserved.
+- AIC lactose article Cn1.2014 pp90–91, not2020 edition; ETS hospital approval6July2009 with undated later amendment.
+- Latvian association lactose page inherited-only framing and Aspergillus-as-bacteria terminology unappraised; own contact/about loader.
+- MCE branded site links LÉOE statutes; no verified legal rename.
+- Romanian ARIG16May2026 guide announcement separates member and public access; app validation claims not audited.
+- Czech iron catalogue footer2026 not original document date; high ferritin/HFE susceptibility not clinical disease.
+- ÖGGH and Polish catalogue bounded iron failures are not national absence. Belgian HVV directory lead not credited without current own verification.
+- Polish coeliac PDF translated journal proof has pagination???;19 authors and Termedia copyright distinct from society hosting.
+- Indonesian2024 original imprint collaboration PAPDI;81 PDF pages vs xiv+64 unresolved; reproduction restricted. Thai2026 existing guideline not duplicated; Malaysian own site still502.
+
+## Batch commit receipts
+
+| Batch | Commit | Structural validation | Immutable readback |
+|---|---|---|---|
+| 63 | [39c93617aa924f7537a02f8e3f34fcf0d7ce5922](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/39c93617aa924f7537a02f8e3f34fcf0d7ce5922) | Node CLI zero errors | 11/11 exact-content and tree/blob matches |
+| 64 | [70f03445ff4a1a57c06c540a0611037d262ff027](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/70f03445ff4a1a57c06c540a0611037d262ff027) | Node CLI zero errors | 11/11 exact-content and tree/blob matches |
+| 65 | [72c7f13a1ce30d5a39c9c258debd2d2982cf2f66](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/72c7f13a1ce30d5a39c9c258debd2d2982cf2f66) | Node CLI zero errors | 11/11 exact-content and tree/blob matches |
+| 66 | [52d537a6df81fc0b1037729c3c64e46e3daf6c23](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/52d537a6df81fc0b1037729c3c64e46e3daf6c23) | Node CLI zero errors | 11/11 exact-content and tree/blob matches |
+| 67 | [6d5dc37241526f2cbc2657463819c481d625ae38](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/6d5dc37241526f2cbc2657463819c481d625ae38) | Node CLI zero errors | 11/11 exact-content and tree/blob matches |
+
+Final batch67 additionally has11/11 independently computed local Git blob hashes. All prior research follows unchanged except trailing blank-line normalization in two historical documents.
+
+---
+
+## Preserved prior checkpoint and source history
+
 # Team B continue — batches 59–62 — 2026-11-05
 
 **INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.** 442 organizations across 227/248 domiciles (21 identity gaps). Of 1,736 cells: 325 source-positive, 146 bounded targeted without verified resource, 1265 untouched; 1411 total source-unlinked. 356 exact resource/context leads; 941 provenance rows, 551 search logs, 8 subnational/community records, eight cross-border edges; five original-document issuer-country unknowns and 28 known issuer/domicile differences. Every resource remains research_lead_only; zero clinical claims approved.

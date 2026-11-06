@@ -1,3 +1,31 @@
+# Validation receipt — batches63–67 — 2026-11-05
+
+Data commit `6d5dc37241526f2cbc2657463819c481d625ae38`, actual root tree `a01eb316827143d7f6135a8fb9a173f09b666e6d`. All ten CSVs and unchanged validate.mjs independently fetched from each of the five immutable batch commits; 11/11 exact content and GitHub tree/blob SHA matches per batch. Final data commit additionally verified with 11 independently computed local Git blob hashes. Actual Node v24.22.1 CLI passed at each batch and final readback-matching snapshot, zero structural errors. CSV widths, exact resource/context joins, M49 coverage, attribution evidence, search IDs and research-only state passed. This does not certify clinical accuracy, copyright clearance, complete original fulltext or visual appraisal, universal live links, legal registry currency, or exhaustive discovery.
+
+Five batch commits: 63=39c93617aa924f7537a02f8e3f34fcf0d7ce5922, 64=70f03445ff4a1a57c06c540a0611037d262ff027, 65=72c7f13a1ce30d5a39c9c258debd2d2982cf2f66, 66=52d537a6df81fc0b1037729c3c64e46e3daf6c23, 67=6d5dc37241526f2cbc2657463819c481d625ae38.
+
+Startup PR71 draft/open/unmerged, no reviews/comments returned; complete145-entry tree had no AGENTS.md. Both startup GitHub checks passed. At batch67 check, population-tests passed and quality-gates was running; no completed final CI claim yet. Compare starting head ce9cbe8120ed59b03c059172cb685e8fb267b24e to batch67: five commits, all11 changed paths within TeamB. Data rows are append-only except16 coverage cells updated. Validator unchanged, all historical sources/caveats retained.
+
+No clinical validation, legal registry certification, comprehensive PDF visual review, copyright clearance or global-completeness claim.368 resources remain research_lead_only.
+
+Final local blob receipts:
+
+| Path | Git blob SHA |
+|---|---|
+| docs/atlas/handoffs/team-b/PROVENANCE.csv | 49993a8c0155bcd6191b196fc90ed29cfe12989e |
+| docs/atlas/handoffs/team-b/data/condition_organizations.csv | 3b3a5a39478e78783531942a2e4eb4ef827715ce |
+| docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv | ef63da71bc77ae27f63401f4084d857d4f4cf6b0 |
+| docs/atlas/handoffs/team-b/data/cross_border_services.csv | b1fec349b5c670cdacabc33e73f5567a9340842d |
+| docs/atlas/handoffs/team-b/data/m49_area_codes.csv | 80da341f3a5d18ccb4eac30fdede82b0d4870629 |
+| docs/atlas/handoffs/team-b/data/m49_verified_overview.csv | 062b70cb9f19de17ac564d336c5580d622379f05 |
+| docs/atlas/handoffs/team-b/data/publication_context.csv | bedb3c2e06f63268699e259ef8dcf8a69e182a5a |
+| docs/atlas/handoffs/team-b/data/search_log.csv | 26b0a57401e17feec41349a822e90d8a7f247c16 |
+| docs/atlas/handoffs/team-b/data/specialist_organizations.csv | 7d76c84e328e40430f55aa7f859addf433ef5920 |
+| docs/atlas/handoffs/team-b/data/subnational_and_indigenous_organizations.csv | 889947bf051306491e415baa23626b5afa47505c |
+| docs/atlas/handoffs/team-b/validate.mjs | 4d40ac04963d30d0ec809c2f066eaa1a0c538a36 |
+
+---
+
 # Team B validation — batches 59–62 — 2026-11-05
 
 **INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.** 442 organizations across 227/248 domiciles (21 identity gaps). Of 1,736 cells: 325 source-positive, 146 bounded targeted without verified resource, 1265 untouched; 1411 total source-unlinked. 356 exact resource/context leads; 941 provenance rows, 551 search logs, 8 subnational/community records, eight cross-border edges; five original-document issuer-country unknowns and 28 known issuer/domicile differences. Every resource remains research_lead_only; zero clinical claims approved.

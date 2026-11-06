@@ -1,3 +1,7 @@
+## Standalone checkpoint after five batches63–67
+
+CONTINUE, STATUS, CHECKPOINT and VALIDATION refreshed with live metrics, immutable receipts, scope limits and exact batch68 actions. Data is incomplete; no public-site change or merge.
+
 ## Batch 67 — Polish and Indonesian originals; bounded lactose and iron gaps — 2026-11-05
 
 INCOMPLETE · DRAFT · DO NOT MERGE. 449 organizations; 368 exact research leads; 335 source-positive cells; 147 bounded no-resource cells; 1254 untouched. All resources research_lead_only; zero clinical claims approved.
