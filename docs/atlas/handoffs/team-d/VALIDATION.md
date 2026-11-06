@@ -1,3 +1,11 @@
+## Batch 35 verification — 2026-11-06
+
+- **Full checked-in `validate.mjs` replay PASS:** 12,092 assertions, 39 GitHub-derived CSV/provenance dependencies; 28 files rebuilt from complete addition-only PR #70 patches, 11 files directly fetched from live research branch. Checked-in validator blob `c677de028526fdc61a579df3a81120d606d52932`, data/provenance/validator commit HEAD `a4c0610c74e1912bb4f6a56f751d0c8d8be17142`; same branch SHA before/after read-only replay. Observed 47 nodes / 617 typed edges, 249 M49 geographic statuses, 205 direct current WHO regions / 44 unknown, 105 affirmative April 2026 hosts, 34 EMA NCA identity candidates, 46 remit observations, 251 provenance URLs.
+- **Independent 61-assertion six-file cross-validation PASS:** role row IDs/widths, joined EMA candidate ID/name/M49 per new record, provenance unique source IDs TD-SRC-243–251, explicit unaudited law flags, unchanged WHO status/office-positive counts and validator presence. Direct readback blob SHAs: national roles `506dcdf798d7a1282d6bd036897ee3c2d18bab94`; PROVENANCE `a50726daae00dccefca727d5b70db8a844d2d335`; validator `c677de028526fdc61a579df3a81120d606d52932`.
+- **Limits:** Validator was run in a read-only JavaScript/V8 shim rather than a literal Node.js CLI, CI/GitHub Actions or checked-in test workflow. This validates structural assertions only, not primary-source truth, authentic statutes and effective dates, individual-product marketing decisions, clinical quality, legal advice, or maintainer approval. Full native Node/CI and independent legal/source review remain pending. No clinical claims approved, no public site or main changes.
+
+---
+
 ## 2026-11-06 — Batch 34 checked-in structural regression PASS: 11,946 assertions
 
 - Validated branch/validator SHA `875f579228015556c7c3e274824b94ae0102807e` with complete checked-in `validate.mjs` executed in a read-only V8 filesystem/assertion shim over **39 GitHub-derived dependencies**: 32 complete addition-only PR patches reconstructed plus seven current direct file fetches (`PROVENANCE.csv`, `data/m49_network_status.csv`, `data/network_memberships.csv`, `data/who_region_profile_checks.csv`, `data/who_region_unresolved_queue.csv`, `data/who_sph_reporting_region_context.csv`, `data/who_territory_wer_regional_reporting_2025.csv`). No missing dependencies; **11,946 checked-in assertions passed**.
