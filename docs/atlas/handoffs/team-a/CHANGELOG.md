@@ -1,3 +1,13 @@
+## 2026-11-06 — Team A Batch51: Guinea-Bissau original BOE national-plan enactment and INASA 2010 legal leads
+
+- Verified live PR #68 OPEN DRAFT/UNMERGED; read latest Batch50 checkpoint and original governmental census acceptance criteria; stayed only in `docs/atlas/handoffs/team-a/`.
+- New [M49 624 source-recovery note](source_recovery/CYCLE_624_GUINEA_BISSAU_BOE_INASA_20261106.md): visually verified printed government Gazette no.4 **27 January 2025** Decreto 31/2024 planning/HR enactment via FAOLEX-hosted original; separately qualified INASA own indexed website (direct timeout), INASA own 2024 PDF text (screenshot timeout), and non-government BERC-Luso pointers to unfetched 2010 Gazette Decrees 11/2010 and 12/2010. Explicitly not full 2026 statutory ministry/health/drug/regional authority, and own-institute pages do not constitute independent legal issuers. Kept 624 UNKNOWN.
+- Research commits `a53618ad548c359ad62e079dfdd94449cd2448c7` (source note), `96ba8ea0797d7fab01771475e464b7eb3b482330` (four provenance append), `4e628676afc0a13fe8b2855dbf9704d95a9c0c41` (624 audit addendum; immutable data snapshot). Original 684 provenance records preserved as exact prefix, other 16 unresolved audit rows unchanged.
+- [Immutable eight-CSV full structural audit](QA_BATCH51_20261106.json) PASS: exact M49 row fields, 231/17 statuses, 318 bodies, 45 relationships, four scope mappings, 248 reviews, 688 unique sources, scoped refs, 17 audited unknowns, preserved historic global sources. From pre-batch HEAD to data SHA only 3 Team A research paths changed; all new artifacts read back exact. QA commit `a442aee715010db3b5fa0226373481169875a0e4`.
+- [Complete standalone Batch51 checkpoint](CHECKPOINT_20261106_BATCH51.md) persisted with full acceptance restrictions, 17-area queue and same reusable continuation prompt. **Actual Python validator and all five tests NOT RUN** owing local GitHub DNS; last actual Batch41. Source/legal independence and clinical approval remain INCOMPLETE. No main/site/calculator/other teams/PR status changes.
+
+---
+
 ## 2026-11-06 — Team A Batch50: signed 2023 DOI monument successor and Kingman primary-source reconciliation
 
 - Verified live PR #68 OPEN DRAFT/UNMERGED and branch; directly re-opened original Team A governmental-census assignment.
