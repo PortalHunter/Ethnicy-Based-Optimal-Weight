@@ -1,3 +1,13 @@
+## Batch 72 — Baltic hereditary iron discovery and issuer boundaries — 2026-11-06
+
+INCOMPLETE · DRAFT · UNMERGED · RESEARCH LEADS ONLY.
+
+- **440 · B-LT-LGD · hemochromatosis** [Feritinas ir geležies tyrimai — patient iron-test education](https://gastroenterologija.lt/pasiruosimai-tyrimams/feritinas-ir-gelezies-tyrimai/): Own brief patient explainer describes iron/transferrin testing and includes suspected haemochromatosis among contexts. This is preliminary test education, not a hereditary-disease guideline, genotype confirmation, population survey or diagnostic approval. High ferritin alone is not hereditary haemochromatosis; exact edition and clinical statements unappraised. Separate historical Hemochromatoze-Editai PDF failed502, so not independently credited as appraised guidance.
+- **428 · B-LV-LGA · hemochromatosis** [Profesionālie resursi — bounded hereditary iron check](https://latvijasgastroenterologi.lv/profesionalie-resursi/): Own resource page points to broad EASL/ESPEN/ESGE/UEG/ECCO portals, with no exact hereditary haemochromatosis work in inspected output. External guidance is not Latvian-authored or adopted solely from a portal link. No positive iron credit; no national absence inference. Own statutes explicitly make LGA a LĀB section with no separate legal personality; shared parent address/registry number does not merge it with other specialty sections.
+- **233 · B-EE-EGS · hemochromatosis** [Eesti Gastroenteroloogide Selts registry and bounded iron discovery](https://ariregister.rik.ee/eng/company/80055274/Eesti-Gastroenteroloogide-Selts): Primary registry verifies nonprofit identity and Tartu address. It simultaneously shows entered status and a deletion-announcement warning, with announcement verification failed. Do not assert dissolution or current active lifecycle without underlying notice. No own society website or exact haemochromatosis resource verified in this bounded search; membership directories are not clinical publications. No positive iron credit or national absence inference.
+
+Node CLI structural validation: zero errors. All prior research and caveats retained; no clinical approval.
+
 ## Batch 72-8967 — Hereditary iron-overload gaps and disease-boundary audit — 2026-11-06
 
 INCOMPLETE · DRAFT · DO NOT MERGE. All sources research_lead_only; zero approved clinical claims.
