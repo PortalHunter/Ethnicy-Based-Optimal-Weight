@@ -705,7 +705,7 @@ assert.deepEqual(b38.map(r=>r.emrn_nca_candidate_id),['TD-EMRN-NCA-019','TD-EMRN
 assert.deepEqual(b38.map(r=>r.country_area_m49),['438','438','442','442']);
 assert(b38.every(r=>r.verification_state==='OFFICIAL_GOVERNMENT_ROLE_DESCRIPTION_ONLY'));
 assert(b38.find(r=>r.record_id==='TD-NCA-REMIT-063').notes.includes('Swissmedic'));
-assert(b38.find(r=>r.record_id==='TD-NCA-REMIT-064').notes.includes('not a complete legal audit'));
+assert(b38.find(r=>r.record_id==='TD-NCA-REMIT-064').notes.includes('not a complete consolidated amended law audit'));
 assert(b38.find(r=>r.record_id==='TD-NCA-REMIT-066').first_party_role_observation.includes('Nancy'));
 for(const [id,url] of [
  ['TD-SRC-266','https://www.llv.li/de/landesverwaltung/amt-fuer-gesundheit/unsere-aufgaben'],
