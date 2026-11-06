@@ -1,3 +1,10 @@
+## 2026-11-06 — Batch 44: Malta primary Act statutory issuer vs delegation boundary
+
+- Added **four** dated, narrow first-party Malta-law review cases `TD-MT-LAW-001–004`, distinct from the previous **71** EMA national agency remit descriptions. Official Chapter 458 published consolidated PDF Articles 3, 20–23 distinguishes statutory Licensing Authority from assessment by Medicines Authority, while agency registration page attributes grants to agency; indexed subsidiary delegation order S.L. 458.39 **operative text not obtained**. This is a sharpened legal/source conflict, **not** complete current issuer audit or legal interpretation.
+- Added two primary provenance URLs **TD-SRC-281–282**, now **282 distinct**; `validate.mjs` checks the new bounded source rows/IDs and updates source total. 18 targeted GitHub-derived assertions PASS; full modified validator and native Node NOT run. The original **34** full law/delegation/Team A joins remain outstanding. No WHO regional or April host counters changed; PR draft and Team D-only scope retained.
+
+---
+
 ## 2026-11-06 — Batch 43: WHO representative commencement and bounded Kazakhstan research-network contributors
 
 - New `data/who_gctf_kazakhstan_training_participation_2026.csv`: **7** source-scoped organisations/body labels involved in 16 June–16 July 2026 Kazakhstan clinical research Summer School; WHO news published 30 September. Local delivering organisation differs from five expert contributors and one WHO advisory expert body. **Not** formal GCTF membership, signed contract, international trial, clinical treatment evidence or Team A/B/C exact join.
