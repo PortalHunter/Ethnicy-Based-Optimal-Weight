@@ -1,3 +1,13 @@
+## Batch 71-8967 — Historical Malaysian coeliac abstract and bounded regional checks — 2026-11-06
+
+INCOMPLETE · DRAFT · DO NOT MERGE. All sources research_lead_only; zero approved clinical claims.
+
+- **458 · B-MY-MSGH · celiac** [GUT 2012 abstract book — PP43 coeliac pilot](https://www.msgh.org.my/files/91eb98629f4cd2e4f05e945918e788fa.pdf): 120-page original book identifies MSGH2011-2012 committee and GUT2012 meeting. PP43 is a named-author hospital/IMR/CRC pilot, not society sole authorship. Small selected high-risk cohort; antibody-based atypical label is not interchangeable with biopsy-confirmed disease or national prevalence. Only front matter and selected abstract inspected; screenshots returned placeholders, so no visual review claimed. Not current guidance or clinically approved.
+- **702 · B-SG-NFDD · celiac** [NFDD common GI conditions — bounded coeliac check](https://nfdd.sg/understanding-the-digestive-systems/common-gi-conditions/): Inspected GI/liver catalogue lists gastric, colorectal, infection and liver conditions without a substantive coeliac item. Lactose education is a separate condition; gluten intolerance is not automatically coeliac disease. Current site directory and targeted searches are bounded; no inference that Singapore lacks coeliac research.
+- **608 · B-PH-PSG · celiac** [PSG Guidelines & Handbook — bounded coeliac check](https://psgastro.org/guidelines-handbook/): Own handbook lists CRC,2012 upper GI bleeding and GERD; inspected patient catalogue and site-targeted query did not verify substantive coeliac document. Society membership and joint journal are not evidence of authoring a specific guideline. Journal and older resource pagination remain unsearched; no national absence claim.
+
+Actual Node structural validator passed with zero errors before commit. Immutable readback receipts recorded in VALIDATION.md. Prior evidence and caveats remain binding.
+
 ## Batch 70-8967 — Southeast Asian lactose education and society catalogue gaps — 2026-11-06
 
 INCOMPLETE · DRAFT · DO NOT MERGE. All sources research_lead_only; zero approved clinical claims.
