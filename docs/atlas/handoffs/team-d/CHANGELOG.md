@@ -1,3 +1,13 @@
+## 2026-11-06 — Batch 33: additional four national regulators and Maltese grant-authority source conflict
+
+- `be93ce8acb678601c5c2c9cb3e02e8469730601f`: append 8 directly sourced national NCA role observations (Belgium 2, Finland 1, Malta 3, Spain 2). First-party pages checked 2026-11-06; date types and different marketing/clinical-trial decision makers retained.
+- `68f7198aa8f6b22bc71e8024bef1f75cd59afe99`: add `TD-SRC-230–236` with seven unique official agency URLs and source-access caveats.
+- `90f85d82c34488964c83f187e7a88f17ab1ca500`: update checked-in structural assertions for 26 records and 236 provenance IDs; preserve Maltese contradictory national grant attribution as separate source claims.
+- Full checked-in V8 read-only structural shim **PASS 11,811 assertions / 39 GitHub-derived files (35 reconstructed complete addition-only PR patches, 4 direct GitHub file reads)**. All three changed research/validator files independently fetched back byte-identical. No native Node or Actions run; no statute/clinical/medical acceptance.
+- Durable standalone [CHECKPOINT_BATCH_33_2026-11-06.md](CHECKPOINT_BATCH_33_2026-11-06.md) created and read back; later documentation commits move HEAD, so refetch live PR and branch before more edits. Baseline graph 47/617, WHO 205/44 regions, 105/144 office positives/gaps, 46 older surveys and 228 historical service records unchanged. Draft PR #70 not merged or marked ready. All writes Team D only.
+
+---
+
 ## 2026-11-06 — Batch 32 national agency jurisdiction and negative-boundary research
 
 - [`16696155c9d88fb80ead122325b15a8c54cfc902`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/16696155c9d88fb80ead122325b15a8c54cfc902) atomically updated `data/emrn_nca_national_remit_evidence_2026.csv`, `PROVENANCE.csv`, `validate.mjs`: **9** new national regulator role observations, **6** source URLs TD-SRC-224–229, Austria/Denmark/Netherlands, preserved all prior source/caveat/edge records.
