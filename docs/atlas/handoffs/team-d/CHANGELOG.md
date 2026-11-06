@@ -1,3 +1,11 @@
+## 2026-11-06 — Batch 40 (WHO dated office followups and narrowly bounded unexecuted procurement lead)
+
+- Evidence/validator commit `f85ff3c4d9f9c5eb881c0c415d7f13a7963bf4ab`. Two directly reviewed WHO sources `TD-SRC-272–273`, two dated office followup rows (`148` Chad June and `051` Armenia October) and one Chad–CAR proposed procurement-discussion objective (not an agreement or implemented network relationship). **273 unique source URLs**.
+- Baseline WHO **205 assigned/44 unknown**, **105 April positive/144 without equivalent positive**, **46** old survey labels/**228** 2021–22 historical entries, **47/617** network, **34/34** EMA scoped role identities/**0/34** current full statutory joins, all unchanged.
+- Full checked-in read-only V8 structural PASS **12,476 assertions across 41 GitHub dependencies** (27 patch reconstructions + 14 direct files); targeted CSV checks, 4 GitHub research readbacks and Team D-only commit compare. No native Node/Actions, legal or clinical approval. [Standalone checkpoint](CHECKPOINT_BATCH_40_2026-11-06.md).
+
+---
+
 ## 2026-11-06 — Batch 39: directly opened Iceland, Latvia, Sweden official regulator roles
 
 Substantive commit `f6ba340a5ee68e103b5221807744d49562703791`: three official URLs `TD-SRC-269–271`, five source-scoped official regulator remit observations `TD-NCA-REMIT-067–071`, structural validator assertions updated. Precisely three Team D paths changed: `PROVENANCE.csv`, `data/emrn_nca_national_remit_evidence_2026.csv`, `validate.mjs`. New totals **271 URLs**, **71 direct role observations**, **34/34 role source-described EMA candidates**. **All 34** current full national law/delegation + exact Team A ID audits still pending; Iceland 2027 future law, Latvian original/effective amended dates, and Swedish government description carefully distinguished. Full checked-in V8 read-only validator **12,456 assertions/39 GitHub dependencies PASS**; precise three-file GitHub readbacks PASS; no native Node/Actions or clinical/legal approval. WHO **205/249 current regions**, **105/249 April hosts**, 44 and 144 unresolved unchanged, network 47 nodes/617 edges; original cross-border conflicts retained. [Checkpoint](CHECKPOINT_BATCH_39_2026-11-06.md). No main/website/other-team edits, no PR merge or ready transition.

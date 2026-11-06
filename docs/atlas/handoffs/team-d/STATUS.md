@@ -1,3 +1,11 @@
+## Latest verified Team D Batch 40 — 2026-11-06
+
+**[Standalone Batch 40 checkpoint](CHECKPOINT_BATCH_40_2026-11-06.md)** · [draft PR #70](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70) · source/validator SHA `f85ff3c4d9f9c5eb881c0c415d7f13a7963bf4ab`.
+
+Added **2 dated WHO office activity followups** (Chad June WHO mission report; Armenia October WHO Country Office-hosted event) and **1 Chad–Central African Republic pooled-procurement *discussion objective only***, not an executed agreement. **2 new direct first-party URLs, 273 provenance total.** Full checked-in read-only V8 structural validator **PASS 12,476 assertions / 41 GitHub dependencies (27 full patches, 14 direct files)**; no native Node/Actions/legal/clinical approval. Baselines unchanged: **205/249** verified WHO administrative regions, **44 unknown**; **105/249** April 2026 affirmative hosts, **144 lacking equivalent positive**; **46** September 2024 responses and **228** Jan 2021–Dec 2022 historical office/services separate; 47 network nodes/617 time-aware edges; EMA 34/34 source-scoped agency roles and **0/34 complete legal audits**. No website/main/other-team writes, PR remains draft/unmerged.
+
+---
+
 ## Latest verified Team D Batch 39 — 2026-11-06
 
 **[Standalone Batch 39 checkpoint](CHECKPOINT_BATCH_39_2026-11-06.md)** · [draft PR #70](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70) · [research+validator commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f6ba340a5ee68e103b5221807744d49562703791).
