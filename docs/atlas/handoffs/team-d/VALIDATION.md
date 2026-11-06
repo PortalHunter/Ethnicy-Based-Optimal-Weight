@@ -1,3 +1,11 @@
+## Batch 36 targeted verification (2026-11-06)
+
+Precommit manual executed cross-file checks on 54 full-width CSV role rows, 257 full-width unique provenance rows and all 34 EMA identity candidates: 8 new record IDs, six unique first-party source URLs, direct HTML evidence classification, unchanged M49/agency exact joins, all 54 original agency labels, pending consolidated national statute and Team A join flags. **PASS**. Committed `validate.mjs` numerical/role/source assertions were updated and preserved historical checks. Three substantive research files were fetched back with matching expected GitHub blob SHAs after research commit `d0c9ea10c24e1b1f7796d5a98a973d5dcf811633`; GitHub commit compare listed only `PROVENANCE.csv`, `validate.mjs`, `data/emrn_nca_national_remit_evidence_2026.csv`.
+
+**Not executed for Batch 36:** the entire checked-in JavaScript validator, native `node validate.mjs`, or GitHub Actions. The last full V8 read-only shim PASS is Batch 35 at its older 12,092-assertion snapshot and does **not** establish Batch 36 execution. Evidence/CSV checks are not legal or medical approval.
+
+---
+
 ## Batch 35 verification — 2026-11-06
 
 - **Full checked-in `validate.mjs` replay PASS:** 12,092 assertions, 39 GitHub-derived CSV/provenance dependencies; 28 files rebuilt from complete addition-only PR #70 patches, 11 files directly fetched from live research branch. Checked-in validator blob `c677de028526fdc61a579df3a81120d606d52932`, data/provenance/validator commit HEAD `a4c0610c74e1912bb4f6a56f751d0c8d8be17142`; same branch SHA before/after read-only replay. Observed 47 nodes / 617 typed edges, 249 M49 geographic statuses, 205 direct current WHO regions / 44 unknown, 105 affirmative April 2026 hosts, 34 EMA NCA identity candidates, 46 remit observations, 251 provenance URLs.

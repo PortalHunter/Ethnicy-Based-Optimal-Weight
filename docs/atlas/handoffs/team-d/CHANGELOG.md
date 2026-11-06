@@ -1,3 +1,12 @@
+## 2026-11-06 — Batch 36, first-party regulator process and oversight review
+
+- [Research commit `d0c9ea10c24e1b1f7796d5a98a973d5dcf811633`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/d0c9ea10c24e1b1f7796d5a98a973d5dcf811633) atomically adds 8 regulator role observations (TD-NCA-REMIT-047–054) and six unique official HTML URLs (TD-SRC-252–257); covers Bulgaria, Cyprus, Lithuania and Slovakia. Cumulative **54 role observations / 25 of 34 EMA candidates / 257 source URLs**.
+- Updated `validate.mjs` counts, exact source/identity checks, roles and provenance; targeted CSV consistency and exact identity joins PASS before the commit, branch compare and three blob readbacks after. **Full checked-in validator run/native Node/Actions have not been independently executed for Batch 36.** Prior Batch 35 V8 pass must not be represented as Batch 36 validation.
+- Preserved WHO 205 verified/44 unknown regional statuses, 105 direct April hosts/144 lacking equivalent affirmative, 46 older 2024 and 228 historical 2021–22 office/service records. Network 47 nodes/617 dated edges unchanged; no national medicines statutory authority or clinical guideline inferred.
+- Updated Batch 36 standalone checkpoint, status, gaps, validation notes, changelog and restart prompt. All commits Team D research directory only; PR remains open draft unmerged.
+
+---
+
 ## 2026-11-06 — Batch 35, scoped regulator authority and cross-border reporting evidence
 
 - Commit `596c22260d81dea15f898e1e8ee8af96e9ad361f`: 10 official direct-HTML institutional role observations TD-NCA-REMIT-037–046 across 5 newly covered EMA-listed agency identities in Netherlands, Poland and Slovenia. No new country inferred from graph membership.
