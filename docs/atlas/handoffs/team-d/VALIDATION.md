@@ -1,3 +1,12 @@
+## 2026-11-06 — Batch 34 checked-in structural regression PASS: 11,946 assertions
+
+- Validated branch/validator SHA `875f579228015556c7c3e274824b94ae0102807e` with complete checked-in `validate.mjs` executed in a read-only V8 filesystem/assertion shim over **39 GitHub-derived dependencies**: 32 complete addition-only PR patches reconstructed plus seven current direct file fetches (`PROVENANCE.csv`, `data/m49_network_status.csv`, `data/network_memberships.csv`, `data/who_region_profile_checks.csv`, `data/who_region_unresolved_queue.csv`, `data/who_sph_reporting_region_context.csv`, `data/who_territory_wer_regional_reporting_2025.csv`). No missing dependencies; **11,946 checked-in assertions passed**.
+- New data validates 36 uniquely numbered national-regulator role observations, 16 distinct of 34 EMA NCA candidates, 25 referenced role URLs, 242 unique provenance URLs, 10 Batch 34 records and six new source IDs; exact agency ID/M49/name joins, role-source class distinctions (4 agency / 5 government / 1 dated French article), original Malta conflicting grant reports, all earlier network/WHO invariants. Results unchanged: 47 nodes, 617 typed edges, 249 geography candidates, 205 current region assignment positives/44 unknown, 105 April office-host positives/144 without direct affirmative, 46 old surveys, 228 separately historical services.
+- Three data/provenance/validator source paths were fetched back byte-for-byte after GitHub commits; standalone checkpoint also read back identical. Local GitHub clone/remote access failed on DNS resolving github.com. **This is NOT a native Node CLI or Actions test and NOT a legal, medical, scientific, primary-facsimile or maintainer approval.** For native test run `node docs/atlas/handoffs/team-d/validate.mjs` from an authorized cloned checkout.
+- [Standalone Batch 34 checkpoint](CHECKPOINT_BATCH_34_2026-11-06.md) stores source URLs, dated caveats, commit SHA sequence, acceptance and independent continuation prompt.
+
+---
+
 ## 2026-11-06 — Batch 33 checked-in structural replay PASS, 11,811 assertions
 
 - GitHub-validated research/validator branch commit `90f85d82c34488964c83f187e7a88f17ab1ca500`; checked-in validator blob `3dd1a6a13c2e103e605740dc5d082de76ab8600b`.
