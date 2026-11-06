@@ -5,7 +5,7 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "75fe8f609a35876e35b71df9937fee585ff15eb8",
+  "validated_data_commit": "09e3d63c55e7ced5e0303f2ea315a4f6e8a1c0d9",
   "batch": "80",
   "metrics": {
     "organizations": 485,
@@ -42,7 +42,7 @@
     "provenance": 6,
     "searches": 2
   },
-  "validation_runtime": "independent_JS_precommit_structural_0_errors_immutable_11_of_11_SHA_tree_matches_Node_CLI_not_run_DNS_unavailable",
+  "validation_runtime": "full_independent_JS_replica_of_Team_B_validator_0_errors_11_of_11_immutable_SHA_tree_matches_actual_Node_CLI_not_run_DNS",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
@@ -67,7 +67,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Complete nontruncated 146-entry root tree; 11/11 GitHub blob SHA-to-tree readbacks for ten CSVs plus untouched validator, independent precommit JS structural joins 0 errors. GitHub data commit changes only six Team B CSVs. Actual Node CLI not executed due github.com DNS failure; no licensing, legal, clinical, method or full-text certification.",
+  "validated_data_commit_note": "Final corrected data revision after six-file batch and four-file issuer-basis/citation correction: complete 147-entry nontruncated immutable tree; 11/11 GitHub CSV/unchanged-validator SHA matches. Full independent JS reproduction of current Team B validator checked 248x7, all unique IDs, resource/org/provenance, issuer enum, exact search-state and community/cross-border joins with 0 errors. Node CLI not run (local github.com DNS failure). No clinical, legal, methods, original journal-publisher, rights or licensing approval.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -156,16 +156,16 @@
   ],
   "readback_validation": {
     "batch": "80",
-    "sha": "75fe8f609a35876e35b71df9937fee585ff15eb8",
-    "tree_sha": "bc78a0e9cee51fd16846f60b3cd65e6921b7f687",
-    "tree_entries": 146,
+    "sha": "09e3d63c55e7ced5e0303f2ea315a4f6e8a1c0d9",
+    "tree_sha": "e27e9bcc215818ee42e2fe94aad0e10deb2c5fc7",
+    "tree_entries": 147,
     "truncated": false,
     "files": 11,
     "exact_matches": 11,
     "local_hash_matches": null,
     "structural_errors": 0,
     "node_cli_run_this_batch": false,
-    "notes": "Complete nontruncated 146-entry root tree; 11/11 GitHub blob SHA-to-tree readbacks for ten CSVs plus untouched validator, independent precommit JS structural joins 0 errors. GitHub data commit changes only six Team B CSVs. Actual Node CLI not executed due github.com DNS failure; no licensing, legal, clinical, method or full-text certification."
+    "notes": "Final corrected data revision after six-file batch and four-file issuer-basis/citation correction: complete 147-entry nontruncated immutable tree; 11/11 GitHub CSV/unchanged-validator SHA matches. Full independent JS reproduction of current Team B validator checked 248x7, all unique IDs, resource/org/provenance, issuer enum, exact search-state and community/cross-border joins with 0 errors. Node CLI not run (local github.com DNS failure). No clinical, legal, methods, original journal-publisher, rights or licensing approval."
   },
   "previous_independently_verified_data_commit": "4a782e09f3505bc6acfcee48182760ca9b87d49c",
   "session_additions": {
@@ -2307,7 +2307,7 @@
       },
       "current_unsd_overview_codes": 248
     },
-    "validated_data_commit": "75fe8f609a35876e35b71df9937fee585ff15eb8",
+    "validated_data_commit": "09e3d63c55e7ced5e0303f2ea315a4f6e8a1c0d9",
     "documentation": "BATCH_80_CHECKPOINT.md and latest headers of CONTINUE/STATUS/GAPS/CHANGELOG/VALIDATION with CHECKPOINT.json",
     "draft": true,
     "unmerged": true,
@@ -2522,9 +2522,19 @@
       "NHFB 1978/1979 own-site founding discrepancy",
       "BCS source conflicts >600/about 1500 and older ESC 285",
       "Global Heart 2026 HEARTS multi-affiliation not NGO-exclusive guidance",
-      "2025 original statin-uptake survey not FH or high LDL prevalence"
+      "2025 original statin-uptake survey not FH or high LDL prevalence",
+      "Source country 050 refers to issuer of linked NHFB citation page, not international Global Heart publication venue; original paper authorships and non-legal clinical remit remain separate."
     ],
     "standalone_checkpoint": "BATCH_80_CHECKPOINT.md",
-    "node_cli_run": false
+    "node_cli_run": false,
+    "validated_data_commit": "09e3d63c55e7ced5e0303f2ea315a4f6e8a1c0d9",
+    "initial_data_commit": "75fe8f609a35876e35b71df9937fee585ff15eb8",
+    "correction_commit": "09e3d63c55e7ced5e0303f2ea315a4f6e8a1c0d9",
+    "root_tree": "e27e9bcc215818ee42e2fe94aad0e10deb2c5fc7",
+    "tree_entries": 147,
+    "independent_validator_errors": 0,
+    "corrected_source_country_basis": "issuer_of_linked_page",
+    "statin_first_party_index": "https://epidemiology.nhf.org.bd/publications/b4dI5w7B2PwtX7rBs6YC",
+    "original_statin_fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11908426/"
   }
 }
