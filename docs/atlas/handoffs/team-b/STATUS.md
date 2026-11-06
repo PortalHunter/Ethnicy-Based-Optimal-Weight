@@ -1,3 +1,13 @@
+## Batch 70-8967 — Southeast Asian lactose education and society catalogue gaps — 2026-11-06
+
+INCOMPLETE · DRAFT · DO NOT MERGE. All sources research_lead_only; zero approved clinical claims.
+
+- **702 · B-SG-NFDD · lactose** [Patient Education: Lactose Intolerance — NFDD](https://nfdd.sg/understanding-the-digestive-systems/lifestyle-preventative-health-and-mediations/lactose-intolerance/): Own foundation explainer separates lactose digestion from milk allergy. Its broad Asian/African/South-American descent statement is not genotype or representative Singapore epidemiology. Diet, testing, supplementation and permanence claims unappraised; no diagnosis or advice approved. Own sponsors include Yakult; conflicts and underlying evidence require separate appraisal. Undated page, not a 2026 guideline.
+- **458 · B-MY-MSGH · lactose** [MSGH Publications — bounded lactose check](https://msgh.org.my/Publications.html): Accessible resources catalogue lists IBD, MASLD, oesophagogastric outflow and external WGO/APAGE materials; no exact substantive lactose item verified in inspected list. Malaysian 2018 university cohort surfaced separately and is not attributed to MSGH from topic similarity. Government dietary guidance belongs to Team A. Bounded scope, not absence of Malaysian research.
+- **608 · B-PH-PSG · lactose** [PSG patient resources and handbook — bounded lactose check](https://psgastro.org/category/resources-for-patients/): Inspected patient catalogue first page and professional handbook list include colorectal, IBS, gallbladder, GI bleeding and GERD topics, but no exact substantive lactose source verified. Older pagination and journal not exhaustively searched. National Nutrition Council item is government Team A scope, not PSG authorship. No positive resource credit or national absence inference.
+
+Actual Node structural validator passed with zero errors before commit. Immutable readback receipts recorded in VALIDATION.md. Prior evidence and caveats remain binding.
+
 ## Batch 69-8967 — South Asian rheumatology identities and bounded gout discovery — 2026-11-06
 
 INCOMPLETE · DRAFT · DO NOT MERGE. All sources research_lead_only; zero approved clinical claims.
