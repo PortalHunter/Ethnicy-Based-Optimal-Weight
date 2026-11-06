@@ -1,3 +1,13 @@
+## Batch 65 — Coeliac education and Romanian guide access — 2026-11-05
+
+INCOMPLETE · DRAFT · DO NOT MERGE. 446 organizations; 365 exact research leads; 334 source-positive cells; 143 bounded no-resource cells; 1259 untouched. All resources research_lead_only; zero clinical claims approved.
+
+- **233 · B-EE-ETS · celiac** [Mis haigus on tsöliaakia? — ETS](https://tsoliaakia.ee/haigele/mis-haigus-on-tsoliaakia/): Substantive Estonian association coeliac explainer, distinct from non-coeliac sensitivity and lactose sections. Family-risk figures, diagnosis/diet statements and source methods not appraised; generic education is not representative Estonian prevalence or genotype confirmation. No new edition inferred from retrieval date.
+- **348 · B-HU-MCE · celiac** [Mi a cöliákia? — Magyar Cöliákia Egyesület](https://coeliakia.hu/mi-a-coliakia/): Own Hungarian explainer credits underlying educational authors; undated diagnosis/biopsy/food statements and epidemiology unappraised. Page contains stigmatizing Africa comparison, which is not adopted as population evidence. Own about page links LÉOE-named statutes despite MCE branding; legal rename/continuity unresolved, existing identity retained without certifying statutory continuity. Genetic susceptibility is not diagnosis.
+- **642 · B-RO-ARIG · celiac** [Aplicația Catalog ARIG — educational guide access](https://arig.ro/aplicatia-catalog-arig/): Own16May2026 announcement distinguishes members-only updated12-article Ghidul Celiacului from public12-article family-support guide. Product validation and app safety claims are self-reported, not audited clinical outcomes. Full guides and rights unreviewed; shop section planned for end2026 not assumed completed. Association hosting is separate from CD Skills brochure authorship.
+
+Actual Node structural validator passed with zero errors before commit. Commit-addressed readback is recorded separately in VALIDATION.md. Only Team B research files changed. All historical caveats below remain binding.
+
 ## Batch 64 — Estonian Latvian and Italian lactose resources — 2026-11-05
 
 INCOMPLETE · DRAFT · DO NOT MERGE. 445 organizations; 362 exact research leads; 331 source-positive cells; 145 bounded no-resource cells; 1260 untouched. All resources research_lead_only; zero clinical claims approved.
