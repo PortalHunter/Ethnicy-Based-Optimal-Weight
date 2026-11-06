@@ -1,3 +1,13 @@
+## Batch 66 — Hereditary iron discovery and bounded access gaps — 2026-11-05
+
+INCOMPLETE · DRAFT · DO NOT MERGE. 448 organizations; 366 exact research leads; 335 source-positive cells; 145 bounded no-resource cells; 1256 untouched. All resources research_lead_only; zero clinical claims approved.
+
+- **203 · B-CZ-CHS · hemochromatosis** [Doporučené postupy České hepatologické společnosti — Hemochromatóza](https://www.ces-hep.cz/guidelines): Own catalogue links hereditary haemochromatosis document attributed to Jiří Horák and ČHS. Three-page PDF text has historical contact details and no edition date established from inspected metadata; copyright2026 catalogue footer does not date guidance. Broad European genetic/prevalence language and diagnostic/treatment statements unappraised. High ferritin, HFE carriage and clinical disease remain distinct.
+- **040 · B-AT-OEGGH · hemochromatosis** [ÖGGH Leitlinien — bounded hereditary iron check](https://www.oeggh.at/wissen-wissenschaft/?cat=leitlinien): Accessible guideline catalogue lists selected2019–2026 topics but no located hereditary haemochromatosis resource in inspected output. Portal hypertension is not systemic hypertension; PBC is not iron overload. Government Gesundheitsportal and university clinical-service pages are separate issuers/scopes. Bounded check, not absence of Austrian research.
+- **056 · B-BE-HVV-CANDIDATE · hemochromatosis** [Haemochromatose Vereniging Vlaanderen — external hospital directory lead](https://www.azdelta.be/nl-BE/hematologie-haemochromatose-vereniging-vlaanderen-vzw): AZ Delta lists Flemish patient organization and own-domain link; Canadian/UK haemochromatosis associations corroborate historical Leuven lead. Direct haemochromatose.be/patientenvereniging inaccessible; no current own identity or exact publication verified, so no organization/source-positive credit. No national absence claim. Hemophilia/vonWillebrand group AHVH must not be substituted for hereditary iron disease.
+
+Actual Node structural validator passed with zero errors before commit. Commit-addressed readback is recorded separately in VALIDATION.md. Only Team B research files changed. All historical caveats below remain binding.
+
 ## Batch 65 — Coeliac education and Romanian guide access — 2026-11-05
 
 INCOMPLETE · DRAFT · DO NOT MERGE. 446 organizations; 365 exact research leads; 334 source-positive cells; 143 bounded no-resource cells; 1259 untouched. All resources research_lead_only; zero clinical claims approved.
