@@ -1,3 +1,11 @@
+## Latest verified Team D Batch 41 — 2026-11-06
+
+**[Standalone Batch 41 checkpoint](CHECKPOINT_BATCH_41_2026-11-06.md)** · [draft PR #70](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70) · research/validator SHA `e4176d2b9d1cc8c22501a3b703e32f161c790d59`.
+
+Two direct WHO Africa first-party dated HTML observations: **Angola–Namibia** February 2026 synchronized border polio campaign (reported operational cooperation, **no original signed bilateral instrument**); **South Sudan–WHO** reported signed future Juba permanent office land allocation (original text and exact signature day unverified; construction/premises **not** completed by inference). **2 new machine-readable rows, 2 new source URLs, 275 total.** Full checked-in read-only V8 structural validator **PASS 12,498 assertions / 43 GitHub-derived dependencies (28 reconstructed complete patches + 15 direct reads)** at research SHA; **not native Node/Actions, legal or clinical signoff**. Baseline unchanged: **205/249** verified WHO administrative regions / **44 unknown**; **105/249** April affirmative WHO office hosts / **144 not equivalently attested**; **46** 2024 survey labels, **228** 2021–22 historical service records, **47 nodes/617 typed edges**, **34/34** EMA agency source-role identities, **0/34** complete amended statutory/Team A audits. Five research commits confined to four Team D-only paths, readbacks/compare PASS; PR open/draft/unmerged. Do not equate source/structure with full acceptance.
+
+---
+
 ## Latest verified Team D Batch 40 — 2026-11-06
 
 **[Standalone Batch 40 checkpoint](CHECKPOINT_BATCH_40_2026-11-06.md)** · [draft PR #70](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70) · source/validator SHA `f85ff3c4d9f9c5eb881c0c415d7f13a7963bf4ab`.
