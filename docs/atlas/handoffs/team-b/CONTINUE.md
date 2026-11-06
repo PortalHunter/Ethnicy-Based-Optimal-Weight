@@ -1,3 +1,35 @@
+# Team B Continue Research Team B — batch 55 — 2026-11-05
+
+**INCOMPLETE · DRAFT · UNMERGED.** Team B: **413** organizations across **227/248** M49 areas (21 missing local domiciles); 1,736 condition cells comprise **285** source-positive, **139** targeted without eligible source and **1,312** untouched (1,451 source-unlinked). **311** exact source/context links, **857** provenance, **500** search entries, **7** community and **8** cross-border records, **5** unresolved original-document issuer countries. **311/311 `research_lead_only` and zero approved clinical claims.**
+
+**Batch 55 delta:** 3 first-party hypertension cells investigated in Philippines, Malaysia and Indonesia; +3 society identities, +3 resource/context leads, +6 provenance records, +3 search logs, +3 source-positive cells. No new domiciled area, community/cross-border entry or resolved issuer imprint.
+
+- **Philippines 608 · B-PH-PSH:** [own-site identity/clinic/registry index](https://www.philippinesocietyofhypertension.org.ph/) and Pasig City office. Clinic and data registry descriptions are NOT proof of a completed published study, representative outcomes, patient data availability or an authored clinical guideline.
+- **Malaysia 458 · B-MY-MSH:** [own membership identity](https://www.msh.my/membership), [2024–2026 congress archive](https://www.msh.my/congress). Announced 2027 congress is future. Archive is a research activity index, not original findings; 2025 talk previewing a sixth CPG edition is NOT proof of issuance, authorship or currency.
+- **Indonesia 360 · B-ID-PERHI:** [original-language society identity](https://www.inash.or.id/aboutUs.do) and [2024 resistant-hypertension consensus notice](https://inash.or.id/news-detail.do?id=451). The original linked PDF, clinical evidence and rights were NOT appraised. A society notice crediting PERHI/InaSH and Ministry participation is distinct from the [2026 Ministry-issued PNPK](https://kemkes.go.id/id/adult-hypertension-management-protocol-indonesia-2026), which belongs to Team A. Resistant HTN is a subtype, not all hypertension.
+
+**Validated immutable batch-55 data:** [`f3def656d0087261ea5a6356269603e8e7a4a876`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f3def656d0087261ea5a6356269603e8e7a4a876). Complete nontruncated 145-entry GitHub tree, **11/11** independently refetched blob SHA/tree matches for ten CSVs and unchanged `validate.mjs`; **0** independent JavaScript precommit structural validation errors (M49 × 7, CSV widths/uniqueness, source/context/provenance, issuer/domicile, coverage/search logs, 7 community and 8 cross-border relationships). **Node CLI not run** because local github.com DNS resolution blocks checkout; prior batches 49–50 have actual CLI receipts. Hash values are GitHub-reported and not separately recomputed. No medical appraisal, rights review, original-PDF full text, all-source live URL/edition audit or world-completeness claim.
+
+**Unfinished:** 1,312 unsearched cells, 139 bounded no-source cells (not an absence finding), 21 domiciled organization gaps, 5 unresolved original-document issuer imprints, source-edition and rights audits. Preserve 14 diversity counterexamples, 7 permission-sensitive community records and 8 cross-border edges. Team A owns government, C journals, D international networks. Issue #27 governs claim appraisal; no ancestry-based clinical inference or website/formula/calculator/main/other-team changes. Never merge.
+
+---
+
+**Standalone restart procedure:** Verify live PR #71 draft/open/unmerged, branch head/base, PR comments/reviews, CI, a complete nontruncated tree, any AGENTS.md and concurrent changes. Read Team B original assignment and `DATA_CONTRACT.md` from `research/atlas-five-team-handoff-prompts-2026-11-04`. Read all 18 existing Team B files; run `node docs/atlas/handoffs/team-b/validate.mjs` on a complete checkout if possible. Fetch official original-language organization sources before any edits. Distinguish page publisher, original document issuer, organization domicile, study population and healthcare jurisdiction. Keep all source links research-only, with precise years/subtypes. No forced ref update, cross-team write, patient records, website change or merge.
+
+**Historical safeguards:** NDF ceased January 2026; Monaco dissolved historic society vs M-CRIN; Côte d'Ivoire 2021 vs current; Trinidad undated; Saint Lucia 2025 press vs future proposed 2026 AGM; Mexico gout n=68 vs subgroups totaling 67; historical Argentina/Spain FH; Czech external EAS/IAS hosting; Polish PTL Nov 2 2026 uncorrected proof vs PTNT; AU 2024 toolkit vs future guidance; Canada 2021 adult vs 2022 paediatric; Otago NZ compiler; Italian 2019 vs 2013; Brazil 2024 joint document vs 2025 press; Japanese/Korean editions; Greece external hosting; Iceland 2011; Malta 2021. Five unknown original imprints: Panama HEARTS; Portuguese WGO lactose; Portuguese ESPGHAN coeliac; Chad OA Pub/JHC; South Sudan PAMJ. Saint Barthélemy 652 ≠ Saint Martin 663. FH ≠ all LDL, gout ≠ asymptomatic high urate, haemochromatosis ≠ high ferritin, lactase nonpersistence ≠ symptomatic intolerance, HLA predisposition ≠ coeliac disease.
+
+### Exact reusable continuation prompt
+
+Continue Research Team B in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71.
+
+Read `docs/atlas/handoffs/team-b/CONTINUE.md` on branch `research/atlas-team-b-20261104`.
+
+Verify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, source caveats, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.
+
+If unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again.
+
+---
+
 # Team B Continue Research Team B — batch 54 — 2026-11-05
 
 **INCOMPLETE · DRAFT · UNMERGED · RESEARCH-LEAD-ONLY.** 410 organizations across 227/248 M49 areas (21 local identity gaps). Of 1,736 condition cells, **282** source-positive, **139** targeted but without eligible verified resource and **1,315** not yet condition-targeted (1,454 source-unlinked). **308** source/context links, **851** provenance, **497** searches, 7 community records, 8 cross-border edges and 5 unresolved original-document issuer countries. **308/308 research_lead_only; zero approved clinical claims.**

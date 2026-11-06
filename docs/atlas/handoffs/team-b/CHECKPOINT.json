@@ -5,25 +5,25 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "b0220d29378e2548ecbf4033fa9c4ee00b772ffc",
-  "batch": 54,
+  "validated_data_commit": "f3def656d0087261ea5a6356269603e8e7a4a876",
+  "batch": 55,
   "metrics": {
-    "organizations": 410,
+    "organizations": 413,
     "areas": 227,
-    "resources": 308,
-    "positive": 282,
-    "without_linked_source": 1454,
+    "resources": 311,
+    "positive": 285,
+    "without_linked_source": 1451,
     "targeted_no_source": 139,
-    "unresearched": 1315,
-    "provenance": 851,
-    "search_log": 497,
+    "unresearched": 1312,
+    "provenance": 857,
+    "search_log": 500,
     "community": 7,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
     "issuer_country_differs_from_domicile": 28,
     "by_condition": {
       "diabetes": 100,
-      "hypertension": 49,
+      "hypertension": 52,
       "high_chol": 35,
       "gout": 26,
       "lactose": 18,
@@ -35,24 +35,24 @@
   "run_additions": {
     "organization_identities": 3,
     "new_domiciled_areas": 0,
-    "resource_relationships": 2,
-    "source_positive_cells": 2,
+    "resource_relationships": 3,
+    "source_positive_cells": 3,
     "provenance_rows": 6,
     "search_log_rows": 3,
     "community_records": 0,
     "cross_border_edges": 0,
     "issuer_country_resolved": 0
   },
-  "validation_runtime": "independent_immutable_readback_and_js_structural_check",
+  "validation_runtime": "independent_js_precommit_structure_and_immutable_github_blob_tree_readback",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "1315 untouched condition cells plus 139 bounded no-resource checks",
-    "21 locally domiciled identity gaps and 5 unresolved original issuer-country imprints",
-    "HU hypertension 2025 ministry-issued society-hosted document belongs to Team A, not a society-authored guideline",
-    "RO 2026 event index is not a guideline or clinical trial; announced 2027 school future",
-    "BG 2013 historical science index is not current epidemiology or a 2026 guideline",
-    "All 14 diversity counterexamples, 7 community cases and 8 cross-border services retained; no approved medical claim"
+    "1312 condition cells not yet targeted; 139 bounded no-verified-resource checks are not evidence of absence",
+    "21 domiciled identity gaps and 5 unresolved original document issuer country cases",
+    "PH PSH registry programme outcomes not verified",
+    "MY congress 2024–2026 vs upcoming 2027, sixth-edition CPG preview not verified released",
+    "ID resistant HTN 2024 society notice distinct from Ministry PNPK 2026 Team A",
+    "Maintain 14 diversity counterexamples, 7 community and 8 cross-border rows; no clinical release"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -66,7 +66,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "**Immutable batch-54 data validation:** [commit `b0220d29378e2548ecbf4033fa9c4ee00b772ffc`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/b0220d29378e2548ecbf4033fa9c4ee00b772ffc) has a **complete, nontruncated 145-entry Git tree**; all **11/11** freshly refetched blobs (10 CSVs plus unchanged `validate.mjs`) agree with tree SHA entries; independent JavaScript checks of CSV widths/IDs, 248×7 M49 enumeration, exact source/context/provenance joins, organization and document domicile, issuer country, coverage/search IDs, seven community and eight cross-border links returned **0 errors**. **Node CLI was not run** (local github.com DNS/checkout unavailable); historical batch 49–50 CLI receipts remain. No clinical, original-PDF full-text, copyright/licence, live-site comprehensiveness or source-edition approval is implied. The document in the Hungarian PDF was inspected only for issuer/cover attribution, not treatment recommendations.",
+  "validated_data_commit_note": "**Validated immutable batch-55 data:** [`f3def656d0087261ea5a6356269603e8e7a4a876`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f3def656d0087261ea5a6356269603e8e7a4a876). Complete nontruncated 145-entry GitHub tree, **11/11** independently refetched blob SHA/tree matches for ten CSVs and unchanged `validate.mjs`; **0** independent JavaScript precommit structural validation errors (M49 × 7, CSV widths/uniqueness, source/context/provenance, issuer/domicile, coverage/search logs, 7 community and 8 cross-border relationships). **Node CLI not run** because local github.com DNS resolution blocks checkout; prior batches 49–50 have actual CLI receipts. Hash values are GitHub-reported and not separately recomputed. No medical appraisal, rights review, original-PDF full text, all-source live URL/edition audit or world-completeness claim.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -155,23 +155,23 @@
   ],
   "readback_validation": {
     "status": "passed",
-    "verified_data_sha": "b0220d29378e2548ecbf4033fa9c4ee00b772ffc",
-    "tree_sha": "f5b601b021828f257b066b33690de64ca5d4d0fc",
+    "verified_data_sha": "f3def656d0087261ea5a6356269603e8e7a4a876",
+    "tree_sha": "9d428369128782440ddc59541a101276d5b2b877",
     "tree_truncated": false,
     "tree_items": 145,
     "files_matched": 11,
     "validated_csv_inputs": 10,
-    "validation_runtime": "independent_immutable_fetch_and_javascript_structural_check",
+    "validation_runtime": "independent_js_precommit_structure_and_immutable_github_blob_tree_readback",
     "node_cli_run": false,
     "structural_errors": 0,
-    "scope": "All 10 CSVs and unchanged validator fetched at immutable commit; tree SHA matches 11/11; independent JS structural check 0 errors, but Node CLI not executed and no clinical/rights/full-currency certification."
+    "scope": "All 10 CSVs plus unchanged validator refetched at immutable commit; 11/11 GitHub-reported SHA matches full tree. Independent JS checks 0 errors. Not actual Node CLI, clinical review, complete rights or source-edition audit."
   },
-  "previous_independently_verified_data_commit": "a4733616e177cf5c39026b64f835ca50ffec0781",
+  "previous_independently_verified_data_commit": "b0220d29378e2548ecbf4033fa9c4ee00b772ffc",
   "session_additions": {
     "organization_identities": 3,
     "new_domiciled_areas": 0,
-    "resource_relationships": 2,
-    "source_positive_cells": 2,
+    "resource_relationships": 3,
+    "source_positive_cells": 3,
     "provenance_rows": 6,
     "search_log_rows": 3,
     "community_records": 0,
@@ -192,14 +192,15 @@
     "48": "9ce76f0631aa73f4e25ee772894ade8ae96953b5",
     "51": "fb0614580f0a84b877e0443c60264c3c9a8688cd",
     "52": "8b9e9cad1e3f57b7b00167f5fc38d9ad56b076b4",
-    "54": "b0220d29378e2548ecbf4033fa9c4ee00b772ffc"
+    "54": "b0220d29378e2548ecbf4033fa9c4ee00b772ffc",
+    "55": "f3def656d0087261ea5a6356269603e8e7a4a876"
   },
   "acceptance_review": {
-    "m49_area_condition_roster": "248 x 7 complete structurally; 1321 untargeted zero-resource cells",
-    "source_population_jurisdiction": "303 research contexts with source issuer, organization domicile, population and jurisdiction distinct; five unknown original-document imprints",
-    "disease_subtypes_and_release": "All 303 exact resources research_lead_only; zero approved claims",
-    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 domiciles, 1321 untouched cells, all-source original edition and rights checks outstanding",
-    "diversity_examples": "14 counterexamples, 7 community/subnational and 8 cross-border records preserved"
+    "m49_area_condition_roster": "248 x 7 complete structurally; 1312 untargeted and 139 bounded no-resource cells",
+    "source_population_jurisdiction": "311 exact contexts separate source issuer, population, professional jurisdiction and domicile; 5 unknown original issuers",
+    "disease_subtypes_and_release": "311 research_lead_only, 0 clinical approvals",
+    "official_sites_publication_lists_and_lifecycle": "Incomplete: 21 domicile gaps, 1312 untouched cells, editions/rights still under review",
+    "diversity_examples": "14 counterexamples, 7 community/subnational rows, 8 cross-border edges retained"
   },
   "batch40_sources": [
     {
@@ -704,5 +705,36 @@
       "outcome": "first-positive historical 2013 research abstract index; no current epidemiology or original full-text appraisal",
       "url": "https://www.hypertensionleaguebg.info/bg/science-info/"
     }
+  ],
+  "batch55_sources": [
+    {
+      "org_id": "B-PH-PSH",
+      "area_m49": "608",
+      "condition": "hypertension",
+      "identity_url": "https://www.philippinesocietyofhypertension.org.ph/",
+      "source_url": "https://www.philippinesocietyofhypertension.org.ph/",
+      "caveat": "programme and planned registry not outcome study"
+    },
+    {
+      "org_id": "B-MY-MSH",
+      "area_m49": "458",
+      "condition": "hypertension",
+      "identity_url": "https://www.msh.my/membership",
+      "source_url": "https://www.msh.my/congress",
+      "caveat": "2024-2026 congress archives not issued guideline, 2027 future"
+    },
+    {
+      "org_id": "B-ID-PERHI",
+      "area_m49": "360",
+      "condition": "hypertension",
+      "identity_url": "https://www.inash.or.id/aboutUs.do",
+      "source_url": "https://inash.or.id/news-detail.do?id=451",
+      "caveat": "2024 resistant HTN consensus notice not 2026 Ministry PNPK"
+    }
+  ],
+  "batch55_search_ids": [
+    "B-PH-PSH-HT-SEARCH-B55",
+    "B-MY-MSH-HT-SEARCH-B55",
+    "B-ID-PERHI-HT-SEARCH-B55"
   ]
 }
