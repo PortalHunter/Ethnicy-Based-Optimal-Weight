@@ -1,3 +1,15 @@
+## CURRENT — Team A Batch50 remaining legal gaps (2026-11-06)
+
+**Geography 248/248 = 100%; provisional governmental authority identities 231/248 = 93.15%; documented UNKNOWN 17/248 = 6.85% remain; full enacted legal mandates NOT MEASURED / INCOMPLETE.** [Complete Batch50](CHECKPOINT_20261106_BATCH50.md) · [immutable eight-CSV QA](QA_BATCH50_20261106.json) · [new original DOI successor source note](source_recovery/CYCLE_581_DOI_3284_A2_2023_KINGMAN_20261106.md). 318 bodies, 45 limited relationships, four shared scopes, 248 reviews and **684** dated source observations.
+
+**Resolved historical-source gap, not health mandate:** 2009 SO3284 archived original has **2016 A1 and signed September 11 2023 A2** successors, with A2 apparently prospective until further amendment. 2026 current amendment status not exhaustively certified. Kingman original SO3223 (2001) preserves conditional Navy administrative control alongside DOI/FWS refuge, and DOI explanatory Navy label is not reconciled. A2 specifically retains OIA Palmyra carve-outs, Johnston and Wake Air Force emerged-land exceptions and separate Wake agreement. **Find later A2 amendments, signed Wake Air Force/Interior agreement and 935.10 written delegations, Kingman Navy control termination, Palmyra written FWS acceptance, and separately enacted/current public-health/worker/medical/medicines regulation at each of nine M49 581 components.** Same DOI issuing family, none health approval, **581 UNKNOWN**.
+
+**Other continuing priorities:** 226 Equatorial Guinea BOE original June Decreto Ley 02/2026 publication and signed Oct amendments/INSESO transfer; 744 current original Norwegian FOR-2015-747 full, separate Svalbard/Jan Mayen scope, §29e and Nov research ethics application; other 14 UNKNOWN audit entries; full enacted medical regulator and public health national/subnational/Indigenous/municipal/institute mandate checks for all 231 provisional authority identities. No invented M49 cross-area parents or independent legal issuers from duplicate DOI hosts.
+
+**Validation:** Batch50 eight complete CSVs structural QA PASS, 680 prior provenance preserved exactly, 16 other unknown rows unchanged and Team A-only 3 data paths. Actual Python/5 tests NOT rerun because local Github DNS failed (last actual Batch41). PR #68 OPEN/DRAFT/UNMERGED; no site/main/other teams or clinical approval.
+
+---
+
 ## CURRENT — Team A Batch49 remaining research gaps (2026-11-06)
 
 **Geography 248/248 (100%); preliminary area-scoped authority identities 231/248 (93.15%); UNKNOWN 17/248 (6.85%); comprehensive enacted legal competence NOT MEASURED/INCOMPLETE.** [Standalone Batch49](CHECKPOINT_20261106_BATCH49.md) · [QA](QA_BATCH49_20261106.json) · [581 scoped DOI evidence note](source_recovery/CYCLE_581_DOI_PALMYRA_EXCLUSIONS_AND_ARCHIVED_2009_MONUMENT_20261106.md). Provenance now **680** (3 new); unchanged 318 bodies, 45 limited relations, 4 multi-area scopes, 248 reviews.
