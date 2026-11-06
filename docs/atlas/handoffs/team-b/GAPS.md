@@ -1,3 +1,11 @@
+## Batch 79 — remaining Team B research gaps (2026-11-06)
+
+**Quantified:** 21 local M49 identity gaps, **1,195/1,736 untouched** condition cells, **171** bounded no-eligible-resource cells (not evidence of national absence), **1,366** without a source-positive link, **5** unresolved original issuer-country imprints. Positive 370/1,736 is discovery coverage, not evidence approval.
+
+**New checks pending:** multi-society original full text, detailed authorship/licensing and jurisdiction for [2025 Turkish hypertension report](https://temd.org.tr/haberler/turk-hipertansiyon-uzlasi-raporu-2025-yayinlandi); medically imprecise [Turkish coeliac association education](https://colyak.org.tr/colyak-nedir/) (no allergy claim accepted); 2024 [Nepal hospital lipid registry](https://nhjournal.info/pdf/vol21no1/5-OR_Clinical%20profile%20and%20practice%20patterns%20%20%20-%2025-29.pdf) cross-sectional vs prospective inconsistency and FH/genotype non-equivalence; historical [Croatian Reumatizam 2012 gout issue](https://www.reumatologija.org/Datoteke/Reumatizam/Reumatizam%202012%2059%282%29%201-214.pdf) full PDF visual/rights/currency review. Keep all prior Iceland, Nepal CSN membership and 2023 consensus, Ireland Croí/ESC, Panama/WGO/ESPGHAN/Chad/South Sudan attribution issues open. See [standalone batch 79 checkpoint](BATCH_79_CHECKPOINT.md).
+
+---
+
 ## Team B open research gaps after 78-R980 · 2026-11-06
 
 **Quantified:** 21/248 M49 domiciles still lack independently verified local specialist organization identity; 1,199/1,736 condition cells untouched; 171 bounded checks without eligible exact source; five original document issuer imprints unresolved. Positive **366/1,736** is discovery coverage only, not clinical validity; 1,370 cells have no exact linked source.

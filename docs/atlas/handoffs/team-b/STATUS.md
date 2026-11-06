@@ -1,3 +1,11 @@
+## 2026-11-06 — Team B batch 79 (latest)
+
+**Batch 79 (latest, 2026-11-06):** [standalone checkpoint](BATCH_79_CHECKPOINT.md) · [validated six-CSV research commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/152146e89c701b31d4356cafaf133a6c9c0fbb75); **483 organizations**, 227/248 local M49 domiciles, **370/1,736** source-positive cells, 171 bounded-unlinked, 1,195 untouched, 1,366 unlinked, 406 leads, 1,095 provenance, 633 searches. **0 approved clinical claims; PR remains draft/unmerged.** +3 verified identities and +4 formerly untouched cells (Türkiye hypertension/celiac, Nepal high_chol, Croatia gout); source issuer vs society, population vs domicile, and historical vs current distinctions preserved. Immutable tree readbacks **11/11**, independent JS structural errors **0**, **Node CLI not run**; no legal, fulltext, licensing or clinical approval.
+
+Source details, open acceptance gates and precise restart instructions: [BATCH_79_CHECKPOINT.md](BATCH_79_CHECKPOINT.md). Previous batch status/history below remains valid as historical context.
+
+---
+
 ## 2026-11-06 — Team B batch 78-R980 (latest)
 
 **DRAFT · OPEN · UNMERGED · INCOMPLETE · research_lead_only.** All 402 source records remain research leads; **0 clinical claims approved**. Only Team B research files changed; no public website, main, formulas, calculators, private records or other teams touched.
