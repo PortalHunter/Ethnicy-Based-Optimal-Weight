@@ -1,3 +1,9 @@
+## Latest independently verified Team D status — Batch 42, 2026-11-06
+
+[Standalone Batch 42 checkpoint](CHECKPOINT_BATCH_42_2026-11-06.md). **Ten M49-indexed PAHO 2025 annual country-office report group observations in three groups** added as `data/paho_2025_multi_area_report_coverage.csv`, **three first-party indexed URLs TD-SRC-276–278**, **278** provenance URLs. Direct PAHO source-page opens returned HTTP 403; grouped report coverage does not establish individual WHO office buildings, WHO region assignments, formal WHO membership or adopted medical law. Current WHO regional verifications **205/249, 44 unknown**; affirmative April 2026 WHO hosts **105/249, 144 without equivalent attestation**; 46 Sept 2024 survey labels and 228 2021–22 historical services distinct. Institutional graph 47 nodes/617 typed dated edges. Regulator remit source descriptions 34/34 (71 roles); full amended statute/delegation+Team A exact joins **0/34**. **Full read-only V8 checked-in structural PASS 12,590 assertions/44 GitHub-derived dependencies**, *not native Node/Actions or legal/clinical appraisal*. Three research/validator commits and three file readbacks; draft PR #70 remains open/unmerged, Team D-only writes. Continue from linked checkpoint.
+
+---
+
 ## Latest verified Team D Batch 41 — 2026-11-06
 
 **[Standalone Batch 41 checkpoint](CHECKPOINT_BATCH_41_2026-11-06.md)** · [draft PR #70](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70) · research/validator SHA `e4176d2b9d1cc8c22501a3b703e32f161c790d59`.
