@@ -40,6 +40,14 @@ The 2024 NLA apoB consensus reviewed a large body of observational and trial sec
 
 **Risk attribution is not symmetric:** cholesterol-poor, numerous LDL particles are commonly encountered in insulin resistance. Ketogenic “cholesterol-rich” LDL can show the opposite discordance, so risk may be lower **than a person with equally high LDL-C and high apoB**. However, a relatively lower apoB is not proof of low *absolute* risk or lack of cumulative LDL exposure. There is no validated phenotype-specific formula to subtract “LMHR cholesterol” from cardiovascular risk.
 
+### Additional prospective evidence — Women's Health Study and UK Biobank [S28–S30]
+
+**Mora et al. (2009)** followed 27,673 initially healthy women for approximately 11 years (1,015 cardiovascular events). NMR LDL-P and apoB were associated with events, but neither materially improved clinical discrimination or net reclassification over an already strong model using conventional lipid ratios and nonlipid risks. This tempers any recommendation to order advanced tests routinely in patients whose conventional risk information and apoB are already adequate. [S28]
+
+**Du et al. (2025)** analyzed 375,544 UK Biobank participants without baseline cardiovascular disease or lipid-lowering therapy; relative to concordant LDL-C/apoB, discordantly high apoB predicted higher MACE risk (HR 1.11, 95% CI 1.06–1.15), and discordantly low apoB lower risk (HR 0.87, 0.83–0.93). This is particularly relevant to a cholesterol-rich LDL phenotype: discordantly low apoB may refine *relative* risk, without validating zero lifetime risk. [S29]
+
+**Epstein et al. (2025)** compared apoB with NMR LDL-P within a selected UK Biobank analytical sample of 41,099; when values diverged, disproportionately elevated apoB associated more consistently with later cardiovascular outcomes. About 95% of the analytic sample was white and outcome ascertainment used medical coding; extrapolation to Filipino LMHR and treatment benefit requires caution. [S30]
+
 ### NMR LDL-P compared with apoB
 
 ApoB measures all apoB-containing atherogenic particles, whereas NMR LDL-P estimates an LDL-focused subset. Their concentrations usually correlate, but discordance can arise from VLDL/remnant abundance, Lp(a), or assay/platform differences. Evidence does not support routine addition of LDL-size and subclass profiles for every person with high LDL-C once standard lipids, apoB, Lp(a) and clinical risk are already available. [S19, S23]
