@@ -1,3 +1,13 @@
+## 2026-11-05 — Batch 28: AOECS member and nonmember society inventory
+
+- [`bac43d5`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/bac43d5e461e862200fba5e4843f2b9ec93d77a5): 68 unique AOECS named-society role observations in `data/aoecs_society_role_observations_2026.csv`, with **43 full-section/1 associate/3 affiliate/21 explicit nonmember** role labels, checked M49 geographic codes and unknown accession dates.
+- [`42c471e`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/42c471e102d7e3f914959b40c2fec0710e9a3824): six nonmembership organizational roles (five named health-sector collaborators, one AOECS-claimed Codex NGO observer since 1991) in `data/aoecs_crossborder_role_observations_2026.csv`.
+- [`0b7b2ed`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/0b7b2ed6f8d4d4ccc56eee88489625a25ba66287): reused/qualified TD-SRC-013/014 and added TD-SRC-209–211, bringing provenance to **211 unique URLs**; index redirect caveat for Codex retained. About page **41/6** class breakdown versus directory **43/1/3** is explicitly unresolved.
+- [`23ca551`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/23ca55172849ccce786427d0475809d05883a9b9): full validator updated and **PASS (11,366 read-only JS-shim assertions, 37 dependencies)**. No native Node or Actions claim.
+- [`65682e3`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/65682e31d559fb8be525efcabd67b3495e6b9744): standalone full [Batch 28 checkpoint](CHECKPOINT_BATCH_28_2026-11-05.md). [`9caa8f5`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/9caa8f59548284b3c34354c3c5837347d328cc24) sharpens the existing TD-013 gap. WHO and earlier Team D datasets unchanged; draft PR unmerged.
+
+---
+
 ## 2026-11-05 — Batches 26–27: international condition federation membership-source snapshots
 
 - Research [`a3ec0d9`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/a3ec0d92485da866e442536a2edc9d3ef8898599): new 25-record `data/idf_nac_member_observations_2026.csv`, two official IDF source URLs TD-SRC-205–206, updated `PROVENANCE.csv` and `validate.mjs`; 22 country/territory organizational presence labels, 3 transnational organizations, 21 named local associations and 1 unresolved Curaçao name; official 22-v-23 organization aggregate discrepancy explicitly unresolved.
