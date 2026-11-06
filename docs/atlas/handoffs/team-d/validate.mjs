@@ -640,7 +640,7 @@ assert.equal(batch35Nca.filter(r=>r.country_area_m49==='528').length,3);
 assert.equal(batch35Nca.filter(r=>r.country_area_m49==='616').length,4);
 assert.equal(batch35Nca.filter(r=>r.country_area_m49==='705').length,3);
 assert(batch35Nca.find(r=>r.record_id==='TD-NCA-REMIT-040').notes.includes('not national medicine marketing authorisation'));
-assert(batch35Nca.find(r=>r.record_id==='TD-NCA-REMIT-042').notes.includes('not national medicine marketing authorisation'));
+assert(batch35Nca.find(r=>r.record_id==='TD-NCA-REMIT-042').first_party_role_observation.includes('President of URPL'));
 assert(batch35Nca.find(r=>r.record_id==='TD-NCA-REMIT-043').first_party_role_observation.includes('European Commission'));
 assert(batch35Nca.find(r=>r.record_id==='TD-NCA-REMIT-045').first_party_role_observation.includes('EudraVigilance'));
 for(const [id,url] of [
