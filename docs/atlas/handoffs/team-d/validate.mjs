@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,211);
+assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,217);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -498,4 +498,38 @@ for(const [id,url] of [['TD-SRC-013','https://www.aoecs.org/about-us/'],['TD-SRC
 assert.equal(edges.length,617);assert.equal(nodes.length,47);assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 console.log('Batch 28: 43 AOECS directory full members, 1 associate, 3 affiliates, 21 explicitly nonmember society contacts and 6 nonmembership professional/observer roles. Official about-us category conflict retained; no country/clinical/legal edges invented.');
 
-console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length,idf_nac_source_observations:idfNac.length,hi_source_observations:hi.length,aoecs_society_observations:aoecsSocieties.length,aoecs_external_role_observations:aoecsRelations.length},null,2));
+// Batch 29: EMA / European Commission regulatory-role boundaries are source statements,
+// NOT authority-specific national remits, product approvals, domestic clinical rules or geographic membership edges.
+const emaRoles=read('data/ema_authorisation_role_boundaries_2026.csv');
+unique(emaRoles,r=>r.record_id,'EMA/Commission source-qualified role IDs');
+assert.equal(emaRoles.length,11);
+assert.equal(new Set(emaRoles.map(r=>r.source_url)).size,6);
+assert.deepEqual(emaRoles.map(r=>r.record_id).sort(),Array.from({length:11},(_,i)=>'TD-EMA-ROLE-'+String(i+1).padStart(3,'0')));
+for(const r of emaRoles){
+ assert.equal(r.checked_on,'2026-11-05');
+ assert.equal(r.source_published_or_effective_on,'unknown');
+ assert.equal(r.evidence_access,'DIRECT_OFFICIAL_HTML_REVIEWED');
+ assert.equal(r.verification_state,'OFFICIAL_ROLE_DESCRIPTION_ONLY');
+ assert(sources.has(r.source_url),'EMA source URL absent from provenance: '+r.record_id);
+ assert(r.reported_state_or_fact);
+ assert(r.notes);
+ assert(r.legal_instrument_review_state);
+}
+const emaRoleClasses=new Set(emaRoles.map(r=>r.authority_role));
+for(const role of ['SCIENTIFIC_ASSESSMENT','BINDING_CENTRALISED_AUTHORISATION_DECISION','NATIONAL_MARKETING_AUTHORISATION','MUTUAL_RECOGNITION_PROCEDURE','DECENTRALISED_PROCEDURE','EEA_EXTENSION_OF_CENTRALISED_GRANT','CENTRALISED_MEDICINE_DIRECTORY_COVERAGE','UNION_REGISTER_DECISION_PUBLICATION','LIMITATION_AVAILABILITY_PRICING','CENTRALISED_MANDATORY_INDICATION_SCOPE'])assert(emaRoleClasses.has(role),'missing EMA role class '+role);
+assert.equal(emaRoles.filter(r=>r.team_a_join_state==='PENDING_EXACT_34_NCA_IDENTITY_AND_REMIT_JOIN').length,3);
+assert.equal(emrnNcas.length,34);
+assert(emaRoles.find(r=>r.record_id==='TD-EMA-ROLE-003').legal_instrument_review_state.includes('NO_CONSOLIDATED_LEGAL_AUDIT'));
+assert(emaRoles.find(r=>r.record_id==='TD-EMA-ROLE-008').notes.includes('not evidence'));
+assert(emaRoles.find(r=>r.record_id==='TD-EMA-ROLE-011').notes.includes('Not every diabetes'));
+for(const [id,url] of [
+ ['TD-SRC-212','https://www.ema.europa.eu/en/committees/committee-medicinal-products-human-use-chmp'],
+ ['TD-SRC-213','https://www.ema.europa.eu/en/about-us/frequently-asked-questions'],
+ ['TD-SRC-214','https://www.ema.europa.eu/en/medicines'],
+ ['TD-SRC-215','https://health.ec.europa.eu/medicinal-products/union-register_en'],
+ ['TD-SRC-216','https://health.ec.europa.eu/medicinal-products/legal-framework-governing-medicinal-products-human-use-eu/authorisation-procedures-centralised-procedure_en'],
+ ['TD-SRC-217','https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/obtaining-eu-marketing-authorisation-step-step']
+])assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);
+console.log('Batch 29: 11 first-party EMA/Commission role observations with 6 new sources; no individual NCA legal remit or marketing decision inferred.');
+
+console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length,idf_nac_source_observations:idfNac.length,hi_source_observations:hi.length,aoecs_society_observations:aoecsSocieties.length,aoecs_external_role_observations:aoecsRelations.length,ema_regulatory_role_observations:emaRoles.length},null,2));
