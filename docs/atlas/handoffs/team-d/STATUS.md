@@ -1,3 +1,9 @@
+## Latest verified Team D research — Batch 28 (2026-11-05)
+
+[Complete standalone Batch 28 checkpoint](CHECKPOINT_BATCH_28_2026-11-05.md). Added **68 AOECS society role observations** (43 full-member section, 1 associate, 3 affiliate, **21 explicitly nonmember**) and **six separate cross-border role observations** (five nonbinding professional collaborators, one AOECS-claimed Codex observer since 1991). **211 unique provenance URLs**. AOECS's own official pages disagree **43/1/3 vs 41 full/6 affiliate**, despite each totaling 47; no inferred resolution, governmental membership or clinical law. Two Swiss full-section societies lack visible certificate links. Society/source work was scoped to Team D; `data/network_coverage_gaps.csv` TD-013 updated. Full checked-in structural validator **PASS via read-only JS shim: 11,366 assertions / 37 dependencies / 61 PR files** at validated code SHA `23ca55172849ccce786427d0475809d05883a9b9`; **not native Node/Actions, legal or clinical approval**. Prior graph 47 nodes/617 edges, WHO 205 verified/44 unknown regions, 105 April host positives, 228 separate 2021–22 office/service records unchanged. PR #70 open/draft/unmerged as last confirmed. Research and documentation commits are detailed in the checkpoint.
+
+---
+
 # Latest verified Team D research — Batches 26–27, 2026-11-05
 
 **[Complete standalone Batch 27 checkpoint](CHECKPOINT_BATCH_27_2026-11-05.md)** · [IDF source/data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/a3ec0d92485da866e442536a2edc9d3ef8898599) · [HI data commit](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f10a7768fb7a939dbfc9946ab3c16cacc11a2c33) · [HI provenance repair and validated data snapshot](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/2a760a79569c69ebfa5d7a74f82b355d5e74c31d).
