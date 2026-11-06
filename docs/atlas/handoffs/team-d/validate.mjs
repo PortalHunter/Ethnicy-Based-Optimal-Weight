@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,208);
+assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,211);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -464,4 +464,38 @@ for(const [url,id] of [['https://haemochromatosis-international.org/members/','T
 assert.equal(edges.length,617);assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 console.log('Batch 27: HI 15 country-linked member resources, Europe non-M49 link, three distinct membership/partner policy records; no government membership or clinical law inference');
 
-console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length,idf_nac_source_observations:idfNac.length,hi_source_observations:hi.length},null,2));
+
+// Batch 28: AOECS named member-society snapshot versus explicitly non-member colleagues.
+// This is a dated page observation, not an accession instrument, legal jurisdiction or guideline adoption.
+const aoecsSocieties=read('data/aoecs_society_role_observations_2026.csv');
+const aoecsRelations=read('data/aoecs_crossborder_role_observations_2026.csv');
+unique(aoecsSocieties,r=>r.record_id,'AOECS society-source observation IDs');
+unique(aoecsRelations,r=>r.record_id,'AOECS external-role observation IDs');
+assert.equal(aoecsSocieties.length,68); assert.equal(aoecsRelations.length,6);
+const aoecsFull=aoecsSocieties.filter(r=>r.relationship_class==='FULL_MEMBER_LISTED');
+const aoecsAssociate=aoecsSocieties.filter(r=>r.relationship_class==='ASSOCIATE_MEMBER_LISTED');
+const aoecsAffiliate=aoecsSocieties.filter(r=>r.relationship_class==='AFFILIATE_MEMBER_LISTED');
+const aoecsNonmember=aoecsSocieties.filter(r=>r.relationship_class==='EXPLICIT_NONMEMBER_COLLEAGUE_LISTED');
+assert.equal(aoecsFull.length,43);assert.equal(aoecsAssociate.length,1);assert.equal(aoecsAffiliate.length,3);assert.equal(aoecsNonmember.length,21);
+assert.equal(new Set(aoecsSocieties.map(r=>r.country_area_m49)).size,61);
+assert.equal(aoecsFull.filter(r=>r.member_certificate_link_visible==='no_visible_link').length,2);
+assert.equal(aoecsFull.filter(r=>r.member_certificate_link_visible==='yes').length,41);
+assert.deepEqual(aoecsAssociate.map(r=>r.country_area_m49),['070']);
+assert.deepEqual(aoecsAffiliate.map(r=>r.country_area_m49).sort(),['268','376','792']);
+for(const r of aoecsSocieties){assert.equal(r.network_id,'AOECS');assert(ids.has(r.network_id));assert(official.has(r.country_area_m49));assert(r.aoecs_geographic_label);assert(r.organization_label);assert.equal(r.checked_on,'2026-11-05');assert.equal(r.membership_valid_from,'unknown');assert.equal(r.membership_valid_to,'unknown');assert.equal(r.source_url,'https://www.aoecs.org/about-us/members/');assert(sources.has(r.source_url));}
+for(const r of aoecsNonmember){assert.equal(r.source_section,'OTHER_COELIAC_SOCIETIES_NOT_MEMBERS_SECTION');assert.equal(r.member_certificate_link_visible,'not_applicable');assert.equal(r.verification_state,'OFFICIAL_AOECS_EXPLICIT_NONMEMBER_SECTION');}
+assert.equal(aoecsFull.find(r=>r.organization_label==='Celiac Care Providers Society').country_area_m49,'400');
+assert.equal(aoecsFull.find(r=>r.organization_label==='ACELMEX Asistencia al Celíaco de México A.C').country_area_m49,'484');
+assert.equal(aoecsFull.find(r=>r.organization_label==='Celiac Disease Foundation').country_area_m49,'840');
+assert.equal(aoecsNonmember.filter(r=>r.country_area_m49==='840').length,2);
+assert(!aoecsSocieties.some(r=>r.relationship_class==='EXPLICIT_NONMEMBER_COLLEAGUE_LISTED'&&r.source_section!=='OTHER_COELIAC_SOCIETIES_NOT_MEMBERS_SECTION'));
+for(const x of aoecsRelations){assert.equal(x.reporting_network_id,'AOECS');assert.equal(x.as_of,'2026-11-05');assert(sources.has(x.source_url));assert.equal(x.relationship_end,'unknown');}
+assert.equal(aoecsRelations.filter(r=>r.relationship_type==='PROFESSIONAL_HEALTH_CARE_COLLABORATOR_LISTED').length,5);
+const codexObservation=aoecsRelations.find(r=>r.related_organisation_label==='CODEX');
+assert(codexObservation); assert.equal(codexObservation.relationship_type,'OBSERVER_STATUS_SELF_REPORTED_SINCE_1991');assert.equal(codexObservation.reported_start_year,'1991');assert.equal(codexObservation.verification_state,'AOECS_SELF_REPORT_OBSERVER_BEGINNING_UNVERIFIED_INSTRUMENT');
+assert.deepEqual(aoecsRelations.filter(r=>r.relationship_type==='PROFESSIONAL_HEALTH_CARE_COLLABORATOR_LISTED').map(r=>r.related_organisation_label).sort(),['EPHA','ESPGHAN','ESsCD','ISSCD','UEG']);
+for(const [id,url] of [['TD-SRC-013','https://www.aoecs.org/about-us/'],['TD-SRC-014','https://www.aoecs.org/about-us/members/'],['TD-SRC-209','https://www.aoecs.org/about-us/friends/health-care-organisations/'],['TD-SRC-210','https://www.aoecs.org/advocacy/'],['TD-SRC-211','https://www.fao.org/fao-who-codexalimentarius/about-codex/observers/observers/obs-list/de/']]){assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);}
+assert.equal(edges.length,617);assert.equal(nodes.length,47);assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
+console.log('Batch 28: 43 AOECS directory full members, 1 associate, 3 affiliates, 21 explicitly nonmember society contacts and 6 nonmembership professional/observer roles. Official about-us category conflict retained; no country/clinical/legal edges invented.');
+
+console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length,idf_nac_source_observations:idfNac.length,hi_source_observations:hi.length,aoecs_society_observations:aoecsSocieties.length,aoecs_external_role_observations:aoecsRelations.length},null,2));
