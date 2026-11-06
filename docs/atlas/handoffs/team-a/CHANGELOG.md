@@ -1,3 +1,12 @@
+## 2026-11-05 — Team A Batch28 six new principal identities, four internal public-health/research units, 17 detailed source checks
+
+- Starting live branch HEAD `118d5e8922fcf304ce7e6d8aba192d49dc003e13`; **exact independently audited DATA SHA `a09586a810923bbd5198e824abfc7b055f893153`**. Four standard CSV commits `62bf4e0847883e3c7296a9227bff393679015800`, `875ec53f4324ae5b27f439ba331682e4fe364497`, `c1a0d7bb5a31848fd0f342b000467d8da5b2cb42`, `d8fd32816d55b3a03d3d22ca40c3aa67d9af40f0`, and one Namibia negative-source correction commit `a09586a810923bbd5198e824abfc7b055f893153`.
+- Six government authority identities: Namibia 516, Vanuatu 548, FSM 583, Marshall Islands 584, Palau 585, Panamá 591; 4 governmental internal units Vanuatu surveillance and HREC, Palau public health bureau and preparedness policy research office; 17 dated source entries. No new authority relationship / guessed parent M49. Earlier research rows untouched.
+- **248 M49 geography, 177 identified / 71 unknown principals, 242 bodies, 45 existing links, 420 sources, 248 area-coverage reviews, 0 speculative parents** at exact data SHA. Independent six-CSV source-aware structural **PASS**; Python `validate.py` **NOT RUN** (GitHub DNS). Only four Team A CSV paths changed; [Batch28 complete standalone checkpoint](CHECKPOINT_20261105_BATCH28.md) and prior history retained.
+- Explicit negative/conflict distinctions: Namibia legal division page direct access failure; Vanuatu 2025 ministry news/historic unit claims, no signed order; FSM state autonomy unresolved; Marshall Islands May 2026 assigned portfolio vs original law; Palau same-issuer bureau/office narratives not statutes; Panamá Indigenous comarca/CSS legal divisions unresolved. **OPEN DRAFT/UNMERGED; do not change public site, clinical or other-team files.**
+
+---
+
 ## 2026-11-05 — Team A Batch27 five government identities, three institutes, twenty source caveats, audited data and standalone checkpoint
 
 - **Exact DATA SHA:** `2cff26c5d211fa45b3dfd8711838b8005825328c`, from previous documentation HEAD `a237f3393080ac0f5cde79e8533666ba35a85087`; eight sequential Team A CSV commits and **only four CSV paths changed**: `data/countries.csv`, `data/government_health_bodies.csv`, `data/country_coverage.csv`, `PROVENANCE.csv`. No relationships guessed, original M49 master/schema/validator and other-team/app files untouched.
