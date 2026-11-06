@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,204);
+assert.equal(nodes.length,47);assert.equal(edges.length,617);assert.equal(prov.length,206);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -421,4 +421,25 @@ assert.equal(extraSph.filter(r=>r.source_reference_year==='2020').length,1);
 assert.equal(extraSph.filter(r=>r.source_reference_year==='2026').length,2);
 console.log('Batch 25: WHO SPH Curaçao 2020 and 2026 and French Guiana 2026; 3 directly opened first-party sources');
 
-console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length},null,2));
+
+// Batch 26: IDF North America/Caribbean source-listed organizational membership, not country-level legal membership.
+const idfNac=read('data/idf_nac_member_observations_2026.csv');
+unique(idfNac,r=>r.record_id,'IDF NAC source snapshot IDs');
+assert.equal(idfNac.length,25);
+const idfGeo=idfNac.filter(r=>r.observation_category==='COUNTRY_OR_TERRITORY_WITH_MEMBER_ORGANISATION_LISTED');
+const idfTrans=idfNac.filter(r=>r.observation_category==='TRANSNATIONAL_ORGANISATION_MEMBER_LISTED');
+assert.equal(idfGeo.length,22); assert.equal(idfTrans.length,3);
+assert.equal(new Set(idfGeo.map(r=>r.country_area_m49)).size,22);
+assert.deepEqual(idfGeo.map(r=>r.country_area_m49).sort(),["028","044","052","060","084","092","212","308","328","332","388","500","531","533","534","659","660","662","670","740","780","840"]);
+assert.equal(idfGeo.filter(r=>r.named_organization_on_region_page!=='').length,21);
+assert.equal(idfGeo.filter(r=>r.named_organization_on_region_page==='').length,1);
+assert.equal(idfGeo.find(r=>r.country_area_m49==='531').name_link_status,'COUNTRY_LISTED_NO_ASSOCIATION_NAME_ON_REGION_OVERVIEW');
+assert.deepEqual(idfTrans.map(r=>r.named_organization_on_region_page).sort(),['Beyond Type 1','Breakthrough T1D','Direct Relief']);
+for(const r of idfNac){assert.equal(r.network_id,'IDF');assert(ids.has(r.network_id));assert.equal(r.idf_region,'NORTH_AMERICA_AND_CARIBBEAN');assert.equal(r.source_checked_on,'2026-11-05');assert.equal(r.membership_valid_from,'unknown');assert.equal(r.membership_valid_to,'unknown');assert.equal(r.verification_state,'OFFICIAL_IDF_LIST_DIRECTLY_REVIEWED');assert(sources.has(r.source_url));}
+for(const r of idfGeo){assert(official.has(r.country_area_m49));assert(r.idf_geographic_label);}
+for(const r of idfTrans){assert.equal(r.country_area_m49,'');assert.equal(r.idf_geographic_label,'');assert.equal(r.name_link_status,'TRANSNATIONAL_NO_COUNTRY_ASSIGNMENT');}
+for(const [url,id] of [['https://idf.org/our-network/regions-and-members/north-america-and-caribbean/','TD-SRC-205'],['https://idf.org/our-network/regions-and-members/north-america-and-caribbean/members/','TD-SRC-206']]){assert.equal(prov.filter(p=>p.source_url===url).length,1);assert.equal(prov.find(p=>p.source_url===url).source_id,id);}
+assert.equal(edges.length,617);assert.equal(statuses.filter(s=>s.who_region==='not_verified').length,44);
+console.log('Batch 26: 22 IDF NAC country/territory member-organisation locations plus three transnational members; 21 names and one Curaçao name gap; incompatible official association totals preserved; zero inferred legal/country membership edges');
+
+console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length,idf_nac_source_observations:idfNac.length},null,2));
