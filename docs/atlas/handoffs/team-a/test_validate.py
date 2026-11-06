@@ -73,5 +73,39 @@ class CensusScopeValidation(unittest.TestCase):
             self.verify()
 
 
+    def test_legal_ledger_missing_area_fails(self):
+        self.rewrite("data/legal_verification_ledger.csv", lambda rows: rows[:-1])
+        with self.assertRaisesRegex(AssertionError, "Legal ledger must contain"):
+            self.verify()
+
+    def test_premature_legal_completion_fails(self):
+        def corrupt(rows):
+            rows[0]["legal_review_stage"] = "RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW"
+            rows[0]["legal_research_acceptance"] = "RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW"
+            rows[0]["last_legal_review_utc"] = "2026-11-06"
+            rows[0]["verified_legal_source_ids"] = "UNSD-M49-20261104"
+            return rows
+        self.rewrite("data/legal_verification_ledger.csv", corrupt)
+        with self.assertRaisesRegex(AssertionError, "Premature legal research completion evidence"):
+            self.verify()
+
+    def test_research_queue_wrong_lane_fails(self):
+        def corrupt(rows):
+            rows[0]["work_lane"] = "UNRESOLVED_AREA" if rows[0]["work_lane"] == "PROVISIONAL_LEGAL_REVIEW" else "PROVISIONAL_LEGAL_REVIEW"
+            return rows
+        self.rewrite("data/research_queue.csv", corrupt)
+        with self.assertRaisesRegex(AssertionError, "Research queue lane mismatch"):
+            self.verify()
+
+    def test_blocked_queue_needs_reason(self):
+        def corrupt(rows):
+            rows[0]["queue_state"] = "BLOCKED_NEW_SOURCE_REQUIRED"
+            rows[0]["blocked_reason"] = ""
+            return rows
+        self.rewrite("data/research_queue.csv", corrupt)
+        with self.assertRaisesRegex(AssertionError, "Blocked queue item missing source barrier"):
+            self.verify()
+
+
 if __name__ == "__main__":
     unittest.main()
