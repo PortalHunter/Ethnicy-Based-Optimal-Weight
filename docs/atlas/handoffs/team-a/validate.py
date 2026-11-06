@@ -40,6 +40,19 @@ def verify():
     relations = load("data/authority_relationships.csv")
     coverage = load("data/country_coverage.csv")
     provenance = load("PROVENANCE.csv")
+    area_scope = load("data/authority_area_scope.csv") if (ROOT / "data/authority_area_scope.csv").exists() else []
+    source_ids = {r["source_id"] for r in provenance}
+    scope_keys = set()
+    for scope in area_scope:
+        key = (scope["body_id"], scope["area_m49"])
+        assert key not in scope_keys, f"Duplicate authority-area scope {key}"
+        scope_keys.add(key)
+        assert scope["area_m49"] in {r["m49_code"] for r in countries}
+        assert scope["body_id"] in {r["record_id"] for r in bodies}
+        refs = scope["source_ids"].split(";")
+        assert len(refs) >= 2 and all(ref in source_ids for ref in refs), (
+            f"Shared authority scope needs explicit provenance: {key}")
+        assert all(scope[f] for f in ("scope", "review_state", "limitations", "checked_utc"))
 
     m49_codes = [r["m49_code"] for r in countries]
     assert len(countries) == EXPECTED_UN_M49_COUNTRY_AREA_COUNT, (
@@ -77,7 +90,8 @@ def verify():
         links = [x for x in c["authority_record_ids"].split(";") if x]
         for body_id in links:
             assert body_id in bodies_by_id, f"Unmapped body ID {body_id}"
-            assert bodies_by_id[body_id]["area_m49"] == c["m49_code"], (
+            assert (bodies_by_id[body_id]["area_m49"] == c["m49_code"]
+                    or (body_id, c["m49_code"]) in scope_keys), (
                 f"Cross-area body ID mismatch: {body_id}")
         if c["health_authority_resolution"] == "OFFICIAL_AUTHORITY_IDENTIFIED":
             verified += 1
@@ -127,6 +141,7 @@ def verify():
     print(f"PASS: {len(bodies)} separately identified government health bodies; "
           f"{len(relations)} sourced relationships")
     print(f"PASS: {len(coverage)} coverage records; {len(provenance)} provenance rows")
+    print(f"PASS: {len(area_scope)} explicit shared-authority area mappings")
     print("PASS: region totals, reference integrity, source fields and complex-jurisdiction sentinels")
     print("LIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date")
 
