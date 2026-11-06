@@ -1,0 +1,77 @@
+{
+  "batch": 51,
+  "checked_utc": "2026-11-06",
+  "repo": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "pre_batch_head": "f37804da43cac49cde8e30a623185f67ba5a83ff",
+  "immutable_data_head": "4e628676afc0a13fe8b2855dbf9704d95a9c0c41",
+  "change_commits": [
+    "a53618ad548c359ad62e079dfdd94449cd2448c7",
+    "96ba8ea0797d7fab01771475e464b7eb3b482330",
+    "4e628676afc0a13fe8b2855dbf9704d95a9c0c41"
+  ],
+  "immutable_blobs": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+    "data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+    "data/government_health_bodies.csv": "1ff2feb1fe1464bed3c31acac2b5ff4cae24a024",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "ac48ef40624e65fab24712a4124c525c918aaa4a",
+    "PROVENANCE.csv": "34a5785e31898799810a0c62e2d10a0e350c835a"
+  },
+  "counts": {
+    "official_m49": 248,
+    "country_skeletons": 248,
+    "provisional_identity_areas": 231,
+    "unknown_areas": 17,
+    "body_identity_rows": 318,
+    "relationships": 45,
+    "shared_area_scopes": 4,
+    "coverage_rows": 248,
+    "source_observations": 688,
+    "previous_sources": 684,
+    "global_unscoped_provenance": 3
+  },
+  "structural_validation": {
+    "status": "PASS",
+    "method": "Complete eight-CSV quote-aware GitHub connector JS mirror of validate.py rules; not actual Python execution",
+    "checks": [
+      "all eight CSVs re-fetched by immutable exact data commit with Git blob hashes",
+      "248 official M49 code and ISO/name/region/subregion equality; region distribution and sentinel controls",
+      "all body links, narrow cross-area scopes, relationship endpoints, HTTPS and required source state fields",
+      "231 provisional identity records and 17 explicit unknown, 248 aligned coverage, exact 17 audit source references",
+      "688 unique source IDs, 684 older provenance entries exact string prefix, only 624 unresolved audit modified and other 16 unchanged",
+      "three changed paths exactly Team A directory; every new write readback exact"
+    ],
+    "python_validator": "NOT RUN: local github.com DNS resolution failed during this batch; last recorded actual run Batch41",
+    "python_tests": "NOT RUN: same local checkout constraint; five regression cases last actually run Batch41",
+    "signed_current_health_law": "NOT VERIFIED; current all-level mandate acceptance incomplete and not measured",
+    "clinical_approval": "NOT APPROVED"
+  },
+  "sources": [
+    {
+      "id": "A51-624-01",
+      "state": "original government-issued Gazette printed PDF mirrored by FAOLEX; 2 pages visually checked; limited decree"
+    },
+    {
+      "id": "A51-624-02",
+      "state": "INASA agency own-indexed page, direct open timeout, undated self-description"
+    },
+    {
+      "id": "A51-624-03",
+      "state": "non-government partner, secondary pointers to 2010 original Gazette not retrieved"
+    },
+    {
+      "id": "A51-624-04",
+      "state": "INASA-authored 2024 policy PDF extracted text; screenshot timeout; same INASA issuer"
+    }
+  ],
+  "changed_paths": [
+    "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+    "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+    "docs/atlas/handoffs/team-a/source_recovery/CYCLE_624_GUINEA_BISSAU_BOE_INASA_20261106.md"
+  ],
+  "interpretation": "Health development plan formally published in 2025 is an original narrow Cabinet act; INASA self-description and secondary 2010 founding statute leads do not establish comprehensive current MINSAP / devolved / regulator legal authority. 624 remains UNKNOWN."
+}
