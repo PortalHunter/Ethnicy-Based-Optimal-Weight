@@ -1,0 +1,68 @@
+{
+  "batch": 43,
+  "checked_utc": "2026-11-06",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "initial_documentation_head": "448f4ad18e26b533b978bd1fe0910dfedae59189",
+  "baseline_batch42_data_commit": "2970560f8789ed73cf60c4658a60f93ae21e9881",
+  "immutable_batch43_data_commit": "1514456bd58dcbfa8649ac779517d0cdb8c0cce1",
+  "research_commits": [
+    {
+      "sha": "5124ca121b5d3005403982e49f3761a39c8df0e1",
+      "change": "Standalone source-specific 744 §29e and Nov research reform legal note"
+    },
+    {
+      "sha": "d3853610f6f51798347a1843f8ce52244a477f4a",
+      "change": "5 distinct dated source-state observations A43-744-01..05"
+    },
+    {
+      "sha": "1514456bd58dcbfa8649ac779517d0cdb8c0cce1",
+      "change": "Append 744 unresolved audit with exact source IDs; preserve other 16"
+    }
+  ],
+  "counts": {
+    "official_m49": 248,
+    "country_skeletons": 248,
+    "government_body_identity_areas": 231,
+    "documented_unknown": 17,
+    "bodies": 318,
+    "relationships": 45,
+    "shared_scope_links": 4,
+    "coverage": 248,
+    "provenance": 660
+  },
+  "immutable_blob_shas": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+    "data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+    "data/government_health_bodies.csv": "1ff2feb1fe1464bed3c31acac2b5ff4cae24a024",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "d6b4b481f9c8d24e03c2388e275d45ce1cf0596c",
+    "PROVENANCE.csv": "ab06abfc64ee5d0a0dc46684560c1b46c08c2032"
+  },
+  "independent_structural_audit": {
+    "all_eight_immutable_csv_readbacks": "PASS",
+    "quote_aware_8_csv_schema_and_row_width": "PASS",
+    "official_M49_exact_ISO_name_regions": "PASS",
+    "all_country_body_provenance_scope_keys_unique": "PASS",
+    "all_country_and_area_scope_links_valid": "PASS",
+    "all_relationship_and_audit_source_refs_resolve": "PASS",
+    "17_unknown_231_identified_aligned_to_coverage": "PASS",
+    "A43_5_source_ids_and_744_audit_added": "PASS",
+    "16_other_unknown_audit_rows_semantically_unchanged": "PASS",
+    "original_655_provenance_rows_preserved_exact_content_as_prefix": "PASS",
+    "all_parent_country_m49_blank": "PASS",
+    "initial_head_to_data_commit": "3 commits; 3 Team A files only",
+    "pr_at_data_commit": "OPEN DRAFT UNMERGED"
+  },
+  "limitations": [
+    "Actual python validate.py and 5 unittest regression tests not executed Batch43; container failed git ls-remote because github.com DNS unavailable. Independent JS structural QA is not those tests.",
+    "Lovdata indexed FOR-2026-06-15-1084 but direct original LTI page returned HTTP 405; full current 2015-747 not authenticated.",
+    "§29e confidentiality-dispensation and 1 Nov 2026 register study preapproval law are different; national reform may not automatically apply across Svalbard and Jan Mayen.",
+    "Only source and authority identities shown, not exhaustive current legal/independent/devolved/territorial power verification; 17 unknown areas remain and 231 identities preliminary.",
+    "No production, clinical/patient, ancestry/weight, other-team, main, PR ready or merge changes."
+  ],
+  "source_note": "source_recovery/CYCLE_744_REK_29E_NOVEMBER_LAW_20261106.md"
+}
