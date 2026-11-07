@@ -5,18 +5,18 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "34e1033140aa968d5459865ff8ff80219b68cc2a",
-  "batch": "94",
+  "validated_data_commit": "ab10448e76e63654038bb92f05a4fa0ef8d22e42",
+  "batch": "98",
   "metrics": {
-    "organizations": 496,
+    "organizations": 501,
     "areas": 227,
-    "resources": 423,
-    "positive": 382,
-    "without_linked_source": 1354,
-    "targeted_no_source": 175,
-    "unresearched": 1179,
-    "provenance": 1134,
-    "search_log": 656,
+    "resources": 432,
+    "positive": 388,
+    "without_linked_source": 1348,
+    "targeted_no_source": 194,
+    "unresearched": 1154,
+    "provenance": 1171,
+    "search_log": 695,
     "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
@@ -26,39 +26,39 @@
       "hypertension": 75,
       "high_chol": 48,
       "gout": 41,
-      "lactose": 34,
-      "celiac": 50,
-      "hemochromatosis": 24
+      "lactose": 37,
+      "celiac": 52,
+      "hemochromatosis": 25
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organizations": 0,
+    "organizations": 3,
     "locally_reached_new_m49_areas": 0,
-    "resources": 0,
-    "positive_cells": 0,
-    "bounded_no_source_cells": 0,
-    "previously_untouched_cells_targeted": 0,
-    "provenance": 0,
-    "searches": 0,
+    "resources": 2,
+    "positive_cells": 1,
+    "bounded_no_source_cells": 5,
+    "previously_untouched_cells_targeted": 6,
+    "provenance": 6,
+    "searches": 10,
     "issuer_imprints_resolved": 0,
-    "quality_source_audits_added": 10,
-    "quality_depth_audits_added": 0,
+    "quality_source_audits_added": 8,
+    "quality_depth_audits_added": 7,
     "quality_tiers_added": {
-      "S1": 0,
-      "S2": 6,
-      "H": 0,
-      "M": 4,
-      "U": 0
+      "S1": 1,
+      "S2": 4,
+      "H": 1,
+      "M": 1,
+      "U": 1
     }
   },
-  "validation_runtime": "independent_JS_structural_0_errors_13_of_13_immutable_tree_matches_GitHub_Actions_2_success_actual_Node_CLI_NOT_RUN",
+  "validation_runtime": "B98 independent JS 0 errors; 171 nontruncated Git tree and 17/17 SHA-to-tree immutable readbacks; original Node CLI NOT RUN due git DNS; Population CI success, Calculator CI in progress",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "367 individually unaudited original source URLs, including FACE/AFDIAG/Japanese guideline and Chile registration originals separated from metadata-only indexes",
-    "1179 untouched condition-area cells and 175 source-unlinked, including 171 without current active D2, rotate low-covered conditions",
-    "21 M49 local organizational identity gaps and 5 original issuer imprints, Peru gout/Morocco diabetes M-only unresolved, medical/legal/rights separate"
+    "342 original-source URLs individually unaudited, including 1 Austria FH U direct 503 and Czech celiac brochure index M; risk-prioritized originals first",
+    "1,154 untouched; 194 searched unlinked with 182 missing active D2; 21 local M49 identity gaps; five issuer imprints",
+    "Peru gout still M-only, Morocco historical congress metadata M preserved despite new original 2023 ANAM collaboration S1; no medical or rights approvals"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -72,7 +72,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch 94: ten exact original URL audits (S2 +6, M +4), structural data totals unchanged. Immutable 161-entry data tree 05a335fbc49dbf7b0878dcced4944fe291460aab; 13/13 GitHub SHA matches, independent JS 0 errors, actual Node CLI NOT RUN (git DNS), both Actions success.",
+  "validated_data_commit_note": "Batch98 primary data ab10448e; 501 org, 388 raw, 194 searched, 1154 untouched, 432 contexts/90 individual audits/57 qualified cells. 17/17 immutable readbacks, JS 0 errors, Node CLI NOT RUN. See BATCH_98_CHECKPOINT.md",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -3164,5 +3164,43 @@
     "readback_matched": 13,
     "node_cli_run": false,
     "github_actions_success": 2
+  },
+  "batch_98": {
+    "date": "2026-11-07",
+    "data_sha": "ab10448e76e63654038bb92f05a4fa0ef8d22e42",
+    "data_tree_sha": "9af903809f3cefdc43857cb9a81db417b80a86ba",
+    "checkpoint": "BATCH_98_CHECKPOINT.md",
+    "pr_state_at_data": "open_draft_unmerged",
+    "source_audits": 8,
+    "eligible_original_urls": 58,
+    "distinct_qualified_cells": 57,
+    "source_tiers": {
+      "S1": 10,
+      "S2": 41,
+      "H": 7,
+      "M": 30,
+      "U": 2
+    },
+    "depth_tiers": {
+      "D1": 16,
+      "D2": 12,
+      "D3": 0
+    },
+    "worklists": {
+      "cells": 1736,
+      "sources": 432,
+      "identity": 522
+    },
+    "unreviewed": 342,
+    "source_missing_depth_D2": 182,
+    "original_acceptance": "INCOMPLETE",
+    "community": 10,
+    "cross_border": 8,
+    "node_cli": "NOT RUN",
+    "js_structural_errors": 0,
+    "immutable_blob_tree_readbacks": "17/17",
+    "ci_population": "success",
+    "ci_calculator": "in_progress",
+    "approved_clinical_or_rights": 0
   }
 }
