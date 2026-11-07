@@ -1,0 +1,76 @@
+{
+  "batch": 52,
+  "checked_utc": "2026-11-06",
+  "repo": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "pre_batch_head": "40a4fe9a531f83b09961db5adb9f1cbd8a3e162b",
+  "immutable_data_head": "c918f03e053605cde57920dbc551f69a86b3965c",
+  "change_commits": [
+    "d101814666674f8c56ebf733c48d03a923efc36b",
+    "648dc8ab18c7143c99c415284666848dcfb241bd",
+    "c918f03e053605cde57920dbc551f69a86b3965c"
+  ],
+  "immutable_blobs": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+    "data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+    "data/government_health_bodies.csv": "1ff2feb1fe1464bed3c31acac2b5ff4cae24a024",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6dd62fbd54e9140",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "3acb5417a3e9b424c09d7a4e65772c2030292481",
+    "PROVENANCE.csv": "898feee598810c82850a9605c18c47122c3b606e"
+  },
+  "counts": {
+    "official_m49": 248,
+    "country_skeletons": 248,
+    "provisional_identity_areas": 231,
+    "unknown_areas": 17,
+    "body_identity_rows": 318,
+    "relationships": 45,
+    "shared_area_scopes": 4,
+    "coverage_rows": 248,
+    "source_observations": 691,
+    "previous_sources": 688,
+    "appended_sources": 3,
+    "global_unscoped_provenance": 3
+  },
+  "structural_validation": {
+    "status": "PASS",
+    "method": "Independent GitHub connector eight-CSV quote-aware JavaScript mirror of validate.py invariants; NOT execution of repository Python",
+    "checks": [
+      "All eight full CSVs fetched at exact immutable DATA commit and recorded current Git blob hashes",
+      "Exact 248 M49 keys names ISO alpha2 alpha3 region and subregion matches; region totals and negative jurisdiction controls",
+      "Resolved vs UNKNOWN split 231/17 and every audit key linked to a source ID",
+      "318 body URLs local-name flags scope IDs and 45 relationships, four explicitly sourced shared areas",
+      "691 unique HTTPS dated issuer-state provenance observations, 688 old rows byte-identical prefix",
+      "Original 16/17 unaffected UNKNOWN audits byte-identical; 010 and 624 audited separately",
+      "Pre-batch-to-data diff 3 commits and exactly three Team A paths",
+      "Four rejection-style in-memory invariant controls and current-directory positive control: PASS"
+    ],
+    "python_validator": "NOT RUN Batch52: container GitHub DNS resolution failure (git ls-remote could not resolve github.com); most recent actual Python validation recorded Batch41",
+    "python_tests": "NOT RUN Batch52: same local checkout constraint; JS negative invariants are not Python unittests",
+    "legal_status": "UNVERIFIED comprehensive current signed domestic health powers and issuing independence; full acceptance NOT MEASURED / INCOMPLETE",
+    "clinical_approval": "NONE"
+  },
+  "sources": [
+    {
+      "id": "A52-010-01",
+      "state": "ATS-hosted original historical Treaty PDF text checked, screenshot unsupported; narrow Article VIII persons not area-wide health power"
+    },
+    {
+      "id": "A52-010-02",
+      "state": "UK governmental independent publisher transcription; same treaty legal issuer not second law"
+    },
+    {
+      "id": "A52-624-01",
+      "state": "IANPHI English historical INASA statutes reproduction; translated third-party non-official, relevant pages visually inspected, 2010 original BOE and 2026 amendments unavailable"
+    }
+  ],
+  "changed_paths": [
+    "docs/atlas/handoffs/team-a/source_recovery/CYCLE_010_624_TREATY_AND_INASA_STATUTES_20261106.md",
+    "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+    "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv"
+  ],
+  "interpretation": "010 and 624 remain UNKNOWN. Legal source state, original issuance and scope are unchanged; historical text and person-specific Treaty jurisdiction must not be promoted to sole 2026 health authority."
+}

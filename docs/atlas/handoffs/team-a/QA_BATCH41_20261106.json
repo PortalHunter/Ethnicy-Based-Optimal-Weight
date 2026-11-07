@@ -1,0 +1,188 @@
+{
+  "baseline_sha": "431bb2566ff7c1b2f703c0c3b1b5542f744b78bb",
+  "data_sha": "8920d236fb6054aec1ab4074f8e747b441287c59",
+  "checked_utc": "2026-11-06",
+  "cycles": [
+    {
+      "cycle": 1,
+      "commit": "d8467e5615723e2e879c97206a48886ae4adca86"
+    },
+    {
+      "cycle": 2,
+      "commit": "9f2457e9b0b70a45cc64a05164530d88d2e17059"
+    },
+    {
+      "cycle": 3,
+      "commit": "ded06de807d304de712b37de817aa3e7aac6b0bf"
+    },
+    {
+      "cycle": 4,
+      "commit": "a5e27079fcc2a0f93bc95611579362d3a14cde9a"
+    },
+    {
+      "cycle": 5,
+      "commit": "37e99a6e438bcc4136d9568d0d4e83c317c7c469"
+    },
+    {
+      "cycle": 6,
+      "commit": "8920d236fb6054aec1ab4074f8e747b441287c59"
+    }
+  ],
+  "counts": {
+    "areas": 248,
+    "scoped_identity_areas": 231,
+    "unknown_areas": 17,
+    "bodies": 312,
+    "relationships": 45,
+    "provenance": 643,
+    "coverage": 248,
+    "shared_area_mappings": 4
+  },
+  "immutable_connector_blob_hash_matches": [
+    {
+      "path": "docs/atlas/handoffs/team-a/M49_OFFICIAL_SNAPSHOT_20261105.csv",
+      "blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+      "blob_sha": "3427bc729f4d07fcad87e9c2bd92027a272df31d"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/data/authority_area_scope.csv",
+      "blob_sha": "4d9b3418845eb40e38d31925c033dffe104c6d44"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/data/authority_relationships.csv",
+      "blob_sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/data/countries.csv",
+      "blob_sha": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+      "blob_sha": "b54dda5d655f01d2ec311db22d07b17676f51032"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+      "blob_sha": "b40016875a48a78b3fce679802d925a617b88048"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+      "blob_sha": "c4045e1a5cdb7bc60ec2d6035ce502d85bb1b686"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/test_validate.py",
+      "blob_sha": "f41c6ed5dcb0ababcbe4f7bb717dc32d776d9112"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/validate.py",
+      "blob_sha": "0528740202cb0e354d2ef8f6d5a838f953d60713"
+    }
+  ],
+  "preservation": {
+    "original_provenance_rows_unchanged": 623,
+    "appended": 20,
+    "unresolved_augmented": 6,
+    "other_unresolved_unchanged": 11
+  },
+  "python_validator": "PASS baseline and each of six cycles",
+  "unittest": "PASS five tests baseline and each of six cycles",
+  "scope_comparison": {
+    "repository_full_name": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+    "base": "431bb2566ff7c1b2f703c0c3b1b5542f744b78bb",
+    "head": "8920d236fb6054aec1ab4074f8e747b441287c59",
+    "status": "ahead",
+    "ahead_by": 6,
+    "behind_by": 0,
+    "total_commits": 6,
+    "too_large": null,
+    "base_commit": {
+      "sha": "431bb2566ff7c1b2f703c0c3b1b5542f744b78bb",
+      "url": "https://api.github.com/repos/PortalHunter/Ethnicy-Based-Optimal-Weight/commits/431bb2566ff7c1b2f703c0c3b1b5542f744b78bb",
+      "html_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/431bb2566ff7c1b2f703c0c3b1b5542f744b78bb"
+    },
+    "merge_base_commit": {
+      "sha": "431bb2566ff7c1b2f703c0c3b1b5542f744b78bb",
+      "url": "https://api.github.com/repos/PortalHunter/Ethnicy-Based-Optimal-Weight/commits/431bb2566ff7c1b2f703c0c3b1b5542f744b78bb",
+      "html_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/431bb2566ff7c1b2f703c0c3b1b5542f744b78bb"
+    },
+    "files": [
+      {
+        "filename": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+        "status": "modified",
+        "additions": 20,
+        "deletions": 0,
+        "changes": 20,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 6,
+        "changes": 12,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/atlas/handoffs/team-a/source_recovery/CYCLE_074_HEALTH_LAW_EXTENSION_20261106.md",
+        "status": "added",
+        "additions": 25,
+        "deletions": 0,
+        "changes": 25,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/atlas/handoffs/team-a/source_recovery/CYCLE_112_ENABLING_REGULATION_20261106.md",
+        "status": "added",
+        "additions": 21,
+        "deletions": 0,
+        "changes": 21,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/atlas/handoffs/team-a/source_recovery/CYCLE_260_HEALTH_CODE_20261106.md",
+        "status": "added",
+        "additions": 27,
+        "deletions": 0,
+        "changes": 27,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/atlas/handoffs/team-a/source_recovery/CYCLE_334_APPLIED_LAW_20261106.md",
+        "status": "added",
+        "additions": 25,
+        "deletions": 0,
+        "changes": 25,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/atlas/handoffs/team-a/source_recovery/CYCLE_581_COMPONENT_JURISDICTIONS_20261106.md",
+        "status": "added",
+        "additions": 34,
+        "deletions": 0,
+        "changes": 34,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/atlas/handoffs/team-a/source_recovery/CYCLE_744_LAW_VERSION_20261106.md",
+        "status": "added",
+        "additions": 23,
+        "deletions": 0,
+        "changes": 23,
+        "previous_filename": null
+      }
+    ]
+  },
+  "pr_state": {
+    "state": "open",
+    "draft": true,
+    "merged": false,
+    "head": "8920d236fb6054aec1ab4074f8e747b441287c59"
+  },
+  "limitations": [
+    "Structural integrity does not certify current enacted health competence",
+    "Direct legal source failures retained; indexed and historical sources explicitly qualified",
+    "All 17 unresolved statuses retained; complete legal and subnational acceptance remains incomplete"
+  ]
+}

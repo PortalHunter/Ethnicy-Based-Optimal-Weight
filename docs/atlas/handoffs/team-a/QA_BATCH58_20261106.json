@@ -1,0 +1,73 @@
+{
+  "batch": 58,
+  "checked_utc": "2026-11-06",
+  "immutable_data_sha": "e51a2f6fb478533579f3efd99555cd966ad42472",
+  "pre_run_sha": "b226884f9db6a83dca45f387bb8ece437997cf63",
+  "check_type": "independent complete quote-aware JavaScript mirror of exact GitHub blob readbacks; NOT repository Python validation",
+  "result": "PASS_STRUCTURAL_ONLY",
+  "actual_python_validator": "NOT_RUN_GITHUB_DNS",
+  "actual_python_unittests": "NOT_RUN_GITHUB_DNS",
+  "github_clone_error": "Could not resolve host: github.com",
+  "counts": {
+    "m49": 248,
+    "provisional_authority_identities": 231,
+    "unknown_identities": 17,
+    "bodies": 318,
+    "relationships": 45,
+    "shared_scopes": 4,
+    "provenance": 717,
+    "added_sources": 8,
+    "ledger_partial": 15,
+    "ledger_unscored": 233,
+    "queue_evidence_unresolved": 15,
+    "legal_research_complete": 0
+  },
+  "validation": {
+    "passed_checks": 18,
+    "rejected_negative_controls": 5,
+    "items": [
+      "248 M49 exact official dates and names",
+      "body and cross-area relationships",
+      "provenance unique IDs, source metadata, HTTPS URLs",
+      "original country/coverage status consistency",
+      "17 UNKNOWN audit links",
+      "ledger 248 sources, stages, evidence and no premature completion",
+      "248 queue state/priority/lane links",
+      "data-only diff path confinement",
+      "live PR open draft unmerged",
+      "source ID A58 uniqueness"
+    ],
+    "negative_controls": [
+      "duplicate provenance source ID",
+      "unscoped cross-area authority ID",
+      "nonexistent legal provenance source ID",
+      "premature legally completed Bahrain record",
+      "wrong UNKNOWN queue lane"
+    ]
+  },
+  "data_paths_changed": [
+    "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+    "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+    "docs/atlas/handoffs/team-a/data/research_queue.csv",
+    "docs/atlas/handoffs/team-a/source_recovery/CYCLE_A58_032_048_581_ORIGINAL_LAW_TRIAGE_20261106.md"
+  ],
+  "blob_shas": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "PROVENANCE.csv": "5d1aeda81fff1e84a7ae7e97c1786522aa683d9f",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/countries.csv": "32a868a700db0223dfc56bf7549866a1e0eadd1f",
+    "data/country_coverage.csv": "e4ade0148ef9b3f8767f02956335763d44d06d38",
+    "data/government_health_bodies.csv": "456ac0b737f0b963fabfcda9836b000dfe8c5b9b",
+    "data/legal_verification_ledger.csv": "528ef3427c7f231d49dd2858b7355a18859e56dd",
+    "data/research_queue.csv": "5115bf4fdc530366966303096719d60f602931e9",
+    "data/unresolved_area_audit.csv": "4819ffb4792f1deaba522b81653709cbf35d522d"
+  },
+  "limitations": [
+    "Structural QA does not certify substantive legal accuracy, current mandate or clinical safety",
+    "Bahrain 2009/2015/2023/2026 indexed official Arabic text failed direct open HTTP403; no full enactment certified",
+    "Argentine presidential DNUs are executive same issuing family and parliamentary review not checked",
+    "581 Wake editorial eCFR and annual CFR not post-Nov4 exhaustive nor other eight island mandates",
+    "All new source rows and workflow reviews are provisional"
+  ]
+}
