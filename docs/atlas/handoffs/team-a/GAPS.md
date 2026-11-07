@@ -1,3 +1,9 @@
+## CURRENT — Batch67 legal evidence gap analysis (2026-11-07)
+
+[Standalone checkpoint](CHECKPOINT_20261107_BATCH67.md) · [exact ten-file structural QA](QA_BATCH67_20261107.json). Priority statutory gaps: **072 Botswana** find actual original Gazette commencement appointments for Public Health Act No11/2013 and Medicines Act No29/2025; 2026 regulator General/Fees regulations were described as DRAFT in August, not enacted source. **090 Solomon Islands** official as-at Feb 2024 Health Services Cap100 reprint leaves 2025/2026 amendment chain and actual provincial/Honiara powers, medicines/professions/surveillance unproved. **010 Antarctica** ACT Public Health Act R45 applies in ACT but no independently demonstrated AAT application to stations/persons or non-Australian operators: maintain UNKNOWN. Existing P0 **624/226/581/744** and remaining 12 unknown remain priority; rotate untouched legal items in 222 UNSCORED across regions. No authority promotion. **0/248 full legal research-complete and no legal/clinical approval**, 26/248 partial legal review workflow only (+2), 222/248 unscored (-2), 744 provenance (+5). No Python execution; exact-data quote-aware 32 positives / 7 negatives PASS; branch/PR stays draft unmerged.
+
+---
+
 ## CURRENT Batch66 remaining gaps (2026-11-07; legal acceptance incomplete)
 
 - **052 Barbados:** original official 1969 Health Services Cap44 updated LRO2002 §§3–4 supports historic ministerial policy/district enabling functions. **Need 2003–2026 amendments and actual 2026 district delegation orders**, health-professional/medicines regulator original law, institute and municipal powers and independently issuing statutes. See [source note](source_recovery/CYCLE_A66_052_064_744_ORIGINAL_LAW_TRIAGE_20261107.md).
