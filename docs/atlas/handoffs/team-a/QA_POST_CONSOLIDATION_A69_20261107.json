@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-07",
+  "phase": "A69 post-consolidation original-acceptance-driven primary-source research, not another consolidation",
+  "repo": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "base_head": "be790ce4862af6780ea1175e8c522bdb8a8289a3",
+  "immutable_data_commit": "a5cf9ea04add6b991028b5b2a24eb6c9c768c87b",
+  "method": "GitHub connector fetched all 12 original+derived complete CSV files at immutable data commit. Independently parsed quote-aware CSV, compared all 248 area keys and legal ledger/queue/derived indexes, checked provenance IDs, institutional edges, shared scopes, UNKNOWN original audit and exceptions. This is structural/reference QA, not native Python, expert law or clinical validation.",
+  "native_python_validator": "NOT RUN — no authorized complete checkout; local git github.com DNS unavailable",
+  "native_unittests": "NOT RUN — no authorized complete checkout; local git github.com DNS unavailable",
+  "files": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": {
+      "rows": 248,
+      "blob": "bccc48eae6c7dfec6c542080a6682804a5c92f52"
+    },
+    "data/countries.csv": {
+      "rows": 248,
+      "blob": "32a868a700db0223dfc56bf7549866a1e0eadd1f"
+    },
+    "data/country_coverage.csv": {
+      "rows": 248,
+      "blob": "e4ade0148ef9b3f8767f02956335763d44d06d38"
+    },
+    "PROVENANCE.csv": {
+      "rows": 750,
+      "blob": "b9ad02761fef7a8ea791d03100056cc648353e5a"
+    },
+    "data/legal_verification_ledger.csv": {
+      "rows": 248,
+      "blob": "662022231c68fa1bc2f8501827129019b0ca62af"
+    },
+    "data/research_queue.csv": {
+      "rows": 248,
+      "blob": "b44bc8cf484372a6dfa189d9ef9a14d7155f64a8"
+    },
+    "RECONCILED_INVENTORY_20261107.csv": {
+      "rows": 248,
+      "blob": "6c9f045132c60ba678a9c27145f7fec65b29fe30"
+    },
+    "PRIORITIZED_BACKLOG_20261107.csv": {
+      "rows": 248,
+      "blob": "5097b4ba942eb5bb940c935e189053010bd0a7e5"
+    },
+    "data/unresolved_area_audit.csv": {
+      "rows": 17,
+      "blob": "8ff43285fb7f00cea8c0b1f2b761b26d94f1e51c"
+    },
+    "data/government_health_bodies.csv": {
+      "rows": 318,
+      "blob": "456ac0b737f0b963fabfcda9836b000dfe8c5b9b"
+    },
+    "data/authority_area_scope.csv": {
+      "rows": 4,
+      "blob": "4d9b3418845eb40e38d31925c033dffe104c6d44"
+    },
+    "data/authority_relationships.csv": {
+      "rows": 45,
+      "blob": "4844ba36b45f9ce6dd38870c6dd62fbd54e9140"
+    }
+  },
+  "checks": [
+    {
+      "name": "12 complete quote-aware CSV readbacks at immutable GitHub SHA",
+      "status": "PASS"
+    },
+    {
+      "name": "248 unique official M49 keys in countries, country coverage, legal ledger, queue, inventory, backlog",
+      "status": "PASS"
+    },
+    {
+      "name": "750 unique append-only provenance IDs and all verified legal source IDs resolve",
+      "status": "PASS"
+    },
+    {
+      "name": "318 unique governmental body IDs, 45 valid relationship endpoints, four scoped shares and 17 explicitly UNKNOWN area audits",
+      "status": "PASS"
+    },
+    {
+      "name": "Every 248 row legal dimension, source-supported count, incomplete-status count, remaining count and exact eight-dimension backlog join",
+      "status": "PASS"
+    },
+    {
+      "name": "All 248 provenance count, URL uniqueness and source list joins checked, including 652/663 inherited 312 shared-scope sources",
+      "status": "PASS"
+    },
+    {
+      "name": "All 17 UNKNOWN backlog first actions correspond to canonical unresolved-area audit, not generic research queue",
+      "status": "PASS"
+    },
+    {
+      "name": "Bahamas 044 signed S.I.18/2026 independently evidenced; only dental-regulation and 1-Apr-2026 commencement dimensions promoted",
+      "status": "PASS"
+    },
+    {
+      "name": "Bhutan 064 original 2003 parent tied to ID but no unsupported 2022-26 successor legal promotion",
+      "status": "PASS"
+    },
+    {
+      "name": "Botswana 072 draft does not promote on-notice Acts, and Solomon 090 post-2024 current amendment remains unpromoted",
+      "status": "PASS"
+    },
+    {
+      "name": "A69 counts: 750 provenance, 28 PARTIAL, 220 UNSCORED, 0 all-tier complete; 1797 NOT_TRIAGED, 130 RESEARCHED_INCOMPLETE, 55 SOURCE_SUPPORTED, 2 CONFLICT_UNRESOLVED",
+      "status": "PASS"
+    },
+    {
+      "name": "First over-strict mirror found 19 historic expected exceptions (17 UNKNOWN action override; two 652/663 shared-scope provenance inheritances); corrected semantic rules independently reaudited zero failures",
+      "status": "PASS"
+    }
+  ],
+  "before_after": {
+    "M49": [
+      248,
+      248
+    ],
+    "documented_disposition": [
+      248,
+      248
+    ],
+    "provisional_principal": [
+      231,
+      231
+    ],
+    "explicit_unknown": [
+      17,
+      17
+    ],
+    "government_bodies": [
+      318,
+      318
+    ],
+    "relationships": [
+      45,
+      45
+    ],
+    "scoped_shares": [
+      4,
+      4
+    ],
+    "provenance": [
+      748,
+      750
+    ],
+    "partial_legal": [
+      28,
+      28
+    ],
+    "unscored_legal": [
+      220,
+      220
+    ],
+    "narrow_source_supported_cells": [
+      53,
+      55
+    ],
+    "researched_incomplete_cells": [
+      132,
+      130
+    ],
+    "all_tier_legal_research_complete": [
+      0,
+      0
+    ]
+  },
+  "original_acceptance": {
+    "M49": "248/248 structural",
+    "documented_disposition": "248/248 (231 provisional and 17 UNKNOWN)",
+    "independently_issuing_sources_claim_denominator": "NOT FULLY ENUMERATED",
+    "representative_semantic_case_checks": "SIX BOUNDED (044, 064, 090, 072, 056, 048), not all passing",
+    "global_original_semantic_acceptance": "NOT COMPLETE"
+  },
+  "blocked_named_original_instruments": [
+    "072 Botswana Gazette appointed day Public Health Act11/2013",
+    "072 Botswana Gazette appointed day Medicines Act29/2025",
+    "090 Solomon Islands original post-2024 Cap100 amendments/provincial-Honiara delegations",
+    "064 Bhutan signed 2022-26 successor Medicines Board constitution/delegation"
+  ],
+  "approved_legal_claims": false,
+  "approved_clinical_claims": false,
+  "pr_must_remain_open_draft_unmerged": true,
+  "limitations": [
+    "The new Bahamas primary Gazette instrument was visually verified; Bhutan OAG original law was text-read but PDF screenshot path returned HTTP404.",
+    "Original source independence for all delegated/renamed/disputed claims NOT fully enumerated or reproduced; no full original-acceptance signoff.",
+    "Structural checks do not establish operative 2026 law, all-tier duties, legal advice or clinical approval."
+  ]
+}
