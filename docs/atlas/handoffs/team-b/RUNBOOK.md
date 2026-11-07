@@ -1,3 +1,5 @@
+> **2026-11-07 current-state consolidation:** Start from [CURRENT.md](CURRENT.md), [CONSOLIDATION_2026-11-07.md](CONSOLIDATION_2026-11-07.md) and the linked machine worklists; read historical `BATCH_*`, `GAPS.md`, `VALIDATION.md` and long `CONTINUE.md` **only when resolving a source-specific conflict**. This overrides earlier instructions to reread entire archives each run. Original evidence quality and scope rules remain binding. No discovery batch or clinical approval is implied.
+
 # Research Team B — durable execution runbook (v2, 2026-11-06)
 
 **Authoritative execution instructions for future Team B research runs.** Start here, then [QUEUE.md](QUEUE.md), [CONTINUE.md](CONTINUE.md), [CHECKPOINT.json](CHECKPOINT.json), the newest `BATCH_*_CHECKPOINT.md`, [QUALITY_AND_COMPLETION.md](QUALITY_AND_COMPLETION.md), [GAPS.md](GAPS.md) and [VALIDATION.md](VALIDATION.md). The previous long prompts embedded in historical `CONTINUE.md` sections are preserved as history, **not** competing instructions. Always use live GitHub data, not a remembered batch number.
