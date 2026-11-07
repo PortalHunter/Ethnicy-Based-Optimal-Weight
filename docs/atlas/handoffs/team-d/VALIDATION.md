@@ -1,3 +1,11 @@
+## Six-cycle Batches 50–55 targeted validation — 2026-11-06
+
+[Full standalone checkpoint](CHECKPOINT_BATCH_55_2026-11-06.md). Verified directly against GitHub branch readbacks: **21** unique case-review records across six append-only CSVs (cycle sizes 3/5/3/4/3/3), every source ID/URL and nonempty M49 joins, **313** unique provenance URLs/IDs (+15), valid CSV widths, 249 M49 statuses with 205 WHO current direct regions/44 unverified, 105 April affirmative survey hosts, 34 EMA NCA candidates/71 source-scoped role observations, 47 network nodes/619 typed edges, 20 institutional condition refs, and **0** full regulator amended law/delegation/exact Team A packets. Targeted checks **PASS**. All 15 current provenance-length assertions in `validate.mjs` were updated to 313 and six-case-file strict structural joins added; validator update GitHub readback **PASS** at [afd081fe](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/afd081fe8bc6250900e0d6640e803b97e7fca025).
+
+**FULL CURRENT-SNAPSHOT CHECKED-IN NODE VALIDATOR NOT RUN.** Native `git ls-remote` for the repository failed DNS (`Could not resolve host: github.com`), preventing authorized checkout. No complete V8 shim, GitHub Actions, original-law audit, independent legal/scientific/clinical appraisal or maintainer signoff may be inferred. Case-specific official PDF screenshots unavailable where noted; direct indexed text is not always visual inspection. Keep PR #70 OPEN/DRAFT/UNMERGED.
+
+---
+
 ## Batch 49 validation status (2026-11-06)
 
 At research SHA `525e9346da5e901e387b545e9b569beac2975dae`, targeted **CSV widths, IDs, provenance URL uniqueness, case-to-source joins, WHO M49 and queue invariants, office host and NCA counters** were checked from GitHub file readbacks: **PASS**. GitHub compare showed exactly five Team D-only paths. `validate.mjs` was updated to 298 provenance URLs and Batch49 assertions, **but full current checked-in Node validator WAS NOT RUN**: installed local Node could not retrieve authorized checkout because `github.com` DNS resolution failed. Do not claim native Node, complete V8 shim, GitHub Actions, legal, scientific, clinical or maintainer validation. Checkpoint: [Batch 49](CHECKPOINT_BATCH_49_2026-11-06.md).
