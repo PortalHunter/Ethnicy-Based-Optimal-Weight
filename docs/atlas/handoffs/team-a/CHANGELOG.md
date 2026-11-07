@@ -1,3 +1,11 @@
+## 2026-11-07 — Team A Batch66 052/064/744 original-source legal review; standalone audited checkpoint
+
+- **DATA** [`2e50af630f09a0c2cd7641be79b69a162def0f81`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/2e50af630f09a0c2cd7641be79b69a162def0f81) changes exactly five Team A files (source note, 4 research/audit CSVs). +5 provenance observations = **739**; legal partially reviewed **22→24/248**, unscored **226→224**, evidence-added queue **22→24**, unknown identity **17 unchanged**, provisional **231** and geography **248** unchanged.
+- Narrow sources: Barbados original historic Cap44 §§3–4; Bhutan BFDA original 2025 medicines rule 21 Feb2026 date, screenshot timed out; jointly ministry-issued **2015** Norway Svalbard/Jan Mayen original and April2026 ministry summary. Neither historical law nor budget proposal supports full current legal authority. **744 UNKNOWN retained**.
+- Independent exact 10-CSV structural check **PASS 35/7 negative** [QA](QA_BATCH66_20261107.json); **actual Python NOT RUN**. [Checkpoint](CHECKPOINT_20261107_BATCH66.md). PR DRAFT OPEN UNMERGED, no legal/clinical approvals, no other teams/site/main.
+
+---
+
 ## 2026-11-07 — Team A Batch65 (044/050/744): original-law triage, ledger and verified checkpoint
 
 - [Immutable research DATA `b868a8bac26eb9f35dba73cb61812348f7bd950c`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/b868a8bac26eb9f35dba73cb61812348f7bd950c) — **exactly four Team A-only research paths**, original source text/caveats preserved, +6 issuer-attributed provenance observations.

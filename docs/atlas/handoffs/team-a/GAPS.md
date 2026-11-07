@@ -1,3 +1,14 @@
+## CURRENT Batch66 remaining gaps (2026-11-07; legal acceptance incomplete)
+
+- **052 Barbados:** original official 1969 Health Services Cap44 updated LRO2002 §§3–4 supports historic ministerial policy/district enabling functions. **Need 2003–2026 amendments and actual 2026 district delegation orders**, health-professional/medicines regulator original law, institute and municipal powers and independently issuing statutes. See [source note](source_recovery/CYCLE_A66_052_064_744_ORIGINAL_LAW_TRIAGE_20261107.md).
+- **064 Bhutan:** 2025 Bhutan Medicines Rules and Regulation BFDA official text specifies 21 Feb 2026 effective date, supersedes 2019; screenshot timed out. **Need current 2003 parent Medicines Act, 2022 Civil Service Reform Board continuity, actual 2025 healthcare regulation full signed text, later 2026 changes, Dzongkha and dzongkhag/legal regulator authority**.
+- **744 Svalbard/Jan Mayen:** Original 2015 government jointly issued law §§3/4/18–22 recovered and visually read with distinct Jan Mayen narrow public law application and Svalbard Helse Nord exception. **Need all post-2015 changes (June/July 2026 REK §29e, Nov health-research law), current office names and Jan Mayen operator law. Remains UNKNOWN.** April 2026 Ministry page warns original explanatory notes outdated. Not an all-area sole authority or enacted 2027 budget.
+- **Other P0 624/226/581/010** and 224 unscored ledger workflows remain, not automatically lacking research. 17 UNKNOWN authority identities and all 248 all-tier legal acceptance records still incomplete. No legal/clinical approval.
+
+[Batch66 QA](QA_BATCH66_20261107.json) · [checkpoint](CHECKPOINT_20261107_BATCH66.md) · [data](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/2e50af630f09a0c2cd7641be79b69a162def0f81).
+
+---
+
 ## CURRENT Batch65 remaining gaps (2026-11-07; original legal acceptance incomplete)
 
 - **044 Bahamas:** 2025 Health Promotion Act and historic Health Services Ch231 narrowly support separate public-health functions, but 2025 Dental Professions Act §1(2) **appointed-day notice original** still required to prove effective regulation; ministry 2026 amendments, medicine regulator, Family Islands, hospitals and implementation unfinished.

@@ -1,3 +1,9 @@
+## CURRENT — Batch66 Team A (2026-11-07) — legal research incomplete
+
+[Checkpoint](CHECKPOINT_20261107_BATCH66.md) · [QA](QA_BATCH66_20261107.json) · [data SHA](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/2e50af630f09a0c2cd7641be79b69a162def0f81). **Five source observations, 2 newly partial legal rows.** 248 M49/231 provisional government body identities/17 UNKNOWN; 318 bodies/45 relations/4 shared scopes unchanged. Provenance 734→739; legal partial 22→24/248; unscored 226→224; queue evidence-added 22→24. **Zero comprehensive legally accepted rows.** Barbados historical statute, Bhutan 2026-start medicines regulation text, Svalbard/Jan Mayen **2015 as-issued** law narrow only; 2026 amendments unresolved. Independent 10-CSV QA 35 PASS + 7 negative rejections; **actual Python tests NOT RUN**. PR OPEN DRAFT UNMERGED, no legal/clinical approval.
+
+---
+
 ## CURRENT — Team A Batch65 (2026-11-07)
 
 [Batch65 checkpoint](CHECKPOINT_20261107_BATCH65.md) · [QA](QA_BATCH65_20261107.json) · [immutable DATA `b868a8bac26eb9f35dba73cb61812348f7bd950c`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/b868a8bac26eb9f35dba73cb61812348f7bd950c). Six new original-source/provenance observations for 044 Bahamas, 050 Bangladesh and 744 Svalbard scope; source/issuer caveats in [cycle note](source_recovery/CYCLE_A65_044_050_744_ORIGINAL_LAW_TRIAGE_20261107.md). **248/248 geographic M49, 231 provisional identities, 17 UNKNOWN, 318 bodies, 45 narrow relations, 4 shared scopes; 734 sources (+6), legal workflow 22/248 partial (+3), 226 unscored, 22 evidence-added queue (+3); ZERO complete full current enacted legal mandates.** Ten-CSV quote-aware 32/6 structural controls PASS, original Python/tests NOT RUN due GitHub DNS. Draft open unmerged PR #68; only Team A folder, not main/site/calculator/clinical/other teams; NO legal or clinical approval.
