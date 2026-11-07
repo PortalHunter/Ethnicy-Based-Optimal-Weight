@@ -1,0 +1,165 @@
+{
+  "date": "2026-11-07",
+  "phase": "A70 acceptance-driven five-region finite original issuer audit, not consolidation",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr_number": 68,
+  "source_baseline_head": "179c849bdcb38cf3688bca94c4bf24412c82320f",
+  "immutable_data_commit": "e66449967d13afd29276225ed9ca20a4f537b0e3",
+  "method": "Independently fetched all 12 normalized+derived complete CSV files plus finite audit CSV at immutable Github commit SHA, parsed quote-aware field boundaries, verified all M49 keys, status totals, provenance/edge/scope foreign keys, internal legal/queue/worklist joins, Bhutan legal score and 10 issuer claim IDs. Compared changed path list against Team A-only allowlist; Python validator unavailable. This is independent structural/reference QA only, NOT expert original-law/clinical certification.",
+  "native_python_validator": "NOT RUN — no authorized complete repository checkout; local git github.com DNS resolution unavailable",
+  "native_unittests": "NOT RUN — no authorized complete repository checkout; local git github.com DNS resolution unavailable",
+  "structural_assertions": {
+    "passed": 43,
+    "total": 43,
+    "failed": [],
+    "categories": [
+      "13 quote-aware CSV row-width checks",
+      "7 exact UN M49 248-row key-set and duplicate checks",
+      "unique 752 provenance IDs and M49 references",
+      "original country-name and region join",
+      "original A70 source IDs",
+      "318 body identities and 45 valid relationships",
+      "4 shared valid scopes; 17 documented UNKNOWN",
+      "legal 248×8 status vocabulary and 1984 status totals",
+      "28 PARTIAL, 220 UNSCORED, 56 SOURCE_SUPPORTED, 129 RESEARCHED_INCOMPLETE, 1797 NOT_TRIAGED, 2 CONFLICT",
+      "all legal source references resolve to PROVENANCE",
+      "derived area-observation totals match provenance by M49",
+      "Bhutan new source-to-ledger-to-two-index join and narrow supported status",
+      "248 inventory/backlog stage and 248 queue joins",
+      "248×8 backlog status join and finite remaining count",
+      "10 claims across five regions 2 each, unique IDs, 1/10 pass Bahamas only, all audit source IDs resolve",
+      "no whole-area all-tier legal approval"
+    ]
+  },
+  "synthetic_negative_controls": {
+    "passed": 6,
+    "total": 6,
+    "description": "Six in-memory invalid fixture controls; not native unit tests",
+    "rejected": [
+      "duplicate provenance ID rejected",
+      "unknown M49 source area rejected",
+      "unrecognized legal status rejected",
+      "dangling source ID rejected",
+      "uneven UN region quota rejected",
+      "two unqualified passes cannot meet 1-of-10 audit claim"
+    ]
+  },
+  "files": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": {
+      "rows": 248,
+      "blob_sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52"
+    },
+    "data/countries.csv": {
+      "rows": 248,
+      "blob_sha": "32a868a700db0223dfc56bf7549866a1e0eadd1f"
+    },
+    "data/country_coverage.csv": {
+      "rows": 248,
+      "blob_sha": "e4ade0148ef9b3f8767f02956335763d44d06d38"
+    },
+    "PROVENANCE.csv": {
+      "rows": 752,
+      "blob_sha": "07db397ee5eb5ac9121734262a453a124f18c120"
+    },
+    "data/legal_verification_ledger.csv": {
+      "rows": 248,
+      "blob_sha": "6e0fd9d57c5636f5d0524bd6cac921ad9a9f483d"
+    },
+    "data/research_queue.csv": {
+      "rows": 248,
+      "blob_sha": "00a4019848be71ccb191a606315e84cabf7f2a36"
+    },
+    "RECONCILED_INVENTORY_20261107.csv": {
+      "rows": 248,
+      "blob_sha": "2a037ec24449c5ab57d2664e9c260816aaab748c"
+    },
+    "PRIORITIZED_BACKLOG_20261107.csv": {
+      "rows": 248,
+      "blob_sha": "d938feca873280cae1c493f5600bdc45f9c5b944"
+    },
+    "data/unresolved_area_audit.csv": {
+      "rows": 17,
+      "blob_sha": "8ff43285fb7f00cea8c0b1f2b761b26d94f1e51c"
+    },
+    "data/government_health_bodies.csv": {
+      "rows": 318,
+      "blob_sha": "456ac0b737f0b963fabfcda9836b000dfe8c5b9b"
+    },
+    "data/authority_area_scope.csv": {
+      "rows": 4,
+      "blob_sha": "4d9b3418845eb40e38d31925c033dffe104c6d44"
+    },
+    "data/authority_relationships.csv": {
+      "rows": 45,
+      "blob_sha": "4844ba36b45f9ce6dd38870c6dd62fbd54e9140"
+    },
+    "INDEPENDENT_ISSUER_AUDIT_A70_20261107.csv": {
+      "rows": 10,
+      "blob_sha": "1f80632d6e3b469f77defc89db397b190ace0ff5"
+    }
+  },
+  "validated_counts": {
+    "m49_areas": 248,
+    "provisional_principal_identities": 231,
+    "unknown_dispositions": 17,
+    "provenance_observations": 752,
+    "body_records": 318,
+    "relationships": 45,
+    "shared_scopes": 4,
+    "legal_partial_areas": 28,
+    "legal_unscored_areas": 220,
+    "all_tier_research_complete": 0,
+    "dimensions": {
+      "SOURCE_SUPPORTED": 56,
+      "RESEARCHED_INCOMPLETE": 129,
+      "NOT_TRIAGED": 1797,
+      "CONFLICT_UNRESOLVED": 2
+    },
+    "issuer_audit": {
+      "denominator_claims": 10,
+      "region_rotation": {
+        "Africa": 2,
+        "Asia": 2,
+        "Europe": 2,
+        "Americas": 2,
+        "Oceania": 2
+      },
+      "qualifying_narrow_passes": 1,
+      "nonqualifying": 9
+    }
+  },
+  "delta_from_A69": {
+    "provenance_observations": 2,
+    "legal_source_supported_dimensions": 1,
+    "legal_researched_incomplete_dimensions": -1,
+    "partial_area_rows": 0,
+    "unscored_area_rows": 0,
+    "complete_area_rows": 0,
+    "provisional_identities": 0,
+    "unknown_area_dispositions": 0
+  },
+  "claimed_new_legal_narrow_closure": [
+    "Bhutan 2022 original Parliament Civil Service Reform Act §§8,13-14,26-27 statutory BFDA merger and Ministry of Health organization only"
+  ],
+  "not_closures": [
+    "Bahamas Dental S.I.18/2026 already closed A69, only prior narrow issuer pass",
+    "Botswana Public Health original S.I.4/2014 NOT directly inspected; compilation date not promoted",
+    "Botswana Medicines Act29/2025 Gazette appointed day NOT recovered; blank SI draft not operative",
+    "Solomon post-Feb2024 amendments/local law NOT recovered",
+    "Bhutan original Cabinet/RCSC 2024 governing-board letters NOT recovered"
+  ],
+  "change_scope": {
+    "base": "e66449967d13afd29276225ed9ca20a4f537b0e3",
+    "files_changed_before_QA": 10,
+    "all_under_team_a": true,
+    "other_teams_or_site_changed": false
+  },
+  "acceptance": {
+    "original_geography_and_disposition_structural": "248/248 each",
+    "original_global_semantic_source_gate": "OPEN",
+    "expanded_all_tier_legal_gate": "OPEN",
+    "independent_legal_approval": false,
+    "independent_clinical_approval": false
+  }
+}
