@@ -5,18 +5,18 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "4e912520559eedc7942bebc910ac0daa40dd95a3",
-  "batch": "90",
+  "validated_data_commit": "56eb5532bb6356e38c9703ccbc2984504d6244f0",
+  "batch": "91",
   "metrics": {
     "organizations": 495,
     "areas": 227,
-    "resources": 417,
+    "resources": 422,
     "positive": 381,
     "without_linked_source": 1355,
     "targeted_no_source": 175,
     "unresearched": 1180,
-    "provenance": 1127,
-    "search_log": 653,
+    "provenance": 1132,
+    "search_log": 655,
     "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
@@ -35,23 +35,26 @@
   "run_additions": {
     "organizations": 0,
     "locally_reached_new_m49_areas": 0,
-    "resources": 0,
+    "resources": 5,
     "positive_cells": 0,
     "bounded_no_source_cells": 0,
     "previously_untouched_cells_targeted": 0,
-    "provenance": 0,
-    "searches": 0,
+    "provenance": 5,
+    "searches": 2,
     "issuer_imprints_resolved": 0,
-    "quality_source_audits_added": 15,
-    "quality_depth_audits_added": 0
+    "quality_source_audits_added": 5,
+    "quality_depth_audits_added": 0,
+    "metadata_only_cases_reconciled": 7,
+    "quality_eligible_replacements": 5,
+    "metadata_only_unresolved": 2
   },
-  "validation_runtime": "independent_JS_structural_0_errors_12_of_12_immutable_tree_matches_actual_Node_CLI_NOT_RUN_Git_DNS",
+  "validation_runtime": "independent_JS_structural_0_errors_13_of_13_immutable_tree_matches_actual_Node_CLI_NOT_RUN_Git_DNS",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "397 of 417 raw source/context links individually unaudited; review seven M historical source links and one U Bermuda case, do not silently delete original records",
-    "1,180 untouched cells, 175 searched-unlinked (171 lacking current individual D2), 21 local identity gaps, five original source issuer-country imprints",
-    "Preserve FH/urate/ferritin/lactose-HLA disease distinctions, community governance and source rights; run unchanged Node CLI when exact checkout/reconstruction possible"
+    "Peru 604 gout and Morocco 504 diabetes remain M-only, legacy raw positive but zero qualifying original publication; pursue first-party substantive original beyond event titles",
+    "397 of 422 source contexts not individually quality audited; 171 bounded cells lack active D2 and 1,180 untouched cells",
+    "21 verified local domicile area gaps, five original issuer imprint unknowns, original methods/edition/rights/community/medical review pending"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -65,7 +68,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch90 five successive committed quality audits, 15 new source classifications, data head 4e912520559eedc7942bebc910ac0daa40dd95a3 tree 584f0faf48ff7c69ce73c7e902cd8427e2314c6a (156, nontruncated), 12/12 exact blob/tree matches, independent JS zero structural errors, Node CLI NOT RUN due GitHub DNS, two GitHub workflows completed success, no clinical/rights/legal approval",
+  "validated_data_commit_note": "Batch91 metadata-only reconciliation, five S1/S2 original source replacements, two M-only unresolved; tree 2db13111e6a8f44ddacc4e796f97229820353133 (158 entries, nontruncated), 13/13 GitHub SHA tree matches, independent JS zero structural errors, unchanged Node CLI NOT RUN due git DNS; source/rights/clinical unapproved.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -153,17 +156,17 @@
     }
   ],
   "readback_validation": {
-    "batch": "90",
-    "sha": "4e912520559eedc7942bebc910ac0daa40dd95a3",
-    "tree_sha": "584f0faf48ff7c69ce73c7e902cd8427e2314c6a",
-    "tree_entries": 156,
+    "batch": "91",
+    "sha": "56eb5532bb6356e38c9703ccbc2984504d6244f0",
+    "tree_sha": "2db13111e6a8f44ddacc4e796f97229820353133",
+    "tree_entries": 158,
     "truncated": false,
-    "files": 12,
-    "exact_matches": 12,
+    "files": 13,
+    "exact_matches": 13,
     "local_hash_matches": null,
     "structural_errors": 0,
     "node_cli_run_this_batch": false,
-    "notes": "Independent GitHub immutable snapshot and JS joins only; actual Node CLI NOT RUN (git DNS); workflow success separate from medical/rights approval"
+    "notes": "Immutable GitHub readback 13/13 (10 canonical CSV + unchanged validator + quality ledger + reconciliation ledger); independent JS zero structural errors. Actual unchanged Node CLI not run (git DNS). CI snapshot 1 success, 1 in progress; no clinical/rights approval."
   },
   "previous_independently_verified_data_commit": "e20897f8b2d19dab43a44fe9c5aea0bd9a6d36ff",
   "session_additions": {
@@ -2590,8 +2593,8 @@
     "actual_node_cli_run": false,
     "clinical_claims_approved": 0
   },
-  "current_data_root_tree": "584f0faf48ff7c69ce73c7e902cd8427e2314c6a",
-  "last_standalone_checkpoint": "docs/atlas/handoffs/team-b/BATCH_90_CHECKPOINT.md",
+  "current_data_root_tree": "2db13111e6a8f44ddacc4e796f97229820353133",
+  "last_standalone_checkpoint": "docs/atlas/handoffs/team-b/BATCH_91_CHECKPOINT.md",
   "previous_checkpoint_snapshot": {
     "batch": "81",
     "validated_data_commit": "a466eee9e43799b4e90d07e8f1c9a8370ea33742",
@@ -2733,12 +2736,12 @@
     }
   ],
   "quality_audit_summary": {
-    "source_rows_individually_classified": 20,
-    "source_contexts_total": 417,
+    "source_rows_individually_classified": 25,
+    "source_contexts_total": 422,
     "source_contexts_not_individually_classified": 397,
     "source_tiers": {
-      "S1": 3,
-      "S2": 9,
+      "S1": 6,
+      "S2": 11,
       "H": 0,
       "M": 7,
       "U": 1
@@ -2751,7 +2754,7 @@
     },
     "bounded_cells_with_active_D2": 4,
     "bounded_cells_not_individually_audited": 171,
-    "notes": "Batch90 totals: 15 new source audits, S1 +2 S2 +6 M +6 U +1, no source-positive gains; existing D1 and D2 rows historical, unlinked depth debt 171. Not medical or legal approval."
+    "notes": "Batch91 added 5 separately qualified S1/S2 original sources but historical 7 M metadata-only rows retained in raw matrix; two of seven target cells have zero substantive evidence in new reconciliation ledger. All medical/rights approval absent."
   },
   "current_run_batch86_90": {
     "data_commits": [
@@ -2935,5 +2938,64 @@
       "combined_statuses": 0
     },
     "node_cli_run": false
+  },
+  "batch91_metadata_reconciliation": {
+    "cases": [
+      {
+        "place": "US 840 · diabetes",
+        "org": "B-US-ADA",
+        "tier": "S1",
+        "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diab",
+        "limits": "ADA Professional Practice Committee original 2026 Diabetes Care diabetes diagnosis/classification chapter; journal volume 2026, online Dec 2025; clinical methods and permissions not independently appraised."
+      },
+      {
+        "place": "US 840 · hypertension",
+        "org": "B-US-AHA",
+        "tier": "S1",
+        "url": "https://doi.org/10.1161/CIR.0000000000001356",
+        "limits": "Jones/Ferdinand/Taler 2025 AHA/ACC multisociety jointly developed original; 2026 version update not new guideline, no exclusive AHA authorship or clinical/legal adoption."
+      },
+      {
+        "place": "Canada 124 · coeliac",
+        "org": "B-CA-CC",
+        "tier": "S1",
+        "url": "https://www.celiac.ca/wp-content/uploads/2020/11/CCA-Gluten-Challenge-for-MDs-Final-2019.pdf",
+        "limits": "CCA Professional Advisory Council lead Dominica Gidrewicz, 2019 original 3 pages visually inspected; 2020 upload path not edition; explicit copyright prohibition, sample limitations and HLA-not-diagnosis caveat."
+      },
+      {
+        "place": "Tanzania 834 · diabetes",
+        "org": "B-TZ-TDA",
+        "tier": "S2",
+        "url": "https://tdatz.or.tz/understand-diabetes.php?lang=en",
+        "limits": "Own first-party educational type 1/2/gestational diabetes page; not original Tanzanian study or government guideline."
+      },
+      {
+        "place": "Norway 578 · diabetes",
+        "org": "B-NO-DF",
+        "tier": "S2",
+        "url": "https://www.diabetes.no/diabetes-type-2/",
+        "limits": "Own substantive Norwegian type 2 patient education; no attribution of external research funding findings, clinical guidance or national prevalence."
+      },
+      {
+        "place": "Peru 604 · gout",
+        "org": "B-PE-SPR",
+        "tier": "M pending",
+        "url": "https://congresoperuanodereumatologia2026.com/",
+        "limits": "Original SPR 2025 scheduled gout talk remains M; 2026 December upcoming programme is not a completed substantive publication. Original source still unverified."
+      },
+      {
+        "place": "Morocco 504 · diabetes",
+        "org": "B-MA-SMEDIAN",
+        "tier": "M pending",
+        "url": "https://smedian.net/videotheque-47e-congres/",
+        "limits": "47th congress video catalogue lists diabetes talk titles but full transcript/original research not inspected; SMEDIAN 2026 congress homepage alone stays M."
+      }
+    ],
+    "qualified_replacements": 5,
+    "remaining_metadata_only": 2,
+    "metadata_only_reconciliation_path": "docs/atlas/handoffs/team-b/data/metadata_only_reconciliation.csv",
+    "latest_source_data_commit": "56eb5532bb6356e38c9703ccbc2984504d6244f0",
+    "nontruncated_git_tree": "2db13111e6a8f44ddacc4e796f97229820353133",
+    "unapproved_clinical_claims": 0
   }
 }

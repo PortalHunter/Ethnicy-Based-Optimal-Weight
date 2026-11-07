@@ -1,3 +1,17 @@
+# Team B standalone continuation — batch 91 — 2026-11-06
+
+**CURRENT CHECKPOINT:** [BATCH_91_CHECKPOINT.md](BATCH_91_CHECKPOINT.md). RUNBOOK.md, QUALITY_AND_COMPLETION.md and QUEUE.md remain authoritative; older handoff blocks retained below.
+
+**Batch 91 · November 6, 2026.** Seven historically M metadata-only exact URLs reconciled with new separate evidence ledger: **five** original substantive replacement records (+3 S1, +2 S2); **two** remain metadata-only unresolved (Peru gout, Morocco diabetes). Historical M source/context entries **kept and explicitly marked nonqualifying**, and counted only in legacy raw coverage. Reconciliation ledger `data/metadata_only_reconciliation.csv` declares independently qualified count 1 for each five replaced cells and 0 for the two M-only cells. **Do not interpret 381 raw positives as 381 substantive sources.** Five new context/provenance rows and two bounded source-navigation searches; no new geographic positive cell or area organization.
+
+**Latest data commit:** [`56eb5532bb63`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/56eb5532bb6356e38c9703ccbc2984504d6244f0); complete nontruncated 158-entry root Git tree `2db13111e6a8f44ddacc4e796f97229820353133`. **13/13** canonical ten CSV + unchanged validator + quality ledger + reconciliation ledger exact GitHub immutable blob/tree SHA matches. Independent JavaScript checks of CSV widths, 248×7 joins, resource/context/issuer/provenance/search/audit/reconciliation relations, preserved community/cross-border records **0 structural errors**. Actual Node CLI **NOT RUN** due git checkout DNS; previous historical Node receipts do not apply. At data-head CI check: Population Phase 1 regression success, Calculator CI in progress, 0 combined statuses. Neither CI nor structural pass approves clinical content or rights.
+
+**Current metrics:** 495 locally domiciled organizations / 227 of 248 M49 areas; **422** resource/context pairs; raw cells **381 linked + 175 searched-unlinked + 1,180 untouched = 1,736**; provenance **1,132**, searches **655**, five unresolved issuer imprints. **25/422** source links individually reviewed (S1=6, S2=11, H=0, M=7, U=1), **397 unreviewed**; historical search depth D1=3 D2=4 D3=0. No clinical approvals, no main/site/calculator/other-team changes, PR draft/open/unmerged.
+
+**Restart next:** original Peru gout + Morocco diabetes evidence remains M-only; audit 397 other raw source contexts, 1,180 untouched area cells and 171 searched-unlinked cells without current D2, 21 local area identity gaps and five issuer imprint uncertainties. Historical M rows must not be counted as quality-eligible; exact seven-case audit is in [data/metadata_only_reconciliation.csv](data/metadata_only_reconciliation.csv). Keep PR draft/unmerged and no clinical releases.
+
+---
+
 # Team B standalone continuation — batch 90 — 2026-11-06
 
 **CURRENT CHECKPOINT:** [BATCH_90_CHECKPOINT.md](BATCH_90_CHECKPOINT.md); authoritative [RUNBOOK.md](RUNBOOK.md), [QUALITY_AND_COMPLETION.md](QUALITY_AND_COMPLETION.md), and [QUEUE.md](QUEUE.md) control future work; previous blocks below are historical.
