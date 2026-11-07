@@ -102,7 +102,7 @@ assert.equal(emrnNcas.length,34);
 assert.equal(new Set(emrnNcas.map(r=>r.country_area_m49)).size,30);
 for(const [code,count] of [['276',2],['528',3],['616',2]])assert.equal(emrnNcas.filter(r=>r.country_area_m49===code).length,count);
 for(const r of emrnNcas){assert.equal(r.network_id,'EMRN');assert(official.has(r.country_area_m49));assert(sources.has(r.source_url));assert.equal(r.join_state,'PENDING_EXACT_AUTHORITY_ID_JOIN');assert.equal(r.remit_review_state,'PER_AGENCY_STATUTORY_REMIT_NOT_VERIFIED');}
-assert.equal(nodes.length,47);assert.equal(edges.length,619);assert.equal(prov.length,316);
+assert.equal(nodes.length,47);assert.equal(edges.length,619);assert.equal(prov.length,321);
 
 const pathways=read('data/hearts_pathway_catalog_2026.csv');
 unique(pathways,r=>r.record_id,'PAHO HEARTS pathway catalog IDs');
@@ -622,7 +622,7 @@ for(const [id,url] of [
  ['TD-SRC-241','https://verwaltung.bund.de/leistungsverzeichnis/EN/leistung/99005004023000/herausgeber/LeiKa-575150/region/00'],
  ['TD-SRC-242','https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006196560/2026-04-29/']
 ]){assert.equal(prov.filter(r=>r.source_id===id&&r.source_url===url).length,1); assert(newNationalNcaRemits.some(r=>r.source_url===url),'unreferenced batch 34 source '+id);}
-assert.equal(prov.length,316);
+assert.equal(prov.length,321);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 console.log('Batch 34: 10 new role observations, 5 more EMA identity candidates and six official sources; timed government texts not current statute approval.');
 
@@ -657,7 +657,7 @@ for(const [id,url] of [
  ['TD-SRC-251','https://www.jazmp.si/en/human-medicines/pharmacovigilance/national-pharmacovigilance-centre/']
 ]){assert.equal(prov.filter(r=>r.source_id===id&&r.source_url===url).length,1);
  assert(batch35Nca.some(r=>r.source_url===url),'batch 35 unreferenced source '+id);}
-assert.equal(prov.length,316);
+assert.equal(prov.length,321);
 assert.equal(new Set(nationalNcaRemits.map(r=>r.emrn_nca_candidate_id)).size,34);
 assert.equal(nationalNcaRemits.filter(r=>r.legal_audit_state==='CONSOLIDATED_NATIONAL_STATUTE_NOT_INDEPENDENTLY_AUDITED').length,71);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
@@ -675,7 +675,7 @@ for(const [id,url] of [["TD-SRC-252","https://www.bda.bg/en/information-for-comp
  assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);
  assert(b36.some(r=>r.source_url===url),'new source orphan '+id);
 }
-assert.equal(prov.length,316);
+assert.equal(prov.length,321);
 assert.equal(new Set(nationalNcaRemits.map(r=>r.emrn_nca_candidate_id)).size,34);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 assert.equal(offices.length,105);
@@ -691,7 +691,7 @@ assert.deepEqual(['300','348','620','642'].map(code=>b37.filter(r=>r.country_are
 for(const [id,url] of [["TD-SRC-258","https://www.eof.gr/en/%CF%80%CE%B5%CE%B4%CE%AF%CE%BF-%CE%B1%CF%81%CE%BC%CE%BF%CE%B4%CE%B9%CE%BF%CF%84%CE%AE%CF%84%CF%89%CE%BD/"],["TD-SRC-259","https://www.eof.gr/en/%CE%BA%CE%BB%CE%B9%CE%BD%CE%B9%CE%BA%CE%AD%CF%82-%CE%B4%CE%BF%CE%BA%CE%B9%CE%BC%CE%AD%CF%82/"],["TD-SRC-260","https://nngyk.gov.hu/hu/?id=313&view=category"],["TD-SRC-261","https://nngyk.gov.hu/hu/?catid=313&id=5257%3Ainformaciok-a-jogosultak-altal-azonositott-jelzes-szignal-hatosag-fele-torteno-jelentesi-kotelezettsegevel-kapcsolatban&view=article"],["TD-SRC-262","https://www.infarmed.pt/web/infarmed/apresentacao"],["TD-SRC-263","https://www.infarmed.pt/web/infarmed/-/titulares-de-a-1"],["TD-SRC-264","https://www.anm.ro/en/despre-institutie/despre-noi/"],["TD-SRC-265","https://www.anm.ro/en/medicamente-de-uz-uman/autorizare-medicamente/"]]){assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);assert(b37.some(r=>r.source_url===url));}
 assert(b37.find(r=>r.record_id==='TD-NCA-REMIT-055').notes.includes('CPMP'));
 assert(b37.find(r=>r.record_id==='TD-NCA-REMIT-058').first_party_role_observation.includes('1 September 2026'));
-assert.equal(prov.length,316);
+assert.equal(prov.length,321);
 assert.equal(nationalNcaRemits.length,71);
 assert.equal(new Set(nationalNcaRemits.map(r=>r.emrn_nca_candidate_id)).size,34);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
@@ -715,7 +715,7 @@ for(const [id,url] of [
  ['TD-SRC-268','https://guichet.public.lu/fr/citoyens/sante/notification-effets-indesirables-medicaments.html']
 ]){assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);
   assert(b38.some(r=>r.source_url===url),'batch 38 orphan URL '+id);}
-assert.equal(prov.length,316);assert.equal(nationalNcaRemits.length,71);
+assert.equal(prov.length,321);assert.equal(nationalNcaRemits.length,71);
 assert.equal(new Set(nationalNcaRemits.map(r=>r.emrn_nca_candidate_id)).size,34);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 assert.equal(offices.length,105);assert.equal(nodes.length,47);assert.equal(edges.length,619);
@@ -744,7 +744,7 @@ assert(b39[2].notes.includes('2022-07-08'));
 assert(b39[3].notes.includes('does not prove a signed MoU'));
 assert(b39[4].notes.includes('not a full currently amended statutory'));
 assert.equal(new Set(nationalNcaRemits.map(r=>r.emrn_nca_candidate_id)).size,34);
-assert.equal(nationalNcaRemits.length,71); assert.equal(prov.length,316);
+assert.equal(nationalNcaRemits.length,71); assert.equal(prov.length,321);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 assert.equal(offices.length,105);
 
@@ -757,7 +757,7 @@ assert.deepEqual(officeEvents40.map(r=>r.country_area_m49),['148','051','678']);
 for(const r of officeEvents40){assert(codes.has(r.country_area_m49));assert(sources.has(r.source_url));assert(r.verification_state.startsWith('DIRECT_WHO_'));}
 for(const r of crossborderProposals40){assert(codes.has(r.source_area_m49)&&codes.has(r.prospective_partner_area_m49));assert(sources.has(r.source_url));assert.equal(r.relationship_type,'stated_mission_discussion_objective');assert.equal(r.verification_state,'OFFICIAL_MISSION_OBJECTIVE_NOT_SIGNED_OR_IMPLEMENTED');}
 for(const [id,url] of [['TD-SRC-272','https://www.afro.who.int/sites/default/files/2026-08/BA_RD_Mission_Report_Chad_June2026%201.pdf'],['TD-SRC-273','https://www.who.int/europe/news/item/12-10-2026-albania-and-armenia-achieve-hepatitis-b-control-milestone--strengthening-the-who-european-region-s-path-to-elimination']])assert.equal(prov.filter(r=>r.source_id===id&&r.source_url===url).length,1);
-assert.equal(prov.length,316);assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);assert.equal(offices.length,105);
+assert.equal(prov.length,321);assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);assert.equal(offices.length,105);
 console.log('Batch40 source-scoped office activity: 2 followups; 1 unexecuted discussion objective; zero inferred WHO region, April office, regulatory or clinical approvals.');
 
 console.log('Batch 39: five scoped regulator-role observations close all 34 EMA identity-source role gaps; 34 complete national legal audits remain pending.');
@@ -781,7 +781,7 @@ assert.equal(premises41[0].original_instrument_state,'SIGNED_ORIGINAL_TEXT_NOT_O
 for(const r of coordination41){assert(codes.has(r.source_area_m49)&&codes.has(r.partner_area_m49));assert(sources.has(r.source_url));}
 for(const r of premises41){assert(codes.has(r.country_area_m49));assert(sources.has(r.source_url));}
 for(const [id,url] of [['TD-SRC-274','https://www.afro.who.int/countries/angola/news/angola-and-namibia-strengthen-joint-response-polio-synchronized-border-campaign?country=Angola&name=Angola'],['TD-SRC-275','https://www.afro.who.int/countries/south-sudan/news/south-sudan-who-seal-landmark-deal-permanent-who-headquarters?country=South+Sudan&name=South+Sudan']])assert.equal(prov.filter(r=>r.source_id===id&&r.source_url===url).length,1);
-assert.equal(prov.length,316);
+assert.equal(prov.length,321);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 assert.equal(offices.length,105);assert.equal(nodes.length,47);assert.equal(edges.length,619);
 // Batch 42: PAHO's 2025 annual country-office publications group territories for
@@ -811,7 +811,7 @@ for(const [id,url] of [
  ['TD-SRC-277','https://www.paho.org/en/documents/annual-report-2025-jamaica-bermuda-and-cayman-islands'],
  ['TD-SRC-278','https://www.paho.org/en/documents/annual-report-2025-trinidad-and-tobago-aruba-curacao-sint-maarten-bonaire-saba-and-sint']
 ])assert.equal(prov.filter(r=>r.source_id===id&&r.source_url===url).length,1);
-assert.equal(prov.length,316);
+assert.equal(prov.length,321);
 assert.equal(statuses.filter(r=>r.who_region!=='not_verified').length,205);
 assert.equal(offices.length,105);
 console.log('Batch 42: PAHO 2025 annual report multi-area group coverage (10 M49 rows/3 official indexed sources), no new WHO region/office/legal/clinical inference.');
@@ -854,7 +854,7 @@ for(const [id,url] of [
  ['TD-SRC-279','https://afro.who.int/countries/sao-tome-and-principe/news/dr-marjorie-mupandare-officially-assumes-her-duties-who-representative-sao-tome-and-principe'],
  ['TD-SRC-280','https://www.who.int/news/item/30-09-2026-kazakhstan-summer-school-strengthens-national-clinical-research-capacity']
 ])assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);
-assert.equal(prov.length,316);
+assert.equal(prov.length,321);
 assert.equal(statuses.filter(r=>r.who_region!=='not_verified').length,205);
 assert.equal(offices.length,105);
 assert.equal(nodes.length,47);
@@ -914,7 +914,7 @@ for(const r of pahoDirectory45){
 for(const [area,hub] of [['060','388'],['136','388'],['796','044'],['533','780'],['534','780'],['660','052'],['092','052']])
   assert(pahoDirectory45.some(r=>r.country_area_m49===area&&r.reported_hub_m49===hub));
 assert.equal(prov.filter(r=>r.source_id==='TD-SRC-283'&&r.source_url==='https://opendata.paho.org/en/core-indicators/subregions-dashboard').length,1);
-assert.equal(prov.length,316);
+assert.equal(prov.length,321);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 assert.equal(offices.length,105);
 // Batch 46: completion-first case evidence. Current region, April survey and
@@ -949,7 +949,7 @@ assert.equal(statuses.filter(r=>r.who_region!=='not_verified').length,205);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 assert.equal(offices.length,105);
 assert.equal(emrnNcas.length,34);
-assert.equal(prov.length,316);
+assert.equal(prov.length,321);
 console.log('Batch46: five reopened gaps, one 2021 PAHO historical date qualified from contemporaneous source, preserved later conflict; region/April/statute verified deltas +0.');
 
 // Batch 47: completion-first case review and provenance. Added source-qualified
@@ -969,7 +969,7 @@ assert(closure47.find(r=>r.country_area_m49==='807').documented_result.includes(
 for(const [id,url] of [['TD-SRC-290','https://iris.who.int/bitstream/handle/10665/379391/WHO-EURO-2024-10666-50438-76179-eng.pdf?isAllowed=y&sequence=1'],['TD-SRC-291','https://parlament.mt/media/134984/05730.pdf'],['TD-SRC-292','https://pbdigital.paho.org/en/implementation/2026-2027/countries-overview']]){
   assert.equal(prov.filter(r=>r.source_id===id&&r.source_url===url).length,1);
 }
-assert.equal(prov.length,316);
+assert.equal(prov.length,321);
 assert.equal(statuses.filter(r=>r.who_region!=='not_verified').length,205);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 assert.equal(offices.length,105);
@@ -994,7 +994,7 @@ for(const r of cases49){assert(codes.has(r.country_area_m49));assert.equal(r.che
 const regionalQueue49=read('data/who_region_unresolved_queue.csv');
 for(const code of ['292','304']){assert.equal(statuses.find(r=>r.m49_code===code).who_region,'not_verified');assert(regionalQueue49.find(r=>r.country_area_m49===code).review_notes.includes('TD-SRC-296'));}
 for(const [id,url] of [['TD-SRC-296','https://iris.who.int/bitstream/10665/131359/1/EB19_45_eng.pdf'],['TD-SRC-297','https://ppri.goeg.at/system/files/inline-files/PPRI_Pharma_Malta_Brief_final.pdf'],['TD-SRC-298','https://libyaherald.com/2026/10/libya-joins-african-pooled-procurement-mechanism-appm-and-assumes-retac-chairmanship/']])assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);
-assert.equal(prov.length,316);assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);assert.equal(offices.length,105);assert.equal(emrnNcas.length,34);
+assert.equal(prov.length,321);assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);assert.equal(offices.length,105);assert.equal(emrnNcas.length,34);
 console.log('Batch49: two original WHO 1955 historical provisional assignments; Malta delegation explanatory source; Libya issuer-attributed secondary; strict current research closure delta +0.');
 
 
@@ -1017,7 +1017,7 @@ for(const [batch,expected] of cycleExpected){
   cycleCaseTotal+=rows.length;
 }
 assert.equal(cycleCaseTotal,21);
-assert.equal(prov.length,316);assert.equal(nodes.length,47);assert.equal(edges.length,619);
+assert.equal(prov.length,321);assert.equal(nodes.length,47);assert.equal(edges.length,619);
 assert.equal(statuses.filter(r=>r.who_region!=='not_verified').length,205);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 assert.equal(offices.length,105);assert.equal(emrnNcas.length,34);
@@ -1038,10 +1038,39 @@ for(const [id,url] of [
 ['TD-SRC-315','https://www.servizz.gov.mt/en/services/web-00169'],
 ['TD-SRC-316','https://legislation.mt/getpdf/6022596dbc8272018c0f4798']
 ])assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);
-assert.equal(prov.length,316);assert.equal(nodes.length,47);assert.equal(edges.length,619);
+assert.equal(prov.length,321);assert.equal(nodes.length,47);assert.equal(edges.length,619);
 assert.equal(statuses.filter(r=>r.who_region!=='not_verified').length,205);
 assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
 assert.equal(offices.length,105);assert.equal(emrnNcas.length,34);
 console.log('Batch56: 4 Malta/Greenland case audits, 3 source leads, +0 strict WHO/April/legal closures; no independent legal/clinical approval.');
+
+
+// Batch57, November 7: four previous-gap decisions; primary Mayotte emergency
+// mission versus WHO institutional allocation/April office, current original
+// Latvian statute versus outdated English text, and French Guiana NIC versus WHO
+// administrative territory assignment. Do not promote any strict numerator.
+const cases57=read('data/closure_case_review_2026-11-07_batch57.csv');
+assert.equal(cases57.length,4);unique(cases57,r=>r.case_id,'Batch57 case IDs');
+for(const r of cases57){
+  assert.equal(r.cycle,'8');assert.equal(r.verified_numerator_change,'0');
+  assert(codes.has(r.m49),'Invalid Batch57 M49 '+r.case_id);
+  for(const id of r.source_ids.split('|'))assert(prov.some(p=>p.source_id===id),'Missing Batch57 source ID '+id);
+  for(const url of r.source_urls.split('|'))assert(sources.has(url),'Missing Batch57 provenance URL '+url);
+}
+for(const [id,url] of [
+ ['TD-SRC-317','https://cdn.who.int/media/docs/default-source/documents/emergencies/whe-mou-april-2025-final.pdf?download=true'],
+ ['TD-SRC-318','https://m.likumi.lv/ta/id/43127-farmacijas-likums'],
+ ['TD-SRC-319','https://likumi.lv/ta/en/en/id/43127-pharmaceutical-law'],
+ ['TD-SRC-320','https://www.who.int/initiatives/global-influenza-surveillance-and-response-system/national-influenza-centres'],
+ ['TD-SRC-321','https://www.paho.org/en/french-guiana']
+])assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);
+assert.equal(prov.length,321);assert.equal(nodes.length,47);assert.equal(edges.length,619);
+assert.equal(statuses.length,249);
+assert.equal(statuses.filter(r=>r.who_region!=='not_verified').length,205);
+assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
+for(const code of ['175','254'])assert.equal(statuses.find(r=>r.m49_code===code).who_region,'not_verified');
+assert.equal(offices.length,105);assert.equal(emrnNcas.length,34);
+assert(emrnNcas.some(r=>r.record_id==='TD-EMRN-NCA-018'&&r.country_area_m49==='428'));
+console.log('Batch57: 4 original-gap audits, 5 new provenance URLs, +0 strict WHO/April/legal completions; no independent legal/clinical approval.');
 
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length,paho_2025_multi_area_report_coverage:pahoReports42.length,who_2026_activity_followups:officeEvents40.length,gctf_kazakhstan_training_contributors:training43.length,idf_nac_source_observations:idfNac.length,hi_source_observations:hi.length,aoecs_society_observations:aoecsSocieties.length,aoecs_external_role_observations:aoecsRelations.length,ema_regulatory_role_observations:emaRoles.length,national_nca_remit_observations:nationalNcaRemits.length,malta_law_boundary_observations:maltaLaw44.length},null,2));
