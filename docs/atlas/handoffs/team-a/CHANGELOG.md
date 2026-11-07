@@ -1,3 +1,9 @@
+## 2026-11-07 — Team A Batch67 source-positive, legal-research still incomplete
+
+New Team A-only original-source analysis [Cycle A67](source_recovery/CYCLE_A67_010_072_090_ORIGINAL_LAW_TRIAGE_20261107.md), five new dated source observations `A67-090-01`, `A67-072-01/02/03`, `A67-010-01`, narrow legal ledger/queue/UNKNOWN audit updates; immutable DATA [`be228bd8aa459e59e7da243f72800c55070f2f78`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/be228bd8aa459e59e7da243f72800c55070f2f78) changing exactly five Team A paths. Solomon Islands original 2024 reprint narrow national/provincial legal enabling; Botswana 2013/2025 Acts ON NOTICE not proven commenced, 2026 BoMRA regulations draft; ACT in-force statute not Antarctica-wide authority. Source observations **739→744 (+5)**; legal partial **24→26 (+2)**, unscored **224→222 (−2)**, queue evidence-added **24→26 (+2)**. Original 248 geography/231 provisional/17 UNKNOWN/318 bodies/45 links/4 shared scopes unchanged; 0 all-tier legally research-complete. Independent 10 CSV QA **32 PASS + 7 rejected negative controls**, Python validator/unittests **NOT RUN**; [QA](QA_BATCH67_20261107.json), [standalone checkpoint](CHECKPOINT_20261107_BATCH67.md). Preserve draft/unmerged, no clinic/legal approval, no main/site/other-team changes.
+
+---
+
 ## 2026-11-07 — Team A Batch66 052/064/744 original-source legal review; standalone audited checkpoint
 
 - **DATA** [`2e50af630f09a0c2cd7641be79b69a162def0f81`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/2e50af630f09a0c2cd7641be79b69a162def0f81) changes exactly five Team A files (source note, 4 research/audit CSVs). +5 provenance observations = **739**; legal partially reviewed **22→24/248**, unscored **226→224**, evidence-added queue **22→24**, unknown identity **17 unchanged**, provisional **231** and geography **248** unchanged.
