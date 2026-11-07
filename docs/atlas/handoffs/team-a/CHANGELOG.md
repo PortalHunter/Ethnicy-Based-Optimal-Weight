@@ -1,3 +1,13 @@
+## 2026-11-07 — Team A Batch65 (044/050/744): original-law triage, ledger and verified checkpoint
+
+- [Immutable research DATA `b868a8bac26eb9f35dba73cb61812348f7bd950c`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/b868a8bac26eb9f35dba73cb61812348f7bd950c) — **exactly four Team A-only research paths**, original source text/caveats preserved, +6 issuer-attributed provenance observations.
+- **044:** Narrow historical Health Services statute and 2025 Health Promotion Act legal support; original 2025 Dental Professions Act commencement **subject to unverified 2026 appointed-day notice**.
+- **050:** Bangla enacted BMDC Act61/2010 profession-regulator duties; Ministry 2025 replacement ordinance is **draft**, no amendment/repeal promotion.
+- **744:** Norwegian Government Svalbard 2026/27 budget provides service context, **not enacted current legal powers** or Jan Mayen scope; UNKNOWN retained.
+- Legal workflow partially reviewed 19→22 (+3), unscored 229→226, queue evidence-added 19→22, source observations 728→734; 0 all-tier legal complete; all 231 provisional / 17 UNKNOWN unchanged. [Exact ten-CSV structural QA](QA_BATCH65_20261107.json) 32 positive/6 negative PASS, Python/unittests NOT RUN (GitHub DNS). [Standalone checkpoint](CHECKPOINT_20261107_BATCH65.md). PR open draft/unmerged, no legal or clinical approval.
+
+---
+
 ## 2026-11-06 Batch59–64 — six-cycle legal research and verified data repair
 
 - Batch59 031 Azerbaijan +2 source observations, narrow 2026 executive charter amendment. `a743eb3a1c4547867142eff20b5b6ad8e0f4e031`.

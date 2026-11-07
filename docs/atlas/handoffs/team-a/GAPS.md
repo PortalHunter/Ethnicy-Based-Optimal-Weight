@@ -1,3 +1,14 @@
+## CURRENT Batch65 remaining gaps (2026-11-07; original legal acceptance incomplete)
+
+- **044 Bahamas:** 2025 Health Promotion Act and historic Health Services Ch231 narrowly support separate public-health functions, but 2025 Dental Professions Act §1(2) **appointed-day notice original** still required to prove effective regulation; ministry 2026 amendments, medicine regulator, Family Islands, hospitals and implementation unfinished.
+- **050 Bangladesh:** Bangla original 2010 BMDC council law supports narrow professional functions; official Ministry names a **draft** 2025 ordinance, not enactment. No verified post-2010 amendment/repeal chain, health division charter, medicines DGDA, regional/municipal and research statutes.
+- **744 Svalbard/Jan Mayen:** Norwegian 2026–27 budget describes UNN/Helse Nord services on Svalbard only; **not legal delegation**. Missing original current FOR-2015-747 after July amendment, §29e vs November research exceptions, mining/Barentsburg effective scope and distinct Jan Mayen powers; retain UNKNOWN. 
+- **Other 16 UNKNOWN:** unchanged original audit. P0 624 2010 BOE/INASA, 226 numbered June/Oct BOE/INSESO, 581 Wake §935.10 and all nine islands, 010 operator/national Antarctic law. **All 231 provisional identity areas** still lack fully current enacted all-tier and independent-issuer legal research acceptance.
+
+[Checkpoint](CHECKPOINT_20261107_BATCH65.md). **No legal/clinical approval; full law completion 0/248, partially reviewed workflow only 22/248.**
+
+---
+
 ## CURRENT Batch59–64 research gaps (2026-11-06; no legal acceptance)
 
 - **031 Azerbaijan:** direct Presidential charter 2026 deputy-change and Cabinet implementation, but full enacted original 2006 and 2026 amendments, locally competent regulators, Nakhchivan and professions unproven; same executive family does not count as two independent issuers.
