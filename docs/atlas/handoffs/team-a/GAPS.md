@@ -1,3 +1,16 @@
+## CURRENT Batch59–64 research gaps (2026-11-06; no legal acceptance)
+
+- **031 Azerbaijan:** direct Presidential charter 2026 deputy-change and Cabinet implementation, but full enacted original 2006 and 2026 amendments, locally competent regulators, Nakhchivan and professions unproven; same executive family does not count as two independent issuers.
+- **032 Argentina:** historical 1992 ANMAT original founding/agency description; amendment-current law, 2026 DNU validation under Law26122, provincial/CABA/Indigenous and professional licensing remain open.
+- **036 Australia:** 2025 therapeutic goods compilation and federal AAO, but 2026 amendments/commencement, health-profession law, state/territory and First Nations responsibilities unresolved.
+- **056 Belgium:** 2006 AFMPS and 2026 medicine Act narrowly evidenced; independent community/regional decrees, linguistic functions, detailed commencement and surveillance/professions unresolved.
+- **710 South Africa:** 2004 original Health Act broad public-health levels verified, not complete 2026 consolidation, pending s94 commencements, local implementation, SAHPRA/professions and NHI effect.
+- **554 New Zealand:** 2022 and 2026 law official index found but direct operative full text 403. No new legal SOURCE_SUPPORTED; seek Parliament and authorized PDF, exact commencement and te Tiriti iwi partnership/HealthNZ obligations.
+- **Remaining P0 UNKNOWN:** 624 Guinea-Bissau BOE/INASA; 226 Equatorial Guinea BOE/INSESO; 581 nine-island legal delegations; 744 full Norwegian statute; 010 Antarctic operator/person-specific statutes. All other 12 unknowns and 229 as-yet-unscored provisional rows remain in queue.
+- **Validation:** [six-cycle QA](QA_BATCH64_SIX_CYCLES_20261106.json) 25 strict checks + six negatives PASS after nine-record M49 column fix. Python validator/tests **NOT RUN** (GitHub checkout DNS); no full current all-tier legally complete row, no clinical/legal sign-off. [complete standalone checkpoint](CHECKPOINT_20261106_BATCH64_SIX_CYCLES.md).
+
+---
+
 ## Batch58 open evidence gaps — 2026-11-06
 
 - **032 Argentina:** Verify congressional DNU 571/771 2026 review and any subsequent originals; ANMAT independent founding/amendment instruments, provinces and CABA health ministry statutes, municipal and Indigenous delegation, medical/regulator agency laws. Federal ministry policy is not all-tier regulatory or local competence.

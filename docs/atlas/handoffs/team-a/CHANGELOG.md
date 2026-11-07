@@ -1,3 +1,15 @@
+## 2026-11-06 Batch59–64 — six-cycle legal research and verified data repair
+
+- Batch59 031 Azerbaijan +2 source observations, narrow 2026 executive charter amendment. `a743eb3a1c4547867142eff20b5b6ad8e0f4e031`.
+- Batch60 032 Argentina +2, historical ANMAT founding and nonlegislative current agency. `28fb6112f18de42ef720a5c94094f0314b65f249`.
+- Batch61 036 Australia +2, official therapeutic goods Act 2025 compilation. `5d7765652b85b78da138c05748312880b9681e97`.
+- Batch62 056 Belgium +2, original federal AFMPS 2006 and 2026 medicines law. `bfdc243d8e58afbaf097a52e5abccdc63552df11`.
+- Batch63 710 South Africa +1, signed government Gazette original National Health Act. `b9b729b707a04b7b7880b784b756b93a62f3bc7b`.
+- Batch64 554 New Zealand +2, official 2026/2022 statute INDEX ONLY, full operative text 403. `8faffa2bdaabfae374a68d4ac363ab7d56751069`.
+- Isolated provenance **schema repair** for nine Batches60–64 M49 field omissions, all old sources preserved, `e791d74498aa01e7f400f188e5b03d356a8669d8`; independent ten-CSV 25-check/6-negative audit PASS at same immutable SHA, [six-cycle QA](QA_BATCH64_SIX_CYCLES_20261106.json), QA file commit `c5735badddcc387cdb2fc69a7fde93b5ae11ed6c`. Python and unittests NOT RUN (GitHub DNS). [complete standalone checkpoint](CHECKPOINT_20261106_BATCH64_SIX_CYCLES.md). 248 M49 unchanged; 231 provisional, 17 unknown, 728 sources (+11), 19 partial legal triage (+4), zero full all-tier legally research-complete. Only Team A research folder changed; PR #68 OPEN DRAFT UNMERGED.
+
+---
+
 ## 2026-11-06 Team A Batch58
 
 - Immutable DATA [`e51a2f6fb478533579f3efd99555cd966ad42472`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/e51a2f6fb478533579f3efd99555cd966ad42472) appended **8** scoped original/index provenance observations: Argentina 032 three federal 2026 legislative sources, Bahrain 048 five Arabic original registry amendment traces, and rescored previously discovered Wake-only 581 evidence without new 581 provenance.

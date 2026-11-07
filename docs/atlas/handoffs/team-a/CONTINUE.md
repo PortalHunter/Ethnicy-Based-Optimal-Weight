@@ -1,3 +1,11 @@
+## CURRENT — Batch59–64 six-cycle VERIFIED DATA and standalone handoff, 2026-11-06
+
+[complete standalone checkpoint](CHECKPOINT_20261106_BATCH64_SIX_CYCLES.md) · [six-cycle QA](QA_BATCH64_SIX_CYCLES_20261106.json) · [immutable DATA `e791d74498aa01e7f400f188e5b03d356a8669d8`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/e791d74498aa01e7f400f188e5b03d356a8669d8) · QA-only commit `c5735badddcc387cdb2fc69a7fde93b5ae11ed6c`. **All six original-law cycles completed** (031 Azerbaijan, 032 Argentina, 036 Australia, 056 Belgium, 710 South Africa, 554 NZ); original source legal caveats preserved. **248 M49, 231 provisional identity, 17 UNKNOWN, 318 bodies, 45 relations, 4 shared scopes, 728 source observations (+11); 19/248 partial legal workflow (+4), 229 unscored, 19 queue evidence-added unresolved; ZERO current comprehensive enacted legal research complete.** Fixup repair of nine new provenance M49 code omissions independently verified; 25 quote-aware structural checks + 6 negative controls PASS after repair at exact data SHA. **Actual Python/unittests NOT RUN (GitHub DNS)**. PR #68 open/draft/unmerged; team A-only. Next P0 unknown original laws 624/226/581/744/010 plus rotate provisional region/regulator statute law; inspect Batch64 checkpoint and RUNBOOK. 
+
+**Short continuation:** Continue Team A in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68. Read `docs/atlas/handoffs/team-a/RUNBOOK.md` and `CONTINUE.md` on branch `research/atlas-team-a-20261104`. Work from the research queue and legal-verification ledger. Research, commit, validate and checkpoint Team A-only changes; preserve caveats, keep PR draft/unmerged, and report measured progress. End by repeating this same prompt.
+
+---
+
 ## CURRENT — Team A Batch58 Argentina/Bahrain original-law legal triage and Wake-only ledger re-score — acceptance incomplete
 
 2026-11-06: [Batch58 standalone checkpoint](CHECKPOINT_20261106_BATCH58.md) | [immutable DATA e51a2f6fb478533579f3efd99555cd966ad42472](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/e51a2f6fb478533579f3efd99555cd966ad42472) | [ten-CSV structural QA](QA_BATCH58_20261106.json) | [source analysis](source_recovery/CYCLE_A58_032_048_581_ORIGINAL_LAW_TRIAGE_20261106.md).
