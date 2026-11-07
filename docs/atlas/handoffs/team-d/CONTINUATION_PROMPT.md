@@ -2,7 +2,7 @@
 
 This file is the only **current operational entrypoint**, not an archive of old batch prompts. Previous 92KB instructions remain in Git history and CHECKPOINT_BATCH_* files.
 
-**Read in order:** [consolidated checkpoint](CONSOLIDATED_CHECKPOINT_2026-11-07.md), [236-row finite backlog](data/consolidated_case_backlog_2026-11-07.csv), [inspected canonical dataset inventory](data/consolidated_dataset_inventory_2026-11-07.csv), [completion safeguards](COMPLETION_PLAYBOOK.md), [ontology](GRAPH_ONTOLOGY.md), and original Team D acceptance on `research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md` (read-only). Consult Batch57 and earlier case files only for the selected record.
+**Read in order:** [current post-consolidation checkpoint](POST_CONSOLIDATION_CHECKPOINT_2026-11-07.md), [original consolidated checkpoint](CONSOLIDATED_CHECKPOINT_2026-11-07.md), [236-row finite backlog](data/consolidated_case_backlog_2026-11-07.csv), [inspected canonical dataset inventory](data/consolidated_dataset_inventory_2026-11-07.csv), [completion safeguards](COMPLETION_PLAYBOOK.md), [ontology](GRAPH_ONTOLOGY.md), and original Team D acceptance on `research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md` (read-only). Consult Batch57 and earlier case files only for the selected record.
 
 **Strict scope:** Work exclusively on `research/atlas-team-d-20261104`; write only under `docs/atlas/handoffs/team-d/`. Check live head and PR #70 OPEN/DRAFT/UNMERGED. Use optimistic expected-SHA nonforce commits and reconcile other writers; no main, website, calculator, teams A/B/C, issue closure, PR readiness or merge.
 

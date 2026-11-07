@@ -1,3 +1,5 @@
+> **Post-consolidation update (2026-11-07):** This is the original consolidation snapshot (321 provenance URLs). The **current** post-consolidation source-and-semantics checkpoint is [POST_CONSOLIDATION_CHECKPOINT_2026-11-07.md](POST_CONSOLIDATION_CHECKPOINT_2026-11-07.md): 325 URLs, 5 case escalations, 15 evidence/semantic audit observations, original acceptance 3/5 structurally demonstrated and 2/5 held. Do not treat the older figures below as live post-audit source totals.
+
 # Team D — authoritative consolidated institutional research checkpoint (2026-11-07)
 
 **Snapshot and scope:** [Draft PR #70](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70), branch `research/atlas-team-d-20261104`, starting head `f18901f1cbaad2865ae3dc9843174fd2950c6fe3`. This is a reconciliation run, not ordinary new research discovery. The commit containing this file is the current authoritative consolidation reference. All previous Batch 1–57 checkpoints, original source URLs, dates, contradictory observations and historical reports remain intact in Git. This document supersedes older "latest" STATUS/GAPS/README summaries for operational direction only.
