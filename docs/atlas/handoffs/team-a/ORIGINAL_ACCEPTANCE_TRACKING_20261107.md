@@ -1,40 +1,42 @@
-# Team A original-acceptance versus expanded legal-workflow tracking — 2026-11-07 A68
+# Team A original acceptance vs expanded legal-workflow — A69, 2026-11-07
 
-**Original assignment**: [TEAM_A_GOVERNMENT_CENSUS.md](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/TEAM_A_GOVERNMENT_CENSUS.md). It requires a complete dated governmental health authority *directory* (including documented uncertainty), precise dated government sources, independent checks when authorities are disputed/delegated/renamed, and representative spot-check tests. The later **expanded eight-dimension all-tier statutory verification** programme requires current legally effective original enactments, amendments, complete national/subnational/territorial/municipal/Indigenous regulator and surveillance duties. This is worthwhile **but not a retrospective precondition for a recorded original-directory identity or documented UNKNOWN**.
+**Original governmental-health directory is NOT equivalent to expanded all-tier legal completion.** The original asks for dated 248-area UN M49 coverage, governmental-health body/explicit unknown disposition, precise source identities/language/date, independent issuing checks where disputed/delegated/renamed, representative case checks, and no clinical claims. The later eight-dimension programme asks for all levels of current operative law/amendments, competent issuers, regulators, surveillance and exact effects.
 
-| Original criterion (no invented all-tier legal requirement) | Measured status A68 | Boundary |
-|---|---|---|
-| Every UN M49 country/area represented against dated official master | **248/248 (100%)**, unchanged | Original geography structurally complete |
-| Every row explicitly has ministry/department/scoped delegated authority **or** documented unknown/not applicable | **248/248 (100%)** documented disposition = **231 provisional governmental principal identities + 17 explicit UNKNOWN** | Complete *disposition* is not verified full legal mandates. UNKNOWN not an affirmative authority. |
-| At least two **independent official source/issuer checks where relevant** for disputed, renamed, delegated claims | **Semantic denominator/verified number not yet independently enumerated; NOT MEASURED** | Duplicate hosts, two documents from one legal issuer or press coverage do not automatically meet independence. Source equivalence and exact competent authority must be checked claim by claim. |
-| All supported identity and mandate assertions precise official source/title/language/date and verifiable scope | **748 append-only provenance records (744 -> 748, +4), five body original-language names previously blank; completeness NOT MEASURED** | Raw links and historical original acts are not qualifying current mandates. |
-| Document distinct governmental health, institutes/surveillance and regulatory/devolved institutions; no WHO office substituted for national body | **318 institutional bodies, 45 narrow relationships, 4 shared authority scopes (unchanged), 17 UNKNOWN** | Census additions are evidence of identified bodies, not proof every relevant regulator and local function is mapped. |
-| Representative spot checks: islands, devolved, multilingual, no-permanent-population, renames, cross-border and Indigenous/community boundaries | **Historical checks preserved; A68 tests national–LGU separation (608), regional autonomy caveat (620), uncommenced/draft rule negative control (072); global semantic spot-check acceptance NOT COMPLETE** | Reproduce each selected claim under its actual jurisdiction and issuer, do not infer other jurisdictions. |
-| No unsupported clinical or ancestry/genetic claims | **No new clinical claims, no legal/clinical approvals** | No site/calculator or other teams modified. |
+| Original criterion | Before A68 | A69 after | Meaning |
+|---|---:|---:|---|
+| Dated M49 geography | 248/248 | **248/248** (+0) | Structural requirement satisfied |
+| Explicit health authority or UNKNOWN disposition | 248/248 | **248/248** (+0) | **231 provisional identities and 17 UNKNOWN**, not 248 verified current mandates |
+| All independently issuing corroborations for disputed/renamed/delegated claims | NOT MEASURED | **NOT MEASURED** | Six A69 **bounded issuer/host semantic checks**; global claim denominator, pass count and authority currency still incomplete |
+| Append-only provenance observations | 748 | **750** (+2) | Raw link count not quality; one Bahamas original Gazette visually verified, one Bhutan original historical OAG parent text read with screenshot failure |
+| Distinct bodies, narrow edges, shared scopes | 318/45/4 | **318/45/4** | Not total national/subnational/regulator legal coverage |
+| Source semantic/territorial/multilingual/Indigenous and no-permanent-population checks | PARTIAL | **PARTIAL** | Five local script labels gov-004-001, gov-056-001, gov-048-001, gov-196-001, gov-232-001 remain; 17 UNKNOWN; six scoped sentinel appraisals not global certification |
+| Clinical/legal independent approval | NONE | **NONE** | Research PR remains open/draft/unmerged |
 
-**Original-acceptance measurement**: The two universally countable **structural directory** objectives are satisfied: 248/248 geography and 248/248 explicit disposition. The **source-quality, independence, identity currency and sentinel semantic acceptance** conditions are **partly checked or not measured**, so assigning a false original overall 100% success or treating original acceptance as identical to zero expanded legal completion would both be misleading. Original substantive per-area source-reproducible signoff not independently certified.
+**Verified narrow original law:** Bahamas Minister-signed S.I.18/2026 appoints Dental Professions Act71/2025 to commence 1 April 2026, A69-044-01. Bhutan original National Assembly 2003 medicines parent law A69-064-01 is historical and does not verify current 2022–26 Medicines Board. Issuers ≠ publisher hosts; two hosts of one law are never two independently issuing checks. [Detailed case/negative evidence](source_recovery/CYCLE_A69_ISSUER_AND_COMMENCEMENT_20261107.md).
 
-## Expanded all-tier legal workflow (separate)
+## Separate expanded 248 × 8 legal-workflow measurement
 
-| Metric | Consolidation | A68 after | Delta |
-|---|---:|---:|---:|
-| Geography | 248/248 | 248/248 | 0 |
-| Provisional identity | 231/248 | 231/248 | 0 |
-| Explicit UNKNOWN | 17/248 | 17/248 | 0 |
-| Partially scored eight-dimension legal rows | 26/248 | **28/248** | **+2** |
-| Unscored eight-dimension ledger rows | 222/248 | **220/248** | **-2** |
-| Full all-tier legal research complete pending expert review | 0/248 | **0/248** | 0 |
-| NOT_TRIAGED cells | 1813/1984 | **1797/1984** | -16 |
-| RESEARCHED_INCOMPLETE cells | 122/1984 | **132/1984** | +10 |
-| SOURCE_SUPPORTED narrow cells | 47/1984 | **53/1984** | +6 |
-| CONFLICT_UNRESOLVED | 2/1984 | **2/1984** | 0 |
+| Metric | A68 → A69 | Change |
+|---|---|---:|
+| Legal partial | **28 → 28 /248** | 0 |
+| Legal unscored with earlier research | **220 → 220 /248** | 0 |
+| Narrow SOURCE_SUPPORTED cells | **53 → 55 /1984** | +2 |
+| RESEARCHED_INCOMPLETE cells | **132 → 130 /1984** | -2 |
+| NOT_TRIAGED cells | **1797 → 1797 /1984** | 0 |
+| CONFLICT_UNRESOLVED cells | **2 → 2 /1984** | 0 |
+| Full all-tier legally research-complete | **0 → 0 /248** | 0 |
 
-The two promoted rows are **Portugal 620** and **Philippines 608**, whose existing *original legal sources* were separately read before addition of four targeted records. Botswana 072 draft regulation is documentary **negative evidence**, not an enacted-law positive. `SOURCE_SUPPORTED` means a narrow inspected operative/historical instrument and specified legal claim, **not** through-Nov-2026 amended current all-tier law or expert approval. In particular, the 2019 Philippine legislation and older 1987/1991 texts are dated law frameworks whose current amendment chain remains **RESEARCHED_INCOMPLETE**.
+The two newly SOURCE_SUPPORTED cells are **Bahamas dental professional Act only** and **the named dental appointed-day effective date**, not complete 2026 amendments or all legal duties. Bhutan added provenance but **zero** new legal scores.
 
-## Next reproducible original acceptance audit
+```text
+Original M49 geography      [####################] 248/248 | 248 -> 248 | +0 (structural)
+Documented disposition      [####################] 248/248 | 248 -> 248 | +0 (231 provisional +17 UNKNOWN)
+Provisional identities      [###################.] 231/248 | 231 -> 231 | +0
+Expanded partial legal      [##..................]  28/248 |  28 ->  28 | +0 (workflow)
+Expanded unscored           [##################..] 220/248 | 220 -> 220 | +0 (mostly existing source packs)
+Narrow supported dimensions [#...................] 55/1984 | 53 -> 55 | +2 (not full legal)
+All-tier research complete  [....................]   0/248 |   0 ->   0 | +0
+Unresolved all-tier work    [####################] 248/248 | 248 -> 248 | +0
+```
 
-1. Define finite claim-level denominator from 17 UNKNOWN, all documented rename/delegated/disputed transitions, four scopes and specific named legal/organization source claims. For each: issuing authority A/B, exact instrument(s), issued dates, independently same/different legal actors, jurisdiction and scope, contrary sources, and pass/incomplete/blocked. **Do not count two hosts of one instrument as two checks**.
-2. Assess five missing local-script institutional names at `gov-004-001`, `gov-056-001`, `gov-048-001`, `gov-196-001`, `gov-232-001` against original issuers; distinguish transliteration from English label. Target representative small-island/devolved/Indigenous and no-resident sentinel controls.
-3. Complete separate **expanded** legal tasks via exact original law and commencement, score only appropriate dimensions; classify missing original documents `BLOCKED_NEW_SOURCE_REQUIRED` only after two distinct failures with original URL/method/date and reopening trigger. Preserve historical evidence and sovereignty/community safeguards.
-
-PR #68 remains research-only draft/unmerged. Independent lawyer/clinical approval is outside this team.
+Continue with a finite original disputed/renamed/delegated claim-level independent issuer denominator, five unfilled original-script names, exact Botswana and Solomon Gazette originals, Bhutan present-day reforms, and cross-region source appraisal. [CURRENT](CURRENT.md), [RUNBOOK](RUNBOOK.md) and [A69 checkpoint](CHECKPOINT_20261107_POST_CONSOLIDATION_A69.md). **Original overall semantic/source acceptance gate not closed.** No legal or clinical approval.
