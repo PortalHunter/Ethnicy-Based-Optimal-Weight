@@ -5,8 +5,8 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "f290fd4f8d0aded59f315e256e841a9db91fb6a5",
-  "batch": "85",
+  "validated_data_commit": "4e912520559eedc7942bebc910ac0daa40dd95a3",
+  "batch": "90",
   "metrics": {
     "organizations": 495,
     "areas": 227,
@@ -33,26 +33,25 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organizations": 2,
+    "organizations": 0,
     "locally_reached_new_m49_areas": 0,
     "resources": 0,
     "positive_cells": 0,
-    "bounded_no_source_cells": 2,
-    "previously_untouched_cells_targeted": 2,
-    "previously_bounded_cells_converted_to_positive": 0,
-    "provenance": 2,
-    "searches": 5,
+    "bounded_no_source_cells": 0,
+    "previously_untouched_cells_targeted": 0,
+    "provenance": 0,
+    "searches": 0,
     "issuer_imprints_resolved": 0,
-    "quality_source_audits_added": 1,
-    "quality_depth_audits_added": 3
+    "quality_source_audits_added": 15,
+    "quality_depth_audits_added": 0
   },
   "validation_runtime": "independent_JS_structural_0_errors_12_of_12_immutable_tree_matches_actual_Node_CLI_NOT_RUN_Git_DNS",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "1,180 untouched and 175 searched-unlinked (171 without individually active D1/D2/D3 depth audit), 21 local identity gaps, five unresolved issuer imprints; 412/417 source contexts not individually classified",
-    "Original-language Team B society-source search in Kenya lactose/celiac/hemochromatosis, Indian genetic/liver sources, Egypt Arabic gout archives, Peru substantive original gout text; quality audits 2–5 per run",
-    "Attempt actual unchanged Node validator in executable branch checkout or connector-based reconstructed ten-CSV directory; if impossible report exact limitation; no clinical approval"
+    "397 of 417 raw source/context links individually unaudited; review seven M historical source links and one U Bermuda case, do not silently delete original records",
+    "1,180 untouched cells, 175 searched-unlinked (171 lacking current individual D2), 21 local identity gaps, five original source issuer-country imprints",
+    "Preserve FH/urate/ferritin/lactose-HLA disease distinctions, community governance and source rights; run unchanged Node CLI when exact checkout/reconstruction possible"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -66,7 +65,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch85 immutable data f290fd4f8d0aded59f315e256e841a9db91fb6a5; complete 155-entry tree c0052f45afc4b1c32823d27ae3d7344fc6aff41b; 12/12 exact GitHub SHA/tree matches, independent JS 0 structural errors. Node CLI NOT RUN due Git DNS; 0 reported combined statuses not CI pass. All sources research-only; no clinical/legal/rights approval.",
+  "validated_data_commit_note": "Batch90 five successive committed quality audits, 15 new source classifications, data head 4e912520559eedc7942bebc910ac0daa40dd95a3 tree 584f0faf48ff7c69ce73c7e902cd8427e2314c6a (156, nontruncated), 12/12 exact blob/tree matches, independent JS zero structural errors, Node CLI NOT RUN due GitHub DNS, two GitHub workflows completed success, no clinical/rights/legal approval",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -154,17 +153,17 @@
     }
   ],
   "readback_validation": {
-    "batch": "85",
-    "sha": "f290fd4f8d0aded59f315e256e841a9db91fb6a5",
-    "tree_sha": "c0052f45afc4b1c32823d27ae3d7344fc6aff41b",
-    "tree_entries": 155,
+    "batch": "90",
+    "sha": "4e912520559eedc7942bebc910ac0daa40dd95a3",
+    "tree_sha": "584f0faf48ff7c69ce73c7e902cd8427e2314c6a",
+    "tree_entries": 156,
     "truncated": false,
     "files": 12,
     "exact_matches": 12,
     "local_hash_matches": null,
     "structural_errors": 0,
     "node_cli_run_this_batch": false,
-    "notes": "Immutable GitHub readbacks 12/12 and independent structural JS audit pass; actual Node CLI unrun due DNS; no clinical/license/legal/source eligibility certification."
+    "notes": "Independent GitHub immutable snapshot and JS joins only; actual Node CLI NOT RUN (git DNS); workflow success separate from medical/rights approval"
   },
   "previous_independently_verified_data_commit": "e20897f8b2d19dab43a44fe9c5aea0bd9a6d36ff",
   "session_additions": {
@@ -2591,8 +2590,8 @@
     "actual_node_cli_run": false,
     "clinical_claims_approved": 0
   },
-  "current_data_root_tree": "95997b861cadb8eb9ec508cdfad52d038300b728",
-  "last_standalone_checkpoint": "BATCH_84_CHECKPOINT.md",
+  "current_data_root_tree": "584f0faf48ff7c69ce73c7e902cd8427e2314c6a",
+  "last_standalone_checkpoint": "docs/atlas/handoffs/team-b/BATCH_90_CHECKPOINT.md",
   "previous_checkpoint_snapshot": {
     "batch": "81",
     "validated_data_commit": "a466eee9e43799b4e90d07e8f1c9a8370ea33742",
@@ -2753,5 +2752,188 @@
     "bounded_cells_with_active_D2": 4,
     "bounded_cells_not_individually_audited": 171,
     "notes": "D1 India lactose superseded by D2, Indonesia celiac superseded by positive link, Egypt gout superseded by D2; old rows retained as history. Not medical approval."
+  },
+  "current_run_batch86_90": {
+    "data_commits": [
+      {
+        "batch": "86",
+        "sha": "eafcfadb8215e4a656ecdb475b38eb8266dd49aa"
+      },
+      {
+        "batch": "87",
+        "sha": "2db68bc861b9de4c61f3ff23b69838de297f05ed"
+      },
+      {
+        "batch": "88",
+        "sha": "f116d69badf9a8955ff599c21769f68f5142eff0"
+      },
+      {
+        "batch": "89",
+        "sha": "1c814b5a03b1539fb8fd91e6051df9f64a8af602"
+      },
+      {
+        "batch": "90",
+        "sha": "4e912520559eedc7942bebc910ac0daa40dd95a3"
+      }
+    ],
+    "quality_audits_added": 15,
+    "source_tiers": {
+      "S1": 3,
+      "S2": 9,
+      "H": 0,
+      "M": 7,
+      "U": 1
+    },
+    "source_links_unreviewed": 397,
+    "depth_audit_ledger": {
+      "D1": 3,
+      "D2": 4,
+      "D3": 0
+    },
+    "all_contexts_research_lead_only": true,
+    "reviewed_urls": [
+      {
+        "area": "840",
+        "condition": "diabetes",
+        "organization": "B-US-ADA",
+        "url": "https://diabetes.org/newsroom/press-releases/american-diabetes-association-releases-standards-care-diabetes-2026",
+        "tier": "M",
+        "caveat": "ADA press release dated 2025-12-08 announces 2026 Standards and links separately to Diabetes Care; announcement not original guideline full text, clinical methods, licensed reuse, or national prevalence. Historical raw positive retained provisionally.",
+        "next_action": "Inspect linked primary Standards chapter, editorial committee, method and publication edition before treating raw cell as substantive S1."
+      },
+      {
+        "area": "840",
+        "condition": "high_chol",
+        "organization": "B-US-NLA",
+        "url": "https://www.lipid.org/resource/update-on-familial-hypercholesterolemia-an-expert-clinical-consensus-from-the-national-lipid-association/",
+        "tier": "S1",
+        "caveat": "Official NLA Jan 29 2026 page names 18 authors and presents original expert consensus abstract; manuscript linked externally and not read in full. FH is not any high LDL result; 1-in-311 quoted estimate not independently reappraised. Expert consensus is not graded systematic review or statutory advice.",
+        "next_action": "Inspect linked Journal of Clinical Lipidology original full manuscript, declared methods, rights and competing interests."
+      },
+      {
+        "area": "840",
+        "condition": "lactose",
+        "organization": "B-US-ACG",
+        "url": "https://gi.org/topics/lactose-intolerance",
+        "tier": "S2",
+        "caveat": "ACG first-party educational article has named contributors: original 2004, revisions 2012, 2021 and latest Christopher Schmoyer Apr 2026. It discusses symptoms and hydrogen breath testing; historical ancestry-frequency figures and treatment advice have not been independently validated; lactase deficiency is not automatically symptomatic intolerance.",
+        "next_action": "Verify cited population denominators, source references and rights; do not transfer ancestry percentages to risk calculator or endorse dosing."
+      },
+      {
+        "area": "826",
+        "condition": "celiac",
+        "organization": "B-GB-COELIAC",
+        "url": "https://www.coeliac.org.uk/news/new-guidelines-released/",
+        "tier": "S2",
+        "caveat": "Coeliac UK July 13 2026 own article explains BSG new adult coeliac guidance and some diagnostic distinctions; BSG original guideline author, not Coeliac UK alone. Some patient representatives contributed but full original methods and licensing not reviewed. Educational summary S2, not S1 or national legal authority.",
+        "next_action": "Retrieve BSG original 2026 paper and verify author group, complete clinical recommendations, rights and evidence grades."
+      },
+      {
+        "area": "124",
+        "condition": "celiac",
+        "organization": "B-CA-CC",
+        "url": "https://www.celiac.ca/healthcare-professionals/position-statements/",
+        "tier": "M",
+        "caveat": "Celiac Canada Professional Advisory Council catalogue lists separately dated position statements: 2019 gluten challenge; 2020 oats and others; 2022 label/corn. This index itself does not provide the specific statement text or establish one 2019-2022 contiguous guideline edition. Raw link retained pending exact document-level audit.",
+        "next_action": "Visit each original dated advisory statement; replace broad index with verified exact substantive URLs where licensed."
+      },
+      {
+        "area": "826",
+        "condition": "hemochromatosis",
+        "organization": "B-GB-HUK",
+        "url": "https://www.haemochromatosis.org.uk/clinical-guidelines?title=clinical-guidelines",
+        "tier": "S1",
+        "caveat": "Haemochromatosis UK identifies its 48-page first-edition Jan 2025 patient-led guideline (ISBN 978-1-0369-0742-6), page updated Jan 16 2026; summary covers genetic haemochromatosis and iron overload, with clinician support. 2026 webpage update is not a newly issued guideline edition; underlying full text/methods/rights not appraised, and independent NICE adoption absent.",
+        "next_action": "Inspect underlying 48-page original for methodology, genetic vs biochemical overload boundaries, licensed excerpts and author group; verify whether later edition exists."
+      },
+      {
+        "area": "504",
+        "condition": "diabetes",
+        "organization": "B-MA-SMEDIAN",
+        "url": "https://smedian.net/",
+        "tier": "M",
+        "caveat": "Official Morocco SMEDIAN homepage identifies Oct 15-18 2026 national congress and video archive, but this exact linked URL is congress/activity metadata, not a diabetes-specific original article, peer-reviewed abstract, clinical guideline, or validated session text. Raw positive retained as provisional.",
+        "next_action": "Follow native French filmed-congress archive to specific substantive first-party diabetes talk/document; check date, author and access rights."
+      },
+      {
+        "area": "834",
+        "condition": "diabetes",
+        "organization": "B-TZ-TDA",
+        "url": "https://tdatz.or.tz/programme.php?slug=research-advocacy",
+        "tier": "M",
+        "caveat": "Tanzania Diabetes Association page describes an active Research Evidence and Advocacy focus and policy dissemination, with Muhimbili National Hospital Dar es Salaam contact. No original condition-specific research report, sample, protocol or clinical guidance is present on the linked page. Page statement active/published is not trial results.",
+        "next_action": "Investigate TDA distinct own research reports or substantive diabetes education, without assigning government partners original authorship."
+      },
+      {
+        "area": "578",
+        "condition": "diabetes",
+        "organization": "B-NO-DF",
+        "url": "https://www.diabetes.no/for-helsepersonell/slik-fremmer-vi-diabetesforskning/diabetesforbundets-forskningsfond/",
+        "tier": "M",
+        "caveat": "Norwegian Diabetesforbundet first-party page states foundation supports external projects through applications and a research prize begun in 2017; no specific completed first-party diabetes study or substantive condition research text is contained in the linked page. External funded findings must not be attributed as authored by association.",
+        "next_action": "Identify named awarded study reports and original authors/issuers separately; locate first-party substantive diabetes research or education."
+      },
+      {
+        "area": "076",
+        "condition": "gout",
+        "organization": "B-BR-SBR",
+        "url": "https://www.reumatologia.org.br/doencas-reumaticas/gota/",
+        "tier": "S2",
+        "caveat": "Sociedade Brasileira de Reumatologia original Portuguese gout education explains inflammatory joint flares and explicitly notes many people with hyperuricaemia never develop gout; separate PDF patient leaflet offered but not independently appraised. Site patient education not clinical society guideline or study; no population denominators.",
+        "next_action": "Check PDF edition and authorship, medical references and copyright; maintain clinical gout versus asymptomatic urate distinction."
+      },
+      {
+        "area": "032",
+        "condition": "celiac",
+        "organization": "B-AR-ACA",
+        "url": "https://asociacionceliaca.org.ar/celiaquia/",
+        "tier": "S2",
+        "caveat": "Asociación Celíaca Argentina original Spanish page describes autoimmune coeliac disease, gluten triggers and gastrointestinal/extraintestinal symptoms. HLA/genetic susceptibility is not itself a diagnostic confirmation; numerical incidence and clinical claims not independently verified. Not a government rule or professional practice guideline.",
+        "next_action": "Review original references, testing pathway and source license; keep genetic predisposition separate from confirmed disease."
+      },
+      {
+        "area": "858",
+        "condition": "celiac",
+        "organization": "B-UY-ACELU",
+        "url": "https://acelu.org/enfermedad/",
+        "tier": "S2",
+        "caveat": "Uruguay ACELU first-party Spanish substantive disease education describes autoimmune coeliac mechanisms, symptom groups and diet. It is not a population study or professional consensus; broad treatment and diagnosis claims not independently appraised and no original date visible.",
+        "next_action": "Verify association original clinical source citations and revision date, rights and local guidance separately."
+      },
+      {
+        "area": "036",
+        "condition": "celiac",
+        "organization": "B-AU-COELIAC",
+        "url": "https://coeliac.org.au/learn/diagnosis/",
+        "tier": "S2",
+        "caveat": "Coeliac Australia educational page describes coeliac serology, biopsy and HLA-DQ2/DQ8 susceptibility; explicitly distinguishes positive serology or HLA from confirmed diagnosis, with specialist assessment. Clinical statements not independently appraised or licensed; no population risk inference from ancestry.",
+        "next_action": "Review national diagnostic guideline source/edition and rights; keep education separate from approved clinical algorithm."
+      },
+      {
+        "area": "840",
+        "condition": "hypertension",
+        "organization": "B-US-AHA",
+        "url": "https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline",
+        "tier": "M",
+        "caveat": "AHA Aug 14 2025 landing/summary links Circulation and Hypertension guideline full papers, names Daniel W. Jones and co-chairs. Original 2025 replaces 2017 guidance; linked landing overview cannot establish AHA sole authorship, complete original methods, U.S. legal adoption or current clinical approval. Historical raw positive kept pending primary inspection.",
+        "next_action": "Retrieve primary joint ACC/AHA guideline paper, complete author group, evidence review and edition; add exact source if permitted."
+      },
+      {
+        "area": "060",
+        "condition": "diabetes",
+        "organization": "B-BM-BDA",
+        "url": "https://www.diabetes.bm/blog/2025-screening-report",
+        "tier": "U",
+        "caveat": "Bermuda Diabetes Association Feb 20 2026 webpage reports a Nov 12-13 2025 voluntary two-day eye/blood-sugar screening with Lahey; nearly half of screened participants had at least one issue and 21 percent ophthalmology follow-up. Original PDF summary linked but not inspected, sample only dozens, no exact denominator or population sampling. Do NOT infer Bermuda prevalence or diabetes diagnosis from multi-condition screen.",
+        "next_action": "Read original PDF's denominator, eligibility, metrics and rights; then decide S1 if substantive methods or M if only activity."
+      }
+    ],
+    "checkpoint": "docs/atlas/handoffs/team-b/BATCH_90_CHECKPOINT.md",
+    "workflow_snapshot": {
+      "population_phase_1": "completed_success",
+      "calculator_ci": "completed_success",
+      "combined_statuses": 0
+    },
+    "node_cli_run": false
   }
 }
