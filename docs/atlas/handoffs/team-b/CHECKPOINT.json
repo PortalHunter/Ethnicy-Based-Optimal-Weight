@@ -5,8 +5,8 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "c261fdfbdc48a5049e7560b6ad182829791af017",
-  "batch": "93",
+  "validated_data_commit": "34e1033140aa968d5459865ff8ff80219b68cc2a",
+  "batch": "94",
   "metrics": {
     "organizations": 496,
     "areas": 227,
@@ -42,13 +42,13 @@
     "provenance": 0,
     "searches": 0,
     "issuer_imprints_resolved": 0,
-    "quality_source_audits_added": 12,
+    "quality_source_audits_added": 10,
     "quality_depth_audits_added": 0,
     "quality_tiers_added": {
-      "S1": 1,
-      "S2": 4,
+      "S1": 0,
+      "S2": 6,
       "H": 0,
-      "M": 7,
+      "M": 4,
       "U": 0
     }
   },
@@ -56,9 +56,9 @@
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "377/423 raw URLs unaudited, plus seven new M metadata-only original indexed URLs needing separate exact substantive-source qualification",
-    "1179 untouched cells and 175 source-unlinked, of which 171 lack active D2; prioritize low-covered conditions and original languages",
-    "21 M49 local domiciles without qualified local identity, five original issuer-country imprints, Peru/Morocco M-only legacy unresolved; clinical/legal/rights separate"
+    "367 individually unaudited original source URLs, including FACE/AFDIAG/Japanese guideline and Chile registration originals separated from metadata-only indexes",
+    "1179 untouched condition-area cells and 175 source-unlinked, including 171 without current active D2, rotate low-covered conditions",
+    "21 M49 local organizational identity gaps and 5 original issuer imprints, Peru gout/Morocco diabetes M-only unresolved, medical/legal/rights separate"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -72,7 +72,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch 93: 12 independently inspected original indexed URLs: S1+1 S2+4 M+7; raw area/resource counts unchanged, 46/423 audited, 377 unaudited. Immutable data commit 160-entry nontruncated tree 0ab44774273ee3bff72c6b13cf4e69c63bce909a; 13/13 GitHub SHA matches, independent JS structural zero errors, Node CLI NOT RUN, both Actions succeeded.",
+  "validated_data_commit_note": "Batch 94: ten exact original URL audits (S2 +6, M +4), structural data totals unchanged. Immutable 161-entry data tree 05a335fbc49dbf7b0878dcced4944fe291460aab; 13/13 GitHub SHA matches, independent JS 0 errors, actual Node CLI NOT RUN (git DNS), both Actions success.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -2289,8 +2289,8 @@
     "scope": "only Team B directory; PR remains draft/unmerged; no website/main/other-team files"
   },
   "latest": {
-    "batch": "92",
-    "validated_data_commit": "3cb0eaae19950bae88ebbdd06c1c8f53e958f304",
+    "batch": "94",
+    "validated_data_commit": "34e1033140aa968d5459865ff8ff80219b68cc2a",
     "metrics": {
       "organizations": 496,
       "areas": 227,
@@ -2316,7 +2316,7 @@
       },
       "current_unsd_overview_codes": 248
     },
-    "documentation": "BATCH_92_CHECKPOINT.md plus current headers of CONTINUE/STATUS/GAPS/VALIDATION/CHANGELOG/QUEUE/CHECKPOINT",
+    "documentation": "BATCH_94_CHECKPOINT.md plus current headers of CONTINUE/STATUS/GAPS/VALIDATION/CHANGELOG/QUEUE/CHECKPOINT",
     "draft": true,
     "unmerged": true,
     "clinical_claims_approved": 0
@@ -2598,8 +2598,8 @@
     "actual_node_cli_run": false,
     "clinical_claims_approved": 0
   },
-  "current_data_root_tree": "61d663004aed1b810e6e8649fd119d574838bcb1",
-  "last_standalone_checkpoint": "docs/atlas/handoffs/team-b/BATCH_92_CHECKPOINT.md",
+  "current_data_root_tree": "05a335fbc49dbf7b0878dcced4944fe291460aab",
+  "last_standalone_checkpoint": "BATCH_94_CHECKPOINT.md",
   "previous_checkpoint_snapshot": {
     "batch": "81",
     "validated_data_commit": "a466eee9e43799b4e90d07e8f1c9a8370ea33742",
@@ -3119,13 +3119,13 @@
   },
   "quality_summary": {
     "raw_sources": 423,
-    "individually_audited": 46,
-    "unaudited": 377,
+    "individually_audited": 56,
+    "unaudited": 367,
     "tiers": {
       "S1": 8,
-      "S2": 19,
+      "S2": 25,
       "H": 0,
-      "M": 18,
+      "M": 22,
       "U": 1
     },
     "historical_depth_rows": {
@@ -3148,5 +3148,21 @@
     "data_commit": "c261fdfbdc48a5049e7560b6ad182829791af017",
     "checkpoint_document": "BATCH_93_CHECKPOINT.md",
     "all_original_source_links_research_leads_only": true
+  },
+  "batch_94": {
+    "data_commit": "34e1033140aa968d5459865ff8ff80219b68cc2a",
+    "data_tree": "05a335fbc49dbf7b0878dcced4944fe291460aab",
+    "checkpoint_document": "BATCH_94_CHECKPOINT.md",
+    "source_audit_added": 10,
+    "S2_added": 6,
+    "M_added": 4,
+    "raw_positive_change": 0,
+    "local_M49_change": 0,
+    "unaudited_before": 377,
+    "unaudited_after": 367,
+    "readback_files": 13,
+    "readback_matched": 13,
+    "node_cli_run": false,
+    "github_actions_success": 2
   }
 }
