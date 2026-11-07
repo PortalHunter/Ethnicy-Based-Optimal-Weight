@@ -2,6 +2,40 @@
 
 **Scope:** PR #70; branch `research/atlas-team-d-20261104`; input commit `8ad9e298b98bdb26986c5fc28c3a36d3a76d7105`. This checkpoint supersedes the 2026-11-07 consolidation for **operational continuation**; the consolidation remains the authoritative baseline inventory. This was a finite evidence/semantics verification run, not broad discovery. See [15-row independent semantic/source audit](data/postconsolidation_evidence_semantic_audit_2026-11-07.csv) and [236-row backlog](data/consolidated_case_backlog_2026-11-07.csv).
 
+## Second post-consolidation review — 2026-11-07 (supersedes source totals below; original gates still held)
+
+**Scope / starting ref:** PR #70; only `research/atlas-team-d-20261104`; observed starting head `a6069c168c9915f3f95a71a6a90fd844741d632d`. This entry documents a **limited second, independent source and semantic audit** and two genuinely upgraded original-record routes, not a complete validation or acceptance signoff. Prior record and source URLs below remain historical; new provenance total is **329**, not 325. No changes to main, site, other teams or clinical data.
+
+**Exact original acceptance:** Three of five structural research criteria remain demonstrated (six WHO regional offices/dated Indonesia transition; at least ten typed international relationships; at least ten explicit negative/boundary cases). **TD-BL-ACCEPT-001 HELD**: 14 additional stratified semantic/source observations across original issuer documents, four provisional WHL/ISH identities, PAHO indexed-only evidence, WHO/SCI date semantics, PAHO governance/technical service, APPM reported signing and historical premises. 12 graph provisional aliases and 21 indexed-only PAHO edges remain individually unaudited as a complete population; several original PDF facsimiles are inaccessible. This is not complete independent audit or Team B ID reconciliation. **TD-BL-ACCEPT-002 HELD**: native checked-in `node docs/atlas/handoffs/team-d/validate.mjs` NOT RUN; an authorized full checkout is not available (Node 22.16.0 exists but `git ls-remote` cannot resolve github.com). The 31 substantive targeted independent JavaScript checks of connector-fetched current-snapshot CSVs PASS, plus one explicit no-native-run bookkeeping check, but are not the checked-in script.
+
+**Exactly two original-instrument backlog records reopened on genuinely new primary routes; zero strict closures:**
+
+- **TD-BL-NET-003 SCI North Macedonia**: WHO/EURO original 2024 meeting report (TD-SRC-326), Annex 2, shows a **scheduled** closed heads-of-delegation discussion/approval of its membership request on Thursday **11 April 2024, 14:30–14:50**. The report confirms membership during the **10–12 April** meeting; the agenda **does not establish the actual approval time, signed instrument or exact effective day**. Original PDF text indexed but attempted facsimile image returned HTTP 403. Added a source-only agenda snapshot (`TD-SCI-2024-AGENDA-807`) rather than moving a graph `valid_from` date. Signed minute/decision remains escalated to WHO Europe/SCI custodian.
+- **TD-BL-NET-007 AOECS/Codex**: FAO original **1991** Commission delegate appendix (TD-SRC-327) did not list AOECS in the reviewed name search; that is **not evidence against 1991 admission**. Original **1993** FAO/WHO Commission report ALINORM 93/40, Appendix 1 p100 (TD-SRC-328), explicitly lists **AOECS and representative Hertha Deutsch** among international organizations in the 1993 session. Original **September 2023** Codex Secretariat CCGP33 Annex II document (TD-SRC-329) explicitly lists AOECS as an **NGO with observer status**. Both PDFs were text-indexed; the 1993 screenshot timed out and the 2023 screenshot redirected. These verify **1993 participation and 2023 class**, **not original 1991 (or claimed alternative 1992) accreditation date**. Two supporting observations added. Original credential/letter/minute still escalated to Codex Secretariat; no government membership or national legal adoption inferred.
+
+**Previously escalated cases NOT reopened absent changed authority**: TD-BL-WHO-533 Aruba administrative assignment; TD-BL-NET-001 PAHO 13-vs-14 Eastern Caribbean effective coverage incl French Saint Martin 663; TD-BL-NET-004 Africa CDC APPM full eight signed instruments. Prior issuer limitations and custodian requests stand; repeated generic searches are not closures. No unknown WHO region promoted, no new April positive host, no new country regulator grant, no provisional Team B identity join and no country-level clinical adoption.
+
+**Measured source-only and canonical deltas:** unique provenance **325 → 329 (+4)**, distinct source IDs TD-SRC-326–329; SCI agenda-only snapshots **53 → 54 (+1)**; AOECS supporting role observations **7 → 9 (+2)**; independent semantic/source audit observations **15 → 29 (+14)**. Graph **47 nodes / 619 edges / 26 types unchanged**; 249 M49/ISO seed candidates, 205 current WHO assignments, 105 April affirmative M49 host records, 34 EMA directory identities, zero complete full statutory packets, all seven condition keys unchanged. Finite backlog **236 unique**, two dispositions materially updated but **0 verified closures**.
+
+**Validation evidence and limitations:** before write on the original live-branch snapshot, 11 fetched CSVs passed all width checks; unique 325 provenance URLs and IDs; zero graph source URLs absent from provenance; zero six-field edge duplicate keys; 47/619 graph, 249 geo and 44 queue, 105 hosts, 34 EMA identities, seven institutional-only conditions, 236 unique backlog IDs, 12 provisional aliases and 21 PAHO indexed edges checked — **31/31 substantive targeted checks PASS**. These checks ran using connector-fetched UTF-8 content within a read-only JavaScript audit, **not native Node, a full checked-in validator execution or external/legal/clinical scientific review**. Current post-write source/CSV assertions and independent GitHub readbacks must be verified after the commit and recorded in final response; no fictional stdout/stderr.
+
+**20-slot evidence progress, before → after (not approvals)**
+
+```text
+WHO current regional assignment: ████████████████░░░░ 205/249 (82.3%) → ████████████████░░░░ 205/249 (82.3%) | Δ +0 | 44 not_verified
+April 2026 affirmative host survey: ████████░░░░░░░░░░░░ 105/249 (42.2%) → ████████░░░░░░░░░░░░ 105/249 (42.2%) | Δ +0 | 144 without April affirmative join; not 144 missing offices
+EMA first-party directory identities: ████████████████████ 34/34 (100.0%) → ████████████████████ 34/34 (100.0%) | Δ +0 | identities only
+Full law/delegation/effective/Team A packets: ░░░░░░░░░░░░░░░░░░░░ 0/34 (0.0%) → ░░░░░░░░░░░░░░░░░░░░ 0/34 (0.0%) | Δ +0 | extended legal programme separate
+Original acceptance structurally demonstrated: ████████████░░░░░░░░ 3/5 (60.0%) → ████████████░░░░░░░░ 3/5 (60.0%) | Δ +0 | two held research review gates
+Original acceptance gates held (lower better): ████████░░░░░░░░░░░░ 2/5 (40.0%) → ████████░░░░░░░░░░░░ 2/5 (40.0%) | Δ +0 | TD-BL-ACCEPT-001/002
+```
+
+**Run throughput:** Existing backlog original-instrument cases reopened **2** | direct verified strict closures **0** | newly documented WHO/April boundary positives **0** | source/instrument blockers still open **2 reviewed + 3 previously escalated** | new provenance-only URLs **4** | supporting canonical observations **3** (1 SCI agenda; 2 AOECS) | independent semantic/source audit rows **14** | original acceptance gates closed **0**. Independent legal, scientific/clinical and maintainer review explicitly remain unapproved.
+
+**Next:** obtain an authorized full checkout and execute/capture exact output of native checked-in Node validator; reconcile remaining provisional identifiers with Team B original issuer IDs read-only; independently inspect original report facsimiles and date/issuer issues; pursue the five escalated custodians only on new original record/actual reply. Follow `CONTINUATION_PROMPT.md`, retaining prior evidence and current draft PR.
+
+---
+
 ## Original acceptance criteria — strict research gate status
 
 | Original requirement | Evidence at current research standard | Gate |
