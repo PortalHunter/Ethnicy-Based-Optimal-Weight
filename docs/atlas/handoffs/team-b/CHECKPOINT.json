@@ -5,8 +5,8 @@
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "3cb0eaae19950bae88ebbdd06c1c8f53e958f304",
-  "batch": "92",
+  "validated_data_commit": "c261fdfbdc48a5049e7560b6ad182829791af017",
+  "batch": "93",
   "metrics": {
     "organizations": 496,
     "areas": 227,
@@ -33,22 +33,22 @@
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organizations": 1,
+    "organizations": 0,
     "locally_reached_new_m49_areas": 0,
-    "resources": 1,
-    "positive_cells": 1,
+    "resources": 0,
+    "positive_cells": 0,
     "bounded_no_source_cells": 0,
-    "previously_untouched_cells_targeted": 1,
-    "provenance": 2,
-    "searches": 1,
+    "previously_untouched_cells_targeted": 0,
+    "provenance": 0,
+    "searches": 0,
     "issuer_imprints_resolved": 0,
-    "quality_source_audits_added": 9,
+    "quality_source_audits_added": 12,
     "quality_depth_audits_added": 0,
     "quality_tiers_added": {
       "S1": 1,
       "S2": 4,
       "H": 0,
-      "M": 4,
+      "M": 7,
       "U": 0
     }
   },
@@ -56,9 +56,9 @@
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "389 of 423 raw sources unreviewed; qualify exact source originally indexed, resolve newly flagged four M catalogue URLs",
-    "1179 untouched M49-condition cells and 175 searched-unlinked, including 171 without active D2; rotate low-covered conditions and native-language regions",
-    "21 local M49 identity gaps; five unresolved original issuer-country imprints; Peru gout and Morocco diabetes original substantive M-only; no clinical/legal/rights approval"
+    "377/423 raw URLs unaudited, plus seven new M metadata-only original indexed URLs needing separate exact substantive-source qualification",
+    "1179 untouched cells and 175 source-unlinked, of which 171 lack active D2; prioritize low-covered conditions and original languages",
+    "21 M49 local domiciles without qualified local identity, five original issuer-country imprints, Peru/Morocco M-only legacy unresolved; clinical/legal/rights separate"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -72,7 +72,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch92 +1 locally operating Nairobi hospital identity and qualified original S2 Kenya lactose page; 8 historical source audits S1+1/S2+3/M+4; tree 61d663004aed1b810e6e8649fd119d574838bcb1, 159 entries nontruncated, 13/13 SHA, independent JS 0 errors, Node CLI NOT RUN.",
+  "validated_data_commit_note": "Batch 93: 12 independently inspected original indexed URLs: S1+1 S2+4 M+7; raw area/resource counts unchanged, 46/423 audited, 377 unaudited. Immutable data commit 160-entry nontruncated tree 0ab44774273ee3bff72c6b13cf4e69c63bce909a; 13/13 GitHub SHA matches, independent JS structural zero errors, Node CLI NOT RUN, both Actions succeeded.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -160,19 +160,19 @@
     }
   ],
   "readback_validation": {
-    "batch": "92",
-    "sha": "3cb0eaae19950bae88ebbdd06c1c8f53e958f304",
-    "tree_sha": "61d663004aed1b810e6e8649fd119d574838bcb1",
-    "tree_entries": 159,
+    "batch": "93",
+    "sha": "c261fdfbdc48a5049e7560b6ad182829791af017",
+    "tree_sha": "0ab44774273ee3bff72c6b13cf4e69c63bce909a",
+    "tree_entries": 160,
     "truncated": false,
     "files": 13,
     "exact_matches": 13,
     "local_hash_matches": null,
     "structural_errors": 0,
     "node_cli_run_this_batch": false,
-    "notes": "13/13 exact immutable GitHub SHA matches including both supplemental ledgers. Independent JS 0 errors. GitHub Actions Calculator CI and Population Phase 1 regression both completed/success. No Node CLI, clinical, legal, publisher rights or Indigenous permission approval."
+    "notes": "Canonical ten CSVs + unchanged validator + quality audit + metadata-only reconciliation 13/13 GitHub blob/tree exact matches, independent JS 0 structural errors. Actual Node CLI NOT RUN: git checkout host github.com DNS unresolved. Both GitHub Actions completed/success; no clinical/rights/legal approval."
   },
-  "previous_independently_verified_data_commit": "56eb5532bb6356e38c9703ccbc2984504d6244f0",
+  "previous_independently_verified_data_commit": "3cb0eaae19950bae88ebbdd06c1c8f53e958f304",
   "session_additions": {
     "organizations": 2,
     "resources": 0,
@@ -210,7 +210,8 @@
     "66": "52d537a6df81fc0b1037729c3c64e46e3daf6c23",
     "67": "6d5dc37241526f2cbc2657463819c481d625ae38",
     "78": "6f1710c0fe00b1dc3fe8251111141e9f4175ae3f",
-    "85": "f290fd4f8d0aded59f315e256e841a9db91fb6a5"
+    "85": "f290fd4f8d0aded59f315e256e841a9db91fb6a5",
+    "93": "c261fdfbdc48a5049e7560b6ad182829791af017"
   },
   "acceptance_review": {
     "m49_area_condition_roster": "248x7 structurally complete; 381 raw positives, 175 searched-unlinked, 1180 untouched. Scientific research inventory remains incomplete; 5 individually classified sources.",
@@ -3115,5 +3116,37 @@
     },
     "clinical_release_state": "all_423_research_lead_only",
     "acceptance": "incomplete"
+  },
+  "quality_summary": {
+    "raw_sources": 423,
+    "individually_audited": 46,
+    "unaudited": 377,
+    "tiers": {
+      "S1": 8,
+      "S2": 19,
+      "H": 0,
+      "M": 18,
+      "U": 1
+    },
+    "historical_depth_rows": {
+      "D1": 3,
+      "D2": 4,
+      "D3": 0
+    },
+    "searched_unlinked_without_active_D2": 171
+  },
+  "batch_93": {
+    "delta_from_batch_92": {
+      "source_quality_audits_added": 12,
+      "S1_added": 1,
+      "S2_added": 4,
+      "M_added": 7,
+      "raw_source_positive_change": 0,
+      "local_M49_change": 0,
+      "unreviewed_change": -12
+    },
+    "data_commit": "c261fdfbdc48a5049e7560b6ad182829791af017",
+    "checkpoint_document": "BATCH_93_CHECKPOINT.md",
+    "all_original_source_links_research_leads_only": true
   }
 }
