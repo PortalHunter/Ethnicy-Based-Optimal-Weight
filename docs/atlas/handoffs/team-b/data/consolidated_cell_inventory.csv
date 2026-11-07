@@ -66,7 +66,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 048,Bahrain,Asia,lactose,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,1,P1,native-language first-pass via real local organization and issuer
 050,Bangladesh,Asia,celiac,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,5,P0,replace metadata-only/unresolved linked lead with substantive original or escalate; preserve history
 050,Bangladesh,Asia,gout,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,5,P1,next independent original issuer/source route necessary; not a national nonfinding
-050,Bangladesh,Asia,hemochromatosis,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,5,P1,next independent original issuer/source route necessary; not a national nonfinding
+050,Bangladesh,Asia,hemochromatosis,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,D1,5,P1,D1 first pass only; Next independent Bangladeshi haematology/hepatology original publisher and genetic study archive.
 050,Bangladesh,Asia,lactose,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,5,P0,replace metadata-only/unresolved linked lead with substantive original or escalate; preserve history
 051,Armenia,Asia,celiac,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,1,P1,native-language first-pass via real local organization and issuer
 051,Armenia,Asia,gout,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -136,7 +136,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 116,Cambodia,Asia,celiac,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,2,P1,native-language first-pass via real local organization and issuer
 116,Cambodia,Asia,gout,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,2,P1,native-language first-pass via real local organization and issuer
 116,Cambodia,Asia,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,2,P1,native-language first-pass via real local organization and issuer
-116,Cambodia,Asia,lactose,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,2,P1,next independent original issuer/source route necessary; not a national nonfinding
+116,Cambodia,Asia,lactose,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,D1,2,P1,"D1 first pass only; Switch to separate Cambodian paediatric gastroenterology, nutrition or Khmer publisher."
 120,Cameroon,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,2,P1,native-language first-pass via real local organization and issuer
 120,Cameroon,Africa,gout,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,2,P1,native-language first-pass via real local organization and issuer
 120,Cameroon,Africa,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,2,P1,native-language first-pass via real local organization and issuer
@@ -310,7 +310,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 288,Ghana,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,2,P1,native-language first-pass via real local organization and issuer
 288,Ghana,Africa,gout,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,2,P1,native-language first-pass via real local organization and issuer
 288,Ghana,Africa,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,2,P1,native-language first-pass via real local organization and issuer
-288,Ghana,Africa,lactose,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,2,P1,next independent original issuer/source route necessary; not a national nonfinding
+288,Ghana,Africa,lactose,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,D1,2,P1,D1 first pass only; Seek distinct local Ghanaian dietetic/gastroenterology education or journal publisher.
 292,Gibraltar,Europe,celiac,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,2,P1,native-language first-pass via real local organization and issuer
 292,Gibraltar,Europe,gout,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,2,P1,native-language first-pass via real local organization and issuer
 292,Gibraltar,Europe,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,2,P1,native-language first-pass via real local organization and issuer
@@ -526,7 +526,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 500,Montserrat,Americas,lactose,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,1,P1,native-language first-pass via real local organization and issuer
 504,Morocco,Africa,celiac,specialist_research_only,1,0,0,0,1,source_positive_but_quality_unaudited,2,none,5,P1,audit existing source URLs before new discovery; historic positive not quality verified
 504,Morocco,Africa,gout,national_or_cross_border_body_verified,1,0,0,0,1,source_positive_but_quality_unaudited,1,none,5,P1,audit existing source URLs before new discovery; historic positive not quality verified
-504,Morocco,Africa,hemochromatosis,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,5,P1,next independent original issuer/source route necessary; not a national nonfinding
+504,Morocco,Africa,hemochromatosis,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,D1,5,P1,D1 first pass only; Seek independent French/Arabic local Moroccan hepatology/hematology primary publisher.
 504,Morocco,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,5,P1,native-language first-pass via real local organization and issuer
 508,Mozambique,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,1,P1,native-language first-pass via real local organization and issuer
 508,Mozambique,Africa,gout,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -542,7 +542,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 516,Namibia,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,1,P1,native-language first-pass via real local organization and issuer
 524,Nepal,Asia,celiac,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,5,P1,next independent original issuer/source route necessary; not a national nonfinding
 524,Nepal,Asia,gout,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,5,P1,next independent original issuer/source route necessary; not a national nonfinding
-524,Nepal,Asia,hemochromatosis,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,5,P1,next independent original issuer/source route necessary; not a national nonfinding
+524,Nepal,Asia,hemochromatosis,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,D1,5,P1,D1 first pass only; Check distinct Nepali hepatology/haematology/genetics original issuer and archive.
 524,Nepal,Asia,lactose,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,5,P1,next independent original issuer/source route necessary; not a national nonfinding
 528,Netherlands (Kingdom of the),Europe,celiac,national_or_cross_border_body_verified,1,0,0,0,1,source_positive_but_quality_unaudited,1,none,7,P1,audit existing source URLs before new discovery; historic positive not quality verified
 528,Netherlands (Kingdom of the),Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,source_positive_but_quality_unaudited,1,none,7,P1,audit existing source URLs before new discovery; historic positive not quality verified
@@ -624,7 +624,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 600,Paraguay,Americas,lactose,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,4,P1,native-language first-pass via real local organization and issuer
 604,Peru,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,3,P1,native-language first-pass via real local organization and issuer
 604,Peru,Americas,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_genuinely_no_targeted_search,0,none,3,P1,native-language first-pass via real local organization and issuer
-604,Peru,Americas,lactose,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,3,P1,next independent original issuer/source route necessary; not a national nonfinding
+604,Peru,Americas,lactose,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,D1,3,P1,"D1 first pass only; Check local Peru Society gastro legal domicile, official publisher-host relationship, and exact original article for potential H classification; no population prevalence inference."
 608,Philippines,Asia,celiac,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,5,P1,next independent original issuer/source route necessary; not a national nonfinding
 608,Philippines,Asia,hemochromatosis,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,5,P1,next independent original issuer/source route necessary; not a national nonfinding
 608,Philippines,Asia,lactose,targeted_search_no_verified_resource,0,0,0,0,0,historically_searched_insufficient_D2,1,none,5,P1,next independent original issuer/source route necessary; not a national nonfinding
