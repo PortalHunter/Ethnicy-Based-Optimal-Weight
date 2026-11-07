@@ -1,6 +1,6 @@
 {
   "baseline_sha": "0825ad9fef19dd74535f5690b7a02a46db2acd61",
-  "method": "independent exact canonical CSV joins and existing audit ledger; derived report only",
+  "method": "post-consolidation Batch 95 exact canonical joined records; derived inventories regenerated; S1/S2/H distinguished from raw links and D2 limited to inspected avenues",
   "generated_utc_date": "2026-11-07",
   "M49": 248,
   "conditions": 7,
@@ -9,33 +9,33 @@
   "areas_with_local_org_indexed": 227,
   "geographic_org_gaps": 21,
   "raw_linked_cells": 382,
-  "searched_unlinked_cells": 175,
-  "untouched_cells": 1179,
-  "pub_context_rows": 423,
-  "source_quality_audited": 56,
-  "source_quality_unreviewed": 367,
+  "searched_unlinked_cells": 181,
+  "untouched_cells": 1173,
+  "pub_context_rows": 424,
+  "source_quality_audited": 62,
+  "source_quality_unreviewed": 362,
   "tiers": {
     "S1": 8,
-    "S2": 25,
+    "S2": 27,
     "H": 0,
-    "M": 22,
+    "M": 26,
     "U": 1
   },
-  "eligible_audited_sources": 33,
-  "distinct_cells_with_eligible_audited_source": 33,
-  "raw_linked_fully_audited_without_S1_S2_H": 17,
-  "raw_linked_no_eligible_with_unaudited": 332,
-  "search_depth_entries": 7,
-  "search_depth_D2_cells_with_no_link": 4,
-  "searched_unlinked_missing_active_D2": 171,
+  "eligible_audited_sources": 35,
+  "distinct_cells_with_eligible_audited_source": 35,
+  "raw_linked_fully_audited_without_S1_S2_H": 19,
+  "raw_linked_no_eligible_with_unaudited": 328,
+  "search_depth_entries": 8,
+  "search_depth_D2_cells_with_no_link": 5,
+  "searched_unlinked_missing_active_D2": 176,
   "unknown_source_country_imprints": 5,
   "source_reused_exact_urls": 25,
   "shared_org_official_url_strings": 6,
   "repeated_exact_area_condition_search_urls": 11,
   "identity_states_with_caution_heuristic": 354,
   "identity_states_no_caution_heuristic": 142,
-  "provenance": 1134,
-  "search_logs": 656,
+  "provenance": 1142,
+  "search_logs": 663,
   "community_subnational": 10,
   "cross_border": 8,
   "metadata_reconciliation": 7,
@@ -47,7 +47,7 @@
       "searched": 104,
       "untouched": 34,
       "qualCells": 4,
-      "auditedSources": 11
+      "auditedSources": 12
     },
     "hypertension": {
       "raw": 75,
@@ -72,22 +72,22 @@
     },
     "lactose": {
       "raw": 34,
-      "searched": 16,
-      "untouched": 198,
-      "qualCells": 7,
-      "auditedSources": 8
+      "searched": 19,
+      "untouched": 195,
+      "qualCells": 8,
+      "auditedSources": 10
     },
     "celiac": {
       "raw": 50,
       "searched": 7,
       "untouched": 191,
-      "qualCells": 11,
-      "auditedSources": 18
+      "qualCells": 12,
+      "auditedSources": 21
     },
     "hemochromatosis": {
       "raw": 24,
-      "searched": 13,
-      "untouched": 211,
+      "searched": 16,
+      "untouched": 208,
       "qualCells": 3,
       "auditedSources": 5
     }
@@ -97,19 +97,26 @@
     "organizations": 0,
     "geographic_org_areas": 0,
     "raw_linked_cells": 0,
-    "searched_unlinked_cells": 0,
-    "untouched_cells": 0,
-    "quality_audits": 0,
-    "depth_audits": 0,
+    "searched_unlinked_cells": 6,
+    "untouched_cells": -6,
+    "quality_audits": 6,
+    "quality_eligible_audits": 2,
+    "qualified_cells": 2,
+    "depth_audits": 1,
     "issuer_resolved": 0,
+    "original_source_contexts": 1,
+    "provenance": 8,
+    "search_logs": 7,
+    "newly_touched_first_pass_cells": 6,
     "derived_inventory_rows": 1736,
-    "derived_source_worklist": 423,
+    "derived_source_worklist": 424,
     "derived_identity_review_rows": 517
   },
   "validation": {
     "structural_errors": 0,
     "Node_CLI_ran": false,
-    "Node_note": "git checkout blocked by DNS; independently validated connector-fetched exact canonical files; original Node CLI not executed",
-    "clinical_state": "423/423 research_lead_only"
-  }
+    "Node_note": "Original unchanged Node validator NOT RUN; exact connector-fetched canonical CSVs independently joined and audited in JS; Node file-based execution blocked by lack of checkout/file transfer. Clinical/rights approval not implied.",
+    "clinical_state": "424/424 research_lead_only"
+  },
+  "live_input_head": "6b274abbb460b8cfe3018fbc00db45e190e72e58"
 }
