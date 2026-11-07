@@ -1,22 +1,22 @@
 {
   "team": "B",
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "status": "incomplete",
   "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
   "branch": "research/atlas-team-b-20261104",
   "pr_url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "validated_data_commit": "56eb5532bb6356e38c9703ccbc2984504d6244f0",
-  "batch": "91",
+  "validated_data_commit": "3cb0eaae19950bae88ebbdd06c1c8f53e958f304",
+  "batch": "92",
   "metrics": {
-    "organizations": 495,
+    "organizations": 496,
     "areas": 227,
-    "resources": 422,
-    "positive": 381,
-    "without_linked_source": 1355,
+    "resources": 423,
+    "positive": 382,
+    "without_linked_source": 1354,
     "targeted_no_source": 175,
-    "unresearched": 1180,
-    "provenance": 1132,
-    "search_log": 655,
+    "unresearched": 1179,
+    "provenance": 1134,
+    "search_log": 656,
     "community": 10,
     "cross_border_edges": 8,
     "issuer_country_unresolved": 5,
@@ -26,35 +26,39 @@
       "hypertension": 75,
       "high_chol": 48,
       "gout": 41,
-      "lactose": 33,
+      "lactose": 34,
       "celiac": 50,
       "hemochromatosis": 24
     },
     "current_unsd_overview_codes": 248
   },
   "run_additions": {
-    "organizations": 0,
+    "organizations": 1,
     "locally_reached_new_m49_areas": 0,
-    "resources": 5,
-    "positive_cells": 0,
+    "resources": 1,
+    "positive_cells": 1,
     "bounded_no_source_cells": 0,
-    "previously_untouched_cells_targeted": 0,
-    "provenance": 5,
-    "searches": 2,
+    "previously_untouched_cells_targeted": 1,
+    "provenance": 2,
+    "searches": 1,
     "issuer_imprints_resolved": 0,
-    "quality_source_audits_added": 5,
+    "quality_source_audits_added": 9,
     "quality_depth_audits_added": 0,
-    "metadata_only_cases_reconciled": 7,
-    "quality_eligible_replacements": 5,
-    "metadata_only_unresolved": 2
+    "quality_tiers_added": {
+      "S1": 1,
+      "S2": 4,
+      "H": 0,
+      "M": 4,
+      "U": 0
+    }
   },
-  "validation_runtime": "independent_JS_structural_0_errors_13_of_13_immutable_tree_matches_actual_Node_CLI_NOT_RUN_Git_DNS",
+  "validation_runtime": "independent_JS_structural_0_errors_13_of_13_immutable_tree_matches_GitHub_Actions_2_success_actual_Node_CLI_NOT_RUN",
   "node_cli_run": false,
   "clinical_claims_approved": 0,
   "next_priorities": [
-    "Peru 604 gout and Morocco 504 diabetes remain M-only, legacy raw positive but zero qualifying original publication; pursue first-party substantive original beyond event titles",
-    "397 of 422 source contexts not individually quality audited; 171 bounded cells lack active D2 and 1,180 untouched cells",
-    "21 verified local domicile area gaps, five original issuer imprint unknowns, original methods/edition/rights/community/medical review pending"
+    "389 of 423 raw sources unreviewed; qualify exact source originally indexed, resolve newly flagged four M catalogue URLs",
+    "1179 untouched M49-condition cells and 175 searched-unlinked, including 171 without active D2; rotate low-covered conditions and native-language regions",
+    "21 local M49 identity gaps; five unresolved original issuer-country imprints; Peru gout and Morocco diabetes original substantive M-only; no clinical/legal/rights approval"
   ],
   "data_paths": [
     "PROVENANCE.csv",
@@ -68,7 +72,7 @@
     "data/search_log.csv",
     "data/cross_border_services.csv"
   ],
-  "validated_data_commit_note": "Batch91 metadata-only reconciliation, five S1/S2 original source replacements, two M-only unresolved; tree 2db13111e6a8f44ddacc4e796f97229820353133 (158 entries, nontruncated), 13/13 GitHub SHA tree matches, independent JS zero structural errors, unchanged Node CLI NOT RUN due git DNS; source/rights/clinical unapproved.",
+  "validated_data_commit_note": "Batch92 +1 locally operating Nairobi hospital identity and qualified original S2 Kenya lactose page; 8 historical source audits S1+1/S2+3/M+4; tree 61d663004aed1b810e6e8649fd119d574838bcb1, 159 entries nontruncated, 13/13 SHA, independent JS 0 errors, Node CLI NOT RUN.",
   "areas_without_identity": [
     {
       "m49": "010",
@@ -156,19 +160,19 @@
     }
   ],
   "readback_validation": {
-    "batch": "91",
-    "sha": "56eb5532bb6356e38c9703ccbc2984504d6244f0",
-    "tree_sha": "2db13111e6a8f44ddacc4e796f97229820353133",
-    "tree_entries": 158,
+    "batch": "92",
+    "sha": "3cb0eaae19950bae88ebbdd06c1c8f53e958f304",
+    "tree_sha": "61d663004aed1b810e6e8649fd119d574838bcb1",
+    "tree_entries": 159,
     "truncated": false,
     "files": 13,
     "exact_matches": 13,
     "local_hash_matches": null,
     "structural_errors": 0,
     "node_cli_run_this_batch": false,
-    "notes": "Immutable GitHub readback 13/13 (10 canonical CSV + unchanged validator + quality ledger + reconciliation ledger); independent JS zero structural errors. Actual unchanged Node CLI not run (git DNS). CI snapshot 1 success, 1 in progress; no clinical/rights approval."
+    "notes": "13/13 exact immutable GitHub SHA matches including both supplemental ledgers. Independent JS 0 errors. GitHub Actions Calculator CI and Population Phase 1 regression both completed/success. No Node CLI, clinical, legal, publisher rights or Indigenous permission approval."
   },
-  "previous_independently_verified_data_commit": "e20897f8b2d19dab43a44fe9c5aea0bd9a6d36ff",
+  "previous_independently_verified_data_commit": "56eb5532bb6356e38c9703ccbc2984504d6244f0",
   "session_additions": {
     "organizations": 2,
     "resources": 0,
@@ -2284,18 +2288,18 @@
     "scope": "only Team B directory; PR remains draft/unmerged; no website/main/other-team files"
   },
   "latest": {
-    "batch": "84",
-    "validated_data_commit": "e20897f8b2d19dab43a44fe9c5aea0bd9a6d36ff",
+    "batch": "92",
+    "validated_data_commit": "3cb0eaae19950bae88ebbdd06c1c8f53e958f304",
     "metrics": {
-      "organizations": 493,
+      "organizations": 496,
       "areas": 227,
-      "resources": 417,
-      "positive": 381,
-      "without_linked_source": 1355,
-      "targeted_no_source": 173,
-      "unresearched": 1182,
-      "provenance": 1125,
-      "search_log": 648,
+      "resources": 423,
+      "positive": 382,
+      "without_linked_source": 1354,
+      "targeted_no_source": 175,
+      "unresearched": 1179,
+      "provenance": 1134,
+      "search_log": 656,
       "community": 10,
       "cross_border_edges": 8,
       "issuer_country_unresolved": 5,
@@ -2305,13 +2309,13 @@
         "hypertension": 75,
         "high_chol": 48,
         "gout": 41,
-        "lactose": 33,
+        "lactose": 34,
         "celiac": 50,
         "hemochromatosis": 24
       },
       "current_unsd_overview_codes": 248
     },
-    "documentation": "BATCH_84_CHECKPOINT.md and latest HEADERS of CONTINUE/STATUS/GAPS/VALIDATION/CHANGELOG/QUEUE/CHECKPOINT",
+    "documentation": "BATCH_92_CHECKPOINT.md plus current headers of CONTINUE/STATUS/GAPS/VALIDATION/CHANGELOG/QUEUE/CHECKPOINT",
     "draft": true,
     "unmerged": true,
     "clinical_claims_approved": 0
@@ -2593,8 +2597,8 @@
     "actual_node_cli_run": false,
     "clinical_claims_approved": 0
   },
-  "current_data_root_tree": "2db13111e6a8f44ddacc4e796f97229820353133",
-  "last_standalone_checkpoint": "docs/atlas/handoffs/team-b/BATCH_91_CHECKPOINT.md",
+  "current_data_root_tree": "61d663004aed1b810e6e8649fd119d574838bcb1",
+  "last_standalone_checkpoint": "docs/atlas/handoffs/team-b/BATCH_92_CHECKPOINT.md",
   "previous_checkpoint_snapshot": {
     "batch": "81",
     "validated_data_commit": "a466eee9e43799b4e90d07e8f1c9a8370ea33742",
@@ -2736,14 +2740,14 @@
     }
   ],
   "quality_audit_summary": {
-    "source_rows_individually_classified": 25,
-    "source_contexts_total": 422,
-    "source_contexts_not_individually_classified": 397,
+    "source_rows_individually_classified": 34,
+    "source_contexts_total": 423,
+    "source_contexts_not_individually_classified": 389,
     "source_tiers": {
-      "S1": 6,
-      "S2": 11,
+      "S1": 7,
+      "S2": 15,
       "H": 0,
-      "M": 7,
+      "M": 11,
       "U": 1
     },
     "search_depth_historical_rows": 7,
@@ -2754,7 +2758,7 @@
     },
     "bounded_cells_with_active_D2": 4,
     "bounded_cells_not_individually_audited": 171,
-    "notes": "Batch91 added 5 separately qualified S1/S2 original sources but historical 7 M metadata-only rows retained in raw matrix; two of seven target cells have zero substantive evidence in new reconciliation ledger. All medical/rights approval absent."
+    "notes": "New S1=1/S2=4/M=4. Legacy raw positive cannot be equated with substantive qualified evidence. 2 documented M-only Peru and Morocco still unresolved. 0 clinical approvals."
   },
   "current_run_batch86_90": {
     "data_commits": [
@@ -2997,5 +3001,119 @@
     "latest_source_data_commit": "56eb5532bb6356e38c9703ccbc2984504d6244f0",
     "nontruncated_git_tree": "2db13111e6a8f44ddacc4e796f97229820353133",
     "unapproved_clinical_claims": 0
+  },
+  "previous_checkpoint_snapshot_batch91": {
+    "batch": "91",
+    "validated_data_commit": "56eb5532bb6356e38c9703ccbc2984504d6244f0",
+    "metrics": {
+      "organizations": 495,
+      "areas": 227,
+      "resources": 422,
+      "positive": 381,
+      "without_linked_source": 1355,
+      "targeted_no_source": 175,
+      "unresearched": 1180,
+      "provenance": 1132,
+      "search_log": 655,
+      "community": 10,
+      "cross_border_edges": 8,
+      "issuer_country_unresolved": 5,
+      "issuer_country_differs_from_domicile": 28,
+      "by_condition": {
+        "diabetes": 110,
+        "hypertension": 75,
+        "high_chol": 48,
+        "gout": 41,
+        "lactose": 33,
+        "celiac": 50,
+        "hemochromatosis": 24
+      },
+      "current_unsd_overview_codes": 248
+    },
+    "readback_validation": {
+      "batch": "91",
+      "sha": "56eb5532bb6356e38c9703ccbc2984504d6244f0",
+      "tree_sha": "2db13111e6a8f44ddacc4e796f97229820353133",
+      "tree_entries": 158,
+      "truncated": false,
+      "files": 13,
+      "exact_matches": 13,
+      "local_hash_matches": null,
+      "structural_errors": 0,
+      "node_cli_run_this_batch": false,
+      "notes": "Immutable GitHub readback 13/13 (10 canonical CSV + unchanged validator + quality ledger + reconciliation ledger); independent JS zero structural errors. Actual unchanged Node CLI not run (git DNS). CI snapshot 1 success, 1 in progress; no clinical/rights approval."
+    },
+    "quality_audit_summary": {
+      "source_rows_individually_classified": 25,
+      "source_contexts_total": 422,
+      "source_contexts_not_individually_classified": 397,
+      "source_tiers": {
+        "S1": 6,
+        "S2": 11,
+        "H": 0,
+        "M": 7,
+        "U": 1
+      },
+      "search_depth_historical_rows": 7,
+      "search_depth_historical": {
+        "D1": 3,
+        "D2": 4,
+        "D3": 0
+      },
+      "bounded_cells_with_active_D2": 4,
+      "bounded_cells_not_individually_audited": 171,
+      "notes": "Batch91 added 5 separately qualified S1/S2 original sources but historical 7 M metadata-only rows retained in raw matrix; two of seven target cells have zero substantive evidence in new reconciliation ledger. All medical/rights approval absent."
+    }
+  },
+  "batch92": {
+    "date": "2026-11-07",
+    "parent_sha": "2e9f8d9702f3b4d9d31d9688036682b2b1da4005",
+    "data_commit": "3cb0eaae19950bae88ebbdd06c1c8f53e958f304",
+    "data_tree": "61d663004aed1b810e6e8649fd119d574838bcb1",
+    "source_new": {
+      "area": "404",
+      "condition": "lactose",
+      "org_id": "B-KE-AKUHN",
+      "url": "https://hospitals.aku.edu/kenya/encyclopedia/lactose-intolerance",
+      "tier": "S2",
+      "limit": "Hospital child education, not genetics study, prevalence or clinically approved advice; international parent, local hospital verified."
+    },
+    "audits": {
+      "added": 9,
+      "S1": 1,
+      "S2": 4,
+      "M": 4,
+      "source_total": 34,
+      "unreviewed": 389
+    },
+    "before": {
+      "organizations": 495,
+      "areas": 227,
+      "resources": 422,
+      "positive": 381,
+      "bounded": 175,
+      "untouched": 1180,
+      "provenance": 1132,
+      "search_log": 655
+    },
+    "after": {
+      "organizations": 496,
+      "areas": 227,
+      "resources": 423,
+      "positive": 382,
+      "bounded": 175,
+      "untouched": 1179,
+      "provenance": 1134,
+      "search_log": 656
+    },
+    "validation": {
+      "immutable_sha_matches": 13,
+      "total_files": 13,
+      "structural_errors": 0,
+      "node_cli_run": false,
+      "workflow_runs_completed_success": 2
+    },
+    "clinical_release_state": "all_423_research_lead_only",
+    "acceptance": "incomplete"
   }
 }
