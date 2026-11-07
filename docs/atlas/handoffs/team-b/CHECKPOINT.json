@@ -2733,15 +2733,15 @@
     }
   ],
   "quality_audit_summary": {
-    "source_rows_individually_classified": 5,
+    "source_rows_individually_classified": 20,
     "source_contexts_total": 417,
-    "source_contexts_not_individually_classified": 412,
+    "source_contexts_not_individually_classified": 397,
     "source_tiers": {
-      "S1": 1,
-      "S2": 3,
+      "S1": 3,
+      "S2": 9,
       "H": 0,
-      "M": 1,
-      "U": 0
+      "M": 7,
+      "U": 1
     },
     "search_depth_historical_rows": 7,
     "search_depth_historical": {
@@ -2751,7 +2751,7 @@
     },
     "bounded_cells_with_active_D2": 4,
     "bounded_cells_not_individually_audited": 171,
-    "notes": "D1 India lactose superseded by D2, Indonesia celiac superseded by positive link, Egypt gout superseded by D2; old rows retained as history. Not medical approval."
+    "notes": "Batch90 totals: 15 new source audits, S1 +2 S2 +6 M +6 U +1, no source-positive gains; existing D1 and D2 rows historical, unlinked depth debt 171. Not medical or legal approval."
   },
   "current_run_batch86_90": {
     "data_commits": [
