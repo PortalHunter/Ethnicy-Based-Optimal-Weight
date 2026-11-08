@@ -1,3 +1,24 @@
+# Team A — CURRENT scoped Algeria original-Arabic recovery (2026-11-08)
+
+**Latest bounded result:** A-01:012 Algeria, run `codex-A-A01-012-20261108-95ff0d24`, input `7f24bf92adb4a4569219ab9a3c236595ae5024c8`. Recovered original Arabic [Law18-11/2018](https://www.joradp.dz/FTP/jo-arabe/2018/A2018046.pdf) as `CODEX-A012-20261108-01` and [Ordinance20-02/2020](https://www.joradp.dz/FTP/jo-arabe/2020/A2020050.pdf) as `CODEX-A012-20261108-02`. Printed2018pp3/7/41 and2020pp4/5 visually checked: dated headings, narrow health-programme/pharmaceutical allocations, named promulgators and publication clauses. Prior French translation observations retained; originals are historical, not a current comprehensive statute/amendment chain. [Exact recovery note](source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md).
+
+**Original metrics:** provenance **761→763 (+2original Arabic observations)**; dated geography248/248, authority/UNKNOWN248/248,231provisional/17UNKNOWN,318bodies/45relations/4scopes, issuer sample1/10 unchanged. **Separate expanded workflow:**29partial/248,219unscored/248,59/1984supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged. All dimension statuses retained; global issuer gate OPEN. No legal/clinical/expert approval or new current-authority conclusion.
+
+**Limits/next:** current ministry organic powers, original post2020 amendment/commencement chain through8Nov2026, surveillance/professional/regulator and actual wilaya/commune implementation remain unresolved. Arabic original recovery is not a current-law or expert translation certification. CurrentArabicindex/exact2020FrenchURL503; PNRS200 only application shell. Source failures do not rescind historical observations. Do not repeat the two exact recovered originals.
+
+**QA:** exact8file proposal passed harness/native validator/10tests plus focused preservation controls before independent verification; structural checks are not legal completeness. Separate fresh Verifier and designated Writer required; PR68 OPEN DRAFT UNMERGED.
+
+```text
+Provisional identities     [###################.] 231/248 | +0
+Issuer exact narrow pass   [##..................] 1/10 | +0
+Expanded partial legal     [##..................] 29/248 | +0
+All-tier research complete [....................] 0/248 | +0
+Unresolved all-tier rows   [####################] 248/248 | +0
+```
+
+---
+## Prior scoped checkpoints (historical; provenance now763)
+
 # Team A — CURRENT scoped Queensland original-law recovery (2026-11-08)
 
 **Latest bounded result:** A-01:036 Australia, run `codex-A-A01-036-20261108-0badc804`, input `64fc7b26be3b0f7e6986d5651286279e50ced9a6`. Recovered original [Queensland Act45/2009](https://www.legislation.qld.gov.au/view/pdf/asmade/act-2009-045) as `CODEX-A036-20261108-01`: assent3Nov2009, s2 commencement1Jul2010 exceptpart4, s4 local adoption, scheduleds23 national agency establishment; original PDF pages21/22/23/50 visually inspected. Official [10Apr2026 whole-act text](https://www.legislation.qld.gov.au/view/whole/html/inforce/2026-04-10/act-2009-045) separately recorded as `CODEX-A036-20261108-02`; current s4 applies schedule as modified by part4. Original2009 text is not substituted for current law. History's2025Act6/2026effective-date entries remain qualified leads, not authenticated amendment originals.
