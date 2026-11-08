@@ -1,0 +1,10 @@
+$ ["git", "diff", "--no-renames", "--name-status", "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737", "c4ac494941a6d0db58355cae4cc3d660d442d5f4"]
+M	docs/atlas/handoffs/team-a/CURRENT.md
+M	docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv
+M	docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv
+M	docs/atlas/handoffs/team-a/PROVENANCE.csv
+M	docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv
+M	docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv
+M	docs/atlas/handoffs/team-a/data/research_queue.csv
+A	docs/atlas/handoffs/team-a/runs/A-01--032.json
+A	docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md

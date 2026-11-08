@@ -1,0 +1,26 @@
+{
+  "team": "A",
+  "key": "A-01:032",
+  "packet": {
+    "version": 1,
+    "task": "A-01",
+    "case": "032",
+    "expected_sha": "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+    "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+    "row_key": "priority_rank=10,m49_code=032",
+    "evidence_required": true,
+    "paths": [
+      "docs/atlas/handoffs/team-a/runs/A-01--032.json",
+      "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+      "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+      "docs/atlas/handoffs/team-a/data/research_queue.csv",
+      "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+      "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+      "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+      "docs/atlas/handoffs/team-a/CURRENT.md",
+      "docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md"
+    ]
+  },
+  "status": "running",
+  "launch_id": "launch-codex-A032-5e844b8e64a71ce027fcb6af"
+}

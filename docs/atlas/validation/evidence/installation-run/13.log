@@ -1,0 +1,3 @@
+$ ["git", "worktree", "add", "--detach", "/tmp/atlas-validation-etno7tie/repo/team-input", "c4ac494941a6d0db58355cae4cc3d660d442d5f4"]
+HEAD is now at c4ac494 Atlas A-01:032 Argentina frozen original-text recovery
+Preparing worktree (detached HEAD c4ac494)

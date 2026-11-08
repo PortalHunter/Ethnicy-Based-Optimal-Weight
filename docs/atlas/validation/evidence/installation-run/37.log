@@ -1,0 +1,16 @@
+$ ["python3", "-m", "unittest", "-v"]
+test_blocked_queue_needs_reason (test_validate.CensusScopeValidation.test_blocked_queue_needs_reason) ... ok
+test_cross_area_link_without_scope_fails (test_validate.CensusScopeValidation.test_cross_area_link_without_scope_fails) ... ok
+test_current_directory_passes (test_validate.CensusScopeValidation.test_current_directory_passes) ... ok
+test_duplicate_scope_fails (test_validate.CensusScopeValidation.test_duplicate_scope_fails) ... ok
+test_historical_repealed_body_not_current_link (test_validate.CensusScopeValidation.test_historical_repealed_body_not_current_link) ... ok
+test_legal_ledger_missing_area_fails (test_validate.CensusScopeValidation.test_legal_ledger_missing_area_fails) ... ok
+test_premature_legal_completion_fails (test_validate.CensusScopeValidation.test_premature_legal_completion_fails) ... ok
+test_research_queue_wrong_lane_fails (test_validate.CensusScopeValidation.test_research_queue_wrong_lane_fails) ... ok
+test_scope_missing_provenance_fails (test_validate.CensusScopeValidation.test_scope_missing_provenance_fails) ... ok
+test_silent_unresolved_omission_fails (test_validate.CensusScopeValidation.test_silent_unresolved_omission_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.184s
+
+OK

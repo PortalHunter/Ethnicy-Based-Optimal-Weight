@@ -1,0 +1,2 @@
+$ ["git", "rev-parse", "9ca772f450bd0d4071b9160b7c2786bc80f4f22a^{commit}"]
+9ca772f450bd0d4071b9160b7c2786bc80f4f22a

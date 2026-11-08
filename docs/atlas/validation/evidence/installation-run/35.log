@@ -1,0 +1,24 @@
+$ ["python3", "-m", "unittest", "-v"]
+test_cancel_requires_review_and_allows_new_run (test_checkout.CheckoutTest.test_cancel_requires_review_and_allows_new_run) ... ok
+test_conflicting_checkin (test_checkout.CheckoutTest.test_conflicting_checkin) ... ok
+test_parallel_teams_check_in_together (test_checkout.CheckoutTest.test_parallel_teams_check_in_together) ... ok
+test_same_team_race (test_checkout.CheckoutTest.test_same_team_race) ... ok
+test_same_ticket_two_launches (test_checkout.CheckoutTest.test_same_ticket_two_launches) ... ok
+test_stale_team_head (test_checkout.CheckoutTest.test_stale_team_head) ... ok
+test_blocker_required (test_harness.ContractTest.test_blocker_required) ... ok
+test_dependency (test_harness.ContractTest.test_dependency) ... ok
+test_dry_run (test_harness.ContractTest.test_dry_run) ... ok
+test_duplicate (test_harness.ContractTest.test_duplicate) ... ok
+test_evidence_missing (test_harness.ContractTest.test_evidence_missing) ... ok
+test_foreign_paths (test_harness.ContractTest.test_foreign_paths) ... ok
+test_indexed_evidence (test_harness.ContractTest.test_indexed_evidence) ... ok
+test_malformed (test_harness.ContractTest.test_malformed) ... ok
+test_native_queue_boundary (test_harness.ContractTest.test_native_queue_boundary) ... ok
+test_stale_sha (test_harness.ContractTest.test_stale_sha) ... ok
+test_unprovisioned (test_harness.ContractTest.test_unprovisioned) ... ok
+test_wrong_receipt (test_harness.ContractTest.test_wrong_receipt) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.008s
+
+OK

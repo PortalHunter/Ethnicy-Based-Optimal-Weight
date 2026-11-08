@@ -1,0 +1,486 @@
+{
+  "version": 1,
+  "outcome": "PASS",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "--version"
+      ],
+      "cwd": "/home/runner/work/Ethnicy-Based-Optimal-Weight/Ethnicy-Based-Optimal-Weight",
+      "exit_code": 0,
+      "log": "01.log"
+    },
+    {
+      "argv": [
+        "node",
+        "--version"
+      ],
+      "cwd": "/home/runner/work/Ethnicy-Based-Optimal-Weight/Ethnicy-Based-Optimal-Weight",
+      "exit_code": 0,
+      "log": "02.log"
+    },
+    {
+      "argv": [
+        "git",
+        "--version"
+      ],
+      "cwd": "/home/runner/work/Ethnicy-Based-Optimal-Weight/Ethnicy-Based-Optimal-Weight",
+      "exit_code": 0,
+      "log": "03.log"
+    },
+    {
+      "argv": [
+        "uname",
+        "-a"
+      ],
+      "cwd": "/home/runner/work/Ethnicy-Based-Optimal-Weight/Ethnicy-Based-Optimal-Weight",
+      "exit_code": 0,
+      "log": "04.log"
+    },
+    {
+      "argv": [
+        "git",
+        "clone",
+        "--no-checkout",
+        "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight.git",
+        "/tmp/atlas-validation-cy0tuskl/repo"
+      ],
+      "cwd": "/home/runner/work/Ethnicy-Based-Optimal-Weight/Ethnicy-Based-Optimal-Weight",
+      "exit_code": 0,
+      "log": "05.log"
+    },
+    {
+      "argv": [
+        "git",
+        "fetch",
+        "--no-tags",
+        "origin",
+        "8eb8b44d6986de8c4715ecbbf90b9e633601cced"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "06.log"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "8eb8b44d6986de8c4715ecbbf90b9e633601cced^{commit}"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "07.log"
+    },
+    {
+      "argv": [
+        "git",
+        "fetch",
+        "--no-tags",
+        "origin",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "08.log"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4^{commit}"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "09.log"
+    },
+    {
+      "argv": [
+        "git",
+        "fetch",
+        "--no-tags",
+        "origin",
+        "9ca772f450bd0d4071b9160b7c2786bc80f4f22a"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "10.log"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "9ca772f450bd0d4071b9160b7c2786bc80f4f22a^{commit}"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "11.log"
+    },
+    {
+      "argv": [
+        "git",
+        "worktree",
+        "add",
+        "--detach",
+        "/tmp/atlas-validation-cy0tuskl/repo/harness-input",
+        "8eb8b44d6986de8c4715ecbbf90b9e633601cced"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "12.log"
+    },
+    {
+      "argv": [
+        "git",
+        "worktree",
+        "add",
+        "--detach",
+        "/tmp/atlas-validation-cy0tuskl/repo/team-input",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "13.log"
+    },
+    {
+      "argv": [
+        "git",
+        "show",
+        "-s",
+        "--format=%P",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "14.log"
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--no-renames",
+        "--name-status",
+        "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "15.log"
+    },
+    {
+      "argv": [
+        "git",
+        "ls-tree",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+        "--",
+        "docs/atlas/handoffs/team-a/CURRENT.md"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "16.log"
+    },
+    {
+      "argv": [
+        "git",
+        "ls-tree",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+        "--",
+        "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "17.log"
+    },
+    {
+      "argv": [
+        "git",
+        "ls-tree",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+        "--",
+        "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "18.log"
+    },
+    {
+      "argv": [
+        "git",
+        "ls-tree",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+        "--",
+        "docs/atlas/handoffs/team-a/PROVENANCE.csv"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "19.log"
+    },
+    {
+      "argv": [
+        "git",
+        "ls-tree",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+        "--",
+        "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "20.log"
+    },
+    {
+      "argv": [
+        "git",
+        "ls-tree",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+        "--",
+        "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "21.log"
+    },
+    {
+      "argv": [
+        "git",
+        "ls-tree",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+        "--",
+        "docs/atlas/handoffs/team-a/data/research_queue.csv"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "22.log"
+    },
+    {
+      "argv": [
+        "git",
+        "ls-tree",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+        "--",
+        "docs/atlas/handoffs/team-a/runs/A-01--032.json"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "23.log"
+    },
+    {
+      "argv": [
+        "git",
+        "ls-tree",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+        "--",
+        "docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "24.log"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4:docs/atlas/handoffs/team-a/CURRENT.md"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "25.log"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4:docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "26.log"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4:docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "27.log"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4:docs/atlas/handoffs/team-a/PROVENANCE.csv"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "28.log"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4:docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "29.log"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4:docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "30.log"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4:docs/atlas/handoffs/team-a/data/research_queue.csv"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "31.log"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4:docs/atlas/handoffs/team-a/runs/A-01--032.json"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "32.log"
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "c4ac494941a6d0db58355cae4cc3d660d442d5f4:docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo",
+      "exit_code": 0,
+      "log": "33.log"
+    },
+    {
+      "argv": [
+        "python3",
+        "harness.py",
+        "A",
+        "--live-sha",
+        "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+        "--packet",
+        "/home/runner/work/Ethnicy-Based-Optimal-Weight/Ethnicy-Based-Optimal-Weight/validation-evidence/packet.json",
+        "--result",
+        "/home/runner/work/Ethnicy-Based-Optimal-Weight/Ethnicy-Based-Optimal-Weight/validation-evidence/result.json",
+        "--receipt",
+        "/home/runner/work/Ethnicy-Based-Optimal-Weight/Ethnicy-Based-Optimal-Weight/validation-evidence/receipt.json"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo/harness-input/docs/atlas/harness",
+      "exit_code": 0,
+      "log": "34.log"
+    },
+    {
+      "argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo/harness-input/docs/atlas/harness",
+      "exit_code": 0,
+      "log": "35.log"
+    },
+    {
+      "argv": [
+        "python3",
+        "validate.py"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo/team-input/docs/atlas/handoffs/team-a",
+      "exit_code": 0,
+      "log": "36.log"
+    },
+    {
+      "argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo/team-input/docs/atlas/handoffs/team-a",
+      "exit_code": 0,
+      "log": "37.log"
+    },
+    {
+      "argv": [
+        "git",
+        "status",
+        "--porcelain",
+        "--untracked-files=all"
+      ],
+      "cwd": "/tmp/atlas-validation-cy0tuskl/repo/team-input",
+      "exit_code": 0,
+      "log": "38.log"
+    }
+  ],
+  "request_commit": "a218c8a93a4af754a55b8fafabe9ba660595a7f0",
+  "workflow_run": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/actions/runs/42526038727",
+  "attempt": "1",
+  "limitations": [
+    "Software integrity only; no source authentication, legal, clinical, rights, expert or independent role approval.",
+    "Live ref/PR/reservation observations must be repeated immediately before any authorized write.",
+    "Artifacts expire after 90 days; preserve audited evidence in an authorized GitHub documentation commit before expiry."
+  ],
+  "request": {
+    "version": 1,
+    "team": "A",
+    "run_id": "codex-A-A01-032-20261108-31e61318",
+    "harness_sha": "8eb8b44d6986de8c4715ecbbf90b9e633601cced",
+    "commit": "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+    "mode": "published",
+    "approval_commit": "9ca772f450bd0d4071b9160b7c2786bc80f4f22a",
+    "approval_path": "docs/atlas/handoff-archives/A032/MANIFEST.json"
+  },
+  "request_sha256": "704ac4b3871f3d9ac1a6a182ef8d2ec76a772117940bf2e85ae224735364f142",
+  "approval_sha256": "d9aa1cad770cfd8165148a9c170ed8b8c73ab8a5be71040898b2e97a65fd5234",
+  "preservation": "PASS prior provenance and foreign rows; Argentina frozen fingerprints when applicable. Independent semantic/status audit remains required.",
+  "live_observations": {
+    "team_head": "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+    "ticket": {
+      "team": "A",
+      "key": "A-01:032",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "032",
+        "expected_sha": "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=10,m49_code=032",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--032.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md"
+        ]
+      },
+      "status": "running",
+      "launch_id": "launch-codex-A032-5e844b8e64a71ce027fcb6af"
+    },
+    "pr": {
+      "number": 68,
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "head": "c4ac494941a6d0db58355cae4cc3d660d442d5f4"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+$ ["git", "worktree", "add", "--detach", "/tmp/atlas-validation-cy0tuskl/repo/harness-input", "8eb8b44d6986de8c4715ecbbf90b9e633601cced"]
+HEAD is now at 8eb8b44 harness(checkout): start Team D NET-009 research launch
+Preparing worktree (detached HEAD 8eb8b44)

@@ -1,0 +1,9 @@
+$ ["python3", "validate.py"]
+PASS: 248 legal evidence ledger rows; 248 research queue items (workflow, not legal approval)
+PASS: 248 distinct M49 country-or-area rows match dated official snapshot
+PASS: 231 government ministry/department identities located; 17 explicitly unresolved
+PASS: 318 separately identified government health bodies; 45 sourced relationships
+PASS: 248 coverage records; 766 provenance rows
+PASS: 4 explicit shared-authority area mappings
+PASS: region totals, reference integrity, source fields and complex-jurisdiction sentinels
+LIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date

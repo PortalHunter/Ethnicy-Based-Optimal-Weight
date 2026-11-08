@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "key": "A-01:032",
+  "input_sha": "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+  "disposition": "verified_scoped",
+  "evidence": [
+    {
+      "id": "CODEX-A032-20261108-01",
+      "url": "https://www.argentina.gob.ar/normativa/nacional/decreto-1490-1992-9909/actualizacion",
+      "locator": "Updated art9 and normative antecedents",
+      "issuer": "Argentina National Official Register editorial consolidation; not independent legal issuer",
+      "checked": "2026-11-08; Researcher direct Spanish HTML inspection; independent verification pending",
+      "original": false,
+      "access": "direct",
+      "qualification": "Article9 replacement cites1886/2014; antecedents cite1271/2013. Editorial consolidation still carries historical Secretary titles; not independent current2026 parent/all-amendment certification.229 modifying/complementary norms listed over5pages; only first/last index pages inspected, not full chain."
+    },
+    {
+      "id": "CODEX-A032-20261108-02",
+      "url": "https://www.argentina.gob.ar/normativa/nacional/norma-236729/texto",
+      "locator": "Original art1, art5, art7; BO32994 22October2014p1",
+      "issuer": "Argentine President Cristina Fernandez de Kirchner; National Official Register reproduction host",
+      "checked": "2026-11-08; Researcher direct Spanish HTML inspection; independent verification pending",
+      "original": true,
+      "access": "direct",
+      "qualification": "Original Spanish art1 provides Administrator/Deputy ranks and presidential designation; art5 repeals1271/2013art2; art7 publication clause and named signers.2014 appointees/parent titles not current2026 evidence. Same Executive branch as prior founding decree, not independent legislative issuer or DNU acceptance."
+    },
+    {
+      "id": "CODEX-A032-20261108-03",
+      "url": "https://www.argentina.gob.ar/normativa/nacional/norma-431292/texto",
+      "locator": "Original recitals, arts1/2/4, signer; BO36014 16October2026p38",
+      "issuer": "ANMAT National Administrator Luis Eduardo Fontana; National Official Register reproduction host",
+      "checked": "2026-11-08; Researcher direct Spanish HTML inspection; independent verification pending",
+      "original": true,
+      "access": "direct",
+      "qualification": "Original recital expressly cites art8 inciso \u00f1; art1 narrow product prohibition, art2 administrative-review avenues, art4 publication/jurisdictional notification, named signer. Not judicial validity/appeal-outcome verification, not whole delegation/amendment chain, professional licence or provincial/Indigenous statute. Same executive-administrative family, not independent legislative acceptance."
+    }
+  ],
+  "blocker": "Full current amendment/delegation/parent chain, province/CABA/Indigenous/surveillance originals and DNU legislative review remain unresolved; no all-tier acceptance.",
+  "reopen": "Do not repeat recovered exact instruments; further case work requires maintainer-approved reopening after new qualifying original chain/provincial or congressional records, referencing this checkpoint.",
+  "validation": [
+    "Exact reserved row priority_rank=10,m49_code=032; eight prior source URLs directly retrievedHTTP200, historical qualifiers retained.",
+    "Run codex-A-A01-032-20261108-31e61318; own launch launch-codex-A032-5e844b8e64a71ce027fcb6af; start99b0cd222ba95905f8f712810d40d7ea813f002e direct parent48b974c167827dc16daed66ac9952a21937ed244; independent remote parent/tree/sole ledger path/blob/exact bytes/live running launch/draftPR readback PASS before research.",
+    "Scope +3provenance763\u2192766:two original official-register reproductions plus one expressly nonoriginal compilation; all763prior observations/non032rows retained; both248rowderived indexes refreshed for032only.",
+    "Original directory248geographies,231provisional/17UNKNOWN,318bodies45relations4scopes1/10issuer pass unchanged; separate expanded29partial219unscored59/1984supported134incomplete1789nottriaged2conflicts0all-tier complete unchanged. No legal/clinical/expert/status/gate promotion.",
+    "Actual harness exit0 PASS; native validate.py exit0 PASS (248geographies,766provenance);10unittests exit0 PASS; focused preservation controls PASS on exactproposal snapshot. Final exact-byte recheck saved. These structural checks are not legal acceptance. Independent fresh Verifier must approve exact fingerprints before separate designated Writer publication; this result does not self-certify either.",
+    "Original Spanish2014art1/5/7 and2026recitals/art1/2/4 directly read. No facsimile/e-signature authenticity certification; Executive/ANMAT not independent legislative branches.229linkednorms across5pages; first/last only inspected, not exhaustive amendment review."
+  ],
+  "paths": [
+    "docs/atlas/handoffs/team-a/runs/A-01--032.json",
+    "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+    "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+    "docs/atlas/handoffs/team-a/data/research_queue.csv",
+    "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+    "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+    "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+    "docs/atlas/handoffs/team-a/CURRENT.md",
+    "docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md"
+  ]
+}

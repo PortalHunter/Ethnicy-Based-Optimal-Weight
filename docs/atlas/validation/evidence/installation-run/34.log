@@ -1,0 +1,2 @@
+$ ["python3", "harness.py", "A", "--live-sha", "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737", "--packet", "/home/runner/work/Ethnicy-Based-Optimal-Weight/Ethnicy-Based-Optimal-Weight/validation-evidence/packet.json", "--result", "/home/runner/work/Ethnicy-Based-Optimal-Weight/Ethnicy-Based-Optimal-Weight/validation-evidence/result.json", "--receipt", "/home/runner/work/Ethnicy-Based-Optimal-Weight/Ethnicy-Based-Optimal-Weight/validation-evidence/receipt.json"]
+PASS structural contract for A-01:032

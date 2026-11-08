@@ -1,0 +1,150 @@
+{
+  "purpose": "Frozen staging-only archive; not canonical publication or ledger check-in",
+  "run_id": "codex-A-A01-032-20261108-31e61318",
+  "launch_id": "launch-codex-A032-5e844b8e64a71ce027fcb6af",
+  "expected_team_a_parent": "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+  "original_bytes_regenerated": false,
+  "original_artifact_manifest_sha256": "dab90fee56cd65d046447f1e492438b229c45499183bb71f6f2fa2111b2a9598",
+  "newly_computed_recovered_file_fingerprints": [
+    {
+      "path": "docs/atlas/handoffs/team-a/CURRENT.md",
+      "bytes": 13216,
+      "git_blob_sha1": "e1d70b6171934dfd1ffbb0481e635c51c71f1049",
+      "sha256": "7ebf2915ec5a837f9101385409fc6d72f06c2f0d7c6e267d6c8a209a0a33bb7e",
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+      "bytes": 4858,
+      "git_blob_sha1": "f31da656e4cce17af77b6ea7b8012b3df1f51ec3",
+      "sha256": "83c149ba5dd534bde3547c2c9cb510f35133419872141f34ceb6b1fd0dc79023",
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+      "bytes": 554484,
+      "git_blob_sha1": "eb8639154f431f3c9ac8a490e2ce09a4d9b0fe86",
+      "sha256": "b538889160fd8b319e4884956befc0e676fcf36e624049896ff48088821c0bf6",
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+      "bytes": 338349,
+      "git_blob_sha1": "cabe7b926e67d6ed032a0ea2724e1884119e0216",
+      "sha256": "028d32130357292a8d4f7319bf3258b85c880a75a6b856bcc208f94744315324",
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+      "bytes": 133027,
+      "git_blob_sha1": "5379f7e706a43429566a05f549236f703e635f80",
+      "sha256": "dcb072040232663d0480351780ee7d96334e410c085abe0a01f0e4de0a1675c0",
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+      "bytes": 101316,
+      "git_blob_sha1": "71be3d90dec302a5a0efcdaa7296b34af7334ece",
+      "sha256": "2d06777f9e8cafd1a25f5a0374f00dcd355dae67c59ee36a45425353aa508b41",
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/data/research_queue.csv",
+      "bytes": 93540,
+      "git_blob_sha1": "29877a23b8d9c1f52edbe950d5f802c0c09a195f",
+      "sha256": "2f90c6709f43335cc959dfcb9a5741fb71374036e7eb6db9509000c58058eceb",
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/runs/A-01--032.json",
+      "bytes": 5366,
+      "git_blob_sha1": "b63d009dd74f3c01031c03ccfed085e8bc497803",
+      "sha256": "209dfe8cfea0b6c960a75ffd7b623c316f639203705b596b48add846641c14ce",
+      "git_mode": "100644"
+    },
+    {
+      "path": "docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md",
+      "bytes": 2806,
+      "git_blob_sha1": "2a1c4e863fe0a4b4fbec9721c0e07b44fe82a978",
+      "sha256": "ada48b843a3cbcbc4ad047f426176dc9eec7653eef0a0e8b32387768b3963a05",
+      "git_mode": "100644"
+    }
+  ],
+  "independent_approval": {
+    "status": "FOUND",
+    "verifier": "/root/a032_verifier",
+    "original_approval_sha256": "859e9ad6ba09fd44d6617eb1b513291e653eceeb539b8f09ce2800398b07a18b",
+    "original_handoff_sha256": "573c08660f97f8665acfaad31cc09ae27642e36798577375112a4f8dfb098158",
+    "reference": "sha256:859e9ad6ba09fd44d6617eb1b513291e653eceeb539b8f09ce2800398b07a18b",
+    "reference_kind": "Original native-agent approval content fingerprint; no pre-existing GitHub verification commit or ChatGPT conversation URL was recorded",
+    "approved_fingerprints": [
+      {
+        "destination": "docs/atlas/handoffs/team-a/CURRENT.md",
+        "bytes": 13216,
+        "sha256": "7ebf2915ec5a837f9101385409fc6d72f06c2f0d7c6e267d6c8a209a0a33bb7e",
+        "git_blob_sha": "e1d70b6171934dfd1ffbb0481e635c51c71f1049"
+      },
+      {
+        "destination": "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+        "bytes": 4858,
+        "sha256": "83c149ba5dd534bde3547c2c9cb510f35133419872141f34ceb6b1fd0dc79023",
+        "git_blob_sha": "f31da656e4cce17af77b6ea7b8012b3df1f51ec3"
+      },
+      {
+        "destination": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "bytes": 554484,
+        "sha256": "b538889160fd8b319e4884956befc0e676fcf36e624049896ff48088821c0bf6",
+        "git_blob_sha": "eb8639154f431f3c9ac8a490e2ce09a4d9b0fe86"
+      },
+      {
+        "destination": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+        "bytes": 338349,
+        "sha256": "028d32130357292a8d4f7319bf3258b85c880a75a6b856bcc208f94744315324",
+        "git_blob_sha": "cabe7b926e67d6ed032a0ea2724e1884119e0216"
+      },
+      {
+        "destination": "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+        "bytes": 133027,
+        "sha256": "dcb072040232663d0480351780ee7d96334e410c085abe0a01f0e4de0a1675c0",
+        "git_blob_sha": "5379f7e706a43429566a05f549236f703e635f80"
+      },
+      {
+        "destination": "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+        "bytes": 101316,
+        "sha256": "2d06777f9e8cafd1a25f5a0374f00dcd355dae67c59ee36a45425353aa508b41",
+        "git_blob_sha": "71be3d90dec302a5a0efcdaa7296b34af7334ece"
+      },
+      {
+        "destination": "docs/atlas/handoffs/team-a/data/research_queue.csv",
+        "bytes": 93540,
+        "sha256": "2f90c6709f43335cc959dfcb9a5741fb71374036e7eb6db9509000c58058eceb",
+        "git_blob_sha": "29877a23b8d9c1f52edbe950d5f802c0c09a195f"
+      },
+      {
+        "destination": "docs/atlas/handoffs/team-a/runs/A-01--032.json",
+        "bytes": 5366,
+        "sha256": "209dfe8cfea0b6c960a75ffd7b623c316f639203705b596b48add846641c14ce",
+        "git_blob_sha": "b63d009dd74f3c01031c03ccfed085e8bc497803"
+      },
+      {
+        "destination": "docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md",
+        "bytes": 2806,
+        "sha256": "ada48b843a3cbcbc4ad047f426176dc9eec7653eef0a0e8b32387768b3963a05",
+        "git_blob_sha": "2a1c4e863fe0a4b4fbec9721c0e07b44fe82a978"
+      }
+    ],
+    "limitations": [
+      "Original-text official-register reproductions, not authenticated signed facsimiles or e-signatures.",
+      "2014 officeholders/parent wording is historical;2026 disposition is one narrow product-unit application.",
+      "Compilation/first and last relation-index pages do not prove exhaustive current amendment chain.",
+      "Provincial/CABA/municipal/Indigenous/surveillance and DNU congressional-review gaps remain unresolved.",
+      "Same executive-administrative issuing family does not close independent-issuer gate.",
+      "No team publication or receipt is verified by this stage."
+    ]
+  },
+  "handoff_only_paths": [
+    "docs/atlas/handoff-archives/A032/MANIFEST.json",
+    "docs/atlas/handoff-archives/A032/VERIFIER_RECORD.md"
+  ],
+  "canonical_publication_must_exclude_handoff_metadata": true
+}

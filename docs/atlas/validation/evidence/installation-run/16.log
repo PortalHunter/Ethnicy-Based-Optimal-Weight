@@ -1,0 +1,2 @@
+$ ["git", "ls-tree", "c4ac494941a6d0db58355cae4cc3d660d442d5f4", "--", "docs/atlas/handoffs/team-a/CURRENT.md"]
+100644 blob e1d70b6171934dfd1ffbb0481e635c51c71f1049	docs/atlas/handoffs/team-a/CURRENT.md
