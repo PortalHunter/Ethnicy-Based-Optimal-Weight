@@ -935,6 +935,29 @@
         ]
       },
       "status": "reserved"
+    },
+    "codex-A-A01-044-20261108-311e1be9": {
+      "team": "A",
+      "key": "A-01:044",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "044",
+        "expected_sha": "0e17b6e05700f4e02be1479d846f666ac04dec47",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=4,m49_code=044",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--044.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md"
+        ]
+      },
+      "status": "reserved"
     }
   }
 }
