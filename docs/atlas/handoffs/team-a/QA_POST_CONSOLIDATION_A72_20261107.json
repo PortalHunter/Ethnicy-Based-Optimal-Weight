@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-07",
+  "phase": "A72 original Andorra issuer acceptance research, not consolidation",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "starting_reconciled_head": "463f18a3429c2c38e73489717fb64c222d45bb65",
+  "prewrite_quote_aware_structural_checks": {
+    "passed": 16,
+    "total": 16,
+    "checks": [
+      "data/legal_verification_ledger.csv 248",
+      "data/research_queue.csv 248",
+      "RECONCILED_INVENTORY_20261107.csv 248",
+      "PRIORITIZED_BACKLOG_20261107.csv 248",
+      "756 unique source identifiers",
+      "exact issuer sample 1/10",
+      "five regions two claims each",
+      "dimension SOURCE_SUPPORTED",
+      "dimension RESEARCHED_INCOMPLETE",
+      "dimension NOT_TRIAGED",
+      "dimension CONFLICT_UNRESOLVED",
+      "1984 dimensions total",
+      "29 partial",
+      "219 unscored",
+      "one Andorra qualified devolution",
+      "all audit source IDs resolvable"
+    ]
+  },
+  "immutable_readback": "PENDING independent verification of newly created commit; will be updated after readback",
+  "native_Python_validator": "NOT RUN: no complete authorized checkout; git ls-remote github.com DNS failure",
+  "native_unittests": "NOT RUN: same reason",
+  "counts": {
+    "original": {
+      "dated_m49": 248,
+      "disposition": 248,
+      "provisional": 231,
+      "UNKNOWN": 17,
+      "issuer_sample_pass": "1/10",
+      "provenance_from_to": [
+        754,
+        756
+      ]
+    },
+    "expanded": {
+      "partial": [
+        29,
+        29
+      ],
+      "unscored": [
+        219,
+        219
+      ],
+      "source_supported": [
+        58,
+        59
+      ],
+      "researched_incomplete": [
+        134,
+        134
+      ],
+      "not_triaged": [
+        1790,
+        1789
+      ],
+      "conflicts": [
+        2,
+        2
+      ],
+      "all_tier_complete": [
+        0,
+        0
+      ]
+    }
+  },
+  "source_visual_pages": [
+    "BOPA 2009 printed pp3245,3251",
+    "BOPA no59 Jun2026 original single page"
+  ],
+  "limitations": "Source issuer status and one-parish sanitation scope are narrow; structural checks not legal/clinical approval or globally proven issuer competence. Preserve only Team A mutations and draft PR."
+}
