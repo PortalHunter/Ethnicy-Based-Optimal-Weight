@@ -43,7 +43,8 @@
           "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
         ]
       },
-      "status": "reserved"
+      "status": "running",
+      "launch_id": "launch-B-US-ADA-22785b667e924f06da45c3a8"
     },
     "run-D-D01-ACCEPT-002-20261107": {
       "team": "D",
