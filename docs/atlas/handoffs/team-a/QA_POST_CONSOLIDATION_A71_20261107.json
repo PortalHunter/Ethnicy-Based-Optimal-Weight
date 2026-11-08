@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-07",
+  "phase": "A71 acceptance-driven original-issuer research, not consolidation",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr_number": 68,
+  "starting_verified_head": "53140b0907e251a111c5563e4e351af0a0246d93",
+  "independently_readback_immutable_head_before_qa": "47f149681287939120a632fc56724f9b1b616acb",
+  "methods": [
+    "Original primary source PDFs reviewed separately (exact textual provisions and page visuals); issuer versus host explicit",
+    "Quote-aware independent in-memory prewrite reconstruction of baseline 248-row tables",
+    "All transformed primary CSVs and 10-claim audit fetched again from immutable GitHub commit SHA, independently quote-aware parsed and joined",
+    "Exact 248 M49 row sets, dimension totals, provenance IDs, queue/inventory/backlog joins and audit quotas verified"
+  ],
+  "actual_native_python_validator": "NOT RUN — authorized complete checkout unavailable; git ls-remote github.com failed hostname DNS resolution on 2026-11-07",
+  "actual_native_unittest": "NOT RUN — same repository checkout blocker",
+  "prewrite_structural_check": {
+    "passed": 34,
+    "total": 34
+  },
+  "immutable_readback_check": {
+    "passed": 26,
+    "total": 26,
+    "ref": "47f149681287939120a632fc56724f9b1b616acb",
+    "checks": [
+      "branch immutable SHA equals branch HEAD before QA write",
+      "754 unique provenance rows",
+      "exact two new A71 original-source entries",
+      "legal, queue, inventory, backlog 248 unique identical M49 keys",
+      "29 partial, 219 unscored",
+      "58 source supported,134 researched incomplete,1790 not triaged,2 conflicts,1984 total",
+      "zero fully complete",
+      "all legal source IDs resolve",
+      "Samoa 882 two narrow dimensions only and six remaining",
+      "Andorra and Samoa inventory/backlog/queue count, source and stage joins",
+      "ten exact issuer claims, two each of five populated regions, one Bahamas qualifying narrow pass",
+      "Andorra still nonqualifying with new distinct national issuer, all audit source IDs resolve"
+    ]
+  },
+  "provenance_from_to": [
+    752,
+    754
+  ],
+  "partial_areas_from_to": [
+    28,
+    29
+  ],
+  "unscored_areas_from_to": [
+    220,
+    219
+  ],
+  "source_supported_dimensions_from_to": [
+    56,
+    58
+  ],
+  "incomplete_dimensions_from_to": [
+    129,
+    134
+  ],
+  "not_triaged_dimensions_from_to": [
+    1797,
+    1790
+  ],
+  "conflict_dimensions_from_to": [
+    2,
+    2
+  ],
+  "original_directory": {
+    "m49_geographies": 248,
+    "authority_or_unknown_dispositions": 248,
+    "provisional_identities": 231,
+    "unknown": 17,
+    "bodies": 318,
+    "relationships": 45,
+    "shared_scopes": 4,
+    "issuer_claims": 10,
+    "qualifying_narrow_passes": 1,
+    "global_original_semantic_gate": "OPEN"
+  },
+  "expanded_all_tier_legal": {
+    "areas": 248,
+    "dimensions_per_area": 8,
+    "partial": 29,
+    "unscored": 219,
+    "complete": 0,
+    "source_supported_cells": 58
+  },
+  "narrow_closures": [
+    "A71-882-01 Samoa 2006 Parliament Act as AG 2023 consolidation: s4 national statutory ministry establishment (as-of edition only)",
+    "A71-882-01 Samoa 2019-revised s5 in AG 2023 consolidation: national health policy and hospital/community service mandate only"
+  ],
+  "new_primary_issuer_evidence_not_pass": [
+    "A71-020-01 Andorra Parliament/Coprinces 2025 health-profession enactment is separately issued, but communal health original not authenticated; A70-IA-05 remains PARTIAL"
+  ],
+  "held_instruments": [
+    "Botswana S.I.4/2014 original signed Gazette",
+    "Botswana Medicines Act29/2025 original appointed-day Gazette; final numbered 2026 regulations",
+    "Solomon Islands after-2024 original Health Services amendments and signed Honiara/provincial health arrangements",
+    "Bhutan Cabinet C-3/6(5)/2024/48 and RCSC LTD/1/COM/2024/3331 original signed letters and subsequent board amendments",
+    "Samoa original 2007 Minister commencement notice, 2019 amendment original and later amendment chain",
+    "Andorra commune original public-health law and later 2026 chain"
+  ],
+  "safeguarded": [
+    "17 still UNKNOWN, five outstanding local-script labels, disputes, Indigenous/community autonomy, historic/reprint distinctions, territorial/no-resident, cross-border"
+  ],
+  "untouched": [
+    "main",
+    "website",
+    "calculator",
+    "other teams",
+    "previous original source records",
+    "closed Bahamas dental S.I.18/2026"
+  ],
+  "no_legal_or_clinical_approval": true,
+  "limitations": "26/26 immutable structural checks and 34/34 in-memory checks are NOT native Python validator or full legal semantic/source review; source-level issue and issuer classifications remain narrow. Final QA-file immutability and branch scope require post-commit confirmation."
+}

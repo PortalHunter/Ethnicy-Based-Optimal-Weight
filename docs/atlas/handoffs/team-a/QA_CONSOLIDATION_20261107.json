@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-07",
+  "name": "Team A consolidation exact-commit GitHub readback",
+  "immutable_original_dataset_head": "a9f2043460bb737c6910abcfd7aedb0633e8c583",
+  "verified_consolidation_commit": "15055322caaa48527e0a5ecb05f2bbf18a782d15",
+  "paths": {
+    "data/authority_relationships.csv": {
+      "sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+      "bytes": 8627,
+      "rows": 45
+    },
+    "data/government_health_bodies.csv": {
+      "sha": "456ac0b737f0b963fabfcda9836b000dfe8c5b9b",
+      "bytes": 232072,
+      "rows": 318
+    },
+    "data/authority_area_scope.csv": {
+      "sha": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+      "bytes": 1375,
+      "rows": 4
+    },
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": {
+      "sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+      "bytes": 37594,
+      "rows": 248
+    },
+    "data/country_coverage.csv": {
+      "sha": "e4ade0148ef9b3f8767f02956335763d44d06d38",
+      "bytes": 101989,
+      "rows": 248
+    },
+    "data/countries.csv": {
+      "sha": "32a868a700db0223dfc56bf7549866a1e0eadd1f",
+      "bytes": 132333,
+      "rows": 248
+    },
+    "data/legal_verification_ledger.csv": {
+      "sha": "d8ec256d2276e84c701296bee1ef192da37ad5be",
+      "bytes": 92878,
+      "rows": 248
+    },
+    "data/research_queue.csv": {
+      "sha": "718e3e77bc29f3c1c90deab109b3df8594b75ea2",
+      "bytes": 90468,
+      "rows": 248
+    },
+    "data/unresolved_area_audit.csv": {
+      "sha": "8ff43285fb7f00cea8c0b1f2b761b26d94f1e51c",
+      "bytes": 27191,
+      "rows": 17
+    },
+    "PROVENANCE.csv": {
+      "sha": "f35d62f011a2cb6d09ebd874fa2f9a4c7a0bb0ad",
+      "bytes": 316342,
+      "rows": 744
+    },
+    "RECONCILED_INVENTORY_20261107.csv": {
+      "sha": "1fa044f95f4bc5ed8d038b26dbd41f624b4c3e2e",
+      "bytes": 132544,
+      "rows": 248
+    },
+    "PRIORITIZED_BACKLOG_20261107.csv": {
+      "sha": "5bbd04a7face5c8d9b00b11ea3ce79b23341d719",
+      "bytes": 553363,
+      "rows": 248
+    }
+  },
+  "method": "Independently fetched 12 complete CSVs from exact GitHub SHA; quote-aware JS parse, M49 identity/relationship/provenance checks and derived-index full readback",
+  "checks": [
+    {
+      "label": "Full quote-aware parse M49_OFFICIAL_SNAPSHOT_20261105.csv",
+      "result": "PASS"
+    },
+    {
+      "label": "Full quote-aware parse data/countries.csv",
+      "result": "PASS"
+    },
+    {
+      "label": "Full quote-aware parse data/government_health_bodies.csv",
+      "result": "PASS"
+    },
+    {
+      "label": "Full quote-aware parse data/authority_relationships.csv",
+      "result": "PASS"
+    },
+    {
+      "label": "Full quote-aware parse data/authority_area_scope.csv",
+      "result": "PASS"
+    },
+    {
+      "label": "Full quote-aware parse data/country_coverage.csv",
+      "result": "PASS"
+    },
+    {
+      "label": "Full quote-aware parse data/unresolved_area_audit.csv",
+      "result": "PASS"
+    },
+    {
+      "label": "Full quote-aware parse data/legal_verification_ledger.csv",
+      "result": "PASS"
+    },
+    {
+      "label": "Full quote-aware parse data/research_queue.csv",
+      "result": "PASS"
+    },
+    {
+      "label": "Full quote-aware parse PROVENANCE.csv",
+      "result": "PASS"
+    },
+    {
+      "label": "Full quote-aware parse RECONCILED_INVENTORY_20261107.csv",
+      "result": "PASS"
+    },
+    {
+      "label": "Full quote-aware parse PRIORITIZED_BACKLOG_20261107.csv",
+      "result": "PASS"
+    },
+    {
+      "label": "248 distinct M49 countries",
+      "result": "PASS"
+    },
+    {
+      "label": "248 distinct M49 coverage",
+      "result": "PASS"
+    },
+    {
+      "label": "248 distinct M49 legal",
+      "result": "PASS"
+    },
+    {
+      "label": "248 distinct M49 queue",
+      "result": "PASS"
+    },
+    {
+      "label": "248 distinct M49 inventory",
+      "result": "PASS"
+    },
+    {
+      "label": "248 distinct M49 backlog",
+      "result": "PASS"
+    },
+    {
+      "label": "Official M49 name, ISO and region",
+      "result": "PASS"
+    },
+    {
+      "label": "318 distinct governmental bodies",
+      "result": "PASS"
+    },
+    {
+      "label": "744 distinct provenance sources",
+      "result": "PASS"
+    },
+    {
+      "label": "17 explicit UNKNOWN audits",
+      "result": "PASS"
+    },
+    {
+      "label": "All principal body references and shared scopes",
+      "result": "PASS"
+    },
+    {
+      "label": "45 related body links have valid endpoints",
+      "result": "PASS"
+    },
+    {
+      "label": "Four shared scopes have body/source references",
+      "result": "PASS"
+    },
+    {
+      "label": "Legal ledger baseline and precise source refs",
+      "result": "PASS"
+    },
+    {
+      "label": "Unknown audit status and provenance refs",
+      "result": "PASS"
+    },
+    {
+      "label": "248 queue legal foreign keys",
+      "result": "PASS"
+    },
+    {
+      "label": "Reconciled inventory exact source and legal readback",
+      "result": "PASS"
+    },
+    {
+      "label": "Ranked 248-item backlog matches original queue, dimensions, sources",
+      "result": "PASS"
+    },
+    {
+      "label": "652 and 663 shared-source evidence preserved",
+      "result": "PASS"
+    },
+    {
+      "label": "No all-tier law research signoff",
+      "result": "PASS"
+    }
+  ],
+  "passed": 32,
+  "failed": 0,
+  "metrics": {
+    "m49": 248,
+    "bodies": 318,
+    "relationships": 45,
+    "scopes": 4,
+    "provenance": 744,
+    "partial_legal": 26,
+    "unscored": 222,
+    "inventory": 248,
+    "backlog": 248,
+    "dimension_statuses": {
+      "NOT_TRIAGED": 1813,
+      "RESEARCHED_INCOMPLETE": 122,
+      "SOURCE_SUPPORTED": 47,
+      "CONFLICT_UNRESOLVED": 2
+    }
+  },
+  "python_validator": "NOT_RUN: no complete local checkout; github.com DNS unavailable",
+  "python_unittest": "NOT_RUN: no complete local checkout; github.com DNS unavailable",
+  "clinical_approval": "NO",
+  "independent_legal_approval": "NO"
+}

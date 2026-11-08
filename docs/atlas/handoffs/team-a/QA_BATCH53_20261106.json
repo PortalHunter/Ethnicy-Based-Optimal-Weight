@@ -1,0 +1,69 @@
+{
+  "batch": 53,
+  "checked_utc": "2026-11-06",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "pre_batch_head": "2f63759e0b2d5e83a16f3da81eb2135dc67ff273",
+  "immutable_data_head": "e0bb17f56bae44ca338537a003e6005916b641cf",
+  "data_commits": [
+    "d2af28b2eab71805458e7a71b6a909f4ab7403d0",
+    "2ed9fee209ab5a85695c327caf085523dced9ac1",
+    "e0bb17f56bae44ca338537a003e6005916b641cf"
+  ],
+  "immutable_blob_shas": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+    "data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+    "data/government_health_bodies.csv": "1ff2feb1fe1464bed3c31acac2b5ff4cae24a024",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6dd62fbd54e9140",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "cb1fd9e0549ce517f3be866309b9450ee28e7449",
+    "PROVENANCE.csv": "99daa90e61dcfcc463ddf32f3815a2889856cc24"
+  },
+  "counts": {
+    "m49": 248,
+    "countries": 248,
+    "provisional_identity_areas": 231,
+    "unknown_areas": 17,
+    "body_records": 318,
+    "relationships": 45,
+    "shared_scopes": 4,
+    "coverage_rows": 248,
+    "provenance_rows": 692,
+    "prior_provenance_rows": 691,
+    "appended_source_rows": 1
+  },
+  "structural_verification": {
+    "status": "PASS",
+    "method": "Independent full GitHub connector eight-CSV quote-aware JavaScript structural mirror of the repository Python validator, at exact immutable DATA SHA; NOT Python execution",
+    "checks": [
+      "All eight files read in full at the immutable commit; blob SHA values captured",
+      "Every M49 code/name/alpha2/alpha3/region/subregion exactly matches dated official 248-row snapshot",
+      "Region totals, leading-zero identifiers, area coverage statuses and specialized territorial/devolution negative sentinels",
+      "All body ID, local-name pending flags, HTTPS/date/language/source state, 45 relationships and four documented shared-area links",
+      "All 17 UNKNOWN audit rows have source ID links; only 624 changed from prior Batch52; 16 other audits preserved",
+      "692 unique dated provenance IDs; prior 691 records byte-identical prefix; only A53-624-01 appended",
+      "GitHub compare 3 commits and three Team A research paths only; no other files in pre-batch -> immutable-DATA diff"
+    ],
+    "changed_paths": [
+      "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+      "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+      "docs/atlas/handoffs/team-a/source_recovery/CYCLE_624_PNDS_2023_INASA_IMPLEMENTATION_GAP_20261106.md"
+    ],
+    "python_validator": "NOT RUN Batch53: local GitHub clone blocked by DNS (git ls-remote could not resolve github.com); last actual Python validator Batch41",
+    "python_unittests": "NOT RUN Batch53: same checkout/DNS barrier; JS mirror does not execute test_validate.py"
+  },
+  "new_source": {
+    "source_id": "A53-624-01",
+    "area_m49": "624",
+    "issuer": "Ministério da Saúde Pública (MINSAP) government-authored 2023 PNDS III; WHO archival host, not legal issuer",
+    "language": "pt",
+    "url": "https://extranet.who.int/uhcpartnershiplivemonitoring/system/files/doc_attachments/PNDS%202023-2028_Vers%C3%A3oFinal1.pdf",
+    "visual": "PDF page indices 30 and 32; printed pp.31,33",
+    "finding": "Government 2023 plan reported non-application of INASA statutes and budget deficit as of 2023; reported regional focal points and central vs regional health tiers. The 2025 Gazette approved the plan, not proof of later statute implementation.",
+    "limitations": "Historical 2023 diagnosis, WHO-hosted primary government-authored policy not domestic signed law; current 2026 implementation/organic competence and original August 2010 BOE remain unverified."
+  },
+  "acceptance": "Original all-level enacted current legal authority, independent issuer, regional health, medicines/regulator and statutory completion NOT MEASURED / INCOMPLETE; no clinical approval",
+  "safety": "Keep PR #68 open and draft/unmerged; only Team A research directory changed; no main/site/calculator/clinical/other-team edits"
+}

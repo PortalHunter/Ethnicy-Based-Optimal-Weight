@@ -1,0 +1,66 @@
+{
+  "batch": 49,
+  "checked_utc": "2026-11-06",
+  "repo": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "immutable_batch49_data_head": "41d22bb0275c9c34516a2f0607b0d10084a94a0c",
+  "prior_branch_head": "5cfec1faf74954ed8f2e1b0142cbee97e34946f8",
+  "data_write_commits": [
+    "3aba1e157e1ac2f66600e3770557ffc1a7439deb",
+    "a44c85e52bc1f83eb446ac025e067aac637406d5",
+    "41d22bb0275c9c34516a2f0607b0d10084a94a0c"
+  ],
+  "immutable_blobs": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+    "data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+    "data/government_health_bodies.csv": "1ff2feb1fe1464bed3c31acac2b5ff4cae24a024",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "dd8fc248e5514c6f5a83897c592fc3f73035d56e",
+    "PROVENANCE.csv": "00f7567a36ee23904879031ed74d7cf3288794e1"
+  },
+  "counts": {
+    "official_m49": 248,
+    "country_skeletons": 248,
+    "provisional_area_identity": 231,
+    "documented_unknown": 17,
+    "government_body_identity_rows": 318,
+    "authority_relationships": 45,
+    "shared_area_scopes": 4,
+    "coverage_rows": 248,
+    "unresolved_audit_rows": 17,
+    "source_observations": 680,
+    "preexisting_global_unscoped_source_context": 3
+  },
+  "qa": {
+    "type": "independent full quote-aware JS GitHub eight-CSV readback; not execution of Python validator",
+    "status": "PASS",
+    "details": [
+      "248 distinct dated UN M49 snapshots and exact per-row country code, ISO2/ISO3, official name and region/subregion matches",
+      "248 coverage rows and 231 OFFICIAL_AUTHORITY_IDENTIFIED plus 17 UNKNOWN_REVIEW_NEEDED cross-file reconciliation",
+      "318 unique source-scoped government bodies and linked authority_record_ids; 45 valid sourced intra-government body relationships and 4 shared area-body scope records",
+      "680 unique provenance rows; exactly three historical global context observations have empty area_m49 and all other rows map to official M49",
+      "17 unknown audit rows each present and linked to source IDs; A49-581-01 through -03 added only to 581, which stays unknown",
+      "677 previous provenance source rows preserved as exact bytes and 16 other unknown audit logical rows unchanged",
+      "Compare before batch to immutable data head: three Team A paths only; six unaffected CSV blob SHA values unchanged",
+      "PR #68 remains OPEN DRAFT UNMERGED at batch49 data state"
+    ],
+    "actual_python_validator": "NOT RUN: local git ls-remote to github.com failed DNS (Could not resolve host: github.com). Last recorded actual Python pass Batch41.",
+    "actual_python_unittests": "NOT RUN: same local checkout DNS failure. Last recorded five tests pass Batch41.",
+    "complete_current_enacted_legal_scope": "NOT MEASURED / INCOMPLETE",
+    "clinical_verification": "NOT APPROVED"
+  },
+  "changed_paths": [
+    "docs/atlas/handoffs/team-a/source_recovery/CYCLE_581_DOI_PALMYRA_EXCLUSIONS_AND_ARCHIVED_2009_MONUMENT_20261106.md",
+    "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+    "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv"
+  ],
+  "sources": [
+    "https://www.doi.gov/sites/default/files/elips/documents/3224_-palmyra_atoll_national_wildlife_refuge.pdf",
+    "https://www.doi.gov/oia/islands/palmyraatoll",
+    "https://www.doi.gov/sites/doi.gov/files/elips/documents/archived-3284_-delegation_of_management_responsibility_for_the_pacific_remote_islands_marine_national_monument_rose_atoll_marine_national_monument_and_the_marianas_trench_marine_national_monument.pdf"
+  ],
+  "interpretation": "2001 Palmyra original signed civil delegation and its nine non-water excluded tidal/submerged footprints; DOI self-published webpage describes retained OIA role; archived 2009 monument order shows historical component conservation boundaries. Same DOI issuing family, not independently issuing legal corroboration; neither 2026 operational personnel nor health/medical statutory remit established; 581 UNKNOWN."
+}

@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-07",
+  "run": "A68 post-consolidation original acceptance versus expanded legal source triage",
+  "repo": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "baseline_head": "6231e8f96e439d532ddb38de7425d25eeffcc7cf",
+  "verified_data_and_notes_commit": "4958fee606fb3d981eafd8556868da98d045ea3b",
+  "method": "GitHub connector refetched 12 complete CSVs at exact immutable commit, in two bounded source groups; independently quote-aware JS parsed all 248 canonical and derived records, scoped cross-file joins and direct source ID checks. GitHub REST compare independently checked changed paths. Native Python was not executed.",
+  "files": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": {
+      "rows": 248,
+      "sha": "bccc48eae6c7dfec6c542080a6682804a5c92f52"
+    },
+    "data/countries.csv": {
+      "rows": 248,
+      "sha": "32a868a700db0223dfc56bf7549866a1e0eadd1f"
+    },
+    "data/government_health_bodies.csv": {
+      "rows": 318,
+      "sha": "456ac0b737f0b963fabfcda9836b000dfe8c5b9b"
+    },
+    "data/authority_relationships.csv": {
+      "rows": 45,
+      "sha": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140"
+    },
+    "data/authority_area_scope.csv": {
+      "rows": 4,
+      "sha": "4d9b3418845eb40e38d31925c033dffe104c6d44"
+    },
+    "data/country_coverage.csv": {
+      "rows": 248,
+      "sha": "e4ade0148ef9b3f8767f02956335763d44d06d38"
+    },
+    "data/unresolved_area_audit.csv": {
+      "rows": 17,
+      "sha": "8ff43285fb7f00cea8c0b1f2b761b26d94f1e51c"
+    },
+    "data/legal_verification_ledger.csv": {
+      "rows": 248,
+      "sha": "b45b5a40390c23bd6f622d2b6684697735f6816f"
+    },
+    "data/research_queue.csv": {
+      "rows": 248,
+      "sha": "aa21d4e59055899681c720f6b3f76c4ef84447e0"
+    },
+    "PROVENANCE.csv": {
+      "rows": 748,
+      "sha": "9e4163c5ed3ca41b9a5de741761108d6687705ff"
+    },
+    "RECONCILED_INVENTORY_20261107.csv": {
+      "rows": 248,
+      "sha": "c69b17b1c63da3ee7cced06b909bdea57cad0840"
+    },
+    "PRIORITIZED_BACKLOG_20261107.csv": {
+      "rows": 248,
+      "sha": "57fe470cab8c6b7ef9a91e2ff4d6adb6b6565c44"
+    }
+  },
+  "checks": [
+    {
+      "test": "12/12 complete quote-aware CSV parsing at immutable GitHub commit",
+      "result": "PASS"
+    },
+    {
+      "test": "248 official M49 keys same as countries/coverage, distinct keys and synchronized presence",
+      "result": "PASS"
+    },
+    {
+      "test": "318 unique governmental body IDs, 45 valid body-edge endpoints",
+      "result": "PASS"
+    },
+    {
+      "test": "4 shared-authority scope records and 17 unresolved audit records retained",
+      "result": "PASS"
+    },
+    {
+      "test": "748 unique append-only source IDs and all exact legal provenance references exist",
+      "result": "PASS"
+    },
+    {
+      "test": "All 248 legal-ledger/queue/inventory/backlog M49 joins, status/sources/area observations unique URL counts",
+      "result": "PASS"
+    },
+    {
+      "test": "All 248 backlog dimension states and remaining dimension counts match legal ledger",
+      "result": "PASS"
+    },
+    {
+      "test": "Shared-source-only 652 Saint Barthelemy and 663 Saint Martin handled through 312 scoped-source refs, not fabricated local source rows",
+      "result": "PASS"
+    },
+    {
+      "test": "A68 Portugal and Philippines 3 narrow SOURCE_SUPPORTED dimensions each; remaining 5 incomplete each",
+      "result": "PASS"
+    },
+    {
+      "test": "A68 Botswana draft record exists but medicines/public-health operative legal dimensions NOT promoted",
+      "result": "PASS"
+    },
+    {
+      "test": "No full all-tier legal research completion or independent clinical/legal approval",
+      "result": "PASS"
+    },
+    {
+      "test": "GitHub compare baseline to verified data shows 7 new commits and exactly 7 changed Team A handoff paths",
+      "result": "PASS"
+    }
+  ],
+  "metrics": {
+    "geography": 248,
+    "principal_identified_provisionally": 231,
+    "unknown": 17,
+    "bodies": 318,
+    "body_links": 45,
+    "scopes": 4,
+    "provenance_before": 744,
+    "provenance_after": 748,
+    "legal_partial_before": 26,
+    "legal_partial_after": 28,
+    "unscored_before": 222,
+    "unscored_after": 220,
+    "all_tier_legal_complete": 0,
+    "dimension_statuses_before": {
+      "NOT_TRIAGED": 1813,
+      "RESEARCHED_INCOMPLETE": 122,
+      "SOURCE_SUPPORTED": 47,
+      "CONFLICT_UNRESOLVED": 2
+    },
+    "dimension_statuses_after": {
+      "NOT_TRIAGED": 1797,
+      "RESEARCHED_INCOMPLETE": 132,
+      "SOURCE_SUPPORTED": 53,
+      "CONFLICT_UNRESOLVED": 2
+    }
+  },
+  "limitations": [
+    "ACTUAL python docs/atlas/handoffs/team-a/validate.py NOT RUN: complete local checkout unavailable and container GitHub DNS could not resolve",
+    "ACTUAL Python unittest discover NOT RUN for same reason",
+    "Independent structural/ref-integrity mirror is not the native validator, original legislative legal authentication, or any legal/clinical expert signoff",
+    "Original acceptance semantic source-independence denominator not yet fully defined or independently audited, despite structural directory dispositions"
+  ],
+  "original_acceptance": {
+    "geography": "248/248",
+    "documented_disposition": "248/248 = 231 provisional body identities + 17 explicit UNKNOWN",
+    "independent_source_semantics": "NOT FULLY MEASURED",
+    "source_and_spotcheck": "PARTIAL",
+    "all_tier_legal": "SEPARATE NOT AN ORIGINAL COUNT"
+  },
+  "changed_paths": [
+    "docs/atlas/handoffs/team-a/ORIGINAL_ACCEPTANCE_TRACKING_20261107.md",
+    "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+    "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+    "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+    "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+    "docs/atlas/handoffs/team-a/data/research_queue.csv",
+    "docs/atlas/handoffs/team-a/source_recovery/CYCLE_A68_POST_CONSOLIDATION_PRIMARY_SOURCE_TRIAGE_20261107.md"
+  ],
+  "clinical_approval": false,
+  "legal_approval": false,
+  "pr_must_remain_draft": true
+}

@@ -1,0 +1,68 @@
+{
+  "batch": 50,
+  "checked_utc": "2026-11-06",
+  "repo": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "prior_branch_head": "ea78639b26fc44f2f4f93ee9380a9ec407fdee3a",
+  "immutable_batch50_data_head": "5a9336d6e8d36bcd99a4193090b4427a60d2af29",
+  "change_commits": [
+    "c732ef2c84fae567ae667ab1988b31d204176253",
+    "9b7344a84d23e74f92bd9ad8b9fcc4a3c8206b6e",
+    "5a9336d6e8d36bcd99a4193090b4427a60d2af29"
+  ],
+  "immutable_blobs": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+    "data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+    "data/government_health_bodies.csv": "1ff2feb1fe1464bed3c31acac2b5ff4cae24a024",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "1fddd584d09317752828aa94f4a6ae3c56add5bb",
+    "PROVENANCE.csv": "2850dd0feaf93da0dd3d5d0d2a6456e2d77fc331"
+  },
+  "counts": {
+    "official_m49": 248,
+    "country_skeletons": 248,
+    "provisional_area_identity": 231,
+    "documented_unknown": 17,
+    "body_identity_rows": 318,
+    "authority_relationships": 45,
+    "shared_area_scopes": 4,
+    "coverage_reviews": 248,
+    "unresolved_audit_rows": 17,
+    "source_observations": 684,
+    "prior_source_observations": 680,
+    "global_unscoped_provenance": 3
+  },
+  "structural_validation": {
+    "status": "PASS",
+    "method": "JS GitHub connector exact complete eight-CSV quote-aware parse and relational audit",
+    "checks": [
+      "all eight CSVs completely fetched at immutable data ref with blob SHA readbacks",
+      "248 official M49 geographic country rows exact ISO2/ISO3/name/region/subregion equality",
+      "248 coverage rows synchronized to 231 provisional identity and 17 documented unknown",
+      "318 unique bodies with valid country/scope references and URLs; 45 sourced relations; four multi-area scopes",
+      "684 unique provenance rows; three historical global-source rows with blank area; all other sources scoped to official M49",
+      "all 17 unknown audit explanations/source IDs valid; 4 new sources linked only to 581; 16 other unknown logical audit records unchanged",
+      "prior 680 provenance lines preserved as exact original prefix",
+      "from batch49 head to immutable batch50 data commit exactly three changed paths, all Team A"
+    ],
+    "python_validator": "NOT RUN: container github.com DNS fails, cannot obtain full repo checkout. Last recorded actual Python pass Batch41.",
+    "python_unittests": "NOT RUN: same DNS limitation; prior five regression tests last ran Batch41.",
+    "legal_acceptance": "NOT MEASURED / INCOMPLETE",
+    "clinical_approval": "NOT APPROVED"
+  },
+  "source_urls": [
+    "https://www.doi.gov/sites/doi.gov/files/elips/documents/3223_-kingman_reef_national_wildlife_refuge.pdf",
+    "https://www.doi.gov/sites/doi.gov/files/elips/documents/3284A1%20-%20Delegation%20of%20Management%20Responsibility%20for%20the%20Pacific%20Remote%20Islands%20Marine%20National%20Monument%2C%20Rose%20Atoll%20Marine%20National%20Monument%20and%20the%20Marianas%20Trench%20Marine%20National%20Monument.pdf",
+    "https://www.doi.gov/sites/default/files/elips/documents/so-3284-a2-508.pdf",
+    "https://www.doi.gov/oia/islands/kingmanreef"
+  ],
+  "changed_paths": [
+    "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+    "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+    "docs/atlas/handoffs/team-a/source_recovery/CYCLE_581_DOI_3284_A2_2023_KINGMAN_20261106.md"
+  ],
+  "interpretation": "Signed September 2023 DOI Amendment 2 resolves a documented later successor to archived 2009 Order and 2016 A1; Kingman 2001 signed order contains residual Navy proviso while DOI webpage labels Navy jurisdiction. All remain DOI original/publisher family; 2026 supersession status and health legal mandates still unverified; 581 UNKNOWN."
+}
