@@ -1,3 +1,24 @@
+# Team A — CURRENT scoped Queensland original-law recovery (2026-11-08)
+
+**Latest bounded result:** A-01:036 Australia, run `codex-A-A01-036-20261108-0badc804`, input `64fc7b26be3b0f7e6986d5651286279e50ced9a6`. Recovered original [Queensland Act45/2009](https://www.legislation.qld.gov.au/view/pdf/asmade/act-2009-045) as `CODEX-A036-20261108-01`: assent3Nov2009, s2 commencement1Jul2010 exceptpart4, s4 local adoption, scheduleds23 national agency establishment; original PDF pages21/22/23/50 visually inspected. Official [10Apr2026 whole-act text](https://www.legislation.qld.gov.au/view/whole/html/inforce/2026-04-10/act-2009-045) separately recorded as `CODEX-A036-20261108-02`; current s4 applies schedule as modified by part4. Original2009 text is not substituted for current law. History's2025Act6/2026effective-date entries remain qualified leads, not authenticated amendment originals.
+
+**Original metrics:** provenance **759→761 (+2 observations: one original enactment, one qualified current-text compilation)**. Dated geography248/248, authority/UNKNOWN248/248,231provisional/17UNKNOWN,318bodies/45relations/4scopes and issuer sample1/10 unchanged. **Separate expanded workflow:**29partial/248,219unscored/248,59/1984narrow supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged. A70-IA-10 **PARTIAL/NO**; global issuer gate OPEN. No legal/clinical/expert approval or dimension promotion.
+
+**Limits/next:** other state/territory original enactments/modifications, full amendment/commencement chain including Queensland2025Act6, NHMRC/surveillance, First Nations and local public-health instruments remain unresolved. Federal Register latest/versions still listsC2025C00525; first interactions page is not a complete amendment audit. Exact prior health.gov.au URLs returnedHTTP503; historical evidence retained. No new body/relationship or production paths.
+
+**QA:** exact eight-file proposal passed Atlas structural contract, native validator and10tests plus focused preservation controls; structural checks do not establish legal completeness. Separate independent Verifier and designated Writer required. PR68 stays OPEN DRAFT UNMERGED. Andorra original-parent recovery and all prior records retained below as history.
+
+```text
+Provisional identities     [###################.] 231/248 | +0
+Issuer exact narrow pass   [##..................] 1/10 | +0
+Expanded partial legal     [##..................] 29/248 | +0
+All-tier research complete [....................] 0/248 | +0
+Unresolved all-tier rows   [####################] 248/248 | +0
+```
+
+---
+## Prior scoped checkpoint (historical; provenance now761)
+
 # Team A — CURRENT scoped original-parent recovery (2026-11-08)
 
 **Latest bounded result:** A-01:020 Andorra, run `codex-A-A01-020-20261108-2041f192`, input `24582e5fab6a9f3c0d85250d2a3e5e80d2fd0e74`. Original signed Sant Julià 4December2025 hygiene/waste parent recovered as `CODEX-A020-20261108-01` from [official BOPA150 PDF](https://documents.bopa.ad/bopa-documents/037150/pdf/QSO_2025_12_04_16_02_09.pdf). Printed p1 adoption4Dec; p12 Cerni Cairat signature and final clause effective day after publication10Dec, therefore11Dec2025. This closes only the missing-parent retrieval, not all-commune or national legal acceptance. Existing June2026 article29 amendment retained; no new full amendment sweep.
