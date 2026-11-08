@@ -1307,8 +1307,104 @@
           "docs/atlas/handoffs/team-a/CURRENT.md"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-codex-A036-91adcfc7ab4e7f6e1ab1048d"
+      "status": "checked_in",
+      "launch_id": "launch-codex-A036-91adcfc7ab4e7f6e1ab1048d",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:036",
+        "commit": "7f24bf92adb4a4569219ab9a3c236595ae5024c8",
+        "parent": "64fc7b26be3b0f7e6986d5651286279e50ced9a6",
+        "paths": [
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/runs/A-01--036.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--036.json": "a2e47643dcadc0607f9b8657cff6d53634ee8a3e",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv": "6ec5444fd2ca663c261f52b5e87440a52190457e",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv": "65a2fab16dbfa33a1b233c298e1546a0fba8e16a",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv": "69ef6e599caace928fc496aac02c67462d710a03",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv": "3e50bed1cda24a8f5f1849fe0885c0383ea856a4",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv": "3c5c1e89d6cbc9724d40e3baeb975071ced0b95a",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv": "5bbb1cd85f9b4e040fc617a2b0a8be7ebe2818a8",
+          "docs/atlas/handoffs/team-a/CURRENT.md": "66ed57f17c52095e1be1fd118479bfdb0c8818b8"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:036",
+        "input_sha": "64fc7b26be3b0f7e6986d5651286279e50ced9a6",
+        "disposition": "verified_scoped",
+        "evidence": [
+          {
+            "id": "CODEX-A036-20261108-01",
+            "url": "https://www.legislation.qld.gov.au/view/pdf/asmade/act-2009-045",
+            "locator": "Original PDF page21 assent; printed pp20-21 ss2/4 (PDF22/23); printed p48 scheduleds23 (PDF50)",
+            "issuer": "Parliament of Queensland (enacting legislature); Queensland Office of Parliamentary Counsel official as-passed publication host",
+            "checked": "2026-11-08 HTTP200 application/pdf; original pages visually inspected",
+            "original": true,
+            "access": "direct",
+            "qualification": "Official Queensland as-passed Act45/2009, assent3November2009, original PDF page21 (assent), printed pp20-21 (ss2,4) and p48 (scheduled s23) visually inspected. Section2 states Act other than part4 commences1July2010; s4 applies scheduled Law as law of Queensland; scheduled s23 establishes Australian Health Practitioner Regulation Agency. Historical enacted foundation only, not a complete 2026 amendment/commencement or other-state/territory/First Nations/public-health chain. Parliament of Queensland is issuer, Queensland Parliamentary Counsel is publication host. No legal/expert approval."
+          },
+          {
+            "id": "CODEX-A036-20261108-02",
+            "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/2026-04-10/act-2009-045",
+            "locator": "Fixed10April2026 whole-act text ss2/4; scheduleds23; observed current-page whole-act link",
+            "issuer": "Queensland Office of Parliamentary Counsel official in-force compilation of Parliamentary Act; not a second original legal issuer",
+            "checked": "2026-11-08 HTTP200; direct text inspection",
+            "original": false,
+            "access": "direct",
+            "qualification": "Official whole-act version selected by current-page link, dated10April2026, directly read at ss2,4 and scheduleds23. Current s4 expressly applies schedule as modified by part4; differs from original simple adoption, so original is not substituted for current text. Legislative-history table lists2025Act6 with effective versions1Dec2025 and10Apr2026; these metadata entries are leads, not original amending/commencing instruments. No exhaustive amendment verification or claim of absence of later instruments; same Queensland host is not independent second issuer."
+          },
+          {
+            "id": "qld-history-metadata",
+            "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2009-045/lh",
+            "locator": "Table of Reprints:1Dec2025/10Apr2026 versions attributed2025Act6; amending legislation links",
+            "issuer": "Queensland Office of Parliamentary Counsel register metadata",
+            "checked": "2026-11-08 HTTP200",
+            "original": false,
+            "access": "metadata",
+            "qualification": "Dates and links are retrieval leads only; original2025Act6 and commencing instruments not inspected; no comprehensive amendment closure."
+          },
+          {
+            "id": "federal-versions",
+            "url": "https://www.legislation.gov.au/C2004A03952/latest/versions",
+            "locator": "All versions default page, latestC2025C00525/C89/5Sep2025; known-future-amendment control not exercised",
+            "issuer": "Federal Register Office of Parliamentary Counsel metadata; not independent law issuer",
+            "checked": "2026-11-08 HTTP200; exact compilation AAO and TGA text also read",
+            "original": false,
+            "access": "metadata",
+            "qualification": "Versions default page and only first interactions page read. Not proof of absence of later/uncommenced instruments or complete through2026 amendment audit. Preserve prior federal support."
+          }
+        ],
+        "blocker": "Whole Australia2026 original amendment/commencement, other-state/territory/First Nations and surveillance/NHMRC/local public-health scope remain unresolved; this is a narrow source update, not full legal closure.",
+        "reopen": "A-01:036 occupied after check-in. Reopening requires maintainer authorization with this immutable result and newly authenticated named original amendment/other-jurisdiction evidence.",
+        "validation": [
+          "Exact native row priority_rank=7,m49_code=036; five prior source IDs audited and retained. Run codex-A-A01-036-20261108-0badc804; launch launch-codex-A036-91adcfc7ab4e7f6e1ab1048d; own start4996af753c78c21ca066e990364e629b791b2eeb directly parented by reservation04a4d01b97428c7cae4613691dcc9db929766fda, independent remote parent/tree/sole ledger path/blob/exact bytes/live running launch read before research.",
+          "Original Queensland PDF assent3Nov2009/ss2,4/scheduleds23 visually checked at PDF21/22/23/50 (printed20/21/48). Original is historical foundation; fixed current10Apr2026 text separately read and differs at s4 (modified by part4). No automatic other-jurisdiction or current comprehensive mandate inference.",
+          "Prior health.gov.au identity and annual-report URLsHTTP503; prior AAO/TGA compilation/latest metadataHTTP200. Additional Federal versions/interactionsHTTP200; Qldoriginal/current/historyHTTP200; NSW original application-act routeHTTP403. These access failures do not rescind historical source observations or prove absence of law.",
+          "Original provenance759\u2192761 (+2: one original Queensland enactment and one qualified current compilation); Australia source observations5\u21927. All prior provenance/non036rows retained. Every dimension status and A70-IA-10 PARTIAL/NO unchanged, issuer sample1/10 unchanged.",
+          "Original geography248/248,231provisional,17UNKNOWN,318bodies,45relations,4scopes unchanged. Expanded29partial/248,219unscored/248,59/1984supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged.",
+          "Final exact-proposal Atlas packet/result structural check, native validate.py and10unittests, focused preservation controls executed and recorded in saved handoff/logs before independent verification. Checks are structural, not legal or clinical approval.",
+          "Exact8packet paths only; no deletions/renames/symlinks/foreign roots. Source PDFs kept local only. Separate fresh Verifier must approve these exact fingerprints and designated Writer alone may publish. Researcher has no team publication authority."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--036.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md"
+        ]
+      }
     }
   }
 }
