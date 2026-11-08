@@ -10,7 +10,7 @@
 
 **Top actionable recovery:** original Andorran BOPA 10 Dec2025 Sant Julià parent with full signed provisions, six other communes and current national amendments; Samoa signed 2019 amendment, separate S.R.2019-1, distinct 2007 Minister commencement; Botswana original Gazette S.I.4/2014, Act29/2025 appointed day and numbered final 2026 regulations; Solomon post2024 original laws and provincial/Honiara instruments; Bhutan original Cabinet C-3/6(5)/2024/48 and RCSC LTD/1/COM/2024/3331 letters and successors. Rotate UNKNOWN 624/226/581/744/010 and five regions. Closed Bahamas S.I.18/2026 is OUT OF SCOPE for re-research. Preserve Indigenous/community, territorial, disputed-sovereignty, historical and cross-border restrictions.
 
-**QA:** No complete authorized checkout; `git ls-remote` GitHub DNS failure, native Python validator and unittest **NOT RUN**. Independent CSV structural QA and immutable GitHub readback do not constitute legal/scientific/clinical approval.
+**QA:** No complete authorized checkout; `git ls-remote` GitHub DNS failure, native Python validator and unittest **NOT RUN**. [A73 immutable QA](QA_POST_CONSOLIDATION_A73_20261107.json) independently verified 18/18 checks at the research commit; structural readback does not constitute legal/scientific/clinical approval.
 
 ```text
 Dated M49 geography        [####################] 248/248 | 248→248 | +0

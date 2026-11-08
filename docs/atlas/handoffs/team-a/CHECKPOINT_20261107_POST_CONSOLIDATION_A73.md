@@ -10,6 +10,6 @@
 
 **Outstanding original instruments:** Botswana original S.I.4/2014 Gazette and Medicines29/2025 appointed date and numbered 2026 final regs; Solomon post2024 signed health laws and local/provincial instruments; Bhutan Cabinet/RCSC signed board letters and later appointments; Samoa original 2007 commencement and 2019 Act/S.R.; Andorra authentic 2025 parent, six commune original laws and national current chain; UNKNOWN 624/226/581/744/010. Do not reopen closed Bahamas dental S.I.18/2026.
 
-**QA:** complete authorized checkout absent; `git ls-remote` failed DNS `Could not resolve host: github.com`. Native Python validation/unittest **NOT RUN**. Structural checks and immutable GitHub readback tracked separately; not legal/clinical authentication.
+**QA:** complete authorized checkout absent; `git ls-remote` failed DNS `Could not resolve host: github.com`. Native Python validation/unittest **NOT RUN**. [A73 QA](QA_POST_CONSOLIDATION_A73_20261107.json) independently documents 18/18 passed immutable checks at research commit; not legal/clinical authentication.
 
 [CURRENT](CURRENT.md) · [acceptance](ORIGINAL_ACCEPTANCE_TRACKING_A73_20261107.md) · [issuer audit](INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv).
