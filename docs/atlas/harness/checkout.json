@@ -118,6 +118,32 @@
       },
       "status": "running",
       "launch_id": "launch-D-ACCEPT-002-a003de23dbc54e6953254c2bc3463620"
+    },
+    "run-B-B01-US-AHA-20261108": {
+      "team": "B",
+      "key": "B-01:B-US-AHA.hypertension.8c3bee9f6066",
+      "packet": {
+        "version": 1,
+        "task": "B-01",
+        "case": "B-US-AHA.hypertension.8c3bee9f6066",
+        "expected_sha": "8ff729d34a87ed26f89d80daabcc9120c1984ae2",
+        "queue_path": "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+        "row_key": "org_id=B-US-AHA|condition_key=hypertension|original_exact_URL=https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-AHA.hypertension.8c3bee9f6066.json",
+          "docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+          "docs/atlas/handoffs/team-b/data/publication_context.csv",
+          "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+          "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-b/data/search_log.csv",
+          "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
+          "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+          "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+          "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
+        ]
+      },
+      "status": "reserved"
     }
   }
 }
