@@ -84,11 +84,11 @@
           "Reserved exact row: priority_rank=1,m49_code=072 in docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv at input SHA db7de0e29070473cb2e5fc4ae5cfecf51b0ae670.",
           "Independent verifier: https://chatgpt.com/c/6af00c04-16f4-83e9-93d6-07c0270f0ca4 ; researcher: https://chatgpt.com/c/6af006f3-3188-83e9-a1c3-975d76e33373 ; run run-A-A01-072-20261107 ; launch launch-A-072-712419601b87309873203500.",
           "Verifier GitHub checks: reserved packet match PASS; ticket running PASS; exact launch ID PASS; Team A head db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 PASS; PR #68 open/draft/unmerged PASS; start commit 9b687543791429274dd8b3577f3f13b155b8c577 parent d78106a9c4a80f35d91ed62f053ae94b3d1d2a16 changes only docs/atlas/harness/checkout.json PASS; native queue-row inspection PASS.",
-          "Checkpoint fetch at pinned SHA: 404 \u2014 not published. Researcher's downloadable proposed JSON was not captured in the saved handoff; this file is reconstructed solely from the saved Research and Verifier records.",
-          "Coordinator local Atlas harness.py structural contract check on this reconstructed JSON: python3 /workspace/atlas/recovery/harness/harness.py A --live-sha db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 --packet /workspace/atlas/recovery/A/packet.json --result /workspace/atlas/recovery/A/A-01--072.json \u2192 PASS structural contract for A-01:072. This is executable schema/contract validation of the checkpoint against the reserved packet, not legal approval. The recovery verifier's independent schema inspection was a CONDITIONAL PASS pending these wording corrections; research and the original verifier chat did not execute harness.py.",
-          "Team A native validation, run by the coordinator in a detached checkout at db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 with this checkpoint file placed at docs/atlas/handoffs/team-a/runs/A-01--072.json: python3 docs/atlas/handoffs/team-a/validate.py (exit 0; printed PASS lines for 248 legal evidence ledger rows and 248 research queue items; 248 distinct M49 country-or-area rows; 231 government ministry/department identities and 17 explicitly unresolved; 318 separately identified government health bodies and 45 sourced relationships; 248 coverage records and 758 provenance rows; 4 explicit shared-authority area mappings; region totals, reference integrity, source fields and complex-jurisdiction sentinels; plus LIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date). python3 -m unittest discover -s docs/atlas/handoffs/team-a -p 'test_*.py' (exit 0; Ran 10 tests in 0.140s OK). These are structural integrity tests documented in RUNBOOK.md, not independent legal validation. Original research and verifier chats recorded git ls-remote against GitHub as BLOCKED \u2014 Could not resolve host: github.com \u2014 and did not run these commands.",
+          "Checkpoint fetch at pinned SHA: 404 — not published. Researcher's downloadable proposed JSON was not captured in the saved handoff; this file is reconstructed solely from the saved Research and Verifier records.",
+          "Coordinator local Atlas harness.py structural contract check on this reconstructed JSON: python3 /workspace/atlas/recovery/harness/harness.py A --live-sha db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 --packet /workspace/atlas/recovery/A/packet.json --result /workspace/atlas/recovery/A/A-01--072.json → PASS structural contract for A-01:072. This is executable schema/contract validation of the checkpoint against the reserved packet, not legal approval. The recovery verifier's independent schema inspection was a CONDITIONAL PASS pending these wording corrections; research and the original verifier chat did not execute harness.py.",
+          "Team A native validation, run by the coordinator in a detached checkout at db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 with this checkpoint file placed at docs/atlas/handoffs/team-a/runs/A-01--072.json: python3 docs/atlas/handoffs/team-a/validate.py (exit 0; printed PASS lines for 248 legal evidence ledger rows and 248 research queue items; 248 distinct M49 country-or-area rows; 231 government ministry/department identities and 17 explicitly unresolved; 318 separately identified government health bodies and 45 sourced relationships; 248 coverage records and 758 provenance rows; 4 explicit shared-authority area mappings; region totals, reference integrity, source fields and complex-jurisdiction sentinels; plus LIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date). python3 -m unittest discover -s docs/atlas/handoffs/team-a -p 'test_*.py' (exit 0; Ran 10 tests in 0.140s OK). These are structural integrity tests documented in RUNBOOK.md, not independent legal validation. Original research and verifier chats recorded git ls-remote against GitHub as BLOCKED — Could not resolve host: github.com — and did not run these commands.",
           "Verifier research judgment: PASS that blocked is an evidence-appropriate disposition, with zero legal-status promotions. This is not a declaration that Botswana law has been comprehensively verified.",
-          "Verifier final decision: PARTIAL PASS \u2014 BLOCKED FOR PUBLICATION (proposed JSON unavailable; native suite not verified). Legal dimensions promoted: 0. Full legal research closure: No."
+          "Verifier final decision: PARTIAL PASS — BLOCKED FOR PUBLICATION (proposed JSON unavailable; native suite not verified). Legal dimensions promoted: 0. Full legal research closure: No."
         ],
         "paths": [
           "docs/atlas/handoffs/team-a/runs/A-01--072.json"
@@ -935,7 +935,8 @@
           "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-008.json"
         ]
       },
-      "status": "reserved"
+      "status": "running",
+      "launch_id": "launch-D-NET-008-f3a91c6d72b04e5a85a1"
     },
     "codex-A-A01-044-20261108-311e1be9": {
       "team": "A",
@@ -1100,7 +1101,7 @@
           {
             "id": "bmdc-act2010-official-text",
             "url": "https://bdlaws.minlaw.gov.bd/act-print-1065.html",
-            "locator": "Bangla Act61/2010; sections1(2),3,5,18\u201323,38; official print view dated08/11/2026",
+            "locator": "Bangla Act61/2010; sections1(2),3,5,18–23,38; official print view dated08/11/2026",
             "issuer": "Bangladesh Parliament (Act); Legislative and Parliamentary Affairs Division government database (host)",
             "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
             "original": false,
@@ -1110,17 +1111,17 @@
           {
             "id": "mefwd-bmdc-draft-index",
             "url": "https://mefwd.gov.bd/pages/static-pages/694032f235ce18e1c05648e4",
-            "locator": "Government laws/rules table: \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2 \u098f\u09a8\u09cd\u09a1 \u09a1\u09c7\u09a8\u09cd\u099f\u09be\u09b2 \u0995\u09be\u0989\u09a8\u09cd\u09b8\u09bf\u09b2 \u0985\u09a7\u09cd\u09af\u09be\u09a6\u09c7\u09b6, \u09e8\u09e6\u09e8\u09eb (\u0996\u09b8\u09dc\u09be), linked PDF ending ec0fcade2c5c46eea463b20332db7a97.pdf",
+            "locator": "Government laws/rules table: বাংলাদেশ মেডিকেল এন্ড ডেন্টাল কাউন্সিল অধ্যাদেশ, ২০২৫ (খসড়া), linked PDF ending ec0fcade2c5c46eea463b20332db7a97.pdf",
             "issuer": "Medical Education and Family Welfare Division, Ministry of Health and Family Welfare (index publisher)",
             "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
             "original": true,
             "access": "direct",
-            "qualification": "HTTP200 first-party index still explicitly marks the2025 BMDC Ordinance \u0996\u09b8\u09dc\u09be (draft). Index cannot prove enactment, complete current legal status or absence of a later separately issued ordinance. Contains other draft instruments, which remain distinct."
+            "qualification": "HTTP200 first-party index still explicitly marks the2025 BMDC Ordinance খসড়া (draft). Index cannot prove enactment, complete current legal status or absence of a later separately issued ordinance. Contains other draft instruments, which remain distinct."
           },
           {
             "id": "mefwd-linked-bmdc-draft",
             "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mefwd/2024/12/ec0fcade2c5c46eea463b20332db7a97.pdf",
-            "locator": "40-page scanned PDF; page1 visually inspected, heading \u09aa\u09cd\u09b0\u09a5\u09ae \u09a1\u09cd\u09b0\u09be\u09ab\u099f, 2025 ordinance title and blank ordinance-number line",
+            "locator": "40-page scanned PDF; page1 visually inspected, heading প্রথম ড্রাফট, 2025 ordinance title and blank ordinance-number line",
             "issuer": "Medical Education and Family Welfare Division-linked draft; proposed President issuing language is draft, not authenticated issuance",
             "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
             "original": true,
@@ -1145,12 +1146,12 @@
             "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
             "original": false,
             "access": "direct",
-            "qualification": "HTTP200 official archives accessible; generic initial /document/gazettes redirected home, corrected by following actual archive link. Archive has52495 records and currentNovember2026 listings; extraordinary page returned generic search controls/No result is found plus pagination, not a subject-specific proof. No original BMDC replacement or complete2010\u20132026 amendment chain recovered from these bounded index views."
+            "qualification": "HTTP200 official archives accessible; generic initial /document/gazettes redirected home, corrected by following actual archive link. Archive has52495 records and currentNovember2026 listings; extraordinary page returned generic search controls/No result is found plus pagination, not a subject-specific proof. No original BMDC replacement or complete2010–2026 amendment chain recovered from these bounded index views."
           },
           {
             "id": "government-press-subject-search",
             "url": "https://www.dpp.gov.bd/bgpress/index.php/search",
-            "locator": "POST q=\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2 \u09a1\u09c7\u09a8\u09cd\u099f\u09be\u09b2 \u0995\u09be\u0989\u09a8\u09cd\u09b8\u09bf\u09b2; response No result match for the exact query",
+            "locator": "POST q=বাংলাদেশ মেডিকেল ডেন্টাল কাউন্সিল; response No result match for the exact query",
             "issuer": "Bangladesh Government Press search service",
             "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
             "original": false,
@@ -1160,7 +1161,7 @@
           {
             "id": "government-press-archive-search",
             "url": "https://www.dpp.gov.bd/bgpress/index.php/document/search_gazette",
-            "locator": "Observed archive POST form: keyword \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2, dates blank, gazette_type0; earlier date-bounded \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2 and \u09a1\u09c7\u09a8\u09cd\u099f\u09be\u09b2 variants separately logged",
+            "locator": "Observed archive POST form: keyword মেডিকেল, dates blank, gazette_type0; earlier date-bounded মেডিকেল and ডেন্টাল variants separately logged",
             "issuer": "Bangladesh Government Press archive search service",
             "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
             "original": false,
@@ -1245,12 +1246,12 @@
           {
             "id": "CODEX-A020-20261108-01",
             "url": "https://documents.bopa.ad/bopa-documents/037150/pdf/QSO_2025_12_04_16_02_09.pdf",
-            "locator": "BOPA no150,10December2025,printed pages1 and12; adoption formula, Cerni Cairat Perrigault C\u00f2nsol major signature and Disposici\u00f3 final",
-            "issuer": "Com\u00fa de Sant Juli\u00e0 de L\u00f2ria (issuing commune); Cerni Cairat Perrigault, C\u00f2nsol major (signer); BOPA official publication host",
+            "locator": "BOPA no150,10December2025,printed pages1 and12; adoption formula, Cerni Cairat Perrigault Cònsol major signature and Disposició final",
+            "issuer": "Comú de Sant Julià de Lòria (issuing commune); Cerni Cairat Perrigault, Cònsol major (signer); BOPA official publication host",
             "checked": "2026-11-08; direct PDF and visual page1/page12 inspection",
             "original": true,
             "access": "direct",
-            "qualification": "Original Catalan BOPA no.150,10 December2025,12pages: printed p1 commune adoption4December2025; p12 Cerni Cairat Perrigault, C\u00f2nsol major, and final clause effective day after publication (11December2025). Original parent recovered, not private automated text. One-parish public hygiene/waste only; does not authenticate six other communes, medical/medicines authorisations, full national current law or later amendment sweep. Existing June2026 article29 amendment retained; parent alone is not current consolidated text. No legal/expert approval."
+            "qualification": "Original Catalan BOPA no.150,10 December2025,12pages: printed p1 commune adoption4December2025; p12 Cerni Cairat Perrigault, Cònsol major, and final clause effective day after publication (11December2025). Original parent recovered, not private automated text. One-parish public hygiene/waste only; does not authenticate six other communes, medical/medicines authorisations, full national current law or later amendment sweep. Existing June2026 article29 amendment retained; parent alone is not current consolidated text. No legal/expert approval."
           },
           {
             "id": "bopa-original-parent-metadata",
@@ -1390,7 +1391,7 @@
           "Exact native row priority_rank=7,m49_code=036; five prior source IDs audited and retained. Run codex-A-A01-036-20261108-0badc804; launch launch-codex-A036-91adcfc7ab4e7f6e1ab1048d; own start4996af753c78c21ca066e990364e629b791b2eeb directly parented by reservation04a4d01b97428c7cae4613691dcc9db929766fda, independent remote parent/tree/sole ledger path/blob/exact bytes/live running launch read before research.",
           "Original Queensland PDF assent3Nov2009/ss2,4/scheduleds23 visually checked at PDF21/22/23/50 (printed20/21/48). Original is historical foundation; fixed current10Apr2026 text separately read and differs at s4 (modified by part4). No automatic other-jurisdiction or current comprehensive mandate inference.",
           "Prior health.gov.au identity and annual-report URLsHTTP503; prior AAO/TGA compilation/latest metadataHTTP200. Additional Federal versions/interactionsHTTP200; Qldoriginal/current/historyHTTP200; NSW original application-act routeHTTP403. These access failures do not rescind historical source observations or prove absence of law.",
-          "Original provenance759\u2192761 (+2: one original Queensland enactment and one qualified current compilation); Australia source observations5\u21927. All prior provenance/non036rows retained. Every dimension status and A70-IA-10 PARTIAL/NO unchanged, issuer sample1/10 unchanged.",
+          "Original provenance759→761 (+2: one original Queensland enactment and one qualified current compilation); Australia source observations5→7. All prior provenance/non036rows retained. Every dimension status and A70-IA-10 PARTIAL/NO unchanged, issuer sample1/10 unchanged.",
           "Original geography248/248,231provisional,17UNKNOWN,318bodies,45relations,4scopes unchanged. Expanded29partial/248,219unscored/248,59/1984supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged.",
           "Final exact-proposal Atlas packet/result structural check, native validate.py and10unittests, focused preservation controls executed and recorded in saved handoff/logs before independent verification. Checks are structural, not legal or clinical approval.",
           "Exact8packet paths only; no deletions/renames/symlinks/foreign roots. Source PDFs kept local only. Separate fresh Verifier must approve these exact fingerprints and designated Writer alone may publish. Researcher has no team publication authority."
@@ -1491,7 +1492,7 @@
           "Exact row priority_rank=8,m49_code=012, four prior source IDs retained. Run codex-A-A01-012-20261108-95ff0d24; own launch launch-codex-A012-6ebafef686f299be40f953f5; start98407da51e90d64ac2db645cb0415a0643155b33 directly parented by reservation01b4746c44dd51da9281cde9ef9d56bfffea7501; independent remote parent/tree/sole ledger path/blob/exact bytes/live running launch read before research.",
           "Original Arabic2018 Gazette visually read printedpp3/7/41 and2020pp4/5. Original instrument dates2July2018/30August2020; Gazette publication29July2018/30August2020. Publication clauses do not establish a separate general commencement rule. Narrow paraphrases not certified translation.",
           "All four priorURLs attempted: Justice directory503; PNRS200 only JS shell;2018FrenchPDF200; exact2020FrenchURL503. OriginalArabicPDFs200; currentArabicindex503. No complete current amendment search or absence inference. Historical translation observations retained.",
-          "Provenance761\u2192763 (+2original Arabic records), Algeria4\u21926, all761prior provenance and all non012rows preserved. Both derived248row indexes updated only012. Every legal dimension/stage/acceptance unchanged; global issuer sample1/10 and gateOPEN unchanged.",
+          "Provenance761→763 (+2original Arabic records), Algeria4→6, all761prior provenance and all non012rows preserved. Both derived248row indexes updated only012. Every legal dimension/stage/acceptance unchanged; global issuer sample1/10 and gateOPEN unchanged.",
           "Original geography248/248,231provisional/17UNKNOWN,318bodies/45relations/4scopes unchanged. Expanded29partial/248,219unscored/248,59/1984supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged.",
           "Final exact-proposal harness structural check, native validator and10tests plus focused preservation checks executed and logged before independent verification. These tests are structural, not legal/expert approval.",
           "Only8exact packet paths; no production/foreign roots/deletes/renames/symlinks. Source PDFs retained local only. Separate Verifier must independently check evidence and approve exact fingerprints; designated Writer alone may publish. Researcher made no team branch publication."
@@ -1620,7 +1621,7 @@
           "Strategy1: exact prior Justice2006/2026URLs bothHTTP200 but244-byte Request Rejected pages; official FPS portal200 institutional source only. Strategy2: official Flemish department/Codex routes; initial guessed department/Codex endpoints404 qualified as discovery failures only. Observed Codex root200 linked public search; observed search form/API located exact decreeID1041199. Department search returned JavaScript-rich shell without retrieved original results. No repeated blocked-request circumvention.",
           "Codex current print text and public metadata200, read arts1/2/3/16 and footer8November2026. Metadata publication26Aug2025p68062/defaultStart26Aug2027 differs from article-version markers1/15Jan2026; art16 explicitly allows earlier Government dates. These are unresolved original-commencement retrieval gaps, not a declared legal contradiction or uniform current effective date. Original Gazette datedPDF attempt200 Request Rejected HTML. Missing original instrument remains unverified; no legal-absence inference.",
           "Evidence URLs/HTTP methods/statuses/types/byte counts/SHA256 and timestamps saved in Researcher retrieval-log; original laws/PDFs not uploaded. No original instrument visually inspected because no original PDF was retrieved. Text/metadata inspection is accurately distinguished.",
-          "Checkpoint-only actual changed path docs/atlas/handoffs/team-a/runs/A-01--056.json. Canonical dataset/provenance count763\u2192763, all prior Belgian/non056rows unchanged. Geography248/248,231provisional/17UNKNOWN,318bodies/45relations/4scopes, original issuer1/10/gateOPEN unchanged. Expanded29partial/248,219unscored/248,59/1984narrow supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged. A70-IA-06 PARTIAL/NO unchanged.",
+          "Checkpoint-only actual changed path docs/atlas/handoffs/team-a/runs/A-01--056.json. Canonical dataset/provenance count763→763, all prior Belgian/non056rows unchanged. Geography248/248,231provisional/17UNKNOWN,318bodies/45relations/4scopes, original issuer1/10/gateOPEN unchanged. Expanded29partial/248,219unscored/248,59/1984narrow supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged. A70-IA-06 PARTIAL/NO unchanged.",
           "Exact-proposal harness/native validator/all10tests and checkpoint-only preservation controls executed on separate snapshot and logged before independent verification. Structural integrity is not legal/expert/clinical approval. Separate fresh Verifier must approve exact fingerprint; designated Writer only may publish; Researcher made no team publication."
         ],
         "paths": [
