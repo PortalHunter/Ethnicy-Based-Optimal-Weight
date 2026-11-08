@@ -1428,8 +1428,84 @@
           "docs/atlas/handoffs/team-a/source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-codex-A012-6ebafef686f299be40f953f5"
+      "status": "checked_in",
+      "launch_id": "launch-codex-A012-6ebafef686f299be40f953f5",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:012",
+        "commit": "2211d184e0392c117f4930966aa1017d4b7c9702",
+        "parent": "7f24bf92adb4a4569219ab9a3c236595ae5024c8",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--012.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--012.json": "eb658621b43c3c1e98f22f9bb9250866510ae889",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv": "63d882b7d4f63a30a4a2654c376abef0b1e1fffe",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv": "89d147977ceff1ccc4d437fadbaf92fcdda0844a",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv": "3baefb0a67f74e6c70f372f596e21ba5fc173e77",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv": "a4cc4b74c054546e0b903b4062c18bc742f2fe51",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv": "f9f6d86b233471b9409c121e3d0cfc0c3d3fb2de",
+          "docs/atlas/handoffs/team-a/CURRENT.md": "a3da139f88b1c20de101535ab0ce5bf973e855e1",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md": "bcb26ef56a0dd1fa8da1e972411c476541ef7906"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:012",
+        "input_sha": "7f24bf92adb4a4569219ab9a3c236595ae5024c8",
+        "disposition": "verified_scoped",
+        "evidence": [
+          {
+            "id": "CODEX-A012-20261108-01",
+            "url": "https://www.joradp.dz/FTP/jo-arabe/2018/A2018046.pdf",
+            "locator": "Original Arabic issue46/2018 printedpp3,7,41; Law18-11 header, arts31-33, art450/named promulgator",
+            "issuer": "Algerian Parliament health law, President Abdelaziz Bouteflika promulgation; Secretariat-General of Government original Arabic Gazette publisher",
+            "checked": "2026-11-08 HTTP200 application/pdf; cited original pages visually inspected",
+            "original": true,
+            "access": "direct",
+            "qualification": "Official original Arabic Gazette46/2018 PDF visually inspected at printed pp3,7,41: Law18-11 dated2July2018; Gazette publication29July2018; arts31-33 distinguish minister-supervised national, multi-wilaya regional and commune programmes; p41 names Abdelaziz Bouteflika and publication clause art450. No general commencement date inferred from publication clause. Historical original, not a current consolidated law or authenticated post2018/2020 amendment chain, present ministry organic law or actual implementation. Prior French translation observation retained separately. Narrow reading/paraphrase is not certified legal translation or expert approval."
+          },
+          {
+            "id": "CODEX-A012-20261108-02",
+            "url": "https://www.joradp.dz/FTP/jo-arabe/2020/A2020050.pdf",
+            "locator": "Original Arabic issue50/2020 printedpp4-5; Ordinance20-02 heading, amendedarts217/218/224/233, art2/named promulgator",
+            "issuer": "Algerian President Abdelmadjid Tebboune, Presidential Ordinance; Secretariat-General of Government original Arabic Gazette publisher",
+            "checked": "2026-11-08 HTTP200 application/pdf; cited original pages visually inspected",
+            "original": true,
+            "access": "direct",
+            "qualification": "Official original Arabic Gazette50/2020 printed pp4-5 visually inspected: Presidential Ordinance20-02 dated30August2020 amends Law18-11; amended arts217/218/224/233 give specified pharmaceutical-industry minister listing/licensing/agency-supervision/temporary-use powers; p5 names Abdelmadjid Tebboune and art2 publication clause. Historical2020 allocation, not proof unchanged8November2026 or complete professional/surveillance/wilaya-commune regime. SGG is publisher, not another issuer. Prior French translation retained; original Arabic recovery is not certified translation or independent current-mandate approval."
+          }
+        ],
+        "blocker": "Full current ministry organic/amendment/commencement, surveillance/professional/regulator and actual local implementation chain remains unresolved; this narrow original-Arabic source recovery is not all-tier closure.",
+        "reopen": "After check-in this logical key remains occupied. Reopen only with maintainer authorization, immutable prior result and newly authenticated named later amendment/current organic/local instrument trigger.",
+        "validation": [
+          "Exact row priority_rank=8,m49_code=012, four prior source IDs retained. Run codex-A-A01-012-20261108-95ff0d24; own launch launch-codex-A012-6ebafef686f299be40f953f5; start98407da51e90d64ac2db645cb0415a0643155b33 directly parented by reservation01b4746c44dd51da9281cde9ef9d56bfffea7501; independent remote parent/tree/sole ledger path/blob/exact bytes/live running launch read before research.",
+          "Original Arabic2018 Gazette visually read printedpp3/7/41 and2020pp4/5. Original instrument dates2July2018/30August2020; Gazette publication29July2018/30August2020. Publication clauses do not establish a separate general commencement rule. Narrow paraphrases not certified translation.",
+          "All four priorURLs attempted: Justice directory503; PNRS200 only JS shell;2018FrenchPDF200; exact2020FrenchURL503. OriginalArabicPDFs200; currentArabicindex503. No complete current amendment search or absence inference. Historical translation observations retained.",
+          "Provenance761\u2192763 (+2original Arabic records), Algeria4\u21926, all761prior provenance and all non012rows preserved. Both derived248row indexes updated only012. Every legal dimension/stage/acceptance unchanged; global issuer sample1/10 and gateOPEN unchanged.",
+          "Original geography248/248,231provisional/17UNKNOWN,318bodies/45relations/4scopes unchanged. Expanded29partial/248,219unscored/248,59/1984supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged.",
+          "Final exact-proposal harness structural check, native validator and10tests plus focused preservation checks executed and logged before independent verification. These tests are structural, not legal/expert approval.",
+          "Only8exact packet paths; no production/foreign roots/deletes/renames/symlinks. Source PDFs retained local only. Separate Verifier must independently check evidence and approve exact fingerprints; designated Writer alone may publish. Researcher made no team branch publication."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--012.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md"
+        ]
+      }
     }
   }
 }
