@@ -16,7 +16,8 @@
           "docs/atlas/handoffs/team-a/runs/A-01--072.json"
         ]
       },
-      "status": "reserved"
+      "status": "running",
+      "launch_id": "launch-A-072-712419601b87309873203500"
     },
     "run-B-B01-US-ADA-20261107": {
       "team": "B",
