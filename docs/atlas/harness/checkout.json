@@ -1530,8 +1530,102 @@
           "docs/atlas/handoffs/team-a/source_recovery/CODEX_A056_ORIGINAL_COMPETENCE_20261108.md"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-codex-A056-eeaae3fd138c01c6def69eae"
+      "status": "checked_in",
+      "launch_id": "launch-codex-A056-eeaae3fd138c01c6def69eae",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:056",
+        "commit": "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+        "parent": "2211d184e0392c117f4930966aa1017d4b7c9702",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--056.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--056.json": "5e58660cccdebfe0f29b9454f7e9913fa00db481"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:056",
+        "input_sha": "2211d184e0392c117f4930966aa1017d4b7c9702",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "BE-FPS-existing-audit",
+            "url": "https://www.health.belgium.be/en",
+            "locator": "FPS English institutional portal; language links nl/fr/de/en; not a statutory instrument",
+            "issuer": "Belgian Federal Public Service Health, Food Chain Safety and Environment, institutional publisher",
+            "checked": "2026-11-08; exact HTTP response and saved text reviewed",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 first-party institutional portal. Existing BE-FPS identity lead audited only; not original law, independent community enactment, exact current competence, or proof of full statutory amendment/commencement chain."
+          },
+          {
+            "id": "A62-056-01-retrieval",
+            "url": "https://www.ejustice.just.fgov.be/eli/loi/2006/07/20/2006022888/justel",
+            "locator": "Exact prior Justel 2006 AFMPS/FAGG URL; 244-byte response titled Request Rejected",
+            "issuer": "Belgian FPS Justice official legal host; underlying historical federal legislative issuer retained in prior provenance",
+            "checked": "2026-11-08; exact HTTP response and saved text reviewed",
+            "original": false,
+            "access": "blocked",
+            "qualification": "HTTP200 text/html is a request-rejection page, not legal text. No new reading of the 2006 original/current consolidation claimed. Prior narrow federal support retained without rescission; no inference no law exists."
+          },
+          {
+            "id": "A62-056-02-retrieval",
+            "url": "https://www.ejustice.just.fgov.be/cgi_loi/article.pl?cn_search=2026053003&language=fr&lg_txt=f",
+            "locator": "Exact prior 30May2026 law URL; 244-byte Request Rejected HTML",
+            "issuer": "Belgian FPS Justice official legal host; historical federal legislature/King issuer remains qualified",
+            "checked": "2026-11-08; exact HTTP response and saved text reviewed",
+            "original": false,
+            "access": "blocked",
+            "qualification": "HTTP200 request rejection rather than statute. Later amendments, article61 and special effective clauses could not be authenticated here. Historical A62-056-02 observation retained separately; no new current-law or translation claim."
+          },
+          {
+            "id": "flemish-codex-2025-compilation",
+            "url": "https://codex.vlaanderen.be/PrintDocument.ashx?id=1041199&datum=&geannoteerd=false&print=false",
+            "locator": "Official current compilation of 18July2025 preventive-health amendment; arts1,2,3 and16; footer version8November2026",
+            "issuer": "Flemish Community decree as represented by official Vlaamse Codex consolidation publisher; Flemish Government website is not original signed Gazette",
+            "checked": "2026-11-08; exact HTTP response and saved text reviewed",
+            "original": false,
+            "access": "direct",
+            "qualification": "HTTP200 compiled HTML, not original enacted/published instrument. Art1 calls this a community matter; art2 identifies Departement Zorg in amended definition. Article3 version marker1January2026, other markers15January2026. Art16 states default entry two years after Gazette publication and permits earlier dates set by Flemish Government. These markers are qualified compilation evidence, not authenticated earlier-commencement instruments or proof of present all-community competence. No exact original signatory inspected; no legal translation certification."
+          },
+          {
+            "id": "flemish-codex-2025-metadata",
+            "url": "https://codex.vlaanderen.be/DesktopModules/VlaamseCodex/Search/OpenApi.asmx/WetgevingDocumentById?id=1041199",
+            "locator": "Codex public metadata: decree18July2025, Numac2025006320, Gazette26August2025 p68062, defaultStartDatum26August2027",
+            "issuer": "Official Vlaamse Codex metadata publisher; underlying instrument is Flemish Community, distinct from federal legislature but not independently authenticated original here",
+            "checked": "2026-11-08; exact HTTP response and saved text reviewed",
+            "original": false,
+            "access": "metadata",
+            "qualification": "HTTP200 metadata locates one exact decree; it is not an original legal instrument. Default start and earlier article-version markers must be resolved against original Government commencement instruments, not collapsed into one effective date. No claim the decree is wholly uncommenced or wholly in force follows from this record."
+          },
+          {
+            "id": "original-gazette-attempt",
+            "url": "https://www.ejustice.just.fgov.be/mopdf/2025/08/26_1.pdf",
+            "locator": "Dated original Gazette PDF route inferred from Codex26August2025 publication metadata; received244-byte Request Rejected HTML, not PDF",
+            "issuer": "Belgian official Gazette/FPS Justice publication host; presumed community instrument issuer not authenticated from failed response",
+            "checked": "2026-11-08; exact HTTP response and saved text reviewed",
+            "original": false,
+            "access": "blocked",
+            "qualification": "HTTP200 text/html request rejection. Exact original decree Numac2025006320 at printedp68062 not recovered or visually read. Route was a dated PDF retrieval attempt, not an observed successful original publication link. No claim other issue parts or archives were exhausted."
+          }
+        ],
+        "blocker": "Remaining Belgian current federal special-commencement/amendment and independent Community/Region original-law chains were not authenticated. Exact prior Justice statute URLs and attempted dated original Gazette PDF returned HTTP200 Request Rejected HTML, not legal text. Official Flemish Codex located the18July2025 preventive-health amendment and supplied qualified current compilation/metadata, but no original signed/published instrument or separate earlier-commencement orders was recovered. Federal narrow support and all prior statuses remain unchanged; no all-tier legal completion or proof of absence.",
+        "reopen": "Reopen only with Atlas maintainer authorization and immutable reference to this checkpoint after a new accessible official original Gazette/Parliamentary promulgation or custodian-provided instrument for Numac2025006320 and its article-specific earlier-commencement orders, or named current federal original amendments/special-effective clauses, is independently authenticated. Retain community/federal/jurisdiction and original/compilation distinctions; do not reopen solely because an index or consolidation remains accessible.",
+        "validation": [
+          "Exact row priority_rank=9,m49_code=056 at input2211d184e0392c117f4930966aa1017d4b7c9702; priorIDs BE-FPS,A62-056-01,A62-056-02 audited first and preserved. Run codex-A-A01-056-20261108-137d6409, own fresh launch launch-codex-A056-eeaae3fd138c01c6def69eae; own startb6e33dce83ac00d6ac09564f06605cfa5a04a03e parent5840db2492f607b645da009090d089c337f41bc8. Independently read remote commit,parent,tree,sole ledger path/blob,exact bytes,live running launch/packet,draft PR before research.",
+          "Strategy1: exact prior Justice2006/2026URLs bothHTTP200 but244-byte Request Rejected pages; official FPS portal200 institutional source only. Strategy2: official Flemish department/Codex routes; initial guessed department/Codex endpoints404 qualified as discovery failures only. Observed Codex root200 linked public search; observed search form/API located exact decreeID1041199. Department search returned JavaScript-rich shell without retrieved original results. No repeated blocked-request circumvention.",
+          "Codex current print text and public metadata200, read arts1/2/3/16 and footer8November2026. Metadata publication26Aug2025p68062/defaultStart26Aug2027 differs from article-version markers1/15Jan2026; art16 explicitly allows earlier Government dates. These are unresolved original-commencement retrieval gaps, not a declared legal contradiction or uniform current effective date. Original Gazette datedPDF attempt200 Request Rejected HTML. Missing original instrument remains unverified; no legal-absence inference.",
+          "Evidence URLs/HTTP methods/statuses/types/byte counts/SHA256 and timestamps saved in Researcher retrieval-log; original laws/PDFs not uploaded. No original instrument visually inspected because no original PDF was retrieved. Text/metadata inspection is accurately distinguished.",
+          "Checkpoint-only actual changed path docs/atlas/handoffs/team-a/runs/A-01--056.json. Canonical dataset/provenance count763\u2192763, all prior Belgian/non056rows unchanged. Geography248/248,231provisional/17UNKNOWN,318bodies/45relations/4scopes, original issuer1/10/gateOPEN unchanged. Expanded29partial/248,219unscored/248,59/1984narrow supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged. A70-IA-06 PARTIAL/NO unchanged.",
+          "Exact-proposal harness/native validator/all10tests and checkpoint-only preservation controls executed on separate snapshot and logged before independent verification. Structural integrity is not legal/expert/clinical approval. Separate fresh Verifier must approve exact fingerprint; designated Writer only may publish; Researcher made no team publication."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--056.json"
+        ]
+      }
     }
   }
 }
