@@ -1818,7 +1818,8 @@
           "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json"
         ]
       },
-      "status": "reserved"
+      "status": "running",
+      "launch_id": "launch-D-NET-009-a06bb10e65345dc73f9340b3"
     }
   }
 }
