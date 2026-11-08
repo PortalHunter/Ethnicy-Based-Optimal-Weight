@@ -1183,6 +1183,30 @@
           "docs/atlas/handoffs/team-a/runs/A-01--050.json"
         ]
       }
+    },
+    "codex-A-A01-020-20261108-2041f192": {
+      "team": "A",
+      "key": "A-01:020",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "020",
+        "expected_sha": "24582e5fab6a9f3c0d85250d2a3e5e80d2fd0e74",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=6,m49_code=020",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--020.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md"
+        ]
+      },
+      "status": "reserved"
     }
   }
 }
