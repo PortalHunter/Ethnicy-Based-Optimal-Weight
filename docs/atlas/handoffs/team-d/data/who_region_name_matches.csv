@@ -1,0 +1,39 @@
+record_id,source_label,country_area_m49,un_country_area_name,match_method,source_url,checked_on
+TD-WPRO-MATCH-016,American Samoa (USA),016,American Samoa,EXPLICIT_REVIEWED_ALIAS,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-036,Australia,036,Australia,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-096,Brunei Darussalam,096,Brunei Darussalam,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-116,Cambodia,116,Cambodia,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-156,China,156,China,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-184,Cook Islands,184,Cook Islands,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-242,Fiji,242,Fiji,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-258,French Polynesia (France),258,French Polynesia,EXPLICIT_REVIEWED_ALIAS,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-316,Guam (USA),316,Guam,EXPLICIT_REVIEWED_ALIAS,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-344,Hong Kong SAR (China),344,"China, Hong Kong Special Administrative Region",EXPLICIT_REVIEWED_ALIAS,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-360,Indonesia,360,Indonesia,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-392,Japan,392,Japan,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-296,Kiribati,296,Kiribati,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-418,Lao People's Democratic Republic,418,Lao People's Democratic Republic,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-446,Macao SAR (China),446,"China, Macao Special Administrative Region",EXPLICIT_REVIEWED_ALIAS,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-458,Malaysia,458,Malaysia,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-584,Marshall Islands,584,Marshall Islands,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-583,"Micronesia, Federated States of",583,Micronesia (Federated States of),EXPLICIT_REVIEWED_ALIAS,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-496,Mongolia,496,Mongolia,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-520,Naoero,520,Naoero,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-540,New Caledonia (France),540,New Caledonia,EXPLICIT_REVIEWED_ALIAS,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-554,New Zealand,554,New Zealand,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-570,Niue,570,Niue,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-580,Northern Mariana Islands (USA),580,Northern Mariana Islands,EXPLICIT_REVIEWED_ALIAS,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-585,Palau,585,Palau,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-598,Papua New Guinea,598,Papua New Guinea,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-608,Philippines,608,Philippines,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-612,Pitcairn Islands (UK),612,Pitcairn,EXPLICIT_REVIEWED_ALIAS,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-410,Republic of Korea,410,Republic of Korea,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-882,Samoa,882,Samoa,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-702,Singapore,702,Singapore,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-090,Solomon Islands,090,Solomon Islands,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-772,Tokelau,772,Tokelau,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-776,Tonga,776,Tonga,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-798,Tuvalu,798,Tuvalu,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-548,Vanuatu,548,Vanuatu,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-704,Viet Nam,704,Viet Nam,EXACT_NAME,https://www.who.int/westernpacific/about/where-we-work,2026-11-05
+TD-WPRO-MATCH-876,Wallis and Futuna (France),876,Wallis and Futuna Islands,EXPLICIT_REVIEWED_ALIAS,https://www.who.int/westernpacific/about/where-we-work,2026-11-05

@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "key": "D-01:TD-BL-NET-008",
+  "input_sha": "aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac",
+  "disposition": "blocked",
+  "evidence": [
+    {
+      "id": "idf-nac-current-overview",
+      "url": "https://idf.org/our-network/regions-and-members/north-america-and-caribbean/",
+      "locator": "Direct current overview; 22 associations/22 countries and territories; 21 individually named geographic association labels and three transnational names",
+      "issuer": "International Diabetes Federation",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Undated current HTML independently inspected 2026-11-08. Curaçao not among its named local associations. Headline and named entries are not necessarily the same membership class or observation time. No effective date, legal identity or clinical status inferred."
+    },
+    {
+      "id": "idf-nac-members-index",
+      "url": "https://idf.org/our-network/regions-and-members/north-america-and-caribbean/members/",
+      "locator": "Direct Members index: 23 diabetes organisations in 22 countries and territories; Curaçao among 22 geographic labels; three transnational members",
+      "issuer": "International Diabetes Federation",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "The 23 and 22 are organization and geography denominators respectively, not automatically contradictory. The separate regional overview uses 22 associations. Transnational names are not assigned M49 codes; the source does not provide a dated individual-entity reconciliation."
+    },
+    {
+      "id": "idf-nac-curacao-current-detail",
+      "url": "https://idf.org/our-network/regions-and-members/north-america-and-caribbean/members/curacao/",
+      "locator": "Curaçao country/territory profile, section headed IDF member(s) in Curaçao has no displayed association name",
+      "issuer": "International Diabetes Federation",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Direct HTML accessed 2026-11-08. A blank member field cannot establish dissolution, departure, admission date or lack of a current member; no source-period organizational identity published on this profile."
+    },
+    {
+      "id": "idf-2024-annual-roster",
+      "url": "https://idf.org/media/uploads/2025/06/11759-IDF-Annual-Report-2024_ART_compressed.pdf",
+      "locator": "2024 Annual Report, Organisation, printed p26, PDF page index 25, Curaçao — Sosiedat Kurasoleno di Diabetiko",
+      "issuer": "International Diabetes Federation",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Official issuer PDF visually inspected with screenshot. Historical named association roster for 2024 report period, hosted June 2025. Does not establish present-day 2026 membership or effective joining/leaving date."
+    },
+    {
+      "id": "idf-2023-annual-roster",
+      "url": "https://idf.org/media/uploads/2024/06/IDF-Annual-Report-2023.pdf",
+      "locator": "2023 Annual Report, Organisation/NAC printed p23, PDF page index 22, Curaçao — Sosiedat Kurasoleno di Diabetiko",
+      "issuer": "International Diabetes Federation",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Issuer-original PDF independently visually inspected. Historical name corroboration only; no independently verified current legal or membership status."
+    },
+    {
+      "id": "idf-2003-atlas-historical-alias",
+      "url": "https://diabetesatlas.org/media/uploads/sites/3/2025/02/IDF-Atlas-2nd-Edition.pdf",
+      "locator": "Diabetes Atlas second edition ©2003, printed p294; indexed table Netherlands Antilles / Societat Kurasoleno di Diabetiko (SOKUDI) / Diabetic Association of Curaçao",
+      "issuer": "International Diabetes Federation",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "indexed",
+      "qualification": "The source text gives the historical SOKUDI expansion. Screenshot attempt on PDF page index 293 returned HTTP 404; therefore no direct image/facsimile validation of this 2003 row in this run. Historical Netherlands Antilles period not promoted to 2026 territory governance or association membership."
+    },
+    {
+      "id": "curacao-medical-center-referral",
+      "url": "https://www.cmc.cw/clinics/nephrology-dialysis/diabetes-mellitus/?lang=en",
+      "locator": "First-party Curaçao Medical Center referral: Diabetesvereniging Curacao links to https://sokudi.org",
+      "issuer": "Curaçao Medical Center",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Direct original hospital page examined. This supports a localized SOKUDI identity lead, not an IDF-authorized current member register, statutory delegation, legal entity certification or patient advice approval."
+    },
+    {
+      "id": "sokudi-original-website-attempt",
+      "url": "https://sokudi.org/",
+      "locator": "Original-domain direct access attempt",
+      "issuer": "SOKUDI (domain operator not verified)",
+      "checked": "2026-11-08",
+      "original": false,
+      "access": "blocked",
+      "qualification": "Direct website not accessible via web retrieval on 2026-11-08; current association governing records, self-name and registered identity not examined."
+    },
+    {
+      "id": "team-b-curacao-immutable-row",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/9237e5e3f360e596839529adf1d1b254e6fc368b/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+      "locator": "Team B B-CW-DVC, M49 531, Diabetesvereniging Curaçao, CMC referral; blob 6b8dd8d2ebf43d7fed57dbf6140ca21d43aeafae",
+      "issuer": "Atlas Team B research inventory",
+      "checked": "2026-11-08",
+      "original": false,
+      "access": "direct",
+      "qualification": "Read-only at live draft PR #71 head. B-CW-DVC is a strong narrow candidate for a historically SOKUDI-associated alias but NOT an exact confirmed 2026 IDF legal membership/identity crosswalk. No Team B changes."
+    },
+    {
+      "id": "team-d-preexisting-nac-observations",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac/docs/atlas/handoffs/team-d/data/idf_nac_member_observations_2026.csv",
+      "locator": "Rows TD-IDF-NAC-001 to 025: 22 geography labels including 008 Curaçao M49 531 unnamed, plus three transnational entries; blob 0f76e1f851d1f12499b015bd499211a99d3c3d0d",
+      "issuer": "Atlas Team D source inventory",
+      "checked": "2026-11-08",
+      "original": false,
+      "access": "direct",
+      "qualification": "Existing source-local dated/undated separation preserved. No source CSV, graph edge or current membership field changed. Geographic label is not a member organization."
+    },
+    {
+      "id": "team-d-exact-reserved-row",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac/docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+      "locator": "Row TD-BL-NET-008, IDF_MEMBER_JOIN, EXACT_ID_JOIN, P1_SOURCE_OWNER; queue blob 92c2975526ef6ade353dda31719dfefcee7f9bd5",
+      "issuer": "Atlas Team D native backlog",
+      "checked": "2026-11-08",
+      "original": false,
+      "access": "direct",
+      "qualification": "Requires an exact dated named member organization roster and defensible Team B ID/Curaçao identity. Historical presence and separate denominator clarification do not satisfy strict present-period closure."
+    }
+  ],
+  "blocker": "TD-BL-NET-008 strict closure remains blocked. Current IDF NAC overview claims 22 associations/22 countries and territories; separate Members page claims 23 diabetes organizations/22 labels, while current Curaçao detail lists no named member. Historical IDF 2023 and 2024 issuer-original annual reports clearly name Sosiedat Kurasoleno di Diabetiko under Curaçao. Indexed-only 2003 IDF Atlas text associates the name with SOKUDI; Curaçao Medical Center names Diabetesvereniging Curaçao and refers to sokudi.org, corresponding to Team B B-CW-DVC. This is a historically anchored narrow alias/join lead, not verification of uninterrupted 2026 federation membership, a legal-entity match, an admission/exit date, or governance powers. SOKUDI own site was inaccessible, no dated current issuer member roll/custodian confirmation or authenticated current association legal instrument recovered. Retain both reported denominators, three non-geographic transnational member names, historical periods and all identity caveats. No legal, clinical, scientific, rights or Indigenous-governance approval.",
+  "reopen": "Only revisit with a new original dated IDF NAC member roll, IDF custodian/secretariat confirmation or archive revision naming current Curaçao association(s), precise membership type and as-of/effective dates; plus authentic own-issuer/legal identity evidence permitting an exact Team B B-CW-DVC join. Independently review the 2003 facsimile if available. Source-period reports must not silently overwrite 2026 page data. Separate Verifier must assess this proposal before the PortalHunter-designated Writer makes a direct-child expected-SHA publication. The Librarian alone later checks in the verified result.",
+  "validation": [
+    "Run run-D-D01-NET-008-20261108; launch launch-D-NET-008-f3a91c6d72b04e5a85a1; Team D input SHA aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac.",
+    "Original harness reservation key D-01:TD-BL-NET-008 at exact Team D row. The architecture start commit 397fa3eb56e4ac1461a0fc313a3b1e5a09ebbc39 has parent 9a9c9e9ae5034db6990a25b3e1fa1b778a8f2296, changed only checkout.json under explicit expected-SHA lease, ledger blob 7b2ae251ed649fd756c5dfe572dd2572201f67bf; running launch readback PASS.",
+    "Team D PR #70 remained open/draft/unmerged at exact expected head. Team B PR #71 open/draft/unmerged head 9237e5e3f360e596839529adf1d1b254e6fc368b checked read-only; no cross-team writes.",
+    "Original 2023 and 2024 IDF report pages visually inspected through original PDF screenshots; current overview, Members index and Curaçao page direct HTML inspected. Earlier 2003 IDF Atlas historical alias available only in indexed PDF text after screenshot failure (HTTP 404); SOKUDI domain inaccessible.",
+    "Observed IDF populations kept separate: two differently labeled current web headline counts 22 associations and 23 diabetes organizations; 22 geography labels; 21 individually named local associations on overview; three explicitly transnational names; Curaçao currently unnamed on detail page. No arithmetic reconciliation invented.",
+    "Existing Team D idf_nac_member_observations_2026.csv contains 25 data rows: 22 geographic labels and three transnational rows; no modifications. Current Curaçao M49 531 label is not proof of member institution. Current exact B-CW-DVC alias and 2026 member admission period remain unconfirmed.",
+    "Repository reference totals retained, not independently reappraised here: 47 nodes / 619 typed graph edges; 330 provenance URLs; 249 candidates; WHO current administration 205/249 verified and 44 unresolved; strictly April 2026 office-host positives 95/249; combined separately dated positives 105/249 (95 April +10 later SEARO); EMA directory 34/34, full legal/delegation/Team A packets 0/34; original Team D acceptance 3/5 scoped demonstrated and 2/5 held.",
+    "Research throughput: one exact old-gap IDF_MEMBER_JOIN case audited; two annual issuer-original period rosters and one qualified older alias located; narrow name/ID lead improved, but strict closures Δ+0; existing count deltas 0; legal/clinical/governance approvals 0; no PROVENANCE, network, geography, condition, Team A/B or live-calculator edits.",
+    "Checkpoint-only result proposal at docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-008.json. This proposal is a loose GitHub blob NOT committed to Team D and NOT independently research-verified.",
+    "Result schema/allowlist structural checks completed in researcher environment; complete native Node validate.mjs, full checked-in harness.py CLI, GitHub Actions, source-semantic independent Verifier and scientific/legal/clinical approval NOT RUN at this HEAD."
+  ],
+  "paths": [
+    "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-008.json"
+  ]
+}
