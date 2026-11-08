@@ -84,11 +84,11 @@
           "Reserved exact row: priority_rank=1,m49_code=072 in docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv at input SHA db7de0e29070473cb2e5fc4ae5cfecf51b0ae670.",
           "Independent verifier: https://chatgpt.com/c/6af00c04-16f4-83e9-93d6-07c0270f0ca4 ; researcher: https://chatgpt.com/c/6af006f3-3188-83e9-a1c3-975d76e33373 ; run run-A-A01-072-20261107 ; launch launch-A-072-712419601b87309873203500.",
           "Verifier GitHub checks: reserved packet match PASS; ticket running PASS; exact launch ID PASS; Team A head db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 PASS; PR #68 open/draft/unmerged PASS; start commit 9b687543791429274dd8b3577f3f13b155b8c577 parent d78106a9c4a80f35d91ed62f053ae94b3d1d2a16 changes only docs/atlas/harness/checkout.json PASS; native queue-row inspection PASS.",
-          "Checkpoint fetch at pinned SHA: 404 — not published. Researcher's downloadable proposed JSON was not captured in the saved handoff; this file is reconstructed solely from the saved Research and Verifier records.",
-          "Coordinator local Atlas harness.py structural contract check on this reconstructed JSON: python3 /workspace/atlas/recovery/harness/harness.py A --live-sha db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 --packet /workspace/atlas/recovery/A/packet.json --result /workspace/atlas/recovery/A/A-01--072.json → PASS structural contract for A-01:072. This is executable schema/contract validation of the checkpoint against the reserved packet, not legal approval. The recovery verifier's independent schema inspection was a CONDITIONAL PASS pending these wording corrections; research and the original verifier chat did not execute harness.py.",
-          "Team A native validation, run by the coordinator in a detached checkout at db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 with this checkpoint file placed at docs/atlas/handoffs/team-a/runs/A-01--072.json: python3 docs/atlas/handoffs/team-a/validate.py (exit 0; printed PASS lines for 248 legal evidence ledger rows and 248 research queue items; 248 distinct M49 country-or-area rows; 231 government ministry/department identities and 17 explicitly unresolved; 318 separately identified government health bodies and 45 sourced relationships; 248 coverage records and 758 provenance rows; 4 explicit shared-authority area mappings; region totals, reference integrity, source fields and complex-jurisdiction sentinels; plus LIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date). python3 -m unittest discover -s docs/atlas/handoffs/team-a -p 'test_*.py' (exit 0; Ran 10 tests in 0.140s OK). These are structural integrity tests documented in RUNBOOK.md, not independent legal validation. Original research and verifier chats recorded git ls-remote against GitHub as BLOCKED — Could not resolve host: github.com — and did not run these commands.",
+          "Checkpoint fetch at pinned SHA: 404 \u2014 not published. Researcher's downloadable proposed JSON was not captured in the saved handoff; this file is reconstructed solely from the saved Research and Verifier records.",
+          "Coordinator local Atlas harness.py structural contract check on this reconstructed JSON: python3 /workspace/atlas/recovery/harness/harness.py A --live-sha db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 --packet /workspace/atlas/recovery/A/packet.json --result /workspace/atlas/recovery/A/A-01--072.json \u2192 PASS structural contract for A-01:072. This is executable schema/contract validation of the checkpoint against the reserved packet, not legal approval. The recovery verifier's independent schema inspection was a CONDITIONAL PASS pending these wording corrections; research and the original verifier chat did not execute harness.py.",
+          "Team A native validation, run by the coordinator in a detached checkout at db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 with this checkpoint file placed at docs/atlas/handoffs/team-a/runs/A-01--072.json: python3 docs/atlas/handoffs/team-a/validate.py (exit 0; printed PASS lines for 248 legal evidence ledger rows and 248 research queue items; 248 distinct M49 country-or-area rows; 231 government ministry/department identities and 17 explicitly unresolved; 318 separately identified government health bodies and 45 sourced relationships; 248 coverage records and 758 provenance rows; 4 explicit shared-authority area mappings; region totals, reference integrity, source fields and complex-jurisdiction sentinels; plus LIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date). python3 -m unittest discover -s docs/atlas/handoffs/team-a -p 'test_*.py' (exit 0; Ran 10 tests in 0.140s OK). These are structural integrity tests documented in RUNBOOK.md, not independent legal validation. Original research and verifier chats recorded git ls-remote against GitHub as BLOCKED \u2014 Could not resolve host: github.com \u2014 and did not run these commands.",
           "Verifier research judgment: PASS that blocked is an evidence-appropriate disposition, with zero legal-status promotions. This is not a declaration that Botswana law has been comprehensively verified.",
-          "Verifier final decision: PARTIAL PASS — BLOCKED FOR PUBLICATION (proposed JSON unavailable; native suite not verified). Legal dimensions promoted: 0. Full legal research closure: No."
+          "Verifier final decision: PARTIAL PASS \u2014 BLOCKED FOR PUBLICATION (proposed JSON unavailable; native suite not verified). Legal dimensions promoted: 0. Full legal research closure: No."
         ],
         "paths": [
           "docs/atlas/handoffs/team-a/runs/A-01--072.json"
@@ -390,8 +390,91 @@
           "docs/atlas/handoffs/team-a/runs/A-01--064.json"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-A-064-0e3ecaf97d5fac0efc041c0f"
+      "status": "checked_in",
+      "launch_id": "launch-A-064-0e3ecaf97d5fac0efc041c0f",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:064",
+        "commit": "fae5eed287562aaae744ca14d310ed5d4140ad75",
+        "parent": "6f8c543f7bbf502d293a164dec240b5e03395b2a",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--064.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--064.json": "534ea2452b464586730de4fb963e939d7643b619"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:064",
+        "input_sha": "6f8c543f7bbf502d293a164dec240b5e03395b2a",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "bt-civil-service-reform-act-2022",
+            "url": "https://oag.gov.bt/wp-content/uploads/2023/01/Civil-Service-Reform-Act-of-Bhutan-2022.pdf",
+            "locator": "Civil Service Reform Act of Bhutan 2022, sections 7-14 and 25-27, especially sections 26-27",
+            "issuer": "Parliament of Bhutan; original statutory text hosted by the Office of the Attorney General",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Original statutory text retrieved in PDF text form from the Office of the Attorney General. Section 26 provides for the merger of BAFRA, BNCA and DRA into BFDA, and section 27 addresses specified transferred regulatory functions. Section 7 establishes a transitional framework. A direct screenshot request for this PDF failed with HTTP 404, so visual inspection of its relevant statutory pages was not completed in this run. The source does not establish the complete through-November-2026 amendment chain or authenticate the two 2024 appointment letters. Existing source-supported dimensions are not independently reapproved."
+          },
+          {
+            "id": "bt-rcsc-reorganization-2022",
+            "url": "https://moha.gov.bt/wp-content/uploads/2022/12/PR-on-reorganization-of-CSA.pdf",
+            "locator": "RCSC press release RCSC/LD-63/2022/2265, dated December 30, 2022, page 2, Ministry of Health paragraph",
+            "issuer": "Royal Civil Service Commission of Bhutan",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Original RCSC-issued press release independently inspected, including a page screenshot. It expressly describes the merger of BAFRA, BNCA and DRA as BFDA. This is first-party administrative communication concerning the 2022 reorganization, not the original Cabinet letter of March 26, 2024 or RCSC letter of April 1, 2024. It does not independently establish the later board appointments, current membership or complete statutory mandate. The original RCSC-hosted URL redirects to this Ministry of Home Affairs copy."
+          },
+          {
+            "id": "bt-bfda-ndpssa-regulation-2024",
+            "url": "https://bfda.gov.bt/wp-content/uploads/2025/08/NDPSS-Regulation-2024.pdf",
+            "locator": "Narcotic Drugs, Psychotropic Substances and Substance Abuse Rules and Regulation 2024, sections 1, 6-9; printed pages 3-5",
+            "issuer": "Bhutan Food and Drug Authority, regulatory document hosted on its official website",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "BFDA-hosted regulation text and section 6 page screenshot inspected. Section 1 states an effective date of December 17, 2024 for this particular regulation. Section 6 cites Cabinet letter C-3/6(5)/2024/48 dated March 26, 2024 and RCSC letter LTD/1/COM/2024/3331 dated April 1, 2024 and lists nine board positions. The actual letters were not retrieved. A recital in a regulation is not a substitute for independently inspecting the original appointment instruments, their authority, conditions, subsequent amendments or continued effect. Its specific commencement date is not a universal BFDA succession or appointment date."
+          },
+          {
+            "id": "bt-bfda-mpd-annual-report-2024-25",
+            "url": "https://bfda.gov.bt/wp-content/uploads/2025/09/Annual-Report-2024-25.pdf",
+            "locator": "Medical Product Division Annual Report 2024-25, printed pages 28 and 42, regulatory-system discussion and governing-board composition",
+            "issuer": "Bhutan Food and Drug Authority, Medical Product Division",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Original BFDA organizational report, not a statutory instrument. The report lists seven governing-board representations, whereas section 6 of the BFDA 2024 regulation lists nine positions. The report also allows the Minister or Secretary of Health as chairperson, differing from the regulation's Minister-only wording. The report says the Medicines Act had not yet been amended as of its reporting period and the revised Medicines Rules and Regulation 2025 awaited endorsement. These are time-bounded administrative assertions, not evidence that the proposals remained pending in November 2026. The composition discrepancy requires original appointment and amendment instruments before any conclusion about current legal membership."
+          }
+        ],
+        "blocker": "The precise original Cabinet letter C-3/6(5)/2024/48 dated March 26, 2024 and original RCSC letter LTD/1/COM/2024/3331 dated April 1, 2024 were not recovered. Two distinct official-source discovery routes were attempted: targeted searches for the letters on RCSC/government sources and targeted searches for the Cabinet reference on government domains. Neither yielded the requested original instrument. The original 2022 reform statute, RCSC's December 2022 press release and BFDA's December 2024 regulation provide related evidence but do not replace those letters. The BFDA 2024 regulation lists nine board positions, while BFDA's 2024-25 annual report describes seven representations with different chairperson wording. The cause, legal effect and chronology of this discrepancy remain unresolved. Through-November-2026 amendments, successor appointments, applicable medical-profession instruments, surveillance mandates and district or local-government allocations remain incompletely authenticated. No existing legal dimension is promoted, no present-day governing-board composition is certified, and no legal, clinical, scientific, rights or governance claim is approved.",
+        "reopen": "Reopen only following explicit Atlas maintainer approval and documented reconciliation of this blocked checkpoint with a new eligible reservation. Obtain authentic original copies of Cabinet letter C-3/6(5)/2024/48 and RCSC letter LTD/1/COM/2024/3331 from their issuing authorities or an authenticated official archive. Independently verify their full text, issuing competence, signatures, dates, scope and subsequent amendments or supersession. Reconcile the nine-position 2024 regulation with the seven-representation 2024-25 BFDA report using authoritative dated instruments. Recover and authenticate the relevant through-November-2026 amendments, medicines and medical-profession enactments, surveillance-institute mandates and applicable district/devolved instruments before considering any additional legal dimension support.",
+        "validation": [
+          "Run: run-A-A01-064-20261108; launch: launch-A-064-0e3ecaf97d5fac0efc041c0f; exact input SHA: 6f8c543f7bbf502d293a164dec240b5e03395b2a.",
+          "Reserved native queue identity: priority_rank=3,m49_code=064 in docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv. Native queue row fetched from the Team A branch and matched to Bhutan and task A-01.",
+          "Master checkout protocol reviewed at e7d313b91c6ad631be865bf5d2623e782fe7f9c3. Start event published in commit bb469c1959948907a39ca75e9676239c3586a43c, directly parented by e7d313b91c6ad631be865bf5d2623e782fe7f9c3, using GitHub update_ref with expected_sha and force=false. Lease returned success=true.",
+          "Independent post-start readback at bb469c1959948907a39ca75e9676239c3586a43c confirmed the exact ticket status running and matching launch ID. Start commit changed only docs/atlas/harness/checkout.json. Ledger blob SHA c29958a949c167d0cdcc59ab5bbbca0b97c74b20.",
+          "Team A PR #68 independently checked open/draft/unmerged; team head matched 6f8c543f7bbf502d293a164dec240b5e03395b2a before start and again before final research handoff. Master PR #75 was independently checked open/draft/unmerged.",
+          "Original statutory text retrieved from the Bhutan Office of the Attorney General. Applicable sections reviewed through retrieved text. A screenshot request for the original Act failed with HTTP 404; consequently, full independent visual inspection of that source is not claimed.",
+          "RCSC original reorganization press release inspected through the Ministry of Home Affairs official copy, with screenshot of the page describing BFDA consolidation.",
+          "BFDA 2024 regulation inspected at section 1 and section 6, including screenshot of the governing-board recital. The document identifies both requested 2024 letters, but neither standalone original was recovered.",
+          "BFDA Medical Product Division Annual Report 2024-25 inspected, including screenshot of printed page 42. Report describes seven board representations versus nine positions in the 2024 regulation. This is an unresolved document-level discrepancy, not proof of an operative legal change.",
+          "Distinct attempted official-source searches: targeted RCSC/government search for LTD/1/COM/2024/3331 and targeted government-domain search for C-3/6(5)/2024/48. Neither returned the original requested letter. Search-result nonretrieval does not prove that the letters do not exist or are unpublished.",
+          "Result disposition blocked: checkpoint-only. Proposed changed path exactly docs/atlas/handoffs/team-a/runs/A-01--064.json. No edits to underlying evidence, legal ledger, source provenance, derived indexes, team branch or production code.",
+          "Original and extended coverage metrics unchanged from Team A CURRENT.md at input SHA: 248 M49 rows; 231 provisional authority identities; 17 UNKNOWN; 318 bodies; 45 relationships; 4 shared scopes; 758 provenance observations; 29 partial legal rows; 219 unscored; 59 narrowly supported dimensions of 1984; 0 all-tier research-complete.",
+          "Actual Team A Python validator and unittest suite NOT RUN in this research chat. Exact commands for an authorized complete checkout: python3 docs/atlas/handoffs/team-a/validate.py ; python3 -m unittest discover -s docs/atlas/handoffs/team-a -p 'test_*.py'. No exit codes or PASS assertions are claimed.",
+          "Atlas structural result validation pending. In an authorized checkout of the harness, save the exact packet and this result, then execute: python3 docs/atlas/harness/harness.py A --live-sha 6f8c543f7bbf502d293a164dec240b5e03395b2a --packet packet.json --result A-01--064.json. Record actual exit code and output.",
+          "Independent verifier has not reviewed this proposed result. Legal research closure NOT achieved; legal dimensions promoted: 0. Publication and final immutable blob verification are reserved for the independent verifier and designated canonical writer."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--064.json"
+        ]
+      }
     },
     "run-B-B01-PE-SPR-GOUT-20261108": {
       "team": "B",
@@ -435,8 +518,151 @@
           "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-D-ACCEPT-001-eae15f0824594c54b5d83401d3018819"
+      "status": "checked_in",
+      "launch_id": "launch-D-ACCEPT-001-eae15f0824594c54b5d83401d3018819",
+      "receipt": {
+        "version": 1,
+        "key": "D-01:TD-BL-ACCEPT-001",
+        "commit": "aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac",
+        "parent": "249de08e61d7e975464f9fd44e7eb569a79f3a1a",
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json": "e7d2a9a5229dd00d9265f527f2211cc2ed2526f9"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "D-01:TD-BL-ACCEPT-001",
+        "input_sha": "249de08e61d7e975464f9fd44e7eb569a79f3a1a",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "original-team-d-acceptance",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md",
+            "locator": "Acceptance criteria, third criterion: no geography-to-membership inference and no automatic equivalence of national clinical recommendations",
+            "issuer": "PortalHunter / original Atlas Team D assignment",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "The assignment defines a noninference acceptance criterion for a sourced institutional relationship graph. It does not authorize approval of legal, clinical, scientific, genetic, rights or governance claims. Structural preservation of relationship types is necessary but insufficient for independent semantic acceptance."
+          },
+          {
+            "id": "reserved-native-acceptance-row",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/249de08e61d7e975464f9fd44e7eb569a79f3a1a/docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+            "locator": "Exact row TD-BL-ACCEPT-001; blob 92c2975526ef6ade353dda31719dfefcee7f9bd5",
+            "issuer": "PortalHunter / Team D native backlog",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "direct",
+            "qualification": "The pinned backlog identifies NONINFERENCE_QUALIFICATION_HELD, original acceptance criterion 3, and a required independent complete evidence/semantic sample. It calls for review of provisional organizations, unverified original instruments, indexed-only sources and geography/non-clinical boundaries. This is an internal acceptance record, not independent proof that every graph proposition is correct."
+          },
+          {
+            "id": "pinned-graph-and-semantic-audit",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/249de08e61d7e975464f9fd44e7eb569a79f3a1a/docs/atlas/handoffs/team-d/data/postconsolidation_evidence_semantic_audit_2026-11-07.csv",
+            "locator": "70 audit records, TD-SEM-001 through TD-SEM-070; 619 records separately present in data/network_memberships.csv",
+            "issuer": "PortalHunter / Team D research audit",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "direct",
+            "qualification": "The 70 audit entries cover multiple record classes, including graph relationships and cross-team identity matches. They are not 70 independently certified graph edges, and the ledger does not demonstrate complete independent source and semantic review of all 619 relationships. Graph row count is an inventory observation, not evidence of legal or clinical validity."
+          },
+          {
+            "id": "provisional-team-b-identity-crosswalk",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/249de08e61d7e975464f9fd44e7eb569a79f3a1a/docs/atlas/handoffs/team-d/data/provisional_team_b_identity_crosswalk_2026-11-07.csv",
+            "locator": "12 provisional graph endpoint rows; three source-qualified name/domain/Team B ID crosswalks; nine unresolved",
+            "issuer": "PortalHunter / Team D identity audit",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "direct",
+            "qualification": "Three narrow crosswalks concern Argentina B-AR-SAHA, Indonesia B-ID-PERHI and Bangladesh B-BD-NHFB. All 12 graph endpoints remain provisional. The three alignments do not prove corporate registration, effective membership dates, statutory authorization, national clinical adoption or identity equivalence beyond the recorded name/domain/source scope."
+          },
+          {
+            "id": "whl-original-membership-directory",
+            "url": "https://www.whleague.org/membership/whl-members",
+            "locator": "Original WHL membership directory; Argentine Society of Hypertension and saha.org.ar",
+            "issuer": "World Hypertension League",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "The first-party directory independently names the Argentine Society of Hypertension and links its official domain. It supports the narrow existing identity alignment, not government regulator status, national guideline adoption, corporate-register verification or independently established membership effective dates. The directory cannot resolve the other nine Team B joins."
+          },
+          {
+            "id": "paho-bermuda-original-access",
+            "url": "https://www.paho.org/en/bermuda",
+            "locator": "Original PAHO Bermuda profile; direct retrieval HTTP 403",
+            "issuer": "Pan American Health Organization",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "blocked",
+            "qualification": "Direct retrieval returned HTTP 403. Full original page text was not independently inspected in this run. Prior indexed evidence cannot be promoted to direct original-document verification. The pinned Team D audit identifies 21 PAHO indexed-only technical-cooperation graph edges across five issuer URLs. Those service edges cannot establish local WHO office presence, April survey status, WHO constitutional governance, national statutory authority or clinical adoption."
+          },
+          {
+            "id": "who-searo-original-current-offices",
+            "url": "https://www.who.int/southeastasia/about",
+            "locator": "Where we work; WHO offices in all ten SEARO Member States",
+            "issuer": "World Health Organization, South-East Asia Regional Office",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Directly inspected original WHO HTML confirms the ten current regional member-state country-office statements. The page does not establish April 2026 survey status, physical office addresses, office opening dates or host agreements. Its current statement must remain separate from April-dated survey evidence."
+          },
+          {
+            "id": "who-april-office-survey-dataset",
+            "url": "https://data.who.int/dashboards/country-presence/country-office/office-profile-survey-reporting-year/",
+            "locator": "Original survey-year dashboard URL recorded in 95 pinned Team D office-presence rows",
+            "issuer": "World Health Organization",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "blocked",
+            "qualification": "The dashboard was not accessible through the independent web retrieval in this run. The immutable Team D office-presence CSV contains exactly 95 positive rows dated 2026-04 and ten separately dated 2026-11-05. The 95/105 split was independently counted in the repository data, but the complete original dashboard was not reproduced in this run. Absence of a positive row is not proof of an absent office."
+          },
+          {
+            "id": "historical-native-validator-report",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/249de08e61d7e975464f9fd44e7eb569a79f3a1a/docs/atlas/handoffs/team-d/CHECKPOINT_NATIVE_VALIDATION_RECONCILED_2026-11-07.md",
+            "locator": "Two externally reported Node v24.22.2 native passes at commit 470349bfe7c4a015d18ed93ae44f7d5cc4ac57a1",
+            "issuer": "PortalHunter / Team D checkpoint",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "metadata",
+            "qualification": "Historical passes were reported by an external executor. Independently inspectable raw stdout, stderr and execution metadata were not recovered. The current pinned Team D SHA is different. No complete native Node validation was executed for this run, and a reported structural pass cannot certify source semantics."
+          },
+          {
+            "id": "atlas-start-transition",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/5619d0076426673e832563b75be2eb4c5a997d01",
+            "locator": "Direct-child start commit; parent bb469c1959948907a39ca75e9676239c3586a43c; checkout.json only; exact launch ID read back",
+            "issuer": "PortalHunter / Atlas harness checkout ledger",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "direct",
+            "qualification": "The start transition was published with explicit expected-SHA enforcement. An independent GitHub readback confirmed running ownership under launch-D-ACCEPT-001-eae15f0824594c54b5d83401d3018819. This proves checkout ownership only, not acceptance completion or result publication."
+          }
+        ],
+        "blocker": "TD-BL-ACCEPT-001 remains HELD. The independently retrieved original acceptance criterion requires noninference across institutional membership, geography, statutory powers and national clinical recommendations. The current graph has 619 typed relationship rows, while its 70-entry semantic audit covers mixed proposition classes rather than a complete independently authenticated graph. Nine of 12 provisional society endpoints lack a supported exact Team B crosswalk; all 12 graph identities remain provisional. Twenty-one PAHO technical-cooperation edges remain indexed-only, with the Bermuda original returning HTTP 403. Complete original-source and semantic review is not demonstrated. The native Team D Node validator was not executed at the current input SHA. No original acceptance gate, legal claim, clinical claim or institutional authority claim is promoted.",
+        "reopen": "Reopen only after independently documented source and semantic review of the remaining acceptance-critical graph propositions, including verified original issuer text or explicitly retained access blockers, cross-team identity reconciliation for the nine unresolved provisional society joins, and appropriate examination or qualification of all 21 PAHO indexed-only edges. Reproduce the full current checked-in native Team D validator at an authorized exact-SHA checkout, recording Node version, command, exit status, stdout and stderr. Preserve original evidence dates and distinguish 95 April 2026 survey positives from 105 combined first-party positives. Require independent verification and explicit maintainer authorization before declaring criterion 3 closed. Do not use structural pass, search metadata, institutional affiliation or geography alone to approve legal, clinical, scientific, rights, ancestry or governance conclusions.",
+        "validation": [
+          "Run run-D-D01-ACCEPT-001-20261108; launch launch-D-ACCEPT-001-eae15f0824594c54b5d83401d3018819; pinned input SHA 249de08e61d7e975464f9fd44e7eb569a79f3a1a.",
+          "Reservation: exact native TD-BL-ACCEPT-001 row in docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv; reserved row status 3_OF_5_SCOPED_ORIGINAL_GATES_DEMONSTRATED and evidence class NONINFERENCE_QUALIFICATION_HELD.",
+          "Team D PR #70 independently confirmed OPEN/DRAFT/UNMERGED with head 249de08e61d7e975464f9fd44e7eb569a79f3a1a before start; architecture PR #75 independently confirmed OPEN/DRAFT/UNMERGED.",
+          "Start event commit 5619d0076426673e832563b75be2eb4c5a997d01, direct parent bb469c1959948907a39ca75e9676239c3586a43c, explicit expected-SHA lease, changed path docs/atlas/harness/checkout.json only. Independent running-ticket readback PASS; checkout blob c13233588709fc51134474d6f9723b1a0b182c74.",
+          "GitHub connector pinned-file inspections: data/network_memberships.csv 619 data rows, data/international_networks.csv 47 data rows, PROVENANCE.csv 330 data rows, data/m49_network_status.csv 249 data rows, and consolidated backlog 236 data rows. These are line and inventory checks, not complete native CSV validation.",
+          "Semantic audit data/postconsolidation_evidence_semantic_audit_2026-11-07.csv: 70 data entries, including three Team B identity crosswalk audits. Graph coverage must not be inferred by dividing all 70 audit entries by 619 edges.",
+          "Identity crosswalk data/provisional_team_b_identity_crosswalk_2026-11-07.csv: 12 data entries, three narrow source-qualified Team B ID crosswalks and nine unresolved. No graph identity promotion proposed.",
+          "Office-presence CSV: 105 positive data rows, exactly 95 as_of 2026-04 and ten as_of 2026-11-05. April survey-positive 95/249, combined first-party positive 105/249. Thus 154 lack April-specific positive evidence and 144 lack any positive office record; neither complement demonstrates office absence.",
+          "Independent original web inspection: WHO SEARO about page directly accessible and confirms ten member-state offices; WHL original members page directly accessible and supports Argentine directory name/domain; PAHO Bermuda original returned HTTP 403; WHO original survey dashboard could not be accessed through this retrieval.",
+          "Original acceptance status unchanged: 3 of 5 structurally demonstrated, TD-BL-ACCEPT-001 and TD-BL-ACCEPT-002 held. Expanded 34-national-authority full legal/delegation/Team A audit remains 0/34 and is not an original acceptance criterion.",
+          "Repository environment check: git ls-remote to github.com failed with exit 128 and DNS resolution error. FULL CURRENT CHECKED-IN TEAM D NATIVE NODE VALIDATOR NOT EXECUTED. No current validator exit code, stdout or stderr is asserted.",
+          "Reproduce from an authorized complete checkout: git checkout 249de08e61d7e975464f9fd44e7eb569a79f3a1a; git rev-parse HEAD; node --version; node docs/atlas/handoffs/team-d/validate.mjs. Preserve complete output and verify the executed commit. A structural pass does not establish semantic acceptance.",
+          "For the designated writer, separately validate this proposed JSON using python3 docs/atlas/harness/harness.py D --live-sha 249de08e61d7e975464f9fd44e7eb569a79f3a1a --packet packet.json --result result.json from the architecture harness working directory, with packet.json containing the exact reserved envelope. This command has NOT been executed in this run.",
+          "Proposed changed paths: only docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json. No canonical data changes, no network edge changes, no accepted source promotions, no acceptance-gate closure and no Team D publication performed by this researcher.",
+          "The designated writer must recheck the running ticket under this exact launch ID, Team D head SHA and PR status, publish with its own explicit expected-SHA lease, and obtain an independent commit/blob/diff readback before librarian check-in."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json"
+        ]
+      }
     }
   }
 }
