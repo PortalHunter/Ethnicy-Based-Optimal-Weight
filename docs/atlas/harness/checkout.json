@@ -1075,8 +1075,114 @@
           "docs/atlas/handoffs/team-a/CURRENT.md"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-codex-A050-81202f88823318869d983e6f"
+      "status": "checked_in",
+      "launch_id": "launch-codex-A050-81202f88823318869d983e6f",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:050",
+        "commit": "24582e5fab6a9f3c0d85250d2a3e5e80d2fd0e74",
+        "parent": "864757cf8656dd4fc89cf596ceecc16b98156fbb",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--050.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--050.json": "0967f82fafe82f6780599dfdf8ad6c514bba2cb7"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:050",
+        "input_sha": "864757cf8656dd4fc89cf596ceecc16b98156fbb",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "bmdc-act2010-official-text",
+            "url": "https://bdlaws.minlaw.gov.bd/act-print-1065.html",
+            "locator": "Bangla Act61/2010; sections1(2),3,5,18\u201323,38; official print view dated08/11/2026",
+            "issuer": "Bangladesh Parliament (Act); Legislative and Parliamentary Affairs Division government database (host)",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": false,
+            "access": "direct",
+            "qualification": "HTTP200 official Bangla statutory database text. Section1(2) says immediate effect; section3 Council constitution and section5 professional functions; section38 repeal/savings of1980 law. English paraphrases are working translations, not certified legal translation. The print date is retrieval/render date, not a legal effective/amendment date. This repeats narrow2010 professional-regulator support, not a signed original Gazette or independent complete amendment/repeal chain throughNovember2026."
+          },
+          {
+            "id": "mefwd-bmdc-draft-index",
+            "url": "https://mefwd.gov.bd/pages/static-pages/694032f235ce18e1c05648e4",
+            "locator": "Government laws/rules table: \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2 \u098f\u09a8\u09cd\u09a1 \u09a1\u09c7\u09a8\u09cd\u099f\u09be\u09b2 \u0995\u09be\u0989\u09a8\u09cd\u09b8\u09bf\u09b2 \u0985\u09a7\u09cd\u09af\u09be\u09a6\u09c7\u09b6, \u09e8\u09e6\u09e8\u09eb (\u0996\u09b8\u09dc\u09be), linked PDF ending ec0fcade2c5c46eea463b20332db7a97.pdf",
+            "issuer": "Medical Education and Family Welfare Division, Ministry of Health and Family Welfare (index publisher)",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 first-party index still explicitly marks the2025 BMDC Ordinance \u0996\u09b8\u09dc\u09be (draft). Index cannot prove enactment, complete current legal status or absence of a later separately issued ordinance. Contains other draft instruments, which remain distinct."
+          },
+          {
+            "id": "mefwd-linked-bmdc-draft",
+            "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mefwd/2024/12/ec0fcade2c5c46eea463b20332db7a97.pdf",
+            "locator": "40-page scanned PDF; page1 visually inspected, heading \u09aa\u09cd\u09b0\u09a5\u09ae \u09a1\u09cd\u09b0\u09be\u09ab\u099f, 2025 ordinance title and blank ordinance-number line",
+            "issuer": "Medical Education and Family Welfare Division-linked draft; proposed President issuing language is draft, not authenticated issuance",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 complete17990588-byte PDF downloaded after initial12MB bounded capture was incomplete and not relied on as full text. Page1 shows first-draft label and unfilled ordinance number. Its proposed immediate-effect and repeal language cannot establish an issued instrument or repeal of2010 law. Only page1 visually read; pdftotext exposes CamScanner watermark rather than substantive text. Remaining39 pages not substantively read. No certified translation."
+          },
+          {
+            "id": "mohfw-current-portal",
+            "url": "https://mohfw.gov.bd/",
+            "locator": "Government ministry homepage and Health Services/Medical Education and Family Welfare division links",
+            "issuer": "Ministry of Health and Family Welfare, Bangladesh",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 first-party organizational portal; administrative links do not establish current statutory allocation, surveillance institute powers, district/local/Indigenous/devolved public-health duties or DGDA legal authority."
+          },
+          {
+            "id": "government-press-gazette-route",
+            "url": "https://www.dpp.gov.bd/bgpress/index.php/document/gazettes/140",
+            "locator": "Gazettes Archive observed keyword/date/type form; independently exposed extraordinary archive /document/extraordinary_gazettes/285",
+            "issuer": "Department of Printing and Publications, Bangladesh Government Press (Gazette publisher/host)",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": false,
+            "access": "direct",
+            "qualification": "HTTP200 official archives accessible; generic initial /document/gazettes redirected home, corrected by following actual archive link. Archive has52495 records and currentNovember2026 listings; extraordinary page returned generic search controls/No result is found plus pagination, not a subject-specific proof. No original BMDC replacement or complete2010\u20132026 amendment chain recovered from these bounded index views."
+          },
+          {
+            "id": "government-press-subject-search",
+            "url": "https://www.dpp.gov.bd/bgpress/index.php/search",
+            "locator": "POST q=\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2 \u09a1\u09c7\u09a8\u09cd\u099f\u09be\u09b2 \u0995\u09be\u0989\u09a8\u09cd\u09b8\u09bf\u09b2; response No result match for the exact query",
+            "issuer": "Bangladesh Government Press search service",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": false,
+            "access": "indexed",
+            "qualification": "HTTP200 no site-search match for this exact Bangla query. This is a bounded discovery failure, not an exhaustive Gazette search or proof that no law exists."
+          },
+          {
+            "id": "government-press-archive-search",
+            "url": "https://www.dpp.gov.bd/bgpress/index.php/document/search_gazette",
+            "locator": "Observed archive POST form: keyword \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2, dates blank, gazette_type0; earlier date-bounded \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2 and \u09a1\u09c7\u09a8\u09cd\u099f\u09be\u09b2 variants separately logged",
+            "issuer": "Bangladesh Government Press archive search service",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": false,
+            "access": "blocked",
+            "qualification": "Observed form search returned HTTP500 with empty body, including keyword-only request without date-format ambiguity. Earlier dates2025-01-01 to2026-11-08 also returned500; those date-formatted requests alone are not relied on as a valid exhaustive search. Server failure prevents instrument-level chronology recovery via this route. No absence conclusion."
+          }
+        ],
+        "blocker": "Original issued BMDC replacement/amendment/repeal Gazette chain through8November2026 was not independently authenticated. The official2010 database and government2025 draft are accessible, but neither proves all later operative law; separately accessed Government Press indexes/site search failed to locate an instrument and the observed archive search returnedHTTP500. The remaining MOHFW statutory allocation, medicines/regulator, surveillance/institute and national/local/devolved scope remains unverified. Existing narrow2010 professional SOURCE_SUPPORTED finding retained; no evidence of absence, repeal or all-tier completion inferred.",
+        "reopen": "Recover original numbered/signed/published Gazette BMDC2025/2026 replacement or amendments, or an official custodian response establishing the authoritative chronology, independently compare with2010 Act61 and exact draft; resolve effective/repeal/savings dates and issuer. Then authenticate remaining ministry allocation, DGDA medicines/regulator, surveillance/institute and district/local/devolved instruments under a newly approved reopening packet referencing this checkpoint. A duplicate draft/index or successful metadata search is not sufficient.",
+        "validation": [
+          "Exact native row priority_rank=5,m49_code=050; three source IDs GOV-050-20261104,A65-050-01,A65-050-02 at input SHA; full unchanged row and prior sources saved in Planner handoff.",
+          "Run codex-A-A01-050-20261108-d454c0ce; own fresh launch launch-codex-A050-81202f88823318869d983e6f; own start90d4001531a1750e17556f9e44c8d661a94076d1 direct parent3a206edb8120549b7324a4ec7df9fa16bc5bd91d. Explicit expected-SHA Git lease succeeded once. Independent remote parent/tree/sole ledger path/blob/exact bytes/live head/running launch/draft PR readback PASS before research.",
+          "Research strategies: exact official law/ministry text and linked draft; separate Government Press Gazette archive and observed subject/keyword search. Both failed to authenticate the missing operative chronology. HTTP200 draft and index are accessible evidence, not evidence of enactment. All exact responses/methods/URLs/statuses saved in source retrieval logs.",
+          "Scope: one Bangladesh case, no occupied case reopening, no Bahamas dental re-research, no legal/clinical/rights/ancestry approval. Proposed changed paths only this run manifest; no canonical data changes.",
+          "Original metrics unchanged from pinned CURRENT A73: geography248/248; authority-or-UNKNOWN248/248;231 provisional identities,17UNKNOWN;318 bodies,45relationships,4shared scopes; independent narrow issuer sample1/10;758provenance.",
+          "Expanded separate metrics unchanged:29PARTIAL/248,219UNSCORED/248;59SOURCE_SUPPORTED/1984,134RESEARCHED_INCOMPLETE,1789NOT_TRIAGED,2CONFLICT_UNRESOLVED;0/248all-tier research-complete. All run deltas0. Existing narrow Bangladesh professional-regulator support retained.",
+          "Researcher proposed checkpoint only; separate fresh read-only Verifier must review exact bytes/source qualifications and bind approval to fingerprint; designated Writer and independent coordinator readback/check-in still required. No self-certified result commit.",
+          "Actual exact-proposal validation: python3 /workspace/atlas-native-preflight/harness.py A --live-sha864757cf8656dd4fc89cf596ceecc16b98156fbb --packet packet.json --result result.json exit0 PASS; native python3validate.py exit0 PASS and python3-munittest-v exit0,10tests PASS on separate git-archive snapshot of input SHA with only proposed checkpoint added. Logs saved with handoff. These are structural integrity checks, not independent legal verification."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--050.json"
+        ]
+      }
     }
   }
 }
