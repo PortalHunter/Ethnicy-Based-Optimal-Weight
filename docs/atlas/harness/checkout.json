@@ -1802,6 +1802,23 @@
       },
       "status": "running",
       "launch_id": "launch-codex-A032-5e844b8e64a71ce027fcb6af"
+    },
+    "run-D-D01-NET-009-20261108-2418c6f9": {
+      "team": "D",
+      "key": "D-01:TD-BL-NET-009",
+      "packet": {
+        "version": 1,
+        "task": "D-01",
+        "case": "TD-BL-NET-009",
+        "expected_sha": "d3eb7b830870c6e30055d7251841ed67ac482b82",
+        "queue_path": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "row_key": "TD-BL-NET-009",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json"
+        ]
+      },
+      "status": "reserved"
     }
   }
 }
