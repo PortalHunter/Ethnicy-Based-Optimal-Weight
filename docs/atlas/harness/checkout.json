@@ -61,7 +61,8 @@
           "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-002.json"
         ]
       },
-      "status": "reserved"
+      "status": "running",
+      "launch_id": "launch-D-ACCEPT-002-a003de23dbc54e6953254c2bc3463620"
     }
   }
 }
