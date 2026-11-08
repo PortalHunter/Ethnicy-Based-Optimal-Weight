@@ -1075,7 +1075,8 @@
           "docs/atlas/handoffs/team-a/CURRENT.md"
         ]
       },
-      "status": "reserved"
+      "status": "running",
+      "launch_id": "launch-codex-A050-81202f88823318869d983e6f"
     }
   }
 }
