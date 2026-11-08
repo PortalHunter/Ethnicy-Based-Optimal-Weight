@@ -476,7 +476,7 @@ const aoecsSocieties=read('data/aoecs_society_role_observations_2026.csv');
 const aoecsRelations=read('data/aoecs_crossborder_role_observations_2026.csv');
 unique(aoecsSocieties,r=>r.record_id,'AOECS society-source observation IDs');
 unique(aoecsRelations,r=>r.record_id,'AOECS external-role observation IDs');
-assert.equal(aoecsSocieties.length,68); assert.equal(aoecsRelations.length,6);
+assert.equal(aoecsSocieties.length,68); assert.equal(aoecsRelations.length,9);
 const aoecsFull=aoecsSocieties.filter(r=>r.relationship_class==='FULL_MEMBER_LISTED');
 const aoecsAssociate=aoecsSocieties.filter(r=>r.relationship_class==='ASSOCIATE_MEMBER_LISTED');
 const aoecsAffiliate=aoecsSocieties.filter(r=>r.relationship_class==='AFFILIATE_MEMBER_LISTED');
@@ -494,14 +494,27 @@ assert.equal(aoecsFull.find(r=>r.organization_label==='ACELMEX Asistencia al Cel
 assert.equal(aoecsFull.find(r=>r.organization_label==='Celiac Disease Foundation').country_area_m49,'840');
 assert.equal(aoecsNonmember.filter(r=>r.country_area_m49==='840').length,2);
 assert(!aoecsSocieties.some(r=>r.relationship_class==='EXPLICIT_NONMEMBER_COLLEAGUE_LISTED'&&r.source_section!=='OTHER_COELIAC_SOCIETIES_NOT_MEMBERS_SECTION'));
-for(const x of aoecsRelations){assert.equal(x.reporting_network_id,'AOECS');assert.equal(x.as_of,'2026-11-05');assert(sources.has(x.source_url));assert.equal(x.relationship_end,'unknown');}
+// Later source observations retain their own dates; they are not additional partnerships.
+const aoecsExpectedDates = {
+  'TD-AOECS-COOP-001':'2026-11-05',
+  'TD-AOECS-COOP-002':'2026-11-05',
+  'TD-AOECS-COOP-003':'2026-11-05',
+  'TD-AOECS-COOP-004':'2026-11-05',
+  'TD-AOECS-COOP-005':'2026-11-05',
+  'TD-AOECS-COOP-006':'2026-11-05',
+  'TD-AOECS-COOP-007':'2026-11-07',
+  'TD-AOECS-COOP-008':'1993-07-07',
+  'TD-AOECS-COOP-009':'2023-09',
+};
+assert.deepEqual(aoecsRelations.map(r=>r.record_id).sort(),Object.keys(aoecsExpectedDates).sort());
+for(const x of aoecsRelations){assert.equal(x.reporting_network_id,'AOECS');assert.equal(x.as_of,aoecsExpectedDates[x.record_id]);assert(sources.has(x.source_url));assert.equal(x.relationship_end,'unknown');}
 assert.equal(aoecsRelations.filter(r=>r.relationship_type==='PROFESSIONAL_HEALTH_CARE_COLLABORATOR_LISTED').length,5);
 const codexObservation=aoecsRelations.find(r=>r.related_organisation_label==='CODEX');
 assert(codexObservation); assert.equal(codexObservation.relationship_type,'OBSERVER_STATUS_SELF_REPORTED_SINCE_1991');assert.equal(codexObservation.reported_start_year,'1991');assert.equal(codexObservation.verification_state,'AOECS_SELF_REPORT_OBSERVER_BEGINNING_UNVERIFIED_INSTRUMENT');
 assert.deepEqual(aoecsRelations.filter(r=>r.relationship_type==='PROFESSIONAL_HEALTH_CARE_COLLABORATOR_LISTED').map(r=>r.related_organisation_label).sort(),['EPHA','ESPGHAN','ESsCD','ISSCD','UEG']);
 for(const [id,url] of [['TD-SRC-013','https://www.aoecs.org/about-us/'],['TD-SRC-014','https://www.aoecs.org/about-us/members/'],['TD-SRC-209','https://www.aoecs.org/about-us/friends/health-care-organisations/'],['TD-SRC-210','https://www.aoecs.org/advocacy/'],['TD-SRC-211','https://www.fao.org/fao-who-codexalimentarius/about-codex/observers/observers/obs-list/de/']]){assert.equal(prov.filter(p=>p.source_id===id&&p.source_url===url).length,1);}
 assert.equal(edges.length,619);assert.equal(nodes.length,47);assert.equal(statuses.filter(r=>r.who_region==='not_verified').length,44);
-console.log('Batch 28: 43 AOECS directory full members, 1 associate, 3 affiliates, 21 explicitly nonmember society contacts and 6 nonmembership professional/observer roles. Official about-us category conflict retained; no country/clinical/legal edges invented.');
+console.log('Batch 28: 43 AOECS directory full members, 1 associate, 3 affiliates, 21 explicitly nonmember society contacts and 9 nonmembership professional/observer source observations (6 original plus 3 later Codex observations). Official about-us category conflict retained; no country/clinical/legal edges invented.');
 
 // Batch 29: EMA / European Commission regulatory-role boundaries are source statements,
 // NOT authority-specific national remits, product approvals, domestic clinical rules or geographic membership edges.
