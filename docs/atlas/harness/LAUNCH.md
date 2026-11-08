@@ -1,0 +1,10 @@
+# Fresh-chat launchers
+
+Use one prompt in a fresh GitHub-enabled chat. Each launcher is plan-only by default. After reviewing the proposed exact case, explicitly dispatch one case and name the role. Use a different fresh chat for verifier work, supplying the immutable packet/result references. Name a single writer only after verification. Run the global launcher whenever you want a cross-team status and a next dispatch decision.
+
+- **A** — Open PortalHunter/Ethnicy-Based-Optimal-Weight at `architecture/atlas-harness-v1`, read `docs/atlas/harness/README.md` and `state.json`. Plan one eligible Team A case from the live pinned handoff. Prioritize existing issuer evidence. Stop with a packet or blocker.
+- **B** — Open PortalHunter/Ethnicy-Based-Optimal-Weight at `architecture/atlas-harness-v1`, read `docs/atlas/harness/README.md` and `state.json`. Plan one eligible Team B case from its live native worklists. Keep raw links and qualifying publications separate. Stop with a packet or blocker.
+- **C** — Open PortalHunter/Ethnicy-Based-Optimal-Weight at `architecture/atlas-harness-v1`, read `docs/atlas/harness/README.md` and `state.json`. Check Team C follow-up authorization and preserve its completed discovery gate. Stop with a packet or blocker.
+- **D** — Open PortalHunter/Ethnicy-Based-Optimal-Weight at `architecture/atlas-harness-v1`, read `docs/atlas/harness/README.md` and `state.json`. Plan one eligible Team D case. Keep dated network, office and legal claims separate. Stop with a packet or blocker.
+- **E** — Open PortalHunter/Ethnicy-Based-Optimal-Weight at `architecture/atlas-harness-v1`, read `docs/atlas/harness/README.md` and `state.json`. Check Team E provisioning and A–D input pins. Return a read-only QA plan or blockers and stop.
+- **Global** — Open PortalHunter/Ethnicy-Based-Optimal-Weight at `architecture/atlas-harness-v1`, read `docs/atlas/harness/README.md` and `state.json`. Reconcile live A–E refs, PRs and receipts read-only. Report original and extended metrics separately, recommend one dispatch or escalation, and stop.

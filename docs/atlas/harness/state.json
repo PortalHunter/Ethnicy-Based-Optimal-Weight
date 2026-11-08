@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "architecture/atlas-harness-v1",
+  "main_base": "a3e89b3a182ff0eca2105a62b5aa29b38670ce74",
+  "assignment_sha": "29d3b1f38cfee796520ed866c795302926040159",
+  "teams": {
+    "A": {
+      "scope": "Government authority census and dated legal competence",
+      "branch": "research/atlas-team-a-20261104",
+      "sha": "db7de0e29070473cb2e5fc4ae5cfecf51b0ae670",
+      "pr": 68,
+      "pr_state": "open/draft/unmerged",
+      "writer": "PortalHunter designated canonical writer",
+      "root": "docs/atlas/handoffs/team-a/",
+      "current": "docs/atlas/handoffs/team-a/CURRENT.md",
+      "read": [
+        "docs/atlas/handoffs/team-a/RUNBOOK.md",
+        "docs/atlas/handoffs/team-a/ORIGINAL_ACCEPTANCE_TRACKING_A73_20261107.md"
+      ],
+      "queues": [
+        "docs/atlas/handoffs/team-a/data/research_queue.csv",
+        "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv"
+      ],
+      "original_assignment": "docs/atlas/research-team-prompts/TEAM_A_GOVERNMENT_CENSUS.md",
+      "original": {
+        "dated_geography": [
+          248,
+          248
+        ],
+        "authority_or_explicit_unknown": [
+          248,
+          248
+        ],
+        "provisional_identity": [
+          231,
+          248
+        ],
+        "narrow_issuer_sample": [
+          1,
+          10
+        ],
+        "global_issuer_gate": "open"
+      },
+      "extended": {
+        "partial": [
+          29,
+          248
+        ],
+        "unscored": [
+          219,
+          248
+        ],
+        "narrow_supported": [
+          59,
+          1984
+        ],
+        "all_tier_complete": [
+          0,
+          248
+        ]
+      },
+      "native": "cd docs/atlas/handoffs/team-a && python3 validate.py && python3 -m unittest -q",
+      "queue": [
+        {
+          "id": "A-01",
+          "priority": 1,
+          "status": "ready",
+          "depends_on": [],
+          "scope": "audit existing exact source IDs before discovery",
+          "blocker": null,
+          "reopen": "New qualifying original instrument, custodian response or resolved dependency",
+          "queues": [
+            "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv"
+          ]
+        },
+        {
+          "id": "A-02",
+          "priority": 2,
+          "status": "ready",
+          "depends_on": [],
+          "scope": "original issuer, enacted text, amendments, commencement and jurisdiction",
+          "blocker": null,
+          "reopen": "New qualifying original instrument, custodian response or resolved dependency",
+          "queues": [
+            "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv"
+          ]
+        },
+        {
+          "id": "A-03",
+          "priority": 3,
+          "status": "ready",
+          "depends_on": [],
+          "scope": "rotate eligible unknowns and regions",
+          "blocker": null,
+          "reopen": "New qualifying original instrument, custodian response or resolved dependency",
+          "queues": [
+            "docs/atlas/handoffs/team-a/data/research_queue.csv"
+          ]
+        }
+      ]
+    },
+    "B": {
+      "scope": "Local professional societies and condition-specific publications",
+      "branch": "research/atlas-team-b-20261104",
+      "sha": "0ac7b2e8a6df90f1a71fc43522482055e377734d",
+      "pr": 71,
+      "pr_state": "open/draft/unmerged",
+      "writer": "PortalHunter designated canonical writer",
+      "root": "docs/atlas/handoffs/team-b/",
+      "current": "docs/atlas/handoffs/team-b/CURRENT.md",
+      "read": [
+        "docs/atlas/handoffs/team-b/BATCH_98_CHECKPOINT.md",
+        "docs/atlas/handoffs/team-b/QUALITY_AND_COMPLETION.md",
+        "docs/atlas/handoffs/team-b/RUNBOOK.md"
+      ],
+      "queues": [
+        "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+        "docs/atlas/handoffs/team-b/data/identity_review_worklist.csv",
+        "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv"
+      ],
+      "original_assignment": "docs/atlas/research-team-prompts/TEAM_B_CLINICAL_ORGANIZATIONS.md",
+      "original": {
+        "status": "incomplete",
+        "local_domiciles": [
+          227,
+          248
+        ],
+        "raw_linked": [
+          388,
+          1736
+        ],
+        "searched_unlinked": [
+          194,
+          1736
+        ],
+        "untouched": [
+          1154,
+          1736
+        ]
+      },
+      "extended": {
+        "quality_audited": [
+          90,
+          432
+        ],
+        "eligible_audited_cells": [
+          57,
+          1736
+        ],
+        "unlinked_missing_D2": 182
+      },
+      "native": "node docs/atlas/handoffs/team-b/validate.mjs",
+      "queue": [
+        {
+          "id": "B-01",
+          "priority": 1,
+          "status": "ready",
+          "depends_on": [],
+          "scope": "exact URL S1/S2/H/M/U audit and original imprint",
+          "blocker": null,
+          "reopen": "New qualifying original instrument, custodian response or resolved dependency",
+          "queues": [
+            "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv"
+          ]
+        },
+        {
+          "id": "B-02",
+          "priority": 2,
+          "status": "ready",
+          "depends_on": [],
+          "scope": "identity, domicile and governance gaps",
+          "blocker": null,
+          "reopen": "New qualifying original instrument, custodian response or resolved dependency",
+          "queues": [
+            "docs/atlas/handoffs/team-b/data/identity_review_worklist.csv"
+          ]
+        },
+        {
+          "id": "B-03",
+          "priority": 3,
+          "status": "ready",
+          "depends_on": [],
+          "scope": "D2/D3 bounded disposition or untouched matrix cell",
+          "blocker": null,
+          "reopen": "New qualifying original instrument, custodian response or resolved dependency",
+          "queues": [
+            "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv"
+          ]
+        }
+      ]
+    },
+    "C": {
+      "scope": "Local journals, platforms and bounded discovery",
+      "branch": "research/atlas-team-c-20261104-local-journals-1851",
+      "sha": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+      "pr": 69,
+      "pr_state": "open/draft/unmerged",
+      "writer": "PortalHunter designated canonical writer",
+      "root": "docs/atlas/handoffs/team-c/",
+      "current": "docs/atlas/handoffs/team-c/STATUS.md",
+      "read": [
+        "docs/atlas/handoffs/team-c/ACCEPTANCE_AUDIT.md",
+        "docs/atlas/handoffs/team-c/GAPS.md",
+        "docs/atlas/handoffs/team-c/CONTINUE.md"
+      ],
+      "queues": [
+        "docs/atlas/handoffs/team-c/data/discovery_leads.csv",
+        "docs/atlas/handoffs/team-c/data/coverage_by_area_condition.csv"
+      ],
+      "original_assignment": "docs/atlas/research-team-prompts/TEAM_C_LOCAL_JOURNALS.md",
+      "original": {
+        "status": "qualified_discovery_complete",
+        "initial_discovery": [
+          248,
+          248
+        ],
+        "reconciled_areas": [
+          248,
+          248
+        ],
+        "journal_records": 27,
+        "unappraised_articles": 15
+      },
+      "extended": {
+        "systematic_queue_rows": 1736,
+        "candidate_only_leads": 744
+      },
+      "native": "node docs/atlas/handoffs/team-c/validate.mjs && python3 docs/atlas/handoffs/team-c/validate_negative_cases.py",
+      "queue": [
+        {
+          "id": "C-01",
+          "priority": 1,
+          "status": "held",
+          "depends_on": [],
+          "scope": "maintainer-authorized candidate provenance and journal policy follow-up",
+          "blocker": "Maintainer must authorize follow-up scope",
+          "reopen": "Record explicit authorization and fresh immutable inputs",
+          "queues": [
+            "docs/atlas/handoffs/team-c/data/discovery_leads.csv"
+          ]
+        },
+        {
+          "id": "C-02",
+          "priority": 2,
+          "status": "held",
+          "depends_on": [],
+          "scope": "separately scoped condition-specific systematic work",
+          "blocker": "Maintainer must authorize follow-up scope",
+          "reopen": "Record explicit authorization and fresh immutable inputs",
+          "queues": [
+            "docs/atlas/handoffs/team-c/data/coverage_by_area_condition.csv"
+          ]
+        }
+      ]
+    },
+    "D": {
+      "scope": "Dated network, institutional and regulator relationships",
+      "branch": "research/atlas-team-d-20261104",
+      "sha": "08eb3385546b386ba8ff9b57e13b3458b9d4b64e",
+      "pr": 70,
+      "pr_state": "open/draft/unmerged",
+      "writer": "PortalHunter designated canonical writer",
+      "root": "docs/atlas/handoffs/team-d/",
+      "current": "docs/atlas/handoffs/team-d/CONTINUATION_PROMPT.md",
+      "read": [
+        "docs/atlas/handoffs/team-d/CHECKPOINT_IDENTITY_PAHO_AUDIT_2026-11-07.md",
+        "docs/atlas/handoffs/team-d/CONSOLIDATED_CHECKPOINT_2026-11-07.md"
+      ],
+      "queues": [
+        "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "docs/atlas/handoffs/team-d/data/provisional_team_b_identity_crosswalk_2026-11-07.csv"
+      ],
+      "original_assignment": "docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md",
+      "original": {
+        "demonstrated": [
+          3,
+          5
+        ],
+        "held": [
+          2,
+          5
+        ],
+        "who_current": [
+          205,
+          249
+        ],
+        "strict_april_hosts": [
+          95,
+          249
+        ],
+        "combined_positive_offices": [
+          105,
+          249
+        ]
+      },
+      "extended": {
+        "ema_directory": [
+          34,
+          34
+        ],
+        "full_legal_packets": [
+          0,
+          34
+        ],
+        "team_b_narrow_identity_matches": [
+          3,
+          12
+        ],
+        "paho_original_upgrades": [
+          0,
+          21
+        ]
+      },
+      "native": "node docs/atlas/handoffs/team-d/validate.mjs",
+      "queue": [
+        {
+          "id": "D-01",
+          "priority": 1,
+          "status": "ready",
+          "depends_on": [],
+          "scope": "audit scoped original acceptance cases and exact identity joins",
+          "blocker": null,
+          "reopen": "New qualifying original instrument, custodian response or resolved dependency",
+          "queues": [
+            "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+            "docs/atlas/handoffs/team-d/data/provisional_team_b_identity_crosswalk_2026-11-07.csv"
+          ]
+        },
+        {
+          "id": "D-02",
+          "priority": 2,
+          "status": "ready",
+          "depends_on": [],
+          "scope": "reopen issuer-blocked instruments only with new signed original or custodian response",
+          "blocker": null,
+          "reopen": "New qualifying original instrument, custodian response or resolved dependency",
+          "queues": [
+            "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv"
+          ]
+        }
+      ]
+    },
+    "E": {
+      "scope": "Independent reconciliation, adversarial QA and future map readiness",
+      "branch": null,
+      "sha": null,
+      "pr": null,
+      "pr_state": null,
+      "writer": null,
+      "root": "docs/atlas/handoffs/team-e/",
+      "current": null,
+      "read": [],
+      "queues": [],
+      "original_assignment": "docs/atlas/research-team-prompts/TEAM_E_INTEGRATION_QA.md",
+      "original": {
+        "status": "unassessed_no_canonical_deliverable"
+      },
+      "extended": {},
+      "native": null,
+      "queue": [
+        {
+          "id": "E-01",
+          "priority": 1,
+          "status": "held",
+          "depends_on": [],
+          "scope": "obtain maintainer-designated E branch and writer",
+          "blocker": "No E canonical branch/writer or independently pinned A\u2013D inputs",
+          "reopen": "Record explicit authorization and fresh immutable inputs",
+          "queues": []
+        },
+        {
+          "id": "E-02",
+          "priority": 2,
+          "status": "held",
+          "depends_on": [
+            "E-01"
+          ],
+          "scope": "pin A\u2013D inputs and produce QA findings for their owners",
+          "blocker": "No E canonical branch/writer or independently pinned A\u2013D inputs",
+          "reopen": "Record explicit authorization and fresh immutable inputs",
+          "queues": []
+        }
+      ]
+    }
+  }
+}
