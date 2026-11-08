@@ -1428,7 +1428,8 @@
           "docs/atlas/handoffs/team-a/source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md"
         ]
       },
-      "status": "reserved"
+      "status": "running",
+      "launch_id": "launch-codex-A012-6ebafef686f299be40f953f5"
     }
   }
 }
