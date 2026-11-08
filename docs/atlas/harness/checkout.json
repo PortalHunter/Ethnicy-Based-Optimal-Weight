@@ -917,8 +917,103 @@
           "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-B-BM-BDA-3c52b50da7abe90ececc3439"
+      "status": "checked_in",
+      "launch_id": "launch-B-BM-BDA-3c52b50da7abe90ececc3439",
+      "receipt": {
+        "version": 1,
+        "key": "B-01:B-BM-BDA.diabetes.08061c27f622",
+        "commit": "d1f7393fd9dd17a913edf52656f97d3b4694a4f7",
+        "parent": "9237e5e3f360e596839529adf1d1b254e6fc368b",
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-BM-BDA.diabetes.08061c27f622.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-b/runs/B-01--B-BM-BDA.diabetes.08061c27f622.json": "971cbbd0d30d9c593ce4ecb9584480f02c2296a8"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "B-01:B-BM-BDA.diabetes.08061c27f622",
+        "input_sha": "9237e5e3f360e596839529adf1d1b254e6fc368b",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "bda-exact-original-html-2026-02-20",
+            "url": "https://www.diabetes.bm/blog/2025-screening-report",
+            "locator": "BDA page dated 2/20/2026; title '2025 eye health & blood sugar community screening report'; byline 'The Bermuda Diabetes Association Team'; body and 2025 summary-report link",
+            "issuer": "Bermuda Diabetes Association (first-party webpage author and host)",
+            "checked": "2026-11-08; direct HTML read",
+            "original": true,
+            "access": "direct",
+            "qualification": "First-party webpage is accessible and confirms the November 12\u201313, 2025 two-day voluntary eye-health/blood-sugar screening with Lahey Hospital & Medical Center as collaborator. The HTML mentions 'nearly half' of attendees showing signs of at least one screened eye condition and 21% needing ophthalmology follow-up within one to three months. It is a brief event/results summary, not an inspected original PDF report or fully appraisable study/methods section. Lahey collaboration does not prove Lahey authored or issued the linked PDF. No S1/S2/H status, disease prevalence, diagnostic estimate or clinical suitability is established by the HTML alone."
+          },
+          {
+            "id": "bda-linked-pdf-unretrieved",
+            "url": "https://cdn.prod.website-files.com/6058a24259403af6c70fee3a/6998bbcb3c83a74710980bfb_Eye%20Health%20Screening%20Report%202025-compressed.pdf",
+            "locator": "PDF named 'Eye Health Screening Report 2025-compressed.pdf'; direct link 2 from first-party BDA page; CDN object 6998bbcb3c83a74710980bfb",
+            "issuer": "Bermuda Diabetes Association linked host; PDF internal author/imprint not inspected",
+            "checked": "2026-11-08; web click, direct web open, screenshot attempt, download attempt and local HTTPS attempt",
+            "original": false,
+            "access": "blocked",
+            "qualification": "The BDA page links an apparent underlying PDF. Its content could not be accessed by available routes: web click/open returned non-retryable errors; web PDF screenshot could not run because the resource was not opened as application/pdf; container download failed; the local requests HTTPS attempt failed DNS resolution. No original PDF pages, imprint, eligibility criteria, blood-sugar testing denominator, screening protocol, methods, tables, rights notice or population sampling could be verified. Preserve existing U quality classification until the original is independently retrieved and appraised."
+          },
+          {
+            "id": "bda-identity-mission",
+            "url": "https://www.diabetes.bm/about-us/our-mission",
+            "locator": "BDA own mission page: lead the Bermuda community in diabetes prevention/care; operates education, medicine access and support programmes",
+            "issuer": "Bermuda Diabetes Association",
+            "checked": "2026-11-08; direct first-party HTML",
+            "original": true,
+            "access": "direct",
+            "qualification": "Corroborates first-party association identity and Bermuda-oriented activity. Does not independently authenticate legal registration, governance, scientific peer review, PDF authorship or license terms."
+          },
+          {
+            "id": "idf-bermuda-bda-directory",
+            "url": "https://idf.org/our-network/regions-and-members/north-america-and-caribbean/members/bermuda/bermuda-diabetes-association/",
+            "locator": "International Diabetes Federation Bermuda member profile of Bermuda Diabetes Association",
+            "issuer": "International Diabetes Federation (directory publisher, not screening-report author)",
+            "checked": "2026-11-08; indexed first-party directory text",
+            "original": false,
+            "access": "indexed",
+            "qualification": "Independent affiliation/organization identity context only. IDF membership is not evidence of the content or study design of this November 2025 screening report, clinical endorsement, governance approval or scientific validity."
+          },
+          {
+            "id": "bernews-2026-02-27-reporting",
+            "url": "https://bernews.com/2026/02/diabetes-association-hosts-free-screenings/",
+            "locator": "February 27, 2026 article reproducing BDA spokesperson statements about the November 12\u201313, 2025 screenings",
+            "issuer": "Bernews (secondary news outlet quoting BDA statements)",
+            "checked": "2026-11-08; accessible HTML",
+            "original": false,
+            "access": "direct",
+            "qualification": "Secondary coverage reports 72 eye-screening attendees aged 29\u201396 and 74% women, with roughly half having signs of one of several eye conditions and 21% referred for ophthalmology follow-up. It also reports that half of the separate HbA1c-tested group measured at least 7% but does not provide that test group's denominator. The 72 refers to eye-screening participants, not a verified HbA1c denominator, a probability sample, Bermuda-wide prevalence, clinical diagnostic accuracy or a PDF methodology check. Article is not an independently reviewed primary study."
+          },
+          {
+            "id": "royal-gazette-2026-03-05-reporting",
+            "url": "https://www.royalgazette.com/lifestyle/wellness/article/20260305/charitys-diabetes-screens-catch-hidden-health-complications/",
+            "locator": "March 5, 2026 local report of BDA's November screening event and aggregated observations",
+            "issuer": "The Royal Gazette (secondary reporting of BDA statements)",
+            "checked": "2026-11-08; accessible HTML",
+            "original": false,
+            "access": "direct",
+            "qualification": "Separately published local reporting is consistent with 72 event eye-screening attendees and approximate eye screening findings but appears to rely on BDA-supplied figures. This does not independently reproduce the PDF, validate sample selection, establish the HbA1c denominator or independently verify clinical effect size."
+          }
+        ],
+        "blocker": "The exact BDA webpage is a first-party accessible summary, but its linked original 'Eye Health Screening Report 2025' PDF could not be retrieved or examined. Original issuer/imprint, sampling/eligibility, screening methods, separate eye-versus-HbA1c denominators, quantitative tables, date/edition, and reuse rights remain unverified. Historical tier U and source-positive raw-link records must not be promoted to an S1/S2/H qualifying publication on press/summary evidence. No substantive canonical Team B data changes proposed.",
+        "reopen": "Only with Atlas maintainer authorization and a new independently retrievable first-party PDF (or authenticated issuer-supplied copy with full publication metadata) permitting exact-page review of imprint, methods, denominators, assessed conditions, temporal scope and rights, or independently verified new evidence materially resolving these blockers. Preserve stable logical key, prior manifest and architecture reconciliation when reopening.",
+        "validation": [
+          "Run run-B-B01-BM-BDA-DIABETES-20261108; launch launch-B-BM-BDA-3c52b50da7abe90ececc3439; checkout start commit 9a9c9e9ae5034db6990a25b3e1fa1b778a8f2296 directly parented to 99b0cd222ba95905f8f712810d40d7ea813f002e; only docs/atlas/harness/checkout.json modified; start ledger blob 64a11012b4685e7447a1b18cf8d66df39bfd50fd. Running status/launch independently read back before research.",
+          "Reserved native row at Team B input SHA 9237e5e3f360e596839529adf1d1b254e6fc368b: area_m49=060, area_name=Bermuda, condition_key=diabetes, org_id=B-BM-BDA, exact URL=https://www.diabetes.bm/blog/2025-screening-report, historical U tier; original PDF underlying report not appraised. Queue path docs/atlas/handoffs/team-b/data/source_quality_worklist.csv; blob 4fdb7e449c90370d75d24ccf0ed995dd4bdba688.",
+          "Existing Team B quality audit documents first-party summary and unresolved underlying PDF; original HTML source title and BDA identity verified; secondary reports of n=72 apply to eye screening only and are not independent original report appraisal.",
+          "Team B branch expected and independently observed SHA 9237e5e3f360e596839529adf1d1b254e6fc368b; PR #71 open/draft/unmerged at preflight. No Team B branch writes, approvals, merges or PR modifications by researcher.",
+          "Historical baseline retained, no inferred change: 501 organizations, 227/248 area identity reach, 388 raw linked + 194 searched-unlinked + 1154 untouched = 1736 condition-area cells; 432 source rows; 90 audited (S1=10 S2=41 H=7 M=30 U=2), 342 unaudited; 57 distinct qualified audited cells; clinical approvals 0.",
+          "Blocked/checkpoint-only proposal: exactly docs/atlas/handoffs/team-b/runs/B-01--B-BM-BDA.diabetes.08061c27f622.json; no data CSV or metrics edits, no coverage deltas. Team B native Node validator not executed: no repository checkout with complete canonical data established. Local exact-field and reserved-path structural checks performed on portable JSON; independent Verifier must reproduce checks.",
+          "Researcher did not self-verify, publish or approve proposed result. Separate read-only Verifier required; separately maintainer-designated Writer may publish only after independent PASS, with Team B expected-SHA direct-child single commit and atomic lease, followed by independent Librarian check-in."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-BM-BDA.diabetes.08061c27f622.json"
+        ]
+      }
     },
     "run-D-D01-NET-008-20261108": {
       "team": "D",
