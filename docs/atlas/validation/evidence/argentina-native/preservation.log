@@ -1,0 +1,155 @@
+PASS exact sole publication parent 320e39ae5d4cf4b014dfafecdfb2ccc066e7c737
+PASS exact nine allowlisted add/modify paths; no foreign paths/deletes/renames
+PASS frozen/approved bytes, length, SHA256, blob, regular mode docs/atlas/handoffs/team-a/CURRENT.md
+PASS frozen/approved bytes, length, SHA256, blob, regular mode docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv
+PASS frozen/approved bytes, length, SHA256, blob, regular mode docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv
+PASS frozen/approved bytes, length, SHA256, blob, regular mode docs/atlas/handoffs/team-a/PROVENANCE.csv
+PASS frozen/approved bytes, length, SHA256, blob, regular mode docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv
+PASS frozen/approved bytes, length, SHA256, blob, regular mode docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv
+PASS frozen/approved bytes, length, SHA256, blob, regular mode docs/atlas/handoffs/team-a/data/research_queue.csv
+PASS frozen/approved bytes, length, SHA256, blob, regular mode docs/atlas/handoffs/team-a/runs/A-01--032.json
+PASS frozen/approved bytes, length, SHA256, blob, regular mode docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md
+PASS 763 original provenance records retained in order; 766 total
+NEW PROVENANCE [
+  {
+    "source_id": "CODEX-A032-20261108-01",
+    "area_m49": "032",
+    "source_issuer": "Argentina National Official Register editorial consolidation; not independent legal issuer",
+    "source_title": "Decree1490/1992 updated text, article9 as replaced by Decree1886/2014; retrieved8November2026",
+    "source_url": "https://www.argentina.gob.ar/normativa/nacional/decreto-1490-1992-9909/actualizacion",
+    "source_language": "es",
+    "checked_utc": "2026-11-08",
+    "geographic_scope": "Argentina federal ANMAT founding/leadership compilation only",
+    "verification_state": "OFFICIAL_CURRENT_COMPILATION_DIRECT_LIMITED",
+    "limitations": "Article9 replacement cites1886/2014; antecedents cite1271/2013. Editorial consolidation still carries historical Secretary titles; not independent current2026 parent/all-amendment certification.229 modifying/complementary norms listed over5pages; only first/last index pages inspected, not full chain."
+  },
+  {
+    "source_id": "CODEX-A032-20261108-02",
+    "area_m49": "032",
+    "source_issuer": "Argentine President Cristina Fernandez de Kirchner; National Official Register reproduction host",
+    "source_title": "Original Decree1886/2014 signed20October2014, BO32994 22October2014p1; article1 replaces Decree1490 article9",
+    "source_url": "https://www.argentina.gob.ar/normativa/nacional/norma-236729/texto",
+    "source_language": "es",
+    "checked_utc": "2026-11-08",
+    "geographic_scope": "Argentina federal ANMAT leadership rule, historical2014 only",
+    "verification_state": "OFFICIAL_ORIGINAL_AMENDING_DECREE_DIRECT_READ",
+    "limitations": "Original Spanish art1 provides Administrator/Deputy ranks and presidential designation; art5 repeals1271/2013art2; art7 publication clause and named signers.2014 appointees/parent titles not current2026 evidence. Same Executive branch as prior founding decree, not independent legislative issuer or DNU acceptance."
+  },
+  {
+    "source_id": "CODEX-A032-20261108-03",
+    "area_m49": "032",
+    "source_issuer": "ANMAT National Administrator Luis Eduardo Fontana; National Official Register reproduction host",
+    "source_title": "Original Disposition6552/2026 signed9October2026, BO36014 16October2026p38; narrow product measure under Decree1490 art8(ñ)",
+    "source_url": "https://www.argentina.gob.ar/normativa/nacional/norma-431292/texto",
+    "source_language": "es",
+    "checked_utc": "2026-11-08",
+    "geographic_scope": "Argentina nationwide action concerning one identified medical-product unit, not general practitioner/province competence",
+    "verification_state": "OFFICIAL_ORIGINAL_2026_AGENCY_DISPOSITION_DIRECT_READ",
+    "limitations": "Original recital expressly cites art8 inciso ñ; art1 narrow product prohibition, art2 administrative-review avenues, art4 publication/jurisdictional notification, named signer. Not judicial validity/appeal-outcome verification, not whole delegation/amendment chain, professional licence or provincial/Indigenous statute. Same executive-administrative family, not independent legislative acceptance."
+  }
+]
+PASS three additions only M49 032
+PASS all non032 rows and order preserved data/legal_verification_ledger.csv
+032 changed fields data/legal_verification_ledger.csv {"verified_legal_source_ids": {"before": "A58-032-01;A58-032-02;A58-032-03;A60-032-01;A60-032-02", "after": "A58-032-01;A58-032-02;A58-032-03;A60-032-01;A60-032-02;CODEX-A032-20261108-01;CODEX-A032-20261108-02;CODEX-A032-20261108-03"}, "last_legal_review_utc": {"before": "2026-11-06", "after": "2026-11-08"}, "review_note": {"before": "1992 Spanish Executive Decree1490/92 Arts2-3 directly inspected in Argentine National Normativa: creates ANMAT as decentralised federal medicines food and medical-technology product regulator, originally under then Secretary of Health. Official current ANMAT information page repeats federal agency remit, but is not an enacted text or independent legislature. Medicines/professional dimension SOURCE_SUPPORTED narrowly for product regulation only; 2026 legal parent, complete amendments, provincial/CABA/Indigenous and professional licensing NOT verified. Preserve A58 DNU571/771 and pending Law26122 congressional review; no current all-tier legal acceptance.", "after": "1992 Spanish Executive Decree1490/92 Arts2-3 directly inspected in Argentine National Normativa: creates ANMAT as decentralised federal medicines food and medical-technology product regulator, originally under then Secretary of Health. Official current ANMAT information page repeats federal agency remit, but is not an enacted text or independent legislature. Medicines/professional dimension SOURCE_SUPPORTED narrowly for product regulation only; 2026 legal parent, complete amendments, provincial/CABA/Indigenous and professional licensing NOT verified. Preserve A58 DNU571/771 and pending Law26122 congressional review; no current all-tier legal acceptance. CODEX A032: official updated1490 article9 traced to original1886/2014art1 (2014 leadership amendment; named President, art5 repeal and art7 publication); original ANMAT6552/2026 recitals cite1490art8(ñ), art1 one-product action and art4 publication/jurisdiction notice. Compilation and original instruments kept separate. No2026 full parent/delegation/amendment chain, province/CABA/Indigenous or Law26122 congressional DNU review closure; all dimension statuses and issuer PARTIAL/NO preserved."}}
+PASS every legal identity, dimension, review stage and acceptance unchanged for032
+LEGAL METRICS {
+  "identity_baseline": {
+    "PROVISIONAL_IDENTITY": 231,
+    "UNKNOWN_REVIEW_NEEDED": 17
+  },
+  "legal_review_stage": {
+    "UNSCORED_EXISTING_RESEARCH": 219,
+    "PARTIAL_SOURCE_CHECKED": 29
+  },
+  "establishing_law": {
+    "NOT_TRIAGED": 219,
+    "RESEARCHED_INCOMPLETE": 16,
+    "SOURCE_SUPPORTED": 13
+  },
+  "current_amendments": {
+    "NOT_TRIAGED": 220,
+    "RESEARCHED_INCOMPLETE": 24,
+    "SOURCE_SUPPORTED": 3,
+    "CONFLICT_UNRESOLVED": 1
+  },
+  "policy_public_health": {
+    "NOT_TRIAGED": 222,
+    "SOURCE_SUPPORTED": 18,
+    "RESEARCHED_INCOMPLETE": 8
+  },
+  "medicines_professional_regulation": {
+    "NOT_TRIAGED": 226,
+    "SOURCE_SUPPORTED": 9,
+    "RESEARCHED_INCOMPLETE": 13
+  },
+  "surveillance_institutes": {
+    "NOT_TRIAGED": 236,
+    "RESEARCHED_INCOMPLETE": 10,
+    "SOURCE_SUPPORTED": 2
+  },
+  "devolution_territorial_scope": {
+    "NOT_TRIAGED": 226,
+    "RESEARCHED_INCOMPLETE": 13,
+    "SOURCE_SUPPORTED": 9
+  },
+  "independent_issuer_checks": {
+    "NOT_TRIAGED": 221,
+    "RESEARCHED_INCOMPLETE": 27
+  },
+  "effective_dates_conflicts": {
+    "NOT_TRIAGED": 219,
+    "RESEARCHED_INCOMPLETE": 23,
+    "SOURCE_SUPPORTED": 5,
+    "CONFLICT_UNRESOLVED": 1
+  },
+  "legal_research_acceptance": {
+    "NOT_MEASURED": 225,
+    "PARTIAL": 23
+  }
+}
+PASS all non032 rows and order preserved data/research_queue.csv
+032 changed fields data/research_queue.csv {"next_action": {"before": "Recover post-1992 amended Decree1490 consolidation, ANMAT 2026 operative regulation and delegated instrument chain; provincial/CABA professional laws and DNU571/771 bicameral review.", "after": "Do not repeat recovered1886/2014art1 or6552/2026single-product example. Authenticate remaining1490 amendment/delegation and current2026 parent chain; exact provincial/CABA professional instruments, surveillance authority and DNU571/771 bicameral treatment remain open. Index229relations is not full-chain audit."}, "last_attempt_utc": {"before": "2026-11-06", "after": "2026-11-08"}, "last_outcome": {"before": "A60 original ANMAT 1992 founding and nonlegal current agency summary; 2026 regulator amendments and devolved/professional mandates remain unresolved.", "after": "Scoped originals recovered:2014leadership amendment and2026single-product delegated action; qualified1490compilation. Remaining federal/devolved/independent-issuer/current-chain gaps unresolved."}}
+PASS all non032 rows and order preserved RECONCILED_INVENTORY_20261107.csv
+032 changed fields RECONCILED_INVENTORY_20261107.csv {"prior_area_observation_count": {"before": "8", "after": "11"}, "prior_unique_area_urls": {"before": "8", "after": "11"}, "prior_source_ids": {"before": "AR-MISSION;AR-DEIS;AR-ANMAT;A58-032-01;A58-032-02;A58-032-03;A60-032-01;A60-032-02", "after": "AR-MISSION;AR-DEIS;AR-ANMAT;A58-032-01;A58-032-02;A58-032-03;A60-032-01;A60-032-02;CODEX-A032-20261108-01;CODEX-A032-20261108-02;CODEX-A032-20261108-03"}, "ledger_precise_source_ids": {"before": "A58-032-01;A58-032-02;A58-032-03;A60-032-01;A60-032-02", "after": "A58-032-01;A58-032-02;A58-032-03;A60-032-01;A60-032-02;CODEX-A032-20261108-01;CODEX-A032-20261108-02;CODEX-A032-20261108-03"}}
+PASS all non032 rows and order preserved PRIORITIZED_BACKLOG_20261107.csv
+032 changed fields PRIORITIZED_BACKLOG_20261107.csv {"prior_source_ids": {"before": "AR-MISSION;AR-DEIS;AR-ANMAT;A58-032-01;A58-032-02;A58-032-03;A60-032-01;A60-032-02", "after": "AR-MISSION;AR-DEIS;AR-ANMAT;A58-032-01;A58-032-02;A58-032-03;A60-032-01;A60-032-02;CODEX-A032-20261108-01;CODEX-A032-20261108-02;CODEX-A032-20261108-03"}, "first_action_from_original_audit_or_queue": {"before": "Recover post-1992 amended Decree1490 consolidation, ANMAT 2026 operative regulation and delegated instrument chain; provincial/CABA professional laws and DNU571/771 bicameral review.", "after": "Do not repeat recovered1886/2014art1 or6552/2026single-product example. Authenticate remaining1490 amendment/delegation and current2026 parent chain; exact provincial/CABA professional instruments, surveillance authority and DNU571/771 bicameral treatment remain open. Index229relations is not full-chain audit."}}
+PASS all non032 rows and order preserved INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv
+032 changed fields INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv {"original_provenance_ids": {"before": "A58-032-01;A58-032-02;A58-032-03;A60-032-01", "after": "A58-032-01;A58-032-02;A58-032-03;A60-032-01;CODEX-A032-20261108-02;CODEX-A032-20261108-03"}, "issuer_findings": {"before": "Original presidential DNU 2026 and executive 1992 ANMAT decree, register consolidation not independent issuer", "after": "Original presidential DNU 2026 and executive 1992 ANMAT decree, register consolidation not independent issuer;2014presidential amendment and2026ANMAT administrative act recovered from register originals; same Executive family, no independent legislature"}, "reason": {"before": "Legislative DNU review and province originals missing", "after": "Legislative DNU review and province originals missing; complete current delegation/commencement/provincial chain still missing"}}
+PASS 032 issuer PARTIAL/NO retained
+ISSUER SAMPLE [{"audit_claim_id": "A70-IA-01", "m49_code": "072", "un_name": "Botswana", "un_region": "Africa", "exact_audited_claim": "Minister-issued operative 2013 Public Health and 2025 Medicines commencement", "original_provenance_ids": "A67-072-01;A67-072-03", "issuer_findings": "Original Acts both ON NOTICE; original Gazette appointed days missing; S.I.4/2014 only secondary pointer", "qualification": "HOLD", "qualifying_pass": "NO", "reason": "Neither Ministry notice independently inspected"}, {"audit_claim_id": "A70-IA-02", "m49_code": "710", "un_name": "South Africa", "un_region": "Africa", "exact_audited_claim": "Current all-tier national/provincial health-issuer mandates", "original_provenance_ids": "A63-710-01", "issuer_findings": "2004 original National Health Act Parliament/President single promulgation, no current provincial originals", "qualification": "PARTIAL", "qualifying_pass": "NO", "reason": "Historic national allocation not current independent provincial issuing"}, {"audit_claim_id": "A70-IA-03", "m49_code": "064", "un_name": "Bhutan", "un_region": "Asia", "exact_audited_claim": "2022-26 BFDA merger plus lawful successor Governing Board", "original_provenance_ids": "A69-064-01;A70-064-01;A70-064-02", "issuer_findings": "Original Parliament 2022 law and BFDA Board 2024 rules distinct instruments, but cited 2024 Cabinet/RCSC appointing letters unseen", "qualification": "PARTIAL", "qualifying_pass": "NO", "reason": "Narrow statutory merger supported; board succession not independently proved"}, {"audit_claim_id": "A70-IA-04", "m49_code": "050", "un_name": "Bangladesh", "un_region": "Asia", "exact_audited_claim": "Current BMDC original statutory and 2025/26 replacement chain", "original_provenance_ids": "A65-050-01;A65-050-02", "issuer_findings": "2010 Parliamentary original versus Ministry proposed 2025 ordinance index only", "qualification": "HOLD", "qualifying_pass": "NO", "reason": "Draft is not a second enacted source"}, {"audit_claim_id": "A70-IA-05", "m49_code": "020", "un_name": "Andorra", "un_region": "Europe", "exact_audited_claim": "Current ministry and communal/independent public-health authorizations", "original_provenance_ids": "A54-020-01;A54-020-02;A71-020-01;A72-020-01;A72-020-02;CODEX-A020-20261108-01", "issuer_findings": "Original national 2025 Parliament/Coprinces law separate from Govern decrees. A72 2009 Govt-authorized BOPA general health law arts4/55 historically allocates limited commune sanitary duties; ORIGINAL independent Comu Sant Julia 4 Jun2026 hygiene and waste penalties amendment BOPA no59, effective 10 Jun, different issuer from national executive and legislature. A73 automated private 2025 Sant Julià parent text indexed but NOT original BOPA or competent new issuer Codex20261108 original signed Dec2025 Sant Julià parent independently retrieved from BOPA150; issuing commune and Cònsol major confirmed on pp1,12, effective11Dec2025. BOPA remains publication host; no new second commune issuer.", "qualification": "PARTIAL", "qualifying_pass": "NO", "reason": "Original signed Dec2025 parent now recovered (CODEX-A020-20261108-01), resolving that source gap only. One independent parish hygiene issuer does not prove six other communes, medical authorisations, later amendments or full current national chain. PARTIAL/NO retained."}, {"audit_claim_id": "A70-IA-06", "m49_code": "056", "un_name": "Belgium", "un_region": "Europe", "exact_audited_claim": "Federal and autonomous community competence through 2026", "original_provenance_ids": "A62-056-01;A62-056-02", "issuer_findings": "2006 and 2026 Justel original federal laws same legislature; separate community instruments not read", "qualification": "PARTIAL", "qualifying_pass": "NO", "reason": "Host not independently issuing and community law absent"}, {"audit_claim_id": "A70-IA-07", "m49_code": "044", "un_name": "Bahamas", "un_region": "Americas", "exact_audited_claim": "Dental Professions Act71/2025 exact original appointed-day 1 April 2026", "original_provenance_ids": "A65-044-03;A69-044-01", "issuer_findings": "Original Parliament-issued Act plus distinct Minister-signed S.I.18/2026 Gazette notice", "qualification": "PASS_NARROW", "qualifying_pass": "YES", "reason": "Already narrow-closed in A69; no new A70 legal promotion"}, {"audit_claim_id": "A70-IA-08", "m49_code": "032", "un_name": "Argentina", "un_region": "Americas", "exact_audited_claim": "Current federal ministerial and ANMAT/province issuer allocation", "original_provenance_ids": "A58-032-01;A58-032-02;A58-032-03;A60-032-01;CODEX-A032-20261108-02;CODEX-A032-20261108-03", "issuer_findings": "Original presidential DNU 2026 and executive 1992 ANMAT decree, register consolidation not independent issuer;2014presidential amendment and2026ANMAT administrative act recovered from register originals; same Executive family, no independent legislature", "qualification": "PARTIAL", "qualifying_pass": "NO", "reason": "Legislative DNU review and province originals missing; complete current delegation/commencement/provincial chain still missing"}, {"audit_claim_id": "A70-IA-09", "m49_code": "090", "un_name": "Solomon Islands", "un_region": "Oceania", "exact_audited_claim": "Current post-2024 Ministry and actually delegated Honiara/provincial health powers", "original_provenance_ids": "A67-090-01", "issuer_findings": "Parliament original law in AG 2024 authorised reprint; AG is host, later amendment/local original not found", "qualification": "PARTIAL", "qualifying_pass": "NO", "reason": "As-at 5 Feb 2024 does not demonstrate Nov 2026"}, {"audit_claim_id": "A70-IA-10", "m49_code": "036", "un_name": "Australia", "un_region": "Oceania", "exact_audited_claim": "Current Commonwealth/state/territory/First Nations medicines and public-health allocation", "original_provenance_ids": "A54-036-01;A61-036-01;A61-036-02;CODEX-A036-20261108-01;CODEX-A036-20261108-02", "issuer_findings": "2025 Governor-General AAO and Parliamentary Therapeutic Goods Act separate federal issuers; 2026 all-tier and First Nations originals missing Codex20261108 Queensland Parliament originalAct45/2009 (assent3Nov2009, ss2/4, scheduleds23) and qualified10Apr2026 compilation recovered. Separate state legislature from Commonwealth Parliament/Governor-General; same Queensland compilation host not second issuer.", "qualification": "PARTIAL", "qualifying_pass": "NO", "reason": "Narrow Commonwealth instruments plus one Queensland original adoption/agency foundation and current text do not establish whole2026 Commonwealth/state/territory/First Nations medicines and public-health allocation. Original2025 Queensland amendments/commencement and other jurisdictions remain unverified. PARTIAL/NO retained."}]
+PASS reserved exact input rank10/M49032 native row
+RESERVED ROW {
+  "priority_rank": "10",
+  "m49_code": "032",
+  "un_name": "Argentina",
+  "un_region": "Americas",
+  "work_lane": "ATTAINABLE_EXISTING_LEGAL_LEAD",
+  "original_queue_priority": "P1_PROVISIONAL_ROTATION",
+  "identity_baseline": "OFFICIAL_AUTHORITY_IDENTIFIED",
+  "legal_review_stage": "PARTIAL_SOURCE_CHECKED",
+  "prior_evidence_class": "PARTIAL_LEGAL_LEDGER_SCORED_NOT_COMPLETE",
+  "prior_source_ids": "AR-MISSION;AR-DEIS;AR-ANMAT;A58-032-01;A58-032-02;A58-032-03;A60-032-01;A60-032-02",
+  "remaining_dimension_count": "5",
+  "remaining_dimensions": "current_amendments;surveillance_institutes;devolution_territorial_scope;independent_issuer_checks;effective_dates_conflicts",
+  "exact_dimension_statuses": "establishing_law=SOURCE_SUPPORTED;current_amendments=RESEARCHED_INCOMPLETE;policy_public_health=SOURCE_SUPPORTED;medicines_professional_regulation=SOURCE_SUPPORTED;surveillance_institutes=RESEARCHED_INCOMPLETE;devolution_territorial_scope=RESEARCHED_INCOMPLETE;independent_issuer_checks=RESEARCHED_INCOMPLETE;effective_dates_conflicts=RESEARCHED_INCOMPLETE",
+  "why_missing_matters": "Identity source does not prove all statutory policy, medicines, surveillance, devolution, current commencement and independent issuer powers",
+  "original_evidence_required": "operative amendment/repeal chain and original current consolidated enactment; statutory institute notification and surveillance instruments; original national/state/municipal/Indigenous/autonomous/territorial delegations and application orders; independently issued legislative/government legal evidence for disputed, delegated or renamed authority (not two websites hosting same text); Gazette commencement, effective/repeal dates, transition and conflicting legal instrument resolution",
+  "first_action_from_original_audit_or_queue": "Recover post-1992 amended Decree1490 consolidation, ANMAT 2026 operative regulation and delegated instrument chain; provincial/CABA professional laws and DNU571/771 bicameral review.",
+  "done_when": "Every applicable statutory dimension grounded in original current operative law/source IDs or legal-evidence-backed nonapplicability; original issuer checked; conflicts scoped; national/subnational/territorial and regulator obligations represented; independent expert approval separate",
+  "stop_or_escalate_when": "Two distinct official retrieval strategies fail: record exact issuer/URL/date/method and missing original instrument; classify blocker with trigger; move to next attainable task; do not invent resolution",
+  "current_research_closed": "NO",
+  "baseline_sha": "a9f2043460bb737c6910abcfd7aedb0633e8c583"
+}
+PASS original directory bytes unchanged data/countries.csv
+RECORD COUNT data/countries.csv 248
+PASS original directory bytes unchanged data/government_health_bodies.csv
+RECORD COUNT data/government_health_bodies.csv 318
+PASS original directory bytes unchanged data/authority_relationships.csv
+RECORD COUNT data/authority_relationships.csv 45
+PASS original directory bytes unchanged data/authority_area_scope.csv
+RECORD COUNT data/authority_area_scope.csv 4
+PASS original directory bytes unchanged data/country_coverage.csv
+RECORD COUNT data/country_coverage.csv 248
+PASS live pinned ticket running exact launch/key/input
+ARCHIVED ENCLOSED HASHES 859e9ad6ba09fd44d6617eb1b513291e653eceeb539b8f09ce2800398b07a18b 573c08660f97f8665acfaad31cc09ae27642e36798577375112a4f8dfb098158
+PASS preservation complete

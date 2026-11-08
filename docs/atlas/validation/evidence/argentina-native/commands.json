@@ -1,0 +1,78 @@
+[
+  {
+    "name": "preservation",
+    "command": [
+      "python3",
+      "/tmp/atlas-argentina-verifier-logs/check_preservation.py"
+    ],
+    "cwd": "/tmp/atlas-argentina-verifier",
+    "env": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "exit": 0
+  },
+  {
+    "name": "harness",
+    "command": [
+      "python3",
+      "harness.py",
+      "A",
+      "--live-sha",
+      "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+      "--packet",
+      "packet.json",
+      "--result",
+      "/tmp/atlas-argentina-verifier/docs/atlas/handoffs/team-a/runs/A-01--032.json",
+      "--receipt",
+      "receipt.json"
+    ],
+    "cwd": "/tmp/atlas-argentina-verifier-logs",
+    "env": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "exit": 0
+  },
+  {
+    "name": "harness-checkout-tests",
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "-v"
+    ],
+    "cwd": "/tmp/atlas-argentina-verifier-logs",
+    "env": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "exit": 0
+  },
+  {
+    "name": "native-validator",
+    "command": [
+      "python3",
+      "validate.py"
+    ],
+    "cwd": "/tmp/atlas-argentina-verifier/docs/atlas/handoffs/team-a",
+    "env": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "exit": 0
+  },
+  {
+    "name": "native-all-unittests",
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-v",
+      "-p",
+      "test_*.py"
+    ],
+    "cwd": "/tmp/atlas-argentina-verifier/docs/atlas/handoffs/team-a",
+    "env": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "exit": 0
+  }
+]

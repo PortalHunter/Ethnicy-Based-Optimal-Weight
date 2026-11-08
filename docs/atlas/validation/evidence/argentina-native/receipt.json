@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "key": "A-01:032",
+  "commit": "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+  "parent": "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+  "paths": [
+    "docs/atlas/handoffs/team-a/runs/A-01--032.json",
+    "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+    "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+    "docs/atlas/handoffs/team-a/data/research_queue.csv",
+    "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+    "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+    "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+    "docs/atlas/handoffs/team-a/CURRENT.md",
+    "docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md"
+  ],
+  "blob_shas": {
+    "docs/atlas/handoffs/team-a/CURRENT.md": "e1d70b6171934dfd1ffbb0481e635c51c71f1049",
+    "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv": "f31da656e4cce17af77b6ea7b8012b3df1f51ec3",
+    "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv": "eb8639154f431f3c9ac8a490e2ce09a4d9b0fe86",
+    "docs/atlas/handoffs/team-a/PROVENANCE.csv": "cabe7b926e67d6ed032a0ea2724e1884119e0216",
+    "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv": "5379f7e706a43429566a05f549236f703e635f80",
+    "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv": "71be3d90dec302a5a0efcdaa7296b34af7334ece",
+    "docs/atlas/handoffs/team-a/data/research_queue.csv": "29877a23b8d9c1f52edbe950d5f802c0c09a195f",
+    "docs/atlas/handoffs/team-a/runs/A-01--032.json": "b63d009dd74f3c01031c03ccfed085e8bc497803",
+    "docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md": "2a1c4e863fe0a4b4fbec9721c0e07b44fe82a978"
+  },
+  "pr_state": "open/draft/unmerged"
+}
