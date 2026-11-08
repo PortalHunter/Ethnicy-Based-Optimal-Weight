@@ -26,7 +26,40 @@
       "all audit source IDs resolvable"
     ]
   },
-  "immutable_readback": "PENDING independent verification of newly created commit; will be updated after readback",
+  "immutable_readback": {
+    "status": "PASS",
+    "reviewed_immutable_commit": "c53c9587e4f8f46ad9d7e45fd9b42ab470e0f413",
+    "verified_changed_paths": 12,
+    "original_source_and_data_csv_checks": {
+      "passed": 21,
+      "total": 21
+    },
+    "documentation_and_checkpoint_checks": {
+      "passed": 12,
+      "total": 12
+    },
+    "original_issuer_audit_claims": 10,
+    "independent_issuer_narrow_passes": 1,
+    "provenance_unique": 756,
+    "legal_dimensions": {
+      "SOURCE_SUPPORTED": 59,
+      "RESEARCHED_INCOMPLETE": 134,
+      "NOT_TRIAGED": 1789,
+      "CONFLICT_UNRESOLVED": 2
+    },
+    "legal_partial": 29,
+    "legal_unscored": 219,
+    "original_248_key_sets": "PASS",
+    "audit_source_refs_resolve": "PASS",
+    "legal_ledger_source_refs_resolve": "PASS",
+    "changed_path_allowlist": "12/12 docs/atlas/handoffs/team-a/*",
+    "pr": {
+      "open": true,
+      "draft": true,
+      "unmerged": true
+    },
+    "qualifications": "Immutable structural readback is not native Python or legal/clinical source-certified acceptance. A70-IA-05 remains PARTIAL/NO."
+  },
   "native_Python_validator": "NOT RUN: no complete authorized checkout; git ls-remote github.com DNS failure",
   "native_unittests": "NOT RUN: same reason",
   "counts": {
@@ -76,5 +109,6 @@
     "BOPA 2009 printed pp3245,3251",
     "BOPA no59 Jun2026 original single page"
   ],
-  "limitations": "Source issuer status and one-parish sanitation scope are narrow; structural checks not legal/clinical approval or globally proven issuer competence. Preserve only Team A mutations and draft PR."
+  "limitations": "Source issuer status and one-parish sanitation scope are narrow; structural checks not legal/clinical approval or globally proven issuer competence. Preserve only Team A mutations and draft PR.",
+  "final_qa_commit_note": "Immutable research changes verified at parent commit; final QA-only commit remains a separate followup and must be checked."
 }
