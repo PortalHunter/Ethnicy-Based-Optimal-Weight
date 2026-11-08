@@ -1530,7 +1530,8 @@
           "docs/atlas/handoffs/team-a/source_recovery/CODEX_A056_ORIGINAL_COMPETENCE_20261108.md"
         ]
       },
-      "status": "reserved"
+      "status": "running",
+      "launch_id": "launch-codex-A056-eeaae3fd138c01c6def69eae"
     }
   }
 }
