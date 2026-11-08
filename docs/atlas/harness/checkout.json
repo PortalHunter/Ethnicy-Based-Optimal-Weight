@@ -43,8 +43,63 @@
           "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-B-US-ADA-22785b667e924f06da45c3a8"
+      "status": "checked_in",
+      "launch_id": "launch-B-US-ADA-22785b667e924f06da45c3a8",
+      "receipt": {
+        "version": 1,
+        "key": "B-01:B-US-ADA.diabetes.ee23f92ac058",
+        "commit": "8ff729d34a87ed26f89d80daabcc9120c1984ae2",
+        "parent": "0ac7b2e8a6df90f1a71fc43522482055e377734d",
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-ADA.diabetes.ee23f92ac058.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-ADA.diabetes.ee23f92ac058.json": "0c8577bfe4453f9f22c42502ddad9337e36043bd"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "B-01:B-US-ADA.diabetes.ee23f92ac058",
+        "input_sha": "0ac7b2e8a6df90f1a71fc43522482055e377734d",
+        "disposition": "no_change",
+        "evidence": [
+          {
+            "id": "ada-announcement-2026",
+            "url": "https://diabetes.org/newsroom/press-releases/american-diabetes-association-releases-standards-care-diabetes-2026",
+            "locator": "December 8, 2025 Standards of Care 2026 announcement",
+            "issuer": "American Diabetes Association",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": true,
+            "access": "direct",
+            "qualification": "First-party original announcement only; M metadata/activity, not original diagnostic guideline content."
+          },
+          {
+            "id": "ada-2026-diagnosis-original",
+            "url": "https://doi.org/10.2337/dc26-S002",
+            "locator": "Diabetes Care 2026;49(Suppl 1):S27-S49; PMID 41358893; PMCID PMC12690183",
+            "issuer": "American Diabetes Association Professional Practice Committee for Diabetes",
+            "checked": "2026-11-07; independent verifier report",
+            "original": true,
+            "access": "indexed",
+            "qualification": "Existing S1 substantive chapter independently corroborated via publisher/PubMed; existing article ID 163926 vs retrieved 160901 unverified alias; recorded publisher URL returned HTTP 403; citation verification does not grant reuse or clinical authorization."
+          }
+        ],
+        "blocker": "Native node docs/atlas/handoffs/team-b/validate.mjs was not executed from the immutable checkout; complete Atlas end-to-end verification and recorded S1 publisher URL alias remain unresolved.",
+        "reopen": "Reopen only after exact SHA native Node validator pass and independently verified publisher URL/alias or explicit qualified resolution, with Atlas maintainer approval and prior checkpoint reference.",
+        "validation": [
+          "Reserved exact row: org_id=B-US-ADA|condition_key=diabetes|original_exact_URL=https://diabetes.org/newsroom/press-releases/american-diabetes-association-releases-standards-care-diabetes-2026 in docs/atlas/handoffs/team-b/data/source_quality_worklist.csv at input SHA.",
+          "Independent verifier: https://chatgpt.com/c/6af00c5c-95b0-83e9-b05a-b51eb59d11f8 ; researcher: https://chatgpt.com/c/6af00712-fd50-83e9-a1c3-975d76e33373 ; run run-B-B01-US-ADA-20261107 ; launch launch-B-US-ADA-22785b667e924f06da45c3a8.",
+          "Independent structural JavaScript subset: 0 errors (248 M49 areas; 501 organizations; 432 resources; 1736 coverage cells; 1171 provenance rows; 695 search logs). This was NOT execution of the native validate.mjs.",
+          "Native validation pending: node docs/atlas/handoffs/team-b/validate.mjs ; no observed Node exit code; verifier's git clone/check-out blocked by github.com DNS resolution.",
+          "Historical M announcement and separate S1 publication already recorded; no added replacement record, no changed canonical data, no coverage delta, no clinical, licensing, rights, or ancestry approval.",
+          "Original and extended metrics: no change from immutable input 0ac7b2e8a6df90f1a71fc43522482055e377734d; preserve recorded input metrics without asserting additional clearance.",
+          "Verifier disposition: EVIDENCE_PASS / PUBLICATION_BLOCKED for unconditional pass. This manifest is only a no-change, evidence-confirmed checkpoint under Atlas harness v1, not a full validation pass."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-ADA.diabetes.ee23f92ac058.json"
+        ]
+      }
     },
     "run-D-D01-ACCEPT-002-20261107": {
       "team": "D",
