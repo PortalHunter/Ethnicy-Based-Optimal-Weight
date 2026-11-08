@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "key": "A-01:020",
+  "input_sha": "24582e5fab6a9f3c0d85250d2a3e5e80d2fd0e74",
+  "disposition": "verified_scoped",
+  "evidence": [
+    {
+      "id": "CODEX-A020-20261108-01",
+      "url": "https://documents.bopa.ad/bopa-documents/037150/pdf/QSO_2025_12_04_16_02_09.pdf",
+      "locator": "BOPA no150,10December2025,printed pages1 and12; adoption formula, Cerni Cairat Perrigault Cònsol major signature and Disposició final",
+      "issuer": "Comú de Sant Julià de Lòria (issuing commune); Cerni Cairat Perrigault, Cònsol major (signer); BOPA official publication host",
+      "checked": "2026-11-08; direct PDF and visual page1/page12 inspection",
+      "original": true,
+      "access": "direct",
+      "qualification": "Original Catalan BOPA no.150,10 December2025,12pages: printed p1 commune adoption4December2025; p12 Cerni Cairat Perrigault, Cònsol major, and final clause effective day after publication (11December2025). Original parent recovered, not private automated text. One-parish public hygiene/waste only; does not authenticate six other communes, medical/medicines authorisations, full national current law or later amendment sweep. Existing June2026 article29 amendment retained; parent alone is not current consolidated text. No legal/expert approval."
+    },
+    {
+      "id": "bopa-original-parent-metadata",
+      "url": "https://bopaazurefunctions.azurewebsites.net/api/GetDocumentByFileName?name=QSO_2025_12_04_16_02_09",
+      "locator": "Public official document metadata: issue150/2025, document identifier and official storage directory037150; endpoint observed in BOPA page JavaScript",
+      "issuer": "BOPA official publication service; metadata host not ordinance issuer",
+      "checked": "2026-11-08 HTTP200 JSON; followed original document links",
+      "original": false,
+      "access": "metadata",
+      "qualification": "Metadata resolves original directory, not itself legal text or second issuer. Private MCA page used only as link discovery, not legal evidence."
+    }
+  ],
+  "blocker": "Remaining six-commune instruments, later amendments and current national medical/medicines chain not authenticated in this bounded parent-recovery result; no all-tier closure.",
+  "reopen": "A-01:020 becomes occupied after check-in. Future reopening requires maintainer authorization tied to this immutable result and newly recovered original other-commune/amendment/national instrument, not a private reconstruction.",
+  "validation": [
+    "Exact reserved native row priority_rank=6,m49_code=020 at inputSHA; seven prior source IDs retained; new original source CODEX-A020-20261108-01.",
+    "Run codex-A-A01-020-20261108-2041f192; own launch launch-codex-A020-7b9cb07d3e27d31f7f45e947; start75a00e48c0b98c9bb7b528785365435e91f6e998 directly parented by reservation44fa3ab963c6a379c34cbdf2dfffeeb40d363a68. Independently read remote parent/tree/sole ledger path/blob/exact bytes/live running launch before research.",
+    "Original Catalan p1 adoption4Dec2025; Gazette publication10Dec2025; p12 final clause means effective11Dec2025 (English translation by Researcher, not certified legal translation). Existing A72 June2026 article29 amendment retained and not counted as new.",
+    "Provenance758 to759 (+1); Andorra source observations7 to8; uniqueURLs7 to8. All prior provenance rows byte-content-equivalent; no dimension status changes; A70-IA-05 PARTIAL/NO retained; issuer gate1/10 unchanged.",
+    "Original metrics248 geography/231 provisional/17UNKNOWN/318bodies/45relations/4scopes unchanged. Expanded partial29/248,unscored219/248,narrow supported59/1984,incomplete134,nottriaged1789,conflicts2,all-tier complete0/248 unchanged. Historical A73 snapshots remain qualified historical.",
+    "Actual native validator exit0 PASS (248 legal rows/248 queue items/759 provenance;231 provisional identities,17 unresolved,318 bodies,45 relationships,4 scopes); actual unittest exit0,10 tests PASS. Atlas packet/result structural contract exit0 PASS on exact input snapshot with these proposed files. Focused controls verify all non020 rows unchanged, all prior provenance retained, dimension statuses and PARTIAL/NO unchanged, exact eight paths. These structural checks do not certify legal completeness.",
+    "Only exact eight allowed paths; blocked/no_change restriction not used because this is a scoped original-source dataset update. No deletes/renames/symlinks/foreign paths; restricted third-party PDF retained locally only. Separate fresh Verifier and designated Writer required; Researcher makes no team branch publication."
+  ],
+  "paths": [
+    "docs/atlas/handoffs/team-a/runs/A-01--020.json",
+    "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+    "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+    "docs/atlas/handoffs/team-a/data/research_queue.csv",
+    "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+    "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+    "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+    "docs/atlas/handoffs/team-a/CURRENT.md"
+  ]
+}

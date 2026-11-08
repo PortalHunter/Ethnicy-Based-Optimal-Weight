@@ -1,3 +1,24 @@
+# Team A — CURRENT scoped original-parent recovery (2026-11-08)
+
+**Latest bounded result:** A-01:020 Andorra, run `codex-A-A01-020-20261108-2041f192`, input `24582e5fab6a9f3c0d85250d2a3e5e80d2fd0e74`. Original signed Sant Julià 4December2025 hygiene/waste parent recovered as `CODEX-A020-20261108-01` from [official BOPA150 PDF](https://documents.bopa.ad/bopa-documents/037150/pdf/QSO_2025_12_04_16_02_09.pdf). Printed p1 adoption4Dec; p12 Cerni Cairat signature and final clause effective day after publication10Dec, therefore11Dec2025. This closes only the missing-parent retrieval, not all-commune or national legal acceptance. Existing June2026 article29 amendment retained; no new full amendment sweep.
+
+**Original metrics:** provenance **758→759 (+1)**; dated M49 **248/248**, authority/UNKNOWN **248/248**, provisional identities **231/248**, UNKNOWN **17**, bodies/relations/shared scopes **318/45/4**, precise issuer sample **1/10**, all unchanged. **Separate expanded workflow:** partial **29/248**, unscored **219/248**, narrow supported **59/1984**, researched-incomplete134, not-triaged1789, conflicts2, all-tier complete **0/248**, unchanged. A70-IA-05 **PARTIAL/NO**, global issuer gate OPEN; no legal/clinical/expert approval. Other six communes, later amendments and national medical/medicines powers remain unverified.
+
+**QA for this proposal:** actual native Python validator and10 unittests plus Atlas structural contract executed on exact input snapshot with scoped proposed files; see run manifest for final outputs. Scope is eight exact packet paths, no body/relationship/site/calculator/other-team edits. Separate independent Verifier approval and designated Writer publication are required; this research record does not self-certify publication. PR68 remains OPEN DRAFT UNMERGED. Both derived248-row indexes refreshed for Andorra only.
+
+**Next:** follow updated queue/backlog for other-commune originals and national current law; do not repeat recovered parent or closed Bahamas dental commencement. Keep Indigenous/community, historical, territorial and cross-border qualifications.
+
+```text
+Provisional identities     [###################.] 231/248 | +0
+Issuer exact narrow pass   [##..................] 1/10 | +0
+Expanded partial legal     [##..................] 29/248 | +0
+All-tier research complete [....................] 0/248 | +0
+Unresolved all-tier rows   [####################] 248/248 | +0
+```
+
+---
+## Historical A73 snapshot (superseded above only for parent recovery and provenance count)
+
 # Team A — authoritative CURRENT A73 (2026-11-07)
 
 **Phase:** acceptance-driven ORIGINAL issuer research, NOT consolidation. Draft [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68), branch `research/atlas-team-a-20261104`. A73 began at independently verified A72 HEAD `f3152cab48f37c405ce08edbcdf5415a9e52bf80`. Remain OPEN, DRAFT and UNMERGED. No main/site/calculator/other-team writes, no legal or clinical approvals.
