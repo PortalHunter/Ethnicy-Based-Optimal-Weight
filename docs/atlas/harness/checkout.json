@@ -1506,6 +1506,31 @@
           "docs/atlas/handoffs/team-a/source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md"
         ]
       }
+    },
+    "codex-A-A01-056-20261108-137d6409": {
+      "team": "A",
+      "key": "A-01:056",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "056",
+        "expected_sha": "2211d184e0392c117f4930966aa1017d4b7c9702",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=9,m49_code=056",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--056.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A056_ORIGINAL_COMPETENCE_20261108.md"
+        ]
+      },
+      "status": "reserved"
     }
   }
 }
