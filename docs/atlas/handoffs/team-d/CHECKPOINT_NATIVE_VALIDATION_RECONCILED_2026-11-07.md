@@ -1,0 +1,53 @@
+# Team D — native validation reconciliation and independent issuer/semantic audit (2026-11-07)
+
+**Scope and verified input:** PR #70, `research/atlas-team-d-20261104`, starting GitHub HEAD `470349bfe7c4a015d18ed93ae44f7d5cc4ac57a1`, no concurrent branch changes before expected-SHA commit. This is a focused verification continuation, **not** another consolidation. Original criteria were re-read from `research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md`; expanded 34-regulator programme remains separate.
+
+## Native validator: externally reported PASS; raw logs not independently available
+
+The external Codespaces executor reported **two full native passes** of `node docs/atlas/handoffs/team-d/validate.mjs`, including an independent rerun at `470349bfe7c4a015d18ed93ae44f7d5cc4ac57a1`; **Node v24.22.2, process exit 0, empty stderr**. These are attributed executor reports, **not** newly observed stdout/stderr or locally reproduced executions. The alleged failure-before / pass-after logs were not available as repository or conversation attachments in this run, and PR discussion contains no logs. Do not invent exact validator stdout, full test duration, workflow run ID, or Codespace identifier. A passing checked-in script tests structurally encoded assertions, **not** legal or scientific interpretation.
+
+Independent repository observations: GitHub branch and open draft unmerged PR head were the stated SHA; commit `470349bfe7c4a015d18ed93ae44f7d5cc4ac57a1` changed **only** `validate.mjs`. Its actual diff repairs stale AOECS external-role expectation **6→9**, introduces the exact nine TD-AOECS-COOP-001–009 per-record as-of dates (including 1993-07-07 and 2023-09) and updates the Batch28 descriptive logging. Current script has `EXPECTED_CURRENT_PROVENANCE_COUNT = 330`; older 18 provenance-count assertions use that shared constant. No data rows were changed by the source repair commit. Current local `node --version` was **v22.16.0**, and `git ls-remote` failed with `Could not resolve host: github.com`; a complete local checkout and full native invocation are therefore **NOT EXECUTED HERE**. This removes the previous `NATIVE_PASS_NOT_REPORTED` status, **not** the independent-source/reproducibility obligation.
+
+## Newly independent first-party issuer checks: TD-SEM-060–067
+
+Eight **previously unaudited exact graph-edge propositions** were cross-matched against the existing `network_memberships.csv` (from, to, type, source URL, 2026-11-04 as-of), all using **directly opened original issuer HTML** and source URLs already in `PROVENANCE.csv`; no new source-ID or graph edge.
+
+- **WHO Headquarters, three edges**: `WHO_AMRO→WHO`, `WHO_EMRO→WHO` and `WHO_EURO→WHO` `regional_office_of`; original six-office directory: https://www.who.int/about/who-we-are/regional-offices . Direct checked 2026-11-07; no individual Aruba assignment, EMRO committee resolution, national mandate, or SCI accession established.
+- **EMA/EU, two edges**: `EC→EMRN` `participates_in` and `EMA→EU` `agency_of`; original EMA network page: https://www.ema.europa.eu/en/about-us/how-we-work/european-medicines-regulatory-network . Original EUR-Lex HTML of Regulation (EC) 726/2004 independently inspected for **EMA establishment**, with its amended-version notice; https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0726 . Commission **binding EU authorization decisions** are distinct from EMA scientific recommendations and national NCA statutory authority; this was NOT a full legal packet.
+- **ECDC, three edges**: Austria `m49:040`, Liechtenstein `m49:438`, Norway `m49:578` `participates_in→ECDC_EU_IBD`; original issuer's explicit 27-EU + three EEA/EFTA network roster: https://www.ecdc.europa.eu/en/about-us/networks/disease-and-laboratory-networks/eu-ibd . Direct inspected 2026-11-07. These country-level surveillance-network associations do **not** prove a specific national lab appointment, submitted case report, WHO administrative assignment, medicines-regulator competence or clinical guidance adoption. No accession date claimed.
+
+Original PAHO Bermuda profile https://www.paho.org/en/bermuda , PAHO constitutional membership roster https://www.paho.org/en/planning-finance-and-accountability/member-states-pan-american-health-organization , PAHO representative news https://www.paho.org/en/news/30-10-2026-pahowho-appoints-dr-eldonna-boisson-representative-jamaica-bermuda-and-cayman and PAHO countries-and-centers directory https://www.paho.org/en/countries-and-centers were re-attempted through direct openings and still returned **HTTP 403** despite indexed search excerpts. **No indexed-only source reclassified as direct facsimile**; 21 PAHO service edges remain limited. Current PAHO dated news indexed effective **29 Oct 2026** for Jamaica, Bermuda and Cayman Islands representation, which does **not** retroactively establish an April 2026 local office or override previous 2024/earlier roles. Source limitations remain.
+
+**New audit ledger observations: 59→67 (+8, all direct original issuer graph-edge qualifications); three direct graph-issuer pages plus supporting EUR-Lex legislative HTML.** Ledger entries are stratified observations and are not equivalent to a complete independent authentication of 619 graph rows. Existing 12 provisional `org:provisional:` society graph endpoints still lack exact Team B canonical source-ID joins; no ungrounded identity merge.
+
+## Original Team D acceptance reassessment — separate decisions
+
+1. Six WHO offices with transitions: **structurally demonstrated** (1/5).
+2. At least ten time-qualified international relationships: **structurally demonstrated** (2/5).
+3. **TD-BL-ACCEPT-001 HELD** — no geography-to-membership / national clinical guideline noninference gate. Eight new directly authenticated typed edges improve a narrow sample, but source access and edge typing have not been independently qualified for the entire critical graph; exact 12 provisional Team B issuer joins and 21 PAHO indexed-only technical-cooperation edges remain held. No clinical, national law or physical-office inference promoted.
+4. At least ten negative and boundary cases: **structurally demonstrated** (3/5).
+5. **TD-BL-ACCEPT-002 HELD** — reproducible sourced understandable graph gate. A full checked-in native Node pass is now *reported at verified source commit* (previously unreported); raw execution logs are unavailable here and this runtime did not independently reproduce it. Complete independent original-source/provenance semantics and current-snapshot readback still lack demonstration. Thus a code-validation improvement is not automatic complete gate closure.
+
+**Conservative original acceptance: 3/5 demonstrated, 2/5 HELD (unchanged).** Enhanced separate amended-national-law, delegation, date and exact Team A identity programme: **0/34 full packets**; 34/34 EMA-listed national authority identities remain only the directory tier.
+
+## Finite backlog and continuing blockers
+
+- **236 unique existing cases retained.** `TD-BL-ACCEPT-002` status corrected from `FULL_CURRENT_VALIDATOR_NOT_RUN` to explicit **external two-pass reported at SHA, logs unavailable, independent source gate held**. `TD-BL-ACCEPT-001` remains HELD.
+- **0 source-blocked signed-instrument cases reopened, 0 strict original-instrument closures**, because no genuinely new executed assignment/admission agreement or custodian response was found. Five primary escalations remain: `TD-BL-WHO-533` original Aruba WHO assignment; `TD-BL-NET-001` PAHO ECC 13 undated versus 14 dated (French Saint Martin 663 versus Dutch Sint Maarten 534); `TD-BL-NET-003` signed/exact-day SCI North Macedonia 2024 accession; `TD-BL-NET-004` Africa CDC APPM eight original named signed instruments (Namibia MoA versus Egypt MoU); `TD-BL-NET-007` original Codex 1991 observer credential for AOECS. No April-host absence, national law, or guideline adoption inferred.
+- Structural counts unchanged: **47 graph nodes, 619 typed/time-qualified edges, 20 seven-condition institutional links, 330 source URLs, 249 candidate geographic statuses (248 UN M49 plus separately labeled code 158 seed exception), 205 current WHO assignments / 44 not verified, 105 distinct April-survey-supported/affirmative office-presence area records, 34 EMA directory identities**. April 2026 support remains narrowly labeled; 144 nonaffirmative areas are **not** proof of no office.
+- Throughput: direct existing-edge source qualifications **+8**; original issuer primary documents **3 HTML (+1 original EU legislative context HTML)**; provenance URLs **+0**; graph rows/edges **+0**; society Team B identity joins **+0**; PAHO indexed-to-direct upgrades **+0**; original legal/instrument/clinical approvals **0**; acceptance gates closed **0**.
+
+## Exact 20-slot BEFORE → AFTER bars
+
+```text
+WHO current administration      ████████████████░░░░ 205/249 (82.3%) → ████████████████░░░░ 205/249 (82.3%) | Δ 0 | 44 not verified
+April 2026 affirmative hosts    ████████░░░░░░░░░░░░ 105/249 (42.2%) → ████████░░░░░░░░░░░░ 105/249 (42.2%) | Δ 0 | 144 without affirmative evidence ≠ office absent
+EMA directory identities        ████████████████████ 34/34 (100.0%)  → ████████████████████ 34/34 (100.0%)  | Δ 0 | source-listed identities only
+Full law/delegation/Team A audit ░░░░░░░░░░░░░░░░░░░░ 0/34 (0.0%)     → ░░░░░░░░░░░░░░░░░░░░ 0/34 (0.0%)     | Δ 0 | extended programme, not original gate
+Original gates demonstrated     ████████████░░░░░░░░ 3/5 (60.0%)    → ████████████░░░░░░░░ 3/5 (60.0%)    | Δ 0 | 2 held
+Original gates HELD             ████████░░░░░░░░░░░░ 2/5 (40.0%)    → ████████░░░░░░░░░░░░ 2/5 (40.0%)    | Δ 0 | two independently outstanding
+```
+
+## Verification and next steps
+
+Before commit, all 8 new audit rows matched **exactly one** preexisting typed graph edge and original URL in 330-row provenance; 59→67 audit IDs and 236-case backlog were preserved. The full checked-in Node script is **not rerun in this runtime**; obtaining the Codespaces complete logs or a second authorized exact-commit native reproduction would establish stronger execution provenance, but is not a substitute for source checks. Reassess both gates separately after source audit expansion: prioritize indexed-only PAHO direct original full-page evidence, 12 exact Team B provisional identity joins and sampled dated relationship authority; only reopen five primary instruments with genuinely new signed original or custodian reply. Keep PR #70 open, draft, unmerged. No independent legal, clinical, scientific or maintainer approval.
