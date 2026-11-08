@@ -1,10 +1,10 @@
 {
-  "version": 1,
-  "team": "A",
-  "run_id": "codex-A-A01-032-20261108-31e61318",
-  "harness_sha": "8eb8b44d6986de8c4715ecbbf90b9e633601cced",
-  "commit": "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
-  "mode": "published",
-  "approval_commit": "9ca772f450bd0d4071b9160b7c2786bc80f4f22a",
-  "approval_path": "docs/atlas/handoff-archives/A032/MANIFEST.json"
+    "version": 1,
+    "team": "A",
+    "run_id": "codex-A-A01-032-20261108-31e61318",
+    "harness_sha": "8eb8b44d6986de8c4715ecbbf90b9e633601cced",
+    "commit": "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+    "mode": "published",
+    "approval_commit": "9ca772f450bd0d4071b9160b7c2786bc80f4f22a",
+    "approval_path": "docs/atlas/handoff-archives/A032/MANIFEST.json"
 }
