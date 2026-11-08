@@ -1,4 +1,65 @@
 {
   "version": 1,
-  "runs": {}
+  "runs": {
+    "run-A-A01-072-20261107": {
+      "team": "A",
+      "key": "A-01:072",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "072",
+        "expected_sha": "db7de0e29070473cb2e5fc4ae5cfecf51b0ae670",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=1,m49_code=072",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--072.json"
+        ]
+      },
+      "status": "reserved"
+    },
+    "run-B-B01-US-ADA-20261107": {
+      "team": "B",
+      "key": "B-01:B-US-ADA.diabetes.ee23f92ac058",
+      "packet": {
+        "version": 1,
+        "task": "B-01",
+        "case": "B-US-ADA.diabetes.ee23f92ac058",
+        "expected_sha": "0ac7b2e8a6df90f1a71fc43522482055e377734d",
+        "queue_path": "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+        "row_key": "org_id=B-US-ADA|condition_key=diabetes|original_exact_URL=https://diabetes.org/newsroom/press-releases/american-diabetes-association-releases-standards-care-diabetes-2026",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-ADA.diabetes.ee23f92ac058.json",
+          "docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+          "docs/atlas/handoffs/team-b/data/publication_context.csv",
+          "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+          "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-b/data/search_log.csv",
+          "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
+          "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+          "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+          "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
+        ]
+      },
+      "status": "reserved"
+    },
+    "run-D-D01-ACCEPT-002-20261107": {
+      "team": "D",
+      "key": "D-01:TD-BL-ACCEPT-002",
+      "packet": {
+        "version": 1,
+        "task": "D-01",
+        "case": "TD-BL-ACCEPT-002",
+        "expected_sha": "08eb3385546b386ba8ff9b57e13b3458b9d4b64e",
+        "queue_path": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "row_key": "TD-BL-ACCEPT-002",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-002.json"
+        ]
+      },
+      "status": "reserved"
+    }
+  }
 }
