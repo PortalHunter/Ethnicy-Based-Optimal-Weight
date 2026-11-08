@@ -16,8 +16,84 @@
           "docs/atlas/handoffs/team-a/runs/A-01--072.json"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-A-072-712419601b87309873203500"
+      "status": "checked_in",
+      "launch_id": "launch-A-072-712419601b87309873203500",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:072",
+        "commit": "6f8c543f7bbf502d293a164dec240b5e03395b2a",
+        "parent": "db7de0e29070473cb2e5fc4ae5cfecf51b0ae670",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--072.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--072.json": "42705aa0631f35e9d371356e0ffbbca54411323c"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:072",
+        "input_sha": "db7de0e29070473cb2e5fc4ae5cfecf51b0ae670",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "pha-2013-public-health-act",
+            "url": "https://extranet.who.int",
+            "locator": "Public Health Act No. 11 of 2013, Section 1; secondary compilation cites S.I. 4/2014 and February 3, 2014",
+            "issuer": "Secondary Botswana Laws compilation referenced in the saved records",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": false,
+            "access": "indexed",
+            "qualification": "Section 1 expressly requires ministerial commencement by Gazette order. A secondary compilation reports S.I. 4/2014 and February 3, 2014; that is a retrieval lead, not a substitute for the original statutory instrument. The saved handoffs cite this retrieval at https://extranet.who.int without a full document URL. Original Gazette notice remains unverified. The access value indexed is retained only as the saved records' reported access class; the exact source document was not recovered from the saved handoff, so this does not claim independently reproducible access to that document."
+          },
+          {
+            "id": "medicines-act-2025",
+            "url": "https://www.bomra.co.bw",
+            "locator": "Medicines and Related Substances Act No. 29 of 2025; BoMRA-hosted original statutory text including printed page A.687; assent December 24, 2025",
+            "issuer": "Botswana Medicines Regulatory Authority (hosted statutory text)",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": true,
+            "access": "direct",
+            "qualification": "Verifier independently inspected the BoMRA-hosted original statutory text. Assent date and commencement-by-later-order agree with the research handoff. No original appointed-day or ministerial commencement order was recovered. Assent alone does not establish operation. Saved handoff cites https://www.bomra.co.bw without a fuller document URL."
+          },
+          {
+            "id": "proposed-2026-regulations",
+            "url": "https://bomra.co.bw",
+            "locator": "August 31, 2026 BoMRA announcement describing the General and Fees regulations as drafts; examined Fees document has blank instrument number and publication date",
+            "issuer": "Botswana Medicines Regulatory Authority",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": true,
+            "access": "direct",
+            "qualification": "BoMRA's August 31, 2026 announcement explicitly describes the General and Fees regulations as drafts. The examined Fees document has no assigned statutory instrument number or publication date and cannot establish final enactment. No final numbered Gazette instrument was established. Saved handoff cites https://bomra.co.bw without a fuller document URL."
+          },
+          {
+            "id": "official-elaws-retrieval",
+            "url": "https://gov.bw",
+            "locator": "Government of Botswana identifies e-Laws and the Government Printer as official retrieval routes",
+            "issuer": "Government of Botswana",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": false,
+            "access": "blocked",
+            "qualification": "Reported research access outcome: \"The attempted e-Laws access failed\". This verifies official retrieval routes only. The verifier recorded that the unsuccessful access cannot be reproduced from the handoff alone. Original Gazette commencement instruments were not recovered via this route."
+          }
+        ],
+        "blocker": "Original Gazette commencement instruments and final numbered regulatory instruments were not independently recovered. The Public Health Act No. 11 of 2013 requires a Gazette commencement order (secondary compilation cites S.I. 4/2014 and February 3, 2014, which is not a substitute for the original notice). The Medicines and Related Substances Act No. 29 of 2025 was assented December 24, 2025, but its original ministerial commencement order was not recovered. For the proposed 2026 General and Fees regulations, the reviewed versions were drafts; final enactment was not established. Official e-Laws access failed. Zero legal-status promotions.",
+        "reopen": "Reopen only after the original Gazette commencement order(s) for the Public Health Act No. 11 of 2013 and the ministerial commencement order for the Medicines and Related Substances Act No. 29 of 2025, plus any final numbered Gazette instruments for the 2026 regulations, are independently recovered and authenticated via official e-Laws or the Government Printer (or another official retrieval route), then re-validated against the reserved packet at the expected Team A SHA.",
+        "validation": [
+          "Reserved exact row: priority_rank=1,m49_code=072 in docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv at input SHA db7de0e29070473cb2e5fc4ae5cfecf51b0ae670.",
+          "Independent verifier: https://chatgpt.com/c/6af00c04-16f4-83e9-93d6-07c0270f0ca4 ; researcher: https://chatgpt.com/c/6af006f3-3188-83e9-a1c3-975d76e33373 ; run run-A-A01-072-20261107 ; launch launch-A-072-712419601b87309873203500.",
+          "Verifier GitHub checks: reserved packet match PASS; ticket running PASS; exact launch ID PASS; Team A head db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 PASS; PR #68 open/draft/unmerged PASS; start commit 9b687543791429274dd8b3577f3f13b155b8c577 parent d78106a9c4a80f35d91ed62f053ae94b3d1d2a16 changes only docs/atlas/harness/checkout.json PASS; native queue-row inspection PASS.",
+          "Checkpoint fetch at pinned SHA: 404 \u2014 not published. Researcher's downloadable proposed JSON was not captured in the saved handoff; this file is reconstructed solely from the saved Research and Verifier records.",
+          "Coordinator local Atlas harness.py structural contract check on this reconstructed JSON: python3 /workspace/atlas/recovery/harness/harness.py A --live-sha db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 --packet /workspace/atlas/recovery/A/packet.json --result /workspace/atlas/recovery/A/A-01--072.json \u2192 PASS structural contract for A-01:072. This is executable schema/contract validation of the checkpoint against the reserved packet, not legal approval. The recovery verifier's independent schema inspection was a CONDITIONAL PASS pending these wording corrections; research and the original verifier chat did not execute harness.py.",
+          "Team A native validation, run by the coordinator in a detached checkout at db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 with this checkpoint file placed at docs/atlas/handoffs/team-a/runs/A-01--072.json: python3 docs/atlas/handoffs/team-a/validate.py (exit 0; printed PASS lines for 248 legal evidence ledger rows and 248 research queue items; 248 distinct M49 country-or-area rows; 231 government ministry/department identities and 17 explicitly unresolved; 318 separately identified government health bodies and 45 sourced relationships; 248 coverage records and 758 provenance rows; 4 explicit shared-authority area mappings; region totals, reference integrity, source fields and complex-jurisdiction sentinels; plus LIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date). python3 -m unittest discover -s docs/atlas/handoffs/team-a -p 'test_*.py' (exit 0; Ran 10 tests in 0.140s OK). These are structural integrity tests documented in RUNBOOK.md, not independent legal validation. Original research and verifier chats recorded git ls-remote against GitHub as BLOCKED \u2014 Could not resolve host: github.com \u2014 and did not run these commands.",
+          "Verifier research judgment: PASS that blocked is an evidence-appropriate disposition, with zero legal-status promotions. This is not a declaration that Botswana law has been comprehensively verified.",
+          "Verifier final decision: PARTIAL PASS \u2014 BLOCKED FOR PUBLICATION (proposed JSON unavailable; native suite not verified). Legal dimensions promoted: 0. Full legal research closure: No."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--072.json"
+        ]
+      }
     },
     "run-B-B01-US-ADA-20261107": {
       "team": "B",
