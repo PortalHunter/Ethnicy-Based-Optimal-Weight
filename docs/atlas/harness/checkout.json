@@ -748,6 +748,66 @@
           "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json"
         ]
       }
+    },
+    "run-A-A01-090-20261108": {
+      "team": "A",
+      "key": "A-01:090",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "090",
+        "expected_sha": "fae5eed287562aaae744ca14d310ed5d4140ad75",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=2,m49_code=090",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--090.json"
+        ]
+      },
+      "status": "reserved"
+    },
+    "run-B-B01-BM-BDA-DIABETES-20261108": {
+      "team": "B",
+      "key": "B-01:B-BM-BDA.diabetes.08061c27f622",
+      "packet": {
+        "version": 1,
+        "task": "B-01",
+        "case": "B-BM-BDA.diabetes.08061c27f622",
+        "expected_sha": "9237e5e3f360e596839529adf1d1b254e6fc368b",
+        "queue_path": "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+        "row_key": "org_id=B-BM-BDA|condition_key=diabetes|original_exact_URL=https://www.diabetes.bm/blog/2025-screening-report",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-BM-BDA.diabetes.08061c27f622.json",
+          "docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+          "docs/atlas/handoffs/team-b/data/publication_context.csv",
+          "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+          "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-b/data/search_log.csv",
+          "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
+          "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+          "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+          "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
+        ]
+      },
+      "status": "reserved"
+    },
+    "run-D-D01-NET-008-20261108": {
+      "team": "D",
+      "key": "D-01:TD-BL-NET-008",
+      "packet": {
+        "version": 1,
+        "task": "D-01",
+        "case": "TD-BL-NET-008",
+        "expected_sha": "aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac",
+        "queue_path": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "row_key": "TD-BL-NET-008",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-008.json"
+        ]
+      },
+      "status": "reserved"
     }
   }
 }
