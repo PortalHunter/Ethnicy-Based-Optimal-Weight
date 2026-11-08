@@ -116,8 +116,75 @@
           "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-002.json"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-D-ACCEPT-002-a003de23dbc54e6953254c2bc3463620"
+      "status": "checked_in",
+      "launch_id": "launch-D-ACCEPT-002-a003de23dbc54e6953254c2bc3463620",
+      "receipt": {
+        "version": 1,
+        "key": "D-01:TD-BL-ACCEPT-002",
+        "commit": "249de08e61d7e975464f9fd44e7eb569a79f3a1a",
+        "parent": "08eb3385546b386ba8ff9b57e13b3458b9d4b64e",
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-002.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-002.json": "a379b386055838fe5fd1afe0a4ef64c966979fe4"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "D-01:TD-BL-ACCEPT-002",
+        "input_sha": "08eb3385546b386ba8ff9b57e13b3458b9d4b64e",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "start-transition-commit",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/64d7aac707333b64299e0050d192723c82989cf1",
+            "locator": "Start-transition commit independently cited in the research handoff; ticket running under launch-D-ACCEPT-002-a003de23dbc54e6953254c2bc3463620",
+            "issuer": "PortalHunter / Atlas checkout ledger",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": false,
+            "access": "direct",
+            "qualification": "Verifier independently confirmed the start-transition commit changes the ticket from reserved to running with the worker's exact launch ID. This establishes checkout ownership, not acceptance closure."
+          },
+          {
+            "id": "team-d-native-validator",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/08eb3385546b386ba8ff9b57e13b3458b9d4b64e/docs/atlas/handoffs/team-d/validate.mjs",
+            "locator": "docs/atlas/handoffs/team-d/validate.mjs at pinned Team D input SHA 08eb3385546b386ba8ff9b57e13b3458b9d4b64e",
+            "issuer": "PortalHunter / Team D checked-in validator",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": false,
+            "access": "metadata",
+            "qualification": "The checked-in validator contains extensive structural assertions. Those assertions alone cannot establish legal authority, source authenticity, or semantic correctness. Research recorded: GitHub cloning failed because DNS could not resolve github.com, so the full checked-in Team D validator was not executed in that run. Verifier: full native Node validator NOT REPRODUCED; no complete local checkout executed."
+          },
+          {
+            "id": "historical-reported-node-pass",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/470349bfe7c4a015d18ed93ae44f7d5cc4ac57a1",
+            "locator": "Commit SHA reported by research as the site of two prior native Node v24.22.2 PASS executions",
+            "issuer": "PortalHunter (historical reported execution site)",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": false,
+            "access": "metadata",
+            "qualification": "Research reported two prior native Node v24.22.2 PASS executions at this commit, but their raw execution logs remain unavailable for independent inspection. The verifier recorded that those historical executions also lack independently inspected raw logs. This is not independent evidence of a current validator PASS at the input SHA."
+          }
+        ],
+        "blocker": "Acceptance criterion 5 remains open. Independently reproducible validation of the complete provenance-stamped network graph, including source identities, issuer authority, temporal relationships and semantic limits, was not completed. The full native Node validator (node docs/atlas/handoffs/team-d/validate.mjs) was not executed against an authorized checkout at 08eb3385546b386ba8ff9b57e13b3458b9d4b64e; research recorded that GitHub cloning failed because DNS could not resolve github.com. Historical Node v24.22.2 PASS reports at 470349bfe7c4a015d18ed93ae44f7d5cc4ac57a1 lack independently inspected raw execution logs. Complete original-source and semantic review remains outstanding. Proposed researcher JSON was not captured in the saved handoff.",
+        "reopen": "Reopen only after an authorized complete checkout at 08eb3385546b386ba8ff9b57e13b3458b9d4b64e executes node docs/atlas/handoffs/team-d/validate.mjs with recorded Node version, exit code, stdout, stderr and executed commit SHA; the complete provenance-stamped graph is independently inspected for authenticated sources, issuers, dates, temporal relationships, jurisdiction and semantic limitations; and acceptance criterion 5 can be closed on that evidence. Do not treat structural test success, GitHub Actions Population Phase 1, or Calculator CI as closure of criterion 5.",
+        "validation": [
+          "Reserved exact row: TD-BL-ACCEPT-002 in docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv at input SHA 08eb3385546b386ba8ff9b57e13b3458b9d4b64e.",
+          "Independent verifier: https://chatgpt.com/c/6af00cc8-e18c-83ea-afe8-1d2210df1312 ; researcher: https://chatgpt.com/c/6af00779-b250-83ea-9003-f87fd0f40c2a ; run run-D-D01-ACCEPT-002-20261107 ; launch launch-D-ACCEPT-002-a003de23dbc54e6953254c2bc3463620.",
+          "Verifier GitHub checks: reserved packet identity PASS; start transition 64d7aac PASS; live ticket running with matching launch PASS; Team D branch 08eb3385546b386ba8ff9b57e13b3458b9d4b64e PASS; PR #70 open/draft/unmerged PASS; native backlog identity PASS; proposed path exactly one authorized Team D file PASS.",
+          "Verifier independently reproduced data counts from the pinned commit: M49 status records 249; assigned WHO regions 205; WHO office-presence records 105; April 2026 office-presence records 95; EMA identity records 34; EMA identities marked remit unverified 34; network nodes 47; network membership edges 619; provenance records 330. Worker correctly preserved that 95 April-positive records are not equivalent to all 105 office-presence records, and 34 EMA directory entries do not establish 34 verified statutory regulator packets.",
+          "Cardinality reported unchanged by research: current WHO assignments 205/249; April-positive WHO office records 95/249; EMA directory identities 34/34; full regulator legal packets 0/34.",
+          "Original acceptance criteria demonstrated: research reported baseline 3/5 before and after, outstanding gates 2/5 before and after. Verifier: the 3/5 baseline is retained from the worker's assessment, not independently certified anew by that review. Criterion 5 stays open.",
+          "Full native Node validator NOT REPRODUCED. Research environment had Node v22.16.0 but could not clone (DNS). Two successful GitHub Actions workflows observed at the pinned input SHA (Population Phase 1 regression tests; Calculator CI); neither is evidence of execution of the complete Team D validator.",
+          "Checkpoint fetch at pinned SHA: absent, consistent with no publication. Researcher's downloadable proposed JSON was not captured in the saved handoff; this file is reconstructed solely from the saved Research and Verifier records.",
+          "Verifier final decision: BLOCKED FOR ACCEPTANCE; qualified approval of the worker's blocked disposition. Do not mark criterion 5 complete, convert reported native execution into independently verified execution, promote organizational identities into statutory authority, or interpret structural test success as legal or clinical approval."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-002.json"
+        ]
+      }
     },
     "run-B-B01-US-AHA-20261108": {
       "team": "B",
@@ -143,8 +210,94 @@
           "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-B-US-AHA-18e89fd0244d314133d1dc71"
+      "status": "checked_in",
+      "launch_id": "launch-B-US-AHA-18e89fd0244d314133d1dc71",
+      "receipt": {
+        "version": 1,
+        "key": "B-01:B-US-AHA.hypertension.8c3bee9f6066",
+        "commit": "5a9acd29262dbe699e89b265c207e5cb94e6ab02",
+        "parent": "8ff729d34a87ed26f89d80daabcc9120c1984ae2",
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-AHA.hypertension.8c3bee9f6066.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-AHA.hypertension.8c3bee9f6066.json": "95911395cd4f2868de13fa5e5b18875502874586"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "B-01:B-US-AHA.hypertension.8c3bee9f6066",
+        "input_sha": "8ff729d34a87ed26f89d80daabcc9120c1984ae2",
+        "disposition": "no_change",
+        "evidence": [
+          {
+            "id": "aha-professional-overview",
+            "url": "https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline",
+            "locator": "AHA professional overview / first-party guideline landing page, updated August 14, 2025; reserved original_exact_URL",
+            "issuer": "American Heart Association",
+            "checked": "2026-11-08; research and independent verifier reports",
+            "original": true,
+            "access": "direct",
+            "qualification": "First-party guideline landing page. It links to the full guideline but is not itself the original journal article. Existing repository classification M independently confirmed. Appropriate M classification. No replacement source is justified."
+          },
+          {
+            "id": "circulation-2025-guideline-original",
+            "url": "https://doi.org/10.1161/CIR.0000000000001356",
+            "locator": "Circulation 2025 multi-society professional guideline; published online August 14, 2025, in print September 16, 2025; PMID 40811497",
+            "issuer": "Circulation / joint multi-society professional guideline authors (not exclusively AHA)",
+            "checked": "2026-11-08; research and independent verifier reports",
+            "original": true,
+            "access": "indexed",
+            "qualification": "Existing separate S1 substantive guideline independently corroborated via publisher/PubMed (DOI 10.1161/CIR.0000000000001356, PMID 40811497). Joint multi-society professional guideline, not an exclusively AHA-authored document. Citation verification does not grant reuse or clinical authorization."
+          },
+          {
+            "id": "circulation-correction-2025-11",
+            "url": "https://doi.org/10.1161/CIR.0000000000001396",
+            "locator": "Published erratum DOI 10.1161/CIR.0000000000001396; published online November 10, 2025",
+            "issuer": "Circulation / AHA journals",
+            "checked": "2026-11-08; research and independent verifier reports",
+            "original": true,
+            "access": "indexed",
+            "qualification": "A published erratum independently corroborated. Distinct published correction, not a replacement guideline edition. Correction-history / version-impact appraisal remains outstanding."
+          },
+          {
+            "id": "circulation-correction-2026-04",
+            "url": "https://doi.org/10.1161/CIR.0000000000001436",
+            "locator": "Published erratum DOI 10.1161/CIR.0000000000001436; published online April 13, 2026",
+            "issuer": "Circulation / AHA journals",
+            "checked": "2026-11-08; research and independent verifier reports",
+            "original": true,
+            "access": "indexed",
+            "qualification": "A second indexed correction independently corroborated. Distinct published erratum, not a replacement guideline edition. Correction-history / version-impact appraisal remains outstanding."
+          },
+          {
+            "id": "circulation-correction-2026-05",
+            "url": "https://doi.org/10.1161/CIR.0000000000001448",
+            "locator": "Published correction DOI 10.1161/CIR.0000000000001448; published May 26, 2026",
+            "issuer": "Circulation / AHA journals",
+            "checked": "2026-11-08; research and independent verifier reports",
+            "original": true,
+            "access": "indexed",
+            "qualification": "A further published correction independently corroborated. Distinct published erratum, not a replacement guideline edition. The publisher also identifies multiple versions of record; correction history requires a separate appraisal before making version-sensitive clinical claims."
+          }
+        ],
+        "blocker": "Native node docs/atlas/handoffs/team-b/validate.mjs was not executed from the immutable checkout (verifier git checkout/clone blocked by github.com DNS resolution). Correction-history and version-impact appraisal remains outstanding. No clinical, licensing, rights, or ancestry-specific approval is supported.",
+        "reopen": "Reopen only after node docs/atlas/handoffs/team-b/validate.mjs is executed against a local checkout at 8ff729d34a87ed26f89d80daabcc9120c1984ae2 with a recorded Node exit code, and after a separate editorial/version appraisal of the three confirmed corrections (DOI 10.1161/CIR.0000000000001396, 10.1161/CIR.0000000000001436, 10.1161/CIR.0000000000001448) and the applicable corrected version of record, with Atlas maintainer approval and prior checkpoint reference.",
+        "validation": [
+          "Reserved exact row: org_id=B-US-AHA|condition_key=hypertension|original_exact_URL=https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline in docs/atlas/handoffs/team-b/data/source_quality_worklist.csv at input SHA 8ff729d34a87ed26f89d80daabcc9120c1984ae2.",
+          "Independent verifier: https://chatgpt.com/c/6af0191a-3c88-83ea-bcaa-b03f4830c54f ; researcher: https://chatgpt.com/c/6af016df-5d84-83e9-90b8-06d1822dade2 ; run run-B-B01-US-AHA-20261108 ; launch launch-B-US-AHA-18e89fd0244d314133d1dc71.",
+          "Verifier reservation and repository integrity: live checkout running PASS; launch ID exact match PASS; branch head 8ff729d34a87ed26f89d80daabcc9120c1984ae2 PASS; PR #71 open/draft/unmerged PASS; exact queue identity PASS; existing M overview and separate S1 guideline records confirmed.",
+          "Independent structural JavaScript reproduction of validate.mjs checks: 0 structural errors; 10/10 CSV files retrieved; 1,736 coverage cells; observed rows: M49 areas 248; organizations 501; resources 432; publication contexts 432; provenance records 1,171; search logs 695. This was NOT execution of the native validate.mjs.",
+          "Native validation pending: node docs/atlas/handoffs/team-b/validate.mjs ; no observed Node exit code; verifier's git ls-remote/checkout blocked by github.com DNS resolution.",
+          "Existing M announcement (AHA professional overview) and separate S1 publication already recorded; multi-society attribution preserved rather than assigning sole guideline authorship to AHA; no added replacement record, no changed canonical data, no coverage delta. The nine other authorized data and provenance files are not included in result.paths.",
+          "Three published corrections independently corroborated and recorded as errata, not replacement editions. Follow-up editorial/version appraisal remains outstanding.",
+          "Verifier disposition: EVIDENCE PASS / PUBLICATION BLOCKED for unconditional publication (proposed JSON unavailable; native Node CLI not executed). Recommended disposition: retain no_change with an explicit validation limitation. This reconstructed manifest is only a no-change, evidence-confirmed checkpoint under Atlas harness v1, not a full validation pass or clinical clearance. Researcher's downloadable proposed JSON was not captured in the saved handoff; this file is reconstructed solely from the saved Research and Verifier records."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-AHA.hypertension.8c3bee9f6066.json"
+        ]
+      }
     }
   }
 }
