@@ -374,6 +374,66 @@
           "docs/atlas/handoffs/team-b/runs/B-01--B-US-AHA.hypertension.8c3bee9f6066.json"
         ]
       }
+    },
+    "run-A-A01-064-20261108": {
+      "team": "A",
+      "key": "A-01:064",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "064",
+        "expected_sha": "6f8c543f7bbf502d293a164dec240b5e03395b2a",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=3,m49_code=064",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--064.json"
+        ]
+      },
+      "status": "reserved"
+    },
+    "run-B-B01-PE-SPR-GOUT-20261108": {
+      "team": "B",
+      "key": "B-01:B-PE-SPR.gout.ca5dd8ec10aa",
+      "packet": {
+        "version": 1,
+        "task": "B-01",
+        "case": "B-PE-SPR.gout.ca5dd8ec10aa",
+        "expected_sha": "5a9acd29262dbe699e89b265c207e5cb94e6ab02",
+        "queue_path": "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+        "row_key": "org_id=B-PE-SPR|condition_key=gout|original_exact_URL=https://socreuma.org.pe/new/_recursos/eventos/archivos/202506201252189886.pdf",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-PE-SPR.gout.ca5dd8ec10aa.json",
+          "docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+          "docs/atlas/handoffs/team-b/data/publication_context.csv",
+          "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+          "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-b/data/search_log.csv",
+          "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
+          "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+          "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+          "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
+        ]
+      },
+      "status": "reserved"
+    },
+    "run-D-D01-ACCEPT-001-20261108": {
+      "team": "D",
+      "key": "D-01:TD-BL-ACCEPT-001",
+      "packet": {
+        "version": 1,
+        "task": "D-01",
+        "case": "TD-BL-ACCEPT-001",
+        "expected_sha": "249de08e61d7e975464f9fd44e7eb569a79f3a1a",
+        "queue_path": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "row_key": "TD-BL-ACCEPT-001",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json"
+        ]
+      },
+      "status": "reserved"
     }
   }
 }
