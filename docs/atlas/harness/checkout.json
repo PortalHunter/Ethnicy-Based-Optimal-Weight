@@ -917,7 +917,8 @@
           "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
         ]
       },
-      "status": "reserved"
+      "status": "running",
+      "launch_id": "launch-B-BM-BDA-3c52b50da7abe90ececc3439"
     },
     "run-D-D01-NET-008-20261108": {
       "team": "D",
