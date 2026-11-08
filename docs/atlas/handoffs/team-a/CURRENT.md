@@ -1,3 +1,22 @@
+# Team A — CURRENT scoped Argentina original-competence recovery (2026-11-08)
+
+**Latest bounded result:** A-01:032, input320e39ae5d4cf4b014dfafecdfb2ccc066e7c737. [Recovery note](source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md): CODEX-A032-20261108-01 official1490compilation kept separate from original2014Decree1886art1 leadership amendment(-02) and original2026ANMAT6552 narrow product action under1490art8(ñ)(-03). Original Spanish register passages directly read; no facsimile/e-signature or expert-law certification.
+
+**Original metrics:** provenance763→766(+2original observations,+1qualifiedcompilation);248geographies,231provisional/17UNKNOWN,318bodies/45relations/4scopes,1/10issuer sample unchanged. **Separate expanded workflow:**29partial,219unscored,59/1984supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged. All legal statuses and A70-IA-08PARTIAL/NO retained; global issuer gateOPEN. No legal/clinical/expert approval.
+
+**Next/limits:** complete current1490parent/amendment/delegation chain, original provincial/CABA/Indigenous/professional/surveillance instruments and DNU571/771 congressional treatment remain unresolved. Do not repeat recovered2014art1/2026single-product action as a new gap. Historical parent/appointee names not carried into2026;229relation index not full-chain audit. Independent Verifier and designated Writer required, PR68OPEN/DRAFT/UNMERGED.
+
+```text
+Provisional identities [###################.] 231/248 | +0
+Issuer narrow pass     [##..................] 1/10 | +0
+Expanded partial      [##..................] 29/248 | +0
+All-tier complete     [....................] 0/248 | +0
+Unresolved all-tier    [####################] 248/248 | +0
+```
+
+---
+## Prior scoped checkpoints (historical; provenance now766)
+
 # Team A — CURRENT scoped Algeria original-Arabic recovery (2026-11-08)
 
 **Latest bounded result:** A-01:012 Algeria, run `codex-A-A01-012-20261108-95ff0d24`, input `7f24bf92adb4a4569219ab9a3c236595ae5024c8`. Recovered original Arabic [Law18-11/2018](https://www.joradp.dz/FTP/jo-arabe/2018/A2018046.pdf) as `CODEX-A012-20261108-01` and [Ordinance20-02/2020](https://www.joradp.dz/FTP/jo-arabe/2020/A2020050.pdf) as `CODEX-A012-20261108-02`. Printed2018pp3/7/41 and2020pp4/5 visually checked: dated headings, narrow health-programme/pharmaceutical allocations, named promulgators and publication clauses. Prior French translation observations retained; originals are historical, not a current comprehensive statute/amendment chain. [Exact recovery note](source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md).
