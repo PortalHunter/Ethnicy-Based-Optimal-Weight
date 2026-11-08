@@ -1405,6 +1405,30 @@
           "docs/atlas/handoffs/team-a/CURRENT.md"
         ]
       }
+    },
+    "codex-A-A01-012-20261108-95ff0d24": {
+      "team": "A",
+      "key": "A-01:012",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "012",
+        "expected_sha": "7f24bf92adb4a4569219ab9a3c236595ae5024c8",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=8,m49_code=012",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--012.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md"
+        ]
+      },
+      "status": "reserved"
     }
   }
 }
