@@ -957,8 +957,102 @@
           "docs/atlas/handoffs/team-a/CURRENT.md"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-codex-A044-48ad111ea8bea3e48dd46b75"
+      "status": "checked_in",
+      "launch_id": "launch-codex-A044-48ad111ea8bea3e48dd46b75",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:044",
+        "commit": "864757cf8656dd4fc89cf596ceecc16b98156fbb",
+        "parent": "0e17b6e05700f4e02be1479d846f666ac04dec47",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--044.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--044.json": "2154bef53f800ae3eda33f5815941ac1b643faf5"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:044",
+        "input_sha": "0e17b6e05700f4e02be1479d846f666ac04dec47",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "existing-health-portfolio-allocation",
+            "url": "https://opm.gov.bs/wp-content/uploads/2026/06/Allocation_of_Portfolio-Extraordinary_Gazette_19th_May_2026_Ministers_Amendments_Final.pdf",
+            "locator": "Extraordinary Official Gazette 19 May 2026; printed p7 (PDF page8), health portfolio; printed p8 (PDF page9), Works and Family Island/local-government portfolio",
+            "issuer": "Bahamas Cabinet Office / allocation of ministerial responsibilities; Office of Prime Minister hosting",
+            "checked": "2026-11-08 UTC",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 application/pdf, 511063 bytes. Printed p7 visually inspected: health portfolio lists public health, vaccination, quarantine, medicines, Public Analyst Laboratories and relations with named boards. Printed p8 text separately lists relations with local government. This rechecks existing A-044-GOV-20261105; does not establish a statutory surveillance institute, actual island delegation, professional statute amendment chain, implementation or November2026 currency."
+          },
+          {
+            "id": "existing-cabinet-announcement",
+            "url": "https://opm.gov.bs/prime-minister-davis-announces-new-cabinet/",
+            "locator": "18 May 2026 Cabinet announcement, appointments list",
+            "issuer": "Bahamas Office of the Prime Minister",
+            "checked": "2026-11-08 UTC",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 text/html. Lists Michael Darville for Health and Wellness, Clay Sweeting for Works and Family Island Affairs, and Owen Wells as Minister of State. This is the same governmental publication family as the portfolio host and an administrative announcement, not an independent original instrument proving all statutory powers."
+          },
+          {
+            "id": "health-services-original-retrieval",
+            "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/1914/1914-0017/1914-0017.pdf",
+            "locator": "Requested exact existing Health Services Act Chapter231 statutory PDF URL by HTTP GET at 17:41:42 UTC",
+            "issuer": "Bahamas Attorney General government laws host; historical issuing legislature not reauthenticated in this attempt",
+            "checked": "2026-11-08 UTC",
+            "original": false,
+            "access": "blocked",
+            "qualification": "HTTP202 text/html, 241 bytes, meta-refresh to /.well-known/sgcaptcha/ instead of PDF. Original statute text and through-November2026 amendments were not retrieved. Prior A65-044-01 narrow historical support is preserved; no inference that no amendment exists."
+          },
+          {
+            "id": "health-promotion-original-retrieval",
+            "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0069/2025-0069.pdf",
+            "locator": "Requested exact existing Health Promotion and Wellness Act2025 No69 PDF URL by HTTP GET at 17:41:43 UTC",
+            "issuer": "Bahamas Attorney General government laws host; historical issuing legislature not reauthenticated in this attempt",
+            "checked": "2026-11-08 UTC",
+            "original": false,
+            "access": "blocked",
+            "qualification": "HTTP202 text/html, 241 bytes, captcha redirect instead of statutory PDF. Prior A65-044-02 remains preserved. Original implementation, regulations, amendment chronology and effective-scope questions remain unverified."
+          },
+          {
+            "id": "independent-official-discovery-search",
+            "url": "https://opm.gov.bs/?s=health+services+act",
+            "locator": "Official OPM site search for health services act, checked 17:41:45 UTC; five displayed results",
+            "issuer": "Bahamas Office of the Prime Minister",
+            "checked": "2026-11-08 UTC",
+            "original": true,
+            "access": "direct",
+            "qualification": "Second official retrieval strategy used a separate governmental publication route. Search returned healthcare/training, clinic and July2025 health-bills debate pages; the displayed results did not supply original amended Health Services statute, statutory surveillance instrument or Family Island delegation. This bounded retrieval failure is not an exhaustive search or proof of absence."
+          },
+          {
+            "id": "official-bills-debate-lead",
+            "url": "https://opm.gov.bs/prime-minister-davis-contribution-health-bills-compendium-2025/",
+            "locator": "30 July2025 contribution; paragraphs beginning Pharmacy Bill2025 and National Health Insurance Bill2025; Family Island provider reference",
+            "issuer": "Bahamas Prime Minister / Office of the Prime Minister",
+            "checked": "2026-11-08 UTC",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 official speech. Describes bills and proposed programmes, including pharmacy and NHI. It is a first-party original speech, not the enacted original Act, commencement notice, current amendment chain or local statutory delegation. Dental-bill discussion was not used to reopen closed dental commencement scope."
+          }
+        ],
+        "blocker": "Original remaining operative amendment/repeal chains, professional/medicines instruments, statutory surveillance duties and Family Island/local public-health delegation were not authenticated. Strategy1: exact government laws statutory URLs and portal yielded HTTP202 HTML captcha responses instead of originals. Strategy2: independent OPM government site search and located July2025 health-bills debate supplied administrative/bill leads, not the required enacted originals or local instruments. Accessible May2026 portfolio Gazette confirms only already-recorded narrow allocation. No claim of legal absence or exhaustive retrieval; zero legal-status promotions.",
+        "reopen": "Recover original current Health Services amendments/repeals and numbered enacted professional/medicines Acts and commencement/regulatory orders; inspect statutory surveillance mandates and actual Family Island/local delegation instruments with competent issuer, jurisdiction and dates through November2026, using an accessible official law/Gazette archive or custodian response. Obtain separately issuing authority evidence where required. Preserve prior narrow dental commencement closure; reopen this logical key only with maintainer approval, immutable prior blocker and qualifying new trigger.",
+        "validation": [
+          "Exact packet: A-01:044; priority_rank=4,m49_code=044; PRIORITIZED_BACKLOG_20261107.csv at input_sha. Six exact prior IDs audited against pinned PROVENANCE: A-044-GOV-20261105; A-044-SUPP-20261105; A65-044-01; A65-044-02; A65-044-03; A69-044-01. Last two retain prior historical findings and were deliberately not retrieved because dental commencement is CLOSED and excluded.",
+          "Run codex-A-A01-044-20261108-311e1be9; fresh researcher launch launch-codex-A044-48ad111ea8bea3e48dd46b75; own atomic start https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/2a3ca080ec03b9248d603fff0eefd22d27aa4000, parent bd3c24b0c4b68402506ec29a4b7460034d71442f; independent remote readback verified direct parent/tree, sole checkout.json changed path, blob 3d2c1fb5050d32fe6a797cb0515d4bfcb952424a, exact ledger bytes, live head and running ticket under own launch before research.",
+          "PR68 and PR75 independently read open/draft/unmerged; TeamA head matched input_sha before start. No TeamA branch publication performed by Researcher. Writer designation and separate independent verifier approval of exact bytes remain required.",
+          "Original and expanded counts unchanged from CURRENT A73 at input_sha: 248/248 geography and authority-or-UNKNOWN dispositions; 231 provisional identities,17 UNKNOWN,318 bodies,45 relations,4 shared scopes; original exact independent-issuer gate1/10; provenance758. Expanded separately:29/248 partial,219/248 unscored,59/1984 SOURCE_SUPPORTED,134 RESEARCHED_INCOMPLETE,1789 NOT_TRIAGED,2 CONFLICT_UNRESOLVED,0/248 all-tier research complete. Dataset paths changed0; all deltas0.",
+          "Only proposed destination docs/atlas/handoffs/team-a/runs/A-01--044.json. No canonical data changes, source promotions, identity/relationship changes, legal/clinical/rights/ancestry/governance approval or expert acceptance. Historical provenance and prior supported dimensions preserved.",
+          "Researcher executed PYTHONDONTWRITEBYTECODE=1 python3 /workspace/atlas-native-preflight/harness.py A --live-sha 0e17b6e05700f4e02be1479d846f666ac04dec47 --packet packet.json --result A-01--044.json: exit0 PASS structural contract. At a separate git-archive snapshot of exact input_sha with only this proposed checkpoint added: python3 validate.py exit0 and python3 -m unittest -v exit0,10 tests PASS. Structure does not establish legal authority or currency. Separate independent Verifier approval of exact bytes and designated Writer publication remain pending; this result cannot self-certify its publication commit."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--044.json"
+        ]
+      }
     }
   }
 }
