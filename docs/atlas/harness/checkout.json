@@ -143,7 +143,8 @@
           "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
         ]
       },
-      "status": "reserved"
+      "status": "running",
+      "launch_id": "launch-B-US-AHA-18e89fd0244d314133d1dc71"
     }
   }
 }
