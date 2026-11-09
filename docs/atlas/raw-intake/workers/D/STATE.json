@@ -157,10 +157,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D025_TEAM_D_20261109.json",
       "source_count": 39,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D026",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D026_TEAM_D_20261109.json",
+      "source_count": 36,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 25,
-  "cumulative_unique_url_leads": 974,
+  "completed_batch_count": 26,
+  "cumulative_unique_url_leads": 1010,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -400,8 +406,8 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-ACCEPT-001",
-    "TD-BL-ACCEPT-002"
+    "TD-BL-ACCEPT-002",
+    "TD-BL-ACCEPT-001"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -1377,7 +1383,43 @@
     "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
     "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
     "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-    "https://creativecommons.org/publicdomain/mark/1.0/"
+    "https://creativecommons.org/publicdomain/mark/1.0/",
+    "https://github.com/in-toto/attestation/blob/main/spec/v1/CHANGELOG.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/v1/README.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/v1/bundle.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/v1/digest_set.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/v1/envelope.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/v1/field_types.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/v1/predicate.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/v1/resource_descriptor.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/v1/statement.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/README.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/cyclonedx.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/link.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/provenance.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/reference.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/release.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/runtime-trace.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/scai.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/spdx.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/spdx2.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/spdx3.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/svr.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/test-result.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/vsa.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/vuln.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/predicates/vulns_02.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/README.md",
+    "https://github.com/in-toto/attestation/blob/main/spec/versioning.md",
+    "https://github.com/in-toto/attestation/blob/main/docs/validation.md",
+    "https://github.com/in-toto/attestation/blob/main/protos/in_toto_attestation/v1/statement.proto",
+    "https://docs.github.com/en/rest/dependency-graph/sboms",
+    "https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/establish-provenance-and-integrity/export-dependencies-as-sbom",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Licensing/Licensing/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/Relationship/",
+    "https://github.com/w3c/data-shapes/tree/gh-pages/shacl12-test-suite",
+    "https://github.com/w3c/data-shapes/tree/gh-pages/shacl12-vocabularies",
+    "https://in-toto.io/docs/specs/"
   ],
   "unresolved_retrievals": [
     {
@@ -2201,6 +2243,20 @@
       "url": null,
       "origin": "D025",
       "reason": "ORIGINAL_NATIVE_CODESPACES_COMMAND_OUTPUT_AND_EXECUTED_SHA_NOT_RETRIEVED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-ACCEPT-002",
+      "url": null,
+      "origin": "D026",
+      "reason": "IN_TOTO_AND_SBOM_STANDARDS_ARE_NOT_ATLAS_NATIVE_CODESPACES_RUN_STDOUT_STDERR_OR_EXECUTED_COMMIT_SHA"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-ACCEPT-001",
+      "url": null,
+      "origin": "D026",
+      "reason": "SEMANTIC_SPECIFICATIONS_DO_NOT_COMPLETE_INDEPENDENT_ATLAS_FULL_GRAPH_REVIEW"
     }
   ],
   "duplicate_urls_skipped_this_batch": [],
@@ -2218,12 +2274,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Continue untapped original-source metadata for Team D acceptance and reproducibility (TD-BL-ACCEPT-001/002), with targeted unresolved WHO April 2026 host evidence (TD-BL-OFFICE-158/239). Raw-source only; all original cases remain substantively open.",
-  "next_batch_id": "D026",
+  "next_queue_position": "Continue new primary source-rights, metadata-acceptance and native execution reproducibility references; unresolved actual April 2026 WHO host records for 158/239 and Codespaces session artifacts remain open; substantive backlog not closed.",
+  "next_batch_id": "D027",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D025",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D025_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "93052fd475a25e04478882d18a636aa54e0fefed",
+    "batch_id": "D026",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D026_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "5e884857227890c0839a18afcce91e8a69d6a3f3",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
