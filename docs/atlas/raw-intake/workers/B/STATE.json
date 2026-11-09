@@ -47,12 +47,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B006_TEAM_B_20261109.json",
       "source_count": 40,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B007",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B007_TEAM_B_20261109.json",
+      "source_count": 39,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 6,
-  "worker_owned_batch_count": 5,
-  "cumulative_team_source_leads": 243,
-  "worker_owned_unique_url_leads": 204,
+  "completed_batch_count": 7,
+  "worker_owned_batch_count": 6,
+  "cumulative_team_source_leads": 282,
+  "worker_owned_unique_url_leads": 243,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -123,7 +129,22 @@
     "M49:328|high_chol",
     "M49:418|high_chol",
     "M49:422|high_chol",
-    "M49:496|high_chol"
+    "M49:496|high_chol",
+    "M49:512|high_chol",
+    "M49:600|high_chol",
+    "M49:659|high_chol",
+    "M49:662|high_chol",
+    "M49:670|high_chol",
+    "M49:768|high_chol",
+    "M49:776|high_chol",
+    "M49:800|high_chol",
+    "M49:548|high_chol",
+    "M49:894|high_chol",
+    "M49:716|high_chol",
+    "M49:626|high_chol",
+    "M49:795|high_chol",
+    "M49:858|high_chol",
+    "M49:860|high_chol"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -137,11 +158,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Continue untouched P1 high_chol/diabetes/hypertension queue cells in underrepresented Africa/Oceania; WHO catalogue leads still require original document review. Also prioritize primary celiac, gout, lactose and hemochromatosis leads and P0 originals."
+    "P1_next": "Original-source candidate acquisition for untouched celiac/gout/lactose/hemochromatosis across underrepresented M49 regions. WHO surveillance catalogue now extensively sampled B002/B004–B007; do not repeat existing STEPS entries."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 204,
+    "current_worker_batch_count": 243,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -346,12 +367,52 @@
       "https://www.who.int/publications/m/item/2013-steps-country-report-mongolia",
       "https://www.who.int/publications/m/item/2009-steps-country-report-mongolia",
       "https://www.who.int/publications/m/item/2006-steps-country-report-mongolia",
-      "https://www.who.int/publications/m/item/2005-steps-factsheet-mongolia"
+      "https://www.who.int/publications/m/item/2005-steps-factsheet-mongolia",
+      "https://www.who.int/publications/m/item/2017-steps-fact-sheet-oman",
+      "https://www.who.int/publications/m/item/2017-steps-fact-sheet-oman-databook",
+      "https://www.who.int/publications/m/item/2006-steps-country-report-oman",
+      "https://www.who.int/publications/m/item/2011-steps-country-report-paraguay",
+      "https://www.who.int/publications/m/item/2007-steps-country-report-saint-kitts-and-nevis",
+      "https://www.who.int/publications/m/item/2007-steps-fact-sheet-saint-kitts-and-nevis",
+      "https://www.who.int/publications/m/item/2019-2020-steps-country-report-saint-lucia",
+      "https://www.who.int/publications/m/item/2019-2020-steps-fact-sheet-saint-lucia",
+      "https://www.who.int/publications/m/item/2012-steps-fact-sheet-saint-lucia",
+      "https://www.who.int/publications/m/item/2013-2014-steps-country-report-saint-vincent-and-the-grenadines",
+      "https://www.who.int/publications/m/item/2013-2014-steps-fact-sheet-saint-vincent-and-the-grenadines",
+      "https://www.who.int/publications/m/item/2021-steps-country-report-togo",
+      "https://www.who.int/publications/m/item/2010-steps-country-report-togo",
+      "https://www.who.int/publications/m/item/2010-steps-fact-sheet-togo",
+      "https://www.who.int/publications/m/item/2012-steps-country-report-tonga",
+      "https://www.who.int/publications/m/item/2004-steps-country-report-tonga",
+      "https://www.who.int/publications/m/item/2004-steps-fact-sheet-tonga",
+      "https://www.who.int/publications/m/item/2023-steps-country-report-uganda",
+      "https://www.who.int/publications/m/item/2014-steps-country-report-uganda",
+      "https://www.who.int/publications/m/item/2014-steps-fact-sheet-uganda",
+      "https://www.who.int/publications/m/item/2011-steps-country-report-vanuatu",
+      "https://www.who.int/publications/m/item/2011-steps-fact-sheet-vanuatu",
+      "https://www.who.int/publications/m/item/2017-steps-country-report-zambia",
+      "https://www.who.int/publications/m/item/2008-steps-country-report-zambia",
+      "https://www.who.int/publications/m/item/2008-steps-fact-sheet-zambia",
+      "https://www.who.int/publications/m/item/2005-steps-country-report-zimbabwe",
+      "https://www.who.int/publications/m/item/2023-steps-country-report-timor-leste",
+      "https://www.who.int/publications/m/item/2023-steps-fact-sheet-timor-leste",
+      "https://www.who.int/publications/m/item/2014-steps-country-report-timor-leste",
+      "https://www.who.int/publications/m/item/2014-steps-fact-sheet-timor-leste",
+      "https://www.who.int/publications/m/item/2018-steps-country-report-turkmenistan",
+      "https://www.who.int/publications/m/item/2013-steps-country-report-turkmenistan",
+      "https://www.who.int/publications/m/item/2013-steps-country-report-uruguay",
+      "https://www.who.int/publications/m/item/2006-steps-country-report-uruguay",
+      "https://www.who.int/publications/m/item/2019-steps-country-report-uzbekistan-%28russian%29",
+      "https://www.who.int/publications/m/item/2019-steps-data-book-uzbekistan-%28russian%29",
+      "https://www.who.int/publications/m/item/2014-steps-country-report-uzbekistan-%28russian%29",
+      "https://www.who.int/publications/m/item/2014-steps-fact-sheet-uzbekistan",
+      "https://www.who.int/publications/m/item/2014-steps-fact-sheet-uzbekistan-%28russian%29"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
     "worker_B005_count": 39,
-    "worker_B006_count": 40
+    "worker_B006_count": 40,
+    "worker_B007_count": 39
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -385,14 +446,14 @@
       }
     ]
   },
-  "next_batch_id": "B007",
-  "next_queue_position": "B007: continue previously linked WHO STEPS country catalogue Oman, Paraguay, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, then additional geographically diverse high-yield countries; exclude all URLs B001-B006. Original P0 disease-specific targets remain unclosed.",
+  "next_batch_id": "B008",
+  "next_queue_position": "B008: pivot from WHO STEPS catalogue into condition-specific original research and guidelines for remaining P0 Peru gout and Bangladesh celiac/lactose, plus untouched celiac, gout, lactose, hemochromatosis in underserved African/Oceania M49 cells; exclude all B001–B007 URLs; avoid more generalized risk-factor survey repetition.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B006",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B006_TEAM_B_20261109.json",
-    "parent_commit_sha": "736a5f0b3684c95ad66e67312cb5885eeec81581",
+    "batch_id": "B007",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B007_TEAM_B_20261109.json",
+    "parent_commit_sha": "feae0bee2dfb85532471ba08b20a76f7aed69a18",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Commit SHA cannot be embedded in itself; verified branch head authoritative."
+    "note": "Commit SHA cannot be embedded in same commit; verified worker HEAD authoritative."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
