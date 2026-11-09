@@ -91,10 +91,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D014_TEAM_D_20261109.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D015",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D015_TEAM_D_20261109.json",
+      "source_count": 35,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 14,
-  "cumulative_unique_url_leads": 549,
+  "completed_batch_count": 15,
+  "cumulative_unique_url_leads": 584,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -279,20 +285,24 @@
     "TD-BL-OFFICE-772",
     "TD-BL-OFFICE-798",
     "TD-BL-OFFICE-876",
-    "TD-BL-OFFICE-258"
+    "TD-BL-OFFICE-258",
+    "TD-BL-OFFICE-756",
+    "TD-BL-OFFICE-840",
+    "TD-BL-OFFICE-784",
+    "TD-BL-OFFICE-826",
+    "TD-BL-OFFICE-659",
+    "TD-BL-OFFICE-662",
+    "TD-BL-OFFICE-670"
   ],
   "processed_in_current_batch": [
-    "TD-BL-OFFICE-344",
-    "TD-BL-OFFICE-446",
-    "TD-BL-OFFICE-584",
-    "TD-BL-OFFICE-540",
-    "TD-BL-OFFICE-580",
-    "TD-BL-OFFICE-612",
-    "TD-BL-OFFICE-772",
-    "TD-BL-OFFICE-798",
-    "TD-BL-OFFICE-876",
-    "TD-BL-OFFICE-258",
-    "TD-BL-WHO-638"
+    "TD-BL-OFFICE-752",
+    "TD-BL-OFFICE-756",
+    "TD-BL-OFFICE-840",
+    "TD-BL-OFFICE-784",
+    "TD-BL-OFFICE-826",
+    "TD-BL-OFFICE-659",
+    "TD-BL-OFFICE-662",
+    "TD-BL-OFFICE-670"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -843,7 +853,42 @@
     "https://data.who.int/countries/798",
     "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON581",
     "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON567",
-    "https://www.who.int/northernmarianaislands/news/detail"
+    "https://www.who.int/northernmarianaislands/news/detail",
+    "https://www.who.int/countries/swe/",
+    "https://www.who.int/countries/che",
+    "https://www.who.int/countries/usa",
+    "https://www.who.int/countries/are",
+    "https://www.who.int/switzerland",
+    "https://www.who.int/data/gho/data/countries/country-details/GHO/sweden",
+    "https://data.who.int/countries/756",
+    "https://data.who.int/countries/840",
+    "https://data.who.int/countries/784",
+    "https://www.who.int/data/gho/data/countries/country-details/gho/switzerland",
+    "https://www.who.int/data/gho/data/countries/country-details/gho/united-kingdom-of-great-britain-and-northern-ireland",
+    "https://www.who.int/data/gho/data/countries/country-details/gho/united-arab-emirates",
+    "https://www.who.int/data/gho/data/countries/country-details/GHO/united-states-of-america?countryCode=USA",
+    "https://gateway.euro.who.int/en/country-profiles/switzerland/",
+    "https://www.who.int/publications/i/item/who-country-cooperation-strategy--switzerland-2024-2028",
+    "https://www.who.int/publications/i/item/WHO-WHE-CPI-2018.26",
+    "https://www.who.int/publications/i/item/WHO-CCU-18.02-Switzerland",
+    "https://www.who.int/publications/i/item/9789241505284",
+    "https://www.who.int/countries/",
+    "https://data.who.int/countries",
+    "https://www.who.int/gho/countries/are/en/",
+    "https://www.paho.org/en/saint-kitts-and-nevis",
+    "https://www.paho.org/en/saint-lucia",
+    "https://www.paho.org/en/saint-vincent-and-grenadines",
+    "https://www.paho.org/en/news/17-8-2026-saint-kitts-and-nevis-advances-health-workforce-planning-rollout-centralised-health",
+    "https://www.paho.org/en/news/7-8-2026-saint-lucia-advances-integrated-health-surveillance-inclusion-noncommunicable",
+    "https://www.paho.org/en/news/6-8-2026-saint-lucia-launches-national-cancer-registry-strengthen-cancer-prevention-and-care",
+    "https://www.paho.org/en/news/16-2-2026-paho-supports-school-based-hpv-vaccination-drive-saint-vincent-and-grenadines",
+    "https://www.paho.org/en/news/27-2-2026-stakeholders-saint-vincent-and-grenadines-trained-ihr-self-assessment-through-paho",
+    "https://www.paho.org/en/news/19-6-2026-st-vincent-and-grenadines-advances-integrated-health-surveillance-guidelines-paho",
+    "https://www.paho.org/en/news/25-9-2025-saint-vincent-and-grenadines-launch-cervical-cancer-elimination-initiative-and-human",
+    "https://www.paho.org/en/news/18-7-2025-paho-partners-st-vincent-and-grenadines-reinforce-esavi-program",
+    "https://www.paho.org/en/documents/health-and-climate-change-country-profile-2025-saint-kitts-and-nevis",
+    "https://www.paho.org/en/documents/health-and-climate-change-country-profile-2025-saint-lucia",
+    "https://www.paho.org/en/news/11-3-2026-paho-launches-seven-new-caribbean-climate-and-health-country-profiles"
   ],
   "unresolved_retrievals": [
     {
@@ -1343,6 +1388,90 @@
       "url": "https://www.who.int/northernmarianaislands/news/detail",
       "reason": "METADATA_ONLY_NO_FULL_SOURCE_INSPECTION",
       "origin": "D014"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-022",
+      "url": "https://www.paho.org/en/saint-kitts-and-nevis",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-023",
+      "url": "https://www.paho.org/en/saint-lucia",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-024",
+      "url": "https://www.paho.org/en/saint-vincent-and-grenadines",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-025",
+      "url": "https://www.paho.org/en/news/17-8-2026-saint-kitts-and-nevis-advances-health-workforce-planning-rollout-centralised-health",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-026",
+      "url": "https://www.paho.org/en/news/7-8-2026-saint-lucia-advances-integrated-health-surveillance-inclusion-noncommunicable",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-027",
+      "url": "https://www.paho.org/en/news/6-8-2026-saint-lucia-launches-national-cancer-registry-strengthen-cancer-prevention-and-care",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-028",
+      "url": "https://www.paho.org/en/news/16-2-2026-paho-supports-school-based-hpv-vaccination-drive-saint-vincent-and-grenadines",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-029",
+      "url": "https://www.paho.org/en/news/27-2-2026-stakeholders-saint-vincent-and-grenadines-trained-ihr-self-assessment-through-paho",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-030",
+      "url": "https://www.paho.org/en/news/19-6-2026-st-vincent-and-grenadines-advances-integrated-health-surveillance-guidelines-paho",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-031",
+      "url": "https://www.paho.org/en/news/25-9-2025-saint-vincent-and-grenadines-launch-cervical-cancer-elimination-initiative-and-human",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-032",
+      "url": "https://www.paho.org/en/news/18-7-2025-paho-partners-st-vincent-and-grenadines-reinforce-esavi-program",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-033",
+      "url": "https://www.paho.org/en/documents/health-and-climate-change-country-profile-2025-saint-kitts-and-nevis",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-034",
+      "url": "https://www.paho.org/en/documents/health-and-climate-change-country-profile-2025-saint-lucia",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
+    },
+    {
+      "source_id": "ATLAS-RAW-D015-035",
+      "url": "https://www.paho.org/en/news/11-3-2026-paho-launches-seven-new-caribbean-climate-and-health-country-profiles",
+      "reason": "SEARCH_INDEX_METADATA_ONLY_FULL_DIRECT_INSPECTION_NOT_COMPLETED",
+      "origin": "D015"
     }
   ],
   "duplicate_urls_skipped_this_batch": [],
@@ -1353,14 +1482,14 @@
     "other_team_d_workstreams": "Unchanged; refer to Team D finite consolidated backlog",
     "who_current_administration_unprocessed_count": 20,
     "international_network_intake_unprocessed_count": 1,
-    "who_april_2026_host_evidence_unprocessed_count": 29
+    "who_april_2026_host_evidence_unprocessed_count": 22
   },
-  "next_queue_position": "D015: find untouched source leads for 29 WHO_APRIL host P2 cases and 20 WHO_CURRENT_ADMINISTRATION cases; HI_ROLES original register remains. Return to specific original sources where possible; no research case closure.",
-  "next_batch_id": "D015",
+  "next_queue_position": "D016: source-only follow-up on 22 unprocessed office-host cases, 20 current WHO region cases, 1 HI_ROLES network original register; revisit inaccessible metadata and seek direct source-owner April 2026 survey originals. No substantive gate closure.",
+  "next_batch_id": "D016",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D014",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D014_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "0640f5a1be977aaa3c0bf996a896b68fe47c42b0",
+    "batch_id": "D015",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D015_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "c55b6e5e0545f5edcf77a6177918911d0ddc92ef",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
