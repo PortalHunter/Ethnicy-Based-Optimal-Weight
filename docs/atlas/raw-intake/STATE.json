@@ -9,15 +9,16 @@
     "A",
     "D"
   ],
-  "last_completed_batch": "A001",
-  "last_selected_team": "A",
-  "next_team": "D",
-  "completed_batch_count": 2,
-  "cumulative_unique_url_leads": 84,
-  "cumulative_retrieval_limitations": 18,
+  "last_completed_batch": "D001",
+  "last_selected_team": "D",
+  "next_team": "B",
+  "completed_batch_count": 3,
+  "cumulative_unique_url_leads": 124,
+  "cumulative_retrieval_limitations": 22,
   "batch_paths": [
     "docs/atlas/raw-intake/batches/B001_TEAM_B_20261109.json",
-    "docs/atlas/raw-intake/batches/A001_TEAM_A_20261109.json"
+    "docs/atlas/raw-intake/batches/A001_TEAM_A_20261109.json",
+    "docs/atlas/raw-intake/batches/D001_TEAM_D_20261109.json"
   ],
   "processed_queue_items": [
     "M49:016|diabetes|hypertension|lipid_screening",
@@ -39,7 +40,16 @@
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
     "M49:060|initial_source_scan",
-    "M49:068|initial_source_scan"
+    "M49:068|initial_source_scan",
+    "TD-BL-NCA-001",
+    "TD-BL-NCA-002",
+    "TD-BL-NCA-003",
+    "TD-BL-NCA-004",
+    "TD-BL-NCA-005",
+    "TD-BL-NCA-006",
+    "TD-BL-NCA-007",
+    "TD-BL-NCA-008",
+    "TD-BL-NCA-009"
   ],
   "queue_positions": {
     "B": {
@@ -61,28 +71,29 @@
       "status": "Raw intake only; legal research not completed"
     },
     "D": {
-      "batch_cursor": 0,
-      "next": "first uncollected high-yield consolidated_case_backlog_2026-11-07.csv item on research/atlas-team-d-20261104",
-      "base_queue": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv"
+      "batch_cursor": 1,
+      "next": "TD-BL-NCA-010 (France) followed by remaining uncollected NCA regulators, or next high-yield untouched D workstream; preserve D source-only status",
+      "base_queue": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+      "last_selected_ids": [
+        "TD-BL-NCA-001",
+        "TD-BL-NCA-002",
+        "TD-BL-NCA-003",
+        "TD-BL-NCA-004",
+        "TD-BL-NCA-005",
+        "TD-BL-NCA-006",
+        "TD-BL-NCA-007",
+        "TD-BL-NCA-008",
+        "TD-BL-NCA-009"
+      ],
+      "baseline": "236 Team D backlog cases; D001 selected 9 distinct cases, no substantive closure"
     }
   },
-  "next_run_instruction": "Read STATE.json, all prior batch URLs and Team D research backlog from research/atlas-team-d-20261104. Run exactly one Team D raw-source intake batch, commit only to this branch. Do not equate raw intake with completed research.",
+  "next_run_instruction": "Resume intake from latest STATE.json on research/atlas-raw-intake; next B002 from Team B P1 untouched cells and P0 unresolved originals, excluding B001/A001/D001 intake URLs and existing Team B URLs; commit one batch, no research approval.",
   "last_batch_unresolved_retrieval_ids": [
-    "ATLAS-RAW-A001-002",
-    "ATLAS-RAW-A001-013",
-    "ATLAS-RAW-A001-016",
-    "ATLAS-RAW-A001-019",
-    "ATLAS-RAW-A001-023",
-    "ATLAS-RAW-A001-027",
-    "ATLAS-RAW-A001-030",
-    "ATLAS-RAW-A001-033",
-    "ATLAS-RAW-A001-035",
-    "ATLAS-RAW-A001-036",
-    "ATLAS-RAW-A001-037",
-    "ATLAS-RAW-A001-040",
-    "ATLAS-RAW-A001-042",
-    "ATLAS-RAW-A001-044",
-    "ATLAS-RAW-A001-045"
+    "ATLAS-RAW-D001-020",
+    "ATLAS-RAW-D001-021",
+    "ATLAS-RAW-D001-034",
+    "ATLAS-RAW-D001-035"
   ],
   "safe_scope": "No main/team/harness edits, no document full text or personal health/genetic data."
 }
