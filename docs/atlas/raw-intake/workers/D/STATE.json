@@ -55,10 +55,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D008_TEAM_D_20261109.json",
       "source_count": 41,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D009",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D009_TEAM_D_20261109.json",
+      "source_count": 41,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 8,
-  "cumulative_unique_url_leads": 306,
+  "completed_batch_count": 9,
+  "cumulative_unique_url_leads": 347,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -200,7 +206,6 @@
     "TD-BL-OFFICE-020",
     "TD-BL-OFFICE-028",
     "TD-BL-OFFICE-036",
-    "TD-BL-OFFICE-052",
     "TD-BL-OFFICE-056",
     "TD-BL-OFFICE-096",
     "TD-BL-OFFICE-124",
@@ -210,7 +215,6 @@
     "TD-BL-OFFICE-242",
     "TD-BL-OFFICE-246",
     "TD-BL-OFFICE-250",
-    "TD-BL-OFFICE-276",
     "TD-BL-OFFICE-308",
     "TD-BL-OFFICE-352",
     "TD-BL-OFFICE-372",
@@ -545,7 +549,48 @@
     "https://www.who.int/countries/zaf",
     "https://www.who.int/countries/ssd",
     "https://www.who.int/countries/esp",
-    "https://www.who.int/countries/sdn"
+    "https://www.who.int/countries/sdn",
+    "https://www.who.int/andorra",
+    "https://www.paho.org/en/antigua-and-barbuda",
+    "https://www.who.int/australia/",
+    "https://www.who.int/belgium",
+    "https://www.who.int/brunei/",
+    "https://www.paho.org/en/canada",
+    "https://www.who.int/cookislands/",
+    "https://www.who.int/denmark",
+    "https://www.paho.org/en/dominica",
+    "https://www.who.int/fiji/",
+    "https://www.who.int/finland",
+    "https://www.who.int/france/",
+    "https://www.paho.org/en/grenada",
+    "https://www.who.int/iceland",
+    "https://www.who.int/ireland",
+    "https://www.who.int/israel",
+    "https://www.who.int/italy",
+    "https://www.who.int/luxembourg",
+    "https://www.who.int/malta",
+    "https://www.who.int/monaco",
+    "https://www.who.int/naoero/",
+    "https://www.who.int/netherlands",
+    "https://www.who.int/newzealand",
+    "https://www.who.int/niue",
+    "https://www.who.int/norway",
+    "https://data.who.int/countries/585",
+    "https://www.who.int/papuanewguinea",
+    "https://data.who.int/countries/600",
+    "https://www.who.int/portugal",
+    "https://www.who.int/russian-federation",
+    "https://www.who.int/san-marino",
+    "https://www.emro.who.int/countries/saudi-arabia/index.html",
+    "https://www.afro.who.int/countries/senegal",
+    "https://www.who.int/singapore",
+    "https://www.emro.who.int/countries/somalia/index.html",
+    "https://www.afro.who.int/countries/south-africa",
+    "https://www.afro.who.int/countries/south-sudan",
+    "https://www.who.int/spain/",
+    "https://www.emro.who.int/countries/sdn/index.html",
+    "https://www.afro.who.int/countries/south-africa/publication/who-south-africa-2026-1st-quarter-newsletter",
+    "https://www.afro.who.int/countries/south-africa/publication/who-south-africa-2026-2nd-quarter-newsletter-april-june"
   ],
   "unresolved_retrievals": [
     {
@@ -595,9 +640,53 @@
       "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2011/362/20261101",
       "reason": "DIRECT_RETRIEVAL_RESTRICTED_SEARCH_INDEX_ONLY",
       "origin": "D003"
+    },
+    {
+      "source_id": "ATLAS-RAW-D009-002",
+      "url": "https://www.paho.org/en/antigua-and-barbuda",
+      "reason": "OFFICIAL_WHO_LINK_DIRECT_HTTP_403",
+      "origin": "D009"
+    },
+    {
+      "source_id": "ATLAS-RAW-D009-006",
+      "url": "https://www.paho.org/en/canada",
+      "reason": "OFFICIAL_WHO_LINK_DIRECT_HTTP_403",
+      "origin": "D009"
+    },
+    {
+      "source_id": "ATLAS-RAW-D009-009",
+      "url": "https://www.paho.org/en/dominica",
+      "reason": "OFFICIAL_WHO_LINK_DIRECT_HTTP_403",
+      "origin": "D009"
+    },
+    {
+      "source_id": "ATLAS-RAW-D009-013",
+      "url": "https://www.paho.org/en/grenada",
+      "reason": "OFFICIAL_WHO_LINK_DIRECT_HTTP_403",
+      "origin": "D009"
+    },
+    {
+      "source_id": "ATLAS-RAW-D009-032",
+      "url": "https://www.emro.who.int/countries/saudi-arabia/index.html",
+      "reason": "OFFICIAL_WHO_LINK_DIRECT_HTTP_502",
+      "origin": "D009"
+    },
+    {
+      "source_id": "ATLAS-RAW-D009-035",
+      "url": "https://www.emro.who.int/countries/somalia/index.html",
+      "reason": "OFFICIAL_WHO_LINK_DIRECT_HTTP_502",
+      "origin": "D009"
+    },
+    {
+      "source_id": "ATLAS-RAW-D009-039",
+      "url": "https://www.emro.who.int/countries/sdn/index.html",
+      "reason": "OFFICIAL_WHO_LINK_DIRECT_HTTP_502",
+      "origin": "D009"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [],
+  "duplicate_urls_skipped_this_batch": [
+    "https://www.paho.org/en/barbados-and-eastern-caribbean-countries"
+  ],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -607,12 +696,12 @@
     "international_network_intake_unprocessed_count": 3,
     "who_april_2026_host_evidence_unprocessed_count": 73
   },
-  "next_queue_position": "D009: pursue distinct official WHO country/regional presence pages and dated institutional documents for still-open WHO_APRIL_2026_HOST_EVIDENCE cases. Current WHO country portals added by D008 are contextual only; preserve 2026-04 as-of gate.",
-  "next_batch_id": "D009",
+  "next_queue_position": "D010: proceed to unvisited WHO_APRIL_2026_HOST_EVIDENCE queue items with original official 2026-period source leads; do not count current WHO country sites as April 2026 evidence. WHO_ADMINISTRATION 23 and NET 3 still pending.",
+  "next_batch_id": "D010",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D008",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D008_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "37808635c3825e8ff53a6cec8a488853e5e60c52",
+    "batch_id": "D009",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D009_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "5ab45de10aa6a45f23441e0380fe2b58653d48f1",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
