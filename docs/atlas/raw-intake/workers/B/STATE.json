@@ -35,12 +35,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B004_TEAM_B_20261109.json",
       "source_count": 39,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B005",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B005_TEAM_B_20261109.json",
+      "source_count": 39,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 4,
-  "worker_owned_batch_count": 3,
-  "cumulative_team_source_leads": 164,
-  "worker_owned_unique_url_leads": 125,
+  "completed_batch_count": 5,
+  "worker_owned_batch_count": 4,
+  "cumulative_team_source_leads": 203,
+  "worker_owned_unique_url_leads": 164,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -79,7 +85,25 @@
     "M49:242|high_chol",
     "M49:266|high_chol",
     "M49:296|high_chol",
-    "M49:430|high_chol"
+    "M49:430|high_chol",
+    "M49:270|high_chol",
+    "M49:288|high_chol",
+    "M49:426|high_chol",
+    "M49:454|high_chol",
+    "M49:462|high_chol",
+    "M49:480|high_chol",
+    "M49:882|high_chol",
+    "M49:450|high_chol",
+    "M49:466|high_chol",
+    "M49:478|high_chol",
+    "M49:508|high_chol",
+    "M49:562|high_chol",
+    "M49:566|high_chol",
+    "M49:598|high_chol",
+    "M49:646|high_chol",
+    "M49:686|high_chol",
+    "M49:690|high_chol",
+    "M49:694|high_chol"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -97,7 +121,7 @@
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 125,
+    "current_worker_batch_count": 164,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -223,10 +247,50 @@
       "https://www.who.int/publications/m/item/2022-steps-country-report-liberia",
       "https://www.who.int/publications/m/item/2022-steps-fact-sheet-liberia",
       "https://www.who.int/publications/m/item/2011-steps-country-report-liberia",
-      "https://www.who.int/publications/m/item/2011-steps-fact-sheet-liberia"
+      "https://www.who.int/publications/m/item/2011-steps-fact-sheet-liberia",
+      "https://www.who.int/publications/m/item/2010-steps-fact-sheet-gambia",
+      "https://www.who.int/publications/m/item/2023-steps-country-report-ghana",
+      "https://www.who.int/publications/m/item/2006-steps-fact-sheet-ghana",
+      "https://www.who.int/publications/m/item/2012-steps-fact-sheet-lesotho",
+      "https://www.who.int/publications/m/item/2017-steps-country-report-malawi",
+      "https://www.who.int/publications/m/item/2009-steps-country-report-malawi",
+      "https://www.who.int/publications/m/item/2009-steps-fact-sheet-malawi",
+      "https://www.who.int/publications/m/item/2020-2021-steps-country-report-maldives",
+      "https://www.who.int/publications/m/item/2011-steps-country-report-maldives",
+      "https://www.who.int/publications/m/item/2011-steps-fact-sheet-maldives",
+      "https://www.who.int/publications/m/item/2004-steps-country-report-maldives",
+      "https://www.who.int/publications/m/item/2004-steps-fact-sheet-maldives",
+      "https://www.who.int/publications/m/item/2004-steps-country-report-mauritius",
+      "https://www.who.int/publications/m/item/2013-steps-fact-sheet-samoa",
+      "https://www.who.int/publications/m/item/2002-steps-fact-sheet-samoa",
+      "https://www.who.int/publications/m/item/2005-steps-country-report-madagascar",
+      "https://www.who.int/publications/m/item/2005-steps-fact-sheet-madagascar",
+      "https://www.who.int/publications/m/item/2013-steps-country-report-mali",
+      "https://www.who.int/publications/m/item/2007-steps-fact-sheet-mali",
+      "https://www.who.int/publications/m/item/2006-steps-country-report-mauritania",
+      "https://www.who.int/publications/m/item/2006-steps-fact-sheet-mauritania",
+      "https://www.who.int/publications/m/item/2014-2015-steps-country-report-mozambique",
+      "https://www.who.int/publications/m/item/2005-steps-fact-sheet-mozambique",
+      "https://www.who.int/publications/m/item/2021-steps-country-report-niger",
+      "https://www.who.int/publications/m/item/2021-steps-fact-sheet-niger",
+      "https://www.who.int/publications/m/item/2007-steps-country-report-niger",
+      "https://www.who.int/publications/m/item/2003-steps-country-report-nigeria",
+      "https://www.who.int/publications/m/item/2007-08-steps-country-report-papua-new-guinea",
+      "https://www.who.int/publications/m/item/2007-08-steps-fact-sheet-papua-new-guinea",
+      "https://www.who.int/publications/m/item/2021-2022-steps-country-report-rwanda",
+      "https://www.who.int/publications/m/item/2021-2022-steps-fact-sheet-rwanda",
+      "https://www.who.int/publications/m/item/2012-2013-steps-country-report-rwanda",
+      "https://www.who.int/publications/m/item/2015-steps-country-report-senegal",
+      "https://www.who.int/publications/m/item/2015-steps-fact-sheet-senegal",
+      "https://www.who.int/publications/m/item/2013-steps-country-report-seychelles",
+      "https://www.who.int/publications/m/item/2004-steps-country-report-seychelles",
+      "https://www.who.int/publications/m/item/2004-steps-fact-sheet-seychelles",
+      "https://www.who.int/publications/m/item/2009-steps-country-report-sierra-leone",
+      "https://www.who.int/publications/m/item/2009-steps-fact-sheet-sierra-leone"
     ],
     "worker_B003_count": 46,
-    "worker_B004_count": 39
+    "worker_B004_count": 39,
+    "worker_B005_count": 39
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -260,14 +324,14 @@
       }
     ]
   },
-  "next_batch_id": "B005",
-  "next_queue_position": "B005: resume WHO STEPS country catalogue at Gambia, Ghana, Lesotho, Malawi, Maldives, Mauritius, Samoa; 14 countries already listed B004, exclude all existing URLs; then diversify into condition-specific primary sources.",
+  "next_batch_id": "B006",
+  "next_queue_position": "B006: new WHO STEPS reports in Oceania, southern/eastern Africa, Caribbean and Americas; then original condition-specific celiac/lactose/gout/hemochromatosis source leads. Do not repeat B001–B005.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B004",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B004_TEAM_B_20261109.json",
-    "parent_commit_sha": "fd752a3ffef7a0b37b614c4ad51dca9b1a64c428",
+    "batch_id": "B005",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B005_TEAM_B_20261109.json",
+    "parent_commit_sha": "c19958821832780b69c8e55ec0f9c504bd4681b1",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Commit SHA is self-referential and cannot be embedded in own tree; verified worker HEAD is authoritative."
+    "note": "Verified worker HEAD authoritative due to self-referential SHA constraint."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
