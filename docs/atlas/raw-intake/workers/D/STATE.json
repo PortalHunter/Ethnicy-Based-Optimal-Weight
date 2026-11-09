@@ -145,10 +145,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D023_TEAM_D_20261109.json",
       "source_count": 43,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D024",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D024_TEAM_D_20261109.json",
+      "source_count": 41,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 23,
-  "cumulative_unique_url_leads": 894,
+  "completed_batch_count": 24,
+  "cumulative_unique_url_leads": 935,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -388,8 +394,8 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-ACCEPT-002",
-    "TD-BL-ACCEPT-001"
+    "TD-BL-ACCEPT-001",
+    "TD-BL-ACCEPT-002"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -1285,7 +1291,48 @@
     "https://www.w3.org/TR/owl2-mapping-to-rdf/",
     "https://www.w3.org/TR/owl2-profiles/",
     "https://www.w3.org/TR/skos-primer/",
-    "https://www.w3.org/TR/json-ld11-framing/"
+    "https://www.w3.org/TR/json-ld11-framing/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/identifier/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/creator/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/title/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/publisher/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/publicationyear/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/subject/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/contributor/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/date/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/language/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/resourcetype/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/alternateidentifier/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/relatedidentifier/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/size/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/format/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/version/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/rights/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/description/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/geolocation/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/fundingreference/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/relateditem/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/properties/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/appendices/appendix-1/relationType/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/guidance/dynamic-datasets/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/guidance/software-citation/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/guidance/related-item-guide/",
+    "https://datacite-metadata-schema.readthedocs.io/en/4.7/mappings/force11-software-citation/",
+    "https://schema.datacite.org/",
+    "https://force11.org/group/joint-declaration-of-data-citation-principles-final/",
+    "https://force11.org/info/joint-declaration-of-data-citation-principles-final/",
+    "https://www.crossref.org/documentation/schema-library/markup-guide-metadata-segments/relationships/",
+    "https://www.crossref.org/documentation/schema-library/markup-guide-metadata-segments/funding-information",
+    "https://www.crossref.org/documentation/schema-library/required-recommended-elements/",
+    "https://www.crossref.org/documentation/schema-library",
+    "https://www.crossref.org/documentation/schema-library/metadata-deposit-schema/",
+    "https://docs.github.com/en/rest/actions/workflow-runs",
+    "https://docs.github.com/en/rest/actions/workflow-jobs",
+    "https://docs.github.com/en/rest/actions/artifacts",
+    "https://docs.github.com/en/rest/actions/workflows",
+    "https://docs.github.com/en/rest/checks/runs",
+    "https://docs.github.com/en/rest/commits/statuses"
   ],
   "unresolved_retrievals": [
     {
@@ -2074,6 +2121,20 @@
       "origin": "D023",
       "url": null,
       "reason": "ORIGINAL_NOV_2026_CODESPACES_NATIVE_STDOUT_STDERR_LOGS_AND_EXECUTED_SHA_UNRESOLVED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-ACCEPT-001",
+      "origin": "D024",
+      "url": null,
+      "reason": "INDEPENDENT_SOURCE_GRAPH_COMPLETE_SEMANTIC_AND_RIGHTS_REVIEW_NOT_RETRIEVED_OR_PERFORMED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-ACCEPT-002",
+      "origin": "D024",
+      "url": null,
+      "reason": "CODESPACES_NATIVE_STDOUT_STDERR_AND_EXECUTED_SHA_NOT_RETRIEVED"
     }
   ],
   "duplicate_urls_skipped_this_batch": [],
@@ -2091,12 +2152,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Follow original Team D source-owner gaps: April 2026 WHO respondent applicability and original scoped semantic/reproducibility evidence. Additional accepted methods-source leads may continue; no substantive closure.",
-  "next_batch_id": "D024",
+  "next_queue_position": "Continue original WHO April 2026 office-host applicability for 158 and 239; actual Codespaces native logs/commit identity; independent semantic graph and source-rights acceptance evidence; raw-source only.",
+  "next_batch_id": "D025",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D023",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D023_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "2cba84e39e5f7a015af4639fedb52cb65b32476f",
+    "batch_id": "D024",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D024_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "2e02625472bc6440b14dfd518c190b524d2d3598",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
