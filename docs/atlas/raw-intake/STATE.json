@@ -9,14 +9,15 @@
     "A",
     "D"
   ],
-  "last_completed_batch": "B001",
-  "last_selected_team": "B",
-  "next_team": "A",
-  "completed_batch_count": 1,
-  "cumulative_unique_url_leads": 39,
-  "cumulative_retrieval_limitations": 3,
+  "last_completed_batch": "A001",
+  "last_selected_team": "A",
+  "next_team": "D",
+  "completed_batch_count": 2,
+  "cumulative_unique_url_leads": 84,
+  "cumulative_retrieval_limitations": 18,
   "batch_paths": [
-    "docs/atlas/raw-intake/batches/B001_TEAM_B_20261109.json"
+    "docs/atlas/raw-intake/batches/B001_TEAM_B_20261109.json",
+    "docs/atlas/raw-intake/batches/A001_TEAM_A_20261109.json"
   ],
   "processed_queue_items": [
     "M49:016|diabetes|hypertension|lipid_screening",
@@ -34,7 +35,11 @@
     "M49:028|diabetes|hypertension",
     "M49:028|diabetes|hypertension|NCD_risk_survey",
     "M49:012|hypertension",
-    "M49:028|diabetes|hypertension|NCD_country_profile"
+    "M49:028|diabetes|hypertension|NCD_country_profile",
+    "M49:004|initial_source_scan",
+    "M49:051|initial_source_scan",
+    "M49:060|initial_source_scan",
+    "M49:068|initial_source_scan"
   ],
   "queue_positions": {
     "B": {
@@ -44,9 +49,16 @@
       "baseline": "Batch 98: 1154 untouched cells, 342 unaudited existing URLs; these counts are NOT decremented by raw intake"
     },
     "A": {
-      "batch_cursor": 0,
-      "next": "first uncollected high-yield research_queue.csv item on research/atlas-team-a-20261104",
-      "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
+      "batch_cursor": 1,
+      "last_selected_m49": [
+        "004",
+        "051",
+        "060",
+        "068"
+      ],
+      "next": "M49:070 Bosnia and Herzegovina: next QUEUED row after 068; Afghanistan 004 original-law source retrieval remains unresolved",
+      "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv",
+      "status": "Raw intake only; legal research not completed"
     },
     "D": {
       "batch_cursor": 0,
@@ -54,11 +66,23 @@
       "base_queue": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv"
     }
   },
-  "next_run_instruction": "Read STATE.json, the listed batch files for URL deduplication, and the next team's current worklist; execute ONE new bounded raw intake batch; commit only to this branch. Never treat lead collection as verification.",
+  "next_run_instruction": "Read STATE.json, all prior batch URLs and Team D research backlog from research/atlas-team-d-20261104. Run exactly one Team D raw-source intake batch, commit only to this branch. Do not equate raw intake with completed research.",
   "last_batch_unresolved_retrieval_ids": [
-    "ATLAS-RAW-B001-010",
-    "ATLAS-RAW-B001-017",
-    "ATLAS-RAW-B001-029"
+    "ATLAS-RAW-A001-002",
+    "ATLAS-RAW-A001-013",
+    "ATLAS-RAW-A001-016",
+    "ATLAS-RAW-A001-019",
+    "ATLAS-RAW-A001-023",
+    "ATLAS-RAW-A001-027",
+    "ATLAS-RAW-A001-030",
+    "ATLAS-RAW-A001-033",
+    "ATLAS-RAW-A001-035",
+    "ATLAS-RAW-A001-036",
+    "ATLAS-RAW-A001-037",
+    "ATLAS-RAW-A001-040",
+    "ATLAS-RAW-A001-042",
+    "ATLAS-RAW-A001-044",
+    "ATLAS-RAW-A001-045"
   ],
   "safe_scope": "No main/team/harness edits, no document full text or personal health/genetic data."
 }
