@@ -60,13 +60,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A009_TEAM_A_20261109.json",
       "source_count": 48
+    },
+    {
+      "batch_id": "A010",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A010_TEAM_A_20261109.json",
+      "source_count": 50
     }
   ],
-  "completed_worker_batch_count": 8,
-  "completed_team_a_intake_batch_count": 9,
-  "worker_new_unique_url_leads": 347,
-  "team_a_cumulative_unique_url_leads": 392,
-  "last_completed_batch": "A009",
+  "completed_worker_batch_count": 9,
+  "completed_team_a_intake_batch_count": 10,
+  "worker_new_unique_url_leads": 397,
+  "team_a_cumulative_unique_url_leads": 442,
+  "last_completed_batch": "A010",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -90,14 +96,15 @@
     "M49:136|initial_source_scan",
     "M49:140|initial_source_scan",
     "M49:144|initial_source_scan",
-    "M49:148|initial_source_scan"
+    "M49:148|initial_source_scan",
+    "M49:152|initial_source_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "148"
+      "152"
     ],
-    "next": "M49:152 Chile, M49:156 China, M49:158 Taiwan (geographic queue disposition as defined in team worklist). Chad journal issues need per-instrument follow-up.",
-    "next_batch_id": "A010",
+    "next": "M49:156 China health authority, foundational laws, original statutory and administrative instruments; Chile historical/current amendment chains not audited.",
+    "next_batch_id": "A011",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -124,8 +131,8 @@
     "M49:140 CAR original Journal officiel and health law/decree chain not collected; A008 official ministry policy documents do not establish legal validity",
     "M49:144 Sri Lanka National Medicines Regulatory Authority Act, Medical Ordinance, statutes and Gazette amendment chain not yet scanned; A008 policy URLs are raw leads",
     "M49:148 Chad primary healthcare statute and decree-specific health law leads still unresolved; A009 gathered journal issues and regulator/authority discovery pages but did not inspect enactment chains",
-    "M49:152 Chile next untouched Team A queue item",
-    "M49:156 China next untouched Team A queue item"
+    "M49:156 China next untouched Team A queue item",
+    "M49:152 Chile sectoral regional delegations, post-2025 current consolidated statutes and national gazette source authentication still unresolved; A010 source intake only"
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -519,7 +526,57 @@
     "https://dgpml.com/homologuer-un-produit/",
     "https://dgpml.com/vigilance-et-essais-cliniques/",
     "https://dgpml.com/publications/",
-    "https://dgpml.com/base-de-donnees/"
+    "https://dgpml.com/base-de-donnees/",
+    "https://www.superdesalud.gob.cl/tax-marco-normativo/leyes-3002/",
+    "https://www.superdesalud.gob.cl/normativa/ley-n-21-541/",
+    "https://www.superdesalud.gob.cl/normativa/ley-n-21-350/",
+    "https://www.superdesalud.gob.cl/normativa/ley-n-21-133/",
+    "https://www.superdesalud.gob.cl/normativa/ley-n-20-850/",
+    "https://www.superdesalud.gob.cl/normativa/ley-n-20-635/",
+    "https://www.superdesalud.gob.cl/normativa/ley-20-584/",
+    "https://www.superdesalud.gob.cl/normativa/ley-n-20-394/",
+    "https://www.superdesalud.gob.cl/normativa/ley-n-19-966-auge/",
+    "https://www.superdesalud.gob.cl/normativa/dfl-n1/",
+    "https://www.superdesalud.gob.cl/normativa/dfl-n3/",
+    "https://www.bcn.cl/leychile/Navegar?idNorma=5595",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-30/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-04-2024/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n43/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n22/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-supremo-n36/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-exento-n5/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-exento-n128/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n47/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-no8-ges/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-supremo-n17/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-exento-n284/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n22-2/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-45/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-13/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-141/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-50/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-309/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-21/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-189/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-3/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-51/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-91/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-89/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-1243/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-87/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-530/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-80/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-54/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-59/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-77/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-105/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-44-2/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-45-2/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-8/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-38-minsal/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-41/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-31-minsal/",
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-35-minsal/"
   ],
   "unresolved_retrievals": [
     {
@@ -879,12 +936,12 @@
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A009",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A009_TEAM_A_20261109.json",
+    "batch_id": "A010",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A010_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "c85c1039f09b78f771b9cdeebbd1b2e0056477db",
+    "parent_commit_sha": "8e232ce10ec2d1b31a43079c769248e56c6dcae2",
     "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD because own commit cannot be self-embedded"
   },
-  "next_run_instruction": "Resume at A010, M49:152 Chile (and next untouched rows); use primary legal and health-authority indexes. Deduplicate against worker STATE and commit each 30–50 lead batch.",
+  "next_run_instruction": "Resume A011 with M49:156 China health and legal source acquisition. Source-only intake: no legal validation or current-effect claims.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
