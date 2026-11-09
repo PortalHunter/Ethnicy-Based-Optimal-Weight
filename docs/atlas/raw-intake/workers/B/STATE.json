@@ -89,12 +89,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B013_TEAM_B_20261109.json",
       "source_count": 36,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B014",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B014_TEAM_B_20261109.json",
+      "source_count": 41,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 13,
-  "worker_owned_batch_count": 12,
-  "cumulative_team_source_leads": 508,
-  "worker_owned_unique_url_leads": 469,
+  "completed_batch_count": 14,
+  "worker_owned_batch_count": 13,
+  "cumulative_team_source_leads": 549,
+  "worker_owned_unique_url_leads": 510,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -273,7 +279,18 @@
     "CROSS_REGION:RWANDA_AND_BURUNDI|gout",
     "M49:566|hemochromatosis",
     "M49:800|gout",
-    "M49:686|hyperuricemia"
+    "M49:686|hyperuricemia",
+    "M49:598|lactose",
+    "CROSS_REGION:SAMOA_COOK_ISLANDS_AND_NEW_ZEALAND|lactose",
+    "M49:554|hemochromatosis",
+    "CROSS_REGION:TOKELAU_MIGRANTS_IN_NEW_ZEALAND|lactose",
+    "M49:840|gout",
+    "CROSS_REGION:JAPAN_AND_NEW_ZEALAND|gout",
+    "CROSS_REGION:POLYNESIA_AND_OTHER_POPULATIONS|gout",
+    "CROSS_REGION:MELANESIAN_VIETNAMESE_AND_MOROCCAN_FAMILIES|gout",
+    "CROSS_REGION:POLYNESIAN_FAMILY_IN_AUSTRALIA|gout",
+    "CROSS_REGION:NEW_ZEALAND_AND_ENGLAND|gout",
+    "CROSS_REGION:TOKELAU_AND_NEW_ZEALAND|gout"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -287,11 +304,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Continue uncollected P1 Oceania and country-condition originals, especially targeted Peru gout, Bangladesh celiac/lactose and Sri Lanka gout. African candidate indexing does not decrement original 1,154 untouched baseline cells or close medical gates."
+    "P1_next": "Continue targeted originals for Peru gout, Bangladesh celiac/lactose and Sri Lanka gout; prioritize untouched other P1 country-condition sources. Baseline untouched 1,154 and unaudited 342 not decremented by intake."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 469,
+    "current_worker_batch_count": 510,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -761,7 +778,48 @@
       "https://pubmed.ncbi.nlm.nih.gov/9451425/",
       "https://pubmed.ncbi.nlm.nih.gov/7227157/",
       "https://pubmed.ncbi.nlm.nih.gov/1795322/",
-      "https://pubmed.ncbi.nlm.nih.gov/40860859/"
+      "https://pubmed.ncbi.nlm.nih.gov/40860859/",
+      "https://pubmed.ncbi.nlm.nih.gov/1103293/",
+      "https://pubmed.ncbi.nlm.nih.gov/40927750/",
+      "https://pubmed.ncbi.nlm.nih.gov/22426580/",
+      "https://pubmed.ncbi.nlm.nih.gov/9059136/",
+      "https://pubmed.ncbi.nlm.nih.gov/24360580/",
+      "https://pubmed.ncbi.nlm.nih.gov/434766/",
+      "https://pubmed.ncbi.nlm.nih.gov/6781163/",
+      "https://pubmed.ncbi.nlm.nih.gov/6794421/",
+      "https://pubmed.ncbi.nlm.nih.gov/6794422/",
+      "https://pubmed.ncbi.nlm.nih.gov/3119083/",
+      "https://pubmed.ncbi.nlm.nih.gov/3857498/",
+      "https://pubmed.ncbi.nlm.nih.gov/17565641/",
+      "https://pubmed.ncbi.nlm.nih.gov/9418837/",
+      "https://pubmed.ncbi.nlm.nih.gov/28561524/",
+      "https://pubmed.ncbi.nlm.nih.gov/1715264/",
+      "https://pubmed.ncbi.nlm.nih.gov/10369430/",
+      "https://pubmed.ncbi.nlm.nih.gov/28019068/",
+      "https://pubmed.ncbi.nlm.nih.gov/22864154/",
+      "https://pubmed.ncbi.nlm.nih.gov/38163751/",
+      "https://pubmed.ncbi.nlm.nih.gov/35451026/",
+      "https://pubmed.ncbi.nlm.nih.gov/34210831/",
+      "https://pubmed.ncbi.nlm.nih.gov/20472486/",
+      "https://pubmed.ncbi.nlm.nih.gov/27899376/",
+      "https://pubmed.ncbi.nlm.nih.gov/32114511/",
+      "https://pubmed.ncbi.nlm.nih.gov/28371506/",
+      "https://pubmed.ncbi.nlm.nih.gov/27094595/",
+      "https://pubmed.ncbi.nlm.nih.gov/37021930/",
+      "https://pubmed.ncbi.nlm.nih.gov/7847350/",
+      "https://pubmed.ncbi.nlm.nih.gov/22989425/",
+      "https://pubmed.ncbi.nlm.nih.gov/2956666/",
+      "https://pubmed.ncbi.nlm.nih.gov/2956665/",
+      "https://pubmed.ncbi.nlm.nih.gov/19734730/",
+      "https://pubmed.ncbi.nlm.nih.gov/9824612/",
+      "https://pubmed.ncbi.nlm.nih.gov/27784128/",
+      "https://pubmed.ncbi.nlm.nih.gov/36936597/",
+      "https://pubmed.ncbi.nlm.nih.gov/42170956/",
+      "https://pubmed.ncbi.nlm.nih.gov/40176052/",
+      "https://pubmed.ncbi.nlm.nih.gov/34949187/",
+      "https://pubmed.ncbi.nlm.nih.gov/33785108/",
+      "https://pubmed.ncbi.nlm.nih.gov/31039932/",
+      "https://pubmed.ncbi.nlm.nih.gov/24624415/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -805,14 +863,14 @@
       }
     ]
   },
-  "next_batch_id": "B014",
-  "next_queue_position": "B014: prioritize untouched Oceania/country-condition original medical sources and the four P0 cases; skip B001–B013 URLs and article-level duplicates.",
+  "next_batch_id": "B015",
+  "next_queue_position": "B015: search untouched Latin America, South Asia and other country-condition original clinical/epidemiological sources; retain four P0 original-source blockers; exclude B001–B014 URLs.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B013",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B013_TEAM_B_20261109.json",
-    "parent_commit_sha": "29280ac1f08e0288f0317d0fdb3fd5b87a3e11b0",
+    "batch_id": "B014",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B014_TEAM_B_20261109.json",
+    "parent_commit_sha": "b21db7ab07990cb3222f32bb5b64aebe3785d5ed",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Atomic state+batch cannot self-reference commit SHA; verify from worker HEAD."
+    "note": "Atomic batch+state commit cannot self-reference own SHA; resolve worker HEAD."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
