@@ -2001,8 +2001,31 @@
           "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-D-NET-009-a06bb10e65345dc73f9340b3"
+      "status": "cancelled",
+      "launch_id": "launch-D-NET-009-a06bb10e65345dc73f9340b3",
+      "cancellation": {
+        "action": "cancel",
+        "run_id": "run-D-D01-NET-009-20261108-2418c6f9",
+        "reason": "Maintainer-confirmed original Researcher termination; unpublished detached NET-009 proposal blocked by independent verification for unsupported EFAPH dual-joining claim; cancel without changing prior research or branch.",
+        "review": "Maintainer explicitly confirmed in current chat on 2026-11-08 at approximately 18:31 America/Chicago that the original worker has stopped and will make no further GitHub writes under launch-D-NET-009-a06bb10e65345dc73f9340b3. Read-only reconciliation at https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/493b205c14f981bc84ea3b21a39669b139dc72ae: checkout original ticket RUNNING, original start transition https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/8eb8b44d6986de8c4715ecbbf90b9e633601cced; canonical Team D head https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/d3eb7b830870c6e30055d7251841ed67ac482b82 unchanged at original packet expected_sha; path docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json absent on Team D; both PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70 and https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/75 remain open/draft/unmerged. Frozen detached proposal https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f37d69980fcd6e0c3186c126cd1308116879eb3a is a direct child of Team D head adding only target JSON, not canonical publication. Independent verifier blocked unsupported 'join both EFAPH and HI' in HI-EU-EFAPH locator and one validation entry. No canonical in-flight Team D branch write or published manifest was observable. Worker termination is explicitly maintainer-attested, not inferred from branch inactivity. Cancel preserves original history; replacement is EFAPH-only correction with blocked disposition, all other evidence, qualification, and reopening gates retained. No dataset/PR/production writes."
+      }
+    },
+    "run-D-D01-NET-009-R1-20261108-493b205c": {
+      "team": "D",
+      "key": "D-01:TD-BL-NET-009",
+      "packet": {
+        "version": 1,
+        "task": "D-01",
+        "case": "TD-BL-NET-009",
+        "expected_sha": "d3eb7b830870c6e30055d7251841ed67ac482b82",
+        "queue_path": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "row_key": "TD-BL-NET-009",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json"
+        ]
+      },
+      "status": "reserved"
     }
   }
 }
