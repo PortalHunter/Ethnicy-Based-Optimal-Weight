@@ -72,13 +72,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A011_TEAM_A_20261109.json",
       "source_count": 38
+    },
+    {
+      "batch_id": "A012",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A012_TEAM_A_20261109.json",
+      "source_count": 45
     }
   ],
-  "completed_worker_batch_count": 10,
-  "completed_team_a_intake_batch_count": 11,
-  "worker_new_unique_url_leads": 435,
-  "team_a_cumulative_unique_url_leads": 480,
-  "last_completed_batch": "A011",
+  "completed_worker_batch_count": 11,
+  "completed_team_a_intake_batch_count": 12,
+  "worker_new_unique_url_leads": 480,
+  "team_a_cumulative_unique_url_leads": 525,
+  "last_completed_batch": "A012",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -104,14 +110,17 @@
     "M49:144|initial_source_scan",
     "M49:148|initial_source_scan",
     "M49:152|initial_source_scan",
-    "M49:156|initial_source_scan"
+    "M49:156|initial_source_scan",
+    "M49:162|initial_source_scan",
+    "M49:166|initial_source_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "156"
+      "162",
+      "166"
     ],
-    "next": "M49:158 Taiwan (subject to Team A geopolitical and jurisdictional queue definitions); M49:162 Christmas Island; continue targeted unresolved original health enactments in China and Chile without duplicate intake.",
-    "next_batch_id": "A012",
+    "next": "M49:170 Colombia, M49:174 Comoros, M49:178 Congo, M49:180 Democratic Republic of Congo. M49:158 absent from actual Team A queue.",
+    "next_batch_id": "A013",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -140,7 +149,9 @@
     "M49:148 Chad primary healthcare statute and decree-specific health law leads still unresolved; A009 gathered journal issues and regulator/authority discovery pages but did not inspect enactment chains",
     "M49:152 Chile sectoral regional delegations, post-2025 current consolidated statutes and national gazette source authentication still unresolved; A010 source intake only",
     "M49:156 China province-specific health authority and regional original legislation, 2026 consolidated statute editions, and primary National People's Congress legal database not yet systematically collected",
-    "M49:158 Taiwan next geographic queue item (jurisdictional designation to follow established Team A queue, not determined at intake)"
+    "M49:158 Taiwan next geographic queue item (jurisdictional designation to follow established Team A queue, not determined at intake)",
+    "M49:162/166 territorial applicability, 2026 changes and issuer delegations of Western Australian statutes unresolved (raw only)",
+    "M49:158 Taiwan absent from live Team A research_queue.csv despite previous checkpoint, queue mismatch unresolved"
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -622,7 +633,52 @@
     "https://www.nhc.gov.cn/zwgkzt/pfl/list.shtml",
     "https://www.nhc.gov.cn/wjw/gfxwjj/list_2.shtml",
     "https://wjw.beijing.gov.cn/zwgk_20040/ztzl/xzzf/xzzfjbxxs/202607/t20260723_4781109.html",
-    "https://www.nhc.gov.cn/wjw/zcfg/list_31.shtml"
+    "https://www.nhc.gov.cn/wjw/zcfg/list_31.shtml",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a36.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a147498.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a76.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a193.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a286.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a146689.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a345.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a147436.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a147107.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a364.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a147008.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a146779.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a147114.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a655.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a147434.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a143206.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a343.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a344.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a1991.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a346.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a356.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a363.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a147377.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a146912.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a147299.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a147133.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a146696.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a847.html&view=consolidated",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/law_a147242.html&view=consolidated",
+    "https://www.legislation.gov.au/C1958A00041/latest",
+    "https://www.legislation.gov.au/Details/F2006B00507",
+    "https://www.legislation.gov.au/Details/F2021C00108",
+    "https://www.legislation.gov.au/F2016L00524",
+    "https://www.infrastructure.gov.au/territories-regions-cities/territories/indian-ocean-territories/christmas-island/governance-administration",
+    "https://www.legislation.gov.au/Details/C1955A00034",
+    "https://www.legislation.gov.au/F2006B01318/latest",
+    "https://www.legislation.gov.au/F2012L02040/latest/text",
+    "https://www.legislation.gov.au/F2007B01292/2025-11-19/2025-11-19/text/original/pdf",
+    "https://www.legislation.gov.au/F2015L00849/2015-07-14/2015-07-14/text/1/epub/OEBPS/document_1/document_1.html",
+    "https://www.infrastructure.gov.au/territories-regions-cities/territories/indian-ocean-territories/health-service",
+    "https://www.infrastructure.gov.au/territories-regions-cities/territories/indian-ocean-territories/gazettes-bulletins",
+    "https://www.infrastructure.gov.au/sites/default/files/documents/service-delivery-arrangements-information-kit-indian-ocean-territories-november2024.pdf",
+    "https://www.infrastructure.gov.au/sites/default/files/documents/indian-ocean-territories-service-delivery-arrangements-2022-23-annual-report-june2024.pdf",
+    "https://www.legislation.gov.au/help-and-resources/understanding-legislation/territories",
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/actspr_362.html"
   ],
   "unresolved_retrievals": [
     {
@@ -987,12 +1043,12 @@
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A011",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A011_TEAM_A_20261109.json",
+    "batch_id": "A012",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A012_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "ce9dcc4a07f9e6bbb8e2bad78e7cb3a75ad629d5",
-    "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD because own commit cannot be self-embedded"
+    "parent_commit_sha": "640f8ae5bb4e19885200390ac3d1bbd58dfe6984",
+    "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD; own SHA cannot be self-embedded"
   },
-  "next_run_instruction": "Resume A012 from worker state alone: next geographic queue item M49:158 subject to existing Team A jurisdictional definitions; preserve only-source intake. Remaining unresolved Chinese local statutes and administrative rules separately tracked.",
+  "next_run_instruction": "Resume A013 from M49:170 Colombia; raw source collection only.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
