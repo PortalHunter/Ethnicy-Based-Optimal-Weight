@@ -2026,6 +2026,32 @@
         ]
       },
       "status": "reserved"
+    },
+    "run-B-B01-US-ACR-GOUT-20261108-f2a8c79e": {
+      "team": "B",
+      "key": "B-01:B-US-ACR.gout.09b4f6ee8c58",
+      "packet": {
+        "version": 1,
+        "task": "B-01",
+        "case": "B-US-ACR.gout.09b4f6ee8c58",
+        "expected_sha": "d1f7393fd9dd17a913edf52656f97d3b4694a4f7",
+        "queue_path": "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+        "row_key": "org_id=B-US-ACR|condition_key=gout|original_exact_URL=https://rheumatology.org/Practice-Quality/Clinical-Support/Clinical-Practice-Guidelines",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-ACR.gout.09b4f6ee8c58.json",
+          "docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+          "docs/atlas/handoffs/team-b/data/publication_context.csv",
+          "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+          "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-b/data/search_log.csv",
+          "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
+          "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+          "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+          "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
+        ]
+      },
+      "status": "reserved"
     }
   }
 }
