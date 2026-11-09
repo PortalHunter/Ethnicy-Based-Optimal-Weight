@@ -78,13 +78,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A012_TEAM_A_20261109.json",
       "source_count": 45
+    },
+    {
+      "batch_id": "A013",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A013_TEAM_A_20261109.json",
+      "source_count": 42
     }
   ],
-  "completed_worker_batch_count": 11,
-  "completed_team_a_intake_batch_count": 12,
-  "worker_new_unique_url_leads": 480,
-  "team_a_cumulative_unique_url_leads": 525,
-  "last_completed_batch": "A012",
+  "completed_worker_batch_count": 12,
+  "completed_team_a_intake_batch_count": 13,
+  "worker_new_unique_url_leads": 522,
+  "team_a_cumulative_unique_url_leads": 567,
+  "last_completed_batch": "A013",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -112,15 +118,15 @@
     "M49:152|initial_source_scan",
     "M49:156|initial_source_scan",
     "M49:162|initial_source_scan",
-    "M49:166|initial_source_scan"
+    "M49:166|initial_source_scan",
+    "M49:170|initial_source_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "162",
-      "166"
+      "170"
     ],
-    "next": "M49:170 Colombia, M49:174 Comoros, M49:178 Congo, M49:180 Democratic Republic of Congo. M49:158 absent from actual Team A queue.",
-    "next_batch_id": "A013",
+    "next": "M49:174 Comoros; M49:178 Congo; M49:180 Democratic Republic of the Congo",
+    "next_batch_id": "A014",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -151,7 +157,9 @@
     "M49:156 China province-specific health authority and regional original legislation, 2026 consolidated statute editions, and primary National People's Congress legal database not yet systematically collected",
     "M49:158 Taiwan next geographic queue item (jurisdictional designation to follow established Team A queue, not determined at intake)",
     "M49:162/166 territorial applicability, 2026 changes and issuer delegations of Western Australian statutes unresolved (raw only)",
-    "M49:158 Taiwan absent from live Team A research_queue.csv despite previous checkpoint, queue mismatch unresolved"
+    "M49:158 Taiwan absent from live Team A research_queue.csv despite previous checkpoint, queue mismatch unresolved",
+    "M49:170 Colombia Diario Oficial original enactments, 2026 promulgation/amendment chains, departmental/municipal laws and cross-issuer competences not validated; A013 raw metadata only.",
+    "M49:170 SISPRO labelled Decreto 3180/2004 but URL pointed to Decreto 3880/2005; original identity unresolved."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -678,7 +686,49 @@
     "https://www.infrastructure.gov.au/sites/default/files/documents/service-delivery-arrangements-information-kit-indian-ocean-territories-november2024.pdf",
     "https://www.infrastructure.gov.au/sites/default/files/documents/indian-ocean-territories-service-delivery-arrangements-2022-23-annual-report-june2024.pdf",
     "https://www.legislation.gov.au/help-and-resources/understanding-legislation/territories",
-    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/actspr_362.html"
+    "https://www.legislation.wa.gov.au/legislation/statutes.nsf/actspr_362.html",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/ley-100-de-1993.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/ley-1122-de-2007.pdf",
+    "https://www.minsalud.gov.co/Normatividad_Nuevo/LEY%201438%20DE%202011.pdf",
+    "https://www.minsalud.gov.co/Normatividad_Nuevo/Ley%201751%20de%202015.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Decreto-0515-de-2004.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Decreto-3880-de-2005.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Decreto-3183-de-2004.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Decreto-1011-de-2006.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/decreto-0903-de-2014.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resoluci%C3%B3n_1740_de_2008.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resolucion-4504-de-2012.PDF",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1419-de-2013.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resolucion-2003-de-2014.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Resoluci%C3%B3n%203678%20de%202014.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-0226-de-2015.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-5158-de-2015.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-0256-2016.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1416-2016.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-229-de-2020.pdf",
+    "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=105472",
+    "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981",
+    "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77813",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1799-de-2026.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1888-de-2025.pdf",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-866-de-2021.pdf",
+    "https://www.minsalud.gov.co/Normatividad_Nuevo/Resolucion%20No%20839%20de%202017.pdf",
+    "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=16737",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/circular-externa-0019-de-2026.pdf",
+    "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?20=&i=4452",
+    "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=5248",
+    "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1633-de-2025.pdf",
+    "https://minsalud.gov.co/Normatividad_Nuevo/Resolucion%20No%201211%20de%202025.pdf",
+    "https://www.minsalud.gov.co/Normatividad_Nuevo/Resolucion%20No%202706%20de%202025.pdf",
+    "https://www2.minsalud.gov.co/Normatividad_Nuevo/Resolucion%20No%20119%20de%202026.pdf",
+    "https://www.minsalud.gov.co/Normatividad_Nuevo/001058%20Por%20la%20cual%20se%20adopta%20e%20implementa%20la%20Pol%C3%ADtica%20Nacional%20de%20Calidad%20en%20Salud%202026%20-%202035%20Calidad%20en%20salud%2C%20cuidado%20integral%20para%20una%20vida%20saludable.pdf",
+    "https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No%201020%20de%202026.pdf",
+    "https://minsalud.gov.co/salud/publica/Paginas/equipos-basicos-en-salud.aspx",
+    "https://contenidos.sispro.gov.co/observatorios/oncalidadsalud/Paginas/Normas.aspx",
+    "https://www.minsalud.gov.co/ihce/Paginas/Normatividad.aspx",
+    "https://dapre.presidencia.gov.co/normativa/leyes",
+    "https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/normatividad-medicamentos",
+    "https://www.minsalud.gov.co/Comunicaciones/noticias/2026/Paginas/colombia-moderniza-su-sistema-unico-de-habilitacion-una-reglamentacion-mas-clara-agil-y-centrada-en-la-seguridad-del-pacien.aspx"
   ],
   "unresolved_retrievals": [
     {
@@ -1040,15 +1090,50 @@
       "source_id": "ATLAS-RAW-A011-035",
       "url": "https://www.nhc.gov.cn/zwgkzt/pfl/list.shtml",
       "reason": "HTTP_412_DIRECT_ACCESS_BLOCKED_SEARCH_INDEX_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A013-003",
+      "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/LEY%201438%20DE%202011.pdf",
+      "reason": "WEB_LINK_TIMEOUT_OR_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A013-004",
+      "url": "https://www.minsalud.gov.co/Normatividad_Nuevo/Ley%201751%20de%202015.pdf",
+      "reason": "WEB_LINK_TIMEOUT_OR_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A013-006",
+      "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Decreto-3880-de-2005.pdf",
+      "reason": "SISPRO_INDEX_LINK_TARGET_3880_2005_VS_LABEL_3180_2004"
+    },
+    {
+      "source_id": "ATLAS-RAW-A013-020",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=105472",
+      "reason": "WEB_FETCH_HTTP_502"
+    },
+    {
+      "source_id": "ATLAS-RAW-A013-021",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981",
+      "reason": "WEB_FETCH_HTTP_502"
+    },
+    {
+      "source_id": "ATLAS-RAW-A013-022",
+      "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77813",
+      "reason": "WEB_FETCH_HTTP_502"
+    },
+    {
+      "source_id": "ATLAS-RAW-A013-023",
+      "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1799-de-2026.pdf",
+      "reason": "WEB_LINK_TIMEOUT_OR_ERROR"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A012",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A012_TEAM_A_20261109.json",
+    "batch_id": "A013",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A013_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "640f8ae5bb4e19885200390ac3d1bbd58dfe6984",
+    "parent_commit_sha": "ff96fb846476dc5c4e9df095040db82f9a4cc4d6",
     "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD; own SHA cannot be self-embedded"
   },
-  "next_run_instruction": "Resume A013 from M49:170 Colombia; raw source collection only.",
+  "next_run_instruction": "Resume A014 at M49:174 Comoros, then M49:178 Congo and M49:180 DRC; source acquisition only.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
