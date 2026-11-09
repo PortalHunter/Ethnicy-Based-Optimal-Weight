@@ -107,12 +107,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B016_TEAM_B_20261109.json",
       "source_count": 37,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B017",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B017_TEAM_B_20261109.json",
+      "source_count": 33,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 16,
-  "worker_owned_batch_count": 15,
-  "cumulative_team_source_leads": 634,
-  "worker_owned_unique_url_leads": 595,
+  "completed_batch_count": 17,
+  "worker_owned_batch_count": 16,
+  "cumulative_team_source_leads": 667,
+  "worker_owned_unique_url_leads": 628,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -334,7 +340,15 @@
     "CROSS_REGION:LATAM|high_chol",
     "M49:144|lactose",
     "CROSS_REGION:FILIPINO_US|gout",
-    "CROSS_REGION:EAST_ASIA|high_chol"
+    "CROSS_REGION:EAST_ASIA|high_chol",
+    "M49:792|celiac",
+    "M49:764|lactose",
+    "CROSS_REGION:SOUTHEAST_ASIA|lactose",
+    "M49:364|gout",
+    "M49:710|gout",
+    "M49:682|gout",
+    "M49:356|hemochromatosis",
+    "M49:364|hemochromatosis"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -352,7 +366,7 @@
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 595,
+    "current_worker_batch_count": 628,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -948,7 +962,40 @@
       "https://pubmed.ncbi.nlm.nih.gov/37490620/",
       "https://pubmed.ncbi.nlm.nih.gov/38106499/",
       "https://pubmed.ncbi.nlm.nih.gov/42869706/",
-      "https://pubmed.ncbi.nlm.nih.gov/41656635/"
+      "https://pubmed.ncbi.nlm.nih.gov/41656635/",
+      "https://pubmed.ncbi.nlm.nih.gov/16082278/",
+      "https://pubmed.ncbi.nlm.nih.gov/22508149/",
+      "https://pubmed.ncbi.nlm.nih.gov/580545/",
+      "https://pubmed.ncbi.nlm.nih.gov/5172832/",
+      "https://pubmed.ncbi.nlm.nih.gov/15822548/",
+      "https://pubmed.ncbi.nlm.nih.gov/29992116/",
+      "https://pubmed.ncbi.nlm.nih.gov/30619942/",
+      "https://pubmed.ncbi.nlm.nih.gov/19575818/",
+      "https://pubmed.ncbi.nlm.nih.gov/10654158/",
+      "https://pubmed.ncbi.nlm.nih.gov/37834314/",
+      "https://pubmed.ncbi.nlm.nih.gov/18464299/",
+      "https://pubmed.ncbi.nlm.nih.gov/29154722/",
+      "https://pubmed.ncbi.nlm.nih.gov/40258764/",
+      "https://pubmed.ncbi.nlm.nih.gov/26620687/",
+      "https://pubmed.ncbi.nlm.nih.gov/7826138/",
+      "https://pubmed.ncbi.nlm.nih.gov/6742901/",
+      "https://pubmed.ncbi.nlm.nih.gov/9599790/",
+      "https://pubmed.ncbi.nlm.nih.gov/11269534/",
+      "https://pubmed.ncbi.nlm.nih.gov/38800216/",
+      "https://pubmed.ncbi.nlm.nih.gov/24213781/",
+      "https://pubmed.ncbi.nlm.nih.gov/29980454/",
+      "https://pubmed.ncbi.nlm.nih.gov/15777346/",
+      "https://pubmed.ncbi.nlm.nih.gov/17401564/",
+      "https://pubmed.ncbi.nlm.nih.gov/17130663/",
+      "https://pubmed.ncbi.nlm.nih.gov/17589946/",
+      "https://pubmed.ncbi.nlm.nih.gov/14765621/",
+      "https://pubmed.ncbi.nlm.nih.gov/15570296/",
+      "https://pubmed.ncbi.nlm.nih.gov/21822737/",
+      "https://pubmed.ncbi.nlm.nih.gov/15319650/",
+      "https://pubmed.ncbi.nlm.nih.gov/14675248/",
+      "https://pubmed.ncbi.nlm.nih.gov/14703689/",
+      "https://pubmed.ncbi.nlm.nih.gov/27621921/",
+      "https://pubmed.ncbi.nlm.nih.gov/16570681/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -991,16 +1038,17 @@
         "reason": "PDF_NOT_DIRECTLY_INSPECTED"
       }
     ],
-    "worker_B016": []
+    "worker_B016": [],
+    "worker_B017": []
   },
-  "next_batch_id": "B017",
-  "next_queue_position": "B017: source-only P0/P1 clinical and original-source leads; exclude B001–B016 known URLs. No substantive backlog decrement.",
+  "next_batch_id": "B018",
+  "next_queue_position": "B018: continue P1 country-condition source leads and original P0 source searches, exclude URLs in B001–B017. No evidence acceptance.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B016",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B016_TEAM_B_20261109.json",
-    "parent_commit_sha": "23dbf201eaf2be08aa598b0f86253461e18a9254",
+    "batch_id": "B017",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B017_TEAM_B_20261109.json",
+    "parent_commit_sha": "574d0b8f689c9c00806ae9672f8e9fbaa5ed4bf0",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Atomic state+batch cannot self-reference commit SHA; resolve from worker HEAD."
+    "note": "Atomic self-referential commit SHA impossible; use worker HEAD."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
