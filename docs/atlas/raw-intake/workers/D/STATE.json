@@ -73,10 +73,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D011_TEAM_D_20261109.json",
       "source_count": 46,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D012",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D012_TEAM_D_20261109.json",
+      "source_count": 34,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 11,
-  "cumulative_unique_url_leads": 431,
+  "completed_batch_count": 12,
+  "cumulative_unique_url_leads": 465,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -220,17 +226,49 @@
     "TD-BL-OFFICE-788",
     "TD-BL-OFFICE-795",
     "TD-BL-OFFICE-834",
-    "TD-BL-OFFICE-862"
+    "TD-BL-OFFICE-862",
+    "TD-BL-OFFICE-092",
+    "TD-BL-OFFICE-533",
+    "TD-BL-OFFICE-060",
+    "TD-BL-OFFICE-531",
+    "TD-BL-OFFICE-534",
+    "TD-BL-OFFICE-535",
+    "TD-BL-OFFICE-312",
+    "TD-BL-OFFICE-474",
+    "TD-BL-OFFICE-136",
+    "TD-BL-OFFICE-074",
+    "TD-BL-OFFICE-086",
+    "TD-BL-OFFICE-162",
+    "TD-BL-OFFICE-166",
+    "TD-BL-OFFICE-175",
+    "TD-BL-OFFICE-238",
+    "TD-BL-OFFICE-304",
+    "TD-BL-OFFICE-292",
+    "TD-BL-OFFICE-316",
+    "TD-BL-OFFICE-016",
+    "TD-BL-OFFICE-254"
   ],
   "processed_in_current_batch": [
-    "TD-BL-OFFICE-716",
-    "TD-BL-OFFICE-748",
-    "TD-BL-OFFICE-760",
-    "TD-BL-OFFICE-776",
-    "TD-BL-OFFICE-788",
-    "TD-BL-OFFICE-795",
-    "TD-BL-OFFICE-834",
-    "TD-BL-OFFICE-862"
+    "TD-BL-OFFICE-092",
+    "TD-BL-OFFICE-533",
+    "TD-BL-OFFICE-060",
+    "TD-BL-OFFICE-531",
+    "TD-BL-OFFICE-534",
+    "TD-BL-OFFICE-535",
+    "TD-BL-OFFICE-312",
+    "TD-BL-OFFICE-474",
+    "TD-BL-OFFICE-136",
+    "TD-BL-OFFICE-074",
+    "TD-BL-OFFICE-086",
+    "TD-BL-OFFICE-162",
+    "TD-BL-OFFICE-166",
+    "TD-BL-OFFICE-175",
+    "TD-BL-OFFICE-238",
+    "TD-BL-OFFICE-304",
+    "TD-BL-OFFICE-292",
+    "TD-BL-OFFICE-316",
+    "TD-BL-OFFICE-016",
+    "TD-BL-OFFICE-254"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -663,7 +701,41 @@
     "https://www.afro.who.int/countries/united-republic-tanzania/publication/project-brief-strengthening-health-security-tanzania",
     "https://www.afro.who.int/countries/united-republic-tanzania/publication/response-marburg-virus-outbreak-tanzania",
     "https://www.who.int/publications/m/item/environmental-health-ven-2025-country-profile",
-    "https://www.who.int/about/accountability/results/who-results-report-2024-2025-eob/country-profile/2025/venezuela-(bolivarian-republic-of)"
+    "https://www.who.int/about/accountability/results/who-results-report-2024-2025-eob/country-profile/2025/venezuela-(bolivarian-republic-of)",
+    "https://www.paho.org/en/news/24-8-2026-dr-eva-jane-llopis-assumes-duties-pahowho-representative-barbados-and-eastern",
+    "https://www.paho.org/en/documents/annual-report-2025-barbados-and-eastern-caribbean-countries",
+    "https://www.paho.org/en/documents/annual-report-2025-trinidad-and-tobago-aruba-curacao-sint-maarten-bonaire-saba-and-sint",
+    "https://www.paho.org/en/publications/jamaica-bermuda-and-cayman-islands-country-annual-report-2025",
+    "https://www.paho.org/en/publications/trinidad-and-tobago-aruba-curacao-sint-maarten-bonaire-saba-and-sint-eustatius-country",
+    "https://www.paho.org/en/news/19-3-2026-paho-engages-curacao-leadership-align-future-public-health-priorities",
+    "https://www.paho.org/en/news/30-1-2026-sint-maarten-strengthens-systems-accurate-death-certification-and-mortality",
+    "https://www.paho.org/en/news/31-7-2025-paho-and-dutch-caribbean-forward-together",
+    "https://www.paho.org/en/news/17-6-2026-paho-joins-rivm-and-dutch-caribbean-public-health-experts-ducaphen-2026",
+    "https://www.paho.org/en/news/23-7-2026-british-virgin-islands-advances-its-disease-elimination-agenda-focusing-cervical",
+    "https://www.paho.org/en/news/29-9-2025-pahowho-and-barbados-and-eastern-caribbean-countries-sign-multi-country-cooperation",
+    "https://www.paho.org/en/news/6-2-2026-paho-engages-visiting-french-caribbean-students-orientation-regional-health",
+    "https://www.paho.org/en/news/9-4-2026-paho-supports-regional-dialogue-equitable-cancer-care-iccgip-2026-grenada",
+    "https://www.paho.org/en/news/7-5-2025-paho-hosts-martinican-students",
+    "https://www.paho.org/en/documents/subsite/jamaica",
+    "https://www.paho.org/en/documents/subsite/trinidad-and-tobago-and-dutch-caribbean-islands",
+    "https://www.paho.org/en/trinidad-and-tobago-and-dutch-caribbean-islands/pahowho-tto-reports",
+    "https://www.paho.org/en/publications/country-annual-reports-2025",
+    "https://www.paho.org/en/trinidad-and-tobago-and-dutch-caribbean-islands",
+    "https://www.paho.org/en/vacancies/communications-consultant-pahowho-jamaica",
+    "https://www.who.int/countries/country-presence/reports/2025/country-offices",
+    "https://www.who.int/countries/country-presence/reports/2025/introduction",
+    "https://www.who.int/countries/country-presence/reports/2025/feature-story",
+    "https://www.who.int/countries/country-presence/reports/2025/capacities",
+    "https://www.who.int/countries/country-presence/reports",
+    "https://www.who.int/countries/country-presence",
+    "https://www.who.int/mega-menu/countries/who-in-countries/country-office-profiles",
+    "https://www.who.int/europe/news/item/01-07-2024-strengthening-health-and-well-being-in-greenland--a-landmark-collaboration-agreement-with-who-europe",
+    "https://www.who.int/europe/teams/country-support-and-partnerships/about-us",
+    "https://www.who.int/westernpacific/about/where-we-work",
+    "https://www.who.int/westernpacific/about/how-we-work/pacific-support/970",
+    "https://www.who.int/westernpacific/about/how-we-work/pacific-support/",
+    "https://iris.who.int/bitstream/handle/10665/344252/9789240033573-eng.pdf?sequence=1",
+    "https://www.paho.org/sites/default/files/2024-07/adi-paho-toolkit-2024-english-1.pdf"
   ],
   "unresolved_retrievals": [
     {
@@ -779,6 +851,132 @@
       "url": "https://www.paho.org/es/venezuela-republica-bolivariana/",
       "reason": "OFFICIAL_LINK_HTTP_403",
       "origin": "D011"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-001",
+      "url": "https://www.paho.org/en/news/24-8-2026-dr-eva-jane-llopis-assumes-duties-pahowho-representative-barbados-and-eastern",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-002",
+      "url": "https://www.paho.org/en/documents/annual-report-2025-barbados-and-eastern-caribbean-countries",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-003",
+      "url": "https://www.paho.org/en/documents/annual-report-2025-trinidad-and-tobago-aruba-curacao-sint-maarten-bonaire-saba-and-sint",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-004",
+      "url": "https://www.paho.org/en/publications/jamaica-bermuda-and-cayman-islands-country-annual-report-2025",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-005",
+      "url": "https://www.paho.org/en/publications/trinidad-and-tobago-aruba-curacao-sint-maarten-bonaire-saba-and-sint-eustatius-country",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-006",
+      "url": "https://www.paho.org/en/news/19-3-2026-paho-engages-curacao-leadership-align-future-public-health-priorities",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-007",
+      "url": "https://www.paho.org/en/news/30-1-2026-sint-maarten-strengthens-systems-accurate-death-certification-and-mortality",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-008",
+      "url": "https://www.paho.org/en/news/31-7-2025-paho-and-dutch-caribbean-forward-together",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-009",
+      "url": "https://www.paho.org/en/news/17-6-2026-paho-joins-rivm-and-dutch-caribbean-public-health-experts-ducaphen-2026",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-010",
+      "url": "https://www.paho.org/en/news/23-7-2026-british-virgin-islands-advances-its-disease-elimination-agenda-focusing-cervical",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-011",
+      "url": "https://www.paho.org/en/news/29-9-2025-pahowho-and-barbados-and-eastern-caribbean-countries-sign-multi-country-cooperation",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-012",
+      "url": "https://www.paho.org/en/news/6-2-2026-paho-engages-visiting-french-caribbean-students-orientation-regional-health",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-013",
+      "url": "https://www.paho.org/en/news/9-4-2026-paho-supports-regional-dialogue-equitable-cancer-care-iccgip-2026-grenada",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-014",
+      "url": "https://www.paho.org/en/news/7-5-2025-paho-hosts-martinican-students",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-015",
+      "url": "https://www.paho.org/en/documents/subsite/jamaica",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-016",
+      "url": "https://www.paho.org/en/documents/subsite/trinidad-and-tobago-and-dutch-caribbean-islands",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-017",
+      "url": "https://www.paho.org/en/trinidad-and-tobago-and-dutch-caribbean-islands/pahowho-tto-reports",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-018",
+      "url": "https://www.paho.org/en/publications/country-annual-reports-2025",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-019",
+      "url": "https://www.paho.org/en/trinidad-and-tobago-and-dutch-caribbean-islands",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-020",
+      "url": "https://www.paho.org/en/vacancies/communications-consultant-pahowho-jamaica",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D012-034",
+      "url": "https://www.paho.org/sites/default/files/2024-07/adi-paho-toolkit-2024-english-1.pdf",
+      "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
+      "origin": "D012"
     }
   ],
   "duplicate_urls_skipped_this_batch": [],
@@ -789,14 +987,14 @@
     "other_team_d_workstreams": "Unchanged; refer to Team D finite consolidated backlog",
     "who_current_administration_unprocessed_count": 23,
     "international_network_intake_unprocessed_count": 3,
-    "who_april_2026_host_evidence_unprocessed_count": 65
+    "who_april_2026_host_evidence_unprocessed_count": 45
   },
-  "next_queue_position": "D012: resume untouched WHO_APRIL_2026_HOST_EVIDENCE (65 remaining) after P1 716/748/760/776/788/795/834/862; original dated April 2026 office host & representative material preferred. WHO_CURRENT_ADMINISTRATION 23, INTERNATIONAL_NETWORK 3, acceptance gates 2 remain. No case substantiated by raw intake.",
-  "next_batch_id": "D012",
+  "next_queue_position": "D013: continue untouched WHO_APRIL_2026_HOST_EVIDENCE after D012 selected cases; revisit 2026-04 as-of source-owner originals first; WHO_CURRENT_ADMINISTRATION 23 and INTERNATIONAL_NETWORK 3 remain. No substantive case closure.",
+  "next_batch_id": "D013",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D011",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D011_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "8de71b723abd26c6c8641a89325f26b74846b315",
+    "batch_id": "D012",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D012_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "17d1a5f856104bd3da7abfe190e1af75171c8b97",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
