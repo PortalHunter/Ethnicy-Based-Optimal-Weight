@@ -85,10 +85,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D013_TEAM_D_20261109.json",
       "source_count": 44,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D014",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D014_TEAM_D_20261109.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 13,
-  "cumulative_unique_url_leads": 509,
+  "completed_batch_count": 14,
+  "cumulative_unique_url_leads": 549,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -263,20 +269,30 @@
     "TD-BL-WHO-074",
     "TD-BL-OFFICE-752",
     "TD-BL-NET-012",
-    "TD-BL-NET-005"
+    "TD-BL-NET-005",
+    "TD-BL-OFFICE-344",
+    "TD-BL-OFFICE-446",
+    "TD-BL-OFFICE-584",
+    "TD-BL-OFFICE-540",
+    "TD-BL-OFFICE-580",
+    "TD-BL-OFFICE-612",
+    "TD-BL-OFFICE-772",
+    "TD-BL-OFFICE-798",
+    "TD-BL-OFFICE-876",
+    "TD-BL-OFFICE-258"
   ],
   "processed_in_current_batch": [
-    "TD-BL-OFFICE-796",
-    "TD-BL-OFFICE-630",
-    "TD-BL-OFFICE-660",
-    "TD-BL-OFFICE-234",
-    "TD-BL-OFFICE-248",
-    "TD-BL-WHO-654",
-    "TD-BL-WHO-638",
-    "TD-BL-WHO-074",
-    "TD-BL-OFFICE-752",
-    "TD-BL-NET-012",
-    "TD-BL-NET-005"
+    "TD-BL-OFFICE-344",
+    "TD-BL-OFFICE-446",
+    "TD-BL-OFFICE-584",
+    "TD-BL-OFFICE-540",
+    "TD-BL-OFFICE-580",
+    "TD-BL-OFFICE-612",
+    "TD-BL-OFFICE-772",
+    "TD-BL-OFFICE-798",
+    "TD-BL-OFFICE-876",
+    "TD-BL-OFFICE-258",
+    "TD-BL-WHO-638"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -787,7 +803,47 @@
     "https://au.int/sites/default/files/decisions/46188-Assembly_Decisions_31_March_E.pdf",
     "https://africanlii.org/pt/akn/aa-au/doc/decision/2026-02-18/decision-on-the-report-of-the-fifth-5th-ordinary-meeting-of-the-committee-of-heads-of-state-and-government-of-the-africa-centres-for-disease-control-and-prevention-africa-cdc-doc-assemblyau9xxxix/eng%402026-02-18",
     "https://apanews.net/tunisia-libya-join-african-pooled-procurement-mechanism/",
-    "https://libyareview.com/68742/libya-signs-appm-memorandum-with-africa-cdc/"
+    "https://libyareview.com/68742/libya-signs-appm-memorandum-with-africa-cdc/",
+    "https://www.who.int/hongkongchina/",
+    "https://www.who.int/hongkongchina/our-work",
+    "https://www.who.int/hongkongchina/about-us",
+    "https://www.who.int/macaochina/",
+    "https://www.who.int/macaochina/our-work",
+    "https://www.who.int/macaochina/about-us",
+    "https://www.who.int/marshallislands/",
+    "https://www.who.int/marshallislands/our-work",
+    "https://www.who.int/marshallislands/about-us",
+    "https://www.who.int/newcaledonia/",
+    "https://www.who.int/newcaledonia/our-work",
+    "https://www.who.int/newcaledonia/about-us",
+    "https://www.who.int/northernmarianaislands/",
+    "https://www.who.int/northernmarianaislands/our-work",
+    "https://www.who.int/northernmarianaislands/about-us",
+    "https://www.who.int/pitcairnislands/",
+    "https://www.who.int/pitcairnislands/about-us",
+    "https://www.who.int/tokelau/",
+    "https://www.who.int/tokelau/our-work",
+    "https://www.who.int/tokelau/about-us",
+    "https://www.who.int/tuvalu/",
+    "https://www.who.int/tuvalu/our-work",
+    "https://www.who.int/tuvalu/about-us",
+    "https://www.who.int/wallisandfutuna/",
+    "https://www.who.int/wallisandfutuna/our-work",
+    "https://www.who.int/wallisandfutuna/about-us",
+    "https://data.who.int/dashboards/country-presence/country-office",
+    "https://data.who.int/dashboards/country-presence/country-office/office-profile-survey-reporting-year/",
+    "https://data.who.int/dashboards/country-presence",
+    "https://www.who.int/publications/i/9789290620587",
+    "https://www.who.int/about/accountability/results/who-results-report-2024-2025-eob/region-WPRO/2025/northern-mariana-islands",
+    "https://www.who.int/about/accountability/results/who-results-report-2024-2025-eob/region-WPRO/2025/tuvalu",
+    "https://www.who.int/about/accountability/results/who-results-report-2024-2025-eob/region-WPRO/2025/french-polynesia",
+    "https://www.who.int/tuvalu/all-news/item/20-10-2024-pacific-health-ministers-tackle-key-priorities-towards-a-healthier-future-for-the-pacific-region",
+    "https://www.who.int/westernpacific/newsroom/feature-stories/item/marshall-islands-applies-who-s-strategic-toolkit-for-assessing-risk-%28star%29-for-the-first-time-in-the-north-pacific",
+    "https://immunizationdata.who.int/dashboard/regions/western-pacific-region/TUV",
+    "https://data.who.int/countries/798",
+    "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON581",
+    "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON567",
+    "https://www.who.int/northernmarianaislands/news/detail"
   ],
   "unresolved_retrievals": [
     {
@@ -1263,15 +1319,33 @@
       "url": "https://libyareview.com/68742/libya-signs-appm-memorandum-with-africa-cdc/",
       "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
       "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D014-028",
+      "url": "https://data.who.int/dashboards/country-presence/country-office/office-profile-survey-reporting-year/",
+      "reason": "DIRECT_FETCH_FAILED_METADATA_ONLY",
+      "origin": "D014"
+    },
+    {
+      "source_id": "ATLAS-RAW-D014-036",
+      "url": "https://immunizationdata.who.int/dashboard/regions/western-pacific-region/TUV",
+      "reason": "METADATA_ONLY_NO_FULL_SOURCE_INSPECTION",
+      "origin": "D014"
+    },
+    {
+      "source_id": "ATLAS-RAW-D014-037",
+      "url": "https://data.who.int/countries/798",
+      "reason": "METADATA_ONLY_NO_FULL_SOURCE_INSPECTION",
+      "origin": "D014"
+    },
+    {
+      "source_id": "ATLAS-RAW-D014-040",
+      "url": "https://www.who.int/northernmarianaislands/news/detail",
+      "reason": "METADATA_ONLY_NO_FULL_SOURCE_INSPECTION",
+      "origin": "D014"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [
-    "https://www.paho.org/en/news/30-9-2025-paho-and-montserrat-advance-comprehensive-health-system-strengthening-agenda",
-    "https://www.paho.org/en/montserrat",
-    "https://www.paho.org/en/anguilla",
-    "https://www.paho.org/en/turks-and-caicos-islands",
-    "https://www.who.int/europe/news/item/03-02-2025-who-europe-highlights-nordic-alcohol-monopolies-as-a-comprehensive-model-for-reducing-alcohol-consumption-and-harm"
-  ],
+  "duplicate_urls_skipped_this_batch": [],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -1279,14 +1353,14 @@
     "other_team_d_workstreams": "Unchanged; refer to Team D finite consolidated backlog",
     "who_current_administration_unprocessed_count": 20,
     "international_network_intake_unprocessed_count": 1,
-    "who_april_2026_host_evidence_unprocessed_count": 39
+    "who_april_2026_host_evidence_unprocessed_count": 29
   },
-  "next_queue_position": "D014: source-lead acquisition from still-unprocessed P2 WHO_APRIL_2026_HOST_EVIDENCE (remaining 39), WHO_CURRENT_ADMINISTRATION (20), and HI_ROLES. Research source-owner originals not country office inference; no validation.",
-  "next_batch_id": "D014",
+  "next_queue_position": "D015: find untouched source leads for 29 WHO_APRIL host P2 cases and 20 WHO_CURRENT_ADMINISTRATION cases; HI_ROLES original register remains. Return to specific original sources where possible; no research case closure.",
+  "next_batch_id": "D015",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D013",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D013_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "77a1fc30cd2ae447c5fec765211572128b7eaa2f",
+    "batch_id": "D014",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D014_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "0640f5a1be977aaa3c0bf996a896b68fe47c42b0",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
