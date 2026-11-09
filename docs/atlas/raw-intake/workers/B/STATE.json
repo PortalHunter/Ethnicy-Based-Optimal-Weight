@@ -41,12 +41,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B005_TEAM_B_20261109.json",
       "source_count": 39,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B006",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B006_TEAM_B_20261109.json",
+      "source_count": 40,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 5,
-  "worker_owned_batch_count": 4,
-  "cumulative_team_source_leads": 203,
-  "worker_owned_unique_url_leads": 164,
+  "completed_batch_count": 6,
+  "worker_owned_batch_count": 5,
+  "cumulative_team_source_leads": 243,
+  "worker_owned_unique_url_leads": 204,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -103,7 +109,21 @@
     "M49:646|high_chol",
     "M49:686|high_chol",
     "M49:690|high_chol",
-    "M49:694|high_chol"
+    "M49:694|high_chol",
+    "M49:044|high_chol",
+    "M49:052|high_chol",
+    "M49:204|high_chol",
+    "M49:096|high_chol",
+    "M49:170|high_chol",
+    "M49:184|high_chol",
+    "M49:212|high_chol",
+    "M49:218|high_chol",
+    "M49:308|high_chol",
+    "M49:320|high_chol",
+    "M49:328|high_chol",
+    "M49:418|high_chol",
+    "M49:422|high_chol",
+    "M49:496|high_chol"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -121,7 +141,7 @@
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 164,
+    "current_worker_batch_count": 204,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -286,11 +306,52 @@
       "https://www.who.int/publications/m/item/2004-steps-country-report-seychelles",
       "https://www.who.int/publications/m/item/2004-steps-fact-sheet-seychelles",
       "https://www.who.int/publications/m/item/2009-steps-country-report-sierra-leone",
-      "https://www.who.int/publications/m/item/2009-steps-fact-sheet-sierra-leone"
+      "https://www.who.int/publications/m/item/2009-steps-fact-sheet-sierra-leone",
+      "https://www.who.int/publications/m/item/2019-steps-fact-sheet-bahamas",
+      "https://www.who.int/publications/m/item/2011-2012-steps-fact-sheet-bahamas",
+      "https://www.who.int/publications/m/item/2007-steps-fact-sheet-barbados",
+      "https://www.who.int/publications/m/item/2015-steps-country-report-benin",
+      "https://www.who.int/publications/m/item/2015-steps-fact-sheet-benin",
+      "https://www.who.int/publications/m/item/2008-steps-country-report-benin",
+      "https://www.who.int/publications/m/item/2008-steps-fact-sheet-benin",
+      "https://www.who.int/publications/m/item/2007-steps-country-report-benin",
+      "https://www.who.int/publications/m/item/2007-steps-fact-sheet-benin",
+      "https://www.who.int/publications/m/item/2022-2023-steps-fact-sheet-brunei-darussalam",
+      "https://www.who.int/publications/m/item/2015-16-steps-fact-sheet-brunei-darussalam",
+      "https://www.who.int/publications/m/item/2010-steps-country-report-colombia",
+      "https://www.who.int/publications/m/item/2022-steps-country-report-cook-islands",
+      "https://www.who.int/publications/m/item/2013-2015-steps-country-report-cook-islands",
+      "https://www.who.int/publications/m/item/2013-2015-steps-fact-sheet-cook-islands",
+      "https://www.who.int/publications/m/item/2003-steps-country-report-cook-islands",
+      "https://www.who.int/publications/m/item/2004-steps-factsheet-cook-islands",
+      "https://www.who.int/publications/m/item/2008-steps-fact-sheet-dominica",
+      "https://www.who.int/publications/m/item/2018-steps-fact-sheet-ecuador",
+      "https://www.who.int/publications/m/item/2018-steps-fact-sheet-ecuador-spanish",
+      "https://www.who.int/publications/m/item/2010-2011-steps-country-report-grenada",
+      "https://www.who.int/publications/m/item/2010-2011-steps-fact-sheet-grenada",
+      "https://www.who.int/publications/m/item/2015-steps-fact-sheet-guatemala",
+      "https://www.who.int/publications/m/item/2016-steps-country-report-guyana",
+      "https://www.who.int/publications/m/item/2016-steps-fact-sheet-guyana",
+      "https://www.who.int/publications/m/item/2008-steps-country-report-lao-people-s-democratic-republic",
+      "https://www.who.int/publications/m/item/2008-steps-factsheet-lao-people-s-democratic-republic",
+      "https://www.who.int/publications/m/item/2023-2024-steps-country-report-lebanon",
+      "https://www.who.int/publications/m/item/2023-2024-steps-fact-sheet-lebanon",
+      "https://www.who.int/publications/m/item/2016-2017-steps-country-report-lebanon",
+      "https://www.who.int/publications/m/item/2016-2017-steps-fact-sheet-lebanon-%28lebanese%29",
+      "https://www.who.int/publications/m/item/2016-2017-steps-fact-sheet-lebanon-%28syrians%29",
+      "https://www.who.int/publications/m/item/2008-steps-country-report-lebanon",
+      "https://www.who.int/publications/m/item/2019-steps-country-report-mongolia-%28brief-summary%29",
+      "https://www.who.int/publications/m/item/2019-steps-fact-sheet-mongolia",
+      "https://www.who.int/publications/m/item/2019-steps-fact-sheet-mongolia-%28by-region%29",
+      "https://www.who.int/publications/m/item/2013-steps-country-report-mongolia",
+      "https://www.who.int/publications/m/item/2009-steps-country-report-mongolia",
+      "https://www.who.int/publications/m/item/2006-steps-country-report-mongolia",
+      "https://www.who.int/publications/m/item/2005-steps-factsheet-mongolia"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
-    "worker_B005_count": 39
+    "worker_B005_count": 39,
+    "worker_B006_count": 40
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -324,14 +385,14 @@
       }
     ]
   },
-  "next_batch_id": "B006",
-  "next_queue_position": "B006: new WHO STEPS reports in Oceania, southern/eastern Africa, Caribbean and Americas; then original condition-specific celiac/lactose/gout/hemochromatosis source leads. Do not repeat B001–B005.",
+  "next_batch_id": "B007",
+  "next_queue_position": "B007: continue previously linked WHO STEPS country catalogue Oman, Paraguay, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, then additional geographically diverse high-yield countries; exclude all URLs B001-B006. Original P0 disease-specific targets remain unclosed.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B005",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B005_TEAM_B_20261109.json",
-    "parent_commit_sha": "c19958821832780b69c8e55ec0f9c504bd4681b1",
+    "batch_id": "B006",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B006_TEAM_B_20261109.json",
+    "parent_commit_sha": "736a5f0b3684c95ad66e67312cb5885eeec81581",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Verified worker HEAD authoritative due to self-referential SHA constraint."
+    "note": "Commit SHA cannot be embedded in itself; verified branch head authoritative."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
