@@ -36,13 +36,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A005_TEAM_A_20261109.json",
       "source_count": 45
+    },
+    {
+      "batch_id": "A006",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A006_TEAM_A_20261109.json",
+      "source_count": 45
     }
   ],
-  "completed_worker_batch_count": 4,
-  "completed_team_a_intake_batch_count": 5,
-  "worker_new_unique_url_leads": 163,
-  "team_a_cumulative_unique_url_leads": 208,
-  "last_completed_batch": "A005",
+  "completed_worker_batch_count": 5,
+  "completed_team_a_intake_batch_count": 6,
+  "worker_new_unique_url_leads": 208,
+  "team_a_cumulative_unique_url_leads": 253,
+  "last_completed_batch": "A006",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -61,15 +67,15 @@
     "M49:112|initial_source_scan",
     "M49:116|initial_source_scan",
     "M49:120|initial_source_scan",
-    "M49:124|initial_source_scan"
+    "M49:124|initial_source_scan",
+    "M49:132|initial_source_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "120",
-      "124"
+      "132"
     ],
-    "next": "M49:132 Cabo Verde, M49:136 Cayman Islands, M49:140 Central African Republic, M49:144 Sri Lanka; avoid A001-A005 URLs",
-    "next_batch_id": "A006",
+    "next": "M49:136 Cayman Islands, M49:140 Central African Republic, M49:144 Sri Lanka; skip prior A001-A006 URLs",
+    "next_batch_id": "A007",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -91,8 +97,10 @@
     "M49:116 Cambodia original Khmer enactments and post-translation amendments unresolved",
     "M49:120 Cameroon original domestic law gazette and post-2023 regional transfers unverified",
     "M49:124 Canada province/territory statutes and independent health authority changes not covered by federal catalog scan",
-    "M49:132 Cabo Verde unprocessed next queue item",
-    "M49:136 Cayman Islands unprocessed"
+    "M49:136 Cayman Islands unprocessed",
+    "M49:132 Cabo Verde additional law, decree, original authority/amendment chains and decentralization unresolved; 2019–2026 ERIS gazette pages are raw leads only",
+    "M49:140 Central African Republic unprocessed",
+    "M49:144 Sri Lanka unprocessed"
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -302,7 +310,52 @@
     "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/CMR_Cameroon_Constitution_1972asof2008.pdf",
     "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/CMR_Cameroon_Loi-No-96-03-loi-cadre-sante_1996.pdf",
     "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/CMR_Cameroon_Decret-2023-132-competences-transferres-regions-matiere-sante_2023.pdf",
-    "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/CMR_Cameroon_Decret-No-2013-93-portant-organisation-du-Ministere-de-la-Sante-Publique_2013.pdf"
+    "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/CMR_Cameroon_Decret-No-2013-93-portant-organisation-du-Ministere-de-la-Sante-Publique_2013.pdf",
+    "https://boe.incv.cv/Bulletins/View?id=113941",
+    "https://boe.incv.cv/Bulletins/View?id=113595",
+    "https://boe.incv.cv/Bulletins/View?id=101971",
+    "https://boe.incv.cv/Bulletins/View?id=101978",
+    "https://boe.incv.cv/Bulletins/View?id=101979",
+    "https://boe.incv.cv/Bulletins/View?id=101624",
+    "https://boe.incv.cv/Bulletins/View?id=101127",
+    "https://boe.incv.cv/Bulletins/View?id=100461",
+    "https://boe.incv.cv/Bulletins/View?id=88473",
+    "https://boe.incv.cv/Bulletins/View?id=88264",
+    "https://boe.incv.cv/Bulletins/View?id=74326",
+    "https://boe.incv.cv/Bulletins/View?id=74066",
+    "https://boe.incv.cv/Bulletins/View?id=73196",
+    "https://boe.incv.cv/Bulletins/View?id=73198",
+    "https://boe.incv.cv/Bulletins/View?id=73205",
+    "https://boe.incv.cv/Bulletins/View?id=4210",
+    "https://boe.incv.cv/Bulletins/View?id=61828",
+    "https://boe.incv.cv/Bulletins/View?id=57089",
+    "https://boe.incv.cv/Bulletins/View?id=56452",
+    "https://boe.incv.cv/Bulletins/View?id=55547",
+    "https://boe.incv.cv/Bulletins/View?id=53952",
+    "https://boe.incv.cv/Bulletins/View?id=53356",
+    "https://boe.incv.cv/Bulletins/View?id=53357",
+    "https://boe.incv.cv/Bulletins/View?id=53212",
+    "https://boe.incv.cv/Bulletins/View?id=53213",
+    "https://boe.incv.cv/Bulletins/View?id=52458",
+    "https://boe.incv.cv/Bulletins/View?id=52137",
+    "https://boe.incv.cv/Bulletins/View?id=50420",
+    "https://boe.incv.cv/Bulletins/View?id=50098",
+    "https://boe.incv.cv/Bulletins/View?id=49807",
+    "https://boe.incv.cv/Bulletins/View?id=48098",
+    "https://boe.incv.cv/Bulletins/View?id=48171",
+    "https://boe.incv.cv/Bulletins/View?id=47922",
+    "https://boe.incv.cv/Bulletins/View?id=47123",
+    "https://boe.incv.cv/Bulletins/View?id=46992",
+    "https://boe.incv.cv/Bulletins/View?id=46215",
+    "https://boe.incv.cv/Bulletins/View?id=46216",
+    "https://boe.incv.cv/Bulletins/View?id=46217",
+    "https://boe.incv.cv/Bulletins/View?id=45813",
+    "https://boe.incv.cv/Bulletins/View?id=44569",
+    "https://boe.incv.cv/Bulletins/View?id=44499",
+    "https://boe.incv.cv/Bulletins/View?id=44359",
+    "https://boe.incv.cv/Bulletins/View?id=114092",
+    "https://boe.incv.cv/Bulletins/View?id=101356",
+    "https://boe.incv.cv/Bulletins/View/89324"
   ],
   "unresolved_retrievals": [
     {
@@ -492,12 +545,12 @@
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A005",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A005_TEAM_A_20261109.json",
+    "batch_id": "A006",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A006_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "e40539e5751cb1ac144fa32d1305a00c22f62802",
+    "parent_commit_sha": "a0bb02a301bd1466b46de3d760f0383f62108530",
     "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD because own commit cannot be self-embedded"
   },
-  "next_run_instruction": "Resume Team A raw intake from committed STATE.json A006 on own branch, starting M49:132; no other-branch changes.",
+  "next_run_instruction": "Resume A007 from M49:136 Cayman Islands; inspect state and new HEAD first; no other-branch changes.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
