@@ -42,13 +42,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A006_TEAM_A_20261109.json",
       "source_count": 45
+    },
+    {
+      "batch_id": "A007",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A007_TEAM_A_20261109.json",
+      "source_count": 41
     }
   ],
-  "completed_worker_batch_count": 5,
-  "completed_team_a_intake_batch_count": 6,
-  "worker_new_unique_url_leads": 208,
-  "team_a_cumulative_unique_url_leads": 253,
-  "last_completed_batch": "A006",
+  "completed_worker_batch_count": 6,
+  "completed_team_a_intake_batch_count": 7,
+  "worker_new_unique_url_leads": 249,
+  "team_a_cumulative_unique_url_leads": 294,
+  "last_completed_batch": "A007",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -68,14 +74,15 @@
     "M49:116|initial_source_scan",
     "M49:120|initial_source_scan",
     "M49:124|initial_source_scan",
-    "M49:132|initial_source_scan"
+    "M49:132|initial_source_scan",
+    "M49:136|initial_source_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "132"
+      "136"
     ],
-    "next": "M49:136 Cayman Islands, M49:140 Central African Republic, M49:144 Sri Lanka; skip prior A001-A006 URLs",
-    "next_batch_id": "A007",
+    "next": "M49:140 Central African Republic, M49:144 Sri Lanka, M49:148 Chad; Cayman historic government PDF links need replacement with working direct originals",
+    "next_batch_id": "A008",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -97,10 +104,12 @@
     "M49:116 Cambodia original Khmer enactments and post-translation amendments unresolved",
     "M49:120 Cameroon original domestic law gazette and post-2023 regional transfers unverified",
     "M49:124 Canada province/territory statutes and independent health authority changes not covered by federal catalog scan",
-    "M49:136 Cayman Islands unprocessed",
     "M49:132 Cabo Verde additional law, decree, original authority/amendment chains and decentralization unresolved; 2019–2026 ERIS gazette pages are raw leads only",
     "M49:140 Central African Republic unprocessed",
-    "M49:144 Sri Lanka unprocessed"
+    "M49:144 Sri Lanka unprocessed",
+    "M49:136 Cayman Islands 25 broken/timeout archived official legislation PDF links; replace with current working originals before any legal interpretation",
+    "M49:140 Central African Republic unprocessed next queue item",
+    "M49:144 Sri Lanka unprocessed next queue item"
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -355,7 +364,48 @@
     "https://boe.incv.cv/Bulletins/View?id=44359",
     "https://boe.incv.cv/Bulletins/View?id=114092",
     "https://boe.incv.cv/Bulletins/View?id=101356",
-    "https://boe.incv.cv/Bulletins/View/89324"
+    "https://boe.incv.cv/Bulletins/View/89324",
+    "https://www.legislation.gov.ky/cms/legislation/index/by-subject.html",
+    "https://www.legislation.gov.ky/cms/legislation/index/alphabetical.html",
+    "https://legislation.gov.ky/cms/legislation/recent-changes.html",
+    "https://gov.ky/web/dhrs/hpc",
+    "https://health.cigarchives.gov.ky/publications",
+    "https://gov.ky/documents/35692/0/Health%2BPractice%2BAct%2B%282026%2BRevision%29%2C%2B.pdf/9f7911fd-313e-1c89-fea3-aca8dd150c1e?t=1770319174266",
+    "https://gov.ky/documents/43485/45951/Public%2BHealth%2BAct%2B%282026%2BRevision%29%2C%2B%28LG8%2C%2BS11%29.pdf/cdf7fd71-6935-1701-9fd9-cbb268d08176?t=1770759484076",
+    "https://gov.ky/documents/d/dhrs/the-health-practice-regulations-hpr-2021-revision-pdf?download=true",
+    "https://gov.ky/w/health-practice-act-2026-revision-lg7-s4?redirect=%2Fweb%2Fgazettes&refererPlid=357",
+    "https://gov.ky/web/gazettes",
+    "https://gov.ky/documents/35692/0/HealthPractice%28Amendment%29Bill%2C2026_INTRODUCED.pdf/410c250f-7d78-acb5-8a2f-8e75c9bb6c83?t=1774902758458",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/AMENDING/2026/2026-00E1/2026-00E1.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/BILLS/2026/2026-0008/2026-0008.pdf",
+    "https://www.legislation.gov.ky/cms/",
+    "https://www.ofreg.ky/fuel/upimages/publication/DangerousSubstancesAmendmentLaw2015_1502193526.PDF",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2019/2019-0005/HealthCareDecisionsAct_2022%20Revision.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/1997/1997-0015/HealthInsuranceAct_2021%20Revision.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0073/CodeofPracticeAdministrativeFinesforHealthInsuranceOffences_SL%2073%20of%202014.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/1997/1997-0011/HealthInsuranceRegulations_2017%20Revision_g.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0072/StandardHealthInsuranceFeesfortheCaymanIslands-June2005_SL%2072%20of%202014.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2003/2003-0012/HealthInsuranceCommissionAct_2016%20Revision.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2002/2002-0025/HealthPracticeAct_2021%20Revision.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2020/2020-0163/HealthPracticeDesignatedHealthCareFacilitiesNo.2Order_SL%20163%20of%202020.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2013/2013-0041/HealthPracticeDesignatedHealthCareFacilitiesOrder_SL%2041%20of%202013.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2020/2020-0030/HealthPracticeDesignatedHealthCareFacilitiesOrder_SL%2030%20of%202020.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0036/HealthPracticeMedicalTourismFacilityHealthCityCaymanIslandsOrder_SL%2036%20of%202014.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0007/HealthPracticeMedicalTourismProviderHealthCityCaymanIslandsLtdOrder_SL%207%20of%202014.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0054/HealthPracticeMedicalTourismProvidersandMedicalTourismFacilitiesOrder_SL%2054%20of%202014.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/AMENDING/2015/2015-0041/HealthPracticeMedicalTourismProvidersandMedicalTourismFacilitiesAmendmentNo.2Order2015.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/AMENDING/2017/2017-0047/HealthPracticeMedicalTourismProvidersandMedicalTourismFacilitiesAmendmentNo.2Order2016.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/AMENDING/2015/2015-0024/HealthPracticeMedicalTourismProvidersandMedicalTourismFacilitiesAmendmentOrder2015.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/AMENDING/2016/2016-0012/HealthPracticeMedicalTourismProvidersandMedicalTourismFacilitiesAmendmentOrder2016.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2018/2018-0042/HealthPracticeLawMedicalTourismProviderandMedicalTourismFacilityCaymanIVFLimitedOrder_SL%2042%20of%202018.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2004/2004-0004/HealthPracticeRegulations_2021%20Revision.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2016/2016-0074/NursingRegulations_SL%2074%20of%202016.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2002/2002-0007/HealthServicesAuthorityAct_2018%20Revision.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0074/HealthServicesAuthorityChargeMaster_SL%2074%20of%202014.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/1993/1993-0009/HealthServicesFeesAct_2002%20Revision_g.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2001/2001-0003/HealthServicesFeesandChargesRegulations_2008%20Revision.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2013/2013-0015/HumanTissueTransplantAct_Act%2015%20of%202013.pdf",
+    "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2011/2011-0011/MedicalNegligenceNon-EconomicDamagesAct_Act%2011%20of%202011.pdf"
   ],
   "unresolved_retrievals": [
     {
@@ -542,15 +592,140 @@
       "source_id": "ATLAS-RAW-A004-012",
       "url": "https://doca.gov.mm/my/laws?page=2",
       "reason": "TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-016",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2019/2019-0005/HealthCareDecisionsAct_2022%20Revision.pdf",
+      "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-017",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/1997/1997-0015/HealthInsuranceAct_2021%20Revision.pdf",
+      "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-018",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0073/CodeofPracticeAdministrativeFinesforHealthInsuranceOffences_SL%2073%20of%202014.pdf",
+      "reason": "URL_CLICK_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-019",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/1997/1997-0011/HealthInsuranceRegulations_2017%20Revision_g.pdf",
+      "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-020",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0072/StandardHealthInsuranceFeesfortheCaymanIslands-June2005_SL%2072%20of%202014.pdf",
+      "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-021",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2003/2003-0012/HealthInsuranceCommissionAct_2016%20Revision.pdf",
+      "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-022",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2002/2002-0025/HealthPracticeAct_2021%20Revision.pdf",
+      "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-023",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2020/2020-0163/HealthPracticeDesignatedHealthCareFacilitiesNo.2Order_SL%20163%20of%202020.pdf",
+      "reason": "URL_CLICK_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-024",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2013/2013-0041/HealthPracticeDesignatedHealthCareFacilitiesOrder_SL%2041%20of%202013.pdf",
+      "reason": "URL_CLICK_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-026",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0036/HealthPracticeMedicalTourismFacilityHealthCityCaymanIslandsOrder_SL%2036%20of%202014.pdf",
+      "reason": "URL_CLICK_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-027",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0007/HealthPracticeMedicalTourismProviderHealthCityCaymanIslandsLtdOrder_SL%207%20of%202014.pdf",
+      "reason": "URL_CLICK_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-028",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0054/HealthPracticeMedicalTourismProvidersandMedicalTourismFacilitiesOrder_SL%2054%20of%202014.pdf",
+      "reason": "URL_CLICK_500"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-029",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/AMENDING/2015/2015-0041/HealthPracticeMedicalTourismProvidersandMedicalTourismFacilitiesAmendmentNo.2Order2015.pdf",
+      "reason": "URL_CLICK_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-030",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/AMENDING/2017/2017-0047/HealthPracticeMedicalTourismProvidersandMedicalTourismFacilitiesAmendmentNo.2Order2016.pdf",
+      "reason": "URL_CLICK_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-031",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/AMENDING/2015/2015-0024/HealthPracticeMedicalTourismProvidersandMedicalTourismFacilitiesAmendmentOrder2015.pdf",
+      "reason": "URL_CLICK_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-032",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/AMENDING/2016/2016-0012/HealthPracticeMedicalTourismProvidersandMedicalTourismFacilitiesAmendmentOrder2016.pdf",
+      "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-033",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2018/2018-0042/HealthPracticeLawMedicalTourismProviderandMedicalTourismFacilityCaymanIVFLimitedOrder_SL%2042%20of%202018.pdf",
+      "reason": "URL_CLICK_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-034",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2004/2004-0004/HealthPracticeRegulations_2021%20Revision.pdf",
+      "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-035",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2016/2016-0074/NursingRegulations_SL%2074%20of%202016.pdf",
+      "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-036",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2002/2002-0007/HealthServicesAuthorityAct_2018%20Revision.pdf",
+      "reason": "URL_CLICK_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-037",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2014/2014-0074/HealthServicesAuthorityChargeMaster_SL%2074%20of%202014.pdf",
+      "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-038",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/1993/1993-0009/HealthServicesFeesAct_2002%20Revision_g.pdf",
+      "reason": "URL_CLICK_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-039",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2001/2001-0003/HealthServicesFeesandChargesRegulations_2008%20Revision.pdf",
+      "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-040",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2013/2013-0015/HumanTissueTransplantAct_Act%2015%20of%202013.pdf",
+      "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A007-041",
+      "url": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2011/2011-0011/MedicalNegligenceNon-EconomicDamagesAct_Act%2011%20of%202011.pdf",
+      "reason": "URL_CLICK_404"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A006",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A006_TEAM_A_20261109.json",
+    "batch_id": "A007",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A007_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "a0bb02a301bd1466b46de3d760f0383f62108530",
+    "parent_commit_sha": "3acdfdaabbe4f93ea1cc1b5d414ff2402675746d",
     "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD because own commit cannot be self-embedded"
   },
-  "next_run_instruction": "Resume A007 from M49:136 Cayman Islands; inspect state and new HEAD first; no other-branch changes.",
+  "next_run_instruction": "Team A resume A008 from M49:140, after re-reading branch HEAD and state; official sources only; no legal research approval.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
