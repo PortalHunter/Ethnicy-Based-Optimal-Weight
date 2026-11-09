@@ -90,13 +90,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A014_TEAM_A_20261109.json",
       "source_count": 35
+    },
+    {
+      "batch_id": "A015",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A015_TEAM_A_20261109.json",
+      "source_count": 36
     }
   ],
-  "completed_worker_batch_count": 13,
-  "completed_team_a_intake_batch_count": 14,
-  "worker_new_unique_url_leads": 557,
-  "team_a_cumulative_unique_url_leads": 602,
-  "last_completed_batch": "A014",
+  "completed_worker_batch_count": 14,
+  "completed_team_a_intake_batch_count": 15,
+  "worker_new_unique_url_leads": 593,
+  "team_a_cumulative_unique_url_leads": 638,
+  "last_completed_batch": "A015",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -128,16 +134,15 @@
     "M49:170|initial_source_scan",
     "M49:174|initial_source_scan",
     "M49:178|initial_source_scan",
-    "M49:180|initial_source_scan_partial"
+    "M49:180|initial_source_scan_partial",
+    "M49:184|initial_source_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "174",
-      "178",
-      "180"
+      "184"
     ],
-    "next": "M49:180 Democratic Republic of the Congo continue uncollected health-specific legal original records; then next actual M49 after 180.",
-    "next_batch_id": "A015",
+    "next": "M49:188 Costa Rica; M49:191 Croatia; M49:192 Cuba; M49:196 Cyprus; M49:203 Czechia; earlier DRC implementing orders and cross-source duplicate document identities unresolved.",
+    "next_batch_id": "A016",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -173,7 +178,10 @@
     "M49:170 SISPRO labelled Decreto 3180/2004 but URL pointed to Decreto 3880/2005; original identity unresolved.",
     "M49:174 historical 1995 versus 2011 Comoros health codes and 2017 law implementation/current island competence unresolved.",
     "M49:178 Congo 2020 health district decrees and SGG 2026 amendment chain not authenticated; print JO authoritative note preserved.",
-    "M49:180 DRC 2018/2023 health act current amendment chain and many health implementing orders remain to collect."
+    "M49:180 DRC 2018/2023 health act current amendment chain and many health implementing orders remain to collect.",
+    "M49:184 Cook Islands Public Health Act 2004/2024 transition, later 2025 orders and commencement status require original-current legal authentication.",
+    "M49:184 Ministry of Health PDF originals vs Parliament registry copies may represent same instrument, pending document-level deduplication.",
+    "M49:180 DRC health specific implementing orders from Leganet remain for later source acquisition."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -777,7 +785,43 @@
     "https://www.leganet.cd/Legislation/Tables/droitdelasante.htm",
     "https://natlex.ilo.org/dyn/natlex2/r/natlex/fe/details?cs=1j1sM6KCZlvUyvYgOhM4PiNKUHoCGT7dsmXPTH2S-WbIMsmqL2q5u0uqxUf7iBnftV3YbN5f828VY4c_PqcqjEg&p3_isn=84915",
     "https://www.leganet.cd/Legislation/JO/2006/numeros/2006.24.pdf",
-    "https://mail.leganet.cd/JO.htm"
+    "https://mail.leganet.cd/JO.htm",
+    "https://www.health.gov.ck/public-health-act-2004/",
+    "https://www.health.gov.ck/public-health-act-2024/",
+    "https://www.health.gov.ck/ministry-of-health-act-2013/",
+    "https://www.health.gov.ck/tobacco-products-control-act-2007-2/",
+    "https://www.health.gov.ck/marketing-restrictions-of-unhealthy-food-and-drink-to-children/",
+    "https://www.health.gov.ck/public-health-act-2024-commencement-order/",
+    "https://www.health.gov.ck/narcotics-amendment-regulations-2024/",
+    "https://www.health.gov.ck/pharmacy-and-therapeutic-products-amendment-regulations-2024/",
+    "https://www.health.gov.ck/tobacco-products-control-amendment-act-2024/",
+    "https://www.health.gov.ck/ministry-of-health-covid-19-regulations-2022/",
+    "https://www.health.gov.ck/covid-19-air-border-entry-requirements-regulations-2021/",
+    "https://www.health.gov.ck/covid-19-public-health-measures-regulations-2021/",
+    "https://www.health.gov.ck/ministry-of-health-pharmacy-and-therapeutic-products-regulations-2013/",
+    "https://www.health.gov.ck/ministry-of-health-mental-health-regulations-2013/",
+    "https://www.health.gov.ck/disability-act-2008/",
+    "https://www.health.gov.ck/tobacco-products-control-regulations-2008/",
+    "https://www.health.gov.ck/food-fish-export-processing-regulations-2006/",
+    "https://www.health.gov.ck/food-act-1992-93/",
+    "https://www.health.gov.ck/nurses-act-1986/",
+    "https://www.health.gov.ck/medical-and-dental-practices-act-1976/",
+    "https://www.health.gov.ck/dental-act-1970-1971/",
+    "https://parliament.gov.ck/parliamentary-business/regulations/",
+    "https://parliament.gov.ck/parliamentary-business/acts/acts-library/",
+    "https://www.health.gov.ck/tag/legislation/",
+    "https://www.health.gov.ck/about-us/",
+    "https://faolex.fao.org/docs/pdf/cok230037.pdf",
+    "https://faolex.fao.org/docs/pdf/cok170668.pdf",
+    "https://parliamentci.wpenginepowered.com/wp-content/uploads/2025/09/Parliament-Paper-No.-217-Public-Health-Appointment-of-Members-of-the-National-Public-Health-Committee-Order-2025-Serial-No.-2025-11.pdf",
+    "https://parliamentci.wpenginepowered.com/wp-content/uploads/2024/09/Parliament-Paper-No.-153-Public-Health-Act-2024-Commencement-Order-2024-Serial-No.-2024-09.pdf",
+    "https://parliamentci.wpenginepowered.com/wp-content/uploads/2024/07/Narcotics-Amendment-Regulations-2024-Serial-No.-202404.pdf",
+    "https://parliamentci.wpenginepowered.com/wp-content/uploads/2024/07/Ministry-of-Health-Pharmacy-and-Therapeutic-Products-Amendment-Regulations-2024-Serial-No.-202406.pdf",
+    "https://parliamentci.wpenginepowered.com/wp-content/uploads/2024/08/Tobacco-Products-Control-Amendment-Act-2024-Commencement-Order-2024-Serial-No.-8.pdf",
+    "https://parliamentci.wpenginepowered.com/wp-content/uploads/2023/04/Paper-03A_compressed.pdf",
+    "https://www.health.gov.ck/public-health-law-reform/",
+    "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/COK_Cooks-Islands_National-Health-Strategic-Plan_2023-2027.pdf",
+    "https://environment.gov.ck/legislation/other-relevant-legislation/"
   ],
   "unresolved_retrievals": [
     {
@@ -1178,15 +1222,20 @@
     {
       "source_id": "ATLAS-RAW-A014-027",
       "reason": "Leganet third-party transcript; original JO and current text not separately checked"
+    },
+    {
+      "source_id": "ATLAS-RAW-A015-012",
+      "url": "https://www.health.gov.ck/covid-19-public-health-measures-regulations-2021/",
+      "reason": "DIRECT_PAGE_ACCESS_HTTP_403"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A014",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A014_TEAM_A_20261109.json",
+    "batch_id": "A015",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A015_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "45a80c7c0e385f7b0ff26a25cbf84148ffb744b6",
+    "parent_commit_sha": "fce52d4ffee15729a24cb83d20982d33070b5033",
     "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD; own SHA cannot be self-embedded"
   },
-  "next_run_instruction": "Resume A015 continuing M49:180 DRC targeted original health orders, then advance actual CSV queue.",
+  "next_run_instruction": "Resume A016 from M49:188 Costa Rica; priority untouched legal originals, followed by M49:191 Croatia; unresolved DRC and 158 queue mismatch remain in state. No evidence validation.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
