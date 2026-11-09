@@ -1,0 +1,129 @@
+{
+  "baseline_sha": "d1f7393fd9dd17a913edf52656f97d3b4694a4f7",
+  "method": "B99 scoped 2020 US ACR gout: separately verified original Wiley S1 with GRADE/authorship, keep historic generic M; errata, rights and clinical review remain separate",
+  "generated_utc_date": "2026-11-08",
+  "M49": 248,
+  "conditions": 7,
+  "matrix": 1736,
+  "organizations": 501,
+  "areas_with_local_org_indexed": 227,
+  "geographic_org_gaps": 21,
+  "raw_linked_cells": 388,
+  "searched_unlinked_cells": 194,
+  "untouched_cells": 1154,
+  "pub_context_rows": 433,
+  "source_quality_audited": 91,
+  "source_quality_unreviewed": 342,
+  "tiers": {
+    "S1": 11,
+    "S2": 41,
+    "H": 7,
+    "M": 30,
+    "U": 2
+  },
+  "eligible_audited_sources": 59,
+  "distinct_cells_with_eligible_audited_source": 58,
+  "raw_linked_fully_audited_without_S1_S2_H": 22,
+  "raw_linked_no_eligible_with_unaudited": 308,
+  "search_depth_entries": 32,
+  "search_depth_D2_cells_with_no_link": 12,
+  "searched_unlinked_missing_active_D2": 182,
+  "unknown_source_country_imprints": 5,
+  "source_reused_exact_urls": 25,
+  "shared_org_official_url_strings": 6,
+  "repeated_exact_area_condition_search_urls": 11,
+  "identity_states_with_caution_heuristic": 356,
+  "identity_states_no_caution_heuristic": 142,
+  "provenance": 1172,
+  "search_logs": 696,
+  "community_subnational": 10,
+  "cross_border": 8,
+  "metadata_reconciliation": 8,
+  "metadata_replacement_qualified": 7,
+  "metadata_replacement_open": 1,
+  "by_condition": {
+    "diabetes": {
+      "raw": 110,
+      "searched": 104,
+      "untouched": 34,
+      "qualCells": 7,
+      "auditedSources": 15
+    },
+    "hypertension": {
+      "raw": 75,
+      "searched": 15,
+      "untouched": 158,
+      "qualCells": 2,
+      "auditedSources": 3
+    },
+    "high_chol": {
+      "raw": 48,
+      "searched": 11,
+      "untouched": 189,
+      "qualCells": 1,
+      "auditedSources": 2
+    },
+    "gout": {
+      "raw": 41,
+      "searched": 13,
+      "untouched": 194,
+      "qualCells": 9,
+      "auditedSources": 17
+    },
+    "lactose": {
+      "raw": 37,
+      "searched": 21,
+      "untouched": 190,
+      "qualCells": 12,
+      "auditedSources": 15
+    },
+    "celiac": {
+      "raw": 52,
+      "searched": 10,
+      "untouched": 186,
+      "qualCells": 20,
+      "auditedSources": 30
+    },
+    "hemochromatosis": {
+      "raw": 25,
+      "searched": 20,
+      "untouched": 203,
+      "qualCells": 7,
+      "auditedSources": 9
+    }
+  },
+  "clinical_approvals": 0,
+  "run_delta": {
+    "organizations": 0,
+    "geographic_org_areas": 0,
+    "raw_linked_cells": 0,
+    "searched_unlinked_cells": 0,
+    "untouched_cells": 0,
+    "quality_audits": 1,
+    "quality_eligible_audits": 1,
+    "qualified_cells": 1,
+    "depth_audits": 0,
+    "issuer_resolved": 0,
+    "original_source_contexts": 1,
+    "provenance": 1,
+    "search_logs": 1,
+    "newly_touched_first_pass_cells": 0,
+    "derived_inventory_rows": 1736,
+    "derived_source_worklist": 433,
+    "derived_identity_review_rows": 522,
+    "D1_audits": 0,
+    "D2_audits": 0
+  },
+  "validation": {
+    "structural_errors": 0,
+    "Node_CLI_ran": false,
+    "Node_note": "GitHub clone DNS failed; original node validate.mjs not run. Connector-based JS preflight verifies exact source/context/provenance/coverage joins, CSV widths and 1736 cells; does not establish native CLI, scientific or rights approval.",
+    "clinical_state": "433/433 research_lead_only"
+  },
+  "live_input_head": "d1f7393fd9dd17a913edf52656f97d3b4694a4f7",
+  "depth_tiers": {
+    "D1": 16,
+    "D2": 12,
+    "D3": 0
+  }
+}

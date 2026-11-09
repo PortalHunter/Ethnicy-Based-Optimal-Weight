@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "key": "B-01:B-US-ACR.gout.09b4f6ee8c58",
+  "input_sha": "d1f7393fd9dd17a913edf52656f97d3b4694a4f7",
+  "disposition": "verified_scoped",
+  "evidence": [
+    {
+      "id": "ACR-ORIGINAL",
+      "url": "https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.41247",
+      "locator": "Original journal HTML 2020, volume 72 issue 6 pages 879-895, DOI 10.1002/art.41247; FitzGerald et al; 57 PICO GRADE systematic review, group consensus and patient input",
+      "issuer": "American College of Rheumatology / FitzGerald et al; Wiley publisher",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Original 2020 ACR-authored professional guideline; 2020/2021 correction history; no clinical, rights, population/ancestry or legal approval."
+    },
+    {
+      "id": "PMC-2020",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+      "locator": "PMC author manuscript from 2023-10-10; final 2020 Arthritis Care & Research 72(6):744-760, DOI 10.1002/acr.24180",
+      "issuer": "ACR/FitzGerald et al; NLM manuscript repository",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Manuscript full text and methods accessible; author manuscript version and free access do not supply reuse license."
+    },
+    {
+      "id": "PUBMED-ERRATA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32391934/",
+      "locator": "PubMed journal record and errata 2020 Aug, 2021 Mar",
+      "issuer": "US National Library of Medicine",
+      "checked": "2026-11-08",
+      "original": false,
+      "access": "metadata",
+      "qualification": "Edition and correction bibliographic data; revised text not clinically appraised."
+    },
+    {
+      "id": "WILEY-PERMISSIONS",
+      "url": "https://authors.wiley.com/help/license-signing-and-permissions.html",
+      "locator": "Publisher RightsLink reuse and republication permission workflow",
+      "issuer": "Wiley",
+      "checked": "2026-11-08",
+      "original": false,
+      "access": "direct",
+      "qualification": "General permission mechanism only, no article-specific license verified."
+    }
+  ],
+  "blocker": "",
+  "reopen": "",
+  "validation": [
+    "Exact reserved B-01 packet, 10-path allowlist, Team B SHA and open/draft/unmerged PRs #71/#75 checked.",
+    "Own launch ID launch-B-US-ACR-GOUT-676972ddf8929573 read back as running; atomic architecture start commit 4a5217c713e6b6689eecd2893732f5333e87d6bb.",
+    "Original 2020 ACR guideline directly retrieved and inspected; historical generic index M retained, original DOI S1 separately indexed.",
+    "Independent JS structural checks: widths for all CSVs, 433 exact source and context rows, 1736 unique M49 condition cells, 91 source quality audit rows, 1172 provenance IDs, 696 search log IDs; exact resource-to-context and provenance joins PASS.",
+    "Baseline source audit has 3 pre-existing repeated search_depth exact URL keys; unchanged by this ticket and not promoted to source evidence.",
+    "Native Node validate.mjs NOT RUN, because local checkout git DNS resolution failed. Cannot claim native CLI PASS.",
+    "Clinical/rights/AI reuse/legal/population adoption approvals remain 0."
+  ],
+  "paths": [
+    "docs/atlas/handoffs/team-b/runs/B-01--B-US-ACR.gout.09b4f6ee8c58.json",
+    "docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+    "docs/atlas/handoffs/team-b/data/publication_context.csv",
+    "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+    "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+    "docs/atlas/handoffs/team-b/data/search_log.csv",
+    "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
+    "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+    "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+    "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
+  ]
+}
