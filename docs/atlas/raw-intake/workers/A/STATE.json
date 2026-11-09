@@ -84,13 +84,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A013_TEAM_A_20261109.json",
       "source_count": 42
+    },
+    {
+      "batch_id": "A014",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A014_TEAM_A_20261109.json",
+      "source_count": 35
     }
   ],
-  "completed_worker_batch_count": 12,
-  "completed_team_a_intake_batch_count": 13,
-  "worker_new_unique_url_leads": 522,
-  "team_a_cumulative_unique_url_leads": 567,
-  "last_completed_batch": "A013",
+  "completed_worker_batch_count": 13,
+  "completed_team_a_intake_batch_count": 14,
+  "worker_new_unique_url_leads": 557,
+  "team_a_cumulative_unique_url_leads": 602,
+  "last_completed_batch": "A014",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -119,14 +125,19 @@
     "M49:156|initial_source_scan",
     "M49:162|initial_source_scan",
     "M49:166|initial_source_scan",
-    "M49:170|initial_source_scan"
+    "M49:170|initial_source_scan",
+    "M49:174|initial_source_scan",
+    "M49:178|initial_source_scan",
+    "M49:180|initial_source_scan_partial"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "170"
+      "174",
+      "178",
+      "180"
     ],
-    "next": "M49:174 Comoros; M49:178 Congo; M49:180 Democratic Republic of the Congo",
-    "next_batch_id": "A014",
+    "next": "M49:180 Democratic Republic of the Congo continue uncollected health-specific legal original records; then next actual M49 after 180.",
+    "next_batch_id": "A015",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -159,7 +170,10 @@
     "M49:162/166 territorial applicability, 2026 changes and issuer delegations of Western Australian statutes unresolved (raw only)",
     "M49:158 Taiwan absent from live Team A research_queue.csv despite previous checkpoint, queue mismatch unresolved",
     "M49:170 Colombia Diario Oficial original enactments, 2026 promulgation/amendment chains, departmental/municipal laws and cross-issuer competences not validated; A013 raw metadata only.",
-    "M49:170 SISPRO labelled Decreto 3180/2004 but URL pointed to Decreto 3880/2005; original identity unresolved."
+    "M49:170 SISPRO labelled Decreto 3180/2004 but URL pointed to Decreto 3880/2005; original identity unresolved.",
+    "M49:174 historical 1995 versus 2011 Comoros health codes and 2017 law implementation/current island competence unresolved.",
+    "M49:178 Congo 2020 health district decrees and SGG 2026 amendment chain not authenticated; print JO authoritative note preserved.",
+    "M49:180 DRC 2018/2023 health act current amendment chain and many health implementing orders remain to collect."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -728,7 +742,42 @@
     "https://www.minsalud.gov.co/ihce/Paginas/Normatividad.aspx",
     "https://dapre.presidencia.gov.co/normativa/leyes",
     "https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/normatividad-medicamentos",
-    "https://www.minsalud.gov.co/Comunicaciones/noticias/2026/Paginas/colombia-moderniza-su-sistema-unico-de-habilitacion-una-reglamentacion-mas-clara-agil-y-centrada-en-la-seguridad-del-pacien.aspx"
+    "https://www.minsalud.gov.co/Comunicaciones/noticias/2026/Paginas/colombia-moderniza-su-sistema-unico-de-habilitacion-una-reglamentacion-mas-clara-agil-y-centrada-en-la-seguridad-del-pacien.aspx",
+    "https://justice.gouv.km/texte/code-de-la-sante-2011/",
+    "https://justice.gouv.km/texte/code-de-la-sante-publique-et-de-laction-sociale-pour-le-bien-etre-de-la-population-1995/",
+    "https://justice.gouv.km/texte/loi-n11-044-au-du-26-mars-2011-portant-reglementation-des-mutuelles-de-sante/",
+    "https://justice.gouv.km/texte/loi-organique-n05-003-au-du-1er-mars-2005-portant-modalites-dapplication-de-larticle-9-de-la-constitution-de-lunion-des-comores/",
+    "https://justice.gouv.km/wp-content/uploads/2025/03/decret-n-17-105pr-du-5-octobre-2017-portant-promulgation-de-la-loi-n-17-012au-relatif-a-la-couverture-sanitaire-universelle.pdf",
+    "https://justice.gouv.km/wp-content/uploads/2025/03/loi-du-31-decembre-2005-autorisant-le-president-de-lunion-a-ratifier-la-convention-cadre-de-lorganisation-mondiale-de-la-sante-oms-pour-la-lutte-anti-tabac.pdf",
+    "https://justice.gouv.km/wp-content/uploads/2025/03/loi-n-17-005au-du-10-juin-2017-portant-legislation-alimentaire-en-union-des-comores.pdf",
+    "https://justice.gouv.km/texte/code-du-travail/",
+    "https://justice.gouv.km/texte/loi-n04-006-portant-statut-general-des-fonctionnaires/",
+    "https://justice.gouv.km/legislation-et-textes-officiels/",
+    "https://justice.gouv.km/wp-content/pdfjs/web/viewer.html?file=https%3A%2F%2Fjustice.gouv.km%2Fwp-content%2Fuploads%2F2025%2F03%2Floi-n-17-011au-du-6-juin-2017-portant-interdiction-de-la-production-de-limportation-de-la-commercialisation-et-de-la-distribution-des-emballages-et-sachets-plastiques-non-biodegradables.pdf",
+    "https://justice.gouv.km/texte/loi-n97-006-portant-statut-des-personnels-militaires-de-la-republique-federale-islamique-des-comores/",
+    "https://www.sgg.cg/textes-officiels/lois/1988/congo-loi-1988-09.pdf",
+    "https://www.sgg.cg/JO/2019/congo-jo-2019-23.pdf",
+    "https://www.sgg.cg/JO/2020/congo-jo-2020-43.pdf",
+    "https://www.sgg.cg/JO/2001/congo-jo-2001-01-sp.pdf",
+    "https://www.sgg.cg/JO/2023/congo-jo-2023-11.pdf",
+    "https://www.sgg.cg/JO/2022/congo-jo-2022-25.pdf",
+    "https://www.sgg.cg/JO/2025/congo-jo-2025-14.pdf",
+    "https://www.sgg.cg/JO/1959/congo-jo-1959-21.pdf",
+    "https://www.sgg.cg/JO/2021/congo-jo-2021-04-sp.pdf",
+    "https://sgg.cg/droit-congolais/constitution.html",
+    "https://www.sgg.cg/fr/droit-congolais/recherche.html?page=591&row=123663",
+    "https://www.sgg.cg/fr/droit-congolais/recherche.html?page=511&row=123727",
+    "https://www.sgg.cg/fr/m-journal-officiel/le-journal-officiel.html",
+    "https://www.sgg.cg/textes-officiels/lois/2014/congo-loi-2014-14.pdf",
+    "https://www.sgg.cg/fr/recherche.html?page=166&row=123451",
+    "https://mail.leganet.cd/Legislation/Droit%20Public/SANTE/Loi.18.035.13.12.2018.html",
+    "https://anicns.gouv.cd/restapi/uploads/documents/loi_csu_23_006_du_03_mars_2023.pdf",
+    "https://web.journalofficiel.cd/",
+    "https://www.presidence.cd/services/3/journal_officiel",
+    "https://www.leganet.cd/Legislation/Tables/droitdelasante.htm",
+    "https://natlex.ilo.org/dyn/natlex2/r/natlex/fe/details?cs=1j1sM6KCZlvUyvYgOhM4PiNKUHoCGT7dsmXPTH2S-WbIMsmqL2q5u0uqxUf7iBnftV3YbN5f828VY4c_PqcqjEg&p3_isn=84915",
+    "https://www.leganet.cd/Legislation/JO/2006/numeros/2006.24.pdf",
+    "https://mail.leganet.cd/JO.htm"
   ],
   "unresolved_retrievals": [
     {
@@ -1125,15 +1174,19 @@
       "source_id": "ATLAS-RAW-A013-023",
       "url": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-1799-de-2026.pdf",
       "reason": "WEB_LINK_TIMEOUT_OR_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A014-027",
+      "reason": "Leganet third-party transcript; original JO and current text not separately checked"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A013",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A013_TEAM_A_20261109.json",
+    "batch_id": "A014",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A014_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "ff96fb846476dc5c4e9df095040db82f9a4cc4d6",
+    "parent_commit_sha": "45a80c7c0e385f7b0ff26a25cbf84148ffb744b6",
     "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD; own SHA cannot be self-embedded"
   },
-  "next_run_instruction": "Resume A014 at M49:174 Comoros, then M49:178 Congo and M49:180 DRC; source acquisition only.",
+  "next_run_instruction": "Resume A015 continuing M49:180 DRC targeted original health orders, then advance actual CSV queue.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
