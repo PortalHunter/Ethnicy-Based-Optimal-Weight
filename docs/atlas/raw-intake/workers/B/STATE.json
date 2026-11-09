@@ -65,12 +65,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B009_TEAM_B_20261109.json",
       "source_count": 40,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B010",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B010_TEAM_B_20261109.json",
+      "source_count": 40,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 9,
-  "worker_owned_batch_count": 8,
-  "cumulative_team_source_leads": 362,
-  "worker_owned_unique_url_leads": 323,
+  "completed_batch_count": 10,
+  "worker_owned_batch_count": 9,
+  "cumulative_team_source_leads": 402,
+  "worker_owned_unique_url_leads": 363,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -190,7 +196,21 @@
     "M49:826|hemochromatosis",
     "M49:586|celiac",
     "M49:458|lactose",
-    "M49:203|lactose"
+    "M49:203|lactose",
+    "M49:360|gout",
+    "M49:484|gout",
+    "M49:076|gout",
+    "M49:704|celiac",
+    "M49:156|celiac",
+    "CROSS_REGION:BRICS|gout",
+    "CROSS_REGION:LATAM|celiac",
+    "M49:484|lactose",
+    "M49:724|hemochromatosis",
+    "M49:032|celiac",
+    "M49:788|hemochromatosis",
+    "M49:392|hemochromatosis",
+    "M49:208|hemochromatosis",
+    "M49:792|hemochromatosis"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -204,11 +224,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "B010: deepen remaining celiac/gout/lactose/HFE untouched regions, especially African and Pacific conditions; Peru gout and Bangladesh celiac original gaps not closed."
+    "P1_next": "B011: disease-specific source acquisition for underserved Africa/Oceania and Peru gout; P0 Bangladesh celiac remains unaccepted despite new raw leads."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 323,
+    "current_worker_batch_count": 363,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -532,7 +552,47 @@
       "https://pubmed.ncbi.nlm.nih.gov/11469473/",
       "https://pubmed.ncbi.nlm.nih.gov/40308198/",
       "https://pubmed.ncbi.nlm.nih.gov/21669599/",
-      "https://pubmed.ncbi.nlm.nih.gov/9228138/"
+      "https://pubmed.ncbi.nlm.nih.gov/9228138/",
+      "https://pubmed.ncbi.nlm.nih.gov/35780354/",
+      "https://pubmed.ncbi.nlm.nih.gov/19377424/",
+      "https://pubmed.ncbi.nlm.nih.gov/26931258/",
+      "https://pubmed.ncbi.nlm.nih.gov/41347947/",
+      "https://pubmed.ncbi.nlm.nih.gov/12412191/",
+      "https://pubmed.ncbi.nlm.nih.gov/42579907/",
+      "https://pubmed.ncbi.nlm.nih.gov/27329441/",
+      "https://pubmed.ncbi.nlm.nih.gov/40509574/",
+      "https://pubmed.ncbi.nlm.nih.gov/41183986/",
+      "https://pubmed.ncbi.nlm.nih.gov/21196593/",
+      "https://pubmed.ncbi.nlm.nih.gov/41996697/",
+      "https://pubmed.ncbi.nlm.nih.gov/34058810/",
+      "https://pubmed.ncbi.nlm.nih.gov/34482631/",
+      "https://pubmed.ncbi.nlm.nih.gov/28101833/",
+      "https://pubmed.ncbi.nlm.nih.gov/21196592/",
+      "https://pubmed.ncbi.nlm.nih.gov/727844/",
+      "https://pubmed.ncbi.nlm.nih.gov/40991663/",
+      "https://pubmed.ncbi.nlm.nih.gov/25942408/",
+      "https://pubmed.ncbi.nlm.nih.gov/42309860/",
+      "https://pubmed.ncbi.nlm.nih.gov/15684872/",
+      "https://pubmed.ncbi.nlm.nih.gov/23224306/",
+      "https://pubmed.ncbi.nlm.nih.gov/7973143/",
+      "https://pubmed.ncbi.nlm.nih.gov/17013646/",
+      "https://pubmed.ncbi.nlm.nih.gov/9122545/",
+      "https://pubmed.ncbi.nlm.nih.gov/15388046/",
+      "https://pubmed.ncbi.nlm.nih.gov/30725059/",
+      "https://pubmed.ncbi.nlm.nih.gov/21381406/",
+      "https://pubmed.ncbi.nlm.nih.gov/35504830/",
+      "https://pubmed.ncbi.nlm.nih.gov/39003111/",
+      "https://pubmed.ncbi.nlm.nih.gov/11569698/",
+      "https://pubmed.ncbi.nlm.nih.gov/12763366/",
+      "https://pubmed.ncbi.nlm.nih.gov/14671616/",
+      "https://pubmed.ncbi.nlm.nih.gov/15749661/",
+      "https://pubmed.ncbi.nlm.nih.gov/15581829/",
+      "https://pubmed.ncbi.nlm.nih.gov/29230833/",
+      "https://pubmed.ncbi.nlm.nih.gov/12512743/",
+      "https://pubmed.ncbi.nlm.nih.gov/1895049/",
+      "https://pubmed.ncbi.nlm.nih.gov/23794343/",
+      "https://pubmed.ncbi.nlm.nih.gov/38850209/",
+      "https://pubmed.ncbi.nlm.nih.gov/42364229/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -540,7 +600,8 @@
     "worker_B006_count": 40,
     "worker_B007_count": 39,
     "worker_B008_count": 40,
-    "worker_B009_count": 40
+    "worker_B009_count": 40,
+    "worker_B010_count": 40
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -574,14 +635,14 @@
       }
     ]
   },
-  "next_batch_id": "B010",
-  "next_queue_position": "B010: targeted published original source candidates and official guidance for unaddressed M49 celiac/gout/lactose/hemochromatosis cells; avoid B001–B009 URL reuse and mere proxy references.",
+  "next_batch_id": "B011",
+  "next_queue_position": "B011: seek distinct, inspectable condition-specific article and official institutional leads for remaining untouched African/Oceania/Pacific M49 cells and P0 unresolved Peru gout, favoring source-level dedup against B001–B010.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B009",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B009_TEAM_B_20261109.json",
-    "parent_commit_sha": "c0410ff2e51ecbc0e1fd3f3177ef00ea88bd7155",
+    "batch_id": "B010",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B010_TEAM_B_20261109.json",
+    "parent_commit_sha": "1ea544cd3ba380f0acafe72d95439b6fee6aeb9a",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Use verified worker branch HEAD; embedded self-SHA is not possible within same commit."
+    "note": "Self-referential SHA not possible in same commit. Verify GitHub branch HEAD."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
