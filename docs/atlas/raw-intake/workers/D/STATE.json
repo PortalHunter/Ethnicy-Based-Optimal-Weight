@@ -151,10 +151,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D024_TEAM_D_20261109.json",
       "source_count": 41,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D025",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D025_TEAM_D_20261109.json",
+      "source_count": 39,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 24,
-  "cumulative_unique_url_leads": 935,
+  "completed_batch_count": 25,
+  "cumulative_unique_url_leads": 974,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -1332,7 +1338,46 @@
     "https://docs.github.com/en/rest/actions/artifacts",
     "https://docs.github.com/en/rest/actions/workflows",
     "https://docs.github.com/en/rest/checks/runs",
-    "https://docs.github.com/en/rest/commits/statuses"
+    "https://docs.github.com/en/rest/commits/statuses",
+    "https://www.w3.org/TR/shacl-af/",
+    "https://www.w3.org/TR/rdf-canon/",
+    "https://www.w3.org/TR/shacl12-core/",
+    "https://www.w3.org/TR/shacl12-node-expr/",
+    "https://www.w3.org/TR/shacl-inference-rules/",
+    "https://www.w3.org/TR/shacl12-sparql/",
+    "https://www.w3.org/TR/shacl12-profiling/",
+    "https://www.w3.org/TR/shacl12-ui/",
+    "https://www.w3.org/TR/sparql12-rl/",
+    "https://www.w3.org/TR/rdf12-concepts/",
+    "https://www.w3.org/TR/rdf12-semantics/",
+    "https://www.w3.org/TR/rdf12-turtle/",
+    "https://www.w3.org/TR/rdf12-n-triples/",
+    "https://www.w3.org/TR/rdf12-n-quads/",
+    "https://www.w3.org/TR/rdf12-trig/",
+    "https://docs.github.com/en/codespaces/troubleshooting/github-codespaces-logs",
+    "https://docs.github.com/en/codespaces/about-codespaces/understanding-the-codespace-lifecycle",
+    "https://docs.github.com/en/codespaces/developing-in-a-codespace/default-environment-variables-for-your-codespace",
+    "https://docs.github.com/en/codespaces/troubleshooting/exporting-changes-to-a-branch",
+    "https://docs.github.com/en/codespaces/managing-your-codespaces/reviewing-your-security-logs-for-github-codespaces",
+    "https://docs.github.com/en/codespaces/reference/security-in-github-codespaces",
+    "https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-creation-and-deletion-of-codespaces",
+    "https://docs.github.com/en/rest/codespaces/codespaces",
+    "https://docs.github.com/en/rest/codespaces/machines",
+    "https://docs.github.com/en/rest/codespaces/repository-secrets",
+    "https://docs.github.com/en/rest/codespaces/organization-secrets",
+    "https://docs.github.com/en/codespaces/prebuilding-your-codespaces/managing-prebuilds",
+    "https://docs.github.com/en/rest/git/blobs",
+    "https://docs.github.com/en/rest/git/refs",
+    "https://docs.github.com/en/rest/git/trees",
+    "https://docs.github.com/en/rest/git/commits",
+    "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
+    "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+    "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+    "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+    "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+    "https://creativecommons.org/publicdomain/mark/1.0/"
   ],
   "unresolved_retrievals": [
     {
@@ -2135,6 +2180,27 @@
       "origin": "D024",
       "url": null,
       "reason": "CODESPACES_NATIVE_STDOUT_STDERR_AND_EXECUTED_SHA_NOT_RETRIEVED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-OFFICE-158",
+      "url": null,
+      "origin": "D025",
+      "reason": "EXACT_APRIL_2026_WHO_OFFICE_HOST_PRIMARY_RESPONDENT_NOT_YET_RETRIEVED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-OFFICE-239",
+      "url": null,
+      "origin": "D025",
+      "reason": "EXACT_APRIL_2026_WHO_HOST_OR_SOURCE_OWNER_NONAPPLICABILITY_PRIMARY_NOT_YET_RETRIEVED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-ACCEPT-002",
+      "url": null,
+      "origin": "D025",
+      "reason": "ORIGINAL_NATIVE_CODESPACES_COMMAND_OUTPUT_AND_EXECUTED_SHA_NOT_RETRIEVED"
     }
   ],
   "duplicate_urls_skipped_this_batch": [],
@@ -2152,12 +2218,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Continue original WHO April 2026 office-host applicability for 158 and 239; actual Codespaces native logs/commit identity; independent semantic graph and source-rights acceptance evidence; raw-source only.",
-  "next_batch_id": "D025",
+  "next_queue_position": "Continue untapped original-source metadata for Team D acceptance and reproducibility (TD-BL-ACCEPT-001/002), with targeted unresolved WHO April 2026 host evidence (TD-BL-OFFICE-158/239). Raw-source only; all original cases remain substantively open.",
+  "next_batch_id": "D026",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D024",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D024_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "2e02625472bc6440b14dfd518c190b524d2d3598",
+    "batch_id": "D025",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D025_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "93052fd475a25e04478882d18a636aa54e0fefed",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
