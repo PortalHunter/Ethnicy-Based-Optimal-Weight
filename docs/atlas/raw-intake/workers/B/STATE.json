@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "team": "B",
+  "status": "RAW_SOURCE_ACQUISITION_ONLY",
+  "branch": "research/atlas-raw-intake-team-b",
+  "created_on": "2026-11-09",
+  "initialized_from": {
+    "central_branch": "research/atlas-raw-intake",
+    "central_state_blob_sha": "213458987470b88028e9562baebf3822b8858d7e",
+    "parent_commit_sha": "3674f049d627fcb9b6c456ac6abf648d9ee802ca",
+    "baseline_team_batch": "B001",
+    "baseline_team_source_count": 39
+  },
+  "completed_batches": [
+    {
+      "batch_id": "B001",
+      "path": "docs/atlas/raw-intake/batches/B001_TEAM_B_20261109.json",
+      "source_count": 39,
+      "origin": "inherited_read_only_central"
+    },
+    {
+      "batch_id": "B002",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B002_TEAM_B_20261109.json",
+      "source_count": 40,
+      "origin": "worker_B"
+    }
+  ],
+  "completed_batch_count": 2,
+  "worker_owned_batch_count": 1,
+  "cumulative_team_source_leads": 79,
+  "worker_owned_unique_url_leads": 40,
+  "processed_queue_items": [
+    "M49:050|high_chol",
+    "M49:064|high_chol",
+    "M49:068|high_chol",
+    "M49:090|high_chol",
+    "M49:116|high_chol",
+    "M49:120|high_chol",
+    "M49:132|high_chol",
+    "M49:144|high_chol",
+    "M49:404|high_chol",
+    "M49:524|high_chol"
+  ],
+  "remaining_targets": {
+    "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+    "baseline_as_of": "Team B Batch 98",
+    "untouched_cells_before_intake": 1154,
+    "unaudited_existing_source_urls_before_intake": 342,
+    "substantive_research_backlog_decremented": 0,
+    "P0_unresolved_originals": [
+      "M49:604|gout",
+      "M49:050|celiac",
+      "M49:050|lactose",
+      "M49:144|gout"
+    ],
+    "P1_next": "Other untouched hemochromatosis, gout, lactose and celiac cells across regions; source leads from local independent issuers preferred, not WHO-only repetition"
+  },
+  "previously_collected_urls": {
+    "baseline_B001_count": 39,
+    "current_worker_batch_count": 40,
+    "worker_urls": [
+      "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
+      "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
+      "https://www.who.int/publications/m/item/2010-steps-fact-sheet-bangladesh",
+      "https://www.who.int/publications/m/item/2002-steps-country-report-bangladesh",
+      "https://www.who.int/publications/m/item/2019-steps-country-report-bhutan",
+      "https://www.who.int/publications/m/item/2019-steps-fact-sheet-bhutan",
+      "https://www.who.int/publications/m/item/2014-steps-country-report-bhutan",
+      "https://www.who.int/publications/m/item/2014-steps-fact-sheet-bhutan",
+      "https://www.who.int/publications/m/item/2007-steps-country-report-bhutan",
+      "https://www.who.int/publications/m/item/2007-steps-fact-sheet-bhutan",
+      "https://www.who.int/publications/m/item/2004-steps-fact-sheet-bhutan",
+      "https://www.who.int/publications/m/item/2019-steps-country-report-bolivia-%28plurinational-state-of%29",
+      "https://www.who.int/publications/m/item/2015-steps-country-report-solomon-islands",
+      "https://www.who.int/publications/m/item/2006-steps-country-report-solomon-islands",
+      "https://www.who.int/publications/m/item/2006-steps-fact-sheet-solomon-islands",
+      "https://www.who.int/publications/m/item/2023-steps-country-report-cambodia",
+      "https://www.who.int/publications/m/item/2010-steps-country-report-cambodia",
+      "https://www.who.int/publications/m/item/2003-steps-country-report-cameroon",
+      "https://www.who.int/publications/m/item/2003-steps-fact-sheet-cameroon",
+      "https://www.who.int/publications/m/item/2020-steps-country-report-cabo-verde-%28portuguese%29",
+      "https://www.who.int/publications/m/item/2020-steps-fact-sheet-cabo-verde",
+      "https://www.who.int/publications/m/item/2020-steps-fact-sheet-cabo-verde-%28portuguese%29",
+      "https://www.who.int/publications/m/item/2007-steps-fact-sheet-cabo-verde",
+      "https://www.who.int/publications/m/item/2021-steps-country-report-sri-lanka",
+      "https://www.who.int/publications/m/item/2015-steps-country-report-sri-lanka",
+      "https://www.who.int/publications/m/item/2015-steps-fact-sheet-sri-lanka",
+      "https://www.who.int/publications/m/item/2006-steps-country-report-sri-lanka",
+      "https://www.who.int/publications/m/item/2003-steps-country-report-sri-lanka",
+      "https://www.who.int/publications/m/item/2003-steps-fact-sheet-sri-lanka",
+      "https://www.who.int/publications/m/item/2015-steps-country-report-kenya",
+      "https://www.who.int/publications/m/item/2015-steps-factsheet-kenya",
+      "https://www.who.int/publications/m/item/2019-steps-country-report-nepal",
+      "https://www.who.int/publications/m/item/2019-steps-fact-sheet-nepal",
+      "https://www.who.int/publications/m/item/2012-2013-steps-country-report-nepal",
+      "https://www.who.int/publications/m/item/2012-2013-steps-fact-sheet-nepal",
+      "https://www.who.int/publications/m/item/2007-steps-country-report-nepal",
+      "https://www.who.int/publications/m/item/2005-steps-country-report-nepal",
+      "https://www.who.int/publications/m/item/2005-steps-fact-sheet-nepal",
+      "https://www.who.int/publications/m/item/2003-steps-country-report-nepal",
+      "https://www.who.int/publications/m/item/2003-steps-fact-sheet-nepal"
+    ]
+  },
+  "unresolved_retrievals": {
+    "worker_B002": [],
+    "baseline_B001": [
+      {
+        "source_id": "ATLAS-RAW-B001-010",
+        "url": "https://www.pihoa.org/wp-content/uploads/2026/01/Pohnpei-Hybrid-Survey-20242025_endorsed_1222025.pdf",
+        "reason": "ACCESS_LIMITED_FILE_TOO_LARGE"
+      },
+      {
+        "source_id": "ATLAS-RAW-B001-017",
+        "url": "https://www.pihoa.org/wp-content/uploads/2022/05/FSM-National-High-School-Survey-report-2017_FINAL.pdf",
+        "reason": "ACCESS_LIMITED_ANTIBOT"
+      },
+      {
+        "source_id": "ATLAS-RAW-B001-029",
+        "url": "https://www.hap.org.al/wp-content/uploads/2022/10/Raste-klinike_HTA.pdf",
+        "reason": "ACCESS_LIMITED_ANTIBOT"
+      }
+    ]
+  },
+  "next_batch_id": "B003",
+  "next_queue_position": "Team B P1 untouched hemochromatosis/gout/lactose/celiac cells and P0 unresolved original replacements; avoid WHO STEPS repeat and all B001/B002 URLs",
+  "latest_successfully_committed_checkpoint": {
+    "batch_id": "B002",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B002_TEAM_B_20261109.json",
+    "parent_commit_sha": "3674f049d627fcb9b6c456ac6abf648d9ee802ca",
+    "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
+    "note": "Atomic commit SHA cannot be embedded in itself; branch HEAD is authoritative checkpoint"
+  },
+  "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
+}
