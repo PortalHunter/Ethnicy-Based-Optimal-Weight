@@ -126,13 +126,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A020_TEAM_A_20261109.json",
       "source_count": 44
+    },
+    {
+      "batch_id": "A021",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A021_TEAM_A_20261109.json",
+      "source_count": 44
     }
   ],
-  "completed_worker_batch_count": 19,
-  "completed_team_a_intake_batch_count": 20,
-  "worker_new_unique_url_leads": 804,
-  "team_a_cumulative_unique_url_leads": 849,
-  "last_completed_batch": "A020",
+  "completed_worker_batch_count": 20,
+  "completed_team_a_intake_batch_count": 21,
+  "worker_new_unique_url_leads": 848,
+  "team_a_cumulative_unique_url_leads": 893,
+  "last_completed_batch": "A021",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -172,14 +178,15 @@
     "M49:191|supplemental_original_gazette_scan",
     "M49:192|preliminary_index_source_scan",
     "M49:196|preliminary_index_source_scan",
-    "M49:203|official_sukl_legislation_index_scan"
+    "M49:203|official_sukl_legislation_index_scan",
+    "M49:203|supplemental_czech_regulator_public_health_index_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
       "203"
     ],
-    "next": "M49:203 Czechia continue official Ministry health legislation, public health implementing rules and amendments; next different M49 code not checked because original queue CSV absent",
-    "next_batch_id": "A021",
+    "next": "M49:203 Czechia continue targeted public health authority, vaccination, infection and health insurance original source collection; main queue file absent so next jurisdiction code not confirmed",
+    "next_batch_id": "A022",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -225,7 +232,8 @@
     "M49:196 Cyprus official government index was indexed but page GET 403; individual original laws 89(I)/2001, 90(I)/2001, 40/1978, 73(I)/2017, 149(I)/2013, 70(I)/2001 unresolved.",
     "M49:192 Cuba 2026 Gazette O9 legal leads are non-official transcription only; original Ministry of Justice Gazette primary PDF and legal force / later amendments unresolved.",
     "M49:203 Czechia original legal texts and current consolidation/amendments in e-Sbírka still require direct retrieval; current tool returns metadata-only or server errors.",
-    "Historical Team A queue file referenced in state not present on worker branch; use M49:203 checkpoint until queue target source resolved."
+    "Historical Team A queue file referenced in state not present on worker branch; use M49:203 checkpoint until queue target source resolved.",
+    "M49:203 Czechia: SÚKL/SZÚ index leads A020-A021 largely metadata-only due to e-Sbírka viewer; original text, historical applicability and 2026 amendments still unresolved."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -1076,7 +1084,51 @@
     "https://www.e-sbirka.cz/sb/2021/396?zalozka=text",
     "https://www.e-sbirka.cz/sb/2015/2?zalozka=text",
     "https://www.e-sbirka.cz/sb/2021/527?zalozka=text",
-    "https://e-sbirka.gov.cz/sb/2022/379?zalozka=text"
+    "https://e-sbirka.gov.cz/sb/2022/379?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1990/526?zalozka=text",
+    "https://e-sbirka.gov.cz/sb/2024/387?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1992/634?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2001/477?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1997/22?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2004/500?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2012/255?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1999/106?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2020/515?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1998/82?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2004/499?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2000/219?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2016/134?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2001/320?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2016/250?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1991/455?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2000/218?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2016/297?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2000/365?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2011/350?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1990/505?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2004/634?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2014/234?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2008/300?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2019/99?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2020/12?zalozka=text",
+    "https://e-sbirka.gov.cz/sb/2022/378/2022-12-22?zalozka=text",
+    "https://e-sbirka.gov.cz/sb/2022/377/2022-12-22?f=377%2F2022&zalozka=text",
+    "https://e-sbirka.gov.cz/sb/2016/90/2025-07-01?zalozka=text",
+    "https://e-sbirka.gov.cz/sb/2001/102/2023-04-06?zalozka=text",
+    "https://e-sbirka.gov.cz/sb/2021/89/2022-12-22?zalozka=text",
+    "https://e-sbirka.gov.cz/sb/2014/268/2022-12-22?f=268%2F2014&zalozka=text",
+    "https://www.e-sbirka.cz/sb/2011/238?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2003/432?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2012/306?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2006/537?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2001/256?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2020/541?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2021/8?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2021/273?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2015/224?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2004/428?zalozka=text",
+    "https://sukl.gov.cz/wp-content/uploads/2025/02/VC49BstnC3ADk20MZ20C48CR2014_2023.pdf",
+    "https://sukl.gov.cz/wp-content/uploads/2025/02/Cenovy-predpis-c.-1_2023_OLZP.pdf"
   ],
   "unresolved_retrievals": [
     {
@@ -1592,15 +1644,70 @@
       "source_id": "ATLAS-RAW-A020-040",
       "url": "https://www.e-sbirka.cz/sb/2020/428?zalozka=text",
       "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A021-001",
+      "url": "https://www.e-sbirka.cz/sb/1990/526?zalozka=text",
+      "reason": "E_SBIRKA_WEB_TARGET_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A021-005",
+      "url": "https://www.e-sbirka.cz/sb/1997/22?zalozka=text",
+      "reason": "E_SBIRKA_WEB_TARGET_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A021-010",
+      "url": "https://www.e-sbirka.cz/sb/1998/82?zalozka=text",
+      "reason": "E_SBIRKA_WEB_TARGET_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A021-015",
+      "url": "https://www.e-sbirka.cz/sb/2016/250?zalozka=text",
+      "reason": "E_SBIRKA_WEB_TARGET_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A021-019",
+      "url": "https://www.e-sbirka.cz/sb/2000/365?zalozka=text",
+      "reason": "E_SBIRKA_WEB_TARGET_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A021-021",
+      "url": "https://www.e-sbirka.cz/sb/1990/505?zalozka=text",
+      "reason": "E_SBIRKA_WEB_TARGET_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A021-024",
+      "url": "https://www.e-sbirka.cz/sb/2008/300?zalozka=text",
+      "reason": "E_SBIRKA_WEB_TARGET_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A021-025",
+      "url": "https://www.e-sbirka.cz/sb/2019/99?zalozka=text",
+      "reason": "E_SBIRKA_WEB_TARGET_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A021-039",
+      "url": "https://www.e-sbirka.cz/sb/2021/8?zalozka=text",
+      "reason": "E_SBIRKA_WEB_TARGET_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A021-041",
+      "url": "https://www.e-sbirka.cz/sb/2015/224?zalozka=text",
+      "reason": "E_SBIRKA_WEB_TARGET_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A021-042",
+      "url": "https://www.e-sbirka.cz/sb/2004/428?zalozka=text",
+      "reason": "E_SBIRKA_WEB_TARGET_REDIRECT_OR_SERVER_ERROR"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A020",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A020_TEAM_A_20261109.json",
+    "batch_id": "A021",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A021_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "b9ed8713a183b578f72fb9a52105cb8d25e60fbf",
-    "checkpoint_commit_sha_resolution": "Final SHA is worker HEAD; commit cannot include its own hash"
+    "parent_commit_sha": "d46e61989b4621695e1150182e4e51114dc9187e",
+    "checkpoint_commit_sha_resolution": "Final SHA is branch HEAD; commit cannot self-include its SHA"
   },
-  "next_run_instruction": "Continue Czechia M49:203 using untouched official health authority links; A020 e-Sbírka URLs already collected. Original queue CSV absent.",
+  "next_run_instruction": "Continue Czechia M49:203, new official health legal sources only; A020-A021 statutory links collected, do not repeat. Original queue CSV absent from branch.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
