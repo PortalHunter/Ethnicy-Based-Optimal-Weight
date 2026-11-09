@@ -66,13 +66,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A010_TEAM_A_20261109.json",
       "source_count": 50
+    },
+    {
+      "batch_id": "A011",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A011_TEAM_A_20261109.json",
+      "source_count": 38
     }
   ],
-  "completed_worker_batch_count": 9,
-  "completed_team_a_intake_batch_count": 10,
-  "worker_new_unique_url_leads": 397,
-  "team_a_cumulative_unique_url_leads": 442,
-  "last_completed_batch": "A010",
+  "completed_worker_batch_count": 10,
+  "completed_team_a_intake_batch_count": 11,
+  "worker_new_unique_url_leads": 435,
+  "team_a_cumulative_unique_url_leads": 480,
+  "last_completed_batch": "A011",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -97,14 +103,15 @@
     "M49:140|initial_source_scan",
     "M49:144|initial_source_scan",
     "M49:148|initial_source_scan",
-    "M49:152|initial_source_scan"
+    "M49:152|initial_source_scan",
+    "M49:156|initial_source_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "152"
+      "156"
     ],
-    "next": "M49:156 China health authority, foundational laws, original statutory and administrative instruments; Chile historical/current amendment chains not audited.",
-    "next_batch_id": "A011",
+    "next": "M49:158 Taiwan (subject to Team A geopolitical and jurisdictional queue definitions); M49:162 Christmas Island; continue targeted unresolved original health enactments in China and Chile without duplicate intake.",
+    "next_batch_id": "A012",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -131,8 +138,9 @@
     "M49:140 CAR original Journal officiel and health law/decree chain not collected; A008 official ministry policy documents do not establish legal validity",
     "M49:144 Sri Lanka National Medicines Regulatory Authority Act, Medical Ordinance, statutes and Gazette amendment chain not yet scanned; A008 policy URLs are raw leads",
     "M49:148 Chad primary healthcare statute and decree-specific health law leads still unresolved; A009 gathered journal issues and regulator/authority discovery pages but did not inspect enactment chains",
-    "M49:156 China next untouched Team A queue item",
-    "M49:152 Chile sectoral regional delegations, post-2025 current consolidated statutes and national gazette source authentication still unresolved; A010 source intake only"
+    "M49:152 Chile sectoral regional delegations, post-2025 current consolidated statutes and national gazette source authentication still unresolved; A010 source intake only",
+    "M49:156 China province-specific health authority and regional original legislation, 2026 consolidated statute editions, and primary National People's Congress legal database not yet systematically collected",
+    "M49:158 Taiwan next geographic queue item (jurisdictional designation to follow established Team A queue, not determined at intake)"
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -576,7 +584,45 @@
     "https://www.superdesalud.gob.cl/normativa/decreto-n-38-minsal/",
     "https://www.superdesalud.gob.cl/normativa/decreto-n-41/",
     "https://www.superdesalud.gob.cl/normativa/decreto-n-31-minsal/",
-    "https://www.superdesalud.gob.cl/normativa/decreto-n-35-minsal/"
+    "https://www.superdesalud.gob.cl/normativa/decreto-n-35-minsal/",
+    "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2026/art_397cd55d710842979494a429d02fa2be.html",
+    "https://wjw.beijing.gov.cn/zwgk_20040/zcwj2022/flfg/202304/t20230407_2992842.html",
+    "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_072313e1142c4ca193b8dc80d9c0e904.html",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=1695",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=23",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=438",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=1744",
+    "https://xzfg.moj.gov.cn/mobile/law/detail?LawID=1739",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=1355",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=1318",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=1171",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=1112",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=591",
+    "https://xzfg.moj.gov.cn/mobile/law/detail?LawID=209",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=1781",
+    "https://xzfg.moj.gov.cn/mobile/law/detail?LawID=1832",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=1792",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=1755",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=951",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=451",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=238",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=265",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=692",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=243",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=511",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=900",
+    "https://xzfg.moj.gov.cn/front/law/detail?LawID=615",
+    "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2026/art_e8dee9361eaa4d83a63f0c603dbf2df1.html",
+    "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_dde03480953841a5912c864dc29003d0.html",
+    "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_b73ec9dabb2d468281d6c994b4bcdaf8.html",
+    "https://wjw.beijing.gov.cn/zwgk_20040/zcwj2022/flfg/202304/t20230407_2992800.html",
+    "https://www.nhc.gov.cn/fzs/c100048/202606/d710d772a5bd47128d80ece2216bc403.shtml",
+    "https://www.nhc.gov.cn/yzygj/c100068/202506/9cd15882a85048c98b54960ac37d5cd5.shtml?qq_aio_chat_type=2",
+    "https://english.www.gov.cn/policies/latestreleases/202607/08/content_WS6a4e3b90c6d00ca5f9a0c128.html",
+    "https://www.nhc.gov.cn/zwgkzt/pfl/list.shtml",
+    "https://www.nhc.gov.cn/wjw/gfxwjj/list_2.shtml",
+    "https://wjw.beijing.gov.cn/zwgk_20040/ztzl/xzzf/xzzfjbxxs/202607/t20260723_4781109.html",
+    "https://www.nhc.gov.cn/wjw/zcfg/list_31.shtml"
   ],
   "unresolved_retrievals": [
     {
@@ -933,15 +979,20 @@
       "source_id": "ATLAS-RAW-A009-046",
       "url": "https://dgpml.com/vigilance-et-essais-cliniques/",
       "reason": "URL_CLICK_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A011-035",
+      "url": "https://www.nhc.gov.cn/zwgkzt/pfl/list.shtml",
+      "reason": "HTTP_412_DIRECT_ACCESS_BLOCKED_SEARCH_INDEX_ONLY"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A010",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A010_TEAM_A_20261109.json",
+    "batch_id": "A011",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A011_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "8e232ce10ec2d1b31a43079c769248e56c6dcae2",
+    "parent_commit_sha": "ce9dcc4a07f9e6bbb8e2bad78e7cb3a75ad629d5",
     "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD because own commit cannot be self-embedded"
   },
-  "next_run_instruction": "Resume A011 with M49:156 China health and legal source acquisition. Source-only intake: no legal validation or current-effect claims.",
+  "next_run_instruction": "Resume A012 from worker state alone: next geographic queue item M49:158 subject to existing Team A jurisdictional definitions; preserve only-source intake. Remaining unresolved Chinese local statutes and administrative rules separately tracked.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
