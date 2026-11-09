@@ -2054,6 +2054,31 @@
       },
       "status": "running",
       "launch_id": "launch-B-US-ACR-GOUT-676972ddf8929573"
+    },
+    "run-A-A01-040-20261108-71f1057e899d": {
+      "team": "A",
+      "key": "A-01:040",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "040",
+        "expected_sha": "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=11,m49_code=040",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--040.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/A040_AUSTRIA_ORIGINAL_LAW_20261108.md"
+        ]
+      },
+      "status": "reserved"
     }
   }
 }
