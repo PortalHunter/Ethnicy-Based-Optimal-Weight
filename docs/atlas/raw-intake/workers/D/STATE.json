@@ -19,10 +19,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D002_TEAM_D_20261109.json",
       "source_count": 34,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D003",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D003_TEAM_D_20261109.json",
+      "source_count": 37,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 2,
-  "cumulative_unique_url_leads": 74,
+  "completed_batch_count": 3,
+  "cumulative_unique_url_leads": 111,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -43,20 +49,37 @@
     "TD-BL-NCA-018",
     "TD-BL-NCA-020",
     "TD-BL-NCA-021",
-    "TD-BL-NCA-022"
+    "TD-BL-NCA-022",
+    "TD-BL-NCA-013",
+    "TD-BL-NCA-019",
+    "TD-BL-NCA-023",
+    "TD-BL-NCA-024",
+    "TD-BL-NCA-025",
+    "TD-BL-NCA-026",
+    "TD-BL-NCA-027",
+    "TD-BL-NCA-028",
+    "TD-BL-NCA-029",
+    "TD-BL-NCA-030",
+    "TD-BL-NCA-031",
+    "TD-BL-NCA-032",
+    "TD-BL-NCA-033",
+    "TD-BL-NCA-034"
   ],
   "processed_in_current_batch": [
-    "TD-BL-NCA-010",
-    "TD-BL-NCA-011",
-    "TD-BL-NCA-012",
-    "TD-BL-NCA-014",
-    "TD-BL-NCA-015",
-    "TD-BL-NCA-016",
-    "TD-BL-NCA-017",
-    "TD-BL-NCA-018",
-    "TD-BL-NCA-020",
-    "TD-BL-NCA-021",
-    "TD-BL-NCA-022"
+    "TD-BL-NCA-013",
+    "TD-BL-NCA-019",
+    "TD-BL-NCA-023",
+    "TD-BL-NCA-024",
+    "TD-BL-NCA-025",
+    "TD-BL-NCA-026",
+    "TD-BL-NCA-027",
+    "TD-BL-NCA-028",
+    "TD-BL-NCA-029",
+    "TD-BL-NCA-030",
+    "TD-BL-NCA-031",
+    "TD-BL-NCA-032",
+    "TD-BL-NCA-033",
+    "TD-BL-NCA-034"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -132,7 +155,44 @@
     "https://santesecu.public.lu/fr/espace-professionnel/departement-sante/pharmacies-et-medicaments/medicaments-humains/autorisation-mise-sur-le-marche.html",
     "https://legislation.mt/eli/cap/458/eng/pdf",
     "https://legislation.mt/eli/sl/458.34/20240312/eng",
-    "https://legislation.mt/eli/sl/458.39/eng/pdf"
+    "https://legislation.mt/eli/sl/458.39/eng/pdf",
+    "https://www.eof.gr/en/genika/",
+    "https://www.e-nomothesia.gr/kat-ygeia/farmakeia/n-1316-1983.html",
+    "https://www.llv.li/de/unternehmen/branchen-berufe-verbaende/gesundheitsberufe-und-heilmittel/arzneimittel/fachbereich-arzneimittel",
+    "https://www.llv.li/de/unternehmen/branchen-berufe-verbaende/gesundheitsberufe-und-heilmittel/arzneimittel/herstellung-und-grosshandel",
+    "https://www.gesetze.li/chrono/pdf/2001190000",
+    "https://wetten.overheid.nl/jci1.3%3Ac%3ABWBR0021505%26artikel%3D90%26g%3D2026-04-11%26z%3D2026-04-11",
+    "https://www.cbg-meb.nl/onderwerpen/over-ons-de-organisatie/over-cbg-het-college",
+    "https://www.cbg-meb.nl/onderwerpen/over-ons-ons-werk/over-cbg-onze-taken/over-cbg-beoordelen",
+    "https://www.igj.nl/onderwerpen/themas-in-het-toezicht/medicatieveiligheid/toezicht-op-medicatieveiligheid",
+    "https://www.igj.nl/zorgsectoren/geneesmiddelen/klinisch-onderzoek-gcp/regels-voor-klinisch-onderzoek",
+    "https://www.ccmo.nl/onderzoekers/wet-en-regelgeving-voor-medisch-wetenschappelijk-onderzoek",
+    "https://www.ccmo.nl/onderzoekers/klinisch-onderzoek-naar-medische-hulpmiddelen/wet-en-regelgeving-richtsnoeren-en-standaarden-voor-onderzoek-medische-hulpmiddelen/relevante-wet-en-regelgeving",
+    "https://lovdata.no/lov/1992-12-04-132",
+    "https://lovdata.no/dokument/SF/forskrift/2009-12-18-1839",
+    "https://lovdata.no/forskrift/2026-01-21-205",
+    "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20011261381",
+    "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20110820451",
+    "https://www.gov.pl/web/urpl/rejestr-produktow-leczniczych3",
+    "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20011261382",
+    "https://www.gov.pl/web/gif/kompetencje-glownego-inspektora-farmaceytycznego",
+    "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20210001115",
+    "https://www.gov.pl/web/gif/wydanie-zezwolenia-na-wytwarzanie-lub-import-produktu-leczniczego",
+    "https://diariodarepublica.pt/dr/detalhe/decreto-lei/176-2006-540387",
+    "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2006-34530575",
+    "https://diariodarepublica.pt/dr/detalhe/decreto-lei/46-2012-542588",
+    "https://legislatie.just.ro/Public/DetaliiDocumentAfis/216129",
+    "https://legislatie.just.ro/Public/DetaliiDocument/287246",
+    "https://www.anm.ro/dispozitive-medicale/legislatie/legi-ordonante-si-hotarari-de-guvern/",
+    "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2011/362/",
+    "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2011/362/20261101",
+    "https://pisrs.si/pregledPredpisa?id=ZAKO6295",
+    "https://pisrs.si/api/uradni-list/objava/u2014017.pdf",
+    "https://boe.es/buscar/act.php?id=BOE-A-2015-8343&p=20260731&tn=6",
+    "https://boe.es/buscar/act.php?id=BOE-A-2011-15044",
+    "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lakemedelslag-2015315_sfs-2015-315/",
+    "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lakemedelsforordning-2015458_sfs-2015-458/",
+    "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-202057-med-instruktion-for_sfs-2020-57/"
   ],
   "unresolved_retrievals": [
     {
@@ -170,42 +230,33 @@
       "url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.FF33B3BF23DD/asr",
       "reason": "DIRECT_HTTP_403_SEARCH_INDEX_ONLY",
       "origin": "D002"
-    }
-  ],
-  "duplicate_urls_skipped_this_batch": [
+    },
     {
-      "queue_item": "TD-BL-NCA-015",
-      "url": "https://www.althingi.is/lagas/nuna/2020100.html",
-      "reason": "EXACT_URL_ALREADY_IN_BASELINE_OR_THIS_BATCH"
+      "source_id": "ATLAS-RAW-D003-006",
+      "url": "https://wetten.overheid.nl/jci1.3%3Ac%3ABWBR0021505%26artikel%3D90%26g%3D2026-04-11%26z%3D2026-04-11",
+      "reason": "DIRECT_RETRIEVAL_RESTRICTED_SEARCH_INDEX_ONLY",
+      "origin": "D003"
+    },
+    {
+      "source_id": "ATLAS-RAW-D003-030",
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2011/362/20261101",
+      "reason": "DIRECT_RETRIEVAL_RESTRICTED_SEARCH_INDEX_ONLY",
+      "origin": "D003"
     }
   ],
+  "duplicate_urls_skipped_this_batch": [],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
-    "nca_unprocessed_ids": [
-      "TD-BL-NCA-013",
-      "TD-BL-NCA-019",
-      "TD-BL-NCA-023",
-      "TD-BL-NCA-024",
-      "TD-BL-NCA-025",
-      "TD-BL-NCA-026",
-      "TD-BL-NCA-027",
-      "TD-BL-NCA-028",
-      "TD-BL-NCA-029",
-      "TD-BL-NCA-030",
-      "TD-BL-NCA-031",
-      "TD-BL-NCA-032",
-      "TD-BL-NCA-033",
-      "TD-BL-NCA-034"
-    ],
+    "nca_unprocessed_ids": [],
     "other_team_d_workstreams": "Unchanged; refer to Team D finite consolidated backlog"
   },
-  "next_queue_position": "TD-BL-NCA-013 (Greece), then TD-BL-NCA-019 (Liechtenstein), followed by TD-BL-NCA-023 and later untouched workstreams",
-  "next_batch_id": "D003",
+  "next_queue_position": "National-regulator intake NCA-001 through NCA-034 visited; next unprocessed Team D workstream: WHO_CURRENT_ADMINISTRATION TD-BL-WHO-010 onward, prioritizing high-yield new official-source leads; no substantive cases closed.",
+  "next_batch_id": "D004",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D002",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D002_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "3674f049d627fcb9b6c456ac6abf648d9ee802ca",
+    "batch_id": "D003",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D003_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "012cd3e92e8f3308c102d5a38986f4b8ec7f4583",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
