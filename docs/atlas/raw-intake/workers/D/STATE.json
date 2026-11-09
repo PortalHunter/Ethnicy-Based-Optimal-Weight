@@ -109,10 +109,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D017_TEAM_D_20261109.json",
       "source_count": 39,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D018",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D018_TEAM_D_20261109.json",
+      "source_count": 42,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 17,
-  "cumulative_unique_url_leads": 661,
+  "completed_batch_count": 18,
+  "cumulative_unique_url_leads": 703,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -334,16 +340,18 @@
     "TD-BL-WHO-652",
     "TD-BL-WHO-663",
     "TD-BL-WHO-666",
-    "TD-BL-WHO-850"
+    "TD-BL-WHO-850",
+    "TD-BL-OFFICE-500",
+    "TD-BL-WHO-334",
+    "TD-BL-WHO-833",
+    "TD-BL-OFFICE-438"
   ],
   "processed_in_current_batch": [
-    "TD-BL-WHO-260",
-    "TD-BL-WHO-175",
-    "TD-BL-WHO-652",
-    "TD-BL-WHO-663",
-    "TD-BL-WHO-666",
-    "TD-BL-OFFICE-638",
-    "TD-BL-WHO-850"
+    "TD-BL-OFFICE-500",
+    "TD-BL-WHO-334",
+    "TD-BL-WHO-832",
+    "TD-BL-WHO-833",
+    "TD-BL-OFFICE-438"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -1006,7 +1014,49 @@
     "https://doh.vi.gov/wp-content/uploads/2025/03/Grants-PartC-FFY2025-Application-March-2025.pdf",
     "https://www.cdc.gov/orr/media/pdfs/2024/06/2024-2028_PHEP-NOFO_Modified-Requirements-for-TFAS_508c.pdf",
     "https://doh.vi.gov/pantheon/Health%20Department%20Holds%20Territory%E2%80%99s%20First%20Health%20Equity%20Summit.pdf",
-    "https://doh.vi.gov/pantheon/Department%20of%20Health%20To%20Host%20HIV%20Summit%202022.pdf"
+    "https://doh.vi.gov/pantheon/Department%20of%20Health%20To%20Host%20HIV%20Summit%202022.pdf",
+    "https://www.gov.ms/government/ministries/ministry-of-health-and-social-services/",
+    "https://www.gov.ms/government/ministries/ministry-of-health-and-social-services/environmental-health-department/",
+    "https://www.gov.ms/government/ministries/ministry-of-health-and-social-services/primary-health-care/",
+    "https://www.gov.ms/government/ministries/ministry-of-health-and-social-services/secondary-health-care/",
+    "https://www.gov.ms/government/ministries/ministry-of-health-and-social-services/strategic-management-admin-health/",
+    "https://www.gov.ms/2026/11/03/38828/",
+    "https://www.gov.ms/2026/09/30/montserrat-to-conduct-who-global-school-health-survey-among-secondary-school-students/",
+    "https://www.gov.ms/2026/08/04/mohss-hospital-project-launches-grievance-redress-mechanism/",
+    "https://www.gov.ms/2026/07/21/ministry-of-health-to-host-fourth-annual-research-day/",
+    "https://www.gov.ms/2026/07/17/ministry-of-health-launches-wellness-in-motion-mobile-clinic-initiative/",
+    "https://www.gov.ms/2026/05/28/ministry-of-health-and-social-services-monitors-international-and-regional-public-health-situations-of-concern/",
+    "https://www.gov.ms/2025/01/24/ministry-of-health-signs-contract-for-construction-of-the-new-national-hospital/",
+    "https://www.gov.ms/2025/04/08/groundbreaking-ceremony-marks-historic-milestone-for-new-national-hospital/",
+    "https://www.gov.ms/2025/12/04/ministry-of-health-social-services-commissions-new-mobile-medical-van-and-solar-portable-storage-container/",
+    "https://www.gov.ms/wp-content/uploads/2026/02/Mortality-Report-2024.pdf",
+    "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/",
+    "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/features-values/",
+    "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/history/",
+    "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/protection-and-management/",
+    "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/mapping/",
+    "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/research/",
+    "https://www.antarctica.gov.au/news/2026/public-consultation-opens-on-draft-marine-reserve-management-plan-for-heard-island-and-mcdonald-islands/",
+    "https://www.antarctica.gov.au/news/2026/scientists-determine-extent-of-h5-avian-influenza-bird-flu-outbreak-at-heard-island-and-mcdonald-islands/",
+    "https://www.antarctica.gov.au/news/2026/heard-island-and-mcdonald-islands-campaign-delivers-key-objectives/",
+    "https://www.gov.je/Government/Pages/StatesReports.aspx?reportid=6011",
+    "https://www.gov.je/SiteCollectionDocuments/Government%20and%20administration/Health%20and%20Care%20Jersey%20Annual%20Plan%202026.pdf",
+    "https://www.gov.je/SiteCollectionDocuments/Government%20and%20administration/Annual%20Report%20and%20Accounts%202025%20Annex%201%20Government%20Department%20Annual%20Reports.pdf",
+    "https://www.gov.je/Government/Departments/HealthCare/Pages/Reports.aspx",
+    "https://www.gov.je/health/waitinglists/pages/quarterlyperformancereport.aspx",
+    "https://www.gov.je/Government/Departments/HealthCare/Pages/HealthCommunityServicesDepartmentBoardMeetingPublic.aspx",
+    "https://www.gov.je/SiteCollectionDocuments/Government%20and%20administration/States%20of%20Jersey%202025%20Annual%20Report%20and%20Accounts.pdf",
+    "https://www.gov.im/about-the-government/departments/health-and-social-care/dhscpolicy/regulation-of-health-and-social-care-bill-2026/",
+    "https://consult.gov.im/health-and-social-care/regulation-of-health-and-social-care-bill/",
+    "https://www.gov.im/news/2026/jul/03/report-shows-progress-on-strengthening-governance-of-health-and-social-care/",
+    "https://www.gov.im/about-the-government/departments/the-treasury/budget/",
+    "https://www.gov.im/categories/working-in-the-isle-of-man/employment-rights/prescribed-persons-annual-reporting/",
+    "https://www.llv.li/de/medienmitteilungen/regierung-verabschiedet-bericht-und-antrag-zu-einem-umfassenden-reformpaket-fuer-das-gesundheitswesen",
+    "https://www.llv.li/de/medienmitteilungen/regierung-schnuert-reformpaket-fuer-ein-weiterhin-finanzierbares-und-qualitativ-starkes-gesundheitswesen",
+    "https://www.llv.li/de/medienmitteilungen/bericht-ueber-die-bewertung-der-praeventions-vorsorge-und-reaktionsplanung-public-health-emergency-assessment-phepa",
+    "https://www.llv.li/de/privatpersonen/gesundheit-vorsorge-und-pflege",
+    "https://www.gesetze.li/konso/2008030000/meta?lgblid_von=&lrnr=&observe_date=&search_loc=&search_text=&version=19",
+    "https://www.llv.li/de/privatpersonen/gesundheit-vorsorge-und-pflege/behandlung-und-pflege/patientenmobilitaet-im-eu-ewrraum/behandlung-in-liechtenstein"
   ],
   "unresolved_retrievals": [
     {
@@ -1632,26 +1682,48 @@
       "url": "https://doh.vi.gov/pantheon/Department%20of%20Health%20To%20Host%20HIV%20Summit%202022.pdf",
       "reason": "PDF_METADATA_ONLY_NOT_DIRECTLY_INSPECTED",
       "origin": "D017"
+    },
+    {
+      "source_id": "ATLAS-RAW-D018-015",
+      "url": "https://www.gov.ms/wp-content/uploads/2026/02/Mortality-Report-2024.pdf",
+      "reason": "OFFICIAL_PDF_METADATA_ONLY_NO_DIRECT_CONTENT_INSPECTION",
+      "origin": "D018"
+    },
+    {
+      "source_id": "ATLAS-RAW-D018-026",
+      "url": "https://www.gov.je/SiteCollectionDocuments/Government%20and%20administration/Health%20and%20Care%20Jersey%20Annual%20Plan%202026.pdf",
+      "reason": "OFFICIAL_PDF_METADATA_ONLY_NO_DIRECT_CONTENT_INSPECTION",
+      "origin": "D018"
+    },
+    {
+      "source_id": "ATLAS-RAW-D018-027",
+      "url": "https://www.gov.je/SiteCollectionDocuments/Government%20and%20administration/Annual%20Report%20and%20Accounts%202025%20Annex%201%20Government%20Department%20Annual%20Reports.pdf",
+      "reason": "OFFICIAL_PDF_METADATA_ONLY_NO_DIRECT_CONTENT_INSPECTION",
+      "origin": "D018"
+    },
+    {
+      "source_id": "ATLAS-RAW-D018-031",
+      "url": "https://www.gov.je/SiteCollectionDocuments/Government%20and%20administration/States%20of%20Jersey%202025%20Annual%20Report%20and%20Accounts.pdf",
+      "reason": "OFFICIAL_PDF_METADATA_ONLY_NO_DIRECT_CONTENT_INSPECTION",
+      "origin": "D018"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [
-    "https://www.outre-mer.gouv.fr/territoires/terres-australes-et-antarctiques-francaises"
-  ],
+  "duplicate_urls_skipped_this_batch": [],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
     "nca_unprocessed_ids": [],
     "other_team_d_workstreams": "Unchanged; refer to Team D finite consolidated backlog",
-    "who_current_administration_unprocessed_count": 6,
+    "who_current_administration_unprocessed_count": 4,
     "international_network_intake_unprocessed_count": 1,
-    "who_april_2026_host_evidence_unprocessed_count": 6
+    "who_april_2026_host_evidence_unprocessed_count": 4
   },
-  "next_queue_position": "D018: untouched administrative and office-host leads, particularly ISO 158, uninhabited islands, Western Sahara and Crown Dependencies; remaining original HI_ROLES register.",
-  "next_batch_id": "D018",
+  "next_queue_position": "D019: continue outstanding WHO administrative exceptions (ISO 158, Cocos, US Minor Outlying, Western Sahara) and WHO April 2026 host applicability (Antarctica, ISO 158, South Georgia, Holy See); network original HI_ROLES register; no acceptance validation.",
+  "next_batch_id": "D019",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D017",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D017_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "d9a8ee9aebf819eece1f195cf55fe409c59f40c9",
+    "batch_id": "D018",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D018_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "17ea5874faf81ead053b29cb161e523d305a4094",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
