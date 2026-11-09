@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "status": "RAW_SOURCE_ACQUISITION_ONLY",
+  "team": "A",
+  "branch": "research/atlas-raw-intake-team-a",
+  "central_state_read_only": true,
+  "initialized_from_central_intake_commit": "3674f049d627fcb9b6c456ac6abf648d9ee802ca",
+  "run_date": "2026-11-09",
+  "completed_batches": [
+    {
+      "batch_id": "A001",
+      "location": "central_baseline_read_only",
+      "path": "docs/atlas/raw-intake/batches/A001_TEAM_A_20261109.json",
+      "source_count": 45
+    },
+    {
+      "batch_id": "A002",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A002_TEAM_A_20261109.json",
+      "source_count": 42
+    }
+  ],
+  "completed_worker_batch_count": 1,
+  "completed_team_a_intake_batch_count": 2,
+  "worker_new_unique_url_leads": 42,
+  "team_a_cumulative_unique_url_leads": 87,
+  "last_completed_batch": "A002",
+  "processed_queue_items": [
+    "M49:004|initial_source_scan",
+    "M49:051|initial_source_scan",
+    "M49:060|initial_source_scan",
+    "M49:068|initial_source_scan",
+    "M49:070|initial_source_scan",
+    "M49:072|initial_source_scan",
+    "M49:076|initial_source_scan",
+    "M49:084|initial_source_scan",
+    "M49:096|initial_source_scan"
+  ],
+  "queue_position": {
+    "last_selected_m49": [
+      "070",
+      "072",
+      "076",
+      "084",
+      "096"
+    ],
+    "next": "M49:086 British Indian Ocean Territory then M49:090 Solomon Islands; M49:100 Bulgaria follows unprocessed queue",
+    "next_batch_id": "A003",
+    "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
+  },
+  "remaining_targets": [
+    "M49:004 Afghanistan original health law document unresolved (A001)",
+    "M49:070 Bosnia and Herzegovina Republika Srpska and Brcko district original law sources; federation 2026 amendment-chain unexamined",
+    "M49:072 Botswana Gazette S.I.4/2014 and Medicines Act29/2025 commencement primary notices still missing",
+    "M49:076 Brazil state/municipal original instruments and post-2024 2026 amendment chain not covered by this source scan",
+    "M49:084 Belize direct original substantive legislation index not resolved from dynamic AGM listing",
+    "M49:086 British Indian Ocean Territory untouched next queue item",
+    "M49:090 Solomon Islands untouched next queue item",
+    "M49:096 Brunei regulator and gazette amendments not exhaustively collected",
+    "M49:100 Bulgaria untouched next queue item"
+  ],
+  "previously_collected_urls": [
+    "https://www.moj.gov.af/index.php/en/official-gazette",
+    "https://www.moph.gov.af/en/law-and-regulation",
+    "https://arlis.am/en/acts/229601",
+    "https://arlis.am/en/acts/221242",
+    "https://arlis.am/en/acts/221371",
+    "https://www.bermudalaws.bm/",
+    "https://www.bermudalaws.bm/Laws/Consolidated%20Law/1949/Public%20Health%20Act%201949",
+    "https://www.bermudalaws.bm/Laws/Consolidated%20Law/1950/Medical%20Practitioners%20Act%201950",
+    "https://www.bermudalaws.bm/Laws/Consolidated%20Law/1970/Bermuda%20Hospitals%20Board%20Act%201970",
+    "https://www.bermudalaws.bm/Laws/Consolidated%20Law/1979/Pharmacy%20and%20Poisons%20Act%201979",
+    "https://www.bermudalaws.bm/Laws/Consolidated%20Law/2004/Bermuda%20Health%20Council%20Act%202004",
+    "https://minsalud.gob.bo/normativa/normativa-nacional",
+    "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/335-decreto-supremo-n-3813-del-27-02-2019?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/185-decreto-supremo-no-25233?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/180-decreto-supremo-no-3376?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/178-decreto-supremo-no-3091?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/177-decreto-supremo-no-2436?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/173-decreto-supremo-no-1115?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/334-ley-n-1152-ley-modificatoria-a-la-ley-n-475-prestaciones-de-salud?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/241-ley-no-3460?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/164-ley-no-14?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/163-ley-no-114?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/162-ley-no-329?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/161-ley-no-459?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/160-ley-no-475?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/159-ley-no-775?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/157-ley-no-1678?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/156-ley-no-1716?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/155-ley-no-1737?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/143-ley-no-3029?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/142-ley-no-3131?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/141-ley-no-3300?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/138-ley-no-3774?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/137-ley-no-3729?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/451-decreto-supremo-n-4257?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/194-decreto-supremo-no-29894?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/193-decreto-supremo-no-29004?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/192-decreto-supremo-no-28631?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/191-decreto-supremo-no-28476?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/188-decreto-supremo-no-27384?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/158-ley-no-1178?Itemid=2411",
+    "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/145-ley-no-2341?Itemid=2411",
+    "https://www.ceass.gob.bo/index.php/normativa-nacional/",
+    "https://prueba.ceass.gob.bo/wp-content/uploads/2025/10/DS-27943.pdf",
+    "https://prueba.ceass.gob.bo/wp-content/uploads/2025/10/DS-25235.pdf",
+    "https://fmoh.gov.ba/zakoni/3/",
+    "https://fmoh.gov.ba/zakoni/4/zakon-o-zdravstvenom-osiguranju",
+    "https://fmoh.gov.ba/zakoni/5/zakon-o-pravima-obavezama-i-odgovornostima-pacijenata",
+    "https://fmoh.gov.ba/zakoni/6/zakon-o-apotekarskoj-djelatnosti",
+    "https://fmoh.gov.ba/zakoni/9/zakon-o-zastiti-stanovnistva-od-zaraznih-bolesti",
+    "https://fmoh.gov.ba/zakoni/16/zakon-o-evidencijama-u-oblasti-zdravstva",
+    "https://fmoh.gov.ba/zakoni/17/zakon-o-stomatoloskoj-djelatnosti",
+    "https://fmoh.gov.ba/zakoni/20/zakon-o-lijecnistvu",
+    "https://fmoh.gov.ba/zakoni/21/zakon-o-sestrinstvu-i-primaljstvu",
+    "https://fmoh.gov.ba/zakoni/24/zakon-o-finansijskoj-konsolidaciji-i-restrukturiranju-javnih-zdravstvenih-ustanova-u-federaciji-bih",
+    "https://fmoh.gov.ba/zakoni/7/zakon-o-krvi-i-krvnim-sastojcima",
+    "https://fmoh.gov.ba/zakoni/8/zakon-o-transplantaciji-organa-i-tkiva-u-svrhu-lijecenja",
+    "https://fmoh.gov.ba/zakoni/10/zakon-o-zastiti-osoba-s-dusevnim-smetnjama",
+    "https://fmoh.gov.ba/zakoni/11/zakon-o-sistemu-poboljsanja-kvalitete-sigurnosti-i-o-akreditaciji-u-zdravstvu",
+    "https://fmoh.gov.ba/zakoni/19/zakon-o-lijekovima-fbih",
+    "https://fmoh.gov.ba/zakoni/23/zakon-o-hemikalijama",
+    "https://almbih.gov.ba/preuzimanja/",
+    "https://www.parlament.ba/law/LawDetails?lawId=964",
+    "https://gov.bw/law-crime-and-justice/access-laws-botswana?page=1",
+    "https://gov.bw/legal/search-historical-legislation-0",
+    "https://www.bomra.co.bw/wpfd_file/medicines-and-related-substances-act-2013/",
+    "https://www.moh.gov.bw/regulatory.html",
+    "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8080-19-setembro-1990-365093-normaatualizada-pl.html",
+    "https://www.planalto.gov.br/ccivil_03/leis/l8142.htm?origin=instituicao",
+    "https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/conferencias/legislacao/legislacao",
+    "https://www.gov.br/saude/pt-br/sus",
+    "https://www.gov.br/saude/pt-br/composicao/svsa/competencias",
+    "https://www.gov.br/anvisa/pt-br/acessoainformacao/transparencia-e-prestacao-de-contas/legislacao-aplicavel",
+    "https://www.gov.br/anvisa/pt-br/acessoainformacao/institucional/regimento-interno",
+    "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sus/conselhos",
+    "https://agm.gov.bz/laws/",
+    "https://www.agm.gov.bz/laws/indices",
+    "https://www.agm.gov.bz/uploads/laws/63f516152febc_Cap_040_Public_Health_Regulations_1.pdf",
+    "https://www.nationalassembly.gov.bz/wp-content/uploads/2021/05/Act-No-11-of-2021-Public-Health.pdf",
+    "https://www.medicalcouncil.bz/registration",
+    "https://www.agc.gov.bn/documents/medicines-act/",
+    "https://www.agc.gov.bn/documents/nurses-registration-act/",
+    "https://www.agc.gov.bn/documents/poisons-act/",
+    "https://www.agc.gov.bn/documents/public-health-food-act/",
+    "https://moh.gov.bn/about-us/professional-board/",
+    "https://www.agc.gov.bn/legislation_online/",
+    "https://www.agc.gov.bn/AGC%20Images/LAWS/Gazette_PDF/2014/EN/s011.pdf"
+  ],
+  "unresolved_retrievals": [
+    {
+      "source_id": "ATLAS-RAW-A001-002",
+      "url": "https://www.moph.gov.af/en/law-and-regulation",
+      "reason": "INDEX_SHELL_NO_DOCUMENT_LISTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-013",
+      "url": "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/335-decreto-supremo-n-3813-del-27-02-2019?Itemid=2411",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-016",
+      "url": "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/178-decreto-supremo-no-3091?Itemid=2411",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-019",
+      "url": "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/334-ley-n-1152-ley-modificatoria-a-la-ley-n-475-prestaciones-de-salud?Itemid=2411",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-023",
+      "url": "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/162-ley-no-329?Itemid=2411",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-027",
+      "url": "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/157-ley-no-1678?Itemid=2411",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-030",
+      "url": "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/143-ley-no-3029?Itemid=2411",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-033",
+      "url": "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/138-ley-no-3774?Itemid=2411",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-035",
+      "url": "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/451-decreto-supremo-n-4257?Itemid=2411",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-036",
+      "url": "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/194-decreto-supremo-no-29894?Itemid=2411",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-037",
+      "url": "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/193-decreto-supremo-no-29004?Itemid=2411",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-040",
+      "url": "https://minsalud.gob.bo/component/jdownloads/send/13-decretos-supremos/188-decreto-supremo-no-27384?Itemid=2411",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-042",
+      "url": "https://minsalud.gob.bo/component/jdownloads/send/12-leyes/145-ley-no-2341?Itemid=2411",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-044",
+      "url": "https://prueba.ceass.gob.bo/wp-content/uploads/2025/10/DS-27943.pdf",
+      "reason": "INDEXED_URL_ERROR_502"
+    },
+    {
+      "source_id": "ATLAS-RAW-A001-045",
+      "url": "https://prueba.ceass.gob.bo/wp-content/uploads/2025/10/DS-25235.pdf",
+      "reason": "INDEXED_URL_TIMEOUT"
+    },
+    {
+      "url": "https://agm.gov.bz/laws/",
+      "reason": "DYNAMIC_INDEX_SHELL_NO_LAW_ROWS",
+      "source_id": "ATLAS-RAW-A002-031"
+    }
+  ],
+  "latest_successfully_committed_checkpoint": {
+    "batch_id": "A002",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A002_TEAM_A_20261109.json",
+    "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
+    "checkpoint_commit_sha_resolution": "Use GitHub branch HEAD containing this state file (self-referential commit cannot embed own SHA)",
+    "parent_commit_sha": "3674f049d627fcb9b6c456ac6abf648d9ee802ca"
+  },
+  "next_run_instruction": "Read THIS worker STATE.json and batch paths from research/atlas-raw-intake-team-a, resume at A003; do not reinitialize from central or update shared STATE.",
+  "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
+}
