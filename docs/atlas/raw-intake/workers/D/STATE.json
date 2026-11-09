@@ -61,10 +61,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D009_TEAM_D_20261109.json",
       "source_count": 41,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D010",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D010_TEAM_D_20261109.json",
+      "source_count": 38,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 9,
-  "cumulative_unique_url_leads": 347,
+  "completed_batch_count": 10,
+  "cumulative_unique_url_leads": 385,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -206,6 +212,7 @@
     "TD-BL-OFFICE-020",
     "TD-BL-OFFICE-028",
     "TD-BL-OFFICE-036",
+    "TD-BL-OFFICE-052",
     "TD-BL-OFFICE-056",
     "TD-BL-OFFICE-096",
     "TD-BL-OFFICE-124",
@@ -228,9 +235,7 @@
     "TD-BL-OFFICE-554",
     "TD-BL-OFFICE-570",
     "TD-BL-OFFICE-578",
-    "TD-BL-OFFICE-585",
     "TD-BL-OFFICE-598",
-    "TD-BL-OFFICE-600",
     "TD-BL-OFFICE-620",
     "TD-BL-OFFICE-643",
     "TD-BL-OFFICE-674",
@@ -590,7 +595,45 @@
     "https://www.who.int/spain/",
     "https://www.emro.who.int/countries/sdn/index.html",
     "https://www.afro.who.int/countries/south-africa/publication/who-south-africa-2026-1st-quarter-newsletter",
-    "https://www.afro.who.int/countries/south-africa/publication/who-south-africa-2026-2nd-quarter-newsletter-april-june"
+    "https://www.afro.who.int/countries/south-africa/publication/who-south-africa-2026-2nd-quarter-newsletter-april-june",
+    "https://data.who.int/countries/020",
+    "https://data.who.int/countries/028",
+    "https://data.who.int/countries/036",
+    "https://data.who.int/countries/052",
+    "https://data.who.int/countries/056",
+    "https://data.who.int/countries/096",
+    "https://data.who.int/countries/124",
+    "https://data.who.int/countries/184",
+    "https://data.who.int/countries/208",
+    "https://data.who.int/countries/212",
+    "https://data.who.int/countries/242",
+    "https://data.who.int/countries/246",
+    "https://data.who.int/countries/250",
+    "https://data.who.int/countries/308",
+    "https://data.who.int/countries/352",
+    "https://data.who.int/countries/372",
+    "https://data.who.int/countries/376",
+    "https://data.who.int/countries/380",
+    "https://data.who.int/countries/442",
+    "https://data.who.int/countries/470",
+    "https://data.who.int/countries/492",
+    "https://data.who.int/countries/520",
+    "https://data.who.int/countries/528",
+    "https://data.who.int/countries/554",
+    "https://data.who.int/countries/570",
+    "https://data.who.int/countries/578",
+    "https://data.who.int/countries/598",
+    "https://data.who.int/countries/620",
+    "https://data.who.int/countries/643",
+    "https://data.who.int/countries/674",
+    "https://data.who.int/countries/682",
+    "https://data.who.int/countries/686",
+    "https://data.who.int/countries/702",
+    "https://data.who.int/countries/706",
+    "https://data.who.int/countries/710",
+    "https://data.who.int/countries/728",
+    "https://data.who.int/countries/724",
+    "https://data.who.int/countries/729"
   ],
   "unresolved_retrievals": [
     {
@@ -684,9 +727,7 @@
       "origin": "D009"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [
-    "https://www.paho.org/en/barbados-and-eastern-caribbean-countries"
-  ],
+  "duplicate_urls_skipped_this_batch": [],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -696,12 +737,12 @@
     "international_network_intake_unprocessed_count": 3,
     "who_april_2026_host_evidence_unprocessed_count": 73
   },
-  "next_queue_position": "D010: proceed to unvisited WHO_APRIL_2026_HOST_EVIDENCE queue items with original official 2026-period source leads; do not count current WHO country sites as April 2026 evidence. WHO_ADMINISTRATION 23 and NET 3 still pending.",
-  "next_batch_id": "D010",
+  "next_queue_position": "D011: switch to untouched P1 WHO_APRIL_2026_HOST_EVIDENCE cases (716 Zimbabwe, 748 Eswatini, 760 Syrian Arab Republic, 776 Tonga, 788 Tunisia, 795 Turkmenistan, 834 Tanzania, 862 Venezuela) and unmatched P2 territories; seek dated official office/presence/instrument records rather than statistical portals.",
+  "next_batch_id": "D011",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D009",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D009_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "5ab45de10aa6a45f23441e0380fe2b58653d48f1",
+    "batch_id": "D010",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D010_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "84fa2fbc820643e889a34441b68902cff8aecb4e",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
