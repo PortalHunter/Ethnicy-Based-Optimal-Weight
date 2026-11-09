@@ -169,10 +169,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D027_TEAM_D_20261109.json",
       "source_count": 39,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D028",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D028_TEAM_D_20261109.json",
+      "source_count": 41,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 27,
-  "cumulative_unique_url_leads": 1049,
+  "completed_batch_count": 28,
+  "cumulative_unique_url_leads": 1090,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -1464,7 +1470,48 @@
     "https://github.com/w3c/data-shapes/tree/gh-pages/shacl12-test-suite/tests/sparql-rl",
     "https://github.com/w3c/data-shapes/tree/gh-pages/shacl12-test-suite/tests/sparql",
     "https://github.com/spdx/spdx-spec/blob/develop/docs/licenses/CC-BY-3.0.md",
-    "https://github.com/spdx/spdx-spec/blob/develop/docs/licenses/Community-Spec-1.0.md"
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/licenses/Community-Spec-1.0.md",
+    "https://www.w3.org/TR/rdf12-xml/",
+    "https://www.w3.org/TR/rdf12-schema/",
+    "https://www.w3.org/TR/rdf12-primer/",
+    "https://www.w3.org/TR/rdf12-new/",
+    "https://www.w3.org/TR/rdf12-interop/",
+    "https://www.w3.org/TR/sparql12-query/",
+    "https://www.w3.org/TR/sparql12-update/",
+    "https://www.w3.org/TR/sparql12-protocol/",
+    "https://www.w3.org/TR/sparql12-service-description/",
+    "https://www.w3.org/TR/odrl-vocab/",
+    "https://www.w3.org/TR/vc-data-integrity-1.1/",
+    "https://www.w3.org/TR/vc-data-integrity/",
+    "https://www.w3.org/TR/vc-di-eddsa/",
+    "https://www.w3.org/TR/vc-di-ecdsa/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/Element/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/Agent/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/Person/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/Organization/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/Tool/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/ExternalIdentifier/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/ExternalRef/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/IntegrityMethod/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/Hash/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/SpdxDocument/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/CreationInfo/",
+    "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/Annotation/",
+    "https://www.rfc-editor.org/info/rfc2119/",
+    "https://www.rfc-editor.org/info/rfc8174/",
+    "https://www.rfc-editor.org/info/rfc3339/",
+    "https://www.rfc-editor.org/info/rfc3986/",
+    "https://www.rfc-editor.org/info/rfc3987/",
+    "https://www.rfc-editor.org/info/rfc4648/",
+    "https://www.rfc-editor.org/info/rfc8785/",
+    "https://www.rfc-editor.org/info/rfc7515/",
+    "https://www.rfc-editor.org/info/rfc7517/",
+    "https://www.rfc-editor.org/info/rfc7519/",
+    "https://www.rfc-editor.org/info/rfc8032/",
+    "https://www.rfc-editor.org/info/rfc8949/",
+    "https://www.rfc-editor.org/info/rfc9334/",
+    "https://www.rfc-editor.org/info/rfc9162/",
+    "https://www.rfc-editor.org/info/rfc9421/"
   ],
   "unresolved_retrievals": [
     {
@@ -2316,6 +2363,34 @@
       "origin": "D027",
       "url": null,
       "reason": "ACTUAL_ATLAS_CODESPACES_NATIVE_EXECUTION_LOGS_NOT_RETRIEVED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-OFFICE-158",
+      "url": null,
+      "origin": "D028",
+      "reason": "ORIGINAL_WHO_APRIL_2026_OFFICE_HOST_APPLICABILITY_FOR_158_NOT_RETRIEVED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-OFFICE-239",
+      "url": null,
+      "origin": "D028",
+      "reason": "ORIGINAL_WHO_APRIL_2026_OFFICE_HOST_EXCLUSION_OR_RESPONDENT_FOR_239_NOT_RETRIEVED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-ACCEPT-002",
+      "url": null,
+      "origin": "D028",
+      "reason": "ORIGINAL_ATLAS_CODESPACES_NATIVE_STDOUT_STDERR_AND_EXECUTED_COMMIT_IDENTITY_NOT_RETRIEVED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-ACCEPT-001",
+      "url": null,
+      "origin": "D028",
+      "reason": "INDEPENDENT_ATLAS_SEMANTIC_GRAPH_AND_SOURCE_RIGHTS_ACCEPTANCE_NOT_RETRIEVED_OR_PERFORMED"
     }
   ],
   "duplicate_urls_skipped_this_batch": [],
@@ -2333,12 +2408,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Seek untapped primary-source provenance / policy and reproducibility records for TD-BL-ACCEPT-001/002 and unresolved exact April 2026 WHO office-host originals TD-BL-OFFICE-158/239. Raw-only, no acceptance or substantive case closure.",
-  "next_batch_id": "D028",
+  "next_queue_position": "Continue unresolved April 2026 WHO office-host originals TD-BL-OFFICE-158/239 and actual native Codespaces run stdout/stderr with executed SHA TD-BL-ACCEPT-002, plus independent semantic graph/source-rights acceptance TD-BL-ACCEPT-001. Raw acquisition only; none of 236 original cases substantively closed.",
+  "next_batch_id": "D029",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D027",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D027_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "b83012819984c7c455bed7919d0135f9260c9bce",
+    "batch_id": "D028",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D028_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "e2750359ed3ccc6a87127db4ccb74432ca8397e2",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
