@@ -30,13 +30,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A004_TEAM_A_20261109.json",
       "source_count": 40
+    },
+    {
+      "batch_id": "A005",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A005_TEAM_A_20261109.json",
+      "source_count": 45
     }
   ],
-  "completed_worker_batch_count": 3,
-  "completed_team_a_intake_batch_count": 4,
-  "worker_new_unique_url_leads": 118,
-  "team_a_cumulative_unique_url_leads": 163,
-  "last_completed_batch": "A004",
+  "completed_worker_batch_count": 4,
+  "completed_team_a_intake_batch_count": 5,
+  "worker_new_unique_url_leads": 163,
+  "team_a_cumulative_unique_url_leads": 208,
+  "last_completed_batch": "A005",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -53,17 +59,17 @@
     "M49:104|initial_source_scan",
     "M49:108|initial_source_scan",
     "M49:112|initial_source_scan",
-    "M49:116|initial_source_scan"
+    "M49:116|initial_source_scan",
+    "M49:120|initial_source_scan",
+    "M49:124|initial_source_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "104",
-      "108",
-      "112",
-      "116"
+      "120",
+      "124"
     ],
-    "next": "M49:120 Cameroon, M49:124 Canada, M49:132 Cabo Verde; previous M49:104/108/112/116 scans are raw intake, not legal resolution",
-    "next_batch_id": "A005",
+    "next": "M49:132 Cabo Verde, M49:136 Cayman Islands, M49:140 Central African Republic, M49:144 Sri Lanka; avoid A001-A005 URLs",
+    "next_batch_id": "A006",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -83,7 +89,10 @@
     "M49:108 Burundi 2025 ministerial reorganization and 2026 provincial/district ordinances sourced, not legally authenticated",
     "M49:112 Belarus actual statute-specific official portal links still unresolved",
     "M49:116 Cambodia original Khmer enactments and post-translation amendments unresolved",
-    "M49:120 Cameroon unprocessed next queue item"
+    "M49:120 Cameroon original domestic law gazette and post-2023 regional transfers unverified",
+    "M49:124 Canada province/territory statutes and independent health authority changes not covered by federal catalog scan",
+    "M49:132 Cabo Verde unprocessed next queue item",
+    "M49:136 Cayman Islands unprocessed"
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -248,7 +257,52 @@
     "https://moh.gov.kh/content/uploads/Laws_and_Regulations/Prakas/Prakas%20on%20Modification%20of%20Procedure%20and%20Technical%20Conditions%20to%20Open%20Medical%20Paramedical%20Services%202011%20Eng.pdf",
     "https://moh.gov.kh/content/uploads/Laws_and_Regulations/Prakas/Prakas%20on%20Formalities%20and%20Technical%20Condition%20for%20Beauty%20Care%20Center_Eng.pdf",
     "https://pravo.by/",
-    "https://center.gov.by/en/"
+    "https://center.gov.by/en/",
+    "https://www.canada.ca/en/health-canada/corporate/about-health-canada/legislation-guidelines/acts-regulations/list-acts-regulations.html",
+    "https://laws-lois.justice.gc.ca/eng/acts/A-13.4/",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2019-194/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-137/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2019-193/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2019-192/index.html",
+    "https://laws-lois.justice.gc.ca/eng/acts/C-6/",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-86-259/index.html",
+    "https://laws-lois.justice.gc.ca/eng/acts/C-1.68/index.html",
+    "https://laws-lois.justice.gc.ca/eng/acts/C-38.8/",
+    "https://laws-lois.justice.gc.ca/eng/acts/H-3.2/index.html",
+    "https://laws-lois.justice.gc.ca/eng/acts/F-27/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2013-178/page-1.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2022-18/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.%2C_c._869/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2025-94/page-1.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2019-124/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.%2C_c._870/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2015-114/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2013-87/",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2024-89/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2024-88/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-98-282/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2003-196/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2025-93/page-1.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-108/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2007-118/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2024-169/page-1.html?txthl=replacement+respecting+nicotine+rules",
+    "https://laws-lois.justice.gc.ca/eng/acts/H-2.7/index.html",
+    "https://laws-lois.justice.gc.ca/eng/acts/H-3/",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2015-17/",
+    "https://laws-lois.justice.gc.ca/eng/acts/P-4/",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2017-165/FullText.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-93-133/",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2012-247/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-94-688/",
+    "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-124/index.html",
+    "https://laws-lois.justice.gc.ca/eng/acts/R-1/index.html",
+    "https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.%2C_c._1370/index.html",
+    "https://laws-lois.justice.gc.ca/eng/acts/T-11.5/",
+    "https://extranet.who.int/cpcd/health-legislation/countries/cmr/legislative-instruments",
+    "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/CMR_Cameroon_Constitution_1972asof2008.pdf",
+    "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/CMR_Cameroon_Loi-No-96-03-loi-cadre-sante_1996.pdf",
+    "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/CMR_Cameroon_Decret-2023-132-competences-transferres-regions-matiere-sante_2023.pdf",
+    "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/CMR_Cameroon_Decret-No-2013-93-portant-organisation-du-Ministere-de-la-Sante-Publique_2013.pdf"
   ],
   "unresolved_retrievals": [
     {
@@ -438,12 +492,12 @@
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A004",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A004_TEAM_A_20261109.json",
+    "batch_id": "A005",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A005_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "3bd29dcaa1319269a8b32037c4413ff92390dbeb",
+    "parent_commit_sha": "e40539e5751cb1ac144fa32d1305a00c22f62802",
     "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD because own commit cannot be self-embedded"
   },
-  "next_run_instruction": "On Team A worker branch read persistent STATE.json; resume A005 from M49:120, verify branch HEAD; no shared or other-team writes.",
+  "next_run_instruction": "Resume Team A raw intake from committed STATE.json A006 on own branch, starting M49:132; no other-branch changes.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
