@@ -127,10 +127,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D020_TEAM_D_20261109.json",
       "source_count": 39,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D021",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D021_TEAM_D_20261109.json",
+      "source_count": 31,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 20,
-  "cumulative_unique_url_leads": 787,
+  "completed_batch_count": 21,
+  "cumulative_unique_url_leads": 818,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -370,10 +376,8 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-OFFICE-239",
     "TD-BL-OFFICE-158",
-    "TD-BL-ACCEPT-001",
-    "TD-BL-ACCEPT-002"
+    "TD-BL-OFFICE-239"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -1162,7 +1166,38 @@
     "https://slsa.dev/spec/v1.0/requirements",
     "https://slsa.dev/spec/v1.0/terminology",
     "https://spdx.dev/use/specifications/",
-    "https://nodejs.org/en/download/archive/v24.22.2"
+    "https://nodejs.org/en/download/archive/v24.22.2",
+    "https://www.who.int/about/structure",
+    "https://apo.who.int/countries/",
+    "https://www.who.int/news/item/05-04-2020-update-how-the-world-health-organization-works-with-all-people-everywhere",
+    "https://www.who.int/news/item/09-11-2020-who-director-general-calls-on-world-to-choose-health-at-resumed-73rd-world-health-assembly-in-the-year-of-the-nurse-and-the-midwife",
+    "https://www.who.int/publications/m/item/covid-19-virtual-press-conference-transcript---10-may-2021",
+    "https://apps.who.int/gb/Journal/e/WHA73/JRN-A73-R2_en.html",
+    "https://apps.who.int/gb/Journal/e/WHA74/JRN-A74-2_en.html",
+    "https://apps.who.int/gb/Journal/e/WHA75/JRN-A75-3_en.html",
+    "https://apps.who.int/gb/Journal/e/WHA76/JRN-A76-3_en.html",
+    "https://apps.who.int/gb/Journal/e/WHA77/JRN-A77-2_en.html",
+    "https://apps.who.int/gb/Journal/e/WHA78/JRN-A78-2_en.html",
+    "https://mohw.gov.tw/cp-3779-39369-2.html",
+    "https://www.cdc.gov.tw/En/Category/Page/pLGVAwA60glWsIoMUWKNYA",
+    "https://www.cdc.gov.tw/En/Category/ListContent/hQ4XhaZAzUmNe2ksY4tjMA?uaid=vq_JaspZWpptZAzvUkHOFA",
+    "https://www.cdc.gov.tw/En/Bulletin/Detail/zoDGrCuvg0geVNQiMZHwWA?typeId=158",
+    "https://gov.gs/",
+    "https://gov.gs/frequently-asked-questions/",
+    "https://gov.gs/contactus/",
+    "https://laws.gov.gs/",
+    "https://laws.gov.gs/ordinances/",
+    "https://laws.gov.gs/gazettes/",
+    "https://laws.gov.gs/constitutional/",
+    "https://gov.gs/entry-control-order-permit-application/",
+    "https://gov.gs/wp-content/uploads/2022/10/20161124-South-Georgia-Medical-Review.pdf",
+    "https://www.gov.uk/foreign-travel-advice/south-georgia-and-south-sandwich-islands/health",
+    "https://www.gov.uk/foreign-travel-advice/south-georgia-and-south-sandwich-islands",
+    "https://www.gov.uk/world/south-georgia-and-the-south-sandwich-islands/news",
+    "https://www.gov.uk/csv-preview/6aa9384ff1f8d2a39605f801/FCDO_UK_Overseas_Territories_-_11_Sep_2026.csv",
+    "https://www.gov.uk/government/publications/the-central-government-s-concept-of-operations/the-amber-book-appendices-html",
+    "https://www.legislation.gov.uk/uksi/1995/1621/made",
+    "https://www.legislation.gov.uk/uksi/1985/449/pdfs/uksi_19850449_en.pdf"
   ],
   "unresolved_retrievals": [
     {
@@ -1911,11 +1946,21 @@
       "url": null,
       "reason": "ORIGINAL_CODESPACES_NATIVE_LOGS_AND_EXECUTED_SHA_NOT_RETRIEVED_IN_THIS_SOURCE_INTAKE_BATCH",
       "origin": "D020"
+    },
+    {
+      "source_id": "ATLAS-RAW-D021-024",
+      "url": "https://gov.gs/wp-content/uploads/2022/10/20161124-South-Georgia-Medical-Review.pdf",
+      "reason": "PDF_METADATA_ONLY_FULL_SOURCE_NOT_INSPECTED",
+      "origin": "D021"
+    },
+    {
+      "source_id": "ATLAS-RAW-D021-031",
+      "url": "https://www.legislation.gov.uk/uksi/1985/449/pdfs/uksi_19850449_en.pdf",
+      "reason": "PDF_METADATA_ONLY_FULL_SOURCE_NOT_INSPECTED",
+      "origin": "D021"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [
-    "https://gov.gs/regulated-activity-permit/"
-  ],
+  "duplicate_urls_skipped_this_batch": [],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -1924,14 +1969,18 @@
     "who_current_administration_unprocessed_count": 0,
     "international_network_intake_unprocessed_count": 0,
     "who_april_2026_host_evidence_unprocessed_count": 0,
-    "new_source_owner_gaps": "Original April 2026 WHO host/exception statement or exact roster and native Codespaces run artifacts still unresolved"
+    "new_source_owner_gaps": "Original April 2026 WHO host/exception statement or exact roster and native Codespaces run artifacts still unresolved",
+    "who_april_2026_host_evidence_open_evidence_gaps": [
+      "TD-BL-OFFICE-158",
+      "TD-BL-OFFICE-239"
+    ]
   },
-  "next_queue_position": "D021: additional original WHO source-owner applicability evidence for ISO exception 158 and SGSSI 239, plus scoped acceptance/reproducibility original instruments; all substantive gates remain held",
-  "next_batch_id": "D021",
+  "next_queue_position": "D022: Source-only additions to 158 and 239 exhausted in this search; exact original WHO April 2026 office-host respondent/nonapplicability remains unresolved. Acceptance 001/002 original native-run and independent semantic review are NOT completed by intake. Collect further official source-owner leads only if new specific originals appear; otherwise stop source collection without inventing coverage.",
+  "next_batch_id": "D022",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D020",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D020_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "c31378dd857a456bd1eda4a6c5b68b759df98970",
+    "batch_id": "D021",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D021_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "d1129a284dd23e2b48ff2126f01f6402f7395fcd",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
