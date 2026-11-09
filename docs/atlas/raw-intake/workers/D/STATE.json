@@ -139,10 +139,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D022_TEAM_D_20261109.json",
       "source_count": 33,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D023",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D023_TEAM_D_20261109.json",
+      "source_count": 43,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 22,
-  "cumulative_unique_url_leads": 851,
+  "completed_batch_count": 23,
+  "cumulative_unique_url_leads": 894,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -382,9 +388,8 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-OFFICE-239",
-    "TD-BL-ACCEPT-001",
-    "TD-BL-ACCEPT-002"
+    "TD-BL-ACCEPT-002",
+    "TD-BL-ACCEPT-001"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -1237,7 +1242,50 @@
     "https://slsa.dev/spec/v1.2/provenance",
     "https://slsa.dev/spec/v1.2/verifying-artifacts",
     "https://slsa.dev/spec/v1.2/build-requirements",
-    "https://support.datacite.org/docs/datacite-metadata-schema"
+    "https://support.datacite.org/docs/datacite-metadata-schema",
+    "https://slsa.dev/spec/v1.2/whats-new",
+    "https://slsa.dev/spec/v1.2/about",
+    "https://slsa.dev/spec/v1.2/threats-overview",
+    "https://slsa.dev/spec/v1.2/use-cases",
+    "https://slsa.dev/spec/v1.2/principles",
+    "https://slsa.dev/spec/v1.2/faq",
+    "https://slsa.dev/spec/v1.2/future-directions",
+    "https://slsa.dev/spec/v1.2/tracks",
+    "https://slsa.dev/spec/v1.2/build-track-basics",
+    "https://slsa.dev/spec/v1.2/terminology",
+    "https://slsa.dev/spec/v1.2/distributing-provenance",
+    "https://slsa.dev/spec/v1.2/assessing-build-platforms",
+    "https://slsa.dev/spec/v1.2/assessing-source-systems",
+    "https://slsa.dev/spec/v1.2/source-example-controls",
+    "https://slsa.dev/spec/v1.2/threats",
+    "https://slsa.dev/spec/v1.2/verified-properties",
+    "https://slsa.dev/spec/v1.2/attestation-model",
+    "https://slsa.dev/spec/v1.2/build-provenance",
+    "https://slsa.dev/spec/v1.2/verification_summary",
+    "https://slsa.dev/spec/v1.2/source-requirements",
+    "https://slsa.dev/spec/v1.2/verifying-source",
+    "https://www.w3.org/TR/rdf11-concepts/",
+    "https://www.w3.org/TR/rdf11-mt/",
+    "https://www.w3.org/TR/rdf11-schema/",
+    "https://www.w3.org/TR/sparql11-query/",
+    "https://www.w3.org/TR/owl2-overview/",
+    "https://www.w3.org/TR/skos-reference/",
+    "https://www.w3.org/TR/rdf11-turtle/",
+    "https://www.w3.org/TR/json-ld11-api/",
+    "https://www.w3.org/TR/rdf11-primer/",
+    "https://www.w3.org/TR/rdf11-datasets/",
+    "https://www.w3.org/TR/rdf11-n-triples/",
+    "https://www.w3.org/TR/n-quads/",
+    "https://www.w3.org/TR/trig/",
+    "https://www.w3.org/TR/rdf-sparql-XMLres/",
+    "https://www.w3.org/TR/sparql11-results-json/",
+    "https://www.w3.org/TR/sparql11-protocol/",
+    "https://www.w3.org/TR/sparql11-entailment/",
+    "https://www.w3.org/TR/owl2-syntax/",
+    "https://www.w3.org/TR/owl2-mapping-to-rdf/",
+    "https://www.w3.org/TR/owl2-profiles/",
+    "https://www.w3.org/TR/skos-primer/",
+    "https://www.w3.org/TR/json-ld11-framing/"
   ],
   "unresolved_retrievals": [
     {
@@ -2012,11 +2060,23 @@
       "url": null,
       "origin": "D022",
       "reason": "ORIGINAL_CODESPACES_NATIVE_RUN_LOGS_NOT_RETRIEVED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-ACCEPT-001",
+      "origin": "D023",
+      "url": null,
+      "reason": "ORIGINAL_INDEPENDENT_FULL_GRAPH_SEMANTIC_ACCEPTANCE_SAMPLE_NOT_RETRIEVED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-ACCEPT-002",
+      "origin": "D023",
+      "url": null,
+      "reason": "ORIGINAL_NOV_2026_CODESPACES_NATIVE_STDOUT_STDERR_LOGS_AND_EXECUTED_SHA_UNRESOLVED"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [
-    "https://gov.gs/entry-control-order-permit-application/"
-  ],
+  "duplicate_urls_skipped_this_batch": [],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -2031,12 +2091,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D023: seek original WHO April 2026 office-host custodian/exception source records, and additional source-owner provenance, licensing and native reproducibility evidence; all substantive Team D gates held",
-  "next_batch_id": "D023",
+  "next_queue_position": "Follow original Team D source-owner gaps: April 2026 WHO respondent applicability and original scoped semantic/reproducibility evidence. Additional accepted methods-source leads may continue; no substantive closure.",
+  "next_batch_id": "D024",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D022",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D022_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "2571325fc699f85195eeab1714debd9ef91feefd",
+    "batch_id": "D023",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D023_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "2cba84e39e5f7a015af4639fedb52cb65b32476f",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
