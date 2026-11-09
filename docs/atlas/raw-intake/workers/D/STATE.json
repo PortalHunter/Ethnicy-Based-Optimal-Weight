@@ -79,10 +79,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D012_TEAM_D_20261109.json",
       "source_count": 34,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D013",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D013_TEAM_D_20261109.json",
+      "source_count": 44,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 12,
-  "cumulative_unique_url_leads": 465,
+  "completed_batch_count": 13,
+  "cumulative_unique_url_leads": 509,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -246,29 +252,31 @@
     "TD-BL-OFFICE-292",
     "TD-BL-OFFICE-316",
     "TD-BL-OFFICE-016",
-    "TD-BL-OFFICE-254"
+    "TD-BL-OFFICE-254",
+    "TD-BL-OFFICE-796",
+    "TD-BL-OFFICE-630",
+    "TD-BL-OFFICE-660",
+    "TD-BL-OFFICE-234",
+    "TD-BL-OFFICE-248",
+    "TD-BL-WHO-654",
+    "TD-BL-WHO-638",
+    "TD-BL-WHO-074",
+    "TD-BL-OFFICE-752",
+    "TD-BL-NET-012",
+    "TD-BL-NET-005"
   ],
   "processed_in_current_batch": [
-    "TD-BL-OFFICE-092",
-    "TD-BL-OFFICE-533",
-    "TD-BL-OFFICE-060",
-    "TD-BL-OFFICE-531",
-    "TD-BL-OFFICE-534",
-    "TD-BL-OFFICE-535",
-    "TD-BL-OFFICE-312",
-    "TD-BL-OFFICE-474",
-    "TD-BL-OFFICE-136",
-    "TD-BL-OFFICE-074",
-    "TD-BL-OFFICE-086",
-    "TD-BL-OFFICE-162",
-    "TD-BL-OFFICE-166",
-    "TD-BL-OFFICE-175",
-    "TD-BL-OFFICE-238",
-    "TD-BL-OFFICE-304",
-    "TD-BL-OFFICE-292",
-    "TD-BL-OFFICE-316",
-    "TD-BL-OFFICE-016",
-    "TD-BL-OFFICE-254"
+    "TD-BL-OFFICE-796",
+    "TD-BL-OFFICE-630",
+    "TD-BL-OFFICE-660",
+    "TD-BL-OFFICE-234",
+    "TD-BL-OFFICE-248",
+    "TD-BL-WHO-654",
+    "TD-BL-WHO-638",
+    "TD-BL-WHO-074",
+    "TD-BL-OFFICE-752",
+    "TD-BL-NET-012",
+    "TD-BL-NET-005"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -735,7 +743,51 @@
     "https://www.who.int/westernpacific/about/how-we-work/pacific-support/970",
     "https://www.who.int/westernpacific/about/how-we-work/pacific-support/",
     "https://iris.who.int/bitstream/handle/10665/344252/9789240033573-eng.pdf?sequence=1",
-    "https://www.paho.org/sites/default/files/2024-07/adi-paho-toolkit-2024-english-1.pdf"
+    "https://www.paho.org/sites/default/files/2024-07/adi-paho-toolkit-2024-english-1.pdf",
+    "https://www.paho.org/en/news/11-12-2025-turks-and-caicos-islands-pahowho-implement-vpd-smart",
+    "https://www.paho.org/en/documents/bahamas-and-turks-and-caicos-islands-country-annual-report-2025",
+    "https://www.paho.org/en/publications/bahamas-and-turks-and-caicos-islands-country-annual-report-2025",
+    "https://www.paho.org/en/news/31-3-2026-pahowho-supports-development-life-course-policies-turks-and-caicos-islands",
+    "https://www.paho.org/en/news/31-3-2026-pahowho-supports-national-consultation-development-primary-health-care-phc-strategy",
+    "https://www.paho.org/en/bahamas",
+    "https://www.paho.org/en/news/3-7-2026-caribbean-leading-global-charge-against-mother-child-transmission-diseases",
+    "https://www.paho.org/en/news/29-5-2026-puerto-rico-advances-healthy-aging-and-strengthens-its-long-term-care-agenda-paho",
+    "https://www.paho.org/en/news/6-2-2025-pahowho-supports-anguilla-strengthening-ncd-care-through-hearts-initiative",
+    "https://www.who.int/europe/about-us/governance/regional-committee",
+    "https://www.who.int/europe/about-us/governance/regional-committee/75th-session-of-the-who-regional-committee-for-europe",
+    "https://iris.who.int/bitstream/10665/85718/1/Official_record94_eng.pdf",
+    "https://iris.who.int/bitstream/handle/10665/85682/Official_record75_eng.pdf?isAllowed=y&sequence=1",
+    "https://iris.who.int/bitstream/handle/10665/85658/Official_record59_eng.pdf?sequence=1",
+    "https://smart.who.int/icvp/ValueSet-ICVP_v3-Country.html",
+    "https://smart.who.int/trust/1.2.0/CodeSystem-RefMartCountryList.html",
+    "https://www.who.int/europe/news/item/27-10-2026-statement---opening-address-to-the-76th-session-of-the-who-regional-committee-for-europe",
+    "https://www.thegctf.org/About-us/Founding-Documents",
+    "https://www.thegctf.org/Portals/1/Documents/Foundational%20Documents/GCTF-Political-Declaration_ENG.pdf",
+    "https://www.thegctf.org/Portals/1/Documents/Foundational%20Documents/GCTF_TOR_2024.pdf?ver=OEairZVkZ1p6iy0yXym94A%3D%3D",
+    "https://www.thegctf.org/About-us/Members",
+    "https://www.thegctf.org/fr/About-us/Members-and-partners",
+    "https://www.thegctf.org/Portals/1/Documents/GCTF%20Info%20Sheet/GCTF_InfoSheet.pdf?ver=cDX66hBNsv0ZLkA2oeNV3A%3D%3D",
+    "https://www.thegctf.org/About-us/Background-and-Mission",
+    "https://www.thegctf.org/About-us/GCTF-Co-Chairs",
+    "https://www.thegctf.org/About-us/Coordinating-Committee",
+    "https://www.thegctf.org/About-us/GCTF-Administrative-Unit",
+    "https://www.thegctf.org/About-us/Inspired_Institutions",
+    "https://www.thegctf.org/Our-partners/Other-GCTF-Partners",
+    "https://www.thegctf.org/Portals/1/Documents/Links/Meetings/2021/19CC11MM/Ministerial%20Statement/GCTF_MinisterialStatement2021_ENG.pdf?ver=0MbF4-zaAca__DBF95sUSg%3D%3D",
+    "https://www.thegctf.org/Portals/1/Documents/Links/Meetings/2018/14th%20Coordinating%20Committee/GCTF%20Ministerial%20Plenary%20Meeting_Joint%20UN-GCTF%20Ministerial%20Statement.pdf?ver=2018-09-26-184858-417",
+    "https://www.thegctf.org/Portals/1/Documents/Links/Meetings/2017/Twelfth%20GCTF%20Coordinating%20Committee%20Meeting/GCTF%20Ministerial%20Statement%202017.pdf?ver=2017-09-11-160424-080",
+    "https://www.thegctf.org/Portals/1/Documents/Foundational%20Documents/GCTF-Political-Declaration_FRE.pdf",
+    "https://www.thegctf.org/LinkClick.aspx?fileticket=1jR8P8e1njE%3D&language=en-US&portalid=1",
+    "https://africacdc.org/download/africa-health-excon-2026-report/",
+    "https://africacdc.org/news-item/egypt-joins-african-pooled-procurement-mechanism-appm/",
+    "https://www.nvi.gov.gh/notice/ghana-signs-landmark-mou-with-africa-cdc-to-join-african-pooled-procurement-mechanism-appm-a-game-changer-for-ghanaian-pharmaceutical-and-vaccine-manufacturers",
+    "https://www.nvi.gov.gh/news/ghana-moves-to-become-africa-s-vaccine-and-pharmaceutical-manufacturing-hub",
+    "https://africacdc.org/wp-content/uploads/2026/03/Annual-report-2025-1.pdf",
+    "https://africacdc.org/wp-content/uploads/2025/06/Communique-EN-22052025_Final.pdf",
+    "https://au.int/sites/default/files/decisions/46188-Assembly_Decisions_31_March_E.pdf",
+    "https://africanlii.org/pt/akn/aa-au/doc/decision/2026-02-18/decision-on-the-report-of-the-fifth-5th-ordinary-meeting-of-the-committee-of-heads-of-state-and-government-of-the-africa-centres-for-disease-control-and-prevention-africa-cdc-doc-assemblyau9xxxix/eng%402026-02-18",
+    "https://apanews.net/tunisia-libya-join-african-pooled-procurement-mechanism/",
+    "https://libyareview.com/68742/libya-signs-appm-memorandum-with-africa-cdc/"
   ],
   "unresolved_retrievals": [
     {
@@ -977,24 +1029,264 @@
       "url": "https://www.paho.org/sites/default/files/2024-07/adi-paho-toolkit-2024-english-1.pdf",
       "reason": "DIRECT_WEB_OPEN_403_SEARCH_INDEX_ONLY",
       "origin": "D012"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-001",
+      "url": "https://www.paho.org/en/news/11-12-2025-turks-and-caicos-islands-pahowho-implement-vpd-smart",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-002",
+      "url": "https://www.paho.org/en/documents/bahamas-and-turks-and-caicos-islands-country-annual-report-2025",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-003",
+      "url": "https://www.paho.org/en/publications/bahamas-and-turks-and-caicos-islands-country-annual-report-2025",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-004",
+      "url": "https://www.paho.org/en/news/31-3-2026-pahowho-supports-development-life-course-policies-turks-and-caicos-islands",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-006",
+      "url": "https://www.paho.org/en/bahamas",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-007",
+      "url": "https://www.paho.org/en/news/3-7-2026-caribbean-leading-global-charge-against-mother-child-transmission-diseases",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-008",
+      "url": "https://www.paho.org/en/news/29-5-2026-puerto-rico-advances-healthy-aging-and-strengthens-its-long-term-care-agenda-paho",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-009",
+      "url": "https://www.paho.org/en/news/6-2-2025-pahowho-supports-anguilla-strengthening-ncd-care-through-hearts-initiative",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-010",
+      "url": "https://www.who.int/europe/about-us/governance/regional-committee",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-011",
+      "url": "https://www.who.int/europe/about-us/governance/regional-committee/75th-session-of-the-who-regional-committee-for-europe",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-012",
+      "url": "https://iris.who.int/bitstream/10665/85718/1/Official_record94_eng.pdf",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-013",
+      "url": "https://iris.who.int/bitstream/handle/10665/85682/Official_record75_eng.pdf?isAllowed=y&sequence=1",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-014",
+      "url": "https://iris.who.int/bitstream/handle/10665/85658/Official_record59_eng.pdf?sequence=1",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-015",
+      "url": "https://smart.who.int/icvp/ValueSet-ICVP_v3-Country.html",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-016",
+      "url": "https://smart.who.int/trust/1.2.0/CodeSystem-RefMartCountryList.html",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-017",
+      "url": "https://www.who.int/europe/news/item/27-10-2026-statement---opening-address-to-the-76th-session-of-the-who-regional-committee-for-europe",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-019",
+      "url": "https://www.thegctf.org/Portals/1/Documents/Foundational%20Documents/GCTF-Political-Declaration_ENG.pdf",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-022",
+      "url": "https://www.thegctf.org/fr/About-us/Members-and-partners",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-023",
+      "url": "https://www.thegctf.org/Portals/1/Documents/GCTF%20Info%20Sheet/GCTF_InfoSheet.pdf?ver=cDX66hBNsv0ZLkA2oeNV3A%3D%3D",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-024",
+      "url": "https://www.thegctf.org/About-us/Background-and-Mission",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-025",
+      "url": "https://www.thegctf.org/About-us/GCTF-Co-Chairs",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-026",
+      "url": "https://www.thegctf.org/About-us/Coordinating-Committee",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-027",
+      "url": "https://www.thegctf.org/About-us/GCTF-Administrative-Unit",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-028",
+      "url": "https://www.thegctf.org/About-us/Inspired_Institutions",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-029",
+      "url": "https://www.thegctf.org/Our-partners/Other-GCTF-Partners",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-030",
+      "url": "https://www.thegctf.org/Portals/1/Documents/Links/Meetings/2021/19CC11MM/Ministerial%20Statement/GCTF_MinisterialStatement2021_ENG.pdf?ver=0MbF4-zaAca__DBF95sUSg%3D%3D",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-031",
+      "url": "https://www.thegctf.org/Portals/1/Documents/Links/Meetings/2018/14th%20Coordinating%20Committee/GCTF%20Ministerial%20Plenary%20Meeting_Joint%20UN-GCTF%20Ministerial%20Statement.pdf?ver=2018-09-26-184858-417",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-032",
+      "url": "https://www.thegctf.org/Portals/1/Documents/Links/Meetings/2017/Twelfth%20GCTF%20Coordinating%20Committee%20Meeting/GCTF%20Ministerial%20Statement%202017.pdf?ver=2017-09-11-160424-080",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-033",
+      "url": "https://www.thegctf.org/Portals/1/Documents/Foundational%20Documents/GCTF-Political-Declaration_FRE.pdf",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-034",
+      "url": "https://www.thegctf.org/LinkClick.aspx?fileticket=1jR8P8e1njE%3D&language=en-US&portalid=1",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-035",
+      "url": "https://africacdc.org/download/africa-health-excon-2026-report/",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-037",
+      "url": "https://www.nvi.gov.gh/notice/ghana-signs-landmark-mou-with-africa-cdc-to-join-african-pooled-procurement-mechanism-appm-a-game-changer-for-ghanaian-pharmaceutical-and-vaccine-manufacturers",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-038",
+      "url": "https://www.nvi.gov.gh/news/ghana-moves-to-become-africa-s-vaccine-and-pharmaceutical-manufacturing-hub",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-039",
+      "url": "https://africacdc.org/wp-content/uploads/2026/03/Annual-report-2025-1.pdf",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-040",
+      "url": "https://africacdc.org/wp-content/uploads/2025/06/Communique-EN-22052025_Final.pdf",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-041",
+      "url": "https://au.int/sites/default/files/decisions/46188-Assembly_Decisions_31_March_E.pdf",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-042",
+      "url": "https://africanlii.org/pt/akn/aa-au/doc/decision/2026-02-18/decision-on-the-report-of-the-fifth-5th-ordinary-meeting-of-the-committee-of-heads-of-state-and-government-of-the-africa-centres-for-disease-control-and-prevention-africa-cdc-doc-assemblyau9xxxix/eng%402026-02-18",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-043",
+      "url": "https://apanews.net/tunisia-libya-join-african-pooled-procurement-mechanism/",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
+    },
+    {
+      "source_id": "ATLAS-RAW-D013-044",
+      "url": "https://libyareview.com/68742/libya-signs-appm-memorandum-with-africa-cdc/",
+      "reason": "METADATA_ONLY_NO_DIRECT_DOCUMENT_INSPECTION",
+      "origin": "D013"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [],
+  "duplicate_urls_skipped_this_batch": [
+    "https://www.paho.org/en/news/30-9-2025-paho-and-montserrat-advance-comprehensive-health-system-strengthening-agenda",
+    "https://www.paho.org/en/montserrat",
+    "https://www.paho.org/en/anguilla",
+    "https://www.paho.org/en/turks-and-caicos-islands",
+    "https://www.who.int/europe/news/item/03-02-2025-who-europe-highlights-nordic-alcohol-monopolies-as-a-comprehensive-model-for-reducing-alcohol-consumption-and-harm"
+  ],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
     "nca_unprocessed_ids": [],
     "other_team_d_workstreams": "Unchanged; refer to Team D finite consolidated backlog",
-    "who_current_administration_unprocessed_count": 23,
-    "international_network_intake_unprocessed_count": 3,
-    "who_april_2026_host_evidence_unprocessed_count": 45
+    "who_current_administration_unprocessed_count": 20,
+    "international_network_intake_unprocessed_count": 1,
+    "who_april_2026_host_evidence_unprocessed_count": 39
   },
-  "next_queue_position": "D013: continue untouched WHO_APRIL_2026_HOST_EVIDENCE after D012 selected cases; revisit 2026-04 as-of source-owner originals first; WHO_CURRENT_ADMINISTRATION 23 and INTERNATIONAL_NETWORK 3 remain. No substantive case closure.",
-  "next_batch_id": "D013",
+  "next_queue_position": "D014: source-lead acquisition from still-unprocessed P2 WHO_APRIL_2026_HOST_EVIDENCE (remaining 39), WHO_CURRENT_ADMINISTRATION (20), and HI_ROLES. Research source-owner originals not country office inference; no validation.",
+  "next_batch_id": "D014",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D012",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D012_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "17d1a5f856104bd3da7abfe190e1af75171c8b97",
+    "batch_id": "D013",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D013_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "77a1fc30cd2ae447c5fec765211572128b7eaa2f",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
