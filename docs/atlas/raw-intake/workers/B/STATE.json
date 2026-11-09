@@ -23,12 +23,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B002_TEAM_B_20261109.json",
       "source_count": 40,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B003",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B003_TEAM_B_20261109.json",
+      "source_count": 46,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 2,
-  "worker_owned_batch_count": 1,
-  "cumulative_team_source_leads": 79,
-  "worker_owned_unique_url_leads": 40,
+  "completed_batch_count": 3,
+  "worker_owned_batch_count": 2,
+  "cumulative_team_source_leads": 125,
+  "worker_owned_unique_url_leads": 86,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -39,7 +45,21 @@
     "M49:132|high_chol",
     "M49:144|high_chol",
     "M49:404|high_chol",
-    "M49:524|high_chol"
+    "M49:524|high_chol",
+    "M49:050|celiac",
+    "M49:050|lactose",
+    "M49:604|gout",
+    "M49:124|hemochromatosis",
+    "M49:152|celiac",
+    "M49:250|celiac",
+    "M49:208|celiac",
+    "M49:752|celiac",
+    "M49:392|gout",
+    "M49:440|hemochromatosis",
+    "M49:276|lactose",
+    "M49:702|gout",
+    "M49:826|gout",
+    "M49:144|gout"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -53,11 +73,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Other untouched hemochromatosis, gout, lactose and celiac cells across regions; source leads from local independent issuers preferred, not WHO-only repetition"
+    "P1_next": "Continue uncollected country-area-condition cells (hemochromatosis, gout, lactose, celiac) across regions, particularly underrepresented Africa and Oceania; raw intake does not close P0 originals"
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 40,
+    "current_worker_batch_count": 86,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -98,8 +118,55 @@
       "https://www.who.int/publications/m/item/2005-steps-country-report-nepal",
       "https://www.who.int/publications/m/item/2005-steps-fact-sheet-nepal",
       "https://www.who.int/publications/m/item/2003-steps-country-report-nepal",
-      "https://www.who.int/publications/m/item/2003-steps-fact-sheet-nepal"
-    ]
+      "https://www.who.int/publications/m/item/2003-steps-fact-sheet-nepal",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6506126/",
+      "https://pubmed.ncbi.nlm.nih.gov/30487500/",
+      "https://citeseerx.ist.psu.edu/document?doi=a62234b3343629d32116c818243f65db591d5be6&repid=rep1&type=pdf",
+      "https://pubmed.ncbi.nlm.nih.gov/26931253/",
+      "https://pubmed.ncbi.nlm.nih.gov/7424819/",
+      "https://pubmed.ncbi.nlm.nih.gov/474486/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5578549/",
+      "https://pubmed.ncbi.nlm.nih.gov/28284771/",
+      "https://hdl.handle.net/20.500.12672/29242",
+      "https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/bc-guidelines/iron-overload",
+      "https://pubmed.ncbi.nlm.nih.gov/15858186/",
+      "https://pubmed.ncbi.nlm.nih.gov/39617311/",
+      "https://pubmed.ncbi.nlm.nih.gov/20008199/",
+      "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/02/Encuesta-Nacional-de-Salud.-Ministerio-de-Salud.pdf",
+      "https://doi.org/10.46613/congastro2023-139",
+      "https://www.has-sante.fr/jcms/p_4231687/fr/maladie-coeliaque-diagnostic-chez-l-enfant-et-l-adulte",
+      "https://pubmed.ncbi.nlm.nih.gov/42918825/",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0248866313005730",
+      "https://pubmed.ncbi.nlm.nih.gov/21722173/",
+      "https://pubmed.ncbi.nlm.nih.gov/29076940/",
+      "https://pubmed.ncbi.nlm.nih.gov/9604680/",
+      "https://pubmed.ncbi.nlm.nih.gov/34321220/",
+      "https://pubmed.ncbi.nlm.nih.gov/38993108/",
+      "https://pubmed.ncbi.nlm.nih.gov/34033925/",
+      "https://pubmed.ncbi.nlm.nih.gov/32259229/",
+      "https://pubmed.ncbi.nlm.nih.gov/19755695/",
+      "https://pubmed.ncbi.nlm.nih.gov/32679218/",
+      "https://pubmed.ncbi.nlm.nih.gov/40093397/",
+      "https://www.tukaku.jp/en/guideline/",
+      "https://pubmed.ncbi.nlm.nih.gov/22132951/",
+      "https://pubmed.ncbi.nlm.nih.gov/32552370/",
+      "https://www.jstage.jst.go.jp/article/jat/30/10/30_63907/_html/-char/en",
+      "https://pubmed.ncbi.nlm.nih.gov/21947086/",
+      "https://pubmed.ncbi.nlm.nih.gov/6819221/",
+      "https://pubmed.ncbi.nlm.nih.gov/5011482/",
+      "https://annals.edu.sg/clinical-presentation-and-disease-associations-of-gout-a-hospital-based-study-of-100-patients-in-singapore/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400339/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4939435/",
+      "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1253839/full",
+      "https://pubmed.ncbi.nlm.nih.gov/24431399/",
+      "https://reference-global.com/article/10.4038/sljm.v30i2.265?tab=abstract",
+      "https://journals.sjp.ac.lk/index.php/ijms/article/view/8848",
+      "https://pubmed.ncbi.nlm.nih.gov/34931463/",
+      "https://pubmed.ncbi.nlm.nih.gov/42214801/",
+      "https://pubmed.ncbi.nlm.nih.gov/12860579/",
+      "https://pubmed.ncbi.nlm.nih.gov/26748422/"
+    ],
+    "worker_B003_count": 46
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -119,16 +186,28 @@
         "url": "https://www.hap.org.al/wp-content/uploads/2022/10/Raste-klinike_HTA.pdf",
         "reason": "ACCESS_LIMITED_ANTIBOT"
       }
+    ],
+    "worker_B003": [
+      {
+        "id": "ATLAS-RAW-B003-003",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=a62234b3343629d32116c818243f65db591d5be6&repid=rep1&type=pdf",
+        "reason": "THIRD_PARTY_PDF_MIRROR_NOT_DOWNLOADED"
+      },
+      {
+        "id": "ATLAS-RAW-B003-014",
+        "url": "https://diprece.minsal.cl/wrdprss_minsal/wp-content/uploads/2016/02/Encuesta-Nacional-de-Salud.-Ministerio-de-Salud.pdf",
+        "reason": "PDF_NOT_DIRECTLY_INSPECTED"
+      }
     ]
   },
-  "next_batch_id": "B003",
-  "next_queue_position": "Team B P1 untouched hemochromatosis/gout/lactose/celiac cells and P0 unresolved original replacements; avoid WHO STEPS repeat and all B001/B002 URLs",
+  "next_batch_id": "B004",
+  "next_queue_position": "B004: untouched P1 celiac/gout/lactose/hemochromatosis cells not covered by B001–B003, prioritizing Africa, Oceania and underrepresented M49 areas, and continue P0 original-document retrieval gaps; exclude all existing URLs",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B002",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B002_TEAM_B_20261109.json",
-    "parent_commit_sha": "3674f049d627fcb9b6c456ac6abf648d9ee802ca",
+    "batch_id": "B003",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B003_TEAM_B_20261109.json",
+    "parent_commit_sha": "c11806dfe43990e3a76a382708a504306f04fdaf",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Atomic commit SHA cannot be embedded in itself; branch HEAD is authoritative checkpoint"
+    "note": "Self-referential commit SHA cannot be embedded in same commit; verified worker HEAD is authoritative."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
