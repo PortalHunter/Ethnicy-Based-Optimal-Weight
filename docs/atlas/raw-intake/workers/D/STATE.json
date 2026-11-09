@@ -163,10 +163,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D026_TEAM_D_20261109.json",
       "source_count": 36,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D027",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D027_TEAM_D_20261109.json",
+      "source_count": 39,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 26,
-  "cumulative_unique_url_leads": 1010,
+  "completed_batch_count": 27,
+  "cumulative_unique_url_leads": 1049,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -406,8 +412,8 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-ACCEPT-002",
-    "TD-BL-ACCEPT-001"
+    "TD-BL-ACCEPT-001",
+    "TD-BL-ACCEPT-002"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -1419,7 +1425,46 @@
     "https://spdx.github.io/spdx-spec/v3.0.1/model/Core/Classes/Relationship/",
     "https://github.com/w3c/data-shapes/tree/gh-pages/shacl12-test-suite",
     "https://github.com/w3c/data-shapes/tree/gh-pages/shacl12-vocabularies",
-    "https://in-toto.io/docs/specs/"
+    "https://in-toto.io/docs/specs/",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/attestation.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/conformance.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/index.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/references.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/scope.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/serializations.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/signing.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/symbols.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/terms-and-definitions.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/annexes/class-hierarchy.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/annexes/license-matching-guidelines-and-templates.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/annexes/rdf-model.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/annexes/spdx-license-expressions.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/annexes/spdx-lite.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/front/copyright.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/front/introduction.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-2-3.json",
+    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-3-0-1.json",
+    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-3-1-dev.json",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-context.jsonld",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.jsonld",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.ttl",
+    "https://github.com/in-toto/attestation/blob/main/docs/README.md",
+    "https://github.com/in-toto/attestation/blob/main/docs/background.md",
+    "https://github.com/in-toto/attestation/blob/main/docs/motivating_use_case.md",
+    "https://github.com/in-toto/attestation/blob/main/docs/new_predicate_guidelines.md",
+    "https://github.com/in-toto/attestation/blob/main/docs/protos.md",
+    "https://github.com/in-toto/attestation/blob/main/docs/testing.md",
+    "https://github.com/in-toto/attestation/blob/main/protos/in_toto_attestation/v1/resource_descriptor.proto",
+    "https://github.com/w3c/data-shapes/blob/gh-pages/shacl12-test-suite/README.md",
+    "https://github.com/w3c/data-shapes/blob/gh-pages/shacl12-test-suite/reports.html",
+    "https://github.com/w3c/data-shapes/tree/gh-pages/shacl12-test-suite/tests/core",
+    "https://github.com/w3c/data-shapes/tree/gh-pages/shacl12-test-suite/tests/inference-rules",
+    "https://github.com/w3c/data-shapes/blob/gh-pages/shacl12-test-suite/tests/manifest.ttl",
+    "https://github.com/w3c/data-shapes/tree/gh-pages/shacl12-test-suite/tests/node-expr",
+    "https://github.com/w3c/data-shapes/tree/gh-pages/shacl12-test-suite/tests/sparql-rl",
+    "https://github.com/w3c/data-shapes/tree/gh-pages/shacl12-test-suite/tests/sparql",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/licenses/CC-BY-3.0.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/docs/licenses/Community-Spec-1.0.md"
   ],
   "unresolved_retrievals": [
     {
@@ -2257,6 +2302,20 @@
       "url": null,
       "origin": "D026",
       "reason": "SEMANTIC_SPECIFICATIONS_DO_NOT_COMPLETE_INDEPENDENT_ATLAS_FULL_GRAPH_REVIEW"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-ACCEPT-001",
+      "origin": "D027",
+      "url": null,
+      "reason": "DIRECT_INDEPENDENT_FULL_GRAPH_SEMANTIC_AND_RIGHTS_ACCEPTANCE_ARTIFACTS_NOT_RETRIEVED"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-ACCEPT-002",
+      "origin": "D027",
+      "url": null,
+      "reason": "ACTUAL_ATLAS_CODESPACES_NATIVE_EXECUTION_LOGS_NOT_RETRIEVED"
     }
   ],
   "duplicate_urls_skipped_this_batch": [],
@@ -2274,12 +2333,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Continue new primary source-rights, metadata-acceptance and native execution reproducibility references; unresolved actual April 2026 WHO host records for 158/239 and Codespaces session artifacts remain open; substantive backlog not closed.",
-  "next_batch_id": "D027",
+  "next_queue_position": "Seek untapped primary-source provenance / policy and reproducibility records for TD-BL-ACCEPT-001/002 and unresolved exact April 2026 WHO office-host originals TD-BL-OFFICE-158/239. Raw-only, no acceptance or substantive case closure.",
+  "next_batch_id": "D028",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D026",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D026_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "5e884857227890c0839a18afcce91e8a69d6a3f3",
+    "batch_id": "D027",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D027_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "b83012819984c7c455bed7919d0135f9260c9bce",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
