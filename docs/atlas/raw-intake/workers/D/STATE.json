@@ -121,10 +121,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D019_TEAM_D_20261109.json",
       "source_count": 45,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D020",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D020_TEAM_D_20261109.json",
+      "source_count": 39,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 19,
-  "cumulative_unique_url_leads": 748,
+  "completed_batch_count": 20,
+  "cumulative_unique_url_leads": 787,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -357,16 +363,17 @@
     "TD-BL-WHO-732",
     "TD-BL-OFFICE-010",
     "TD-BL-OFFICE-336",
-    "TD-BL-NET-009"
+    "TD-BL-NET-009",
+    "TD-BL-OFFICE-239",
+    "TD-BL-OFFICE-158",
+    "TD-BL-ACCEPT-001",
+    "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-WHO-166",
-    "TD-BL-WHO-158",
-    "TD-BL-WHO-581",
-    "TD-BL-WHO-732",
-    "TD-BL-OFFICE-010",
-    "TD-BL-OFFICE-336",
-    "TD-BL-NET-009"
+    "TD-BL-OFFICE-239",
+    "TD-BL-OFFICE-158",
+    "TD-BL-ACCEPT-001",
+    "TD-BL-ACCEPT-002"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -1116,7 +1123,46 @@
     "https://www.hi.org/en/institutional-policies",
     "https://www.hi.org/en/our-partners",
     "https://www.humanity-inclusion.org.uk/en/about/index",
-    "https://www.hi-us.org/en/the-hi-network"
+    "https://www.hi-us.org/en/the-hi-network",
+    "https://gov.gs/about-sgssi/",
+    "https://gov.gs/south-georgia-and-south-sandwich-islands-laws/",
+    "https://gov.gs/documents_gsgssi/",
+    "https://gov.gs/documents_policies/",
+    "https://gov.gs/kep-science/",
+    "https://gov.gs/kep-facilities/",
+    "https://gov.gs/bird-island/",
+    "https://gov.gs/stewardship-framework-for-sgssi/",
+    "https://gov.gs/personnel/",
+    "https://gov.gs/biosecurity/",
+    "https://gov.gs/gsgssi-consultations/",
+    "https://gov.gs/mpa-management-plan-2026/",
+    "https://gov.gs/wp-content/uploads/2026/03/SGSSI-MPA-Management-Plan-2026_website.pdf",
+    "https://gov.gs/science/",
+    "https://www.gov.gs/wp-content/uploads/2024/10/20240705-Annual-Report-2023-FINAL.pdf",
+    "https://www.bas.ac.uk/about/history/british-research-stations-and-refuges/",
+    "https://legacy.bas.ac.uk/about_bas/our_history/stations_and_refuges/kep.php",
+    "https://www.iso.org/iso-3166-country-codes.html",
+    "https://www.w3.org/TR/prov-overview/",
+    "https://www.w3.org/TR/2013/NOTE-prov-primer-20130430/",
+    "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+    "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+    "https://www.w3.org/TR/2013/REC-prov-n-20130430/",
+    "https://www.w3.org/TR/2013/REC-prov-constraints-20130430/",
+    "https://www.w3.org/TR/2013/NOTE-prov-xml-20130430/",
+    "https://www.w3.org/TR/2013/NOTE-prov-aq-20130430/",
+    "https://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/",
+    "https://www.w3.org/TR/2013/NOTE-prov-dc-20130430/",
+    "https://www.w3.org/TR/2013/NOTE-prov-sem-20130430/",
+    "https://www.w3.org/TR/2013/NOTE-prov-links-20130430/",
+    "https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations",
+    "https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/manage-attestations",
+    "https://github.com/actions/attest",
+    "https://github.com/actions/attest-build-provenance/blob/main/README.md",
+    "https://slsa.dev/spec/v1.0/provenance",
+    "https://slsa.dev/spec/v1.0/requirements",
+    "https://slsa.dev/spec/v1.0/terminology",
+    "https://spdx.dev/use/specifications/",
+    "https://nodejs.org/en/download/archive/v24.22.2"
   ],
   "unresolved_retrievals": [
     {
@@ -1832,9 +1878,44 @@
       "url": "https://www.hi.org/sn_uploads/Rules-of-Procedure--RoP----February-2023.pdf",
       "reason": "ORIGINAL_PDF_METADATA_REFERENCE_ONLY_FULL_INSPECTION_NOT_PERFORMED",
       "origin": "D019"
+    },
+    {
+      "source_id": "ATLAS-RAW-D020-013",
+      "url": "https://gov.gs/wp-content/uploads/2026/03/SGSSI-MPA-Management-Plan-2026_website.pdf",
+      "reason": "PDF_METADATA_ONLY_NO_FULL_DOCUMENT_INSPECTION",
+      "origin": "D020"
+    },
+    {
+      "source_id": "ATLAS-RAW-D020-015",
+      "url": "https://www.gov.gs/wp-content/uploads/2024/10/20240705-Annual-Report-2023-FINAL.pdf",
+      "reason": "PDF_METADATA_ONLY_NO_FULL_DOCUMENT_INSPECTION",
+      "origin": "D020"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-OFFICE-239",
+      "url": null,
+      "reason": "ORIGINAL_WHO_APRIL_2026_RESPONDENT_OR_DIRECT_SOURCE_OWNER_NONAPPLICABILITY_NOT_LOCATED_IN_THIS_BATCH",
+      "origin": "D020"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-OFFICE-158",
+      "url": null,
+      "reason": "ORIGINAL_WHO_APRIL_2026_RESPONDENT_OR_DIRECT_SOURCE_OWNER_NONAPPLICABILITY_NOT_LOCATED_IN_THIS_BATCH",
+      "origin": "D020"
+    },
+    {
+      "source_id": null,
+      "queue_item": "TD-BL-ACCEPT-002",
+      "url": null,
+      "reason": "ORIGINAL_CODESPACES_NATIVE_LOGS_AND_EXECUTED_SHA_NOT_RETRIEVED_IN_THIS_SOURCE_INTAKE_BATCH",
+      "origin": "D020"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [],
+  "duplicate_urls_skipped_this_batch": [
+    "https://gov.gs/regulated-activity-permit/"
+  ],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -1842,14 +1923,15 @@
     "other_team_d_workstreams": "Unchanged; refer to Team D finite consolidated backlog",
     "who_current_administration_unprocessed_count": 0,
     "international_network_intake_unprocessed_count": 0,
-    "who_april_2026_host_evidence_unprocessed_count": 2
+    "who_april_2026_host_evidence_unprocessed_count": 0,
+    "new_source_owner_gaps": "Original April 2026 WHO host/exception statement or exact roster and native Codespaces run artifacts still unresolved"
   },
-  "next_queue_position": "D020: remaining WHO office host applicability (ISO exception 158 and South Georgia / Sandwich Islands) and independent acceptance review outside source-intake; substantive cases all unclosed; otherwise continue original source-owner gap leads.",
-  "next_batch_id": "D020",
+  "next_queue_position": "D021: additional original WHO source-owner applicability evidence for ISO exception 158 and SGSSI 239, plus scoped acceptance/reproducibility original instruments; all substantive gates remain held",
+  "next_batch_id": "D021",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D019",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D019_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "97a02d12b33d19efd812dfc0fcd60b3853906c14",
+    "batch_id": "D020",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D020_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "c31378dd857a456bd1eda4a6c5b68b759df98970",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
