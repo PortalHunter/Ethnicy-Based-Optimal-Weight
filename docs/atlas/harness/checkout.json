@@ -1,0 +1,2107 @@
+{
+  "version": 1,
+  "runs": {
+    "run-A-A01-072-20261107": {
+      "team": "A",
+      "key": "A-01:072",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "072",
+        "expected_sha": "db7de0e29070473cb2e5fc4ae5cfecf51b0ae670",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=1,m49_code=072",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--072.json"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-A-072-712419601b87309873203500",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:072",
+        "commit": "6f8c543f7bbf502d293a164dec240b5e03395b2a",
+        "parent": "db7de0e29070473cb2e5fc4ae5cfecf51b0ae670",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--072.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--072.json": "42705aa0631f35e9d371356e0ffbbca54411323c"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:072",
+        "input_sha": "db7de0e29070473cb2e5fc4ae5cfecf51b0ae670",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "pha-2013-public-health-act",
+            "url": "https://extranet.who.int",
+            "locator": "Public Health Act No. 11 of 2013, Section 1; secondary compilation cites S.I. 4/2014 and February 3, 2014",
+            "issuer": "Secondary Botswana Laws compilation referenced in the saved records",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": false,
+            "access": "indexed",
+            "qualification": "Section 1 expressly requires ministerial commencement by Gazette order. A secondary compilation reports S.I. 4/2014 and February 3, 2014; that is a retrieval lead, not a substitute for the original statutory instrument. The saved handoffs cite this retrieval at https://extranet.who.int without a full document URL. Original Gazette notice remains unverified. The access value indexed is retained only as the saved records' reported access class; the exact source document was not recovered from the saved handoff, so this does not claim independently reproducible access to that document."
+          },
+          {
+            "id": "medicines-act-2025",
+            "url": "https://www.bomra.co.bw",
+            "locator": "Medicines and Related Substances Act No. 29 of 2025; BoMRA-hosted original statutory text including printed page A.687; assent December 24, 2025",
+            "issuer": "Botswana Medicines Regulatory Authority (hosted statutory text)",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": true,
+            "access": "direct",
+            "qualification": "Verifier independently inspected the BoMRA-hosted original statutory text. Assent date and commencement-by-later-order agree with the research handoff. No original appointed-day or ministerial commencement order was recovered. Assent alone does not establish operation. Saved handoff cites https://www.bomra.co.bw without a fuller document URL."
+          },
+          {
+            "id": "proposed-2026-regulations",
+            "url": "https://bomra.co.bw",
+            "locator": "August 31, 2026 BoMRA announcement describing the General and Fees regulations as drafts; examined Fees document has blank instrument number and publication date",
+            "issuer": "Botswana Medicines Regulatory Authority",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": true,
+            "access": "direct",
+            "qualification": "BoMRA's August 31, 2026 announcement explicitly describes the General and Fees regulations as drafts. The examined Fees document has no assigned statutory instrument number or publication date and cannot establish final enactment. No final numbered Gazette instrument was established. Saved handoff cites https://bomra.co.bw without a fuller document URL."
+          },
+          {
+            "id": "official-elaws-retrieval",
+            "url": "https://gov.bw",
+            "locator": "Government of Botswana identifies e-Laws and the Government Printer as official retrieval routes",
+            "issuer": "Government of Botswana",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": false,
+            "access": "blocked",
+            "qualification": "Reported research access outcome: \"The attempted e-Laws access failed\". This verifies official retrieval routes only. The verifier recorded that the unsuccessful access cannot be reproduced from the handoff alone. Original Gazette commencement instruments were not recovered via this route."
+          }
+        ],
+        "blocker": "Original Gazette commencement instruments and final numbered regulatory instruments were not independently recovered. The Public Health Act No. 11 of 2013 requires a Gazette commencement order (secondary compilation cites S.I. 4/2014 and February 3, 2014, which is not a substitute for the original notice). The Medicines and Related Substances Act No. 29 of 2025 was assented December 24, 2025, but its original ministerial commencement order was not recovered. For the proposed 2026 General and Fees regulations, the reviewed versions were drafts; final enactment was not established. Official e-Laws access failed. Zero legal-status promotions.",
+        "reopen": "Reopen only after the original Gazette commencement order(s) for the Public Health Act No. 11 of 2013 and the ministerial commencement order for the Medicines and Related Substances Act No. 29 of 2025, plus any final numbered Gazette instruments for the 2026 regulations, are independently recovered and authenticated via official e-Laws or the Government Printer (or another official retrieval route), then re-validated against the reserved packet at the expected Team A SHA.",
+        "validation": [
+          "Reserved exact row: priority_rank=1,m49_code=072 in docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv at input SHA db7de0e29070473cb2e5fc4ae5cfecf51b0ae670.",
+          "Independent verifier: https://chatgpt.com/c/6af00c04-16f4-83e9-93d6-07c0270f0ca4 ; researcher: https://chatgpt.com/c/6af006f3-3188-83e9-a1c3-975d76e33373 ; run run-A-A01-072-20261107 ; launch launch-A-072-712419601b87309873203500.",
+          "Verifier GitHub checks: reserved packet match PASS; ticket running PASS; exact launch ID PASS; Team A head db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 PASS; PR #68 open/draft/unmerged PASS; start commit 9b687543791429274dd8b3577f3f13b155b8c577 parent d78106a9c4a80f35d91ed62f053ae94b3d1d2a16 changes only docs/atlas/harness/checkout.json PASS; native queue-row inspection PASS.",
+          "Checkpoint fetch at pinned SHA: 404 \u2014 not published. Researcher's downloadable proposed JSON was not captured in the saved handoff; this file is reconstructed solely from the saved Research and Verifier records.",
+          "Coordinator local Atlas harness.py structural contract check on this reconstructed JSON: python3 /workspace/atlas/recovery/harness/harness.py A --live-sha db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 --packet /workspace/atlas/recovery/A/packet.json --result /workspace/atlas/recovery/A/A-01--072.json \u2192 PASS structural contract for A-01:072. This is executable schema/contract validation of the checkpoint against the reserved packet, not legal approval. The recovery verifier's independent schema inspection was a CONDITIONAL PASS pending these wording corrections; research and the original verifier chat did not execute harness.py.",
+          "Team A native validation, run by the coordinator in a detached checkout at db7de0e29070473cb2e5fc4ae5cfecf51b0ae670 with this checkpoint file placed at docs/atlas/handoffs/team-a/runs/A-01--072.json: python3 docs/atlas/handoffs/team-a/validate.py (exit 0; printed PASS lines for 248 legal evidence ledger rows and 248 research queue items; 248 distinct M49 country-or-area rows; 231 government ministry/department identities and 17 explicitly unresolved; 318 separately identified government health bodies and 45 sourced relationships; 248 coverage records and 758 provenance rows; 4 explicit shared-authority area mappings; region totals, reference integrity, source fields and complex-jurisdiction sentinels; plus LIMITATION: Integrity tests do NOT certify institutional mandates or continuing currency after the snapshot date). python3 -m unittest discover -s docs/atlas/handoffs/team-a -p 'test_*.py' (exit 0; Ran 10 tests in 0.140s OK). These are structural integrity tests documented in RUNBOOK.md, not independent legal validation. Original research and verifier chats recorded git ls-remote against GitHub as BLOCKED \u2014 Could not resolve host: github.com \u2014 and did not run these commands.",
+          "Verifier research judgment: PASS that blocked is an evidence-appropriate disposition, with zero legal-status promotions. This is not a declaration that Botswana law has been comprehensively verified.",
+          "Verifier final decision: PARTIAL PASS \u2014 BLOCKED FOR PUBLICATION (proposed JSON unavailable; native suite not verified). Legal dimensions promoted: 0. Full legal research closure: No."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--072.json"
+        ]
+      }
+    },
+    "run-B-B01-US-ADA-20261107": {
+      "team": "B",
+      "key": "B-01:B-US-ADA.diabetes.ee23f92ac058",
+      "packet": {
+        "version": 1,
+        "task": "B-01",
+        "case": "B-US-ADA.diabetes.ee23f92ac058",
+        "expected_sha": "0ac7b2e8a6df90f1a71fc43522482055e377734d",
+        "queue_path": "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+        "row_key": "org_id=B-US-ADA|condition_key=diabetes|original_exact_URL=https://diabetes.org/newsroom/press-releases/american-diabetes-association-releases-standards-care-diabetes-2026",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-ADA.diabetes.ee23f92ac058.json",
+          "docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+          "docs/atlas/handoffs/team-b/data/publication_context.csv",
+          "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+          "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-b/data/search_log.csv",
+          "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
+          "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+          "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+          "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-B-US-ADA-22785b667e924f06da45c3a8",
+      "receipt": {
+        "version": 1,
+        "key": "B-01:B-US-ADA.diabetes.ee23f92ac058",
+        "commit": "8ff729d34a87ed26f89d80daabcc9120c1984ae2",
+        "parent": "0ac7b2e8a6df90f1a71fc43522482055e377734d",
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-ADA.diabetes.ee23f92ac058.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-ADA.diabetes.ee23f92ac058.json": "0c8577bfe4453f9f22c42502ddad9337e36043bd"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "B-01:B-US-ADA.diabetes.ee23f92ac058",
+        "input_sha": "0ac7b2e8a6df90f1a71fc43522482055e377734d",
+        "disposition": "no_change",
+        "evidence": [
+          {
+            "id": "ada-announcement-2026",
+            "url": "https://diabetes.org/newsroom/press-releases/american-diabetes-association-releases-standards-care-diabetes-2026",
+            "locator": "December 8, 2025 Standards of Care 2026 announcement",
+            "issuer": "American Diabetes Association",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": true,
+            "access": "direct",
+            "qualification": "First-party original announcement only; M metadata/activity, not original diagnostic guideline content."
+          },
+          {
+            "id": "ada-2026-diagnosis-original",
+            "url": "https://doi.org/10.2337/dc26-S002",
+            "locator": "Diabetes Care 2026;49(Suppl 1):S27-S49; PMID 41358893; PMCID PMC12690183",
+            "issuer": "American Diabetes Association Professional Practice Committee for Diabetes",
+            "checked": "2026-11-07; independent verifier report",
+            "original": true,
+            "access": "indexed",
+            "qualification": "Existing S1 substantive chapter independently corroborated via publisher/PubMed; existing article ID 163926 vs retrieved 160901 unverified alias; recorded publisher URL returned HTTP 403; citation verification does not grant reuse or clinical authorization."
+          }
+        ],
+        "blocker": "Native node docs/atlas/handoffs/team-b/validate.mjs was not executed from the immutable checkout; complete Atlas end-to-end verification and recorded S1 publisher URL alias remain unresolved.",
+        "reopen": "Reopen only after exact SHA native Node validator pass and independently verified publisher URL/alias or explicit qualified resolution, with Atlas maintainer approval and prior checkpoint reference.",
+        "validation": [
+          "Reserved exact row: org_id=B-US-ADA|condition_key=diabetes|original_exact_URL=https://diabetes.org/newsroom/press-releases/american-diabetes-association-releases-standards-care-diabetes-2026 in docs/atlas/handoffs/team-b/data/source_quality_worklist.csv at input SHA.",
+          "Independent verifier: https://chatgpt.com/c/6af00c5c-95b0-83e9-b05a-b51eb59d11f8 ; researcher: https://chatgpt.com/c/6af00712-fd50-83e9-a1c3-975d76e33373 ; run run-B-B01-US-ADA-20261107 ; launch launch-B-US-ADA-22785b667e924f06da45c3a8.",
+          "Independent structural JavaScript subset: 0 errors (248 M49 areas; 501 organizations; 432 resources; 1736 coverage cells; 1171 provenance rows; 695 search logs). This was NOT execution of the native validate.mjs.",
+          "Native validation pending: node docs/atlas/handoffs/team-b/validate.mjs ; no observed Node exit code; verifier's git clone/check-out blocked by github.com DNS resolution.",
+          "Historical M announcement and separate S1 publication already recorded; no added replacement record, no changed canonical data, no coverage delta, no clinical, licensing, rights, or ancestry approval.",
+          "Original and extended metrics: no change from immutable input 0ac7b2e8a6df90f1a71fc43522482055e377734d; preserve recorded input metrics without asserting additional clearance.",
+          "Verifier disposition: EVIDENCE_PASS / PUBLICATION_BLOCKED for unconditional pass. This manifest is only a no-change, evidence-confirmed checkpoint under Atlas harness v1, not a full validation pass."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-ADA.diabetes.ee23f92ac058.json"
+        ]
+      }
+    },
+    "run-D-D01-ACCEPT-002-20261107": {
+      "team": "D",
+      "key": "D-01:TD-BL-ACCEPT-002",
+      "packet": {
+        "version": 1,
+        "task": "D-01",
+        "case": "TD-BL-ACCEPT-002",
+        "expected_sha": "08eb3385546b386ba8ff9b57e13b3458b9d4b64e",
+        "queue_path": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "row_key": "TD-BL-ACCEPT-002",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-002.json"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-D-ACCEPT-002-a003de23dbc54e6953254c2bc3463620",
+      "receipt": {
+        "version": 1,
+        "key": "D-01:TD-BL-ACCEPT-002",
+        "commit": "249de08e61d7e975464f9fd44e7eb569a79f3a1a",
+        "parent": "08eb3385546b386ba8ff9b57e13b3458b9d4b64e",
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-002.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-002.json": "a379b386055838fe5fd1afe0a4ef64c966979fe4"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "D-01:TD-BL-ACCEPT-002",
+        "input_sha": "08eb3385546b386ba8ff9b57e13b3458b9d4b64e",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "start-transition-commit",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/64d7aac707333b64299e0050d192723c82989cf1",
+            "locator": "Start-transition commit independently cited in the research handoff; ticket running under launch-D-ACCEPT-002-a003de23dbc54e6953254c2bc3463620",
+            "issuer": "PortalHunter / Atlas checkout ledger",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": false,
+            "access": "direct",
+            "qualification": "Verifier independently confirmed the start-transition commit changes the ticket from reserved to running with the worker's exact launch ID. This establishes checkout ownership, not acceptance closure."
+          },
+          {
+            "id": "team-d-native-validator",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/08eb3385546b386ba8ff9b57e13b3458b9d4b64e/docs/atlas/handoffs/team-d/validate.mjs",
+            "locator": "docs/atlas/handoffs/team-d/validate.mjs at pinned Team D input SHA 08eb3385546b386ba8ff9b57e13b3458b9d4b64e",
+            "issuer": "PortalHunter / Team D checked-in validator",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": false,
+            "access": "metadata",
+            "qualification": "The checked-in validator contains extensive structural assertions. Those assertions alone cannot establish legal authority, source authenticity, or semantic correctness. Research recorded: GitHub cloning failed because DNS could not resolve github.com, so the full checked-in Team D validator was not executed in that run. Verifier: full native Node validator NOT REPRODUCED; no complete local checkout executed."
+          },
+          {
+            "id": "historical-reported-node-pass",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/470349bfe7c4a015d18ed93ae44f7d5cc4ac57a1",
+            "locator": "Commit SHA reported by research as the site of two prior native Node v24.22.2 PASS executions",
+            "issuer": "PortalHunter (historical reported execution site)",
+            "checked": "2026-11-07; research and independent verifier reports",
+            "original": false,
+            "access": "metadata",
+            "qualification": "Research reported two prior native Node v24.22.2 PASS executions at this commit, but their raw execution logs remain unavailable for independent inspection. The verifier recorded that those historical executions also lack independently inspected raw logs. This is not independent evidence of a current validator PASS at the input SHA."
+          }
+        ],
+        "blocker": "Acceptance criterion 5 remains open. Independently reproducible validation of the complete provenance-stamped network graph, including source identities, issuer authority, temporal relationships and semantic limits, was not completed. The full native Node validator (node docs/atlas/handoffs/team-d/validate.mjs) was not executed against an authorized checkout at 08eb3385546b386ba8ff9b57e13b3458b9d4b64e; research recorded that GitHub cloning failed because DNS could not resolve github.com. Historical Node v24.22.2 PASS reports at 470349bfe7c4a015d18ed93ae44f7d5cc4ac57a1 lack independently inspected raw execution logs. Complete original-source and semantic review remains outstanding. Proposed researcher JSON was not captured in the saved handoff.",
+        "reopen": "Reopen only after an authorized complete checkout at 08eb3385546b386ba8ff9b57e13b3458b9d4b64e executes node docs/atlas/handoffs/team-d/validate.mjs with recorded Node version, exit code, stdout, stderr and executed commit SHA; the complete provenance-stamped graph is independently inspected for authenticated sources, issuers, dates, temporal relationships, jurisdiction and semantic limitations; and acceptance criterion 5 can be closed on that evidence. Do not treat structural test success, GitHub Actions Population Phase 1, or Calculator CI as closure of criterion 5.",
+        "validation": [
+          "Reserved exact row: TD-BL-ACCEPT-002 in docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv at input SHA 08eb3385546b386ba8ff9b57e13b3458b9d4b64e.",
+          "Independent verifier: https://chatgpt.com/c/6af00cc8-e18c-83ea-afe8-1d2210df1312 ; researcher: https://chatgpt.com/c/6af00779-b250-83ea-9003-f87fd0f40c2a ; run run-D-D01-ACCEPT-002-20261107 ; launch launch-D-ACCEPT-002-a003de23dbc54e6953254c2bc3463620.",
+          "Verifier GitHub checks: reserved packet identity PASS; start transition 64d7aac PASS; live ticket running with matching launch PASS; Team D branch 08eb3385546b386ba8ff9b57e13b3458b9d4b64e PASS; PR #70 open/draft/unmerged PASS; native backlog identity PASS; proposed path exactly one authorized Team D file PASS.",
+          "Verifier independently reproduced data counts from the pinned commit: M49 status records 249; assigned WHO regions 205; WHO office-presence records 105; April 2026 office-presence records 95; EMA identity records 34; EMA identities marked remit unverified 34; network nodes 47; network membership edges 619; provenance records 330. Worker correctly preserved that 95 April-positive records are not equivalent to all 105 office-presence records, and 34 EMA directory entries do not establish 34 verified statutory regulator packets.",
+          "Cardinality reported unchanged by research: current WHO assignments 205/249; April-positive WHO office records 95/249; EMA directory identities 34/34; full regulator legal packets 0/34.",
+          "Original acceptance criteria demonstrated: research reported baseline 3/5 before and after, outstanding gates 2/5 before and after. Verifier: the 3/5 baseline is retained from the worker's assessment, not independently certified anew by that review. Criterion 5 stays open.",
+          "Full native Node validator NOT REPRODUCED. Research environment had Node v22.16.0 but could not clone (DNS). Two successful GitHub Actions workflows observed at the pinned input SHA (Population Phase 1 regression tests; Calculator CI); neither is evidence of execution of the complete Team D validator.",
+          "Checkpoint fetch at pinned SHA: absent, consistent with no publication. Researcher's downloadable proposed JSON was not captured in the saved handoff; this file is reconstructed solely from the saved Research and Verifier records.",
+          "Verifier final decision: BLOCKED FOR ACCEPTANCE; qualified approval of the worker's blocked disposition. Do not mark criterion 5 complete, convert reported native execution into independently verified execution, promote organizational identities into statutory authority, or interpret structural test success as legal or clinical approval."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-002.json"
+        ]
+      }
+    },
+    "run-B-B01-US-AHA-20261108": {
+      "team": "B",
+      "key": "B-01:B-US-AHA.hypertension.8c3bee9f6066",
+      "packet": {
+        "version": 1,
+        "task": "B-01",
+        "case": "B-US-AHA.hypertension.8c3bee9f6066",
+        "expected_sha": "8ff729d34a87ed26f89d80daabcc9120c1984ae2",
+        "queue_path": "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+        "row_key": "org_id=B-US-AHA|condition_key=hypertension|original_exact_URL=https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-AHA.hypertension.8c3bee9f6066.json",
+          "docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+          "docs/atlas/handoffs/team-b/data/publication_context.csv",
+          "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+          "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-b/data/search_log.csv",
+          "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
+          "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+          "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+          "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-B-US-AHA-18e89fd0244d314133d1dc71",
+      "receipt": {
+        "version": 1,
+        "key": "B-01:B-US-AHA.hypertension.8c3bee9f6066",
+        "commit": "5a9acd29262dbe699e89b265c207e5cb94e6ab02",
+        "parent": "8ff729d34a87ed26f89d80daabcc9120c1984ae2",
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-AHA.hypertension.8c3bee9f6066.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-AHA.hypertension.8c3bee9f6066.json": "95911395cd4f2868de13fa5e5b18875502874586"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "B-01:B-US-AHA.hypertension.8c3bee9f6066",
+        "input_sha": "8ff729d34a87ed26f89d80daabcc9120c1984ae2",
+        "disposition": "no_change",
+        "evidence": [
+          {
+            "id": "aha-professional-overview",
+            "url": "https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline",
+            "locator": "AHA professional overview / first-party guideline landing page, updated August 14, 2025; reserved original_exact_URL",
+            "issuer": "American Heart Association",
+            "checked": "2026-11-08; research and independent verifier reports",
+            "original": true,
+            "access": "direct",
+            "qualification": "First-party guideline landing page. It links to the full guideline but is not itself the original journal article. Existing repository classification M independently confirmed. Appropriate M classification. No replacement source is justified."
+          },
+          {
+            "id": "circulation-2025-guideline-original",
+            "url": "https://doi.org/10.1161/CIR.0000000000001356",
+            "locator": "Circulation 2025 multi-society professional guideline; published online August 14, 2025, in print September 16, 2025; PMID 40811497",
+            "issuer": "Circulation / joint multi-society professional guideline authors (not exclusively AHA)",
+            "checked": "2026-11-08; research and independent verifier reports",
+            "original": true,
+            "access": "indexed",
+            "qualification": "Existing separate S1 substantive guideline independently corroborated via publisher/PubMed (DOI 10.1161/CIR.0000000000001356, PMID 40811497). Joint multi-society professional guideline, not an exclusively AHA-authored document. Citation verification does not grant reuse or clinical authorization."
+          },
+          {
+            "id": "circulation-correction-2025-11",
+            "url": "https://doi.org/10.1161/CIR.0000000000001396",
+            "locator": "Published erratum DOI 10.1161/CIR.0000000000001396; published online November 10, 2025",
+            "issuer": "Circulation / AHA journals",
+            "checked": "2026-11-08; research and independent verifier reports",
+            "original": true,
+            "access": "indexed",
+            "qualification": "A published erratum independently corroborated. Distinct published correction, not a replacement guideline edition. Correction-history / version-impact appraisal remains outstanding."
+          },
+          {
+            "id": "circulation-correction-2026-04",
+            "url": "https://doi.org/10.1161/CIR.0000000000001436",
+            "locator": "Published erratum DOI 10.1161/CIR.0000000000001436; published online April 13, 2026",
+            "issuer": "Circulation / AHA journals",
+            "checked": "2026-11-08; research and independent verifier reports",
+            "original": true,
+            "access": "indexed",
+            "qualification": "A second indexed correction independently corroborated. Distinct published erratum, not a replacement guideline edition. Correction-history / version-impact appraisal remains outstanding."
+          },
+          {
+            "id": "circulation-correction-2026-05",
+            "url": "https://doi.org/10.1161/CIR.0000000000001448",
+            "locator": "Published correction DOI 10.1161/CIR.0000000000001448; published May 26, 2026",
+            "issuer": "Circulation / AHA journals",
+            "checked": "2026-11-08; research and independent verifier reports",
+            "original": true,
+            "access": "indexed",
+            "qualification": "A further published correction independently corroborated. Distinct published erratum, not a replacement guideline edition. The publisher also identifies multiple versions of record; correction history requires a separate appraisal before making version-sensitive clinical claims."
+          }
+        ],
+        "blocker": "Native node docs/atlas/handoffs/team-b/validate.mjs was not executed from the immutable checkout (verifier git checkout/clone blocked by github.com DNS resolution). Correction-history and version-impact appraisal remains outstanding. No clinical, licensing, rights, or ancestry-specific approval is supported.",
+        "reopen": "Reopen only after node docs/atlas/handoffs/team-b/validate.mjs is executed against a local checkout at 8ff729d34a87ed26f89d80daabcc9120c1984ae2 with a recorded Node exit code, and after a separate editorial/version appraisal of the three confirmed corrections (DOI 10.1161/CIR.0000000000001396, 10.1161/CIR.0000000000001436, 10.1161/CIR.0000000000001448) and the applicable corrected version of record, with Atlas maintainer approval and prior checkpoint reference.",
+        "validation": [
+          "Reserved exact row: org_id=B-US-AHA|condition_key=hypertension|original_exact_URL=https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline in docs/atlas/handoffs/team-b/data/source_quality_worklist.csv at input SHA 8ff729d34a87ed26f89d80daabcc9120c1984ae2.",
+          "Independent verifier: https://chatgpt.com/c/6af0191a-3c88-83ea-bcaa-b03f4830c54f ; researcher: https://chatgpt.com/c/6af016df-5d84-83e9-90b8-06d1822dade2 ; run run-B-B01-US-AHA-20261108 ; launch launch-B-US-AHA-18e89fd0244d314133d1dc71.",
+          "Verifier reservation and repository integrity: live checkout running PASS; launch ID exact match PASS; branch head 8ff729d34a87ed26f89d80daabcc9120c1984ae2 PASS; PR #71 open/draft/unmerged PASS; exact queue identity PASS; existing M overview and separate S1 guideline records confirmed.",
+          "Independent structural JavaScript reproduction of validate.mjs checks: 0 structural errors; 10/10 CSV files retrieved; 1,736 coverage cells; observed rows: M49 areas 248; organizations 501; resources 432; publication contexts 432; provenance records 1,171; search logs 695. This was NOT execution of the native validate.mjs.",
+          "Native validation pending: node docs/atlas/handoffs/team-b/validate.mjs ; no observed Node exit code; verifier's git ls-remote/checkout blocked by github.com DNS resolution.",
+          "Existing M announcement (AHA professional overview) and separate S1 publication already recorded; multi-society attribution preserved rather than assigning sole guideline authorship to AHA; no added replacement record, no changed canonical data, no coverage delta. The nine other authorized data and provenance files are not included in result.paths.",
+          "Three published corrections independently corroborated and recorded as errata, not replacement editions. Follow-up editorial/version appraisal remains outstanding.",
+          "Verifier disposition: EVIDENCE PASS / PUBLICATION BLOCKED for unconditional publication (proposed JSON unavailable; native Node CLI not executed). Recommended disposition: retain no_change with an explicit validation limitation. This reconstructed manifest is only a no-change, evidence-confirmed checkpoint under Atlas harness v1, not a full validation pass or clinical clearance. Researcher's downloadable proposed JSON was not captured in the saved handoff; this file is reconstructed solely from the saved Research and Verifier records."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-AHA.hypertension.8c3bee9f6066.json"
+        ]
+      }
+    },
+    "run-A-A01-064-20261108": {
+      "team": "A",
+      "key": "A-01:064",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "064",
+        "expected_sha": "6f8c543f7bbf502d293a164dec240b5e03395b2a",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=3,m49_code=064",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--064.json"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-A-064-0e3ecaf97d5fac0efc041c0f",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:064",
+        "commit": "fae5eed287562aaae744ca14d310ed5d4140ad75",
+        "parent": "6f8c543f7bbf502d293a164dec240b5e03395b2a",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--064.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--064.json": "534ea2452b464586730de4fb963e939d7643b619"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:064",
+        "input_sha": "6f8c543f7bbf502d293a164dec240b5e03395b2a",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "bt-civil-service-reform-act-2022",
+            "url": "https://oag.gov.bt/wp-content/uploads/2023/01/Civil-Service-Reform-Act-of-Bhutan-2022.pdf",
+            "locator": "Civil Service Reform Act of Bhutan 2022, sections 7-14 and 25-27, especially sections 26-27",
+            "issuer": "Parliament of Bhutan; original statutory text hosted by the Office of the Attorney General",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Original statutory text retrieved in PDF text form from the Office of the Attorney General. Section 26 provides for the merger of BAFRA, BNCA and DRA into BFDA, and section 27 addresses specified transferred regulatory functions. Section 7 establishes a transitional framework. A direct screenshot request for this PDF failed with HTTP 404, so visual inspection of its relevant statutory pages was not completed in this run. The source does not establish the complete through-November-2026 amendment chain or authenticate the two 2024 appointment letters. Existing source-supported dimensions are not independently reapproved."
+          },
+          {
+            "id": "bt-rcsc-reorganization-2022",
+            "url": "https://moha.gov.bt/wp-content/uploads/2022/12/PR-on-reorganization-of-CSA.pdf",
+            "locator": "RCSC press release RCSC/LD-63/2022/2265, dated December 30, 2022, page 2, Ministry of Health paragraph",
+            "issuer": "Royal Civil Service Commission of Bhutan",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Original RCSC-issued press release independently inspected, including a page screenshot. It expressly describes the merger of BAFRA, BNCA and DRA as BFDA. This is first-party administrative communication concerning the 2022 reorganization, not the original Cabinet letter of March 26, 2024 or RCSC letter of April 1, 2024. It does not independently establish the later board appointments, current membership or complete statutory mandate. The original RCSC-hosted URL redirects to this Ministry of Home Affairs copy."
+          },
+          {
+            "id": "bt-bfda-ndpssa-regulation-2024",
+            "url": "https://bfda.gov.bt/wp-content/uploads/2025/08/NDPSS-Regulation-2024.pdf",
+            "locator": "Narcotic Drugs, Psychotropic Substances and Substance Abuse Rules and Regulation 2024, sections 1, 6-9; printed pages 3-5",
+            "issuer": "Bhutan Food and Drug Authority, regulatory document hosted on its official website",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "BFDA-hosted regulation text and section 6 page screenshot inspected. Section 1 states an effective date of December 17, 2024 for this particular regulation. Section 6 cites Cabinet letter C-3/6(5)/2024/48 dated March 26, 2024 and RCSC letter LTD/1/COM/2024/3331 dated April 1, 2024 and lists nine board positions. The actual letters were not retrieved. A recital in a regulation is not a substitute for independently inspecting the original appointment instruments, their authority, conditions, subsequent amendments or continued effect. Its specific commencement date is not a universal BFDA succession or appointment date."
+          },
+          {
+            "id": "bt-bfda-mpd-annual-report-2024-25",
+            "url": "https://bfda.gov.bt/wp-content/uploads/2025/09/Annual-Report-2024-25.pdf",
+            "locator": "Medical Product Division Annual Report 2024-25, printed pages 28 and 42, regulatory-system discussion and governing-board composition",
+            "issuer": "Bhutan Food and Drug Authority, Medical Product Division",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Original BFDA organizational report, not a statutory instrument. The report lists seven governing-board representations, whereas section 6 of the BFDA 2024 regulation lists nine positions. The report also allows the Minister or Secretary of Health as chairperson, differing from the regulation's Minister-only wording. The report says the Medicines Act had not yet been amended as of its reporting period and the revised Medicines Rules and Regulation 2025 awaited endorsement. These are time-bounded administrative assertions, not evidence that the proposals remained pending in November 2026. The composition discrepancy requires original appointment and amendment instruments before any conclusion about current legal membership."
+          }
+        ],
+        "blocker": "The precise original Cabinet letter C-3/6(5)/2024/48 dated March 26, 2024 and original RCSC letter LTD/1/COM/2024/3331 dated April 1, 2024 were not recovered. Two distinct official-source discovery routes were attempted: targeted searches for the letters on RCSC/government sources and targeted searches for the Cabinet reference on government domains. Neither yielded the requested original instrument. The original 2022 reform statute, RCSC's December 2022 press release and BFDA's December 2024 regulation provide related evidence but do not replace those letters. The BFDA 2024 regulation lists nine board positions, while BFDA's 2024-25 annual report describes seven representations with different chairperson wording. The cause, legal effect and chronology of this discrepancy remain unresolved. Through-November-2026 amendments, successor appointments, applicable medical-profession instruments, surveillance mandates and district or local-government allocations remain incompletely authenticated. No existing legal dimension is promoted, no present-day governing-board composition is certified, and no legal, clinical, scientific, rights or governance claim is approved.",
+        "reopen": "Reopen only following explicit Atlas maintainer approval and documented reconciliation of this blocked checkpoint with a new eligible reservation. Obtain authentic original copies of Cabinet letter C-3/6(5)/2024/48 and RCSC letter LTD/1/COM/2024/3331 from their issuing authorities or an authenticated official archive. Independently verify their full text, issuing competence, signatures, dates, scope and subsequent amendments or supersession. Reconcile the nine-position 2024 regulation with the seven-representation 2024-25 BFDA report using authoritative dated instruments. Recover and authenticate the relevant through-November-2026 amendments, medicines and medical-profession enactments, surveillance-institute mandates and applicable district/devolved instruments before considering any additional legal dimension support.",
+        "validation": [
+          "Run: run-A-A01-064-20261108; launch: launch-A-064-0e3ecaf97d5fac0efc041c0f; exact input SHA: 6f8c543f7bbf502d293a164dec240b5e03395b2a.",
+          "Reserved native queue identity: priority_rank=3,m49_code=064 in docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv. Native queue row fetched from the Team A branch and matched to Bhutan and task A-01.",
+          "Master checkout protocol reviewed at e7d313b91c6ad631be865bf5d2623e782fe7f9c3. Start event published in commit bb469c1959948907a39ca75e9676239c3586a43c, directly parented by e7d313b91c6ad631be865bf5d2623e782fe7f9c3, using GitHub update_ref with expected_sha and force=false. Lease returned success=true.",
+          "Independent post-start readback at bb469c1959948907a39ca75e9676239c3586a43c confirmed the exact ticket status running and matching launch ID. Start commit changed only docs/atlas/harness/checkout.json. Ledger blob SHA c29958a949c167d0cdcc59ab5bbbca0b97c74b20.",
+          "Team A PR #68 independently checked open/draft/unmerged; team head matched 6f8c543f7bbf502d293a164dec240b5e03395b2a before start and again before final research handoff. Master PR #75 was independently checked open/draft/unmerged.",
+          "Original statutory text retrieved from the Bhutan Office of the Attorney General. Applicable sections reviewed through retrieved text. A screenshot request for the original Act failed with HTTP 404; consequently, full independent visual inspection of that source is not claimed.",
+          "RCSC original reorganization press release inspected through the Ministry of Home Affairs official copy, with screenshot of the page describing BFDA consolidation.",
+          "BFDA 2024 regulation inspected at section 1 and section 6, including screenshot of the governing-board recital. The document identifies both requested 2024 letters, but neither standalone original was recovered.",
+          "BFDA Medical Product Division Annual Report 2024-25 inspected, including screenshot of printed page 42. Report describes seven board representations versus nine positions in the 2024 regulation. This is an unresolved document-level discrepancy, not proof of an operative legal change.",
+          "Distinct attempted official-source searches: targeted RCSC/government search for LTD/1/COM/2024/3331 and targeted government-domain search for C-3/6(5)/2024/48. Neither returned the original requested letter. Search-result nonretrieval does not prove that the letters do not exist or are unpublished.",
+          "Result disposition blocked: checkpoint-only. Proposed changed path exactly docs/atlas/handoffs/team-a/runs/A-01--064.json. No edits to underlying evidence, legal ledger, source provenance, derived indexes, team branch or production code.",
+          "Original and extended coverage metrics unchanged from Team A CURRENT.md at input SHA: 248 M49 rows; 231 provisional authority identities; 17 UNKNOWN; 318 bodies; 45 relationships; 4 shared scopes; 758 provenance observations; 29 partial legal rows; 219 unscored; 59 narrowly supported dimensions of 1984; 0 all-tier research-complete.",
+          "Actual Team A Python validator and unittest suite NOT RUN in this research chat. Exact commands for an authorized complete checkout: python3 docs/atlas/handoffs/team-a/validate.py ; python3 -m unittest discover -s docs/atlas/handoffs/team-a -p 'test_*.py'. No exit codes or PASS assertions are claimed.",
+          "Atlas structural result validation pending. In an authorized checkout of the harness, save the exact packet and this result, then execute: python3 docs/atlas/harness/harness.py A --live-sha 6f8c543f7bbf502d293a164dec240b5e03395b2a --packet packet.json --result A-01--064.json. Record actual exit code and output.",
+          "Independent verifier has not reviewed this proposed result. Legal research closure NOT achieved; legal dimensions promoted: 0. Publication and final immutable blob verification are reserved for the independent verifier and designated canonical writer."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--064.json"
+        ]
+      }
+    },
+    "run-B-B01-PE-SPR-GOUT-20261108": {
+      "team": "B",
+      "key": "B-01:B-PE-SPR.gout.ca5dd8ec10aa",
+      "packet": {
+        "version": 1,
+        "task": "B-01",
+        "case": "B-PE-SPR.gout.ca5dd8ec10aa",
+        "expected_sha": "5a9acd29262dbe699e89b265c207e5cb94e6ab02",
+        "queue_path": "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+        "row_key": "org_id=B-PE-SPR|condition_key=gout|original_exact_URL=https://socreuma.org.pe/new/_recursos/eventos/archivos/202506201252189886.pdf",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-PE-SPR.gout.ca5dd8ec10aa.json",
+          "docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+          "docs/atlas/handoffs/team-b/data/publication_context.csv",
+          "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+          "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-b/data/search_log.csv",
+          "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
+          "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+          "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+          "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-B-PE-SPR-GOUT-1a9099fd1fa94a9c07e0147599dd6f4b",
+      "receipt": {
+        "version": 1,
+        "key": "B-01:B-PE-SPR.gout.ca5dd8ec10aa",
+        "commit": "9237e5e3f360e596839529adf1d1b254e6fc368b",
+        "parent": "5a9acd29262dbe699e89b265c207e5cb94e6ab02",
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-PE-SPR.gout.ca5dd8ec10aa.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-b/runs/B-01--B-PE-SPR.gout.ca5dd8ec10aa.json": "a8430ff76b2dd036937cca7003b2048659a27e66"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "B-01:B-PE-SPR.gout.ca5dd8ec10aa",
+        "input_sha": "5a9acd29262dbe699e89b265c207e5cb94e6ab02",
+        "disposition": "no_change",
+        "evidence": [
+          {
+            "id": "spr-peru-gout-exact-original-programme",
+            "url": "https://socreuma.org.pe/new/_recursos/eventos/archivos/202506201252189886.pdf",
+            "locator": "Six-page Curso de Reumatologia para Medicos No Reumatologos programme, PDF page 5 (zero-based page 4), Bloque 8, Saturday 23 August 2025, 17:00-17:30, Gota, Dr. Elmer Garcia Salazar",
+            "issuer": "Sociedad Peruana de Reumatologia",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Original first-party event programme directly accessible at the exact reserved URL. Visual inspection confirms society branding, date, scheduled gout topic and named speaker. This is original evidence of an event listing, not an original clinical guideline or substantive gout publication. No lecture text, delivered-session evidence, diagnostic recommendations, patient population, outcomes, study, national prevalence or reuse rights were established. The original URL is M metadata/activity only, not S1/S2/H. The PDF retrieval title contains 'borrador'; final publication status of the programme is not independently established."
+          },
+          {
+            "id": "spr-official-organization-identity",
+            "url": "https://socreuma.org.pe/new/",
+            "locator": "Official SPR website, society name, branding, organizational activities and event information",
+            "issuer": "Sociedad Peruana de Reumatologia",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "First-party organizational website corroborates the society identity and the domain hosting the reserved PDF. Publisher and organization are distinguishable from the scheduled speaker. No sole authorship by the speaker, scientific endorsement of clinical recommendations, governmental authority or country-wide clinical jurisdiction is inferred."
+          },
+          {
+            "id": "cmp-trujillo-course-corroboration",
+            "url": "https://www.cmp-trujillo.org.pe/capacitaciones/curso-nacional-reumatolog%C3%ADa-%E2%80%93-2025",
+            "locator": "Colegio Medico del Peru, Consejo Regional I La Libertad, Curso Nacional de Reumatologia 2025, 22-23 August 2025",
+            "issuer": "Colegio Medico del Peru - Consejo Regional I La Libertad",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Independent institutional announcement corroborates the society-associated course, dates and general educational purpose. It is an announcement, not the substantive delivered lecture, clinical guidance or a patient-based study. It does not independently establish that the gout lecture occurred."
+          },
+          {
+            "id": "team-b-pinned-native-audit",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/5a9acd29262dbe699e89b265c207e5cb94e6ab02/docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+            "locator": "Exact org_id=B-PE-SPR, condition_key=gout, relevant_url matching reserved PDF",
+            "issuer": "PortalHunter Atlas Team B research ledger",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "direct",
+            "qualification": "Pinned native audit already records tier M, provisional_metadata_only and an earlier scheduled-program-only assessment dated 2026-11-06. This is provenance for the existing classification, not independently authenticated clinical evidence."
+          }
+        ],
+        "blocker": "No original substantive gout publication or delivered lecture was established by this exact-URL audit. The accessible PDF is a scheduled scientific programme only. The historical record is already M, so there is no evidence basis to promote it to S1, S2 or H. The complete native Team B Node validator was not executed in this research session, and an independent verifier has not yet reviewed this proposed manifest. This is a no-change evidence checkpoint, not a complete clinical, source-quality or repository-validation clearance.",
+        "reopen": "Reopen only with a specific, independently retrievable original substantive SPR or appropriately attributed Peruvian gout publication, or a documented correction to the existing source identity or classification, followed by a new authorized packet, immutable evidence comparison, independent verification and maintainer approval. Preserve this exact URL as the historical M record unless independently established evidence warrants a documented correction. Do not infer nonexistence from this bounded audit.",
+        "validation": [
+          "Run ID: run-B-B01-PE-SPR-GOUT-20261108.",
+          "Launch ID: launch-B-PE-SPR-GOUT-1a9099fd1fa94a9c07e0147599dd6f4b.",
+          "Pinned Team B input: 5a9acd29262dbe699e89b265c207e5cb94e6ab02; live Team B head was independently confirmed to match before start.",
+          "PR #71 and architecture PR #75 were independently confirmed open, draft and unmerged before the start transition.",
+          "Architecture start commit e966552918c95e9f67fa93eca7bd4bf421171774 has parent 5619d0076426673e832563b75be2eb4c5a997d01. The GitHub expected-SHA ref update succeeded with force disabled. Independent readback confirmed the exact running ticket and launch ID; only docs/atlas/harness/checkout.json changed.",
+          "Native row identity: org_id=B-PE-SPR|condition_key=gout|original_exact_URL=https://socreuma.org.pe/new/_recursos/eventos/archivos/202506201252189886.pdf.",
+          "Native source_quality_worklist.csv at input SHA: exact row exists, individual_quality_tier=M, audit_review_state=provisional_metadata_only, priority=P0.",
+          "Native research_quality_audit.csv at input SHA: exact source row is M; earlier review dated 2026-11-06 records scheduled programme only.",
+          "Native publication_context.csv and condition_organizations.csv at input SHA preserve society publisher versus named speaker, Peru 604, scheduled education programme, no patient population, and research_lead_only status.",
+          "Source inspection: exact PDF returned six pages. Visual screenshots of PDF pages 1 and 5 were reviewed, including society branding and the Saturday 23 August 2025 scheduled gout entry.",
+          "Independent institutional context: Colegio Medico del Peru La Libertad course announcement corroborates the event identity and dates but not the delivered gout lecture.",
+          "Existing M classification confirmed. No replacement original publication established; no S1/S2/H promotion; no raw-link, source, provenance, search-depth, cell or coverage changes proposed.",
+          "Original and extended metrics: unchanged from immutable input. No metrics were recomputed, and no change in completeness or approvals is asserted.",
+          "Reproducible checks: fetch the exact PDF and inspect PDF page 5; compare the exact composite key in source_quality_worklist.csv, research_quality_audit.csv, publication_context.csv and condition_organizations.csv at the pinned input SHA.",
+          "Native validator to be run by verifier or writer from the pinned checkout: node docs/atlas/handoffs/team-b/validate.mjs. Record Node version, exit code, stdout, stderr and checkout SHA. NOT RUN in this chat.",
+          "Harness structural validation to be run with the exact packet and this manifest: python3 docs/atlas/harness/harness.py B --live-sha 5a9acd29262dbe699e89b265c207e5cb94e6ab02 --packet packet.json --result result.json. NOT RUN in this chat.",
+          "Independent verifier review: PENDING. No clinical, genetic, ancestry, legal, scientific, licensing, rights or Indigenous-governance approval is granted."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-PE-SPR.gout.ca5dd8ec10aa.json"
+        ]
+      }
+    },
+    "run-D-D01-ACCEPT-001-20261108": {
+      "team": "D",
+      "key": "D-01:TD-BL-ACCEPT-001",
+      "packet": {
+        "version": 1,
+        "task": "D-01",
+        "case": "TD-BL-ACCEPT-001",
+        "expected_sha": "249de08e61d7e975464f9fd44e7eb569a79f3a1a",
+        "queue_path": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "row_key": "TD-BL-ACCEPT-001",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-D-ACCEPT-001-eae15f0824594c54b5d83401d3018819",
+      "receipt": {
+        "version": 1,
+        "key": "D-01:TD-BL-ACCEPT-001",
+        "commit": "aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac",
+        "parent": "249de08e61d7e975464f9fd44e7eb569a79f3a1a",
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json": "e7d2a9a5229dd00d9265f527f2211cc2ed2526f9"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "D-01:TD-BL-ACCEPT-001",
+        "input_sha": "249de08e61d7e975464f9fd44e7eb569a79f3a1a",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "original-team-d-acceptance",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md",
+            "locator": "Acceptance criteria, third criterion: no geography-to-membership inference and no automatic equivalence of national clinical recommendations",
+            "issuer": "PortalHunter / original Atlas Team D assignment",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "The assignment defines a noninference acceptance criterion for a sourced institutional relationship graph. It does not authorize approval of legal, clinical, scientific, genetic, rights or governance claims. Structural preservation of relationship types is necessary but insufficient for independent semantic acceptance."
+          },
+          {
+            "id": "reserved-native-acceptance-row",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/249de08e61d7e975464f9fd44e7eb569a79f3a1a/docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+            "locator": "Exact row TD-BL-ACCEPT-001; blob 92c2975526ef6ade353dda31719dfefcee7f9bd5",
+            "issuer": "PortalHunter / Team D native backlog",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "direct",
+            "qualification": "The pinned backlog identifies NONINFERENCE_QUALIFICATION_HELD, original acceptance criterion 3, and a required independent complete evidence/semantic sample. It calls for review of provisional organizations, unverified original instruments, indexed-only sources and geography/non-clinical boundaries. This is an internal acceptance record, not independent proof that every graph proposition is correct."
+          },
+          {
+            "id": "pinned-graph-and-semantic-audit",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/249de08e61d7e975464f9fd44e7eb569a79f3a1a/docs/atlas/handoffs/team-d/data/postconsolidation_evidence_semantic_audit_2026-11-07.csv",
+            "locator": "70 audit records, TD-SEM-001 through TD-SEM-070; 619 records separately present in data/network_memberships.csv",
+            "issuer": "PortalHunter / Team D research audit",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "direct",
+            "qualification": "The 70 audit entries cover multiple record classes, including graph relationships and cross-team identity matches. They are not 70 independently certified graph edges, and the ledger does not demonstrate complete independent source and semantic review of all 619 relationships. Graph row count is an inventory observation, not evidence of legal or clinical validity."
+          },
+          {
+            "id": "provisional-team-b-identity-crosswalk",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/249de08e61d7e975464f9fd44e7eb569a79f3a1a/docs/atlas/handoffs/team-d/data/provisional_team_b_identity_crosswalk_2026-11-07.csv",
+            "locator": "12 provisional graph endpoint rows; three source-qualified name/domain/Team B ID crosswalks; nine unresolved",
+            "issuer": "PortalHunter / Team D identity audit",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "direct",
+            "qualification": "Three narrow crosswalks concern Argentina B-AR-SAHA, Indonesia B-ID-PERHI and Bangladesh B-BD-NHFB. All 12 graph endpoints remain provisional. The three alignments do not prove corporate registration, effective membership dates, statutory authorization, national clinical adoption or identity equivalence beyond the recorded name/domain/source scope."
+          },
+          {
+            "id": "whl-original-membership-directory",
+            "url": "https://www.whleague.org/membership/whl-members",
+            "locator": "Original WHL membership directory; Argentine Society of Hypertension and saha.org.ar",
+            "issuer": "World Hypertension League",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "The first-party directory independently names the Argentine Society of Hypertension and links its official domain. It supports the narrow existing identity alignment, not government regulator status, national guideline adoption, corporate-register verification or independently established membership effective dates. The directory cannot resolve the other nine Team B joins."
+          },
+          {
+            "id": "paho-bermuda-original-access",
+            "url": "https://www.paho.org/en/bermuda",
+            "locator": "Original PAHO Bermuda profile; direct retrieval HTTP 403",
+            "issuer": "Pan American Health Organization",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "blocked",
+            "qualification": "Direct retrieval returned HTTP 403. Full original page text was not independently inspected in this run. Prior indexed evidence cannot be promoted to direct original-document verification. The pinned Team D audit identifies 21 PAHO indexed-only technical-cooperation graph edges across five issuer URLs. Those service edges cannot establish local WHO office presence, April survey status, WHO constitutional governance, national statutory authority or clinical adoption."
+          },
+          {
+            "id": "who-searo-original-current-offices",
+            "url": "https://www.who.int/southeastasia/about",
+            "locator": "Where we work; WHO offices in all ten SEARO Member States",
+            "issuer": "World Health Organization, South-East Asia Regional Office",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Directly inspected original WHO HTML confirms the ten current regional member-state country-office statements. The page does not establish April 2026 survey status, physical office addresses, office opening dates or host agreements. Its current statement must remain separate from April-dated survey evidence."
+          },
+          {
+            "id": "who-april-office-survey-dataset",
+            "url": "https://data.who.int/dashboards/country-presence/country-office/office-profile-survey-reporting-year/",
+            "locator": "Original survey-year dashboard URL recorded in 95 pinned Team D office-presence rows",
+            "issuer": "World Health Organization",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "blocked",
+            "qualification": "The dashboard was not accessible through the independent web retrieval in this run. The immutable Team D office-presence CSV contains exactly 95 positive rows dated 2026-04 and ten separately dated 2026-11-05. The 95/105 split was independently counted in the repository data, but the complete original dashboard was not reproduced in this run. Absence of a positive row is not proof of an absent office."
+          },
+          {
+            "id": "historical-native-validator-report",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/249de08e61d7e975464f9fd44e7eb569a79f3a1a/docs/atlas/handoffs/team-d/CHECKPOINT_NATIVE_VALIDATION_RECONCILED_2026-11-07.md",
+            "locator": "Two externally reported Node v24.22.2 native passes at commit 470349bfe7c4a015d18ed93ae44f7d5cc4ac57a1",
+            "issuer": "PortalHunter / Team D checkpoint",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "metadata",
+            "qualification": "Historical passes were reported by an external executor. Independently inspectable raw stdout, stderr and execution metadata were not recovered. The current pinned Team D SHA is different. No complete native Node validation was executed for this run, and a reported structural pass cannot certify source semantics."
+          },
+          {
+            "id": "atlas-start-transition",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/5619d0076426673e832563b75be2eb4c5a997d01",
+            "locator": "Direct-child start commit; parent bb469c1959948907a39ca75e9676239c3586a43c; checkout.json only; exact launch ID read back",
+            "issuer": "PortalHunter / Atlas harness checkout ledger",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "direct",
+            "qualification": "The start transition was published with explicit expected-SHA enforcement. An independent GitHub readback confirmed running ownership under launch-D-ACCEPT-001-eae15f0824594c54b5d83401d3018819. This proves checkout ownership only, not acceptance completion or result publication."
+          }
+        ],
+        "blocker": "TD-BL-ACCEPT-001 remains HELD. The independently retrieved original acceptance criterion requires noninference across institutional membership, geography, statutory powers and national clinical recommendations. The current graph has 619 typed relationship rows, while its 70-entry semantic audit covers mixed proposition classes rather than a complete independently authenticated graph. Nine of 12 provisional society endpoints lack a supported exact Team B crosswalk; all 12 graph identities remain provisional. Twenty-one PAHO technical-cooperation edges remain indexed-only, with the Bermuda original returning HTTP 403. Complete original-source and semantic review is not demonstrated. The native Team D Node validator was not executed at the current input SHA. No original acceptance gate, legal claim, clinical claim or institutional authority claim is promoted.",
+        "reopen": "Reopen only after independently documented source and semantic review of the remaining acceptance-critical graph propositions, including verified original issuer text or explicitly retained access blockers, cross-team identity reconciliation for the nine unresolved provisional society joins, and appropriate examination or qualification of all 21 PAHO indexed-only edges. Reproduce the full current checked-in native Team D validator at an authorized exact-SHA checkout, recording Node version, command, exit status, stdout and stderr. Preserve original evidence dates and distinguish 95 April 2026 survey positives from 105 combined first-party positives. Require independent verification and explicit maintainer authorization before declaring criterion 3 closed. Do not use structural pass, search metadata, institutional affiliation or geography alone to approve legal, clinical, scientific, rights, ancestry or governance conclusions.",
+        "validation": [
+          "Run run-D-D01-ACCEPT-001-20261108; launch launch-D-ACCEPT-001-eae15f0824594c54b5d83401d3018819; pinned input SHA 249de08e61d7e975464f9fd44e7eb569a79f3a1a.",
+          "Reservation: exact native TD-BL-ACCEPT-001 row in docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv; reserved row status 3_OF_5_SCOPED_ORIGINAL_GATES_DEMONSTRATED and evidence class NONINFERENCE_QUALIFICATION_HELD.",
+          "Team D PR #70 independently confirmed OPEN/DRAFT/UNMERGED with head 249de08e61d7e975464f9fd44e7eb569a79f3a1a before start; architecture PR #75 independently confirmed OPEN/DRAFT/UNMERGED.",
+          "Start event commit 5619d0076426673e832563b75be2eb4c5a997d01, direct parent bb469c1959948907a39ca75e9676239c3586a43c, explicit expected-SHA lease, changed path docs/atlas/harness/checkout.json only. Independent running-ticket readback PASS; checkout blob c13233588709fc51134474d6f9723b1a0b182c74.",
+          "GitHub connector pinned-file inspections: data/network_memberships.csv 619 data rows, data/international_networks.csv 47 data rows, PROVENANCE.csv 330 data rows, data/m49_network_status.csv 249 data rows, and consolidated backlog 236 data rows. These are line and inventory checks, not complete native CSV validation.",
+          "Semantic audit data/postconsolidation_evidence_semantic_audit_2026-11-07.csv: 70 data entries, including three Team B identity crosswalk audits. Graph coverage must not be inferred by dividing all 70 audit entries by 619 edges.",
+          "Identity crosswalk data/provisional_team_b_identity_crosswalk_2026-11-07.csv: 12 data entries, three narrow source-qualified Team B ID crosswalks and nine unresolved. No graph identity promotion proposed.",
+          "Office-presence CSV: 105 positive data rows, exactly 95 as_of 2026-04 and ten as_of 2026-11-05. April survey-positive 95/249, combined first-party positive 105/249. Thus 154 lack April-specific positive evidence and 144 lack any positive office record; neither complement demonstrates office absence.",
+          "Independent original web inspection: WHO SEARO about page directly accessible and confirms ten member-state offices; WHL original members page directly accessible and supports Argentine directory name/domain; PAHO Bermuda original returned HTTP 403; WHO original survey dashboard could not be accessed through this retrieval.",
+          "Original acceptance status unchanged: 3 of 5 structurally demonstrated, TD-BL-ACCEPT-001 and TD-BL-ACCEPT-002 held. Expanded 34-national-authority full legal/delegation/Team A audit remains 0/34 and is not an original acceptance criterion.",
+          "Repository environment check: git ls-remote to github.com failed with exit 128 and DNS resolution error. FULL CURRENT CHECKED-IN TEAM D NATIVE NODE VALIDATOR NOT EXECUTED. No current validator exit code, stdout or stderr is asserted.",
+          "Reproduce from an authorized complete checkout: git checkout 249de08e61d7e975464f9fd44e7eb569a79f3a1a; git rev-parse HEAD; node --version; node docs/atlas/handoffs/team-d/validate.mjs. Preserve complete output and verify the executed commit. A structural pass does not establish semantic acceptance.",
+          "For the designated writer, separately validate this proposed JSON using python3 docs/atlas/harness/harness.py D --live-sha 249de08e61d7e975464f9fd44e7eb569a79f3a1a --packet packet.json --result result.json from the architecture harness working directory, with packet.json containing the exact reserved envelope. This command has NOT been executed in this run.",
+          "Proposed changed paths: only docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json. No canonical data changes, no network edge changes, no accepted source promotions, no acceptance-gate closure and no Team D publication performed by this researcher.",
+          "The designated writer must recheck the running ticket under this exact launch ID, Team D head SHA and PR status, publish with its own explicit expected-SHA lease, and obtain an independent commit/blob/diff readback before librarian check-in."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json"
+        ]
+      }
+    },
+    "run-A-A01-090-20261108": {
+      "team": "A",
+      "key": "A-01:090",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "090",
+        "expected_sha": "fae5eed287562aaae744ca14d310ed5d4140ad75",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=2,m49_code=090",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--090.json"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-A-090-9b7f5358cd4f1918097028bb",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:090",
+        "commit": "0e17b6e05700f4e02be1479d846f666ac04dec47",
+        "parent": "fae5eed287562aaae744ca14d310ed5d4140ad75",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--090.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--090.json": "63bc23a8b8263832225d5b2ed1c0bfe65800b5e9"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:090",
+        "input_sha": "fae5eed287562aaae744ca14d310ed5d4140ad75",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "si-agc-health-services-reprint-2024",
+            "url": "https://attorneygenerals.gov.sb/Download/health-services-act-cap-100v1/?tmstv=1772422145&version=3",
+            "locator": "Attorney-General digital reprint, Health Services Act (Cap. 100), as in force 5 February 2024",
+            "issuer": "Solomon Islands Attorney-General's Chambers (digital reprint publisher)",
+            "checked": "2026-11-08; official portal and HTML-rendered reprint search retrieval",
+            "original": false,
+            "access": "indexed",
+            "qualification": "Official authorized reprint identifies a historical as-in-force baseline, not an independently inspected original enactment, Gazette instrument, or verified amendment chronology from 6 February 2024 through 8 November 2026. No 2025/2026 effective-date or repeal conclusion is established."
+          },
+          {
+            "id": "si-agc-legislation-portal",
+            "url": "https://attorneygenerals.gov.sb/legislation/legislation-portal/",
+            "locator": "Legislation Act 2023 reprints, current Acts, Acts indexes, subordinate legislation, HCC ordinances and nine provincial assembly ordinance collections",
+            "issuer": "Solomon Islands Attorney-General's Chambers",
+            "checked": "2026-11-08; official legislation portal directly retrieved",
+            "original": true,
+            "access": "direct",
+            "qualification": "Original first-party explanation of publication and indexing regime, not itself an original legal instrument. Portal cautions that digital reprints do not have the same standing as consolidations or revised editions. Indexed amendment and commencement fields are discovery leads pending instrument-level cross-check. The Honiara City Council Act 1999 section 34 and Provincial Government Act 1997 section 30 are described as ordinance-making bases, but no clinic-specific delegation was recovered."
+          },
+          {
+            "id": "si-agc-health-workers-reprint-2024",
+            "url": "https://attorneygenerals.gov.sb/Download/health-workers-act-cap-101v2/?tmstv=1772582449&version=3",
+            "locator": "Health Workers Act (Cap. 101), Attorney-General reprint as in force 5 February 2024",
+            "issuer": "Solomon Islands Attorney-General's Chambers (digital reprint publisher)",
+            "checked": "2026-11-08; indexed HTML-rendered reprint",
+            "original": false,
+            "access": "indexed",
+            "qualification": "A statutory health-worker registration/disciplinary framework is identified. No original act or through-November-2026 amendment, board appointment, commencement or delegating order independently authenticated."
+          },
+          {
+            "id": "si-agc-pharmacy-practitioners-reprint-2024",
+            "url": "https://attorneygenerals.gov.sb/Download/pharmacy-practitioners-act-1997v1/?tmstv=1773484755&version=3",
+            "locator": "Pharmacy Practitioners Act 1997, Attorney-General reprint as in force 5 February 2024",
+            "issuer": "Solomon Islands Attorney-General's Chambers (digital reprint publisher)",
+            "checked": "2026-11-08; indexed HTML-rendered reprint",
+            "original": false,
+            "access": "indexed",
+            "qualification": "Identifies pharmacy-practice statutory framework; reprint alone does not prove subsequent amendments or the present appointment, operation and delegated competencies of a board. A publisher-hosted reprint is not an independent second issuer."
+          },
+          {
+            "id": "si-agc-pharmacy-poisons-reprint-2024",
+            "url": "https://attorneygenerals.gov.sb/legislation-dashboard/download-info/pharmacy-and-poisons-act-cap-105/",
+            "locator": "Pharmacy and Poisons Act (Cap. 105), Attorney-General download listing; version as at 5 February 2024",
+            "issuer": "Solomon Islands Attorney-General's Chambers",
+            "checked": "2026-11-08; official download metadata",
+            "original": false,
+            "access": "indexed",
+            "qualification": "Original statutory enactment and post-2024 medicines or poison regulatory amendments not inspected. The existence of a publication listing is not proof of current detailed powers or commencing regulations."
+          },
+          {
+            "id": "si-agc-nursing-council-metadata",
+            "url": "https://attorneygenerals.gov.sb/legislation-dashboard/download-info/nursing-council-act-cap-104v1/",
+            "locator": "Nursing Council Act (Cap. 104), historical version listing with versions 2-4",
+            "issuer": "Solomon Islands Attorney-General's Chambers",
+            "checked": "2026-11-08; official listing metadata",
+            "original": false,
+            "access": "indexed",
+            "qualification": "Only historical catalog metadata inspected, not the latest original statutory text, commencing instrument, licensing rules or professional council appointments. No operative post-2024 identity or power promoted."
+          },
+          {
+            "id": "si-ministry-provincial-legislation",
+            "url": "https://www.mpgis.gov.sb/legislation.html",
+            "locator": "Ministry of Provincial Government and Institutional Strengthening, Provincial Government Act 1997 official ministry listing",
+            "issuer": "Solomon Islands Ministry of Provincial Government and Institutional Strengthening",
+            "checked": "2026-11-08; separately issued ministry legislation page directly retrieved",
+            "original": false,
+            "access": "direct",
+            "qualification": "Independent government organizational source locates provincial legislation but explicitly warns that posted copies are not conclusive legal versions. No province-specific health-clinic assignment, legal notice, or enacted ordinance proved. Different website/issuer does not create a second independent enactment."
+          },
+          {
+            "id": "si-mhms-operational-descriptions",
+            "url": "https://solomons.gov.sb/ministry-of-health-medical-services/",
+            "locator": "Government services portal: National Pharmacy Division, National Nursing Administration, Ministry of Health and Medical Services",
+            "issuer": "Solomon Islands Government services portal; describing Ministry of Health and Medical Services operations",
+            "checked": "2026-11-08; government service description directly retrieved",
+            "original": true,
+            "access": "direct",
+            "qualification": "First-party administrative description, not a primary statutory instrument. Separately identifies operating administrative functions but cannot establish governing professional licensing mandates, surveillance notification obligations or legal provincial delegation."
+          },
+          {
+            "id": "si-legal-gazette-index",
+            "url": "https://solomons.gov.sb/ministry-of-justice-and-legal-affairs/attorney-generals-chambers/gazettes-legislation/",
+            "locator": "Government Gazette index lists dated 2024, 2025 and 2026 issues and notices",
+            "issuer": "Solomon Islands Government / Ministry of Justice and Legal Affairs",
+            "checked": "2026-11-08; government Gazette index searched",
+            "original": false,
+            "access": "indexed",
+            "qualification": "A separate official discovery strategy was attempted using the Gazette listing. Specific post-2024 Health Services amendment and commencement issues were not recovered and read at instrument level. Some Gazette entries use generic titles such as 'Commencement Notice'; title alone cannot identify the affected Act."
+          }
+        ],
+        "blocker": "Two official retrieval routes were examined (Attorney-General legislation/reprint and index collections, and the separately exposed Government Gazette listing), but no complete, independently authenticated post-5-February-2024 Health Services Act amendment/commencement/repeal chain was established. No original provincial or Honiara health-clinic delegation or implementing ordinances were authenticated. Original current Nursing Council, Pharmacy and Poisons, Pharmacy Practitioners, Medical and Dental Practitioners, Health Workers and quarantine/surveillance instruments, their competent issuers and delegated regulations remain partly indexed or uninspected; no proof of absence is implied. Date and legal-authority conflicts cannot be closed. No legal status or institutional powers are promoted. The task therefore remains evidence-blocked rather than researched-complete.",
+        "reopen": "Retrieve and inspect actual original Gazette acts, amending Acts and commenced subsidiary notices for Health Services Act Cap. 100 after 5 February 2024 through 8 November 2026; independently compare Attorney-General Acts and subsidiary indexes and numbered Gazette notices with each original instrument. Inspect Honiara City Council section 34 ordinances and the nine provincial assemblies' section 30 ordinances for actual health/clinic delegations, identifying each issuer and territory. Retrieve current original Pharmacy and Poisons, Pharmacy Practitioners, Nursing Council, Health Workers, Medical and Dental Practitioners and Quarantine Acts, surveillance regulations and commencement/appointment notices, and test their actual status and dates; obtain separate competent issuer evidence for disputed powers. Escalate unresolved legal interpretation to qualified local counsel. Do not reopen merely on a matching website mirror or draft.",
+        "validation": [
+          "Reserved packet: task A-01; case 090; priority_rank=2,m49_code=090; queue docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv; input SHA fae5eed287562aaae744ca14d310ed5d4140ad75.",
+          "Run run-A-A01-090-20261108; launch launch-A-090-9b7f5358cd4f1918097028bb; architecture start commit 1231ba8f6ca151347212c186574ca921947bc8e3, parent 42a58c90771b5563c7fd0c240065ea82c920b0be; explicit atomic expected-SHA lease returned success; independent readback confirmed running ticket under exact launch, and one changed path docs/atlas/harness/checkout.json.",
+          "Team A pinned head independently checked at fae5eed287562aaae744ca14d310ed5d4140ad75 before start; no Team A branch write authorized or made.",
+          "Review the exact published Attorney-General 5-February-2024 reprint baseline against original acts and later Gazette issues; never treat the as-in-force date as a November 2026 status check.",
+          "Cross-check independently issued Honiara and provincial enactments with the sections and scopes indicated by the Attorney-General portal; do not substitute Ministry operational descriptions or catalog metadata for statutory conferral.",
+          "Run python3 docs/atlas/handoffs/team-a/validate.py and python3 -m unittest discover -s docs/atlas/handoffs/team-a -p 'test_*.py' in a detached checkout pinned to fae5eed287562aaae744ca14d310ed5d4140ad75 after placing only this proposed checkpoint. These native commands were not executed in this research chat.",
+          "Run python3 docs/atlas/harness/harness.py A --live-sha fae5eed287562aaae744ca14d310ed5d4140ad75 --packet packet.json --result A-01--090.json from a pinned architecture checkout to verify the packet/result schema. This native command was not executed in this research chat.",
+          "Proposed checkpoint is not published. Independent verifier must inspect source provenance and original legal instruments, check proposed JSON bytes, and authorize a separate writer only under the reserved ticket. No legal, clinical, genetics, scientific, rights or Indigenous-governance approval is made."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--090.json"
+        ]
+      }
+    },
+    "run-B-B01-BM-BDA-DIABETES-20261108": {
+      "team": "B",
+      "key": "B-01:B-BM-BDA.diabetes.08061c27f622",
+      "packet": {
+        "version": 1,
+        "task": "B-01",
+        "case": "B-BM-BDA.diabetes.08061c27f622",
+        "expected_sha": "9237e5e3f360e596839529adf1d1b254e6fc368b",
+        "queue_path": "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+        "row_key": "org_id=B-BM-BDA|condition_key=diabetes|original_exact_URL=https://www.diabetes.bm/blog/2025-screening-report",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-BM-BDA.diabetes.08061c27f622.json",
+          "docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+          "docs/atlas/handoffs/team-b/data/publication_context.csv",
+          "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+          "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-b/data/search_log.csv",
+          "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
+          "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+          "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+          "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-B-BM-BDA-3c52b50da7abe90ececc3439",
+      "receipt": {
+        "version": 1,
+        "key": "B-01:B-BM-BDA.diabetes.08061c27f622",
+        "commit": "d1f7393fd9dd17a913edf52656f97d3b4694a4f7",
+        "parent": "9237e5e3f360e596839529adf1d1b254e6fc368b",
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-BM-BDA.diabetes.08061c27f622.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-b/runs/B-01--B-BM-BDA.diabetes.08061c27f622.json": "971cbbd0d30d9c593ce4ecb9584480f02c2296a8"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "B-01:B-BM-BDA.diabetes.08061c27f622",
+        "input_sha": "9237e5e3f360e596839529adf1d1b254e6fc368b",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "bda-exact-original-html-2026-02-20",
+            "url": "https://www.diabetes.bm/blog/2025-screening-report",
+            "locator": "BDA page dated 2/20/2026; title '2025 eye health & blood sugar community screening report'; byline 'The Bermuda Diabetes Association Team'; body and 2025 summary-report link",
+            "issuer": "Bermuda Diabetes Association (first-party webpage author and host)",
+            "checked": "2026-11-08; direct HTML read",
+            "original": true,
+            "access": "direct",
+            "qualification": "First-party webpage is accessible and confirms the November 12\u201313, 2025 two-day voluntary eye-health/blood-sugar screening with Lahey Hospital & Medical Center as collaborator. The HTML mentions 'nearly half' of attendees showing signs of at least one screened eye condition and 21% needing ophthalmology follow-up within one to three months. It is a brief event/results summary, not an inspected original PDF report or fully appraisable study/methods section. Lahey collaboration does not prove Lahey authored or issued the linked PDF. No S1/S2/H status, disease prevalence, diagnostic estimate or clinical suitability is established by the HTML alone."
+          },
+          {
+            "id": "bda-linked-pdf-unretrieved",
+            "url": "https://cdn.prod.website-files.com/6058a24259403af6c70fee3a/6998bbcb3c83a74710980bfb_Eye%20Health%20Screening%20Report%202025-compressed.pdf",
+            "locator": "PDF named 'Eye Health Screening Report 2025-compressed.pdf'; direct link 2 from first-party BDA page; CDN object 6998bbcb3c83a74710980bfb",
+            "issuer": "Bermuda Diabetes Association linked host; PDF internal author/imprint not inspected",
+            "checked": "2026-11-08; web click, direct web open, screenshot attempt, download attempt and local HTTPS attempt",
+            "original": false,
+            "access": "blocked",
+            "qualification": "The BDA page links an apparent underlying PDF. Its content could not be accessed by available routes: web click/open returned non-retryable errors; web PDF screenshot could not run because the resource was not opened as application/pdf; container download failed; the local requests HTTPS attempt failed DNS resolution. No original PDF pages, imprint, eligibility criteria, blood-sugar testing denominator, screening protocol, methods, tables, rights notice or population sampling could be verified. Preserve existing U quality classification until the original is independently retrieved and appraised."
+          },
+          {
+            "id": "bda-identity-mission",
+            "url": "https://www.diabetes.bm/about-us/our-mission",
+            "locator": "BDA own mission page: lead the Bermuda community in diabetes prevention/care; operates education, medicine access and support programmes",
+            "issuer": "Bermuda Diabetes Association",
+            "checked": "2026-11-08; direct first-party HTML",
+            "original": true,
+            "access": "direct",
+            "qualification": "Corroborates first-party association identity and Bermuda-oriented activity. Does not independently authenticate legal registration, governance, scientific peer review, PDF authorship or license terms."
+          },
+          {
+            "id": "idf-bermuda-bda-directory",
+            "url": "https://idf.org/our-network/regions-and-members/north-america-and-caribbean/members/bermuda/bermuda-diabetes-association/",
+            "locator": "International Diabetes Federation Bermuda member profile of Bermuda Diabetes Association",
+            "issuer": "International Diabetes Federation (directory publisher, not screening-report author)",
+            "checked": "2026-11-08; indexed first-party directory text",
+            "original": false,
+            "access": "indexed",
+            "qualification": "Independent affiliation/organization identity context only. IDF membership is not evidence of the content or study design of this November 2025 screening report, clinical endorsement, governance approval or scientific validity."
+          },
+          {
+            "id": "bernews-2026-02-27-reporting",
+            "url": "https://bernews.com/2026/02/diabetes-association-hosts-free-screenings/",
+            "locator": "February 27, 2026 article reproducing BDA spokesperson statements about the November 12\u201313, 2025 screenings",
+            "issuer": "Bernews (secondary news outlet quoting BDA statements)",
+            "checked": "2026-11-08; accessible HTML",
+            "original": false,
+            "access": "direct",
+            "qualification": "Secondary coverage reports 72 eye-screening attendees aged 29\u201396 and 74% women, with roughly half having signs of one of several eye conditions and 21% referred for ophthalmology follow-up. It also reports that half of the separate HbA1c-tested group measured at least 7% but does not provide that test group's denominator. The 72 refers to eye-screening participants, not a verified HbA1c denominator, a probability sample, Bermuda-wide prevalence, clinical diagnostic accuracy or a PDF methodology check. Article is not an independently reviewed primary study."
+          },
+          {
+            "id": "royal-gazette-2026-03-05-reporting",
+            "url": "https://www.royalgazette.com/lifestyle/wellness/article/20260305/charitys-diabetes-screens-catch-hidden-health-complications/",
+            "locator": "March 5, 2026 local report of BDA's November screening event and aggregated observations",
+            "issuer": "The Royal Gazette (secondary reporting of BDA statements)",
+            "checked": "2026-11-08; accessible HTML",
+            "original": false,
+            "access": "direct",
+            "qualification": "Separately published local reporting is consistent with 72 event eye-screening attendees and approximate eye screening findings but appears to rely on BDA-supplied figures. This does not independently reproduce the PDF, validate sample selection, establish the HbA1c denominator or independently verify clinical effect size."
+          }
+        ],
+        "blocker": "The exact BDA webpage is a first-party accessible summary, but its linked original 'Eye Health Screening Report 2025' PDF could not be retrieved or examined. Original issuer/imprint, sampling/eligibility, screening methods, separate eye-versus-HbA1c denominators, quantitative tables, date/edition, and reuse rights remain unverified. Historical tier U and source-positive raw-link records must not be promoted to an S1/S2/H qualifying publication on press/summary evidence. No substantive canonical Team B data changes proposed.",
+        "reopen": "Only with Atlas maintainer authorization and a new independently retrievable first-party PDF (or authenticated issuer-supplied copy with full publication metadata) permitting exact-page review of imprint, methods, denominators, assessed conditions, temporal scope and rights, or independently verified new evidence materially resolving these blockers. Preserve stable logical key, prior manifest and architecture reconciliation when reopening.",
+        "validation": [
+          "Run run-B-B01-BM-BDA-DIABETES-20261108; launch launch-B-BM-BDA-3c52b50da7abe90ececc3439; checkout start commit 9a9c9e9ae5034db6990a25b3e1fa1b778a8f2296 directly parented to 99b0cd222ba95905f8f712810d40d7ea813f002e; only docs/atlas/harness/checkout.json modified; start ledger blob 64a11012b4685e7447a1b18cf8d66df39bfd50fd. Running status/launch independently read back before research.",
+          "Reserved native row at Team B input SHA 9237e5e3f360e596839529adf1d1b254e6fc368b: area_m49=060, area_name=Bermuda, condition_key=diabetes, org_id=B-BM-BDA, exact URL=https://www.diabetes.bm/blog/2025-screening-report, historical U tier; original PDF underlying report not appraised. Queue path docs/atlas/handoffs/team-b/data/source_quality_worklist.csv; blob 4fdb7e449c90370d75d24ccf0ed995dd4bdba688.",
+          "Existing Team B quality audit documents first-party summary and unresolved underlying PDF; original HTML source title and BDA identity verified; secondary reports of n=72 apply to eye screening only and are not independent original report appraisal.",
+          "Team B branch expected and independently observed SHA 9237e5e3f360e596839529adf1d1b254e6fc368b; PR #71 open/draft/unmerged at preflight. No Team B branch writes, approvals, merges or PR modifications by researcher.",
+          "Historical baseline retained, no inferred change: 501 organizations, 227/248 area identity reach, 388 raw linked + 194 searched-unlinked + 1154 untouched = 1736 condition-area cells; 432 source rows; 90 audited (S1=10 S2=41 H=7 M=30 U=2), 342 unaudited; 57 distinct qualified audited cells; clinical approvals 0.",
+          "Blocked/checkpoint-only proposal: exactly docs/atlas/handoffs/team-b/runs/B-01--B-BM-BDA.diabetes.08061c27f622.json; no data CSV or metrics edits, no coverage deltas. Team B native Node validator not executed: no repository checkout with complete canonical data established. Local exact-field and reserved-path structural checks performed on portable JSON; independent Verifier must reproduce checks.",
+          "Researcher did not self-verify, publish or approve proposed result. Separate read-only Verifier required; separately maintainer-designated Writer may publish only after independent PASS, with Team B expected-SHA direct-child single commit and atomic lease, followed by independent Librarian check-in."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-BM-BDA.diabetes.08061c27f622.json"
+        ]
+      }
+    },
+    "run-D-D01-NET-008-20261108": {
+      "team": "D",
+      "key": "D-01:TD-BL-NET-008",
+      "packet": {
+        "version": 1,
+        "task": "D-01",
+        "case": "TD-BL-NET-008",
+        "expected_sha": "aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac",
+        "queue_path": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "row_key": "TD-BL-NET-008",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-008.json"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-D-NET-008-f3a91c6d72b04e5a85a1",
+      "receipt": {
+        "version": 1,
+        "key": "D-01:TD-BL-NET-008",
+        "commit": "d3eb7b830870c6e30055d7251841ed67ac482b82",
+        "parent": "aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac",
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-008.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-008.json": "90ed7214719dc59a3db7eee4db55df479d7eaa10"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "D-01:TD-BL-NET-008",
+        "input_sha": "aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "idf-nac-current-overview",
+            "url": "https://idf.org/our-network/regions-and-members/north-america-and-caribbean/",
+            "locator": "Direct current overview; 22 associations/22 countries and territories; 21 individually named geographic association labels and three transnational names",
+            "issuer": "International Diabetes Federation",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Undated current HTML independently inspected 2026-11-08. Cura\u00e7ao not among its named local associations. Headline and named entries are not necessarily the same membership class or observation time. No effective date, legal identity or clinical status inferred."
+          },
+          {
+            "id": "idf-nac-members-index",
+            "url": "https://idf.org/our-network/regions-and-members/north-america-and-caribbean/members/",
+            "locator": "Direct Members index: 23 diabetes organisations in 22 countries and territories; Cura\u00e7ao among 22 geographic labels; three transnational members",
+            "issuer": "International Diabetes Federation",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "The 23 and 22 are organization and geography denominators respectively, not automatically contradictory. The separate regional overview uses 22 associations. Transnational names are not assigned M49 codes; the source does not provide a dated individual-entity reconciliation."
+          },
+          {
+            "id": "idf-nac-curacao-current-detail",
+            "url": "https://idf.org/our-network/regions-and-members/north-america-and-caribbean/members/curacao/",
+            "locator": "Cura\u00e7ao country/territory profile, section headed IDF member(s) in Cura\u00e7ao has no displayed association name",
+            "issuer": "International Diabetes Federation",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Direct HTML accessed 2026-11-08. A blank member field cannot establish dissolution, departure, admission date or lack of a current member; no source-period organizational identity published on this profile."
+          },
+          {
+            "id": "idf-2024-annual-roster",
+            "url": "https://idf.org/media/uploads/2025/06/11759-IDF-Annual-Report-2024_ART_compressed.pdf",
+            "locator": "2024 Annual Report, Organisation, printed p26, PDF page index 25, Cura\u00e7ao \u2014 Sosiedat Kurasoleno di Diabetiko",
+            "issuer": "International Diabetes Federation",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Official issuer PDF visually inspected with screenshot. Historical named association roster for 2024 report period, hosted June 2025. Does not establish present-day 2026 membership or effective joining/leaving date."
+          },
+          {
+            "id": "idf-2023-annual-roster",
+            "url": "https://idf.org/media/uploads/2024/06/IDF-Annual-Report-2023.pdf",
+            "locator": "2023 Annual Report, Organisation/NAC printed p23, PDF page index 22, Cura\u00e7ao \u2014 Sosiedat Kurasoleno di Diabetiko",
+            "issuer": "International Diabetes Federation",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Issuer-original PDF independently visually inspected. Historical name corroboration only; no independently verified current legal or membership status."
+          },
+          {
+            "id": "idf-2003-atlas-historical-alias",
+            "url": "https://diabetesatlas.org/media/uploads/sites/3/2025/02/IDF-Atlas-2nd-Edition.pdf",
+            "locator": "Diabetes Atlas second edition \u00a92003, printed p294; indexed table Netherlands Antilles / Societat Kurasoleno di Diabetiko (SOKUDI) / Diabetic Association of Cura\u00e7ao",
+            "issuer": "International Diabetes Federation",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "indexed",
+            "qualification": "The source text gives the historical SOKUDI expansion. Screenshot attempt on PDF page index 293 returned HTTP 404; therefore no direct image/facsimile validation of this 2003 row in this run. Historical Netherlands Antilles period not promoted to 2026 territory governance or association membership."
+          },
+          {
+            "id": "curacao-medical-center-referral",
+            "url": "https://www.cmc.cw/clinics/nephrology-dialysis/diabetes-mellitus/?lang=en",
+            "locator": "First-party Cura\u00e7ao Medical Center referral: Diabetesvereniging Curacao links to https://sokudi.org",
+            "issuer": "Cura\u00e7ao Medical Center",
+            "checked": "2026-11-08",
+            "original": true,
+            "access": "direct",
+            "qualification": "Direct original hospital page examined. This supports a localized SOKUDI identity lead, not an IDF-authorized current member register, statutory delegation, legal entity certification or patient advice approval."
+          },
+          {
+            "id": "sokudi-original-website-attempt",
+            "url": "https://sokudi.org/",
+            "locator": "Original-domain direct access attempt",
+            "issuer": "SOKUDI (domain operator not verified)",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "blocked",
+            "qualification": "Direct website not accessible via web retrieval on 2026-11-08; current association governing records, self-name and registered identity not examined."
+          },
+          {
+            "id": "team-b-curacao-immutable-row",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/9237e5e3f360e596839529adf1d1b254e6fc368b/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+            "locator": "Team B B-CW-DVC, M49 531, Diabetesvereniging Cura\u00e7ao, CMC referral; blob 6b8dd8d2ebf43d7fed57dbf6140ca21d43aeafae",
+            "issuer": "Atlas Team B research inventory",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "direct",
+            "qualification": "Read-only at live draft PR #71 head. B-CW-DVC is a strong narrow candidate for a historically SOKUDI-associated alias but NOT an exact confirmed 2026 IDF legal membership/identity crosswalk. No Team B changes."
+          },
+          {
+            "id": "team-d-preexisting-nac-observations",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac/docs/atlas/handoffs/team-d/data/idf_nac_member_observations_2026.csv",
+            "locator": "Rows TD-IDF-NAC-001 to 025: 22 geography labels including 008 Cura\u00e7ao M49 531 unnamed, plus three transnational entries; blob 0f76e1f851d1f12499b015bd499211a99d3c3d0d",
+            "issuer": "Atlas Team D source inventory",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "direct",
+            "qualification": "Existing source-local dated/undated separation preserved. No source CSV, graph edge or current membership field changed. Geographic label is not a member organization."
+          },
+          {
+            "id": "team-d-exact-reserved-row",
+            "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac/docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+            "locator": "Row TD-BL-NET-008, IDF_MEMBER_JOIN, EXACT_ID_JOIN, P1_SOURCE_OWNER; queue blob 92c2975526ef6ade353dda31719dfefcee7f9bd5",
+            "issuer": "Atlas Team D native backlog",
+            "checked": "2026-11-08",
+            "original": false,
+            "access": "direct",
+            "qualification": "Requires an exact dated named member organization roster and defensible Team B ID/Cura\u00e7ao identity. Historical presence and separate denominator clarification do not satisfy strict present-period closure."
+          }
+        ],
+        "blocker": "TD-BL-NET-008 strict closure remains blocked. Current IDF NAC overview claims 22 associations/22 countries and territories; separate Members page claims 23 diabetes organizations/22 labels, while current Cura\u00e7ao detail lists no named member. Historical IDF 2023 and 2024 issuer-original annual reports clearly name Sosiedat Kurasoleno di Diabetiko under Cura\u00e7ao. Indexed-only 2003 IDF Atlas text associates the name with SOKUDI; Cura\u00e7ao Medical Center names Diabetesvereniging Cura\u00e7ao and refers to sokudi.org, corresponding to Team B B-CW-DVC. This is a historically anchored narrow alias/join lead, not verification of uninterrupted 2026 federation membership, a legal-entity match, an admission/exit date, or governance powers. SOKUDI own site was inaccessible, no dated current issuer member roll/custodian confirmation or authenticated current association legal instrument recovered. Retain both reported denominators, three non-geographic transnational member names, historical periods and all identity caveats. No legal, clinical, scientific, rights or Indigenous-governance approval.",
+        "reopen": "Only revisit with a new original dated IDF NAC member roll, IDF custodian/secretariat confirmation or archive revision naming current Cura\u00e7ao association(s), precise membership type and as-of/effective dates; plus authentic own-issuer/legal identity evidence permitting an exact Team B B-CW-DVC join. Independently review the 2003 facsimile if available. Source-period reports must not silently overwrite 2026 page data. Separate Verifier must assess this proposal before the PortalHunter-designated Writer makes a direct-child expected-SHA publication. The Librarian alone later checks in the verified result.",
+        "validation": [
+          "Run run-D-D01-NET-008-20261108; launch launch-D-NET-008-f3a91c6d72b04e5a85a1; Team D input SHA aaf6e3a37d7ab414305f0b0e0f4afc8f14f7f3ac.",
+          "Original harness reservation key D-01:TD-BL-NET-008 at exact Team D row. The architecture start commit 397fa3eb56e4ac1461a0fc313a3b1e5a09ebbc39 has parent 9a9c9e9ae5034db6990a25b3e1fa1b778a8f2296, changed only checkout.json under explicit expected-SHA lease, ledger blob 7b2ae251ed649fd756c5dfe572dd2572201f67bf; running launch readback PASS.",
+          "Team D PR #70 remained open/draft/unmerged at exact expected head. Team B PR #71 open/draft/unmerged head 9237e5e3f360e596839529adf1d1b254e6fc368b checked read-only; no cross-team writes.",
+          "Original 2023 and 2024 IDF report pages visually inspected through original PDF screenshots; current overview, Members index and Cura\u00e7ao page direct HTML inspected. Earlier 2003 IDF Atlas historical alias available only in indexed PDF text after screenshot failure (HTTP 404); SOKUDI domain inaccessible.",
+          "Observed IDF populations kept separate: two differently labeled current web headline counts 22 associations and 23 diabetes organizations; 22 geography labels; 21 individually named local associations on overview; three explicitly transnational names; Cura\u00e7ao currently unnamed on detail page. No arithmetic reconciliation invented.",
+          "Existing Team D idf_nac_member_observations_2026.csv contains 25 data rows: 22 geographic labels and three transnational rows; no modifications. Current Cura\u00e7ao M49 531 label is not proof of member institution. Current exact B-CW-DVC alias and 2026 member admission period remain unconfirmed.",
+          "Repository reference totals retained, not independently reappraised here: 47 nodes / 619 typed graph edges; 330 provenance URLs; 249 candidates; WHO current administration 205/249 verified and 44 unresolved; strictly April 2026 office-host positives 95/249; combined separately dated positives 105/249 (95 April +10 later SEARO); EMA directory 34/34, full legal/delegation/Team A packets 0/34; original Team D acceptance 3/5 scoped demonstrated and 2/5 held.",
+          "Research throughput: one exact old-gap IDF_MEMBER_JOIN case audited; two annual issuer-original period rosters and one qualified older alias located; narrow name/ID lead improved, but strict closures \u0394+0; existing count deltas 0; legal/clinical/governance approvals 0; no PROVENANCE, network, geography, condition, Team A/B or live-calculator edits.",
+          "Checkpoint-only result proposal at docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-008.json. This proposal is a loose GitHub blob NOT committed to Team D and NOT independently research-verified.",
+          "Result schema/allowlist structural checks completed in researcher environment; complete native Node validate.mjs, full checked-in harness.py CLI, GitHub Actions, source-semantic independent Verifier and scientific/legal/clinical approval NOT RUN at this HEAD."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-008.json"
+        ]
+      }
+    },
+    "codex-A-A01-044-20261108-311e1be9": {
+      "team": "A",
+      "key": "A-01:044",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "044",
+        "expected_sha": "0e17b6e05700f4e02be1479d846f666ac04dec47",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=4,m49_code=044",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--044.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-codex-A044-48ad111ea8bea3e48dd46b75",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:044",
+        "commit": "864757cf8656dd4fc89cf596ceecc16b98156fbb",
+        "parent": "0e17b6e05700f4e02be1479d846f666ac04dec47",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--044.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--044.json": "2154bef53f800ae3eda33f5815941ac1b643faf5"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:044",
+        "input_sha": "0e17b6e05700f4e02be1479d846f666ac04dec47",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "existing-health-portfolio-allocation",
+            "url": "https://opm.gov.bs/wp-content/uploads/2026/06/Allocation_of_Portfolio-Extraordinary_Gazette_19th_May_2026_Ministers_Amendments_Final.pdf",
+            "locator": "Extraordinary Official Gazette 19 May 2026; printed p7 (PDF page8), health portfolio; printed p8 (PDF page9), Works and Family Island/local-government portfolio",
+            "issuer": "Bahamas Cabinet Office / allocation of ministerial responsibilities; Office of Prime Minister hosting",
+            "checked": "2026-11-08 UTC",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 application/pdf, 511063 bytes. Printed p7 visually inspected: health portfolio lists public health, vaccination, quarantine, medicines, Public Analyst Laboratories and relations with named boards. Printed p8 text separately lists relations with local government. This rechecks existing A-044-GOV-20261105; does not establish a statutory surveillance institute, actual island delegation, professional statute amendment chain, implementation or November2026 currency."
+          },
+          {
+            "id": "existing-cabinet-announcement",
+            "url": "https://opm.gov.bs/prime-minister-davis-announces-new-cabinet/",
+            "locator": "18 May 2026 Cabinet announcement, appointments list",
+            "issuer": "Bahamas Office of the Prime Minister",
+            "checked": "2026-11-08 UTC",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 text/html. Lists Michael Darville for Health and Wellness, Clay Sweeting for Works and Family Island Affairs, and Owen Wells as Minister of State. This is the same governmental publication family as the portfolio host and an administrative announcement, not an independent original instrument proving all statutory powers."
+          },
+          {
+            "id": "health-services-original-retrieval",
+            "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/1914/1914-0017/1914-0017.pdf",
+            "locator": "Requested exact existing Health Services Act Chapter231 statutory PDF URL by HTTP GET at 17:41:42 UTC",
+            "issuer": "Bahamas Attorney General government laws host; historical issuing legislature not reauthenticated in this attempt",
+            "checked": "2026-11-08 UTC",
+            "original": false,
+            "access": "blocked",
+            "qualification": "HTTP202 text/html, 241 bytes, meta-refresh to /.well-known/sgcaptcha/ instead of PDF. Original statute text and through-November2026 amendments were not retrieved. Prior A65-044-01 narrow historical support is preserved; no inference that no amendment exists."
+          },
+          {
+            "id": "health-promotion-original-retrieval",
+            "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0069/2025-0069.pdf",
+            "locator": "Requested exact existing Health Promotion and Wellness Act2025 No69 PDF URL by HTTP GET at 17:41:43 UTC",
+            "issuer": "Bahamas Attorney General government laws host; historical issuing legislature not reauthenticated in this attempt",
+            "checked": "2026-11-08 UTC",
+            "original": false,
+            "access": "blocked",
+            "qualification": "HTTP202 text/html, 241 bytes, captcha redirect instead of statutory PDF. Prior A65-044-02 remains preserved. Original implementation, regulations, amendment chronology and effective-scope questions remain unverified."
+          },
+          {
+            "id": "independent-official-discovery-search",
+            "url": "https://opm.gov.bs/?s=health+services+act",
+            "locator": "Official OPM site search for health services act, checked 17:41:45 UTC; five displayed results",
+            "issuer": "Bahamas Office of the Prime Minister",
+            "checked": "2026-11-08 UTC",
+            "original": true,
+            "access": "direct",
+            "qualification": "Second official retrieval strategy used a separate governmental publication route. Search returned healthcare/training, clinic and July2025 health-bills debate pages; the displayed results did not supply original amended Health Services statute, statutory surveillance instrument or Family Island delegation. This bounded retrieval failure is not an exhaustive search or proof of absence."
+          },
+          {
+            "id": "official-bills-debate-lead",
+            "url": "https://opm.gov.bs/prime-minister-davis-contribution-health-bills-compendium-2025/",
+            "locator": "30 July2025 contribution; paragraphs beginning Pharmacy Bill2025 and National Health Insurance Bill2025; Family Island provider reference",
+            "issuer": "Bahamas Prime Minister / Office of the Prime Minister",
+            "checked": "2026-11-08 UTC",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 official speech. Describes bills and proposed programmes, including pharmacy and NHI. It is a first-party original speech, not the enacted original Act, commencement notice, current amendment chain or local statutory delegation. Dental-bill discussion was not used to reopen closed dental commencement scope."
+          }
+        ],
+        "blocker": "Original remaining operative amendment/repeal chains, professional/medicines instruments, statutory surveillance duties and Family Island/local public-health delegation were not authenticated. Strategy1: exact government laws statutory URLs and portal yielded HTTP202 HTML captcha responses instead of originals. Strategy2: independent OPM government site search and located July2025 health-bills debate supplied administrative/bill leads, not the required enacted originals or local instruments. Accessible May2026 portfolio Gazette confirms only already-recorded narrow allocation. No claim of legal absence or exhaustive retrieval; zero legal-status promotions.",
+        "reopen": "Recover original current Health Services amendments/repeals and numbered enacted professional/medicines Acts and commencement/regulatory orders; inspect statutory surveillance mandates and actual Family Island/local delegation instruments with competent issuer, jurisdiction and dates through November2026, using an accessible official law/Gazette archive or custodian response. Obtain separately issuing authority evidence where required. Preserve prior narrow dental commencement closure; reopen this logical key only with maintainer approval, immutable prior blocker and qualifying new trigger.",
+        "validation": [
+          "Exact packet: A-01:044; priority_rank=4,m49_code=044; PRIORITIZED_BACKLOG_20261107.csv at input_sha. Six exact prior IDs audited against pinned PROVENANCE: A-044-GOV-20261105; A-044-SUPP-20261105; A65-044-01; A65-044-02; A65-044-03; A69-044-01. Last two retain prior historical findings and were deliberately not retrieved because dental commencement is CLOSED and excluded.",
+          "Run codex-A-A01-044-20261108-311e1be9; fresh researcher launch launch-codex-A044-48ad111ea8bea3e48dd46b75; own atomic start https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/2a3ca080ec03b9248d603fff0eefd22d27aa4000, parent bd3c24b0c4b68402506ec29a4b7460034d71442f; independent remote readback verified direct parent/tree, sole checkout.json changed path, blob 3d2c1fb5050d32fe6a797cb0515d4bfcb952424a, exact ledger bytes, live head and running ticket under own launch before research.",
+          "PR68 and PR75 independently read open/draft/unmerged; TeamA head matched input_sha before start. No TeamA branch publication performed by Researcher. Writer designation and separate independent verifier approval of exact bytes remain required.",
+          "Original and expanded counts unchanged from CURRENT A73 at input_sha: 248/248 geography and authority-or-UNKNOWN dispositions; 231 provisional identities,17 UNKNOWN,318 bodies,45 relations,4 shared scopes; original exact independent-issuer gate1/10; provenance758. Expanded separately:29/248 partial,219/248 unscored,59/1984 SOURCE_SUPPORTED,134 RESEARCHED_INCOMPLETE,1789 NOT_TRIAGED,2 CONFLICT_UNRESOLVED,0/248 all-tier research complete. Dataset paths changed0; all deltas0.",
+          "Only proposed destination docs/atlas/handoffs/team-a/runs/A-01--044.json. No canonical data changes, source promotions, identity/relationship changes, legal/clinical/rights/ancestry/governance approval or expert acceptance. Historical provenance and prior supported dimensions preserved.",
+          "Researcher executed PYTHONDONTWRITEBYTECODE=1 python3 /workspace/atlas-native-preflight/harness.py A --live-sha 0e17b6e05700f4e02be1479d846f666ac04dec47 --packet packet.json --result A-01--044.json: exit0 PASS structural contract. At a separate git-archive snapshot of exact input_sha with only this proposed checkpoint added: python3 validate.py exit0 and python3 -m unittest -v exit0,10 tests PASS. Structure does not establish legal authority or currency. Separate independent Verifier approval of exact bytes and designated Writer publication remain pending; this result cannot self-certify its publication commit."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--044.json"
+        ]
+      }
+    },
+    "codex-A-A01-050-20261108-d454c0ce": {
+      "team": "A",
+      "key": "A-01:050",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "050",
+        "expected_sha": "864757cf8656dd4fc89cf596ceecc16b98156fbb",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=5,m49_code=050",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--050.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-codex-A050-81202f88823318869d983e6f",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:050",
+        "commit": "24582e5fab6a9f3c0d85250d2a3e5e80d2fd0e74",
+        "parent": "864757cf8656dd4fc89cf596ceecc16b98156fbb",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--050.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--050.json": "0967f82fafe82f6780599dfdf8ad6c514bba2cb7"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:050",
+        "input_sha": "864757cf8656dd4fc89cf596ceecc16b98156fbb",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "bmdc-act2010-official-text",
+            "url": "https://bdlaws.minlaw.gov.bd/act-print-1065.html",
+            "locator": "Bangla Act61/2010; sections1(2),3,5,18\u201323,38; official print view dated08/11/2026",
+            "issuer": "Bangladesh Parliament (Act); Legislative and Parliamentary Affairs Division government database (host)",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": false,
+            "access": "direct",
+            "qualification": "HTTP200 official Bangla statutory database text. Section1(2) says immediate effect; section3 Council constitution and section5 professional functions; section38 repeal/savings of1980 law. English paraphrases are working translations, not certified legal translation. The print date is retrieval/render date, not a legal effective/amendment date. This repeats narrow2010 professional-regulator support, not a signed original Gazette or independent complete amendment/repeal chain throughNovember2026."
+          },
+          {
+            "id": "mefwd-bmdc-draft-index",
+            "url": "https://mefwd.gov.bd/pages/static-pages/694032f235ce18e1c05648e4",
+            "locator": "Government laws/rules table: \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2 \u098f\u09a8\u09cd\u09a1 \u09a1\u09c7\u09a8\u09cd\u099f\u09be\u09b2 \u0995\u09be\u0989\u09a8\u09cd\u09b8\u09bf\u09b2 \u0985\u09a7\u09cd\u09af\u09be\u09a6\u09c7\u09b6, \u09e8\u09e6\u09e8\u09eb (\u0996\u09b8\u09dc\u09be), linked PDF ending ec0fcade2c5c46eea463b20332db7a97.pdf",
+            "issuer": "Medical Education and Family Welfare Division, Ministry of Health and Family Welfare (index publisher)",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 first-party index still explicitly marks the2025 BMDC Ordinance \u0996\u09b8\u09dc\u09be (draft). Index cannot prove enactment, complete current legal status or absence of a later separately issued ordinance. Contains other draft instruments, which remain distinct."
+          },
+          {
+            "id": "mefwd-linked-bmdc-draft",
+            "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mefwd/2024/12/ec0fcade2c5c46eea463b20332db7a97.pdf",
+            "locator": "40-page scanned PDF; page1 visually inspected, heading \u09aa\u09cd\u09b0\u09a5\u09ae \u09a1\u09cd\u09b0\u09be\u09ab\u099f, 2025 ordinance title and blank ordinance-number line",
+            "issuer": "Medical Education and Family Welfare Division-linked draft; proposed President issuing language is draft, not authenticated issuance",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 complete17990588-byte PDF downloaded after initial12MB bounded capture was incomplete and not relied on as full text. Page1 shows first-draft label and unfilled ordinance number. Its proposed immediate-effect and repeal language cannot establish an issued instrument or repeal of2010 law. Only page1 visually read; pdftotext exposes CamScanner watermark rather than substantive text. Remaining39 pages not substantively read. No certified translation."
+          },
+          {
+            "id": "mohfw-current-portal",
+            "url": "https://mohfw.gov.bd/",
+            "locator": "Government ministry homepage and Health Services/Medical Education and Family Welfare division links",
+            "issuer": "Ministry of Health and Family Welfare, Bangladesh",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 first-party organizational portal; administrative links do not establish current statutory allocation, surveillance institute powers, district/local/Indigenous/devolved public-health duties or DGDA legal authority."
+          },
+          {
+            "id": "government-press-gazette-route",
+            "url": "https://www.dpp.gov.bd/bgpress/index.php/document/gazettes/140",
+            "locator": "Gazettes Archive observed keyword/date/type form; independently exposed extraordinary archive /document/extraordinary_gazettes/285",
+            "issuer": "Department of Printing and Publications, Bangladesh Government Press (Gazette publisher/host)",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": false,
+            "access": "direct",
+            "qualification": "HTTP200 official archives accessible; generic initial /document/gazettes redirected home, corrected by following actual archive link. Archive has52495 records and currentNovember2026 listings; extraordinary page returned generic search controls/No result is found plus pagination, not a subject-specific proof. No original BMDC replacement or complete2010\u20132026 amendment chain recovered from these bounded index views."
+          },
+          {
+            "id": "government-press-subject-search",
+            "url": "https://www.dpp.gov.bd/bgpress/index.php/search",
+            "locator": "POST q=\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2 \u09a1\u09c7\u09a8\u09cd\u099f\u09be\u09b2 \u0995\u09be\u0989\u09a8\u09cd\u09b8\u09bf\u09b2; response No result match for the exact query",
+            "issuer": "Bangladesh Government Press search service",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": false,
+            "access": "indexed",
+            "qualification": "HTTP200 no site-search match for this exact Bangla query. This is a bounded discovery failure, not an exhaustive Gazette search or proof that no law exists."
+          },
+          {
+            "id": "government-press-archive-search",
+            "url": "https://www.dpp.gov.bd/bgpress/index.php/document/search_gazette",
+            "locator": "Observed archive POST form: keyword \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2, dates blank, gazette_type0; earlier date-bounded \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2 and \u09a1\u09c7\u09a8\u09cd\u099f\u09be\u09b2 variants separately logged",
+            "issuer": "Bangladesh Government Press archive search service",
+            "checked": "2026-11-08; timed Codex Researcher source retrieval and specified passage inspection",
+            "original": false,
+            "access": "blocked",
+            "qualification": "Observed form search returned HTTP500 with empty body, including keyword-only request without date-format ambiguity. Earlier dates2025-01-01 to2026-11-08 also returned500; those date-formatted requests alone are not relied on as a valid exhaustive search. Server failure prevents instrument-level chronology recovery via this route. No absence conclusion."
+          }
+        ],
+        "blocker": "Original issued BMDC replacement/amendment/repeal Gazette chain through8November2026 was not independently authenticated. The official2010 database and government2025 draft are accessible, but neither proves all later operative law; separately accessed Government Press indexes/site search failed to locate an instrument and the observed archive search returnedHTTP500. The remaining MOHFW statutory allocation, medicines/regulator, surveillance/institute and national/local/devolved scope remains unverified. Existing narrow2010 professional SOURCE_SUPPORTED finding retained; no evidence of absence, repeal or all-tier completion inferred.",
+        "reopen": "Recover original numbered/signed/published Gazette BMDC2025/2026 replacement or amendments, or an official custodian response establishing the authoritative chronology, independently compare with2010 Act61 and exact draft; resolve effective/repeal/savings dates and issuer. Then authenticate remaining ministry allocation, DGDA medicines/regulator, surveillance/institute and district/local/devolved instruments under a newly approved reopening packet referencing this checkpoint. A duplicate draft/index or successful metadata search is not sufficient.",
+        "validation": [
+          "Exact native row priority_rank=5,m49_code=050; three source IDs GOV-050-20261104,A65-050-01,A65-050-02 at input SHA; full unchanged row and prior sources saved in Planner handoff.",
+          "Run codex-A-A01-050-20261108-d454c0ce; own fresh launch launch-codex-A050-81202f88823318869d983e6f; own start90d4001531a1750e17556f9e44c8d661a94076d1 direct parent3a206edb8120549b7324a4ec7df9fa16bc5bd91d. Explicit expected-SHA Git lease succeeded once. Independent remote parent/tree/sole ledger path/blob/exact bytes/live head/running launch/draft PR readback PASS before research.",
+          "Research strategies: exact official law/ministry text and linked draft; separate Government Press Gazette archive and observed subject/keyword search. Both failed to authenticate the missing operative chronology. HTTP200 draft and index are accessible evidence, not evidence of enactment. All exact responses/methods/URLs/statuses saved in source retrieval logs.",
+          "Scope: one Bangladesh case, no occupied case reopening, no Bahamas dental re-research, no legal/clinical/rights/ancestry approval. Proposed changed paths only this run manifest; no canonical data changes.",
+          "Original metrics unchanged from pinned CURRENT A73: geography248/248; authority-or-UNKNOWN248/248;231 provisional identities,17UNKNOWN;318 bodies,45relationships,4shared scopes; independent narrow issuer sample1/10;758provenance.",
+          "Expanded separate metrics unchanged:29PARTIAL/248,219UNSCORED/248;59SOURCE_SUPPORTED/1984,134RESEARCHED_INCOMPLETE,1789NOT_TRIAGED,2CONFLICT_UNRESOLVED;0/248all-tier research-complete. All run deltas0. Existing narrow Bangladesh professional-regulator support retained.",
+          "Researcher proposed checkpoint only; separate fresh read-only Verifier must review exact bytes/source qualifications and bind approval to fingerprint; designated Writer and independent coordinator readback/check-in still required. No self-certified result commit.",
+          "Actual exact-proposal validation: python3 /workspace/atlas-native-preflight/harness.py A --live-sha864757cf8656dd4fc89cf596ceecc16b98156fbb --packet packet.json --result result.json exit0 PASS; native python3validate.py exit0 PASS and python3-munittest-v exit0,10tests PASS on separate git-archive snapshot of input SHA with only proposed checkpoint added. Logs saved with handoff. These are structural integrity checks, not independent legal verification."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--050.json"
+        ]
+      }
+    },
+    "codex-A-A01-020-20261108-2041f192": {
+      "team": "A",
+      "key": "A-01:020",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "020",
+        "expected_sha": "24582e5fab6a9f3c0d85250d2a3e5e80d2fd0e74",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=6,m49_code=020",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--020.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-codex-A020-7b9cb07d3e27d31f7f45e947",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:020",
+        "commit": "64fc7b26be3b0f7e6986d5651286279e50ced9a6",
+        "parent": "24582e5fab6a9f3c0d85250d2a3e5e80d2fd0e74",
+        "paths": [
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/runs/A-01--020.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/CURRENT.md": "af1474651cd8eaf97b8e26e6aa211ff897014c52",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv": "f74cb4560091aa9f802c632e3062b978d04ddb78",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv": "8ba36875b2600bbf887664c8dbba4e93680611fd",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv": "0d0ba964503c45e356b6fb38addd06662b2aa7a0",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv": "1b4a9a1fc5f0b60a62ed9c2833dac1a656ef9a3a",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv": "e7489529c0fcaa1c755ee24231a192f4f619e8a3",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv": "a24443ba5c27919c2ef69d6a86a57c64b28a74de",
+          "docs/atlas/handoffs/team-a/runs/A-01--020.json": "8e731ab326c9ea13db097641c100bcc27d92f597"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:020",
+        "input_sha": "24582e5fab6a9f3c0d85250d2a3e5e80d2fd0e74",
+        "disposition": "verified_scoped",
+        "evidence": [
+          {
+            "id": "CODEX-A020-20261108-01",
+            "url": "https://documents.bopa.ad/bopa-documents/037150/pdf/QSO_2025_12_04_16_02_09.pdf",
+            "locator": "BOPA no150,10December2025,printed pages1 and12; adoption formula, Cerni Cairat Perrigault C\u00f2nsol major signature and Disposici\u00f3 final",
+            "issuer": "Com\u00fa de Sant Juli\u00e0 de L\u00f2ria (issuing commune); Cerni Cairat Perrigault, C\u00f2nsol major (signer); BOPA official publication host",
+            "checked": "2026-11-08; direct PDF and visual page1/page12 inspection",
+            "original": true,
+            "access": "direct",
+            "qualification": "Original Catalan BOPA no.150,10 December2025,12pages: printed p1 commune adoption4December2025; p12 Cerni Cairat Perrigault, C\u00f2nsol major, and final clause effective day after publication (11December2025). Original parent recovered, not private automated text. One-parish public hygiene/waste only; does not authenticate six other communes, medical/medicines authorisations, full national current law or later amendment sweep. Existing June2026 article29 amendment retained; parent alone is not current consolidated text. No legal/expert approval."
+          },
+          {
+            "id": "bopa-original-parent-metadata",
+            "url": "https://bopaazurefunctions.azurewebsites.net/api/GetDocumentByFileName?name=QSO_2025_12_04_16_02_09",
+            "locator": "Public official document metadata: issue150/2025, document identifier and official storage directory037150; endpoint observed in BOPA page JavaScript",
+            "issuer": "BOPA official publication service; metadata host not ordinance issuer",
+            "checked": "2026-11-08 HTTP200 JSON; followed original document links",
+            "original": false,
+            "access": "metadata",
+            "qualification": "Metadata resolves original directory, not itself legal text or second issuer. Private MCA page used only as link discovery, not legal evidence."
+          }
+        ],
+        "blocker": "Remaining six-commune instruments, later amendments and current national medical/medicines chain not authenticated in this bounded parent-recovery result; no all-tier closure.",
+        "reopen": "A-01:020 becomes occupied after check-in. Future reopening requires maintainer authorization tied to this immutable result and newly recovered original other-commune/amendment/national instrument, not a private reconstruction.",
+        "validation": [
+          "Exact reserved native row priority_rank=6,m49_code=020 at inputSHA; seven prior source IDs retained; new original source CODEX-A020-20261108-01.",
+          "Run codex-A-A01-020-20261108-2041f192; own launch launch-codex-A020-7b9cb07d3e27d31f7f45e947; start75a00e48c0b98c9bb7b528785365435e91f6e998 directly parented by reservation44fa3ab963c6a379c34cbdf2dfffeeb40d363a68. Independently read remote parent/tree/sole ledger path/blob/exact bytes/live running launch before research.",
+          "Original Catalan p1 adoption4Dec2025; Gazette publication10Dec2025; p12 final clause means effective11Dec2025 (English translation by Researcher, not certified legal translation). Existing A72 June2026 article29 amendment retained and not counted as new.",
+          "Provenance758 to759 (+1); Andorra source observations7 to8; uniqueURLs7 to8. All prior provenance rows byte-content-equivalent; no dimension status changes; A70-IA-05 PARTIAL/NO retained; issuer gate1/10 unchanged.",
+          "Original metrics248 geography/231 provisional/17UNKNOWN/318bodies/45relations/4scopes unchanged. Expanded partial29/248,unscored219/248,narrow supported59/1984,incomplete134,nottriaged1789,conflicts2,all-tier complete0/248 unchanged. Historical A73 snapshots remain qualified historical.",
+          "Actual native validator exit0 PASS (248 legal rows/248 queue items/759 provenance;231 provisional identities,17 unresolved,318 bodies,45 relationships,4 scopes); actual unittest exit0,10 tests PASS. Atlas packet/result structural contract exit0 PASS on exact input snapshot with these proposed files. Focused controls verify all non020 rows unchanged, all prior provenance retained, dimension statuses and PARTIAL/NO unchanged, exact eight paths. These structural checks do not certify legal completeness.",
+          "Only exact eight allowed paths; blocked/no_change restriction not used because this is a scoped original-source dataset update. No deletes/renames/symlinks/foreign paths; restricted third-party PDF retained locally only. Separate fresh Verifier and designated Writer required; Researcher makes no team branch publication."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--020.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md"
+        ]
+      }
+    },
+    "codex-A-A01-036-20261108-0badc804": {
+      "team": "A",
+      "key": "A-01:036",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "036",
+        "expected_sha": "64fc7b26be3b0f7e6986d5651286279e50ced9a6",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=7,m49_code=036",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--036.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-codex-A036-91adcfc7ab4e7f6e1ab1048d",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:036",
+        "commit": "7f24bf92adb4a4569219ab9a3c236595ae5024c8",
+        "parent": "64fc7b26be3b0f7e6986d5651286279e50ced9a6",
+        "paths": [
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/runs/A-01--036.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--036.json": "a2e47643dcadc0607f9b8657cff6d53634ee8a3e",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv": "6ec5444fd2ca663c261f52b5e87440a52190457e",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv": "65a2fab16dbfa33a1b233c298e1546a0fba8e16a",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv": "69ef6e599caace928fc496aac02c67462d710a03",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv": "3e50bed1cda24a8f5f1849fe0885c0383ea856a4",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv": "3c5c1e89d6cbc9724d40e3baeb975071ced0b95a",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv": "5bbb1cd85f9b4e040fc617a2b0a8be7ebe2818a8",
+          "docs/atlas/handoffs/team-a/CURRENT.md": "66ed57f17c52095e1be1fd118479bfdb0c8818b8"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:036",
+        "input_sha": "64fc7b26be3b0f7e6986d5651286279e50ced9a6",
+        "disposition": "verified_scoped",
+        "evidence": [
+          {
+            "id": "CODEX-A036-20261108-01",
+            "url": "https://www.legislation.qld.gov.au/view/pdf/asmade/act-2009-045",
+            "locator": "Original PDF page21 assent; printed pp20-21 ss2/4 (PDF22/23); printed p48 scheduleds23 (PDF50)",
+            "issuer": "Parliament of Queensland (enacting legislature); Queensland Office of Parliamentary Counsel official as-passed publication host",
+            "checked": "2026-11-08 HTTP200 application/pdf; original pages visually inspected",
+            "original": true,
+            "access": "direct",
+            "qualification": "Official Queensland as-passed Act45/2009, assent3November2009, original PDF page21 (assent), printed pp20-21 (ss2,4) and p48 (scheduled s23) visually inspected. Section2 states Act other than part4 commences1July2010; s4 applies scheduled Law as law of Queensland; scheduled s23 establishes Australian Health Practitioner Regulation Agency. Historical enacted foundation only, not a complete 2026 amendment/commencement or other-state/territory/First Nations/public-health chain. Parliament of Queensland is issuer, Queensland Parliamentary Counsel is publication host. No legal/expert approval."
+          },
+          {
+            "id": "CODEX-A036-20261108-02",
+            "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/2026-04-10/act-2009-045",
+            "locator": "Fixed10April2026 whole-act text ss2/4; scheduleds23; observed current-page whole-act link",
+            "issuer": "Queensland Office of Parliamentary Counsel official in-force compilation of Parliamentary Act; not a second original legal issuer",
+            "checked": "2026-11-08 HTTP200; direct text inspection",
+            "original": false,
+            "access": "direct",
+            "qualification": "Official whole-act version selected by current-page link, dated10April2026, directly read at ss2,4 and scheduleds23. Current s4 expressly applies schedule as modified by part4; differs from original simple adoption, so original is not substituted for current text. Legislative-history table lists2025Act6 with effective versions1Dec2025 and10Apr2026; these metadata entries are leads, not original amending/commencing instruments. No exhaustive amendment verification or claim of absence of later instruments; same Queensland host is not independent second issuer."
+          },
+          {
+            "id": "qld-history-metadata",
+            "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2009-045/lh",
+            "locator": "Table of Reprints:1Dec2025/10Apr2026 versions attributed2025Act6; amending legislation links",
+            "issuer": "Queensland Office of Parliamentary Counsel register metadata",
+            "checked": "2026-11-08 HTTP200",
+            "original": false,
+            "access": "metadata",
+            "qualification": "Dates and links are retrieval leads only; original2025Act6 and commencing instruments not inspected; no comprehensive amendment closure."
+          },
+          {
+            "id": "federal-versions",
+            "url": "https://www.legislation.gov.au/C2004A03952/latest/versions",
+            "locator": "All versions default page, latestC2025C00525/C89/5Sep2025; known-future-amendment control not exercised",
+            "issuer": "Federal Register Office of Parliamentary Counsel metadata; not independent law issuer",
+            "checked": "2026-11-08 HTTP200; exact compilation AAO and TGA text also read",
+            "original": false,
+            "access": "metadata",
+            "qualification": "Versions default page and only first interactions page read. Not proof of absence of later/uncommenced instruments or complete through2026 amendment audit. Preserve prior federal support."
+          }
+        ],
+        "blocker": "Whole Australia2026 original amendment/commencement, other-state/territory/First Nations and surveillance/NHMRC/local public-health scope remain unresolved; this is a narrow source update, not full legal closure.",
+        "reopen": "A-01:036 occupied after check-in. Reopening requires maintainer authorization with this immutable result and newly authenticated named original amendment/other-jurisdiction evidence.",
+        "validation": [
+          "Exact native row priority_rank=7,m49_code=036; five prior source IDs audited and retained. Run codex-A-A01-036-20261108-0badc804; launch launch-codex-A036-91adcfc7ab4e7f6e1ab1048d; own start4996af753c78c21ca066e990364e629b791b2eeb directly parented by reservation04a4d01b97428c7cae4613691dcc9db929766fda, independent remote parent/tree/sole ledger path/blob/exact bytes/live running launch read before research.",
+          "Original Queensland PDF assent3Nov2009/ss2,4/scheduleds23 visually checked at PDF21/22/23/50 (printed20/21/48). Original is historical foundation; fixed current10Apr2026 text separately read and differs at s4 (modified by part4). No automatic other-jurisdiction or current comprehensive mandate inference.",
+          "Prior health.gov.au identity and annual-report URLsHTTP503; prior AAO/TGA compilation/latest metadataHTTP200. Additional Federal versions/interactionsHTTP200; Qldoriginal/current/historyHTTP200; NSW original application-act routeHTTP403. These access failures do not rescind historical source observations or prove absence of law.",
+          "Original provenance759\u2192761 (+2: one original Queensland enactment and one qualified current compilation); Australia source observations5\u21927. All prior provenance/non036rows retained. Every dimension status and A70-IA-10 PARTIAL/NO unchanged, issuer sample1/10 unchanged.",
+          "Original geography248/248,231provisional,17UNKNOWN,318bodies,45relations,4scopes unchanged. Expanded29partial/248,219unscored/248,59/1984supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged.",
+          "Final exact-proposal Atlas packet/result structural check, native validate.py and10unittests, focused preservation controls executed and recorded in saved handoff/logs before independent verification. Checks are structural, not legal or clinical approval.",
+          "Exact8packet paths only; no deletions/renames/symlinks/foreign roots. Source PDFs kept local only. Separate fresh Verifier must approve these exact fingerprints and designated Writer alone may publish. Researcher has no team publication authority."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--036.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md"
+        ]
+      }
+    },
+    "codex-A-A01-012-20261108-95ff0d24": {
+      "team": "A",
+      "key": "A-01:012",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "012",
+        "expected_sha": "7f24bf92adb4a4569219ab9a3c236595ae5024c8",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=8,m49_code=012",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--012.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-codex-A012-6ebafef686f299be40f953f5",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:012",
+        "commit": "2211d184e0392c117f4930966aa1017d4b7c9702",
+        "parent": "7f24bf92adb4a4569219ab9a3c236595ae5024c8",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--012.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--012.json": "eb658621b43c3c1e98f22f9bb9250866510ae889",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv": "63d882b7d4f63a30a4a2654c376abef0b1e1fffe",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv": "89d147977ceff1ccc4d437fadbaf92fcdda0844a",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv": "3baefb0a67f74e6c70f372f596e21ba5fc173e77",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv": "a4cc4b74c054546e0b903b4062c18bc742f2fe51",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv": "f9f6d86b233471b9409c121e3d0cfc0c3d3fb2de",
+          "docs/atlas/handoffs/team-a/CURRENT.md": "a3da139f88b1c20de101535ab0ce5bf973e855e1",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md": "bcb26ef56a0dd1fa8da1e972411c476541ef7906"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:012",
+        "input_sha": "7f24bf92adb4a4569219ab9a3c236595ae5024c8",
+        "disposition": "verified_scoped",
+        "evidence": [
+          {
+            "id": "CODEX-A012-20261108-01",
+            "url": "https://www.joradp.dz/FTP/jo-arabe/2018/A2018046.pdf",
+            "locator": "Original Arabic issue46/2018 printedpp3,7,41; Law18-11 header, arts31-33, art450/named promulgator",
+            "issuer": "Algerian Parliament health law, President Abdelaziz Bouteflika promulgation; Secretariat-General of Government original Arabic Gazette publisher",
+            "checked": "2026-11-08 HTTP200 application/pdf; cited original pages visually inspected",
+            "original": true,
+            "access": "direct",
+            "qualification": "Official original Arabic Gazette46/2018 PDF visually inspected at printed pp3,7,41: Law18-11 dated2July2018; Gazette publication29July2018; arts31-33 distinguish minister-supervised national, multi-wilaya regional and commune programmes; p41 names Abdelaziz Bouteflika and publication clause art450. No general commencement date inferred from publication clause. Historical original, not a current consolidated law or authenticated post2018/2020 amendment chain, present ministry organic law or actual implementation. Prior French translation observation retained separately. Narrow reading/paraphrase is not certified legal translation or expert approval."
+          },
+          {
+            "id": "CODEX-A012-20261108-02",
+            "url": "https://www.joradp.dz/FTP/jo-arabe/2020/A2020050.pdf",
+            "locator": "Original Arabic issue50/2020 printedpp4-5; Ordinance20-02 heading, amendedarts217/218/224/233, art2/named promulgator",
+            "issuer": "Algerian President Abdelmadjid Tebboune, Presidential Ordinance; Secretariat-General of Government original Arabic Gazette publisher",
+            "checked": "2026-11-08 HTTP200 application/pdf; cited original pages visually inspected",
+            "original": true,
+            "access": "direct",
+            "qualification": "Official original Arabic Gazette50/2020 printed pp4-5 visually inspected: Presidential Ordinance20-02 dated30August2020 amends Law18-11; amended arts217/218/224/233 give specified pharmaceutical-industry minister listing/licensing/agency-supervision/temporary-use powers; p5 names Abdelmadjid Tebboune and art2 publication clause. Historical2020 allocation, not proof unchanged8November2026 or complete professional/surveillance/wilaya-commune regime. SGG is publisher, not another issuer. Prior French translation retained; original Arabic recovery is not certified translation or independent current-mandate approval."
+          }
+        ],
+        "blocker": "Full current ministry organic/amendment/commencement, surveillance/professional/regulator and actual local implementation chain remains unresolved; this narrow original-Arabic source recovery is not all-tier closure.",
+        "reopen": "After check-in this logical key remains occupied. Reopen only with maintainer authorization, immutable prior result and newly authenticated named later amendment/current organic/local instrument trigger.",
+        "validation": [
+          "Exact row priority_rank=8,m49_code=012, four prior source IDs retained. Run codex-A-A01-012-20261108-95ff0d24; own launch launch-codex-A012-6ebafef686f299be40f953f5; start98407da51e90d64ac2db645cb0415a0643155b33 directly parented by reservation01b4746c44dd51da9281cde9ef9d56bfffea7501; independent remote parent/tree/sole ledger path/blob/exact bytes/live running launch read before research.",
+          "Original Arabic2018 Gazette visually read printedpp3/7/41 and2020pp4/5. Original instrument dates2July2018/30August2020; Gazette publication29July2018/30August2020. Publication clauses do not establish a separate general commencement rule. Narrow paraphrases not certified translation.",
+          "All four priorURLs attempted: Justice directory503; PNRS200 only JS shell;2018FrenchPDF200; exact2020FrenchURL503. OriginalArabicPDFs200; currentArabicindex503. No complete current amendment search or absence inference. Historical translation observations retained.",
+          "Provenance761\u2192763 (+2original Arabic records), Algeria4\u21926, all761prior provenance and all non012rows preserved. Both derived248row indexes updated only012. Every legal dimension/stage/acceptance unchanged; global issuer sample1/10 and gateOPEN unchanged.",
+          "Original geography248/248,231provisional/17UNKNOWN,318bodies/45relations/4scopes unchanged. Expanded29partial/248,219unscored/248,59/1984supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged.",
+          "Final exact-proposal harness structural check, native validator and10tests plus focused preservation checks executed and logged before independent verification. These tests are structural, not legal/expert approval.",
+          "Only8exact packet paths; no production/foreign roots/deletes/renames/symlinks. Source PDFs retained local only. Separate Verifier must independently check evidence and approve exact fingerprints; designated Writer alone may publish. Researcher made no team branch publication."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--012.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md"
+        ]
+      }
+    },
+    "codex-A-A01-056-20261108-137d6409": {
+      "team": "A",
+      "key": "A-01:056",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "056",
+        "expected_sha": "2211d184e0392c117f4930966aa1017d4b7c9702",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=9,m49_code=056",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--056.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A056_ORIGINAL_COMPETENCE_20261108.md"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-codex-A056-eeaae3fd138c01c6def69eae",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:056",
+        "commit": "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+        "parent": "2211d184e0392c117f4930966aa1017d4b7c9702",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--056.json"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/runs/A-01--056.json": "5e58660cccdebfe0f29b9454f7e9913fa00db481"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:056",
+        "input_sha": "2211d184e0392c117f4930966aa1017d4b7c9702",
+        "disposition": "blocked",
+        "evidence": [
+          {
+            "id": "BE-FPS-existing-audit",
+            "url": "https://www.health.belgium.be/en",
+            "locator": "FPS English institutional portal; language links nl/fr/de/en; not a statutory instrument",
+            "issuer": "Belgian Federal Public Service Health, Food Chain Safety and Environment, institutional publisher",
+            "checked": "2026-11-08; exact HTTP response and saved text reviewed",
+            "original": true,
+            "access": "direct",
+            "qualification": "HTTP200 first-party institutional portal. Existing BE-FPS identity lead audited only; not original law, independent community enactment, exact current competence, or proof of full statutory amendment/commencement chain."
+          },
+          {
+            "id": "A62-056-01-retrieval",
+            "url": "https://www.ejustice.just.fgov.be/eli/loi/2006/07/20/2006022888/justel",
+            "locator": "Exact prior Justel 2006 AFMPS/FAGG URL; 244-byte response titled Request Rejected",
+            "issuer": "Belgian FPS Justice official legal host; underlying historical federal legislative issuer retained in prior provenance",
+            "checked": "2026-11-08; exact HTTP response and saved text reviewed",
+            "original": false,
+            "access": "blocked",
+            "qualification": "HTTP200 text/html is a request-rejection page, not legal text. No new reading of the 2006 original/current consolidation claimed. Prior narrow federal support retained without rescission; no inference no law exists."
+          },
+          {
+            "id": "A62-056-02-retrieval",
+            "url": "https://www.ejustice.just.fgov.be/cgi_loi/article.pl?cn_search=2026053003&language=fr&lg_txt=f",
+            "locator": "Exact prior 30May2026 law URL; 244-byte Request Rejected HTML",
+            "issuer": "Belgian FPS Justice official legal host; historical federal legislature/King issuer remains qualified",
+            "checked": "2026-11-08; exact HTTP response and saved text reviewed",
+            "original": false,
+            "access": "blocked",
+            "qualification": "HTTP200 request rejection rather than statute. Later amendments, article61 and special effective clauses could not be authenticated here. Historical A62-056-02 observation retained separately; no new current-law or translation claim."
+          },
+          {
+            "id": "flemish-codex-2025-compilation",
+            "url": "https://codex.vlaanderen.be/PrintDocument.ashx?id=1041199&datum=&geannoteerd=false&print=false",
+            "locator": "Official current compilation of 18July2025 preventive-health amendment; arts1,2,3 and16; footer version8November2026",
+            "issuer": "Flemish Community decree as represented by official Vlaamse Codex consolidation publisher; Flemish Government website is not original signed Gazette",
+            "checked": "2026-11-08; exact HTTP response and saved text reviewed",
+            "original": false,
+            "access": "direct",
+            "qualification": "HTTP200 compiled HTML, not original enacted/published instrument. Art1 calls this a community matter; art2 identifies Departement Zorg in amended definition. Article3 version marker1January2026, other markers15January2026. Art16 states default entry two years after Gazette publication and permits earlier dates set by Flemish Government. These markers are qualified compilation evidence, not authenticated earlier-commencement instruments or proof of present all-community competence. No exact original signatory inspected; no legal translation certification."
+          },
+          {
+            "id": "flemish-codex-2025-metadata",
+            "url": "https://codex.vlaanderen.be/DesktopModules/VlaamseCodex/Search/OpenApi.asmx/WetgevingDocumentById?id=1041199",
+            "locator": "Codex public metadata: decree18July2025, Numac2025006320, Gazette26August2025 p68062, defaultStartDatum26August2027",
+            "issuer": "Official Vlaamse Codex metadata publisher; underlying instrument is Flemish Community, distinct from federal legislature but not independently authenticated original here",
+            "checked": "2026-11-08; exact HTTP response and saved text reviewed",
+            "original": false,
+            "access": "metadata",
+            "qualification": "HTTP200 metadata locates one exact decree; it is not an original legal instrument. Default start and earlier article-version markers must be resolved against original Government commencement instruments, not collapsed into one effective date. No claim the decree is wholly uncommenced or wholly in force follows from this record."
+          },
+          {
+            "id": "original-gazette-attempt",
+            "url": "https://www.ejustice.just.fgov.be/mopdf/2025/08/26_1.pdf",
+            "locator": "Dated original Gazette PDF route inferred from Codex26August2025 publication metadata; received244-byte Request Rejected HTML, not PDF",
+            "issuer": "Belgian official Gazette/FPS Justice publication host; presumed community instrument issuer not authenticated from failed response",
+            "checked": "2026-11-08; exact HTTP response and saved text reviewed",
+            "original": false,
+            "access": "blocked",
+            "qualification": "HTTP200 text/html request rejection. Exact original decree Numac2025006320 at printedp68062 not recovered or visually read. Route was a dated PDF retrieval attempt, not an observed successful original publication link. No claim other issue parts or archives were exhausted."
+          }
+        ],
+        "blocker": "Remaining Belgian current federal special-commencement/amendment and independent Community/Region original-law chains were not authenticated. Exact prior Justice statute URLs and attempted dated original Gazette PDF returned HTTP200 Request Rejected HTML, not legal text. Official Flemish Codex located the18July2025 preventive-health amendment and supplied qualified current compilation/metadata, but no original signed/published instrument or separate earlier-commencement orders was recovered. Federal narrow support and all prior statuses remain unchanged; no all-tier legal completion or proof of absence.",
+        "reopen": "Reopen only with Atlas maintainer authorization and immutable reference to this checkpoint after a new accessible official original Gazette/Parliamentary promulgation or custodian-provided instrument for Numac2025006320 and its article-specific earlier-commencement orders, or named current federal original amendments/special-effective clauses, is independently authenticated. Retain community/federal/jurisdiction and original/compilation distinctions; do not reopen solely because an index or consolidation remains accessible.",
+        "validation": [
+          "Exact row priority_rank=9,m49_code=056 at input2211d184e0392c117f4930966aa1017d4b7c9702; priorIDs BE-FPS,A62-056-01,A62-056-02 audited first and preserved. Run codex-A-A01-056-20261108-137d6409, own fresh launch launch-codex-A056-eeaae3fd138c01c6def69eae; own startb6e33dce83ac00d6ac09564f06605cfa5a04a03e parent5840db2492f607b645da009090d089c337f41bc8. Independently read remote commit,parent,tree,sole ledger path/blob,exact bytes,live running launch/packet,draft PR before research.",
+          "Strategy1: exact prior Justice2006/2026URLs bothHTTP200 but244-byte Request Rejected pages; official FPS portal200 institutional source only. Strategy2: official Flemish department/Codex routes; initial guessed department/Codex endpoints404 qualified as discovery failures only. Observed Codex root200 linked public search; observed search form/API located exact decreeID1041199. Department search returned JavaScript-rich shell without retrieved original results. No repeated blocked-request circumvention.",
+          "Codex current print text and public metadata200, read arts1/2/3/16 and footer8November2026. Metadata publication26Aug2025p68062/defaultStart26Aug2027 differs from article-version markers1/15Jan2026; art16 explicitly allows earlier Government dates. These are unresolved original-commencement retrieval gaps, not a declared legal contradiction or uniform current effective date. Original Gazette datedPDF attempt200 Request Rejected HTML. Missing original instrument remains unverified; no legal-absence inference.",
+          "Evidence URLs/HTTP methods/statuses/types/byte counts/SHA256 and timestamps saved in Researcher retrieval-log; original laws/PDFs not uploaded. No original instrument visually inspected because no original PDF was retrieved. Text/metadata inspection is accurately distinguished.",
+          "Checkpoint-only actual changed path docs/atlas/handoffs/team-a/runs/A-01--056.json. Canonical dataset/provenance count763\u2192763, all prior Belgian/non056rows unchanged. Geography248/248,231provisional/17UNKNOWN,318bodies/45relations/4scopes, original issuer1/10/gateOPEN unchanged. Expanded29partial/248,219unscored/248,59/1984narrow supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged. A70-IA-06 PARTIAL/NO unchanged.",
+          "Exact-proposal harness/native validator/all10tests and checkpoint-only preservation controls executed on separate snapshot and logged before independent verification. Structural integrity is not legal/expert/clinical approval. Separate fresh Verifier must approve exact fingerprint; designated Writer only may publish; Researcher made no team publication."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--056.json"
+        ]
+      }
+    },
+    "codex-A-A01-032-20261108-31e61318": {
+      "team": "A",
+      "key": "A-01:032",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "032",
+        "expected_sha": "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=10,m49_code=032",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--032.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md"
+        ]
+      },
+      "status": "checked_in",
+      "launch_id": "launch-codex-A032-5e844b8e64a71ce027fcb6af",
+      "receipt": {
+        "version": 1,
+        "key": "A-01:032",
+        "commit": "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+        "parent": "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--032.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md"
+        ],
+        "blob_shas": {
+          "docs/atlas/handoffs/team-a/CURRENT.md": "e1d70b6171934dfd1ffbb0481e635c51c71f1049",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv": "f31da656e4cce17af77b6ea7b8012b3df1f51ec3",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv": "eb8639154f431f3c9ac8a490e2ce09a4d9b0fe86",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv": "cabe7b926e67d6ed032a0ea2724e1884119e0216",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv": "5379f7e706a43429566a05f549236f703e635f80",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv": "71be3d90dec302a5a0efcdaa7296b34af7334ece",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv": "29877a23b8d9c1f52edbe950d5f802c0c09a195f",
+          "docs/atlas/handoffs/team-a/runs/A-01--032.json": "b63d009dd74f3c01031c03ccfed085e8bc497803",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md": "2a1c4e863fe0a4b4fbec9721c0e07b44fe82a978"
+        },
+        "pr_state": "open/draft/unmerged"
+      },
+      "result": {
+        "version": 1,
+        "key": "A-01:032",
+        "input_sha": "320e39ae5d4cf4b014dfafecdfb2ccc066e7c737",
+        "disposition": "verified_scoped",
+        "evidence": [
+          {
+            "id": "CODEX-A032-20261108-01",
+            "url": "https://www.argentina.gob.ar/normativa/nacional/decreto-1490-1992-9909/actualizacion",
+            "locator": "Updated art9 and normative antecedents",
+            "issuer": "Argentina National Official Register editorial consolidation; not independent legal issuer",
+            "checked": "2026-11-08; Researcher direct Spanish HTML inspection; independent verification pending",
+            "original": false,
+            "access": "direct",
+            "qualification": "Article9 replacement cites1886/2014; antecedents cite1271/2013. Editorial consolidation still carries historical Secretary titles; not independent current2026 parent/all-amendment certification.229 modifying/complementary norms listed over5pages; only first/last index pages inspected, not full chain."
+          },
+          {
+            "id": "CODEX-A032-20261108-02",
+            "url": "https://www.argentina.gob.ar/normativa/nacional/norma-236729/texto",
+            "locator": "Original art1, art5, art7; BO32994 22October2014p1",
+            "issuer": "Argentine President Cristina Fernandez de Kirchner; National Official Register reproduction host",
+            "checked": "2026-11-08; Researcher direct Spanish HTML inspection; independent verification pending",
+            "original": true,
+            "access": "direct",
+            "qualification": "Original Spanish art1 provides Administrator/Deputy ranks and presidential designation; art5 repeals1271/2013art2; art7 publication clause and named signers.2014 appointees/parent titles not current2026 evidence. Same Executive branch as prior founding decree, not independent legislative issuer or DNU acceptance."
+          },
+          {
+            "id": "CODEX-A032-20261108-03",
+            "url": "https://www.argentina.gob.ar/normativa/nacional/norma-431292/texto",
+            "locator": "Original recitals, arts1/2/4, signer; BO36014 16October2026p38",
+            "issuer": "ANMAT National Administrator Luis Eduardo Fontana; National Official Register reproduction host",
+            "checked": "2026-11-08; Researcher direct Spanish HTML inspection; independent verification pending",
+            "original": true,
+            "access": "direct",
+            "qualification": "Original recital expressly cites art8 inciso \u00f1; art1 narrow product prohibition, art2 administrative-review avenues, art4 publication/jurisdictional notification, named signer. Not judicial validity/appeal-outcome verification, not whole delegation/amendment chain, professional licence or provincial/Indigenous statute. Same executive-administrative family, not independent legislative acceptance."
+          }
+        ],
+        "blocker": "Full current amendment/delegation/parent chain, province/CABA/Indigenous/surveillance originals and DNU legislative review remain unresolved; no all-tier acceptance.",
+        "reopen": "Do not repeat recovered exact instruments; further case work requires maintainer-approved reopening after new qualifying original chain/provincial or congressional records, referencing this checkpoint.",
+        "validation": [
+          "Exact reserved row priority_rank=10,m49_code=032; eight prior source URLs directly retrievedHTTP200, historical qualifiers retained.",
+          "Run codex-A-A01-032-20261108-31e61318; own launch launch-codex-A032-5e844b8e64a71ce027fcb6af; start99b0cd222ba95905f8f712810d40d7ea813f002e direct parent48b974c167827dc16daed66ac9952a21937ed244; independent remote parent/tree/sole ledger path/blob/exact bytes/live running launch/draftPR readback PASS before research.",
+          "Scope +3provenance763\u2192766:two original official-register reproductions plus one expressly nonoriginal compilation; all763prior observations/non032rows retained; both248rowderived indexes refreshed for032only.",
+          "Original directory248geographies,231provisional/17UNKNOWN,318bodies45relations4scopes1/10issuer pass unchanged; separate expanded29partial219unscored59/1984supported134incomplete1789nottriaged2conflicts0all-tier complete unchanged. No legal/clinical/expert/status/gate promotion.",
+          "Actual harness exit0 PASS; native validate.py exit0 PASS (248geographies,766provenance);10unittests exit0 PASS; focused preservation controls PASS on exactproposal snapshot. Final exact-byte recheck saved. These structural checks are not legal acceptance. Independent fresh Verifier must approve exact fingerprints before separate designated Writer publication; this result does not self-certify either.",
+          "Original Spanish2014art1/5/7 and2026recitals/art1/2/4 directly read. No facsimile/e-signature authenticity certification; Executive/ANMAT not independent legislative branches.229linkednorms across5pages; first/last only inspected, not exhaustive amendment review."
+        ],
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--032.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md"
+        ]
+      }
+    },
+    "run-D-D01-NET-009-20261108-2418c6f9": {
+      "team": "D",
+      "key": "D-01:TD-BL-NET-009",
+      "packet": {
+        "version": 1,
+        "task": "D-01",
+        "case": "TD-BL-NET-009",
+        "expected_sha": "d3eb7b830870c6e30055d7251841ed67ac482b82",
+        "queue_path": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "row_key": "TD-BL-NET-009",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json"
+        ]
+      },
+      "status": "cancelled",
+      "launch_id": "launch-D-NET-009-a06bb10e65345dc73f9340b3",
+      "cancellation": {
+        "action": "cancel",
+        "run_id": "run-D-D01-NET-009-20261108-2418c6f9",
+        "reason": "Maintainer-confirmed original Researcher termination; unpublished detached NET-009 proposal blocked by independent verification for unsupported EFAPH dual-joining claim; cancel without changing prior research or branch.",
+        "review": "Maintainer explicitly confirmed in current chat on 2026-11-08 at approximately 18:31 America/Chicago that the original worker has stopped and will make no further GitHub writes under launch-D-NET-009-a06bb10e65345dc73f9340b3. Read-only reconciliation at https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/493b205c14f981bc84ea3b21a39669b139dc72ae: checkout original ticket RUNNING, original start transition https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/8eb8b44d6986de8c4715ecbbf90b9e633601cced; canonical Team D head https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/d3eb7b830870c6e30055d7251841ed67ac482b82 unchanged at original packet expected_sha; path docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json absent on Team D; both PR https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70 and https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/75 remain open/draft/unmerged. Frozen detached proposal https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/f37d69980fcd6e0c3186c126cd1308116879eb3a is a direct child of Team D head adding only target JSON, not canonical publication. Independent verifier blocked unsupported 'join both EFAPH and HI' in HI-EU-EFAPH locator and one validation entry. No canonical in-flight Team D branch write or published manifest was observable. Worker termination is explicitly maintainer-attested, not inferred from branch inactivity. Cancel preserves original history; replacement is EFAPH-only correction with blocked disposition, all other evidence, qualification, and reopening gates retained. No dataset/PR/production writes."
+      }
+    },
+    "run-D-D01-NET-009-R1-20261108-493b205c": {
+      "team": "D",
+      "key": "D-01:TD-BL-NET-009",
+      "packet": {
+        "version": 1,
+        "task": "D-01",
+        "case": "TD-BL-NET-009",
+        "expected_sha": "d3eb7b830870c6e30055d7251841ed67ac482b82",
+        "queue_path": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "row_key": "TD-BL-NET-009",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json"
+        ]
+      },
+      "status": "cancelled",
+      "launch_id": "launch-D-NET-009-R1-3ffdd34f3af7a2907ffefc43",
+      "cancellation": {
+        "action": "cancel",
+        "run_id": "run-D-D01-NET-009-R1-20261108-493b205c",
+        "reason": "Maintainer-attested R1 worker termination; unpublished R1 candidate blocked by independent source-fidelity verification; cancel only this R1 ticket for EFAPH-only R2 correction.",
+        "review": "2026-11-08 maintainer explicit separate termination attestation: previous R1 worker for run-D-D01-NET-009-R1-20261108-493b205c has stopped and will perform no further GitHub writes under launch-D-NET-009-R1-3ffdd34f3af7a2907ffefc43. This is a positive maintainer attestation, not inferred from GitHub inactivity. Fresh architecture reconciliation: b69f7991556e9b6d6c4e7fd02b4f90846f2cbe42, tree bef076b0e43f4c690fc4744e55927a13f4740462, checkout blob 61d088e609bcd812bbe068f7f13a84b5cbf52da9; Team D d3eb7b830870c6e30055d7251841ed67ac482b82, PR #70 open/draft/unmerged and architecture PR #75 open/draft/unmerged. Original ticket run-D-D01-NET-009-20261108-2418c6f9 remains CANCELLED at recovery commit f618b996ec5989f36416f58465f3f26bf7a0b347; original detached proposal f37d69980fcd6e0c3186c126cd1308116879eb3a, blob c1dcd6f8a6bdfa3f9f5ca9ccb258d75f7aa8010e. R1 detached, unpublished candidate e726625a0a809285f8616517ce36a48bc9792ddf, blob 9476d1e564e2979c5620adb32e85e50a53354933, one-commit addition relative to d3eb7b830870c6e30055d7251841ed67ac482b82 of docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json. R1 Independent Verifier BLOCKED validation[5] source fidelity; candidate must not be published. Canonical Team D docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json absent at checked branch HEAD; no result on canonical Team D and no R1 checkin or superseding ticket observed. Concurrent architecture reservation commit b69f7991556e9b6d6c4e7fd02b4f90846f2cbe42 (direct descendant of 4a5217c713e6b6689eecd2893732f5333e87d6bb) changed only checkout.json, recording Team A Austria A-01:040 RESERVED. Team B gout RUNNING was retained. R1-to-R2 correction limited to validation[5] with evidence[4].locator preserved; no new research or evidence promotion. This cancellation concerns exclusively R1; R2 is a distinct fresh run under stable D-01:TD-BL-NET-009."
+      }
+    },
+    "run-B-B01-US-ACR-GOUT-20261108-f2a8c79e": {
+      "team": "B",
+      "key": "B-01:B-US-ACR.gout.09b4f6ee8c58",
+      "packet": {
+        "version": 1,
+        "task": "B-01",
+        "case": "B-US-ACR.gout.09b4f6ee8c58",
+        "expected_sha": "d1f7393fd9dd17a913edf52656f97d3b4694a4f7",
+        "queue_path": "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+        "row_key": "org_id=B-US-ACR|condition_key=gout|original_exact_URL=https://rheumatology.org/Practice-Quality/Clinical-Support/Clinical-Practice-Guidelines",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-b/runs/B-01--B-US-ACR.gout.09b4f6ee8c58.json",
+          "docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+          "docs/atlas/handoffs/team-b/data/publication_context.csv",
+          "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+          "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-b/data/search_log.csv",
+          "docs/atlas/handoffs/team-b/data/coverage_by_area_condition.csv",
+          "docs/atlas/handoffs/team-b/data/source_quality_worklist.csv",
+          "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+          "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
+        ]
+      },
+      "status": "running",
+      "launch_id": "launch-B-US-ACR-GOUT-676972ddf8929573"
+    },
+    "run-A-A01-040-20261108-71f1057e899d": {
+      "team": "A",
+      "key": "A-01:040",
+      "packet": {
+        "version": 1,
+        "task": "A-01",
+        "case": "040",
+        "expected_sha": "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+        "queue_path": "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+        "row_key": "priority_rank=11,m49_code=040",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-a/runs/A-01--040.json",
+          "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+          "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+          "docs/atlas/handoffs/team-a/data/research_queue.csv",
+          "docs/atlas/handoffs/team-a/RECONCILED_INVENTORY_20261107.csv",
+          "docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv",
+          "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
+          "docs/atlas/handoffs/team-a/CURRENT.md",
+          "docs/atlas/handoffs/team-a/source_recovery/A040_AUSTRIA_ORIGINAL_LAW_20261108.md"
+        ]
+      },
+      "status": "reserved"
+    },
+    "run-D-D01-NET-009-R2-20261108-6f3c58c7bb71": {
+      "team": "D",
+      "key": "D-01:TD-BL-NET-009",
+      "packet": {
+        "version": 1,
+        "task": "D-01",
+        "case": "TD-BL-NET-009",
+        "expected_sha": "d3eb7b830870c6e30055d7251841ed67ac482b82",
+        "queue_path": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "row_key": "TD-BL-NET-009",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json"
+        ]
+      },
+      "status": "reserved"
+    }
+  }
+}
