@@ -2052,7 +2052,8 @@
           "docs/atlas/handoffs/team-b/data/consolidation_metrics.json"
         ]
       },
-      "status": "reserved"
+      "status": "running",
+      "launch_id": "launch-B-US-ACR-GOUT-676972ddf8929573"
     }
   }
 }
