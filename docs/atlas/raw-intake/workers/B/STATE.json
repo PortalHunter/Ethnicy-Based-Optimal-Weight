@@ -167,12 +167,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B026_TEAM_B_20261109.json",
       "source_count": 45,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B027",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B027_TEAM_B_20261109.json",
+      "source_count": 40,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 26,
-  "worker_owned_batch_count": 25,
-  "cumulative_team_source_leads": 1059,
-  "worker_owned_unique_url_leads": 1020,
+  "completed_batch_count": 27,
+  "worker_owned_batch_count": 26,
+  "cumulative_team_source_leads": 1099,
+  "worker_owned_unique_url_leads": 1060,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -560,7 +566,20 @@
     "M49:598|dyslipidemia",
     "M49:512|dyslipidemia",
     "CROSS_REGION:MICRONESIA|dyslipidemia",
-    "M49:776|dyslipidemia"
+    "M49:776|dyslipidemia",
+    "M49:048|dyslipidemia",
+    "M49:584|dyslipidemia",
+    "M49:520|dyslipidemia",
+    "M49:422|dyslipidemia",
+    "M49:818|dyslipidemia",
+    "CROSS_REGION:LEBANON_JORDAN|dyslipidemia",
+    "CROSS_REGION:LEBANESE_US|dyslipidemia",
+    "CROSS_REGION:PACIFIC_ISLANDS|dyslipidemia",
+    "M49:548|dyslipidemia",
+    "M49:788|dyslipidemia",
+    "CROSS_REGION:GLOBAL|dyslipidemia",
+    "M49:504|dyslipidemia",
+    "CROSS_REGION:EUROPE_MULTIETHNIC|dyslipidemia"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -574,11 +593,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Finish remaining Pacific and Middle East lipid research leads, then proceed through untouched P1 population health original sources; P0 original research gaps remain open."
+    "P1_next": "Continue P1 uncollected country-condition clinical original sources, including African and island cardiometabolic/lipid and pharmacogenetics targets. P0 Peru gout, Bangladesh celiac/lactose and Sri Lanka gout original-source research leads remain unresolved."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 1020,
+    "current_worker_batch_count": 1060,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -1599,7 +1618,47 @@
       "https://pubmed.ncbi.nlm.nih.gov/402277/",
       "https://pubmed.ncbi.nlm.nih.gov/27601485/",
       "https://pubmed.ncbi.nlm.nih.gov/23875540/",
-      "https://pubmed.ncbi.nlm.nih.gov/24351428/"
+      "https://pubmed.ncbi.nlm.nih.gov/24351428/",
+      "https://pubmed.ncbi.nlm.nih.gov/42833715/",
+      "https://pubmed.ncbi.nlm.nih.gov/25105054/",
+      "https://pubmed.ncbi.nlm.nih.gov/41468519/",
+      "https://pubmed.ncbi.nlm.nih.gov/38424431/",
+      "https://pubmed.ncbi.nlm.nih.gov/9614611/",
+      "https://pubmed.ncbi.nlm.nih.gov/37636003/",
+      "https://pubmed.ncbi.nlm.nih.gov/29661175/",
+      "https://pubmed.ncbi.nlm.nih.gov/34661118/",
+      "https://pubmed.ncbi.nlm.nih.gov/21943388/",
+      "https://pubmed.ncbi.nlm.nih.gov/28465858/",
+      "https://pubmed.ncbi.nlm.nih.gov/34851468/",
+      "https://pubmed.ncbi.nlm.nih.gov/24872710/",
+      "https://pubmed.ncbi.nlm.nih.gov/41557222/",
+      "https://pubmed.ncbi.nlm.nih.gov/38452563/",
+      "https://pubmed.ncbi.nlm.nih.gov/37575670/",
+      "https://pubmed.ncbi.nlm.nih.gov/276566/",
+      "https://pubmed.ncbi.nlm.nih.gov/27842211/",
+      "https://pubmed.ncbi.nlm.nih.gov/35893257/",
+      "https://pubmed.ncbi.nlm.nih.gov/42781351/",
+      "https://pubmed.ncbi.nlm.nih.gov/1619180/",
+      "https://pubmed.ncbi.nlm.nih.gov/25011369/",
+      "https://pubmed.ncbi.nlm.nih.gov/10572218/",
+      "https://pubmed.ncbi.nlm.nih.gov/2073969/",
+      "https://pubmed.ncbi.nlm.nih.gov/1857313/",
+      "https://pubmed.ncbi.nlm.nih.gov/31434763/",
+      "https://pubmed.ncbi.nlm.nih.gov/22997977/",
+      "https://pubmed.ncbi.nlm.nih.gov/20180352/",
+      "https://pubmed.ncbi.nlm.nih.gov/36155904/",
+      "https://pubmed.ncbi.nlm.nih.gov/7722573/",
+      "https://pubmed.ncbi.nlm.nih.gov/34432550/",
+      "https://pubmed.ncbi.nlm.nih.gov/15002706/",
+      "https://pubmed.ncbi.nlm.nih.gov/16142019/",
+      "https://pubmed.ncbi.nlm.nih.gov/36605985/",
+      "https://pubmed.ncbi.nlm.nih.gov/31388892/",
+      "https://pubmed.ncbi.nlm.nih.gov/40989112/",
+      "https://pubmed.ncbi.nlm.nih.gov/21616606/",
+      "https://pubmed.ncbi.nlm.nih.gov/26547525/",
+      "https://pubmed.ncbi.nlm.nih.gov/42960730/",
+      "https://pubmed.ncbi.nlm.nih.gov/27359175/",
+      "https://pubmed.ncbi.nlm.nih.gov/42706386/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -1652,16 +1711,17 @@
     "worker_B023": [],
     "worker_B024": [],
     "worker_B025": [],
-    "worker_B026": []
+    "worker_B026": [],
+    "worker_B027": []
   },
-  "next_batch_id": "B027",
-  "next_queue_position": "B027: prioritize remaining unrecorded Middle East and Pacific lipid study leads found in B026 session, then P1 untouched original cardiometabolic and pharmacogenetics source metadata; exclude B001–B026 URLs. P0 original Peru/Bangladesh/Sri Lanka sources unresolved.",
+  "next_batch_id": "B028",
+  "next_queue_position": "B028: continue high-yield untouched P1 country and population clinical originals, particularly African and island cardiometabolic cohorts and relevant pharmacogenetics; exclude B001–B027 URLs; original P0 Peru/Bangladesh/Sri Lanka gaps remain unresolved.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B026",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B026_TEAM_B_20261109.json",
-    "parent_commit_sha": "9ad096ccedb5be45e483ec2df4286076f0fb9a05",
+    "batch_id": "B027",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B027_TEAM_B_20261109.json",
+    "parent_commit_sha": "8595c95ff5a7c0c9e84d2659ef3e5fc8881f9e70",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Atomic batch+state commit cannot contain its own new SHA; resolve using current Team B branch HEAD."
+    "note": "Atomic batch+state commit cannot include its own SHA, resolve from current worker branch HEAD."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
