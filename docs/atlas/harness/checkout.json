@@ -2025,8 +2025,14 @@
           "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json"
         ]
       },
-      "status": "running",
-      "launch_id": "launch-D-NET-009-R1-3ffdd34f3af7a2907ffefc43"
+      "status": "cancelled",
+      "launch_id": "launch-D-NET-009-R1-3ffdd34f3af7a2907ffefc43",
+      "cancellation": {
+        "action": "cancel",
+        "run_id": "run-D-D01-NET-009-R1-20261108-493b205c",
+        "reason": "Maintainer-attested R1 worker termination; unpublished R1 candidate blocked by independent source-fidelity verification; cancel only this R1 ticket for EFAPH-only R2 correction.",
+        "review": "2026-11-08 maintainer explicit separate termination attestation: previous R1 worker for run-D-D01-NET-009-R1-20261108-493b205c has stopped and will perform no further GitHub writes under launch-D-NET-009-R1-3ffdd34f3af7a2907ffefc43. This is a positive maintainer attestation, not inferred from GitHub inactivity. Fresh architecture reconciliation: b69f7991556e9b6d6c4e7fd02b4f90846f2cbe42, tree bef076b0e43f4c690fc4744e55927a13f4740462, checkout blob 61d088e609bcd812bbe068f7f13a84b5cbf52da9; Team D d3eb7b830870c6e30055d7251841ed67ac482b82, PR #70 open/draft/unmerged and architecture PR #75 open/draft/unmerged. Original ticket run-D-D01-NET-009-20261108-2418c6f9 remains CANCELLED at recovery commit f618b996ec5989f36416f58465f3f26bf7a0b347; original detached proposal f37d69980fcd6e0c3186c126cd1308116879eb3a, blob c1dcd6f8a6bdfa3f9f5ca9ccb258d75f7aa8010e. R1 detached, unpublished candidate e726625a0a809285f8616517ce36a48bc9792ddf, blob 9476d1e564e2979c5620adb32e85e50a53354933, one-commit addition relative to d3eb7b830870c6e30055d7251841ed67ac482b82 of docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json. R1 Independent Verifier BLOCKED validation[5] source fidelity; candidate must not be published. Canonical Team D docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json absent at checked branch HEAD; no result on canonical Team D and no R1 checkin or superseding ticket observed. Concurrent architecture reservation commit b69f7991556e9b6d6c4e7fd02b4f90846f2cbe42 (direct descendant of 4a5217c713e6b6689eecd2893732f5333e87d6bb) changed only checkout.json, recording Team A Austria A-01:040 RESERVED. Team B gout RUNNING was retained. R1-to-R2 correction limited to validation[5] with evidence[4].locator preserved; no new research or evidence promotion. This cancellation concerns exclusively R1; R2 is a distinct fresh run under stable D-01:TD-BL-NET-009."
+      }
     },
     "run-B-B01-US-ACR-GOUT-20261108-f2a8c79e": {
       "team": "B",
@@ -2076,6 +2082,23 @@
           "docs/atlas/handoffs/team-a/INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv",
           "docs/atlas/handoffs/team-a/CURRENT.md",
           "docs/atlas/handoffs/team-a/source_recovery/A040_AUSTRIA_ORIGINAL_LAW_20261108.md"
+        ]
+      },
+      "status": "reserved"
+    },
+    "run-D-D01-NET-009-R2-20261108-6f3c58c7bb71": {
+      "team": "D",
+      "key": "D-01:TD-BL-NET-009",
+      "packet": {
+        "version": 1,
+        "task": "D-01",
+        "case": "TD-BL-NET-009",
+        "expected_sha": "d3eb7b830870c6e30055d7251841ed67ac482b82",
+        "queue_path": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+        "row_key": "TD-BL-NET-009",
+        "evidence_required": true,
+        "paths": [
+          "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json"
         ]
       },
       "status": "reserved"
