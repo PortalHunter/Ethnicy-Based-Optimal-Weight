@@ -29,12 +29,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B003_TEAM_B_20261109.json",
       "source_count": 46,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B004",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B004_TEAM_B_20261109.json",
+      "source_count": 39,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 3,
-  "worker_owned_batch_count": 2,
-  "cumulative_team_source_leads": 125,
-  "worker_owned_unique_url_leads": 86,
+  "completed_batch_count": 4,
+  "worker_owned_batch_count": 3,
+  "cumulative_team_source_leads": 164,
+  "worker_owned_unique_url_leads": 125,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -59,7 +65,21 @@
     "M49:276|lactose",
     "M49:702|gout",
     "M49:826|gout",
-    "M49:144|gout"
+    "M49:144|gout",
+    "M49:072|high_chol",
+    "M49:854|high_chol",
+    "M49:140|high_chol",
+    "M49:148|high_chol",
+    "M49:174|high_chol",
+    "M49:178|high_chol",
+    "M49:384|high_chol",
+    "M49:232|high_chol",
+    "M49:748|high_chol",
+    "M49:231|high_chol",
+    "M49:242|high_chol",
+    "M49:266|high_chol",
+    "M49:296|high_chol",
+    "M49:430|high_chol"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -73,11 +93,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Continue uncollected country-area-condition cells (hemochromatosis, gout, lactose, celiac) across regions, particularly underrepresented Africa and Oceania; raw intake does not close P0 originals"
+    "P1_next": "Continue untouched P1 high_chol/diabetes/hypertension queue cells in underrepresented Africa/Oceania; WHO catalogue leads still require original document review. Also prioritize primary celiac, gout, lactose and hemochromatosis leads and P0 originals."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 86,
+    "current_worker_batch_count": 125,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -164,9 +184,49 @@
       "https://pubmed.ncbi.nlm.nih.gov/34931463/",
       "https://pubmed.ncbi.nlm.nih.gov/42214801/",
       "https://pubmed.ncbi.nlm.nih.gov/12860579/",
-      "https://pubmed.ncbi.nlm.nih.gov/26748422/"
+      "https://pubmed.ncbi.nlm.nih.gov/26748422/",
+      "https://www.who.int/publications/m/item/2014-steps-country-report-botswana",
+      "https://www.who.int/publications/m/item/2007-steps-country-report-botswana",
+      "https://www.who.int/publications/m/item/2007-steps-fact-sheet-botswana",
+      "https://www.who.int/publications/m/item/2013-steps-country-report-burkina-faso",
+      "https://www.who.int/publications/m/item/2013-steps-fact-sheet-burkina-faso",
+      "https://www.who.int/publications/m/item/2017-steps-country-report-central-african-republic-%28french%29",
+      "https://www.who.int/publications/m/item/2010-steps-fact-sheet-central-african-republic",
+      "https://www.who.int/publications/m/item/2008-steps-country-report-chad",
+      "https://www.who.int/publications/m/item/2008-steps-fact-sheet-chad",
+      "https://www.who.int/publications/m/item/2011-steps-fact-sheet-comoros",
+      "https://www.who.int/publications/m/item/2004-steps-country-report-congo",
+      "https://www.who.int/publications/m/item/2004-steps-fact-sheet-congo",
+      "https://www.who.int/publications/m/item/2005-steps-country-report-c%C3%B4te-d-ivoire",
+      "https://www.who.int/publications/m/item/2005-steps-fact-sheet-c%C3%B4te-d-ivoire",
+      "https://www.who.int/publications/m/item/2004-steps-country-report-eritrea",
+      "https://www.who.int/publications/m/item/2004-steps-fact-sheet-eritrea",
+      "https://www.who.int/publications/m/item/2024-steps-country-report-eswatini",
+      "https://www.who.int/publications/m/item/2024-steps-fact-sheet-eswatini",
+      "https://www.who.int/publications/m/item/2014-steps-country-report-eswatini",
+      "https://www.who.int/publications/m/item/2014-steps-fact-sheet-eswatini",
+      "https://www.who.int/publications/m/item/2007-steps-fact-sheet-eswatini",
+      "https://www.who.int/publications/m/item/2015-steps-country-report-ethiopia",
+      "https://www.who.int/publications/m/item/2015-steps-fact-sheet-ethiopia",
+      "https://www.who.int/publications/m/item/2006-steps-fact-sheet-ethiopia",
+      "https://www.who.int/publications/m/item/2003-steps-fact-sheet-ethiopia",
+      "https://www.who.int/publications/m/item/2024-2025-steps-country-report-fiji",
+      "https://www.who.int/publications/m/item/2011-steps-factsheet-fiji-final",
+      "https://www.who.int/publications/m/item/2002-steps-country-report-fiji",
+      "https://www.who.int/publications/m/item/2002-steps-factsheet-fiji",
+      "https://www.who.int/publications/m/item/2009-steps-country-report-gabon",
+      "https://www.who.int/publications/m/item/2009-steps-fact-sheet-gabon",
+      "https://www.who.int/publications/m/item/2015-2016-steps-country-report-kiribati",
+      "https://www.who.int/publications/m/item/2015-2016-steps-factsheet-kiribati",
+      "https://www.who.int/publications/m/item/2004-2006-steps-country-report-kiribati",
+      "https://www.who.int/publications/m/item/2004-2006-steps-factsheet-kiribati",
+      "https://www.who.int/publications/m/item/2022-steps-country-report-liberia",
+      "https://www.who.int/publications/m/item/2022-steps-fact-sheet-liberia",
+      "https://www.who.int/publications/m/item/2011-steps-country-report-liberia",
+      "https://www.who.int/publications/m/item/2011-steps-fact-sheet-liberia"
     ],
-    "worker_B003_count": 46
+    "worker_B003_count": 46,
+    "worker_B004_count": 39
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -200,14 +260,14 @@
       }
     ]
   },
-  "next_batch_id": "B004",
-  "next_queue_position": "B004: untouched P1 celiac/gout/lactose/hemochromatosis cells not covered by B001–B003, prioritizing Africa, Oceania and underrepresented M49 areas, and continue P0 original-document retrieval gaps; exclude all existing URLs",
+  "next_batch_id": "B005",
+  "next_queue_position": "B005: resume WHO STEPS country catalogue at Gambia, Ghana, Lesotho, Malawi, Maldives, Mauritius, Samoa; 14 countries already listed B004, exclude all existing URLs; then diversify into condition-specific primary sources.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B003",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B003_TEAM_B_20261109.json",
-    "parent_commit_sha": "c11806dfe43990e3a76a382708a504306f04fdaf",
+    "batch_id": "B004",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B004_TEAM_B_20261109.json",
+    "parent_commit_sha": "fd752a3ffef7a0b37b614c4ad51dca9b1a64c428",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Self-referential commit SHA cannot be embedded in same commit; verified worker HEAD is authoritative."
+    "note": "Commit SHA is self-referential and cannot be embedded in own tree; verified worker HEAD is authoritative."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
