@@ -48,13 +48,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A007_TEAM_A_20261109.json",
       "source_count": 41
+    },
+    {
+      "batch_id": "A008",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A008_TEAM_A_20261109.json",
+      "source_count": 50
     }
   ],
-  "completed_worker_batch_count": 6,
-  "completed_team_a_intake_batch_count": 7,
-  "worker_new_unique_url_leads": 249,
-  "team_a_cumulative_unique_url_leads": 294,
-  "last_completed_batch": "A007",
+  "completed_worker_batch_count": 7,
+  "completed_team_a_intake_batch_count": 8,
+  "worker_new_unique_url_leads": 299,
+  "team_a_cumulative_unique_url_leads": 344,
+  "last_completed_batch": "A008",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -75,14 +81,17 @@
     "M49:120|initial_source_scan",
     "M49:124|initial_source_scan",
     "M49:132|initial_source_scan",
-    "M49:136|initial_source_scan"
+    "M49:136|initial_source_scan",
+    "M49:140|initial_source_scan",
+    "M49:144|initial_source_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "136"
+      "140",
+      "144"
     ],
-    "next": "M49:140 Central African Republic, M49:144 Sri Lanka, M49:148 Chad; Cayman historic government PDF links need replacement with working direct originals",
-    "next_batch_id": "A008",
+    "next": "M49:148 Chad; then M49:152 Chile and M49:156 China. Sri Lanka health ministry legal enactments and CAR journal-officiel originals remain separate unresolved targets.",
+    "next_batch_id": "A009",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -105,11 +114,10 @@
     "M49:120 Cameroon original domestic law gazette and post-2023 regional transfers unverified",
     "M49:124 Canada province/territory statutes and independent health authority changes not covered by federal catalog scan",
     "M49:132 Cabo Verde additional law, decree, original authority/amendment chains and decentralization unresolved; 2019–2026 ERIS gazette pages are raw leads only",
-    "M49:140 Central African Republic unprocessed",
-    "M49:144 Sri Lanka unprocessed",
     "M49:136 Cayman Islands 25 broken/timeout archived official legislation PDF links; replace with current working originals before any legal interpretation",
-    "M49:140 Central African Republic unprocessed next queue item",
-    "M49:144 Sri Lanka unprocessed next queue item"
+    "M49:140 CAR original Journal officiel and health law/decree chain not collected; A008 official ministry policy documents do not establish legal validity",
+    "M49:144 Sri Lanka National Medicines Regulatory Authority Act, Medical Ordinance, statutes and Gazette amendment chain not yet scanned; A008 policy URLs are raw leads",
+    "M49:148 Chad unprocessed next queue item"
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -405,7 +413,57 @@
     "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/1993/1993-0009/HealthServicesFeesAct_2002%20Revision_g.pdf",
     "https://legislation.gov.ky/cms/images/LEGISLATION/SUBORDINATE/2001/2001-0003/HealthServicesFeesandChargesRegulations_2008%20Revision.pdf",
     "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2013/2013-0015/HumanTissueTransplantAct_Act%2015%20of%202013.pdf",
-    "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2011/2011-0011/MedicalNegligenceNon-EconomicDamagesAct_Act%2011%20of%202011.pdf"
+    "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2011/2011-0011/MedicalNegligenceNon-EconomicDamagesAct_Act%2011%20of%202011.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/NCD-English.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/Analysis-of-Sri-Lankas-Policy-on-Healthcare-Delivery-for-Universal-Health-Coverage-2025-1-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/14-National-Health-Policy-2016-2025-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/26_HIV_Prison-Policy.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/8-National_Migration_Policy-2015.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/9-National_HIV_AIDS_Policy-Sri-Lanka.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/5-Proposed-National-Health-Promotion-Policy-and-Strategic-framework-2015.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/25-National-Policy-on-Occupational-Safety-and-Health-Policy-2014-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/18-National-Nutrition-Policy-2021-2030-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/3-The-national-policy-and-strategic-Framework-for-prevention-and-control-of-chronic-non-communicable-diseases-2010-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/21_Health-Information-Policy.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/20_Alcohol-Policy.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/22-National-Policy-and-Strategy-on-Health-of-the-Young-Persons-2015-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/20-National-Policy-and-Strategic-Framework-on-Injury-Prevention-and-Management-in-Sri-Lanka-2016-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/23-National-Policy-on-Healthcare-Quality-and-Safety-2021-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/11-Accident-and-Emergency-Care-Policy-of-Sri-Lanka-2016-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/13-National-Health-Laboratory-Policy-2006.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/12-National-Blood-Policy-2007.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/4-Sri-Lanka-National-Migration-Health-Policy-2012-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/17-National-Medicinal-Drug-Policy-for-Sri-Lanka-2005-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/21-National-Policy-and-Strategy-on-Cleaner-Production-for-Health-Sector-2007-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/15-National-Immunization-Policy-2014-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/10-National-Policy-on-Organ-Tissue-and-Cell-Transplantation-of-Sri-Lanka-2021-2030-compressed.pdf",
+    "https://www.health.gov.lk/wp-content/uploads/2022/10/National-Mental-Health-Policy-2020-2030-compressed.pdf",
+    "https://www.health.gov.lk/moh-pages/sectoral-policies/",
+    "https://quarantine.health.gov.lk/documents/laws-and-regulations/",
+    "https://quarantine.health.gov.lk/wp-content/uploads/2021/10/quarantine_and_prevention_of_disease_act553.pdf",
+    "https://sante-rca.org/documents-officiels/",
+    "https://sante-rca.org/wp-content/uploads/2026/03/Decret-26.044-Organigramme-MSP.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/7.Normes-et-directives-du-PEV-en-RCA_15-09-2020_OK.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/8.Paquet-de-service-de-vaccination-Boali-03-Nov-2020.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/9.Politique-Nationale-de-vaccination_RCA-VF-BOALI.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/10.PROJET-DE-LOI-VACCINATION-_V_BOALI.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/12.STRATEGIE-VACCINATION-VERSION-CORRIGER-BOALI.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/13.LA-GESTION-DES-EPIDEMIES-DUES-AUX-MEV-VF.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/14.Renforcement-surveillance-MEV-18_09-20-VF.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/15.Plan-de-relance-de-la-vaccination-de-routine-en-RCA_Bangui12112020.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/21.Message-Porte-Comptes-nationaux-des-Personnels-de-Sante_1.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/24.Les-hopitaux_publics.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/25.Note-de-Service-N%C2%B034-du-27.04.20201.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/35.Note-de-service-portant-affectation-de-certains-Medecins-dans-les-Regions-sanitaires-1-2-45-et-6.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/36.Note-de-service-portant-affectation-de-certains-Medecins-dans-la-Regions-sanitaire-N%C2%B03.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/37.Note-de-service-portant-affectation-de-certains-contractuels-du-district-de-Berberati-en-Complement-deffectif.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/38.Note-portant-suspension-provisoire-des-evacuations-sanitaires.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/11/48.Bulletin-epidemiologique-RCA-VF.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/12/56Arrete-modifiant-et-completant-larrete-n%C2%B0326-portant-affectation-des-medecins-contractuels.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/12/57Arrete-portant-affectation-des-gestionnaires-contractuels.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/12/68DECLARATION-A-LA-NATION-DU-MINISTRE-CHARGE-DE-LA-SANTE-ET-DE-LA-POPULATION-A-PROPOS-DE-LA-SITUATION-DUNE-EPIDEMIE-DE-LA-VARIO.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/12/PLAN-NATIONAL-DE-GESTION-DES-DECHETS-BIOMEDICAUX-EN-REPUBLIQUE-CENTRAFRICAINE-Actualise.pdf",
+    "https://sante-rca.org/wp-content/uploads/2025/12/Politique-dEngagement-Communautaire-2023-2030-RCA.pdf"
   ],
   "unresolved_retrievals": [
     {
@@ -717,15 +775,55 @@
       "source_id": "ATLAS-RAW-A007-041",
       "url": "https://legislation.gov.ky/cms/images/LEGISLATION/PRINCIPAL/2011/2011-0011/MedicalNegligenceNon-EconomicDamagesAct_Act%2011%20of%202011.pdf",
       "reason": "URL_CLICK_404"
+    },
+    {
+      "source_id": "ATLAS-RAW-A008-010",
+      "url": "https://www.health.gov.lk/wp-content/uploads/2022/10/3-The-national-policy-and-strategic-Framework-for-prevention-and-control-of-chronic-non-communicable-diseases-2010-compressed.pdf",
+      "reason": "PDF_LINK_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A008-011",
+      "url": "https://www.health.gov.lk/wp-content/uploads/2022/10/21_Health-Information-Policy.pdf",
+      "reason": "PDF_LINK_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A008-012",
+      "url": "https://www.health.gov.lk/wp-content/uploads/2022/10/20_Alcohol-Policy.pdf",
+      "reason": "PDF_LINK_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A008-016",
+      "url": "https://www.health.gov.lk/wp-content/uploads/2022/10/11-Accident-and-Emergency-Care-Policy-of-Sri-Lanka-2016-compressed.pdf",
+      "reason": "PDF_LINK_CONTENT_LENGTH_LIMIT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A008-022",
+      "url": "https://www.health.gov.lk/wp-content/uploads/2022/10/15-National-Immunization-Policy-2014-compressed.pdf",
+      "reason": "PDF_LINK_CONTENT_LENGTH_LIMIT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A008-023",
+      "url": "https://www.health.gov.lk/wp-content/uploads/2022/10/10-National-Policy-on-Organ-Tissue-and-Cell-Transplantation-of-Sri-Lanka-2021-2030-compressed.pdf",
+      "reason": "PDF_LINK_CONTENT_LENGTH_LIMIT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A008-029",
+      "url": "https://sante-rca.org/wp-content/uploads/2026/03/Decret-26.044-Organigramme-MSP.pdf",
+      "reason": "PDF_LINK_CONTENT_LENGTH_LIMIT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A008-050",
+      "url": "https://sante-rca.org/wp-content/uploads/2025/12/Politique-dEngagement-Communautaire-2023-2030-RCA.pdf",
+      "reason": "PDF_LINK_CONTENT_LENGTH_LIMIT"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A007",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A007_TEAM_A_20261109.json",
+    "batch_id": "A008",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A008_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "3acdfdaabbe4f93ea1cc1b5d414ff2402675746d",
+    "parent_commit_sha": "bf8dd98dadf312462025d37b271c9c5c96cf7b76",
     "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD because own commit cannot be self-embedded"
   },
-  "next_run_instruction": "Team A resume A008 from M49:140, after re-reading branch HEAD and state; official sources only; no legal research approval.",
+  "next_run_instruction": "Resume from next batch A009 on worker branch only; begin Chad M49:148 and seek original health enactments. Read worker state first, deduplicate URL inventory, commit bounded batches without verification.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
