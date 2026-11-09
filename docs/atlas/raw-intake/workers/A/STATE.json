@@ -120,13 +120,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A019_TEAM_A_20261109.json",
       "source_count": 43
+    },
+    {
+      "batch_id": "A020",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A020_TEAM_A_20261109.json",
+      "source_count": 44
     }
   ],
-  "completed_worker_batch_count": 18,
-  "completed_team_a_intake_batch_count": 19,
-  "worker_new_unique_url_leads": 760,
-  "team_a_cumulative_unique_url_leads": 805,
-  "last_completed_batch": "A019",
+  "completed_worker_batch_count": 19,
+  "completed_team_a_intake_batch_count": 20,
+  "worker_new_unique_url_leads": 804,
+  "team_a_cumulative_unique_url_leads": 849,
+  "last_completed_batch": "A020",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -165,16 +171,15 @@
     "M49:191|supplemental_original_gazette_scan",
     "M49:191|supplemental_original_gazette_scan",
     "M49:192|preliminary_index_source_scan",
-    "M49:196|preliminary_index_source_scan"
+    "M49:196|preliminary_index_source_scan",
+    "M49:203|official_sukl_legislation_index_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "191",
-      "192",
-      "196"
+      "203"
     ],
-    "next": "M49:203 Czechia next untouched primary-source queue item; M49:192 Cuba official Gazette and M49:196 Cyprus original individual PDFs unresolved",
-    "next_batch_id": "A020",
+    "next": "M49:203 Czechia continue official Ministry health legislation, public health implementing rules and amendments; next different M49 code not checked because original queue CSV absent",
+    "next_batch_id": "A021",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -218,7 +223,9 @@
     "M49:191 Croatia other sector-specific statutes, 2026 new amendments, HZZO and HALMED current primary laws still need intake; Gazette chain not legally authenticated.",
     "M49:192 Cuba Ley 165/2023 and Decreto 133/2025 official original gazette retrieval unresolved; 2026 gazette third-party reproduction not original publisher.",
     "M49:196 Cyprus official government index was indexed but page GET 403; individual original laws 89(I)/2001, 90(I)/2001, 40/1978, 73(I)/2017, 149(I)/2013, 70(I)/2001 unresolved.",
-    "M49:192 Cuba 2026 Gazette O9 legal leads are non-official transcription only; original Ministry of Justice Gazette primary PDF and legal force / later amendments unresolved."
+    "M49:192 Cuba 2026 Gazette O9 legal leads are non-official transcription only; original Ministry of Justice Gazette primary PDF and legal force / later amendments unresolved.",
+    "M49:203 Czechia original legal texts and current consolidation/amendments in e-Sbírka still require direct retrieval; current tool returns metadata-only or server errors.",
+    "Historical Team A queue file referenced in state not present on worker branch; use M49:203 checkpoint until queue target source resolved."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -1025,7 +1032,51 @@
     "https://www.cibercuba.com/s/gacetaoficial/decreto-133-de-2025-de-consejo-de-ministros",
     "https://www.cibercuba.com/s/gacetaoficial/resolucion-145-de-2025-de-ministerio-de-salud-publica",
     "https://www.gov.cy/moh/documents/nomothesies-schetikes-me-to-systima-ygeias-kai-ta-nosileytiria/",
-    "https://www.gov.cy/moh/ethniki-nomothesia/"
+    "https://www.gov.cy/moh/ethniki-nomothesia/",
+    "https://www.e-sbirka.cz/sb/2007/378?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1995/40?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2008/296?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1998/167?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1997/48?zalozka=text",
+    "https://e-sbirka.gov.cz/sb/2022/375?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2011/372?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2004/78?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2013/272?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1997/110?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2002/285?zalozka=text",
+    "https://e-sbirka.gov.cz/sb/2025/264?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2000/258?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2008/229?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2008/228?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2008/84?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2019/329?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2008/106?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2021/463?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2008/85?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2008/86?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2008/143?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2008/427?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2015/236?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2009/243?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2014/53?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2006/123?zalozka=text",
+    "https://e-sbirka.gov.cz/sb/2025/349?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2022/235?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2022/53?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2012/92?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2011/376?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2012/307?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2007/384?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2007/385?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2007/63?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2006/618?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1997/59?zalozka=text",
+    "https://www.e-sbirka.cz/sb/1998/134?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2020/428?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2021/396?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2015/2?zalozka=text",
+    "https://www.e-sbirka.cz/sb/2021/527?zalozka=text",
+    "https://e-sbirka.gov.cz/sb/2022/379?zalozka=text"
   ],
   "unresolved_retrievals": [
     {
@@ -1461,15 +1512,95 @@
       "source_id": "ATLAS-RAW-A019-043",
       "url": "https://www.gov.cy/moh/ethniki-nomothesia/",
       "reason": "OFFICIAL_CYPRUS_PAGE_HTTP_403"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-002",
+      "url": "https://www.e-sbirka.cz/sb/1995/40?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-010",
+      "url": "https://www.e-sbirka.cz/sb/1997/110?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-011",
+      "url": "https://www.e-sbirka.cz/sb/2002/285?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-014",
+      "url": "https://www.e-sbirka.cz/sb/2008/229?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-015",
+      "url": "https://www.e-sbirka.cz/sb/2008/228?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-016",
+      "url": "https://www.e-sbirka.cz/sb/2008/84?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-017",
+      "url": "https://www.e-sbirka.cz/sb/2019/329?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-019",
+      "url": "https://www.e-sbirka.cz/sb/2021/463?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-020",
+      "url": "https://www.e-sbirka.cz/sb/2008/85?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-022",
+      "url": "https://www.e-sbirka.cz/sb/2008/143?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-024",
+      "url": "https://www.e-sbirka.cz/sb/2015/236?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-033",
+      "url": "https://www.e-sbirka.cz/sb/2012/307?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-034",
+      "url": "https://www.e-sbirka.cz/sb/2007/384?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-035",
+      "url": "https://www.e-sbirka.cz/sb/2007/385?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-038",
+      "url": "https://www.e-sbirka.cz/sb/1997/59?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A020-040",
+      "url": "https://www.e-sbirka.cz/sb/2020/428?zalozka=text",
+      "reason": "E_SBIRKA_REGISTRY_LINK_WEB_FETCH_REDIRECT_OR_SERVER_ERROR"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A019",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A019_TEAM_A_20261109.json",
+    "batch_id": "A020",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A020_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "b58cf93fe99d695c6d143c70e4002c80b918604c",
-    "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD; own SHA cannot be self-embedded"
+    "parent_commit_sha": "b9ed8713a183b578f72fb9a52105cb8d25e60fbf",
+    "checkpoint_commit_sha_resolution": "Final SHA is worker HEAD; commit cannot include its own hash"
   },
-  "next_run_instruction": "Resume A020 from M49:203 Czechia official e-Sbírka and Ministry of Health legal primary sources; reattempt M49:192 Cuba official Gazette and Cyprus individual law PDFs later. No evidence verification.",
+  "next_run_instruction": "Continue Czechia M49:203 using untouched official health authority links; A020 e-Sbírka URLs already collected. Original queue CSV absent.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
