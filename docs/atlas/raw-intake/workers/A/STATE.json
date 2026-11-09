@@ -108,13 +108,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A017_TEAM_A_20261109.json",
       "source_count": 40
+    },
+    {
+      "batch_id": "A018",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A018_TEAM_A_20261109.json",
+      "source_count": 40
     }
   ],
-  "completed_worker_batch_count": 16,
-  "completed_team_a_intake_batch_count": 17,
-  "worker_new_unique_url_leads": 677,
-  "team_a_cumulative_unique_url_leads": 722,
-  "last_completed_batch": "A017",
+  "completed_worker_batch_count": 17,
+  "completed_team_a_intake_batch_count": 18,
+  "worker_new_unique_url_leads": 717,
+  "team_a_cumulative_unique_url_leads": 762,
+  "last_completed_batch": "A018",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -149,14 +155,15 @@
     "M49:180|initial_source_scan_partial",
     "M49:184|initial_source_scan",
     "M49:188|initial_source_scan",
-    "M49:191|initial_source_scan"
+    "M49:191|initial_source_scan",
+    "M49:191|supplemental_original_gazette_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
       "191"
     ],
-    "next": "M49:192 Cuba next untouched queue item; Croatia other sector laws and 2026 Gazette amendments remain",
-    "next_batch_id": "A018",
+    "next": "M49:192 Cuba official original gazette leads unresolved; M49:196 Cyprus and M49:203 Czechia untouched; further Croatia originals possible",
+    "next_batch_id": "A019",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -197,7 +204,8 @@
     "M49:184 Ministry of Health PDF originals vs Parliament registry copies may represent same instrument, pending document-level deduplication.",
     "M49:180 DRC health specific implementing orders from Leganet remain for later source acquisition.",
     "M49:188 Costa Rica source lead index retrieved as metadata-only; current Gazette amendment chains, original CCSS legislation, and SINALEVI full text/versions uninspected.",
-    "M49:191 Croatia other sector-specific statutes, 2026 new amendments, HZZO and HALMED current primary laws still need intake; Gazette chain not legally authenticated."
+    "M49:191 Croatia other sector-specific statutes, 2026 new amendments, HZZO and HALMED current primary laws still need intake; Gazette chain not legally authenticated.",
+    "M49:192 Cuba Ley 165/2023 and Decreto 133/2025 official original gazette retrieval unresolved; 2026 gazette third-party reproduction not original publisher."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -921,7 +929,47 @@
     "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_11_137_2944.html",
     "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_10_98_1971.html",
     "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_03_33_583.html",
-    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_07_105_1474.html"
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_07_105_1474.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_01_10_246.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_143_2176.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_153_2407.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_02_14_268.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_38_530.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_50_658.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_05_79_1051.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_07_102_1428.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_10_127_1834.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_01_4_22.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_03_21_242.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_05_47_573.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_06_68_825.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_05_50_634.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_01_16_153.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_42_584.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_12_147_2187.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_05_56_706.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_05_47_571.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_07_80_954.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_01_16_154.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_08_116_1680.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_12_158_2400.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_05_47_572.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_07_80_955.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_01_8_155.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_03_37_598.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_05_50_633.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_10_119_1971.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_05_47_570.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_03_37_597.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_04_37_450.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_04_37_448.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_04_37_449.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_05_56_707.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_06_63_907.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2003_07_121_1707.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2008_10_117_3376.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2003_07_121_1710.html",
+    "https://narodne-novine.nn.hr/clanci/sluzbeni/2008_10_117_3378.html"
   ],
   "unresolved_retrievals": [
     {
@@ -1342,15 +1390,20 @@
       "source_id": "ATLAS-RAW-A017-009",
       "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_127_1773.html",
       "reason": "GAZETTE_PAGE_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A018-002",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_143_2176.html",
+      "reason": "GAZETTE_PAGE_TIMEOUT"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A017",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A017_TEAM_A_20261109.json",
+    "batch_id": "A018",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A018_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "2a366236d9da2e4d1e5261daf9487e2483f98a14",
+    "parent_commit_sha": "969186b390dd5d3952b7cb3115a29118adfbeb84",
     "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD; own SHA cannot be self-embedded"
   },
-  "next_run_instruction": "Resume A018 from M49:192 Cuba; Croatia remaining ministerial, regulator, HZZO original law sources outstanding. No evidence verification.",
+  "next_run_instruction": "Resume A019; target Cuba M49:192 official gazette, Cyprus M49:196, or other high-yield untouched queue; Croatia supplementary originals available. No evidence verification.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
