@@ -138,13 +138,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A022_TEAM_A_20261109.json",
       "source_count": 40
+    },
+    {
+      "batch_id": "A023",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A023_TEAM_A_20261109.json",
+      "source_count": 33
     }
   ],
-  "completed_worker_batch_count": 21,
-  "completed_team_a_intake_batch_count": 22,
-  "worker_new_unique_url_leads": 888,
-  "team_a_cumulative_unique_url_leads": 933,
-  "last_completed_batch": "A022",
+  "completed_worker_batch_count": 22,
+  "completed_team_a_intake_batch_count": 23,
+  "worker_new_unique_url_leads": 921,
+  "team_a_cumulative_unique_url_leads": 966,
+  "last_completed_batch": "A023",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -186,14 +192,15 @@
     "M49:196|preliminary_index_source_scan",
     "M49:203|official_sukl_legislation_index_scan",
     "M49:203|supplemental_czech_regulator_public_health_index_scan",
-    "M49:203|czech_sukl_eu_health_acquis_scan"
+    "M49:203|czech_sukl_eu_health_acquis_scan",
+    "M49:203|czech_ministry_szu_original_statute_index_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
       "203"
     ],
-    "next": "M49:203 Czechia continue remaining SÚKL EU health-law index and uncollected Czech primary health statutes; original base queue CSV missing",
-    "next_batch_id": "A023",
+    "next": "M49:203 Czechia: remaining official original health law texts and 2026 amendment sources; next queue code not confirmed because reference CSV absent",
+    "next_batch_id": "A024",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -241,7 +248,8 @@
     "M49:203 Czechia original legal texts and current consolidation/amendments in e-Sbírka still require direct retrieval; current tool returns metadata-only or server errors.",
     "Historical Team A queue file referenced in state not present on worker branch; use M49:203 checkpoint until queue target source resolved.",
     "M49:203 Czechia: SÚKL/SZÚ index leads A020-A021 largely metadata-only due to e-Sbírka viewer; original text, historical applicability and 2026 amendments still unresolved.",
-    "M49:203 EU law index: ELI links A022 metadata-first, several EUR-Lex targets blocked; instrument current force, direct applicability, and Czech transposition not checked."
+    "M49:203 EU law index: ELI links A022 metadata-first, several EUR-Lex targets blocked; instrument current force, direct applicability, and Czech transposition not checked.",
+    "M49:203 Czechia Ministry and SZÚ original statute/regulation text retrieval (A023 destinations resolved, but no readable document text), changes 2026, territorial applicability and instruments' current legal status unresolved."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -1176,7 +1184,40 @@
     "https://eur-lex.europa.eu/eli/reg/2017/556/oj",
     "https://eur-lex.europa.eu/eli/reg/2014/1252/oj",
     "https://eur-lex.europa.eu/eli/reg/2014/699/oj",
-    "https://eur-lex.europa.eu/eli/reg/2004/273/oj"
+    "https://eur-lex.europa.eu/eli/reg/2004/273/oj",
+    "https://e-sbirka.gov.cz/sb/2011/373",
+    "https://e-sbirka.gov.cz/sb/1986/66",
+    "https://e-sbirka.gov.cz/sb/2011/374",
+    "https://e-sbirka.gov.cz/sb/1991/220",
+    "https://e-sbirka.gov.cz/sb/2004/95",
+    "https://e-sbirka.gov.cz/sb/2004/96",
+    "https://e-sbirka.gov.cz/sb/1991/551",
+    "https://e-sbirka.gov.cz/sb/1992/280",
+    "https://e-sbirka.gov.cz/sb/1992/592",
+    "https://e-sbirka.gov.cz/sb/2002/120",
+    "https://e-sbirka.gov.cz/sb/2005/379",
+    "https://e-sbirka.gov.cz/sb/2001/164",
+    "https://e-sbirka.gov.cz/sb/1995/89",
+    "https://e-sbirka.gov.cz/sb/1992/126",
+    "https://e-sbirka.gov.cz/sb/2001/370",
+    "https://e-sbirka.gov.cz/sb/2001/423",
+    "https://e-sbirka.gov.cz/sb/2020/19",
+    "https://e-sbirka.gov.cz/sb/2024/13",
+    "https://e-sbirka.gov.cz/sb/2015/1",
+    "https://e-sbirka.gov.cz/sb/2022/211",
+    "https://e-sbirka.gov.cz/sb/2023/392",
+    "https://e-sbirka.gov.cz/sb/2025/201",
+    "https://e-sbirka.gov.cz/sb/2002/281",
+    "https://e-sbirka.gov.cz/sb/2002/474",
+    "https://e-sbirka.gov.cz/sb/2018/93",
+    "https://e-sbirka.gov.cz/sb/2023/389",
+    "https://e-sbirka.gov.cz/sb/2022/101",
+    "https://e-sbirka.gov.cz/sb/2008/422",
+    "https://e-sbirka.gov.cz/sb/2025/402",
+    "https://e-sbirka.gov.cz/sb/2007/361",
+    "https://e-sbirka.gov.cz/sb/2011/272",
+    "https://e-sbirka.gov.cz/sb/2015/291",
+    "https://e-sbirka.gov.cz/sb/2016/263"
   ],
   "unresolved_retrievals": [
     {
@@ -1772,15 +1813,180 @@
       "source_id": "ATLAS-RAW-A022-035",
       "url": "https://eur-lex.europa.eu/eli/reg/2009/469/oj",
       "reason": "EURLEX_ROBOT_CHECK_OR_ACCESS_FAILURE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-001",
+      "url": "https://e-sbirka.gov.cz/sb/2011/373",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-002",
+      "url": "https://e-sbirka.gov.cz/sb/1986/66",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-003",
+      "url": "https://e-sbirka.gov.cz/sb/2011/374",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-004",
+      "url": "https://e-sbirka.gov.cz/sb/1991/220",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-005",
+      "url": "https://e-sbirka.gov.cz/sb/2004/95",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-006",
+      "url": "https://e-sbirka.gov.cz/sb/2004/96",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-007",
+      "url": "https://e-sbirka.gov.cz/sb/1991/551",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-008",
+      "url": "https://e-sbirka.gov.cz/sb/1992/280",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-009",
+      "url": "https://e-sbirka.gov.cz/sb/1992/592",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-010",
+      "url": "https://e-sbirka.gov.cz/sb/2002/120",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-011",
+      "url": "https://e-sbirka.gov.cz/sb/2005/379",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-012",
+      "url": "https://e-sbirka.gov.cz/sb/2001/164",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-013",
+      "url": "https://e-sbirka.gov.cz/sb/1995/89",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-014",
+      "url": "https://e-sbirka.gov.cz/sb/1992/126",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-015",
+      "url": "https://e-sbirka.gov.cz/sb/2001/370",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-016",
+      "url": "https://e-sbirka.gov.cz/sb/2001/423",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-017",
+      "url": "https://e-sbirka.gov.cz/sb/2020/19",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-018",
+      "url": "https://e-sbirka.gov.cz/sb/2024/13",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-019",
+      "url": "https://e-sbirka.gov.cz/sb/2015/1",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-020",
+      "url": "https://e-sbirka.gov.cz/sb/2022/211",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-021",
+      "url": "https://e-sbirka.gov.cz/sb/2023/392",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-022",
+      "url": "https://e-sbirka.gov.cz/sb/2025/201",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-023",
+      "url": "https://e-sbirka.gov.cz/sb/2002/281",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-024",
+      "url": "https://e-sbirka.gov.cz/sb/2002/474",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-025",
+      "url": "https://e-sbirka.gov.cz/sb/2018/93",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-026",
+      "url": "https://e-sbirka.gov.cz/sb/2023/389",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-027",
+      "url": "https://e-sbirka.gov.cz/sb/2022/101",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-028",
+      "url": "https://e-sbirka.gov.cz/sb/2008/422",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-029",
+      "url": "https://e-sbirka.gov.cz/sb/2025/402",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-030",
+      "url": "https://e-sbirka.gov.cz/sb/2007/361",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-031",
+      "url": "https://e-sbirka.gov.cz/sb/2011/272",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-032",
+      "url": "https://e-sbirka.gov.cz/sb/2015/291",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A023-033",
+      "url": "https://e-sbirka.gov.cz/sb/2016/263",
+      "reason": "E_SBIRKA_DYNAMIC_LEGISLATION_TEXT_NOT_READABLE_METADATA_ONLY"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A022",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A022_TEAM_A_20261109.json",
+    "batch_id": "A023",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A023_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "df68d764bef71a51a07656f44f99ed32bc258fe4",
-    "checkpoint_commit_sha_resolution": "Worker branch HEAD contains the resulting SHA; no self-hash embed"
+    "parent_commit_sha": "5a02daa17b1397f4b2e96ac43bf7bd68f8846f3b",
+    "checkpoint_commit_sha_resolution": "Latest commit SHA is branch HEAD; cannot include own SHA in hashed contents"
   },
-  "next_run_instruction": "Continue Team A M49:203 with remaining distinct SÚKL EU instruments and Czech national laws. A020-A022 URLs collected; do not redo. Original queue CSV absent.",
+  "next_run_instruction": "Resume at A024 after reading committed Team A state and branch HEAD; M49:203 Czechia continue untouched official original-source leads; obtain absent base queue CSV to determine subsequent jurisdiction, do not redo A020-A023.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
