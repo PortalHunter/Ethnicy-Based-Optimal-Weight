@@ -53,12 +53,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B007_TEAM_B_20261109.json",
       "source_count": 39,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B008",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B008_TEAM_B_20261109.json",
+      "source_count": 40,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 7,
-  "worker_owned_batch_count": 6,
-  "cumulative_team_source_leads": 282,
-  "worker_owned_unique_url_leads": 243,
+  "completed_batch_count": 8,
+  "worker_owned_batch_count": 7,
+  "cumulative_team_source_leads": 322,
+  "worker_owned_unique_url_leads": 283,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -144,7 +150,23 @@
     "M49:626|high_chol",
     "M49:795|high_chol",
     "M49:858|high_chol",
-    "M49:860|high_chol"
+    "M49:860|high_chol",
+    "CROSS_REGION:GLOBAL|celiac",
+    "M49:710|hemochromatosis",
+    "M49:716|hemochromatosis",
+    "CROSS_REGION:GLOBAL|hemochromatosis",
+    "M49:840|hemochromatosis",
+    "CROSS_REGION:AFRICA|lactose",
+    "M49:250|hemochromatosis",
+    "CROSS_REGION:AFRICA|hemochromatosis",
+    "M49:316|gout",
+    "M49:356|celiac",
+    "CROSS_REGION:ASIA|celiac",
+    "M49:554|gout",
+    "M49:036|gout",
+    "M49:818|celiac",
+    "M49:076|celiac",
+    "M49:682|celiac"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -158,11 +180,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Original-source candidate acquisition for untouched celiac/gout/lactose/hemochromatosis across underrepresented M49 regions. WHO surveillance catalogue now extensively sampled B002/B004–B007; do not repeat existing STEPS entries."
+    "P1_next": "B009: continue original condition-specific research: African/South Asian and Oceania celiac/lactose/gout/HFE sources, with focused efforts on Bangladesh celiac, Peru gout (unresolved); no STEPS recapture."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 243,
+    "current_worker_batch_count": 283,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -406,13 +428,54 @@
       "https://www.who.int/publications/m/item/2019-steps-data-book-uzbekistan-%28russian%29",
       "https://www.who.int/publications/m/item/2014-steps-country-report-uzbekistan-%28russian%29",
       "https://www.who.int/publications/m/item/2014-steps-fact-sheet-uzbekistan",
-      "https://www.who.int/publications/m/item/2014-steps-fact-sheet-uzbekistan-%28russian%29"
+      "https://www.who.int/publications/m/item/2014-steps-fact-sheet-uzbekistan-%28russian%29",
+      "https://pubmed.ncbi.nlm.nih.gov/42612883/",
+      "https://pubmed.ncbi.nlm.nih.gov/29551598/",
+      "https://pubmed.ncbi.nlm.nih.gov/15338274/",
+      "https://pubmed.ncbi.nlm.nih.gov/10403742/",
+      "https://pubmed.ncbi.nlm.nih.gov/10953959/",
+      "https://pubmed.ncbi.nlm.nih.gov/36096187/",
+      "https://pubmed.ncbi.nlm.nih.gov/41369576/",
+      "https://pubmed.ncbi.nlm.nih.gov/29201715/",
+      "https://pubmed.ncbi.nlm.nih.gov/17679134/",
+      "https://pubmed.ncbi.nlm.nih.gov/11478530/",
+      "https://pubmed.ncbi.nlm.nih.gov/26633544/",
+      "https://pubmed.ncbi.nlm.nih.gov/11564085/",
+      "https://pubmed.ncbi.nlm.nih.gov/1407756/",
+      "https://pubmed.ncbi.nlm.nih.gov/39910506/",
+      "https://pubmed.ncbi.nlm.nih.gov/9753041/",
+      "https://pubmed.ncbi.nlm.nih.gov/38464136/",
+      "https://pubmed.ncbi.nlm.nih.gov/21182543/",
+      "https://pubmed.ncbi.nlm.nih.gov/26729543/",
+      "https://pubmed.ncbi.nlm.nih.gov/26678020/",
+      "https://pubmed.ncbi.nlm.nih.gov/34339089/",
+      "https://pubmed.ncbi.nlm.nih.gov/39741111/",
+      "https://pubmed.ncbi.nlm.nih.gov/40944477/",
+      "https://pubmed.ncbi.nlm.nih.gov/16928227/",
+      "https://pubmed.ncbi.nlm.nih.gov/32171354/",
+      "https://pubmed.ncbi.nlm.nih.gov/42543930/",
+      "https://pubmed.ncbi.nlm.nih.gov/34695076/",
+      "https://pubmed.ncbi.nlm.nih.gov/23279108/",
+      "https://pubmed.ncbi.nlm.nih.gov/22253023/",
+      "https://pubmed.ncbi.nlm.nih.gov/41394249/",
+      "https://pubmed.ncbi.nlm.nih.gov/39497278/",
+      "https://pubmed.ncbi.nlm.nih.gov/718280/",
+      "https://pubmed.ncbi.nlm.nih.gov/18664863/",
+      "https://pubmed.ncbi.nlm.nih.gov/10710058/",
+      "https://pubmed.ncbi.nlm.nih.gov/17206076/",
+      "https://pubmed.ncbi.nlm.nih.gov/28753180/",
+      "https://pubmed.ncbi.nlm.nih.gov/16758312/",
+      "https://pubmed.ncbi.nlm.nih.gov/23018296/",
+      "https://pubmed.ncbi.nlm.nih.gov/26655131/",
+      "https://pubmed.ncbi.nlm.nih.gov/17072989/",
+      "https://pubmed.ncbi.nlm.nih.gov/27706458/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
     "worker_B005_count": 39,
     "worker_B006_count": 40,
-    "worker_B007_count": 39
+    "worker_B007_count": 39,
+    "worker_B008_count": 40
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -446,14 +509,14 @@
       }
     ]
   },
-  "next_batch_id": "B008",
-  "next_queue_position": "B008: pivot from WHO STEPS catalogue into condition-specific original research and guidelines for remaining P0 Peru gout and Bangladesh celiac/lactose, plus untouched celiac, gout, lactose, hemochromatosis in underserved African/Oceania M49 cells; exclude all B001–B007 URLs; avoid more generalized risk-factor survey repetition.",
+  "next_batch_id": "B009",
+  "next_queue_position": "B009: continue condition-specific original medical source leads across remaining P1 untouched country-condition cells; prioritize underrepresented Africa/Oceania and targeted P0 Peru gout / Bangladesh celiac; skip PMID sources in B008.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B007",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B007_TEAM_B_20261109.json",
-    "parent_commit_sha": "feae0bee2dfb85532471ba08b20a76f7aed69a18",
+    "batch_id": "B008",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B008_TEAM_B_20261109.json",
+    "parent_commit_sha": "7457e63d8aa4f4a66d11b55019a3c1e161449d7b",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Commit SHA cannot be embedded in same commit; verified worker HEAD authoritative."
+    "note": "Commit SHA cannot be embedded atomically in content; verify GitHub branch HEAD for this batch."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
