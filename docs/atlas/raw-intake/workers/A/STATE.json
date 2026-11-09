@@ -54,13 +54,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A008_TEAM_A_20261109.json",
       "source_count": 50
+    },
+    {
+      "batch_id": "A009",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A009_TEAM_A_20261109.json",
+      "source_count": 48
     }
   ],
-  "completed_worker_batch_count": 7,
-  "completed_team_a_intake_batch_count": 8,
-  "worker_new_unique_url_leads": 299,
-  "team_a_cumulative_unique_url_leads": 344,
-  "last_completed_batch": "A008",
+  "completed_worker_batch_count": 8,
+  "completed_team_a_intake_batch_count": 9,
+  "worker_new_unique_url_leads": 347,
+  "team_a_cumulative_unique_url_leads": 392,
+  "last_completed_batch": "A009",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -83,15 +89,15 @@
     "M49:132|initial_source_scan",
     "M49:136|initial_source_scan",
     "M49:140|initial_source_scan",
-    "M49:144|initial_source_scan"
+    "M49:144|initial_source_scan",
+    "M49:148|initial_source_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "140",
-      "144"
+      "148"
     ],
-    "next": "M49:148 Chad; then M49:152 Chile and M49:156 China. Sri Lanka health ministry legal enactments and CAR journal-officiel originals remain separate unresolved targets.",
-    "next_batch_id": "A009",
+    "next": "M49:152 Chile, M49:156 China, M49:158 Taiwan (geographic queue disposition as defined in team worklist). Chad journal issues need per-instrument follow-up.",
+    "next_batch_id": "A010",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -117,7 +123,9 @@
     "M49:136 Cayman Islands 25 broken/timeout archived official legislation PDF links; replace with current working originals before any legal interpretation",
     "M49:140 CAR original Journal officiel and health law/decree chain not collected; A008 official ministry policy documents do not establish legal validity",
     "M49:144 Sri Lanka National Medicines Regulatory Authority Act, Medical Ordinance, statutes and Gazette amendment chain not yet scanned; A008 policy URLs are raw leads",
-    "M49:148 Chad unprocessed next queue item"
+    "M49:148 Chad primary healthcare statute and decree-specific health law leads still unresolved; A009 gathered journal issues and regulator/authority discovery pages but did not inspect enactment chains",
+    "M49:152 Chile next untouched Team A queue item",
+    "M49:156 China next untouched Team A queue item"
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -463,7 +471,55 @@
     "https://sante-rca.org/wp-content/uploads/2025/12/57Arrete-portant-affectation-des-gestionnaires-contractuels.pdf",
     "https://sante-rca.org/wp-content/uploads/2025/12/68DECLARATION-A-LA-NATION-DU-MINISTRE-CHARGE-DE-LA-SANTE-ET-DE-LA-POPULATION-A-PROPOS-DE-LA-SITUATION-DUNE-EPIDEMIE-DE-LA-VARIO.pdf",
     "https://sante-rca.org/wp-content/uploads/2025/12/PLAN-NATIONAL-DE-GESTION-DES-DECHETS-BIOMEDICAUX-EN-REPUBLIQUE-CENTRAFRICAINE-Actualise.pdf",
-    "https://sante-rca.org/wp-content/uploads/2025/12/Politique-dEngagement-Communautaire-2023-2030-RCA.pdf"
+    "https://sante-rca.org/wp-content/uploads/2025/12/Politique-dEngagement-Communautaire-2023-2030-RCA.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2026/09/JOURNAL-OFFICIEL-AOUT-2026.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2026/09/JOURNAL-OFFICIEL-JUILLET-FINAL.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2026/07/JOURNAL-OFFICIEL-AVRIL-2026.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2026/07/JOURNAL-OFFICIEL-MAI-2026.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2026/07/JOURNAL-OFFICIEL-JUIN-2026.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2026/04/JOURNAL-OFFICIEL-MARS-2026.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2026/03/JOURNAL-OFFICIEL-FEVRIER-2026.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2026/02/JOURNAL-OFFICIEL-DE-LA-REPUBLIQUE-JANVIER-2026.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2026/01/JOURNAL-OFFICIEL-DECEMBRE-2025.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/12/JOURNAL-OFFICIEL-NOVEMBRE-2025-1-Repare.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/11/JOURNAL-OFFICIEL-NUMERO-SPECIAL-OCTOBRE-2025-2.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/11/JOURNAL-OCTOBRE-2025-2.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/09/Journal-Aout-2025.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/08/Journal-Juillet-2025.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/JOURNAL-OFFICIEL-JUIN-2025-ORDINAIRE.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Mars-2025.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Mai-2025.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Janvier-2025.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Fevrier-2025.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Avril-2025.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Special-Lois-Septembre-2024.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Special-Lois-Organiques-Juillet-2024.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Octobre-2024-1.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Novermbre-2024-1.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Mars-2024-1.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Mai-2024-1.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Juin-2024-1.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Juillet-2024-1.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Janvier-2024-1.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Fevrier-2024-1.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Decembre-2024-2.pdf",
+    "https://transitionautchad.online/wp-content/uploads/2025/07/Journal-Septembre-2024-1.pdf",
+    "https://journalofficiel.gouv.td/storage/v1/object/public/archiva/journaux/2025/10/1764959752502-0u0ckxfe65pr.pdf",
+    "https://journalofficiel.gouv.td/storage/v1/object/public/archiva/journaux/2025/11/1764341988840-lxjz5cgawd.pdf",
+    "https://journalofficiel.gouv.td/",
+    "https://journalofficiel.td/fr/recherche",
+    "https://transitionautchad.online/documentations/",
+    "https://sante.gouv.td/",
+    "https://sante.gouv.td/index.php/blog/",
+    "https://senat.td/index.php/2025/07/10/seance-pleniere-du-9-juillet-2025-le-senat-adopte-un-projet-de-loi-strategique-pour-la-sante-publique/",
+    "https://dgpml.com/",
+    "https://dgpml.com/missions-et-valeurs/",
+    "https://dgpml.com/politique-qualite/",
+    "https://dgpml.com/creer-un-etablissement-pharmaceutique/",
+    "https://dgpml.com/homologuer-un-produit/",
+    "https://dgpml.com/vigilance-et-essais-cliniques/",
+    "https://dgpml.com/publications/",
+    "https://dgpml.com/base-de-donnees/"
   ],
   "unresolved_retrievals": [
     {
@@ -815,15 +871,20 @@
       "source_id": "ATLAS-RAW-A008-050",
       "url": "https://sante-rca.org/wp-content/uploads/2025/12/Politique-dEngagement-Communautaire-2023-2030-RCA.pdf",
       "reason": "PDF_LINK_CONTENT_LENGTH_LIMIT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A009-046",
+      "url": "https://dgpml.com/vigilance-et-essais-cliniques/",
+      "reason": "URL_CLICK_TIMEOUT"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A008",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A008_TEAM_A_20261109.json",
+    "batch_id": "A009",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A009_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "bf8dd98dadf312462025d37b271c9c5c96cf7b76",
+    "parent_commit_sha": "c85c1039f09b78f771b9cdeebbd1b2e0056477db",
     "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD because own commit cannot be self-embedded"
   },
-  "next_run_instruction": "Resume from next batch A009 on worker branch only; begin Chad M49:148 and seek original health enactments. Read worker state first, deduplicate URL inventory, commit bounded batches without verification.",
+  "next_run_instruction": "Resume at A010, M49:152 Chile (and next untouched rows); use primary legal and health-authority indexes. Deduplicate against worker STATE and commit each 30–50 lead batch.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
