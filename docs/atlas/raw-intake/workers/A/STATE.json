@@ -18,13 +18,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A002_TEAM_A_20261109.json",
       "source_count": 42
+    },
+    {
+      "batch_id": "A003",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A003_TEAM_A_20261109.json",
+      "source_count": 36
     }
   ],
-  "completed_worker_batch_count": 1,
-  "completed_team_a_intake_batch_count": 2,
-  "worker_new_unique_url_leads": 42,
-  "team_a_cumulative_unique_url_leads": 87,
-  "last_completed_batch": "A002",
+  "completed_worker_batch_count": 2,
+  "completed_team_a_intake_batch_count": 3,
+  "worker_new_unique_url_leads": 78,
+  "team_a_cumulative_unique_url_leads": 123,
+  "last_completed_batch": "A003",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -34,18 +40,19 @@
     "M49:072|initial_source_scan",
     "M49:076|initial_source_scan",
     "M49:084|initial_source_scan",
-    "M49:096|initial_source_scan"
+    "M49:096|initial_source_scan",
+    "M49:086|initial_source_scan",
+    "M49:090|initial_source_scan",
+    "M49:100|initial_source_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "070",
-      "072",
-      "076",
-      "084",
-      "096"
+      "086",
+      "090",
+      "100"
     ],
-    "next": "M49:086 British Indian Ocean Territory then M49:090 Solomon Islands; M49:100 Bulgaria follows unprocessed queue",
-    "next_batch_id": "A003",
+    "next": "M49:104 Myanmar P1_UNKNOWN, then M49:108 Burundi and M49:112 Belarus; skip prior A001-A003 URLs",
+    "next_batch_id": "A004",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -57,7 +64,13 @@
     "M49:086 British Indian Ocean Territory untouched next queue item",
     "M49:090 Solomon Islands untouched next queue item",
     "M49:096 Brunei regulator and gazette amendments not exhaustively collected",
-    "M49:100 Bulgaria untouched next queue item"
+    "M49:100 Bulgaria untouched next queue item",
+    "M49:086 BIOT current public-health scope and post-2020 Gazette amendment chain unresolved",
+    "M49:090 Solomon Islands post-2024 original amendments and current provincial/Honiara delegation unresolved",
+    "M49:100 Bulgaria official Word files not inspectable in viewer, original gazette and current delegated authority unresolved",
+    "M49:104 Myanmar P1_UNKNOWN unprocessed next queue item",
+    "M49:108 Burundi unprocessed",
+    "M49:112 Belarus P1_UNKNOWN unprocessed"
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -146,7 +159,43 @@
     "https://www.agc.gov.bn/documents/public-health-food-act/",
     "https://moh.gov.bn/about-us/professional-board/",
     "https://www.agc.gov.bn/legislation_online/",
-    "https://www.agc.gov.bn/AGC%20Images/LAWS/Gazette_PDF/2014/EN/s011.pdf"
+    "https://www.agc.gov.bn/AGC%20Images/LAWS/Gazette_PDF/2014/EN/s011.pdf",
+    "https://www.biot.gov.io/governance/legislation/revised-ordinances/",
+    "https://www.biot.gov.io/governance/legislation/revised-regulations/",
+    "https://www.biot.gov.io/governance/legislation/gazettes/",
+    "https://www.biot.gov.io/governance/legislation/orders-in-council/",
+    "https://www.biot.gov.io/wp-content/uploads/The-Births-and-Deaths-Regn-Ord-1984-A.2.pdf",
+    "https://www.biot.gov.io/wp-content/uploads/The-Emergency-Powers-Ord-1984-A.4.pdf",
+    "https://www.biot.gov.io/wp-content/uploads/The-Coroners-Ord-1985-B.2.pdf",
+    "https://www.biot.gov.io/wp-content/uploads/The-Misuse-of-Drugs-Ord-1992-C.5.pdf",
+    "https://www.biot.gov.io/wp-content/uploads/The-Imports-Exports-Control-Ord-2009-F.2.pdf",
+    "https://www.biot.gov.io/wp-content/uploads/The-Interpretation-Gen-Provisions-Ord-1993-A.7.pdf",
+    "https://www.biot.gov.io/wp-content/uploads/The-Coroners-Rules-1985-B.3-1.pdf",
+    "https://www.biot.gov.io/wp-content/uploads/The-Prohibited-Imports-Exports-Control-Order-2009-F.2.pdf",
+    "https://www.biot.gov.io/wp-content/uploads/The-British-Indian-Ocean-Territory-Constitution-Order-2004.pdf",
+    "https://attorneygenerals.gov.sb/legislation-dashboard/download-info/health-workers-act-cap-101v3_as-at-050224/",
+    "https://attorneygenerals.gov.sb/legislation-dashboard/download-info/honiara-city-act-1999-no-2-of-1999v9_as-at-050224/",
+    "https://attorneygenerals.gov.sb/legislation-dashboard/download-info/medical-and-dental-practitioners-act-cap-102v2_as-at-011009/",
+    "https://attorneygenerals.gov.sb/legislation-dashboard/download-info/mental-treatment-act-cap-103/",
+    "https://attorneygenerals.gov.sb/legislation-dashboard/download-info/nursing-council-act-cap-104/",
+    "https://attorneygenerals.gov.sb/legislation-dashboard/download-info/pharmacy-and-poisons-act-cap-105/",
+    "https://attorneygenerals.gov.sb/legislation-dashboard/download-info/pharmacy-practitioners-act-1997/",
+    "https://attorneygenerals.gov.sb/legislation-dashboard/download-info/quarantine-act-cap-106/",
+    "https://attorneygenerals.gov.sb/legislation/legislation-portal/",
+    "https://solomons.gov.sb/ministry-of-justice-and-legal-affairs/attorney-generals-chambers/gazettes-legislation/",
+    "https://attorneygenerals.gov.sb/legislation-dashboard/download-category/hcc-ordinances/",
+    "https://attorneygenerals.gov.sb/legislation-dashboard/download-category/provincial-ordinances/",
+    "https://www.mh.government.bg/upload/20340/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%BD%D0%BE%D1%82%D0%BE%20%D0%BE%D1%81%D0%B8%D0%B3%D1%83%D1%80%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5.doc",
+    "https://www.mh.government.bg/upload/20339/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%20%D0%B2%D1%8A%D1%80%D1%85%D1%83%20%D0%BD%D0%B0%D1%80%D0%BA%D0%BE%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D1%82%D0%B5%20%D0%B2%D0%B5%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D0%B8%20%D0%BF%D1%80%D0%B5%D0%BA%D1%83%D1%80%D1%81%D0%BE%D1%80%D0%B8%D1%82%D0%B5.doc",
+    "https://www.mh.government.bg/upload/20341/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D1%82%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8%20%D0%B2%20%D1%85%D1%83%D0%BC%D0%B0%D0%BD%D0%BD%D0%B0%D1%82%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0.doc",
+    "https://www.mh.government.bg/upload/20342/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BB%D0%B5%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D1%82%D0%B5%20%D0%B7%D0%B0%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F.doc",
+    "https://www.mh.government.bg/upload/20338/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%B5%D1%82%D0%BE.doc",
+    "https://www.mh.government.bg/upload/20350/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BA%D1%80%D1%8A%D0%B2%D1%82%D0%B0%2C%20%D0%BA%D1%80%D1%8A%D0%B2%D0%BE%D0%B4%D0%B0%D1%80%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5%D1%82%D0%BE%20%D0%B8%20%D0%BA%D1%80%D1%8A%D0%B2%D0%BE%D0%BF%D1%80%D0%B5%D0%BB%D0%B8%D0%B2%D0%B0%D0%BD%D0%B5%D1%82%D0%BE.doc",
+    "https://www.mh.government.bg/upload/20351/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D1%81%D1%8A%D1%81%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D1%82%D0%B5%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20%D0%BD%D0%B0%20%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D0%B8%D1%82%D0%B5%20%D0%B8%20%D0%BD%D0%B0%20%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D0%B8%D1%82%D0%B5%20%D0%BF%D0%BE%20%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D0%BD%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0.doc",
+    "https://www.mh.government.bg/upload/20346/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D1%82%D0%B5%20%D0%B8%D0%B7%D0%B4%D0%B5%D0%BB%D0%B8%D1%8F.doc",
+    "https://www.mh.government.bg/upload/20347/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B8%20%D0%BA%D0%B2%D0%B0%D0%BB%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8.doc",
+    "https://www.mh.government.bg/upload/20349/%D0%97%D0%90%D0%9A%D0%9E%D0%9D%20%D0%B7%D0%B0%20%D1%81%D1%8A%D1%81%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D1%82%D0%B5%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20%D0%BD%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D1%82%D0%B5%20%D1%81%D0%B5%D1%81%D1%82%D1%80%D0%B8%2C%20%D0%B0%D0%BA%D1%83%D1%88%D0%B5%D1%80%D0%BA%D0%B8%D1%82%D0%B5%20%D0%B8%20%D0%B0%D1%81%D0%BE%D1%86%D0%B8%D0%B8%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%20%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%20%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B8%2C%20%D0%BD%D0%B0%20%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D1%82%D0%B5%20%D0%B0%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BD%D1%82%D0%B8%2C%20%D0%BD%D0%B0%20%D0%B7%D1%8A%D0%B1%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%86%D0%B8%D1%82%D0%B5%20%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA-%D1%84%D0%B0%D1%80%D0%BC%D0%B0%D1%86%D0%B5%D0%B2%D1%82%D0%B8%D1%82%D0%B5.doc",
+    "https://www.mh.government.bg/upload/20344/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5.doc"
   ],
   "unresolved_retrievals": [
     {
@@ -228,15 +277,70 @@
       "url": "https://agm.gov.bz/laws/",
       "reason": "DYNAMIC_INDEX_SHELL_NO_LAW_ROWS",
       "source_id": "ATLAS-RAW-A002-031"
+    },
+    {
+      "source_id": "ATLAS-RAW-A003-026",
+      "url": "https://www.mh.government.bg/upload/20340/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%BD%D0%BE%D1%82%D0%BE%20%D0%BE%D1%81%D0%B8%D0%B3%D1%83%D1%80%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5.doc",
+      "reason": "UNSUPPORTED_APPLICATION_MSWORD_NOT_INSPECTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A003-027",
+      "url": "https://www.mh.government.bg/upload/20339/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%20%D0%B2%D1%8A%D1%80%D1%85%D1%83%20%D0%BD%D0%B0%D1%80%D0%BA%D0%BE%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D1%82%D0%B5%20%D0%B2%D0%B5%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D0%B8%20%D0%BF%D1%80%D0%B5%D0%BA%D1%83%D1%80%D1%81%D0%BE%D1%80%D0%B8%D1%82%D0%B5.doc",
+      "reason": "UNSUPPORTED_APPLICATION_MSWORD_NOT_INSPECTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A003-028",
+      "url": "https://www.mh.government.bg/upload/20341/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D1%82%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8%20%D0%B2%20%D1%85%D1%83%D0%BC%D0%B0%D0%BD%D0%BD%D0%B0%D1%82%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0.doc",
+      "reason": "UNSUPPORTED_APPLICATION_MSWORD_NOT_INSPECTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A003-029",
+      "url": "https://www.mh.government.bg/upload/20342/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BB%D0%B5%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D1%82%D0%B5%20%D0%B7%D0%B0%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F.doc",
+      "reason": "UNSUPPORTED_APPLICATION_MSWORD_NOT_INSPECTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A003-030",
+      "url": "https://www.mh.government.bg/upload/20338/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%B5%D1%82%D0%BE.doc",
+      "reason": "UNSUPPORTED_APPLICATION_MSWORD_NOT_INSPECTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A003-031",
+      "url": "https://www.mh.government.bg/upload/20350/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BA%D1%80%D1%8A%D0%B2%D1%82%D0%B0%2C%20%D0%BA%D1%80%D1%8A%D0%B2%D0%BE%D0%B4%D0%B0%D1%80%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5%D1%82%D0%BE%20%D0%B8%20%D0%BA%D1%80%D1%8A%D0%B2%D0%BE%D0%BF%D1%80%D0%B5%D0%BB%D0%B8%D0%B2%D0%B0%D0%BD%D0%B5%D1%82%D0%BE.doc",
+      "reason": "UNSUPPORTED_APPLICATION_MSWORD_NOT_INSPECTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A003-032",
+      "url": "https://www.mh.government.bg/upload/20351/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D1%81%D1%8A%D1%81%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D1%82%D0%B5%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20%D0%BD%D0%B0%20%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D0%B8%D1%82%D0%B5%20%D0%B8%20%D0%BD%D0%B0%20%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D0%B8%D1%82%D0%B5%20%D0%BF%D0%BE%20%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D0%BD%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0.doc",
+      "reason": "UNSUPPORTED_APPLICATION_MSWORD_NOT_INSPECTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A003-033",
+      "url": "https://www.mh.government.bg/upload/20346/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D1%82%D0%B5%20%D0%B8%D0%B7%D0%B4%D0%B5%D0%BB%D0%B8%D1%8F.doc",
+      "reason": "UNSUPPORTED_APPLICATION_MSWORD_NOT_INSPECTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A003-034",
+      "url": "https://www.mh.government.bg/upload/20347/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B8%20%D0%BA%D0%B2%D0%B0%D0%BB%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8.doc",
+      "reason": "UNSUPPORTED_APPLICATION_MSWORD_NOT_INSPECTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A003-035",
+      "url": "https://www.mh.government.bg/upload/20349/%D0%97%D0%90%D0%9A%D0%9E%D0%9D%20%D0%B7%D0%B0%20%D1%81%D1%8A%D1%81%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D1%82%D0%B5%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20%D0%BD%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D1%82%D0%B5%20%D1%81%D0%B5%D1%81%D1%82%D1%80%D0%B8%2C%20%D0%B0%D0%BA%D1%83%D1%88%D0%B5%D1%80%D0%BA%D0%B8%D1%82%D0%B5%20%D0%B8%20%D0%B0%D1%81%D0%BE%D1%86%D0%B8%D0%B8%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%20%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%20%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B8%2C%20%D0%BD%D0%B0%20%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D1%82%D0%B5%20%D0%B0%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BD%D1%82%D0%B8%2C%20%D0%BD%D0%B0%20%D0%B7%D1%8A%D0%B1%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%86%D0%B8%D1%82%D0%B5%20%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA-%D1%84%D0%B0%D1%80%D0%BC%D0%B0%D1%86%D0%B5%D0%B2%D1%82%D0%B8%D1%82%D0%B5.doc",
+      "reason": "UNSUPPORTED_APPLICATION_MSWORD_NOT_INSPECTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A003-036",
+      "url": "https://www.mh.government.bg/upload/20344/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5.doc",
+      "reason": "UNSUPPORTED_APPLICATION_MSWORD_NOT_INSPECTED"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A002",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A002_TEAM_A_20261109.json",
+    "batch_id": "A003",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A003_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "checkpoint_commit_sha_resolution": "Use GitHub branch HEAD containing this state file (self-referential commit cannot embed own SHA)",
-    "parent_commit_sha": "3674f049d627fcb9b6c456ac6abf648d9ee802ca"
+    "parent_commit_sha": "d54c14662e8eb6612a7d0d3fa810e982eea19d7c",
+    "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD because own commit cannot be self-embedded"
   },
-  "next_run_instruction": "Read THIS worker STATE.json and batch paths from research/atlas-raw-intake-team-a, resume at A003; do not reinitialize from central or update shared STATE.",
+  "next_run_instruction": "On Team A worker branch read persistent STATE.json; resume A004 from M49:104; no shared or other-team writes.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
