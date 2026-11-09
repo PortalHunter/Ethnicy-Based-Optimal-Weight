@@ -71,12 +71,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B010_TEAM_B_20261109.json",
       "source_count": 40,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B011",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B011_TEAM_B_20261109.json",
+      "source_count": 40,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 10,
-  "worker_owned_batch_count": 9,
-  "cumulative_team_source_leads": 402,
-  "worker_owned_unique_url_leads": 363,
+  "completed_batch_count": 11,
+  "worker_owned_batch_count": 10,
+  "cumulative_team_source_leads": 442,
+  "worker_owned_unique_url_leads": 403,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -210,7 +216,20 @@
     "M49:788|hemochromatosis",
     "M49:392|hemochromatosis",
     "M49:208|hemochromatosis",
-    "M49:792|hemochromatosis"
+    "M49:792|hemochromatosis",
+    "M49:554|celiac",
+    "M49:882|gout",
+    "M49:036|celiac",
+    "M49:376|celiac",
+    "M49:076|hemochromatosis",
+    "M49:258|gout",
+    "M49:036|hemochromatosis",
+    "M49:554|lactose",
+    "M49:540|gout",
+    "M49:772|gout",
+    "M49:710|celiac",
+    "M49:566|celiac",
+    "M49:504|gout"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -224,11 +243,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "B011: disease-specific source acquisition for underserved Africa/Oceania and Peru gout; P0 Bangladesh celiac remains unaccepted despite new raw leads."
+    "P1_next": "B012: untouched Africa/Oceania and remaining geography-condition cells; prioritize truly substantive P0 Peru gout, Bangladesh celiac/lactose, Sri Lanka gout. B008–B011 raw intake does NOT decrement 1,154 untouched baseline or complete medical acceptance."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 363,
+    "current_worker_batch_count": 403,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -592,7 +611,47 @@
       "https://pubmed.ncbi.nlm.nih.gov/1895049/",
       "https://pubmed.ncbi.nlm.nih.gov/23794343/",
       "https://pubmed.ncbi.nlm.nih.gov/38850209/",
-      "https://pubmed.ncbi.nlm.nih.gov/42364229/"
+      "https://pubmed.ncbi.nlm.nih.gov/42364229/",
+      "https://pubmed.ncbi.nlm.nih.gov/11059933/",
+      "https://pubmed.ncbi.nlm.nih.gov/7462382/",
+      "https://pubmed.ncbi.nlm.nih.gov/11587254/",
+      "https://pubmed.ncbi.nlm.nih.gov/15014561/",
+      "https://pubmed.ncbi.nlm.nih.gov/16936157/",
+      "https://pubmed.ncbi.nlm.nih.gov/26566488/",
+      "https://pubmed.ncbi.nlm.nih.gov/22075107/",
+      "https://pubmed.ncbi.nlm.nih.gov/17376047/",
+      "https://pubmed.ncbi.nlm.nih.gov/30536387/",
+      "https://pubmed.ncbi.nlm.nih.gov/11513196/",
+      "https://pubmed.ncbi.nlm.nih.gov/31472034/",
+      "https://pubmed.ncbi.nlm.nih.gov/14571105/",
+      "https://pubmed.ncbi.nlm.nih.gov/27848180/",
+      "https://pubmed.ncbi.nlm.nih.gov/17106152/",
+      "https://pubmed.ncbi.nlm.nih.gov/16099526/",
+      "https://pubmed.ncbi.nlm.nih.gov/15841433/",
+      "https://pubmed.ncbi.nlm.nih.gov/38485432/",
+      "https://pubmed.ncbi.nlm.nih.gov/10471457/",
+      "https://pubmed.ncbi.nlm.nih.gov/20858603/",
+      "https://pubmed.ncbi.nlm.nih.gov/2346731/",
+      "https://pubmed.ncbi.nlm.nih.gov/28270222/",
+      "https://pubmed.ncbi.nlm.nih.gov/19374615/",
+      "https://pubmed.ncbi.nlm.nih.gov/20173814/",
+      "https://pubmed.ncbi.nlm.nih.gov/2741950/",
+      "https://pubmed.ncbi.nlm.nih.gov/34601114/",
+      "https://pubmed.ncbi.nlm.nih.gov/12121511/",
+      "https://pubmed.ncbi.nlm.nih.gov/24462131/",
+      "https://pubmed.ncbi.nlm.nih.gov/23114632/",
+      "https://pubmed.ncbi.nlm.nih.gov/34611996/",
+      "https://pubmed.ncbi.nlm.nih.gov/15377292/",
+      "https://pubmed.ncbi.nlm.nih.gov/3117170/",
+      "https://pubmed.ncbi.nlm.nih.gov/34949295/",
+      "https://pubmed.ncbi.nlm.nih.gov/39528999/",
+      "https://pubmed.ncbi.nlm.nih.gov/3406874/",
+      "https://pubmed.ncbi.nlm.nih.gov/16336444/",
+      "https://pubmed.ncbi.nlm.nih.gov/3738643/",
+      "https://pubmed.ncbi.nlm.nih.gov/2886665/",
+      "https://pubmed.ncbi.nlm.nih.gov/9620327/",
+      "https://pubmed.ncbi.nlm.nih.gov/26889313/",
+      "https://pubmed.ncbi.nlm.nih.gov/11478357/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -601,7 +660,8 @@
     "worker_B007_count": 39,
     "worker_B008_count": 40,
     "worker_B009_count": 40,
-    "worker_B010_count": 40
+    "worker_B010_count": 40,
+    "worker_B011_count": 40
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -635,14 +695,14 @@
       }
     ]
   },
-  "next_batch_id": "B011",
-  "next_queue_position": "B011: seek distinct, inspectable condition-specific article and official institutional leads for remaining untouched African/Oceania/Pacific M49 cells and P0 unresolved Peru gout, favoring source-level dedup against B001–B010.",
+  "next_batch_id": "B012",
+  "next_queue_position": "B012: seek remaining uncollected P1 untouched country-condition original medical source leads and targeted official original Peru gout/Bangladesh lactose/celiac source candidates; exclude B001–B011 recorded URLs and article-level duplicates; raw intake never closes acceptance gates.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B010",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B010_TEAM_B_20261109.json",
-    "parent_commit_sha": "1ea544cd3ba380f0acafe72d95439b6fee6aeb9a",
+    "batch_id": "B011",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B011_TEAM_B_20261109.json",
+    "parent_commit_sha": "9e1b4bd30f5cc50d5ad13b7d45fa22cf78af46ed",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Self-referential SHA not possible in same commit. Verify GitHub branch HEAD."
+    "note": "Atomic state+batch cannot embed self-reference commit SHA; inspect verified worker HEAD."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
