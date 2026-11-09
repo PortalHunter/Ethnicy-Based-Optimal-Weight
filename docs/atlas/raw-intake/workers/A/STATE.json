@@ -132,13 +132,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A021_TEAM_A_20261109.json",
       "source_count": 44
+    },
+    {
+      "batch_id": "A022",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A022_TEAM_A_20261109.json",
+      "source_count": 40
     }
   ],
-  "completed_worker_batch_count": 20,
-  "completed_team_a_intake_batch_count": 21,
-  "worker_new_unique_url_leads": 848,
-  "team_a_cumulative_unique_url_leads": 893,
-  "last_completed_batch": "A021",
+  "completed_worker_batch_count": 21,
+  "completed_team_a_intake_batch_count": 22,
+  "worker_new_unique_url_leads": 888,
+  "team_a_cumulative_unique_url_leads": 933,
+  "last_completed_batch": "A022",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -179,14 +185,15 @@
     "M49:192|preliminary_index_source_scan",
     "M49:196|preliminary_index_source_scan",
     "M49:203|official_sukl_legislation_index_scan",
-    "M49:203|supplemental_czech_regulator_public_health_index_scan"
+    "M49:203|supplemental_czech_regulator_public_health_index_scan",
+    "M49:203|czech_sukl_eu_health_acquis_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
       "203"
     ],
-    "next": "M49:203 Czechia continue targeted public health authority, vaccination, infection and health insurance original source collection; main queue file absent so next jurisdiction code not confirmed",
-    "next_batch_id": "A022",
+    "next": "M49:203 Czechia continue remaining SÚKL EU health-law index and uncollected Czech primary health statutes; original base queue CSV missing",
+    "next_batch_id": "A023",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -233,7 +240,8 @@
     "M49:192 Cuba 2026 Gazette O9 legal leads are non-official transcription only; original Ministry of Justice Gazette primary PDF and legal force / later amendments unresolved.",
     "M49:203 Czechia original legal texts and current consolidation/amendments in e-Sbírka still require direct retrieval; current tool returns metadata-only or server errors.",
     "Historical Team A queue file referenced in state not present on worker branch; use M49:203 checkpoint until queue target source resolved.",
-    "M49:203 Czechia: SÚKL/SZÚ index leads A020-A021 largely metadata-only due to e-Sbírka viewer; original text, historical applicability and 2026 amendments still unresolved."
+    "M49:203 Czechia: SÚKL/SZÚ index leads A020-A021 largely metadata-only due to e-Sbírka viewer; original text, historical applicability and 2026 amendments still unresolved.",
+    "M49:203 EU law index: ELI links A022 metadata-first, several EUR-Lex targets blocked; instrument current force, direct applicability, and Czech transposition not checked."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -1128,7 +1136,47 @@
     "https://www.e-sbirka.cz/sb/2015/224?zalozka=text",
     "https://www.e-sbirka.cz/sb/2004/428?zalozka=text",
     "https://sukl.gov.cz/wp-content/uploads/2025/02/VC49BstnC3ADk20MZ20C48CR2014_2023.pdf",
-    "https://sukl.gov.cz/wp-content/uploads/2025/02/Cenovy-predpis-c.-1_2023_OLZP.pdf"
+    "https://sukl.gov.cz/wp-content/uploads/2025/02/Cenovy-predpis-c.-1_2023_OLZP.pdf",
+    "https://eur-lex.europa.eu/eli/dir/2001/83/oj",
+    "https://eur-lex.europa.eu/eli/dir/2001/20/oj",
+    "https://eur-lex.europa.eu/eli/dir/2005/28/oj",
+    "https://eur-lex.europa.eu/eli/dir/2017/1572/oj",
+    "https://eur-lex.europa.eu/eli/dir/2002/98/oj",
+    "https://eur-lex.europa.eu/eli/dir/2004/33/oj",
+    "https://eur-lex.europa.eu/eli/dir/2005/61/oj",
+    "https://eur-lex.europa.eu/eli/dir/2005/62/oj",
+    "https://eur-lex.europa.eu/eli/dir/2004/9/oj",
+    "https://eur-lex.europa.eu/eli/dir/2004/10/oj",
+    "https://eur-lex.europa.eu/eli/dir/2001/18/oj",
+    "https://eur-lex.europa.eu/eli/dir/2011/62/oj",
+    "https://eur-lex.europa.eu/eli/dir/2012/26/oj",
+    "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+    "https://eur-lex.europa.eu/eli/dir/2011/24/oj",
+    "https://eur-lex.europa.eu/eli/dir/2012/52/oj",
+    "https://eur-lex.europa.eu/eli/dir/2015/565/oj",
+    "https://eur-lex.europa.eu/eli/dir/2015/566/oj",
+    "https://eur-lex.europa.eu/eli/dir/2009/35/oj",
+    "https://eur-lex.europa.eu/eli/dir/2005/36/oj",
+    "https://eur-lex.europa.eu/eli/dir/1989/105/oj",
+    "https://eur-lex.europa.eu/eli/reg/2004/726/oj",
+    "https://eur-lex.europa.eu/eli/reg/2007/658/oj",
+    "https://eur-lex.europa.eu/eli/reg/2006/1901/oj",
+    "https://eur-lex.europa.eu/eli/reg/2000/141/oj",
+    "https://eur-lex.europa.eu/eli/reg/2008/1234/oj",
+    "https://eur-lex.europa.eu/eli/reg/2007/1394/oj",
+    "https://eur-lex.europa.eu/eli/reg/2019/1021/oj",
+    "https://eur-lex.europa.eu/eli/reg/2016/793/oj",
+    "https://eur-lex.europa.eu/eli/reg/2000/847/oj",
+    "https://eur-lex.europa.eu/eli/reg/1996/2141/oj",
+    "https://eur-lex.europa.eu/eli/reg/1995/1662/oj",
+    "https://eur-lex.europa.eu/eli/reg/1995/540/oj",
+    "https://eur-lex.europa.eu/eli/reg/1995/297/oj",
+    "https://eur-lex.europa.eu/eli/reg/2009/469/oj",
+    "https://eur-lex.europa.eu/eli/reg/2014/536/oj",
+    "https://eur-lex.europa.eu/eli/reg/2017/556/oj",
+    "https://eur-lex.europa.eu/eli/reg/2014/1252/oj",
+    "https://eur-lex.europa.eu/eli/reg/2014/699/oj",
+    "https://eur-lex.europa.eu/eli/reg/2004/273/oj"
   ],
   "unresolved_retrievals": [
     {
@@ -1699,15 +1747,40 @@
       "source_id": "ATLAS-RAW-A021-042",
       "url": "https://www.e-sbirka.cz/sb/2004/428?zalozka=text",
       "reason": "E_SBIRKA_WEB_TARGET_REDIRECT_OR_SERVER_ERROR"
+    },
+    {
+      "source_id": "ATLAS-RAW-A022-002",
+      "url": "https://eur-lex.europa.eu/eli/dir/2001/20/oj",
+      "reason": "EURLEX_ROBOT_CHECK_OR_ACCESS_FAILURE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A022-003",
+      "url": "https://eur-lex.europa.eu/eli/dir/2005/28/oj",
+      "reason": "EURLEX_ROBOT_CHECK_OR_ACCESS_FAILURE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A022-017",
+      "url": "https://eur-lex.europa.eu/eli/dir/2015/565/oj",
+      "reason": "EURLEX_ROBOT_CHECK_OR_ACCESS_FAILURE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A022-022",
+      "url": "https://eur-lex.europa.eu/eli/reg/2004/726/oj",
+      "reason": "EURLEX_ROBOT_CHECK_OR_ACCESS_FAILURE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A022-035",
+      "url": "https://eur-lex.europa.eu/eli/reg/2009/469/oj",
+      "reason": "EURLEX_ROBOT_CHECK_OR_ACCESS_FAILURE"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A021",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A021_TEAM_A_20261109.json",
+    "batch_id": "A022",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A022_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "d46e61989b4621695e1150182e4e51114dc9187e",
-    "checkpoint_commit_sha_resolution": "Final SHA is branch HEAD; commit cannot self-include its SHA"
+    "parent_commit_sha": "df68d764bef71a51a07656f44f99ed32bc258fe4",
+    "checkpoint_commit_sha_resolution": "Worker branch HEAD contains the resulting SHA; no self-hash embed"
   },
-  "next_run_instruction": "Continue Czechia M49:203, new official health legal sources only; A020-A021 statutory links collected, do not repeat. Original queue CSV absent from branch.",
+  "next_run_instruction": "Continue Team A M49:203 with remaining distinct SÚKL EU instruments and Czech national laws. A020-A022 URLs collected; do not redo. Original queue CSV absent.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
