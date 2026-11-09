@@ -59,12 +59,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B008_TEAM_B_20261109.json",
       "source_count": 40,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B009",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B009_TEAM_B_20261109.json",
+      "source_count": 40,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 8,
-  "worker_owned_batch_count": 7,
-  "cumulative_team_source_leads": 322,
-  "worker_owned_unique_url_leads": 283,
+  "completed_batch_count": 9,
+  "worker_owned_batch_count": 8,
+  "cumulative_team_source_leads": 362,
+  "worker_owned_unique_url_leads": 323,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -166,7 +172,25 @@
     "M49:036|gout",
     "M49:818|celiac",
     "M49:076|celiac",
-    "M49:682|celiac"
+    "M49:682|celiac",
+    "M49:364|celiac",
+    "M49:246|hemochromatosis",
+    "CROSS_REGION:GLOBAL|lactose",
+    "M49:729|lactose",
+    "M49:710|lactose",
+    "M49:504|celiac",
+    "M49:788|celiac",
+    "M49:729|celiac",
+    "M49:356|lactose",
+    "CROSS_REGION:GLOBAL|gout",
+    "M49:156|gout",
+    "M49:586|lactose",
+    "M49:156|lactose",
+    "M49:158|gout",
+    "M49:826|hemochromatosis",
+    "M49:586|celiac",
+    "M49:458|lactose",
+    "M49:203|lactose"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -180,11 +204,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "B009: continue original condition-specific research: African/South Asian and Oceania celiac/lactose/gout/HFE sources, with focused efforts on Bangladesh celiac, Peru gout (unresolved); no STEPS recapture."
+    "P1_next": "B010: deepen remaining celiac/gout/lactose/HFE untouched regions, especially African and Pacific conditions; Peru gout and Bangladesh celiac original gaps not closed."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 283,
+    "current_worker_batch_count": 323,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -468,14 +492,55 @@
       "https://pubmed.ncbi.nlm.nih.gov/23018296/",
       "https://pubmed.ncbi.nlm.nih.gov/26655131/",
       "https://pubmed.ncbi.nlm.nih.gov/17072989/",
-      "https://pubmed.ncbi.nlm.nih.gov/27706458/"
+      "https://pubmed.ncbi.nlm.nih.gov/27706458/",
+      "https://pubmed.ncbi.nlm.nih.gov/23563005/",
+      "https://pubmed.ncbi.nlm.nih.gov/24630847/",
+      "https://pubmed.ncbi.nlm.nih.gov/22642242/",
+      "https://pubmed.ncbi.nlm.nih.gov/17159977/",
+      "https://pubmed.ncbi.nlm.nih.gov/3188989/",
+      "https://pubmed.ncbi.nlm.nih.gov/37006133/",
+      "https://pubmed.ncbi.nlm.nih.gov/28426286/",
+      "https://pubmed.ncbi.nlm.nih.gov/25401983/",
+      "https://pubmed.ncbi.nlm.nih.gov/17120047/",
+      "https://pubmed.ncbi.nlm.nih.gov/41433046/",
+      "https://pubmed.ncbi.nlm.nih.gov/28127820/",
+      "https://pubmed.ncbi.nlm.nih.gov/33760047/",
+      "https://pubmed.ncbi.nlm.nih.gov/24704072/",
+      "https://pubmed.ncbi.nlm.nih.gov/38125690/",
+      "https://pubmed.ncbi.nlm.nih.gov/38187990/",
+      "https://pubmed.ncbi.nlm.nih.gov/38953066/",
+      "https://pubmed.ncbi.nlm.nih.gov/16514380/",
+      "https://pubmed.ncbi.nlm.nih.gov/16376174/",
+      "https://pubmed.ncbi.nlm.nih.gov/37663108/",
+      "https://pubmed.ncbi.nlm.nih.gov/15176547/",
+      "https://pubmed.ncbi.nlm.nih.gov/41458699/",
+      "https://pubmed.ncbi.nlm.nih.gov/42542741/",
+      "https://pubmed.ncbi.nlm.nih.gov/38996590/",
+      "https://pubmed.ncbi.nlm.nih.gov/35197964/",
+      "https://pubmed.ncbi.nlm.nih.gov/15803118/",
+      "https://pubmed.ncbi.nlm.nih.gov/17625439/",
+      "https://pubmed.ncbi.nlm.nih.gov/14711608/",
+      "https://pubmed.ncbi.nlm.nih.gov/6745955/",
+      "https://pubmed.ncbi.nlm.nih.gov/631627/",
+      "https://pubmed.ncbi.nlm.nih.gov/23025058/",
+      "https://pubmed.ncbi.nlm.nih.gov/11776151/",
+      "https://pubmed.ncbi.nlm.nih.gov/41684661/",
+      "https://pubmed.ncbi.nlm.nih.gov/41633988/",
+      "https://pubmed.ncbi.nlm.nih.gov/42798675/",
+      "https://pubmed.ncbi.nlm.nih.gov/25612613/",
+      "https://pubmed.ncbi.nlm.nih.gov/34967925/",
+      "https://pubmed.ncbi.nlm.nih.gov/11469473/",
+      "https://pubmed.ncbi.nlm.nih.gov/40308198/",
+      "https://pubmed.ncbi.nlm.nih.gov/21669599/",
+      "https://pubmed.ncbi.nlm.nih.gov/9228138/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
     "worker_B005_count": 39,
     "worker_B006_count": 40,
     "worker_B007_count": 39,
-    "worker_B008_count": 40
+    "worker_B008_count": 40,
+    "worker_B009_count": 40
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -509,14 +574,14 @@
       }
     ]
   },
-  "next_batch_id": "B009",
-  "next_queue_position": "B009: continue condition-specific original medical source leads across remaining P1 untouched country-condition cells; prioritize underrepresented Africa/Oceania and targeted P0 Peru gout / Bangladesh celiac; skip PMID sources in B008.",
+  "next_batch_id": "B010",
+  "next_queue_position": "B010: targeted published original source candidates and official guidance for unaddressed M49 celiac/gout/lactose/hemochromatosis cells; avoid B001–B009 URL reuse and mere proxy references.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B008",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B008_TEAM_B_20261109.json",
-    "parent_commit_sha": "7457e63d8aa4f4a66d11b55019a3c1e161449d7b",
+    "batch_id": "B009",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B009_TEAM_B_20261109.json",
+    "parent_commit_sha": "c0410ff2e51ecbc0e1fd3f3177ef00ea88bd7155",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Commit SHA cannot be embedded atomically in content; verify GitHub branch HEAD for this batch."
+    "note": "Use verified worker branch HEAD; embedded self-SHA is not possible within same commit."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
