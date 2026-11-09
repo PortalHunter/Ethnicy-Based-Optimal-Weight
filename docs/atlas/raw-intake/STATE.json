@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "status": "RAW_SOURCE_ACQUISITION_ONLY",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-raw-intake",
+  "created_on": "2026-11-09",
+  "rotation": [
+    "B",
+    "A",
+    "D"
+  ],
+  "last_completed_batch": "B001",
+  "last_selected_team": "B",
+  "next_team": "A",
+  "completed_batch_count": 1,
+  "cumulative_unique_url_leads": 39,
+  "cumulative_retrieval_limitations": 3,
+  "batch_paths": [
+    "docs/atlas/raw-intake/batches/B001_TEAM_B_20261109.json"
+  ],
+  "processed_queue_items": [
+    "M49:016|diabetes|hypertension|lipid_screening",
+    "M49:583|diabetes|hypertension|lipid_screening",
+    "M49:580|diabetes|hypertension|lipid_screening",
+    "M49:585|diabetes|hypertension|lipid_screening",
+    "M49:584|diabetes|hypertension|lipid_screening",
+    "M49:583|youth_NCD_risk_factors",
+    "M49:008|diabetes",
+    "M49:008|hypertension",
+    "M49:008|high_chol_general_not_FH",
+    "M49:008|diabetes|hypertension|high_chol_general_not_FH",
+    "M49:020|diabetes",
+    "M49:024|diabetes|hypertension|NCD_policy",
+    "M49:028|diabetes|hypertension",
+    "M49:028|diabetes|hypertension|NCD_risk_survey",
+    "M49:012|hypertension",
+    "M49:028|diabetes|hypertension|NCD_country_profile"
+  ],
+  "queue_positions": {
+    "B": {
+      "batch_cursor": 1,
+      "next": "continue source-lead acquisition from Team B P1 untouched cells and P0 unresolved originals; exclude B001 URLs and existing Team B source URLs",
+      "base_queue": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+      "baseline": "Batch 98: 1154 untouched cells, 342 unaudited existing URLs; these counts are NOT decremented by raw intake"
+    },
+    "A": {
+      "batch_cursor": 0,
+      "next": "first uncollected high-yield research_queue.csv item on research/atlas-team-a-20261104",
+      "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
+    },
+    "D": {
+      "batch_cursor": 0,
+      "next": "first uncollected high-yield consolidated_case_backlog_2026-11-07.csv item on research/atlas-team-d-20261104",
+      "base_queue": "docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv"
+    }
+  },
+  "next_run_instruction": "Read STATE.json, the listed batch files for URL deduplication, and the next team's current worklist; execute ONE new bounded raw intake batch; commit only to this branch. Never treat lead collection as verification.",
+  "last_batch_unresolved_retrieval_ids": [
+    "ATLAS-RAW-B001-010",
+    "ATLAS-RAW-B001-017",
+    "ATLAS-RAW-B001-029"
+  ],
+  "safe_scope": "No main/team/harness edits, no document full text or personal health/genetic data."
+}
