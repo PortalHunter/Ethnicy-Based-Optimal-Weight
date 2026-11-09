@@ -96,13 +96,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A015_TEAM_A_20261109.json",
       "source_count": 36
+    },
+    {
+      "batch_id": "A016",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A016_TEAM_A_20261109.json",
+      "source_count": 44
     }
   ],
-  "completed_worker_batch_count": 14,
-  "completed_team_a_intake_batch_count": 15,
-  "worker_new_unique_url_leads": 593,
-  "team_a_cumulative_unique_url_leads": 638,
-  "last_completed_batch": "A015",
+  "completed_worker_batch_count": 15,
+  "completed_team_a_intake_batch_count": 16,
+  "worker_new_unique_url_leads": 637,
+  "team_a_cumulative_unique_url_leads": 682,
+  "last_completed_batch": "A016",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -135,14 +141,15 @@
     "M49:174|initial_source_scan",
     "M49:178|initial_source_scan",
     "M49:180|initial_source_scan_partial",
-    "M49:184|initial_source_scan"
+    "M49:184|initial_source_scan",
+    "M49:188|initial_source_scan"
   ],
   "queue_position": {
     "last_selected_m49": [
-      "184"
+      "188"
     ],
-    "next": "M49:188 Costa Rica; M49:191 Croatia; M49:192 Cuba; M49:196 Cyprus; M49:203 Czechia; earlier DRC implementing orders and cross-source duplicate document identities unresolved.",
-    "next_batch_id": "A016",
+    "next": "M49:191 Croatia next untouched queue item; Costa Rica 2025-2026 Gazette amendment-chain and CCSS institutional originals pending",
+    "next_batch_id": "A017",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -181,7 +188,8 @@
     "M49:180 DRC 2018/2023 health act current amendment chain and many health implementing orders remain to collect.",
     "M49:184 Cook Islands Public Health Act 2004/2024 transition, later 2025 orders and commencement status require original-current legal authentication.",
     "M49:184 Ministry of Health PDF originals vs Parliament registry copies may represent same instrument, pending document-level deduplication.",
-    "M49:180 DRC health specific implementing orders from Leganet remain for later source acquisition."
+    "M49:180 DRC health specific implementing orders from Leganet remain for later source acquisition.",
+    "M49:188 Costa Rica source lead index retrieved as metadata-only; current Gazette amendment chains, original CCSS legislation, and SINALEVI full text/versions uninspected."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -821,7 +829,51 @@
     "https://parliamentci.wpenginepowered.com/wp-content/uploads/2023/04/Paper-03A_compressed.pdf",
     "https://www.health.gov.ck/public-health-law-reform/",
     "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/COK_Cooks-Islands_National-Health-Strategic-Plan_2023-2027.pdf",
-    "https://environment.gov.ck/legislation/other-relevant-legislation/"
+    "https://environment.gov.ck/legislation/other-relevant-legislation/",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=6581&param2=96425&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=72249&param2=100226&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=72804&param2=89027&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=96116&param2=128587&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=102538&param2=141803&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=67923&param2=98914&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=30279&param2=96418&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=62959&param2=72139&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=99003&param2=140765&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=68300&param2=&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=74462&param2=&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=88120&param2=114959&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=72642&param2=108004&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=80629&param2=106188&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=81006&param2=107483&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=81785&param2=104467&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=82895&param2=&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=78180&param2=98418&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=78580&param2=99081&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=77461&param2=97091&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=74926&param2=92670&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=72232&param2=&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=70606&param2=85364&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=69580&param2=85538&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=68197&param2=81183&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=67935&param2=80710&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=58112&param2=63677&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=63033&param2=72240&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=59896&param2=75461&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=46283&param2=48851&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=59397&param2=66344&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=65500&param2=76559&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=93250&param2=127091&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=86498&param2=112238&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=93595&param2=124329&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=95827&param2=128070&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=95311&param2=127212&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=103597&param2=144148&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=102067&param2=140978&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=48042&param2=51084&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=86760&param2=112734&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=86761&param2=112735&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=86855&param2=112900&param3=1&param4=",
+    "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=87428&param2=113896&param3=1&param4="
   ],
   "unresolved_retrievals": [
     {
@@ -1227,15 +1279,25 @@
       "source_id": "ATLAS-RAW-A015-012",
       "url": "https://www.health.gov.ck/covid-19-public-health-measures-regulations-2021/",
       "reason": "DIRECT_PAGE_ACCESS_HTTP_403"
+    },
+    {
+      "source_id": "ATLAS-RAW-A016-013",
+      "url": "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=72642&param2=108004&param3=1&param4=",
+      "reason": "TARGET_WEB_TOOL_REDIRECT_FAILURE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A016-014",
+      "url": "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=80629&param2=106188&param3=1&param4=",
+      "reason": "TARGET_WEB_TOOL_REDIRECT_FAILURE"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A015",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A015_TEAM_A_20261109.json",
+    "batch_id": "A016",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A016_TEAM_A_20261109.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "fce52d4ffee15729a24cb83d20982d33070b5033",
+    "parent_commit_sha": "bf4e4b93ba049f993d4b9a86fefbca80a2cc805d",
     "checkpoint_commit_sha_resolution": "Final commit SHA is worker branch HEAD; own SHA cannot be self-embedded"
   },
-  "next_run_instruction": "Resume A016 from M49:188 Costa Rica; priority untouched legal originals, followed by M49:191 Croatia; unresolved DRC and 158 queue mismatch remain in state. No evidence validation.",
+  "next_run_instruction": "Resume A017 from M49:191 Croatia, then M49:192 Cuba; preserve Costa Rica legal text retrieval limits. No evidence verification.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
