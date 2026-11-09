@@ -133,10 +133,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D021_TEAM_D_20261109.json",
       "source_count": 31,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D022",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D022_TEAM_D_20261109.json",
+      "source_count": 33,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 21,
-  "cumulative_unique_url_leads": 818,
+  "completed_batch_count": 22,
+  "cumulative_unique_url_leads": 851,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -376,8 +382,9 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-OFFICE-158",
-    "TD-BL-OFFICE-239"
+    "TD-BL-OFFICE-239",
+    "TD-BL-ACCEPT-001",
+    "TD-BL-ACCEPT-002"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -1197,7 +1204,40 @@
     "https://www.gov.uk/csv-preview/6aa9384ff1f8d2a39605f801/FCDO_UK_Overseas_Territories_-_11_Sep_2026.csv",
     "https://www.gov.uk/government/publications/the-central-government-s-concept-of-operations/the-amber-book-appendices-html",
     "https://www.legislation.gov.uk/uksi/1995/1621/made",
-    "https://www.legislation.gov.uk/uksi/1985/449/pdfs/uksi_19850449_en.pdf"
+    "https://www.legislation.gov.uk/uksi/1985/449/pdfs/uksi_19850449_en.pdf",
+    "https://gov.gs/marine-protected-area/",
+    "https://gov.gs/marine-protected-areas-data-portal/",
+    "https://gov.gs/terrestrial-protected-area/",
+    "https://gov.gs/gis/",
+    "https://gov.gs/south-georgia-the-south-sandwich-islands/",
+    "https://gov.gs/wildlife-protected-areas/",
+    "https://gov.gs/fishlegislation/",
+    "https://gov.gs/ccamlr/",
+    "https://gov.gs/project-archive/",
+    "https://gov.gs/other-projects/",
+    "https://gov.gs/visitor-policy-risk-awareness/",
+    "https://www.w3.org/TR/vocab-dcat-3/",
+    "https://www.w3.org/TR/vocab-org/",
+    "https://www.w3.org/TR/shacl/",
+    "https://www.w3.org/TR/json-ld11/",
+    "https://www.w3.org/TR/vocab-dqv/",
+    "https://www.w3.org/TR/odrl-model/",
+    "https://www.w3.org/TR/vc-data-model-2.0/",
+    "https://www.w3.org/TR/dwbp/",
+    "https://docs.github.com/en/actions/how-tos/manage-workflow-runs/download-workflow-artifacts",
+    "https://docs.github.com/en/actions/how-tos/manage-workflow-runs",
+    "https://docs.github.com/en/actions/how-tos/manage-workflow-runs/re-run-workflows-and-jobs",
+    "https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-jobs",
+    "https://docs.github.com/en/actions/how-tos/troubleshoot-workflows",
+    "https://docs.github.com/en/actions/how-tos/monitor-workflows/use-workflow-run-logs",
+    "https://docs.github.com/en/actions/how-tos/monitor-workflows/enable-debug-logging",
+    "https://docs.github.com/en/actions/how-tos/create-and-publish-actions/using-immutable-releases-and-tags-to-manage-your-actions-releases",
+    "https://docs.github.com/en/actions/reference/security/secure-use",
+    "https://docs.github.com/en/actions/how-tos/monitor-workflows",
+    "https://slsa.dev/spec/v1.2/provenance",
+    "https://slsa.dev/spec/v1.2/verifying-artifacts",
+    "https://slsa.dev/spec/v1.2/build-requirements",
+    "https://support.datacite.org/docs/datacite-metadata-schema"
   ],
   "unresolved_retrievals": [
     {
@@ -1958,9 +1998,25 @@
       "url": "https://www.legislation.gov.uk/uksi/1985/449/pdfs/uksi_19850449_en.pdf",
       "reason": "PDF_METADATA_ONLY_FULL_SOURCE_NOT_INSPECTED",
       "origin": "D021"
+    },
+    {
+      "queue_item": "TD-BL-OFFICE-239",
+      "source_id": null,
+      "url": null,
+      "origin": "D022",
+      "reason": "NO_EXACT_APRIL_2026_WHO_OFFICE_HOST_RESPONDENT_OR_SOURCE_OWNER_NONAPPLICABILITY_PRIMARY_FOUND"
+    },
+    {
+      "queue_item": "TD-BL-ACCEPT-002",
+      "source_id": null,
+      "url": null,
+      "origin": "D022",
+      "reason": "ORIGINAL_CODESPACES_NATIVE_RUN_LOGS_NOT_RETRIEVED"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [],
+  "duplicate_urls_skipped_this_batch": [
+    "https://gov.gs/entry-control-order-permit-application/"
+  ],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -1975,12 +2031,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D022: Source-only additions to 158 and 239 exhausted in this search; exact original WHO April 2026 office-host respondent/nonapplicability remains unresolved. Acceptance 001/002 original native-run and independent semantic review are NOT completed by intake. Collect further official source-owner leads only if new specific originals appear; otherwise stop source collection without inventing coverage.",
-  "next_batch_id": "D022",
+  "next_queue_position": "D023: seek original WHO April 2026 office-host custodian/exception source records, and additional source-owner provenance, licensing and native reproducibility evidence; all substantive Team D gates held",
+  "next_batch_id": "D023",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D021",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D021_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "d1129a284dd23e2b48ff2126f01f6402f7395fcd",
+    "batch_id": "D022",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D022_TEAM_D_20261109.json",
+    "previous_worker_head_sha": "2571325fc699f85195eeab1714debd9ef91feefd",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
