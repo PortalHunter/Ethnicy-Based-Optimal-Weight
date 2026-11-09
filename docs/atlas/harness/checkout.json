@@ -2025,7 +2025,8 @@
           "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-NET-009.json"
         ]
       },
-      "status": "reserved"
+      "status": "running",
+      "launch_id": "launch-D-NET-009-R1-3ffdd34f3af7a2907ffefc43"
     },
     "run-B-B01-US-ACR-GOUT-20261108-f2a8c79e": {
       "team": "B",
