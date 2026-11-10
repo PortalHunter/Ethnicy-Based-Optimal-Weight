@@ -276,13 +276,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A045_TEAM_A_20261110.json",
       "source_count": 35
+    },
+    {
+      "batch_id": "A046",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A046_TEAM_A_20261110.json",
+      "source_count": 39
     }
   ],
-  "completed_worker_batch_count": 44,
-  "completed_team_a_intake_batch_count": 45,
-  "worker_new_unique_url_leads": 1745,
-  "team_a_cumulative_unique_url_leads": 1790,
-  "last_completed_batch": "A045",
+  "completed_worker_batch_count": 45,
+  "completed_team_a_intake_batch_count": 46,
+  "worker_new_unique_url_leads": 1784,
+  "team_a_cumulative_unique_url_leads": 1829,
+  "last_completed_batch": "A046",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -347,14 +353,15 @@
     "M49:203|czech_social_health_disability_occupational_welfare_and_sickness_insurance_legal_index",
     "M49:203|czech_2026_medical_services_public_health_ministry_statute_indexes",
     "M49:203|czech_food_safety_drinking_water_hygiene_eu_and_official_authority_sources",
-    "M49:203|czech_nrc_drinking_water_public_health_guidance_and_historical_methods"
+    "M49:203|czech_nrc_drinking_water_public_health_guidance_and_historical_methods",
+    "M49:203|czech_recreational_bottled_well_water_and_contact_material_health_guidance"
   ],
   "queue_position": {
     "last_selected_m49": [
       "203"
     ],
-    "next": "M49:203 Czechia continue SZÚ bottled and recreational water, MZe 2025–2026 food/health legislation; recover missing geographic research queue",
-    "next_batch_id": "A046",
+    "next": "M49:203 Czechia continue official Czech health authority / food and water regulatory source leads; recover missing geographic queue",
+    "next_batch_id": "A047",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -425,7 +432,8 @@
     "A042 original Czech social welfare/occupational sickness texts and current applicability uninspected; indirect health relevance requires later screening.",
     "A043 Ministry of Health 2026 statutory crossreferences require direct original law review; newsletters are secondary indexes.",
     "A044 food/water instrument full texts and EU consolidation, enforceability, geographic scope uninspected; institutional guidance is source material not legislation.",
-    "A045 SZÚ original downloadable guidance documents and 2005–2026 methodological versions not inspected; historical relevance/current force unverified."
+    "A045 SZÚ original downloadable guidance documents and 2005–2026 methodological versions not inspected; historical relevance/current force unverified.",
+    "A046 SZÚ original attached guidance, original legal texts and historical versions for recreational water, bottled water, contact materials and wells uninspected; one 2013 publication-index date conflicts with 2014 document title."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -2217,7 +2225,46 @@
     "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/pitna-voda/legioneloza-a-jeji-prevence/",
     "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/pitna-voda/zdravotni-rizika-pitne-vody-s-vysokym-obsahem-rozpustenych-latek/",
     "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/pitna-voda/hygienicke-minimum-pro-pracovniky-ve-vodarenstvi/",
-    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/pitna-voda/zdravotni-vyznam-sodiku-ve-vodach/"
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/pitna-voda/zdravotni-vyznam-sodiku-ve-vodach/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/naegleria-fowleri-v-ceske-republice-z-pohledu-ochrany-verejneho-zdravi/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/metodicke-doporuceni-pro-bezpecny-provoz-interaktivnich-mestskych-vodnich-prvku-vodnich-hrist-a-parku/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/plisne-a-bradavice/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/stanovisko-statniho-zdravotniho-ustavu-ke-kurzum-plavani-kojencu-a-batolat/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/koupani-ve-volne-prirode/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/mereni-trichloraminu-ve-vnitrnim-ovzdusi-haly-kryteho-bazenu/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/soupis-taxonu-sinic-pro-usnadneni-hodnoceni-nalezu-podle-prilohy-c-6-vyhlasky-c-238-2011-sb/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/vyjadrovani-vysledku-rozdilovych-ukazatelu-v-bazenovych-vodach/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/kvalita-rekreacnich-vod-v-cr/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/metodicke-doporuceni-pro-vysetrovani-a-hodnoceni-kvality-vody-ke-koupani-podle-%C2%A7%C2%A7-13-15-vyhlasky-c-238-2011-sb-ve-zneni-vyhlasky-c-97-2014-sb-pro-sezonu-2014/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/onemocneni-z-prirodnich-koupacich-vod-v-ceske-republice/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/hodnoceni-zdravotniho-rizika-z-vodniho-lyzovani/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/metodicke-doporuceni-nrc-pro-pitnou-vodu-o-doplnujicich-udajich-k-vysledkum-mikrobiologickych-rozboru-v-is-pivo-pro-prirodni-koupaliste/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/nova-legislativa-z-roku-2011-v-oblasti-koupacich-vod/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/dotaznik-zdravotni-problemy-vznikle-v-dusledku-koupani-nebo-kontaktu-s-koupaci-vodou/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/monotematicke-cislo-casopisu-hygiena-zamerene-na-problematiku-koupacich-vod/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/koupaci-vody-2004-2006/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/koupaliste-a-bazeny/koupani-ve-volne-prirode/rizika-pri-koupani-ve-volne-prirode/sinice-a-koupani-v-prirode/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/balena-voda/voda-jako-zaklad-zdravi-zasady-pitneho-rezimu/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/balena-voda/slozeni-balenych-vod/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/balena-voda/sborniky-ze-seminare-balena-voda-zdravotni-a-hygienicka-hlediska/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/balena-voda/rady-spotrebitelum-balenych-vod/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/balena-voda/pijete-vodu-z-watercooleru/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/balena-voda/pitna-voda-obohacena-kyslikem/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/balena-voda/spravny-pitny-rezim/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/balena-voda/komentar-nrc-pro-pitnou-vodu-k-pi-vode-a-jeji-distribuci/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/balena-voda/rasy-v-balenych-vodach/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/balena-voda/ucinky-vody-s-oxidem-uhlicitym-na-lidske-zdravi/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/vyrobky-pro-styk-s-vodou-a-na-upravu-vody/pozadavky-cr/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/vyrobky-pro-styk-s-vodou-a-na-upravu-vody/novela-vyhlasky-c-409-2005-sb-o-hygienickych-pozadavcich-na-vyrobky-prichazejici-do-primeho-styku-s-vodou-a-na-upravu-vody/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/vyrobky-pro-styk-s-vodou-a-na-upravu-vody/stanovisko-nrc-pro-pitnou-vodu-k-uprave-vody-reverzni-osmozou/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/vyrobky-pro-styk-s-vodou-a-na-upravu-vody/vodni-filtry/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/vyrobky-pro-styk-s-vodou-a-na-upravu-vody/stanovisko-k-pouzivani-azbestocementovych-potrubi/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/vyrobky-pro-styk-s-vodou-a-na-upravu-vody/magneticka-uprava-vody/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/vyrobky-pro-styk-s-vodou-a-na-upravu-vody/problematika-pouziti-pripravku-na-bazi-polyfosforecnanu/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/studny/postup-pri-sanaci-zatopene-studny/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/studny/vlastni-studna-vyhoda-i-riziko/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/studny/studna-jako-zdroj-pitne-vody/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/studny/zprava-o-kvalite-pitne-vody-ze-studni-individualniho-zasobovani-v-ceske-republice/"
   ],
   "unresolved_retrievals": [
     {
@@ -6661,12 +6708,12 @@
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A045",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A045_TEAM_A_20261110.json",
+    "batch_id": "A046",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A046_TEAM_A_20261110.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "c2fb6abf14fee4e77863b739bef0e1c3189fbd8e",
+    "parent_commit_sha": "de3ea884df846480f3c4f263d870c8062b20b085",
     "checkpoint_commit_sha_resolution": "Self-referential SHA impossible; verify branch HEAD after atomic update."
   },
-  "next_run_instruction": "Resume Team A A046 from latest committed worker state. M49:203 ongoing; recover historical geographic queue. Raw intake only.",
+  "next_run_instruction": "Resume Team A A047 using latest committed worker state; M49:203 ongoing. Raw acquisition only.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
