@@ -211,10 +211,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D034_TEAM_D_20261110.json",
       "source_count": 42,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D035",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D035_TEAM_D_20261110.json",
+      "source_count": 45,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 34,
-  "cumulative_unique_url_leads": 1339,
+  "completed_batch_count": 35,
+  "cumulative_unique_url_leads": 1384,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -1796,7 +1802,52 @@
     "https://github.com/package-url/purl-spec/blob/main/types/nuget-definition.json",
     "https://github.com/package-url/purl-spec/blob/main/types/oci-definition.json",
     "https://github.com/package-url/purl-spec/blob/main/types/pypi-definition.json",
-    "https://github.com/package-url/purl-spec/blob/main/types/rpm-definition.json"
+    "https://github.com/package-url/purl-spec/blob/main/types/rpm-definition.json",
+    "https://github.com/w3c/prov/blob/main/model/ProvenanceModel.html",
+    "https://github.com/w3c/prov/blob/main/model/glossary.html",
+    "https://github.com/w3c/prov/blob/main/model/grammar.txt",
+    "https://github.com/w3c/prov/blob/main/model/media-type-request.txt",
+    "https://github.com/w3c/prov/blob/main/model/optional.html",
+    "https://github.com/w3c/prov/blob/main/model/prov-constraints.html",
+    "https://github.com/w3c/prov/blob/main/model/prov-dictionary.html",
+    "https://github.com/w3c/prov/blob/main/model/prov-dm.html",
+    "https://github.com/w3c/prov/blob/main/model/prov-glossary.html",
+    "https://github.com/w3c/prov/blob/main/model/prov-n.html",
+    "https://github.com/w3c/prov/blob/main/ontology/Overview.html",
+    "https://github.com/w3c/prov/blob/main/ontology/ProvenanceOntology.owl",
+    "https://github.com/w3c/prov/blob/main/ontology/prov-o.ttl",
+    "https://github.com/w3c/prov/blob/main/ontology/prov-o.ttl.prov",
+    "https://github.com/w3c/prov/blob/main/dictionary/Overview.html",
+    "https://github.com/w3c/prov/blob/main/dictionary/prov-dictionary-grammar.txt",
+    "https://github.com/w3c/prov/blob/main/dictionary/prov-dictionary.owl",
+    "https://github.com/w3c/prov/blob/main/dictionary/prov-dictionary.ttl",
+    "https://github.com/w3c/prov/blob/main/primer/Primer.html",
+    "https://github.com/w3c/prov/blob/main/primer/primer-prov-xml-examples.xml",
+    "https://github.com/w3c/prov/blob/main/primer/primer-provn-examples.provn",
+    "https://github.com/w3c/prov/blob/main/primer/primer-turtle-examples.ttl",
+    "https://github.com/w3c/prov/blob/main/paq/prov-aq.html",
+    "https://github.com/w3c/prov/blob/main/paq/prov-aq.owl",
+    "https://github.com/w3c/prov/blob/main/paq/prov-aq.ttl",
+    "https://github.com/w3c/prov/blob/main/semantics/prov-sem-math-test.html",
+    "https://github.com/w3c/prov/blob/main/semantics/prov-sem.html",
+    "https://github.com/w3c/shacl/blob/main/shacl-core/index.html",
+    "https://github.com/w3c/shacl/blob/main/shacl-core/shacl-shacl.ttl",
+    "https://github.com/w3c/shacl/blob/main/shacl-core/shacl.ttl",
+    "https://github.com/w3c/rdf-canon/blob/main/tests/index.html",
+    "https://github.com/w3c/rdf-canon/blob/main/tests/manifest",
+    "https://github.com/w3c/rdf-canon/blob/main/tests/manifest.csv",
+    "https://github.com/w3c/rdf-canon/blob/main/tests/manifest.jsonld",
+    "https://github.com/w3c/rdf-canon/blob/main/tests/manifest.ttl",
+    "https://github.com/w3c/rdf-canon/blob/main/tests/vocab.html",
+    "https://github.com/w3c/rdf-canon/blob/main/tests/vocab.jsonld",
+    "https://github.com/w3c/rdf-canon/blob/main/tests/vocab.ttl",
+    "https://github.com/w3c/rdf-canon/blob/main/tests/vocab_context.jsonld",
+    "https://github.com/w3c/rdf-canon/blob/main/spec/index.html",
+    "https://github.com/w3c/vc-data-model/blob/main/errata.html",
+    "https://github.com/w3c/vc-data-model/blob/main/explainer.md",
+    "https://github.com/w3c/vc-data-model/blob/main/index.html",
+    "https://github.com/w3c/vc-data-model/blob/main/privacy.html",
+    "https://github.com/w3c/vc-data-model/blob/main/terms.html"
   ],
   "unresolved_retrievals": [
     {
@@ -2678,14 +2729,7 @@
       "reason": "INDEPENDENT_ATLAS_SEMANTIC_GRAPH_AND_SOURCE_RIGHTS_ACCEPTANCE_NOT_RETRIEVED_OR_PERFORMED"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [
-    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-2-3.json",
-    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-3-0-1.json",
-    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-3-1-dev.json",
-    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-context.jsonld",
-    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.jsonld",
-    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.ttl"
-  ],
+  "duplicate_urls_skipped_this_batch": [],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -2700,12 +2744,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Resume D035 from untouched W3C PROV, SHACL, RDF provenance and reproducibility technical method leads. Original WHO April 2026 host exceptions and Atlas-run stdout/stderr, SHA and independent source-rights/semantic acceptance remain unresolved.",
-  "next_batch_id": "D035",
+  "next_queue_position": "Resume at D036, prioritizing untouched W3C ODRL/DCAT, OCI image artifact provenance, source rights and controlled technical methodology leads. Original WHO April 2026 exception source and Atlas-native executed logs, SHA and acceptance remain unresolved.",
+  "next_batch_id": "D036",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D034",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D034_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "308af02dda507b945ae7d3b7c114c6fff063deaa",
+    "batch_id": "D035",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D035_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "7fbadf0049c82aeb76d9cf81e00b17927fc8e41f",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
