@@ -247,10 +247,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D040_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D041",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D041_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 40,
-  "cumulative_unique_url_leads": 1578,
+  "completed_batch_count": 41,
+  "cumulative_unique_url_leads": 1618,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -2071,7 +2077,47 @@
     "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2022-08-29-slsa-github-workflows-generic-ga.md",
     "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2023-02-01-slsa-github-workflows-container-ga.md",
     "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2023-02-24-slsa-v1-rc.md",
-    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2023-04-03-the-breadth-and-depth-of-slsa.md"
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2023-04-03-the-breadth-and-depth-of-slsa.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Dataset.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Classes/DatasetPackage.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/anonymizationMethodUsed.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/confidentialityLevel.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/dataCollectionProcess.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/dataPreprocessing.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/datasetAvailability.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/datasetNoise.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/datasetSize.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/datasetType.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/datasetUpdateMechanism.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/hasSensitivePersonalInformation.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/intendedUse.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/knownBias.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Properties/sensor.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Vocabularies/ConfidentialityLevelType.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Vocabularies/DatasetAvailabilityType.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Dataset/Vocabularies/DatasetType.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Build/Build.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Build/Classes/Build.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Build/Properties/buildEndTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Build/Properties/buildId.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Build/Properties/buildStartTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Build/Properties/buildType.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Build/Properties/configSourceDigest.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Build/Properties/configSourceEntrypoint.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Build/Properties/configSourceUri.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Build/Properties/environment.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Build/Properties/parameter.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Action.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Artifact.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/CreationInfo.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/ExternalIdentifier.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/ExternalRef.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Hash.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/IntegrityMethod.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Relationship.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/SpdxDocument.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Properties/comment.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Properties/completeness.md"
   ],
   "unresolved_retrievals": [
     {
@@ -2968,12 +3014,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D041: untouched official methods for data provenance, rights, semantic graph evaluation and supply-chain attestation; prioritize original April 2026 WHO office host/exception statements and Atlas-native Codespaces stdout/stderr with executed SHA when directly available. Do not count these as closed without originals.",
-  "next_batch_id": "D041",
+  "next_queue_position": "D042: untouched RO-Crate research-object and provenance descriptions, Sigstore attestation wire specs, or CycloneDX original schema model; no prior intake validation implied. WHO April 2026 original host exceptions and Codespaces stdout/stderr remain unresolved.",
+  "next_batch_id": "D042",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D040",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D040_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "c420e0ad9c294e4a68c35fe91a2e06c125743251",
+    "batch_id": "D041",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D041_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "082558660683a689c49f060b47ded21dc721cae6",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
