@@ -271,10 +271,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D044_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D045",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D045_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 44,
-  "cumulative_unique_url_leads": 1738,
+  "completed_batch_count": 45,
+  "cumulative_unique_url_leads": 1778,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -2254,7 +2260,47 @@
     "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/basic-example.ttl",
     "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/catalog-record-schema.jsonld",
     "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/catalog-record-schema.rdf",
-    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/catalog-record-schema.ttl"
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/catalog-record-schema.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Activity-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-ActivityInfluence-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Agent-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-AgentInfluence-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Association-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Attribution-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Bundle-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Collection-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Communication-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Delegation-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Derivation-FAIL.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-EmptyCollection-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-End-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Entity-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-EntityInfluence-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Generation-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Influence-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-InstantaneousEvent-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Invalidation-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-class-Location-PASS.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/catalog-record.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/classifying-thematically.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/classifying-types.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/compress-and-package.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/conformance-standards.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/csiro-dap-examples.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/csiro-stratchart-sdo.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/csiro-stratchart.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/dataset-002.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/dataset-003.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/dataset-004-sdo.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/dataset-004.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/eea-csw.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/ga-courts.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/ga-wms.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/genoa-busstop.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/identifier-types.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/relation-examples.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/service1.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/spatial-properties.jsonld"
   ],
   "unresolved_retrievals": [
     {
@@ -3136,7 +3182,10 @@
       "reason": "INDEPENDENT_ATLAS_SEMANTIC_GRAPH_AND_SOURCE_RIGHTS_ACCEPTANCE_NOT_RETRIEVED_OR_PERFORMED"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [],
+  "duplicate_urls_skipped_this_batch": [
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/basic-example.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/catalog-record-schema.jsonld"
+  ],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -3151,12 +3200,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D045: uncollected primary W3C PROV-O conformity test fixtures, DCAT metadata examples, SPDX 3 core model properties; continue source-only intake. April 2026 WHO host/exception originals and native Codespaces run proof unresolved.",
-  "next_batch_id": "D045",
+  "next_queue_position": "D046: untouched verified-original but unassessed SPDX 3 model property sources, W3C PROV semantics/tests and DCAT data interoperability examples; advance only with new distinct URLs. April 2026 WHO office host/exception original evidence and Atlas-native Codespaces executed SHA/stdout/stderr remain unresolved.",
+  "next_batch_id": "D046",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D044",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D044_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "7a0e324fcda42367d7b22dba6c090ac5caede07b",
+    "batch_id": "D045",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D045_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "9f113ceb94a8282d60ec5cd7533687308d589ebc",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
