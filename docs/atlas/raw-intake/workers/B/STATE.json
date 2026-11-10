@@ -299,12 +299,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B048_TEAM_B_20261110.json",
       "source_count": 34,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B049",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B049_TEAM_B_20261110.json",
+      "source_count": 33,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 48,
-  "worker_owned_batch_count": 47,
-  "cumulative_team_source_leads": 1815,
-  "worker_owned_unique_url_leads": 1776,
+  "completed_batch_count": 49,
+  "worker_owned_batch_count": 48,
+  "cumulative_team_source_leads": 1848,
+  "worker_owned_unique_url_leads": 1809,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -1061,7 +1067,21 @@
     "M49:496|cardiometabolic_risk",
     "CROSS_REGION:AFRICAN_ANCESTRY|dyslipidemia",
     "M49:156|cardiometabolic_risk",
-    "CROSS_REGION:TIBETAN_PLATEAU|cardiometabolic_risk"
+    "CROSS_REGION:TIBETAN_PLATEAU|cardiometabolic_risk",
+    "M49:450|cardiometabolic_risk",
+    "M49:566|cardiometabolic_risk",
+    "M49:340|clinical_guidance",
+    "CROSS_REGION:HISPANIC_US_COUNTRY_OF_BIRTH|diabetes",
+    "M49:340|diabetes",
+    "CROSS_REGION:CENTRAL_AMERICA_MEXICO|cardiometabolic_risk",
+    "M49:466|hypertension",
+    "CROSS_REGION:GLOBAL|cardiometabolic_risk",
+    "M49:524|clinical_guidance",
+    "CROSS_REGION:COLOMBIA_JAMAICA|hypertension",
+    "M49:300|pharmacogenetics",
+    "M49:031|pharmacogenetics",
+    "CROSS_REGION:AFRICAN_AMERICAN_US|pharmacogenetics",
+    "M49:051|cardiometabolic_risk"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -1075,11 +1095,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Continue P1 high-yield original sources and population cohorts not yet represented in worker URL inventory; P0 originals and IDF Comoros redirect remain unresolved. Raw intake does not decrement underlying substantive clinical research backlog."
+    "P1_next": "Continue P1 new original studies and relevant guidance in less-covered populations; no decrement of baseline clinical research backlog from source intake alone."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 1776,
+    "current_worker_batch_count": 1809,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -2856,7 +2876,40 @@
       "https://pubmed.ncbi.nlm.nih.gov/42837289/",
       "https://pubmed.ncbi.nlm.nih.gov/42763190/",
       "https://pubmed.ncbi.nlm.nih.gov/42863635/",
-      "https://pubmed.ncbi.nlm.nih.gov/42552774/"
+      "https://pubmed.ncbi.nlm.nih.gov/42552774/",
+      "https://pubmed.ncbi.nlm.nih.gov/42186579/",
+      "https://pubmed.ncbi.nlm.nih.gov/42537033/",
+      "https://pubmed.ncbi.nlm.nih.gov/40852744/",
+      "https://pubmed.ncbi.nlm.nih.gov/41776798/",
+      "https://pubmed.ncbi.nlm.nih.gov/40309528/",
+      "https://pubmed.ncbi.nlm.nih.gov/38918758/",
+      "https://pubmed.ncbi.nlm.nih.gov/42488853/",
+      "https://pubmed.ncbi.nlm.nih.gov/40881918/",
+      "https://pubmed.ncbi.nlm.nih.gov/38835729/",
+      "https://pubmed.ncbi.nlm.nih.gov/42605400/",
+      "https://pubmed.ncbi.nlm.nih.gov/37464490/",
+      "https://pubmed.ncbi.nlm.nih.gov/27583362/",
+      "https://pubmed.ncbi.nlm.nih.gov/31752908/",
+      "https://pubmed.ncbi.nlm.nih.gov/42631316/",
+      "https://pubmed.ncbi.nlm.nih.gov/23260013/",
+      "https://pubmed.ncbi.nlm.nih.gov/42564148/",
+      "https://pubmed.ncbi.nlm.nih.gov/41812123/",
+      "https://pubmed.ncbi.nlm.nih.gov/41334405/",
+      "https://pubmed.ncbi.nlm.nih.gov/38274544/",
+      "https://pubmed.ncbi.nlm.nih.gov/30449743/",
+      "https://pubmed.ncbi.nlm.nih.gov/38167279/",
+      "https://pubmed.ncbi.nlm.nih.gov/41633425/",
+      "https://pubmed.ncbi.nlm.nih.gov/41938687/",
+      "https://pubmed.ncbi.nlm.nih.gov/42753774/",
+      "https://pubmed.ncbi.nlm.nih.gov/42093042/",
+      "https://pubmed.ncbi.nlm.nih.gov/41432551/",
+      "https://pubmed.ncbi.nlm.nih.gov/41419163/",
+      "https://pubmed.ncbi.nlm.nih.gov/38884939/",
+      "https://pubmed.ncbi.nlm.nih.gov/36427849/",
+      "https://pubmed.ncbi.nlm.nih.gov/41935856/",
+      "https://pubmed.ncbi.nlm.nih.gov/42685625/",
+      "https://pubmed.ncbi.nlm.nih.gov/27339795/",
+      "https://pubmed.ncbi.nlm.nih.gov/40122159/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -2868,7 +2921,8 @@
     "worker_B010_count": 40,
     "worker_B011_count": 40,
     "worker_B047_count": 34,
-    "worker_B048_count": 34
+    "worker_B048_count": 34,
+    "worker_B049_count": 33
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -2930,16 +2984,17 @@
     "worker_B045": [],
     "worker_B046": [],
     "worker_B047": [],
-    "worker_B048": []
+    "worker_B048": [],
+    "worker_B049": []
   },
-  "next_batch_id": "B049",
-  "next_queue_position": "B049: resume P1 untouched original population-specific studies/guidelines across Asia-Pacific, Africa and Latin America, including pharmacogenetics, cardiometabolic epidemiology, diabetes, gout, celiac disease and dyslipidemia; exclude B001–B048 URL inventory. P0 Bangladesh celiac/lactose, Peru gout and Sri Lanka gout originals unresolved; B044 IDF Comoros direct fetch redirect unresolved.",
+  "next_batch_id": "B050",
+  "next_queue_position": "B050: continue P1 clinical guidance, disease prevalence, cardiometabolic genetics, pharmacogenetics and selected primary epidemiology in undercovered countries, avoiding all B001-B049 URLs. P0 Bangladesh celiac/lactose, Sri Lanka gout, Peru gout originals unresolved; IDF Comoros direct fetch redirect unresolved.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B048",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B048_TEAM_B_20261110.json",
-    "parent_commit_sha": "8f8611876474de67dd668574e14f511975c57ef6",
+    "batch_id": "B049",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B049_TEAM_B_20261110.json",
+    "parent_commit_sha": "9d4eda38e1b37a06fa279e593c7416b3120dee25",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Two-file atomic Git commit; worker HEAD readback supplies canonical commit SHA."
+    "note": "Atomic batch/state commit; HEAD is canonical SHA checked after write."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
