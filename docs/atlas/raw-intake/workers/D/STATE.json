@@ -433,10 +433,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D071_TEAM_D_20261110.json",
       "source_count": 47,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D072",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D072_TEAM_D_20261110.json",
+      "source_count": 47,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 71,
-  "cumulative_unique_url_leads": 2860,
+  "completed_batch_count": 72,
+  "cumulative_unique_url_leads": 2907,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -3538,7 +3544,54 @@
     "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-qualifiedStart-PASS.ttl",
     "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-qualifiedUsage-PASS.provn",
     "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-qualifiedUsage-PASS.provx",
-    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-qualifiedUsage-PASS.ttl"
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-qualifiedUsage-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-removed-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-removed-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-removed-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-specializationOf-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-specializationOf-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-specializationOf-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-startedAtTime-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-startedAtTime-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-startedAtTime-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-used-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-used-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-used-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasAssociatedWith-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasAssociatedWith-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasAssociatedWith-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasAttributedTo-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasAttributedTo-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasAttributedTo-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasDerivedFrom-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasDerivedFrom-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasDerivedFrom-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasEndedBy-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasEndedBy-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasEndedBy-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasGeneratedBy-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasGeneratedBy-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasGeneratedBy-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasInfluencedBy-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasInfluencedBy-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasInfluencedBy-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasInformedBy-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasInformedBy-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasInformedBy-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasInvalidatedBy-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasInvalidatedBy-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasInvalidatedBy-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasQuotedFrom-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasQuotedFrom-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasQuotedFrom-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasRevisionOf-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasRevisionOf-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasRevisionOf-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasStartedBy-PASS.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasStartedBy-PASS.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/provo/prov-o-property-wasStartedBy-PASS.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-10-trust-agent-annotation/rdf/eg-10-trust-agent-annotation-via-notes.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-11-w3c-publication/asn/convert/rdf/eg-11-w3c-publication.n3"
   ],
   "unresolved_retrievals": [
     {
@@ -4442,16 +4495,16 @@
     "w3c_prov_upstream_eligible_uncollected": {
       "testcases/constraints/": 0,
       "testcases/prov-dm/": 0,
-      "testcases/provo/": 45,
-      "examples/": 335
+      "testcases/provo/": 0,
+      "examples/": 333
     }
   },
-  "next_queue_position": "D072: W3C PROV original fixtures/examples {\"testcases/constraints/\":0,\"testcases/prov-dm/\":0,\"testcases/provo/\":45,\"examples/\":335}; WHO exceptions and native Codespaces acceptance proof remain unresolved.",
-  "next_batch_id": "D072",
+  "next_queue_position": "D073: W3C PROV original provenance examples remaining {\"testcases/constraints/\":0,\"testcases/prov-dm/\":0,\"testcases/provo/\":0,\"examples/\":333}; WHO office exceptions and native Codespaces evidence unresolved.",
+  "next_batch_id": "D073",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D071",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D071_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "b8ebae213b02796f9dd2cc0dc9b1645bae166835",
+    "batch_id": "D072",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D072_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "0113635645cbde5f4c01c347049f0042f652c607",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
