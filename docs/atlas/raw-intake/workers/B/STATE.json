@@ -305,12 +305,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B049_TEAM_B_20261110.json",
       "source_count": 33,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B050",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B050_TEAM_B_20261110.json",
+      "source_count": 30,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 49,
-  "worker_owned_batch_count": 48,
-  "cumulative_team_source_leads": 1848,
-  "worker_owned_unique_url_leads": 1809,
+  "completed_batch_count": 50,
+  "worker_owned_batch_count": 49,
+  "cumulative_team_source_leads": 1878,
+  "worker_owned_unique_url_leads": 1839,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -1081,7 +1087,22 @@
     "M49:300|pharmacogenetics",
     "M49:031|pharmacogenetics",
     "CROSS_REGION:AFRICAN_AMERICAN_US|pharmacogenetics",
-    "M49:051|cardiometabolic_risk"
+    "M49:051|cardiometabolic_risk",
+    "M49:704|cardiometabolic_risk",
+    "M49:116|clinical_guidance",
+    "M49:704|diabetes",
+    "CROSS_REGION:KHMER_VIETNAM|dyslipidemia",
+    "CROSS_REGION:TAIWAN_HAN_CHINESE|pharmacogenetics",
+    "M49:608|diabetes",
+    "M49:104|diabetes",
+    "M49:104|clinical_guidance",
+    "CROSS_REGION:SOUTHEAST_ASIAN_US_REFUGEES|cardiometabolic_risk",
+    "CROSS_REGION:MYANMAR_THAI_MIGRANTS|clinical_guidance",
+    "M49:036|pharmacogenetics",
+    "M49:608|cardiometabolic_risk",
+    "CROSS_REGION:HISPANIC_US|clinical_guidance",
+    "CROSS_REGION:ASIA_PACIFIC|clinical_guidance",
+    "CROSS_REGION:INDIGENOUS_GLOBAL|cardiometabolic_risk"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -1095,11 +1116,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Continue P1 new original studies and relevant guidance in less-covered populations; no decrement of baseline clinical research backlog from source intake alone."
+    "P1_next": "P1 expand less-covered original clinical cohorts and published guidelines with distinct source URLs; preserve full worker URL inventory and unresolved P0 items."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 1809,
+    "current_worker_batch_count": 1839,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -2909,7 +2930,37 @@
       "https://pubmed.ncbi.nlm.nih.gov/41935856/",
       "https://pubmed.ncbi.nlm.nih.gov/42685625/",
       "https://pubmed.ncbi.nlm.nih.gov/27339795/",
-      "https://pubmed.ncbi.nlm.nih.gov/40122159/"
+      "https://pubmed.ncbi.nlm.nih.gov/40122159/",
+      "https://pubmed.ncbi.nlm.nih.gov/42897876/",
+      "https://pubmed.ncbi.nlm.nih.gov/42047130/",
+      "https://pubmed.ncbi.nlm.nih.gov/39625885/",
+      "https://pubmed.ncbi.nlm.nih.gov/42335143/",
+      "https://pubmed.ncbi.nlm.nih.gov/41758901/",
+      "https://pubmed.ncbi.nlm.nih.gov/39495996/",
+      "https://pubmed.ncbi.nlm.nih.gov/36561254/",
+      "https://pubmed.ncbi.nlm.nih.gov/41025010/",
+      "https://pubmed.ncbi.nlm.nih.gov/41555632/",
+      "https://pubmed.ncbi.nlm.nih.gov/40634300/",
+      "https://pubmed.ncbi.nlm.nih.gov/42802801/",
+      "https://pubmed.ncbi.nlm.nih.gov/41568406/",
+      "https://pubmed.ncbi.nlm.nih.gov/41132409/",
+      "https://pubmed.ncbi.nlm.nih.gov/41834041/",
+      "https://pubmed.ncbi.nlm.nih.gov/36662767/",
+      "https://pubmed.ncbi.nlm.nih.gov/39624506/",
+      "https://pubmed.ncbi.nlm.nih.gov/29073891/",
+      "https://pubmed.ncbi.nlm.nih.gov/38439829/",
+      "https://pubmed.ncbi.nlm.nih.gov/42345496/",
+      "https://pubmed.ncbi.nlm.nih.gov/34340595/",
+      "https://pubmed.ncbi.nlm.nih.gov/41529816/",
+      "https://pubmed.ncbi.nlm.nih.gov/41847291/",
+      "https://pubmed.ncbi.nlm.nih.gov/41846700/",
+      "https://pubmed.ncbi.nlm.nih.gov/42311538/",
+      "https://pubmed.ncbi.nlm.nih.gov/41835900/",
+      "https://pubmed.ncbi.nlm.nih.gov/42992282/",
+      "https://pubmed.ncbi.nlm.nih.gov/41666111/",
+      "https://pubmed.ncbi.nlm.nih.gov/42533267/",
+      "https://pubmed.ncbi.nlm.nih.gov/41819812/",
+      "https://pubmed.ncbi.nlm.nih.gov/41102463/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -2922,7 +2973,8 @@
     "worker_B011_count": 40,
     "worker_B047_count": 34,
     "worker_B048_count": 34,
-    "worker_B049_count": 33
+    "worker_B049_count": 33,
+    "worker_B050_count": 30
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -2985,16 +3037,17 @@
     "worker_B046": [],
     "worker_B047": [],
     "worker_B048": [],
-    "worker_B049": []
+    "worker_B049": [],
+    "worker_B050": []
   },
-  "next_batch_id": "B050",
-  "next_queue_position": "B050: continue P1 clinical guidance, disease prevalence, cardiometabolic genetics, pharmacogenetics and selected primary epidemiology in undercovered countries, avoiding all B001-B049 URLs. P0 Bangladesh celiac/lactose, Sri Lanka gout, Peru gout originals unresolved; IDF Comoros direct fetch redirect unresolved.",
+  "next_batch_id": "B051",
+  "next_queue_position": "B051: continue P1 population health, disease prevalence, drug response, clinical guideline and primary study lead discovery in African, Asian, Pacific and Latin American gaps, excluding worker B001-B050 URLs. P0 Bangladesh celiac/lactose, Sri Lanka and Peru gout originals unresolved; IDF Comoros direct fetch redirect unresolved.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B049",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B049_TEAM_B_20261110.json",
-    "parent_commit_sha": "9d4eda38e1b37a06fa279e593c7416b3120dee25",
+    "batch_id": "B050",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B050_TEAM_B_20261110.json",
+    "parent_commit_sha": "83a02c101c43e1f37111912d33053080e0d8cf08",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Atomic batch/state commit; HEAD is canonical SHA checked after write."
+    "note": "Atomic batch and STATE commit, verified by branch HEAD plus both file readbacks."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
