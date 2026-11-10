@@ -277,10 +277,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D045_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D046",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D046_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 45,
-  "cumulative_unique_url_leads": 1778,
+  "completed_batch_count": 46,
+  "cumulative_unique_url_leads": 1818,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -2300,7 +2306,47 @@
     "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/identifier-types.jsonld",
     "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/relation-examples.jsonld",
     "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/service1.jsonld",
-    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/spatial-properties.jsonld"
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/spatial-properties.jsonld",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/algorithm.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/annotationType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/beginIntegerRange.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/builtTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/comment.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/completeness.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/contentType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/context.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/created.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/createdBy.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/createdUsing.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/creationInfo.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/dataLicense.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/definingArtifact.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/description.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/element.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/endIntegerRange.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/endTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/extension.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/externalIdentifier.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/externalIdentifierType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/externalRef.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/externalRefType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/externalSpdxId.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/from.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/hashValue.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/identifier.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/identifierLocator.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/import.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/issuingAuthority.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/key.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/locationHint.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/locator.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/name.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/namespace.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/namespaceMap.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/originatedBy.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/packageVerificationCodeExcludedFile.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/prefix.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/profileConformance.md"
   ],
   "unresolved_retrievals": [
     {
@@ -3182,10 +3228,7 @@
       "reason": "INDEPENDENT_ATLAS_SEMANTIC_GRAPH_AND_SOURCE_RIGHTS_ACCEPTANCE_NOT_RETRIEVED_OR_PERFORMED"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [
-    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/basic-example.jsonld",
-    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/catalog-record-schema.jsonld"
-  ],
+  "duplicate_urls_skipped_this_batch": [],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -3200,12 +3243,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D046: untouched verified-original but unassessed SPDX 3 model property sources, W3C PROV semantics/tests and DCAT data interoperability examples; advance only with new distinct URLs. April 2026 WHO office host/exception original evidence and Atlas-native Codespaces executed SHA/stdout/stderr remain unresolved.",
-  "next_batch_id": "D046",
+  "next_queue_position": "D047: untouched SPDX 3 Dataset, AI, Security, ExpandedLicensing and Software model property definitions; then W3C PROV constraints / W3C DCAT 3 examples. No independent acceptance or Codespaces execution.",
+  "next_batch_id": "D047",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D045",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D045_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "9f113ceb94a8282d60ec5cd7533687308d589ebc",
+    "batch_id": "D046",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D046_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "8ee8978c834c6f2672b6e40b808c98d25832f956",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
