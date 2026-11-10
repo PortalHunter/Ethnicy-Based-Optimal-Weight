@@ -361,10 +361,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D059_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D060",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D060_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 59,
-  "cumulative_unique_url_leads": 2338,
+  "completed_batch_count": 60,
+  "cumulative_unique_url_leads": 2378,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -2944,7 +2950,47 @@
     "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-derivation-s5-PASS-c23.provx",
     "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-derivation-s5-PASS-c23.ttl",
     "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f1-FAIL-c23.provn",
-    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f1-FAIL-c23.provx"
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f1-FAIL-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f2-FAIL-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f2-FAIL-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f2-FAIL-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f3-FAIL-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f3-FAIL-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f3-FAIL-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f4-FAIL-c27.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f4-FAIL-c27.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f4-FAIL-c27.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f5-FAIL-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f5-FAIL-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-f5-FAIL-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s1-PASS-c27.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s1-PASS-c27.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s2-PASS-c27.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s2-PASS-c27.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s2-PASS-c27.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s3-PASS-c27.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s3-PASS-c27.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s3-PASS-c27.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s4-PASS-c27.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s4-PASS-c27.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s4-PASS-c27.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s5-PASS-c23-c27.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s5-PASS-c23-c27.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s5-PASS-c23-c27.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s6-PASS-c23-c27.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-end-s6-PASS-c23-c27.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-generation-f1-FAIL-c24.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-generation-f1-FAIL-c24.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-generation-f1-FAIL-c24.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-generation-f2-FAIL-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-generation-f2-FAIL-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-generation-f2-FAIL-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-generation-f3-FAIL-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-generation-f3-FAIL-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-generation-f3-FAIL-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-generation-f4-FAIL-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-generation-f4-FAIL-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-generation-f4-FAIL-c23.ttl"
   ],
   "unresolved_retrievals": [
     {
@@ -3841,12 +3887,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D060: untouched original W3C PROV constraints fixtures (214); later PROV-DM and PROV-O source cases, SPDX model vocabularies and DCAT examples. Original Atlas-native acceptance and WHO host gaps unresolved.",
-  "next_batch_id": "D060",
+  "next_queue_position": "D061: untouched original W3C PROV constraints fixtures (174); later PROV-DM and PROV-O source cases, SPDX model vocabularies and DCAT examples. Original Atlas-native acceptance and WHO host gaps unresolved.",
+  "next_batch_id": "D061",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D059",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D059_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "76835928e1701f1955616012d7a2691913994023",
+    "batch_id": "D060",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D060_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "9e000d41a68fdcfb306d1aa8c9094ae90464b54b",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
