@@ -235,10 +235,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D038_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D039",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D039_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 38,
-  "cumulative_unique_url_leads": 1498,
+  "completed_batch_count": 39,
+  "cumulative_unique_url_leads": 1538,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -1978,7 +1984,47 @@
     "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-presentation/example-2.json",
     "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-presentation/example-25.json",
     "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-presentation/example-45.json",
-    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-presentation/verifiable-presentation-schema.json"
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-presentation/verifiable-presentation-schema.json",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/A-document-with-children-linking-to-their-parent-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/A-list-of-values-in-Turtle.ttl",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/A-person-and-its-children-using-a-reverse-property-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/A-protected-context-with-an-exception-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/A-remote-context-to-be-imported-in-a-type-scoped-context.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/A-set-of-statements-serialized-in-Turtle.ttl",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Aliasing-keywords-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/An-ordered-collection-of-values-in-JSON-LD-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/An-unordered-collection-of-values-in-JSON-LD-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Associating-context-definitions-with-absolute-IRIs.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Clearing-default-language.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Coercing-Values-to-Strings-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Coercing-Values-to-Strings-context.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Combining-external-and-local-contexts-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Combining-multiple-JSON-LD-script-elements-into-a-single-dataset-turtle.ttl",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Compact-IRI-generation-context-1-0-.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Compact-IRI-generation-context-1-1-.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Compact-IRI-generation-term-selection-1-0-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Compact-IRI-generation-term-selection-1-1-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Compact-form-of-the-sample-document-once-sample-context-has-been-applied-original.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Compacting-using-a-base-IRI-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Compacting-using-a-base-IRI-context.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Compacting-using-a-default-vocabulary-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Compacting-using-a-default-vocabulary-context.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Context-for-the-sample-document-in-the-previous-section.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Context-needs-to-be-duplicated-if-graph-is-not-used-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Coordinates-expressed-in-JSON-LD-expanded.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Defining-an-context-within-a-term-definition-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Defining-an-context-within-a-term-definition-used-on-type-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Defining-property-nesting-Context.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Defining-property-nesting-Expanded-Input.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Defining-property-nesting-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Describing-disconnected-nodes-with-graph-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Describing-disconnected-nodes-with-included-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Embedded-contexts-within-node-objects-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Embedding-JSON-LD-containing-HTML-in-HTML-expanded.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Embedding-JSON-LD-in-HTML-expanded.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Embedding-Objects-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Embedding-a-node-object-as-property-value-of-another-node-object-compacted.jsonld",
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Embedding-in-Turtle.ttl"
   ],
   "unresolved_retrievals": [
     {
@@ -2875,12 +2921,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D039: untouched W3C JSON-LD syntax data transformation/examples and provenance semantic-method references. Original Atlas acceptance and WHO host documents unresolved.",
-  "next_batch_id": "D039",
+  "next_queue_position": "D040: untouched W3C RDF and DCAT method documents, then SLSA source/build provenance references; unresolved original WHO host and native Atlas acceptance artifacts remain.",
+  "next_batch_id": "D040",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D038",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D038_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "4d1f27a1107d1866ede875b6cf93c829db936ac7",
+    "batch_id": "D039",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D039_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "5d48fdba8c97caabfd1fd424f1b53afbfd746f74",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
