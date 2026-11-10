@@ -241,10 +241,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D039_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D040",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D040_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 39,
-  "cumulative_unique_url_leads": 1538,
+  "completed_batch_count": 40,
+  "cumulative_unique_url_leads": 1578,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -484,7 +490,8 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-ACCEPT-001"
+    "TD-BL-ACCEPT-001",
+    "TD-BL-ACCEPT-002"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -2024,7 +2031,47 @@
     "https://github.com/w3c/json-ld-syntax/blob/main/examples/Embedding-JSON-LD-in-HTML-expanded.jsonld",
     "https://github.com/w3c/json-ld-syntax/blob/main/examples/Embedding-Objects-compacted.jsonld",
     "https://github.com/w3c/json-ld-syntax/blob/main/examples/Embedding-a-node-object-as-property-value-of-another-node-object-compacted.jsonld",
-    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Embedding-in-Turtle.ttl"
+    "https://github.com/w3c/json-ld-syntax/blob/main/examples/Embedding-in-Turtle.ttl",
+    "https://github.com/w3c/rdf-star-wg/blob/main/docs/constraints.md",
+    "https://github.com/w3c/rdf-star-wg/blob/main/docs/miniCore.md",
+    "https://github.com/w3c/rdf-star-wg/blob/main/docs/rdf-terminology.md",
+    "https://github.com/w3c/rdf-star-wg/blob/main/docs/rdfn-semantics.md",
+    "https://github.com/w3c/rdf-star-wg/blob/main/docs/seeking-consensus-2024-01.html",
+    "https://github.com/w3c/rdf-star-wg/blob/main/docs/seeking-consensus-2024-01.md",
+    "https://github.com/w3c/rdf-star-wg/blob/main/docs/semantics.md",
+    "https://github.com/w3c/rdf-star-wg/blob/main/docs/sugar-proposal.md",
+    "https://github.com/w3c/rdf-star-wg/blob/main/docs/systems-and-acronyms.md",
+    "https://github.com/w3c/rdf-star-wg/blob/main/docs/text-direction.md",
+    "https://github.com/w3c/rdf-star-wg/blob/main/docs/version-proposal.md",
+    "https://github.com/w3c/dxwg/blob/gh-pages/charter/charter-2022.html",
+    "https://github.com/w3c/dxwg/blob/gh-pages/connegp/index.html",
+    "https://github.com/w3c/dxwg/blob/gh-pages/dcat/README.md",
+    "https://github.com/w3c/dxwg/blob/gh-pages/dcat3-implementation-report/README.md",
+    "https://github.com/w3c/dxwg/blob/gh-pages/docs/explainer.md",
+    "https://github.com/w3c/dxwg/blob/gh-pages/errata/index.html",
+    "https://github.com/w3c/dxwg/blob/gh-pages/ucr/README.md",
+    "https://github.com/w3c/dxwg/blob/gh-pages/ucr/index.html",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/schema/provenance.cue",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/schema/provenance.proto",
+    "https://github.com/slsa-framework/slsa/blob/main/www/how-to/get-started.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/how-to/how-to-infra.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/how-to/how-to-orgs.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/how-to/index.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2022-06-15-slsa-ssdf.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2022-12-05-gcb-slsa-verification.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2023-05-02-in-toto-and-slsa.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2023-08-28-bring-your-own-builder-github.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2025-04-29-slsa-source-sprint.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2025-07-22-slsa-e2e.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2025-10-21-slsa-e2e-with-ampel.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2022-04-11-slsa-is-no-free-lunch.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2022-05-02-slsa-sbom.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2022-06-20-slsa-github-workflows.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2022-07-25-slsa-foundational-framework.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2022-08-29-slsa-github-workflows-generic-ga.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2023-02-01-slsa-github-workflows-container-ga.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2023-02-24-slsa-v1-rc.md",
+    "https://github.com/slsa-framework/slsa/blob/main/www/_posts/2023-04-03-the-breadth-and-depth-of-slsa.md"
   ],
   "unresolved_retrievals": [
     {
@@ -2921,12 +2968,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D040: untouched W3C RDF and DCAT method documents, then SLSA source/build provenance references; unresolved original WHO host and native Atlas acceptance artifacts remain.",
-  "next_batch_id": "D040",
+  "next_queue_position": "D041: untouched official methods for data provenance, rights, semantic graph evaluation and supply-chain attestation; prioritize original April 2026 WHO office host/exception statements and Atlas-native Codespaces stdout/stderr with executed SHA when directly available. Do not count these as closed without originals.",
+  "next_batch_id": "D041",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D039",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D039_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "5d48fdba8c97caabfd1fd424f1b53afbfd746f74",
+    "batch_id": "D040",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D040_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "c420e0ad9c294e4a68c35fe91a2e06c125743251",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
