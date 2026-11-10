@@ -253,10 +253,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D041_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D042",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D042_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 41,
-  "cumulative_unique_url_leads": 1618,
+  "completed_batch_count": 42,
+  "cumulative_unique_url_leads": 1658,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -496,8 +502,7 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-ACCEPT-001",
-    "TD-BL-ACCEPT-002"
+    "TD-BL-ACCEPT-001"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -2117,7 +2122,47 @@
     "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Relationship.md",
     "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/SpdxDocument.md",
     "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Properties/comment.md",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Properties/completeness.md"
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Properties/completeness.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/context.jsonld",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/contextual-entities.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/crate-focus.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/data-entities.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/index.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/introduction.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/metadata.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/profiles.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/provenance.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/ro-crate-metadata.json",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/ro-crate-metadata.jsonld",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/root-data-entity.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/structure.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/terminology.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/workflows.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/appendix/changelog.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/appendix/implementation-notes.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/appendix/index.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/appendix/jsonld.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/_specification/1.3/appendix/relative-uris.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/resources/examples.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/resources/profiles.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/resources/quick-reference.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/resources/tools.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/resources/tutorials.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/resources/vocabularies.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/resources/whats-changed-in-1-2.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/resources/whats-changed-in-1-3.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/tasks/compliance.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/tasks/conduct_research.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/tasks/curation.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/tasks/data_handling.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/tasks/manage_data.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/tasks/software_development.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/tasks/training.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/domains/biomedical_science.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/domains/medicine.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/domains/omics.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/use_cases/datalake.md",
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/use_cases/datastewardship.md"
   ],
   "unresolved_retrievals": [
     {
@@ -3014,12 +3059,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D042: untouched RO-Crate research-object and provenance descriptions, Sigstore attestation wire specs, or CycloneDX original schema model; no prior intake validation implied. WHO April 2026 original host exceptions and Codespaces stdout/stderr remain unresolved.",
-  "next_batch_id": "D042",
+  "next_queue_position": "D043: original CycloneDX schemas for machine-readable attestation/SBOM validation, Sigstore attestation, and secure research artifact handling. Original April 2026 WHO host/exception documents and Atlas-native Codespaces execution evidence remain unresolved.",
+  "next_batch_id": "D043",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D041",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D041_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "082558660683a689c49f060b47ded21dc721cae6",
+    "batch_id": "D042",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D042_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "9f11d8ffd0712f9b007cb5aa35019bb20e9621be",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
