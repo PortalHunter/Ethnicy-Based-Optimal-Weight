@@ -193,10 +193,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D031_TEAM_D_20261110.json",
       "source_count": 41,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D032",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D032_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 31,
-  "cumulative_unique_url_leads": 1214,
+  "completed_batch_count": 32,
+  "cumulative_unique_url_leads": 1254,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -1653,7 +1659,47 @@
     "https://github.com/in-toto/in-toto/blob/develop/doc/source/exclude-patterns.md",
     "https://github.com/in-toto/in-toto/blob/develop/doc/source/layout-creation-example.md",
     "https://github.com/in-toto/in-toto/blob/develop/doc/source/model.md",
-    "https://github.com/in-toto/in-toto/blob/develop/doc/source/settings.md"
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/settings.md",
+    "https://github.com/sigstore/fulcio/blob/main/docs/certificate-maker.md",
+    "https://github.com/sigstore/fulcio/blob/main/docs/certificate-specification.md",
+    "https://github.com/sigstore/fulcio/blob/main/docs/ctlog.md",
+    "https://github.com/sigstore/fulcio/blob/main/docs/how-certificate-issuing-works.md",
+    "https://github.com/sigstore/fulcio/blob/main/docs/hsm-support.md",
+    "https://github.com/sigstore/fulcio/blob/main/docs/new-idp-requirements.md",
+    "https://github.com/sigstore/fulcio/blob/main/docs/oid-info.md",
+    "https://github.com/sigstore/fulcio/blob/main/docs/oidc.md",
+    "https://github.com/sigstore/fulcio/blob/main/docs/security-model.md",
+    "https://github.com/sigstore/fulcio/blob/main/docs/setup.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/secure-your-work/use-artifact-attestations/enforce-artifact-attestations.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/secure-your-work/use-artifact-attestations/increase-security-rating.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/secure-your-work/use-artifact-attestations/manage-attestations.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/secure-your-work/use-artifact-attestations/use-artifact-attestations.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/secure-your-work/use-artifact-attestations/verify-attestations-offline.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/manage-workflow-runs/approve-runs-from-forks.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/manage-workflow-runs/cancel-a-workflow-run.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/manage-workflow-runs/delete-a-workflow-run.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/manage-workflow-runs/disable-and-enable-workflows.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/manage-workflow-runs/download-workflow-artifacts.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/manage-workflow-runs/manually-run-a-workflow.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/manage-workflow-runs/re-run-workflows-and-jobs.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/manage-workflow-runs/remove-workflow-artifacts.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/manage-workflow-runs/skip-workflow-runs.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/command-line-tools/in-toto-match-products.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/command-line-tools/in-toto-mock.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/command-line-tools/in-toto-record.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/command-line-tools/in-toto-run.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/command-line-tools/in-toto-sign.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/command-line-tools/in-toto-verify.md",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/example-checkup.sch",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/example-set.xspec",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/profile-resolution-queryset.xspec",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/profile-resolution-specml-requirements.xspec",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/profile-resolution-specml-working.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/profile-resolution-specml.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/profile-resolution-unit-tests.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/requirement-tests.xspec",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/resolution-testing.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/spec-tests.json"
   ],
   "unresolved_retrievals": [
     {
@@ -2535,10 +2581,7 @@
       "reason": "INDEPENDENT_ATLAS_SEMANTIC_GRAPH_AND_SOURCE_RIGHTS_ACCEPTANCE_NOT_RETRIEVED_OR_PERFORMED"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [
-    "https://data.who.int/dashboards/country-presence/country-office/office-profile-survey-reporting-year/",
-    "https://data.who.int/dashboards/country-presence/country-office"
-  ],
+  "duplicate_urls_skipped_this_batch": [],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -2553,12 +2596,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Continue primary methods/source-rights and reproducibility intake across untouched official upstream technical standards; WHO April 2026 reporting-year link found but target not accessible, exact TD-BL-OFFICE-158/239 hosting exceptions unresolved; Atlas-native Codespaces stdout/stderr and executed SHA not retrieved. No original case closure.",
-  "next_batch_id": "D032",
+  "next_queue_position": "Resume from D033 for additional untouched primary provenance/security/method references if required; priority still original April 2026 WHO office-host/exception evidence TD-BL-OFFICE-158/239 and original Atlas Codespaces stdout/stderr with executed SHA TD-BL-ACCEPT-002 plus independent semantic/source-rights acceptance TD-BL-ACCEPT-001. Raw intake did not close any case.",
+  "next_batch_id": "D033",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D031",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D031_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "ff8e7ba02adb911f462173f34d1aac64bc2e7830",
+    "batch_id": "D032",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D032_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "6763db313bc0ef64222107901110da2fa4e70efc",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
