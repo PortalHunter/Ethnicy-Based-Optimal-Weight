@@ -445,10 +445,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D073_TEAM_D_20261110.json",
       "source_count": 47,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D074",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D074_TEAM_D_20261110.json",
+      "source_count": 44,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 73,
-  "cumulative_unique_url_leads": 2954,
+  "completed_batch_count": 74,
+  "cumulative_unique_url_leads": 2998,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -3644,7 +3650,51 @@
     "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_key.ttl",
     "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_member.ttl",
     "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_membership.ttl",
-    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_pair.ttl"
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_pair.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_pairKey.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_pairValue.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_prov-dm.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_provenanceUriTemplate.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_qualifiedInsertion.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_qualifiedMembership.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_qualifiedRemoval.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_qualifiedTrace.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_tracedTo.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_value.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_wasApprovedBy.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/old/property_wasStartedByActivity.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Activity.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_ActivityInfluence.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Agent.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_AgentInfluence.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Association.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Attribution.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Bundle.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Collection.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Communication.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Delegation.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Derivation.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_EmptyCollection.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_End.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Entity.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_EntityInfluence.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Generation.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Influence.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_InstantaneousEvent.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Invalidation.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Location.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Organization.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Person.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Plan.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_PrimarySource.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Quotation.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Revision.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Role.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_SoftwareAgent.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Start.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/class_Usage.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/property_actedOnBehalfOf.ttl",
+    "https://github.com/w3c/prov/blob/main/examples/eg-24-prov-o-html-examples/rdf/create/rdf/property_activity.ttl"
   ],
   "unresolved_retrievals": [
     {
@@ -4549,15 +4599,15 @@
       "testcases/constraints/": 0,
       "testcases/prov-dm/": 0,
       "testcases/provo/": 0,
-      "examples/": 286
+      "examples/": 242
     }
   },
-  "next_queue_position": "D074: W3C PROV upstream examples remaining {\"testcases/constraints/\":0,\"testcases/prov-dm/\":0,\"testcases/provo/\":0,\"examples/\":286}; native Atlas Codespaces logs and WHO April 2026 exception evidence unresolved.",
-  "next_batch_id": "D074",
+  "next_queue_position": "D075: W3C PROV original provenance example files remaining {\"testcases/constraints/\":0,\"testcases/prov-dm/\":0,\"testcases/provo/\":0,\"examples/\":242}; later SPDX vocabulary, W3C DCAT examples, and WHO office host exceptions; original Codespaces execution proof still unresolved.",
+  "next_batch_id": "D075",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D073",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D073_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "ef257dcb224427862d70da8537bf076968efdaad",
+    "batch_id": "D074",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D074_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "7ac1ca1d26cca6cb85c40f081ea0384c7016e25d",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
