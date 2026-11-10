@@ -263,12 +263,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B042_TEAM_B_20261110.json",
       "source_count": 31,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B043",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B043_TEAM_B_20261110.json",
+      "source_count": 31,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 42,
-  "worker_owned_batch_count": 41,
-  "cumulative_team_source_leads": 1623,
-  "worker_owned_unique_url_leads": 1584,
+  "completed_batch_count": 43,
+  "worker_owned_batch_count": 42,
+  "cumulative_team_source_leads": 1654,
+  "worker_owned_unique_url_leads": 1615,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -943,7 +949,13 @@
     "M49:400|pharmacogenetics",
     "M49:512|pharmacogenetics",
     "CROSS_REGION:EGYPT_LEBANON|pharmacogenetics",
-    "M49:860|pharmacogenetics"
+    "M49:860|pharmacogenetics",
+    "M49:840|clinical_guidance",
+    "CROSS_REGION:US_EUROPE|clinical_guidance",
+    "CROSS_REGION:EUROPE|clinical_guidance",
+    "M49:124|clinical_guidance",
+    "CROSS_REGION:ASIA|clinical_guidance",
+    "M49:392|clinical_guidance"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -957,11 +969,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Continue high-yield untouched P1 country-condition source leads, focusing on Asian, African and Pacific original-source gaps. Newly collected B042 metadata does not decrement the separate substantive research backlog. P0 Peru gout, Bangladesh celiac/lactose and Sri Lanka gout remain unresolved."
+    "P1_next": "Continue P1 original research and guideline source acquisition in less-covered country-condition cells, especially African, Asian and Pacific populations. Existing P0 original-source retrieval blockers remain. No substantive validation backlog decrement."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 1584,
+    "current_worker_batch_count": 1615,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -2546,7 +2558,38 @@
       "https://pubmed.ncbi.nlm.nih.gov/39382016/",
       "https://pubmed.ncbi.nlm.nih.gov/30775595/",
       "https://pubmed.ncbi.nlm.nih.gov/40428413/",
-      "https://pubmed.ncbi.nlm.nih.gov/30235667/"
+      "https://pubmed.ncbi.nlm.nih.gov/30235667/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358900/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358890/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358881/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358893/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358891/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358882/",
+      "https://pubmed.ncbi.nlm.nih.gov/42935679/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358899/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358895/",
+      "https://pubmed.ncbi.nlm.nih.gov/42825923/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358892/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358883/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358894/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358889/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358897/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358885/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358898/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358887/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358886/",
+      "https://pubmed.ncbi.nlm.nih.gov/41358888/",
+      "https://pubmed.ncbi.nlm.nih.gov/40014670/",
+      "https://pubmed.ncbi.nlm.nih.gov/40815242/",
+      "https://pubmed.ncbi.nlm.nih.gov/41824552/",
+      "https://pubmed.ncbi.nlm.nih.gov/40885687/",
+      "https://pubmed.ncbi.nlm.nih.gov/40789597/",
+      "https://pubmed.ncbi.nlm.nih.gov/42636450/",
+      "https://pubmed.ncbi.nlm.nih.gov/41842862/",
+      "https://pubmed.ncbi.nlm.nih.gov/42242835/",
+      "https://pubmed.ncbi.nlm.nih.gov/42296496/",
+      "https://pubmed.ncbi.nlm.nih.gov/42120775/",
+      "https://pubmed.ncbi.nlm.nih.gov/40877471/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -2606,16 +2649,17 @@
     "worker_B034": [],
     "worker_B035": [],
     "worker_B036": [],
-    "worker_B042": []
+    "worker_B042": [],
+    "worker_B043": []
   },
-  "next_batch_id": "B043",
-  "next_queue_position": "B043: continue P1 clinical guidance, pharmacogenetics, population-health and lipid/cardiometabolic original-source leads in untouched country-condition cells; deduplicate B001-B042. Retain unresolved P0 Peru gout, Bangladesh celiac/lactose and Sri Lanka gout original-source retrievals.",
+  "next_batch_id": "B044",
+  "next_queue_position": "B044: pursue P1 untouched country-condition clinical guidance, population-health and pharmacogenetic source leads, prioritizing under-covered African/Asian/Pacific jurisdictions; dedup B001-B043. P0 Peru gout, Bangladesh celiac/lactose and Sri Lanka gout originals unresolved.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B042",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B042_TEAM_B_20261110.json",
-    "parent_commit_sha": "a75de45c05793809b447061afd458d7c1df88814",
+    "batch_id": "B043",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B043_TEAM_B_20261110.json",
+    "parent_commit_sha": "6133e30b1686c932d8ec75bae3b3814d9a12ea17",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Atomic new batch and Team B STATE.json commit; current worker branch HEAD is canonical SHA."
+    "note": "Atomic batch and worker state commit; current worker branch HEAD is canonical SHA."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
