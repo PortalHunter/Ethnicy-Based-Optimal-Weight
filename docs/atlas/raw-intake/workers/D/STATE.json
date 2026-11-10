@@ -265,10 +265,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D043_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D044",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D044_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 43,
-  "cumulative_unique_url_leads": 1698,
+  "completed_batch_count": 44,
+  "cumulative_unique_url_leads": 1738,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -508,7 +514,6 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-ACCEPT-002",
     "TD-BL-ACCEPT-001"
   ],
   "previously_collected_urls": [
@@ -2209,7 +2214,47 @@
     "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/DefinedProcess.md",
     "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/DefinedType.md",
     "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/DictionaryEntry.md",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Element.md"
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Element.md",
+    "https://github.com/w3c/dwbp/blob/gh-pages/bp.html",
+    "https://github.com/w3c/dwbp/blob/gh-pages/dqv.jsonld",
+    "https://github.com/w3c/dwbp/blob/gh-pages/dqv.rdf",
+    "https://github.com/w3c/dwbp/blob/gh-pages/dqv.ttl",
+    "https://github.com/w3c/dwbp/blob/gh-pages/duv.ttl",
+    "https://github.com/w3c/dwbp/blob/gh-pages/dwbp-api-example.html",
+    "https://github.com/w3c/dwbp/blob/gh-pages/dwbp-example.html",
+    "https://github.com/w3c/dwbp/blob/gh-pages/dwbp-example.ttl",
+    "https://github.com/w3c/dwbp/blob/gh-pages/dwbp-implementation-report.html",
+    "https://github.com/w3c/dwbp/blob/gh-pages/dwbp-realtime-example.html",
+    "https://github.com/w3c/dwbp/blob/gh-pages/glossary.html",
+    "https://github.com/w3c/dwbp/blob/gh-pages/ldqd.ttl",
+    "https://github.com/w3c/dwbp/blob/gh-pages/usecasesv1.html",
+    "https://github.com/w3c/dwbp/blob/gh-pages/vocab-dqg.html",
+    "https://github.com/w3c/dwbp/blob/gh-pages/vocab-du.html",
+    "https://github.com/w3c/dwbp/blob/gh-pages/w3c.json",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat-prov.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat-schema.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat.rdf",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat2-external.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat2-external.rdf",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat2-external.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat2.html",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat2.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat2.rdf",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat2.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat2014.rdf",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat2014.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat3-external.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat3-external.rdf",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat3-external.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat3.html",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/rdf/dcat3.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/basic-example.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/basic-example.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/catalog-record-schema.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/catalog-record-schema.rdf",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/catalog-record-schema.ttl"
   ],
   "unresolved_retrievals": [
     {
@@ -3091,28 +3136,7 @@
       "reason": "INDEPENDENT_ATLAS_SEMANTIC_GRAPH_AND_SOURCE_RIGHTS_ACCEPTANCE_NOT_RETRIEVED_OR_PERFORMED"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [
-    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.5.proto",
-    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.5.schema.json",
-    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.5.xsd",
-    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.6.proto",
-    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.6.schema.json",
-    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.6.xsd",
-    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.7.proto",
-    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.7.schema.json",
-    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.7.xsd",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Action.md",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Artifact.md",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/CreationInfo.md",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/ExternalIdentifier.md",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/ExternalRef.md",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Hash.md",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/IntegrityMethod.md",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Relationship.md",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/SpdxDocument.md",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Properties/comment.md",
-    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Properties/completeness.md"
-  ],
+  "duplicate_urls_skipped_this_batch": [],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -3127,12 +3151,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D044: untouched W3C data quality / provenance method specs, SPDX 3 model semantics, and open original research artefact methodology. April 2026 WHO office host/exception statements and native Codespaces execution proof remain unresolved.",
-  "next_batch_id": "D044",
+  "next_queue_position": "D045: uncollected primary W3C PROV-O conformity test fixtures, DCAT metadata examples, SPDX 3 core model properties; continue source-only intake. April 2026 WHO host/exception originals and native Codespaces run proof unresolved.",
+  "next_batch_id": "D045",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D043",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D043_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "fa927131436f380658c1f722fc8378a777e9e907",
+    "batch_id": "D044",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D044_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "7a0e324fcda42367d7b22dba6c090ac5caede07b",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
