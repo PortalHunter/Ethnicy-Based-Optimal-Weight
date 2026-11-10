@@ -294,13 +294,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A048_TEAM_A_20261110.json",
       "source_count": 43
+    },
+    {
+      "batch_id": "A049",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A049_TEAM_A_20261110.json",
+      "source_count": 47
     }
   ],
-  "completed_worker_batch_count": 47,
-  "completed_team_a_intake_batch_count": 48,
-  "worker_new_unique_url_leads": 1861,
-  "team_a_cumulative_unique_url_leads": 1906,
-  "last_completed_batch": "A048",
+  "completed_worker_batch_count": 48,
+  "completed_team_a_intake_batch_count": 49,
+  "worker_new_unique_url_leads": 1908,
+  "team_a_cumulative_unique_url_leads": 1953,
+  "last_completed_batch": "A049",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -368,14 +374,15 @@
     "M49:203|czech_nrc_drinking_water_public_health_guidance_and_historical_methods",
     "M49:203|czech_recreational_bottled_well_water_and_contact_material_health_guidance",
     "M49:203|czech_szu_original_environmental_health_monitoring_air_report_series",
-    "M49:203|czech_noise_laboratory_and_2026_public_health_authority_sources"
+    "M49:203|czech_noise_laboratory_and_2026_public_health_authority_sources",
+    "M49:203|czech_spa_mineral_water_protection_original_decrees_and_statutes"
   ],
   "queue_position": {
     "last_selected_m49": [
       "203"
     ],
-    "next": "M49:203 Czechia direct original legal text retrieval and agency index leads; recover historical geographic queue before selecting another jurisdiction",
-    "next_batch_id": "A049",
+    "next": "M49:203 Czechia spa/mineral-water original legal instruments: continue official index beyond Mariánské Lázně",
+    "next_batch_id": "A050",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -449,7 +456,8 @@
     "A045 SZÚ original downloadable guidance documents and 2005–2026 methodological versions not inspected; historical relevance/current force unverified.",
     "A046 SZÚ original attached guidance, original legal texts and historical versions for recreational water, bottled water, contact materials and wells uninspected; one 2013 publication-index date conflicts with 2014 document title.",
     "A047 annual official air- and environmental-health reports: 14 PDF retrievals failed from size limits/rate limits/timeouts; none reviewed for scientific conclusions; source publication dates need original-page retrieval.",
-    "A048 five SZÚ 2026 testing programme pages timed out/HTTP429; original documents, amendment chains and statutory validity uninspected."
+    "A048 five SZÚ 2026 testing programme pages timed out/HTTP429; original documents, amendment chains and statutory validity uninspected.",
+    "A049 document texts and original promulgation/current legal force for spa protection instruments remain uninspected."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -2357,7 +2365,54 @@
     "https://mzd.gov.cz/zadost-o-informace-ze-dne-19-1-2026/",
     "https://mze.gov.cz/public/portal/mze/legislativa/pravni-predpisy-mze/uplna-zneni/vyhlaska-c-358-2025-sb",
     "https://mze.gov.cz/public/portal/mze/potraviny/legislativa",
-    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/monitoring/"
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/monitoring/",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-PEL-Komarovske-blato.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Bechyne.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-Beloves.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Beloves.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-Bilina.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Bilina.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-Bludov.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Bludov.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-ZPMV-Brodek-u-Prerova.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-ZPMV-Brvany.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-MV-Buchlovice.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-Sb_2025_144_PZZ_stanoveni-PLL-Buchlovice.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-ZPMV-Bynov.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-PEL-Cista-Krasno.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-ZPMV-Dolni-Kramolin.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-ZPMV-Domasov-a-Sedm-Dvoru.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/sb0184-2023_vyhlaska-c.-391-2023-Sb_OP-PLZ-PEL-Grunwaldske-louky.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Dubi.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-ZPMV-Farska-kyselka.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Narizeni-vlady-OP-PLZ-Frantiskovy-Lazne.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Frantiskovych-Lazni.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/sb0146-2022_vyhlaska-c-316-2022-Sb_OP-PEL-Blatna.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-PLL-Frymburk_Sb_2024_151_PZZ.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-PEL-Hamr-na-Jezere.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-MV-Hodonin-Josefov.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska_PLL_Hodonin_Sb_2024_362_PZZ.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Sb_2025_261_Narizeni-vlady-o-stanoveni-LM-a-statutu-LM-Hodonin.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-MV-Hronov.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Usneseni-vlady-OP-PLZ-Jachymov.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Jachymova.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Janske-Lazne.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-Karlova-Studanka.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Karlova-Studanka.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Kompilat-usneseni-a-rozhodnuti-OP-PLZ-Karlovy-Vary.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Karlovy-Vary.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-Karvina-Sb_2025_262_PZZ.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-Konstantinovy-Lazne.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Konstantinovy-Lazne.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-ZPMV-a-PLZ-Kyselka.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-Lazne-Bohdanec.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Lazne-Bohdanec.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-Lazne-Kynzvart.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Kynzvart.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-PEL-Lazne-Kundratice.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-Lazne-Libverda.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Lazne-Libverda.pdf",
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-Marianske-Lazne.pdf"
   ],
   "unresolved_retrievals": [
     {
@@ -6896,12 +6951,12 @@
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A048",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A048_TEAM_A_20261110.json",
+    "batch_id": "A049",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A049_TEAM_A_20261110.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "2af5966cc680fa0f872351868addbe0807ccede7",
-    "checkpoint_commit_sha_resolution": "Self-referential SHA impossible; verify branch HEAD after atomic update."
+    "parent_commit_sha": "edaec67a12c791e4ede2edf484774cdafb5ae524",
+    "checkpoint_commit_sha_resolution": "Use GitHub verified branch HEAD; self-referential SHA cannot be embedded."
   },
-  "next_run_instruction": "Resume Team A A049 from committed worker state, M49:203. Raw acquisition only.",
+  "next_run_instruction": "Resume Team A A050 from last committed worker state, M49:203; raw source acquisition only.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
