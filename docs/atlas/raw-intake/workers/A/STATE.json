@@ -306,13 +306,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A050_TEAM_A_20261110.json",
       "source_count": 40
+    },
+    {
+      "batch_id": "A051",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A051_TEAM_A_20261110.json",
+      "source_count": 40
     }
   ],
-  "completed_worker_batch_count": 49,
-  "completed_team_a_intake_batch_count": 50,
-  "worker_new_unique_url_leads": 1948,
-  "team_a_cumulative_unique_url_leads": 1993,
-  "last_completed_batch": "A050",
+  "completed_worker_batch_count": 50,
+  "completed_team_a_intake_batch_count": 51,
+  "worker_new_unique_url_leads": 1988,
+  "team_a_cumulative_unique_url_leads": 2033,
+  "last_completed_batch": "A051",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -382,14 +388,15 @@
     "M49:203|czech_szu_original_environmental_health_monitoring_air_report_series",
     "M49:203|czech_noise_laboratory_and_2026_public_health_authority_sources",
     "M49:203|czech_spa_mineral_water_protection_original_decrees_and_statutes",
-    "M49:203|czech_mzd_original_official_health_bulletin_2025_2026"
+    "M49:203|czech_mzd_original_official_health_bulletin_2025_2026",
+    "M49:203|czech_mzd_original_official_health_bulletin_2022_2024"
   ],
   "queue_position": {
     "last_selected_m49": [
       "203"
     ],
-    "next": "M49:203 continue Czech Ministry health bulletins, 2024 issues or direct PDF reference leads; current landing-page intake A050 complete",
-    "next_batch_id": "A051",
+    "next": "M49:203 continue Czech Ministry original bulletin 2022 and 2021 issues, or fresh original health ministry instrument links",
+    "next_batch_id": "A052",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -465,7 +472,8 @@
     "A047 annual official air- and environmental-health reports: 14 PDF retrievals failed from size limits/rate limits/timeouts; none reviewed for scientific conclusions; source publication dates need original-page retrieval.",
     "A048 five SZÚ 2026 testing programme pages timed out/HTTP429; original documents, amendment chains and statutory validity uninspected.",
     "A049 document texts and original promulgation/current legal force for spa protection instruments remain uninspected.",
-    "A050 bulletin attachment PDFs, exact text, effective scope and individual original legislative crossreferences remain uninspected."
+    "A050 bulletin attachment PDFs, exact text, effective scope and individual original legislative crossreferences remain uninspected.",
+    "A051 MZD 2022–2024 gazette issue attached PDFs and current regulatory effect need later legal assessment; publications only indexed."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -2460,7 +2468,47 @@
     "https://mzd.gov.cz/vestnik/vestnik-nikez-4-2025/",
     "https://mzd.gov.cz/vestnik/vestnik-nikez-3-2025/",
     "https://mzd.gov.cz/vestnik/vestnik-nikez-2-2025/",
-    "https://mzd.gov.cz/vestnik/vestnik-nikez-1-2025/"
+    "https://mzd.gov.cz/vestnik/vestnik-nikez-1-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-16-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-15-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-14-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-13-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-12-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-11-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-10-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-9-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-8-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-7-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-6-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-5-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-4-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-3-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-2-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-1-2024/",
+    "https://mzd.gov.cz/vestnik/vestnik-17-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-16-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-15-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-14-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-12-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-11-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-10-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-9-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-8-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-7-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-6-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-5-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-4-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-3-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-2-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-1-2023/",
+    "https://mzd.gov.cz/vestnik/vestnik-15-2022/",
+    "https://mzd.gov.cz/vestnik/vestnik-14-2022/",
+    "https://mzd.gov.cz/vestnik/vestnik-13-2022/",
+    "https://mzd.gov.cz/vestnik/vestnik-12-2022/",
+    "https://mzd.gov.cz/vestnik/vestnik-11-2022/",
+    "https://mzd.gov.cz/vestnik/vestnik-10-2022/",
+    "https://mzd.gov.cz/vestnik/vestnik-9-2022/",
+    "https://mzd.gov.cz/vestnik/vestnik-8-2022/"
   ],
   "unresolved_retrievals": [
     {
@@ -6999,12 +7047,12 @@
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A050",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A050_TEAM_A_20261110.json",
+    "batch_id": "A051",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A051_TEAM_A_20261110.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "bfe8d9d9a41b2240d279dcd6995e8e63ee71be20",
-    "checkpoint_commit_sha_resolution": "Use verified branch HEAD; self-referential SHA cannot be embedded."
+    "parent_commit_sha": "4500cb8412fceab4f69ed79598b19cd1a4163216",
+    "checkpoint_commit_sha_resolution": "Use GitHub verified HEAD for commit SHA; embedding own commit SHA is impossible."
   },
-  "next_run_instruction": "Resume Team A A051 from committed worker state, Czechia M49:203. Source acquisition only.",
+  "next_run_instruction": "Resume Team A A052 from committed worker state. Raw acquisition only.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
