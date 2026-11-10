@@ -223,10 +223,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D036_TEAM_D_20261110.json",
       "source_count": 38,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D037",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D037_TEAM_D_20261110.json",
+      "source_count": 36,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 36,
-  "cumulative_unique_url_leads": 1422,
+  "completed_batch_count": 37,
+  "cumulative_unique_url_leads": 1458,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -466,7 +472,6 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-ACCEPT-002",
     "TD-BL-ACCEPT-001"
   ],
   "previously_collected_urls": [
@@ -1891,7 +1896,43 @@
     "https://github.com/w3c/dxwg/blob/gh-pages/profiles/index.html",
     "https://github.com/w3c/vc-data-model/blob/main/threat-model/index.html",
     "https://github.com/w3c/json-ld-syntax/blob/main/index.html",
-    "https://github.com/w3c/shacl/blob/main/shacl-af/index.html"
+    "https://github.com/w3c/shacl/blob/main/shacl-af/index.html",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/ontology/evaluation_request.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/ontology/odrl-fs.ttl",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/ontology/shacl.ttl",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/ontology/stow.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/A%20Evaluation%20of%20Constraints/A1%20Example%20of%20a%20constrained%20permission/A11/compliancereport.A11.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/A%20Evaluation%20of%20Constraints/A1%20Example%20of%20a%20constrained%20permission/A11/evaluationrequestA11.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/A%20Evaluation%20of%20Constraints/A1%20Example%20of%20a%20constrained%20permission/A12/compliancereportA12.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/A%20Evaluation%20of%20Constraints/A1%20Example%20of%20a%20constrained%20permission/A12/evaluationrequestA12.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/A%20Evaluation%20of%20Constraints/A1%20Example%20of%20a%20constrained%20permission/policyA1.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/A%20Evaluation%20of%20Constraints/A2%20Example%20of%20a%20constrained%20prohibition/policyA2.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/B%20Evaluation%20of%20Refinements/B1%20Example%20of%20a%20permission%20with%20refinement/B11/compliancereportB11.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/B%20Evaluation%20of%20Refinements/B1%20Example%20of%20a%20permission%20with%20refinement/B11/evaluationrequestB11.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/B%20Evaluation%20of%20Refinements/B1%20Example%20of%20a%20permission%20with%20refinement/B12/compliancereportB12.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/B%20Evaluation%20of%20Refinements/B1%20Example%20of%20a%20permission%20with%20refinement/B12/evaluationrequestB12.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/B%20Evaluation%20of%20Refinements/B1%20Example%20of%20a%20permission%20with%20refinement/policyB1.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C1%20Conditioned%20Permission/C11/compliancereport.C11.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C1%20Conditioned%20Permission/C11/evaluationrequestC11.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C1%20Conditioned%20Permission/C12/compliancereport.C12.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C1%20Conditioned%20Permission/C12/evaluationrequestC12.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C1%20Conditioned%20Permission/C12/stateC12.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C1%20Conditioned%20Permission/C12/stateC12.ttl",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C1%20Conditioned%20Permission/policyC1.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C2%20Conditioned%20Permission%20whose%20Condition%20has%20Constraints/C21/compliancereport.C21.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C2%20Conditioned%20Permission%20whose%20Condition%20has%20Constraints/C21/evaluationrequestC21.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C2%20Conditioned%20Permission%20whose%20Condition%20has%20Constraints/C22/compliancereport.C22.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C2%20Conditioned%20Permission%20whose%20Condition%20has%20Constraints/C22/evaluationrequestC22.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C2%20Conditioned%20Permission%20whose%20Condition%20has%20Constraints/C23/compliancereport.C23.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C2%20Conditioned%20Permission%20whose%20Condition%20has%20Constraints/C23/evaluationrequestC23.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C2%20Conditioned%20Permission%20whose%20Condition%20has%20Constraints/C23/stateC23.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C2%20Conditioned%20Permission%20whose%20Condition%20has%20Constraints/C23/stateC23.ttl",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/C%20Evaluation%20of%20Conditions%20(Duties)/C2%20Conditioned%20Permission%20whose%20Condition%20has%20Constraints/policyC2.json",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/examples/README.md",
+    "https://github.com/w3c/odrl/blob/master/bp/index.html",
+    "https://github.com/w3c/odrl/blob/master/bp/README.md",
+    "https://github.com/w3c/odrl/blob/master/community-vocab/community.ttl",
+    "https://github.com/w3c/odrl/blob/master/community-vocab/index.html"
   ],
   "unresolved_retrievals": [
     {
@@ -2788,12 +2829,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "At D037 continue only genuinely untouched Team D standards/acceptance method sources, or prioritize original WHO April 2026 office hosting/exception target documents and Atlas-native Codespaces stdout/stderr, executed SHA and independent semantic/source-rights acceptance artifacts. None of these outstanding original evidence gaps was resolved by technical standard intake.",
-  "next_batch_id": "D037",
+  "next_queue_position": "D038: W3C verifiable-credential threat-model and schema method entries, followed by untouched linked-data and provenance standards. WHO host and Atlas-native acceptance evidence gaps remain unresolved.",
+  "next_batch_id": "D038",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D036",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D036_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "5ba381c8158660644b30c46221b1f2bc8d55ba8a",
+    "batch_id": "D037",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D037_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "2bd22a25dd099407a1ba25a39d76bd29657bcce5",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
