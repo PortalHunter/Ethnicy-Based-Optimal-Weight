@@ -325,10 +325,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D053_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D054",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D054_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 53,
-  "cumulative_unique_url_leads": 2098,
+  "completed_batch_count": 54,
+  "cumulative_unique_url_leads": 2138,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -2668,7 +2674,47 @@
     "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/spatial-properties.rdf",
     "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/temporal-properties.jsonld",
     "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/temporal-properties.rdf",
-    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/threddsABC.jsonld"
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/threddsABC.jsonld",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity1-PASS-c30.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity1-PASS-c30.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity2-PASS-c33.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity2-PASS-c33.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity2-PASS-c33.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity3-PASS-c34.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity3-PASS-c34.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity4-PASS-c31.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity4-PASS-c31.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity4-PASS-c31.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity5-PASS-c32.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity5-PASS-c32.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-activity5-PASS-c32.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-association1-PASS-c47.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-association1-PASS-c47.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-association2-PASS-c47.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-association2-PASS-c47.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-association2-PASS-c47.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-attribution1-PASS-c48.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-attribution1-PASS-c48.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-attribution2-PASS-c48.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-attribution2-PASS-c48.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-attribution2-PASS-c48.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-communication-PASS-c35.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-communication-PASS-c35.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-communication-PASS-c35.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-delegation1-PASS-c49.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-delegation1-PASS-c49.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-delegation2-PASS-c49.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-delegation2-PASS-c49.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-delegation2-PASS-c49.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-derivation1-PASS-c42.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-derivation1-PASS-c42.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-derivation2-FAIL-c42.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-derivation2-FAIL-c42.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-derivation2-FAIL-c42.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-derivation3-PASS-c41-c42.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-derivation3-PASS-c41-c42.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-derivation3-PASS-c41-c42.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-ends1-PASS-c44.provn"
   ],
   "unresolved_retrievals": [
     {
@@ -3565,12 +3611,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D054: untouched SPDX 3 vocabularies, datatypes and individuals; any remaining W3C DCAT 3 serialization examples; original W3C PROV constraints and linked-data acceptance references. WHO host and Codespaces acceptance original-artifact gaps unresolved.",
-  "next_batch_id": "D054",
+  "next_queue_position": "D055: next untouched source fixture entries from W3C PROV testcases/constraints; separately untouched SPDX vocabularies, datatypes and individuals and DCAT serialization example. Host roster and Atlas-native acceptance artifacts still unresolved.",
+  "next_batch_id": "D055",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D053",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D053_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "3a2f5a825c5154f954b5bc88e21e4a9dc7694779",
+    "batch_id": "D054",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D054_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "38c1dfe414f44bf90d46dbfc3978e1bf645d0d71",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
