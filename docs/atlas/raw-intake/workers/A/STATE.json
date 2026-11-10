@@ -258,13 +258,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A042_TEAM_A_20261110.json",
       "source_count": 40
+    },
+    {
+      "batch_id": "A043",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A043_TEAM_A_20261110.json",
+      "source_count": 34
     }
   ],
-  "completed_worker_batch_count": 41,
-  "completed_team_a_intake_batch_count": 42,
-  "worker_new_unique_url_leads": 1638,
-  "team_a_cumulative_unique_url_leads": 1683,
-  "last_completed_batch": "A042",
+  "completed_worker_batch_count": 42,
+  "completed_team_a_intake_batch_count": 43,
+  "worker_new_unique_url_leads": 1672,
+  "team_a_cumulative_unique_url_leads": 1717,
+  "last_completed_batch": "A043",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -326,14 +332,15 @@
     "M49:203|czech_emergency_management_pandemic_occupational_disease_rescue_history",
     "M49:203|czech_environmental_health_air_quality_water_radiation_original_legislative_sources",
     "M49:203|czech_radiation_protection_2026_regulatory_amendments_occupational_health_refs",
-    "M49:203|czech_social_health_disability_occupational_welfare_and_sickness_insurance_legal_index"
+    "M49:203|czech_social_health_disability_occupational_welfare_and_sickness_insurance_legal_index",
+    "M49:203|czech_2026_medical_services_public_health_ministry_statute_indexes"
   ],
   "queue_position": {
     "last_selected_m49": [
       "203"
     ],
-    "next": "M49:203 Czechia supplemental public-health environmental and primary 2026 laws; missing geographic queue needs recovery",
-    "next_batch_id": "A043",
+    "next": "M49:203 Czechia residual 2026 food/water/public-health original legal sources; geographic queue recovery still outstanding",
+    "next_batch_id": "A044",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -401,7 +408,8 @@
     "M49:203 A039 crisis management, emergency supplies, pandemic, rescue and occupational disease statutory citation histories remain document-uninspected; emergency response citations may only be indirectly public-health related.",
     "M49:203 A040 environment health, clean air, water law and radiation/atomic decrees remain metadata-only; original texts/current effect/issuer details still uninspected.",
     "A041 Czech radiation/occupational health legal references are raw lead metadata only; original legal texts and current effects uninspected.",
-    "A042 original Czech social welfare/occupational sickness texts and current applicability uninspected; indirect health relevance requires later screening."
+    "A042 original Czech social welfare/occupational sickness texts and current applicability uninspected; indirect health relevance requires later screening.",
+    "A043 Ministry of Health 2026 statutory crossreferences require direct original law review; newsletters are secondary indexes."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -2086,7 +2094,41 @@
     "https://e-sbirka.gov.cz/sb/2024/308",
     "https://e-sbirka.gov.cz/sb/2025/396",
     "https://e-sbirka.gov.cz/sb/2025/397",
-    "https://mpsv.gov.cz/pravni-predpisy"
+    "https://mpsv.gov.cz/pravni-predpisy",
+    "https://e-sbirka.gov.cz/sb/2025/371",
+    "https://e-sbirka.gov.cz/sb/2025/424",
+    "https://e-sbirka.gov.cz/sb/2025/237",
+    "https://e-sbirka.gov.cz/sb/2025/401",
+    "https://e-sbirka.gov.cz/sb/2025/404",
+    "https://e-sbirka.gov.cz/sb/2025/414",
+    "https://e-sbirka.gov.cz/sb/2016/373",
+    "https://e-sbirka.gov.cz/sb/2012/39",
+    "https://e-sbirka.gov.cz/sb/2017/37",
+    "https://e-sbirka.gov.cz/sb/2020/561",
+    "https://e-sbirka.gov.cz/sb/2005/39",
+    "https://e-sbirka.gov.cz/sb/2013/463",
+    "https://e-sbirka.gov.cz/sb/2025/11",
+    "https://e-sbirka.gov.cz/sb/2017/117",
+    "https://e-sbirka.gov.cz/sb/2019/282",
+    "https://e-sbirka.gov.cz/sb/2020/397",
+    "https://e-sbirka.gov.cz/sb/2025/500",
+    "https://e-sbirka.gov.cz/sb/2024/386",
+    "https://mzd.gov.cz/legislativni-newsletter-listopad-2026/",
+    "https://mzd.gov.cz/legislativni-newsletter-rijen-2026/",
+    "https://mzd.gov.cz/legislativni-newsletter-zari-2026/",
+    "https://mzd.gov.cz/legislativni-newsletter-srpen-2026/",
+    "https://mzd.gov.cz/legislativni-newsletter-cervenec-2026/",
+    "https://mzd.gov.cz/legislativni-newsletter-cerven-2026/",
+    "https://mzd.gov.cz/legislativni-newsletter-kveten-2026/",
+    "https://mzd.gov.cz/legislativni-newsletter-duben-2026/",
+    "https://mzd.gov.cz/legislativni-newsletter-leden-2026/",
+    "https://mzd.gov.cz/category/pravo-a-legislativa/legislativni-newsletter/",
+    "https://mzd.gov.cz/uhradova-vyhlaska-2026/",
+    "https://mzd.gov.cz/vyhlaska-o-pracovnelekarskych-sluzbach-a-nekterych-druzich-posudkove-pece-doznala-od-1-ledna-nekolika-zmen/",
+    "https://mzd.gov.cz/wp-content/uploads/2025/12/Prehled-zmen-zdravotnicke-legislativy-od-ledna-2026.pdf",
+    "https://mzd.gov.cz/category/veda-a-lekarska-povolani/pravni-a-metodicke-predpisy/",
+    "https://mzd.gov.cz/souvisejici-legislativa-cil/",
+    "https://mzd.gov.cz/zadost-o-informace-ze-dne-12-9-2026/"
   ],
   "unresolved_retrievals": [
     {
@@ -6352,15 +6394,105 @@
       "source_id": "ATLAS-RAW-A042-039",
       "url": "https://e-sbirka.gov.cz/sb/2025/397",
       "reason": "OFFICIAL_MINISTRY_INDEX_ONLY; ORIGINAL_LEGAL_TEXT_NOT_INSPECTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-001",
+      "url": "https://e-sbirka.gov.cz/sb/2025/371",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-002",
+      "url": "https://e-sbirka.gov.cz/sb/2025/424",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-003",
+      "url": "https://e-sbirka.gov.cz/sb/2025/237",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-004",
+      "url": "https://e-sbirka.gov.cz/sb/2025/401",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-005",
+      "url": "https://e-sbirka.gov.cz/sb/2025/404",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-006",
+      "url": "https://e-sbirka.gov.cz/sb/2025/414",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-007",
+      "url": "https://e-sbirka.gov.cz/sb/2016/373",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-008",
+      "url": "https://e-sbirka.gov.cz/sb/2012/39",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-009",
+      "url": "https://e-sbirka.gov.cz/sb/2017/37",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-010",
+      "url": "https://e-sbirka.gov.cz/sb/2020/561",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-011",
+      "url": "https://e-sbirka.gov.cz/sb/2005/39",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-012",
+      "url": "https://e-sbirka.gov.cz/sb/2013/463",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-013",
+      "url": "https://e-sbirka.gov.cz/sb/2025/11",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-014",
+      "url": "https://e-sbirka.gov.cz/sb/2017/117",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-015",
+      "url": "https://e-sbirka.gov.cz/sb/2019/282",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-016",
+      "url": "https://e-sbirka.gov.cz/sb/2020/397",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-017",
+      "url": "https://e-sbirka.gov.cz/sb/2025/500",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
+    },
+    {
+      "source_id": "ATLAS-RAW-A043-018",
+      "url": "https://e-sbirka.gov.cz/sb/2024/386",
+      "reason": "ORIGINAL_CZECH_LEGAL_INSTRUMENT_NOT_INSPECTED; OFFICIAL_MINISTRY_REFERENCE_ONLY"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A042",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A042_TEAM_A_20261110.json",
+    "batch_id": "A043",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A043_TEAM_A_20261110.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "af5a802608c3950cd6baa66c7420e8c851c1bfb1",
+    "parent_commit_sha": "304a47b66c47709f47401edefb607cb2e26a1b79",
     "checkpoint_commit_sha_resolution": "Self-referential SHA impossible; verify branch HEAD after atomic update."
   },
-  "next_run_instruction": "Resume Team A A043; M49:203 until geographic queue recovered. Raw only.",
+  "next_run_instruction": "Resume Team A A044; M49:203 pending missing geographic queue. Raw source-only.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
