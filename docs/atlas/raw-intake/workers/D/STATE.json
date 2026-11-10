@@ -307,10 +307,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D050_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D051",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D051_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 50,
-  "cumulative_unique_url_leads": 1978,
+  "completed_batch_count": 51,
+  "cumulative_unique_url_leads": 2018,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -2530,7 +2536,47 @@
     "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Classes/DisjunctiveLicenseSet.md",
     "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Classes/ExtendableLicense.md",
     "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Classes/IndividualLicensingInfo.md",
-    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Classes/License.md"
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Classes/License.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/relationshipType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/releaseTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/rootElement.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/scope.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/spdxId.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/specVersion.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/standardName.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/startTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/statement.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/subject.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/summary.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/suppliedBy.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/supportLevel.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/to.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/validUntilTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/value.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/verifiedUsing.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/limitation.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/metric.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/metricDecisionThreshold.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/modelDataPreprocessing.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/modelExplainability.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/safetyRiskAssessment.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/standardCompliance.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/trainingEnergyConsumption.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/typeOfModel.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/useSensitivePersonalInformation.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Build/Properties/buildEndTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Build/Properties/buildId.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Build/Properties/buildStartTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Build/Properties/buildType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Build/Properties/configSourceDigest.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Build/Properties/configSourceEntrypoint.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Build/Properties/configSourceUri.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Build/Properties/environment.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Build/Properties/parameter.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/knownBias.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/sensor.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/listVersionAdded.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/member.md"
   ],
   "unresolved_retrievals": [
     {
@@ -3427,12 +3473,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D051: remaining untouched SPDX 3 model class/property definitions and W3C PROV constraint / DCAT 3 example formats (only distinct URLs). Primary April 2026 WHO office-host evidence for TD-BL-OFFICE-158 and TD-BL-OFFICE-239, plus original Atlas-native Codespaces command SHA/stdout/stderr for TD-BL-ACCEPT-002 remain unresolved.",
-  "next_batch_id": "D051",
+  "next_queue_position": "D052: remaining untouched SPDX 3 ExpandedLicensing and Extension/Security/SimpleLicensing/Software properties, then DCAT 3 RDF and other directly enumerated standards examples; original WHO host gaps and Atlas-native run acceptance artifacts remain unresolved.",
+  "next_batch_id": "D052",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D050",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D050_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "7a4f0728762c2e7018fa2ea6da1055dfd5669f7d",
+    "batch_id": "D051",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D051_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "1466e49da791510971fbebeae9179cebeeb30a7c",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
