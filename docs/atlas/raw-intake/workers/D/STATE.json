@@ -181,10 +181,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D029_TEAM_D_20261110.json",
       "source_count": 41,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D030",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D030_TEAM_D_20261110.json",
+      "source_count": 42,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 29,
-  "cumulative_unique_url_leads": 1131,
+  "completed_batch_count": 30,
+  "cumulative_unique_url_leads": 1173,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -1558,7 +1564,49 @@
     "https://github.com/ossf/scorecard/blob/main/docs/mcp.md",
     "https://github.com/ossf/scorecard/blob/main/docs/osps-baseline-coverage.md",
     "https://github.com/ossf/scorecard/blob/main/docs/probes.md",
-    "https://github.com/ossf/scorecard/blob/main/docs/repositories.md"
+    "https://github.com/ossf/scorecard/blob/main/docs/repositories.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/reference/security-in-github-codespaces.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/reference/disaster-recovery-for-github-codespaces.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/developing-in-a-codespace/default-environment-variables-for-your-codespace.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/developing-in-a-codespace/developing-in-a-codespace.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/developing-in-a-codespace/opening-an-existing-codespace.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/developing-in-a-codespace/persisting-environment-variables-and-temporary-files.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/developing-in-a-codespace/rebuilding-the-container-in-a-codespace.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/developing-in-a-codespace/using-github-codespaces-for-pull-requests.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/developing-in-a-codespace/using-github-codespaces-with-github-cli.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/developing-in-a-codespace/using-source-control-in-your-codespace.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/developing-in-a-codespace/working-collaboratively-in-a-codespace.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/troubleshooting/exporting-changes-to-a-branch.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/troubleshooting/github-codespaces-logs.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/troubleshooting/troubleshooting-creation-and-deletion-of-codespaces.md",
+    "https://github.com/github/docs/blob/main/content/codespaces/troubleshooting/troubleshooting-your-connection-to-github-codespaces.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/monitor-workflows/enable-debug-logging.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/monitor-workflows/use-the-visualization-graph.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/monitor-workflows/use-workflow-run-logs.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/monitor-workflows/view-job-condition-logs.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/monitor-workflows/view-job-execution-time.md",
+    "https://github.com/github/docs/blob/main/content/actions/how-tos/monitor-workflows/view-workflow-run-history.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_attest-blob.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_attest.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_bundle.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_bundle_create.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_bundle_inspect.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_download_attestation.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_download_signature.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_exit_codes.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_generate-key-pair.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_public-key.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_sign-blob.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_sign.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_signing-config.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_trusted-root.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_trusted-root_create.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_verify-attestation.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_verify-blob-attestation.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_verify-blob.md",
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_verify.md"
   ],
   "unresolved_retrievals": [
     {
@@ -2455,12 +2503,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Continue TD-BL-ACCEPT-001/002 with official primary methods and evidence provenance specifications outside already indexed SLSA/Scorecard docs; original WHO April 2026 host exceptions TD-BL-OFFICE-158/239 and native Codespaces stdout/stderr executed SHA remain unresolved. No substantive closure.",
-  "next_batch_id": "D030",
+  "next_queue_position": "Seek remaining upstream official source-rights/provenance acceptance and reproducibility test standards; original WHO office-host TD-BL-OFFICE-158/239 and actual Atlas native Codespaces run artifacts remain unresolved. No substantive closure.",
+  "next_batch_id": "D031",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D029",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D029_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "764e5ea15b56ecc0cb7980089ef3857045959e2d",
+    "batch_id": "D030",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D030_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "f570c0d47c103eba50f29a39cfb11f8fc1696728",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
