@@ -283,10 +283,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D046_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D047",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D047_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 46,
-  "cumulative_unique_url_leads": 1818,
+  "completed_batch_count": 47,
+  "cumulative_unique_url_leads": 1858,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -2346,7 +2352,47 @@
     "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/originatedBy.md",
     "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/packageVerificationCodeExcludedFile.md",
     "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/prefix.md",
-    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/profileConformance.md"
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Core/Properties/profileConformance.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/anonymizationMethodUsed.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/confidentialityLevel.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/dataCollectionProcess.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/dataPreprocessing.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/datasetAvailability.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/datasetNoise.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/datasetSize.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/datasetType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/datasetUpdateMechanism.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/hasSensitivePersonalInformation.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/intendedUse.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/autonomyType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/domain.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/energyConsumption.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/energyQuantity.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/energyUnit.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/finetuningEnergyConsumption.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/hyperparameter.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/inferenceEnergyConsumption.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/informationAboutApplication.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/AI/Properties/informationAboutTraining.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/actionStatement.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/actionStatementTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/assessedElement.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/catalogType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/decisionType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/exploited.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/impactStatement.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/impactStatementTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/additionText.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/deprecatedVersion.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/isDeprecatedAdditionId.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/isDeprecatedLicenseId.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/isFsfLibre.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/isOsiApproved.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/licenseXml.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/additionalPurpose.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/attributionText.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/byteRange.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/contentIdentifier.md"
   ],
   "unresolved_retrievals": [
     {
@@ -3243,12 +3289,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D047: untouched SPDX 3 Dataset, AI, Security, ExpandedLicensing and Software model property definitions; then W3C PROV constraints / W3C DCAT 3 examples. No independent acceptance or Codespaces execution.",
-  "next_batch_id": "D047",
+  "next_queue_position": "D048: unassessed official W3C PROV constraints test sources, then DCAT 3 examples and SPDX 3 model classes. WHO April 2026 and Atlas native-run evidence remain unresolved.",
+  "next_batch_id": "D048",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D046",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D046_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "8ee8978c834c6f2672b6e40b808c98d25832f956",
+    "batch_id": "D047",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D047_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "991103d4e7f56111131927cd6c58f969212447c6",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
