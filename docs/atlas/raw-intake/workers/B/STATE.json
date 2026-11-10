@@ -341,12 +341,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B055_TEAM_B_20261110.json",
       "source_count": 31,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B056",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B056_TEAM_B_20261110.json",
+      "source_count": 32,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 55,
-  "worker_owned_batch_count": 54,
-  "cumulative_team_source_leads": 2039,
-  "worker_owned_unique_url_leads": 2000,
+  "completed_batch_count": 56,
+  "worker_owned_batch_count": 55,
+  "cumulative_team_source_leads": 2071,
+  "worker_owned_unique_url_leads": 2032,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -1182,7 +1188,24 @@
     "M49:300|clinical_guidance",
     "M49:076|clinical_guidance",
     "M49:178|pharmacogenetics",
-    "CROSS_REGION:CENTRAL_AFRICA|pharmacogenetics"
+    "CROSS_REGION:CENTRAL_AFRICA|pharmacogenetics",
+    "M49:558|clinical_guidance",
+    "M49:600|diabetes",
+    "M49:068|clinical_guidance",
+    "CROSS_REGION:LATIN_AMERICA|cardiometabolic_risk",
+    "M49:858|clinical_guidance",
+    "CROSS_REGION:WESTERN_BALKANS|pharmacogenetics",
+    "CROSS_REGION:EUROPE|pharmacogenetics",
+    "CROSS_REGION:GLOBAL|clinical_guidance",
+    "M49:642|pharmacogenetics",
+    "M49:792|pharmacogenetics",
+    "M49:642|clinical_guidance",
+    "M49:688|pharmacogenetics",
+    "M49:705|pharmacogenetics",
+    "M49:705|clinical_guidance",
+    "M49:233|pharmacogenetics",
+    "M49:191|pharmacogenetics",
+    "M49:191|clinical_guidance"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -1196,11 +1219,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Continue Team B P1 original clinical guidance, pharmacogenetics and population-health surveys; no evidence verification. Resume B056."
+    "P1_next": "Continue untouched Team B P1 original clinical guidance, population disease prevalence surveys, pharmacogenetics and cardiometabolic studies; no evidence verification. Resume B057."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 2000,
+    "current_worker_batch_count": 2032,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -3201,7 +3224,39 @@
       "https://pubmed.ncbi.nlm.nih.gov/31078747/",
       "https://pubmed.ncbi.nlm.nih.gov/33310105/",
       "https://pubmed.ncbi.nlm.nih.gov/42181075/",
-      "https://pubmed.ncbi.nlm.nih.gov/38049200/"
+      "https://pubmed.ncbi.nlm.nih.gov/38049200/",
+      "https://pubmed.ncbi.nlm.nih.gov/26856487/",
+      "https://pubmed.ncbi.nlm.nih.gov/33416694/",
+      "https://pubmed.ncbi.nlm.nih.gov/9585400/",
+      "https://pubmed.ncbi.nlm.nih.gov/41473888/",
+      "https://pubmed.ncbi.nlm.nih.gov/17476285/",
+      "https://pubmed.ncbi.nlm.nih.gov/31851589/",
+      "https://pubmed.ncbi.nlm.nih.gov/30805801/",
+      "https://pubmed.ncbi.nlm.nih.gov/42560143/",
+      "https://pubmed.ncbi.nlm.nih.gov/27108143/",
+      "https://pubmed.ncbi.nlm.nih.gov/24499608/",
+      "https://pubmed.ncbi.nlm.nih.gov/42943223/",
+      "https://pubmed.ncbi.nlm.nih.gov/41595737/",
+      "https://pubmed.ncbi.nlm.nih.gov/40261922/",
+      "https://pubmed.ncbi.nlm.nih.gov/38340605/",
+      "https://pubmed.ncbi.nlm.nih.gov/40573293/",
+      "https://pubmed.ncbi.nlm.nih.gov/42356431/",
+      "https://pubmed.ncbi.nlm.nih.gov/42022561/",
+      "https://pubmed.ncbi.nlm.nih.gov/42502143/",
+      "https://pubmed.ncbi.nlm.nih.gov/41827578/",
+      "https://pubmed.ncbi.nlm.nih.gov/42650926/",
+      "https://pubmed.ncbi.nlm.nih.gov/42407102/",
+      "https://pubmed.ncbi.nlm.nih.gov/40064851/",
+      "https://pubmed.ncbi.nlm.nih.gov/42881810/",
+      "https://pubmed.ncbi.nlm.nih.gov/42677320/",
+      "https://pubmed.ncbi.nlm.nih.gov/41549095/",
+      "https://pubmed.ncbi.nlm.nih.gov/42582614/",
+      "https://pubmed.ncbi.nlm.nih.gov/42195218/",
+      "https://pubmed.ncbi.nlm.nih.gov/40708595/",
+      "https://pubmed.ncbi.nlm.nih.gov/40605081/",
+      "https://pubmed.ncbi.nlm.nih.gov/41520206/",
+      "https://pubmed.ncbi.nlm.nih.gov/42168754/",
+      "https://pubmed.ncbi.nlm.nih.gov/41520198/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -3220,7 +3275,8 @@
     "worker_B052_count": 34,
     "worker_B053_count": 32,
     "worker_B054_count": 34,
-    "worker_B055_count": 31
+    "worker_B055_count": 31,
+    "worker_B056_count": 32
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -3289,16 +3345,17 @@
     "worker_B052": [],
     "worker_B053": [],
     "worker_B054": [],
-    "worker_B055": []
+    "worker_B055": [],
+    "worker_B056": []
   },
-  "next_batch_id": "B056",
-  "next_queue_position": "B056: high-yield Team B P1 untouched regional population hypertension, diabetes, dyslipidemia, gout and PGx cohorts/guidelines; exclude B001-B055 URLs. P0 original-document retrievals Bangladesh celiac/lactose, Sri Lanka/Peru gout, IDF Comoros remain unresolved.",
+  "next_batch_id": "B057",
+  "next_queue_position": "B057: Team B P1 high-yield untouched regional population hypertension, diabetes, dyslipidemia, gout, pharmacogenomic cohorts and clinical guidelines; deduplicate B001–B056 URLs. P0 Bangladesh celiac/lactose, Sri Lanka/Peru gout originals, and IDF Comoros redirected source remain unresolved.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B055",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B055_TEAM_B_20261110.json",
-    "parent_commit_sha": "bd83772592fcdea1cec7f2bd4612a4b3632053a8",
+    "batch_id": "B056",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B056_TEAM_B_20261110.json",
+    "parent_commit_sha": "35c7bd0219fa8eea7ad42a0a7a4f132823c204c3",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Two-file atomic commit; canonical SHA from HEAD after readback."
+    "note": "Two-file atomic batch and state commit; canonical SHA is Team B worker branch HEAD after readback."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
