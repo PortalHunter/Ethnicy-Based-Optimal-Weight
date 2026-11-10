@@ -205,10 +205,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D033_TEAM_D_20261110.json",
       "source_count": 43,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D034",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D034_TEAM_D_20261110.json",
+      "source_count": 42,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 33,
-  "cumulative_unique_url_leads": 1297,
+  "completed_batch_count": 34,
+  "cumulative_unique_url_leads": 1339,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -1748,7 +1754,49 @@
     "https://github.com/OpenLineage/OpenLineage/blob/main/spec/Naming.md",
     "https://github.com/OpenLineage/OpenLineage/blob/main/spec/OpenLineage.json",
     "https://github.com/OpenLineage/OpenLineage/blob/main/spec/OpenLineage.md",
-    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/Versioning.md"
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/Versioning.md",
+    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-2-2-1.json",
+    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-2-2-2.json",
+    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-2-2.json",
+    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-2-3-1-dev.json",
+    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema.json",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.hext",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.json-ld",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.n3",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.nt",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.pretty-xml",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.trig",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.xml",
+    "https://github.com/package-url/purl-spec/blob/main/PURL-SPECIFICATION.rst",
+    "https://github.com/package-url/purl-spec/blob/main/PURL-TYPES.rst",
+    "https://github.com/package-url/purl-spec/blob/main/VERSION-RANGE-SPEC.rst",
+    "https://github.com/package-url/purl-spec/blob/main/docs/specification/ECMA-427-2nd_Edition-Release_notes.md",
+    "https://github.com/package-url/purl-spec/blob/main/docs/specification/README.md",
+    "https://github.com/package-url/purl-spec/blob/main/docs/specification/common-qualifiers.md",
+    "https://github.com/package-url/purl-spec/blob/main/docs/specification/how-to-build.md",
+    "https://github.com/package-url/purl-spec/blob/main/docs/specification/how-to-parse.md",
+    "https://github.com/package-url/purl-spec/blob/main/docs/specification/lenient-ABNF-grammar.md",
+    "https://github.com/package-url/purl-spec/blob/main/schemas/purl-test.schema-0.1.json",
+    "https://github.com/package-url/purl-spec/blob/main/schemas/purl-test.schema-0.2.json",
+    "https://github.com/package-url/purl-spec/blob/main/schemas/purl-type-definition.schema-1.0.json",
+    "https://github.com/package-url/purl-spec/blob/main/schemas/purl-type-definition.schema-1.1.json",
+    "https://github.com/package-url/purl-spec/blob/main/schemas/purl-types-index.schema-1.0.json",
+    "https://github.com/package-url/purl-spec/blob/main/docs/decisions/001-Register-software-id-PURL-type.md",
+    "https://github.com/package-url/purl-spec/blob/main/types/cargo-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/conda-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/cran-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/deb-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/docker-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/generic-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/git-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/github-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/golang-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/maven-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/npm-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/nuget-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/oci-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/pypi-definition.json",
+    "https://github.com/package-url/purl-spec/blob/main/types/rpm-definition.json"
   ],
   "unresolved_retrievals": [
     {
@@ -2630,7 +2678,14 @@
       "reason": "INDEPENDENT_ATLAS_SEMANTIC_GRAPH_AND_SOURCE_RIGHTS_ACCEPTANCE_NOT_RETRIEVED_OR_PERFORMED"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [],
+  "duplicate_urls_skipped_this_batch": [
+    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-2-3.json",
+    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-3-0-1.json",
+    "https://github.com/spdx/spdx-spec/blob/develop/schemas/spdx-schema-3-1-dev.json",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-context.jsonld",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.jsonld",
+    "https://github.com/spdx/spdx-spec/blob/develop/ontology/spdx-model.ttl"
+  ],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -2645,12 +2700,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Continue D034 with untouched SPDX specification, license semantics and package identity references for TD-BL-ACCEPT-001/002; original WHO April 2026 hosting/exception and Atlas-native acceptance artifacts remain unresolved.",
-  "next_batch_id": "D034",
+  "next_queue_position": "Resume D035 from untouched W3C PROV, SHACL, RDF provenance and reproducibility technical method leads. Original WHO April 2026 host exceptions and Atlas-run stdout/stderr, SHA and independent source-rights/semantic acceptance remain unresolved.",
+  "next_batch_id": "D035",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D033",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D033_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "952c7ebe7a5e9a9afcf480f61bf51384b77f2a7a",
+    "batch_id": "D034",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D034_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "308af02dda507b945ae7d3b7c114c6fff063deaa",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
