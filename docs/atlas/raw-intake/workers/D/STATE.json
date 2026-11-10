@@ -295,10 +295,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D048_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D049",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D049_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 48,
-  "cumulative_unique_url_leads": 1898,
+  "completed_batch_count": 49,
+  "cumulative_unique_url_leads": 1938,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -2438,7 +2444,47 @@
     "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-start-s2-PASS-c26.ttl",
     "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-start-s7-PASS-c23-c26.ttl",
     "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-usage-f4-FAIL-c23.ttl",
-    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-usage-s2-PASS-c23.ttl"
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-usage-s2-PASS-c23.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/basic-example.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/catalog-record.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/classifying-thematically.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/classifying-types.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/compress-and-package.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/csiro-dap-examples.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/csiro-stratchart-sdo.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/csiro-stratchart.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/csiro-stratchart_dcat3.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/dataset-002.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/dataset-003.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/dataset-004-sdo.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/dataset-004.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/dryad-globtherm-sdata.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/eea-csw.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/ga-courts.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/ga-wms.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/genoa-busstop.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/identifier-types.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/relation-examples.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/series-membership.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/series-releases.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/series-versions.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/service1.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/spatial-properties.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/temporal-properties.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/threddsABC.ttl",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/basic-example.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/catalog-record.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/classifying-thematically.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/classifying-types.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/compress-and-package.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/csiro-dap-examples.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/csiro-stratchart-sdo.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/csiro-stratchart.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/csiro-stratchart_dcat3.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/dataset-002.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/dataset-003.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/dataset-004-sdo.jsonld",
+    "https://github.com/w3c/dx-dcat/blob/gh-pages/TR/examples/vocab-dcat-3/dataset-004.jsonld"
   ],
   "unresolved_retrievals": [
     {
@@ -3335,12 +3381,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D049: new official W3C DCAT 3 interoperable dataset example source files; then remaining SPDX 3 model classes. WHO April 2026 and native Codespaces artifacts still unresolved.",
-  "next_batch_id": "D049",
+  "next_queue_position": "D050: unassessed official SPDX 3 Core/Dataset/AI/Security/Software/ExpandedLicensing classes. Remaining W3C DCAT 3 serializations, PROV constraints and April 2026 WHO host/Codespaces-original evidence gaps remain available.",
+  "next_batch_id": "D050",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D048",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D048_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "f57dfa0035da51b712ea56d31a943287050ffcd0",
+    "batch_id": "D049",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D049_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "b96fb8e6e27a00dca5439df2c06974c64bdccd6f",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
