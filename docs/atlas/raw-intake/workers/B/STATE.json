@@ -275,12 +275,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B044_TEAM_B_20261110.json",
       "source_count": 32,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B045",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B045_TEAM_B_20261110.json",
+      "source_count": 30,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 44,
-  "worker_owned_batch_count": 43,
-  "cumulative_team_source_leads": 1686,
-  "worker_owned_unique_url_leads": 1647,
+  "completed_batch_count": 45,
+  "worker_owned_batch_count": 44,
+  "cumulative_team_source_leads": 1716,
+  "worker_owned_unique_url_leads": 1677,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -979,7 +985,21 @@
     "M49:384|diabetes",
     "M49:478|diabetes",
     "M49:732|diabetes",
-    "M49:408|diabetes"
+    "M49:408|diabetes",
+    "CROSS_REGION:NAURU_SOLOMON_ISLANDS|diabetes",
+    "M49:694|hypertension",
+    "M49:694|clinical_guidance",
+    "M49:646|diabetes_hypertension",
+    "M49:748|hypertension",
+    "CROSS_REGION:SOMALILAND|hypertension",
+    "M49:008|diabetes",
+    "M49:008|cardiometabolic_risk",
+    "M49:860|clinical_guidance",
+    "CROSS_REGION:EUROPE_MULTI_COUNTRY|hypertension",
+    "M49:860|hypertension",
+    "M49:051|diabetes",
+    "M49:398|clinical_guidance",
+    "CROSS_REGION:KOSOVO|diabetes"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -993,11 +1013,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Prioritize independent country-specific original research, particularly under-covered African, Asian and Pacific cardiometabolic and pharmacogenetic studies; B044 IDF country pages represent shared Atlas data, not 32 independent studies. Existing original-source P0 blockers unresolved. No validation backlog decrement."
+    "P1_next": "Continue high-yield original-source leads in under-covered P1 clinical, prevalence and pharmacogenetic cells, avoiding independent-study double counts from shared cohort and IDF data. P0 original-source retrieval issues unresolved. No substantive research backlog decrement."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 1647,
+    "current_worker_batch_count": 1677,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -2645,7 +2665,37 @@
       "https://diabetesatlas.org/data-by-location/country/mali/",
       "https://diabetesatlas.org/data-by-location/country/mauritania/",
       "https://diabetesatlas.org/data-by-location/country/western-sahara/",
-      "https://diabetesatlas.org/data-by-location/country/dem-peoples-republic-of-korea/"
+      "https://diabetesatlas.org/data-by-location/country/dem-peoples-republic-of-korea/",
+      "https://pubmed.ncbi.nlm.nih.gov/29159128/",
+      "https://pubmed.ncbi.nlm.nih.gov/40592744/",
+      "https://pubmed.ncbi.nlm.nih.gov/40299902/",
+      "https://pubmed.ncbi.nlm.nih.gov/42623543/",
+      "https://pubmed.ncbi.nlm.nih.gov/42599829/",
+      "https://pubmed.ncbi.nlm.nih.gov/42218255/",
+      "https://pubmed.ncbi.nlm.nih.gov/41505428/",
+      "https://pubmed.ncbi.nlm.nih.gov/41787308/",
+      "https://pubmed.ncbi.nlm.nih.gov/42255337/",
+      "https://pubmed.ncbi.nlm.nih.gov/41851943/",
+      "https://pubmed.ncbi.nlm.nih.gov/42264517/",
+      "https://pubmed.ncbi.nlm.nih.gov/42907803/",
+      "https://pubmed.ncbi.nlm.nih.gov/42394059/",
+      "https://pubmed.ncbi.nlm.nih.gov/42539108/",
+      "https://pubmed.ncbi.nlm.nih.gov/39357739/",
+      "https://pubmed.ncbi.nlm.nih.gov/38258764/",
+      "https://pubmed.ncbi.nlm.nih.gov/42620203/",
+      "https://pubmed.ncbi.nlm.nih.gov/42404689/",
+      "https://pubmed.ncbi.nlm.nih.gov/42534519/",
+      "https://pubmed.ncbi.nlm.nih.gov/42396513/",
+      "https://pubmed.ncbi.nlm.nih.gov/41544518/",
+      "https://pubmed.ncbi.nlm.nih.gov/42420927/",
+      "https://pubmed.ncbi.nlm.nih.gov/42334592/",
+      "https://pubmed.ncbi.nlm.nih.gov/42618849/",
+      "https://pubmed.ncbi.nlm.nih.gov/42107935/",
+      "https://pubmed.ncbi.nlm.nih.gov/41553412/",
+      "https://pubmed.ncbi.nlm.nih.gov/42571325/",
+      "https://pubmed.ncbi.nlm.nih.gov/42086267/",
+      "https://pubmed.ncbi.nlm.nih.gov/42941702/",
+      "https://pubmed.ncbi.nlm.nih.gov/42909920/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -2713,16 +2763,17 @@
         "url": "https://diabetesatlas.org/data-by-location/country/comoros/",
         "reason": "DIRECT_WEB_FETCH_REDIRECT_LOOP; SEARCH_INDEX_METADATA_AVAILABLE"
       }
-    ]
+    ],
+    "worker_B045": []
   },
-  "next_batch_id": "B045",
-  "next_queue_position": "B045: continue P1 untouched country-condition clinical and original population health research; avoid more URL-only profiles from the same IDF Atlas dataset without underlying independent primary studies. Dedup B001-B044. Unresolved P0 Peru gout, Bangladesh celiac/lactose, Sri Lanka gout; direct IDF Comoros profile fetch redirect loop.",
+  "next_batch_id": "B046",
+  "next_queue_position": "B046: continue independent P1 clinical and population-health source leads especially undercovered pharmacogenetics and African, Asian, Pacific country-condition cells, dedup B001-B045. P0 Peru gout/Bangladesh celiac-lactose/Sri Lanka gout and B044 IDF Comoros direct-fetch issue remain unresolved.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B044",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B044_TEAM_B_20261110.json",
-    "parent_commit_sha": "efdd7d96f7708f764d7584b8ac49fee6e2563ae3",
+    "batch_id": "B045",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B045_TEAM_B_20261110.json",
+    "parent_commit_sha": "55392c07c67d66dab163fdc3f46cac399ed05e41",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Atomic batch and Team B STATE.json commit; worker branch HEAD is canonical SHA."
+    "note": "Atomic batch and Team B STATE commit; current branch HEAD is canonical SHA."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
