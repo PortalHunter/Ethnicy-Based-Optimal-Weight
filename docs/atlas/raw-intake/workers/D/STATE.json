@@ -229,10 +229,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D037_TEAM_D_20261110.json",
       "source_count": 36,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D038",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D038_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 37,
-  "cumulative_unique_url_leads": 1458,
+  "completed_batch_count": 38,
+  "cumulative_unique_url_leads": 1498,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -1932,7 +1938,47 @@
     "https://github.com/w3c/odrl/blob/master/bp/index.html",
     "https://github.com/w3c/odrl/blob/master/bp/README.md",
     "https://github.com/w3c/odrl/blob/master/community-vocab/community.ttl",
-    "https://github.com/w3c/odrl/blob/master/community-vocab/index.html"
+    "https://github.com/w3c/odrl/blob/master/community-vocab/index.html",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/bearer-credential-reuse-and-correlation.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/code-injection-via-credential-content.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/correlation-via-patterns-of-use.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/correlation-via-status-and-revocation-lookup.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/credential-and-data-aggregation.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/credential-content-tampering.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/cryptographic-suite-obsolescence.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/data-theft-and-credential-honeypots.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/device-theft-and-impersonation.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/device-tracking-and-fingerprinting.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/disclosure-to-a-malicious-or-deceptive-verifier.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/excessive-data-disclosure.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/identifier-based-correlation.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/identity-proofing-failure-at-issuance.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/inappropriate-or-out-of-context-credential-use.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/inappropriate-validity-periods.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/issuer-side-correlation-and-privacy-subversion.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/metadata-based-correlation.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/outline.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/presentation-exchange-attacks-mitm-replay-and-spoofing.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/signature-based-correlation.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/signing-key-compromise-and-mismanagement.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/storage-provider-data-mining-and-compelled-disclosure.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/tampering-with-unprotected-external-resources.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/unauthorized-post-presentation-use-of-data.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/threats/untrustworthy-user-agent-software.yaml",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-credential/example-1.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-credential/example-11.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-credential/example-12.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-credential/example-13.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-credential/example-18.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-credential/example-20.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-credential/example-21.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-credential/example-23.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-credential/example-4.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-credential/verifiable-credential-schema.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-presentation/example-2.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-presentation/example-25.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-presentation/example-45.json",
+    "https://github.com/w3c/vc-data-model/blob/main/schema/verifiable-presentation/verifiable-presentation-schema.json"
   ],
   "unresolved_retrievals": [
     {
@@ -2829,12 +2875,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D038: W3C verifiable-credential threat-model and schema method entries, followed by untouched linked-data and provenance standards. WHO host and Atlas-native acceptance evidence gaps remain unresolved.",
-  "next_batch_id": "D038",
+  "next_queue_position": "D039: untouched W3C JSON-LD syntax data transformation/examples and provenance semantic-method references. Original Atlas acceptance and WHO host documents unresolved.",
+  "next_batch_id": "D039",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D037",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D037_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "2bd22a25dd099407a1ba25a39d76bd29657bcce5",
+    "batch_id": "D038",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D038_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "4d1f27a1107d1866ede875b6cf93c829db936ac7",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
