@@ -288,13 +288,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A047_TEAM_A_20261110.json",
       "source_count": 34
+    },
+    {
+      "batch_id": "A048",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A048_TEAM_A_20261110.json",
+      "source_count": 43
     }
   ],
-  "completed_worker_batch_count": 46,
-  "completed_team_a_intake_batch_count": 47,
-  "worker_new_unique_url_leads": 1818,
-  "team_a_cumulative_unique_url_leads": 1863,
-  "last_completed_batch": "A047",
+  "completed_worker_batch_count": 47,
+  "completed_team_a_intake_batch_count": 48,
+  "worker_new_unique_url_leads": 1861,
+  "team_a_cumulative_unique_url_leads": 1906,
+  "last_completed_batch": "A048",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -361,14 +367,15 @@
     "M49:203|czech_food_safety_drinking_water_hygiene_eu_and_official_authority_sources",
     "M49:203|czech_nrc_drinking_water_public_health_guidance_and_historical_methods",
     "M49:203|czech_recreational_bottled_well_water_and_contact_material_health_guidance",
-    "M49:203|czech_szu_original_environmental_health_monitoring_air_report_series"
+    "M49:203|czech_szu_original_environmental_health_monitoring_air_report_series",
+    "M49:203|czech_noise_laboratory_and_2026_public_health_authority_sources"
   ],
   "queue_position": {
     "last_selected_m49": [
       "203"
     ],
-    "next": "M49:203 Czechia prioritize remaining original official environmental health/noise/air/chemical health agency source indexes; recover missing geographic queue",
-    "next_batch_id": "A048",
+    "next": "M49:203 Czechia direct original legal text retrieval and agency index leads; recover historical geographic queue before selecting another jurisdiction",
+    "next_batch_id": "A049",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -441,7 +448,8 @@
     "A044 food/water instrument full texts and EU consolidation, enforceability, geographic scope uninspected; institutional guidance is source material not legislation.",
     "A045 SZÚ original downloadable guidance documents and 2005–2026 methodological versions not inspected; historical relevance/current force unverified.",
     "A046 SZÚ original attached guidance, original legal texts and historical versions for recreational water, bottled water, contact materials and wells uninspected; one 2013 publication-index date conflicts with 2014 document title.",
-    "A047 annual official air- and environmental-health reports: 14 PDF retrievals failed from size limits/rate limits/timeouts; none reviewed for scientific conclusions; source publication dates need original-page retrieval."
+    "A047 annual official air- and environmental-health reports: 14 PDF retrievals failed from size limits/rate limits/timeouts; none reviewed for scientific conclusions; source publication dates need original-page retrieval.",
+    "A048 five SZÚ 2026 testing programme pages timed out/HTTP429; original documents, amendment chains and statutory validity uninspected."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -2306,7 +2314,50 @@
     "https://szu.gov.cz/wp-content/uploads/2022/12/Vysledky_systemu_2020_2.pdf",
     "https://szu.gov.cz/wp-content/uploads/2023/03/Vysledky_systemu_2019.pdf",
     "https://szu.gov.cz/wp-content/uploads/2023/03/Vysledky_systemu_2018.pdf",
-    "https://szu.gov.cz/wp-content/uploads/2023/03/Vysledky_systemu_2017.pdf"
+    "https://szu.gov.cz/wp-content/uploads/2023/03/Vysledky_systemu_2017.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2025/08/Odborna_hluk_24.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2024/08/Odborna_hluk_23.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_21web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_20web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_19web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_16web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_15web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_14web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_13web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_12web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_11web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_10web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_09web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/priloha_hluk_09web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_08web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/Hluk_07web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_05web.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/hluk_04web.pdf",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/laboratorni-metodiky-a-vzorkovani/abioseston/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/laboratorni-metodiky-a-vzorkovani/metodicke-doporuceni-nrc-pro-pitnou-vodu-k-provedeni-odberu-pitne-vody-u-spotrebitele-podle-vyhlasky-c-252-2004-sb-ve-zneni-vyhlasky-c-70-2018-sb/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/laboratorni-metodiky-a-vzorkovani/metody-prirodni-koupaliste/",
+    "https://szu.gov.cz/sluzby/zkouseni-zpusobilosti/programy-zpusobilosti-pro-vodu/chemicky-rozbor-vody/",
+    "https://szu.gov.cz/sluzby/mezilaboratorni-porovnavani/programy-zpusobilosti-pro-vodu/senzoricka-analyza-vody-zkouseni-pachu-a-chuti/",
+    "https://szu.gov.cz/sluzby/mezilaboratorni-porovnavani/programy-zpusobilosti-pro-vodu/mikrobiologicky-rozbor-vody/",
+    "https://szu.gov.cz/sluzby/zkouseni-zpusobilosti/programy-zpusobilosti-pro-vodu/mikroskopicky-obraz/",
+    "https://szu.gov.cz/sluzby/zkouseni-zpusobilosti/programy-zpusobilosti-pro-vodu/5095-2/",
+    "https://szu.gov.cz/sluzby/mezilaboratorni-porovnavani/programy-zpusobilosti-pro-vodu/odbery-vzorku-pitna-voda/",
+    "https://szu.gov.cz/sluzby/mezilaboratorni-porovnavani/programy-zpusobilosti-pro-vodu/odbery-vzorku-bazeny/",
+    "https://szu.gov.cz/sluzby/mezilaboratorni-porovnavani/programy-zpusobilosti-pro-vodu/odbery-vzorku-prirodni-koupaliste/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/hluk/zdravotni-ucinky-hluku/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/hluk/zdroje-hluku-a-jak-se-meri/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/hluk/ochrana-pred-hlukem/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/hluk/co-delat-pri-nadmernem-hluku/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/hluk/monitoring-hluku/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/ovzdusi/monitoring-ovzdusi/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/monitoring/odborne-zpravy-monitoringu/",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/laboratorni-metodiky-a-vzorkovani/",
+    "https://mzd.gov.cz/kategorizace-praci-podle-zakona-o-ochrane-verejneho-zdravi/",
+    "https://mzd.gov.cz/zmena-povinnosti-pro-osoby-podnikajici-ve-sluzbach-pece-o-telo-od-ledna-2026/",
+    "https://mzd.gov.cz/zadost-o-informace-ze-dne-19-1-2026/",
+    "https://mze.gov.cz/public/portal/mze/legislativa/pravni-predpisy-mze/uplna-zneni/vyhlaska-c-358-2025-sb",
+    "https://mze.gov.cz/public/portal/mze/potraviny/legislativa",
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/monitoring/"
   ],
   "unresolved_retrievals": [
     {
@@ -6817,15 +6868,40 @@
       "source_id": "ATLAS-RAW-A047-034",
       "url": "https://szu.gov.cz/wp-content/uploads/2023/03/Vysledky_systemu_2017.pdf",
       "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; PDF_TOO_LARGE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A048-023",
+      "url": "https://szu.gov.cz/sluzby/mezilaboratorni-porovnavani/programy-zpusobilosti-pro-vodu/senzoricka-analyza-vody-zkouseni-pachu-a-chuti/",
+      "reason": "SOURCE_PAGE_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A048-024",
+      "url": "https://szu.gov.cz/sluzby/mezilaboratorni-porovnavani/programy-zpusobilosti-pro-vodu/mikrobiologicky-rozbor-vody/",
+      "reason": "SOURCE_PAGE_TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A048-027",
+      "url": "https://szu.gov.cz/sluzby/mezilaboratorni-porovnavani/programy-zpusobilosti-pro-vodu/odbery-vzorku-pitna-voda/",
+      "reason": "SOURCE_PAGE_HTTP_429"
+    },
+    {
+      "source_id": "ATLAS-RAW-A048-028",
+      "url": "https://szu.gov.cz/sluzby/mezilaboratorni-porovnavani/programy-zpusobilosti-pro-vodu/odbery-vzorku-bazeny/",
+      "reason": "SOURCE_PAGE_HTTP_429"
+    },
+    {
+      "source_id": "ATLAS-RAW-A048-029",
+      "url": "https://szu.gov.cz/sluzby/mezilaboratorni-porovnavani/programy-zpusobilosti-pro-vodu/odbery-vzorku-prirodni-koupaliste/",
+      "reason": "SOURCE_PAGE_HTTP_429"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A047",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A047_TEAM_A_20261110.json",
+    "batch_id": "A048",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A048_TEAM_A_20261110.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "2a645360c1a1aeaea173035575d217c55ce3a477",
+    "parent_commit_sha": "2af5966cc680fa0f872351868addbe0807ccede7",
     "checkpoint_commit_sha_resolution": "Self-referential SHA impossible; verify branch HEAD after atomic update."
   },
-  "next_run_instruction": "Resume Team A A048 at M49:203; priority SZÚ noise, exposure and air-health indexes, or recover geographic queue. Raw acquisition only.",
+  "next_run_instruction": "Resume Team A A049 from committed worker state, M49:203. Raw acquisition only.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
