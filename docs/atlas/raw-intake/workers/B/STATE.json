@@ -269,12 +269,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B043_TEAM_B_20261110.json",
       "source_count": 31,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B044",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B044_TEAM_B_20261110.json",
+      "source_count": 32,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 43,
-  "worker_owned_batch_count": 42,
-  "cumulative_team_source_leads": 1654,
-  "worker_owned_unique_url_leads": 1615,
+  "completed_batch_count": 44,
+  "worker_owned_batch_count": 43,
+  "cumulative_team_source_leads": 1686,
+  "worker_owned_unique_url_leads": 1647,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -955,7 +961,25 @@
     "CROSS_REGION:EUROPE|clinical_guidance",
     "M49:124|clinical_guidance",
     "CROSS_REGION:ASIA|clinical_guidance",
-    "M49:392|clinical_guidance"
+    "M49:392|clinical_guidance",
+    "M49:324|diabetes",
+    "M49:426|diabetes",
+    "M49:108|diabetes",
+    "M49:262|diabetes",
+    "M49:132|diabetes",
+    "M49:694|diabetes",
+    "M49:798|diabetes",
+    "M49:242|diabetes",
+    "M49:090|diabetes",
+    "M49:570|diabetes",
+    "M49:064|diabetes",
+    "M49:548|diabetes",
+    "M49:598|diabetes",
+    "M49:204|diabetes",
+    "M49:384|diabetes",
+    "M49:478|diabetes",
+    "M49:732|diabetes",
+    "M49:408|diabetes"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -969,11 +993,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Continue P1 original research and guideline source acquisition in less-covered country-condition cells, especially African, Asian and Pacific populations. Existing P0 original-source retrieval blockers remain. No substantive validation backlog decrement."
+    "P1_next": "Prioritize independent country-specific original research, particularly under-covered African, Asian and Pacific cardiometabolic and pharmacogenetic studies; B044 IDF country pages represent shared Atlas data, not 32 independent studies. Existing original-source P0 blockers unresolved. No validation backlog decrement."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 1615,
+    "current_worker_batch_count": 1647,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -2589,7 +2613,39 @@
       "https://pubmed.ncbi.nlm.nih.gov/42242835/",
       "https://pubmed.ncbi.nlm.nih.gov/42296496/",
       "https://pubmed.ncbi.nlm.nih.gov/42120775/",
-      "https://pubmed.ncbi.nlm.nih.gov/40877471/"
+      "https://pubmed.ncbi.nlm.nih.gov/40877471/",
+      "https://diabetesatlas.org/data-by-location/country/eritrea/",
+      "https://diabetesatlas.org/data-by-location/country/comoros/",
+      "https://diabetesatlas.org/data-by-location/country/guinea/",
+      "https://diabetesatlas.org/data-by-location/country/lesotho/",
+      "https://diabetesatlas.org/data-by-location/country/burundi/",
+      "https://diabetesatlas.org/data-by-location/country/djibouti/",
+      "https://diabetesatlas.org/data-by-location/country/guinea-bissau/",
+      "https://diabetesatlas.org/data-by-location/country/chad/",
+      "https://diabetesatlas.org/data-by-location/country/seychelles/",
+      "https://diabetesatlas.org/data-by-location/country/cabo-verde/",
+      "https://diabetesatlas.org/data-by-location/country/equatorial-guinea/",
+      "https://diabetesatlas.org/data-by-location/country/sierra-leone/",
+      "https://diabetesatlas.org/data-by-location/country/tuvalu/",
+      "https://diabetesatlas.org/data-by-location/country/kiribati/",
+      "https://diabetesatlas.org/data-by-location/country/tonga/",
+      "https://diabetesatlas.org/data-by-location/country/nauru/",
+      "https://diabetesatlas.org/data-by-location/country/fiji/",
+      "https://diabetesatlas.org/data-by-location/country/solomon-islands/",
+      "https://diabetesatlas.org/data-by-location/country/samoa/",
+      "https://diabetesatlas.org/data-by-location/country/timor-leste/",
+      "https://diabetesatlas.org/data-by-location/country/niue/",
+      "https://diabetesatlas.org/data-by-location/country/bhutan/",
+      "https://diabetesatlas.org/data-by-location/country/vanuatu/",
+      "https://diabetesatlas.org/data-by-location/country/papua-new-guinea/",
+      "https://diabetesatlas.org/data-by-location/country/benin/",
+      "https://diabetesatlas.org/data-by-location/country/madagascar/",
+      "https://diabetesatlas.org/data-by-location/country/burkina-faso/",
+      "https://diabetesatlas.org/data-by-location/country/cte-divoire/",
+      "https://diabetesatlas.org/data-by-location/country/mali/",
+      "https://diabetesatlas.org/data-by-location/country/mauritania/",
+      "https://diabetesatlas.org/data-by-location/country/western-sahara/",
+      "https://diabetesatlas.org/data-by-location/country/dem-peoples-republic-of-korea/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -2650,16 +2706,23 @@
     "worker_B035": [],
     "worker_B036": [],
     "worker_B042": [],
-    "worker_B043": []
+    "worker_B043": [],
+    "worker_B044": [
+      {
+        "id": "ATLAS-RAW-B044-002",
+        "url": "https://diabetesatlas.org/data-by-location/country/comoros/",
+        "reason": "DIRECT_WEB_FETCH_REDIRECT_LOOP; SEARCH_INDEX_METADATA_AVAILABLE"
+      }
+    ]
   },
-  "next_batch_id": "B044",
-  "next_queue_position": "B044: pursue P1 untouched country-condition clinical guidance, population-health and pharmacogenetic source leads, prioritizing under-covered African/Asian/Pacific jurisdictions; dedup B001-B043. P0 Peru gout, Bangladesh celiac/lactose and Sri Lanka gout originals unresolved.",
+  "next_batch_id": "B045",
+  "next_queue_position": "B045: continue P1 untouched country-condition clinical and original population health research; avoid more URL-only profiles from the same IDF Atlas dataset without underlying independent primary studies. Dedup B001-B044. Unresolved P0 Peru gout, Bangladesh celiac/lactose, Sri Lanka gout; direct IDF Comoros profile fetch redirect loop.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B043",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B043_TEAM_B_20261110.json",
-    "parent_commit_sha": "6133e30b1686c932d8ec75bae3b3814d9a12ea17",
+    "batch_id": "B044",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B044_TEAM_B_20261110.json",
+    "parent_commit_sha": "efdd7d96f7708f764d7584b8ac49fee6e2563ae3",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Atomic batch and worker state commit; current worker branch HEAD is canonical SHA."
+    "note": "Atomic batch and Team B STATE.json commit; worker branch HEAD is canonical SHA."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
