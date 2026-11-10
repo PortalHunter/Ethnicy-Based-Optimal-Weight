@@ -282,13 +282,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A046_TEAM_A_20261110.json",
       "source_count": 39
+    },
+    {
+      "batch_id": "A047",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A047_TEAM_A_20261110.json",
+      "source_count": 34
     }
   ],
-  "completed_worker_batch_count": 45,
-  "completed_team_a_intake_batch_count": 46,
-  "worker_new_unique_url_leads": 1784,
-  "team_a_cumulative_unique_url_leads": 1829,
-  "last_completed_batch": "A046",
+  "completed_worker_batch_count": 46,
+  "completed_team_a_intake_batch_count": 47,
+  "worker_new_unique_url_leads": 1818,
+  "team_a_cumulative_unique_url_leads": 1863,
+  "last_completed_batch": "A047",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -354,14 +360,15 @@
     "M49:203|czech_2026_medical_services_public_health_ministry_statute_indexes",
     "M49:203|czech_food_safety_drinking_water_hygiene_eu_and_official_authority_sources",
     "M49:203|czech_nrc_drinking_water_public_health_guidance_and_historical_methods",
-    "M49:203|czech_recreational_bottled_well_water_and_contact_material_health_guidance"
+    "M49:203|czech_recreational_bottled_well_water_and_contact_material_health_guidance",
+    "M49:203|czech_szu_original_environmental_health_monitoring_air_report_series"
   ],
   "queue_position": {
     "last_selected_m49": [
       "203"
     ],
-    "next": "M49:203 Czechia continue official Czech health authority / food and water regulatory source leads; recover missing geographic queue",
-    "next_batch_id": "A047",
+    "next": "M49:203 Czechia prioritize remaining original official environmental health/noise/air/chemical health agency source indexes; recover missing geographic queue",
+    "next_batch_id": "A048",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -433,7 +440,8 @@
     "A043 Ministry of Health 2026 statutory crossreferences require direct original law review; newsletters are secondary indexes.",
     "A044 food/water instrument full texts and EU consolidation, enforceability, geographic scope uninspected; institutional guidance is source material not legislation.",
     "A045 SZÚ original downloadable guidance documents and 2005–2026 methodological versions not inspected; historical relevance/current force unverified.",
-    "A046 SZÚ original attached guidance, original legal texts and historical versions for recreational water, bottled water, contact materials and wells uninspected; one 2013 publication-index date conflicts with 2014 document title."
+    "A046 SZÚ original attached guidance, original legal texts and historical versions for recreational water, bottled water, contact materials and wells uninspected; one 2013 publication-index date conflicts with 2014 document title.",
+    "A047 annual official air- and environmental-health reports: 14 PDF retrievals failed from size limits/rate limits/timeouts; none reviewed for scientific conclusions; source publication dates need original-page retrieval."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -2264,7 +2272,41 @@
     "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/studny/postup-pri-sanaci-zatopene-studny/",
     "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/studny/vlastni-studna-vyhoda-i-riziko/",
     "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/studny/studna-jako-zdroj-pitne-vody/",
-    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/studny/zprava-o-kvalite-pitne-vody-ze-studni-individualniho-zasobovani-v-ceske-republice/"
+    "https://szu.gov.cz/temata-zdravi-a-bezpecnosti/zivotni-prostredi/kvalita-vody/studny/zprava-o-kvalite-pitne-vody-ze-studni-individualniho-zasobovani-v-ceske-republice/",
+    "https://szu.gov.cz/wp-content/uploads/2026/10/zprava_mzso_I_2025.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2025/10/zprava_mzso_I_2024.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2025/10/zprava_mzso_I_2023.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2024/09/mzso_ovzdusi_2022-1.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_21_2.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/zprava_2020_text.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/zprava_2019_text.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2018.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2017.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2016.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2015.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2014_zprava.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2013.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2012.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2011_zprava.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2010.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2009.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2008_zprava.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2007_zprava.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2006_zprava.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2005_zprava.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2004_zprava.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2003_zprava.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2002_zprava.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2001_zprava.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2000_zprava1.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2025/12/Vysledky_systemu_2024.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2024/11/Vysledky_systemu_-2023.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/11/Vysledky_Monitoringu_2022.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2022/12/Vysledky_systemu_2021.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2022/12/Vysledky_systemu_2020_2.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/03/Vysledky_systemu_2019.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/03/Vysledky_systemu_2018.pdf",
+    "https://szu.gov.cz/wp-content/uploads/2023/03/Vysledky_systemu_2017.pdf"
   ],
   "unresolved_retrievals": [
     {
@@ -6705,15 +6747,85 @@
       "source_id": "ATLAS-RAW-A044-017",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1143/oj",
       "reason": "AUTHORITY_REFERENCE_ONLY; ORIGINAL_REGULATION_NOT_INSPECTED"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-001",
+      "url": "https://szu.gov.cz/wp-content/uploads/2026/10/zprava_mzso_I_2025.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; PDF_TOO_LARGE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-002",
+      "url": "https://szu.gov.cz/wp-content/uploads/2025/10/zprava_mzso_I_2024.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; HTTP_429"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-003",
+      "url": "https://szu.gov.cz/wp-content/uploads/2025/10/zprava_mzso_I_2023.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; HTTP_429"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-014",
+      "url": "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2012.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; TIMEOUT"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-021",
+      "url": "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2005_zprava.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; HTTP_429"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-022",
+      "url": "https://szu.gov.cz/wp-content/uploads/2023/01/ovzdusi_2004_zprava.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; HTTP_429"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-027",
+      "url": "https://szu.gov.cz/wp-content/uploads/2025/12/Vysledky_systemu_2024.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; PDF_TOO_LARGE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-028",
+      "url": "https://szu.gov.cz/wp-content/uploads/2024/11/Vysledky_systemu_-2023.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; PDF_TOO_LARGE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-029",
+      "url": "https://szu.gov.cz/wp-content/uploads/2023/11/Vysledky_Monitoringu_2022.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; PDF_TOO_LARGE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-030",
+      "url": "https://szu.gov.cz/wp-content/uploads/2022/12/Vysledky_systemu_2021.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; PDF_TOO_LARGE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-031",
+      "url": "https://szu.gov.cz/wp-content/uploads/2022/12/Vysledky_systemu_2020_2.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; PDF_TOO_LARGE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-032",
+      "url": "https://szu.gov.cz/wp-content/uploads/2023/03/Vysledky_systemu_2019.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; PDF_TOO_LARGE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-033",
+      "url": "https://szu.gov.cz/wp-content/uploads/2023/03/Vysledky_systemu_2018.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; PDF_TOO_LARGE"
+    },
+    {
+      "source_id": "ATLAS-RAW-A047-034",
+      "url": "https://szu.gov.cz/wp-content/uploads/2023/03/Vysledky_systemu_2017.pdf",
+      "reason": "METADATA_ONLY; ORIGINAL_PDF_NOT_INSPECTED; PDF_TOO_LARGE"
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A046",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A046_TEAM_A_20261110.json",
+    "batch_id": "A047",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A047_TEAM_A_20261110.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "de3ea884df846480f3c4f263d870c8062b20b085",
+    "parent_commit_sha": "2a645360c1a1aeaea173035575d217c55ce3a477",
     "checkpoint_commit_sha_resolution": "Self-referential SHA impossible; verify branch HEAD after atomic update."
   },
-  "next_run_instruction": "Resume Team A A047 using latest committed worker state; M49:203 ongoing. Raw acquisition only.",
+  "next_run_instruction": "Resume Team A A048 at M49:203; priority SZÚ noise, exposure and air-health indexes, or recover geographic queue. Raw acquisition only.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
