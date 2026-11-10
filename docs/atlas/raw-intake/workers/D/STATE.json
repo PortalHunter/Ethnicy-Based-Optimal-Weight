@@ -313,10 +313,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D051_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D052",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D052_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 51,
-  "cumulative_unique_url_leads": 2018,
+  "completed_batch_count": 52,
+  "cumulative_unique_url_leads": 2058,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -2576,7 +2582,47 @@
     "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/knownBias.md",
     "https://github.com/spdx/spdx-3-model/blob/main/model/Dataset/Properties/sensor.md",
     "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/listVersionAdded.md",
-    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/member.md"
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/member.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/obsoletedBy.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/seeAlso.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/standardAdditionTemplate.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/standardLicenseHeader.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/standardLicenseTemplate.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/subjectAddition.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/subjectExtendableLicense.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/ExpandedLicensing/Properties/subjectLicense.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Extension/Properties/cdxPropName.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Extension/Properties/cdxPropValue.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Extension/Properties/cdxProperty.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/justificationType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/locator.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/modifiedTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/percentile.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/probability.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/publishedTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/score.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/severity.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/statusNotes.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/vectorString.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/vexVersion.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Security/Properties/withdrawnTime.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/SimpleLicensing/Properties/customIdToUri.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/SimpleLicensing/Properties/licenseExpression.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/SimpleLicensing/Properties/licenseListVersion.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/SimpleLicensing/Properties/licenseText.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/contentIdentifierType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/contentIdentifierValue.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/copyrightText.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/downloadLocation.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/fileKind.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/homePage.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/lineRange.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/packageUrl.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/packageVersion.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/primaryPurpose.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/sbomType.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/snippetFromFile.md",
+    "https://github.com/spdx/spdx-3-model/blob/main/model/Software/Properties/sourceInfo.md"
   ],
   "unresolved_retrievals": [
     {
@@ -3473,12 +3519,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D052: remaining untouched SPDX 3 ExpandedLicensing and Extension/Security/SimpleLicensing/Software properties, then DCAT 3 RDF and other directly enumerated standards examples; original WHO host gaps and Atlas-native run acceptance artifacts remain unresolved.",
-  "next_batch_id": "D052",
+  "next_queue_position": "D053: original SPDX 3 vocabularies/datatypes/individuals and remaining original W3C DCAT 3 RDF examples, then W3C PROV constraints and supplementary original standards examples. WHO current roster/office-host and Atlas Codespaces native acceptance artifact gaps still unresolved.",
+  "next_batch_id": "D053",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D051",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D051_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "1466e49da791510971fbebeae9179cebeeb30a7c",
+    "batch_id": "D052",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D052_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "799cbfc661c84f0f26545a1b4a591d74c89f439f",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
