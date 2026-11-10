@@ -175,10 +175,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D028_TEAM_D_20261109.json",
       "source_count": 41,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D029",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D029_TEAM_D_20261110.json",
+      "source_count": 41,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 28,
-  "cumulative_unique_url_leads": 1090,
+  "completed_batch_count": 29,
+  "cumulative_unique_url_leads": 1131,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -418,8 +424,8 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-ACCEPT-001",
-    "TD-BL-ACCEPT-002"
+    "TD-BL-ACCEPT-002",
+    "TD-BL-ACCEPT-001"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -1511,7 +1517,48 @@
     "https://www.rfc-editor.org/info/rfc8949/",
     "https://www.rfc-editor.org/info/rfc9334/",
     "https://www.rfc-editor.org/info/rfc9162/",
-    "https://www.rfc-editor.org/info/rfc9421/"
+    "https://www.rfc-editor.org/info/rfc9421/",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/about.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/assessing-build-platforms.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/assessing-source-systems.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/attestation-model.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/attested-build-env-levels.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/build-env-track-basics.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/build-provenance.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/build-requirements.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/build-track-basics.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/dependency-provenance.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/dependency-track.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/distributing-provenance.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/faq.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/future-directions.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/index.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/principles.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/provenance.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/requirements.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/source-example-controls.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/source-requirements.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/terminology.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/threats-overview.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/threats.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/tracks.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/use-cases.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/verification_summary.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/verified-properties.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/verifying-artifacts.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/verifying-source.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/verifying-systems.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/whats-new.md",
+    "https://github.com/slsa-framework/slsa/blob/main/spec/zonepage.md",
+    "https://github.com/ossf/scorecard/blob/main/docs/ROADMAP.md",
+    "https://github.com/ossf/scorecard/blob/main/docs/beginner-checks.md",
+    "https://github.com/ossf/scorecard/blob/main/docs/checks.md",
+    "https://github.com/ossf/scorecard/blob/main/docs/conformance.md",
+    "https://github.com/ossf/scorecard/blob/main/docs/faq.md",
+    "https://github.com/ossf/scorecard/blob/main/docs/mcp.md",
+    "https://github.com/ossf/scorecard/blob/main/docs/osps-baseline-coverage.md",
+    "https://github.com/ossf/scorecard/blob/main/docs/probes.md",
+    "https://github.com/ossf/scorecard/blob/main/docs/repositories.md"
   ],
   "unresolved_retrievals": [
     {
@@ -2408,12 +2455,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Continue unresolved April 2026 WHO office-host originals TD-BL-OFFICE-158/239 and actual native Codespaces run stdout/stderr with executed SHA TD-BL-ACCEPT-002, plus independent semantic graph/source-rights acceptance TD-BL-ACCEPT-001. Raw acquisition only; none of 236 original cases substantively closed.",
-  "next_batch_id": "D029",
+  "next_queue_position": "Continue TD-BL-ACCEPT-001/002 with official primary methods and evidence provenance specifications outside already indexed SLSA/Scorecard docs; original WHO April 2026 host exceptions TD-BL-OFFICE-158/239 and native Codespaces stdout/stderr executed SHA remain unresolved. No substantive closure.",
+  "next_batch_id": "D030",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D028",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D028_TEAM_D_20261109.json",
-    "previous_worker_head_sha": "e2750359ed3ccc6a87127db4ccb74432ca8397e2",
+    "batch_id": "D029",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D029_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "764e5ea15b56ecc0cb7980089ef3857045959e2d",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
