@@ -199,10 +199,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D032_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D033",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D033_TEAM_D_20261110.json",
+      "source_count": 43,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 32,
-  "cumulative_unique_url_leads": 1254,
+  "completed_batch_count": 33,
+  "cumulative_unique_url_leads": 1297,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -1699,7 +1705,50 @@
     "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/profile-resolution-unit-tests.xml",
     "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/requirement-tests.xspec",
     "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/resolution-testing.xml",
-    "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/spec-tests.json"
+    "https://github.com/usnistgov/OSCAL/blob/main/src/specifications/profile-resolution/spec-tests.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/BaseSubsetDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/CatalogDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/ColumnLineageDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/DataQualityAssertionsDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/DataQualityMetricsDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/DataQualityMetricsInputDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/DatasetTypeDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/DatasetVersionDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/DatasourceDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/DocumentationDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/DocumentationJobFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/EnvironmentVariablesRunFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/ErrorMessageRunFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/ExecutionParametersRunFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/ExternalQueryRunFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/ExternalQueryRunFacet.md",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/ExtractionErrorRunFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/HierarchyDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/InputStatisticsInputDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/JobDependenciesRunFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/JobTypeJobFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/LifecycleStateChangeDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/LineageFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/NominalTimeRunFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/OutputStatisticsOutputDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/OwnershipDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/OwnershipJobFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/ParentRunFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/ProcessingEngineRunFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/SQLJobFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/SchemaDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/SourceCodeJobFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/SourceCodeLocationJobFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/StorageDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/SymlinksDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/TagsDatasetFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/TagsJobFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/TagsRunFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/facets/TestRunFacet.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/Naming.md",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/OpenLineage.json",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/OpenLineage.md",
+    "https://github.com/OpenLineage/OpenLineage/blob/main/spec/Versioning.md"
   ],
   "unresolved_retrievals": [
     {
@@ -2596,12 +2645,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Resume from D033 for additional untouched primary provenance/security/method references if required; priority still original April 2026 WHO office-host/exception evidence TD-BL-OFFICE-158/239 and original Atlas Codespaces stdout/stderr with executed SHA TD-BL-ACCEPT-002 plus independent semantic/source-rights acceptance TD-BL-ACCEPT-001. Raw intake did not close any case.",
-  "next_batch_id": "D033",
+  "next_queue_position": "Continue D034 with untouched SPDX specification, license semantics and package identity references for TD-BL-ACCEPT-001/002; original WHO April 2026 hosting/exception and Atlas-native acceptance artifacts remain unresolved.",
+  "next_batch_id": "D034",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D032",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D032_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "6763db313bc0ef64222107901110da2fa4e70efc",
+    "batch_id": "D033",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D033_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "952c7ebe7a5e9a9afcf480f61bf51384b77f2a7a",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
