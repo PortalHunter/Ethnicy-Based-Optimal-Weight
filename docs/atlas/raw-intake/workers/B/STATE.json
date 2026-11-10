@@ -233,12 +233,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B037_TEAM_B_20261110.json",
       "source_count": 40,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B038",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B038_TEAM_B_20261110.json",
+      "source_count": 30,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 37,
-  "worker_owned_batch_count": 36,
-  "cumulative_team_source_leads": 1465,
-  "worker_owned_unique_url_leads": 1426,
+  "completed_batch_count": 38,
+  "worker_owned_batch_count": 37,
+  "cumulative_team_source_leads": 1495,
+  "worker_owned_unique_url_leads": 1456,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -827,7 +833,24 @@
     "M49:454|clinical_guidance",
     "M49:450|clinical_guidance",
     "M49:454|cardiometabolic_risk",
-    "M49:430|hypertension"
+    "M49:430|hypertension",
+    "M49:496|metabolic_syndrome",
+    "M49:398|cardiometabolic_risk",
+    "M49:398|high_chol",
+    "M49:768|hypertension",
+    "CROSS_REGION:MAGHREB|cardiometabolic_risk",
+    "M49:148|diabetes",
+    "M49:583|cardiometabolic_risk",
+    "CROSS_REGION:NAURU_INDIA|diabetes",
+    "CROSS_REGION:WEST_AFRICA_PNG|pharmacogenetics",
+    "CROSS_REGION:PACIFIC_ISLANDS|diabetes",
+    "M49:780|pharmacogenetics",
+    "CROSS_REGION:CENTRAL_AMERICA_CARIBBEAN|pharmacogenetics",
+    "M49:364|pharmacogenetics",
+    "M49:776|clinical_guidance",
+    "M49:776|diabetes",
+    "CROSS_REGION:CHINA_KAZAKH_UYGUR_HAN|pharmacogenetics",
+    "CROSS_REGION:TONGA_NZ|diabetes"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -845,7 +868,7 @@
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 1426,
+    "current_worker_batch_count": 1456,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -2272,7 +2295,37 @@
       "https://pubmed.ncbi.nlm.nih.gov/42882238/",
       "https://pubmed.ncbi.nlm.nih.gov/39711555/",
       "https://pubmed.ncbi.nlm.nih.gov/7977445/",
-      "https://pubmed.ncbi.nlm.nih.gov/40191565/"
+      "https://pubmed.ncbi.nlm.nih.gov/40191565/",
+      "https://pubmed.ncbi.nlm.nih.gov/34952288/",
+      "https://pubmed.ncbi.nlm.nih.gov/39441823/",
+      "https://pubmed.ncbi.nlm.nih.gov/39924530/",
+      "https://pubmed.ncbi.nlm.nih.gov/38420037/",
+      "https://pubmed.ncbi.nlm.nih.gov/25734753/",
+      "https://pubmed.ncbi.nlm.nih.gov/38531935/",
+      "https://pubmed.ncbi.nlm.nih.gov/36981866/",
+      "https://pubmed.ncbi.nlm.nih.gov/19617169/",
+      "https://pubmed.ncbi.nlm.nih.gov/33899179/",
+      "https://pubmed.ncbi.nlm.nih.gov/22368951/",
+      "https://pubmed.ncbi.nlm.nih.gov/39202067/",
+      "https://pubmed.ncbi.nlm.nih.gov/31043870/",
+      "https://pubmed.ncbi.nlm.nih.gov/6350082/",
+      "https://pubmed.ncbi.nlm.nih.gov/443194/",
+      "https://pubmed.ncbi.nlm.nih.gov/11096265/",
+      "https://pubmed.ncbi.nlm.nih.gov/23404778/",
+      "https://pubmed.ncbi.nlm.nih.gov/7895459/",
+      "https://pubmed.ncbi.nlm.nih.gov/16506047/",
+      "https://pubmed.ncbi.nlm.nih.gov/520118/",
+      "https://pubmed.ncbi.nlm.nih.gov/23394389/",
+      "https://pubmed.ncbi.nlm.nih.gov/38285330/",
+      "https://pubmed.ncbi.nlm.nih.gov/29327975/",
+      "https://pubmed.ncbi.nlm.nih.gov/27633613/",
+      "https://pubmed.ncbi.nlm.nih.gov/17201743/",
+      "https://pubmed.ncbi.nlm.nih.gov/34217248/",
+      "https://pubmed.ncbi.nlm.nih.gov/12145238/",
+      "https://pubmed.ncbi.nlm.nih.gov/29805850/",
+      "https://pubmed.ncbi.nlm.nih.gov/21542297/",
+      "https://pubmed.ncbi.nlm.nih.gov/42826334/",
+      "https://pubmed.ncbi.nlm.nih.gov/11422712/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -2333,14 +2386,14 @@
     "worker_B035": [],
     "worker_B036": []
   },
-  "next_batch_id": "B038",
-  "next_queue_position": "B038: untouched P1 cardiometabolic, dyslipidemia and pharmacogenetics cells in Africa, Central Asia and Pacific Islands; dedup B001–B037. P0 original-source issues still unresolved.",
+  "next_batch_id": "B039",
+  "next_queue_position": "B039: untouched P1 original clinical, metabolic and pharmacogenetic sources for African and island country-condition cells; dedup B001-B038. P0 Peru/Bangladesh/Sri Lanka originals unresolved.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B037",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B037_TEAM_B_20261110.json",
-    "parent_commit_sha": "881ba8daf863c73cc088997e24de73b1805809f5",
+    "batch_id": "B038",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B038_TEAM_B_20261110.json",
+    "parent_commit_sha": "f0a627124acd67a08558d80fcd3c72401325c595",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Atomic batch and worker-state commit; read team B branch HEAD to resolve new SHA."
+    "note": "Atomic batch and worker-state commit; read current worker branch HEAD for SHA."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
