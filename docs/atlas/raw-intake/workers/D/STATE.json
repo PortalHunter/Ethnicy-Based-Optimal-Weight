@@ -259,10 +259,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D042_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D043",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D043_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 42,
-  "cumulative_unique_url_leads": 1658,
+  "completed_batch_count": 43,
+  "cumulative_unique_url_leads": 1698,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -502,6 +508,7 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
+    "TD-BL-ACCEPT-002",
     "TD-BL-ACCEPT-001"
   ],
   "previously_collected_urls": [
@@ -2162,7 +2169,47 @@
     "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/domains/medicine.md",
     "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/domains/omics.md",
     "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/use_cases/datalake.md",
-    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/use_cases/datastewardship.md"
+    "https://github.com/ResearchObject/ro-crate/blob/main/docs/pages/use_cases/datastewardship.md",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.0.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.1.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.2-strict.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.2.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.2.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.3-strict.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.3.proto",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.3.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.3.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.4.proto",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.4.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.4.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/cryptography-defs.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/cryptography-defs.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/jsf-0.82.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/spdx.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/spdx.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/ext/bom-descriptor-0.9.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/ext/bom-descriptor-1.0.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/ext/dependency-graph-1.0.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/ext/vulnerability-1.0-SNAPSHOT.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/ext/vulnerability-1.0.xsd",
+    "https://github.com/sigstore/protobuf-specs/blob/main/protos/envelope.proto",
+    "https://github.com/sigstore/protobuf-specs/blob/main/protos/events.proto",
+    "https://github.com/sigstore/protobuf-specs/blob/main/protos/sigstore_bundle.proto",
+    "https://github.com/sigstore/protobuf-specs/blob/main/protos/sigstore_bundle_v2.proto",
+    "https://github.com/sigstore/protobuf-specs/blob/main/protos/sigstore_common.proto",
+    "https://github.com/sigstore/protobuf-specs/blob/main/protos/sigstore_monitor.proto",
+    "https://github.com/sigstore/protobuf-specs/blob/main/protos/sigstore_rekor.proto",
+    "https://github.com/sigstore/protobuf-specs/blob/main/protos/sigstore_trustroot.proto",
+    "https://github.com/sigstore/protobuf-specs/blob/main/protos/sigstore_verification.proto",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Agent.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Annotation.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Bom.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Bundle.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/ContactPointRelationship.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/DefinedProcess.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/DefinedType.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/DictionaryEntry.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Element.md"
   ],
   "unresolved_retrievals": [
     {
@@ -3044,7 +3091,28 @@
       "reason": "INDEPENDENT_ATLAS_SEMANTIC_GRAPH_AND_SOURCE_RIGHTS_ACCEPTANCE_NOT_RETRIEVED_OR_PERFORMED"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [],
+  "duplicate_urls_skipped_this_batch": [
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.5.proto",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.5.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.5.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.6.proto",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.6.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.6.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.7.proto",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.7.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.7.xsd",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Action.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Artifact.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/CreationInfo.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/ExternalIdentifier.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/ExternalRef.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Hash.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/IntegrityMethod.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/Relationship.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Classes/SpdxDocument.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Properties/comment.md",
+    "https://github.com/spdx/spdx-3-model/blob/develop/model/Core/Properties/completeness.md"
+  ],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -3059,12 +3127,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D043: original CycloneDX schemas for machine-readable attestation/SBOM validation, Sigstore attestation, and secure research artifact handling. Original April 2026 WHO host/exception documents and Atlas-native Codespaces execution evidence remain unresolved.",
-  "next_batch_id": "D043",
+  "next_queue_position": "D044: untouched W3C data quality / provenance method specs, SPDX 3 model semantics, and open original research artefact methodology. April 2026 WHO office host/exception statements and native Codespaces execution proof remain unresolved.",
+  "next_batch_id": "D044",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D042",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D042_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "9f11d8ffd0712f9b007cb5aa35019bb20e9621be",
+    "batch_id": "D043",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D043_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "fa927131436f380658c1f722fc8378a777e9e907",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
