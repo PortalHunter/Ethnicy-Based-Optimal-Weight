@@ -217,10 +217,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D035_TEAM_D_20261110.json",
       "source_count": 45,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D036",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D036_TEAM_D_20261110.json",
+      "source_count": 38,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 35,
-  "cumulative_unique_url_leads": 1384,
+  "completed_batch_count": 36,
+  "cumulative_unique_url_leads": 1422,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -460,8 +466,8 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-ACCEPT-001",
-    "TD-BL-ACCEPT-002"
+    "TD-BL-ACCEPT-002",
+    "TD-BL-ACCEPT-001"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -1847,7 +1853,45 @@
     "https://github.com/w3c/vc-data-model/blob/main/explainer.md",
     "https://github.com/w3c/vc-data-model/blob/main/index.html",
     "https://github.com/w3c/vc-data-model/blob/main/privacy.html",
-    "https://github.com/w3c/vc-data-model/blob/main/terms.html"
+    "https://github.com/w3c/vc-data-model/blob/main/terms.html",
+    "https://github.com/opencontainers/image-spec/blob/main/HACKING.md",
+    "https://github.com/opencontainers/image-spec/blob/main/README.md",
+    "https://github.com/opencontainers/image-spec/blob/main/RELEASES.md",
+    "https://github.com/opencontainers/image-spec/blob/main/annotations.md",
+    "https://github.com/opencontainers/image-spec/blob/main/artifacts-guidance.md",
+    "https://github.com/opencontainers/image-spec/blob/main/config.md",
+    "https://github.com/opencontainers/image-spec/blob/main/considerations.md",
+    "https://github.com/opencontainers/image-spec/blob/main/conversion.md",
+    "https://github.com/opencontainers/image-spec/blob/main/descriptor.md",
+    "https://github.com/opencontainers/image-spec/blob/main/image-index.md",
+    "https://github.com/opencontainers/image-spec/blob/main/image-layout.md",
+    "https://github.com/opencontainers/image-spec/blob/main/implementations.md",
+    "https://github.com/opencontainers/image-spec/blob/main/layer.md",
+    "https://github.com/opencontainers/image-spec/blob/main/manifest.md",
+    "https://github.com/opencontainers/image-spec/blob/main/media-types.md",
+    "https://github.com/opencontainers/image-spec/blob/main/spec.md",
+    "https://github.com/opencontainers/image-spec/blob/main/schema/config-schema.json",
+    "https://github.com/opencontainers/image-spec/blob/main/schema/content-descriptor.json",
+    "https://github.com/opencontainers/image-spec/blob/main/schema/defs-descriptor.json",
+    "https://github.com/opencontainers/image-spec/blob/main/schema/defs.json",
+    "https://github.com/opencontainers/image-spec/blob/main/schema/image-index-schema.json",
+    "https://github.com/opencontainers/image-spec/blob/main/schema/image-layout-schema.json",
+    "https://github.com/opencontainers/image-spec/blob/main/schema/image-manifest-schema.json",
+    "https://github.com/w3c/odrl/blob/master/ai-vocab/ai-vocab.ttl",
+    "https://github.com/w3c/odrl/blob/master/ai-vocab/index.html",
+    "https://github.com/w3c/odrl/blob/master/core-profile/odrl-core-profile-22.ttl",
+    "https://github.com/w3c/odrl/blob/master/core-profile/odrl-profile-template.ttl",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/DistributionExample.ttl",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/README.md",
+    "https://github.com/w3c/odrl/blob/master/formal-semantics/index.html",
+    "https://github.com/w3c/odrl/blob/master/profile-bp/index.html",
+    "https://github.com/w3c/odrl/blob/master/profile-dataspaces/index.html",
+    "https://github.com/w3c/odrl/blob/master/profile-temporal/index.html",
+    "https://github.com/w3c/dxwg/blob/gh-pages/dcat/index.html",
+    "https://github.com/w3c/dxwg/blob/gh-pages/profiles/index.html",
+    "https://github.com/w3c/vc-data-model/blob/main/threat-model/index.html",
+    "https://github.com/w3c/json-ld-syntax/blob/main/index.html",
+    "https://github.com/w3c/shacl/blob/main/shacl-af/index.html"
   ],
   "unresolved_retrievals": [
     {
@@ -2744,12 +2788,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Resume at D036, prioritizing untouched W3C ODRL/DCAT, OCI image artifact provenance, source rights and controlled technical methodology leads. Original WHO April 2026 exception source and Atlas-native executed logs, SHA and acceptance remain unresolved.",
-  "next_batch_id": "D036",
+  "next_queue_position": "At D037 continue only genuinely untouched Team D standards/acceptance method sources, or prioritize original WHO April 2026 office hosting/exception target documents and Atlas-native Codespaces stdout/stderr, executed SHA and independent semantic/source-rights acceptance artifacts. None of these outstanding original evidence gaps was resolved by technical standard intake.",
+  "next_batch_id": "D037",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D035",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D035_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "7fbadf0049c82aeb76d9cf81e00b17927fc8e41f",
+    "batch_id": "D036",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D036_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "5ba381c8158660644b30c46221b1f2bc8d55ba8a",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
