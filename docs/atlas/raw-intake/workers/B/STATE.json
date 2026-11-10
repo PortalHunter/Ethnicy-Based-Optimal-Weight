@@ -287,12 +287,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B046_TEAM_B_20261110.json",
       "source_count": 31,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B047",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B047_TEAM_B_20261110.json",
+      "source_count": 34,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 46,
-  "worker_owned_batch_count": 45,
-  "cumulative_team_source_leads": 1747,
-  "worker_owned_unique_url_leads": 1708,
+  "completed_batch_count": 47,
+  "worker_owned_batch_count": 46,
+  "cumulative_team_source_leads": 1781,
+  "worker_owned_unique_url_leads": 1742,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -1015,7 +1021,25 @@
     "CROSS_REGION:NEAR_OCEANIA|genomics",
     "M49:882|genomics",
     "M49:554|pharmacogenetics",
-    "CROSS_REGION:CHINA_JAPAN_EUROPE|pharmacokinetics"
+    "CROSS_REGION:CHINA_JAPAN_EUROPE|pharmacokinetics",
+    "M49:854|clinical_guidance",
+    "CROSS_REGION:SOUTHEAST_ASIA|cardiometabolic_risk",
+    "CROSS_REGION:ASIA_PACIFIC|cardiometabolic_risk",
+    "CROSS_REGION:ASEAN|cardiometabolic_risk",
+    "M49:686|cardiometabolic_risk",
+    "M49:466|cardiometabolic_risk",
+    "CROSS_REGION:WEST_AFRICA|cardiometabolic_risk",
+    "M49:598|clinical_guidance",
+    "M49:064|cardiometabolic_risk",
+    "M49:626|clinical_guidance",
+    "M49:296|cardiometabolic_risk",
+    "M49:392|dyslipidemia",
+    "M49:840|cardiometabolic_risk",
+    "CROSS_REGION:CENTRAL_ASIA|cardiometabolic_risk",
+    "M49:268|cardiometabolic_risk",
+    "CROSS_REGION:US_REFUGEES|cardiometabolic_risk",
+    "M49:706|clinical_guidance",
+    "M49:076|diabetes"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -1029,11 +1053,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "P1 follow up country-condition original studies and clinical sources in African, Asian and Pacific target geographies, avoiding duplicates in studies, shared cohorts and data sources. P0 Peru gout, Bangladesh celiac/lactose, Sri Lanka gout retrieval issues remain; B044 IDF Comoros direct fetch unresolved. No substantive evidence validation performed."
+    "P1_next": "P1 untouched gaps in clinical guidance, diabetes, hypertension, dyslipidemia, pharmacogenetics and population metabolic risk; continue from B048 excluding URLs already in state. Substantive queue backlog not decremented by raw intake."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 1708,
+    "current_worker_batch_count": 1742,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -2742,7 +2766,41 @@
       "https://pubmed.ncbi.nlm.nih.gov/40982661/",
       "https://pubmed.ncbi.nlm.nih.gov/41932844/",
       "https://pubmed.ncbi.nlm.nih.gov/42905102/",
-      "https://pubmed.ncbi.nlm.nih.gov/40903183/"
+      "https://pubmed.ncbi.nlm.nih.gov/40903183/",
+      "https://pubmed.ncbi.nlm.nih.gov/42010350/",
+      "https://pubmed.ncbi.nlm.nih.gov/41240946/",
+      "https://pubmed.ncbi.nlm.nih.gov/42679829/",
+      "https://pubmed.ncbi.nlm.nih.gov/41647680/",
+      "https://pubmed.ncbi.nlm.nih.gov/40441814/",
+      "https://pubmed.ncbi.nlm.nih.gov/40659395/",
+      "https://pubmed.ncbi.nlm.nih.gov/42750850/",
+      "https://pubmed.ncbi.nlm.nih.gov/39584614/",
+      "https://pubmed.ncbi.nlm.nih.gov/42393986/",
+      "https://pubmed.ncbi.nlm.nih.gov/42119006/",
+      "https://pubmed.ncbi.nlm.nih.gov/41736817/",
+      "https://pubmed.ncbi.nlm.nih.gov/41963799/",
+      "https://pubmed.ncbi.nlm.nih.gov/42989189/",
+      "https://pubmed.ncbi.nlm.nih.gov/42156268/",
+      "https://pubmed.ncbi.nlm.nih.gov/40225344/",
+      "https://pubmed.ncbi.nlm.nih.gov/39916706/",
+      "https://pubmed.ncbi.nlm.nih.gov/39836696/",
+      "https://pubmed.ncbi.nlm.nih.gov/31718705/",
+      "https://pubmed.ncbi.nlm.nih.gov/41672494/",
+      "https://pubmed.ncbi.nlm.nih.gov/42889095/",
+      "https://pubmed.ncbi.nlm.nih.gov/42000522/",
+      "https://pubmed.ncbi.nlm.nih.gov/42553592/",
+      "https://pubmed.ncbi.nlm.nih.gov/42831201/",
+      "https://pubmed.ncbi.nlm.nih.gov/41562687/",
+      "https://pubmed.ncbi.nlm.nih.gov/42830054/",
+      "https://pubmed.ncbi.nlm.nih.gov/42921476/",
+      "https://pubmed.ncbi.nlm.nih.gov/42040970/",
+      "https://pubmed.ncbi.nlm.nih.gov/42107950/",
+      "https://pubmed.ncbi.nlm.nih.gov/42071230/",
+      "https://pubmed.ncbi.nlm.nih.gov/41739787/",
+      "https://pubmed.ncbi.nlm.nih.gov/40045234/",
+      "https://pubmed.ncbi.nlm.nih.gov/42909260/",
+      "https://pubmed.ncbi.nlm.nih.gov/41948033/",
+      "https://pubmed.ncbi.nlm.nih.gov/41286545/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -2752,7 +2810,8 @@
     "worker_B008_count": 40,
     "worker_B009_count": 40,
     "worker_B010_count": 40,
-    "worker_B011_count": 40
+    "worker_B011_count": 40,
+    "worker_B047_count": 34
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -2812,16 +2871,17 @@
       }
     ],
     "worker_B045": [],
-    "worker_B046": []
+    "worker_B046": [],
+    "worker_B047": []
   },
-  "next_batch_id": "B047",
-  "next_queue_position": "B047: P1 high-yield independent original epidemiology, pharmacogenetic, clinical guidance and country-condition source leads in less-covered African, Asian and Pacific jurisdictions; deduplicate all B001-B046. P0 Peru gout, Bangladesh celiac/lactose and Sri Lanka gout originals unresolved. B044 IDF Comoros page direct-fetch redirect issue remains.",
+  "next_batch_id": "B048",
+  "next_queue_position": "B048: continue P1 original population-specific diabetes, hypertension, dyslipidemia, gout and pharmacogenetics leads across less-covered Asia-Pacific and African jurisdictions; deduplicate worker B001-B047. P0 Bangladesh celiac/lactose, Sri Lanka gout, Peru gout originals still unresolved; IDF Comoros redirect unresolved.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B046",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B046_TEAM_B_20261110.json",
-    "parent_commit_sha": "4cd056a352ee0f94acae6d3bc5472f178fb1e12d",
+    "batch_id": "B047",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B047_TEAM_B_20261110.json",
+    "parent_commit_sha": "cda58ce49cacff6ebffc30967c147c907d20ad60",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Atomic batch/state commit; present worker branch HEAD is canonical SHA."
+    "note": "Atomic batch/state commit; verify the worker branch HEAD for canonical commit SHA."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
