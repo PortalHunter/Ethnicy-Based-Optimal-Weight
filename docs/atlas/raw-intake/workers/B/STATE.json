@@ -203,12 +203,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B032_TEAM_B_20261110.json",
       "source_count": 31,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B033",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B033_TEAM_B_20261110.json",
+      "source_count": 33,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 32,
-  "worker_owned_batch_count": 31,
-  "cumulative_team_source_leads": 1295,
-  "worker_owned_unique_url_leads": 1256,
+  "completed_batch_count": 33,
+  "worker_owned_batch_count": 32,
+  "cumulative_team_source_leads": 1328,
+  "worker_owned_unique_url_leads": 1289,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -721,7 +727,15 @@
     "M49:232|dyslipidemia",
     "CROSS_REGION:SWITZERLAND_ERITREAN_REFUGEES|cardiometabolic_risk",
     "M49:232|diabetes_hypertension",
-    "CROSS_REGION:NETHERLANDS_SURINAMESE_DIASPORA|diabetes"
+    "CROSS_REGION:NETHERLANDS_SURINAMESE_DIASPORA|diabetes",
+    "M49:729|pharmacogenetics",
+    "M49:231|pharmacogenetics",
+    "CROSS_REGION:ETHIOPIA_SWEDEN|pharmacogenetics",
+    "M49:072|pharmacogenetics",
+    "M49:508|pharmacogenetics",
+    "CROSS_REGION:UGANDA_ZAMBIA|pharmacogenetics",
+    "M49:516|pharmacogenetics",
+    "M49:520|cardiometabolic_risk"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -739,7 +753,7 @@
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 1256,
+    "current_worker_batch_count": 1289,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -1996,7 +2010,40 @@
       "https://pubmed.ncbi.nlm.nih.gov/31639048/",
       "https://pubmed.ncbi.nlm.nih.gov/34262310/",
       "https://pubmed.ncbi.nlm.nih.gov/18673544/",
-      "https://pubmed.ncbi.nlm.nih.gov/3974769/"
+      "https://pubmed.ncbi.nlm.nih.gov/3974769/",
+      "https://pubmed.ncbi.nlm.nih.gov/8911874/",
+      "https://pubmed.ncbi.nlm.nih.gov/8971426/",
+      "https://pubmed.ncbi.nlm.nih.gov/42703538/",
+      "https://pubmed.ncbi.nlm.nih.gov/9014201/",
+      "https://pubmed.ncbi.nlm.nih.gov/20597905/",
+      "https://pubmed.ncbi.nlm.nih.gov/37248824/",
+      "https://pubmed.ncbi.nlm.nih.gov/21590310/",
+      "https://pubmed.ncbi.nlm.nih.gov/12142727/",
+      "https://pubmed.ncbi.nlm.nih.gov/38974617/",
+      "https://pubmed.ncbi.nlm.nih.gov/31453771/",
+      "https://pubmed.ncbi.nlm.nih.gov/42834044/",
+      "https://pubmed.ncbi.nlm.nih.gov/27938396/",
+      "https://pubmed.ncbi.nlm.nih.gov/40268903/",
+      "https://pubmed.ncbi.nlm.nih.gov/42946281/",
+      "https://pubmed.ncbi.nlm.nih.gov/28673292/",
+      "https://pubmed.ncbi.nlm.nih.gov/24497997/",
+      "https://pubmed.ncbi.nlm.nih.gov/29559695/",
+      "https://pubmed.ncbi.nlm.nih.gov/20017669/",
+      "https://pubmed.ncbi.nlm.nih.gov/29855606/",
+      "https://pubmed.ncbi.nlm.nih.gov/33758532/",
+      "https://pubmed.ncbi.nlm.nih.gov/24043992/",
+      "https://pubmed.ncbi.nlm.nih.gov/28692529/",
+      "https://pubmed.ncbi.nlm.nih.gov/35512066/",
+      "https://pubmed.ncbi.nlm.nih.gov/17361129/",
+      "https://pubmed.ncbi.nlm.nih.gov/26991336/",
+      "https://pubmed.ncbi.nlm.nih.gov/23774940/",
+      "https://pubmed.ncbi.nlm.nih.gov/41775468/",
+      "https://pubmed.ncbi.nlm.nih.gov/42504089/",
+      "https://www.who.int/publications/m/item/2025-steps-country-report-nauru",
+      "https://www.who.int/publications/m/item/2025-steps-fact-sheet-nauru",
+      "https://www.who.int/publications/m/item/2015-steps-country-report-nauru",
+      "https://www.who.int/publications/m/item/2004-steps-country-report-nauru",
+      "https://www.who.int/publications/m/item/2004-steps-fact-sheet-nauru"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -2051,16 +2098,17 @@
     "worker_B025": [],
     "worker_B026": [],
     "worker_B027": [],
-    "worker_B032": []
+    "worker_B032": [],
+    "worker_B033": []
   },
-  "next_batch_id": "B033",
-  "next_queue_position": "B033: continue untouched P1 pharmacogenetics and cardiometabolic population source leads, prioritizing underrepresented African and island M49 cells; P0 Peru gout/Bangladesh celiac-lactose/Sri Lanka gout originals remain unresolved. Dedup B001–B032 URL ledger.",
+  "next_batch_id": "B034",
+  "next_queue_position": "B034: continue P1 medical research source leads with untouched African and island diabetes, hypertension, dyslipidemia, pharmacogenetics cells; dedup B001–B033 URLs. P0 original-source targets Peru gout, Bangladesh celiac/lactose, Sri Lanka gout remain open.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B032",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B032_TEAM_B_20261110.json",
-    "parent_commit_sha": "597d6818943bc0e23067b7fe0f56e55d45073b06",
+    "batch_id": "B033",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B033_TEAM_B_20261110.json",
+    "parent_commit_sha": "080e8af1d9f2691be5c310f1725c108efbb6e929",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Single atomic Git tree commit for batch and worker state; resolve SHA from Team B branch HEAD."
+    "note": "Atomic worker batch and state tree commit; resolve SHA from Team B branch HEAD."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
