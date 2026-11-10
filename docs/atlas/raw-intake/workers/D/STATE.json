@@ -343,10 +343,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D056_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D057",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D057_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 56,
-  "cumulative_unique_url_leads": 2218,
+  "completed_batch_count": 57,
+  "cumulative_unique_url_leads": 2258,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -2806,7 +2812,47 @@
     "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-f3-FAIL-c23.ttl",
     "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-f4-FAIL-c23.provn",
     "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-f4-FAIL-c23.provx",
-    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-f5-FAIL-c23.provn"
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-f5-FAIL-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-f5-FAIL-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-f6-FAIL-DM.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-f6-FAIL-DM.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-f6-FAIL-DM.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s1-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s1-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s1-PASS-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s2-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s2-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s2-PASS-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s3-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s3-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s4-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s4-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s4-PASS-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s5-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s5-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-association-s5-PASS-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-activity-s1-PASS-c22.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-activity-s1-PASS-c22.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-activity-s1-PASS-c22.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-end-s1-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-end-s1-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-end-s1-PASS-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-end-s2-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-end-s2-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-entity-s1-PASS-c22.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-entity-s1-PASS-c22.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-entity-s1-PASS-c22.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-start-s1-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-start-s1-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-start-s1-PASS-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-start-s2-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-start-s2-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attributes-start-s2-PASS-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attribution-f1-FAIL-DM.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attribution-f1-FAIL-DM.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attribution-f1-FAIL-DM.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attribution-f2-FAIL-DM.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-attribution-f2-FAIL-DM.provx"
   ],
   "unresolved_retrievals": [
     {
@@ -3703,12 +3749,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D057: W3C PROV constraints untouched fixtures (334 currently available), then untapped PROV-DM and PROV-O original fixtures and SPDX definitions; original WHO and Atlas native artifact gaps remain unresolved.",
-  "next_batch_id": "D057",
+  "next_queue_position": "D058: W3C PROV constraints uncollected original fixture files (294), then untouched PROV-DM/PROV-O fixtures, SPDX 3 vocabularies and W3C linked-data examples. WHO 2026 host and Atlas native acceptance artifacts still unresolved.",
+  "next_batch_id": "D058",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D056",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D056_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "f9121e3ab2753b3b92a2f09ed48e6e414b018018",
+    "batch_id": "D057",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D057_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "56b4db9dae0490b461c9d8b2b54c8dee6bf19be9",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
