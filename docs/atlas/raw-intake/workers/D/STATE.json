@@ -331,10 +331,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D054_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D055",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D055_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 54,
-  "cumulative_unique_url_leads": 2138,
+  "completed_batch_count": 55,
+  "cumulative_unique_url_leads": 2178,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -2714,7 +2720,47 @@
     "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-derivation3-PASS-c41-c42.provn",
     "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-derivation3-PASS-c41-c42.provx",
     "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-derivation3-PASS-c41-c42.ttl",
-    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-ends1-PASS-c44.provn"
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-ends1-PASS-c44.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-ends1-PASS-c44.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-entity1-PASS-c36-c37-c38.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-entity1-PASS-c36-c37-c38.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-entity1-PASS-c36-c37-c38.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-entity2-PASS-c36.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-entity2-PASS-c36.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-entity3-PASS-c39.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-entity3-PASS-c39.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-entity3-PASS-c39.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-entity4-PASS-c40.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-entity4-PASS-c40.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-entity4-PASS-c40.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-specialization1-PASS-c45.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-specialization1-PASS-c45.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-specialization2-PASS-c46.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-specialization2-PASS-c46.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-specialization2-PASS-c46.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-specialization3-PASS-c42-c45.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-specialization3-PASS-c42-c45.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-specialization4-FAIL-c42-c45.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-specialization4-FAIL-c42-c45.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-specialization4-FAIL-c42-c45.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-starts1-PASS-c43.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-starts1-PASS-c43.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/ordering-starts1-PASS-c43.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/prov-o-property-hadGeneration-FAIL-c51-DM.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/prov-o-property-hadGeneration-FAIL-c51-DM.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/prov-o-property-hadGeneration-FAIL-c51-DM.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/prov-o-property-hadUsage-FAIL-c51-DM.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/prov-o-property-hadUsage-FAIL-c51-DM.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/prov-o-property-hadUsage-FAIL-c51-DM.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/type-collection-FAIL-c56.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/type-collection-FAIL-c56.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/type-f1-FAIL-c50-c55.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/type-f1-FAIL-c50-c55.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/type-f2-FAIL-c50-c55.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/type-f2-FAIL-c50-c55.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/type-f3-FAIL-c54.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/type-f3-FAIL-c54.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/type-f3-FAIL-c54.ttl"
   ],
   "unresolved_retrievals": [
     {
@@ -3611,12 +3657,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D055: next untouched source fixture entries from W3C PROV testcases/constraints; separately untouched SPDX vocabularies, datatypes and individuals and DCAT serialization example. Host roster and Atlas-native acceptance artifacts still unresolved.",
-  "next_batch_id": "D055",
+  "next_queue_position": "D056: W3C PROV constraints untouched fixtures (374 currently available), then untapped PROV-DM and PROV-O original fixtures and SPDX definitions; original WHO and Atlas native artifact gaps remain unresolved.",
+  "next_batch_id": "D056",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D054",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D054_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "38c1dfe414f44bf90d46dbfc3978e1bf645d0d71",
+    "batch_id": "D055",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D055_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "b92e0a549b2a095fea51cbc9271be5f99959e9a4",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
