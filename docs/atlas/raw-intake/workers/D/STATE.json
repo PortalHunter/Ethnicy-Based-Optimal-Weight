@@ -187,10 +187,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D030_TEAM_D_20261110.json",
       "source_count": 42,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D031",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D031_TEAM_D_20261110.json",
+      "source_count": 41,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 30,
-  "cumulative_unique_url_leads": 1173,
+  "completed_batch_count": 31,
+  "cumulative_unique_url_leads": 1214,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -430,8 +436,8 @@
     "TD-BL-ACCEPT-002"
   ],
   "processed_in_current_batch": [
-    "TD-BL-ACCEPT-002",
-    "TD-BL-ACCEPT-001"
+    "TD-BL-ACCEPT-001",
+    "TD-BL-ACCEPT-002"
   ],
   "previously_collected_urls": [
     "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441",
@@ -1606,7 +1612,48 @@
     "https://github.com/sigstore/cosign/blob/main/doc/cosign_verify-attestation.md",
     "https://github.com/sigstore/cosign/blob/main/doc/cosign_verify-blob-attestation.md",
     "https://github.com/sigstore/cosign/blob/main/doc/cosign_verify-blob.md",
-    "https://github.com/sigstore/cosign/blob/main/doc/cosign_verify.md"
+    "https://github.com/sigstore/cosign/blob/main/doc/cosign_verify.md",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_assessment-common_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_assessment-plan_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_assessment-results_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_catalog_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_complete_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_component_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_control-common_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_implementation-common_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_mapping-common_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_mapping_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_metadata_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_poam_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_profile_metaschema.xml",
+    "https://github.com/usnistgov/OSCAL/blob/main/src/metaschema/oscal_ssp_metaschema.xml",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.5.proto",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.5.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.5.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.6.proto",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.6.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.6.xsd",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.7.proto",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.7.schema.json",
+    "https://github.com/CycloneDX/specification/blob/master/schema/bom-1.7.xsd",
+    "https://github.com/github/docs/blob/main/content/actions/reference/workflows-and-actions/contexts.md",
+    "https://github.com/github/docs/blob/main/content/actions/reference/workflows-and-actions/dependency-caching.md",
+    "https://github.com/github/docs/blob/main/content/actions/reference/workflows-and-actions/deployments-and-environments.md",
+    "https://github.com/github/docs/blob/main/content/actions/reference/workflows-and-actions/events-that-trigger-workflows.md",
+    "https://github.com/github/docs/blob/main/content/actions/reference/workflows-and-actions/expressions.md",
+    "https://github.com/github/docs/blob/main/content/actions/reference/workflows-and-actions/metadata-syntax.md",
+    "https://github.com/github/docs/blob/main/content/actions/reference/workflows-and-actions/reusing-workflow-configurations.md",
+    "https://github.com/github/docs/blob/main/content/actions/reference/workflows-and-actions/variables.md",
+    "https://github.com/github/docs/blob/main/content/actions/reference/workflows-and-actions/workflow-cancellation.md",
+    "https://github.com/github/docs/blob/main/content/actions/reference/workflows-and-actions/workflow-commands.md",
+    "https://github.com/github/docs/blob/main/content/actions/reference/workflows-and-actions/workflow-syntax.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/CONTRIBUTING.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/api.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/configuration.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/exclude-patterns.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/layout-creation-example.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/model.md",
+    "https://github.com/in-toto/in-toto/blob/develop/doc/source/settings.md"
   ],
   "unresolved_retrievals": [
     {
@@ -2488,7 +2535,10 @@
       "reason": "INDEPENDENT_ATLAS_SEMANTIC_GRAPH_AND_SOURCE_RIGHTS_ACCEPTANCE_NOT_RETRIEVED_OR_PERFORMED"
     }
   ],
-  "duplicate_urls_skipped_this_batch": [],
+  "duplicate_urls_skipped_this_batch": [
+    "https://data.who.int/dashboards/country-presence/country-office/office-profile-survey-reporting-year/",
+    "https://data.who.int/dashboards/country-presence/country-office"
+  ],
   "remaining_targets": {
     "original_team_d_backlog_cases": 236,
     "substantive_cases_closed_by_raw_intake": 0,
@@ -2503,12 +2553,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "Seek remaining upstream official source-rights/provenance acceptance and reproducibility test standards; original WHO office-host TD-BL-OFFICE-158/239 and actual Atlas native Codespaces run artifacts remain unresolved. No substantive closure.",
-  "next_batch_id": "D031",
+  "next_queue_position": "Continue primary methods/source-rights and reproducibility intake across untouched official upstream technical standards; WHO April 2026 reporting-year link found but target not accessible, exact TD-BL-OFFICE-158/239 hosting exceptions unresolved; Atlas-native Codespaces stdout/stderr and executed SHA not retrieved. No original case closure.",
+  "next_batch_id": "D032",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D030",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D030_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "f570c0d47c103eba50f29a39cfb11f8fc1696728",
+    "batch_id": "D031",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D031_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "ff8e7ba02adb911f462173f34d1aac64bc2e7830",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
