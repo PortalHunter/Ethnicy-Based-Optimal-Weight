@@ -373,10 +373,16 @@
       "path": "docs/atlas/raw-intake/workers/D/batches/D061_TEAM_D_20261110.json",
       "source_count": 40,
       "origin": "THIS_WORKER"
+    },
+    {
+      "batch_id": "D062",
+      "path": "docs/atlas/raw-intake/workers/D/batches/D062_TEAM_D_20261110.json",
+      "source_count": 40,
+      "origin": "THIS_WORKER"
     }
   ],
-  "completed_batch_count": 61,
-  "cumulative_unique_url_leads": 2418,
+  "completed_batch_count": 62,
+  "cumulative_unique_url_leads": 2458,
   "processed_queue_items": [
     "TD-BL-NCA-001",
     "TD-BL-NCA-002",
@@ -3036,7 +3042,47 @@
     "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f1-FAIL-c25.provn",
     "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f1-FAIL-c25.provx",
     "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f1-FAIL-c25.ttl",
-    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f2-FAIL-c23.provn"
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f2-FAIL-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f2-FAIL-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f2-FAIL-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f3-FAIL-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f3-FAIL-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f4-FAIL-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f4-FAIL-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f4-FAIL-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f5-FAIL-c23-c25.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f5-FAIL-c23-c25.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f5-FAIL-c23-c25.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f6-FAIL-c23-c25.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f6-FAIL-c23-c25.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f6-FAIL-c23-c25.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f7-FAIL-c23-c25.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f7-FAIL-c23-c25.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-f7-FAIL-c23-c25.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s1-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s1-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s2-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s2-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s2-PASS-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s3-PASS-c25.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s3-PASS-c25.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s3-PASS-c25.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s5-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s5-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s5-PASS-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s6-PASS-c23.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s6-PASS-c23.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s6-PASS-c23.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s7-PASS-c23-c25.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s7-PASS-c23-c25.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s8-PASS-c23-c25.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s8-PASS-c23-c25.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-invalidation-s8-PASS-c23-c25.ttl",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-membership-f1-FAIL-DM.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-membership-f1-FAIL-DM.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-specialization-f1-FAIL-DM.provn",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-specialization-f1-FAIL-DM.provx",
+    "https://github.com/w3c/prov/blob/main/testcases/constraints/unification-specialization-f2-FAIL-DM.provn"
   ],
   "unresolved_retrievals": [
     {
@@ -3933,12 +3979,12 @@
       "TD-BL-OFFICE-239"
     ]
   },
-  "next_queue_position": "D062: W3C PROV constraints remaining untouched fixtures (134); other uncollected PROV-O/PROV-DM fixtures and SPDX model vocabulary definitions. WHO primary host exception roster and original Atlas Codespaces acceptance artifacts unresolved.",
-  "next_batch_id": "D062",
+  "next_queue_position": "D063: W3C PROV constraints remaining untouched fixtures (94); other uncollected PROV-O/PROV-DM fixtures and SPDX model vocabulary definitions. WHO primary host exception roster and original Atlas Codespaces acceptance artifacts unresolved.",
+  "next_batch_id": "D063",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "D061",
-    "path": "docs/atlas/raw-intake/workers/D/batches/D061_TEAM_D_20261110.json",
-    "previous_worker_head_sha": "8d35bd6d8786922876ffe0e19b9b19f848c2efd9",
+    "batch_id": "D062",
+    "path": "docs/atlas/raw-intake/workers/D/batches/D062_TEAM_D_20261110.json",
+    "previous_worker_head_sha": "f14c1e10abc72267253005c3413d4dd798749c24",
     "committed_sha": "READ_LIVE_GITHUB_BRANCH_HEAD_THIS_STATE_CANNOT_SELF_REFERENCE_SHA"
   },
   "safeguards": "No central/shared/other worker/team/main/harness changes. No licensed full texts or personal medical/genetic data."
