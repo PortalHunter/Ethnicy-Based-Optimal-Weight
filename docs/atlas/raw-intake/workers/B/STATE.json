@@ -281,12 +281,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B045_TEAM_B_20261110.json",
       "source_count": 30,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B046",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B046_TEAM_B_20261110.json",
+      "source_count": 31,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 45,
-  "worker_owned_batch_count": 44,
-  "cumulative_team_source_leads": 1716,
-  "worker_owned_unique_url_leads": 1677,
+  "completed_batch_count": 46,
+  "worker_owned_batch_count": 45,
+  "cumulative_team_source_leads": 1747,
+  "worker_owned_unique_url_leads": 1708,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -999,7 +1005,17 @@
     "M49:860|hypertension",
     "M49:051|diabetes",
     "M49:398|clinical_guidance",
-    "CROSS_REGION:KOSOVO|diabetes"
+    "CROSS_REGION:KOSOVO|diabetes",
+    "CROSS_REGION:AFRICAN_DESCENT|pharmacogenetics",
+    "M49:218|pharmacogenetics",
+    "M49:076|pharmacogenetics",
+    "M49:152|pharmacogenetics",
+    "CROSS_REGION:GUAM_SAIPAN|diabetes",
+    "M49:702|pharmacogenetics",
+    "CROSS_REGION:NEAR_OCEANIA|genomics",
+    "M49:882|genomics",
+    "M49:554|pharmacogenetics",
+    "CROSS_REGION:CHINA_JAPAN_EUROPE|pharmacokinetics"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -1013,11 +1029,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Continue high-yield original-source leads in under-covered P1 clinical, prevalence and pharmacogenetic cells, avoiding independent-study double counts from shared cohort and IDF data. P0 original-source retrieval issues unresolved. No substantive research backlog decrement."
+    "P1_next": "P1 follow up country-condition original studies and clinical sources in African, Asian and Pacific target geographies, avoiding duplicates in studies, shared cohorts and data sources. P0 Peru gout, Bangladesh celiac/lactose, Sri Lanka gout retrieval issues remain; B044 IDF Comoros direct fetch unresolved. No substantive evidence validation performed."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 1677,
+    "current_worker_batch_count": 1708,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -2695,7 +2711,38 @@
       "https://pubmed.ncbi.nlm.nih.gov/42571325/",
       "https://pubmed.ncbi.nlm.nih.gov/42086267/",
       "https://pubmed.ncbi.nlm.nih.gov/42941702/",
-      "https://pubmed.ncbi.nlm.nih.gov/42909920/"
+      "https://pubmed.ncbi.nlm.nih.gov/42909920/",
+      "https://pubmed.ncbi.nlm.nih.gov/41979116/",
+      "https://pubmed.ncbi.nlm.nih.gov/42142189/",
+      "https://pubmed.ncbi.nlm.nih.gov/42954025/",
+      "https://pubmed.ncbi.nlm.nih.gov/41935281/",
+      "https://pubmed.ncbi.nlm.nih.gov/42137999/",
+      "https://pubmed.ncbi.nlm.nih.gov/42409575/",
+      "https://pubmed.ncbi.nlm.nih.gov/42707520/",
+      "https://pubmed.ncbi.nlm.nih.gov/42154777/",
+      "https://pubmed.ncbi.nlm.nih.gov/42108621/",
+      "https://pubmed.ncbi.nlm.nih.gov/42751636/",
+      "https://pubmed.ncbi.nlm.nih.gov/42722881/",
+      "https://pubmed.ncbi.nlm.nih.gov/41728397/",
+      "https://pubmed.ncbi.nlm.nih.gov/41630471/",
+      "https://pubmed.ncbi.nlm.nih.gov/42752660/",
+      "https://pubmed.ncbi.nlm.nih.gov/42704572/",
+      "https://pubmed.ncbi.nlm.nih.gov/41782934/",
+      "https://pubmed.ncbi.nlm.nih.gov/41847134/",
+      "https://pubmed.ncbi.nlm.nih.gov/42793008/",
+      "https://pubmed.ncbi.nlm.nih.gov/41660507/",
+      "https://pubmed.ncbi.nlm.nih.gov/42329750/",
+      "https://pubmed.ncbi.nlm.nih.gov/41951760/",
+      "https://pubmed.ncbi.nlm.nih.gov/42989873/",
+      "https://pubmed.ncbi.nlm.nih.gov/42275502/",
+      "https://pubmed.ncbi.nlm.nih.gov/42754676/",
+      "https://pubmed.ncbi.nlm.nih.gov/41932843/",
+      "https://pubmed.ncbi.nlm.nih.gov/41948624/",
+      "https://pubmed.ncbi.nlm.nih.gov/42365224/",
+      "https://pubmed.ncbi.nlm.nih.gov/40982661/",
+      "https://pubmed.ncbi.nlm.nih.gov/41932844/",
+      "https://pubmed.ncbi.nlm.nih.gov/42905102/",
+      "https://pubmed.ncbi.nlm.nih.gov/40903183/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -2764,16 +2811,17 @@
         "reason": "DIRECT_WEB_FETCH_REDIRECT_LOOP; SEARCH_INDEX_METADATA_AVAILABLE"
       }
     ],
-    "worker_B045": []
+    "worker_B045": [],
+    "worker_B046": []
   },
-  "next_batch_id": "B046",
-  "next_queue_position": "B046: continue independent P1 clinical and population-health source leads especially undercovered pharmacogenetics and African, Asian, Pacific country-condition cells, dedup B001-B045. P0 Peru gout/Bangladesh celiac-lactose/Sri Lanka gout and B044 IDF Comoros direct-fetch issue remain unresolved.",
+  "next_batch_id": "B047",
+  "next_queue_position": "B047: P1 high-yield independent original epidemiology, pharmacogenetic, clinical guidance and country-condition source leads in less-covered African, Asian and Pacific jurisdictions; deduplicate all B001-B046. P0 Peru gout, Bangladesh celiac/lactose and Sri Lanka gout originals unresolved. B044 IDF Comoros page direct-fetch redirect issue remains.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B045",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B045_TEAM_B_20261110.json",
-    "parent_commit_sha": "55392c07c67d66dab163fdc3f46cac399ed05e41",
+    "batch_id": "B046",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B046_TEAM_B_20261110.json",
+    "parent_commit_sha": "4cd056a352ee0f94acae6d3bc5472f178fb1e12d",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Atomic batch and Team B STATE commit; current branch HEAD is canonical SHA."
+    "note": "Atomic batch/state commit; present worker branch HEAD is canonical SHA."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
