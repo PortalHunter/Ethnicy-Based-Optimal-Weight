@@ -323,12 +323,18 @@
       "path": "docs/atlas/raw-intake/workers/B/batches/B052_TEAM_B_20261110.json",
       "source_count": 34,
       "origin": "worker_B"
+    },
+    {
+      "batch_id": "B053",
+      "path": "docs/atlas/raw-intake/workers/B/batches/B053_TEAM_B_20261110.json",
+      "source_count": 32,
+      "origin": "worker_B"
     }
   ],
-  "completed_batch_count": 52,
-  "worker_owned_batch_count": 51,
-  "cumulative_team_source_leads": 1942,
-  "worker_owned_unique_url_leads": 1903,
+  "completed_batch_count": 53,
+  "worker_owned_batch_count": 52,
+  "cumulative_team_source_leads": 1974,
+  "worker_owned_unique_url_leads": 1935,
   "processed_queue_items": [
     "M49:050|high_chol",
     "M49:064|high_chol",
@@ -1130,7 +1136,18 @@
     "M49:800|clinical_guidance",
     "M49:340|hypertension",
     "M49:604|pharmacogenetics",
-    "M49:024|hypertension"
+    "M49:024|hypertension",
+    "M49:710|cardiometabolic_risk",
+    "M49:050|diabetes",
+    "M49:360|diabetes",
+    "M49:360|clinical_guidance",
+    "M49:484|diabetes",
+    "CROSS_REGION:AMERICAS_INDIGENOUS|diabetes",
+    "M49:484|clinical_guidance",
+    "M49:275|clinical_guidance",
+    "M49:364|diabetes",
+    "M49:364|clinical_guidance",
+    "M49:368|pharmacogenetics"
   ],
   "remaining_targets": {
     "queue_file": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
@@ -1144,11 +1161,11 @@
       "M49:050|lactose",
       "M49:144|gout"
     ],
-    "P1_next": "Team B P1 untouched diabetes, hypertension, dyslipidemia, gout, pharmacogenetics and clinical guideline leads; source intake only. Resume B053."
+    "P1_next": "Remaining high-yield P1 original published clinical guidance, national disease prevalence surveys, ancestry-specific cardiometabolic cohorts and pharmacogenetic studies; continue at B054."
   },
   "previously_collected_urls": {
     "baseline_B001_count": 39,
-    "current_worker_batch_count": 1903,
+    "current_worker_batch_count": 1935,
     "worker_urls": [
       "https://www.who.int/publications/m/item/2018-steps-country-report-bangladesh",
       "https://www.who.int/publications/m/item/2010-steps-country-report-bangladesh",
@@ -3052,7 +3069,39 @@
       "https://pubmed.ncbi.nlm.nih.gov/36518034/",
       "https://pubmed.ncbi.nlm.nih.gov/32884456/",
       "https://pubmed.ncbi.nlm.nih.gov/23363805/",
-      "https://pubmed.ncbi.nlm.nih.gov/27398036/"
+      "https://pubmed.ncbi.nlm.nih.gov/27398036/",
+      "https://pubmed.ncbi.nlm.nih.gov/42333130/",
+      "https://pubmed.ncbi.nlm.nih.gov/40842005/",
+      "https://pubmed.ncbi.nlm.nih.gov/41830695/",
+      "https://pubmed.ncbi.nlm.nih.gov/41938290/",
+      "https://pubmed.ncbi.nlm.nih.gov/42933373/",
+      "https://pubmed.ncbi.nlm.nih.gov/42387636/",
+      "https://pubmed.ncbi.nlm.nih.gov/40935416/",
+      "https://pubmed.ncbi.nlm.nih.gov/41461150/",
+      "https://pubmed.ncbi.nlm.nih.gov/42756978/",
+      "https://pubmed.ncbi.nlm.nih.gov/41366341/",
+      "https://pubmed.ncbi.nlm.nih.gov/36962350/",
+      "https://pubmed.ncbi.nlm.nih.gov/36538534/",
+      "https://pubmed.ncbi.nlm.nih.gov/41611361/",
+      "https://pubmed.ncbi.nlm.nih.gov/41745407/",
+      "https://pubmed.ncbi.nlm.nih.gov/38616917/",
+      "https://pubmed.ncbi.nlm.nih.gov/37790638/",
+      "https://pubmed.ncbi.nlm.nih.gov/42546289/",
+      "https://pubmed.ncbi.nlm.nih.gov/41350172/",
+      "https://pubmed.ncbi.nlm.nih.gov/39930336/",
+      "https://pubmed.ncbi.nlm.nih.gov/41662386/",
+      "https://pubmed.ncbi.nlm.nih.gov/42399350/",
+      "https://pubmed.ncbi.nlm.nih.gov/41638732/",
+      "https://pubmed.ncbi.nlm.nih.gov/40533861/",
+      "https://pubmed.ncbi.nlm.nih.gov/41513676/",
+      "https://pubmed.ncbi.nlm.nih.gov/41955463/",
+      "https://pubmed.ncbi.nlm.nih.gov/34595726/",
+      "https://pubmed.ncbi.nlm.nih.gov/42443860/",
+      "https://pubmed.ncbi.nlm.nih.gov/41620462/",
+      "https://pubmed.ncbi.nlm.nih.gov/41252247/",
+      "https://pubmed.ncbi.nlm.nih.gov/41288826/",
+      "https://pubmed.ncbi.nlm.nih.gov/42220560/",
+      "https://pubmed.ncbi.nlm.nih.gov/41731389/"
     ],
     "worker_B003_count": 46,
     "worker_B004_count": 39,
@@ -3068,7 +3117,8 @@
     "worker_B049_count": 33,
     "worker_B050_count": 30,
     "worker_B051_count": 30,
-    "worker_B052_count": 34
+    "worker_B052_count": 34,
+    "worker_B053_count": 32
   },
   "unresolved_retrievals": {
     "worker_B002": [],
@@ -3134,16 +3184,17 @@
     "worker_B049": [],
     "worker_B050": [],
     "worker_B051": [],
-    "worker_B052": []
+    "worker_B052": [],
+    "worker_B053": []
   },
-  "next_batch_id": "B053",
-  "next_queue_position": "B053: continue Team B P1 untouched population studies, medical guidance, pharmacogenomic cohorts and national NCD surveys in underrepresented regions; exclude B001-B052 URLs. Revisit P0 originals and Comoros IDF redirect without claiming resolution.",
+  "next_batch_id": "B054",
+  "next_queue_position": "B054: Team B P1 original pharmacogenomic cohorts, underrepresented population health studies and national cardiovascular surveillance; exclude B001-B053, preserve P0 unresolved originals and Comoros IDF issue.",
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "B052",
-    "path": "docs/atlas/raw-intake/workers/B/batches/B052_TEAM_B_20261110.json",
-    "parent_commit_sha": "7aeedfc449fd93bf1c89f8890b2746a00c0289e2",
+    "batch_id": "B053",
+    "path": "docs/atlas/raw-intake/workers/B/batches/B053_TEAM_B_20261110.json",
+    "parent_commit_sha": "24e7936a11ff7a7994f0b07a6f066803dcd3fa7c",
     "commit_sha": "RESOLVE_AS_CURRENT_WORKER_BRANCH_HEAD",
-    "note": "Canonical last commit SHA is worker branch HEAD after two-file atomic commit, confirmed on readback."
+    "note": "Two-file atomic commit; canonical SHA at HEAD after readback."
   },
   "safe_scope": "Unverified intake only. No source-quality review, scientific/clinical/legal approval or integration."
 }
