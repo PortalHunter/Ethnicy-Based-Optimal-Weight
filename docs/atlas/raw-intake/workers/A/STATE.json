@@ -300,13 +300,19 @@
       "location": "worker",
       "path": "docs/atlas/raw-intake/workers/A/batches/A049_TEAM_A_20261110.json",
       "source_count": 47
+    },
+    {
+      "batch_id": "A050",
+      "location": "worker",
+      "path": "docs/atlas/raw-intake/workers/A/batches/A050_TEAM_A_20261110.json",
+      "source_count": 40
     }
   ],
-  "completed_worker_batch_count": 48,
-  "completed_team_a_intake_batch_count": 49,
-  "worker_new_unique_url_leads": 1908,
-  "team_a_cumulative_unique_url_leads": 1953,
-  "last_completed_batch": "A049",
+  "completed_worker_batch_count": 49,
+  "completed_team_a_intake_batch_count": 50,
+  "worker_new_unique_url_leads": 1948,
+  "team_a_cumulative_unique_url_leads": 1993,
+  "last_completed_batch": "A050",
   "processed_queue_items": [
     "M49:004|initial_source_scan",
     "M49:051|initial_source_scan",
@@ -375,14 +381,15 @@
     "M49:203|czech_recreational_bottled_well_water_and_contact_material_health_guidance",
     "M49:203|czech_szu_original_environmental_health_monitoring_air_report_series",
     "M49:203|czech_noise_laboratory_and_2026_public_health_authority_sources",
-    "M49:203|czech_spa_mineral_water_protection_original_decrees_and_statutes"
+    "M49:203|czech_spa_mineral_water_protection_original_decrees_and_statutes",
+    "M49:203|czech_mzd_original_official_health_bulletin_2025_2026"
   ],
   "queue_position": {
     "last_selected_m49": [
       "203"
     ],
-    "next": "M49:203 Czechia spa/mineral-water original legal instruments: continue official index beyond Mariánské Lázně",
-    "next_batch_id": "A050",
+    "next": "M49:203 continue Czech Ministry health bulletins, 2024 issues or direct PDF reference leads; current landing-page intake A050 complete",
+    "next_batch_id": "A051",
     "base_queue": "docs/atlas/handoffs/team-a/data/research_queue.csv"
   },
   "remaining_targets": [
@@ -457,7 +464,8 @@
     "A046 SZÚ original attached guidance, original legal texts and historical versions for recreational water, bottled water, contact materials and wells uninspected; one 2013 publication-index date conflicts with 2014 document title.",
     "A047 annual official air- and environmental-health reports: 14 PDF retrievals failed from size limits/rate limits/timeouts; none reviewed for scientific conclusions; source publication dates need original-page retrieval.",
     "A048 five SZÚ 2026 testing programme pages timed out/HTTP429; original documents, amendment chains and statutory validity uninspected.",
-    "A049 document texts and original promulgation/current legal force for spa protection instruments remain uninspected."
+    "A049 document texts and original promulgation/current legal force for spa protection instruments remain uninspected.",
+    "A050 bulletin attachment PDFs, exact text, effective scope and individual original legislative crossreferences remain uninspected."
   ],
   "previously_collected_urls": [
     "https://www.moj.gov.af/index.php/en/official-gazette",
@@ -2412,7 +2420,47 @@
     "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-PEL-Lazne-Kundratice.pdf",
     "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-Lazne-Libverda.pdf",
     "https://mzd.gov.cz/wp-content/uploads/2015/01/Statut-LM-Lazne-Libverda.pdf",
-    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-Marianske-Lazne.pdf"
+    "https://mzd.gov.cz/wp-content/uploads/2015/01/Vyhlaska-OP-PLZ-Marianske-Lazne.pdf",
+    "https://mzd.gov.cz/vestnik/vestnik-14-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-13-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-12-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-11-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-10-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-9-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-8-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-7-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-6-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-4-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-3-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-2-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-1-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-nikez-1-2026/",
+    "https://mzd.gov.cz/vestnik/vestnik-22-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-21-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-20-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-19-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-18-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-17-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-16-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-15-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-14-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-13-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-12-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-11-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-10-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-9-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-8-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-7-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-6-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-5-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-4-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-3-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-2-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-1-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-nikez-4-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-nikez-3-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-nikez-2-2025/",
+    "https://mzd.gov.cz/vestnik/vestnik-nikez-1-2025/"
   ],
   "unresolved_retrievals": [
     {
@@ -6951,12 +6999,12 @@
     }
   ],
   "latest_successfully_committed_checkpoint": {
-    "batch_id": "A049",
-    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A049_TEAM_A_20261110.json",
+    "batch_id": "A050",
+    "batch_path": "docs/atlas/raw-intake/workers/A/batches/A050_TEAM_A_20261110.json",
     "state_path": "docs/atlas/raw-intake/workers/A/STATE.json",
-    "parent_commit_sha": "edaec67a12c791e4ede2edf484774cdafb5ae524",
-    "checkpoint_commit_sha_resolution": "Use GitHub verified branch HEAD; self-referential SHA cannot be embedded."
+    "parent_commit_sha": "bfe8d9d9a41b2240d279dcd6995e8e63ee71be20",
+    "checkpoint_commit_sha_resolution": "Use verified branch HEAD; self-referential SHA cannot be embedded."
   },
-  "next_run_instruction": "Resume Team A A050 from last committed worker state, M49:203; raw source acquisition only.",
+  "next_run_instruction": "Resume Team A A051 from committed worker state, Czechia M49:203. Source acquisition only.",
   "scope_guardrails": "No main/central/team research/calculator/harness edits; all source records UNVERIFIED_INTAKE."
 }
