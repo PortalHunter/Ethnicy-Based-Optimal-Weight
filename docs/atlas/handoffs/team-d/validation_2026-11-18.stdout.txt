@@ -1,0 +1,70 @@
+Batch 18 original 10 records retained; survey roster dates unchanged
+Batch 19 original crosschecks retained without recasting source dates
+Batch 20 independently corroborated 46/46 older WHO survey labels; 21 dated sources, 25 undated; two MCO labels unjoined; no survey-date promotion
+Batch 17 historical source-layer assertions PASS: SIDS=13 ECC=14; current 205/44 unchanged
+Batch 21 WHO WER 2025 surveillance-group evidence: 15 territory observations; 44 WHO administrative assignments remain pending
+Batch 22 PAHO role transitions and local cooperation: 12 representative source observations, 4 local programme/policy observations, 4 primary URLs, month conflict retained; regional and clinical status unchanged
+Batch 23 Greenland: four dated observations; one WHO Europe MoU graph link; three reviewed WHO URLs; 44 WHO regional assignments still unresolved
+Batch 24/25: WHO SPH event and health security metadata; no administrative region/membership/office reclassification
+Batch 25: WHO SPH Curaçao 2020 and 2026 and French Guiana 2026; 3 directly opened first-party sources
+Batch 26: 22 IDF NAC country/territory member-organisation locations plus three transnational members; 21 names and one Curaçao name gap; incompatible official association totals preserved; zero inferred legal/country membership edges
+Batch 27: HI 15 country-linked member resources, Europe non-M49 link, three distinct membership/partner policy records; no government membership or clinical law inference
+Batch 28: 43 AOECS directory full members, 1 associate, 3 affiliates, 21 explicitly nonmember society contacts and 9 nonmembership professional/observer source observations (6 original plus 3 later Codex observations). Official about-us category conflict retained; no country/clinical/legal edges invented.
+Batch 29: 11 first-party EMA/Commission role observations with 6 new sources; no individual NCA legal remit or marketing decision inferred.
+Batch 31: 9 national regulator first-party observations across Ireland Italy Czechia Norway; 6 official sources; no laws or Team A IDs independently certified.
+Batch 32: 9 additional agency role observations across Austria Denmark Netherlands; 6 official URLs; 7/34 candidate agencies now have source-qualified roles, no statutory or Team A approval.
+Batch 33: 8 first-party role observations in Belgium Finland Malta Spain, 7 official source URLs, 11/34 candidates source-described; Malta source conflict unresolved.
+Batch 34: 10 new role observations, 5 more EMA identity candidates and six official sources; timed government texts not current statute approval.
+Batch 35: 10 scoped first-party role observations for five more EMA candidates; nine official URLs; no legal or clinical signoff.
+Batch 36: eight role observations across four agency identities; six direct official URLs; current law and clinical acceptance remain pending.
+Batch 37: eight source-qualified agency-role observations; no legal or clinical signoff.
+Batch 38: four official-government role observations across two EMA candidates; three direct first-party URLs; statutory, clinical and treaty approval pending.
+Batch40 source-scoped office activity: 2 followups; 1 unexecuted discussion objective; zero inferred WHO region, April office, regulatory or clinical approvals.
+Batch 39: five scoped regulator-role observations close all 34 EMA identity-source role gaps; 34 complete national legal audits remain pending.
+Batch 42: PAHO 2025 annual report multi-area group coverage (10 M49 rows/3 official indexed sources), no new WHO region/office/legal/clinical inference.
+Batch 41: WHO-reported cross-border polio campaign and South Sudan signed-land account, no legal instrument, completed premises, fresh April office or clinical inference.
+Batch 43: one dated WHO office representative and seven Kazakhstan training roles. No new WHO April survey, region, formal GCTF membership, signed agreement, law or clinical appraisal inferred.
+Batch46: five reopened gaps, one 2021 PAHO historical date qualified from contemporaneous source, preserved later conflict; region/April/statute verified deltas +0.
+Batch47: four selected gaps, two material original-document qualifications; no new WHO April or full amended law/Team A closures.
+Batch45: 14 statistical reporting observations and 11 directory typology observations; no fabricated new administrative WHO region or 2026 April office survey.
+Batch49: two original WHO 1955 historical provisional assignments; Malta delegation explanatory source; Libya issuer-attributed secondary; strict current research closure delta +0.
+Batches50-55: 21 original-gap case records, 15 new source URLs, zero strict evidence numerator promotions; FULL current-snapshot validation still requires actual Node checkout.
+Batch56: 4 Malta/Greenland case audits, 3 source leads, +0 strict WHO/April/legal closures; no independent legal/clinical approval.
+Batch57: 4 original-gap audits, 5 new provenance URLs, +0 strict WHO/April/legal completions; no independent legal/clinical approval.
+Bulk review PASS: 234 distinct subject-matter backlog records; 10 additional exact April source joins; 4 exact Team A label joins; 0 full backlog closures.
+{
+  "result": "PASS",
+  "nodes": 47,
+  "edges": 619,
+  "conditions": 20,
+  "statuses": 249,
+  "un_crosswalk": 248,
+  "seed_exceptions": 1,
+  "verified_regions": 205,
+  "unverified_regions": 44,
+  "office_presence": 105,
+  "office_profile_audits_2026": 95,
+  "who_office_survey_roster_2026": 153,
+  "emrn_nca_candidates": 34,
+  "historical_office_records": 228,
+  "historical_office_edges": 225,
+  "provenance": 336,
+  "hearts_catalog": 24,
+  "programme_evidence": 5,
+  "regulatory_agreements": 19,
+  "who_region_boundary_evidence": 1,
+  "paho_governance_categories": 44,
+  "paho_technical_cooperation": 21,
+  "paho_representative_observations": 14,
+  "paho_local_cooperation_observations": 4,
+  "paho_2025_multi_area_report_coverage": 10,
+  "who_2026_activity_followups": 3,
+  "gctf_kazakhstan_training_contributors": 7,
+  "idf_nac_source_observations": 25,
+  "hi_source_observations": 19,
+  "aoecs_society_observations": 68,
+  "aoecs_external_role_observations": 9,
+  "ema_regulatory_role_observations": 11,
+  "national_nca_remit_observations": 71,
+  "malta_law_boundary_observations": 4
+}

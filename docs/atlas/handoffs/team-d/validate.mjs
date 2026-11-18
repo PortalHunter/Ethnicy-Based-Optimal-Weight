@@ -4,9 +4,9 @@ import assert from 'node:assert/strict';
 const parse = function parse(s){let rows=[],row=[],v="",q=false;for(let i=0;i<s.length;i++){const c=s[i];if(c==='"'){if(q&&s[i+1]==='"'){v+='"';i++;}else q=!q;}else if(c===','&&!q){row.push(v);v="";}else if(c==='\n'&&!q){row.push(v.replace(/\r$/,""));rows.push(row);row=[];v="";}else v+=c;}if(v||row.length){row.push(v);rows.push(row);}const h=rows.shift();for(const r of rows)if(r.length!==h.length)throw Error("width "+r.length+" expected "+h.length);return {h,rows:rows.map(r=>Object.fromEntries(h.map((k,i)=>[k,r[i]])))};};
 const read = file => parse(fs.readFileSync(new URL(file,import.meta.url),'utf8').trimEnd()).rows;
 const unique=(rows,key,label)=>assert.equal(new Set(rows.map(key)).size,rows.length,label);
-// Current post-consolidation canonical ledger: 330 unique original URLs (including TD-SRC-329–330; existing TD-SRC-123 covers Africa CDC ExCon).
+// Current ledger: 336 unique URLs; November18 adds six bounded primary sources.
 // This is a current-dataset cardinality assertion, not a frozen historical Batch 34–57 snapshot.
-const EXPECTED_CURRENT_PROVENANCE_COUNT = 330;
+const EXPECTED_CURRENT_PROVENANCE_COUNT = 336;
 const nodes=read('data/international_networks.csv'), edges=read('data/network_memberships.csv'), conditions=read('data/condition_networks.csv'), statuses=read('data/m49_network_status.csv'), un=read('data/un_m49_geographic_crosswalk.csv'), exceptions=read('data/geographic_seed_exceptions.csv'), offices=read('data/who_country_office_presence.csv'), prov=read('PROVENANCE.csv');
 const ids=new Set(nodes.map(r=>r.network_id)),codes=new Set(statuses.map(r=>r.m49_code)),official=new Set(un.map(r=>r.m49_code)),sources=new Set(prov.map(r=>r.source_url));
 unique(nodes,r=>r.network_id,'node IDs'); unique(statuses,r=>r.m49_code,'status codes');unique(un,r=>r.m49_code,'UN codes');unique(prov,r=>r.source_id,'source IDs');unique(prov,r=>r.source_url,'source URLs');unique(offices,r=>r.record_id,'office IDs');
@@ -1088,5 +1088,9 @@ for(const code of ['175','254'])assert.equal(statuses.find(r=>r.m49_code===code)
 assert.equal(offices.length,105);assert.equal(emrnNcas.length,34);
 assert(emrnNcas.some(r=>r.record_id==='TD-EMRN-NCA-018'&&r.country_area_m49==='428'));
 console.log('Batch57: 4 original-gap audits, 5 new provenance URLs, +0 strict WHO/April/legal completions; no independent legal/clinical approval.');
+
+// November18 review: preserve the old 95 April records and independently attest
+// the ten additional SEARO April survey joins in a separate source layer.
+await import('./validate_bulk_2026-11-18.mjs');
 
 console.log(JSON.stringify({result:'PASS',nodes:nodes.length,edges:edges.length,conditions:conditions.length,statuses:statuses.length,un_crosswalk:un.length,seed_exceptions:exceptions.length,verified_regions:assigned.length,unverified_regions:statuses.length-assigned.length,office_presence:offices.length,office_profile_audits_2026:officeAudits.length,who_office_survey_roster_2026:surveyRoster.length,emrn_nca_candidates:emrnNcas.length,historical_office_records:officeHistory.length,historical_office_edges:histEdges.length,provenance:prov.length,hearts_catalog: pathways.length,programme_evidence:programmeFacts.length,regulatory_agreements:regulatory.length,who_region_boundary_evidence:whoBoundary.length,paho_governance_categories:pahoGov.length,paho_technical_cooperation:pahoTC.length,paho_representative_observations:repTerms.length,paho_local_cooperation_observations:pahoLocal.length,paho_2025_multi_area_report_coverage:pahoReports42.length,who_2026_activity_followups:officeEvents40.length,gctf_kazakhstan_training_contributors:training43.length,idf_nac_source_observations:idfNac.length,hi_source_observations:hi.length,aoecs_society_observations:aoecsSocieties.length,aoecs_external_role_observations:aoecsRelations.length,ema_regulatory_role_observations:emaRoles.length,national_nca_remit_observations:nationalNcaRemits.length,malta_law_boundary_observations:maltaLaw44.length},null,2));

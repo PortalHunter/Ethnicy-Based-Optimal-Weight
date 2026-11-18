@@ -1,0 +1,55 @@
+{
+  "baseline_commit": "d3eb7b830870c6e30055d7251841ed67ac482b82",
+  "reviewed_backlog_records": 236,
+  "subject_matter_records": 234,
+  "full_backlog_closures": 0,
+  "metrics": [
+    {
+      "name": "WHO current region",
+      "before": 205,
+      "after": 205,
+      "denominator": 249,
+      "delta": 0
+    },
+    {
+      "name": "Strict April survey joins",
+      "before": 95,
+      "after": 105,
+      "denominator": 249,
+      "delta": 10
+    },
+    {
+      "name": "EMA directory identities",
+      "before": 34,
+      "after": 34,
+      "denominator": 34,
+      "delta": 0
+    },
+    {
+      "name": "Qualified Team A entity joins",
+      "before": 0,
+      "after": 4,
+      "denominator": 34,
+      "delta": 4
+    },
+    {
+      "name": "Full legal packets",
+      "before": 0,
+      "after": 0,
+      "denominator": 34,
+      "delta": 0
+    },
+    {
+      "name": "Original gates held (lower better)",
+      "before": 2,
+      "after": 2,
+      "denominator": 5,
+      "delta": 0
+    }
+  ],
+  "provenance_before": 330,
+  "provenance_after": 336,
+  "source_only_urls_added": 6,
+  "new_nonapplicability_or_absence_findings": 0,
+  "native_tested_commit": "8501c9f2f79cb235dfcef52059a3596d8283ee5e"
+}
