@@ -100,3 +100,19 @@ All remain `not_screened` until individual sources are actually read.
 - **Thousands:** long-term *open-ended* target, dependent on source permissions, robust deduplication, language/community partnerships and reviewer resources.
 
 Preserve source URL, date viewed, current source terms, a canonical document ID, translation chain, and a note when the archive has changed. Maintain tombstone/provenance records for removed items to avoid silent reuse.
+
+
+## Niche health-signal expansion (latest, 2026-11-18)
+
+The earlier **619** records are preserved. Two more link-only batches add **112** mixed archival item, printed passage, educational retelling and source-dependency leads, for **731 mixed metadata records**. These are not verified unique folk tales, independent oral witnesses or clinical observations; shared URLs and textual copying are expected.
+
+| Batch | Record count | Coverage | Notable themes |
+|---|---:|---|---|
+| [Niche 001](intake/niche-health-motif-leads-2026-11-18-batch-001.csv) | 79 | 38 Irish Dúchas page/manuscript leads, 17 Scottish Gaelic anthology entries, 24 Filipino/Malay/Borneo/Lao passage or title leads | Historical ague and falling-sickness labels; skin and fever beliefs; 1908 Visayan healer practices; 1900 Malay soul/birth spirits; 1920 Borneo healing descriptions |
+| [Niche 002](intake/niche-health-motif-leads-2026-11-18-batch-002.csv) | 33 | 26 Lao course stories/legends and 7 German, Malay or transregional source comparators | Specific 1853 and 1879 German pressure-nightmare legends; `Hikayat Abdullah` 1849 lineage; Lao Twelve Sisters editions |
+
+The candidate [variant and source dependency watchlist](variants/variant-candidate-watchlist-2026-11-18.csv) now contains **17 groups**, including probable duplicate NIU course citations, spelling variants of `Phi Ya Won/Wom`, cross-region German nocturnal-pressure analogues, and a Malay publication citing an earlier text.
+
+See [Niche Discovery Rubric](NICHE_DISCOVERY_RUBRIC.md). It requires source/rights gates, descriptive feature extraction blinded to diagnoses, alternative explanations, explicit disconfirmation tests, independent review, and nonmedical negative controls. **Story rarity is not a positive score**; rarity can result from survival and digitization bias. Historical labels such as `ague`, `consumption`, `cancer`, or `falling sickness` do not prove a modern medical diagnosis, and folk cures must never become treatment recommendations.
+
+Latest count is [731 in the snapshot manifest](intake/catalog-manifest-2026-11-18.json). The quality-control 100-attestation pilot remains a sampling exercise, not a collection limit.
