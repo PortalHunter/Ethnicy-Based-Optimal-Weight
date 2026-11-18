@@ -433,3 +433,5 @@ Data commit 163c3ed821b44692c6ce678bcb27c7745b7e1890 added one WHO Europe Small 
 - Conducted machine-readable integrity checks: all seven keys present; no orphan network references, unmatched candidate codes, duplicate composite edges or missing relationship-source URLs.
 - **Final snapshot:** 36 network nodes, 114 typed edges, 20 condition references, 249 geographic candidates, 20 gaps, 14 overlap cases, 45 source URLs.
 - No edits to `main`, other teams' folders, public health content, or issue states. PR remains in draft pending maintainer review.
+
+2026-11-18: User restored original graph scope and source-specific verification issues;21 open issue links indexed,236 research dispositions preserved with zero strict promotions;13 further narrow legal findings saved. See RESEARCH_SCOPE_AND_SOURCE_FOLLOWUP.md.

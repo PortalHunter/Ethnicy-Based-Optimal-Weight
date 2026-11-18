@@ -162,9 +162,25 @@ console.log('All144 office cases have qualified current/dated/boundary/unknown c
 // Recovered legal text preserves statutory grant, intake, exceptions and named-delegate boundaries.
 const browserLaw=data('regulator_browser_review_2026-11-18.csv');
 const browserAccess=data('legal_browser_access_2026-11-18.csv');
-assert.equal(browserLaw.length,6);assert.equal(by(browserLaw,'record_id').size,6);
-assert.equal(browserAccess.length,5);assert.equal(by(browserAccess,'source_id').size,5);
-for(const r of browserLaw){assert.equal(r.backlog_id,'TD-BL-NCA-021');assert.equal(r.country_area_m49,'442');assert.equal(r.full_packet_closure,'NO');assert.equal(source.get(r.source_id)?.source_url,r.source_url);assert(browserAccess.some(a=>a.source_id===r.source_id));assert(r.remaining_limit);}
+assert.equal(browserLaw.length,19);assert.equal(by(browserLaw,'record_id').size,19);
+assert.equal(browserAccess.length,17);assert.equal(by(browserAccess,'source_id').size,17);
+for(const r of browserLaw){assert(['TD-BL-NCA-021','TD-BL-NCA-006','TD-BL-NCA-008','TD-BL-NCA-026'].includes(r.backlog_id));assert.equal(r.full_packet_closure,'NO');assert.equal(source.get(r.source_id)?.source_url,r.source_url);assert(browserAccess.some(a=>a.source_id===r.source_id));assert(r.remaining_limit);}
 for(const r of browserAccess){assert.equal(source.get(r.source_id)?.source_url,r.requested_url);assert.equal(r.http_status,'200');assert.equal(r.retrieval_method,'NORMAL_ISOLATED_CHROMIUM_NO_AUTH_OR_CHALLENGE_BYPASS');assert.match(r.rendered_body_sha256,/^[a-f0-9]{64}$/);assert.match(r.rendered_html_sha256,/^[a-f0-9]{64}$/);}
 assert(browserLaw.some(r=>r.finding_state==='OPERATIVE_DELEGATION_REQUIRES_VALIDATED_INSTRUMENT'));
-console.log('Recovered Luxembourg law PASS:five official rendered sources,six partial legal findings; named delegation and sampled grant remain open.');
+console.log('Recovered legal texts PASS:17 official sources,19 narrow findings across4 packets; no full legal-audit promotion.');
+
+// User-approved scope keeps uncertain claims and source-level issues without inventing strict closures.
+const sourceIssues=data('source_verification_issues_2026-11-18.csv');
+assert.equal(sourceIssues.length,21);assert.equal(by(sourceIssues,'source_id').size,21);
+assert.equal(by(sourceIssues,'source_url').size,21);assert.equal(by(sourceIssues,'issue_url').size,21);
+for(const r of sourceIssues){assert.equal(source.get(r.source_id)?.source_url,r.source_url);assert.equal(r.issue_state,'open');assert.equal(r.issue_url,'https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/'+r.issue_number);}
+const graph= data('network_memberships.csv');
+for(const r of graph.filter(r=>r.verification_state!=='VERIFIED_PRIMARY'))assert(sourceIssues.some(s=>s.source_url===r.source_url),'Qualified graph source needs its own verification issue');
+const dispositions=data('research_disposition_2026-11-18.csv');
+assert.equal(dispositions.length,236);assert.deepEqual(dispositions.map(r=>r.backlog_id).sort(),backlog.map(r=>r.id).sort());
+assert(dispositions.every(r=>r.original_strict_closure==='NO'));
+assert.equal(dispositions.filter(r=>r.research_disposition==='FULL_LEGAL_AUDIT_DEFERRED_BY_USER').length,34);
+const scopeAudit=JSON.parse(fs.readFileSync(new URL('original_scope_audit_2026-11-18.json',import.meta.url),'utf8'));
+assert.equal(scopeAudit.source_specific_issues,sourceIssues.length);assert.equal(scopeAudit.typed_dated_sourced_edges,graph.length);assert.equal(scopeAudit.provenance_urls,prov.length);
+assert.equal(scopeAudit.regional_offices_covered,6);assert(scopeAudit.numbered_boundary_examples>=10);assert.equal(scopeAudit.condition_keys.length,7);
+console.log('Original scope PASS:236 research dispositions,34 deferred full legal audits,21 distinct source issues covering every qualified graph source; legacy verification counts unchanged.');

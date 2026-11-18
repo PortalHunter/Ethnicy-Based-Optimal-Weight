@@ -1,0 +1,23 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
++ actual - expected
+
++ 'PARTIAL_LEGAL_FINDINGS_FULL_AUDIT_DEFERRED_BY_USER_2026_11_18'
+- 'PARTIAL_EVIDENCE_NOT_FULL_LEGAL_PACKET'
+
+    at file:///Users/brianwork/.codex/.chatgpt-projects/g-p-6ae909821af08191ab14b78f3e85635b/repo/docs/atlas/handoffs/team-d/validate_bulk_2026-11-18.mjs:77:70
+    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
+    at async node:internal/modules/esm/loader:647:26
+    at async file:///Users/brianwork/.codex/.chatgpt-projects/g-p-6ae909821af08191ab14b78f3e85635b/repo/docs/atlas/handoffs/team-d/validate.mjs:1094:1 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 'PARTIAL_LEGAL_FINDINGS_FULL_AUDIT_DEFERRED_BY_USER_2026_11_18',
+  expected: 'PARTIAL_EVIDENCE_NOT_FULL_LEGAL_PACKET',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.22.3
