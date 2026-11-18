@@ -63,3 +63,21 @@ Twenty-five issues cover all 29 active U-tier context rows. Shared artifact issu
 - [#133](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/133): Hungarian HH ancestry exclusions and variant wording. S2 source existence only; no clinical or genetic approval.
 
 - [#134](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/134): Canadian HH population/genetic and dated clinical statements. S2 source existence only; no clinical or genetic approval.
+
+- [#135](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/135): Russian2013 HH chapter hosted by Kyrgyz university; genetics/clinical currency and treatment verification. Hosting H only; Russian publisher and Kyrgyz host distinct, local adoption and rights unapproved.
+
+- [Antarctica](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138): original medical operator/domicile scope requires explicit human exception; seven separately researched condition cells retained, no local identity or national absence invented.
+
+- [South Georgia and the South Sandwich Islands](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137): original medical operator/domicile scope requires explicit human exception; seven separately researched condition cells retained, no local identity or national absence invented.
+
+- [French Southern Territories](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136): original medical operator/domicile scope requires explicit human exception; seven separately researched condition cells retained, no local identity or national absence invented.
+
+- [#139](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/139): Malta2012 HH study abstract; referred/tested subgroups not population prevalence, genetic/parentage wording unappraised. H academic publishing/hosting only.
+
+- [#140](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/140): Nevis/Barbados academic HH narrative review; TIBC units, gene nomenclature and screening claims need independent review. Same original paper across two author contexts, S2 education only.
+
+- [#142](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/142): Bermuda coeliac group first-party identity/publication unavailable from phone-only external directories; exact-name search retained, no local institution fabricated.
+
+- [#143](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/143): Pakistani Celiac Society genuine local identity/publisher versus apparently templated SanFrancisco/Flexora contact. Substantive text retrieved, source not qualified; distinct Karachi entry retained.
+
+- [#144](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/144): Panama FUCEPA clinical wording and global-prevalence extrapolation; S2 education only, no measured national cohort or clinical approval.

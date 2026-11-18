@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://celiac.com.pk/en/history/",
+    "response_sha256": "294802e8f524eb5842c6c92c28c6df7616d61342ef5ea86f61a94b6b97495b75",
+    "retrieval": "web cache miss followed by successful curl --fail --location with default certificate verification",
+    "disposition": "U_candidate_identity_conflict_NOT_canonical_qualified_context",
+    "observation": "Substantive education/history exists; contact page shows apparently uncorrected SanFrancisco/Flexora template content. Neither .pk/flag nor templateUSaddress verifies domicile. Distinct from Karachi Celiac Society. Own current local organizational identity/responsible issuer unresolved; no automatic clinical/education qualification.",
+    "issue": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/143"
+  },
+  {
+    "url": "https://celiac.com.pk/en/celiac-disease/",
+    "response_sha256": "171abc13215858ac2d8b528b09e9cd75371d1e7ff5f8e16ed61208549e94a1ea",
+    "retrieval": "web cache miss followed by successful curl --fail --location with default certificate verification",
+    "disposition": "U_candidate_identity_conflict_NOT_canonical_qualified_context",
+    "observation": "Substantive education/history exists; contact page shows apparently uncorrected SanFrancisco/Flexora template content. Neither .pk/flag nor templateUSaddress verifies domicile. Distinct from Karachi Celiac Society. Own current local organizational identity/responsible issuer unresolved; no automatic clinical/education qualification.",
+    "issue": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/143"
+  },
+  {
+    "url": "https://celiac.com.pk/en/contact-us/",
+    "response_sha256": "ad6cf4a7bb31277473f25d25f502b5a31bb942dc5aeea28c7e435c6f3b8a452c",
+    "retrieval": "web cache miss followed by successful curl --fail --location with default certificate verification",
+    "disposition": "U_candidate_identity_conflict_NOT_canonical_qualified_context",
+    "observation": "Substantive education/history exists; contact page shows apparently uncorrected SanFrancisco/Flexora template content. Neither .pk/flag nor templateUSaddress verifies domicile. Distinct from Karachi Celiac Society. Own current local organizational identity/responsible issuer unresolved; no automatic clinical/education qualification.",
+    "issue": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/143"
+  }
+]

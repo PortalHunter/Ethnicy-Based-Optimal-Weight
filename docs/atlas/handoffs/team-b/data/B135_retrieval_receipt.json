@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://www.um.edu.mt/umms/mmj/PDF/391.pdf",
+  "response_sha256": "a8b7c03e969f324c00542e544bfa40e36e50eae8eea9947dd99e0e8c62b2bda7",
+  "pages": 267,
+  "inspected_sections": [
+    "cover and publisher/disclaimer imprint",
+    "P13.03 printedp167/PDFp204"
+  ],
+  "retrieval": "web-reader11MBsize limit; successful default-certificate system curl; pypdf",
+  "full_text_committed": false
+}

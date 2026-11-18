@@ -1,0 +1,36 @@
+[
+  {
+    "record_id": "B138-PA-FUCEPA-celiac",
+    "organization": {
+      "org_id": "B-PA-FUCEPA",
+      "area_m49": "591",
+      "name_local": "Fundación de Celíacos de Panamá (FUCEPA)",
+      "name_english": "reviewer_translation: Celiac Foundation of Panama",
+      "organization_type": "patient_nonprofit_foundation",
+      "clinical_discipline": "celiac_patient_education",
+      "scope": "Panama patient/family nonprofit; own HospitalSanFernando PoliclínicaNorte floor4 office5 contact; not government authority",
+      "independent_or_government": "self_described_independent_nonprofit_unpaid_board; registry_currency_not_independently_certified",
+      "official_url": "https://celiacospanama.org/",
+      "language": "es",
+      "verified_on": "2026-11-18",
+      "source_url": "https://celiacospanama.org/fucepa/",
+      "identity_state": "own_exact_name_local_contact_nonprofit_objects_and_named_unpaid_board_inspected; reported2009_registration_not_independently_certified"
+    },
+    "condition_key": "celiac",
+    "url": "https://celiacospanama.org/conoce-sobre-la-enfermedad/",
+    "title": "Conoce sobre la enfermedad celíaca",
+    "language": "es",
+    "edition": "undated live HTML; current clinical edition not established",
+    "role": "authored",
+    "tier": "S2",
+    "source_country": "591",
+    "country_basis": "issuer_of_linked_page",
+    "issuer": "FUCEPA first-party patient education; nonprofit own publisher, not government authority",
+    "population": "public education; homepage global1% projection not measured Panama prevalence",
+    "jurisdiction": "Panama patient organization context; no clinical/legal authority approval",
+    "identity_evidence": "Own About identifies nonprofit purpose, named unpaid board, local HospitalSanFernando office and reported2009 registry instrument; AOECS colleague list corroborates ownURL. Registry/current governance not independently certified.",
+    "evidence_summary": "Actual substantive condition, symptoms, diagnosis and dietary management body inspected. First-party S2 education, not epidemiologic or genotype study. Global prevalence projection and blanket oats, genetic/ancestry/diagnosis/healing wording unappraised under #144. Animated zero counters not clinical observations. No individual genotype/risk inferred from ethnicity; no clinical/genetic/legal/rights approval.",
+    "query": "AOECS outside-Europe colleague list followed to exact Panama foundation About and substantive condition page",
+    "next_action": "Independent specialist issue #144: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/144; registry currency and rights remain separate."
+  }
+]

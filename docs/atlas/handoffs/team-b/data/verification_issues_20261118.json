@@ -295,6 +295,87 @@
       "kind": "independent_genetics_and_clinical_review",
       "original_url": "https://www.toomuchiron.ca/hemochromatosis/the-condition/",
       "title": "Review Canadian HH population/genetic and dated clinical statements"
+    },
+    {
+      "org_id": "B-KG-JAGU-LIB",
+      "area_m49": "417",
+      "conditions": "hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/135",
+      "kind": "independent_dated_genetics_treatment_and_scope_review",
+      "original_url": "https://jasulib.org.kg/wp-content/uploads/2024/05/3230.pdf",
+      "title": "Review Russian2013 HH clinical/genetic wording, hosted by Kyrgyz university"
+    },
+    {
+      "org_id": "no_local_org_indexed",
+      "area_m49": "010",
+      "conditions": "diabetes|hypertension|high_chol|gout|lactose|celiac|hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138",
+      "kind": "local_issuer_scope_exception",
+      "original_url": "https://www.plymouthhospitals.nhs.uk/basmu/",
+      "title": "Adjudicate local-issuer geographic scope exception: Antarctica"
+    },
+    {
+      "org_id": "no_local_org_indexed",
+      "area_m49": "239",
+      "conditions": "diabetes|hypertension|high_chol|gout|lactose|celiac|hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137",
+      "kind": "local_issuer_scope_exception",
+      "original_url": "https://gsgssivisits.powerappsportals.com/FAQs/",
+      "title": "Adjudicate local-issuer geographic scope exception: South Georgia and the South Sandwich Islands"
+    },
+    {
+      "org_id": "no_local_org_indexed",
+      "area_m49": "260",
+      "conditions": "diabetes|hypertension|high_chol|gout|lactose|celiac|hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136",
+      "kind": "local_issuer_scope_exception",
+      "original_url": "https://taaf.fr/recrutement/medecin-et-infirmier/",
+      "title": "Adjudicate local-issuer geographic scope exception: French Southern Territories"
+    },
+    {
+      "org_id": "B-MT-UMFMS",
+      "area_m49": "470",
+      "conditions": "hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/139",
+      "kind": "independent_clinical_genetics_and_population_review",
+      "original_url": "https://www.um.edu.mt/umms/mmj/PDF/391.pdf",
+      "title": "Malta2012 HH denominators/genotype/population wording"
+    },
+    {
+      "org_id": "B-BB-UWIFMS|B-KN-MUA",
+      "area_m49": "052|659",
+      "conditions": "hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/140",
+      "kind": "independent_clinical_genetics_and_population_review",
+      "original_url": "https://ecronicon.net/assets/ecpe/pdf/ECPE-12-01323.pdf",
+      "title": "EC Paediatrics diagnostic units/genetics/screening"
+    },
+    {
+      "org_id": "unverified_Coeliac_Support_Group_Bermuda",
+      "area_m49": "060",
+      "conditions": "celiac",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/142",
+      "kind": "original_identity_and_source_access",
+      "original_url": "https://celiac.org/associations-around-the-world/",
+      "title": "Obtain first-party Bermuda coeliac support group identity and substantive source"
+    },
+    {
+      "org_id": "unverified_Pakistani_Celiac_Society",
+      "area_m49": "586",
+      "conditions": "celiac",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/143",
+      "kind": "original_identity_conflict",
+      "original_url": "https://celiac.com.pk/en/contact-us/",
+      "title": "Resolve apparently templated contact versus genuine local identity"
+    },
+    {
+      "org_id": "B-PA-FUCEPA",
+      "area_m49": "591",
+      "conditions": "celiac",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/144",
+      "kind": "independent_clinical_and_population_review",
+      "original_url": "https://celiacospanama.org/conoce-sobre-la-enfermedad/",
+      "title": "Review FUCEPA celiac prevalence projection and clinical wording"
     }
   ]
 }
