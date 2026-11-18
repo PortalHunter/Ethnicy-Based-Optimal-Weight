@@ -1,5 +1,7 @@
 # Hugging Face research tools for Atlas Teams A–E
 
+**Installed locally at the user’s request (18November2026):** BGE-M3, BGE reranker v2 m3, paired MedCPT encoders and olmOCR2. [Usage and reproducible setup](HUGGING_FACE_LOCAL_SETUP.md); [installation receipt](data/huggingface_local_installation_2026-11-18.json); pinned files/licenses in `tools/hf_models.lock.json`. Retrieval smoke checks passed; OCR preserves the sample dates/negation but has formatting/transcription defects and remains review-assisted. No licensing fees or paid inference services. The catalog below began as a screening review; deferred resources remain uninstalled.
+
 Checked 18 November 2026 with the connected Hugging Face tools. This is a shared research-process supplement, stored in Team D's authorized directory with copy-ready blocks for each team. Original prompts were read at `29d3b1f38cfee796520ed866c795302926040159`. Catalog: `data/huggingface_resource_review_2026-11-18.csv`.
 
 ## Best additions
@@ -14,7 +16,7 @@ Checked 18 November 2026 with the connected Hugging Face tools. This is a shared
 |3|[SciFact](https://huggingface.co/datasets/allenai/scifact)|Benchmark evidence-sentence retrieval, support/refutation handling and abstention|E; B/C evaluation|CC BY-NC 2.0. Original publisher card reviewed; viewer unsupported because legacy loader executes Python. Require a vetted data-only export; do not execute an unfamiliar loader automatically.|
 |3|[PubMedQA](https://huggingface.co/datasets/qiaojin/PubMedQA)|Benchmark biomedical question answering and yes/no/maybe handling|E; B/C evaluation|Card metadata MIT; documentation has gaps. Keep expert-labeled, artificial and unlabeled configurations distinct; preserve the original project's held-out evaluation split.|
 
-**First pilot:** BGE-M3 over a small existing public-source corpus for Teams A/D; MedCPT over traceable titles/abstracts for Teams B/C; Team E evaluates provenance preservation and abstention. Keep lexical/BM25 search as the comparison baseline. These are proposed pilots, not executed or benchmarked installations.
+**First pilot:** BGE-M3 over a small existing public-source corpus for Teams A/D; MedCPT over traceable titles/abstracts for Teams B/C; Team E evaluates provenance preservation and abstention. Keep lexical/BM25 search as the comparison baseline. Local installation checks now exercise this first subset. The complete25-case Atlas pilot and comparative benchmark remain unexecuted.
 
 ## Conditional or unsuitable additions
 
@@ -25,7 +27,7 @@ Checked 18 November 2026 with the connected Hugging Face tools. This is a shared
 
 ## Common prompt block — append to each team
 
-> Use the approved Hugging Face resource catalog for bounded retrieval, extraction or evaluation experiments that address a named backlog item. Authenticate the original source before indexing. Record resource owner/ID, immutable model/dataset revision, license file, pipeline/dependency version, query language, source URL/issuer/date, source hash, document page or section, exact evidence span and access mode. Pin revisions before execution; this review inspected current cards but did not pin or run a deployment.
+> Use the reviewed Hugging Face resource catalog and installed local launcher for bounded retrieval, extraction or evaluation experiments that address a named backlog item. Authenticate the original source before indexing. Record resource owner/ID, immutable model/dataset revision, license file, pipeline/dependency version, query language, source URL/issuer/date, source hash, document page or section, exact evidence span and access mode. Use the pinned installed revisions in `tools/hf_models.lock.json`; see `HUGGING_FACE_LOCAL_SETUP.md` for the shared launcher and local/offline commands.
 >
 > Preserve original-language text beside any translation and identify machine assistance explicitly. Keep publication, enactment, commencement, observation and survey dates in separate fields. A retrieval, embedding or reranker score cannot establish authority identity, membership, legal remit, guideline adoption, causality or clinical approval. Model-generated text and benchmark labels are not primary evidence. Every proposed assertion returns to an inspectable original document; otherwise retain the appropriate unknown, partial or conflicting state.
 >
@@ -64,4 +66,4 @@ Use 25 fixed existing cases, including these mandatory boundaries:
 7. Institution names: a ministry match cannot substitute for a regulator or society ID.
 8. Clinical discovery: relevant abstracts and yes/no/maybe benchmark answers do not create an approved patient-facing claim.
 
-This review completed card/license/availability screening only. Dataset preview of PubMedQA returned 429; no examples were used to claim a local benchmark. No model weights, dataset corpus, private records, paid job or hosted inference were loaded. Tool choices and per-team mappings are project recommendations inferred from the inspected cards; model performance on Atlas remains unmeasured.
+The initial review completed card/license/availability screening; the later user-authorized local installation is recorded separately above. Dataset preview of PubMedQA returned 429; no examples were used to claim a local benchmark. Five public model snapshots were subsequently installed locally; no dataset corpus, private records, paid job or hosted inference were loaded. Tool choices and per-team mappings are project recommendations inferred from the inspected cards; full Atlas benchmark performance and comparative efficiency remain unmeasured.

@@ -55,12 +55,15 @@
   "continuing_legal_findings": 50,
   "continuing_legal_packets_partially_advanced": 24,
   "hf_resources_screened": 11,
-  "full_current_suite": "PENDING_CHANGED_BATCH5_INPUTS",
-  "current_validation_manifest": "validation_continuing_2026-11-18.json",
+  "full_current_suite": "PASS_NATIVE_NODE_V24_22_3_ON_RECORDED_BATCH5_AND_LOCAL_TOOL_INPUT_HASHES",
+  "current_validation_manifest": "validation_batch5_local_tools_2026-11-18.json",
   "current_directory_review_backlog_records": 48,
   "current_directory_local_address_cases": 20,
   "current_directory_offshore_contact_cases": 27,
   "current_directory_coordination_without_premises_cases": 1,
   "latest_targeted_validation": "PASS_DIRECTORY_TYPOLOGY_BACKLOG_AND_LEGAL_CHECKS",
-  "team_a_live_head_checked": "c4ac494941a6d0db58355cae4cc3d660d442d5f4"
+  "team_a_live_head_checked": "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
+  "hf_models_installed": 5,
+  "hf_licensing_fees": 0,
+  "hf_installation_receipt": "data/huggingface_local_installation_2026-11-18.json"
 }
