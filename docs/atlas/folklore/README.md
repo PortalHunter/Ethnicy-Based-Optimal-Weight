@@ -72,3 +72,15 @@ Use the [CARE Principles](https://www.gida-global.org/careprinciples) for Indige
 ## 2026-11-18 Europe and Southeast Asia expansion
 
 The [regional scale-up plan](SCALE_AND_REGION_PRIORITIES.md) makes 100 attestation records a quality-control pilot, **not** a collection ceiling; long-term accumulation can reach thousands, subject to rights and source verification. A distinct *catalog screening tier* now includes **519 named printed tale entries**, **57 footnote-story references**, and the original **43** source leads (**619 mixed metadata records total**). This is **not** 619 unique folk stories, independent oral witnesses, health-related observations or clinical findings. Newly recorded regional work includes Joseph Jacobs English/Celtic titles, Norwegian Asbjørnsen/Moe/Dasent, Crane Italian 1885, Cole and Fansler Philippine volumes, and Fleeson Lao 1899. See the [European](intake/catalog-european-printed-tales-2026-11-18.csv), [Norwegian](intake/catalog-norse-printed-tales-2026-11-18.csv), [Italian](intake/catalog-italian-printed-tales-2026-11-18.csv), [Southeast Asian](intake/catalog-southeast-asia-printed-tales-2026-11-18.csv) catalog CSVs and [Fansler note references](intake/catalog-philippine-fansler-footnote-references-2026-11-18.csv). [Twelve variant candidate clusters](variants/variant-candidate-watchlist-2026-11-18.csv) are an unverified comparison queue, not confirmed independent tellings. Source-specific edition, original language, source rights, and historical narrator must be investigated before evidence promotion.
+
+
+## Niche-source expansion (latest snapshot, 2026-11-18)
+
+The [catalog manifest](intake/catalog-manifest-2026-11-18.json) now tracks **731 mixed metadata records**: 519 anthology tale entries, 57 editorial-note references, 43 previous archival/academic leads, plus **112 niche item, historical passage, translated tale and source-lineage leads**. These are *not* 731 unique oral witnesses, clinically meaningful stories, or independent historical observations.
+
+- [79 Irish, Scottish Gaelic and Southeast Asian niche leads](intake/niche-health-motif-leads-2026-11-18-batch-001.csv)
+- [33 Lao, German, Malay and comparative-source leads](intake/niche-health-motif-leads-2026-11-18-batch-002.csv)
+- [17 candidate variant/source-dependency groups](variants/variant-candidate-watchlist-2026-11-18.csv)
+- [Niche discovery and bias-control protocol](NICHE_DISCOVERY_RUBRIC.md)
+
+Rarity alone is not evidence of rare disease. Prioritize source-specific observations, earliest edition, independent narrators, linguistic fidelity, competing social/literary explanations, testability and cultural permissions. German nocturnal-pressure legends, Malay birth-spirit passages citing an earlier printed work, and Lao same-course retellings all require separate source lineage review. No diagnosis, folk cure efficacy, or clinical validation is inferred.
