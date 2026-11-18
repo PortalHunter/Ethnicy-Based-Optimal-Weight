@@ -1,3 +1,5 @@
+**Current batch4 validation (2026-11-18): PASS.** Native Node v24.22.3 full checked-in validator exits0 with empty stderr; targeted legal validator also PASS. Sources380;50 provision/date/translation findings across24 packets;0/34 full legal packets. Execution metadata,82 input SHA256 hashes and stdout/stderr are in `validation_continuing_2026-11-18.*`. Tested batch inputs match the published bytes after tree verification. Older pending/full-runtime statements below describe earlier stages. No CI, independent legal/clinical approval or semantic signoff claimed.
+
 # Team D — current continuation (updated 2026-11-18)
 
 **Shared Hugging Face addition requested by user:** [Reviewed resources and copy-ready Teams A–E prompt blocks](HUGGING_FACE_RESEARCH_SUPPLEMENT.md). Eleven resources screened; retrieval/OCR pilots and separate benchmarks proposed. No model/dataset execution or clinical verification claimed. The resource catalog is process-tool provenance and does not increase primary-evidence completion counts.
@@ -33,3 +35,5 @@ Validate with full checked-in Node script on an authorized complete checkout whe
 Continuing batch2 (2026-11-18): provenance356;26 original statutory/date findings across nine packets, with no full packet closure. Austria/Belgium primary routes blocked; see `CONTINUING_EXECUTION_2026-11-18.md`. Targeted legal validator PASS; full current suite pending end of execution.
 
 Continuing batch3 (2026-11-18): provenance374;44 provision/date/translation findings across24 packets; canonical packet links refreshed;0/34 full legal packets. Targeted legal checks PASS; full current suite remains pending end of ongoing execution. See `CONTINUING_EXECUTION_2026-11-18.md` and `metrics_2026-11-18.json`.
+
+Continuing batch4 (2026-11-18): provenance380;50 legal findings across24 packets. Six original Irish founding/commencement/rename provisions reviewed; SI40/1996 internal date conflict retained. Failed DE/LU decision/delegation leads not promoted. Targeted checks PASS; full current suite pending.

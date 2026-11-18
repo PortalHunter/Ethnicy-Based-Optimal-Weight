@@ -21,8 +21,8 @@ by_source = {r['source_id']: r for r in sources}
 rows = read('data/regulator_amendment_review_2026-11-18.csv')
 access = read('data/legal_source_access_2026-11-18.csv')
 backlog = {r['id'] for r in read('data/consolidated_case_backlog_2026-11-07.csv')}
-assert len(rows) == len({r['record_id'] for r in rows}) == 44
-assert len(access) == 37
+assert len(rows) == len({r['record_id'] for r in rows}) == 50
+assert len(access) == 43
 assert {r['requested_url'] for r in access} == {by_source[r['source_id']]['source_url'] for r in access}
 for row in rows:
     assert row['source_url'] == by_source[row['source_id']]['source_url']
@@ -48,4 +48,10 @@ assert len(failed) == 6
 assert any(r['classification'] == 'REJECTED_HTML_CHALLENGE_NOT_PDF' and r['retrieval_key'] == 'BE-REGULATION' for r in failed)
 assert not any(r['retrieval_key'] == 'BE-REGULATION' for r in access)
 assert len([r for r in rows if r['date_state'] == 'FUTURE_FINNISH_PROVISIONS_NOT_PROMOTED']) == 1
-print('PASS: 44 provision/date/translation findings across 24 packets; 37 authenticated downloads; future-law and inaccessible-source safeguards; zero full packet closures.')
+irish = [r for r in rows if r['record_id'] >= 'TD-AMEND-20261118-045']
+assert len(irish) == 6 and all(r['backlog_ids'] == 'TD-BL-NCA-016' for r in irish)
+assert {r['retrieval_key'] for r in access if r['retrieval_key'].startswith('IE-')} >= {'IE-COMM1995','IE-ESTAB1995','IE-COMM1996','IE-AUTH1998','IE-RENAME2014','IE-RENAME-LAW2013'}
+conflict = [r for r in irish if r['date_state'] == 'OPERATIVE_CLAUSE_EXPLANATORY_NOTE_CONFLICT_RETAINED']
+assert len(conflict) == 1 and '1996-02-19' in conflict[0]['effective_from'] and '1996-02-01' in conflict[0]['effective_from']
+assert not any(r['retrieval_key'] in {'DE-POSTBOX','DE-EMERGENCY','LU-2023-PDF','LU-1983-PDF'} for r in access)
+print('PASS: 50 provision/date/translation findings across24 packets;43 authenticated downloads; six original Irish instruments/provisions and internal date conflict retained; failed decision leads not promoted; zero full packet closures.')

@@ -1,3 +1,5 @@
+**Current batch4 validation (2026-11-18): PASS.** Native Node v24.22.3 full checked-in validator exits0 with empty stderr; targeted legal validator also PASS. Sources380;50 provision/date/translation findings across24 packets;0/34 full legal packets. Execution metadata,82 input SHA256 hashes and stdout/stderr are in `validation_continuing_2026-11-18.*`. Tested batch inputs match the published bytes after tree verification. Older pending/full-runtime statements below describe earlier stages. No CI, independent legal/clinical approval or semantic signoff claimed.
+
 ## Current — 18 November 2026 bulk review
 
 **Ongoing continuation:** [Current execution log](CONTINUING_EXECUTION_2026-11-18.md). Three legal packets gained13 original-provision/date findings;12 primary URLs, provenance now348. All strict closure metrics unchanged. Targeted amendment/date tests PASS; full suite will be rerun at the end of the ongoing execution. Earlier bulk checkpoint below is a prior snapshot.
@@ -398,3 +400,5 @@ Source: WHO, *WHO presence in countries, territories and areas: 2023 report*, An
 Continuing batch2 (2026-11-18): provenance356;26 original statutory/date findings across nine packets, with no full packet closure. Austria/Belgium primary routes blocked; see `CONTINUING_EXECUTION_2026-11-18.md`. Targeted legal validator PASS; full current suite pending end of execution.
 
 Continuing batch3 (2026-11-18): provenance374;44 provision/date/translation findings across24 packets; canonical packet links refreshed;0/34 full legal packets. Targeted legal checks PASS; full current suite remains pending end of ongoing execution. See `CONTINUING_EXECUTION_2026-11-18.md` and `metrics_2026-11-18.json`.
+
+Continuing batch4 (2026-11-18): provenance380;50 legal findings across24 packets. Six original Irish founding/commencement/rename provisions reviewed; SI40/1996 internal date conflict retained. Failed DE/LU decision/delegation leads not promoted. Targeted checks PASS; full current suite pending.
