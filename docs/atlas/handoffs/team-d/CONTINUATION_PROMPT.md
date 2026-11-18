@@ -1,5 +1,7 @@
 # Team D — current continuation (updated 2026-11-18)
 
+**Shared Hugging Face addition requested by user:** [Reviewed resources and copy-ready Teams A–E prompt blocks](HUGGING_FACE_RESEARCH_SUPPLEMENT.md). Eleven resources screened; retrieval/OCR pilots and separate benchmarks proposed. No model/dataset execution or clinical verification claimed. The resource catalog is process-tool provenance and does not increase primary-evidence completion counts.
+
 **Ongoing execution after the user requested continued work:** read [CONTINUING_EXECUTION_2026-11-18.md](CONTINUING_EXECUTION_2026-11-18.md) first. Provenance348; three legal packets advanced by original amendments/competence texts, no full packet closure. Do not repeat already traced Danish five-Act chain. Next narrow blockers are implementing/signatory evidence and other unreviewed national original laws. Full native suite pending after these new inputs; prior full pass below is historical.
 
 
