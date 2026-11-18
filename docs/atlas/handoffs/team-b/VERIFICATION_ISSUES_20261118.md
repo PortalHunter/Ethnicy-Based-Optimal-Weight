@@ -81,3 +81,6 @@ Twenty-five issues cover all 29 active U-tier context rows. Shared artifact issu
 - [#143](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/143): Pakistani Celiac Society genuine local identity/publisher versus apparently templated SanFrancisco/Flexora contact. Substantive text retrieved, source not qualified; distinct Karachi entry retained.
 
 - [#144](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/144): Panama FUCEPA clinical wording and global-prevalence extrapolation; S2 education only, no measured national cohort or clinical approval.
+
+- #145: joint Argentine2025 hypertension consensus; gout estimates, comorbidity guidance and inconsistent template front matter. Source existence/roles verified; clinical/editorial correction remains independent.
+- #110 follow-up: SAR gout/CPPD conflict persists in the exact original and linked patient portal; existing U preserved. An access retry does not resolve the scientific conflict.

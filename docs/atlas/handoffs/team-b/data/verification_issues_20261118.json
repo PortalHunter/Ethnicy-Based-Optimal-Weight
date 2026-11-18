@@ -376,6 +376,15 @@
       "kind": "independent_clinical_and_population_review",
       "original_url": "https://celiacospanama.org/conoce-sobre-la-enfermedad/",
       "title": "Review FUCEPA celiac prevalence projection and clinical wording"
+    },
+    {
+      "org_id": "B-AR-SAHA",
+      "area_m49": "032",
+      "conditions": "hypertension|gout|high_chol",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/145",
+      "kind": "independent_clinical_and_editorial_review",
+      "original_url": "https://www.sac.org.ar/wp-content/uploads/2025/08/COMPLETO-E-41.pdf",
+      "title": "Review joint2025 consensus gout estimates and inconsistent front matter"
     }
   ]
 }

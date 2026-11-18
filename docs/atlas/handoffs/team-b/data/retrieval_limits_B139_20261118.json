@@ -1,0 +1,43 @@
+[
+  {
+    "key": "sar",
+    "url": "https://www.reumatologia.org.ar/enfermedades_reumaticas_detalle.php?IdEnfermedad=36",
+    "state": "U_preserved",
+    "checked_on": "2026-11-18",
+    "observation": "Original body accessible but CPPD versus gout conflict remains; independent issue110 open. Patient portal duplicates conflict, no independent correction."
+  },
+  {
+    "key": "perujournal",
+    "url": "https://revista.socreuma.org.pe/",
+    "state": "original_html_retrieved_by_second_route",
+    "checked_on": "2026-11-18",
+    "observation": "Official society journal own publication/Peru address read; search query gota returned no results and current archive lists2025/2026 only. Not exhaustive older journal search; agenda remains M."
+  },
+  {
+    "key": "perurad",
+    "url": "https://socpr.org.pe/2023/revistas/revrad1522011.pdf",
+    "state": "blocked_after_two_routes",
+    "checked_on": "2026-11-18",
+    "observation": "Web original timeout then verified curl404. Search-index body is only lead; no source qualification from snippet. Do not retry same artifact without new primary route."
+  },
+  {
+    "cache_key": "perujournal",
+    "sha256": "692c86c7f24f9d851f219af80a5ab38a86219fe4a94d21cfd49364f4930651b7",
+    "bytes": 17689
+  },
+  {
+    "cache_key": "peru-search",
+    "sha256": "4ffa2944993d3c0b9f51215033938ca221aaf15ce2a25005403ef50f751e7f4c",
+    "bytes": 16831
+  },
+  {
+    "cache_key": "peru-archive",
+    "sha256": "783c03474ac17e39cbc8a5cd130aa822679c4e88180b53f9c54df79aeb14b5e1",
+    "bytes": 13557
+  },
+  {
+    "cache_key": "peruidentity",
+    "sha256": "914bd8ad1dd37f87fea8aa7b635039e96222014c75fa48dbc00b3e1d9aa69def",
+    "bytes": 395672
+  }
+]
