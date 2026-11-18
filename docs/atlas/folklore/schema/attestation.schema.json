@@ -1,0 +1,264 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/tree/research/atlas-folklore-discovery-20261118/docs/atlas/folklore/schema/attestation.schema.json",
+  "title": "Atlas folklore attestation intake v0.1",
+  "description": "One source-attested telling/edition/recording, not a normalized merged story. Source leads may omit optional fields pending investigation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "attestation_id",
+    "motif_group_id",
+    "title_as_cataloged",
+    "source_url",
+    "source_kind",
+    "intake_status",
+    "rights_status",
+    "relationship_status",
+    "collected_at"
+  ],
+  "properties": {
+    "attestation_id": {
+      "type": "string",
+      "pattern": "^FOL-[0-9]{4,}$"
+    },
+    "motif_group_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "title_as_cataloged": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "archive_collection": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "archive_record_locator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_kind": {
+      "enum": [
+        "primary_archive_page",
+        "historical_publication",
+        "secondary_synthesis",
+        "scholarly_article",
+        "portal_or_collection",
+        "oral_audio",
+        "community_record",
+        "other"
+      ]
+    },
+    "original_language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "translation_language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "translation_provenance": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "storyteller_or_author": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "collector_or_editor": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "community_self_identification": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "location_as_recorded": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date_documented": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Documented date, exact/range/uncertain as source states. Not inferred from website copyright."
+    },
+    "date_narrative_setting": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "edition_or_recording_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_excerpt_locator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "retrieval_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "transmission_context": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reported_experience": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "narrative_explanation": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "practice_or_remedy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reported_outcome": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "concordance_notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "contradiction_notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "related_attestation_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relationship_status": {
+      "enum": [
+        "unknown",
+        "independent_telling",
+        "same_work_edition",
+        "translation",
+        "copy",
+        "adaptation",
+        "cross_cultural_analogue",
+        "disputed"
+      ]
+    },
+    "relationship_evidence_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "intake_status": {
+      "enum": [
+        "lead_only",
+        "source_verified",
+        "rights_reviewed",
+        "feature_extracted",
+        "hypothesis_proposed",
+        "expert_reviewed",
+        "eligible_for_separate_clinical_evidence_review",
+        "quarantined",
+        "restricted"
+      ]
+    },
+    "rights_status": {
+      "enum": [
+        "unknown",
+        "link_only",
+        "public_domain_verified",
+        "licensed_for_specific_use",
+        "permission_required",
+        "restricted",
+        "do_not_archive"
+      ]
+    },
+    "access_restrictions": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "cultural_governance_review": {
+      "enum": [
+        "not_started",
+        "required",
+        "approved",
+        "declined",
+        "not_applicable"
+      ]
+    },
+    "clinical_interpretation_status": {
+      "enum": [
+        "none",
+        "hypothesis_only",
+        "under_review",
+        "separate_clinical_review_required"
+      ]
+    },
+    "claims_evidence_urls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "collected_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "collector_notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
