@@ -1,0 +1,239 @@
+{
+  "created_on": "2026-11-18",
+  "parent_pr": 71,
+  "issues": [
+    {
+      "org_id": "B-PA-SPC",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/97",
+      "title": "[ATLAS Team B B-PA-SPC] Verify Panama acceptable HEARTS protocol original issuer"
+    },
+    {
+      "org_id": "B-PT-SPG",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/98",
+      "title": "[ATLAS Team B B-PT-SPG] Verify WGO Portuguese diet-and-gut translation imprint"
+    },
+    {
+      "org_id": "B-PT-SPGP",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/99",
+      "title": "[ATLAS Team B B-PT-SPGP] Verify ESPGHAN Portuguese celiac translation and annotation"
+    },
+    {
+      "org_id": "B-SS-UJMED",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/100",
+      "title": "[ATLAS Team B B-SS-UJMED] Verify PAMJ 2025 volume 51 publication-country imprint"
+    },
+    {
+      "org_id": "B-TD-UNDFSSH",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/101",
+      "title": "[ATLAS Team B B-TD-UNDFSSH] Verify JHC 2024 volume 3 issue 4 publisher imprint"
+    },
+    {
+      "org_id": "B-RW-RDA",
+      "conditions": "diabetes",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/102",
+      "title": "[ATLAS Team B B-RW-RDA] Verify diabetes source: Evaluation of care and clinical outcomes after an electronic medical record sy",
+      "original_url": "https://doi.org/10.1080/16549716.2025.2457826",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-SN-SOSECAR",
+      "conditions": "hypertension",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/103",
+      "title": "[ATLAS Team B B-SN-SOSECAR] Verify hypertension source: Recommandations de prise en charge de l'hypertension art\u00e9rielle (resource list",
+      "original_url": "https://sosecar.sn/information",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-PT-SPD",
+      "conditions": "diabetes",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/104",
+      "title": "[ATLAS Team B B-PT-SPD] Verify diabetes source: Forma\u00e7\u00e3o sobre Terapia Nutricional no Controlo Glic\u00e9mico",
+      "original_url": "https://www.spd.pt/",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-WS-SIMR",
+      "conditions": "diabetes, hypertension",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/105",
+      "title": "[ATLAS Team B B-WS-SIMR] Verify diabetes, hypertension source: SIMR\u2013MANUIA pilot randomized controlled trial programme, T2D component",
+      "original_url": "https://simr.ws/research",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-AT-FHCHOL",
+      "conditions": "high_chol",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/106",
+      "title": "[ATLAS Team B B-AT-FHCHOL] Verify high_chol source: Was ist Famili\u00e4re Hypercholesterin\u00e4mie?",
+      "original_url": "https://fhchol.at/fh-diagnose/was-ist-familiaere-hypercholesterinaemie/",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-BM-BDA",
+      "conditions": "diabetes",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/107",
+      "title": "[ATLAS Team B B-BM-BDA] Verify diabetes source: 2025 eye health & blood sugar community screening report",
+      "original_url": "https://www.diabetes.bm/blog/2025-screening-report",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-CN-FHCHINA",
+      "conditions": "high_chol",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/108",
+      "title": "[ATLAS Team B B-CN-FHCHINA] Verify high_chol source: 2026 China HoFH Patient Survival Status Survey Report \u2014 launch announcement",
+      "original_url": "https://www.fhchina.org.cn/en/sys-nd/117.html",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-PK-DAP",
+      "conditions": "diabetes",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/109",
+      "title": "[ATLAS Team B B-PK-DAP] Verify diabetes source: Pakistan\u2019s Recommendations for Optimal Management of diabetes from Primary to ",
+      "original_url": "https://www.dap.org.pk/documents/ClinicalGuidelines/PromptGuidelines.pdf",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-AR-SAR",
+      "conditions": "gout",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/110",
+      "title": "[ATLAS Team B B-AR-SAR] Verify gout source: Gota",
+      "original_url": "https://www.reumatologia.org.ar/enfermedades_reumaticas_detalle.php?IdEnfermedad=36",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-SE-SGF",
+      "conditions": "hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/111",
+      "title": "[ATLAS Team B B-SE-SGF] Verify hemochromatosis source: Information till Dig som har Hemokromatos",
+      "original_url": "https://svenskgastroenterologi.se/wp-content/uploads/2022/09/information-hemokromatos-1.pdf",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-VU-WSB",
+      "conditions": "hypertension",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/112",
+      "title": "[ATLAS Team B B-VU-WSB] Verify hypertension source: Community utilisation of the diabetes support program at Wan Smol Bag Theatre,",
+      "original_url": "https://moh.gov.vu/healthsymposium/docs/2022/SEYMOUR%2C%20Jessica.pdf",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-GL-ILISIMATUSARFIK",
+      "conditions": "diabetes, hypertension, high_chol",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/113",
+      "title": "[ATLAS Team B B-GL-ILISIMATUSARFIK] Verify diabetes, hypertension, high_chol source: Befolkningsunders\u00f8gelsen i Gr\u00f8nland 2018. Levevilk\u00e5r, livsstil og helbred",
+      "original_url": "https://www.sdu.dk/-/media/images/sif/udgivelser/2019/befolkningsundersoegelsen_i_groenland_2018_dansk.pdf",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-ST-USTPICS",
+      "conditions": "hypertension",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/114",
+      "title": "[ATLAS Team B B-ST-USTPICS] Verify hypertension source: Regional variation in incidence and mortality due to hypertension in Sao Tome ",
+      "original_url": "https://bibliotecadigital.ipb.pt/bitstreams/35b2880f-80cc-4912-9ee2-12da1c9de7f8/download",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-SY-DAMMED",
+      "conditions": "celiac",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/115",
+      "title": "[ATLAS Team B B-SY-DAMMED] Verify celiac source: Celiac Disease in Syrian Children and Adolescents with Type 1 Diabetes Mellitu",
+      "original_url": "https://www.thieme-connect.de/products/ejournals/pdf/10.1055/s-0043-1768462.pdf",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-TM-TDLU",
+      "conditions": "hypertension, high_chol",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/116",
+      "title": "[ATLAS Team B B-TM-TDLU] Verify hypertension, high_chol source: Arterial gipertenzi\u00fdaly n\u00e4saglarda \u00fd\u00fcrek-damar kesellerini\u0148 esasy howp faktorl",
+      "original_url": "https://tdlu.edu.tm/storage/app/media/2-2025lukmancylykjurnal273807-1compressedcompressed.pdf",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-IE-CROI",
+      "conditions": "high_chol",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/117",
+      "title": "[ATLAS Team B B-IE-CROI] Verify high_chol source: Familial Hypercholesterolaemia | Cro\u00ed",
+      "original_url": "https://croi.ie/heart/familial-hypercholesterolaemia/",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-CL-SCHG",
+      "conditions": "lactose",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/118",
+      "title": "[ATLAS Team B B-CL-SCHG] Verify lactose source: Segundo Congreso de pacientes con enfermedades digestivas 2021: lactose talk a",
+      "original_url": "https://sociedadgastro.cl/gastroweb/documentos/2021/Congreso_pacientes_programa_2.pdf",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-CA-CCS",
+      "conditions": "high_chol",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/119",
+      "title": "[ATLAS Team B B-CA-CCS] Verify high_chol source: CCS Guidelines and Clinical Practice Update Library \u2014 Dyslipidemia",
+      "original_url": "https://ccs.ca/guidelines-and-clinical-practice-update-library/",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-LT-LDA",
+      "conditions": "diabetes",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/120",
+      "title": "[ATLAS Team B B-LT-LDA] Verify diabetes source: Lietuvos diabeto asociacija \u2014 Diabetas periodical and publication index",
+      "original_url": "https://www.dia.lt/",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-IE-CSI",
+      "conditions": "lactose",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/121",
+      "title": "[ATLAS Team B B-IE-CSI] Verify lactose source: Other Linked Conditions \u2014 Coeliac Society of Ireland",
+      "original_url": "https://coeliac.ie/about-coeliac-disease/other-linked-conditions/",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-CL-SCHG",
+      "conditions": "hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/122",
+      "title": "[ATLAS Team B B-CL-SCHG] Verify hemochromatosis source: Manual de Diagn\u00f3stico y Tratamiento de las Enfermedades Digestivas2021",
+      "original_url": "https://www.sociedadgastro.cl/gastroweb/index.php/publicaciones/e-books/manual-2021",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-KE-KCS",
+      "conditions": "hypertension",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/123",
+      "title": "[ATLAS Team B B-KE-KCS] Verify hypertension source: Our Projects \u2014 Home Blood Pressure Telemonitoring Study",
+      "original_url": "https://kenyacardiacs.org/2022-projects/",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-IS-GLUTEN",
+      "conditions": "celiac",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/124",
+      "title": "[ATLAS Team B B-IS-GLUTEN] Verify celiac source: A\u00f0 bj\u00f3\u00f0a upp \u00e1 gl\u00fatenlausan mat",
+      "original_url": "https://gluten.is/wp-content/uploads/2018/05/mec3b0hc3b6ndlun-glc3batenlaust-fc3a6c3b0is.pdf",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-IE-CROI",
+      "conditions": "hypertension",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/125",
+      "title": "[ATLAS Team B B-IE-CROI] Verify hypertension source: Blood Pressure | Cro\u00ed Heart & Stroke Charity",
+      "original_url": "https://croi.ie/heart/risk-factors/blood-pressure/",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-PL-PTR",
+      "conditions": "gout",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/126",
+      "title": "[ATLAS Team B B-PL-PTR] Verify gout source: Biuletyn Sekcji M\u0142odych Reumatolog\u00f3w PTR 12/2016 \u2014 Kolchicyna w leczeniu dny m",
+      "original_url": "https://www.reumatologia.ptr.net.pl/files/biuletyn_mr_grudzien16.pdf",
+      "kind": "source_U"
+    },
+    {
+      "org_id": "B-GU-UOG",
+      "conditions": "gout",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/127",
+      "kind": "community_governance",
+      "original_url": "https://link.springer.com/article/10.1186/s12889-025-21643-5",
+      "title": "Verify community data-governance limits for Guam gout feasibility study"
+    }
+  ]
+}
