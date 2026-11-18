@@ -1,4 +1,4 @@
-**Current batch4 validation (2026-11-18): PASS.** Native Node v24.22.3 full checked-in validator exits0 with empty stderr; targeted legal validator also PASS. Sources380;50 provision/date/translation findings across24 packets;0/34 full legal packets. Execution metadata,82 input SHA256 hashes and stdout/stderr are in `validation_continuing_2026-11-18.*`. Tested batch inputs match the published bytes after tree verification. Older pending/full-runtime statements below describe earlier stages. No CI, independent legal/clinical approval or semantic signoff claimed.
+**Current batch5 (2026-11-18):** 48 existing office gaps qualified using three directly retrieved WHO/PAHO directories:20 published in-area addresses,27 offshore contacts,one coordination entry without premises. No April positive, office absence, WHO-region or full legal promotion. Sources382; legal findings50 across24 packets. Targeted directory/backlog and legal checks PASS. The earlier full native batch4 PASS is preserved in `validation_continuing_2026-11-18.*`; full validation of changed batch5 inputs remains pending end of ongoing execution.
 
 ## Current native validation — 18 November 2026
 

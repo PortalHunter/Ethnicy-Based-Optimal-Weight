@@ -48,7 +48,7 @@ function checkRefs(refs) {
 }
 for(const r of regions){assert.equal(r.new_state,'not_verified');assert.equal(r.http_status,'200');assert.equal(r.profile_result,'GENERIC_COUNTRIES_INDEX_NOT_INDIVIDUAL_PROFILE');checkRefs(r.existing_evidence_rows);}
 assert.equal(new Set(regions.map(r=>r.response_sha256)).size,1);
-for(const r of officeReview){assert.equal(r.april_survey_state,'NO_AFFIRMATIVE_APRIL_JOIN');assert.equal(r.documented_absence,'NOT_ESTABLISHED');assert.equal(r.present_day_physical_presence,'UNKNOWN_NOT_PROVEN_BY_THIS_RECONCILIATION');checkRefs(r.supporting_rows);}
+for(const r of officeReview){assert.equal(r.april_survey_state,'NO_AFFIRMATIVE_APRIL_JOIN');assert.equal(r.documented_absence,'NOT_ESTABLISHED');assert(['UNKNOWN_NOT_PROVEN_BY_THIS_RECONCILIATION','CURRENT_PUBLISHED_IN_AREA_ADDRESS','CURRENT_PUBLISHED_OFFSHORE_CONTACT_LOCAL_PREMISES_UNKNOWN','CURRENT_PUBLISHED_COORDINATION_CONTACT_PREMISES_UNKNOWN'].includes(r.present_day_physical_presence));checkRefs(r.supporting_rows);}
 const originalOffices=data('who_country_office_presence.csv');
 const roster=data('who_office_survey_roster_2026.csv');
 const reconciliation=data('who_office_april_reconciliation_2026-11-18.csv');
@@ -82,10 +82,33 @@ for(const r of packets) {
 assert.equal(packets.filter(r=>r.exact_team_a_id).length,4);
 const legal=data('national_legal_primary_findings_2026-11-18.csv');assert.equal(legal.length,6);
 for(const r of legal){assert.equal(source.get(r.source_id)?.source_url,r.source_url);assert.equal(r.packet_state,'PARTIAL_NOT_FULL_LEGAL_PACKET');for(const id of r.candidate_ids.split('|'))assert(candidates.some(x=>x.record_id===id));}
-for(const r of networks){for(const id of r.source_ids.split('|').filter(Boolean))assert(source.has(id));for(const url of r.source_urls.split('|').filter(Boolean))assert(prov.some(x=>x.source_url===url));}
+for(const r of networks){const ids=r.source_ids.split('|'),urls=r.source_urls.split('|');assert.equal(ids.length,urls.length);ids.forEach((id,i)=>assert.equal(source.get(id)?.source_url,urls[i]));}
 const access=data('primary_access_manifest_2026-11-18.csv');assert.equal(access.length,54);assert.equal(by(access,'retrieval_key').size,54);
 for(const r of access){assert(r.requested_url.startsWith('https://'));if(r.http_status==='200')assert.match(r.sha256,/^[a-f0-9]{64}$/);}
 for(const r of regions)assert(access.some(x=>x.requested_url===r.attempted_profile_url&&x.sha256===r.response_sha256));
 assert.equal(access.find(r=>r.retrieval_key==='TD-SRC-290').content_type,'text/html; charset=UTF-8');
 assert.equal(access.find(r=>r.retrieval_key==='SCI-API').content_type,'application/pdf');
 console.log('Bulk review PASS: 234 distinct subject-matter backlog records; 10 additional exact April source joins; 4 exact Team A label joins; 0 full backlog closures.');
+
+// Current undated contact listings cannot create historical survey positives or local absences.
+const current=data('who_office_current_directory_review_2026-11-18.csv');
+assert.equal(current.length,48);assert.equal(by(current,'backlog_id').size,48);
+for(const r of current){
+ assert.equal(source.get(r.source_id)?.source_url,r.source_url);
+ const prior=officeReview.find(x=>x.backlog_id===r.backlog_id);assert(prior);
+ assert.equal(prior.m49_code,r.country_area_m49);assert.equal(prior.present_day_physical_presence,r.published_listing_state);
+ assert(!april.has(r.country_area_m49));assert.equal(r.april_survey_evidence,'NO_NEW_APRIL_EVIDENCE');
+ assert.equal(r.absence_claim,'NOT_ESTABLISHED');assert.equal(r.full_backlog_closure,'NO');
+ if(r.published_listing_state==='CURRENT_PUBLISHED_IN_AREA_ADDRESS')assert.equal(r.listed_host_m49,r.country_area_m49);
+ else if(r.listed_host_m49)assert.notEqual(r.listed_host_m49,r.country_area_m49);
+}
+assert.equal(current.filter(x=>x.published_listing_state==='CURRENT_PUBLISHED_IN_AREA_ADDRESS').length,20);
+assert.equal(current.filter(x=>x.published_listing_state==='CURRENT_PUBLISHED_OFFSHORE_CONTACT_LOCAL_PREMISES_UNKNOWN').length,27);
+assert.equal(current.filter(x=>!x.listed_host_m49).length,1);
+assert.equal(current.find(x=>x.country_area_m49==='124').listed_host_m49,'840');
+assert.equal(current.find(x=>x.country_area_m49==='776').listed_office_type,'WHO_COUNTRY_LIAISON_OFFICE');
+assert.equal(current.find(x=>x.country_area_m49==='276').listed_office_type,'WHO_TECHNICAL_CENTRE_NOT_COUNTRY_OFFICE');
+assert.equal(current.find(x=>x.country_area_m49==='056').listed_office_type,'WHO_EU_REPRESENTATION_NOT_COUNTRY_OFFICE');
+const contactAccess=data('current_office_directory_access_2026-11-18.csv');assert.equal(contactAccess.length,3);
+for(const r of contactAccess){assert.equal(source.get(r.source_id)?.source_url,r.source_url);assert.match(r.sha256,/^[a-f0-9]{64}$/);}
+console.log('Current directory review PASS:48 backlog areas;20 in-area address listings,27 offshore contacts,one coordination contact; no April or absence promotions.');

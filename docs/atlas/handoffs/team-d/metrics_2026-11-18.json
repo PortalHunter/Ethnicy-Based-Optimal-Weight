@@ -48,13 +48,19 @@
     }
   ],
   "provenance_before": 330,
-  "provenance_after": 380,
-  "source_only_urls_added": 50,
+  "provenance_after": 382,
+  "source_only_urls_added": 52,
   "new_nonapplicability_or_absence_findings": 0,
   "native_tested_commit": "8501c9f2f79cb235dfcef52059a3596d8283ee5e",
   "continuing_legal_findings": 50,
   "continuing_legal_packets_partially_advanced": 24,
   "hf_resources_screened": 11,
-  "full_current_suite": "PASS_NATIVE_NODE_V24_22_3_ON_RECORDED_BATCH4_INPUT_HASHES",
-  "current_validation_manifest": "validation_continuing_2026-11-18.json"
+  "full_current_suite": "PENDING_CHANGED_BATCH5_INPUTS",
+  "current_validation_manifest": "validation_continuing_2026-11-18.json",
+  "current_directory_review_backlog_records": 48,
+  "current_directory_local_address_cases": 20,
+  "current_directory_offshore_contact_cases": 27,
+  "current_directory_coordination_without_premises_cases": 1,
+  "latest_targeted_validation": "PASS_DIRECTORY_TYPOLOGY_BACKLOG_AND_LEGAL_CHECKS",
+  "team_a_live_head_checked": "c4ac494941a6d0db58355cae4cc3d660d442d5f4"
 }
