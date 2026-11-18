@@ -116,3 +116,11 @@ The candidate [variant and source dependency watchlist](variants/variant-candida
 See [Niche Discovery Rubric](NICHE_DISCOVERY_RUBRIC.md). It requires source/rights gates, descriptive feature extraction blinded to diagnoses, alternative explanations, explicit disconfirmation tests, independent review, and nonmedical negative controls. **Story rarity is not a positive score**; rarity can result from survival and digitization bias. Historical labels such as `ague`, `consumption`, `cancer`, or `falling sickness` do not prove a modern medical diagnosis, and folk cures must never become treatment recommendations.
 
 Latest count is [731 in the snapshot manifest](intake/catalog-manifest-2026-11-18.json). The quality-control 100-attestation pilot remains a sampling exercise, not a collection limit.
+
+## Latest Europe and Southeast Asia provenance pass — 903 mixed records (2026-11-18)
+
+A further [172 metadata records](ROUND_3_COLLECTION_2026-11-18.md) increase the working manifest from 731 to **903**: 92 Swedish, Romanian, Russian and Armenian/Caucasus printed anthology entries; 63 early Philippine 1902–1907 regional published tales and chapter locators; 9 individually traceable Philippine source-lineage items from Beyer's 1913 synthesis; and 8 passage/variation notes from Fay-Cooper Cole 1915. Of 63 Philippine items, **24** have a verified part/chapter number but no title transcribed yet. Blank titles are intentional; not extrapolated.
+
+The [variant watchlist](variants/variant-candidate-watchlist-2026-11-18.csv) now tracks **19** candidate relationships. The new ones connect printed `Monkey and Turtle` material from 1902/1906–07 to 1916/1921 editions, potential `Benito` links, and sources associated with six Tinguian storytellers in four towns; independence is not yet demonstrated. The Armenian Caucasus material is categorized **transcontinental** rather than automatically European.
+
+The 903 entries include book-level tale titles, individual chapter locators, small excerpt pointers, academic summaries and previous leads. Direct URL strings = **106**, because one historical book contains many numbered sections. The long-range goal remains thousands of properly sourced individual attestations, with medical review separate from folklore collection. No change to `main`, Team B or clinical Atlas files.
