@@ -1,0 +1,13 @@
+source_id,retrieval_key,requested_url,http_status,content_type,response_bytes,sha256,checked_on
+TD-SRC-337,DE-AMG,https://www.gesetze-im-internet.de/amg_1976/BJNR024480976.html,200,text/html,821218,465d7d31e31cc86029da67317c76c833e4009c6bf614a0e61659025b42bc2f49,2026-11-18
+TD-SRC-338,DE-PEI-REG,https://www.gesetze-im-internet.de/pehrlinstzustv/PEhrlInstZustV.pdf,200,application/pdf,35478,0745a127d06bd57efbdff86422b8883f14c1e927f830fe19ab15b05a75678681,2026-11-18
+TD-SRC-339,DK-ACT,https://www.retsinformation.dk/api/pdf/234228,200,application/pdf,741635,c2cd765a87b4078571a089ddc6e975b4f1903cc4a5f32ccf075c7859b5fbb43e,2026-11-18
+TD-SRC-340,DK-2023-1550,https://www.retsinformation.dk/eli/lta/2023/1550/dan/pdf,200,application/pdf,140851,fbd401d891c90e726c2c89d36398d8f7e73c198b8d86de4c967c917ccac07b13,2026-11-18
+TD-SRC-341,DK-2023-1778,https://www.retsinformation.dk/eli/lta/2023/1778/dan/pdf,200,application/pdf,157792,96cd7d594e77ac966ff4808bf4baa22f078e976eeb896b7df819322ecbec9704,2026-11-18
+TD-SRC-342,DK-2024-646,https://www.retsinformation.dk/eli/lta/2024/646/dan/pdf,200,application/pdf,189748,4757a1499f27a9a052f0fa5f471bb0a812b529768a08490b23d5dbde0824a5fe,2026-11-18
+TD-SRC-343,DK-2024-650,https://www.retsinformation.dk/eli/lta/2024/650/dan/pdf,200,application/pdf,135900,0adcea25f44ad9bde5e2dc9f11afe41f06a5a58c7e467deffe5f4fd084e4f082,2026-11-18
+TD-SRC-344,DK-2025-406,https://www.retsinformation.dk/eli/lta/2025/406/dan/pdf,200,application/pdf,131115,6a175844b0e10e320880cca7d5ba789b1788ee639af6e1d9357d6de0daba8d16,2026-11-18
+TD-SRC-345,DE-AMEND-321,https://www.recht.bund.de/bgbl/1/2026/321/VO.html,200,text/html;charset=utf-8,41275,791748a9fdad9ebe0714548f4611d6758226faa5caa5271a9da1f0dd29f84d93,2026-11-18
+TD-SRC-346,DE-AMEND-321-PDF,https://www.recht.bund.de/bgbl/1/2026/321/regelungstext.pdf?__blob=publicationFile&v=1,200,application/pdf;charset=UTF-8,330568,9899f7827249e2541aded49dab467e82fa04fa5cfd3a911fdfcbdb08688898bb,2026-11-18
+TD-SRC-347,DE-BGA,https://www.gesetze-im-internet.de/bga-nachfg/BJNR141610994.html,200,text/html,13050,68e0296e1993eaa01090bd11aa430a84ea47a860738f12af2705b46774b017e1,2026-11-18
+TD-SRC-348,DE-BASIG,https://www.gesetze-im-internet.de/basig/BJNR011630972.html,200,text/html,17331,ca34eb8f14dd99dd6fef8abda7775383f6d2eca172326b761d753f2c83560c80,2026-11-18

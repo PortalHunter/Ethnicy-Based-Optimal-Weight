@@ -1,5 +1,8 @@
 ## Current native validation — 18 November 2026
 
+**Ongoing continuation:** Original-law inputs changed after the8501c9f full-suite pass below. New targeted amendment/source/date checks PASS (`validate_legal_amendments_2026-11-18.py`); **full current snapshot suite not rerun yet**. [Current execution log](CONTINUING_EXECUTION_2026-11-18.md).
+
+
 **PASS:** full checked-in `node docs/atlas/handoffs/team-d/validate.mjs`, native **Node v24.22.3**, tested commit **`8501c9f2f79cb235dfcef52059a3596d8283ee5e`**, exit **0**, empty stderr. [Execution metadata and input SHA256 hashes](validation_2026-11-18.json), [complete stdout](validation_2026-11-18.stdout.txt), [stderr](validation_2026-11-18.stderr.txt). Includes original full suite plus bulk assertions: all 234 subject-matter cases and two review gates, exact source-row references, retained unverified regions, no office absences, 95+10 independent April joins, four exact Team A label joins and six partial original-law findings. Historical diagnostic wording inside stdout describes earlier batches, not current execution status.
 
 First run failed only in a new assertion that treated the `not_verified` Pristina sentinel as an M49 code. Fixed numeric filtering and explicitly asserted the unmatched April label; no research data changed to satisfy that test. Failed logs and metadata retained as `validation_2026-11-18.attempt1.*`. Final data/validator input hashes remain unchanged through documentation/log completion. No CI/Actions execution, full legal/clinical appraisal, complete independent semantic source review, or maintainer acceptance is claimed. Earlier unexecuted-runtime statements below are historical.

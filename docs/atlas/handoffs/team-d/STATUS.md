@@ -1,5 +1,8 @@
 ## Current — 18 November 2026 bulk review
 
+**Ongoing continuation:** [Current execution log](CONTINUING_EXECUTION_2026-11-18.md). Three legal packets gained13 original-provision/date findings;12 primary URLs, provenance now348. All strict closure metrics unchanged. Targeted amendment/date tests PASS; full suite will be rerun at the end of the ongoing execution. Earlier bulk checkpoint below is a prior snapshot.
+
+
 [Canonical batch report and metrics](BULK_PROGRESS_2026-11-18.md). **236 reviewed/classified; zero full backlog closures.** All 44 WHO-region cases, 12 network questions, 144 office-evidence cases, 34 legal packets and two held acceptance gates covered. Ten exact official April survey joins reconcile strict source evidence **95→105/249**; four exact Team A entity-label joins qualified; Malta operative delegation PDF and original SCI statement recovered. WHO regions 205/249, complete legal packets 0/34, graph 47/619 unchanged; sources 330→336. Full native Node v24.22.3 validation PASS at `8501c9f2f79cb235dfcef52059a3596d8283ee5e`; [inspectable execution record](validation_2026-11-18.json). Remaining 236 strict cases retain their original criteria; classifications are not completion inflation. No new absence/nonapplicability finding or legal/clinical/maintainer approval. Earlier status figures below are historical.
 
 ## Batch 57 — four old-gap audits, five original-source leads (2026-11-07)
