@@ -21,8 +21,8 @@ by_source = {r['source_id']: r for r in sources}
 rows = read('data/regulator_amendment_review_2026-11-18.csv')
 access = read('data/legal_source_access_2026-11-18.csv')
 backlog = {r['id'] for r in read('data/consolidated_case_backlog_2026-11-07.csv')}
-assert len(rows) == len({r['record_id'] for r in rows}) == 26
-assert len(access) == 20
+assert len(rows) == len({r['record_id'] for r in rows}) == 44
+assert len(access) == 37
 assert {r['requested_url'] for r in access} == {by_source[r['source_id']]['source_url'] for r in access}
 for row in rows:
     assert row['source_url'] == by_source[row['source_id']]['source_url']
@@ -42,10 +42,10 @@ assert len(future) == 1
 assert datetime.date.fromisoformat(future[0]['effective_from']) > datetime.date(2026, 11, 18)
 assert future[0]['effective_from'] == '2026-12-09'
 assert future[0]['source_id'] == 'TD-SRC-346'
-assert len({case for r in rows for case in r['backlog_ids'].split('|')}) == 9
+assert len({case for r in rows for case in r['backlog_ids'].split('|')}) == 24
 failed = read('data/legal_failed_routes_2026-11-18.csv')
 assert len(failed) == 6
 assert any(r['classification'] == 'REJECTED_HTML_CHALLENGE_NOT_PDF' and r['retrieval_key'] == 'BE-REGULATION' for r in failed)
 assert not any(r['retrieval_key'] == 'BE-REGULATION' for r in access)
 assert len([r for r in rows if r['date_state'] == 'FUTURE_FINNISH_PROVISIONS_NOT_PROMOTED']) == 1
-print('PASS: 26 original statutory/date findings across nine packets; 20 authenticated sources; six failed/rejected routes; Danish amendments and future German/Finnish provisions preserved; zero full packet closures.')
+print('PASS: 44 provision/date/translation findings across 24 packets; 37 authenticated downloads; future-law and inaccessible-source safeguards; zero full packet closures.')

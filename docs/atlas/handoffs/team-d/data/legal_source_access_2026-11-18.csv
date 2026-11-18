@@ -19,3 +19,20 @@ TD-SRC-353,ES-STATUTE,https://www.boe.es/buscar/act.php?id=BOE-A-2011-15044,200,
 TD-SRC-354,ES-MEDICINES,https://www.boe.es/buscar/act.php?id=BOE-A-2015-8343,200,text/html; charset=UTF-8,764351,6bbff0f6e405fa8933269ece4f80be76c423e126c6d6bf8db4492d9ad77a05ce,2026-11-18
 TD-SRC-355,NL-MEDICINES-DEFAULT,https://wetten.overheid.nl/BWBR0021505,200,text/html;charset=UTF-8,1159230,5b3ebb6670a28485be95a40bbdc1493ad5e616593638cc2b9eacb3f46e2eb9e8,2026-11-18
 TD-SRC-356,NL-WMO-DEFAULT,https://wetten.overheid.nl/BWBR0009408,200,text/html;charset=UTF-8,382741,e974c5d94c7356daaa88dee1a649c7c86afeb6ed00891811e02875bc8b7ebb71,2026-11-18
+TD-SRC-357,IE-FOUND,https://www.irishstatutebook.ie/eli/1995/act/29/section/4/enacted/en/html,200,text/html,37244,411f06a9e383187ad03bc93fa6069517300114a1e44b44eafd5d6060ef3a6968,2026-11-18
+TD-SRC-358,IE-REV,https://revisedacts.lawreform.ie/eli/1995/act/29/revised/en/html,200,text/html; charset=utf-8,547280,9b9e19acbf6281727e77758d94ad73afddc47e7445a941b78f637d469fe92cd1,2026-11-18
+TD-SRC-359,LV-ACT,https://likumi.lv/ta/en/id/43127-pharmaceutical-law,200,text/html; charset=UTF-8,225750,fa3f4306a960af9c55f499336ca7717e0760ec11b2a777e44c570c0a235faf16,2026-11-18
+TD-SRC-360,LV-NATIVE,https://likumi.lv/ta/id/43127-farmacijas-likums,200,text/html; charset=UTF-8,387589,08527c86ec55376b2ae11ebd59b77527b2dde25209acff520f1572f0eb16ffe6,2026-11-18
+TD-SRC-361,PT-ORGANIC,https://www.infarmed.pt/documents/15786/1065790/007_Dec-Lei_46_2012_1ALT.pdf,200,application/pdf,141387,8737e4eb68360125d2f2ed4fba625bd5a4ea6a3c6e534c030c812613758922f1,2026-11-18
+TD-SRC-362,HR-ACT,https://narodne-novine.nn.hr/clanci/sluzbeni/2013_06_76_1522.html,200,text/html; charset=utf-8,313605,709bb656b8f8be0fb6aee322a12a31ce80106fc8444ef6e52997cb4b79ac3ac2,2026-11-18
+TD-SRC-363,SI-ACT,https://www.jazmp.si/fileadmin/datoteke/seznami/en/ZZdr-2_ANG.pdf,200,application/pdf,770302,7a9b6294f252c11679e43f612aef08620eea4e20ba3a71f56aca04530d95842a,2026-11-18
+TD-SRC-364,SK-ACT,https://static.slov-lex.sk/pdf/SK/ZZ/2011/362/ZZ_2011_362_20250131.pdf,200,application/pdf,4241591,fbf3a12a53808d8e1c90be43c814e789ec07400f8303f355d760e51a42c3b2ad,2026-11-18
+TD-SRC-365,IS-ACT,https://www.government.is/library/04-Legislation/Medicinal%20Products%20Act%20No.%20100_2020_as%20amended%202020%20and%202022.pdf,200,application/pdf,511948,ab4035152f21799456e9c1801b78068ecb0c5986d870d69b8ab9256a114a39c6,2026-11-18
+TD-SRC-366,HU-ORGANIC,https://njt.jog.gov.hu/jogszabaly/2023-333-20-22,200,text/html; charset=UTF-8,95531,643fb6cecf5eac4628fdfd71177b6f95838069c07bdf72d1f6edf02d3e875bac,2026-11-18
+TD-SRC-367,BG-ACT,https://www.bda.bg/images/stories/documents/legal_acts/201910_MEDICINAL%20PRODUCTS%20IN%20HUMAN%20MEDICINE%20ACT.pdf,200,application/pdf,1148698,5b14d5f24f0a1569271f53696a0f1efb0a8947ccb707e73f06139fed9afea1e9,2026-11-18
+TD-SRC-368,IT-ACT,https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-24;219,200,text/html;charset=UTF-8,242093,afdb49c270106832aadf13ca91947038fa6114571745b027a06f95612ca8df69,2026-11-18
+TD-SRC-369,IT-ART6,https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-24;219~art6,200,text/html;charset=UTF-8,221780,6fdcfd5b1fe0e041d2bffa3ccd51a76485fd99dcc4ca839cbfcb573200500344,2026-11-18
+TD-SRC-370,LI-HIST,https://www.gesetze.li/konso/pdf/1990075000?version=5,200,application/pdf;charset=UTF-8,191921,a87aa7ce0cd7ea52b125dee3a73979e616f84c5b5e7651424f2a9d032c1f46d6,2026-11-18
+TD-SRC-371,PL-OFFICE,https://api.sejm.gov.pl/eli/acts/DU/2011/451/text.html,200,text/html;charset=utf-8,516626,bedf9099125541445e1265c1b1e96b0139006baf88a10a83afa2b7d0053c024d,2026-11-18
+TD-SRC-372,PL-PHARMA,https://api.sejm.gov.pl/eli/acts/DU/2001/1381/text.html,200,text/html;charset=utf-8,902006,e90a5d239cf2a65583e4e307a26d78839e4ab23bfc88dd54ade8e24beb89bef4,2026-11-18
+TD-SRC-373,LU-PORTAL,https://santesecu.public.lu/fr/espace-professionnel/departement-sante/pharmacies-et-medicaments/medicaments-humains/autorisation-mise-sur-le-marche.html,200,text/html; charset=utf-8,98126,a31a157d5a2014f893dd90983b728fcaddb0c01d1cec054486d2f631c883c9ed,2026-11-18

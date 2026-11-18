@@ -31,3 +31,5 @@ Validate with full checked-in Node script on an authorized complete checkout whe
 **Reusable user prompt:** Continue Team D in PR #70 on `research/atlas-team-d-20261104`. Follow `docs/atlas/handoffs/team-d/CONTINUATION_PROMPT.md` and its consolidated checkpoint and finite backlog. Close or escalate existing evidence gaps only; no routine broad discovery. Commit, independently read back, validate within Team D; keep PR draft/unmerged and show exact before/after 20-slot evidence progress and original acceptance gaps.
 
 Continuing batch2 (2026-11-18): provenance356;26 original statutory/date findings across nine packets, with no full packet closure. Austria/Belgium primary routes blocked; see `CONTINUING_EXECUTION_2026-11-18.md`. Targeted legal validator PASS; full current suite pending end of execution.
+
+Continuing batch3 (2026-11-18): provenance374;44 provision/date/translation findings across24 packets; canonical packet links refreshed;0/34 full legal packets. Targeted legal checks PASS; full current suite remains pending end of ongoing execution. See `CONTINUING_EXECUTION_2026-11-18.md` and `metrics_2026-11-18.json`.

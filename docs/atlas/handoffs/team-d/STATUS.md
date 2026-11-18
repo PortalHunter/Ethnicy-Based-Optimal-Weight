@@ -396,3 +396,5 @@ Source: WHO, *WHO presence in countries, territories and areas: 2023 report*, An
 4. Preserve open governance questions and stale-source conflicts.
 
 Continuing batch2 (2026-11-18): provenance356;26 original statutory/date findings across nine packets, with no full packet closure. Austria/Belgium primary routes blocked; see `CONTINUING_EXECUTION_2026-11-18.md`. Targeted legal validator PASS; full current suite pending end of execution.
+
+Continuing batch3 (2026-11-18): provenance374;44 provision/date/translation findings across24 packets; canonical packet links refreshed;0/34 full legal packets. Targeted legal checks PASS; full current suite remains pending end of ongoing execution. See `CONTINUING_EXECUTION_2026-11-18.md` and `metrics_2026-11-18.json`.
