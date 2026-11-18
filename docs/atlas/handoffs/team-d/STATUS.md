@@ -394,3 +394,5 @@ Source: WHO, *WHO presence in countries, territories and areas: 2023 report*, An
 2. Current WHO office presence as of 2026 remains unresolved for 239 candidate areas; distinguish single-country office, physical country-programme specialist under an MCO, liaison office and focal-point coverage.
 3. Verify time-specific legal remits and rosters for Africa CDC/AU, ASEAN, EMRN and condition networks; coordinate explicit identity joins with other teams.
 4. Preserve open governance questions and stale-source conflicts.
+
+Continuing batch2 (2026-11-18): provenance356;26 original statutory/date findings across nine packets, with no full packet closure. Austria/Belgium primary routes blocked; see `CONTINUING_EXECUTION_2026-11-18.md`. Targeted legal validator PASS; full current suite pending end of execution.

@@ -342,3 +342,5 @@ Final handoff after batch6: 317 edges;205 verified statuses;44 not_verified;111 
 - 153 Annex 2 rows have a candidate M49 join; Kosovo is retained without an M49 join. One Cyprus row records Jan 2023 establishment; Israel host-agreement uncertainty retained.
 - Structural validator checks source closure, unique historical row IDs, M49-indexed endpoints, office-node endpoints, exact type counts and separation of current ten SEARO office attestations from historical 2023 report data.
 - The historical batch does not establish current 2026 office presence or country/area absences. Regional focal point is not physical office; MCO coverage is not WHO constitutional membership.
+
+Continuing batch2 (2026-11-18): provenance356;26 original statutory/date findings across nine packets, with no full packet closure. Austria/Belgium primary routes blocked; see `CONTINUING_EXECUTION_2026-11-18.md`. Targeted legal validator PASS; full current suite pending end of execution.
