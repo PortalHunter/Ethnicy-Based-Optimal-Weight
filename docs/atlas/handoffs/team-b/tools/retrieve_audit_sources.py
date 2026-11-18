@@ -2,6 +2,8 @@
 Usage: bundled-python retrieve_audit_sources.py INDEX_JSON CACHE_DIR
 Temporary full text stays outside the repository. At most four concurrent requests.
 """
+import logging
+logging.getLogger("pypdf").setLevel(logging.ERROR)
 import concurrent.futures, hashlib, html.parser, io, json, pathlib, sys, urllib.request
 class Text(html.parser.HTMLParser):
  def __init__(self): super().__init__(); self.parts=[]; self.skip=0
@@ -13,7 +15,9 @@ class Text(html.parser.HTMLParser):
   if not self.skip and s.strip(): self.parts.append(s.strip())
 def retrieve(url):
  path=cache/(hashlib.sha256(url.encode()).hexdigest()+'.json')
- if path.exists():return
+ if path.exists():
+  try:json.loads(path.read_text());return
+  except (ValueError,UnicodeError):pass
  result={'requested_url':url}
  try:
   req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; ATLAS evidence inventory audit)'})
@@ -25,7 +29,7 @@ def retrieve(url):
   else:
    parser=Text(); parser.feed(b.decode('utf-8',errors='replace')); result['text']='\n'.join(parser.parts)
  except Exception as e: result['error']=str(e)
- path.write_text(json.dumps(result,ensure_ascii=False))
+ path.write_text(json.dumps(result,ensure_ascii=True))
 if __name__=='__main__':
  index=json.loads(pathlib.Path(sys.argv[1]).read_text());cache=pathlib.Path(sys.argv[2]);cache.mkdir(exist_ok=True)
  rows=[r for r in index['data']['source_quality_worklist.csv'] if r['individual_quality_tier']=='not_audited']
