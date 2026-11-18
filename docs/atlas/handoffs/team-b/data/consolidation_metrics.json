@@ -15,15 +15,15 @@
   "source_quality_audited": 434,
   "source_quality_unreviewed": 0,
   "tiers": {
-    "S1": 53,
+    "S1": 52,
     "S2": 135,
     "H": 22,
-    "M": 195,
+    "M": 196,
     "U": 29
   },
-  "eligible_audited_sources": 210,
-  "distinct_cells_with_eligible_audited_source": 195,
-  "raw_linked_fully_audited_without_S1_S2_H": 194,
+  "eligible_audited_sources": 209,
+  "distinct_cells_with_eligible_audited_source": 194,
+  "raw_linked_fully_audited_without_S1_S2_H": 195,
   "raw_linked_no_eligible_with_unaudited": 0,
   "search_depth_entries": 118,
   "search_depth_D2_cells_with_no_link": 11,
@@ -31,9 +31,7 @@
   "unknown_source_country_imprints": 5,
   "source_reused_exact_urls": 25,
   "shared_org_official_url_strings": 6,
-  "repeated_exact_area_condition_search_urls": 11,
-  "identity_states_with_caution_heuristic": 356,
-  "identity_states_no_caution_heuristic": 142,
+  "repeated_exact_area_condition_search_urls": 14,
   "provenance": 1260,
   "search_logs": 783,
   "community_subnational": 10,
@@ -60,7 +58,7 @@
       "raw": 48,
       "searched": 12,
       "untouched": 188,
-      "qualCells": 21,
+      "qualCells": 20,
       "auditedSources": 52
     },
     "gout": {
@@ -96,16 +94,33 @@
   "run_delta": {
     "source_quality_audited": 343,
     "source_quality_unreviewed": -342,
-    "eligible_audited_sources": 151,
-    "distinct_cells_with_eligible_audited_source": 137,
+    "eligible_audited_sources": 150,
+    "distinct_cells_with_eligible_audited_source": 136,
     "raw_linked_cells": 1,
     "untouched_cells": -81,
     "geographic_org_gaps": 0,
-    "unknown_source_country_imprints": 0
+    "unknown_source_country_imprints": 0,
+    "organizations": 1,
+    "original_source_contexts": 1,
+    "search_logs": 87,
+    "provenance": 88,
+    "newly_touched_first_pass_cells": 81,
+    "source_rows_individually_audited_from_initial_queue": 342,
+    "distinct_initial_queue_urls_inspected": 315,
+    "new_source_rows_audited": 1,
+    "quality_audits": 343,
+    "geographic_identity_queries": 21,
+    "geographic_identity_gaps_resolved": 0,
+    "issuer_questions_escalated": 5,
+    "D0_to_D1_cells": 81,
+    "D2_to_new_source_positive_cells": 1,
+    "new_qualified_cells_from_untouched": 0
   },
   "validation": {
-    "structural_errors": "pending_final_suite",
-    "Node_CLI_ran": false,
+    "structural_errors": 0,
+    "Node_CLI_ran": true,
+    "Node_note": "Unchanged native validator executed using bundled Node against full checkout; final receipt runs/20261118_native_validation.json. Supplemental validator passed with historical preservation checks; not clinical, legal or rights approval.",
+    "supplemental_errors": 0,
     "clinical_state": "434/434 research_lead_only"
   },
   "live_input_head": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
@@ -113,5 +128,14 @@
     "D1": 97,
     "D2": 12,
     "D3": 5
+  },
+  "identity_triage_classes": {
+    "explicit_caveat_in_status_NOT_independently_legal_verified": 354,
+    "real_geographic_gap_not_proof_of_nonexistence": 21,
+    "no_explicit_caution_NOT_a_certification": 142,
+    "own_site_plus_NLM_Lima_publisher_confirmed_governance_unreviewed": 1,
+    "first_party_Bogota_office_plus_ISSN_publisher_verified_legal_registry_and_rights_unreviewed": 1,
+    "first_party_self_description_no_legal_certification": 3,
+    "own_original_name_seat_objects_inspected_NOT_legal_approval": 1
   }
 }

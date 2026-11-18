@@ -16,5 +16,5 @@ for i,s in enumerate(leads):
  observations.append({'search_id':sid,'intake_id':s['id'],'area_m49':k[0],'condition_key':k[1],'candidate_url':s['url'],'retrieval_url':url,'query':c['query'],'retrieval_state':state,'response_sha256':c.get('response_sha256','unavailable'),'doi':r.get('doi','not_verified'),'abstract_available':str(bool(abstract)).lower(),'manual_disposition':note})
 write('search_log.csv',logs);write('research_quality_audit.csv',audit);write('coverage_by_area_condition.csv',cov);write('intake_candidate_checks_20261118.csv',observations)
 with (ROOT/'PROVENANCE.csv').open('w',newline='') as f:
- w=csv.DictWriter(f,fieldnames=prov[0],lineterminator='\n');w.writeheader();w.writerows(prov)
+ w=csv.DictWriter(f,fieldnames=prov[0],lineterminator='\n',quoting=csv.QUOTE_ALL);w.writeheader();w.writerows(prov)
 print(json.dumps(reconcile()['run_delta']))
