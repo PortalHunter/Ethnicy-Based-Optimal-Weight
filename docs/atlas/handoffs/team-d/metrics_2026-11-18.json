@@ -48,14 +48,14 @@
     }
   ],
   "provenance_before": 330,
-  "provenance_after": 382,
-  "source_only_urls_added": 52,
+  "provenance_after": 402,
+  "source_only_urls_added": 72,
   "new_nonapplicability_or_absence_findings": 0,
   "native_tested_commit": "8501c9f2f79cb235dfcef52059a3596d8283ee5e",
   "continuing_legal_findings": 50,
   "continuing_legal_packets_partially_advanced": 24,
   "hf_resources_screened": 11,
-  "full_current_suite": "PASS_NATIVE_NODE_V24_22_3_ON_RECORDED_BATCH5_AND_LOCAL_TOOL_INPUT_HASHES",
+  "full_current_suite": "PENDING_CHANGED_COUNTRY_CONTACT_BATCH6_INPUTS",
   "current_validation_manifest": "validation_batch5_local_tools_2026-11-18.json",
   "current_directory_review_backlog_records": 48,
   "current_directory_local_address_cases": 20,
@@ -65,5 +65,12 @@
   "team_a_live_head_checked": "c4ac494941a6d0db58355cae4cc3d660d442d5f4",
   "hf_models_installed": 5,
   "hf_licensing_fees": 0,
-  "hf_installation_receipt": "data/huggingface_local_installation_2026-11-18.json"
+  "hf_installation_receipt": "data/huggingface_local_installation_2026-11-18.json",
+  "current_country_review_backlog_records": 33,
+  "current_country_local_address_cases": 21,
+  "current_country_postal_only_cases": 2,
+  "current_country_city_only_cases": 1,
+  "current_country_representative_only_cases": 9,
+  "current_office_cases_with_qualified_current_listing": 81,
+  "current_office_cases_without_current_listing": 63
 }

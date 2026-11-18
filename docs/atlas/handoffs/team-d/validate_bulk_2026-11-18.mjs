@@ -48,7 +48,7 @@ function checkRefs(refs) {
 }
 for(const r of regions){assert.equal(r.new_state,'not_verified');assert.equal(r.http_status,'200');assert.equal(r.profile_result,'GENERIC_COUNTRIES_INDEX_NOT_INDIVIDUAL_PROFILE');checkRefs(r.existing_evidence_rows);}
 assert.equal(new Set(regions.map(r=>r.response_sha256)).size,1);
-for(const r of officeReview){assert.equal(r.april_survey_state,'NO_AFFIRMATIVE_APRIL_JOIN');assert.equal(r.documented_absence,'NOT_ESTABLISHED');assert(['UNKNOWN_NOT_PROVEN_BY_THIS_RECONCILIATION','CURRENT_PUBLISHED_IN_AREA_ADDRESS','CURRENT_PUBLISHED_OFFSHORE_CONTACT_LOCAL_PREMISES_UNKNOWN','CURRENT_PUBLISHED_COORDINATION_CONTACT_PREMISES_UNKNOWN'].includes(r.present_day_physical_presence));checkRefs(r.supporting_rows);}
+for(const r of officeReview){assert.equal(r.april_survey_state,'NO_AFFIRMATIVE_APRIL_JOIN');assert.equal(r.documented_absence,'NOT_ESTABLISHED');assert(['UNKNOWN_NOT_PROVEN_BY_THIS_RECONCILIATION','CURRENT_PUBLISHED_IN_AREA_ADDRESS','CURRENT_PUBLISHED_OFFSHORE_CONTACT_LOCAL_PREMISES_UNKNOWN','CURRENT_PUBLISHED_COORDINATION_CONTACT_PREMISES_UNKNOWN','CURRENT_PUBLISHED_POSTAL_CONTACT_ONLY_PHYSICAL_PREMISES_UNKNOWN','CURRENT_PUBLISHED_CITY_CONTACT_ONLY_PHYSICAL_PREMISES_UNKNOWN','CURRENT_PUBLISHED_REPRESENTATIVE_ROLE_PREMISES_UNKNOWN'].includes(r.present_day_physical_presence));checkRefs(r.supporting_rows);}
 const originalOffices=data('who_country_office_presence.csv');
 const roster=data('who_office_survey_roster_2026.csv');
 const reconciliation=data('who_office_april_reconciliation_2026-11-18.csv');
@@ -112,3 +112,26 @@ assert.equal(current.find(x=>x.country_area_m49==='056').listed_office_type,'WHO
 const contactAccess=data('current_office_directory_access_2026-11-18.csv');assert.equal(contactAccess.length,3);
 for(const r of contactAccess){assert.equal(source.get(r.source_id)?.source_url,r.source_url);assert.match(r.sha256,/^[a-f0-9]{64}$/);}
 console.log('Current directory review PASS:48 backlog areas;20 in-area address listings,27 offshore contacts,one coordination contact; no April or absence promotions.');
+
+// Country-specific contact/role review does not turn postal boxes or appointments into premises.
+const countryCurrent=data('who_office_current_country_review_2026-11-18.csv');
+assert.equal(countryCurrent.length,33);assert.equal(by(countryCurrent,'backlog_id').size,33);
+for(const r of countryCurrent){
+ assert.equal(source.get(r.source_id)?.source_url,r.source_url);
+ if(r.secondary_source_id)assert.equal(source.get(r.secondary_source_id)?.source_url,r.secondary_source_url);
+ const original=officeReview.find(x=>x.backlog_id===r.backlog_id);assert(original);
+ assert.equal(original.m49_code,r.country_area_m49);assert.equal(original.present_day_physical_presence,r.published_listing_state);
+ assert(!april.has(r.country_area_m49));assert.equal(r.april_survey_evidence,'NO_NEW_APRIL_EVIDENCE');
+ assert.equal(r.absence_claim,'NOT_ESTABLISHED');assert.equal(r.full_backlog_closure,'NO');
+ assert.equal(r.source_publication_date,'UNDATED_CURRENT_PAGE');
+ if(r.published_listing_state==='CURRENT_PUBLISHED_REPRESENTATIVE_ROLE_PREMISES_UNKNOWN')assert.equal(r.listed_host_m49,'');
+}
+assert.equal(countryCurrent.filter(x=>x.published_listing_state==='CURRENT_PUBLISHED_IN_AREA_ADDRESS').length,21);
+assert.equal(countryCurrent.filter(x=>x.published_listing_state==='CURRENT_PUBLISHED_POSTAL_CONTACT_ONLY_PHYSICAL_PREMISES_UNKNOWN').length,2);
+assert.equal(countryCurrent.filter(x=>x.published_listing_state==='CURRENT_PUBLISHED_CITY_CONTACT_ONLY_PHYSICAL_PREMISES_UNKNOWN').length,1);
+assert.equal(countryCurrent.filter(x=>x.published_listing_state==='CURRENT_PUBLISHED_REPRESENTATIVE_ROLE_PREMISES_UNKNOWN').length,9);
+assert.equal(countryCurrent.find(x=>x.country_area_m49==='048').listed_office_type,'SHARED_REPRESENTATIVE_ROLE_NOT_PREMISES');
+assert(countryCurrent.find(x=>x.country_area_m49==='364').temporal_scope.includes('not an April office-host survey'));
+const countryAccess=data('who_office_country_access_2026-11-18.csv');assert.equal(countryAccess.length,43);
+for(const r of countryAccess){if(r.http_status==='200')assert.match(r.sha256,/^[a-f0-9]{64}$/);if(r.source_id)assert.equal(source.get(r.source_id)?.source_url,r.requested_url);}
+console.log('Current country review PASS:33 cases;21 in-area address listings,2 postal-only,one city-only,9 representative-only; no April or absence promotions.');
