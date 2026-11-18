@@ -158,3 +158,13 @@ for(const r of variations){assert.equal(source.get(r.source_a_id)?.source_url,r.
 const finalAccess=data('who_office_remaining_access_2026-11-18.csv');assert.equal(finalAccess.length,88);
 for(const r of finalAccess){if(r.http_status==='200')assert.match(r.sha256,/^[a-f0-9]{64}$/);}
 console.log('All144 office cases have qualified current/dated/boundary/unknown classifications;47 remain unknown after bounded primary review. Historical2012 absence is not current absence;105 April positives unchanged.');
+
+// Recovered legal text preserves statutory grant, intake, exceptions and named-delegate boundaries.
+const browserLaw=data('regulator_browser_review_2026-11-18.csv');
+const browserAccess=data('legal_browser_access_2026-11-18.csv');
+assert.equal(browserLaw.length,6);assert.equal(by(browserLaw,'record_id').size,6);
+assert.equal(browserAccess.length,5);assert.equal(by(browserAccess,'source_id').size,5);
+for(const r of browserLaw){assert.equal(r.backlog_id,'TD-BL-NCA-021');assert.equal(r.country_area_m49,'442');assert.equal(r.full_packet_closure,'NO');assert.equal(source.get(r.source_id)?.source_url,r.source_url);assert(browserAccess.some(a=>a.source_id===r.source_id));assert(r.remaining_limit);}
+for(const r of browserAccess){assert.equal(source.get(r.source_id)?.source_url,r.requested_url);assert.equal(r.http_status,'200');assert.equal(r.retrieval_method,'NORMAL_ISOLATED_CHROMIUM_NO_AUTH_OR_CHALLENGE_BYPASS');assert.match(r.rendered_body_sha256,/^[a-f0-9]{64}$/);assert.match(r.rendered_html_sha256,/^[a-f0-9]{64}$/);}
+assert(browserLaw.some(r=>r.finding_state==='OPERATIVE_DELEGATION_REQUIRES_VALIDATED_INSTRUMENT'));
+console.log('Recovered Luxembourg law PASS:five official rendered sources,six partial legal findings; named delegation and sampled grant remain open.');
