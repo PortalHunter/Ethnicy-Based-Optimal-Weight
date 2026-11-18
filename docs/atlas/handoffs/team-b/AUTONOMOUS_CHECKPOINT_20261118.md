@@ -4,23 +4,23 @@ Goal ACTIVE; acceptance INCOMPLETE. PR#71 draft/open/unmerged; branch `research/
 
 | Measure | Continuation start | Current |
 |---|---:|---:|
-| Organizations |502|523|
+| Organizations |502|525|
 | Local identity gaps |21|21|
-| Raw-linked cells |389|410|
-| Qualified cells |194|268|
-| Searched-unlinked |274|1326|
+| Raw-linked cells |389|412|
+| Qualified cells |194|270|
+| Searched-unlinked |274|1324|
 | Untouched |1073|0|
-| Audited contexts |434|509|
+| Audited contexts |434|511|
 | Unaudited contexts |0|0|
-| Unlinked lacking D2/D3 |263|1014|
+| Unlinked lacking D2/D3 |263|988|
 | Original issuer questions |5|5|
-| Provenance |1260|4439|
-| Search logs |783|3931|
-| S1/S2/H or documented D2/D3 cells |206|582|
+| Provenance |1260|4539|
+| Search logs |783|4027|
+| S1/S2/H or documented D2/D3 cells |206|608|
 
-Current S1=85,S2=167,H=32,M=196,U=29; active D1=1232,D2=276,D3=43. All509 contexts research_lead_only. Local identity coverage227/248. No fabricated institutions or global acceptance closure. Current1154 ordinary cell dispositions remain, plus independent verification.
+Current S1=87,S2=167,H=32,M=196,U=29; active D1=1208,D2=300,D3=43. All511 contexts research_lead_only. Local identity coverage227/248. No fabricated institutions or global acceptance closure. Current1128 ordinary cell dispositions remain, plus independent verification.
 
-Original whole-run baseline537368f:501 organizations,388 raw-linked,58 qualified,342 unaudited,1154 untouched. Original342-context queue/315 distinct URLs fully audited. Whole-run appended source ledger419 observations across380 distinct URLs; preserves historical reassessments. Continuation75 newly audited contexts across66 URLs,64 novel URL strings,74 newly qualified cells. Multiple condition contexts in one PDF are not independent studies. All1073 continuation untouched cells actually searched;59 broad aliases and1538 local-author receipts preserved. Same-index refinements are D1 support, never an independent second route or source-content approval.
+Original whole-run baseline537368f:501 organizations,388 raw-linked,58 qualified,342 unaudited,1154 untouched. Original342-context queue/315 distinct URLs fully audited. Whole-run appended source ledger421 observations across381 distinct URLs; preserves historical reassessments. Continuation77 newly audited contexts across67 URLs,65 novel URL strings,76 newly qualified cells. Multiple condition contexts in one PDF are not independent studies. All1073 continuation untouched cells actually searched;59 broad aliases and1538 local-author receipts preserved. Same-index refinements are D1 support, never an independent second route or source-content approval.
 
 B132/B136/B137 manually interpreted210 HH/coeliac cells:165 D2,44 D1,1BermudaD3 at batch boundaries. Original HI/CDF/AOECS voluntary directories and actual condition/geography catalogue candidates were checked with stated first-five and language limits. Area-exact title/condition screen against2071 raw leads found no conflicts for165 D2 decisions; not source audit. B134 added21 individually researched polar condition D3 cases (#136–138); earlier Bouvet/Heard14 retained. No sovereignty/domicile inference from operational field care.
 
@@ -30,8 +30,12 @@ B139 five audited contexts/five newly qualified cells: original ÖGR2014 working
 
 B140136 lactose cells:84 D2,52 D1.373 deduplicated original candidate metadata titles and29 topical title/affiliation sets inspected, with corrected geographic aliases and independent official WGO regional directories. Named members and primary/local-role/alias leads remain D1; directories are voluntary/incomplete, first-five catalogue scope is bounded, not national absence. PMID33920682 actually names Belarus and Kazakhstan affiliations despite zero refined AFF query; preserved as a counterexample, original-body follow-up required. Same-area lactose/lactase title/condition crosscheck of2071 intake leads returned0; no intake auto-promotion. Genotype, malabsorption, symptoms, milk allergy, food/animal work and other disaccharidase disorders remain distinct.
 
-48 source/identity/specialist issues mapped in data/verification_issues_20261118.json (issue141 outside TeamB mapping). Five original imprints,29 U contexts and newly discovered clinical/editorial/identity cases explicitly escalated. Do not close clinical issues from source-existence qualification alone; separate clinical appraisal #27 remains unapproved.
+B141:2 verified public academic coauthor units in Grodno/Aktobe,2 S1 original substantive author abstracts from one2021 study; not2 cohorts. Actual university contacts and original affiliations read; NLM confirms Swiss journal country.196 European CEDAR participants do not establish local national symptomatic prevalence. Full-text reader challenge then XML35s timeout; #146 separates full methods/genetics/roles/COI/rights appraisal. Public university research not government clinical authority.
 
-Validation: unchanged native Node PASS,zero errors;9,157 supplemental assertions PASS. Historical source/provenance prefixes,248×7 exact joins,10 community and8 cross-border safeguards preserved. Phase4 Russian-imprint evidence-pointer error was fixed by additive original-imprint provenance and linked evidence, history retained; both suites passed. Current receipts runs/20261118_phase5_validation.md and phase5_supplemental_validation.json. Historical default receipt preserved. Calculator/browser tests not locally run for research-only changes; remote immutable tree/blob readback and CI checked on publication.
+B142:94 gout cells manually interpreted,24 D2 and70 D1.283 deduplicated candidate titles and topical affiliations inspected, corrected aliases and2071-lead area-exact gout screen (0matches) preserved. Official EULAR/APLAR lists supply bounded independent routes for24 cases; African placeholder entries and PANLAR challenge are inadequate for terminal country dispositions. Named own societies, Grenada asymptomatic-urate meta-analysis coauthor, Martinique knee-tophus case and Freetown biochemical-urate preprint remain executable source/subtype leads. Foreign-authored GBD estimates are not local original publications; no nationality-to-genotype inference.
 
-Remaining:1014 unlinked cells need independent depth work;140 raw-linked nonqualified cells lack terminal dispositions (142 total including2 escalated);21 local identity gaps require genuine originals or explicit evidence-limited scope. Global acceptance remains open. Continue local originals and indexed primary leads, especially Belarus/Kazakhstan lactose and retained HH/coeliac holds; avoid repeating blocked UK2017 gout, Korean English2025 guideline, Bukhara textbook, MDPI2026 HFE synthesis or Peruvian radiology artifact. A distinct primary edition remains possible. Do not stop at this checkpoint.
+49 source/identity/specialist issues mapped in data/verification_issues_20261118.json (issue141 outside TeamB mapping). Five original imprints,29 U contexts and newly discovered clinical/editorial/identity cases explicitly escalated. Do not close clinical issues from source-existence qualification alone; separate clinical appraisal #27 remains unapproved.
+
+Validation: unchanged native Node PASS,zero errors;9,349 supplemental assertions PASS. Historical source/provenance prefixes,248×7 exact joins,10 community and8 cross-border safeguards preserved. Phase4 Russian-imprint evidence-pointer error was fixed by additive original-imprint provenance and linked evidence, history retained; both suites passed. Current receipts runs/20261118_phase6_validation.md and phase6_supplemental_validation.json. Historical default receipt preserved. Calculator/browser tests not locally run for research-only changes; remote immutable tree/blob readback and CI checked on publication.
+
+Remaining:988 unlinked cells need independent depth work;140 raw-linked nonqualified cells lack terminal dispositions (142 total including2 escalated);21 local identity gaps require genuine originals or explicit evidence-limited scope. Global acceptance remains open. Continue local originals and indexed primary leads, especially Belarus/Kazakhstan lactose and retained HH/coeliac holds; avoid repeating blocked UK2017 gout, Korean English2025 guideline, Bukhara textbook, MDPI2026 HFE synthesis or Peruvian radiology artifact. A distinct primary edition remains possible. Do not stop at this checkpoint.

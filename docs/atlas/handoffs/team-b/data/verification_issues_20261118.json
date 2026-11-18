@@ -385,6 +385,15 @@
       "kind": "independent_clinical_and_editorial_review",
       "original_url": "https://www.sac.org.ar/wp-content/uploads/2025/08/COMPLETO-E-41.pdf",
       "title": "Review joint2025 consensus gout estimates and inconsistent front matter"
+    },
+    {
+      "org_id": "B-BY-GRSMU|B-KZ-WKMOMU",
+      "area_m49": "112|398",
+      "conditions": "lactose",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/146",
+      "kind": "independent_genetic_and_study_scope_review",
+      "original_url": "https://pubmed.ncbi.nlm.nih.gov/33920682/",
+      "title": "Review shared2021 LCT expression study, original methods and coauthor roles"
     }
   ]
 }

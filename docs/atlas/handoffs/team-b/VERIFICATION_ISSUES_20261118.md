@@ -84,3 +84,5 @@ Twenty-five issues cover all 29 active U-tier context rows. Shared artifact issu
 
 - #145: joint Argentine2025 hypertension consensus; gout estimates, comorbidity guidance and inconsistent template front matter. Source existence/roles verified; clinical/editorial correction remains independent.
 - #110 follow-up: SAR gout/CPPD conflict persists in the exact original and linked patient portal; existing U preserved. An access retry does not resolve the scientific conflict.
+
+- #146: shared Belarus/Kazakhstan2021 ileal LCT-expression study; original abstract/academic identities/Swiss journal verified, full-text methods and genotype-to-symptom interpretation require independent review. Public academic status retained.
