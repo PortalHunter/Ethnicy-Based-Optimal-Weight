@@ -12,19 +12,19 @@
   "searched_unlinked_cells": 194,
   "untouched_cells": 1154,
   "pub_context_rows": 433,
-  "source_quality_audited": 251,
-  "source_quality_unreviewed": 182,
+  "source_quality_audited": 331,
+  "source_quality_unreviewed": 102,
   "tiers": {
-    "S1": 30,
-    "S2": 85,
-    "H": 15,
-    "M": 106,
-    "U": 15
+    "S1": 46,
+    "S2": 101,
+    "H": 17,
+    "M": 144,
+    "U": 23
   },
-  "eligible_audited_sources": 130,
-  "distinct_cells_with_eligible_audited_source": 123,
-  "raw_linked_fully_audited_without_S1_S2_H": 100,
-  "raw_linked_no_eligible_with_unaudited": 165,
+  "eligible_audited_sources": 164,
+  "distinct_cells_with_eligible_audited_source": 150,
+  "raw_linked_fully_audited_without_S1_S2_H": 144,
+  "raw_linked_no_eligible_with_unaudited": 94,
   "search_depth_entries": 32,
   "search_depth_D2_cells_with_no_link": 12,
   "searched_unlinked_missing_active_D2": 182,
@@ -46,58 +46,58 @@
       "raw": 110,
       "searched": 104,
       "untouched": 34,
-      "qualCells": 26,
-      "auditedSources": 81
+      "qualCells": 38,
+      "auditedSources": 109
     },
     "hypertension": {
       "raw": 75,
       "searched": 15,
       "untouched": 158,
-      "qualCells": 7,
-      "auditedSources": 26
+      "qualCells": 13,
+      "auditedSources": 50
     },
     "high_chol": {
       "raw": 48,
       "searched": 11,
       "untouched": 189,
-      "qualCells": 11,
-      "auditedSources": 23
+      "qualCells": 14,
+      "auditedSources": 37
     },
     "gout": {
       "raw": 41,
       "searched": 13,
       "untouched": 194,
-      "qualCells": 17,
-      "auditedSources": 27
+      "qualCells": 20,
+      "auditedSources": 32
     },
     "lactose": {
       "raw": 37,
       "searched": 21,
       "untouched": 190,
-      "qualCells": 21,
-      "auditedSources": 27
+      "qualCells": 22,
+      "auditedSources": 32
     },
     "celiac": {
       "raw": 52,
       "searched": 10,
       "untouched": 186,
       "qualCells": 27,
-      "auditedSources": 43
+      "auditedSources": 45
     },
     "hemochromatosis": {
       "raw": 25,
       "searched": 20,
       "untouched": 203,
-      "qualCells": 14,
-      "auditedSources": 24
+      "qualCells": 16,
+      "auditedSources": 26
     }
   },
   "clinical_approvals": 0,
   "run_delta": {
-    "source_quality_audited": 160,
-    "source_quality_unreviewed": -160,
-    "eligible_audited_sources": 71,
-    "distinct_cells_with_eligible_audited_source": 65,
+    "source_quality_audited": 240,
+    "source_quality_unreviewed": -240,
+    "eligible_audited_sources": 105,
+    "distinct_cells_with_eligible_audited_source": 92,
     "raw_linked_cells": 0,
     "untouched_cells": 0,
     "geographic_org_gaps": 0,

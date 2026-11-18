@@ -86,13 +86,13 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 032,Argentina,Americas,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,7,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 032,Argentina,Americas,gout,national_or_cross_border_body_verified,1,0,0,1,0,all_historical_rows_audited_no_S1_S2_H,1,none,7,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 032,Argentina,Americas,hemochromatosis,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-032,Argentina,Americas,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+032,Argentina,Americas,high_chol,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,7,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 032,Argentina,Americas,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 032,Argentina,Americas,lactose,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,7,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
-036,Australia,Oceania,diabetes,specialist_research_only,3,0,0,0,3,raw_link_some_unaudited,3,none,8,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+036,Australia,Oceania,diabetes,specialist_research_only,3,0,3,0,0,all_historical_rows_audited_no_S1_S2_H,3,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 036,Australia,Oceania,hemochromatosis,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
-036,Australia,Oceania,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,8,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-036,Australia,Oceania,hypertension,national_or_cross_border_body_verified,2,0,1,0,1,raw_link_some_unaudited,1,none,8,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+036,Australia,Oceania,high_chol,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
+036,Australia,Oceania,hypertension,national_or_cross_border_body_verified,2,0,2,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 040,Austria,Europe,celiac,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,6,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 040,Austria,Europe,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,6,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 040,Austria,Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
@@ -136,7 +136,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 056,Belgium,Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 056,Belgium,Europe,hemochromatosis,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,5,P1,next independent original issuer/source route necessary; not a national nonfinding
 056,Belgium,Europe,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,5,P1,native-language first-pass via real local organization and issuer
-056,Belgium,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+056,Belgium,Europe,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,5,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 056,Belgium,Europe,lactose,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 060,Bermuda,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 060,Bermuda,Americas,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -198,7 +198,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 086,British Indian Ocean Territory,Africa,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,0,P1,native-language first-pass via real local organization and issuer
 086,British Indian Ocean Territory,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,0,P1,native-language first-pass via real local organization and issuer
 090,Solomon Islands,Oceania,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-090,Solomon Islands,Oceania,diabetes,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,3,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+090,Solomon Islands,Oceania,diabetes,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,3,none,1,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 090,Solomon Islands,Oceania,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 090,Solomon Islands,Oceania,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 090,Solomon Islands,Oceania,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -260,7 +260,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 120,Cameroon,Africa,hypertension,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 120,Cameroon,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 124,Canada,Americas,gout,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
-124,Canada,Americas,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,8,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+124,Canada,Americas,high_chol,national_or_cross_border_body_verified,1,0,0,1,0,all_historical_rows_audited_no_S1_S2_H,1,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 124,Canada,Americas,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 124,Canada,Americas,lactose,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 132,Cabo Verde,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -295,16 +295,16 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 148,Chad,Africa,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 148,Chad,Africa,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 148,Chad,Africa,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-148,Chad,Africa,hypertension,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+148,Chad,Africa,hypertension,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,1,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 148,Chad,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 152,Chile,Americas,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,6,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 152,Chile,Americas,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 152,Chile,Americas,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,6,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
-152,Chile,Americas,lactose,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+152,Chile,Americas,lactose,national_or_cross_border_body_verified,1,0,0,1,0,all_historical_rows_audited_no_S1_S2_H,1,none,6,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 156,China,Asia,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 156,China,Asia,diabetes,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 156,China,Asia,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
-156,China,Asia,hemochromatosis,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,2,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+156,China,Asia,hemochromatosis,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,2,none,2,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 156,China,Asia,high_chol,specialist_research_only,1,0,0,1,0,all_historical_rows_audited_no_S1_S2_H,1,none,2,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 156,China,Asia,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 156,China,Asia,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
@@ -330,7 +330,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 170,Colombia,Americas,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,4,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 170,Colombia,Americas,lactose,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,2,D1,4,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 174,Comoros,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-174,Comoros,Africa,diabetes,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,2,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+174,Comoros,Africa,diabetes,specialist_research_only,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,2,none,1,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 174,Comoros,Africa,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 174,Comoros,Africa,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 174,Comoros,Africa,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -372,11 +372,11 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 188,Costa Rica,Americas,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 188,Costa Rica,Americas,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 191,Croatia,Europe,celiac,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,3,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-191,Croatia,Europe,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+191,Croatia,Europe,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,6,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 191,Croatia,Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 191,Croatia,Europe,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,6,P1,native-language first-pass via real local organization and issuer
 191,Croatia,Europe,high_chol,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,6,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
-191,Croatia,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+191,Croatia,Europe,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,6,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 191,Croatia,Europe,lactose,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,6,P1,next independent original issuer/source route necessary; not a national nonfinding
 192,Cuba,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 192,Cuba,Americas,diabetes,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
@@ -385,7 +385,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 192,Cuba,Americas,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 192,Cuba,Americas,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 192,Cuba,Americas,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-196,Cyprus,Asia,diabetes,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+196,Cyprus,Asia,diabetes,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,2,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 196,Cyprus,Asia,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 196,Cyprus,Asia,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 196,Cyprus,Asia,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
@@ -395,7 +395,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 203,Czechia,Europe,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 203,Czechia,Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 203,Czechia,Europe,hemochromatosis,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-203,Czechia,Europe,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,2,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+203,Czechia,Europe,high_chol,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,2,none,6,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 203,Czechia,Europe,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,6,P1,native-language first-pass via real local organization and issuer
 203,Czechia,Europe,lactose,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 204,Benin,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
@@ -408,7 +408,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 208,Denmark,Europe,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 208,Denmark,Europe,gout,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 208,Denmark,Europe,high_chol,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-208,Denmark,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+208,Denmark,Europe,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,6,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 208,Denmark,Europe,lactose,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 212,Dominica,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 212,Dominica,Americas,diabetes,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
@@ -439,10 +439,10 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 222,El Salvador,Americas,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 222,El Salvador,Americas,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 226,Equatorial Guinea,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-226,Equatorial Guinea,Africa,diabetes,specialist_research_only,2,0,0,0,2,raw_link_some_unaudited,5,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+226,Equatorial Guinea,Africa,diabetes,specialist_research_only,2,2,0,0,0,has_audited_qualifying_original,5,none,1,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 226,Equatorial Guinea,Africa,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 226,Equatorial Guinea,Africa,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-226,Equatorial Guinea,Africa,high_chol,specialist_research_only,2,0,0,0,2,raw_link_some_unaudited,2,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+226,Equatorial Guinea,Africa,high_chol,specialist_research_only,2,2,0,0,0,has_audited_qualifying_original,2,none,1,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 226,Equatorial Guinea,Africa,hypertension,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,3,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
 226,Equatorial Guinea,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 231,Ethiopia,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -460,7 +460,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 232,Eritrea,Africa,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 232,Eritrea,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 233,Estonia,Europe,celiac,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,2,none,4,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-233,Estonia,Europe,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,4,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+233,Estonia,Europe,diabetes,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,4,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 233,Estonia,Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,4,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 233,Estonia,Europe,hemochromatosis,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,4,P1,next independent original issuer/source route necessary; not a national nonfinding
 233,Estonia,Europe,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,4,P1,native-language first-pass via real local organization and issuer
@@ -508,11 +508,11 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 248,Åland Islands,Europe,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 248,Åland Islands,Europe,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 248,Åland Islands,Europe,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-250,France,Europe,diabetes,national_or_cross_border_body_verified,2,0,1,0,1,raw_link_some_unaudited,1,none,8,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+250,France,Europe,diabetes,national_or_cross_border_body_verified,2,0,2,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 250,France,Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,8,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 250,France,Europe,hemochromatosis,national_or_cross_border_body_verified,2,1,1,0,0,has_audited_qualifying_original,2,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 250,France,Europe,high_chol,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
-250,France,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,8,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+250,France,Europe,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 250,France,Europe,lactose,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 254,French Guiana,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 254,French Guiana,Americas,diabetes,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
@@ -536,7 +536,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 260,French Southern Territories,Africa,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,0,P1,native-language first-pass via real local organization and issuer
 260,French Southern Territories,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,0,P1,native-language first-pass via real local organization and issuer
 262,Djibouti,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-262,Djibouti,Africa,diabetes,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,2,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+262,Djibouti,Africa,diabetes,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,2,none,1,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 262,Djibouti,Africa,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 262,Djibouti,Africa,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 262,Djibouti,Africa,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -575,7 +575,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 276,Germany,Europe,gout,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,7,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 276,Germany,Europe,hemochromatosis,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,7,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 276,Germany,Europe,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-276,Germany,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+276,Germany,Europe,hypertension,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,7,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 288,Ghana,Africa,celiac,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,D1,2,P1,"B98 one original issuer exploratory, independent second publisher required."
 288,Ghana,Africa,diabetes,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,0,none,2,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 288,Ghana,Africa,gout,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,D1,2,P1,"B97 research-only source appraisal, preserve community/population/edition caveats; no nationwide negative or approved clinical conclusion."
@@ -601,7 +601,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 300,Greece,Europe,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
 300,Greece,Europe,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
 300,Greece,Europe,high_chol,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,3,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
-300,Greece,Europe,hypertension,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,3,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+300,Greece,Europe,hypertension,specialist_research_only,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,3,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 300,Greece,Europe,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
 304,Greenland,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 304,Greenland,Americas,diabetes,specialist_research_only,1,0,0,1,0,all_historical_rows_audited_no_S1_S2_H,2,none,1,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
@@ -695,7 +695,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 348,Hungary,Europe,hypertension,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,4,P1,next independent original issuer/source route necessary; not a national nonfinding
 348,Hungary,Europe,lactose,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,4,P1,next independent original issuer/source route necessary; not a national nonfinding
 352,Iceland,Europe,celiac,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,2,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-352,Iceland,Europe,diabetes,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+352,Iceland,Europe,diabetes,specialist_research_only,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,2,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 352,Iceland,Europe,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 352,Iceland,Europe,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 352,Iceland,Europe,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
@@ -723,11 +723,11 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 368,Iraq,Asia,high_chol,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
 368,Iraq,Asia,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 368,Iraq,Asia,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-372,Ireland,Europe,celiac,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,2,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+372,Ireland,Europe,celiac,specialist_research_only,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,2,none,5,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 372,Ireland,Europe,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-372,Ireland,Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+372,Ireland,Europe,gout,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,5,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 372,Ireland,Europe,hemochromatosis,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,5,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
-372,Ireland,Europe,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+372,Ireland,Europe,high_chol,national_or_cross_border_body_verified,1,0,0,1,0,all_historical_rows_audited_no_S1_S2_H,1,none,5,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 372,Ireland,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 372,Ireland,Europe,lactose,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 376,Israel,Asia,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -739,16 +739,16 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 376,Israel,Asia,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 380,Italy,Europe,celiac,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,7,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 380,Italy,Europe,diabetes,national_or_cross_border_body_verified,2,0,2,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,7,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
-380,Italy,Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+380,Italy,Europe,gout,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,7,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 380,Italy,Europe,high_chol,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,7,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
-380,Italy,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+380,Italy,Europe,hypertension,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,7,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 380,Italy,Europe,lactose,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,2,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 384,Côte d’Ivoire,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-384,Côte d’Ivoire,Africa,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,2,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+384,Côte d’Ivoire,Africa,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,2,none,1,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 384,Côte d’Ivoire,Africa,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 384,Côte d’Ivoire,Africa,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 384,Côte d’Ivoire,Africa,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-384,Côte d’Ivoire,Africa,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+384,Côte d’Ivoire,Africa,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,1,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 384,Côte d’Ivoire,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 388,Jamaica,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 388,Jamaica,Americas,diabetes,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,2,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
@@ -760,7 +760,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 392,Japan,Asia,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,5,P1,native-language first-pass via real local organization and issuer
 392,Japan,Asia,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,5,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 392,Japan,Asia,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,5,P1,native-language first-pass via real local organization and issuer
-392,Japan,Asia,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+392,Japan,Asia,high_chol,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,5,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 392,Japan,Asia,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,5,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 392,Japan,Asia,lactose,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,5,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 398,Kazakhstan,Asia,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -792,8 +792,8 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 410,Republic of Korea,Asia,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,4,P1,native-language first-pass via real local organization and issuer
 410,Republic of Korea,Asia,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,4,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 410,Republic of Korea,Asia,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,4,P1,native-language first-pass via real local organization and issuer
-410,Republic of Korea,Asia,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,4,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-410,Republic of Korea,Asia,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,4,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+410,Republic of Korea,Asia,high_chol,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,4,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
+410,Republic of Korea,Asia,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,4,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 410,Republic of Korea,Asia,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,4,P1,native-language first-pass via real local organization and issuer
 414,Kuwait,Asia,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 414,Kuwait,Asia,diabetes,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
@@ -831,7 +831,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 426,Lesotho,Africa,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 426,Lesotho,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 428,Latvia,Europe,celiac,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,4,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
-428,Latvia,Europe,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,4,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+428,Latvia,Europe,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,4,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 428,Latvia,Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,4,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 428,Latvia,Europe,hemochromatosis,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,4,P1,next independent original issuer/source route necessary; not a national nonfinding
 428,Latvia,Europe,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,4,P1,native-language first-pass via real local organization and issuer
@@ -859,13 +859,13 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 438,Liechtenstein,Europe,hypertension,specialist_research_only,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,1,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 438,Liechtenstein,Europe,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 440,Lithuania,Europe,celiac,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,2,none,4,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-440,Lithuania,Europe,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,4,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+440,Lithuania,Europe,diabetes,national_or_cross_border_body_verified,1,0,0,1,0,all_historical_rows_audited_no_S1_S2_H,1,none,4,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 440,Lithuania,Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,4,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 440,Lithuania,Europe,high_chol,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,4,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 440,Lithuania,Europe,hypertension,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,4,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 440,Lithuania,Europe,lactose,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,4,P1,next independent original issuer/source route necessary; not a national nonfinding
 442,Luxembourg,Europe,celiac,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,3,none,2,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
-442,Luxembourg,Europe,diabetes,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+442,Luxembourg,Europe,diabetes,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,2,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 442,Luxembourg,Europe,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 442,Luxembourg,Europe,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 442,Luxembourg,Europe,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
@@ -913,11 +913,11 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 466,Mali,Africa,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 466,Mali,Africa,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 466,Mali,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-470,Malta,Europe,diabetes,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,2,none,3,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+470,Malta,Europe,diabetes,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,2,none,3,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 470,Malta,Europe,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
 470,Malta,Europe,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
-470,Malta,Europe,high_chol,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,3,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-470,Malta,Europe,hypertension,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,3,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+470,Malta,Europe,high_chol,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,3,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
+470,Malta,Europe,hypertension,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,3,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 470,Malta,Europe,lactose,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,3,P1,next independent original issuer/source route necessary; not a national nonfinding
 474,Martinique,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 474,Martinique,Americas,diabetes,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
@@ -942,13 +942,13 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 480,Mauritius,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 484,Mexico,Americas,celiac,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,3,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 484,Mexico,Americas,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,3,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
-484,Mexico,Americas,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,4,none,3,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+484,Mexico,Americas,gout,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,4,none,3,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 484,Mexico,Americas,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
 484,Mexico,Americas,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
 484,Mexico,Americas,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
 484,Mexico,Americas,lactose,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,3,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 492,Monaco,Europe,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
-492,Monaco,Europe,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,4,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+492,Monaco,Europe,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,4,none,2,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 492,Monaco,Europe,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 492,Monaco,Europe,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 492,Monaco,Europe,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
@@ -1025,7 +1025,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 528,Netherlands (Kingdom of the),Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 528,Netherlands (Kingdom of the),Europe,hemochromatosis,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,7,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 528,Netherlands (Kingdom of the),Europe,high_chol,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,7,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
-528,Netherlands (Kingdom of the),Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+528,Netherlands (Kingdom of the),Europe,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,7,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 531,Curaçao,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 531,Curaçao,Americas,diabetes,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,2,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
 531,Curaçao,Americas,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -1048,11 +1048,11 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 534,Sint Maarten (Dutch part),Americas,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 534,Sint Maarten (Dutch part),Americas,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 535,"Bonaire, Sint Eustatius and Saba",Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-535,"Bonaire, Sint Eustatius and Saba",Americas,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,2,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+535,"Bonaire, Sint Eustatius and Saba",Americas,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,2,none,1,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 535,"Bonaire, Sint Eustatius and Saba",Americas,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 535,"Bonaire, Sint Eustatius and Saba",Americas,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 535,"Bonaire, Sint Eustatius and Saba",Americas,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-535,"Bonaire, Sint Eustatius and Saba",Americas,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,2,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+535,"Bonaire, Sint Eustatius and Saba",Americas,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,2,none,1,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 535,"Bonaire, Sint Eustatius and Saba",Americas,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 540,New Caledonia,Oceania,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 540,New Caledonia,Oceania,diabetes,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
@@ -1071,9 +1071,9 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 554,New Zealand,Oceania,diabetes,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,0,none,7,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 554,New Zealand,Oceania,gout,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,7,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 554,New Zealand,Oceania,hemochromatosis,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,7,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
-554,New Zealand,Oceania,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+554,New Zealand,Oceania,high_chol,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,7,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 554,New Zealand,Oceania,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-554,New Zealand,Oceania,lactose,national_or_cross_border_body_verified,2,0,0,0,2,raw_link_some_unaudited,2,none,7,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+554,New Zealand,Oceania,lactose,national_or_cross_border_body_verified,2,2,0,0,0,has_audited_qualifying_original,2,none,7,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 558,Nicaragua,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 558,Nicaragua,Americas,diabetes,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
 558,Nicaragua,Americas,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -1199,21 +1199,21 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 616,Poland,Europe,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 616,Poland,Europe,gout,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 616,Poland,Europe,hemochromatosis,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,6,P1,next independent original issuer/source route necessary; not a national nonfinding
-616,Poland,Europe,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-616,Poland,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+616,Poland,Europe,high_chol,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,6,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
+616,Poland,Europe,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,6,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 616,Poland,Europe,lactose,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 620,Portugal,Europe,celiac,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 620,Portugal,Europe,diabetes,national_or_cross_border_body_verified,2,0,1,1,0,all_historical_rows_audited_no_S1_S2_H,0,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 620,Portugal,Europe,gout,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,2,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 620,Portugal,Europe,high_chol,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
-620,Portugal,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,8,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+620,Portugal,Europe,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 620,Portugal,Europe,lactose,national_or_cross_border_body_verified,2,2,0,0,0,has_audited_qualifying_original,4,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 624,Guinea-Bissau,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
-624,Guinea-Bissau,Africa,diabetes,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,2,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+624,Guinea-Bissau,Africa,diabetes,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,2,none,2,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 624,Guinea-Bissau,Africa,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 624,Guinea-Bissau,Africa,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 624,Guinea-Bissau,Africa,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
-624,Guinea-Bissau,Africa,hypertension,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+624,Guinea-Bissau,Africa,hypertension,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,2,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 624,Guinea-Bissau,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 626,Timor-Leste,Asia,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 626,Timor-Leste,Asia,diabetes,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,2,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
@@ -1293,7 +1293,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 660,Anguilla,Americas,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 660,Anguilla,Americas,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 662,Saint Lucia,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-662,Saint Lucia,Americas,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,3,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+662,Saint Lucia,Americas,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,3,none,1,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 662,Saint Lucia,Americas,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 662,Saint Lucia,Americas,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 662,Saint Lucia,Americas,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -1332,7 +1332,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 678,Sao Tome and Principe,Africa,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 678,Sao Tome and Principe,Africa,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 678,Sao Tome and Principe,Africa,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-678,Sao Tome and Principe,Africa,hypertension,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,2,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+678,Sao Tome and Principe,Africa,hypertension,specialist_research_only,1,0,0,1,0,all_historical_rows_audited_no_S1_S2_H,2,none,1,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 678,Sao Tome and Principe,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 682,Saudi Arabia,Asia,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 682,Saudi Arabia,Asia,diabetes,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,2,none,2,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
@@ -1389,11 +1389,11 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 704,Viet Nam,Asia,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 704,Viet Nam,Asia,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 705,Slovenia,Europe,celiac,national_or_cross_border_body_verified,2,0,0,0,2,raw_link_some_unaudited,2,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-705,Slovenia,Europe,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+705,Slovenia,Europe,diabetes,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,5,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 705,Slovenia,Europe,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,5,P1,native-language first-pass via real local organization and issuer
 705,Slovenia,Europe,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,5,P1,native-language first-pass via real local organization and issuer
 705,Slovenia,Europe,high_chol,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,5,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
-705,Slovenia,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+705,Slovenia,Europe,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,5,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 705,Slovenia,Europe,lactose,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 706,Somalia,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 706,Somalia,Africa,diabetes,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
@@ -1404,7 +1404,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 706,Somalia,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 710,South Africa,Africa,celiac,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 710,South Africa,Africa,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,5,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
-710,South Africa,Africa,hemochromatosis,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+710,South Africa,Africa,hemochromatosis,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,5,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 710,South Africa,Africa,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,5,P1,native-language first-pass via real local organization and issuer
 710,South Africa,Africa,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,5,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 710,South Africa,Africa,lactose,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
@@ -1418,9 +1418,9 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 724,Spain,Europe,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 724,Spain,Europe,gout,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 724,Spain,Europe,hemochromatosis,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
-724,Spain,Europe,high_chol,national_or_cross_border_body_verified,2,0,1,0,1,raw_link_some_unaudited,2,none,8,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-724,Spain,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,8,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-724,Spain,Europe,lactose,national_or_cross_border_body_verified,2,1,0,0,1,has_audited_qualifying_original,2,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
+724,Spain,Europe,high_chol,national_or_cross_border_body_verified,2,0,2,0,0,all_historical_rows_audited_no_S1_S2_H,2,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
+724,Spain,Europe,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
+724,Spain,Europe,lactose,national_or_cross_border_body_verified,2,2,0,0,0,has_audited_qualifying_original,2,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 728,South Sudan,Africa,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 728,South Sudan,Africa,diabetes,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 728,South Sudan,Africa,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -1469,29 +1469,29 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 752,Sweden,Europe,high_chol,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,6,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 752,Sweden,Europe,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,6,P1,native-language first-pass via real local organization and issuer
 756,Switzerland,Europe,celiac,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-756,Switzerland,Europe,diabetes,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+756,Switzerland,Europe,diabetes,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,6,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 756,Switzerland,Europe,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,6,P1,native-language first-pass via real local organization and issuer
 756,Switzerland,Europe,hemochromatosis,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,6,P1,next independent original issuer/source route necessary; not a national nonfinding
 756,Switzerland,Europe,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 756,Switzerland,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,6,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 756,Switzerland,Europe,lactose,national_or_cross_border_body_verified,2,1,1,0,0,has_audited_qualifying_original,2,none,6,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
-760,Syrian Arab Republic,Asia,celiac,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,2,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-760,Syrian Arab Republic,Asia,diabetes,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,2,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+760,Syrian Arab Republic,Asia,celiac,specialist_research_only,1,0,0,1,0,all_historical_rows_audited_no_S1_S2_H,2,none,2,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
+760,Syrian Arab Republic,Asia,diabetes,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,2,none,2,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 760,Syrian Arab Republic,Asia,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 760,Syrian Arab Republic,Asia,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 760,Syrian Arab Republic,Asia,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 760,Syrian Arab Republic,Asia,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 760,Syrian Arab Republic,Asia,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 762,Tajikistan,Asia,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
-762,Tajikistan,Asia,diabetes,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+762,Tajikistan,Asia,diabetes,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,2,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 762,Tajikistan,Asia,gout,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,2,P1,next independent original issuer/source route necessary; not a national nonfinding
 762,Tajikistan,Asia,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 762,Tajikistan,Asia,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
-762,Tajikistan,Asia,hypertension,specialist_research_only,2,0,0,0,2,raw_link_some_unaudited,3,none,2,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+762,Tajikistan,Asia,hypertension,specialist_research_only,2,2,0,0,0,has_audited_qualifying_original,3,none,2,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 762,Tajikistan,Asia,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 764,Thailand,Asia,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,4,P1,native-language first-pass via real local organization and issuer
 764,Thailand,Asia,diabetes,national_or_cross_border_body_verified,2,0,2,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,4,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
-764,Thailand,Asia,gout,national_or_cross_border_body_verified,2,1,0,0,1,has_audited_qualifying_original,2,none,4,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
+764,Thailand,Asia,gout,national_or_cross_border_body_verified,2,2,0,0,0,has_audited_qualifying_original,2,none,4,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 764,Thailand,Asia,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,4,P1,native-language first-pass via real local organization and issuer
 764,Thailand,Asia,high_chol,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,4,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
 764,Thailand,Asia,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,4,P1,native-language first-pass via real local organization and issuer
@@ -1518,7 +1518,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 776,Tonga,Oceania,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 776,Tonga,Oceania,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 780,Trinidad and Tobago,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-780,Trinidad and Tobago,Americas,diabetes,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+780,Trinidad and Tobago,Americas,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,1,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 780,Trinidad and Tobago,Americas,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 780,Trinidad and Tobago,Americas,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 780,Trinidad and Tobago,Americas,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
@@ -1539,7 +1539,7 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 788,Tunisia,Africa,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 788,Tunisia,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,2,P1,native-language first-pass via real local organization and issuer
 792,Türkiye,Asia,diabetes,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,5,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
-792,Türkiye,Asia,gout,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+792,Türkiye,Asia,gout,specialist_research_only,1,1,0,0,0,has_audited_qualifying_original,1,none,5,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 792,Türkiye,Asia,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,5,P1,native-language first-pass via real local organization and issuer
 792,Türkiye,Asia,high_chol,national_or_cross_border_body_verified,1,1,0,0,0,has_audited_qualifying_original,1,none,5,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 792,Türkiye,Asia,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,5,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
@@ -1548,11 +1548,11 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 795,Turkmenistan,Asia,diabetes,targeted_search_no_verified_resource,0,0,0,0,0,D1_original_issuer_first_pass,1,none,1,P1,next independent original issuer/source route necessary; not a national nonfinding
 795,Turkmenistan,Asia,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 795,Turkmenistan,Asia,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
-795,Turkmenistan,Asia,high_chol,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-795,Turkmenistan,Asia,hypertension,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,1,none,1,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+795,Turkmenistan,Asia,high_chol,specialist_research_only,1,0,0,1,0,all_historical_rows_audited_no_S1_S2_H,1,none,1,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
+795,Turkmenistan,Asia,hypertension,specialist_research_only,1,0,0,1,0,all_historical_rows_audited_no_S1_S2_H,1,none,1,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 795,Turkmenistan,Asia,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 796,Turks and Caicos Islands,Americas,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
-796,Turks and Caicos Islands,Americas,diabetes,specialist_research_only,1,0,0,0,1,raw_link_some_unaudited,2,none,3,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
+796,Turks and Caicos Islands,Americas,diabetes,specialist_research_only,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,2,none,3,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
 796,Turks and Caicos Islands,Americas,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
 796,Turks and Caicos Islands,Americas,hemochromatosis,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
 796,Turks and Caicos Islands,Americas,high_chol,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,3,P1,native-language first-pass via real local organization and issuer
@@ -1593,8 +1593,8 @@ m49_code,area_name,un_region,condition_key,canonical_search_state,raw_resource_r
 818,Egypt,Africa,hypertension,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 818,Egypt,Africa,lactose,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 826,United Kingdom of Great Britain and Northern Ireland,Europe,high_chol,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,0,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
-826,United Kingdom of Great Britain and Northern Ireland,Europe,hypertension,national_or_cross_border_body_verified,1,0,0,0,1,raw_link_some_unaudited,1,none,8,P1,Individually inspect remaining exact original URLs; no implied substantive eligibility.
-826,United Kingdom of Great Britain and Northern Ireland,Europe,lactose,national_or_cross_border_body_verified,2,1,0,0,1,has_audited_qualifying_original,3,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
+826,United Kingdom of Great Britain and Northern Ireland,Europe,hypertension,national_or_cross_border_body_verified,1,0,1,0,0,all_historical_rows_audited_no_S1_S2_H,1,none,8,P0,Preserve historical M/U links; retrieve exact substantive original or retain named access/attribution blocker.
+826,United Kingdom of Great Britain and Northern Ireland,Europe,lactose,national_or_cross_border_body_verified,2,2,0,0,0,has_audited_qualifying_original,3,none,8,P2,"Eligible research/education lead; independent clinical, issuer, population, rights review remains separate."
 831,Guernsey,Europe,celiac,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 831,Guernsey,Europe,diabetes,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
 831,Guernsey,Europe,gout,not_yet_researched,0,0,0,0,0,untouched_or_unscored,0,none,1,P1,native-language first-pass via real local organization and issuer
