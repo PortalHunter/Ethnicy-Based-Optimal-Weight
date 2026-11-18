@@ -53,3 +53,13 @@ Twenty-five issues cover all 29 active U-tier context rows. Shared artifact issu
 - [Irish haemochromatosis education: specific HFE/population/ferritin verification #128](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/128). S2 substantive education indexed; genetic/clinical claims remain explicitly unverified.
 
 - [#129](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/129): Herat diabetes participant-flow and cholesterol threshold reconciliation before quantitative reuse. Original methods/source existence remains S1; reliability unresolved.
+
+- [131](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131): Bouvet Island local-issuer scope exception. Seven actual condition-specific retrievals preserved; no local organization or national absence inferred.
+
+- [130](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130): Heard Island and McDonald Islands local-issuer scope exception. Seven actual condition-specific retrievals preserved; no local organization or national absence inferred.
+
+- [#132](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/132): Gabon original2004 abstract,p124 unavailable; original authorship/imprint and hereditary/secondary subtype remain unverified.
+
+- [#133](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/133): Hungarian HH ancestry exclusions and variant wording. S2 source existence only; no clinical or genetic approval.
+
+- [#134](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/134): Canadian HH population/genetic and dated clinical statements. S2 source existence only; no clinical or genetic approval.

@@ -250,6 +250,51 @@
       "kind": "study_reliability",
       "original_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13134255/",
       "title": "Reconcile participant flow and cholesterol threshold before quantitative reuse"
+    },
+    {
+      "org_id": "no_local_org_indexed",
+      "area_m49": "074",
+      "conditions": "diabetes|hypertension|high_chol|gout|lactose|celiac|hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131",
+      "original_url": "https://npolar.no/en/themes/bouvetoya/",
+      "kind": "local_issuer_scope_exception",
+      "title": "Adjudicate explicit local-issuer geographic exception: Bouvet Island"
+    },
+    {
+      "org_id": "no_local_org_indexed",
+      "area_m49": "334",
+      "conditions": "diabetes|hypertension|high_chol|gout|lactose|celiac|hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130",
+      "original_url": "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/",
+      "kind": "local_issuer_scope_exception",
+      "title": "Adjudicate explicit local-issuer geographic exception: Heard Island and McDonald Islands"
+    },
+    {
+      "org_id": "unverified_Gabon_author_group",
+      "area_m49": "266",
+      "conditions": "hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/132",
+      "kind": "original_abstract_access_and_local_authorship",
+      "original_url": "https://www.researchgate.net/publication/364950228_L%27HEMOCHROMATOSE_HEPATIQUE_AU_BURKINA_FASO_A_PROPOS_D%27UNE_OBSERVATION",
+      "title": "Retrieve original Gabon2004 hemochromatosis abstract,p124"
+    },
+    {
+      "org_id": "B-HU-HBE",
+      "area_m49": "348",
+      "conditions": "hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/133",
+      "kind": "independent_genetics_and_clinical_review",
+      "original_url": "https://hemokromatozis.hu/tudastar/mi-a-hemokromatozis/hemokromatozisrol/",
+      "title": "Review Hungarian HH ancestry exclusions and genetic wording"
+    },
+    {
+      "org_id": "B-CA-CHS",
+      "area_m49": "124",
+      "conditions": "hemochromatosis",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/134",
+      "kind": "independent_genetics_and_clinical_review",
+      "original_url": "https://www.toomuchiron.ca/hemochromatosis/the-condition/",
+      "title": "Review Canadian HH population/genetic and dated clinical statements"
     }
   ]
 }

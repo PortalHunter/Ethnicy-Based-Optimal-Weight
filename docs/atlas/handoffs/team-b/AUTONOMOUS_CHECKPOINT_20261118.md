@@ -1,36 +1,34 @@
 # Team B autonomous continuation — active research checkpoint
 
-Goal ACTIVE; acceptance INCOMPLETE. Draft/open/unmerged PR#71; branch `research/atlas-team-b-20261104`. Zero clinical/genetic/legal/rights/community approvals.
+Goal ACTIVE; acceptance INCOMPLETE. PR#71 draft/open/unmerged; branch `research/atlas-team-b-20261104`. Zero clinical/genetic/legal/rights/community approvals. Baseline `27c846fc2a51cd9bced2e3620d71f5dee65ba229`; containing publication commit identifies this snapshot.
 
-Baseline `27c846fc2a51cd9bced2e3620d71f5dee65ba229`; this file’s containing publication commit identifies the snapshot.
-
-| Measure | Start | Current |
+| Measure | Continuation start | Current |
 |---|---:|---:|
-| Organizations | 502 | 516 |
-| Raw-linked cells | 389 | 403 |
-| Qualified cells | 194 | 225 |
-| Searched-unlinked | 274 | 1333 |
+| Organizations | 502 | 518 |
+| Raw-linked cells | 389 | 405 |
+| Qualified cells | 194 | 258 |
+| Searched-unlinked | 274 | 1331 |
 | Untouched | 1073 | 0 |
-| Audited source contexts | 434 | 465 |
-| Unaudited sources | 0 | 0 |
-| Unlinked lacking D2/D3 | 263 | 1312 |
+| Audited contexts | 434 | 499 |
+| Unaudited contexts | 0 | 0 |
+| Unlinked lacking D2/D3 | 263 | 1290 |
 | Identity gaps | 21 | 21 |
 | Unknown issuer imprints | 5 | 5 |
-| Provenance | 1260 | 3085 |
-| Search logs | 783 | 2588 |
+| Provenance | 1260 | 4053 |
+| Search logs | 783 | 3553 |
 
-Source tiers {'S1': 65, 'S2': 148, 'H': 27, 'M': 196, 'U': 29}; active depth {'D1': 1410, 'D2': 22, 'D3': 5}. Local identity reach227/248. All465 contexts research_lead_only.
+Tiers {'S1': 81, 'S2': 164, 'H': 29, 'M': 196, 'U': 29}; active depth {'D1': 1504, 'D2': 27, 'D3': 20}. All499 contexts research_lead_only. Local identity reach227/248 remains unchanged: no21 geographic gaps fabricated away.
 
-This continuation inspected31 new source contexts representing30 unique URLs, qualifying31 previously nonqualifying cells. Historical M/U rows preserved. B111–B118 include professional guidelines, original academic research and education, with accurate original author/host/publisher roles. S2 is educational coverage only. French commercial mirror is not author; Austrian shared guide is not two independent studies; Spanish2020 industry funding/currency limits retained. Herat participant-flow and cholesterol inconsistencies are issue129, not silently corrected or approved.
+Original initial queue342 unaudited contexts/315 unique URLs was individually audited in B100–B104. This continuation individually inspected65 new contexts/59 unique URLs and qualified64 previously nonqualified cells. Total qualified258; one extra RACGP lipid context enriches already qualified Australia lipid cell rather than counting a second cell. Original overall untouched1154→0;1073 were actually researched in this continuation. These discovery queries are not blanket seven-condition searches or source qualifications.
 
-1073 previously untouched cells actually queried individually;59 broad alias followups;630 local-author/alias refinements recorded. Metadata never auto-qualified. Ten HH cells gained D2 after distinct literature, network-directory and condition-specific web routes with explicit indexing/language/first-five limits. A bounded nonfinding is not national absence.
+B107–B131 preserve exact original/educational/host roles, edition, studied population and jurisdiction. Latest originals include Japanese/Chilean diabetes comorbidity sections, original Japan/Italy gout, Brazilian2025 guidelines, PERKENI2021/2024 and InaSH2024 resistant hypertension, RACGP2024 edition PDF updated29Oct2026. Shared Austria,Chile,Faroese andRACGP documents remain shared, not independent studies. Argentina/ARIG host government authors distinct. Source quality does not grant clinical currency or scientific reliability.
 
-33 individual issues #97–#129 cover five original-issuer conflicts,25 distinct U artifacts,Guam community governance,Irish genetic wording andHerat study reliability. Source-specific human approval remains separate.
+All1538 local-author/alias receipts durable:1529 frozen queries plus9 corrected Netherlands/UK/USA aliases, preserving original query histories. Same-index refinements remain D1. Earlier1073 first-pass queries and59 broad aliases retained. Bounded manual searches added15 D2 cells since continuation start and15 D3 cells (14 polar scope,1 Gabon abstract); active D2 counts may change when sources qualify. D3 means documented external evidence/scope adjudication, not national absence.
 
-Native unchanged Node validator PASS (zero errors);supplemental6491 assertions PASS. Historical row prefixes and10community/8cross-border safeguards preserved. Receipts `runs/20261118_phase2_validation.md` and `runs/20261118_phase2_supplemental_validation.json`. Publication tree/blob verification and CI recorded on PR#71. Calculator/browser tests not locally run for research-only changes.
+38 individual issues #97–#134: five issuer questions,25 unavailable U artifacts covering29 contexts,Guam community governance,Irish/Hungarian/Canadian genetic wording,Herat reliability,Bouvet/Heard local-issuer scope,Gabon2004 original abstract. Full mapping `data/verification_issues_20261118.json`. Do not conflate S2/H educational coverage with approved clinical/genetic claims.
 
-Remaining executable work: 1312 unlinked depth tasks and178 historical raw-linked nonqualified cells, plus21identity gaps;5issuer questions and29U context problems explicitly escalated. Do not present these as all externally blocked.
+Native unchanged Node validator PASS,zero errors;8401 supplemental assertions PASS. Historical source/search row prefixes and10community/8cross-border safeguards preserved. Receipts `runs/20261118_phase3_validation.md` and `runs/20261118_phase3_supplemental_validation.json`. Calculator/browser tests not locally run for research-only changes; publication/CI tracked on PR#71.
 
-Continue reviewing frozen local-author candidates and original native-language society resources. Current temporary phase2 retrieval selects first750 of1529;630 receipts durable here. Ingest later completed responses once, preserve all original query histories and existing D2/D3. Barbados HH original review and Brunei assay/proceedings candidates remain D1 pending source/identity/imprint inspection. UK2017 gout originals blocked by university403 and journal reader; stop retrying those routes this run.
+Remaining ordinary research:1290 unlinked D1 depth tasks,147 raw-linked nonqualified cells and21 local identity gaps. Five issuer imprints/29 U contexts have specific external-evidence issues, but remaining backlog is not all externally blocked. No research acceptance closure claimed. Do not stop just because untouched/unaudited are zero.
 
-Do not stop at this checkpoint. Continue until acceptance is achieved, resources are exhausted or the user requests a stop; no routine confirmation.
+Continue native-language society resources and inspected local-author candidates using durable caches. UK2017 gout originals stopped after university403/journal block; Korea English2025 guideline stopped after journal403/PMCcaptcha; distinct Korean edition remains a candidate. Guadeloupe exact HH article503 and FrenchPolynesia adjacent-abstract ambiguity remain unqualified. No repeated same unavailable source retrieval.

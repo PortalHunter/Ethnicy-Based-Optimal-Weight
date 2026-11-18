@@ -1,0 +1,324 @@
+[
+  {
+    "record_id": "B121-SCOPE-074-celiac",
+    "area_m49": "074",
+    "condition_key": "celiac",
+    "query": "(\"Bouvet Island\") AND (\"celiac disease\" OR \"coeliac disease\" OR celiaquia OR celiakia OR celijakija)",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://npolar.no/en/themes/bouvetoya/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bouvet+Island%22%29+AND+%28%22celiac+disease%22+OR+%22coeliac+disease%22+OR+celiaquia+OR+celiakia+OR+celijakija%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=1; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-074-diabetes",
+    "area_m49": "074",
+    "condition_key": "diabetes",
+    "query": "(\"Bouvet Island\") AND diabetes",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://npolar.no/en/themes/bouvetoya/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bouvet+Island%22%29+AND+diabetes&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=3; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-074-gout",
+    "area_m49": "074",
+    "condition_key": "gout",
+    "query": "(\"Bouvet Island\") AND (gout OR gouty OR podagra)",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://npolar.no/en/themes/bouvetoya/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bouvet+Island%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=0; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-074-hemochromatosis",
+    "area_m49": "074",
+    "condition_key": "hemochromatosis",
+    "query": "(\"Bouvet Island\") AND (hemochromatosis OR haemochromatosis OR \"hereditary iron overload\")",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://npolar.no/en/themes/bouvetoya/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bouvet+Island%22%29+AND+%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=0; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-074-high_chol",
+    "area_m49": "074",
+    "condition_key": "high_chol",
+    "query": "(\"Bouvet Island\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://npolar.no/en/themes/bouvetoya/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bouvet+Island%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=2; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-074-hypertension",
+    "area_m49": "074",
+    "condition_key": "hypertension",
+    "query": "(\"Bouvet Island\") AND (hypertension OR \"high blood pressure\")",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://npolar.no/en/themes/bouvetoya/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bouvet+Island%22%29+AND+%28hypertension+OR+%22high+blood+pressure%22%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=3; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-074-lactose",
+    "area_m49": "074",
+    "condition_key": "lactose",
+    "query": "(\"Bouvet Island\") AND (lactose AND (intolerance OR malabsorption OR \"lactase deficiency\"))",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://npolar.no/en/themes/bouvetoya/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bouvet+Island%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=0; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/131 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-334-celiac",
+    "area_m49": "334",
+    "condition_key": "celiac",
+    "query": "(\"Heard Island and McDonald Islands\") AND (\"celiac disease\" OR \"coeliac disease\" OR celiaquia OR celiakia OR celijakija)",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Heard+Island+and+McDonald+Islands%22%29+AND+%28%22celiac+disease%22+OR+%22coeliac+disease%22+OR+celiaquia+OR+celiakia+OR+celijakija%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=1; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-334-diabetes",
+    "area_m49": "334",
+    "condition_key": "diabetes",
+    "query": "(\"Heard Island and McDonald Islands\") AND diabetes",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Heard+Island+and+McDonald+Islands%22%29+AND+diabetes&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=1; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-334-gout",
+    "area_m49": "334",
+    "condition_key": "gout",
+    "query": "(\"Heard Island and McDonald Islands\") AND (gout OR gouty OR podagra)",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Heard+Island+and+McDonald+Islands%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=0; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-334-hemochromatosis",
+    "area_m49": "334",
+    "condition_key": "hemochromatosis",
+    "query": "(\"Heard Island and McDonald Islands\") AND (hemochromatosis OR haemochromatosis OR \"hereditary iron overload\")",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Heard+Island+and+McDonald+Islands%22%29+AND+%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=0; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-334-high_chol",
+    "area_m49": "334",
+    "condition_key": "high_chol",
+    "query": "(\"Heard Island and McDonald Islands\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Heard+Island+and+McDonald+Islands%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=1; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-334-hypertension",
+    "area_m49": "334",
+    "condition_key": "hypertension",
+    "query": "(\"Heard Island and McDonald Islands\") AND (hypertension OR \"high blood pressure\")",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Heard+Island+and+McDonald+Islands%22%29+AND+%28hypertension+OR+%22high+blood+pressure%22%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=1; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  },
+  {
+    "record_id": "B121-SCOPE-334-lactose",
+    "area_m49": "334",
+    "condition_key": "lactose",
+    "query": "(\"Heard Island and McDonald Islands\") AND (lactose AND (intolerance OR malabsorption OR \"lactase deficiency\"))",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_operator_scope",
+        "url": "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/",
+        "observation": "Original geography/occupancy/operator context inspected; no eligible local independent clinical organization established. Foreign research operation is distinct from local domicile."
+      },
+      {
+        "approach": "actual_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Heard+Island+and+McDonald+Islands%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual separate query for this condition, count=0; first returned titles reviewed, metadata/namesake/external records not qualified."
+      }
+    ],
+    "result": "Evidence-limited local-issuer scope question escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130. No local organization verified; no source eligibility invented.",
+    "limits": "Not a D2 nationwide negative or scientific/clinical verification. Geographic identity gap remains unresolved. Generic geography source supplies scope context only; separate condition-specific query is preserved. Maintainer/geographic decision needed; all seven cells retained.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/130 with explicit scope exception or primary locally domiciled eligible issuer evidence; reopen on new evidence."
+  }
+]
