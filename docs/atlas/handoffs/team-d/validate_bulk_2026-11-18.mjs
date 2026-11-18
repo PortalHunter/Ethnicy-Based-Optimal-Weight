@@ -48,7 +48,7 @@ function checkRefs(refs) {
 }
 for(const r of regions){assert.equal(r.new_state,'not_verified');assert.equal(r.http_status,'200');assert.equal(r.profile_result,'GENERIC_COUNTRIES_INDEX_NOT_INDIVIDUAL_PROFILE');checkRefs(r.existing_evidence_rows);}
 assert.equal(new Set(regions.map(r=>r.response_sha256)).size,1);
-for(const r of officeReview){assert.equal(r.april_survey_state,'NO_AFFIRMATIVE_APRIL_JOIN');assert.equal(r.documented_absence,'NOT_ESTABLISHED');assert(['UNKNOWN_NOT_PROVEN_BY_THIS_RECONCILIATION','CURRENT_PUBLISHED_IN_AREA_ADDRESS','CURRENT_PUBLISHED_OFFSHORE_CONTACT_LOCAL_PREMISES_UNKNOWN','CURRENT_PUBLISHED_COORDINATION_CONTACT_PREMISES_UNKNOWN','CURRENT_PUBLISHED_POSTAL_CONTACT_ONLY_PHYSICAL_PREMISES_UNKNOWN','CURRENT_PUBLISHED_CITY_CONTACT_ONLY_PHYSICAL_PREMISES_UNKNOWN','CURRENT_PUBLISHED_REPRESENTATIVE_ROLE_PREMISES_UNKNOWN'].includes(r.present_day_physical_presence));checkRefs(r.supporting_rows);}
+for(const r of officeReview){assert.equal(r.april_survey_state,'NO_AFFIRMATIVE_APRIL_JOIN');assert.equal(r.documented_absence,'NOT_ESTABLISHED');assert(['UNKNOWN_NOT_PROVEN_BY_THIS_RECONCILIATION','CURRENT_PUBLISHED_IN_AREA_ADDRESS','CURRENT_PUBLISHED_OFFSHORE_CONTACT_LOCAL_PREMISES_UNKNOWN','CURRENT_PUBLISHED_COORDINATION_CONTACT_PREMISES_UNKNOWN','CURRENT_PUBLISHED_POSTAL_CONTACT_ONLY_PHYSICAL_PREMISES_UNKNOWN','CURRENT_PUBLISHED_CITY_CONTACT_ONLY_PHYSICAL_PREMISES_UNKNOWN','CURRENT_PUBLISHED_REPRESENTATIVE_ROLE_PREMISES_UNKNOWN','CURRENT_PUBLISHED_SPECIALISED_OFFICE_HOST_CITY_NO_STREET','CURRENT_OPERATIONAL_OFFICE_LABEL_M49_JOIN_NOT_ESTABLISHED','HISTORICAL_NO_COUNTRY_OFFICE_STATEMENT_CURRENT_UNKNOWN','ISO_ONLY_CANDIDATE_NOT_CANONICAL_UN_M49_OFFICE_JOIN','NO_CURRENT_WHO_PREMISES_ESTABLISHED_AFTER_BOUNDED_PRIMARY_REVIEW'].includes(r.present_day_physical_presence));checkRefs(r.supporting_rows);}
 const originalOffices=data('who_country_office_presence.csv');
 const roster=data('who_office_survey_roster_2026.csv');
 const reconciliation=data('who_office_april_reconciliation_2026-11-18.csv');
@@ -135,3 +135,26 @@ assert(countryCurrent.find(x=>x.country_area_m49==='364').temporal_scope.include
 const countryAccess=data('who_office_country_access_2026-11-18.csv');assert.equal(countryAccess.length,43);
 for(const r of countryAccess){if(r.http_status==='200')assert.match(r.sha256,/^[a-f0-9]{64}$/);if(r.source_id)assert.equal(source.get(r.source_id)?.source_url,r.requested_url);}
 console.log('Current country review PASS:33 cases;21 in-area address listings,2 postal-only,one city-only,9 representative-only; no April or absence promotions.');
+
+// Final bounded office pass covers all remaining cases without inventing negative responses.
+const finalOffices=data('who_office_remaining_review_2026-11-18.csv');assert.equal(finalOffices.length,63);
+const allCurrent=[...current,...countryCurrent,...finalOffices];assert.equal(by(allCurrent,'backlog_id').size,144);
+assert.deepEqual(allCurrent.map(x=>x.backlog_id).sort(),officeReview.map(x=>x.backlog_id).sort());
+for(const r of finalOffices){
+ const original=officeReview.find(x=>x.backlog_id===r.backlog_id);assert(original);
+ assert.equal(original.m49_code,r.m49_candidate_code);assert.equal(original.present_day_physical_presence,r.published_listing_state);
+ assert.equal(r.april_survey_evidence,'NO_NEW_APRIL_EVIDENCE');assert.equal(r.current_absence_claim,'NOT_ESTABLISHED');assert.equal(r.full_backlog_closure,'NO');
+ for(const prefix of ['current','historical']){const ids=r[prefix+'_source_ids'].split('|').filter(Boolean),urls=r[prefix+'_source_urls'].split('|').filter(Boolean);assert.equal(ids.length,urls.length);ids.forEach((id,i)=>assert.equal(source.get(id)?.source_url,urls[i]));}
+}
+assert.equal(finalOffices.filter(x=>x.published_listing_state==='NO_CURRENT_WHO_PREMISES_ESTABLISHED_AFTER_BOUNDED_PRIMARY_REVIEW').length,47);
+const oldNegative=finalOffices.filter(x=>x.historical_absence_statement!=='NONE_PROMOTED');assert.equal(oldNegative.length,1);
+assert.equal(oldNegative[0].m49_candidate_code,'784');assert(oldNegative[0].historical_date_scope.includes('Published2012'));assert.equal(oldNegative[0].current_absence_claim,'NOT_ESTABLISHED');
+assert.equal(finalOffices.find(x=>x.m49_candidate_code==='158').canonical_un_m49_state,'ISO_ONLY_NOT_CANONICAL_UN_ROW');
+assert.equal(finalOffices.find(x=>x.m49_candidate_code==='275').listed_host_m49,'');
+assert.equal(finalOffices.find(x=>x.m49_candidate_code==='535').listed_host_m49,'780');
+assert.equal(finalOffices.find(x=>x.m49_candidate_code==='663').listed_host_m49,'052');
+const variations=data('who_office_label_discrepancies_2026-11-18.csv');assert.equal(variations.length,2);
+for(const r of variations){assert.equal(source.get(r.source_a_id)?.source_url,r.source_a_url);assert.equal(source.get(r.source_b_id)?.source_url,r.source_b_url);}
+const finalAccess=data('who_office_remaining_access_2026-11-18.csv');assert.equal(finalAccess.length,88);
+for(const r of finalAccess){if(r.http_status==='200')assert.match(r.sha256,/^[a-f0-9]{64}$/);}
+console.log('All144 office cases have qualified current/dated/boundary/unknown classifications;47 remain unknown after bounded primary review. Historical2012 absence is not current absence;105 April positives unchanged.');

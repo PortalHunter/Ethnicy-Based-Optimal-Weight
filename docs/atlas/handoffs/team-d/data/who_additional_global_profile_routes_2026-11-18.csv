@@ -1,0 +1,5 @@
+m49_code,requested_url,direct_result,browser_result,checked_on,strict_who_region_promotion,limitation
+304,https://www.who.int/countries/GRL,HTTP Error 404: Not Found,CACHE_MISS,2026-11-18,NO,"Global route404 and browser miss do not establish WHO assignment, membership or office absence."
+060,https://www.who.int/countries/BMU,HTTP Error 404: Not Found,CACHE_MISS,2026-11-18,NO,"Global route404 and browser miss do not establish WHO assignment, membership or office absence."
+438,https://www.who.int/countries/LIE,HTTP Error 404: Not Found,CACHE_MISS,2026-11-18,NO,"Global route404 and browser miss do not establish WHO assignment, membership or office absence."
+234,https://www.who.int/countries/FRO,HTTP Error 404: Not Found,CACHE_MISS,2026-11-18,NO,"Global route404 and browser miss do not establish WHO assignment, membership or office absence."
