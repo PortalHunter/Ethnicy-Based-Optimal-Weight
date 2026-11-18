@@ -1,0 +1,128 @@
+{
+  "schema_version": "0.1.0",
+  "snapshot_date": "2026-11-18",
+  "branch": "research/atlas-folklore-discovery-20261118",
+  "purpose": "non-clinical provenance-first story catalog and oral-tradition variant discovery",
+  "counts": {
+    "historical_printed_tale_entries": 519,
+    "editorial_note_story_references": 57,
+    "original_unverified_source_leads": 43,
+    "total_metadata_rows": 619,
+    "variant_candidate_clusters": 12,
+    "confirmed_unique_oral_witnesses": "not_assessed",
+    "clinically_verified_findings": 0
+  },
+  "focus_regions": [
+    "Europe",
+    "Southeast Asia"
+  ],
+  "disclaimer": "Book table-of-contents items, note references, and source links can overlap. Counts are metadata records, not unique independent stories or medically significant cases. All rights link-only and health features not reviewed.",
+  "files": [
+    {
+      "path": "intake/catalog-european-printed-tales-2026-11-18.csv",
+      "row_count": 127,
+      "kind": "historical_printed_tale_entry",
+      "regions": [
+        "England",
+        "Ireland",
+        "Scotland",
+        "Wales"
+      ],
+      "source_works": [
+        "English Fairy Tales (1890)",
+        "More English Fairy Tales (1894)",
+        "Celtic Fairy Tales (1892)",
+        "More Celtic Fairy Tales (1894)"
+      ]
+    },
+    {
+      "path": "intake/catalog-norse-printed-tales-2026-11-18.csv",
+      "row_count": 59,
+      "kind": "historical_printed_tale_entry",
+      "regions": [
+        "Norway"
+      ],
+      "source_works": [
+        "Asbjørnsen and Moe; English translation by Dasent (1859)"
+      ]
+    },
+    {
+      "path": "intake/catalog-italian-printed-tales-2026-11-18.csv",
+      "row_count": 109,
+      "kind": "historical_printed_tale_entry",
+      "regions": [
+        "Italy"
+      ],
+      "source_works": [
+        "Italian Popular Tales — Thomas Frederick Crane (1885)"
+      ]
+    },
+    {
+      "path": "intake/catalog-southeast-asia-printed-tales-2026-11-18.csv",
+      "row_count": 224,
+      "kind": "historical_printed_tale_entry",
+      "regions": [
+        "Philippines",
+        "Laos"
+      ],
+      "source_works": [
+        "Philippine Folk Tales — Mabel Cook Cole (1916)",
+        "Filipino Popular Tales — Dean Spruill Fansler (1921)",
+        "Laos Folk-Lore of Farther India — Katherine Neville Fleeson (1899)"
+      ]
+    },
+    {
+      "path": "intake/catalog-philippine-fansler-footnote-references-2026-11-18.csv",
+      "row_count": 57,
+      "kind": "editorial_note_story_reference",
+      "regions": [
+        "Philippines"
+      ],
+      "source_works": [
+        "Filipino Popular Tales (1921): stories cited in editorial notes"
+      ]
+    },
+    {
+      "path": "intake/source-leads-2026-11-18.csv",
+      "row_count": 43,
+      "kind": "unverified_source_lead",
+      "regions": [
+        "mixed including Ireland, Philippines, Estonia, North and South America"
+      ],
+      "source_works": [
+        "archive pages, scholarly and secondary links"
+      ]
+    },
+    {
+      "path": "variants/variant-candidate-watchlist-2026-11-18.csv",
+      "row_count": 12,
+      "kind": "possible_variant_or_literary_analogue_cluster",
+      "regions": [
+        "Europe",
+        "Philippines"
+      ],
+      "source_works": [
+        "Cross-index candidate relations only"
+      ]
+    }
+  ],
+  "quality_checks": {
+    "individually_unique_catalog_identifiers": true,
+    "variant_watchlist_ids_resolve": true,
+    "urls_individually_reviewed": false,
+    "underlying_version_independence_established": false,
+    "medical_screening_performed": false,
+    "rights_cleared_for_full_text": false
+  },
+  "storage": {
+    "metadata_repository_public": true,
+    "raw_fulltext_location": "Google Drive only when rights cleared",
+    "drive_folder_url": "https://drive.google.com/drive/folders/12VVGMHid7BQN8DoumqhUTtc67MFkjSNL"
+  },
+  "next_steps": [
+    "trace source-specific editions and original language for 12 clusters",
+    "expand European primary folktale archives beyond printed translations",
+    "expand Southeast Asian sources to Vietnamese, Thai, Malay, Indonesian, Borneo corpora",
+    "screen culturally respectful health features against negative controls, keeping hypotheses separate from clinical evidence"
+  ]
+}
