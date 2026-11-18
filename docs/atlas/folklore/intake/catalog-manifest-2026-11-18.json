@@ -7,17 +7,24 @@
     "historical_printed_tale_entries": 519,
     "editorial_note_story_references": 57,
     "original_unverified_source_leads": 43,
-    "total_metadata_rows": 731,
-    "variant_candidate_clusters": 17,
+    "total_metadata_rows": 903,
+    "variant_candidate_clusters": 19,
     "confirmed_unique_oral_witnesses": "not_assessed",
     "clinically_verified_findings": 0,
-    "niche_health_and_variant_source_leads": 112
+    "niche_health_and_variant_source_leads": 112,
+    "new_swedish_romanian_russian_armenian_printed_entries": 92,
+    "new_philippine_published_chapters_and_story_entries": 63,
+    "new_philippine_beyer_1913_lineage_leads": 9,
+    "new_tinguian_1915_publication_passage_leads": 8,
+    "new_entries_in_this_collection_round": 172,
+    "named_printed_story_titles_approx": 650,
+    "published_story_chapter_locators_with_titles_pending": 24
   },
   "focus_regions": [
     "Europe",
     "Southeast Asia"
   ],
-  "disclaimer": "Mixed metadata: 519 anthology titles, 57 editorial note references, 43 older source leads, and 112 niche archival pages, publication passages, retellings and scholar-source pointers. Some records share a URL or are excerpts of the same published account. Counts are NOT independently attested, medical discoveries, legal reproduction clearances or unique tales. Rights remain link-only; experience extraction and medical screening are unvalidated.",
+  "disclaimer": "903 distinct research RECORD IDs, not 903 independent oral stories, unique folklore motifs or medically meaningful observations. Some rows are locators without a transcribed title, secondary published versions, passages or lineage pointers; same books may be reprinted/cited across records, and cultural permissions and clinical evidence remain unreviewed.",
   "files": [
     {
       "path": "intake/catalog-european-printed-tales-2026-11-18.csv",
@@ -96,7 +103,7 @@
     },
     {
       "path": "variants/variant-candidate-watchlist-2026-11-18.csv",
-      "row_count": 17,
+      "row_count": 19,
       "kind": "possible_variant_or_literary_analogue_cluster",
       "regions": [
         "Europe",
@@ -148,6 +155,69 @@
         "Thai/Lao Twelve Sisters comparative scholarly studies"
       ],
       "note": "Chapter-level retellings, note-level bibliographic references and older folktale pages; independent witnesses not established."
+    },
+    {
+      "path": "intake/catalog-europe-caucasus-tales-2026-11-18-batch-003.csv",
+      "row_count": 92,
+      "kind": "historical_published_tale_title",
+      "regions": [
+        "Sweden",
+        "Romania",
+        "Russia / chapbook",
+        "Armenian Caucasus (transcontinental)"
+      ],
+      "source_works": [
+        "Klara Stroebe Swedish Fairy Book 1921",
+        "Mite Kremnitz Roumanian Fairy Tales 1885",
+        "Robert Steele The Russian Garland 1916 (about 1830 chapbook antecedents)",
+        "A.G. Seklemian The Golden Maiden 1898"
+      ],
+      "note": "All catalog titles sourced from verified named Gutenberg work metadata; translations, source lineage and story independence not established."
+    },
+    {
+      "path": "intake/catalog-philippine-1902-1907-regional-stories-2026-11-18-batch-004.csv",
+      "row_count": 63,
+      "kind": "historical_published_story_or_chapter_locator",
+      "regions": [
+        "Philippines",
+        "Visayan / Panay",
+        "Tagalog / Mindoro and other"
+      ],
+      "source_works": [
+        "John Maurice Miller Philippine Folklore Stories 1904 (14)",
+        "Clara Kern Bayliss JAFL 1902 (3)",
+        "Berton L. Maxfield and W.H. Millington Visayan Folk-Tales collected 1904 printed 1906–1907 (22)",
+        "Fletcher Gardner Tagalog Folk-Tales printed 1907 (23)",
+        "Fletcher Gardner Tagalog Aladdin version (1)"
+      ],
+      "note": "24 chapter titles intentionally left BLANK pending exact transcription; stable part and chapter locators provided; articles are compiled together in Gutenberg eBook 11028; not independent proven oral witnesses."
+    },
+    {
+      "path": "intake/philippine-source-lineage-beyer-1913-2026-11-18.csv",
+      "row_count": 9,
+      "kind": "historic_Indigenous_myth_quotation_or_source_lineage",
+      "regions": [
+        "Philippines / Ifugao",
+        "Philippines / Manobo",
+        "Philippines / Tagbanwa",
+        "Philippines / Bontok"
+      ],
+      "source_works": [
+        "H. Otley Beyer Origin Myths among the Mountain Peoples of the Philippines (1913)"
+      ],
+      "note": "Several versions quote/translate older works or unnamed sources; source permissions and community governance need review before detailed extraction."
+    },
+    {
+      "path": "intake/tinguian-1915-passage-variant-leads-2026-11-18.csv",
+      "row_count": 8,
+      "kind": "within_book_feature_and_variation_passage",
+      "regions": [
+        "Tinguian / Abra, Northwest Luzon"
+      ],
+      "source_works": [
+        "Fay-Cooper Cole Traditions of the Tinguian (1915)"
+      ],
+      "note": "These are eight passages within one historical publication, NOT eight independent tales or separate storytellers. Six storytellers and four towns reported for 26 core myths by author."
     }
   ],
   "quality_checks": {
@@ -159,7 +229,10 @@
     "rights_cleared_for_full_text": false,
     "niche_leads_separately_typed": true,
     "niche_variant_dependencies_flagged": true,
-    "rare_story_equates_to_rare_disease": false
+    "rare_story_equates_to_rare_disease": false,
+    "source_catalog_titles_await_original_review": true,
+    "first_language_teller_provenance_awaits_review": true,
+    "unknown_printed_titles_are_blank_instead_of_guessed": true
   },
   "storage": {
     "metadata_repository_public": true,
@@ -167,6 +240,7 @@
     "drive_folder_url": "https://drive.google.com/drive/folders/12VVGMHid7BQN8DoumqhUTtc67MFkjSNL"
   },
   "next_steps": [
+    "Resolve 24 untranscribed titles in JAF Tagalog and Visayan printed chapter inventory; compare 1902/1906–07 with 1916 and 1921 printed witnesses",
     "Inspect the 112 niche entries, prioritize primary item and first-language story versions, and re-check any source links with shared underlying citations",
     "trace source-specific editions and original language for 12 clusters",
     "expand European primary folktale archives beyond printed translations",
