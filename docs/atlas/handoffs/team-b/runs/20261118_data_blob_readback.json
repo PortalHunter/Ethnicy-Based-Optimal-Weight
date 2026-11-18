@@ -1,0 +1,23 @@
+{
+  "immutable_data_commit": "1b2a66975522e6f9c031c2eecea33b28c66a9e81",
+  "full_repository_tree_entries": 170,
+  "tree_truncated": false,
+  "canonical_blob_readbacks_passed": 12,
+  "blob_shas": {
+    "data/m49_area_codes.csv": "80da341f3a5d18ccb4eac30fdede82b0d4870629",
+    "data/specialist_organizations.csv": "39b5190aa03c754d0a99f3cbad16d0e1244c8a3f",
+    "data/condition_organizations.csv": "1a00ea26c9058402ff2aa444238348130dc7c788",
+    "data/publication_context.csv": "9f97a16fc0d0f2e0f41377aca1c47282f443674a",
+    "data/coverage_by_area_condition.csv": "5831ae910a1518d8a7a98a1d90ad8ac9c6035c9b",
+    "data/subnational_and_indigenous_organizations.csv": "8c000c55c3267a8ed6155cb1f85cc135729ae537",
+    "PROVENANCE.csv": "17a92e99a80fc451cffb0a8375f986d3c74f8832",
+    "data/search_log.csv": "9fb0a04dc6ef6d9c0e5a2cb78a7663e46f51a826",
+    "data/m49_verified_overview.csv": "062b70cb9f19de17ac564d336c5580d622379f05",
+    "data/cross_border_services.csv": "b1fec349b5c670cdacabc33e73f5567a9340842d",
+    "validate.mjs": "4d40ac04963d30d0ec809c2f066eaa1a0c538a36",
+    "data/research_quality_audit.csv": "e8fea760c9afe0637705f7d3e0db3a9e217a0af3"
+  },
+  "note": "Twelve local immutable blob readbacks passed. The GitHub-created immutable data commit has exactly the same full tree SHA; branch fast-forward verification follows publication.",
+  "local_validation_source_commit": "da6e57c75a645872ad5916dab9c60cba11a73a82",
+  "verified_data_tree": "883414a9b6b0367993fa843ba65f874d562307b8"
+}

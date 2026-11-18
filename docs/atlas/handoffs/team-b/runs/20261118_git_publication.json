@@ -1,0 +1,44 @@
+{
+  "method": "GitHub Git Data API; native HTTPS push lacked local credentials",
+  "base_sha": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
+  "branch": "research/atlas-team-b-20261104",
+  "force": false,
+  "all_data_trees_identical": true,
+  "commits": [
+    {
+      "local_sha": "bd007c2e13a0a23ea07a5cefd74aaa725ce87db3",
+      "remote_sha": "208bf463e3c9407bee950f9d7484d22527c514e4",
+      "tree": "9721d69d637c8a0c1963aae684f312b4d978ec0f"
+    },
+    {
+      "local_sha": "d2522c061efb060b16dd2f01c25fed370c73a95a",
+      "remote_sha": "4d9f1c7c3adb572336557761362b05ebab539553",
+      "tree": "d774fdf0a915a11b9656ffdf16cb19329ef3a558"
+    },
+    {
+      "local_sha": "22036e215e9d1205245f49e7d3b03c1bac45755d",
+      "remote_sha": "d409cf7d046a80fcf7e24a8b974e6ffca3e64ed2",
+      "tree": "607bc8f18335a6d74653fc14c9fb09bf0b56dd92"
+    },
+    {
+      "local_sha": "e93aacce6027ea1b57100d720df221566e26881b",
+      "remote_sha": "8eafaae681c3ee059b143208db000dd3fdb8d094",
+      "tree": "5b89a610e5c3abe4b9a29b9b8f105b4208200eed"
+    },
+    {
+      "local_sha": "244d6717f8f6fcebbd24e07d343c99f288c4c72e",
+      "remote_sha": "4a618bce93a8b6391fca1ffac0a12e41b897343e",
+      "tree": "d803745e5f611a26c557ffaef9e3336fa453b67c"
+    },
+    {
+      "local_sha": "e0c4d5652984717f77e9fda3b18a8fe0d44f911a",
+      "remote_sha": "8a6c0cc33e7057f9a3cda3a566f6d94c7b6f1caa",
+      "tree": "246506bd6bd00abea29c64b5f4dfde01fb30c106"
+    },
+    {
+      "local_sha": "da6e57c75a645872ad5916dab9c60cba11a73a82",
+      "remote_sha": "1b2a66975522e6f9c031c2eecea33b28c66a9e81",
+      "tree": "883414a9b6b0367993fa843ba65f874d562307b8"
+    }
+  ]
+}
