@@ -15,7 +15,7 @@ for item in items:
   assert set(o)==set(org[0]),set(o)^set(org[0]);org.append(o);om[oid]=o
   prov.append(dict(zip(prov[0],[oid,'organization_identity',area,o['name_local'],o['source_url'],o['language'],'2026-11-18',o['identity_state'],item['identity_evidence']])))
   identity.append(dict(zip(identity[0],[area,names[area],oid,o['name_local'],o['official_url'],o['source_url'],o['identity_state'],'own_original_name_seat_objects_inspected_NOT_legal_approval','P2','Independent registration/current lifecycle review remains separate; preserve exact observed seat.'])))
- sid=item['record_id'];role=item['role'];review='B107_manual_original_content_and_role_inspected_research_only'
+ sid=item['record_id'];role=item['role'];review=sid.split('-')[0]+'_manual_original_content_and_role_inspected_research_only'
  pub.append(dict(zip(pub[0],[oid,cond,url,item['title'],item['language'],item['edition'],role,review,item['evidence_summary']])))
  prov.append(dict(zip(prov[0],[sid,'condition_publication_role_and_content',area,item['issuer'],url,item['language'],'2026-11-18',review,item['evidence_summary']])))
  evidence_ids=[sid,oid]

@@ -20,7 +20,7 @@ TERMS={
  'celiac':'("celiac disease" OR "coeliac disease" OR celiaquia OR celiakia OR celijakija)',
  'hemochromatosis':'(hemochromatosis OR haemochromatosis OR "hereditary iron overload")'}
 ALIASES={
- '068':['Bolivia'], '344':['Hong Kong'], '446':['Macao','Macau'], '520':['Nauru','Naoero'], '583':['Federated States of Micronesia','Micronesia','FSM'], '643':['Russia','Russian Federation'], '704':['Vietnam','Viet Nam'], '748':['Eswatini','Swaziland'], '384':["Côte d’Ivoire","Côte d'Ivoire",'Ivory Coast'], '531':['Curaçao','Curacao'], '534':['Sint Maarten'], '638':['Réunion','Reunion'], '850':['United States Virgin Islands','US Virgin Islands','U.S. Virgin Islands'], '096':['Brunei','Brunei Darussalam'], '104':['Myanmar','Burma'],
+ '068':['Bolivia'], '528':['Netherlands','Holland'], '826':['United Kingdom','UK','England','Scotland','Wales','Northern Ireland'], '840':['United States','USA','United States of America'], '344':['Hong Kong'], '446':['Macao','Macau'], '520':['Nauru','Naoero'], '583':['Federated States of Micronesia','Micronesia','FSM'], '643':['Russia','Russian Federation'], '704':['Vietnam','Viet Nam'], '748':['Eswatini','Swaziland'], '384':["Côte d’Ivoire","Côte d'Ivoire",'Ivory Coast'], '531':['Curaçao','Curacao'], '534':['Sint Maarten'], '638':['Réunion','Reunion'], '850':['United States Virgin Islands','US Virgin Islands','U.S. Virgin Islands'], '096':['Brunei','Brunei Darussalam'], '104':['Myanmar','Burma'],
  '132':['Cabo Verde','Cape Verde'], '180':['Democratic Republic of Congo','DR Congo','Zaire'],
  '203':['Czechia','Czech Republic'], '238':['Falkland Islands','Malvinas'],
  '248':['Aland','Åland'], '275':['Palestine','Palestinian'], '336':['Holy See','Vatican'],

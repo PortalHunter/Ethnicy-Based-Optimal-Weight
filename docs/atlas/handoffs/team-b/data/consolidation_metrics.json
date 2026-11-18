@@ -1,39 +1,39 @@
 {
   "baseline_sha": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
-  "method": "2026-11-18 individually reviewed original sources plus attributable condition-specific catalogue requests; D1 metadata discovery never promoted automatically",
+  "method": "2026-11-18 exact URL manual content audits; deterministic supplemental reconciliation; historical canonical records preserved",
   "generated_utc_date": "2026-11-18",
   "M49": 248,
   "conditions": 7,
   "matrix": 1736,
-  "organizations": 515,
+  "organizations": 516,
   "areas_with_local_org_indexed": 227,
   "geographic_org_gaps": 21,
-  "raw_linked_cells": 402,
-  "searched_unlinked_cells": 1334,
+  "raw_linked_cells": 403,
+  "searched_unlinked_cells": 1333,
   "untouched_cells": 0,
-  "pub_context_rows": 447,
-  "source_quality_audited": 447,
+  "pub_context_rows": 465,
+  "source_quality_audited": 465,
   "source_quality_unreviewed": 0,
   "tiers": {
-    "S1": 58,
-    "S2": 138,
-    "H": 26,
+    "S1": 65,
+    "S2": 148,
+    "H": 27,
     "M": 196,
     "U": 29
   },
-  "eligible_audited_sources": 222,
-  "distinct_cells_with_eligible_audited_source": 207,
-  "raw_linked_fully_audited_without_S1_S2_H": 195,
+  "eligible_audited_sources": 240,
+  "distinct_cells_with_eligible_audited_source": 225,
+  "raw_linked_fully_audited_without_S1_S2_H": 178,
   "raw_linked_no_eligible_with_unaudited": 0,
-  "search_depth_entries": 1250,
-  "search_depth_D2_cells_with_no_link": 11,
-  "searched_unlinked_missing_active_D2": 1323,
+  "search_depth_entries": 1889,
+  "search_depth_D2_cells_with_no_link": 21,
+  "searched_unlinked_missing_active_D2": 1312,
   "unknown_source_country_imprints": 5,
-  "source_reused_exact_urls": 25,
+  "source_reused_exact_urls": 28,
   "shared_org_official_url_strings": 6,
   "repeated_exact_area_condition_search_urls": 14,
-  "provenance": 2422,
-  "search_logs": 1928,
+  "provenance": 3085,
+  "search_logs": 2588,
   "community_subnational": 10,
   "cross_border": 8,
   "metadata_reconciliation": 7,
@@ -41,62 +41,62 @@
   "metadata_replacement_open": 1,
   "by_condition": {
     "diabetes": {
-      "raw": 111,
-      "searched": 137,
+      "raw": 112,
+      "searched": 136,
       "untouched": 0,
-      "qualCells": 43,
-      "auditedSources": 124
+      "qualCells": 49,
+      "auditedSources": 130
     },
     "hypertension": {
       "raw": 77,
       "searched": 171,
       "untouched": 0,
-      "qualCells": 22,
-      "auditedSources": 82
+      "qualCells": 24,
+      "auditedSources": 84
     },
     "high_chol": {
       "raw": 48,
       "searched": 200,
       "untouched": 0,
-      "qualCells": 20,
-      "auditedSources": 52
+      "qualCells": 21,
+      "auditedSources": 53
     },
     "gout": {
       "raw": 43,
       "searched": 205,
       "untouched": 0,
-      "qualCells": 28,
-      "auditedSources": 47
+      "qualCells": 29,
+      "auditedSources": 48
     },
     "lactose": {
       "raw": 38,
       "searched": 210,
       "untouched": 0,
-      "qualCells": 34,
-      "auditedSources": 45
+      "qualCells": 35,
+      "auditedSources": 46
     },
     "celiac": {
       "raw": 59,
       "searched": 189,
       "untouched": 0,
-      "qualCells": 42,
-      "auditedSources": 66
+      "qualCells": 47,
+      "auditedSources": 71
     },
     "hemochromatosis": {
       "raw": 26,
       "searched": 222,
       "untouched": 0,
-      "qualCells": 18,
-      "auditedSources": 31
+      "qualCells": 20,
+      "auditedSources": 33
     }
   },
   "clinical_approvals": 0,
   "run_delta": {
-    "source_quality_audited": 356,
+    "source_quality_audited": 374,
     "source_quality_unreviewed": -342,
-    "eligible_audited_sources": 163,
-    "distinct_cells_with_eligible_audited_source": 149,
-    "raw_linked_cells": 14,
+    "eligible_audited_sources": 181,
+    "distinct_cells_with_eligible_audited_source": 167,
+    "raw_linked_cells": 15,
     "untouched_cells": -1154,
     "geographic_org_gaps": 0,
     "unknown_source_country_imprints": 0
@@ -104,15 +104,13 @@
   "validation": {
     "structural_errors": 0,
     "Node_CLI_ran": true,
-    "supplemental_errors": 0,
-    "supplemental_assertions": 5175,
-    "Node_note": "Unchanged native validator executed on continuation full dataset; both continuation receipts in runs/. Not clinical/legal/rights approval.",
-    "clinical_state": "447/447 research_lead_only"
+    "supplemental_assertions": 6491,
+    "clinical_state": "465/465 research_lead_only"
   },
   "live_input_head": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
   "depth_tiers": {
-    "D1": 1170,
-    "D2": 12,
+    "D1": 1410,
+    "D2": 22,
     "D3": 5
   },
   "identity_triage_classes": {
@@ -122,19 +120,19 @@
     "own_site_plus_NLM_Lima_publisher_confirmed_governance_unreviewed": 1,
     "first_party_Bogota_office_plus_ISSN_publisher_verified_legal_registry_and_rights_unreviewed": 1,
     "first_party_self_description_no_legal_certification": 3,
-    "own_original_name_seat_objects_inspected_NOT_legal_approval": 14
+    "own_original_name_seat_objects_inspected_NOT_legal_approval": 15
   },
   "continuation_baseline_sha": "27c846fc2a51cd9bced2e3620d71f5dee65ba229",
   "continuation_delta": {
-    "organizations": 13,
-    "raw_linked_cells": 13,
-    "searched_unlinked_cells": 1060,
+    "organizations": 14,
+    "raw_linked_cells": 14,
+    "searched_unlinked_cells": 1059,
     "untouched_cells": -1073,
-    "pub_context_rows": 13,
-    "source_quality_audited": 13,
-    "distinct_cells_with_eligible_audited_source": 13,
-    "provenance": 1162,
-    "search_logs": 1145,
+    "pub_context_rows": 31,
+    "source_quality_audited": 31,
+    "distinct_cells_with_eligible_audited_source": 31,
+    "provenance": 1825,
+    "search_logs": 1805,
     "geographic_org_gaps": 0,
     "unknown_source_country_imprints": 0
   },

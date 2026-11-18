@@ -49,3 +49,7 @@ Twenty-five issues cover all 29 active U-tier context rows. Shared artifact issu
 ## Newly qualified research with separate specialist verification
 
 - [Guam gout feasibility study: community data-governance review #127](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/127). Inspected original authorship/methods qualifies the research lead; reported IRB review does not grant independent community-control or reuse approval.
+
+- [Irish haemochromatosis education: specific HFE/population/ferritin verification #128](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/128). S2 substantive education indexed; genetic/clinical claims remain explicitly unverified.
+
+- [#129](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/129): Herat diabetes participant-flow and cholesterol threshold reconciliation before quantitative reuse. Original methods/source existence remains S1; reliability unresolved.
