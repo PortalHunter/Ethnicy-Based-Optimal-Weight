@@ -1,0 +1,241 @@
+{
+  "installed_on": "2026-11-18",
+  "installation_root": "/Users/brianwork/.codex/.chatgpt-projects/g-p-6ae909821af08191ab14b78f3e85635b/.atlas-research-tools",
+  "repository_scope": "Only docs/atlas/handoffs/team-d; environment and weights outside Git",
+  "host": {
+    "architecture": "arm64",
+    "memory_gib": 36,
+    "mps_available": true
+  },
+  "execution": "LOCAL_ONLY_OFFLINE_INFERENCE",
+  "licensing_fees": 0,
+  "paid_inference_api_calls": 0,
+  "downloaded_model_gib": 20.545,
+  "models": [
+    {
+      "key": "medcpt-query",
+      "repository": "ncbi/MedCPT-Query-Encoder",
+      "revision": "d83a36cc6b8e3a5c5e9d9d6ba156808c1643dcbc",
+      "license": "public-domain",
+      "license_basis": "Repository LICENSE public-domain notice",
+      "status": "INSTALLED_LOCAL_RETRIEVAL_SMOKE_PASS"
+    },
+    {
+      "key": "medcpt-article",
+      "repository": "ncbi/MedCPT-Article-Encoder",
+      "revision": "d05a736da4bb84ee4057b7f7999485be6ed85465",
+      "license": "public-domain",
+      "license_basis": "Repository LICENSE public-domain notice",
+      "status": "INSTALLED_LOCAL_RETRIEVAL_SMOKE_PASS"
+    },
+    {
+      "key": "bge-m3",
+      "repository": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "license": "mit",
+      "license_basis": "Publisher model card SPDX license declaration; card preserved",
+      "status": "INSTALLED_LOCAL_RETRIEVAL_SMOKE_PASS"
+    },
+    {
+      "key": "bge-reranker",
+      "repository": "BAAI/bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "license": "apache-2.0",
+      "license_basis": "Publisher model card SPDX license declaration; card preserved",
+      "status": "INSTALLED_LOCAL_RETRIEVAL_SMOKE_PASS"
+    },
+    {
+      "key": "olmocr",
+      "repository": "allenai/olmOCR-2-7B-1025",
+      "revision": "7c6fa1611328bd17dbf5f3a07509d2b6fa2eba4e",
+      "license": "apache-2.0",
+      "license_basis": "Publisher model card SPDX license declaration; card preserved",
+      "status": "INSTALLED_REVIEW_ASSISTED_OCR_WITH_FORMAT_LIMITS"
+    }
+  ],
+  "packages": {
+    "torch": "2.15.0",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2",
+    "safetensors": "0.8.0",
+    "pypdfium2": "5.15.2"
+  },
+  "package_compatibility": "pip check: No broken requirements found.",
+  "inference_checks": {
+    "legal": {
+      "query": "When did the licensing functions commence on 19 February 1996?",
+      "mode": "multilingual",
+      "device": "mps",
+      "corpus_sha256": "17b12dbc9fd43b7c79568bb674ff3d46017ff6fffd631a5aafcdc9ac6dbedded",
+      "revisions": {
+        "bge-m3": "5617a9f61b028005a4858fdac845db406aefb181",
+        "bge-reranker": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e"
+      },
+      "score_semantics": "Retrieval similarity/reranker logit, not evidence strength or verification probability.",
+      "evidence_state": "CANDIDATES_REQUIRING_ORIGINAL_SOURCE_REVIEW",
+      "candidates": [
+        {
+          "id": "IE-COMM1996",
+          "text": "2. The Irish Medicines Board Act, 1995 , in so far as is provided for in paragraphs ( a ), ( b ) and ( e ) of subsection 1 of section 4, and section 35 and the schedule to the Act shall come into operation on the 19th day of February, 1996. ",
+          "source_url": "https://www.irishstatutebook.ie/eli/1996/si/40/made/en/print",
+          "source_sha256": "fa19cb79f60f77ebe6b4257366d63f176b3fae8fb831eabd5593af8fa05c27cd",
+          "source_path": "/Users/brianwork/.codex/.chatgpt-projects/g-p-6ae909821af08191ab14b78f3e85635b/.atlas-research-tools/source-cache/IE-COMM1996.html",
+          "locator": "Article2",
+          "fixture_kind": "ORIGINAL_IRISH_STATUTE_PASSAGE_NOT_COMPLETE_LEGAL_PACKET",
+          "retrieval_score": 0.5185928344726562,
+          "relevance_logit": -0.9547253847122192
+        },
+        {
+          "id": "IE-COMM1995",
+          "text": "2. The Irish Medicines Board Act, 1995 , except in so far as is provided for in paragraphs ( a ), ( b ) and ( e ) of subsection 1 of section 4, and section 35 and the schedule to the Act, shall come into operation on the 1st day of January, 1996. ",
+          "source_url": "https://www.irishstatutebook.ie/eli/1995/si/345/made/en/print",
+          "source_sha256": "be9585eb6a938083ae8c94b143a9bb90edbf841cd78bbe93a3f7a8846c9ebf46",
+          "source_path": "/Users/brianwork/.codex/.chatgpt-projects/g-p-6ae909821af08191ab14b78f3e85635b/.atlas-research-tools/source-cache/IE-COMM1995.html",
+          "locator": "Article2",
+          "fixture_kind": "ORIGINAL_IRISH_STATUTE_PASSAGE_NOT_COMPLETE_LEGAL_PACKET",
+          "retrieval_score": 0.47992968559265137,
+          "relevance_logit": -7.311735153198242
+        }
+      ],
+      "elapsed_seconds": 10.611
+    },
+    "multilingual": {
+      "query": "Hvornår trådte licensbestemmelserne i kraft i februar 1996?",
+      "mode": "multilingual",
+      "device": "mps",
+      "corpus_sha256": "17b12dbc9fd43b7c79568bb674ff3d46017ff6fffd631a5aafcdc9ac6dbedded",
+      "revisions": {
+        "bge-m3": "5617a9f61b028005a4858fdac845db406aefb181"
+      },
+      "score_semantics": "Retrieval similarity/reranker logit, not evidence strength or verification probability.",
+      "evidence_state": "CANDIDATES_REQUIRING_ORIGINAL_SOURCE_REVIEW",
+      "candidates": [
+        {
+          "id": "IE-COMM1996",
+          "text": "2. The Irish Medicines Board Act, 1995 , in so far as is provided for in paragraphs ( a ), ( b ) and ( e ) of subsection 1 of section 4, and section 35 and the schedule to the Act shall come into operation on the 19th day of February, 1996. ",
+          "source_url": "https://www.irishstatutebook.ie/eli/1996/si/40/made/en/print",
+          "source_sha256": "fa19cb79f60f77ebe6b4257366d63f176b3fae8fb831eabd5593af8fa05c27cd",
+          "source_path": "/Users/brianwork/.codex/.chatgpt-projects/g-p-6ae909821af08191ab14b78f3e85635b/.atlas-research-tools/source-cache/IE-COMM1996.html",
+          "locator": "Article2",
+          "fixture_kind": "ORIGINAL_IRISH_STATUTE_PASSAGE_NOT_COMPLETE_LEGAL_PACKET",
+          "retrieval_score": 0.5294767618179321
+        },
+        {
+          "id": "IE-COMM1995",
+          "text": "2. The Irish Medicines Board Act, 1995 , except in so far as is provided for in paragraphs ( a ), ( b ) and ( e ) of subsection 1 of section 4, and section 35 and the schedule to the Act, shall come into operation on the 1st day of January, 1996. ",
+          "source_url": "https://www.irishstatutebook.ie/eli/1995/si/345/made/en/print",
+          "source_sha256": "be9585eb6a938083ae8c94b143a9bb90edbf841cd78bbe93a3f7a8846c9ebf46",
+          "source_path": "/Users/brianwork/.codex/.chatgpt-projects/g-p-6ae909821af08191ab14b78f3e85635b/.atlas-research-tools/source-cache/IE-COMM1995.html",
+          "locator": "Article2",
+          "fixture_kind": "ORIGINAL_IRISH_STATUTE_PASSAGE_NOT_COMPLETE_LEGAL_PACKET",
+          "retrieval_score": 0.5196802616119385
+        }
+      ],
+      "elapsed_seconds": 4.118
+    },
+    "biomedical": {
+      "query": "gluten celiac disease",
+      "mode": "biomedical",
+      "device": "mps",
+      "corpus_sha256": "c159b3188c31e49dac471ac492480b2648d5c42d5485a59937dcfb38ebb04290",
+      "revisions": {
+        "medcpt-article": "d05a736da4bb84ee4057b7f7999485be6ed85465",
+        "medcpt-query": "d83a36cc6b8e3a5c5e9d9d6ba156808c1643dcbc"
+      },
+      "score_semantics": "Retrieval similarity/reranker logit, not evidence strength or verification probability.",
+      "evidence_state": "CANDIDATES_REQUIRING_ORIGINAL_SOURCE_REVIEW",
+      "candidates": [
+        {
+          "id": "gluten",
+          "title": "Synthetic celiac retrieval fixture",
+          "abstract": "This fictional retrieval test discusses gluten exposure and celiac disease of the intestine.",
+          "fixture_kind": "SYNTHETIC_SOFTWARE_TEST_NOT_A_RESEARCH_ARTICLE",
+          "source_url": "fixture://gluten",
+          "source_path": "/Users/brianwork/.codex/.chatgpt-projects/g-p-6ae909821af08191ab14b78f3e85635b/.atlas-research-tools/fixtures/gluten.json",
+          "source_sha256": "74f9579b7e6dfb2ef32ae41bbbdfde20db931480858526e22bbec3d4216de5bc",
+          "locator": "Synthetic fixture only",
+          "retrieval_score": 63.48287582397461
+        },
+        {
+          "id": "iron",
+          "title": "Synthetic hemochromatosis retrieval fixture",
+          "abstract": "This fictional retrieval test discusses inherited iron overload and hemochromatosis.",
+          "fixture_kind": "SYNTHETIC_SOFTWARE_TEST_NOT_A_RESEARCH_ARTICLE",
+          "source_url": "fixture://iron",
+          "source_path": "/Users/brianwork/.codex/.chatgpt-projects/g-p-6ae909821af08191ab14b78f3e85635b/.atlas-research-tools/fixtures/iron.json",
+          "source_sha256": "d788ea6a2531e9fa159fb55a5c94d1ddbd254700497087839292408c85f4310e",
+          "locator": "Synthetic fixture only",
+          "retrieval_score": 50.84144973754883
+        },
+        {
+          "id": "glucose",
+          "title": "Synthetic diabetes retrieval fixture",
+          "abstract": "This fictional retrieval test discusses insulin resistance, blood glucose and type2 diabetes.",
+          "fixture_kind": "SYNTHETIC_SOFTWARE_TEST_NOT_A_RESEARCH_ARTICLE",
+          "source_url": "fixture://glucose",
+          "source_path": "/Users/brianwork/.codex/.chatgpt-projects/g-p-6ae909821af08191ab14b78f3e85635b/.atlas-research-tools/fixtures/glucose.json",
+          "source_sha256": "a71d6e85f9bde509d691cba7e9269f923330dfc56016a52e2d0693bafad296fc",
+          "locator": "Synthetic fixture only",
+          "retrieval_score": 46.02264404296875
+        }
+      ],
+      "elapsed_seconds": 2.747
+    },
+    "ocr": {
+      "source_path": "/Users/brianwork/.codex/.chatgpt-projects/g-p-6ae909821af08191ab14b78f3e85635b/.atlas-research-tools/fixtures/ocr-synthetic.pdf",
+      "source_sha256": "46509b3a25d5e502f451e7800e4b73510266d26281e19f0bb8db1aa602077040",
+      "page": 1,
+      "verification_state": "EXTRACTED_TEXT_REQUIRES_ORIGINAL_PAGE_REVIEW",
+      "method": "OLMOCR_LOCAL_TRANSFORMERS_SINGLE_PAGE",
+      "device": "mps",
+      "model_revision": "7c6fa1611328bd17dbf5f3a07509d2b6fa2eba4e",
+      "text": "---\nprimary_language: en\nis\n\nAtlas OCR\nOCR\n\ninstallation check\n\nEffective date: 9 December 2026.\n\nNot effective on 18 November 2026.\n\nSource: synthetic software test.",
+      "generation_limit_reached": false,
+      "limitation": "English-tagged model; inspect each output against the original page. This lightweight runner does not reproduce the full olmOCR rotation/retry benchmark pipeline.",
+      "elapsed_seconds": 19.213
+    },
+    "doctor": {
+      "home": "/Users/brianwork/.codex/.chatgpt-projects/g-p-6ae909821af08191ab14b78f3e85635b/.atlas-research-tools",
+      "packages": {
+        "torch": "2.15.0",
+        "transformers": "4.57.6",
+        "huggingface-hub": "0.36.2",
+        "safetensors": "0.8.0",
+        "pypdfium2": "5.15.2"
+      },
+      "mps_available": true,
+      "model_keys": [
+        "medcpt-query",
+        "medcpt-article",
+        "bge-m3",
+        "bge-reranker",
+        "olmocr"
+      ],
+      "offline": true,
+      "paid_api_calls": 0,
+      "checksum_verification": false,
+      "elapsed_seconds": 0.636
+    }
+  },
+  "negative_check": "Missing-provenance JSONL rejected; supplied original source paths verified against SHA256.",
+  "quality_limits": [
+    "These are small installation checks, not the25-case Atlas benchmark or measured project-wide efficiency.",
+    "MedCPT fixtures are synthetic software tests, not medical research evidence.",
+    "OCR retained both dates and negation but duplicated a header word and returned incomplete front matter; original output preserved.",
+    "Float16 OCR failed; installed helper uses publisher-recommended bfloat16 and low-temperature generation.",
+    "No model score, extracted text or benchmark response closes a clinical, legal or source-semantic review gate."
+  ],
+  "not_installed": [
+    "MedCPT Cross Encoder: unresolved notice-file screening issue and redundant for this first installation",
+    "SciFact: noncommercial evaluation resource; not needed for local retrieval",
+    "PubMedQA: evaluation dataset; not needed to install the tools",
+    "MedRAG corpus: rights/version/completeness unresolved",
+    "NLLB: medical/legal domain exclusions in model card",
+    "MedGemma: gated access/terms not accepted"
+  ],
+  "file_integrity_manifest": "tools/hf_models.lock.json",
+  "dependency_lock": "tools/requirements-research.lock.txt",
+  "dependency_license_inventory": "Local dependency-licenses.json;32 installed distributions",
+  "reproducible_installer_check": "PASS: all five snapshots checked against every pinned file digest and publisher licensing metadata/notices using the checked-in installer",
+  "ocr_execution_settings": "bfloat16, seed0, temperature0.1, local MPS; generated metadata remains unverified"
+}

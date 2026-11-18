@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "key": "D-01:TD-BL-ACCEPT-001",
+  "input_sha": "249de08e61d7e975464f9fd44e7eb569a79f3a1a",
+  "disposition": "blocked",
+  "evidence": [
+    {
+      "id": "original-team-d-acceptance",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md",
+      "locator": "Acceptance criteria, third criterion: no geography-to-membership inference and no automatic equivalence of national clinical recommendations",
+      "issuer": "PortalHunter / original Atlas Team D assignment",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "The assignment defines a noninference acceptance criterion for a sourced institutional relationship graph. It does not authorize approval of legal, clinical, scientific, genetic, rights or governance claims. Structural preservation of relationship types is necessary but insufficient for independent semantic acceptance."
+    },
+    {
+      "id": "reserved-native-acceptance-row",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/249de08e61d7e975464f9fd44e7eb569a79f3a1a/docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv",
+      "locator": "Exact row TD-BL-ACCEPT-001; blob 92c2975526ef6ade353dda31719dfefcee7f9bd5",
+      "issuer": "PortalHunter / Team D native backlog",
+      "checked": "2026-11-08",
+      "original": false,
+      "access": "direct",
+      "qualification": "The pinned backlog identifies NONINFERENCE_QUALIFICATION_HELD, original acceptance criterion 3, and a required independent complete evidence/semantic sample. It calls for review of provisional organizations, unverified original instruments, indexed-only sources and geography/non-clinical boundaries. This is an internal acceptance record, not independent proof that every graph proposition is correct."
+    },
+    {
+      "id": "pinned-graph-and-semantic-audit",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/249de08e61d7e975464f9fd44e7eb569a79f3a1a/docs/atlas/handoffs/team-d/data/postconsolidation_evidence_semantic_audit_2026-11-07.csv",
+      "locator": "70 audit records, TD-SEM-001 through TD-SEM-070; 619 records separately present in data/network_memberships.csv",
+      "issuer": "PortalHunter / Team D research audit",
+      "checked": "2026-11-08",
+      "original": false,
+      "access": "direct",
+      "qualification": "The 70 audit entries cover multiple record classes, including graph relationships and cross-team identity matches. They are not 70 independently certified graph edges, and the ledger does not demonstrate complete independent source and semantic review of all 619 relationships. Graph row count is an inventory observation, not evidence of legal or clinical validity."
+    },
+    {
+      "id": "provisional-team-b-identity-crosswalk",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/249de08e61d7e975464f9fd44e7eb569a79f3a1a/docs/atlas/handoffs/team-d/data/provisional_team_b_identity_crosswalk_2026-11-07.csv",
+      "locator": "12 provisional graph endpoint rows; three source-qualified name/domain/Team B ID crosswalks; nine unresolved",
+      "issuer": "PortalHunter / Team D identity audit",
+      "checked": "2026-11-08",
+      "original": false,
+      "access": "direct",
+      "qualification": "Three narrow crosswalks concern Argentina B-AR-SAHA, Indonesia B-ID-PERHI and Bangladesh B-BD-NHFB. All 12 graph endpoints remain provisional. The three alignments do not prove corporate registration, effective membership dates, statutory authorization, national clinical adoption or identity equivalence beyond the recorded name/domain/source scope."
+    },
+    {
+      "id": "whl-original-membership-directory",
+      "url": "https://www.whleague.org/membership/whl-members",
+      "locator": "Original WHL membership directory; Argentine Society of Hypertension and saha.org.ar",
+      "issuer": "World Hypertension League",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "The first-party directory independently names the Argentine Society of Hypertension and links its official domain. It supports the narrow existing identity alignment, not government regulator status, national guideline adoption, corporate-register verification or independently established membership effective dates. The directory cannot resolve the other nine Team B joins."
+    },
+    {
+      "id": "paho-bermuda-original-access",
+      "url": "https://www.paho.org/en/bermuda",
+      "locator": "Original PAHO Bermuda profile; direct retrieval HTTP 403",
+      "issuer": "Pan American Health Organization",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "blocked",
+      "qualification": "Direct retrieval returned HTTP 403. Full original page text was not independently inspected in this run. Prior indexed evidence cannot be promoted to direct original-document verification. The pinned Team D audit identifies 21 PAHO indexed-only technical-cooperation graph edges across five issuer URLs. Those service edges cannot establish local WHO office presence, April survey status, WHO constitutional governance, national statutory authority or clinical adoption."
+    },
+    {
+      "id": "who-searo-original-current-offices",
+      "url": "https://www.who.int/southeastasia/about",
+      "locator": "Where we work; WHO offices in all ten SEARO Member States",
+      "issuer": "World Health Organization, South-East Asia Regional Office",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Directly inspected original WHO HTML confirms the ten current regional member-state country-office statements. The page does not establish April 2026 survey status, physical office addresses, office opening dates or host agreements. Its current statement must remain separate from April-dated survey evidence."
+    },
+    {
+      "id": "who-april-office-survey-dataset",
+      "url": "https://data.who.int/dashboards/country-presence/country-office/office-profile-survey-reporting-year/",
+      "locator": "Original survey-year dashboard URL recorded in 95 pinned Team D office-presence rows",
+      "issuer": "World Health Organization",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "blocked",
+      "qualification": "The dashboard was not accessible through the independent web retrieval in this run. The immutable Team D office-presence CSV contains exactly 95 positive rows dated 2026-04 and ten separately dated 2026-11-05. The 95/105 split was independently counted in the repository data, but the complete original dashboard was not reproduced in this run. Absence of a positive row is not proof of an absent office."
+    },
+    {
+      "id": "historical-native-validator-report",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/249de08e61d7e975464f9fd44e7eb569a79f3a1a/docs/atlas/handoffs/team-d/CHECKPOINT_NATIVE_VALIDATION_RECONCILED_2026-11-07.md",
+      "locator": "Two externally reported Node v24.22.2 native passes at commit 470349bfe7c4a015d18ed93ae44f7d5cc4ac57a1",
+      "issuer": "PortalHunter / Team D checkpoint",
+      "checked": "2026-11-08",
+      "original": false,
+      "access": "metadata",
+      "qualification": "Historical passes were reported by an external executor. Independently inspectable raw stdout, stderr and execution metadata were not recovered. The current pinned Team D SHA is different. No complete native Node validation was executed for this run, and a reported structural pass cannot certify source semantics."
+    },
+    {
+      "id": "atlas-start-transition",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/5619d0076426673e832563b75be2eb4c5a997d01",
+      "locator": "Direct-child start commit; parent bb469c1959948907a39ca75e9676239c3586a43c; checkout.json only; exact launch ID read back",
+      "issuer": "PortalHunter / Atlas harness checkout ledger",
+      "checked": "2026-11-08",
+      "original": false,
+      "access": "direct",
+      "qualification": "The start transition was published with explicit expected-SHA enforcement. An independent GitHub readback confirmed running ownership under launch-D-ACCEPT-001-eae15f0824594c54b5d83401d3018819. This proves checkout ownership only, not acceptance completion or result publication."
+    }
+  ],
+  "blocker": "TD-BL-ACCEPT-001 remains HELD. The independently retrieved original acceptance criterion requires noninference across institutional membership, geography, statutory powers and national clinical recommendations. The current graph has 619 typed relationship rows, while its 70-entry semantic audit covers mixed proposition classes rather than a complete independently authenticated graph. Nine of 12 provisional society endpoints lack a supported exact Team B crosswalk; all 12 graph identities remain provisional. Twenty-one PAHO technical-cooperation edges remain indexed-only, with the Bermuda original returning HTTP 403. Complete original-source and semantic review is not demonstrated. The native Team D Node validator was not executed at the current input SHA. No original acceptance gate, legal claim, clinical claim or institutional authority claim is promoted.",
+  "reopen": "Reopen only after independently documented source and semantic review of the remaining acceptance-critical graph propositions, including verified original issuer text or explicitly retained access blockers, cross-team identity reconciliation for the nine unresolved provisional society joins, and appropriate examination or qualification of all 21 PAHO indexed-only edges. Reproduce the full current checked-in native Team D validator at an authorized exact-SHA checkout, recording Node version, command, exit status, stdout and stderr. Preserve original evidence dates and distinguish 95 April 2026 survey positives from 105 combined first-party positives. Require independent verification and explicit maintainer authorization before declaring criterion 3 closed. Do not use structural pass, search metadata, institutional affiliation or geography alone to approve legal, clinical, scientific, rights, ancestry or governance conclusions.",
+  "validation": [
+    "Run run-D-D01-ACCEPT-001-20261108; launch launch-D-ACCEPT-001-eae15f0824594c54b5d83401d3018819; pinned input SHA 249de08e61d7e975464f9fd44e7eb569a79f3a1a.",
+    "Reservation: exact native TD-BL-ACCEPT-001 row in docs/atlas/handoffs/team-d/data/consolidated_case_backlog_2026-11-07.csv; reserved row status 3_OF_5_SCOPED_ORIGINAL_GATES_DEMONSTRATED and evidence class NONINFERENCE_QUALIFICATION_HELD.",
+    "Team D PR #70 independently confirmed OPEN/DRAFT/UNMERGED with head 249de08e61d7e975464f9fd44e7eb569a79f3a1a before start; architecture PR #75 independently confirmed OPEN/DRAFT/UNMERGED.",
+    "Start event commit 5619d0076426673e832563b75be2eb4c5a997d01, direct parent bb469c1959948907a39ca75e9676239c3586a43c, explicit expected-SHA lease, changed path docs/atlas/harness/checkout.json only. Independent running-ticket readback PASS; checkout blob c13233588709fc51134474d6f9723b1a0b182c74.",
+    "GitHub connector pinned-file inspections: data/network_memberships.csv 619 data rows, data/international_networks.csv 47 data rows, PROVENANCE.csv 330 data rows, data/m49_network_status.csv 249 data rows, and consolidated backlog 236 data rows. These are line and inventory checks, not complete native CSV validation.",
+    "Semantic audit data/postconsolidation_evidence_semantic_audit_2026-11-07.csv: 70 data entries, including three Team B identity crosswalk audits. Graph coverage must not be inferred by dividing all 70 audit entries by 619 edges.",
+    "Identity crosswalk data/provisional_team_b_identity_crosswalk_2026-11-07.csv: 12 data entries, three narrow source-qualified Team B ID crosswalks and nine unresolved. No graph identity promotion proposed.",
+    "Office-presence CSV: 105 positive data rows, exactly 95 as_of 2026-04 and ten as_of 2026-11-05. April survey-positive 95/249, combined first-party positive 105/249. Thus 154 lack April-specific positive evidence and 144 lack any positive office record; neither complement demonstrates office absence.",
+    "Independent original web inspection: WHO SEARO about page directly accessible and confirms ten member-state offices; WHL original members page directly accessible and supports Argentine directory name/domain; PAHO Bermuda original returned HTTP 403; WHO original survey dashboard could not be accessed through this retrieval.",
+    "Original acceptance status unchanged: 3 of 5 structurally demonstrated, TD-BL-ACCEPT-001 and TD-BL-ACCEPT-002 held. Expanded 34-national-authority full legal/delegation/Team A audit remains 0/34 and is not an original acceptance criterion.",
+    "Repository environment check: git ls-remote to github.com failed with exit 128 and DNS resolution error. FULL CURRENT CHECKED-IN TEAM D NATIVE NODE VALIDATOR NOT EXECUTED. No current validator exit code, stdout or stderr is asserted.",
+    "Reproduce from an authorized complete checkout: git checkout 249de08e61d7e975464f9fd44e7eb569a79f3a1a; git rev-parse HEAD; node --version; node docs/atlas/handoffs/team-d/validate.mjs. Preserve complete output and verify the executed commit. A structural pass does not establish semantic acceptance.",
+    "For the designated writer, separately validate this proposed JSON using python3 docs/atlas/harness/harness.py D --live-sha 249de08e61d7e975464f9fd44e7eb569a79f3a1a --packet packet.json --result result.json from the architecture harness working directory, with packet.json containing the exact reserved envelope. This command has NOT been executed in this run.",
+    "Proposed changed paths: only docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json. No canonical data changes, no network edge changes, no accepted source promotions, no acceptance-gate closure and no Team D publication performed by this researcher.",
+    "The designated writer must recheck the running ticket under this exact launch ID, Team D head SHA and PR status, publish with its own explicit expected-SHA lease, and obtain an independent commit/blob/diff readback before librarian check-in."
+  ],
+  "paths": [
+    "docs/atlas/handoffs/team-d/runs/D-01--TD-BL-ACCEPT-001.json"
+  ]
+}

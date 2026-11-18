@@ -1,0 +1,40 @@
+{
+  "audit_date": "2026-11-18",
+  "scope": "USER_APPROVED_ORIGINAL_INSTITUTIONAL_GRAPH_WITH_QUALIFIED_UNKNOWN_CONFLICT_FOLLOWUPS",
+  "original_prompt_commit": "29d3b1f38cfee796520ed866c795302926040159",
+  "original_prompt_path": "docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md",
+  "regional_offices_covered": 6,
+  "graph_nodes": 47,
+  "typed_dated_sourced_edges": 619,
+  "edges_with_explicit_valid_from_or_to": 270,
+  "edges_without_time_or_notes": 0,
+  "numbered_boundary_examples": 34,
+  "condition_keys": [
+    "celiac",
+    "diabetes",
+    "gout",
+    "hemochromatosis",
+    "high_chol",
+    "hypertension",
+    "lactose"
+  ],
+  "condition_links": 20,
+  "provenance_urls": 423,
+  "m49_candidates": 249,
+  "un_m49_areas": 248,
+  "iso_only_candidates": 1,
+  "who_region_unknowns_retained": 44,
+  "source_specific_issues": 21,
+  "original_records_dispositioned": 236,
+  "original_full_legal_packets": 0,
+  "independent_review_gates_held": 2,
+  "claim_scope": "Institutional relationship evidence only; no clinical appraisal or national legal certification.",
+  "graph_verification_counts": {
+    "FIRST_PARTY_GHANA_NVI_SIGNING_REPORTED": 1,
+    "OFFICIAL_PAHO_INDEXED": 21,
+    "PENDING_VERIFICATION": 1,
+    "VERIFIED_PRIMARY": 594,
+    "VERIFIED_PRIMARY_MOU_PRESS_NOTICE_ONLY": 1,
+    "WHO_FIRST_PARTY_WITNESSED_MOA_REPORTED": 1
+  }
+}

@@ -1,0 +1,2 @@
+m49_candidate_code,seed_standard,un_m49_roster_status,disposition,source_url,checked_on,notes
+158,ISO 3166-1 numeric,NOT_LISTED_IN_CHECKED_OVERVIEW,RETAIN_SEPARATE_EXCEPTION_NOT_CANONICAL_UN_ROW,https://unstats.un.org/unsd/methodology/m49/overview,2026-11-05,No claim about political status or WHO membership; retain original candidate ID and do not silently equate ISO seed with UN M49 roster.

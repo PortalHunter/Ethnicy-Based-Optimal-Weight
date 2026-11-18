@@ -1,0 +1,68 @@
+## Batch 14 PAHO/WHO jurisdiction and office-service boundaries
+
+- **French Saint Martin (M49 663) ≠ Dutch Sint Maarten (M49 534).** PAHO dated 2026-08-24 Barbados/ECC announcement explicitly lists the French territory. PAHO Trinidad/Dutch Caribbean service page names the Dutch territory. These two rows cannot be merged, and neither proves WHO administrative region or WHO sovereign membership.
+- **PAHO 13 vs 14:** the undated Barbados/ECC overview names 13 jurisdictions while its dated August 2026 press notice names 14 including French Saint Martin. Source snapshots are not enough to infer a *change date*.
+- **BES island triad M49 535** is one UN statistical area for Bonaire, Sint Eustatius and Saba; PAHO lists all three service locations. Do not create three invented M49 codes.
+- **Formal category != service:** PAHO's four associates/three participating states/two observers are institutionally distinct from 21 areas explicitly receiving subregional technical cooperation. A service edge never proves a physical office in each territory, WHO constitutional membership, country sovereign status, national law or medical guidance adoption.
+
+---
+## Batch 13 boundary evidence — Liechtenstein and regulator cooperation
+
+- **Liechtenstein M49 438:** WHO/Europe's 5 November 2025 pan-European Protocol statement explicitly adds Liechtenstein to the WHO European Region's 53 Member States, rather than including it among those 53 (<https://www.who.int/europe/news/item/05-11-2025-pan-european-protocol-on-water-and-health-at-20--promoting-resilience-amid-global-crises>). Therefore programme collaboration/geographic proximity is not WHO regional membership. `who_region` remains `not_verified` pending precise official assignment evidence and future status check.
+- **Separate June 2026 Egyptian instruments:** Africa CDC's ExCon report (<https://africacdc.org/download/africa-health-excon-2026-report/>) distinguishes Egypt's **state APPM participation MoU**, **UPA–Africa CDC operational support partnership**, and **EDA–Algeria regulatory cooperation MoU**. A state procurement participation commitment, an organizational support agreement and a regulator cooperation agreement must not be collapsed into one membership edge or interpreted as national licensing authority.
+- **EDA cross-border register** (<https://dev.edaegypt.gov.eg/en/about-us/foreign-affairs-and-international-memberships/>): 17 bilateral MoUs and one separately named eight-party MoU are first-party development-site reports. A reported MoU signature is not international mutual-recognition authorization, statutory transfer or documented implementation; exact counterpart identities require Team A joins.
+
+---
+
+# Team D — Documented boundary and negative cases
+
+Checked 2026-11-04. Each case describes a **non-equivalence**; negative cases do not imply clinical conclusions.
+
+1. **Algeria: UN Northern Africa is not WHO EMRO.** WHO's country metadata lists Algeria as WHO Africa (AFRO), despite UN Northern Africa. [WHO](https://www.who.int/data/gho/data/countries/country-details/GHO/algeria?countryProfileId=d4fe1e31-462d-4859-b76e-dd550a5d7cbf).
+2. **Indonesia: WHO region changed without moving UN geography.** WHO confirms transfer SEARO→WPRO effective **2025-05-23**; UN M49 South-eastern Asia remains its statistical region. [WHO history](https://www.who.int/southeastasia/about/history), [UN M49](https://unstats.un.org/unsd/methodology/m49/overview).
+3. **PAHO holds two different institutional roles.** PAHO is both WHO Americas regional office and the Inter-American System health agency; one role is not the other. [PAHO](https://www.paho.org/en/who-we-are).
+4. **PAHO member, associate, participating and observer are not synonymous.** Official roster has 35 Member States, plus Associate Members, Participating States and Observers listed separately. [PAHO roster](https://www.paho.org/en/planning-finance-and-accountability/member-states-pan-american-health-organization).
+5. **U.S. PAHO membership does not settle WHO withdrawal governance.** PAHO lists the U.S. as member; WHO’s country list records a withdrawal notification with a stated 2026-01-22 effective date pending governing-body consideration. [PAHO](https://www.paho.org/en/planning-finance-and-accountability/member-states-pan-american-health-organization), [WHO](https://www.who.int/countries).
+6. **A WHO region does not guarantee a WHO country office.** WHO reports six regional offices and around 150 country offices, not one country office per Member State. [WHO structure](https://www.who.int/about/structure).
+7. **WHO Europe is broader than the EU.** WHO Europe comprises 53 countries; ECDC is an EU public-health agency. WHO-Europe country status must not be equated with EU membership. [WHO Europe](https://www.who.int/europe/about-us/about-who-europe/organization), [ECDC](https://www.ecdc.europa.eu/en/about-us).
+8. **An ECDC infectious surveillance roster is not an ECDC all-diseases or medicines list.** The EU-IBD network explicitly involves EU27 plus Iceland/Liechtenstein/Norway for specified bacterial diseases. [ECDC EU-IBD](https://www.ecdc.europa.eu/en/about-us/networks/disease-and-laboratory-networks/eu-ibd).
+9. **EMA scientific assessment is different from a European Commission legal authorization.** EMA describes a network of scientific advice and Commission binding decisions. [EMA](https://www.ema.europa.eu/en/about-us/how-we-work/european-medicines-regulatory-network).
+10. **EEA medicines procedures do not confer all EU decisions directly.** EMA says Norway, Iceland and Liechtenstein take corresponding local decisions, and Switzerland is not an EEA state. [EMA preauthorization guidance](https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/pre-authorisation-guidance).
+11. **ASEAN membership is not WHO-region membership.** Timor-Leste joined ASEAN **2025-10-26** but appears on WHO SEARO's country roster. [ASEAN](https://asean.org/about-asean), [WHO SEARO](https://www.who.int/southeastasia/about/history).
+12. **Africa CDC is a continental public-health agency, not a legislature for each AU Member State.** It coordinates initiatives supported by Member States. [Africa CDC](https://africacdc.org/about-us).
+13. **Global hypertension league membership belongs to professional bodies, not sovereign states.** WHL differentiates full and associate professional organizations. [WHL](https://www.whleague.org/membership/whl-members).
+14. **Coeliac association membership is not confined to European geography.** AOECS member directory includes organizations outside Europe and separates partners from actual members. [AOECS](https://www.aoecs.org/about-us/members/).
+15. **Country HEARTS pathways need not be identical.** PAHO lists different versions for Peru, Mexico, Argentina and others; regional coordination is not one universal local protocol. [PAHO pathways](https://www.paho.org/en/hearts-americas/hypertension-clinical-pathways).
+16. **A general intestinal health guideline does not establish diagnosis of lactose intolerance.** WGO separates lactase deficiency, malabsorption and symptomatic intolerance, and differentiates cow milk protein allergy. [WGO](https://www.worldgastroenterology.org/guidelines/diet-and-the-gut/diet-and-the-gut-english).
+17. **An advocacy group is not a clinical regulator.** Haemochromatosis International lists patient support groups; that is not proof of national medical guidance adoption. [HI](https://haemochromatosis-international.org/members/).
+18. **Ancestry is not institutional jurisdiction or genotype.** No graph link may assign a medicine recommendation to a person's ancestry without separate validated condition/genetic evidence. [M49 statistical caveat](https://unstats.un.org/unsd/methodology/m49/overview).
+
+## Added 2026-11-05
+
+19. **ISO candidate universe differs from the UN overview.** The captured UN roster contains 248 rows; candidate 158 is separately preserved as an ISO seed exception. No political or WHO membership inference. [UN](https://unstats.un.org/unsd/methodology/m49/overview).
+20. **Departmental WHO roster can lag administrative reassignment.** Immunization regional summaries still includes Indonesia in SEARO; current SEARO roster excludes it, consistent with the dated 2025 transfer. [Current SEARO](https://www.who.int/southeastasia/about), [stale summaries](https://www.who.int/teams/immunization-vaccines-and-biologicals/Immunization-data-and-decision-making/global-monitoring/data-statistics-and-graphics/regional-summaries).
+21. **53 WHO Europe countries versus 33 country-level offices.** No country-specific office absence may be inferred from these aggregate counts. [WHO Europe](https://www.who.int/europe/about-us/about-who-europe/organization).
+22. **Liechtenstein EEA participation does not assign its WHO region.** It is absent from the captured 53-country WHO roster; its region stays not_verified while disease surveillance participation remains a separate existing edge. [WHO Europe](https://www.who.int/europe/about-us/about-who-europe/organization).
+23. **WHO AFRO is not the UN Africa geographic roster or Africa CDC membership.** Only 47 individually listed countries receive AFRO assignment from this directory. [AFRO](https://afro.who.int/countries).
+
+## Added after batches4–6, 2026-11-05
+
+24. **WPRO country/area roster is not a sovereign-member roster.** Thirty-eight named entries include territories; regional assignment does not settle constitutional status. [WPRO](https://www.who.int/westernpacific/about/where-we-work).
+25. **US-territory metadata carries pending WHO governance consideration.** American Samoa, Guam and Northern Mariana Islands retain sourced WPRO placement and the source qualification. [WPRO](https://www.who.int/westernpacific/about/where-we-work).
+26. **WHO operational label differs from UN country label.** Occupied Palestinian territory is explicitly associated with EMRO by WHO, and PSE is crosswalked to UN State of Palestine275. Neither field proves WHO constitutional membership. [WHO](https://www.who.int/emergencies/situations/conflict-in-Israel-and-oPt), [PSE dashboard](https://immunizationdata.who.int/dashboard/regions/eastern-mediterranean-region/PSE).
+27. **Current crawl does not prove current institutional classification.** WHO CPCD still groups Indonesia under SEARO; current WPRO roster and dated transfer supersede it for current assignment. [CPCD](https://extranet.who.int/cpcd/countries-and-regions).
+28. **PAHO membership is a discovery aid, not WHO-region evidence.** Each of35 country candidates was independently checked against its WHO country profile; the US profile's Americas field does not resolve pending governance. [US profile](https://data.who.int/countries/840).
+
+
+## Added 2026-11-05 — WHO office and service distinctions
+
+29. **A WHO multi-country office link does not mean no local WHO office.** The 2023 report states the areas covered by Annex 3 offices had a physical WHO office and a resident country programme specialist, while the credentialed WHO Representative could be based elsewhere. Do not collapse physical presence into administrative residence. [WHO 2023 report, Annex 3](https://iris.who.int/bitstream/handle/10665/367811/9789240073272-eng.pdf?sequence=1).
+30. **Regional focal-point coverage is not a country office.** Annex 4 separately names 32 areas covered by a regional-office focal point; this is not proof of a dedicated office, constitutional membership or adoption of guidance. The report’s time scope is Jan 2021–Dec 2022. [WHO 2023 report, Annexes 2–4](https://iris.who.int/bitstream/handle/10665/367811/9789240073272-eng.pdf?sequence=1).
+
+
+## Added after Batch 11 — programme and publication boundaries (2026-11-05)
+
+31. **Three Mexico state-level pathway labels are not a nationwide Mexico mandate.** PAHO separately lists Sonora, Yucatán and Chiapas documents. National approval and temporal applicability require original jurisdictional evidence. [PAHO catalog](https://www.paho.org/en/hearts-americas/hypertension-clinical-pathways?page=0).
+32. **A Bermuda clinical-pathway entry is not WHO administrative assignment evidence.** PAHO's 17 July 2024 Bermuda listing does not settle its independently unresolved WHO region or constitutional status. [PAHO catalog](https://www.paho.org/en/hearts-americas/hypertension-clinical-pathways?page=1).
+33. **HEARTS first-version adoption differs from programme commitment and the later template.** PAHO reported 29 first-version national standards in May 2026, a separate undated overview shows 35 countries committed, and the new HEARTS 2.0 template was released in 2026. None determines a specific country's v2 adoption without direct evidence. [PAHO launch](https://www.paho.org/en/news/15-5-2026-paho-launches-new-hearts-20-clinical-pathway-hypertension-treatment-expanding); [PAHO overview](https://www.paho.org/en/hearts-americas).
+34. **Africa CDC APPM signed participation, expressed interest and continent-wide target are not equivalent.** Africa CDC reports eight signed MoUs, 15 expressions of intent and a target of 55 AU states. It explicitly maintains national regulators' approval/oversight functions; the source does not name signatory countries. [Africa CDC release](https://africacdc.org/news-item/africas-pooled-procurement-mechanism-seeks-to-lower-medical-product-costs/).

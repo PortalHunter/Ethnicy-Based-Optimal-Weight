@@ -1,0 +1,44 @@
+source_id,retrieval_key,requested_url,http_status,content_type,response_bytes,sha256,checked_on
+TD-SRC-337,DE-AMG,https://www.gesetze-im-internet.de/amg_1976/BJNR024480976.html,200,text/html,821218,465d7d31e31cc86029da67317c76c833e4009c6bf614a0e61659025b42bc2f49,2026-11-18
+TD-SRC-338,DE-PEI-REG,https://www.gesetze-im-internet.de/pehrlinstzustv/PEhrlInstZustV.pdf,200,application/pdf,35478,0745a127d06bd57efbdff86422b8883f14c1e927f830fe19ab15b05a75678681,2026-11-18
+TD-SRC-339,DK-ACT,https://www.retsinformation.dk/api/pdf/234228,200,application/pdf,741635,c2cd765a87b4078571a089ddc6e975b4f1903cc4a5f32ccf075c7859b5fbb43e,2026-11-18
+TD-SRC-340,DK-2023-1550,https://www.retsinformation.dk/eli/lta/2023/1550/dan/pdf,200,application/pdf,140851,fbd401d891c90e726c2c89d36398d8f7e73c198b8d86de4c967c917ccac07b13,2026-11-18
+TD-SRC-341,DK-2023-1778,https://www.retsinformation.dk/eli/lta/2023/1778/dan/pdf,200,application/pdf,157792,96cd7d594e77ac966ff4808bf4baa22f078e976eeb896b7df819322ecbec9704,2026-11-18
+TD-SRC-342,DK-2024-646,https://www.retsinformation.dk/eli/lta/2024/646/dan/pdf,200,application/pdf,189748,4757a1499f27a9a052f0fa5f471bb0a812b529768a08490b23d5dbde0824a5fe,2026-11-18
+TD-SRC-343,DK-2024-650,https://www.retsinformation.dk/eli/lta/2024/650/dan/pdf,200,application/pdf,135900,0adcea25f44ad9bde5e2dc9f11afe41f06a5a58c7e467deffe5f4fd084e4f082,2026-11-18
+TD-SRC-344,DK-2025-406,https://www.retsinformation.dk/eli/lta/2025/406/dan/pdf,200,application/pdf,131115,6a175844b0e10e320880cca7d5ba789b1788ee639af6e1d9357d6de0daba8d16,2026-11-18
+TD-SRC-345,DE-AMEND-321,https://www.recht.bund.de/bgbl/1/2026/321/VO.html,200,text/html;charset=utf-8,41275,791748a9fdad9ebe0714548f4611d6758226faa5caa5271a9da1f0dd29f84d93,2026-11-18
+TD-SRC-346,DE-AMEND-321-PDF,https://www.recht.bund.de/bgbl/1/2026/321/regelungstext.pdf?__blob=publicationFile&v=1,200,application/pdf;charset=UTF-8,330568,9899f7827249e2541aded49dab467e82fa04fa5cfd3a911fdfcbdb08688898bb,2026-11-18
+TD-SRC-347,DE-BGA,https://www.gesetze-im-internet.de/bga-nachfg/BJNR141610994.html,200,text/html,13050,68e0296e1993eaa01090bd11aa430a84ea47a860738f12af2705b46774b017e1,2026-11-18
+TD-SRC-348,DE-BASIG,https://www.gesetze-im-internet.de/basig/BJNR011630972.html,200,text/html,17331,ca34eb8f14dd99dd6fef8abda7775383f6d2eca172326b761d753f2c83560c80,2026-11-18
+TD-SRC-349,FI-ACT,https://www.finlex.fi/fi/lainsaadanto/1987/395,200,text/html; charset=utf-8,3584009,0cc5952b953a7ca73f84ebb7583b199ec9c15abf3d03e76435a4ef79fcb24927,2026-11-18
+TD-SRC-350,FI-FIMEA-CURRENT,https://www.finlex.fi/fi/lainsaadanto/2009/593,200,text/html; charset=utf-8,383896,cd7fbd03b906d18cec52beaa67821f62b0ce3107d38f9a20e4bb51b2a7677b59,2026-11-18
+TD-SRC-351,SE-ACT,https://data.riksdagen.se/dokument/sfs-2015-315.html,200,text/html; charset=utf-8,112458,241e8bb811d65a684e98bd879a6611ae136b877a657a0d76e4bf193acfeb1633,2026-11-18
+TD-SRC-352,SE-INSTRUCTION,https://data.riksdagen.se/dokument/sfs-2020-57.html,200,text/html; charset=utf-8,23091,0317560665979bacb214d1ce797c4194b03fb6a5bbaebefb2a9281daabe81810,2026-11-18
+TD-SRC-353,ES-STATUTE,https://www.boe.es/buscar/act.php?id=BOE-A-2011-15044,200,text/html; charset=UTF-8,286346,3558af0ed3c132268ed982da4d4dfaf433643e5116a89c3708663592e25a5237,2026-11-18
+TD-SRC-354,ES-MEDICINES,https://www.boe.es/buscar/act.php?id=BOE-A-2015-8343,200,text/html; charset=UTF-8,764351,6bbff0f6e405fa8933269ece4f80be76c423e126c6d6bf8db4492d9ad77a05ce,2026-11-18
+TD-SRC-355,NL-MEDICINES-DEFAULT,https://wetten.overheid.nl/BWBR0021505,200,text/html;charset=UTF-8,1159230,5b3ebb6670a28485be95a40bbdc1493ad5e616593638cc2b9eacb3f46e2eb9e8,2026-11-18
+TD-SRC-356,NL-WMO-DEFAULT,https://wetten.overheid.nl/BWBR0009408,200,text/html;charset=UTF-8,382741,e974c5d94c7356daaa88dee1a649c7c86afeb6ed00891811e02875bc8b7ebb71,2026-11-18
+TD-SRC-357,IE-FOUND,https://www.irishstatutebook.ie/eli/1995/act/29/section/4/enacted/en/html,200,text/html,37244,411f06a9e383187ad03bc93fa6069517300114a1e44b44eafd5d6060ef3a6968,2026-11-18
+TD-SRC-358,IE-REV,https://revisedacts.lawreform.ie/eli/1995/act/29/revised/en/html,200,text/html; charset=utf-8,547280,9b9e19acbf6281727e77758d94ad73afddc47e7445a941b78f637d469fe92cd1,2026-11-18
+TD-SRC-359,LV-ACT,https://likumi.lv/ta/en/id/43127-pharmaceutical-law,200,text/html; charset=UTF-8,225750,fa3f4306a960af9c55f499336ca7717e0760ec11b2a777e44c570c0a235faf16,2026-11-18
+TD-SRC-360,LV-NATIVE,https://likumi.lv/ta/id/43127-farmacijas-likums,200,text/html; charset=UTF-8,387589,08527c86ec55376b2ae11ebd59b77527b2dde25209acff520f1572f0eb16ffe6,2026-11-18
+TD-SRC-361,PT-ORGANIC,https://www.infarmed.pt/documents/15786/1065790/007_Dec-Lei_46_2012_1ALT.pdf,200,application/pdf,141387,8737e4eb68360125d2f2ed4fba625bd5a4ea6a3c6e534c030c812613758922f1,2026-11-18
+TD-SRC-362,HR-ACT,https://narodne-novine.nn.hr/clanci/sluzbeni/2013_06_76_1522.html,200,text/html; charset=utf-8,313605,709bb656b8f8be0fb6aee322a12a31ce80106fc8444ef6e52997cb4b79ac3ac2,2026-11-18
+TD-SRC-363,SI-ACT,https://www.jazmp.si/fileadmin/datoteke/seznami/en/ZZdr-2_ANG.pdf,200,application/pdf,770302,7a9b6294f252c11679e43f612aef08620eea4e20ba3a71f56aca04530d95842a,2026-11-18
+TD-SRC-364,SK-ACT,https://static.slov-lex.sk/pdf/SK/ZZ/2011/362/ZZ_2011_362_20250131.pdf,200,application/pdf,4241591,fbf3a12a53808d8e1c90be43c814e789ec07400f8303f355d760e51a42c3b2ad,2026-11-18
+TD-SRC-365,IS-ACT,https://www.government.is/library/04-Legislation/Medicinal%20Products%20Act%20No.%20100_2020_as%20amended%202020%20and%202022.pdf,200,application/pdf,511948,ab4035152f21799456e9c1801b78068ecb0c5986d870d69b8ab9256a114a39c6,2026-11-18
+TD-SRC-366,HU-ORGANIC,https://njt.jog.gov.hu/jogszabaly/2023-333-20-22,200,text/html; charset=UTF-8,95531,643fb6cecf5eac4628fdfd71177b6f95838069c07bdf72d1f6edf02d3e875bac,2026-11-18
+TD-SRC-367,BG-ACT,https://www.bda.bg/images/stories/documents/legal_acts/201910_MEDICINAL%20PRODUCTS%20IN%20HUMAN%20MEDICINE%20ACT.pdf,200,application/pdf,1148698,5b14d5f24f0a1569271f53696a0f1efb0a8947ccb707e73f06139fed9afea1e9,2026-11-18
+TD-SRC-368,IT-ACT,https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-24;219,200,text/html;charset=UTF-8,242093,afdb49c270106832aadf13ca91947038fa6114571745b027a06f95612ca8df69,2026-11-18
+TD-SRC-369,IT-ART6,https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-24;219~art6,200,text/html;charset=UTF-8,221780,6fdcfd5b1fe0e041d2bffa3ccd51a76485fd99dcc4ca839cbfcb573200500344,2026-11-18
+TD-SRC-370,LI-HIST,https://www.gesetze.li/konso/pdf/1990075000?version=5,200,application/pdf;charset=UTF-8,191921,a87aa7ce0cd7ea52b125dee3a73979e616f84c5b5e7651424f2a9d032c1f46d6,2026-11-18
+TD-SRC-371,PL-OFFICE,https://api.sejm.gov.pl/eli/acts/DU/2011/451/text.html,200,text/html;charset=utf-8,516626,bedf9099125541445e1265c1b1e96b0139006baf88a10a83afa2b7d0053c024d,2026-11-18
+TD-SRC-372,PL-PHARMA,https://api.sejm.gov.pl/eli/acts/DU/2001/1381/text.html,200,text/html;charset=utf-8,902006,e90a5d239cf2a65583e4e307a26d78839e4ab23bfc88dd54ade8e24beb89bef4,2026-11-18
+TD-SRC-373,LU-PORTAL,https://santesecu.public.lu/fr/espace-professionnel/departement-sante/pharmacies-et-medicaments/medicaments-humains/autorisation-mise-sur-le-marche.html,200,text/html; charset=utf-8,98126,a31a157d5a2014f893dd90983b728fcaddb0c01d1cec054486d2f631c883c9ed,2026-11-18
+TD-SRC-375,IE-COMM1995,https://www.irishstatutebook.ie/eli/1995/si/345/made/en/print,200,text/html,24565,be9585eb6a938083ae8c94b143a9bb90edbf841cd78bbe93a3f7a8846c9ebf46,2026-11-18
+TD-SRC-376,IE-ESTAB1995,https://www.irishstatutebook.ie/eli/1995/si/346/made/en/print,200,text/html,24266,08e4638b5e06718f08f6906201d17c8fe6d941a767fc9515d0a294d49749efee,2026-11-18
+TD-SRC-377,IE-COMM1996,https://www.irishstatutebook.ie/eli/1996/si/40/made/en/print,200,text/html,24636,fa19cb79f60f77ebe6b4257366d63f176b3fae8fb831eabd5593af8fa05c27cd,2026-11-18
+TD-SRC-378,IE-AUTH1998,https://www.irishstatutebook.ie/eli/1998/si/143/made/en/print,200,text/html,24379,484663938fd8918e5c879fa9d2d4e253148715e81e769a3df6ca4992c3e21008,2026-11-18
+TD-SRC-379,IE-RENAME2014,https://www.irishstatutebook.ie/eli/2014/si/205/made/en/print,200,text/html,30501,7576b4e3672014f2ef5a383095642f10374e52ab6ec74094275b08e649e6aaa6,2026-11-18
+TD-SRC-380,IE-RENAME-LAW2013,https://www.irishstatutebook.ie/eli/2013/act/14/section/36/enacted/en/html,200,text/html,32819,e02a76cd3184f90018cff1bce56373fd4f72a51d47d6ad9426c57402a5b4a2ca,2026-11-18

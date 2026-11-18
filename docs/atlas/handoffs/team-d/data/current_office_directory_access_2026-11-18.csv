@@ -1,0 +1,4 @@
+source_id,retrieval_key,source_url,checked_on,source_publication_date,http_status,content_type,response_bytes,sha256
+TD-SRC-381,WHO-WPRO-CONTACT,https://www.who.int/westernpacific/about/contact,2026-11-18,UNDATED_CURRENT_DIRECTORY,200,text/html; charset=utf-8,152441,bdb6013c0eb43c4f9218af579517c66c01ce504ffbdb26bfe7a60029d9bd2a63
+TD-SRC-382,WHO-EURO-CENTRES,https://www.who.int/europe/about-us/about-who-europe/technical-centres,2026-11-18,UNDATED_CURRENT_DIRECTORY,200,text/html; charset=utf-8,152712,79beb1bb321aa9fae751d9f0666f0d1c534a0bfb026dfd24be312112b2d89896
+TD-SRC-177,PAHO-COUNTRY-DIRECTORY,https://www.paho.org/en/countries-and-centers,2026-11-18,UNDATED_CURRENT_DIRECTORY,200,text/html; charset=UTF-8,81072,b76f7c987ad6db115970493df8a0409118b4942ba7db743a2c4c8effca090e1b

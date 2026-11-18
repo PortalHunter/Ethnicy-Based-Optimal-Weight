@@ -1,0 +1,7 @@
+retrieval_key,requested_url,http_status,content_type,sha256,checked_on,classification,limitations
+AT-GESG,https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20001896,FAILED,,,2026-11-18,PRIMARY_UNAVAILABLE_AFTER_DISTINCT_OFFICIAL_ROUTES,HTTP Error 503: Service Temporarily Unavailable
+AT-AMG,https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010441,FAILED,,,2026-11-18,PRIMARY_UNAVAILABLE_AFTER_DISTINCT_OFFICIAL_ROUTES,HTTP Error 503: Service Temporarily Unavailable
+FI-FIMEA,https://www.finlex.fi/fi/laki/ajantasa/2009/20090593,FAILED,,,2026-11-18,PRIMARY_ROUTE_FAILED_CANONICAL_RECOVERED,HTTP Error 308: Permanent Redirect
+NL-MEDICINES,https://wetten.overheid.nl/BWBR0021505/2026-11-18,FAILED,,,2026-11-18,PRIMARY_ROUTE_FAILED_CANONICAL_RECOVERED,HTTP Error 404:
+NL-WMO,https://wetten.overheid.nl/BWBR0009408/2026-11-18,FAILED,,,2026-11-18,PRIMARY_ROUTE_FAILED_CANONICAL_RECOVERED,HTTP Error 404:
+BE-REGULATION,https://www.afmps.be/sites/default/files/downloads/AR-KB-2006-12-14_fr.pdf,200,text/html,304efe658d80e25ccfb3a5213f993c1825cdd43cf6fb3d8097030baeb4891fe0,2026-11-18,REJECTED_HTML_CHALLENGE_NOT_PDF,Expected PDF returned HTML challenge; not reviewed as legal text.

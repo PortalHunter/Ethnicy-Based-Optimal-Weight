@@ -1,0 +1,58 @@
+# Team D — standalone continuation checkpoint, Batch 45 (2026-11-06)
+
+## GitHub state and explicit scope
+- Repository: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight
+- Branch: `research/atlas-team-d-20261104`; draft PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70; base `main`.
+- Verified live immediately before this checkpoint: PR **OPEN, DRAFT, UNMERGED**, current head `91486395c4bc711e3fa8b80a465099cc9c6a5008`. **This checkpoint commit and later documentation commits advance that SHA; always independently fetch the live head before modifying.**
+- Only Team D paths under `docs/atlas/handoffs/team-d/` are authorized. No main, website/calculator, other-team, patient-claim, issue, merge or ready-for-review changes.
+- This Batch 45 research is intentionally narrow: PAHO statistical reporting categories and directory-listed office contact/service typology are **not** direct WHO administrative assignments, independently inspected premises, April 2026 WHO survey responses, member-state status, national medicine law or clinical validation.
+
+## New evidence — 25 typed source-scoped observations
+1. **11 PAHO/WHO office-directory observations** in `data/paho_directory_office_typology_2026.csv`: four **host-city contact listings** (Bahamas/Nassau M49 044, Barbados/Bridgetown 052, Jamaica/Kingston 388, Trinidad and Tobago/Port of Spain 780) and seven distinct **represented elsewhere** territory observations (Bermuda 060 and Cayman Islands 136 via Jamaica; Turks and Caicos 796 via Bahamas; Aruba 533 and Dutch Sint Maarten 534 via Trinidad and Tobago; Anguilla 660 and British Virgin Islands 092 via Barbados). Reuses existing ledger URL **TD-SRC-177** `https://www.paho.org/en/countries-and-centers`. The undated PAHO directory was retrievable as first-party search-indexed text; attempted direct opening returned **HTTP 403** on 2026-11-06. A contact address is **not an independently verified occupied facility**; named out-of-area representation is not absence of other local operations. This is a new contact/service *typology* view; it does not replace prior PAHO technical-cooperation facts, the October 2026 representative starts or 2025 report groupings.
+2. **14 PAHO core-indicator statistical grouping observations** in `data/paho_americas_indicator_territory_context_2026.csv` for still-unresolved WHO M49 entries: Bermuda 060; French Guiana 254; Guadeloupe 312; Martinique 474; Puerto Rico 630; Anguilla 660; Aruba 533; Cayman Islands 136; Curaçao 531; Montserrat 500; Dutch Sint Maarten 534; Turks and Caicos 796; British Virgin Islands 092; US Virgin Islands 850. The **PAHO indicator dashboard** lists these under Region of the Americas statistical subregions (North America, Latin Caribbean, Non Latin Caribbean), *not* a new individual current WHO administrative assignment. First-party search-indexed text only; original `https://opendata.paho.org/en/core-indicators/subregions-dashboard` direct opening returned **HTTP 403**. New ledger URL **TD-SRC-283**, checked 2026-11-06; publication/effective day unknown. None of the 14 are promoted out of `not_verified`, and no parent country or surveillance-only inference is used.
+- Dutch Sint Maarten **534** remains distinct from French Saint Martin **663**. The two sources do not resolve PAHO's separate undated 13 versus dated 2026 14 Eastern Caribbean service-area conflict or PAHO membership categories.
+
+## Persisted research and validation commits
+- [`358a2160701fe0dd2edff571078dcb429b02e153`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/358a2160701fe0dd2edff571078dcb429b02e153): 11-row contact/service typology table.
+- [`a9f4d798c87afa90a22e8d3ec36204383fd3e3fd`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/a9f4d798c87afa90a22e8d3ec36204383fd3e3fd): 14-row PAHO statistical-territory review.
+- [`c772be1890edbb887bc902f93da9762101f660c8`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/c772be1890edbb887bc902f93da9762101f660c8): one new provenance URL, source ledger now 283; TD-SRC-177 use list expanded for new dataset.
+- [`82ddc34b0f0efb1ed553866c8d6cee4f3fe15346`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/82ddc34b0f0efb1ed553866c8d6cee4f3fe15346): checked-in validator asserts 14/11 rows, M49/URL joins, unresolved administrative status, host versus out-of-area service types and protected baseline counts.
+- Other concurrent GitHub commits updated **Batch 44 Malta** legal-boundary documents and validator; this batch preserved those additions and updated its new source total from 282 to 283 rather than overwriting them. Audit intervening commits when resuming.
+
+## Actual validation and limitations
+**PASS** targeted GitHub-derived full CSV parse/width, 25 unique observation IDs, 14 unresolved M49 joins, four contacts/seven remote representations, all source URLs in 283-row provenance, all 25 legal/office inference flags, 205 directly evidenced current regional assignments, 44 unresolved, 105 affirmative April 2026 host survey rows, and **V8 syntax compilation** of updated `validate.mjs`. New data files and provenance/validator were independently fetched with SHA readbacks at the later head `91486395c4bc711e3fa8b80a465099cc9c6a5008`; exact blobs: directory `189697d459880cd0d8b51e8eec259904ea1e2fd1`; indicators `e7e3c8cc5c333fb161b9bcc0923ae49ea1d21474`; provenance `f1ef3ca37d35b008061346eac8d6d5f6c174d445`; validator `c41a7737aaa913abde20daa323b861cba43078e8`.
+**NOT EXECUTED**: full checked-in multi-dependency structural validator on Batch 45 snapshot, native Node checkout, GitHub Actions, original PAHO direct facsimile, national legal audit, scientific/clinical or maintainer acceptance. Container Node exists, but `git ls-remote` failed GitHub DNS; V8 *syntax* alone is not full validator execution. Earlier full V8 regressions apply to their earlier snapshots only. Do not convert partial checks into a full-test claim.
+
+## Preserved baseline and unfinished original acceptance
+- WHO/M49 geographic seed **249** (248 UN M49 overview plus explicitly documented ISO exception); six WHO offices represented. **205/249 (82.3%)** current direct administrative WHO region assignments; **44 unresolved**, including boundary territories and Liechtenstein. Neither source increases the 205.
+- **105/249 (42.2%)** direct affirmative **April 2026** WHO host-office survey joins; **144/249** without comparable April attestation **are not proved office-absent**. Our four PAHO directory contact hubs are a *different measure*, not four added survey hosts. Keep 46 retained September-2024 surveys and 228 separate Jan-2021–Dec-2022 historic records.
+- Institutional graph **47 nodes / 617 typed date-qualified edges**; **20** institutional condition references covering all **seven** health keys. The new operational classifications do not create inferred `member_of` or `WHO_region` edges.
+- EMA NCA official agency source-role observations **71 across 34/34 agency identities**; complete independently verified **current amended national statute/delegation and exact Team A authority join 0/34**. The concurrent Batch 44 Malta review added **four bounded statutory/delegation-index cases** but does **not** finish Malta's full audit. Malta Act ordinary issuer vs agency webpage grant attribution is still conflicted; S.L. 458.39 original operative delegation clauses remain uninspected.
+- Provenance unique URLs **283**. This batch contributes **one** new URL, with 11 additional observations reusing an already indexed source.
+
+Original Team D acceptance (from `docs/atlas/research-team-prompts/TEAM_D_INTERNATIONAL_NETWORKS.md` on `research/atlas-five-team-handoff-prompts-2026-11-04`) requires all six WHO offices with source dates/transitions, 10+ typed multi-country and international relationships, 10+ boundary/negative examples, source-reproducible M49 network status/graph, a condition-network record for each of seven keys, and no geography-driven membership or shared-clinical-guideline assumptions. **Structural minimums do not equal full scientific, legal, historical or maintainer acceptance**.
+
+## High-priority next investigations
+1. The 44 WHO M49 administrative-region unknowns need *direct current individual WHO authority*, not PAHO indicator/statistical area groupings, regional disease dashboards or parent-country inference. Review Bermuda WHO CPCD card versus PAHO territory page with care; outdated CPCD Indonesia SEARO card conflicts with verified effective 2025-05-23 WPRO reassignment. Do not treat an undated source as current status on its own.
+2. For 144 missing April-2026 affirmative office joins, seek actual recent WHO individual office profiles or independent host-premises documentation. Keep local offices, contact listings, MCO service, liaison and remote representation distinct; retain older survey and 2021–22 time buckets.
+3. Obtain current amended national medicine statutes/delegations and exact Team A ID joins for all 34 agencies, especially Malta Chapter 458, operative S.L. 458.39, S.L. 458.34 and authority-specific decision evidence; preserve Commission vs national authorisation.
+4. Independent original instruments and dated legal/governance records remain pending for PAHO 13/14 ECC coverage, Boisson January/February 2021 term contradiction, SCI North Macedonia precise April 2024 accession, Africa CDC APPM **8 signers but only one named / 15 intents / 55 target**, IDF 22/23, AOECS 43+1+3 versus 41+6, HI member-vs-partner, Codex observer historic basis, HEARTS 29 national v1 adoptions vs undated 35 commitments, ASEAN national implementation, GCTF contributor vs signed membership, and all exact A/B/C scientific/clinical appraisals.
+5. Literal `node docs/atlas/handoffs/team-d/validate.mjs` in an authorized checkout, full corrected-snapshot regression, source-access rechecks and legal/scientific/maintainer approval before any acceptance or public-facing integration.
+
+## Progress bars (separate evidence types)
+- Direct current WHO administrative assignments: `████████████████░░░░ 205/249` — 44 unknown.
+- Direct **April 2026** office host-survey positives: `████████░░░░░░░░░░░░ 105/249` — 144 without comparable positive evidence, not absent.
+- EMA candidate agency *source-described roles*: `████████████████████ 34/34` — descriptive evidence only.
+- Complete amended statute/delegation + exact Team A join: `░░░░░░░░░░░░░░░░░░░░ 0/34` — all 34 outstanding.
+- Batch 45 checked-in validator **full execution**: NOT RUN; targeted row/reference and V8 syntax checks PASS.
+
+## Exact reusable continuation prompt
+```text
+Continue Research Team D in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/70.
+
+Read `docs/atlas/handoffs/team-d/CONTINUATION_PROMPT.md` on branch `research/atlas-team-d-20261104`, including its latest checkpoint and original acceptance criteria.
+
+Verify live GitHub state and continue autonomously. Prioritize unresolved WHO assignments, office evidence, regulator authority, and international network relationships. Preserve all historical-versus-current distinctions, source conflicts, existing research, and scope restrictions. Commit, validate, and verify readbacks regularly. Modify only Team D's research directory. Do not modify the public website, main, or other teams; do not merge or mark the PR ready.
+
+If unfinished, save a complete standalone GitHub checkpoint. End with a concise status, this same reusable continuation prompt, and updated visual progress bars for WHO regional assignments, verified office-host evidence, and remaining research gaps. Do not equate structural validation with legal or clinical approval.
+```
