@@ -7,16 +7,17 @@
     "historical_printed_tale_entries": 519,
     "editorial_note_story_references": 57,
     "original_unverified_source_leads": 43,
-    "total_metadata_rows": 619,
-    "variant_candidate_clusters": 12,
+    "total_metadata_rows": 731,
+    "variant_candidate_clusters": 17,
     "confirmed_unique_oral_witnesses": "not_assessed",
-    "clinically_verified_findings": 0
+    "clinically_verified_findings": 0,
+    "niche_health_and_variant_source_leads": 112
   },
   "focus_regions": [
     "Europe",
     "Southeast Asia"
   ],
-  "disclaimer": "Book table-of-contents items, note references, and source links can overlap. Counts are metadata records, not unique independent stories or medically significant cases. All rights link-only and health features not reviewed.",
+  "disclaimer": "Mixed metadata: 519 anthology titles, 57 editorial note references, 43 older source leads, and 112 niche archival pages, publication passages, retellings and scholar-source pointers. Some records share a URL or are excerpts of the same published account. Counts are NOT independently attested, medical discoveries, legal reproduction clearances or unique tales. Rights remain link-only; experience extraction and medical screening are unvalidated.",
   "files": [
     {
       "path": "intake/catalog-european-printed-tales-2026-11-18.csv",
@@ -95,7 +96,7 @@
     },
     {
       "path": "variants/variant-candidate-watchlist-2026-11-18.csv",
-      "row_count": 12,
+      "row_count": 17,
       "kind": "possible_variant_or_literary_analogue_cluster",
       "regions": [
         "Europe",
@@ -104,6 +105,49 @@
       "source_works": [
         "Cross-index candidate relations only"
       ]
+    },
+    {
+      "path": "intake/niche-health-motif-leads-2026-11-18-batch-001.csv",
+      "row_count": 79,
+      "kind": "archival_item_or_printed_passage_or_tale_title_lead",
+      "regions": [
+        "Ireland",
+        "Scotland / Gaelic",
+        "Philippines",
+        "Malay Peninsula",
+        "Borneo",
+        "Laos"
+      ],
+      "source_works": [
+        "Dúchas Schools and Main Manuscript collections",
+        "Clan Traditions and Popular Tales of Western Highlands (1895)",
+        "Journal of American Folklore 1908 Visayan medical practices via transcription",
+        "Malay Magic by Skeat (1900)",
+        "Through Central Borneo by Lumholtz (1920)",
+        "Northern Illinois University Lao Folklore course"
+      ],
+      "note": "Some same-source passages and deliberately repeated URLs; source independence unknown."
+    },
+    {
+      "path": "intake/niche-health-motif-leads-2026-11-18-batch-002.csv",
+      "row_count": 33,
+      "kind": "published_folklore_tale_or_earlier_version_source_lead",
+      "regions": [
+        "Laos",
+        "Thailand",
+        "Cambodia",
+        "Myanmar",
+        "Germany",
+        "Malay Peninsula"
+      ],
+      "source_works": [
+        "NIU Lao Folklore chapter 3 and 5",
+        "Schöppner Bavarian Sagenbuch 1853",
+        "Bartsch Mecklenburg Sagen 1879",
+        "Hikayat Abdullah antecedent noted by NUS",
+        "Thai/Lao Twelve Sisters comparative scholarly studies"
+      ],
+      "note": "Chapter-level retellings, note-level bibliographic references and older folktale pages; independent witnesses not established."
     }
   ],
   "quality_checks": {
@@ -112,7 +156,10 @@
     "urls_individually_reviewed": false,
     "underlying_version_independence_established": false,
     "medical_screening_performed": false,
-    "rights_cleared_for_full_text": false
+    "rights_cleared_for_full_text": false,
+    "niche_leads_separately_typed": true,
+    "niche_variant_dependencies_flagged": true,
+    "rare_story_equates_to_rare_disease": false
   },
   "storage": {
     "metadata_repository_public": true,
@@ -120,6 +167,7 @@
     "drive_folder_url": "https://drive.google.com/drive/folders/12VVGMHid7BQN8DoumqhUTtc67MFkjSNL"
   },
   "next_steps": [
+    "Inspect the 112 niche entries, prioritize primary item and first-language story versions, and re-check any source links with shared underlying citations",
     "trace source-specific editions and original language for 12 clusters",
     "expand European primary folktale archives beyond printed translations",
     "expand Southeast Asian sources to Vietnamese, Thai, Malay, Indonesian, Borneo corpora",
