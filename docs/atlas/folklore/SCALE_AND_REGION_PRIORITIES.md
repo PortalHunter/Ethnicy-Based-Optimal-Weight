@@ -13,7 +13,7 @@
 5. **Verified attestations**: inspected original sources with provenance, version/edition, narrator/collector information where appropriate, and rights status.
 6. **Reviewed hypotheses**: separately tested medical questions and their counterevidence. These must never be conflated with stories or become medical advice.
 
-**Working count after this pass:** 410 *indexed printed tale entries*, 57 *note-story references*, and 43 pre-existing *raw source leads* = 510 **metadata records of different kinds**. Not 510 unique stories or 510 medically meaningful discoveries. Work catalogs have multiple entries per book, and cross-book duplication is expected.
+**Working count after this pass:** 519 *indexed printed tale entries*, 57 *note-story references*, and 43 pre-existing *raw source leads* = 619 **metadata records of different kinds**. Not 619 unique stories or 619 medically meaningful discoveries. Work catalogs have multiple entries per book, and cross-book duplication is expected.
 
 ## Regional priorities (new focus)
 
@@ -27,6 +27,7 @@
 |---|---|---:|---|
 | Europe printed titles | [Jacobs index](intake/catalog-european-printed-tales-2026-11-18.csv) | 127 | `English Fairy Tales` (1890); `More English Fairy Tales` (1894); `Celtic Fairy Tales` (1892); `More Celtic Fairy Tales` (1894), verified tables of contents |
 | Norway printed titles | [Norse index](intake/catalog-norse-printed-tales-2026-11-18.csv) | 59 | Asbjørnsen/Moe collection, Dasent's 1859 English edition, ebook 8933 contents |
+| Italian printed titles | [Crane index](intake/catalog-italian-printed-tales-2026-11-18.csv) | 109 | Crane's 1885 Italian Popular Tales, exact numbered entries I–CIX in Wikisource historical table of contents; includes named variant editions |
 | Southeast Asia printed titles | [Philippines and Laos index](intake/catalog-southeast-asia-printed-tales-2026-11-18.csv) | 224 | Mabel Cook Cole, 1916: 59; Dean S. Fansler, 1921: 117; Katherine Neville Fleeson, 1899: 48 |
 | Footnote stories and candidate alternatives | [Fansler notes index](intake/catalog-philippine-fansler-footnote-references-2026-11-18.csv) | 57 | `Filipino Stories given in the Notes`, numbered book-page locators; may include abstracts, printed romances, repeat titles |
 | Previously gathered archive and scholarly leads | [43 original leads](intake/source-leads-2026-11-18.csv) | 43 | Mixed archival-page and secondary references; all status `lead_only` |
@@ -35,12 +36,14 @@ The two Philippine collections are **distinct publication witnesses**; they are 
 
 ## High-value variant leads
 
-See [variant watchlist](variants/variant-candidate-watchlist-2026-11-18.csv). Specific examples:
+See [12-cluster variant watchlist](variants/variant-candidate-watchlist-2026-11-18.csv). Specific examples:
 
 - Cole's `The Flood Story` occurs under more than one historical group heading; source chronology and narratives must be compared.
 - Cole's `The Sun and the Moon` occurs under several different community headings. Similar titles do **not** imply the same tale.
 - Cole's `The Monkey and the Turtle` and Fansler's editorial section `The Monkey and the Turtle (three versions)` should be segmented into exact tellings and carefully checked for literary borrowing.
 - Fansler indexes `The Monkey and the Crocodile (two versions)`, `The Adarna Bird (two versions)` in notes, plus two humpback and crow-color tales. Multiple in-book variants must not be collapsed.
+- Crane's Italian `The Parrot` has explicitly named first, second and third versions (Tuscan, Tuscan and Sicilian sources in the list); preserve each as a separate publication-level witness and trace the 19th-century original collectors.
+- Compare Crane's Italian `The Two Humpbacks` with Fansler's Philippine `The Three Humpbacks` / `The Seven Humpbacks` as a cautious **literary motif**, not a disability diagnosis or proof of direct diffusion.
 - Compare Dasent's Norwegian `Why the sea is salt` against Fansler's `Why the Ocean is Salty` as a **literary diffusion / convergent motif control**, not as evidence of similar disease.
 
 ## Source discovery queue — verify at source, not pre-ingested
@@ -91,7 +94,7 @@ All remain `not_screened` until individual sources are actually read.
 
 ## Reasonable scale targets
 
-- **Now:** source-indexed catalogs with provenance caveats; this pass contains 510 metadata records, not medically screened.
+- **Now:** source-indexed catalogs with provenance caveats; this pass contains 619 metadata records, not medically screened.
 - **Next:** trace the 10 watchlist clusters and locate original-language editions; add archives from Vietnam, Thailand, Malay Peninsula/Indonesia, mainland Europe.
 - **500–1,000+ reviewed candidates:** only after URLs, rights and exact source locators are inspected; measure real unique witnesses, not just catalog rows.
 - **Thousands:** long-term *open-ended* target, dependent on source permissions, robust deduplication, language/community partnerships and reviewer resources.
