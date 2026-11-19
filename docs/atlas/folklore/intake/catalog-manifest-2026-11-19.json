@@ -1,0 +1,325 @@
+{
+  "schema_version": "0.2.0",
+  "snapshot_date": "2026-11-19",
+  "branch": "research/atlas-folklore-discovery-20261118",
+  "purpose": "non-clinical provenance-first story catalog and oral-tradition variant discovery",
+  "counts": {
+    "historical_printed_tale_entries": 519,
+    "editorial_note_story_references": 57,
+    "original_unverified_source_leads": 43,
+    "total_metadata_rows": 1013,
+    "variant_candidate_clusters": 25,
+    "confirmed_unique_oral_witnesses": "not_assessed",
+    "clinically_verified_findings": 0,
+    "niche_health_and_variant_source_leads": 112,
+    "new_swedish_romanian_russian_armenian_printed_entries": 92,
+    "new_philippine_published_chapters_and_story_entries": 63,
+    "new_philippine_beyer_1913_lineage_leads": 9,
+    "new_tinguian_1915_publication_passage_leads": 8,
+    "new_entries_in_this_collection_round": 172,
+    "named_printed_story_titles_approx": 650,
+    "published_story_chapter_locators_with_titles_pending": 24,
+    "previous_snapshot_rows": 903,
+    "new_entries_this_snapshot": 110,
+    "new_irish_collected_tale_entries": 44,
+    "new_flemish_printed_tale_entries": 47,
+    "new_borneo_passage_entries": 17,
+    "new_philippine_original_work_leads": 2
+  },
+  "focus_regions": [
+    "Europe",
+    "Southeast Asia"
+  ],
+  "disclaimer": "1,013 internal research identifiers: 903 prior mixed entries + 44 Irish printed tales (18 with printed narrator and village names) + 47 edited Flemish tales + 17 source-located passages from ONE 1899 Borneo book + two original-language Philippine work-level leads. This is NOT 1,013 independent folklore narratives, clinical cases, proven health signals, or legally cleared full-text copies. Indexed motifs sometimes repeat or are derivative. Rights link-only pending checks.",
+  "files": [
+    {
+      "path": "intake/catalog-european-printed-tales-2026-11-18.csv",
+      "row_count": 127,
+      "kind": "historical_printed_tale_entry",
+      "regions": [
+        "England",
+        "Ireland",
+        "Scotland",
+        "Wales"
+      ],
+      "source_works": [
+        "English Fairy Tales (1890)",
+        "More English Fairy Tales (1894)",
+        "Celtic Fairy Tales (1892)",
+        "More Celtic Fairy Tales (1894)"
+      ]
+    },
+    {
+      "path": "intake/catalog-norse-printed-tales-2026-11-18.csv",
+      "row_count": 59,
+      "kind": "historical_printed_tale_entry",
+      "regions": [
+        "Norway"
+      ],
+      "source_works": [
+        "Asbjørnsen and Moe; English translation by Dasent (1859)"
+      ]
+    },
+    {
+      "path": "intake/catalog-italian-printed-tales-2026-11-18.csv",
+      "row_count": 109,
+      "kind": "historical_printed_tale_entry",
+      "regions": [
+        "Italy"
+      ],
+      "source_works": [
+        "Italian Popular Tales — Thomas Frederick Crane (1885)"
+      ]
+    },
+    {
+      "path": "intake/catalog-southeast-asia-printed-tales-2026-11-18.csv",
+      "row_count": 224,
+      "kind": "historical_printed_tale_entry",
+      "regions": [
+        "Philippines",
+        "Laos"
+      ],
+      "source_works": [
+        "Philippine Folk Tales — Mabel Cook Cole (1916)",
+        "Filipino Popular Tales — Dean Spruill Fansler (1921)",
+        "Laos Folk-Lore of Farther India — Katherine Neville Fleeson (1899)"
+      ]
+    },
+    {
+      "path": "intake/catalog-philippine-fansler-footnote-references-2026-11-18.csv",
+      "row_count": 57,
+      "kind": "editorial_note_story_reference",
+      "regions": [
+        "Philippines"
+      ],
+      "source_works": [
+        "Filipino Popular Tales (1921): stories cited in editorial notes"
+      ]
+    },
+    {
+      "path": "intake/source-leads-2026-11-18.csv",
+      "row_count": 43,
+      "kind": "unverified_source_lead",
+      "regions": [
+        "mixed including Ireland, Philippines, Estonia, North and South America"
+      ],
+      "source_works": [
+        "archive pages, scholarly and secondary links"
+      ]
+    },
+    {
+      "path": "variants/variant-candidate-watchlist-2026-11-18.csv",
+      "row_count": 25,
+      "kind": "possible_variant_or_literary_analogue_cluster",
+      "regions": [
+        "Europe",
+        "Philippines"
+      ],
+      "source_works": [
+        "Cross-index candidate relations only"
+      ]
+    },
+    {
+      "path": "intake/niche-health-motif-leads-2026-11-18-batch-001.csv",
+      "row_count": 79,
+      "kind": "archival_item_or_printed_passage_or_tale_title_lead",
+      "regions": [
+        "Ireland",
+        "Scotland / Gaelic",
+        "Philippines",
+        "Malay Peninsula",
+        "Borneo",
+        "Laos"
+      ],
+      "source_works": [
+        "Dúchas Schools and Main Manuscript collections",
+        "Clan Traditions and Popular Tales of Western Highlands (1895)",
+        "Journal of American Folklore 1908 Visayan medical practices via transcription",
+        "Malay Magic by Skeat (1900)",
+        "Through Central Borneo by Lumholtz (1920)",
+        "Northern Illinois University Lao Folklore course"
+      ],
+      "note": "Some same-source passages and deliberately repeated URLs; source independence unknown."
+    },
+    {
+      "path": "intake/niche-health-motif-leads-2026-11-18-batch-002.csv",
+      "row_count": 33,
+      "kind": "published_folklore_tale_or_earlier_version_source_lead",
+      "regions": [
+        "Laos",
+        "Thailand",
+        "Cambodia",
+        "Myanmar",
+        "Germany",
+        "Malay Peninsula"
+      ],
+      "source_works": [
+        "NIU Lao Folklore chapter 3 and 5",
+        "Schöppner Bavarian Sagenbuch 1853",
+        "Bartsch Mecklenburg Sagen 1879",
+        "Hikayat Abdullah antecedent noted by NUS",
+        "Thai/Lao Twelve Sisters comparative scholarly studies"
+      ],
+      "note": "Chapter-level retellings, note-level bibliographic references and older folktale pages; independent witnesses not established."
+    },
+    {
+      "path": "intake/catalog-europe-caucasus-tales-2026-11-18-batch-003.csv",
+      "row_count": 92,
+      "kind": "historical_published_tale_title",
+      "regions": [
+        "Sweden",
+        "Romania",
+        "Russia / chapbook",
+        "Armenian Caucasus (transcontinental)"
+      ],
+      "source_works": [
+        "Klara Stroebe Swedish Fairy Book 1921",
+        "Mite Kremnitz Roumanian Fairy Tales 1885",
+        "Robert Steele The Russian Garland 1916 (about 1830 chapbook antecedents)",
+        "A.G. Seklemian The Golden Maiden 1898"
+      ],
+      "note": "All catalog titles sourced from verified named Gutenberg work metadata; translations, source lineage and story independence not established."
+    },
+    {
+      "path": "intake/catalog-philippine-1902-1907-regional-stories-2026-11-18-batch-004.csv",
+      "row_count": 63,
+      "kind": "historical_published_story_or_chapter_locator",
+      "regions": [
+        "Philippines",
+        "Visayan / Panay",
+        "Tagalog / Mindoro and other"
+      ],
+      "source_works": [
+        "John Maurice Miller Philippine Folklore Stories 1904 (14)",
+        "Clara Kern Bayliss JAFL 1902 (3)",
+        "Berton L. Maxfield and W.H. Millington Visayan Folk-Tales collected 1904 printed 1906–1907 (22)",
+        "Fletcher Gardner Tagalog Folk-Tales printed 1907 (23)",
+        "Fletcher Gardner Tagalog Aladdin version (1)"
+      ],
+      "note": "24 chapter titles intentionally left BLANK pending exact transcription; stable part and chapter locators provided; articles are compiled together in Gutenberg eBook 11028; not independent proven oral witnesses."
+    },
+    {
+      "path": "intake/philippine-source-lineage-beyer-1913-2026-11-18.csv",
+      "row_count": 9,
+      "kind": "historic_Indigenous_myth_quotation_or_source_lineage",
+      "regions": [
+        "Philippines / Ifugao",
+        "Philippines / Manobo",
+        "Philippines / Tagbanwa",
+        "Philippines / Bontok"
+      ],
+      "source_works": [
+        "H. Otley Beyer Origin Myths among the Mountain Peoples of the Philippines (1913)"
+      ],
+      "note": "Several versions quote/translate older works or unnamed sources; source permissions and community governance need review before detailed extraction."
+    },
+    {
+      "path": "intake/tinguian-1915-passage-variant-leads-2026-11-18.csv",
+      "row_count": 8,
+      "kind": "within_book_feature_and_variation_passage",
+      "regions": [
+        "Tinguian / Abra, Northwest Luzon"
+      ],
+      "source_works": [
+        "Fay-Cooper Cole Traditions of the Tinguian (1915)"
+      ],
+      "note": "These are eight passages within one historical publication, NOT eight independent tales or separate storytellers. Six storytellers and four towns reported for 26 core myths by author."
+    },
+    {
+      "path": "intake/catalog-irish-narrator-provenance-2026-11-19-batch-005.csv",
+      "row_count": 44,
+      "kind": "historical_published_folktale_with_printed_locators",
+      "regions": [
+        "Ireland / Breffny",
+        "Ireland / Achill Island",
+        "Ireland / Renvyle, Galway",
+        "Ireland / Glencolumkille, Donegal"
+      ],
+      "source_works": [
+        "Folk Tales of Breffny — Bampton Hunt (1912), 26 printed tales",
+        "West Irish Folk-Tales and Romances — William Larminie (1893), 18 tales with named narrators and locations"
+      ],
+      "note": "1893 printed table of contents names narrator and locality. 1912 Hunt describes an older principal informant and other friends but does not identify every storyteller by chapter. Literary folklore, not medical case notes."
+    },
+    {
+      "path": "intake/catalog-flanders-printed-2026-11-19-batch-006.csv",
+      "row_count": 47,
+      "kind": "historical_edited_flemish_folktale",
+      "regions": [
+        "Belgium / Flanders",
+        "Belgium / Brabant"
+      ],
+      "source_works": [
+        "Beasts & Men — Jean de Bosschère (1918), 24 stories",
+        "Christmas Tales of Flanders — 23 listed tales, precise original edition year to verify"
+      ],
+      "note": "Edited English-language tales; animal fables provide nonmedical controls; copy relationships and original Flemish narrators to be traced. Original story publication rights unknown, store URLs and metadata only."
+    },
+    {
+      "path": "intake/borneo-furness-1899-passages-2026-11-19-batch-007.csv",
+      "row_count": 17,
+      "kind": "historical_ethnographic_passage_from_single_book",
+      "regions": [
+        "Borneo / Kayan",
+        "Borneo / Baram and Rejang accounts",
+        "Borneo / Bukit traditions"
+      ],
+      "source_works": [
+        "Folk-lore in Borneo — William Henry Furness (1899)"
+      ],
+      "note": "17 passages within ONE publication, NOT 17 separate oral stories or independent narrators. Includes Gamong fever/resurrection narrative, illness-associated naming change, water/birth rituals and different reported origin versions. Colonial framing caution and community governance essential."
+    },
+    {
+      "path": "intake/philippines-original-language-work-leads-2026-11-19-batch-008.csv",
+      "row_count": 2,
+      "kind": "work_level_original_language_source_lead",
+      "regions": [
+        "Philippines / Spanish-language folklore collection",
+        "Philippines / Tagalog corrido"
+      ],
+      "source_works": [
+        "El Folk-lore Filipino, Tomo I — Isabelo de los Reyes y Florentino (original edition year/sequence requires review)",
+        "Ibong Adarna — anonymous Tagalog historical-spelling printed edition (publication date not established)"
+      ],
+      "note": "Two WORKS not individual narrative passages; compare Tagalog Ibong Adarna with Fansler 1921 editorial mention of two versions. No clinical healing mechanism inferred from a magical fable."
+    }
+  ],
+  "quality_checks": {
+    "individually_unique_catalog_identifiers": true,
+    "variant_watchlist_ids_resolve": true,
+    "urls_individually_reviewed": false,
+    "underlying_version_independence_established": false,
+    "medical_screening_performed": false,
+    "rights_cleared_for_full_text": false,
+    "niche_leads_separately_typed": true,
+    "niche_variant_dependencies_flagged": true,
+    "rare_story_equates_to_rare_disease": false,
+    "source_catalog_titles_await_original_review": true,
+    "first_language_teller_provenance_awaits_review": true,
+    "unknown_printed_titles_are_blank_instead_of_guessed": true,
+    "oral_witness_count_vs_metadata_count_disambiguated": true,
+    "named_irish_narrator_print_metadata_present": true,
+    "source_dep_candidate_links_added": true,
+    "full_text_licensed_or_culturally_permitted": false,
+    "medical_screening_completed": false
+  },
+  "storage": {
+    "metadata_repository_public": true,
+    "raw_fulltext_location": "Google Drive only when rights cleared",
+    "drive_folder_url": "https://drive.google.com/drive/folders/12VVGMHid7BQN8DoumqhUTtc67MFkjSNL"
+  },
+  "next_steps": [
+    "Prioritize exact text lineage: Larminie 1893 Morraha versus Jacobs 1894; verify if a direct adapted version not an independent oral witness",
+    "Compare source tellings and original Flemish/Scandinavian terms for Why Bear Has a Stumpy Tail, and distinguish literary diffusion from independent observation",
+    "Inspect Tagalog Ibong Adarna printed edition and compare with Fansler 1921 appendix and printed Spanish 19th-century folklore work",
+    "Verify Breffny Kate Ellen's Wake narrator and historical edition text without retrospective diagnosis",
+    "Seek original Borneo language/community source for Furness Gamong fever-resurrection narrative; note that multiple passages share one author and regionally mixed descriptions",
+    "Screen original-language archived passages with cultural/community approval, use nonmedical controls and segregate medical hypotheses from narrative attestations",
+    "Resolve 24 untranscribed titles in JAF Tagalog and Visayan printed chapter inventory; compare 1902/1906–07 with 1916 and 1921 printed witnesses",
+    "Inspect the 112 niche entries, prioritize primary item and first-language story versions, and re-check any source links with shared underlying citations",
+    "trace source-specific editions and original language for 12 clusters",
+    "expand European primary folktale archives beyond printed translations",
+    "expand Southeast Asian sources to Vietnamese, Thai, Malay, Indonesian, Borneo corpora",
+    "screen culturally respectful health features against negative controls, keeping hypotheses separate from clinical evidence"
+  ]
+}
