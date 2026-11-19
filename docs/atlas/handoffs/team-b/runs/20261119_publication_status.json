@@ -1,19 +1,14 @@
 {
-  "state": "published_and_PR_readback_verified",
+  "state": "validated_B154_snapshot_prepared_for_atomic_publication",
   "explicit_user_public_disclosure_approval": true,
   "branch": "research/atlas-team-b-20261104",
   "pr": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
-  "expected_remote_head": "6924ce315c6898ee62584cf28ad75539f880fe61",
+  "expected_remote_head": "52ec933f0dbf98f19a00523cc90dd51400ce1f57",
+  "previous_published_data_commit": "507d2ea11090594361289616aeff1c68f49513a6",
+  "previous_verified_tree": "d00bd16f92f92c709b15a5b91b595690f6f1e84a",
   "force_push": false,
-  "validation": "native0errors;supplemental9597PASS",
+  "validation": "native0errors;supplemental9611PASS",
   "research_acceptance": "incomplete",
-  "remaining_ordinary_tasks": 1017,
-  "remote_data_commit": "507d2ea11090594361289616aeff1c68f49513a6",
-  "validated_local_commit": "76f4e486aebe5168a00a27a773ae425fa8df3941",
-  "verified_identical_git_tree": "d00bd16f92f92c709b15a5b91b595690f6f1e84a",
-  "verified_uploaded_blobs": 40,
-  "pr_draft": true,
-  "pr_open": true,
-  "pr_merged": false,
-  "earlier_publication_rejection": "Resolved by explicit user public-disclosure approval; publication succeeded without bypassing approval."
+  "remaining_ordinary_tasks": 1010,
+  "final_publication_readback": "Final remote SHA/identical tree recorded in PR71; this file is the prepublication immutable commit receipt."
 }

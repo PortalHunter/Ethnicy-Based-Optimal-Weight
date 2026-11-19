@@ -1,39 +1,39 @@
 {
   "baseline_sha": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
-  "method": "Preserved first-pass/source audits; B143 cached reconciliation, B144\u2013B151 exact original content review and independent-route dispositions; B152 additive foreign-issuer provenance fixes",
+  "method": "Cached B143/B145 reconciliation; B144\u2013B154 exact original source review, independent-route dispositions and visual source-figure resolution; preserved historical rows",
   "generated_utc_date": "2026-11-19",
   "M49": 248,
   "conditions": 7,
   "matrix": 1736,
-  "organizations": 525,
+  "organizations": 526,
   "areas_with_local_org_indexed": 227,
   "geographic_org_gaps": 21,
-  "raw_linked_cells": 423,
-  "searched_unlinked_cells": 1313,
+  "raw_linked_cells": 424,
+  "searched_unlinked_cells": 1312,
   "untouched_cells": 0,
-  "pub_context_rows": 579,
-  "source_quality_audited": 579,
+  "pub_context_rows": 585,
+  "source_quality_audited": 585,
   "source_quality_unreviewed": 0,
   "tiers": {
-    "S1": 126,
-    "S2": 179,
-    "H": 49,
+    "S1": 131,
+    "S2": 180,
+    "H": 50,
     "M": 196,
-    "U": 29
+    "U": 28
   },
-  "eligible_audited_sources": 354,
-  "distinct_cells_with_eligible_audited_source": 337,
-  "raw_linked_fully_audited_without_S1_S2_H": 86,
+  "eligible_audited_sources": 361,
+  "distinct_cells_with_eligible_audited_source": 344,
+  "raw_linked_fully_audited_without_S1_S2_H": 80,
   "raw_linked_no_eligible_with_unaudited": 0,
   "search_depth_entries": 3327,
   "search_depth_D2_cells_with_no_link": 322,
-  "searched_unlinked_missing_active_D2": 954,
+  "searched_unlinked_missing_active_D2": 953,
   "unknown_source_country_imprints": 5,
   "source_reused_exact_urls": 45,
   "shared_org_official_url_strings": 6,
-  "repeated_exact_area_condition_search_urls": 30,
-  "provenance": 4672,
-  "search_logs": 4150,
+  "repeated_exact_area_condition_search_urls": 31,
+  "provenance": 4681,
+  "search_logs": 4157,
   "community_subnational": 10,
   "cross_border": 8,
   "metadata_reconciliation": 7,
@@ -44,29 +44,29 @@
       "raw": 112,
       "searched": 136,
       "untouched": 0,
-      "qualCells": 81,
-      "auditedSources": 162
+      "qualCells": 82,
+      "auditedSources": 163
     },
     "hypertension": {
       "raw": 82,
       "searched": 166,
       "untouched": 0,
-      "qualCells": 53,
-      "auditedSources": 113
+      "qualCells": 56,
+      "auditedSources": 115
     },
     "high_chol": {
-      "raw": 53,
-      "searched": 195,
+      "raw": 54,
+      "searched": 194,
       "untouched": 0,
-      "qualCells": 42,
-      "auditedSources": 76
+      "qualCells": 44,
+      "auditedSources": 78
     },
     "gout": {
       "raw": 44,
       "searched": 204,
       "untouched": 0,
-      "qualCells": 38,
-      "auditedSources": 57
+      "qualCells": 39,
+      "auditedSources": 58
     },
     "lactose": {
       "raw": 41,
@@ -92,11 +92,11 @@
   },
   "clinical_approvals": 0,
   "run_delta": {
-    "source_quality_audited": 488,
+    "source_quality_audited": 494,
     "source_quality_unreviewed": -342,
-    "eligible_audited_sources": 295,
-    "distinct_cells_with_eligible_audited_source": 279,
-    "raw_linked_cells": 35,
+    "eligible_audited_sources": 302,
+    "distinct_cells_with_eligible_audited_source": 286,
+    "raw_linked_cells": 36,
     "untouched_cells": -1154,
     "geographic_org_gaps": 0,
     "unknown_source_country_imprints": 0
@@ -104,15 +104,14 @@
   "validation": {
     "structural_errors": 0,
     "Node_CLI_ran": true,
-    "supplemental_checks_passed": 9597,
-    "clinical_state": "579/579 research_lead_only"
+    "supplemental_checks_passed": 9611,
+    "clinical_state": "585/585 research_lead_only"
   },
   "live_input_head": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
   "depth_tiers": {
     "D1": 1164,
-    "D3": 64,
-    "none": 185,
-    "D2": 323
+    "D2": 323,
+    "D3": 64
   },
   "identity_triage_classes": {
     "explicit_caveat_in_status_NOT_independently_legal_verified": 354,
@@ -121,7 +120,7 @@
     "own_site_plus_NLM_Lima_publisher_confirmed_governance_unreviewed": 1,
     "first_party_Bogota_office_plus_ISSN_publisher_verified_legal_registry_and_rights_unreviewed": 1,
     "first_party_self_description_no_legal_certification": 3,
-    "own_original_name_seat_objects_inspected_NOT_legal_approval": 24
+    "own_original_name_seat_objects_inspected_NOT_legal_approval": 25
   },
   "continuation_baseline_sha": "27c846fc2a51cd9bced2e3620d71f5dee65ba229",
   "continuation_delta": {
@@ -137,31 +136,35 @@
     "geographic_org_gaps": 0,
     "unknown_source_country_imprints": 0
   },
-  "execution_state": "research_incomplete; validated_published_checkpoint; actionable_backlog_remains",
-  "raw_linked_nonqualified_without_terminal_depth": 63,
-  "ordinary_cell_dispositions_remaining": 1017,
+  "execution_state": "research_incomplete; execution_resource_checkpoint; actionable_backlog_remains",
+  "raw_linked_nonqualified_without_terminal_depth": 57,
+  "ordinary_cell_dispositions_remaining": 1010,
   "accelerated_run": {
     "baseline_sha": "6924ce315c6898ee62584cf28ad75539f880fe61",
     "start_unlinked_depth": 988,
-    "end_unlinked_depth": 954,
+    "end_unlinked_depth": 953,
     "start_raw_nonqualified_without_terminal": 140,
-    "end_raw_nonqualified_without_terminal": 63,
-    "new_qualified_cells": 67,
-    "new_source_contexts": 68,
+    "end_raw_nonqualified_without_terminal": 57,
+    "new_qualified_cells": 74,
+    "new_source_contexts": 74,
+    "existing_context_source_audit_upgrades": 1,
+    "new_source_audit_observations": 75,
     "new_D2": 23,
     "new_D3": 21,
     "interpreted_D1_retained": 11,
-    "distinct_cells_genuinely_advanced": 111,
+    "distinct_cells_genuinely_advanced": 118,
     "source_qualification_on_already_qualified_cell": 1,
-    "source_contexts_after": 579,
+    "source_contexts_after": 585,
     "source_contexts_before": 511,
+    "appended_research_records": 130,
+    "distinct_cells_processed": 130,
     "all_actionable_completed": false
   },
   "publication": {
-    "state": "published_and_PR_readback_verified",
-    "remote_head": "507d2ea11090594361289616aeff1c68f49513a6",
+    "state": "validated_B154_snapshot_prepared_for_expected_head_publication",
+    "remote_head": "52ec933f0dbf98f19a00523cc90dd51400ce1f57",
     "local_validated_data_commit": "76f4e486aebe5168a00a27a773ae425fa8df3941",
-    "reason": "40 blobs and exact tree verified; atomic expected-head non-force update succeeded; PR metadata readback confirms draft/open/unmerged.",
+    "reason": "User public publication approval persists; B152 snapshot published and verified; B153/B154 validated for non-force update against52ec933. Final PR metadata records final remote SHA.",
     "needs_user_approval": false,
     "verified_tree": "d00bd16f92f92c709b15a5b91b595690f6f1e84a"
   }
