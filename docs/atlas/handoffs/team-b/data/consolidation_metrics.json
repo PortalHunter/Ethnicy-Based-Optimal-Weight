@@ -1,39 +1,39 @@
 {
   "baseline_sha": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
-  "method": "2026-11-18 exact URL manual content audits; deterministic supplemental reconciliation; historical canonical records preserved",
-  "generated_utc_date": "2026-11-18",
+  "method": "Preserved first-pass/source audits; B143 cached reconciliation, B144\u2013B151 exact original content review and independent-route dispositions; B152 additive foreign-issuer provenance fixes",
+  "generated_utc_date": "2026-11-19",
   "M49": 248,
   "conditions": 7,
   "matrix": 1736,
   "organizations": 525,
   "areas_with_local_org_indexed": 227,
   "geographic_org_gaps": 21,
-  "raw_linked_cells": 412,
-  "searched_unlinked_cells": 1324,
+  "raw_linked_cells": 423,
+  "searched_unlinked_cells": 1313,
   "untouched_cells": 0,
-  "pub_context_rows": 511,
-  "source_quality_audited": 511,
+  "pub_context_rows": 579,
+  "source_quality_audited": 579,
   "source_quality_unreviewed": 0,
   "tiers": {
-    "S1": 87,
-    "S2": 167,
-    "H": 32,
+    "S1": 126,
+    "S2": 179,
+    "H": 49,
     "M": 196,
     "U": 29
   },
-  "eligible_audited_sources": 286,
-  "distinct_cells_with_eligible_audited_source": 270,
-  "raw_linked_fully_audited_without_S1_S2_H": 142,
+  "eligible_audited_sources": 354,
+  "distinct_cells_with_eligible_audited_source": 337,
+  "raw_linked_fully_audited_without_S1_S2_H": 86,
   "raw_linked_no_eligible_with_unaudited": 0,
-  "search_depth_entries": 3272,
-  "search_depth_D2_cells_with_no_link": 299,
-  "searched_unlinked_missing_active_D2": 988,
+  "search_depth_entries": 3327,
+  "search_depth_D2_cells_with_no_link": 322,
+  "searched_unlinked_missing_active_D2": 954,
   "unknown_source_country_imprints": 5,
-  "source_reused_exact_urls": 34,
+  "source_reused_exact_urls": 45,
   "shared_org_official_url_strings": 6,
-  "repeated_exact_area_condition_search_urls": 14,
-  "provenance": 4539,
-  "search_logs": 4027,
+  "repeated_exact_area_condition_search_urls": 30,
+  "provenance": 4672,
+  "search_logs": 4150,
   "community_subnational": 10,
   "cross_border": 8,
   "metadata_reconciliation": 7,
@@ -44,36 +44,36 @@
       "raw": 112,
       "searched": 136,
       "untouched": 0,
-      "qualCells": 57,
-      "auditedSources": 138
+      "qualCells": 81,
+      "auditedSources": 162
     },
     "hypertension": {
-      "raw": 78,
-      "searched": 170,
+      "raw": 82,
+      "searched": 166,
       "untouched": 0,
-      "qualCells": 31,
-      "auditedSources": 91
+      "qualCells": 53,
+      "auditedSources": 113
     },
     "high_chol": {
-      "raw": 49,
-      "searched": 199,
+      "raw": 53,
+      "searched": 195,
       "untouched": 0,
-      "qualCells": 28,
-      "auditedSources": 61
+      "qualCells": 42,
+      "auditedSources": 76
     },
     "gout": {
-      "raw": 43,
-      "searched": 205,
+      "raw": 44,
+      "searched": 204,
       "untouched": 0,
-      "qualCells": 34,
-      "auditedSources": 53
+      "qualCells": 38,
+      "auditedSources": 57
     },
     "lactose": {
-      "raw": 40,
-      "searched": 208,
+      "raw": 41,
+      "searched": 207,
       "untouched": 0,
-      "qualCells": 37,
-      "auditedSources": 48
+      "qualCells": 38,
+      "auditedSources": 49
     },
     "celiac": {
       "raw": 60,
@@ -83,20 +83,20 @@
       "auditedSources": 80
     },
     "hemochromatosis": {
-      "raw": 30,
-      "searched": 218,
+      "raw": 31,
+      "searched": 217,
       "untouched": 0,
-      "qualCells": 27,
-      "auditedSources": 40
+      "qualCells": 29,
+      "auditedSources": 42
     }
   },
   "clinical_approvals": 0,
   "run_delta": {
-    "source_quality_audited": 420,
+    "source_quality_audited": 488,
     "source_quality_unreviewed": -342,
-    "eligible_audited_sources": 227,
-    "distinct_cells_with_eligible_audited_source": 212,
-    "raw_linked_cells": 24,
+    "eligible_audited_sources": 295,
+    "distinct_cells_with_eligible_audited_source": 279,
+    "raw_linked_cells": 35,
     "untouched_cells": -1154,
     "geographic_org_gaps": 0,
     "unknown_source_country_imprints": 0
@@ -104,14 +104,15 @@
   "validation": {
     "structural_errors": 0,
     "Node_CLI_ran": true,
-    "supplemental_checks_passed": 9349,
-    "clinical_state": "511/511 research_lead_only"
+    "supplemental_checks_passed": 9597,
+    "clinical_state": "579/579 research_lead_only"
   },
   "live_input_head": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
   "depth_tiers": {
-    "D1": 1208,
-    "D2": 300,
-    "D3": 43
+    "D1": 1164,
+    "D3": 64,
+    "none": 185,
+    "D2": 323
   },
   "identity_triage_classes": {
     "explicit_caveat_in_status_NOT_independently_legal_verified": 354,
@@ -128,13 +129,39 @@
     "raw_linked_cells": 23,
     "searched_unlinked_cells": 1050,
     "untouched_cells": -1073,
-    "pub_context_rows": 77,
-    "source_quality_audited": 77,
-    "distinct_cells_with_eligible_audited_source": 76,
-    "provenance": 3279,
-    "search_logs": 3244,
+    "pub_context_rows": 94,
+    "source_quality_audited": 94,
+    "distinct_cells_with_eligible_audited_source": 92,
+    "provenance": 3350,
+    "search_logs": 3315,
     "geographic_org_gaps": 0,
     "unknown_source_country_imprints": 0
   },
-  "execution_state": "active_autonomous_goal; first_pass_discovery_complete; local_author_and_independent_source_depth_research_continues"
+  "execution_state": "research_incomplete; validated_published_checkpoint; actionable_backlog_remains",
+  "raw_linked_nonqualified_without_terminal_depth": 63,
+  "ordinary_cell_dispositions_remaining": 1017,
+  "accelerated_run": {
+    "baseline_sha": "6924ce315c6898ee62584cf28ad75539f880fe61",
+    "start_unlinked_depth": 988,
+    "end_unlinked_depth": 954,
+    "start_raw_nonqualified_without_terminal": 140,
+    "end_raw_nonqualified_without_terminal": 63,
+    "new_qualified_cells": 67,
+    "new_source_contexts": 68,
+    "new_D2": 23,
+    "new_D3": 21,
+    "interpreted_D1_retained": 11,
+    "distinct_cells_genuinely_advanced": 111,
+    "source_qualification_on_already_qualified_cell": 1,
+    "source_contexts_after": 579,
+    "source_contexts_before": 511,
+    "all_actionable_completed": false
+  },
+  "publication": {
+    "state": "explicit_public_publication_authorized_pending_ref_update",
+    "remote_head": "6924ce315c6898ee62584cf28ad75539f880fe61",
+    "local_validated_data_commit": "51a6a440213e623fcbec35df0dd6495e326b0adf",
+    "reason": "User explicitly approved public publication to specified branch/draft PR; validated snapshot prepared for atomic non-force branch update.",
+    "needs_user_approval": false
+  }
 }

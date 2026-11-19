@@ -1,0 +1,29 @@
+[
+  {
+    "key": "RSSDI2022",
+    "url": "https://www.rssdi.in/newwebsite/pdfdata/rssdiGuidelines/2022/2022%20RSSDI%20Clinical%20Practice%20Recommendations%20for%20the%20management%20of%20Type%202%20Diabetes.pdf",
+    "checked_on": "2026-11-19T16:06:23.944148+00:00",
+    "bytes": 18845105,
+    "sha256": "8c3a2531e799e0a175c6aac3c4d4393f7bd19736eda7c55d3dca08b256e34ae6",
+    "status": "original_pdf_cached",
+    "path": "/tmp/atlas-team-b-originals/RSSDI2022.pdf"
+  },
+  {
+    "key": "DAHS2022",
+    "url": "https://www.dahs.dk/wp-content/uploads/2022/11/Svaer-hypertension-inkl-efterbehandling_10112022.pdf",
+    "checked_on": "2026-11-19T16:06:23.944604+00:00",
+    "bytes": 159880,
+    "sha256": "f011ff58c36c10017a2a37cc6a6edaad1452dff29e747a9981fa82ba1174031b",
+    "status": "original_pdf_cached",
+    "path": "/tmp/atlas-team-b-originals/DAHS2022.pdf"
+  },
+  {
+    "key": "SEMDSA2017",
+    "url": "https://docs.mymembership.co.za/docmanager/d7a3ded1-2f30-4ff2-b566-b69abe5d7a8e/00150685.pdf",
+    "checked_on": "2026-11-19T16:06:23.944782+00:00",
+    "bytes": 2634178,
+    "sha256": "de47c1e014b1c7a355c5d25ccfba12913b92d2aa45cc55bdc28395f4e54ab334",
+    "status": "original_pdf_cached",
+    "path": "/tmp/atlas-team-b-originals/SEMDSA2017.pdf"
+  }
+]

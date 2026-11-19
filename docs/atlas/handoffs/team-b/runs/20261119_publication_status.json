@@ -1,0 +1,11 @@
+{
+  "state": "validated_snapshot_pending_atomic_publication",
+  "explicit_user_public_disclosure_approval": true,
+  "branch": "research/atlas-team-b-20261104",
+  "pr": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/71",
+  "expected_remote_head": "6924ce315c6898ee62584cf28ad75539f880fe61",
+  "force_push": false,
+  "validation": "native0errors;supplemental9597PASS",
+  "research_acceptance": "incomplete",
+  "remaining_ordinary_tasks": 1017
+}

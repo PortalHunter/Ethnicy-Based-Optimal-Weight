@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-11-19",
+  "limits": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32422338/",
+      "result": "footer-only; distinct EuropePMC article route403; original France gout abstract not inspected, no upgrade"
+    },
+    {
+      "url": "https://www.larhumatologie.fr/media/recommandations-francaises-de-la-prise-en-charge-de-la-goutte/",
+      "result": "members-only notice; not substantive text"
+    },
+    {
+      "url": "https://www.diabetes.ie/",
+      "result": "403; distinct type2 URL unavailable; no upgrade"
+    },
+    {
+      "url": "https://www.diabets.lv/_files/ugd/019586_640d8918633e4a679a466c98f1525da6.pdf",
+      "result": "substantive2024 booklet accessible, sponsor Swixx named but authorship not established in inspected portions; retain candidate, no author inference"
+    },
+    {
+      "url": "https://www.diabetes.be/nl/wat-diabetes-de-verschillende-types-symptomen-en-diagnose/hoe-kan-je-problemen-van-diabetes",
+      "result": "403; BP/lipid complications not automatically inferred from diabetes education"
+    }
+  ]
+}
