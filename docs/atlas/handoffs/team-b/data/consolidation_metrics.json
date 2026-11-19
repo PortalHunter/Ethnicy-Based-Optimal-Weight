@@ -158,10 +158,11 @@
     "all_actionable_completed": false
   },
   "publication": {
-    "state": "explicit_public_publication_authorized_pending_ref_update",
-    "remote_head": "6924ce315c6898ee62584cf28ad75539f880fe61",
-    "local_validated_data_commit": "51a6a440213e623fcbec35df0dd6495e326b0adf",
-    "reason": "User explicitly approved public publication to specified branch/draft PR; validated snapshot prepared for atomic non-force branch update.",
-    "needs_user_approval": false
+    "state": "published_and_PR_readback_verified",
+    "remote_head": "507d2ea11090594361289616aeff1c68f49513a6",
+    "local_validated_data_commit": "76f4e486aebe5168a00a27a773ae425fa8df3941",
+    "reason": "40 blobs and exact tree verified; atomic expected-head non-force update succeeded; PR metadata readback confirms draft/open/unmerged.",
+    "needs_user_approval": false,
+    "verified_tree": "d00bd16f92f92c709b15a5b91b595690f6f1e84a"
   }
 }
