@@ -1,0 +1,1 @@
+Native unchanged Node validator: PASS, zero errors; 516 organizations,465 resources,403 raw positives,1333 targeted-unlinked,0 untouched,3085 provenance,2588 search logs. Supplemental: PASS,6491 assertions,zero errors. Validated after630 local-author/alias query receipts. Research-only structural checks, not clinical/source reliability approval.

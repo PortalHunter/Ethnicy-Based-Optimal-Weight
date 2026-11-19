@@ -1,0 +1,1741 @@
+{
+  "navigation": [
+    {
+      "org_id": "B-CO-ASO",
+      "url": "https://asodiabetes.org/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:05.253507+00:00",
+      "final_url": "https://asodiabetes.org/",
+      "bytes": 144458,
+      "sha256": "844fc1e73ca342a32f6ca4b75d7325c563270cba7c9723a57e0fc408786867a6",
+      "cache": "/tmp/atlas-team-b-originals/af942231409821de.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://asodiabetes.org/inicio/",
+          "text": ""
+        },
+        {
+          "url": "https://asodiabetes.org/consultaexterna/#endocrinologia",
+          "text": "Endocrinología"
+        },
+        {
+          "url": "https://asodiabetes.org/consultaexterna/#nutricion",
+          "text": "Nutrición"
+        },
+        {
+          "url": "https://asodiabetes.org/consultaexterna/#psicologia",
+          "text": "Psicología"
+        },
+        {
+          "url": "https://asodiabetes.org/consultaexterna/#pie",
+          "text": "Unidad de Pie y Heridas"
+        },
+        {
+          "url": "https://asodiabetes.org/consultaexterna/#oftalmologia",
+          "text": "Oftalmología"
+        },
+        {
+          "url": "https://asodiabetes.org/consultaexterna/#educacion",
+          "text": "Educación en Estilo de Vida"
+        },
+        {
+          "url": "https://asodiabetes.org/consultaexterna/#laboratorio",
+          "text": "Laboratorio Clínico"
+        },
+        {
+          "url": "https://asodiabetes.org/consultamedicina/",
+          "text": "Consulta Medicina"
+        },
+        {
+          "url": "https://asodiabetes.org/glosario-de-examenes-medicos/",
+          "text": "Glosario de Exámenes Médicos"
+        },
+        {
+          "url": "https://asodiabetes.org/nosotros/",
+          "text": "Nosotros"
+        },
+        {
+          "url": "https://asodiabetes.org/historia/",
+          "text": "Historia"
+        },
+        {
+          "url": "https://asodiabetes.org/derechos-y-deberes-de-nuestros-pacientes/",
+          "text": "Derechos y Deberes"
+        },
+        {
+          "url": "https://asodiabetes.org/solicitud-historia-medica/",
+          "text": "Historia Clínica"
+        },
+        {
+          "url": "https://asodiabetes.org/terminosycondiciones/",
+          "text": "Términos y Condiciones"
+        },
+        {
+          "url": "https://asodiabetes.org/politicadeprivacidad/",
+          "text": "Política de Privacidad"
+        },
+        {
+          "url": "https://diabetexpert.org/",
+          "text": "Academia DiabetExpert"
+        },
+        {
+          "url": "https://diabetexpert.org/courses/",
+          "text": ""
+        },
+        {
+          "url": "https://asodiabetes.org/blog/",
+          "text": "Blog Asodiabetes"
+        },
+        {
+          "url": "https://asodiabetes.org/videos-asodiabetes/",
+          "text": "Videos Asodiabetes"
+        },
+        {
+          "url": "https://asodiabetes.org/la-acd-en-medios-de-comunicacion/",
+          "text": "Ver entrevistas y notas"
+        },
+        {
+          "url": "https://asodiabetes.org/tienda/",
+          "text": "Tienda"
+        },
+        {
+          "url": "https://asodiabetes.org/cambiando-la-diabetes/",
+          "text": ""
+        },
+        {
+          "url": "https://asodiabetes.org/mi-cuenta/",
+          "text": ""
+        },
+        {
+          "url": "https://asodiabetes.org/2022/05/11/idf-nuestro-aliado-internacional/",
+          "text": ""
+        },
+        {
+          "url": "https://asodiabetes.org/consultaexterna/",
+          "text": "Más Información"
+        },
+        {
+          "url": "https://www.facebook.com/ASODIABETES/",
+          "text": ""
+        },
+        {
+          "url": "https://www.instagram.com/ASODIABETESORG",
+          "text": ""
+        },
+        {
+          "url": "https://www.youtube.com/@asodiabetesoficial8576",
+          "text": "Youtube"
+        },
+        {
+          "url": "https://asodiabetes.org/wp-content/uploads/2026/04/ACD-EEFF-25-Firmados.pdf",
+          "text": "Estados Financieros 2025"
+        }
+      ]
+    },
+    {
+      "org_id": "B-PT-SPEDM",
+      "url": "https://www.spedm.pt/pt/orientacoes-publicacoes",
+      "condition": "high_chol",
+      "date": "2026-11-19T16:19:05.253734+00:00",
+      "bytes": 46055,
+      "sha256": "22bc1830eb66880dabdaf6d738882543c22c5bfd968628ff9475ecb9a7ed452a",
+      "cache": "/tmp/atlas-team-b-originals/3fa59ba5ede7c986.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.spedm.pt/pt/orientacoes-publicacoes/a-diabetologia-em-portugal",
+          "text": "Ismael Cerqueira Vieira \n                                     \n                                                                 \n                               "
+        },
+        {
+          "url": "https://www.spedm.pt/pt/orientacoes-publicacoes/protocolo-posicao-sobre-antidiabeticos-nao-insulinicos-no-doente-internado-nao-critico",
+          "text": "Grupo de Estudo Diabetes Mellitus \n                                     \n                                                                 \n                     "
+        },
+        {
+          "url": "https://www.spedm.pt/pt/orientacoes-publicacoes/libreview--plataforma-de-gestao-de-dados-na-diabetes",
+          "text": "Abbott \n                                     \n                                                                 \n                                                "
+        },
+        {
+          "url": "https://www.spedm.pt/pt/orientacoes-publicacoes/gastroenteropancreatic-neuroendocrine-neoplasia-characterization-in-portugal-results-from-the-nets-study-group-of-the-portuguese-society-of-endocrinology-diabetes-and-metabolism",
+          "text": "Grupos de Estudo Tumores Neuroendócrinos \n                                     \n                                                                 \n              "
+        },
+        {
+          "url": "https://www.spedm.pt/pt/orientacoes-publicacoes/portuguese-brazilian-evidence-based-guideline-on-the-management-of-hyperglycemia-in-type-2-diabetes-mellitus",
+          "text": "Diabetology & Metabolic Syndrome \n                                     \n                                                                 \n                      "
+        }
+      ]
+    },
+    {
+      "org_id": "B-UG-UDA",
+      "url": "https://library.health.go.ug/non-communicable-diseases/diabetes/integrated-diabetes-management-guideline-uganda-summarised",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:05.254068+00:00",
+      "final_url": "https://library.health.go.ug/non-communicable-diseases/diabetes/integrated-diabetes-management-guideline-uganda-summarised",
+      "bytes": 41855,
+      "sha256": "5227e477c36fa0a88d784a90a7fdb477f190daf563628b150f94cec52185b597",
+      "cache": "/tmp/atlas-team-b-originals/89cb162fa13b038b.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://library.health.go.ug/user/login?current=/non-communicable-diseases/diabetes/integrated-diabetes-management-guideline-uganda-summarised",
+          "text": "Login"
+        },
+        {
+          "url": "https://www.facebook.com/sharer/sharer.php?u=https://library.health.go.ug/non-communicable-diseases/diabetes/integrated-diabetes-management-guideline-uganda-summarised&title=INTEGRATED DIABETES MANAGEMENT  GUIDELINE FOR UGANDA: THE SUMMARISED VERSION FOR HEALTHCARE PROFESSIONALS",
+          "text": ""
+        },
+        {
+          "url": "https://twitter.com/intent/tweet?text=INTEGRATED DIABETES MANAGEMENT  GUIDELINE FOR UGANDA: THE SUMMARISED VERSION FOR HEALTHCARE PROFESSIONALS+https://library.health.go.ug/non-communicable-diseases/diabetes/integrated-diabetes-management-guideline-uganda-summarised",
+          "text": ""
+        },
+        {
+          "url": "https://wa.me/?text=https://library.health.go.ug/non-communicable-diseases/diabetes/integrated-diabetes-management-guideline-uganda-summarised",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://library.health.go.ug/non-communicable-diseases/diabetes/integrated-diabetes-management-guideline-uganda-summarised",
+          "text": ""
+        },
+        {
+          "url": "https://library.health.go.ug/sites/default/files/resources/2026%20Uganda%20Diabetes%20Management%20Guidelines%20-%20Summarised%20version_0.pdf",
+          "text": "View full text"
+        },
+        {
+          "url": "https://library.health.go.ug/file-download/download/public/1932",
+          "text": "Download"
+        },
+        {
+          "url": "https://library.health.go.ug/non-communicable-diseases/diabetes/integrated-diabetes-management-guidelines-uganda-comprehensive",
+          "text": "View details"
+        },
+        {
+          "url": "https://library.health.go.ug/file-download/download/public/1933",
+          "text": "Download"
+        },
+        {
+          "url": "https://library.health.go.ug/file-download/download/public/569",
+          "text": "Download"
+        },
+        {
+          "url": "https://library.health.go.ug/file-download/download/public/1794",
+          "text": "Download"
+        },
+        {
+          "url": "https://library.health.go.ug/file-download/download/public/630",
+          "text": "Download"
+        }
+      ]
+    },
+    {
+      "org_id": "B-BD-BADAS",
+      "url": "https://dab-bd.org/publication.php",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:05.254122+00:00",
+      "status": "failed",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "org_id": "B-MM-MMDA",
+      "url": "https://myanmardiabetes.org.mm/public-articles/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:05.259321+00:00",
+      "final_url": "https://myanmardiabetes.org.mm/public-articles/",
+      "bytes": 35073,
+      "sha256": "0da2f2107071f646b5c9ee2df5d4ba41a0c4c2d3a8c6af5553c64e524ffe5211",
+      "cache": "/tmp/atlas-team-b-originals/fdaa7b73ae610119.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.facebook.com/myanmardiabetes/",
+          "text": ""
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm",
+          "text": ""
+        },
+        {
+          "url": "http://myanmardiabetes.org.mm",
+          "text": "Home"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/about-us/",
+          "text": "About Us"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/diabetes-in-myanmar/",
+          "text": "Diabetes in Myanmar"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/education/",
+          "text": "Education"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/professional-articles/",
+          "text": "Articles"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/professional-videos/",
+          "text": "Videos"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/professional-cme/",
+          "text": "CME"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/public-articles/",
+          "text": "Articles"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/public-videos/",
+          "text": "Videos"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/activities/",
+          "text": "Activities"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/members/",
+          "text": "Members"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/contact-us/",
+          "text": "Contact Us"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/world-diabetes-day/",
+          "text": "World Diabetes Day"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/article-category/complementary-of-diabete-articles/",
+          "text": "ဆီးချိုသွေးချိုနောက်ဆက်တွဲရောဂါများ"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/article-category/diabetes-with-pregnancy-articles/",
+          "text": "ဆီးချိုသွေးချိုနှင့်ကိုယ်ဝန်"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/article-category/diabete-with-exercise-articles/",
+          "text": "ဆီးချိုသွေးချိုနှင့်လေ့ကျင့်ခန်း"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/article-category/diabetes-with-foods-articles/",
+          "text": "ဆီးချိုသွေးချိုနှင့်အစားအသောက်"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/article-category/symptoms-of-diabetes-articles/",
+          "text": "ဆီးချိုသွေးချိုရောဂါလက္ခဏာများ"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/article-category/about-diabetes-artilcles/",
+          "text": "ဆီးချိုသွေးချိုအကြောင်း သိကောင်းစရာ"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/article-category/diabetes-and-others-articles/",
+          "text": "အခြားသိစရာများ"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/education/test7/",
+          "text": "ဆီးချိုသွေးချိုရောဂါ၏ နောက်ဆက်တွဲရောဂါများ"
+        },
+        {
+          "url": "http://myanmardiabetes.org.mm/wp-content/uploads/2018/12/DM-Signs-Symptoms-ilovepdf-compressed-1.pdf",
+          "text": "ဆီးချိုသွေးချို ရောဂါ လက္ခဏာများ"
+        },
+        {
+          "url": "http://myanmardiabetes.org.mm/wp-content/uploads/2018/12/Type-2.pdf",
+          "text": "ဆီးချိုသွေးချိုရောဂါ အမျိုးအစားများ (အပိုင်း၂)"
+        },
+        {
+          "url": "http://myanmardiabetes.org.mm/wp-content/uploads/2018/12/DM-Type-1-compressed-1.pdf",
+          "text": "ဆီးချိုသွေးချိုရောဂါ အမျိုးအစားများ(အပိုင်း ၁)"
+        },
+        {
+          "url": "http://myanmardiabetes.org.mm/wp-content/uploads/2018/12/What-is-Diabetes-ilovepdf-compressed-1.pdf",
+          "text": "What is Diabetes?"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/changing-landscape-in-diabetes-pakokku/",
+          "text": "CHANGING LANDSCAPE IN DIABETES (Pakokku)"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/special-cme-management-of-diabetes-what-is-new-in-2017/",
+          "text": "Special CME – Management of Diabetes: What is New in 2017?"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/special-cme-at-monywa/",
+          "text": "Special CME at Monywa"
+        },
+        {
+          "url": "https://myanmardiabetes.org.mm/special-cme-program/",
+          "text": "Special CME Program"
+        }
+      ]
+    },
+    {
+      "org_id": "B-AW-DIAB",
+      "url": "https://www.fdaruba.com/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:05.751577+00:00",
+      "final_url": "https://www.fdaruba.com/",
+      "bytes": 9338,
+      "sha256": "6d93902f705d6845c95342b94838c0b4d8723c26351f4282e6838d3a0bdfea9b",
+      "cache": "/tmp/atlas-team-b-originals/e1616bb350fcfac5.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.fdaruba.com/Bira%20Smart%20cu%20Carbs_BKLT_OKT2020.pdf",
+          "text": "Download"
+        },
+        {
+          "url": "https://www.fdaruba.com/Bira%20smart%20cu%20Carbs%20XMAS%20edition.pdf",
+          "text": "Download"
+        },
+        {
+          "url": "https://www.facebook.com/diabetesaruba/",
+          "text": "Facebook"
+        }
+      ]
+    },
+    {
+      "org_id": "B-MW-DAM",
+      "url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf12-0714/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:06.557429+00:00",
+      "final_url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf12-0714/",
+      "bytes": 45157,
+      "sha256": "70e349a9eb2774f389ed97ac2f3ecd8f60979731e78bf454129dac44a311c2cd",
+      "cache": "/tmp/atlas-team-b-originals/dd0a6b1d8ed9144d.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.worlddiabetesfoundation.org/",
+          "text": "World Diabetes Foundation"
+        },
+        {
+          "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.worlddiabetesfoundation.org%2Fwhat-we-do%2Fprojects%2Fwdf12-0714%2F&src=sdkpreparse",
+          "text": ""
+        },
+        {
+          "url": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.worlddiabetesfoundation.org%2Fwhat-we-do%2Fprojects%2Fwdf12-0714%2F",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.worlddiabetesfoundation.org%2Fwhat-we-do%2Fprojects%2Fwdf12-0714%2F",
+          "text": ""
+        },
+        {
+          "url": "mailto:contact@worlddiabetesfoundation.org",
+          "text": "Write us"
+        },
+        {
+          "url": "https://globaldiabeteswalk.org/",
+          "text": "Walk"
+        },
+        {
+          "url": "https://whistleblowersoftware.com/secure/worlddiabetesfoundation",
+          "text": "Report a concern"
+        },
+        {
+          "url": "https://worlddiabetesfoundation.us5.list-manage.com/subscribe?u=42c8bb4b70896ed1800e26f17&id=23a06540d3",
+          "text": "Subscribe"
+        },
+        {
+          "url": "https://www.linkedin.com/company/world-diabetes-foundation/",
+          "text": ""
+        },
+        {
+          "url": "https://www.instagram.com/world.diabetes.foundation/",
+          "text": ""
+        },
+        {
+          "url": "https://www.facebook.com/WorldDiabetesFoundation",
+          "text": ""
+        },
+        {
+          "url": "https://www.youtube.com/@WorldDiabetesFoundation/",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "org_id": "B-BJ-DB",
+      "url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf20-1787/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:19:06.609440+00:00",
+      "final_url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf20-1787/",
+      "bytes": 44697,
+      "sha256": "9eb924cbb3b55a4b21023752214ba5ac391a513ba3aff6b0f28c05afe8e7217e",
+      "cache": "/tmp/atlas-team-b-originals/6ffd9ca1f71d4a67.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.worlddiabetesfoundation.org/",
+          "text": "World Diabetes Foundation"
+        },
+        {
+          "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.worlddiabetesfoundation.org%2Fwhat-we-do%2Fprojects%2Fwdf20-1787%2F&src=sdkpreparse",
+          "text": ""
+        },
+        {
+          "url": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.worlddiabetesfoundation.org%2Fwhat-we-do%2Fprojects%2Fwdf20-1787%2F",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.worlddiabetesfoundation.org%2Fwhat-we-do%2Fprojects%2Fwdf20-1787%2F",
+          "text": ""
+        },
+        {
+          "url": "mailto:contact@worlddiabetesfoundation.org",
+          "text": "Write us"
+        },
+        {
+          "url": "https://globaldiabeteswalk.org/",
+          "text": "Walk"
+        },
+        {
+          "url": "https://whistleblowersoftware.com/secure/worlddiabetesfoundation",
+          "text": "Report a concern"
+        },
+        {
+          "url": "https://worlddiabetesfoundation.us5.list-manage.com/subscribe?u=42c8bb4b70896ed1800e26f17&id=23a06540d3",
+          "text": "Subscribe"
+        },
+        {
+          "url": "https://www.linkedin.com/company/world-diabetes-foundation/",
+          "text": ""
+        },
+        {
+          "url": "https://www.instagram.com/world.diabetes.foundation/",
+          "text": ""
+        },
+        {
+          "url": "https://www.facebook.com/WorldDiabetesFoundation",
+          "text": ""
+        },
+        {
+          "url": "https://www.youtube.com/@WorldDiabetesFoundation/",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "org_id": "B-MH-KDC",
+      "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-kwajalein-diak-coalition-spotlight/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:07.022363+00:00",
+      "final_url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-kwajalein-diak-coalition-spotlight/",
+      "bytes": 105831,
+      "sha256": "e9f09f933c7996b46a1f5a39b4cc5266db4fe24f58866ec5ffe9685e18648535",
+      "cache": "/tmp/atlas-team-b-originals/26cf8c1430c739d3.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-storytelling-series-majuro-wellness-center-spotlight/",
+          "text": "Previous"
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-ministry-of-health-and-human-services-of-palau-mhhs-spotlight/",
+          "text": "Next"
+        },
+        {
+          "url": "https://replay.dropbox.com/share/IkXmf8vnMC3wRERP",
+          "text": "Download the audio"
+        },
+        {
+          "url": "https://pacificislanderdpp.org/author/pi-dpp/",
+          "text": "Pacific Islander Diabetes Prevention Program"
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-arkansas-coalition-of-the-marshallese/",
+          "text": ""
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-chuuk-community-health-center/",
+          "text": ""
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-belau-medical-clinic/",
+          "text": ""
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-kosrae-community-health-center/",
+          "text": ""
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-kwajalein-diak-coalition-spotlight/#respond",
+          "text": "Cancel reply"
+        }
+      ]
+    },
+    {
+      "org_id": "B-NE-FORSANI",
+      "url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf17-1561/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:07.328046+00:00",
+      "final_url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf17-1561/",
+      "bytes": 43131,
+      "sha256": "4000d8fd79627e2ad4201a7715ca7968455599f628fd6ae6d0a4598c1c99d800",
+      "cache": "/tmp/atlas-team-b-originals/90bcd8ff69684ffd.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.worlddiabetesfoundation.org/",
+          "text": "World Diabetes Foundation"
+        },
+        {
+          "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.worlddiabetesfoundation.org%2Fwhat-we-do%2Fprojects%2Fwdf17-1561%2F&src=sdkpreparse",
+          "text": ""
+        },
+        {
+          "url": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.worlddiabetesfoundation.org%2Fwhat-we-do%2Fprojects%2Fwdf17-1561%2F",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.worlddiabetesfoundation.org%2Fwhat-we-do%2Fprojects%2Fwdf17-1561%2F",
+          "text": ""
+        },
+        {
+          "url": "mailto:contact@worlddiabetesfoundation.org",
+          "text": "Write us"
+        },
+        {
+          "url": "https://globaldiabeteswalk.org/",
+          "text": "Walk"
+        },
+        {
+          "url": "https://whistleblowersoftware.com/secure/worlddiabetesfoundation",
+          "text": "Report a concern"
+        },
+        {
+          "url": "https://worlddiabetesfoundation.us5.list-manage.com/subscribe?u=42c8bb4b70896ed1800e26f17&id=23a06540d3",
+          "text": "Subscribe"
+        },
+        {
+          "url": "https://www.linkedin.com/company/world-diabetes-foundation/",
+          "text": ""
+        },
+        {
+          "url": "https://www.instagram.com/world.diabetes.foundation/",
+          "text": ""
+        },
+        {
+          "url": "https://www.facebook.com/WorldDiabetesFoundation",
+          "text": ""
+        },
+        {
+          "url": "https://www.youtube.com/@WorldDiabetesFoundation/",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "org_id": "B-LI-UFL",
+      "url": "https://www.ufl.li/universitaet/jahresbericht-und-forschungsmagazin",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:07.574961+00:00",
+      "final_url": "https://www.ufl.li/universitaet/jahresbericht-und-forschungsmagazin",
+      "bytes": 80585,
+      "sha256": "cfcf51b103de666dfd684654e620dac96e81aec97d309bb4b58cc3c3781a1f3f",
+      "cache": "/tmp/atlas-team-b-originals/3b7975a901122470.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.ufl.li/studium/doktoratsstudium-rechtswissenschaften/downloads",
+          "text": "Downloads"
+        },
+        {
+          "url": "https://www.ufl.li/studium/doktoratsstudium-medizinische-wissenschaften/downloads",
+          "text": "Downloads"
+        },
+        {
+          "url": "https://www.ufl.li/fileadmin/user_upload/01_Universitaet/Forschungsmagazin160_2_2024_WEB.pdf",
+          "text": "Seite 66"
+        },
+        {
+          "url": "https://www.ufl.li/fileadmin/user_upload/00_Reglemente/Allgemeine_Datenschutzerklaerung_Jun26_de.pdf",
+          "text": "Datenschutzerklärung"
+        }
+      ]
+    },
+    {
+      "org_id": "B-LI-UFL",
+      "url": "https://www.ufl.li/forschung/labormedizin/institut-fuer-labormedizin/publikationen",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:19:07.790157+00:00",
+      "final_url": "https://www.ufl.li/forschung/labormedizin/institut-fuer-labormedizin/publikationen",
+      "bytes": 114012,
+      "sha256": "c65e97aa8d8e9409e0ca3d70b87c61982aaf26aee33bf2dae7acee923f4163ed",
+      "cache": "/tmp/atlas-team-b-originals/930f4831c0f88386.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.ufl.li/studium/doktoratsstudium-rechtswissenschaften/downloads",
+          "text": "Downloads"
+        },
+        {
+          "url": "https://www.ufl.li/studium/doktoratsstudium-medizinische-wissenschaften/downloads",
+          "text": "Downloads"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41588-024-01714-w.pdf",
+          "text": "Zur Publikation"
+        },
+        {
+          "url": "https://research-portal.uu.nl/ws/portalfiles/portal/235987751/jmir-2024-1-e51120_1_.pdf",
+          "text": "Zur Publikation"
+        },
+        {
+          "url": "https://ega-archive.org/studies/phs000585",
+          "text": "International Consortium for Blood Pressure (ICBP) - EGA European Genome-Phenome Archive (ega-archive.org)"
+        },
+        {
+          "url": "https://www.ufl.li/fileadmin/user_upload/00_Reglemente/Allgemeine_Datenschutzerklaerung_Jun26_de.pdf",
+          "text": "Datenschutzerklärung"
+        }
+      ]
+    },
+    {
+      "org_id": "B-GA-SOGANEPH",
+      "url": "https://soganeph.org/fr/journee-mondiale-du-rein/2026",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:19:08.936900+00:00",
+      "final_url": "https://soganeph.org/fr/journee-mondiale-du-rein/2026",
+      "bytes": 196066,
+      "sha256": "72497be321aaabbb9f2539203e7c1f7fdb7be7dbd14b6da8a8ea5d18fbf4b914",
+      "cache": "/tmp/atlas-team-b-originals/9d6894b31bc15b6e.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": []
+    },
+    {
+      "org_id": "B-PW-BWC",
+      "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-belau-medical-clinic/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:09.063371+00:00",
+      "final_url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-belau-medical-clinic/",
+      "bytes": 99330,
+      "sha256": "9f9af076af57691acbb08b7c641b088f3cc79b679af74c910551a02ee8da26d6",
+      "cache": "/tmp/atlas-team-b-originals/051b866985a98fbf.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-kosrae-community-health-center/",
+          "text": ""
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-chuuk-community-health-center/",
+          "text": ""
+        },
+        {
+          "url": "https://www.dropbox.com/scl/fi/g7dv2p7re6v1xbp0fodiu/BMC_5-22-2023_audio_REV02.mp3?rlkey=dqbehd453lig2g2plp6p58976&dl=0",
+          "text": "Download the audio"
+        },
+        {
+          "url": "https://pacificislanderdpp.org/author/pi-dpp/",
+          "text": "Pacific Islander Diabetes Prevention Program"
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-arkansas-coalition-of-the-marshallese/",
+          "text": ""
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-chuuk-womens-council/",
+          "text": ""
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-belau-medical-clinic/#respond",
+          "text": "Cancel reply"
+        }
+      ]
+    },
+    {
+      "org_id": "B-FM-CWC",
+      "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-chuuk-womens-council/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:09.369566+00:00",
+      "final_url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-chuuk-womens-council/",
+      "bytes": 90412,
+      "sha256": "4e52dbbb9591522d3b0a293baf231cc1adb857c9904172147571b8fa42a816bc",
+      "cache": "/tmp/atlas-team-b-originals/4b0fa7ad815b0743.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-national-tongan-american-society/",
+          "text": "Previous"
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-kosrae-community-health-center/",
+          "text": ""
+        },
+        {
+          "url": "https://replay.dropbox.com/share/H38AappvURQJS4xA",
+          "text": "Download the audio"
+        },
+        {
+          "url": "https://pacificislanderdpp.org/author/pi-dpp/",
+          "text": "Pacific Islander Diabetes Prevention Program"
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-arkansas-coalition-of-the-marshallese/",
+          "text": ""
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-chuuk-community-health-center/",
+          "text": ""
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-belau-medical-clinic/",
+          "text": ""
+        },
+        {
+          "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-chuuk-womens-council/#respond",
+          "text": "Cancel reply"
+        }
+      ]
+    },
+    {
+      "org_id": "B-MP-NMCCREES",
+      "url": "https://crees.marianas.edu/news/walk-roll-on-wednesday-2-years-of-promoting-health-awareness-and-accessibility/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:19:09.580978+00:00",
+      "final_url": "https://crees.marianas.edu/news/walk-roll-on-wednesday-2-years-of-promoting-health-awareness-and-accessibility/",
+      "bytes": 63301,
+      "sha256": "52d5f5d83b2df499ff7a13835e3876c2bc17db2efcb3410e94b0d2d179b580e5",
+      "cache": "/tmp/atlas-team-b-originals/b7cd9ca845aeac20.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": []
+    },
+    {
+      "org_id": "B-VI-VIDCOE",
+      "url": "https://legvi.org/committeemeetings/Budget%2C%20Appropriations%20and%20Finance/2025%20Budget%20Meetings/April%2015%2C%202025/Virgin%20Islands%20Diabetes%20Center%20of%20Excellence/Julia%20Sheen/VIDCOE_April15_Testimony_41525_PDF-VIDCOELAPTOP1.pdf",
+      "condition": "high_chol",
+      "date": "2026-11-19T16:19:10.406327+00:00",
+      "final_url": "https://legvi.org/committeemeetings/Budget%2C%20Appropriations%20and%20Finance/2025%20Budget%20Meetings/April%2015%2C%202025/Virgin%20Islands%20Diabetes%20Center%20of%20Excellence/Julia%20Sheen/VIDCOE_April15_Testimony_41525_PDF-VIDCOELAPTOP1.pdf",
+      "bytes": 160130,
+      "sha256": "1fdfb0d6d908f9bc30a61f01b77bdf221ef34df5b9c2b8323d78d1f8f7f77cf4",
+      "cache": "/tmp/atlas-team-b-originals/058cd0d62c601a54.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": []
+    },
+    {
+      "org_id": "B-VI-VIDCOE",
+      "url": "https://www.vidcoe.org/diabetes-education/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:10.978183+00:00",
+      "final_url": "https://www.vidcoe.org/diabetes-education/",
+      "bytes": 129205,
+      "sha256": "5f2628547746bc7fd699f49d97fbdec22b49268e940329ba774f866f1ea424ee",
+      "cache": "/tmp/atlas-team-b-originals/287e22f071a05f59.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.vidcoe.org/patient-intake-flow/",
+          "text": "Patient Intake Flow"
+        },
+        {
+          "url": "https://www.vidcoe.org/diabetes-education/",
+          "text": "Diabetes Education"
+        },
+        {
+          "url": "https://www.vidcoe.org/diabetes-education/#diabetes-education-overview",
+          "text": "Overview"
+        },
+        {
+          "url": "https://www.instagram.com/vi_diabetescenter_ofexcellence",
+          "text": "Instagram"
+        },
+        {
+          "url": "https://www.cdc.gov/diabetes/about/",
+          "text": "Read more"
+        },
+        {
+          "url": "https://www.cdc.gov/diabetes/prevention-type-2/",
+          "text": "Read more"
+        },
+        {
+          "url": "https://www.cdc.gov/diabetes/living-with/",
+          "text": "Read more"
+        },
+        {
+          "url": "https://www.cdc.gov/diabetes/treatment/",
+          "text": "Read more"
+        },
+        {
+          "url": "https://www.cdc.gov/diabetes/php/data-research/index-1.html",
+          "text": "Read more"
+        }
+      ]
+    },
+    {
+      "org_id": "B-BQ-PCC",
+      "url": "https://www.pccarib.com/zorgaanbod",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:19:10.988677+00:00",
+      "final_url": "https://www.pccarib.com/zorgaanbod",
+      "bytes": 17553,
+      "sha256": "37533ce67799d7f06680326fe1745a50bec0d77f8d6ddd2c4e8c994e5fff4aea",
+      "cache": "/tmp/atlas-team-b-originals/f4184e05bc6fdfcb.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": []
+    },
+    {
+      "org_id": "B-MC-CRM",
+      "url": "https://croix-rouge.mc/journee-mondiale-du-diabete-14-novembre-2025/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:11.004437+00:00",
+      "final_url": "https://croix-rouge.mc/journee-mondiale-du-diabete-14-novembre-2025/",
+      "bytes": 73450,
+      "sha256": "76097309b3be3a194b8b5d38c9a8e09d13e2d23734caf3d64ba99e417ee48868",
+      "cache": "/tmp/atlas-team-b-originals/50350e672cb219a7.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://croix-rouge.mc/journee-mondiale-du-diabete-14-novembre-2025/",
+          "text": ""
+        },
+        {
+          "url": "https://croix-rouge.mc/en/world-diabetes-day/",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "org_id": "B-CI-AODCI",
+      "url": "https://www.aodci.org/page_c_actualites.php",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:19:11.322419+00:00",
+      "status": "failed",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "org_id": "B-LC-DIAB",
+      "url": "https://sldha.org/news_publisher/news/view/press-brief-a-saint-lucia-diabetes-and-hypertension-association-world-diabetes-day-2025-theme-a-diabetes-and-well-beinga",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:11.846829+00:00",
+      "status": "failed",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "org_id": "B-TT-DATT",
+      "url": "https://diabetesassociation.wixsite.com/datt/blog",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:12.123545+00:00",
+      "final_url": "https://diabetesassociation.wixsite.com/datt/blog",
+      "bytes": 730234,
+      "sha256": "e3a484175b5ec1ce683590b1c8f5c76be3f1dec587312ceb400f921f3038fb3e",
+      "cache": "/tmp/atlas-team-b-originals/e2cbbf38667241b6.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt",
+          "text": "Home"
+        },
+        {
+          "url": "mailto:info@DiabetesAssociationTT.org",
+          "text": "info@DiabetesAssociationTT.org"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/single-post/2016/12/01/youth-movement-program",
+          "text": "Youth Movement Program"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/single-post/2016/12/01/test2prevent-at-the-university-of-the-west-indies-uwi",
+          "text": "Test2Prevent at the University of the West Indies (UWI)"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/single-post/2016/11/30/get-proactive-about-diabetes",
+          "text": "Get proactive about diabetes"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/single-post/2016/11/25/if-fast-food-commercials-were-honest",
+          "text": "If Fast Food Commercials Were Honest"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/blog/page/2",
+          "text": ""
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/blog/page/3",
+          "text": "3"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/about-us",
+          "text": "Who We Are"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/overview",
+          "text": "History"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/execetives",
+          "text": "The Executive Board"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/committees",
+          "text": "Committees"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/our-timeline",
+          "text": "Our Timeline"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/blog",
+          "text": "DATT Newsfeed Blog"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/calendar-of-events",
+          "text": "Calendar of Events"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/client-showcase",
+          "text": "DATT Gallery"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/be-a-member",
+          "text": "Membership"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/datt-membership-faqs",
+          "text": "DATT Membership FAQs"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/become-a-volunteer",
+          "text": "Become a Volunteer"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/branches-in-your-area",
+          "text": "Branches In Your Area"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/group-meetings",
+          "text": "Monthly Support Group Meetings"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/membership",
+          "text": "Contact Us"
+        },
+        {
+          "url": "https://diabetesassociation.wixsite.com/datt/faqs",
+          "text": "FAQs about Diabetes"
+        },
+        {
+          "url": "mailto:info@diabetesassociationtt.org",
+          "text": "info@diabetesassociationtt.org"
+        },
+        {
+          "url": "https://www.facebook.com/diabetestt/",
+          "text": ""
+        },
+        {
+          "url": "https://instagram.com/diabetesassociationtt/",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "org_id": "B-IS-DI",
+      "url": "https://www.diabetes.is/namskeid-um-sykursyki-tegund-2",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:12.204527+00:00",
+      "final_url": "https://www.diabetes.is/namskeid-um-sykursyki-tegund-2",
+      "bytes": 109311,
+      "sha256": "75f8d731a5d1c6a23dc89fbd51d31498892b452ec5949dded295adb8911d9db9",
+      "cache": "/tmp/atlas-team-b-originals/4dc9371c19719e3c.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.diabetes.is/diabetes",
+          "text": "diabetes"
+        },
+        {
+          "url": "https://diabetes.is",
+          "text": "diabetes"
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=I wanted to share this great website with you https%3A%2F%2Fwww.diabetes.is%2Fnamskeid-um-sykursyki-tegund-2",
+          "text": ""
+        },
+        {
+          "url": "mailto:?subject=I wanted to share this great website with you&body=https%3A%2F%2Fwww.diabetes.is%2Fnamskeid-um-sykursyki-tegund-2",
+          "text": ""
+        },
+        {
+          "url": "mailto:diabetes@diabetes.is",
+          "text": "diabetes@diabetes.is"
+        }
+      ]
+    },
+    {
+      "org_id": "B-HU-MDT",
+      "url": "https://diabet.hu/tarsasag/diabetes/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:12.484976+00:00",
+      "final_url": "https://diabet.hu/tarsasag/diabetes/",
+      "bytes": 235233,
+      "sha256": "1dc4834c8936ab4f083b97a4614a8613823b6383dce330483d99000545a2ac19",
+      "cache": "/tmp/atlas-team-b-originals/da396e7e6bf3c973.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=eu.intellimed.diabetapp",
+          "text": ""
+        },
+        {
+          "url": "https://apps.apple.com/hu/app/diabetol%C3%B3gus/id1204835548",
+          "text": ""
+        },
+        {
+          "url": "https://www.doki.net/tarsasag/diabetespaciens/info.aspx?sp=200&web_id=",
+          "text": "P�CIENS OLDAL"
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/hirek.aspx?web_id=&nid=141975&cid=32",
+          "text": "�ldott kar�csonyi �nnepeket �s  sikerekben gazdag, boldog �j �vet  k�v�n a Magyar Diabetes T�rsas�g! \n         Olvassa el k�sz�nt�nket ›"
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/kongresszus.aspx?web_id=&cid=23989&p=0",
+          "text": "Id�pont \n                 2027. febru�r 5�6. \n               \n               \n                 Helysz�n \n                 Aquaworld Resort, Budapest \n          "
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/info.aspx?sp=736&web_id=",
+          "text": "Id�pont \n                 2027. m�rcius 18�20. \n               \n               \n                 Helysz�n \n                 Hunguest B�L Resort, Balatonalm�di \n"
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/info.aspx?sp=738&web_id=",
+          "text": "Id�pont \n                 2027. �prilis 22�25. \n               \n               \n                 Helysz�n \n                 K�lcsey K�zpont, Debrecen \n         "
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/palyazatok.aspx?cid=1870&web_id=",
+          "text": "Diabetol�gia Hungarica � publik�ci�s t�mogat�s"
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/info.aspx?sp=559&web_id=",
+          "text": "P�cienseknek sz�l� tartalmak a TELEMEDICINA oldalrendszer�n!  Az Emberi Er�forr�sok Miniszt�riuma �ltal ki�rt �s a Cukorbeteg Gyermekek�rt Alap�tv�ny �ltal elny"
+        },
+        {
+          "url": "https://diabet.hu:443/celok.aspx?web_id=",
+          "text": "K�ldet�s�nk"
+        },
+        {
+          "url": "https://diabet.hu:443/personalweb.aspx?web_id=",
+          "text": "Tagjaink"
+        },
+        {
+          "url": "https://diabet.hu:443/tagsag.aspx?web_id=",
+          "text": "T�rsas�gi inform�ci�k, tagd�j"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=237&web_id=",
+          "text": "Vezet�test�letek"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=45&web_id=",
+          "text": "Titk�rs�g"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=399&web_id=",
+          "text": "D�jak, eml�k�rmek"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=401&web_id=",
+          "text": "T�rsas�gi jegyz�k�nyvek"
+        },
+        {
+          "url": "https://diabet.hu:443/hirek.aspx?web_id=",
+          "text": "T�rsas�gi h�rek"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=104&web_id=",
+          "text": "MDT t�mogat�i felt�telek"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=702&web_id=",
+          "text": "MDT e-H�rlevelek"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=65&web_id=",
+          "text": "Diabetes Genetikai Munkacsoport"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=364&web_id=",
+          "text": "Diab�teszes L�b Munkacsoport"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=63&web_id=",
+          "text": "Diab�tesszel T�rsul� Terhess�ggel Foglalkoz� Munkacsoport"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=508&web_id=",
+          "text": "Digit�lis Diabetes Munkacsoport"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=352&web_id=",
+          "text": "Eduk�ci�s Munkacsoport"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=668&web_id=",
+          "text": "Geri�triai Munkacsoport"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=12&web_id=",
+          "text": "Gyermekdiabetes Szekci�"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=155&web_id=",
+          "text": "H�ziorvosi Munkacsoport"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=53&web_id=",
+          "text": "Inzulinpumpa Munkacsoport"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=664&web_id=",
+          "text": "Magyar Mesters�ges Pancreas Munkacsoport"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=671&web_id=",
+          "text": "MGyT-MDT K�z�s Gyermekdiabetol�giai Szekci�"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=11&web_id=",
+          "text": "Szakdolgoz�i Szekci�"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=519&web_id=",
+          "text": "Szakell�t�helyek"
+        },
+        {
+          "url": "https://diabet.hu:443/palyazatok.aspx?web_id=",
+          "text": "�szt�nd�jak, p�ly�zatok"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=559&web_id=",
+          "text": "Telemedicina"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=554&web_id=",
+          "text": "Diabetol�giai licence"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=147&web_id=",
+          "text": "Diabetol�giai Szak�pol� K�pz�s"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=555&web_id=",
+          "text": "T�rsszakm�k"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=86&web_id=",
+          "text": "Ir�nyelvek, aj�nl�sok"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=23&web_id=",
+          "text": "Jogszab�lyok, rendeletek"
+        },
+        {
+          "url": "https://diabet.hu:443/folyoirat.aspx?web_id=",
+          "text": "Diabetologia Hungarica"
+        },
+        {
+          "url": "https://diabet.hu:443/hirek.aspx?cid=436&web_id=",
+          "text": "Tudom�nyos �jdons�gok"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=268&web_id=",
+          "text": "PhD rovat"
+        },
+        {
+          "url": "https://diabet.hu:443/hirek.aspx?cid=482&web_id=",
+          "text": "Hazai szerz�k nemzetk�zi publik�ci�i"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=289&web_id=",
+          "text": "K�nyvaj�nl�"
+        },
+        {
+          "url": "https://diabet.hu:443/kongresszusok_proba.aspx?web_id=",
+          "text": "Rendezv�nynapt�r"
+        },
+        {
+          "url": "https://diabet.hu:443/info.aspx?sp=431&web_id=",
+          "text": "Tud�s�t�sok (rendezv�ny)"
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/upload/diabetes/newsimage/doktori-vedes_2026-12_putz_kep_v1.jpg",
+          "text": ""
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/upload/diabetes/newsimage/hsznp_2026-11_balogh-cgm_kep_v1.jpg",
+          "text": ""
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/upload/diabetes/newsimage/ddh_galaest_hirkep.jpg",
+          "text": ""
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/hirek.aspx?nid=141946#141946",
+          "text": "Megjelent a leg�jabb NEAK rendelet Diabetol�gi�t �rint� v�ltoz�s nem volt"
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/hirek.aspx?nid=141902#141902",
+          "text": "A Magyar Diabetes T�rsas�g vezet�s�gi �l�s�nek hat�rozatai"
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/hirek.aspx?nid=141806#141806",
+          "text": "A neuropathia el�rejelzi a korai ren�lis k�rosod�st diabetes mellitusban � csaknem feled�sbe mer�lt t�rt�nelmi bizony�t�k. G�ran Sundkvist professzor eml�k�re"
+        },
+        {
+          "url": "javascript:OpenWin('docview.aspx?r_id=313438303537&web_id=&mode=1')",
+          "text": "P�ly�zati ki�r�s � Diabetologia Hungarica k�zlem�ny t�mogat�sa"
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/palyazatok.aspx?cid=1871&web_id=",
+          "text": "XXVIII. Budapest Diabetes Szimp�zium � r�szv�tel t�mogat�sa 2026.12.31."
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/palyazatok.aspx?cid=1872&web_id=",
+          "text": "Dun�nt�li Diabetes H�tv�ge (DDH) � r�szv�tel t�mogat�sa 2027.01.30."
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/kongresszus.aspx?web_id=&tmi=0&cid=23989",
+          "text": "XXVIII. Budapest Diabetes Szimp�zium"
+        },
+        {
+          "url": "https://diabet.hu/tarsasag/diabetes/kongresszus.aspx?web_id=&tmi=0&cid=24786",
+          "text": "XXX. Jubileumi DDH (Dun�nt�li Diabetes H�tv�ge �s Team Diabetes Akad�mia)"
+        },
+        {
+          "url": "mailto:titkarsag@diabet.hu",
+          "text": "titkarsag@diabet.hu"
+        }
+      ]
+    },
+    {
+      "org_id": "B-RO-SRDNBM",
+      "url": "https://societate-diabet.ro/tratat-diabet/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:12.717973+00:00",
+      "final_url": "https://societate-diabet.ro/tratat-diabet/",
+      "bytes": 120720,
+      "sha256": "65f987dd423e38ef7325a323dd8fdd891b282bf2f8e7dadb06ae2bf7a54cf10b",
+      "cache": "/tmp/atlas-team-b-originals/7bb9f0f487ef191a.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "mailto:contact@societate-diabet.ro",
+          "text": "contact@societate-diabet.ro"
+        },
+        {
+          "url": "https://societate-diabet.ro/",
+          "text": "Home"
+        },
+        {
+          "url": "https://societate-diabet.ro/conducere-societatea-romana-de-diabet/",
+          "text": "Conducere"
+        },
+        {
+          "url": "https://societate-diabet.ro/fosti-presedinti-societatea-romana-de-diabet/",
+          "text": "Foști Președinți"
+        },
+        {
+          "url": "https://societate-diabet.ro/membri-de-onoare-societatea-romana-de-diabet/",
+          "text": "Membri de Onoare"
+        },
+        {
+          "url": "https://societate-diabet.ro/membri-de-onoare-societatea-romana-de-diabet-2/",
+          "text": "Diabetes Honoris Causa"
+        },
+        {
+          "url": "https://societate-diabet.ro/inscriere-in-societate/",
+          "text": "Înscriere în Societate"
+        },
+        {
+          "url": "https://societate-diabet.ro/texe-si-cotizatii/",
+          "text": "Cotizație Societate"
+        },
+        {
+          "url": "https://societate-diabet.ro/arhiva/",
+          "text": "Arhivă"
+        },
+        {
+          "url": "https://societate-diabet.ro/adunarea-generala-ordinara-a-srdnbm/",
+          "text": "Convocator 2025"
+        },
+        {
+          "url": "https://societate-diabet.ro/wp-content/uploads/2024/04/ADUNAREA-GENERALA-ORDINARA-MAI-2024.pdf",
+          "text": "Convocator 2024"
+        },
+        {
+          "url": "https://societate-diabet.ro/bursele-srdnbm-easd-2026/",
+          "text": "Bursele SRDNBM – EASD 2026"
+        },
+        {
+          "url": "https://societate-diabet.ro/bursele-srdnbm-easd-2020/",
+          "text": "Bursele SRDNBM – EASD 2020"
+        },
+        {
+          "url": "https://societate-diabet.ro/bursele-srdnbm-easd-barcelona-2019-2/",
+          "text": "Bursele SRDNBM – EASD, Barcelona 2019"
+        },
+        {
+          "url": "https://societate-diabet.ro/burse-srdnbm-2018/",
+          "text": "Burse SRDNBM 2018"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/",
+          "text": "Evenimente"
+        },
+        {
+          "url": "https://societate-diabet.ro/diabetologia-romaneasca-unita/",
+          "text": "Diabetologia Românească Unită"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2/",
+          "text": "Congresul SRDNBM 2025"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2/",
+          "text": "Conferința Regională Reșita 2025"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2/",
+          "text": "Campanie Diabet 2025"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2-2-11/",
+          "text": "Congresul SRDNBM 2024"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2-2-12/",
+          "text": "Campanie Diabet 2024"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2-2-9/",
+          "text": "Congresul SRDNBM 2023"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2-2-10/",
+          "text": "Campanie Diabet 2023"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2-2-5/",
+          "text": "Congresul SRDNBM 2022"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2-2-7/",
+          "text": "Curs SRDNBM 19 febr 2022"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2-2-8/",
+          "text": "Curs SRDNBM, 29 ianuarie 2022"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2-2-6/",
+          "text": "Campanie Diabet 2022"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2-2-2/",
+          "text": "Congresul SRDNBM 2021 – prezentare post-eveniment"
+        },
+        {
+          "url": "https://sanatatea.online/congresdiabet2021/",
+          "text": "19-23.05.2021 | Al 47-lea Congres Național al SRDNBM"
+        },
+        {
+          "url": "https://sanatatea.online/26-02-2021-curs-interferente-diabeto-cardiologice/",
+          "text": "26.02.2021 | Curs Interferențe DIABETO-CARDIOLOGICE"
+        },
+        {
+          "url": "https://sanatatea.online/21-04-2021-diabet-next-steps/",
+          "text": "21.04.2021 | DIABET: Next Steps"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2-2-4/",
+          "text": "Insulin Expert Forum 2021"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2-2-3/",
+          "text": "Diabet-Next Step 2021"
+        },
+        {
+          "url": "https://societate-diabet.ro/prezentare-post-eveniment-campanie-diabet-2025-2-2-2-2/",
+          "text": "Congresul SRDNBM 2020"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/congresul-national-al-societatii-romane-de-diabet-nutritie-si-boli-metabolice-2020-exclusiv-virtual-pe-sanatatea-online/",
+          "text": "Congresul Național al Societății Române de Diabet, Nutriție și Boli Metabolice, 2020, EXCLUSIV VIRTUAL, pe Sănătatea.ONLINE"
+        },
+        {
+          "url": "https://societate-diabet.ro/cursul-practica-tratamentului-actual-al-diabetului-zaharat-de-tip-1-la-copil-si-tanar/",
+          "text": "Cursul „Practica tratamentului actual al diabetului zaharat de tip 1 la copil și tânăr”"
+        },
+        {
+          "url": "https://societate-diabet.ro/diabetes-science-school-2020/",
+          "text": "Diabetes Science School 2020"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/conferinta-srdnbm-tg-mures-2020/",
+          "text": "Conferința regională a SRDNBM – Ediția TÂRGU MUREȘ, 29 februarie 2020"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/conferinta-online-14-aprilie-2020-diabet-important-de-stiut-in-aceasta-perioada/",
+          "text": "Conferință online 14 aprilie 2020: DIABET! Important de știut în această perioadă."
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/conferinta-srdnbm-bucuresti-2020/",
+          "text": "Conferința regională a SRDNBM – Ediția BUCUREȘTI, 12 septembrie 2020"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/campanie-timisoara-2020/",
+          "text": "Campania Națională Controlează-ți Diabetul, 12-14 noiembrie 2020"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/congresul-national-al-societatii-romane-de-diabet-nutritie-si-boli-metabolice-sibiu-22-25-mai-2019/",
+          "text": "Congresul Național al SRDNBM – SIBIU, 22 – 25 mai 2019"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/diabetes-science-school-2019/",
+          "text": "Diabetes Science School – EDIȚIA I 2019"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/curs-srdnbm2019-suceava/",
+          "text": "Cursul SRDNBM – EDIȚIA SUCEAVA, 23 februarie 2019"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/curs-srdnbm2019-suceava/program-stiintific-editia-suceava-23-februarie-2019/",
+          "text": "Program științific – EDIȚIA SUCEAVA, 23 februarie 2019"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/curs-srdnbm2019-craiova/",
+          "text": "Cursul SRDNBM – EDIȚIA CRAIOVA, 13 aprilie 2019"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/curs-srdnbm2019-galati/",
+          "text": "Cursul SRDNBM – EDIȚIA GALAȚI, 28 septembrie 2019"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/curs-srdnbm2019-galati/galati-28-septembrie-2019-galerie-foto/",
+          "text": "Galați, 28 septembrie 2019 – Galerie foto"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/cursul-practica-tratamentului-actual-al-diabetului-zaharat-tip-1-la-copil-si-tanar-iunie-iulie-august-2019/",
+          "text": "Cursul „Practica tratamentului actual al diabetului zaharat tip 1 la copil și tânăr”  Iunie / Iulie-August 2019"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/cursul-societatii-romane-de-diabet-nutritie-si-boli-metabolice-editia-oradea/",
+          "text": "Cursul SRDNBM, ediția Oradea 27 octombrie 2018"
+        },
+        {
+          "url": "https://societate-diabet.ro/evenimente/campania-nationala-controleaza-ti-diabetul-editia-iasi/",
+          "text": "Campania Națională Controlează-ți Diabetul, ediția Iași, 10-14 noiembrie 2018"
+        },
+        {
+          "url": "https://societate-diabet.ro/proiecte-societatea-romana-de-diabet/",
+          "text": "Diabetul nu este o joaca"
+        },
+        {
+          "url": "https://societate-diabet.ro/campanii-societatea-romana-de-diabet/",
+          "text": "Campanii"
+        },
+        {
+          "url": "https://societate-diabet.ro/tratat-diabet/",
+          "text": "Tratat Diabet 2026"
+        },
+        {
+          "url": "https://societate-diabet.ro/publicatii/ghid-privind-eliberarea-avizului-diabetologic-pentru-obtinerea-mentinerea-permisului-de-conducere-la-persoanele-cu-diabet-editia-2026/",
+          "text": "Ghid privind eliberarea avizului diabetologic pentru obținerea/menținerea permisului de conducere la persoanele cu diabet, ediția 2026"
+        },
+        {
+          "url": "https://societate-diabet.ro/publicatii/ghid-de-management-al-diabetului-zaharat-editia-2021/",
+          "text": "Ghid de management al diabetului zaharat – Ediția 2021"
+        },
+        {
+          "url": "https://societate-diabet.ro/publicatii/ghid-de-management-al-diabetului-zaharat/",
+          "text": "Ghid de management al diabetului zaharat – Ediția 2020"
+        },
+        {
+          "url": "https://societate-diabet.ro/publicatii/rjdnmd-societatea-romana-de-diabet/",
+          "text": "RJDNMD"
+        },
+        {
+          "url": "https://societate-diabet.ro/comunicate-de-presa-societatea-romana-de-diabet/",
+          "text": "Comunicate de presă"
+        },
+        {
+          "url": "https://societate-diabet.ro/contact-societatea-romana-de-diabet/",
+          "text": "Contact"
+        },
+        {
+          "url": "https://societate-diabet.ro/wp-content/uploads/2026/01/Tratat_Diabet-1.pdf",
+          "text": "DESCARCĂ TRATATUL DE DIABET 2026"
+        },
+        {
+          "url": "https://societate-diabet.ro/wp-content/plugins/pdfjs-viewer-shortcode/pdfjs/web/viewer.php?file=https://societate-diabet.ro/wp-content/uploads/2026/01/Tratat_Diabet-1.pdf&attachment_id=9817&dButton=false&pButton=false&oButton=false&sButton=false&editButtons=false&v=3.1.1&_wpnonce=433ceee000#zoom=page-width&pagemode=none",
+          "text": "embedded"
+        }
+      ]
+    },
+    {
+      "org_id": "B-BD-BGS",
+      "url": "https://bgs-bd.com/institute-and-research",
+      "condition": "celiac",
+      "date": "2026-11-19T16:19:13.297780+00:00",
+      "final_url": "https://bgs-bd.com/institute-and-research",
+      "bytes": 84299,
+      "sha256": "7588c06bda2713e022121c65733db3c730de583719494a0769470b8e9595c515",
+      "cache": "/tmp/atlas-team-b-originals/ab2abf6074af1983.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://bgs-bd.com/institute-and-research",
+          "text": "Patients"
+        }
+      ]
+    },
+    {
+      "org_id": "B-CM-SCC",
+      "url": "https://www.sccardio.org/pubdetail/2",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:19:14.734825+00:00",
+      "final_url": "https://www.sccardio.org/pubdetail/2",
+      "bytes": 24123,
+      "sha256": "469d49b3221ea850a1466932c8f5fb66edb8d6761ad866c13a2c3a2996e18507",
+      "cache": "/tmp/atlas-team-b-originals/1180a191c3080d56.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.sccardio.org/pubdetail/assets/img/document/Repertoire_membre_scc.pdf",
+          "text": "Annuaire des membres"
+        },
+        {
+          "url": "https://www.sccardio.org/pubdetail/assets/img/publication/fichier2.pdf",
+          "text": "Télécharger"
+        }
+      ]
+    },
+    {
+      "org_id": "B-FJ-DF",
+      "url": "https://diabetesfiji.com/our-projects/1020-2/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:19:14.951827+00:00",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "org_id": "B-DO-SODENN",
+      "url": "https://sodenn.org/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:19:15.332598+00:00",
+      "final_url": "https://sodenn.org/",
+      "bytes": 138809,
+      "sha256": "98c60a4bec20922c8808b4b75dafc9c10fd42694dca13ffed56ff01e19eabbb2",
+      "cache": "/tmp/atlas-team-b-originals/07b25b2151fd94fc.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": []
+    }
+  ],
+  "originals": [
+    {
+      "key": "RO_TRATAT2026",
+      "org_id": "B-RO-SRDNBM",
+      "url": "https://societate-diabet.ro/wp-content/uploads/2026/01/Tratat_Diabet-1.pdf",
+      "checked_on": "2026-11-19T16:20:54.132907+00:00",
+      "final_url": "https://societate-diabet.ro/wp-content/uploads/2026/01/Tratat_Diabet-1.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "d0cf9cbb6077c1e5548e87388258d46f780cb657cd77ecd2084bba25f75aa60a",
+      "bytes": 14873775,
+      "path": "/tmp/atlas-team-b-originals/RO_TRATAT2026.bin",
+      "pdf": true
+    },
+    {
+      "key": "AW_CARBS2020",
+      "org_id": "B-AW-DIAB",
+      "url": "https://www.fdaruba.com/Bira%20Smart%20cu%20Carbs_BKLT_OKT2020.pdf",
+      "checked_on": "2026-11-19T16:20:54.133360+00:00",
+      "final_url": "https://www.fdaruba.com/Bira%20Smart%20cu%20Carbs_BKLT_OKT2020.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "e3ccd538c2cc6ca96f6e2dceba02fd8b542ae5d906eba20c269d0454577d2188",
+      "bytes": 55605519,
+      "path": "/tmp/atlas-team-b-originals/AW_CARBS2020.bin",
+      "pdf": true
+    },
+    {
+      "key": "MM_DIABETES",
+      "org_id": "B-MM-MMDA",
+      "url": "https://myanmardiabetes.org.mm/wp-content/uploads/2018/12/What-is-Diabetes-ilovepdf-compressed-1.pdf",
+      "checked_on": "2026-11-19T16:20:54.133535+00:00",
+      "final_url": "https://myanmardiabetes.org.mm/wp-content/uploads/2018/12/What-is-Diabetes-ilovepdf-compressed-1.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "4c7cd66cbdb196f47a2b5feb3aca392e0c4435702f2b94630622478842ed01d2",
+      "bytes": 52568,
+      "path": "/tmp/atlas-team-b-originals/MM_DIABETES.bin",
+      "pdf": true
+    },
+    {
+      "key": "UG_DIABETES2026",
+      "org_id": "B-UG-UDA",
+      "url": "https://library.health.go.ug/sites/default/files/resources/2026%20Uganda%20Diabetes%20Management%20Guidelines%20-%20Summarised%20version_0.pdf",
+      "checked_on": "2026-11-19T16:20:54.133593+00:00",
+      "final_url": "https://library.health.go.ug/sites/default/files/resources/2026%20Uganda%20Diabetes%20Management%20Guidelines%20-%20Summarised%20version_0.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "43341541cb7aa3b655bef056e586c5c273ef302b421f4f99ec7bef03df88decd",
+      "bytes": 16361569,
+      "path": "/tmp/atlas-team-b-originals/UG_DIABETES2026.bin",
+      "pdf": true
+    },
+    {
+      "key": "LI_RESEARCH2024",
+      "org_id": "B-LI-UFL",
+      "url": "https://www.ufl.li/fileadmin/user_upload/01_Universitaet/Forschungsmagazin160_2_2024_WEB.pdf",
+      "checked_on": "2026-11-19T16:20:56.020368+00:00",
+      "final_url": "https://www.ufl.li/fileadmin/user_upload/01_Universitaet/Forschungsmagazin160_2_2024_WEB.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "dd358843c9bf6c87262bdc73881e1e8cf44e58f92b2fa8ba7e031eae149e2039",
+      "bytes": 19745407,
+      "path": "/tmp/atlas-team-b-originals/LI_RESEARCH2024.bin",
+      "pdf": true
+    },
+    {
+      "key": "CM_CARDIO",
+      "org_id": "B-CM-SCC",
+      "url": "https://www.sccardio.org/pubdetail/assets/img/publication/fichier2.pdf",
+      "checked_on": "2026-11-19T16:20:57.027195+00:00",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "IS_DIABETES",
+      "org_id": "B-IS-DI",
+      "url": "https://www.diabetes.is/diabetes",
+      "checked_on": "2026-11-19T16:20:57.561027+00:00",
+      "final_url": "https://www.diabetes.is/diabetes",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "ac26bb1c76e1255119390ff256f4937f4964166e6988ac3e58d7c7db8c11f79f",
+      "bytes": 131735,
+      "path": "/tmp/atlas-team-b-originals/IS_DIABETES.bin",
+      "pdf": false
+    },
+    {
+      "key": "LI_BPPAPER",
+      "url": "https://www.nature.com/articles/s41588-024-01714-w.pdf",
+      "checked_on": "2026-11-19T16:25:57.349541+00:00",
+      "final_url": "https://www.nature.com/articles/s41588-024-01714-w.pdf?error=cookies_not_supported&code=31a5a017-a0a6-4f66-9bd4-b5c0efa8091e",
+      "status": "retrieved_original",
+      "pdf": true,
+      "bytes": 3971747,
+      "sha256": "2df3adc94552dfbf6361fc7717b67035f893aff4959af4101426e9bb68faf7b5",
+      "path": "/tmp/atlas-team-b-originals/LI_BPPAPER.bin"
+    },
+    {
+      "key": "NLM_NATGENET",
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9216904",
+      "checked_on": "2026-11-19T16:25:57.349996+00:00",
+      "final_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9216904",
+      "status": "retrieved_original",
+      "pdf": false,
+      "bytes": 50965,
+      "sha256": "0b169fee540a9ac3a64e2c018095f58935f42b9ef9d15df33b948aea99f62b5b",
+      "path": "/tmp/atlas-team-b-originals/NLM_NATGENET.bin"
+    }
+  ],
+  "limits": "Original bodies inspected for claims; HTTP success alone insufficient. Full PDFs retained locally only, not uploaded; Cameroon PDF404 not qualified."
+}

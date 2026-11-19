@@ -1,0 +1,49 @@
+[
+  {
+    "record_id": "B133-KG-JAGU-HH",
+    "organization": {
+      "org_id": "B-KG-JAGU-LIB",
+      "area_m49": "417",
+      "name_local": "Учебно-научный библиотечно-информационный центр Жалал-Абадского государственного университета имени Б. Осмонова",
+      "name_english": "reviewer_translation: Scientific Library of B.Osmonov Jalal-Abad State University",
+      "organization_type": "university_medical_teaching_library",
+      "clinical_discipline": "medical_education_hematology",
+      "scope": "Own university scientific library supports medical-faculty students; Kyrgyz Republic,Jalal-Abad,T.Baizakov25. Public university academic host, not ministry/regulator or independent guideline author.",
+      "independent_or_government": "state_university_academic_library_not_government_health_authority; independent_governance_not_asserted",
+      "official_url": "https://jasulib.org.kg/",
+      "language": "ky;ru",
+      "verified_on": "2026-11-18",
+      "source_url": "https://jasulib.org.kg/?p=20122",
+      "identity_state": "own_exact_library_name_Jalal_Abad_seat_and_medical_faculty_role_inspected_no_registry_or_independence_certification"
+    },
+    "condition_key": "hemochromatosis",
+    "url": "https://jasulib.org.kg/wp-content/uploads/2024/05/3230.pdf",
+    "title": "Основы клинической гематологии — section5.2 Гемохроматозы",
+    "language": "ru",
+    "edition": "2013;400pages;ISBN978-5-7032-0882-3;hosting upload2024 not newedition",
+    "role": "hosted",
+    "tier": "H",
+    "source_country": "643",
+    "country_basis": "document_issuer",
+    "issuer": "S.A.Volkova/N.N.Borovkov; Nizhny Novgorod State Medical Academy,Russia2013; Kyrgyz library is host only",
+    "population": "medical teaching, external Russian textbook; no Kyrgyz population cohort",
+    "jurisdiction": "Russian2013 teaching context; local Kyrgyz adoption not demonstrated",
+    "identity_evidence": "Own library original March2026 medical-faculty textbook-supply report and footer name Kyrgyz Republic,Jalal-Abad,T.Baizakov25. Own mission supports university students/research; actual fullPDF downloaded from libraryhost.",
+    "evidence_summary": "Actual400page PDF cover/imprint and hereditary-HH section5.2 pp157–161 inspected: genes/inheritance, diagnostic staging and management. Original Russian authors/publisher distinct from Kyrgyz university host. Date2013 not upload2024 or current2026. TRF2/ferroportin table strings and dated diagnostic/screening/phlebotomy statements remain unappraised; no silent normalization. H external substantive hosting only, not local original guidance or clinical/genetic/rights approval.",
+    "query": "Actual Russian country/HH search followed to university-hosted original; web cachemiss followed by successful default-certificate curl download; imprint and actualchapter inspected",
+    "next_action": "Independent specialist review #135: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/135; hosting licensing/local adoption remain unverified.",
+    "additional_provenance": [
+      {
+        "record_id": "B133-KG-JAGU-HH-RU-IMPRINT",
+        "record_class": "original_textbook_publisher_imprint",
+        "area_m49": "643",
+        "source_issuer": "S.A.Volkova/N.N.Borovkov; Nizhny Novgorod State Medical Academy2013",
+        "source_url": "https://jasulib.org.kg/wp-content/uploads/2024/05/3230.pdf",
+        "source_language": "ru",
+        "checked_on": "2026-11-18",
+        "verification_state": "actual_original_cover_and_copyright_imprint_inspected",
+        "notes": "Original PDF pp1–2 identifies Nizhny Novgorod2013 medical-academy publisher, named Russian medical-education authors and ISBN978-5-7032-0882-3. Source issuer country643 distinct from Kyrgyz library host417; no local Kyrgyz authorship/adoption/licensing approval."
+      }
+    ]
+  }
+]

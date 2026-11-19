@@ -1,0 +1,1458 @@
+{
+  "navigation": [
+    {
+      "org_id": "B-GB-BSR",
+      "url": "https://www.rheumatology.org.uk/guidelines",
+      "condition": "gout",
+      "date": "2026-11-19T16:31:54.515284+00:00",
+      "final_url": "https://www.rheumatology.org.uk/guidelines",
+      "bytes": 213258,
+      "sha256": "cd01a598a97eb0252e7dbd001f310fdc761e7bc85d5fdb236781f9999f224b11",
+      "cache": "/tmp/atlas-team-b-originals/e5691d6c435589e6.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/BSRGuidelinesProtocol_Guidance_v6.1_Oct2026.pdf?ver=q8CWKjo-Z7WUAfXAtZbt3Q%3d%3d",
+          "text": "Creating Clinical Guidelines: British Society for Rheumatology Protoco l"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/BSR%20GWG%20member%20trainee%20role%20description_v1.1.pdf?ver=s8bZzAtCPsAx3jdxSPRemA%3d%3d",
+          "text": "trainees"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/SARD-ILD/BSR_SARD-ILD_Summary_Sheet.pdf?ver=guy9b1ZT1GDjABg0-X6EyQ%3d%3d",
+          "text": "Summary sheet"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/SARD-ILD/Appendix_4_audit_tool.pdf?ver=S1AwdBmopYLTQgXHH9c80Q%3d%3d",
+          "text": "Audit tool"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/SARD-ILD/SARD_ILD_lay_summary.pdf?ver=e1qn1TRH6n1sS0zqJInPVg%3d%3d",
+          "text": "Lay summary"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/SARD-ILD/BSR_SARD-ILD_slides_1161126.pdf?ver=ARxJWfiiNZMQVpEft1ZcvQ%3d%3d",
+          "text": "Educational slides"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Polymyalgia Rheumatica/PMR update 2026/PMR Summary Sheet Oct.pdf?ver=mTN5NynUK-zjrBgB6rdLaw%3d%3d",
+          "text": "Summary sheet"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Pain in IA/PaininIAguidelinesummarysheet2026.pdf?ver=nXhOnKPHYgs6IQkpqKSMVA%3d%3d",
+          "text": "Summary sheet"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Lupus/2025 guideline docs/SLE Summary Sheet 230626.pdf?ver=j51Har2qU4Bz_MAZ1NvpiA%3d%3d",
+          "text": "SLE summary sheet"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Lupus/2025 guideline docs/Lupus Nephritis Summary Sheet 230626.pdf?ver=EHzy4fEGTUxh_1nz_1U-4Q%3d%3d",
+          "text": "Lupus Nephritis summary sheet"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/csDMARDs/2025%20guideline%20update/csDMARD%20Infographic%20Guide_SARD.pdf?ver=TqWN3XropbQbZCktSHi3bQ%3d%3d",
+          "text": "Infographic/Summary sheet"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/csDMARDs/2025%20guideline%20update/BSR%20DMARDs%20Initiation%20Audit%20Tool%20Question%20(1).pdf?ver=URHSBPxFEijezLL505UR5Q%3d%3d",
+          "text": "Audit tool"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/csDMARDs/BSR_csDMARD_FAQs_v1.5_020426.pdf?ver=q326zDQbo4g01Vd6nr5joQ%3d%3d",
+          "text": "FAQs"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/ANCA-Associated Vasculitis/2025 BSR Recommendations for AAV 1.1 _.pdf?ver=JQD2AP1NylI8JINLdv67Mw%3d%3d",
+          "text": "Summary sheet"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/AxSpA/AxSpa%20Guideline%20Summary%20Sheet.pdf?ver=ASZhpUyUsJnDoOwctc0v0g%3d%3d",
+          "text": "Summary sheet"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/AxSpA/Supplementary%20file6-axSpA-Audit%20tool.pdf?ver=4heQNj4DKQxLL-H4Ri12Fw%3d%3d",
+          "text": "Audit tool"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Behcets/Behcets-guideline-ppt.pdf?ver=b41e9chvRt_u2szc_ugN7w%3d%3d",
+          "text": "Summary PowerPoint in PDF format"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Behcets/Behcets_Patient_Management_Pathway_Fig1_26112025.png?ver=kl-sD8lsZmuuEEVTKa4QUw%3d%3d",
+          "text": "Patient Management Pathway 2025"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Behcets/Behcets-guideline-Plain-Language-Summary (1).pdf?ver=C1YasEA2Y_1OPhwnMmnPxw%3d%3d",
+          "text": "Plain language summary"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Pregnancy%20guidelines%20audit%20tools_FINAL.pdf?ver=2022-11-01-101309-833",
+          "text": "Audit tool"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/PsA guideline cheat sheet - updated.pdf?ver=2023-03-20-085636-610",
+          "text": ""
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Psoriatic-arthritis/PsA_audit tool.pdf?ver=2023-07-05-104756-083",
+          "text": ""
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Audit tools/PsA_audit tool.pdf?ver=2023-07-05-115547-713",
+          "text": "Audit tool"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Psoriatic-arthritis/PsA guideline cheat sheet - corrected.pdf?ver=2023-07-11-103818-040",
+          "text": "Summary cheat sheet"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Myositis/Suppl_table_S2_-_Audit_tool_IIM_-_Final_FL.pdf?ver=2023-01-12-105245-300",
+          "text": "Audit tool"
+        },
+        {
+          "url": "https://talkingrheumatology.buzzsprout.com/1972502/10485108-ep-3-bsr-myositis-guideline-what-does-it-mean-for-patients",
+          "text": "What does it mean for patients podcast"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Systemic Sclerosis/Guideline figures Ssc - Scleroderma 23 07 24 - 1.32pm.pdf?ver=ZpZwlq6omvpw1zdO0wJ_3A%3d%3d",
+          "text": "Summary sheet"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Sjögren disease/2024 Sjögren disease summary sheet.pdf?ver=Ni-ivRzBtYKKq31a9pWFKw%3d%3d",
+          "text": "Summary sheet"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Audit%20tools/Sjogren's%20guideline%202023%20audit%20tool%20revised%20Feb%202024.pdf?ver=gBOnwXf47JP7_zqQdkXctw%3d%3d",
+          "text": "Audit tool"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Audit%20tools/Foot%20health%20in%20IA%20Audit%20tool.pdf?ver=DytKz0pmnFmzhpD_3p7cWA%3d%3d",
+          "text": "Audit tool"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Audit tools/Hot_Joint_guideline_update_2017.pdf?ver=2017-11-14-111511-520",
+          "text": "Hot Joint guideline update"
+        },
+        {
+          "url": "https://www.rheumatology.org.uk/Portals/0/Documents/Guidelines/Audit tools/GCA_audit_tool.pdf?ver=2021-02-05-175509-010",
+          "text": "Audit tool"
+        }
+      ]
+    },
+    {
+      "org_id": "B-KR-KDA",
+      "url": "https://www.diabetes.or.kr/bbs/?code=guide",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:31:54.515761+00:00",
+      "final_url": "https://www.diabetes.or.kr/bbs/?code=guide",
+      "bytes": 29950,
+      "sha256": "007712d30f0bc2917961776d345466f424e27dc25b7df51a6c49bdc9ab18b08e",
+      "cache": "/tmp/atlas-team-b-originals/9b89a8ce1029b3d9.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.e-dmj.org",
+          "text": "Diabetes and Metabolism Journal"
+        },
+        {
+          "url": "https://www.diabetes.or.kr/pro/journal/",
+          "text": "The Journal of Korean Diabetes"
+        },
+        {
+          "url": "https://www.diabetes.or.kr/bbs/?code=fact_sheet",
+          "text": "Diabetes Fact Sheet"
+        },
+        {
+          "url": "https://www.diabetes.or.kr/foundation/donate/ ",
+          "text": "기부하기"
+        },
+        {
+          "url": "https://diabetes.or.kr/foundation/",
+          "text": "(재)당뇨병학연구재단"
+        }
+      ]
+    },
+    {
+      "org_id": "B-TH-TES",
+      "url": "https://www.thaiendocrine.org/guideline/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:31:54.515952+00:00",
+      "bytes": 184537,
+      "sha256": "c105f808d6080837f64917208e9fe0d082016ebd986619d6d2fa913df9ead8ad",
+      "cache": "/tmp/atlas-team-b-originals/9ce24078ab85c780.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.thaiendocrine.org/preexisting-diabetes-and-pregnancy-an-endocrine-society-and-european-society-of-endocrinology-joint-clinical-practice-guideline/",
+          "text": "Preexisting Diabetes and Pregnancy: An Endocrine Society and European Society of Endocrinology Joint Clinical Practice Guideline"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/the-ageing-thyroid-implications-for-longevity-and-patient-care/",
+          "text": "The ageing thyroid: implications for longevity and patient care"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/2023-esc-guidelines-for-the-management-of-cardiovascular-disease-in-patients-with-diabetes/",
+          "text": "2023 ESC Guidelines for the management of cardiovascular disease in patients with diabetes"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/the-kidney-disease-improving-global-outcomes-kdigo-2020-clinical-practice-guideline-for-diabetes-management-in-chronic-kidney-disease-ckd/",
+          "text": "The Kidney Disease: Improving Global Outcomes (KDIGO) 2020 Clinical Practice Guideline for Diabetes Management in Chronic Kidney Disease (CKD)"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/primary-prevention-of-ascvd-and-t2dm-in-patients-at-metabolic-risk-an-endocrine-society-clinical-practice-guideline/",
+          "text": "Primary Prevention of ASCVD and T2DM in Patients at Metabolic Risk: An Endocrine Society Clinical Practice Guideline"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/treatment-of-diabetes-in-older-adults-an-endocrine-society-clinical-practice-guideline/",
+          "text": "Treatment of Diabetes in Older Adults: An Endocrine Society Clinical Practice Guideline"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/2018-u-s-guideline-on-management-of-blood-cholesterol/",
+          "text": "2018 U.S. Guideline on Management of Blood Cholesterol"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/guideline-for-the-management-of-graves-hyperthyroidism-from-eta-2018/",
+          "text": "Guideline for the Management of Graves’ Hyperthyroidism from ETA 2018"
+        }
+      ]
+    },
+    {
+      "org_id": "B-UZ-NAEU",
+      "url": "https://natendo.uz/articles?lang=ru",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:31:54.516019+00:00",
+      "final_url": "https://natendo.uz/articles?lang=ru",
+      "bytes": 103937,
+      "sha256": "c00742fcc5ee357138bd4817ef2be94f51c93aecf01219c9f7515959a5f7d272",
+      "cache": "/tmp/atlas-team-b-originals/faa47b69678a05c3.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://natendo.uz/pages/patients?lang=ru",
+          "text": "Пациентам"
+        },
+        {
+          "url": "https://natendo.uz/articles?lang=ru&section=diabetes",
+          "text": "Диабетология"
+        }
+      ]
+    },
+    {
+      "org_id": "B-HR-DISLIP",
+      "url": "https://www.udruga-dislipidemije.hr/edukativni-materijali",
+      "condition": "high_chol",
+      "date": "2026-11-19T16:31:54.527903+00:00",
+      "final_url": "https://www.udruga-dislipidemije.hr/edukativni-materijali",
+      "bytes": 896558,
+      "sha256": "75c3e6c2ff31d02fa79cb12f9d2355637f49e6b740fc519193b210afdb096f46",
+      "cache": "/tmp/atlas-team-b-originals/72d3b9bfd675f794.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.udruga-dislipidemije.hr/_files/ugd/9e053c_032c23c166244eb39077ec0a1279e9fe.pdf",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "org_id": "B-TN-STEDIAM",
+      "url": "https://www.endocrino-tunisie.com/referentiel/detail/200",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:31:55.030225+00:00",
+      "final_url": "https://www.endocrino-tunisie.com/referentiel/detail/200",
+      "bytes": 27320,
+      "sha256": "a7ab7c0c62d1debf3691ad08d1ef537ec666c804fa78773fb436be925f8b6807",
+      "cache": "/tmp/atlas-team-b-originals/7f540ac3da0fd31e.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.endocrino-tunisie.com/uploads/images/cd684a9fa7e1f885018b3a21327f5000.pdf",
+          "text": "Télecharger PDF"
+        },
+        {
+          "url": "https://www.endocrino-tunisie.com/referentiel/detail/200",
+          "text": "PRISE EN CHARGE DU DIABETE DE TYPE 2 CHEZ L’ADULTE (MISE A JOUR JUILLET 2026)"
+        },
+        {
+          "url": "https://www.endocrino-tunisie.com/referentiel/detail/183",
+          "text": "Lancement de la nouvelle formule de Levothyrox en Tunisie à partir du 1er juin 2022 (Documents informatifs: FICHE D'INFORMATION POUR LE PATIENT TUNISIEN version"
+        },
+        {
+          "url": "https://www.endocrino-tunisie.com/referentiel/detail/182",
+          "text": "Lancement de la nouvelle formule de Levothyrox en Tunisie à partir du 1er juin 2022 (Documents informatifs: FICHE D'INFORMATION POUR LE PATIENT TUNISIEN version"
+        }
+      ]
+    },
+    {
+      "org_id": "B-BE-BHC",
+      "url": "https://belhyp.be/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:31:56.075756+00:00",
+      "final_url": "https://belhyp.be/",
+      "bytes": 70697,
+      "sha256": "5a20004d7122a50d6dcb160038cace7f458f1f192bc5be4f1e52c039ef12e157",
+      "cache": "/tmp/atlas-team-b-originals/a28efb8760052bd6.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://belhyp.be/bhc-hypertension-update/",
+          "text": "BHC Hypertension Update"
+        },
+        {
+          "url": "https://belhyp.be/patient-information/",
+          "text": "Patient information"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2026/06/STD_CME-Live-Webinar_Hypertension_2026.pdf",
+          "text": "CME Live Webinar – From Hypertension to CVD and the role of AI"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2023/11/European-Society-of-Hypertension-general-practitioners-program-hypertension-management-focus-on-general-practice.pdf",
+          "text": "European Society of Hypertension – general practitioners’ program hypertension management: focus on general practice"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2023/03/ESH-guideline-BP-measurement_vertaald_nederlandse-versie_final.pdf",
+          "text": "In Dutch"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2023/03/Guidelines-mesure-PA-traduites-Fr-23-11-2021-1.pdf",
+          "text": "In French"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2023/03/HBPM-registration-FR.pdf",
+          "text": "In French"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2023/03/HBPM-registration-NL.pdf",
+          "text": "In Dutch"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2023/03/HBPM-registration-EN.pdf",
+          "text": "In English"
+        },
+        {
+          "url": "https://journals.lww.com/jhypertension/Fulltext/2021/07000/2021_European_Society_of_Hypertension_practice.5.aspx",
+          "text": "2021 European Society of Hypertension practice guidelines for office and out-of-office blood pressure measurement"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2020/03/Statement-ESH-COVID-19.pdf",
+          "text": "L’Hypertension Artérielle, les Inhibiteurs du Système Rénine Angiotensine et le COVID-19"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2020/03/ESH-Stelling-COVID-19.pdf",
+          "text": "Hypertensie, Renine Angiotensine Systeem blokkers en COVID-19"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2016/05/LetterABPM2016World-Hypertensionday-NL.pdf",
+          "text": "Het Belgisch Hypertensie Comité roept op om ambulante bloeddrukmeting voor iedereen toegankelijk te maken."
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2016/05/LetterABPM2016World-Hypertensionday-FR.pdf",
+          "text": "Le Comité Belge de Lutte contre l’Hypertension plaide pour rendre la mesure ambulatoire de la pression artérielle accessible à tous."
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2026/02/Uitnodiging-BHC-HypertensionUpdate-2026-1.pdf",
+          "text": "program NL"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2026/02/Invitation-CBH-Hypertension-Update-2026-1.pdf",
+          "text": "Program FR"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2026/02/Program-Lecturer-Tour-Prof.-Delles-2026.pdf",
+          "text": "Lecturer of the year Prof. Christian Delles"
+        },
+        {
+          "url": "https://medeaacademy.com/hypertension-2025-live-webinar/",
+          "text": "Live Webinar on Hypertension"
+        },
+        {
+          "url": "https://www.eshonline.org/esh-2025/",
+          "text": "European meeting on Hypertension and Cardiovascular protection"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2025/02/BHC2025_Symposium_invitation_FR.pdf",
+          "text": "program FR"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2025/02/BHC2025_Symposium_invitation_NL.pdf",
+          "text": "program NL"
+        },
+        {
+          "url": "https://medeaacademy.com/hypertension-cme-webinar/",
+          "text": "Women’s health, CVD and hypertension"
+        },
+        {
+          "url": "https://medhyp2024.org/en/",
+          "text": "11th Mediterranean Meeting on Hypertension and Atherosclerosis"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2024/01/SER_106-InvitationLectureTour2024-A4_converted.pdf",
+          "text": "Lecturer of the Year – Jan Danser"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2024/01/Servier_20231921_BHC-Symposium_leaflet_fr_04.pdf",
+          "text": "BHC Hypertension update 2024 in Square Brussels Meeting Centre"
+        },
+        {
+          "url": "https://docs.google.com/viewer?url=http%3A%2F%2Fbelhyp.be%2Fwp-content%2Fuploads%2F2024%2F01%2FBHC-Hypertension-Update27January2024ned.doc",
+          "text": "program FR"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2024/01/Servier_20231921_BHC-Symposium_programme_nl_02.pdf",
+          "text": "program NL"
+        },
+        {
+          "url": "https://jhta.eu/",
+          "text": "Journées de l’Hypertension Artérielle"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2023/11/Bereikbaarheidsfiche-VUB-Jette.pdf",
+          "text": "VUB campus Jette"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2023/11/Program-BHC-scientific-meeting-2023.pdf",
+          "text": "program"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2023/11/Parking-info-about-controlled-barrier.pdf",
+          "text": "parking info"
+        },
+        {
+          "url": "https://esh2023.eu/",
+          "text": "European Meeting on Hypertension & Cardiovascular protection"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2023/02/Mailing-2-CBH-deepliant-NL-01-23v3.pdf",
+          "text": "NL"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2023/02/Mailing-2-CBH-deepliant-FR-01-23v3.pdf",
+          "text": "FR"
+        },
+        {
+          "url": "https://www.ish2022.org/",
+          "text": "International Society of Hypertension (ISH) Scientific Meeting"
+        },
+        {
+          "url": "https://www.esh2022.eu",
+          "text": "European on Hypertension and Cardiovascular Protection – Focus on hypertension and heart failure phenotypes"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2022/03/Program-Hypertension-Update-NL-April-2022.pdf",
+          "text": "NL"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2022/03/Program-Hypertension-Update-FR-April-2022.pdf",
+          "text": "FR"
+        },
+        {
+          "url": "https://dip.comtecmed.com/",
+          "text": "11th International DIP Symposium on Diabetes, Hypertension, Metabolic Syndrome & Pregnancy: Innovative Approaches in Maternal Offspring Health"
+        },
+        {
+          "url": "https://www.hypertension2021.org/",
+          "text": "ESH-ISH 2021 Meeting – Glasgow"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2021/01/Uitnodiging-BHC-2021.pdf",
+          "text": "NL"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2021/01/Invitation-CBH-2021.pdf",
+          "text": "FR"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2020/11/Program-BHC-scientific-meeting-2020.pdf",
+          "text": "BHC scientific meeting"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2019/12/Mailing-2-CBH-A4-NL-12-19v2.pdf",
+          "text": "NL"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2019/12/Mailing-2-CBH-A4-FR-12-19v2.pdf",
+          "text": "FR"
+        },
+        {
+          "url": "http://www.jhta2019.eu/",
+          "text": "39es Journées de l’Hypertension Artérielle – Paris"
+        },
+        {
+          "url": "http://www.esh2019.eu/",
+          "text": "29th European Meeting on Hypertension and Cardiovascular protection – Milan"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2019/03/Lecturer-Tour-Prof.-Stergiou-2019.pdf",
+          "text": "Lecturer of the year: Prof. Dr. George S. Stergiou"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2018/11/Mailing-2-CBH-dépliant-NL-11-18v3.pdf",
+          "text": "NL"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2018/11/Mailing-2-CBH-dépliant-FR-11-18.pdf",
+          "text": "FR"
+        },
+        {
+          "url": "http://www.jhta2018.eu",
+          "text": "38es Journées de l’Hypertension Artérielle – 12th International Meeting of the French Society of Hypertension"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2018/11/Invit_FELLOWS_2018_HR.pdf",
+          "text": "1st Fellows of hypertension meeting"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2018/09/Program-BHC-scientific-meeting-2018-final.pdf",
+          "text": "BHC scientific meeting – Brussels"
+        },
+        {
+          "url": "http://2018.prehypertension.org/",
+          "text": "5th International Conference on Prehypertension, Hypertension and Cardio Metabolic Syndrome – Venice"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2018/01/Program-Brussels-Cleveland-FMD-meeting-2018-FINAL.pdf",
+          "text": "Internation Symposium – Revisiting fibromuscular dysplasia & related vascular diseases – Belgian Royal Academy of Medicine, Brussels"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2018/01/Invitation-Lecture-Tour-2018.pdf",
+          "text": "Lecturer of the year: Prof. Dr. Harald Mischak"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2018/01/HTN-Update-2018-NL.pdf",
+          "text": "NL"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2018/01/HTN-Update-2018-FR.pdf",
+          "text": "FR"
+        },
+        {
+          "url": "http://www.jhta2017.fr/",
+          "text": "37es Journées de l’Hypertension Artérielle – 11th International Meeting of the French Society of Hypertension – Paris"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2016/01/PROGRAMA.pdf",
+          "text": "European Little Countries Global Cardiovascular Protection Meeting – Lissabon"
+        },
+        {
+          "url": "http://www.esh2017.eu/",
+          "text": "27th European Meeting on Hypertension and Cardiovascular protection – Milan"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2016/01/Invitation-2017.pdf",
+          "text": "Lecturer of the year: Prof. Walter J. Paulus"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2016/01/Affiche-Lecture-Tour-2017.pdf",
+          "text": "program"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2016/01/Mailing-2-dépliant-NL-v2.pdf",
+          "text": "NL"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2016/01/Mailing-2-dépliant-FR-v2.pdf",
+          "text": "FR"
+        },
+        {
+          "url": "http://www.jhta2016.fr/",
+          "text": "36es Journées de l’Hypertension Artérielle – 10th International Meeting of the French Society of Hypertension – Paris"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2016/11/Invitation-FMD-meeting-2016-final.pdf",
+          "text": "Second National Meeting on Fibromuscular Dysplasia – Brussels"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2016/01/FLYER-actualizado.jpg",
+          "text": "Salt, Hypertension and Stroke – Oporto/Portugal"
+        },
+        {
+          "url": "https://belhyp.be/wp-content/uploads/2016/01/Program-BHC-scientific-meeting-2016.pdf",
+          "text": "Annual Scientific meeting of the Belgian Hypertension Committee – Brussels"
+        },
+        {
+          "url": "http://www.esh2016.org/",
+          "text": "European meeting on Hypertension – Paris"
+        },
+        {
+          "url": "https://belhyp.be/calendar/",
+          "text": "Hypertension update Symposium – Brussels"
+        },
+        {
+          "url": "http://www.jhta2015.fr/",
+          "text": "35es Journées de l’Hypertension Arterielle"
+        }
+      ]
+    },
+    {
+      "org_id": "B-NL-NHV",
+      "url": "https://hypertensie.nl/nl/over-nhv/richtlijnen/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:31:56.320348+00:00",
+      "final_url": "https://hypertensie.nl/nl/over-nhv/richtlijnen/",
+      "bytes": 69344,
+      "sha256": "99d8fa42eff1bae2c4594346b61f138c6c1094e7b0fa1c0cb141e5b99f98c9df",
+      "cache": "/tmp/atlas-team-b-originals/420592d87c64753a.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://hypertensie.nl/nl/actueel/2026-05-17_wereld-hypertensiedag-2026/",
+          "text": "Wereld Hypertensiedag 2026\n\t\t\t\t \n\t\t\t\t 17 mei"
+        },
+        {
+          "url": "https://hypertensie.nl/nl/actueel/2025-05-01_inzicht-in-de-risico-s-van-hypertensie/",
+          "text": "Inzicht in de risico’s van Hypertensie\n\t\t\t\t \n\t\t\t\t 1 mei"
+        },
+        {
+          "url": "https://hypertensie.nl/nl/congres/nationaal-hypertensie-congres-2027/",
+          "text": "Nationaal Hypertensie Congres 2027"
+        },
+        {
+          "url": "https://hypertensie.nl/nl/congres/nationaal-hypertensie-congres-2026/",
+          "text": "Nationaal Hypertensie Congres 2026"
+        },
+        {
+          "url": "https://hypertensie.nl/nl/congres/nationaal-hypertensie-congres-2025/",
+          "text": "Nationaal Hypertensie Congres 2025"
+        },
+        {
+          "url": "https://hypertensie.nl/nl/congres/nationaal-hypertensie-congres-2024/",
+          "text": "Nationaal Hypertensie Congres 2024"
+        },
+        {
+          "url": "https://hypertensie.nl/nl/congres/nationaal-hypertensie-congres-2023/",
+          "text": "Nationaal Hypertensie Congres 2023"
+        },
+        {
+          "url": "https://nl.linkedin.com/company/nederlandse-hypertensie-vereniging",
+          "text": ""
+        },
+        {
+          "url": "https://cvgk.nl/2018/08/27/2018-esc-esh-richtlijnen-voor-management-van-arteriele-hypertensie/",
+          "text": "hier:"
+        },
+        {
+          "url": "https://www.eshonline.org/esh-content/uploads/2023/01/ESH-2021-BP-measurement-guidelines_Dutch.pdf",
+          "text": "Nederlandse"
+        },
+        {
+          "url": "https://www.eshonline.org/guidelines/blood-pressure-monitoring/",
+          "text": "hypertension:"
+        },
+        {
+          "url": "https://hypertensie.nl/nl/over-nhv/richtlijnen/download-1-Richtlijnen.pdf",
+          "text": "Guideline ACC AHA USA 2017"
+        },
+        {
+          "url": "https://hypertensie.nl/nl/over-nhv/richtlijnen/download-2-Richtlijnen.pdf",
+          "text": "Guideline ESC EU 2016"
+        },
+        {
+          "url": "https://hypertensie.nl/nl/over-nhv/richtlijnen/download-3-Richtlijnen.pdf",
+          "text": "Guideline ESH ESC EU 2013"
+        },
+        {
+          "url": "https://hypertensie.nl/nl/over-nhv/richtlijnen/download-4-Richtlijnen.pdf",
+          "text": "CVRM richtlijn NL, gepubliceerd in september 2024 en in september 2026 aangepast"
+        },
+        {
+          "url": "https://hypertensie.nl/nl/over-nhv/richtlijnen/download-5-Richtlijnen.pdf",
+          "text": "ESH 2021 Richtlijn bloeddrukmeten, NL versie"
+        },
+        {
+          "url": "mailto://info@nederlandsehypertensievereniging.nl",
+          "text": "info@nederlandsehypertensievereniging.nl"
+        },
+        {
+          "url": "https://hypertensie.nl/nl/over-nhv/richtlijnen/",
+          "text": "Nederlands"
+        }
+      ]
+    },
+    {
+      "org_id": "B-KR-KSLA",
+      "url": "https://www.lipid.or.kr/reference/guideline.php?boardid=guideline&idx=1456&mode=view",
+      "condition": "high_chol",
+      "date": "2026-11-19T16:31:56.352200+00:00",
+      "final_url": "https://www.lipid.or.kr/reference/guideline.php?boardid=guideline&idx=1456&mode=view",
+      "bytes": 19906,
+      "sha256": "480929865e2880b1323edf021e9caae30dae4da25a5d6c275890e6c66f6d4552",
+      "cache": "/tmp/atlas-team-b-originals/5331e2dda620742a.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.lipid.or.kr/campaign/cholesterol.php",
+          "text": "콜레스테롤의 날"
+        },
+        {
+          "url": "https://www.lipid.or.kr/module/board/download.php?boardid=guideline&b_idx=1456&idx=10845",
+          "text": "이상지질혈증 진료지침 2026.pdf"
+        },
+        {
+          "url": "https://support.apple.com/ko_KR/downloads/safari",
+          "text": "사파리"
+        }
+      ]
+    },
+    {
+      "org_id": "B-KR-KSH",
+      "url": "https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:31:56.893097+00:00",
+      "final_url": "https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read",
+      "bytes": 17939,
+      "sha256": "d1cfe70c21ddbb8e9ad8c04eeee9a55323345799396e7ab40eaed8fa18a56764",
+      "cache": "/tmp/atlas-team-b-originals/13c138064ec775fa.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.instagram.com/koreanhypertension1994/?hl=ko",
+          "text": ""
+        },
+        {
+          "url": "https://clinicalhypertension.org/",
+          "text": "CLINICAL HYPERTENSION"
+        },
+        {
+          "url": "mailto:ksh@koreanhypertension.org",
+          "text": "ksh@koreanhypertension.org"
+        }
+      ]
+    },
+    {
+      "org_id": "B-HR-HSDU",
+      "url": "https://www.dijabetes.hr/casopis-dijabetes/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:31:57.548810+00:00",
+      "final_url": "https://www.dijabetes.hr/casopis-dijabetes/",
+      "bytes": 139139,
+      "sha256": "e0362ee8e21156244ea00ba94617ee23f0fad545e840cc87e75762de0357ce4a",
+      "cache": "/tmp/atlas-team-b-originals/96cbbcc93271f4b5.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.dijabetes.hr/intervju-doc-dr-sc-ljiljana-fodor-duric-nefrologinja-hipertenziologinja/",
+          "text": "Intervju: doc. dr. sc. Ljiljana Fodor Đurić, nefrologinja/hipertenziologinja"
+        },
+        {
+          "url": "https://www.dijabetes.hr/utjece-li-konzumacija-secera-na-arterijsku-hipertenziju/",
+          "text": "Utječe li konzumacija šećera na arterijsku hipertenziju?"
+        },
+        {
+          "url": "https://www.dijabetes.hr/secerna-bolest-i-hipertenzija/",
+          "text": "ŠEĆERNA BOLEST I HIPERTENZIJA"
+        },
+        {
+          "url": "https://www.everystepindiabetes.com/",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "org_id": "B-LV-LDF",
+      "url": "https://www.diabets.lv/informativi-materiali",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:31:57.805086+00:00",
+      "final_url": "https://www.diabets.lv/materiali/informativi-materiali",
+      "bytes": 1349355,
+      "sha256": "173cf61517247aa0a79ff9beddde675b4127ac21c8d0bff3ef3da16cdfc2e70a",
+      "cache": "/tmp/atlas-team-b-originals/7159b7529989d8ff.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.diabets.lv",
+          "text": "Galvenā"
+        },
+        {
+          "url": "https://www.facebook.com/latvijasdiabeta.federacija?fref=ts&__mref=message",
+          "text": "#comp-mojg48gn_r_comp-mmvkgg0i svg [data-color=&quot;1&quot;] {fill: #2678FF;}"
+        },
+        {
+          "url": "https://www.diabets.lv/aktualitates/categories/federacijas-aktualiates",
+          "text": "Federācijas aktualitātes"
+        },
+        {
+          "url": "https://www.diabets.lv/aktualitates",
+          "text": "Visi raksti"
+        },
+        {
+          "url": "https://www.diabets.lv/aktualitates/categories/diabets-un-pamati",
+          "text": "Diabēts/pamati"
+        },
+        {
+          "url": "https://www.diabets.lv/aktualitates/categories/vecakiem-un-berniem",
+          "text": "Vecākiem un bērniem"
+        },
+        {
+          "url": "https://www.diabets.lv/aktualitates/categories/uzturs-un-aktivitate",
+          "text": "Uzturs un aktivitāte"
+        },
+        {
+          "url": "https://www.diabets.lv/aktualitates/categories/dzive-ar-diabetu",
+          "text": "Dzīve ar diabētu"
+        },
+        {
+          "url": "https://www.diabets.lv/aktualitates/categories/dazadi-raksti",
+          "text": "Dažādi raksti"
+        },
+        {
+          "url": "https://www.diabets.lv/saule",
+          "text": "Saule"
+        },
+        {
+          "url": "https://www.diabets.lv/galerijas",
+          "text": "Galerijas"
+        },
+        {
+          "url": "https://www.diabets.lv/materiali",
+          "text": "Materiāli"
+        },
+        {
+          "url": "https://www.diabets.lv/biedri",
+          "text": "Biedri"
+        },
+        {
+          "url": "https://www.diabets.lv/kontakti",
+          "text": "Kontakti"
+        },
+        {
+          "url": "https://www.diabets.lv/materiali/informativi-materiali",
+          "text": "Video"
+        },
+        {
+          "url": "https://www.diabets.lv/_files/ugd/138739_bc20891db8eb4a289f66de6ee7abee3d.pdf",
+          "text": "Atvērt"
+        },
+        {
+          "url": "https://www.diabets.lv/_files/ugd/138739_be1412d7f2e645d1844d360582c7891e.pdf",
+          "text": "Atvērt"
+        },
+        {
+          "url": "https://www.diabets.lv/_files/ugd/138739_be23f85672734a349844d04f2a2d7362.pdf",
+          "text": "Atvērt"
+        },
+        {
+          "url": "https://www.diabets.lv/_files/ugd/138739_ec5083c5285349e4997e262d6273ef22.pdf",
+          "text": "Atvērt"
+        },
+        {
+          "url": "https://www.diabets.lv/_files/ugd/138739_ce7be20dbe30421b82a45086c837080a.pdf",
+          "text": "Atvērt"
+        },
+        {
+          "url": "https://www.diabets.lv/_files/ugd/138739_10abb61db08c46239ddeb39a2e8af5b1.pdf",
+          "text": "Atvērt"
+        },
+        {
+          "url": "https://www.diabets.lv/_files/ugd/138739_ff3abfcc77174b5091f3c90a408f7909.pdf",
+          "text": "Atvērt"
+        },
+        {
+          "url": "https://www.diabets.lv/_files/ugd/138739_94c3dbc679934f61864e5dad89c6bf48.pdf",
+          "text": "Atvērt"
+        },
+        {
+          "url": "https://www.diabets.lv/_files/ugd/138739_faa5ea3278d741d7a7b484bfb019cab5.pdf",
+          "text": "Atvērt"
+        },
+        {
+          "url": "https://www.diabets.lv/_files/ugd/138739_568718e01d774a6aa04e18bb8f0f8e4d.pdf",
+          "text": "Atvērt"
+        },
+        {
+          "url": "https://www.diabets.lv/_files/ugd/138739_30e5bc496611425482e6623753a8f52a.pdf",
+          "text": "Atvērt"
+        },
+        {
+          "url": "https://www.diabets.lv/biezak-uzdotie-jautajumi",
+          "text": "BUJ"
+        },
+        {
+          "url": "https://www.diabets.lv/privatuma-politika",
+          "text": "Privātuma politika"
+        }
+      ]
+    },
+    {
+      "org_id": "B-BG-BHL",
+      "url": "https://www.hypertensionleaguebg.info/bg/science-info/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:31:58.243566+00:00",
+      "final_url": "https://www.hypertensionleaguebg.info/bg/science-info/",
+      "bytes": 30939,
+      "sha256": "f2cd0d3f261b9573586b9edbe337a52c75849756f88259ee9b650a167099c330",
+      "cache": "/tmp/atlas-team-b-originals/a8b41a16b616bd1c.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "http://www.hypertensionleaguebg.info/",
+          "text": "Българска Лига по Хипертония"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/wp-login.php?action=lostpassword",
+          "text": "Забравена парола"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%b7%d0%b0-%d0%b1%d0%bb%d1%85/",
+          "text": "За БЛХ"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%b7%d0%b0-%d0%b1%d0%bb%d1%85/%d0%b8%d1%81%d1%82%d0%be%d1%80%d0%b8%d1%8f-%d0%bd%d0%b0-%d0%b1%d0%bb%d1%85/",
+          "text": "История на БЛХ"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%b7%d0%b0-%d0%b1%d0%bb%d1%85/%d1%81%d0%b5%d1%80%d1%82%d0%b8%d1%84%d0%b8%d0%ba%d0%b0%d1%82/",
+          "text": "Сертификат"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%b7%d0%b0-%d0%b1%d0%bb%d1%85/%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%b8%d1%82%d0%b5%d0%bb%d0%b5%d0%bd-%d1%81%d1%8a%d0%b2%d0%b5%d1%82/",
+          "text": "Управителен съвет"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%b7%d0%b0-%d0%b1%d0%bb%d1%85/%d1%83%d1%81%d1%82%d0%b0%d0%b2-%d0%bd%d0%b0-%d0%b1%d0%bb%d1%85/",
+          "text": "Устав на БЛХ"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/",
+          "text": "Дейности"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/programa-blh-2020-%d0%b3/",
+          "text": "Програма на БЛХ за 2020 г."
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%b1%d0%bb%d1%85-%d0%b7%d0%b0-2014-%d0%b3/",
+          "text": "Програма на БЛХ за 2014 г."
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%b1%d0%bb%d1%85-%d0%b7%d0%b0-2013-%d0%b3%d0%be%d0%b4/",
+          "text": "Програма на БЛХ за 2013 год."
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%b4%d0%b5%d0%b9%d0%bd%d0%be%d1%81%d1%82%d0%b8/%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%b0-2012/",
+          "text": "Програма на БЛХ за 2012 год."
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/category/%d0%bd%d0%be%d0%b2%d0%b8%d0%bd%d0%b8/",
+          "text": "Новини"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/category/%d0%bd%d0%be%d0%b2%d0%b8%d0%bd%d0%b8/%d1%81%d1%8a%d0%b1%d0%b8%d1%82%d0%b8%d1%8f-%d0%be%d1%80%d0%b3%d0%b0%d0%bd%d0%b8%d0%b7%d0%b8%d1%80%d0%b0%d0%bd%d0%b8-%d0%be%d1%82-%d0%b1%d0%bb%d1%85/",
+          "text": "Предстоящи научни събития на БЛХ"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/category/%d0%bd%d0%be%d0%b2%d0%b8%d0%bd%d0%b8/%d0%bc%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d0%b8-%d0%bd%d0%b0%d1%83%d1%87%d0%bd%d0%b8-%d1%81%d1%8a%d0%b1%d0%b8%d1%82%d0%b8%d1%8f/",
+          "text": "Международни научни събития"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/category/%d0%bd%d0%be%d0%b2%d0%b8%d0%bd%d0%b8/%d0%bd%d0%b0%d1%83%d1%87%d0%bd%d0%b0-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f/",
+          "text": "Научна информация"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d1%87%d0%bb%d0%b5%d0%bd%d1%81%d1%82%d0%b2%d0%be/",
+          "text": "Членство"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d1%87%d0%bb%d0%b5%d0%bd%d1%81%d1%82%d0%b2%d0%be/%d1%83%d1%81%d0%bb%d0%be%d0%b2%d0%b8%d1%8f-%d0%b7%d0%b0-%d1%87%d0%bb%d0%b5%d0%bd%d1%81%d1%82%d0%b2%d0%be-%d0%b2-%d0%b1%d0%bb%d1%85/",
+          "text": "Условия за членство в БЛХ"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d1%87%d0%bb%d0%b5%d0%bd%d1%81%d1%82%d0%b2%d0%be/%d0%bf%d0%be%d1%87%d0%b5%d1%82%d0%bd%d0%b8-%d1%87%d0%bb%d0%b5%d0%bd%d0%be%d0%b2%d0%b5-%d0%bd%d0%b0-%d0%b1%d0%bb%d1%85/",
+          "text": "Почетни членове на БЛХ"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d0%bd%d0%b8-%d0%bc%d0%be%d0%b4%d1%83%d0%bb%d0%b8/",
+          "text": "Образователни модули"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d0%bd%d0%b8-%d0%bc%d0%be%d0%b4%d1%83%d0%bb%d0%b8/%d1%81%d0%bf%d0%b5%d1%86%d0%b8%d0%b0%d0%bb%d0%b8%d1%81%d1%82-%d0%bf%d0%be-%d0%ba%d0%bb%d0%b8%d0%bd%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d0%b8%d0%bf%d0%b5%d1%80%d1%82%d0%be%d0%bd%d0%b8%d1%8f/",
+          "text": "Специалист по Клинична хипертония към Европейското дружество по хипертония"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%be%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d0%bd%d0%b8-%d0%bc%d0%be%d0%b4%d1%83%d0%bb%d0%b8/%d1%81%d0%bf%d0%b5%d1%86%d0%b8%d0%b0%d0%bb%d0%b8%d1%81%d1%82-%d0%bf%d0%be-%d0%ba%d0%bb%d0%b8%d0%bd%d0%b8%d1%87%d0%bd%d0%b0-%d1%85%d0%b8%d0%bf%d0%b5%d1%80%d1%82%d0%be%d0%bd%d0%b8%d1%8f-%d0%ba%d1%8a/",
+          "text": "Специалист по Клинична хипертония към Американското дружество по хипертония"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/bg/science-info/",
+          "text": ""
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/areas/%d0%bc%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d0%b8-%d0%bd%d0%b0%d1%83%d1%87%d0%bd%d0%b8-%d1%81%d1%8a%d0%b1%d0%b8%d1%82%d0%b8%d1%8f/",
+          "text": "Международни научни събития"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/areas/%d0%bd%d0%b0%d1%86%d0%b8%d0%be%d0%bd%d0%b0%d0%bb%d0%bd%d0%b8-%d0%bd%d0%b0%d1%83%d1%87%d0%bd%d0%b8-%d1%81%d1%8a%d0%b1%d0%b8%d1%82%d0%b8%d1%8f/",
+          "text": "Национални научни събития"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/science-info/%d0%b5%d0%b2%d1%80%d0%be%d0%bf%d0%b5%d0%b9%d1%81%d0%ba%d0%b8-%d0%ba%d0%be%d0%bd%d0%b3%d1%80%d0%b5%d1%81-%d0%bf%d0%be-%d0%ba%d0%b0%d1%80%d0%b4%d0%b8%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f-%d0%b2-%d0%b0/",
+          "text": "Прочети повече"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/science-info/%d1%81%d0%b2%d0%b5%d1%82%d0%be%d0%b2%d0%b5%d0%bd-%d0%ba%d0%be%d0%bd%d0%b3%d1%80%d0%b5%d1%81-%d0%bf%d0%be-%d1%85%d0%b8%d0%bf%d0%b5%d1%80%d1%82%d0%be%d0%bd%d0%b8%d1%8f-%d0%b2-%d0%b8%d1%81%d1%82%d0%b0/",
+          "text": "Прочети повече"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/science-info/%d0%b5%d0%b2%d1%80%d0%be%d0%bf%d0%b5%d0%b9%d1%81%d0%ba%d0%b8-%d0%ba%d0%be%d0%bd%d0%b3%d1%80%d0%b5%d1%81-%d0%bf%d0%be-%d1%85%d0%b8%d0%bf%d0%b5%d1%80%d1%82%d0%be%d0%bd%d0%b8%d1%8f-%d0%b8-%d1%81%d1%8a-3/",
+          "text": "Прочети повече"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/science-info/%d0%b5%d0%b2%d1%80%d0%be%d0%bf%d0%b5%d0%b9%d1%81%d0%ba%d0%b8-%d0%ba%d0%be%d0%bd%d0%b3%d1%80%d0%b5%d1%81-%d0%bf%d0%be-%d1%85%d0%b8%d0%bf%d0%b5%d1%80%d1%82%d0%be%d0%bd%d0%b8%d1%8f-%d0%b8-%d1%81%d1%8a-2/",
+          "text": "Прочети повече"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/science-info/%d0%b5%d0%b2%d1%80%d0%be%d0%bf%d0%b5%d0%b9%d1%81%d0%ba%d0%b8-%d0%ba%d0%be%d0%bd%d0%b3%d1%80%d0%b5%d1%81-%d0%bf%d0%be-%d1%85%d0%b8%d0%bf%d0%b5%d1%80%d1%82%d0%be%d0%bd%d0%b8%d1%8f-%d0%b8-%d1%81%d1%8a/",
+          "text": "Прочети повече"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/science-info/%d0%bd%d0%b0%d1%83%d1%87%d0%bd%d0%b0-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f-%d0%bf%d0%be-%d0%b4%d0%b0%d0%bd%d0%bd%d0%b8-%d0%bd%d0%b0-%d0%b1%d0%bb%d1%85-%d0%bf%d1%80%d0%b5%d0%b4/",
+          "text": "Прочети повече"
+        },
+        {
+          "url": "https://www.hypertensionleaguebg.info/science-info/sc1/",
+          "text": "Прочети повече"
+        },
+        {
+          "url": "mailto:hypertensionleaguebg@abv.bg",
+          "text": "hypertensionleaguebg@abv.bg"
+        },
+        {
+          "url": "mailto:hypertensionleaguebg@gmail.com",
+          "text": "hypertensionleaguebg@gmail.com"
+        },
+        {
+          "url": "https://www.facebook.com/Bulgarian-Hypertension-League-106850347465776/?modal=admin_todo_tour",
+          "text": "Facebook страница"
+        }
+      ]
+    },
+    {
+      "org_id": "B-SG-SHS",
+      "url": "https://www.shs.org.sg/medical-practitioner-resources/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:31:58.478866+00:00",
+      "status": "failed",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "org_id": "B-FR-SFR",
+      "url": "https://www.larhumatologie.fr/pathologie/goutte/",
+      "condition": "gout",
+      "date": "2026-11-19T16:31:58.914493+00:00",
+      "final_url": "https://www.larhumatologie.fr/pathologie/goutte/",
+      "bytes": 386124,
+      "sha256": "0e0a2e3d65be7b163972726ebab8e877bc8ec5532db8c8ade6f7a5784222c2ee",
+      "cache": "/tmp/atlas-team-b-originals/4561ee834e0a2f52.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://public.larhumatologie.fr/",
+          "text": "Site patient"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1169833020301514",
+          "text": "Recommandations SFR pour la prise en charge de la goutte : le traitement hypo-uricémiant"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1169833020301502?via%3Dihub#baep-article-footnote-id1",
+          "text": "Recommandations 2020 pour la prise en charge de la goutte : traitement des crises de goutte"
+        },
+        {
+          "url": "https://www.larhumatologie.fr/app/uploads/2025/08/Latourte-et-al-2020-Recommandations-2020-de-la-Societe-francaise-de-rhumatologie-compressed.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://www.larhumatologie.fr/media/histoire-de-la-goutte-la-maladie-des-rois/",
+          "text": "Histoire de la goutte : la maladie des rois ?"
+        },
+        {
+          "url": "https://www.larhumatologie.fr/media/quel-risque-cardiovasculaire-chez-le-goutteux/",
+          "text": "Quel risque cardiovasculaire chez le goutteux?"
+        },
+        {
+          "url": "https://www.larhumatologie.fr/media/comment-traiter-une-goutte-chez-l-insuffisant-renal/",
+          "text": "Comment traiter une goutte chez l insuffisant rénal ?"
+        },
+        {
+          "url": "https://www.larhumatologie.fr/media/gouttes-difficiles-a-traiter/",
+          "text": "Gouttes difficiles à traiter"
+        },
+        {
+          "url": "https://www.larhumatologie.fr/media/deficit-en-d-lactate-deshydrogenase-dorigine-genetique-une-cause-nouvelle-de-goutte-juvenile-enzymopathique/",
+          "text": "Déficit en D-lactate déshydrogénase d’origine génétique : une cause nouvelle de goutte juvénile enzymopathique"
+        },
+        {
+          "url": "https://www.larhumatologie.fr/media/inertie-clinique-dans-la-goutte-le-vrai-piege-pour-le-medecin/",
+          "text": "Inertie clinique dans la goutte : le vrai piège pour le médecin"
+        },
+        {
+          "url": "https://www.larhumatologie.fr/media/echographie-ou-scanner-double-energie-qui-gagne-le-match-pour-la-goutte/",
+          "text": "Echographie ou scanner double énergie : qui gagne le match pour la Goutte ?"
+        },
+        {
+          "url": "https://www.larhumatologie.fr/media/recommandations-francaises-de-la-prise-en-charge-de-la-goutte/",
+          "text": "Recommandations françaises de la prise en charge de la goutte"
+        },
+        {
+          "url": "https://www.larhumatologie.fr/media/imagerie-et-goutte-de-la-pratique-au-futur/",
+          "text": "Imagerie et goutte : de la pratique au futur"
+        },
+        {
+          "url": "https://www.larhumatologie.fr/media/identification-de-nouveaux-mediateurs-inflammatoires-dont-le-tnfsf14-au-cours-de-la-crise-de-goutte-etude-du-profil-cytokinique-dans-la-cohorte-prospective-goutros/",
+          "text": "Identification de nouveaux médiateurs inflammatoires dont le TNFSF14 au cours de la crise de goutte : étude du profil cytokinique dans la cohorte prospective GO"
+        }
+      ]
+    },
+    {
+      "org_id": "B-IE-DIABETESIRELAND",
+      "url": "https://www.diabetes.ie/downloads/published-reports/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:31:59.572904+00:00",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "org_id": "B-PE-SPHTA",
+      "url": "https://sphta.org.pe/guias-de-manejo/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:31:59.638896+00:00",
+      "bytes": 307518,
+      "sha256": "3dd3456a7e0ce263b7f97a37f9b66e0e83e8b518172f09602c412729aea1aebe",
+      "cache": "/tmp/atlas-team-b-originals/8c43f3cbe9d9d6b0.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.lash-hypertension.org/",
+          "text": ""
+        },
+        {
+          "url": "https://www.facebook.com/sociedadperuanadehipertesionarterial",
+          "text": "Facebook-f"
+        },
+        {
+          "url": "https://sphta.org.pe/wp-content/uploads/2024/12/SPHTA-ESTATUTO-APROBADO-03-DE-ABRIL-2013.pdf",
+          "text": "Estatutos"
+        },
+        {
+          "url": "https://sphta.org.pe/categorias-eventos/congreso-peruano-de-hipertension-arterial-2026/",
+          "text": "Congreso Peruano de Hipertensión Arterial 2026"
+        },
+        {
+          "url": "https://sphta.org.pe/categorias-eventos/xv-congreso-internacional-de-hipertension-arterial-2025/",
+          "text": "XV Congreso Internacional de Hipertensión Arterial 2025"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo-de-hipertension-arterial/",
+          "text": "Guías de manejo de hipertensión arterial"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/",
+          "text": "Boletines de la WHL (World Hypertension League)"
+        },
+        {
+          "url": "https://sphta.org.pe/area-de-pacientes/",
+          "text": "Area de Pacientes"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/guideline-for-the-prevention-detection-evaluation-and-management-of-high-blood-pressure-in-adults/",
+          "text": "Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/2024-esc-guidelines-for-the-management-of-elevated-blood-pressure-and-hypertension/",
+          "text": "2024 ESC Guidelines for the management of elevated blood pressure and hypertension"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/hypertension-canadas-2020-comprehensive-guidelines-for-the-prevention-diagnosis-risk-assessment-and-treatment-of-hypertension-in-adults-and-children/",
+          "text": "Hypertension Canada’s 2020 Comprehensive Guidelines for the Prevention, Diagnosis, Risk Assessment, and Treatment of Hypertension in Adults and Children"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/2024-latin-american-society-of-hypertension-guidelines-on-the-management-of-arterial-hypertension-and-related-comorbidities-in-latin-america/",
+          "text": "2024 Latin American Society of Hypertension guidelines on the management of arterial hypertension and related comorbidities in Latin America"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/2024-european-society-of-hypertension-clinical-practice-guidelines-for-the-management-of-arterial-hypertension/",
+          "text": "2024 European Society of Hypertension clinical practice guidelines for the management of arterial hypertension"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/2023-esh-guidelines-for-the-management-of-arterial-hypertension/",
+          "text": "2023 ESH Guidelines for the management of arterial hypertension"
+        }
+      ]
+    },
+    {
+      "org_id": "B-LT-LGD",
+      "url": "https://gastroenterologija.lt/pasiruosimai-tyrimams/feritinas-ir-gelezies-tyrimai/",
+      "condition": "hemochromatosis",
+      "date": "2026-11-19T16:31:59.657617+00:00",
+      "final_url": "https://gastroenterologija.lt/pasiruosimai-tyrimams/feritinas-ir-gelezies-tyrimai/",
+      "bytes": 235747,
+      "sha256": "87082f0a5b69984017ad18085963e9dbd5f39d026289cfd0401f6ab591ee0e36",
+      "cache": "/tmp/atlas-team-b-originals/0ad76490b883045d.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://gastroenterologija.lt/pacientams/",
+          "text": "Pacientams"
+        },
+        {
+          "url": "https://gastroenterologija.lt/pacientu-draugijos/",
+          "text": "Pacientų draugijos"
+        }
+      ]
+    },
+    {
+      "org_id": "B-TH-RCPT",
+      "url": "https://www2.rcpt.org/web/content/1022",
+      "condition": "high_chol",
+      "date": "2026-11-19T16:32:00.042603+00:00",
+      "bytes": 28295,
+      "sha256": "40140e82c7bcf3b72e8e854b12327dc05c73ada0ffcd18ee4458fea8a29b6cb6",
+      "cache": "/tmp/atlas-team-b-originals/6bd80da572008446.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": []
+    },
+    {
+      "org_id": "B-PY-SPMI",
+      "url": "https://www.spmi.org.py/recursosold/",
+      "condition": "high_chol",
+      "date": "2026-11-19T16:32:00.049807+00:00",
+      "status": "failed",
+      "error": "<urlopen error [Errno 54] Connection reset by peer>"
+    }
+  ],
+  "originals": [
+    {
+      "key": "HR_CHOL",
+      "url": "https://www.udruga-dislipidemije.hr/_files/ugd/9e053c_032c23c166244eb39077ec0a1279e9fe.pdf",
+      "org_id": "B-HR-DISLIP",
+      "checked_on": "2026-11-19T16:32:29.016373+00:00",
+      "final_url": "https://www.udruga-dislipidemije.hr/_files/ugd/9e053c_032c23c166244eb39077ec0a1279e9fe.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "b0f5f754e7804972dab8dafa18a0495e19394acedc398e0dc6327c3331516163",
+      "bytes": 5209131,
+      "path": "/tmp/atlas-team-b-originals/HR_CHOL.bin",
+      "pdf": true
+    },
+    {
+      "key": "TN_DIAB2026",
+      "url": "https://www.endocrino-tunisie.com/uploads/images/cd684a9fa7e1f885018b3a21327f5000.pdf",
+      "org_id": "B-TN-STEDIAM",
+      "checked_on": "2026-11-19T16:32:29.016623+00:00",
+      "final_url": "https://www.endocrino-tunisie.com/uploads/images/cd684a9fa7e1f885018b3a21327f5000.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "7698b97a5cee87c602c88a321ed1909616a5c35c0a5b0c6d4e71f84bb7125f21",
+      "bytes": 3554534,
+      "path": "/tmp/atlas-team-b-originals/TN_DIAB2026.bin",
+      "pdf": true
+    },
+    {
+      "key": "FR_GOUT2020",
+      "url": "https://www.larhumatologie.fr/app/uploads/2025/08/Latourte-et-al-2020-Recommandations-2020-de-la-Societe-francaise-de-rhumatologie-compressed.pdf",
+      "org_id": "B-FR-SFR",
+      "checked_on": "2026-11-19T16:32:29.017038+00:00",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "KR_LIP2026",
+      "url": "https://www.lipid.or.kr/module/board/download.php?boardid=guideline&b_idx=1456&idx=10845",
+      "org_id": "B-KR-KSLA",
+      "checked_on": "2026-11-19T16:32:29.017099+00:00",
+      "final_url": "https://www.lipid.or.kr/module/board/download.php?boardid=guideline&b_idx=1456&idx=10845",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "f82bdb71e51152175a09b47e1f4603059faa056dd2b57295ce387e676a4d97ca",
+      "bytes": 11619565,
+      "path": "/tmp/atlas-team-b-originals/KR_LIP2026.bin",
+      "pdf": true
+    },
+    {
+      "key": "BE_BP2021",
+      "url": "https://belhyp.be/wp-content/uploads/2023/03/ESH-guideline-BP-measurement_vertaald_nederlandse-versie_final.pdf",
+      "org_id": "B-BE-BHC",
+      "checked_on": "2026-11-19T16:32:29.805819+00:00",
+      "final_url": "https://belhyp.be/wp-content/uploads/2023/03/ESH-guideline-BP-measurement_vertaald_nederlandse-versie_final.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "c0385a35c70ea427e45db1a856064d65268cc007e2c99ca38408cf127e3800df",
+      "bytes": 1404547,
+      "path": "/tmp/atlas-team-b-originals/BE_BP2021.bin",
+      "pdf": true
+    },
+    {
+      "key": "NL_CVRM2026",
+      "url": "https://hypertensie.nl/nl/over-nhv/richtlijnen/download-4-Richtlijnen.pdf",
+      "org_id": "B-NL-NHV",
+      "checked_on": "2026-11-19T16:32:29.912985+00:00",
+      "final_url": "https://hypertensie.nl/nl/over-nhv/richtlijnen/download-4-Richtlijnen.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "8d2b45931e400f96ba89c439a0eae86449b8940d5cfe6909133c6617777025c5",
+      "bytes": 5839506,
+      "path": "/tmp/atlas-team-b-originals/NL_CVRM2026.bin",
+      "pdf": true
+    },
+    {
+      "key": "HR_DIABHTN",
+      "url": "https://www.dijabetes.hr/secerna-bolest-i-hipertenzija/",
+      "org_id": "B-HR-HSDU",
+      "checked_on": "2026-11-19T16:32:30.691052+00:00",
+      "final_url": "https://www.dijabetes.hr/secerna-bolest-i-hipertenzija/",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "fffa5a529924ff34ad886f744c8a4023b4616adc25c1448ea3171bbfa2d97993",
+      "bytes": 120063,
+      "path": "/tmp/atlas-team-b-originals/HR_DIABHTN.bin",
+      "pdf": false
+    },
+    {
+      "key": "PE_PATIENT",
+      "url": "https://sphta.org.pe/area-de-pacientes/",
+      "org_id": "B-PE-SPHTA",
+      "checked_on": "2026-11-19T16:32:31.909199+00:00",
+      "final_url": "https://sphta.org.pe/area-de-pacientes/",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "38f04e6f6be9a55f8f84ebed633b3722e528804087d4d3eb39b3cd16a670e256",
+      "bytes": 368848,
+      "path": "/tmp/atlas-team-b-originals/PE_PATIENT.bin",
+      "pdf": false
+    },
+    {
+      "key": "LV_DIABETES",
+      "url": "https://www.diabets.lv/_files/ugd/138739_bc20891db8eb4a289f66de6ee7abee3d.pdf",
+      "org_id": "B-LV-LDF",
+      "checked_on": "2026-11-19T16:32:32.060571+00:00",
+      "final_url": "https://da5252bd-b011-4e14-9d36-eb462d20eb01.filesusr.com/ugd/138739_bc20891db8eb4a289f66de6ee7abee3d.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "dc61ca26c102f6e3b5f69fe760cf3daed9ea4b14dccd46fe27c7a4c41e77a06c",
+      "bytes": 3995061,
+      "path": "/tmp/atlas-team-b-originals/LV_DIABETES.bin",
+      "pdf": true
+    },
+    {
+      "key": "UZ_PATIENT",
+      "url": "https://natendo.uz/pages/patients?lang=ru",
+      "org_id": "B-UZ-NAEU",
+      "checked_on": "2026-11-19T16:32:32.210321+00:00",
+      "final_url": "https://natendo.uz/pages/patients?lang=ru",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "23667576fb683753a1ed7ad515ca9b2cb60a6d0bf1ce92ab69990577f7b079f5",
+      "bytes": 43562,
+      "path": "/tmp/atlas-team-b-originals/UZ_PATIENT.bin",
+      "pdf": false
+    },
+    {
+      "key": "HU_PATIENT",
+      "org_id": "B-HU-MDT",
+      "url": "https://www.doki.net/tarsasag/diabetespaciens/info.aspx?sp=200&web_id=",
+      "checked_on": "2026-11-19T16:32:32.455132+00:00",
+      "final_url": "https://www.doki.net/tarsasag/diabetespaciens/info.aspx?sp=200&web_id=",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "b36e5a149116a969c37183d23c2bce0d2736a9c50bf0826b934f2e829dffb23d",
+      "bytes": 126369,
+      "path": "/tmp/atlas-team-b-originals/HU_PATIENT.bin",
+      "pdf": false
+    },
+    {
+      "key": "CO_BLOG",
+      "org_id": "B-CO-ASO",
+      "url": "https://asodiabetes.org/blog/",
+      "checked_on": "2026-11-19T16:32:33.094620+00:00",
+      "final_url": "https://asodiabetes.org/blog/",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "eb5d1222e6c9281860e9ac13756ab5c4ae0f1d15a4a11a5c07ca772c932c7c14",
+      "bytes": 179292,
+      "path": "/tmp/atlas-team-b-originals/CO_BLOG.bin",
+      "pdf": false
+    },
+    {
+      "key": "GR_HTN2024",
+      "org_id": "B-GR-EEY",
+      "url": "https://hypertasi.gr/images/guidelines/2024-ESH-guidelines-summary-with-graphs.pdf",
+      "checked_on": "2026-11-19T16:32:33.582929+00:00",
+      "final_url": "https://hypertasi.gr/images/guidelines/2024-ESH-guidelines-summary-with-graphs.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "b631f1ab132dcee6d414881f911733ae57289814cc97ecc470e48f8317cad3cf",
+      "bytes": 13690796,
+      "path": "/tmp/atlas-team-b-originals/GR_HTN2024.bin",
+      "pdf": true
+    },
+    {
+      "key": "PE_MONITOR",
+      "org_id": "B-PE-SPHTA",
+      "url": "https://sphta.org.pe/monitorea-tu-presion-arterial-regularmente/",
+      "checked_on": "2026-11-19T16:34:48.957224+00:00",
+      "final_url": "https://sphta.org.pe/monitorea-tu-presion-arterial-regularmente/",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "a6a872e1b6e7d0cd1fd7d22e7ae5a601d850a3eabc28a1486b22766740fba895",
+      "bytes": 185797,
+      "path": "/tmp/atlas-team-b-originals/PE_MONITOR.bin",
+      "pdf": false
+    },
+    {
+      "key": "HU_EDUCATION",
+      "org_id": "B-HU-MDT",
+      "url": "https://www.doki.net/tarsasag/diabetespaciens/info.aspx?sp=414&web_id=",
+      "checked_on": "2026-11-19T16:34:48.957652+00:00",
+      "final_url": "https://www.doki.net/tarsasag/diabetespaciens/info.aspx?sp=414&web_id=",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "77c5fc8efe0af2eb348d86a5659e24f1ac59f443c29e4a6d7a04db90ed46301e",
+      "bytes": 109836,
+      "path": "/tmp/atlas-team-b-originals/HU_EDUCATION.bin",
+      "pdf": false
+    },
+    {
+      "key": "CO_MYTHS",
+      "org_id": "B-CO-ASO",
+      "url": "https://asodiabetes.org/2023/07/24/que-la-diabetes-que/",
+      "checked_on": "2026-11-19T16:34:48.957869+00:00",
+      "final_url": "https://asodiabetes.org/2023/07/24/que-la-diabetes-que/",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "9788e3d02e21960669c81e4ba0311e85fd520feaf58d6584b60d7bacdf1a30e9",
+      "bytes": 126905,
+      "path": "/tmp/atlas-team-b-originals/CO_MYTHS.bin",
+      "pdf": false
+    },
+    {
+      "key": "LV_FAQ",
+      "org_id": "B-LV-LDF",
+      "url": "https://www.diabets.lv/biezak-uzdotie-jautajumi",
+      "checked_on": "2026-11-19T16:34:48.957936+00:00",
+      "final_url": "https://www.diabets.lv/biezak-uzdotie-jautajumi",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "d20d07a3276c3bc15d28cb6c75da5868982e93ae59900cec452a2ebbce2f7349",
+      "bytes": 1486609,
+      "path": "/tmp/atlas-team-b-originals/LV_FAQ.bin",
+      "pdf": false
+    },
+    {
+      "key": "NLM_EJIM",
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9003220",
+      "checked_on": "2026-11-19T16:35:16.516852+00:00",
+      "final_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9003220",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "5343bd3a5f61366ccef936dd8ace3a3f61f80db313274cefafe45c56db40415d",
+      "bytes": 51767,
+      "path": "/tmp/atlas-team-b-originals/NLM_EJIM.bin",
+      "pdf": false
+    },
+    {
+      "key": "NLM_JHYP",
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/8306882",
+      "checked_on": "2026-11-19T16:35:16.517343+00:00",
+      "final_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/8306882",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "a15902c8ee345cc8e946d563f36d77eca56c0c27149d8cad6d01fe3c3135fa7f",
+      "bytes": 52024,
+      "path": "/tmp/atlas-team-b-originals/NLM_JHYP.bin",
+      "pdf": false
+    }
+  ],
+  "rejected_or_pending": {
+    "FR_GOUT2020": "Exact society-host PDF404; retain publisher abstract lead, not qualified from title.",
+    "LV_DIABETES": "Actual substantive booklet but named commercial supporter not established original author/issuer. Sponsorship not authorship.",
+    "HU_EDUCATION": "Glossary page remains empty dynamic content and links; no substantive glossary observed.",
+    "PE_MONITOR": "Navigation and brief text only; actual linked measurement booklet follow-up retained.",
+    "UZ_PATIENT": "No substantive patient text observed; retain dynamic/original publication lead.",
+    "LV_FAQ": "Mostly organizational FAQ and generic tips, not substantive condition education."
+  },
+  "limits": "Full originals cached locally only, no copyrighted PDF bodies committed; source qualification separate from approval."
+}

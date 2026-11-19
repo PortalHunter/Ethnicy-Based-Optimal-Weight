@@ -1,0 +1,47 @@
+{
+  "clinical_release": "research_lead_only",
+  "reviews": [
+    {
+      "key": "B149-BM-DATE",
+      "reviewer": "original issuer or independent source verifier",
+      "url": "https://cdn.prod.website-files.com/6058a24259403af6c70fee3a/6998bbcb3c83a74710980bfb_Eye%20Health%20Screening%20Report%202025-compressed.pdf",
+      "question": "Cover12–13November2025 conflicts with executive summary12–13November2026;72 selected attendees not national prevalence. Retain U; existing issue107."
+    },
+    {
+      "key": "B149-ES-UNITS",
+      "reviewer": "independent clinician/nutrition methods reviewer under separate issue27",
+      "url": "https://www.sediabetes.org/wp-content/uploads/FINAL-Trat-diet_Diabetes_INTERACTIVO_V25_compressed-1.pdf",
+      "question": "Printed63–64 gives2.3mg/day sodium rather than expected gram-scale quantity. Verify original/correction; no automated clinical correction or approval."
+    },
+    {
+      "key": "B149-NP-ELIGIBILITY",
+      "reviewer": "independent methods reviewer",
+      "url": "https://www.nhjournal.info/pdf/vol20no2/2_OR2_NHJ2023_Vol20No2_7-12.pdf",
+      "question": "Abstract includes18+; main methods says>20. Resolve actual eligibility and controls before quantitative reuse."
+    },
+    {
+      "key": "B149-EE-GENETIC-ANCESTRY",
+      "reviewer": "independent genetic/population and clinical reviewer",
+      "url": "https://ers.ee/wp-content/uploads/2023/01/podagra-2014-e.k.pdf",
+      "question": "Dated ethnic/genetic and male/lifestyle stereotypes plus prevalence tables need appraisal; not verified personal or community inference."
+    },
+    {
+      "key": "B149-CZ-HFE",
+      "reviewer": "independent clinical/genetic reviewer",
+      "url": "https://www.ces-hep.cz/d-doc/1/246/638804887904733333/doporuceny-postup-chs-hemochromatoza.pdf",
+      "question": "Undated HFE penetrance, variant causality, ancestry frequency, screening and treatment statements unapproved."
+    },
+    {
+      "key": "B148-IN-THRESHOLD",
+      "reviewer": "independent clinical source reviewer under issue27",
+      "url": "https://www.rssdi.in/newwebsite/pdfdata/rssdiGuidelines/2022/2022%20RSSDI%20Clinical%20Practice%20Recommendations%20for%20the%20management%20of%20Type%202%20Diabetes.pdf",
+      "question": "PDF91 higher-risk ASCVD>15% versus PDF92<15% conflict; do not adopt targets."
+    }
+  ],
+  "metadata_rejections": [
+    {
+      "key": "PY_HTNADH",
+      "finding": "Rendered full one-page PDF is an author participation certificate, with title only; not substantive poster or study. No qualification."
+    }
+  ]
+}

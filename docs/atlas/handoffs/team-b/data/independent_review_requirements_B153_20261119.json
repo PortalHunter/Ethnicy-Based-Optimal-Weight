@@ -1,0 +1,21 @@
+{
+  "clinical_release": "research_lead_only",
+  "reviews": [
+    {
+      "source": "https://globalheartjournal.com/articles/1412/files/67d162dc3d667.pdf",
+      "question": "Verify age40–69 restriction, weighted versus unweighted counts, TG>400/missingBP exclusions, statin self-report and ancestry-as-risk-enhancer interpretation. No genotype inference or policy approval."
+    },
+    {
+      "source": "https://diabetes.or.kr/bbs/download.php?code=guide&number=1522",
+      "question": "CatalogueJuly9 versus colophonJuly29 chronology/reupload/version history unverified; medical recommendations and population/genetic scope remain independent."
+    },
+    {
+      "source": "https://drive.google.com/file/d/1z41agdlLFYWUWECEliIQbFi7hFd10mMa/view",
+      "question": "Multidisciplinary committee versus supporting societies, device validity, thresholds/frailty/age subgroups and diagnostic methods require independent clinical appraisal."
+    },
+    {
+      "source": "https://moh.gov.vu/healthsymposium/docs/2022/SEYMOUR%2C%20Jessica.pdf",
+      "question": "Visual original figure7 labels high-blood-pressure reason for programme attendance20.2%, not confirmed clinical hypertension or population prevalence. Verify retrospective cohort/missingness and definitions before quantitative reuse."
+    }
+  ]
+}

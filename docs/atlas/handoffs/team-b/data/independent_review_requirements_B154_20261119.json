@@ -1,0 +1,17 @@
+{
+  "clinical_release": "research_lead_only",
+  "reviews": [
+    {
+      "source": "https://www.malaysianheart.org/management.file/doc/202312237439134019.pdf",
+      "question": "Original NHAM/Academy joint ownership, Ministry review, legal lifecycle and downstream reuse permissions distinct; independent medical/genetic/ancestry and conflict review required."
+    },
+    {
+      "source": "https://congress2025.msh.my/abstract/A2BD1F2",
+      "question": "Original191-person single-clinic poster abstract: verify definitions, registry completeness, confidence intervals and odds-ratio interpretation; national or Malay genotype inference unsupported."
+    },
+    {
+      "source": "https://www.larhumatologie.fr/actualite/goutte-un-traitement-hypouricemiant-maintenu-a-la-cible-permet-une-disparition-effective-des-depots-uratiques-et-une-reduction-des-acces-aigus/",
+      "question": "French educational review is not Norwegian original cohort. Independently verify5-year retention/denominators, ultrasound measurement and causal treatment interpretation before quantitative/clinical reuse."
+    }
+  ]
+}

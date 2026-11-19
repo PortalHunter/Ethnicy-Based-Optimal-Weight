@@ -1,0 +1,25 @@
+[
+  {
+    "record_id": "B149-BM-DATE-D3",
+    "area_m49": "060",
+    "condition_key": "diabetes",
+    "query": "Original linked Bermuda Eye Health Screening Report cover, executive summary and denominator inspection",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "actual_new_underlying_original_pdf_inspection",
+        "url": "https://cdn.prod.website-files.com/6058a24259403af6c70fee3a/6998bbcb3c83a74710980bfb_Eye%20Health%20Screening%20Report%202025-compressed.pdf",
+        "observation": "Full12-page source downloaded and inspected: cover12\u201313November2025; executive summary12\u201313November2026;72 screening attendees, selected voluntary sample, no national prevalence. Date/edition conflict unresolved."
+      },
+      {
+        "approach": "existing_named_original_source_review_issue",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/107",
+        "observation": "Existing independent original-report verification escalation retained. New actual original reveals date discrepancy; not qualification or issue closure."
+      }
+    ],
+    "result": "D3 source-edition conflict requiring original issuer or independent human verification; original page remains U, no national-absence claim or inferred correct year.",
+    "limits": "Original condition content and selected-sample denominator observed, but contradictory event year prevents clean edition verification. Broader country/native publication search is not exhausted. No clinical, population-statistical or rights approval.",
+    "next_action": "Existing issue107: independently verify correct event/report year and original methods; retain72-attendee scope and uncertainty."
+  }
+]

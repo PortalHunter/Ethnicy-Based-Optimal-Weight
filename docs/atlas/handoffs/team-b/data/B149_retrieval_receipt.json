@@ -1,0 +1,3000 @@
+{
+  "navigation": [
+    {
+      "org_id": "B-PT-SPEDM",
+      "url": "https://www.spedm.pt/pt/orientacoes-publicacoes",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:09:05.119185+00:00",
+      "final_url": "https://www.spedm.pt/pt/orientacoes-publicacoes",
+      "bytes": 46055,
+      "sha256": "22bc1830eb66880dabdaf6d738882543c22c5bfd968628ff9475ecb9a7ed452a",
+      "cache": "/tmp/atlas-team-b-originals/3fa59ba5ede7c986.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.spedm.pt/pt/orientacoes-publicacoes/a-diabetologia-em-portugal",
+          "text": "Ismael Cerqueira Vieira \n                                     \n                                                                 \n                               "
+        },
+        {
+          "url": "https://www.spedm.pt/pt/orientacoes-publicacoes/protocolo-posicao-sobre-antidiabeticos-nao-insulinicos-no-doente-internado-nao-critico",
+          "text": "Grupo de Estudo Diabetes Mellitus \n                                     \n                                                                 \n                     "
+        },
+        {
+          "url": "https://www.spedm.pt/pt/orientacoes-publicacoes/libreview--plataforma-de-gestao-de-dados-na-diabetes",
+          "text": "Abbott \n                                     \n                                                                 \n                                                "
+        },
+        {
+          "url": "https://www.spedm.pt/pt/orientacoes-publicacoes/gastroenteropancreatic-neuroendocrine-neoplasia-characterization-in-portugal-results-from-the-nets-study-group-of-the-portuguese-society-of-endocrinology-diabetes-and-metabolism",
+          "text": "Grupos de Estudo Tumores Neuroendócrinos \n                                     \n                                                                 \n              "
+        },
+        {
+          "url": "https://www.spedm.pt/pt/orientacoes-publicacoes/portuguese-brazilian-evidence-based-guideline-on-the-management-of-hyperglycemia-in-type-2-diabetes-mellitus",
+          "text": "Diabetology & Metabolic Syndrome \n                                     \n                                                                 \n                      "
+        }
+      ]
+    },
+    {
+      "org_id": "B-ES-SED",
+      "url": "https://www.sediabetes.org/publicaciones/publicaciones-sed/actualizacion-en-el-tratamiento-dietetico-de-la-prediabetes-y-diabetes-tipo-2-2/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:09:05.119706+00:00",
+      "final_url": "https://www.sediabetes.org/publicaciones/publicaciones-sed/actualizacion-en-el-tratamiento-dietetico-de-la-prediabetes-y-diabetes-tipo-2-2/",
+      "bytes": 261496,
+      "sha256": "a6b8404f46cf33c62af1bec5de7c4510aabf872424a10411537135bf9acbc637",
+      "cache": "/tmp/atlas-team-b-originals/ea0fc9380dee89b2.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.sediabetes.org/",
+          "text": ""
+        },
+        {
+          "url": "https://www.sediabetes.org/hazte-socio/",
+          "text": "Hazte socio"
+        },
+        {
+          "url": "https://www.sediabetes.org/acceso-a-socios/",
+          "text": "SOCIOS"
+        },
+        {
+          "url": "https://www.sediabetes.org/institucion/",
+          "text": "Institución"
+        },
+        {
+          "url": "https://www.sediabetes.org/institucion/presentacion/",
+          "text": "Presentación"
+        },
+        {
+          "url": "https://www.sediabetes.org/institucion/junta-directiva/",
+          "text": "Junta Directiva"
+        },
+        {
+          "url": "https://www.sediabetes.org/institucion/estatutos/",
+          "text": "Estatutos"
+        },
+        {
+          "url": "https://www.sediabetes.org/institucion/historia/",
+          "text": "Historia de la SED"
+        },
+        {
+          "url": "https://www.sediabetes.org/colaboraciones/",
+          "text": "Colaboraciones"
+        },
+        {
+          "url": "https://www.sediabetes.org/colaboraciones/colaboraciones-con-instituciones/",
+          "text": "Colaboraciones con instituciones"
+        },
+        {
+          "url": "https://www.sediabetes.org/colaboraciones/colaboraciones-con-la-industria/",
+          "text": "Colaboraciones con la industria"
+        },
+        {
+          "url": "https://www.sediabetes.org/colaboraciones/sociedades-afines/",
+          "text": "Sociedades afines"
+        },
+        {
+          "url": "https://www.sediabetes.org/fundacion-sed/",
+          "text": "Actividades"
+        },
+        {
+          "url": "https://www.sediabetes.org/fundacion/institucion/",
+          "text": "Institución"
+        },
+        {
+          "url": "https://www.sediabetes.org/fundacion/institucion/patronato/",
+          "text": "Patronato"
+        },
+        {
+          "url": "https://www.sediabetes.org/fundacion/institucion/estatutos/",
+          "text": "Estatutos"
+        },
+        {
+          "url": "https://www.sediabetes.org/fundacion-sed/dia-mundial-de-la-diabetes/",
+          "text": "Día Mundial de la Diabetes"
+        },
+        {
+          "url": "https://www.sediabetes.org/fundacion-sed/otras-actividades/",
+          "text": "Otras actividades"
+        },
+        {
+          "url": "https://www.sediabetes.org/grupos-de-trabajo/",
+          "text": "Grupos de trabajo"
+        },
+        {
+          "url": "https://www.sediabetes.org/cientifico-y-asistencial/",
+          "text": "Científico y Asistencial"
+        },
+        {
+          "url": "https://www.sediabetes.org/cientifico-y-asistencial/congresos/",
+          "text": "Congresos"
+        },
+        {
+          "url": "https://www.sediabetes.org/cientifico-y-asistencial/proyectos-de-investigacion/",
+          "text": "Proyectos de investigación"
+        },
+        {
+          "url": "https://www.sediabetes.org/cientifico-y-asistencial/ayudas-y-premios/",
+          "text": "Ayudas y Premios"
+        },
+        {
+          "url": "https://www.sediabetes.org/cientifico-y-asistencial/cursos-sed/",
+          "text": "Cursos SED"
+        },
+        {
+          "url": "https://www.sediabetes.org/cientifico-y-asistencial/otros-cursos/",
+          "text": "Otros cursos"
+        },
+        {
+          "url": "https://www.sediabetes.org/recursos/",
+          "text": "Recursos para profesionales"
+        },
+        {
+          "url": "https://www.sediabetes.org/publicaciones/",
+          "text": "Publicaciones"
+        },
+        {
+          "url": "https://www.sediabetes.org/recursos/calculadoras/",
+          "text": "Calculadoras"
+        },
+        {
+          "url": "https://www.sediabetes.org/recursos/sed-tv/",
+          "text": "SED TV"
+        },
+        {
+          "url": "https://www.sediabetes.org/recursos/sed-tv/webinars/",
+          "text": "Webinars"
+        },
+        {
+          "url": "https://www.sediabetes.org/recursos/sed-tv/congresos-sed-tv/",
+          "text": "Congresos"
+        },
+        {
+          "url": "https://www.sediabetes.org/recursos/sed-tv/cursos-y-jornadas/",
+          "text": "Cursos y Jornadas"
+        },
+        {
+          "url": "https://www.sediabetes.org/recursos/sed-tv/otros-videos/",
+          "text": "Otros Videos"
+        },
+        {
+          "url": "https://www.sediabetes.org/herramientas-digitales-para-profesionales/",
+          "text": "Herramientas digitales para profesionales"
+        },
+        {
+          "url": "https://www.sediabetes.org/posters-presentados-en-congresos/",
+          "text": "Pósters presentados en congresos"
+        },
+        {
+          "url": "https://www.sediabetes.org/recursos/registros-redcap/",
+          "text": "Registros RedCAP"
+        },
+        {
+          "url": "https://www.sediabetes.org/pacientes/",
+          "text": "Recursos para pacientes"
+        },
+        {
+          "url": "https://www.revistadiabetes.org/",
+          "text": "Revista Diabetes"
+        },
+        {
+          "url": "https://www.sediabetes.org/pacientes/materiales/",
+          "text": "Materiales"
+        },
+        {
+          "url": "https://www.sediabetes.org/videos/",
+          "text": "Vídeos"
+        },
+        {
+          "url": "https://www.fedesp.es/portal/federaciones/",
+          "text": "Asociaciones pacientes"
+        },
+        {
+          "url": "https://www.sediabetes.org/herramientas-digitales-para-pacientes/",
+          "text": "Herramientas digitales para pacientes"
+        },
+        {
+          "url": "https://www.sediabetes.org/comunicacion/",
+          "text": "Comunicación"
+        },
+        {
+          "url": "https://www.sediabetes.org/comunicacion/noticias/",
+          "text": "Noticias"
+        },
+        {
+          "url": "https://www.sediabetes.org/comunicacion/sala-de-prensa/",
+          "text": "Sala de prensa"
+        },
+        {
+          "url": "https://www.sediabetes.org/comunicacion/sed-en-los-medios/",
+          "text": "SED en los medios"
+        },
+        {
+          "url": "https://www.sediabetes.org/comunicacion/agenda/",
+          "text": "Agenda"
+        },
+        {
+          "url": "https://www.sediabetes.org/comunicacion/bolsa-de-empleo/",
+          "text": "Bolsa de empleo"
+        },
+        {
+          "url": "https://www.sediabetes.org",
+          "text": "Home"
+        },
+        {
+          "url": "https://www.sediabetes.org/publicaciones/publicaciones-sed/",
+          "text": "Publicaciones SED"
+        },
+        {
+          "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.sediabetes.org%2Fpublicaciones%2Fpublicaciones-sed%2Factualizacion-en-el-tratamiento-dietetico-de-la-prediabetes-y-diabetes-tipo-2-2%2F",
+          "text": ""
+        },
+        {
+          "url": "https://twitter.com/intent/tweet?text=Actualizaci%C3%B3n%20en%20el%20tratamiento%20diet%C3%A9tico%20de%20la%20prediabetes%20y%20diabetes%20tipo%202&url=https%3A%2F%2Fwww.sediabetes.org%2Fpublicaciones%2Fpublicaciones-sed%2Factualizacion-en-el-tratamiento-dietetico-de-la-prediabetes-y-diabetes-tipo-2-2%2F",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.sediabetes.org%2Fpublicaciones%2Fpublicaciones-sed%2Factualizacion-en-el-tratamiento-dietetico-de-la-prediabetes-y-diabetes-tipo-2-2%2F",
+          "text": ""
+        },
+        {
+          "url": "https://api.whatsapp.com/send?text=Actualizaci%C3%B3n%20en%20el%20tratamiento%20diet%C3%A9tico%20de%20la%20prediabetes%20y%20diabetes%20tipo%202%20https%3A%2F%2Fwww.sediabetes.org%2Fpublicaciones%2Fpublicaciones-sed%2Factualizacion-en-el-tratamiento-dietetico-de-la-prediabetes-y-diabetes-tipo-2-2%2F",
+          "text": ""
+        },
+        {
+          "url": "https://telegram.me/share/url?url=https%3A%2F%2Fwww.sediabetes.org%2Fpublicaciones%2Fpublicaciones-sed%2Factualizacion-en-el-tratamiento-dietetico-de-la-prediabetes-y-diabetes-tipo-2-2%2F&text=Actualizaci%C3%B3n%20en%20el%20tratamiento%20diet%C3%A9tico%20de%20la%20prediabetes%20y%20diabetes%20tipo%202",
+          "text": ""
+        },
+        {
+          "url": "https://www.sediabetes.org/contacto/",
+          "text": "Contacto"
+        },
+        {
+          "url": "https://www.sediabetes.org/aviso-legal/",
+          "text": "Aviso legal"
+        },
+        {
+          "url": "https://www.sediabetes.org/politica-de-cookies/",
+          "text": "Política de Cookies"
+        },
+        {
+          "url": "https://www.facebook.com/SEDiabetes/",
+          "text": "Seguir"
+        },
+        {
+          "url": "https://twitter.com/sediabetes",
+          "text": "Seguir"
+        },
+        {
+          "url": "https://es.linkedin.com/company/sociedad-espa%C3%B1ola-de-diabetes",
+          "text": "Seguir"
+        },
+        {
+          "url": "https://www.youtube.com/c/SociedadEspa%C3%B1oladeDiabetes",
+          "text": "Seguir"
+        },
+        {
+          "url": "https://www.instagram.com/sediabetes/?hl=es",
+          "text": "Seguir"
+        }
+      ]
+    },
+    {
+      "org_id": "B-TH-TES",
+      "url": "https://www.thaiendocrine.org/guideline/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:09:05.119906+00:00",
+      "final_url": "https://www.thaiendocrine.org/guideline/",
+      "bytes": 184537,
+      "sha256": "c105f808d6080837f64917208e9fe0d082016ebd986619d6d2fa913df9ead8ad",
+      "cache": "/tmp/atlas-team-b-originals/9ce24078ab85c780.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.thaiendocrine.org/preexisting-diabetes-and-pregnancy-an-endocrine-society-and-european-society-of-endocrinology-joint-clinical-practice-guideline/",
+          "text": "Preexisting Diabetes and Pregnancy: An Endocrine Society and European Society of Endocrinology Joint Clinical Practice Guideline"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/the-ageing-thyroid-implications-for-longevity-and-patient-care/",
+          "text": "The ageing thyroid: implications for longevity and patient care"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/2023-esc-guidelines-for-the-management-of-cardiovascular-disease-in-patients-with-diabetes/",
+          "text": "2023 ESC Guidelines for the management of cardiovascular disease in patients with diabetes"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/the-kidney-disease-improving-global-outcomes-kdigo-2020-clinical-practice-guideline-for-diabetes-management-in-chronic-kidney-disease-ckd/",
+          "text": "The Kidney Disease: Improving Global Outcomes (KDIGO) 2020 Clinical Practice Guideline for Diabetes Management in Chronic Kidney Disease (CKD)"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/primary-prevention-of-ascvd-and-t2dm-in-patients-at-metabolic-risk-an-endocrine-society-clinical-practice-guideline/",
+          "text": "Primary Prevention of ASCVD and T2DM in Patients at Metabolic Risk: An Endocrine Society Clinical Practice Guideline"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/treatment-of-diabetes-in-older-adults-an-endocrine-society-clinical-practice-guideline/",
+          "text": "Treatment of Diabetes in Older Adults: An Endocrine Society Clinical Practice Guideline"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/2018-u-s-guideline-on-management-of-blood-cholesterol/",
+          "text": "2018 U.S. Guideline on Management of Blood Cholesterol"
+        },
+        {
+          "url": "https://www.thaiendocrine.org/guideline-for-the-management-of-graves-hyperthyroidism-from-eta-2018/",
+          "text": "Guideline for the Management of Graves’ Hyperthyroidism from ETA 2018"
+        }
+      ]
+    },
+    {
+      "org_id": "B-BM-BDA",
+      "url": "https://www.diabetes.bm/blog/2025-screening-report",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:09:05.119972+00:00",
+      "final_url": "https://www.diabetes.bm/blog/2025-screening-report",
+      "bytes": 14185,
+      "sha256": "fb7a0b5492a4f58917563f3ab8c3fc925fb27be92ddb2c9bd72e4e0da5c4e8db",
+      "cache": "/tmp/atlas-team-b-originals/a55998ee6ea9492a.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.diabetes.bm/about-us/about-diabetes",
+          "text": "About Diabetes"
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6058a24259403af6c70fee3a/6998bbcb3c83a74710980bfb_Eye%20Health%20Screening%20Report%202025-compressed.pdf",
+          "text": "2025 summary report"
+        },
+        {
+          "url": "mailto:reception@diabetes.bm",
+          "text": ""
+        },
+        {
+          "url": "https://www.facebook.com/BermudaDiabetesAssociation/",
+          "text": ""
+        },
+        {
+          "url": "https://www.instagram.com/bermudadiabetesassociation/",
+          "text": ""
+        },
+        {
+          "url": "https://www.linkedin.com/company/bermuda-diabetes-association/?originalSubdomain=bm",
+          "text": ""
+        },
+        {
+          "url": "https://www.diabetes.bm/newsletter",
+          "text": "Subscribe to our newsletter"
+        }
+      ]
+    },
+    {
+      "org_id": "B-RU-RAE",
+      "url": "https://rae-org.ru/library/recommendations",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:09:05.533884+00:00",
+      "final_url": "https://rae-org.ru/library/recommendations",
+      "bytes": 111143,
+      "sha256": "f208fcd3a85d1f8d54fc6ef2259373df4f5ef1a86ada7e5d61992da2f172ee1a",
+      "cache": "/tmp/atlas-team-b-originals/10e1d2e54d8aec00.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/dm_school.pdf",
+          "text": "МЕТОДИЧЕСКОЕ РУКОВОДСТВО. Организация работы кабинета «Школа для пациентов с сахарным диабетом»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_dm1_childr2025.pdf",
+          "text": "Клинические рекомендации «Сахарный диабет I типа у детей»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/sd1_deti_sd_2025_obshchiy_web.pdf",
+          "text": "Клинические рекомендации «Сахарный диабет I типа у детей»(п.и.)"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/dm2tchild2024.pdf",
+          "text": "Клинические рекомендации «Сахарный диабет 2 типа у детей»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/gestacionnyy_saharnyy_diabet_zamena_16.12.24.pdf",
+          "text": "Клинические рекомендации по лечению гестационного сахарного диабета"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/2023_alg_sum.pdf",
+          "text": "Алгоритмы специализированной медицинской помощи больным сахарным диабетом 11-й выпуск."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_dm_dia_ret_2023.pdf",
+          "text": "Сахарный диабет: ретинопатия диабетическая, макулярный отек диабетический"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_dm_i_ad_2022.pdf",
+          "text": "Сахарный диабет 1 типа у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_dm_i_ch_2022.pdf",
+          "text": "Сахарный диабет 1 типа у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_dm_ii_ad_2022.pdf",
+          "text": "Сахарный диабет 2 типа у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/saharnyy_diabet_2_tipa_deti.pdf",
+          "text": "Клинические рекомендации по сахарному диабету 2 типа у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/saharnyy_diabet_1_tipa_u_vzroslyh.pdf",
+          "text": "Клинические рекомендации по сахарному диабету 1 типа у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/saharnyy_diabet_2_tipa_u_vzroslyh.pdf",
+          "text": "Клинические рекомендации по сахарному диабету 2 типа у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/mr102.pdf",
+          "text": "Клинические рекомендации. Техника инъекций и инфузии при лечении сахарного диабета"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/mr6.pdf",
+          "text": "Клинические рекомендации. Помповая инсулинотерапия и непрерывное мониторирование гликемии у пациентов с сахарным диабетом"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr89_saharnyy_diabet_s_porazheniem_pochek.pdf",
+          "text": "Клинические рекомендации. Сахарный диабет с поражением почек"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr525_sindrom_diabeticheskoy_stopy.pdf",
+          "text": "Клинические рекомендации. Синдром диабетической стопы"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cd_2_new_2015.pdf",
+          "text": "Консенсус по инициации и интенсификации сахароснижающей терапии у больных сахарным диабетом 2 типа: обновление"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/rek_gest_dm_2013.pdf",
+          "text": "Клинические рекомендации. Российский национальный консенсус «Гестационный сахарный диабет: диагностика, лечение, послеродовое наблюдение»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/nacionalnye_klinicheskie_rekomendacii_protokoly_po_vedeniyu_detey_i_podrostkov_pri_razvitii_diabeticheskogo_ketoacidoza_i_diabeticheskoy_komy_pri_saharnom_diabete.pdf",
+          "text": "Национальные клинические рекомендации (протоколы) по ведению детей и подростков при развитии диабетического кетоацидоза и диабетической комы при сахарном диабет"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/nacionalnye_klinicheskie_rekomendacii_protokoly_po_vedeniyu_detey_i_podrostkov_s_vrozhdennym_giperinsulinizmom.pdf",
+          "text": "Национальные клинические рекомендации (протоколы) по ведению детей и подростков с врожденным гиперинсулинизмом (предварительное чтение)"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/federalnye_klinicheskie_rekomendacii_po_diagnostike_i_lecheniyu_monogennyh_form_saharnogo_diabeta_u_detey_i_podrostkov.pdf",
+          "text": "Федеральные клинические рекомендации по диагностике и лечению моногенных форм сахарного диабета у детей и подростков (предварительное чтение)"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/federalnye_klinicheskie_rekomendacii_po_diagnostike_i_lecheniyu_saharnogo_diabeta_2_tipa_u_detey_i_podrostkov.pdf",
+          "text": "Федеральные клинические рекомендации по диагностике и лечению сахарного диабета 2 типа у детей и подростков (предварительное чтение)"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/federalnye_klinicheskie_rekomendacii_rossiyskogo_obshchestva_detskih_endokrinologov_po_diagnostike_i_lecheniyu_saharnogo_diabeta_1_tipa_u_detey_i_podrostkov.pdf",
+          "text": "Федеральные клинические рекомендации Российского общества детских эндокринологов по диагностике и лечению сахарного диабета 1 типа у детей и подростков"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/rekomend_2012.pdf",
+          "text": "Национальные рекомендации для медицинских работников по технике инъекции при лечении сахарного диабета"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/konsensus_soveta_ekspertov_rossiyskoy_associacii_endokrinologov_po_iniciacii_i_intensifikacii_saharosnizhayushchey_terapii_u_bolnyh_saharnym_diabetom_2_tipa.pdf",
+          "text": "Консенсус совета экспертов Российской ассоциации эндокринологов по инициации и интенсификации сахароснижающей терапии у больных сахарным диабетом 2 типа"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/konsensus_po_terapii_saharnogo_diabeta_u_detey_i_podrostkov.pdf",
+          "text": "Консенсус по терапии сахарного диабета у детей и подростков"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_hypopara_2025_ad.pdf",
+          "text": "Клинические рекомендации «Гипопаратиреоз у взрослых»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_thyro_greyw_2025.pdf",
+          "text": "Клинические рекомендации «Тиреотоксикоз с диффузным зобом (болезнь Грейвса), узловым/многоузловым у взрослых»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/hypo_2024.pdf",
+          "text": "Клинические рекомендации по гипотиреозу"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/nhypochild2024.pdf",
+          "text": "Врожденный гипотиреоз у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/amiodaron-inducirovannaya_disfunkciya_shchitovidnoy_zhelezy.pdf",
+          "text": "Клинические рекомендации по Амиодарон-индуцированной дисфункции щитовидной железы"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/zabolevaniya_i_sostoyaniya_svyazannye_s_deficitom_yoda_0.pdf",
+          "text": "Клинические рекомендации по заболеваниям и состояниям, связанным с дефицитом йода"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/ostrye_i_hronicheskie_tireoidity.pdf",
+          "text": "Клинические рекомендации по острым и хроническим тиреоидитам"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/nthyrchild2024.pdf",
+          "text": "Клинические рекомендации Тиреоидиты у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/568_gipotireoz_vzroslye.finalnaya.versiya.pdf",
+          "text": "Клинические рекомендации по гипотиреозу"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr_tireoidity_u_detey_v_rubrikator.pdf",
+          "text": "Клинические рекомендации по тиреоидитам у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/differencirovannyy_rak_shchitovidnoy_zhelezy.pdf",
+          "text": "Клинические рекомендации по дифференцированному раку щитовидной железы."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/zabolevaniya_i_sostoyaniya_svyazannye_s_deficitom_yoda.pdf",
+          "text": "Клинические рекомендации по заболеваниям и состояниям, связанным с дефицитом йода"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/medullyarnyy_rak_shchitovidnoy_zhelezy.pdf",
+          "text": "Клинические рекомендации по медуллярному раку щитовидной железы."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/ostrye_i_hronicheskie_tireoidity_isklyuchaya_autoimmunnyy_tireoidit.pdf",
+          "text": "Клинические рекомендации по острым и хроническим тиреоидитам (исключая аутоиммунный тиреоидит)."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr90_uzlovoy_zob_u_vzroslyh.pdf",
+          "text": "Клинические рекомендации. Узловой зоб у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr270_tireotoksikoz_s_diffuznym_zobom.pdf",
+          "text": "Клинические рекомендации. Тиреотоксикоз с диффузным зобом (диффузный токсический зоб, болезнь Грейвса-Базедова), узловым/многоузловым зобом"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr271_endokrinnaya_oftalmopatiya.pdf",
+          "text": "Клинические рекомендации. Эндокринная офтальмопатия"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/ctan_deti4.pdf",
+          "text": "Федеральные клинические рекомендации (протокол) по ведению детей и подростков с гипопаратиреозом"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/tiret1.pdf",
+          "text": "Федеральные клинические рекомендации по диагностике и лечению тиреотоксикоза у детей (предварительное чтение)"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/recomed_autoimun.pdf",
+          "text": "Клинические рекомендации Российской Ассоциации Эндокринологов по диагностике и лечению аутоиммунного тиреоидита у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/zob.pdf",
+          "text": "Клинические рекомендации Российской Ассоциации Эндокринологов по диагностике и лечению узлового зоба"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/2025_kr_osteoporoz_finalnyy_variant.pdf",
+          "text": "Клинические рекомендации  «Остеопороз»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_vdkn_childr2025.pdf",
+          "text": "Клинические рекомендации «Врожденная дисфункция коры надпочечников (ВДКН)  у детей»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr_pervichnaya_nadpochechnikovaya_nedostatochnost_sayt.pdf",
+          "text": "Клинические рекомендации «Первичная надпочечниковая недостаточность»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr_pervichnyy_giperparatireoz_sayt.pdf",
+          "text": "Клинические рекомендации «Первичный гиперпаратиреоз»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/ometchildr2024.pdf",
+          "text": "Клинические рекомендации «Ожирение у детей»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/ppr2024.pdf",
+          "text": "Клинические рекомендации «Преждевременное половое развитие»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/ozhirenie_vzroslye_0.pdf",
+          "text": "Клинические рекомендации по лечению ожирения у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/prezhdevremennoe_polovoe_razvitie.pdf",
+          "text": "Клинические рекомендации по преждевременному половому развитию"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr82_vdkn.pdf",
+          "text": "Клинические рекомендации по врожденной дисфункции коры надпочечников (адреногенитальный синдром)"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/518_gipoparatireoz.pdf",
+          "text": "Клинические рекомендации по гипопаратиреозу у взрослых."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/d_2021.pdf",
+          "text": "Клинические рекомендации по дефициту витамина D"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr229_ozhirenie_u_detey.pdf",
+          "text": "Клинические рекомендации по ожирению у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/osteoporoz.pdf",
+          "text": "Клинические рекомендации по остеопорозу"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr524_pervichnaya_nadpochechnikovaya_nedostatochnost_0.pdf",
+          "text": "Клинические рекомендации по первичной надпочечниковой недостаточности"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr648_prezhdevremennoee_polovoe_razvitie.pdf",
+          "text": "Клинические рекомендации по преждевременному половому развитию"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr258_sindrom_polikistoznyh_yaichnikov.pdf",
+          "text": "Клинические рекомендации по синдрому поликистозных яичников"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/ozhirenie_vzroslye.pdf",
+          "text": "Клинические рекомендации по ожирению."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/pervichnyy_giperparatireoz.pdf",
+          "text": "Клинические рекомендации по первичному гиперпаратиреозу"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/neo.pdf",
+          "text": "Клинические рекомендации. Нейроэндокринные опухоли"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/nesaharnyy_diabet_klin.rek_.pdf",
+          "text": "Клинические рекомендации по диагностике и лечению несахарного диабета у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/morbidnoe_ozhirenie.pdf",
+          "text": "Клинические рекомендации по лечению морбидного ожирения у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr341.pdf",
+          "text": "Клинические рекомендации. Адренокортикальный рак"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/1-nn_gayd_v_konsilium_2017.pdf",
+          "text": "Клинические рекомендации Российской Ассоциации Эндокринологов (РАЭ) по диагностике и лечению первичной надпочечниковой недостаточности у взрослых пациентов (про"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/pervichnyy_giperaldosteronizm_rae_2017g.pdf",
+          "text": "Клинические рекомендации. Первичный гиперальдостеронизм: диагностика и лечение"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klin.rek_._t_s_sd_-_2017.pdf",
+          "text": "Рекомендации по диагностике и лечению дефицита тестостерона (гипогонадизма) у мужчин с сахарным диабетом"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/vkdn2016.pdf",
+          "text": "Клинические рекомендации по диагностике и лечебно-профилактическим мероприятиям при врожденной дисфункции коры надпочечников у пациентов во взрослом возрасте"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/rec_osteopor_12.12.16.pdf",
+          "text": "Клинические рекомендации по остеопорозу"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr85_giperprolaktinemiya.pdf",
+          "text": "Клинические рекомендации. Гиперпролактинемия"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr152_gipogonadizm_u_detey_i_podrostkov.pdf",
+          "text": "Клинические рекомендации. Гипогонадизм у детей и подростков."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr342_deficit_vitamina_d_u_vzroslyh.pdf",
+          "text": "Клинические рекомендации. Дефицит витамина D у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr86_incidentalomy_gipofiza.pdf",
+          "text": "Клинические рекомендации. Инциденталомы гипофиза"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klin_rek_mo-_2016.pdf",
+          "text": "Клинические рекомендации. Лечение морбидного ожирения у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr524_pervichnaya_nadpochechnikovaya_nedostatochnost.pdf",
+          "text": "Клинические рекомендации. Первичная надпочечниковая недостаточность"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr88_pervichnyy_giperparatireoz.pdf",
+          "text": "Клинические рекомендации. Первичный гиперпаратиреоз"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr258_sindrom_polikistoza_yaichnikov.pdf",
+          "text": "Клинические рекомендации. Синдром поликистоза яичников"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr272_feohromocitoma-paraganglioma.pdf",
+          "text": "Клинические рекомендации. Феохромоцитома-параганглиома"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klin.rek_._t_bez_sd_-_2016.pdf",
+          "text": "Рекомендации по диагностике и лечению дефицита тестостерона (гипогонадизма) у мужчин"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/vkdn.pdf",
+          "text": "Клинические рекомендации по врожденной дисфункции коры надпочечников"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/rec_incendilom_nadpoch_201511.pdf",
+          "text": "Клинические рекомендации по инциденталомам надпочечников (диагностика и дифференциальная диагностика). Методические рекомендации для врачей первичного звена"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/rec_acromegalia_2014.pdf",
+          "text": "Клинические рекомендации. Акромегалия: клиника, диагностика, дифференциальная диагностика, методы лечения"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/rec_morbidn_obesity_2014.pdf",
+          "text": "Клинические рекомендации. Лечение морбидного ожирения у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr229_ozhirenie_u_detey_i_podrostkov.pdf",
+          "text": "Клинические рекомендации. Ожирение у детей и подростков"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/deti_20141.pdf",
+          "text": "Федеральные клинические рекомендации (протоколы) по ведению детей с эндокринными заболеваниями"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/risunki.pdf",
+          "text": "Рисунки к протоколам"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/ctan_deti2.pdf",
+          "text": "Федеральные клинические рекомендации (протокол) по ведению пациенток с синдромом Шерешевского-Тернера"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/ppr.pdf",
+          "text": "Федеральные клинические рекомендации - протоколы по ведению пациентов с преждевременным половым развитием"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/fedelnye_klinicheskie_rekomendacii_po_diagnostike_i_lecheniyu_deficita_gormona_rosta.pdf",
+          "text": "Федеральные клинические рекомендации по диагностике и лечению гипопитуитаризма у детей и подростков"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/28_03.pdf",
+          "text": "Федеральные клинические рекомендации по диагностике и лечению идиопатической низкорослости у детей и подростков"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/09122013.pdf",
+          "text": "Федеральные клинические рекомендации по диагностике и лечению несахарного диабета у детей и подростков (предварительное чтение)"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/vdkn_012013.pdf",
+          "text": "Федеральные клинические рекомендации-протоколы по ведению пациентов с врожденной дисфункцией коры надпочечников в детском возрасте"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/letter_kr_22.pdf",
+          "text": "Информационное письмо о разработке клинических рекомендаций по профилю «Эндокринология» и «Детская эндокринология»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/prikaz617n_0.pdf",
+          "text": "Приказ Министерства здравоохранения Российской Федерации от 23.06.2020 № 617н \"О внесении изменений в приложения № 1, 2 и 3 к приказу Министерства здравоохранен"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/izmeneniya_trebovaniy_1.pdf",
+          "text": "Изменение требований по разработке и оформлению клинических рекомендаций с учетом вступления в силу Приказа Минздрава России от 28 февраля 2019 г. №103н по срав"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/izmeneniya_trebovaniy_2.pdf",
+          "text": "Изменения требований по разработке и оформлению клинических рекомендаций с учетом вступления в силу Приказа Минздрава России от 28 февраля 2019 г. №103н по срав"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/prikaz.pdf",
+          "text": "Приказ Минздрава России № 102 н от 28.02.2019 г. «Об утверждении Положения о научно-практическом совете Министерства здравоохранения Российской Федерации»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/prikaz_2.pdf",
+          "text": "Приказ Минздрава России № 103 н от 28.02.2019 г. «Об утверждении порядка и сроков разработки клинических рекомендаций, их пересмотра, типовой формы клинических "
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/prikaz103n_0.pdf",
+          "text": "Приказ Министерства здравоохранения Российской Федерации от 28.02.2019 № 103н. \"Об утверждении порядка и сроков разработки клинических рекомендаций...\""
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/trebovaniya_k_kr.pdf",
+          "text": "Требования к оформлению клинических рекомендаций для размещения в Рубрикаторе"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/shablon_kr-18.06.19.pdf",
+          "text": "Шаблон клинических рекомендаций"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr_bik_redakciya_ot_08.04.2026.pdf",
+          "text": "Проект клинических рекомендации Болезнь Иценко-Кушинга"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_21012024.pdf",
+          "text": "Клинические рекомендации по лечению Акромегалии"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_gmd_24.pdf",
+          "text": "Обновленная версия проекта клинических рекомендаций по гестационному сахарному диабету"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_thyr_2023_25.04.23.pdf",
+          "text": "«Обновленная версия проекта клинических рекомендаций Тиреотоксикоз с диффузным зобом (болезнь Грейвса), узловым/многоузловым зобом»"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/adrenokortikalnyy_rak_proekt_obnovlenie_2023.pdf",
+          "text": "Адренокортикальный рак - обновленный проект"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/pren_renal_disf.pdf",
+          "text": "Врожденная дисфункция коры надпочечников (адреногенитальный синдром)"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/pr_crek_hypopara_adult_2023_1.pdf",
+          "text": "Гипопаратиреоз у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/differencirovannyy_rak_shchitovidnoy_zhelezy_proekt_obnovlenie_2023.pdf",
+          "text": "Дифференцированный рак щитовидной железы - обновленный проект"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/medullyarnyy_rak_shchitovidnoy_zhelezy_proekt_obnovlenie_2023.pdf",
+          "text": "Медуллярный рак щитовидной железы - обновленный проект"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_ndm_hyp_2023.pdf",
+          "text": "Обновленная версия проекта клинических рекомендаций по недиабетическим гипогликемиям"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/prim_renal_disfunction_adult.pdf",
+          "text": "Первичная надпочечниковая недостаточность"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_acrom_05.11.2023.pdf",
+          "text": "Проект клинических рекомендаций по акромегалии"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/neyroendokrinnye_opuholi_proekt_obnovlenie_2022.pdf",
+          "text": "Нейроэндокринные опухоли - обновленный проект"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/rp_clrec_iod_2022.pdf",
+          "text": "Обновленная версия проекта клинических рекомендаций по заболеваниям и состояниям, связанным с дефицитом йода"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr_ndm_newv_12.05.22.pdf",
+          "text": "Обновлённая версия проекта клинических рекомендаций по несахарному диабету"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_obesity_re_2022.pdf",
+          "text": "Обновленная версия проекта клинических рекомендаций по ожирению"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_thyr_re_2022.pdf",
+          "text": "Обновленная версия проекта клинических рекомендаций по острым и хроническим тиреоидитам  (исключая аутоиммунный и  амиодарон-индуцированный тиреоидит)"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_prim_hyperpara_project_v2.pdf",
+          "text": "Обновленная версия проекта клинических рекомендаций по первичному гиперпаратиреозу(1й пересмотр)"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_bik_children_25.04.2022.pdf",
+          "text": "Проект Клинических рекомендаций по болезни Иценко-Кушинга у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/rekomendacii_po_kontrolyu_saharnogo_diabeta_pri_fizicheskih_nagruzkah_u_detey_i_podrostkov_s_saharnym_diabetom.pdf",
+          "text": "Проект клинических рекомендаций по контролю сахарного диабета при физических нагрузках у детей и подростков с сахарным диабетом"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/1-nn_deti.pdf",
+          "text": "Проект Клинических рекомендаций по первичной хронической надпочечниковой недостаточности у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/cr_dm_children_2022_re.pdf",
+          "text": "Проект Клинических рекомендаций по сахарному диабету 2 типа у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/amiodaron_tekst_rekomendaciy_01.11.2021_1.pdf",
+          "text": "Проект Клинических рекомендаций по амиодарон-индуцированной дисфункции щитовидной железы"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr_bik_2021_final.pdf",
+          "text": "Проект Клинических рекомендаций по болезни Иценко-Кушинга"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klinreki_vdkn_final.pdf",
+          "text": "Проект Клинических рекомендаций по врожденной дисфункции коры надпочечников (адреногенитальный синдром)"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr82._vdkn_u_vzroslyh_ot_10.03.2021.pdf",
+          "text": "Проект Клинических рекомендаций по врожденной дисфункции коры надпочечников (адреногенитальный синдром) у взрослых. 2021 г."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/gsd_protokol_20.09.2021.pdf",
+          "text": "Проект Клинических рекомендаций по гестационному сахарному диабету"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/giperprolaktinemiya_2021g.pdf",
+          "text": "Проект Клинических рекомендаций по гиперпролактинемии"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klinrekti_gipogonadizm_final_1.pdf",
+          "text": "Проект Клинических рекомендаций по гипогонадизму у детей и подростков"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klinreki_gipoparatireoz_final.pdf",
+          "text": "Проект Клинических рекомендаций по гипопаратиреозу у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klinrekti_gipopituitarizm_final_1.pdf",
+          "text": "Проект Клинических рекомендаций по гипопитуитаризму у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr_deficit_vitamina_d_2021.pdf",
+          "text": "Проект Клинических рекомендаций по дефициту витамина D"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klinreki_vgi_final_1.pdf",
+          "text": "Проект Клинических рекомендаций по диагностике и лечению врожденного гиперинсулинизма у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klin_rekomendacii_idiopaticheskaya_nizkoroslost_v_shablone_itog_1.pdf",
+          "text": "Проект Клинических рекомендаций по диагностике и лечению идиопатической низкорослости у детей и подростков"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klinreki_dtz_final.pdf",
+          "text": "Проект Клинических рекомендаций по диффузному токсическому зобу у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klinreki_dtz_final_1.pdf",
+          "text": "Проект Клинических рекомендаций по диффузному токсическому зобу у детей"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/incidentalomy_gipofiza_2021_final_1.pdf",
+          "text": "Проект Клинических рекомендаций по инциденталомам гипофиза."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr-incidentaloma_15.07.21.pdf",
+          "text": "Проект Клинических рекомендаций по инциденталоме надпочечника"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/nediabeticheskie_gipoglikemii_final_01.09.21.pdf",
+          "text": "Проект Клинических рекомендаций по недиабетическим гипогликемиям"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/nd_kr_2021_1.pdf",
+          "text": "Проект Клинических рекомендаций по несахарному диабету"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/nesaharnyy_diabet_deti.pdf",
+          "text": "Проект Клинических рекомендаций по несахарному диабету у детей и подростков"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr_pga_20.09.2021_4.pdf",
+          "text": "Проект Клинических рекомендаций по первичному гиперальдостеронизму"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/sd1_vzroslye_19.07.2021.pdf",
+          "text": "Проект Клинических рекомендаций по сахарному диабету 1 типа у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klinicheskie_rekomendacii_sd1_deti_2021_4.pdf",
+          "text": "Проект Клинических рекомендаций по сахарному диабету 1 типа у детей. 2021 г."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klinicheskie_rekomendacii_sd2_vzroslye_31.07.2021_final.pdf",
+          "text": "Проект Клинических рекомендаций по сахарному диабету 2 типа у взрослых"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/gipogonadizm_u_muzhchin.pdf",
+          "text": "Проект Клинических рекомендаций по синдрому гипогонадизма у мужчин"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr_gsd_2020.pdf",
+          "text": "Проект Клинических рекомендаций по гестационному сахарному диабету.  Диагностика, лечение, акушерская тактика, послеродовое наблюдение"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/klinicheski_rekomendacii_vg_ot_03.06.2020.pdf",
+          "text": "Проект Клинических рекомендаций по диагностике и лечению врожденного гипотиреоза. 2020 г."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/pervichnzya_nadpochechnikovaya_nedostatochnost.pdf",
+          "text": "Проект Клинических рекомендаций по первичной надпочечниковой недостаточности. 2020 г."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/ppr_27.03.2020.pdf",
+          "text": "Проект Клинических рекомендаций по преждевременному половому развитию. 2020 г."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/kr_tireoidity_u_detey_01.12.20.pdf",
+          "text": "Проект клинических рекомендаций по тиреоидитам у детей. 2020 г."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/konsensus_po_giperglikemii.pdf",
+          "text": "Проект Консенсуса по профилактике и коррекции гипергликемии у пациентов, получающих терапию препаратом алпелисиб. 2020 г."
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/pers_date_politics.pdf",
+          "text": "Политика обработки персональных данных"
+        },
+        {
+          "url": "https://rae-org.ru/system/files/documents/pdf/agreement_pers.pdf",
+          "text": "Согласие на обработку персональных данных"
+        }
+      ]
+    },
+    {
+      "org_id": "B-GR-EEY",
+      "url": "https://hypertasi.gr/el/%CE%B5%CE%BD%CE%BF%CF%84%CE%B7%CF%84%CE%B1-%CE%B9%CE%B1%CF%84%CF%81%CF%89%CE%BD/%CE%BA%CE%B1%CF%84%CE%B5%CF%85%CE%B8%CF%85%CE%BD%CF%84%CE%B7%CF%81%CE%B9%CE%B5%CF%82-%CE%BF%CE%B4%CE%B7%CE%B3%CE%B9%CE%B5%CF%82-%CE%B1%CF%81%CF%84%CE%B7%CF%81%CE%B9%CE%B1%CE%BA%CE%B7%CF%82-%CF%85%CF%80%CE%B5%CF%81%CF%84%CE%B1%CF%83%CE%B7%CF%82.html",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:06.700969+00:00",
+      "final_url": "https://hypertasi.gr/el/%CE%B5%CE%BD%CE%BF%CF%84%CE%B7%CF%84%CE%B1-%CE%B9%CE%B1%CF%84%CF%81%CF%89%CE%BD/%CE%BA%CE%B1%CF%84%CE%B5%CF%85%CE%B8%CF%85%CE%BD%CF%84%CE%B7%CF%81%CE%B9%CE%B5%CF%82-%CE%BF%CE%B4%CE%B7%CE%B3%CE%B9%CE%B5%CF%82-%CE%B1%CF%81%CF%84%CE%B7%CF%81%CE%B9%CE%B1%CE%BA%CE%B7%CF%82-%CF%85%CF%80%CE%B5%CF%81%CF%84%CE%B1%CF%83%CE%B7%CF%82.html",
+      "bytes": 240809,
+      "sha256": "b1359af5b9c487fbf90584d229dd440e341a3b1bc33ce05be2d3ba4b40aa1ed6",
+      "cache": "/tmp/atlas-team-b-originals/8d0791d93ec9aeaa.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "mailto:gramatia.hypertasi@gmail.com",
+          "text": "gramatia.hypertasi@gmail.com"
+        },
+        {
+          "url": "https://webtv.hypertasi.gr/",
+          "text": "WEB TV  Powered by livemedia"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2024-ESH-guidelines-summary-with-graphs.pdf",
+          "text": "2024_ESH guidelines - Περίληψη των οδηγιών με γραφήματα"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2023-esh-guidelines-for-the-management-of-arterial-new.pdf",
+          "text": "2023 Κατευθυντήριες οδηγίες της Ευρωπαϊκής εταιρείας υπέρτασης  για την αντιμετώπιση της αρτηριακής υπέρτασης"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2021-Kateuthynteries-odegies-tes-Amerikanikes-Etaireias-Kardiologias.pdf",
+          "text": "2021 Κατευθυντήριες οδηγίες της Αμερικάνικής Εταιρείας Καρδιολογίας"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2021-Kateuthynteries-odegies-tes-Europaikes-etaireias-ypertases-gia-tis-metreseis-ektos-iatreiou.pdf",
+          "text": "2021 Κατευθυντήριες οδηγίες της Ευρωπαϊκής εταιρείας υπέρτασης για τις μετρήσεις εκτός ιατρείου"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2020-Kateuthynteries-odegies-tes-diethnous-etaireias-ypertases.pdf",
+          "text": "2020 Κατευθυντήριες οδηγίες της διεθνούς εταιρείας υπέρτασης"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2018-Kateuthynteries-odegies-tes-Europaikes-Etaireias-Ypertases.pdf",
+          "text": "2018 Κατευθυντήριες οδηγίες της Ευρωπαϊκής Εταιρείας Υπέρτασης"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2017-Kateuthynteries-odegies-Amerikanikou-kollegiou-kardiologias.pdf",
+          "text": "2017 Κατευθυντήριες οδηγίες Αμερικανικού κολλεγίου καρδιολογίας"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2021-Kateuthynteries-odegies-Amerikes-gia-ten-ypertase-sta-paidia.pdf",
+          "text": "2021 Κατευθυντήριες οδηγίες Αμερικής για την υπέρταση στα παιδιά"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2016-Kateuthynteries-odegies-gia-paidia-kai-ephebous-tes-Europaikes-Etaireias-Ypertases.pdf",
+          "text": "2016 Κατευθυντήριες οδηγίες για παιδιά και εφήβους της Ευρωπαϊκής Εταιρείας Υπέρτασης"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2024-Position-Statement-ESH-pregnancy-hypertension.pdf",
+          "text": "2024_Position Statement ESΗ: Management of hypertensive disorders in pregnancy"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2022-Kateuthynteries-odegies-tes-Amerikanikes-etaireias-Kardiologia-gia-ten-ypertase-sten-enkymosyne.pdf",
+          "text": "2022 Κατευθυντήριες οδηγίες της Αμερικανικής εταιρείας Καρδιολογία για την υπέρταση στην εγκυμοσύνη"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2020-Kateuthynteries-odegies-tes-Europaikes-Etaireias-Ypertases-gia-ten-perigennetike-ypertase.pdf",
+          "text": "2020 Κατευθυντήριες οδηγίες της Ευρωπαϊκής Εταιρείας Υπέρτασης για την περιγεννητική υπέρταση"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2018-Kateuthynteries-odegies-tou-Amerikanikou-kollegiou-gynaikologon-gia-ten-ypertase-sten-enkymosyne.pdf",
+          "text": "2018 Κατευθυντήριες οδηγίες του Αμερικανικού κολλεγίου γυναικολόγων για την υπέρταση στην εγκυμοσύνη"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2018-Kateuthynteries-odegies-tes-diethnous-etaireias-ypertases-gia-ten-ypertase-sten-enkymosyne.pdf",
+          "text": "2018 Κατευθυντήριες οδηγίες της διεθνούς εταιρείας υπέρτασης για την υπέρταση στην εγκυμοσύνη"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2017-Kateuth-Odeg-EuropaikesEtaireiasKardiologias-peripherike-arteriake-noso.pdf",
+          "text": "2017 Κατευθυντήριες Οδηγίες της Ευρωπαικής Εταιρείας Καρδιολογίας για την περιφερική αρτηριακή νόσο"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2021-KDIGO-kateuthynteries-odegies-gia-te-diacheirese-tes-ypertases-ste-CHNN.pdf",
+          "text": "2021 κατευθυντήριες οδηγίες για τη διαχείρηση της υπέρτασης στη ΧΝΝ"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2013-Kateuthynteries-odegies-gia-tin-ypertasi-ypniki-apnoia.pdf",
+          "text": "2013 Κατευθυντήριες οδηγίες για την υπέρταση και υπνική άπνοια"
+        },
+        {
+          "url": "https://hypertasi.gr/images/guidelines/2021-Kateuthynteries-odegies-tes-EvropaikisEY--gia-ten-ypertase-sta-enkephalika.pdf",
+          "text": "2021 Κατευθυντήριες οδηγίες της Ευρωπαϊκής Εταιρείας Υπέρτασης για την υπέρταση στα εγκεφαλικά"
+        },
+        {
+          "url": "http://www.eshonline.org/guidelines/blood-pressure-monitoring/",
+          "text": "ESH Care App \r\n Κατεβάστε τη ΔΩΡΕΑΝ εφαρμογή της ευρωπαϊκής εταιρείας υπέρτασης για την παρακολούθηση της υπέρτασης σε smartphones και tablets"
+        },
+        {
+          "url": "https://www.facebook.com/hypertasi.gr",
+          "text": "ΒΡΕΙΤΕ ΜΑΣ ΣΤΟ FACEBOOK"
+        },
+        {
+          "url": "https://twitter.com/JHypertension",
+          "text": "TWEETS ΑΠΟ ΤΟ JOURNAL OF HYPERTENSION"
+        }
+      ]
+    },
+    {
+      "org_id": "B-SI-ZAH",
+      "url": "https://hipertenzija.org/smernice-in-publikacije/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:07.331567+00:00",
+      "final_url": "https://hipertenzija.org/smernice-in-publikacije/",
+      "bytes": 50925,
+      "sha256": "79b7e14c166dad30379488741a4bc43bd2dc5f04a02802c18cf8020c5ffa9347",
+      "cache": "/tmp/atlas-team-b-originals/7ddbaba27d507d25.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2025/11/ZAH_2025.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2024/12/ZAH_2024.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2023/12/ZAH_2023.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2023/12/ZAH_2023_MS.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2022/12/Zbornik_2022.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2022/03/Zbornik_2021.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2021/05/Zbornik_2020.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/12/Zbornik_2019.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/ZAH_2018.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/ZAH_2017.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/ZAH_2016_1.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/ZAH_2016_2.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/ZH_2015_1.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/ZH_2015_2.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/ZH_2014.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/SH_2013.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/SH_2012.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/SH_2011.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/SAH_2010.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/SAH_2009.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/SAH_2008.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/SAH_2007.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/SAH_2006.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/SAH_2005.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/SAH_2004.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/SAH_2001.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/08/SAH_2000.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2024/10/Smernice_2023_zepna_verzija.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://hipertenzija.org/wp-content/uploads/2019/12/Smernice-za-obravnavo-hipertenzije-2018.pdf",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "org_id": "B-HR-HDH",
+      "url": "https://hdh.healthmed.hr/edukacije/smjernice",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:07.634728+00:00",
+      "final_url": "https://hdh.healthmed.hr/edukacije/smjernice",
+      "bytes": 53055,
+      "sha256": "7505e49c6350fbddd8aebb9c8cbea23c4b3af9fed7cacf4d7abfe0582994817b",
+      "cache": "/tmp/atlas-team-b-originals/e9b67c14d3407eaa.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://hdh.healthmed.hr/edukacije/kurikulum-",
+          "text": "Kurikulum arterijske hipertenzije"
+        },
+        {
+          "url": "https://hdh.healthmed.hr/edukacije/mala-skola-hrvatske-lige-za-hipertenziju",
+          "text": "\"Mala škola\" HLH-a"
+        },
+        {
+          "url": "https://hdh.healthmed.hr/upload/dokument_1616087371.pdf",
+          "text": "2021  2021 European Society of Hypertension practice guidelines for office and out-of-office blood pressure measurement"
+        },
+        {
+          "url": "https://hdh.healthmed.hr/upload/hdh_smjernica/dokument_1581600283.pdf",
+          "text": "2019  Praktične smjernice za dijagnostiku i liječenje arterijske hipertenzije u djece i adolescenata"
+        },
+        {
+          "url": "https://hdh.healthmed.hr/upload/hdh_smjernica/dokument_1576577176.pdf",
+          "text": "2018  FMD konsenzus dokument o SCAD"
+        },
+        {
+          "url": "https://hdh.healthmed.hr/upload/hdh_smjernica/dokument_1576577283.pdf",
+          "text": "2018  Konsenzus dokument ESH o izoliranoj sistoličkoj hipertenziji u mladih"
+        },
+        {
+          "url": "https://hdh.healthmed.hr/upload/hdh_smjernica/dokument_1576577372.pdf",
+          "text": "2018  Konsenzus dokument o pretilosti i kardiovaskularni rizik"
+        },
+        {
+          "url": "https://hdh.healthmed.hr/upload/hdh_smjernica/dokument_1576574741.pdf",
+          "text": "2017  Praktične smjernice za dijagnosticiranje arterijske hipertenzije"
+        },
+        {
+          "url": "https://hdh.healthmed.hr/upload/hdh_smjernica/dokument_1576590828.pdf",
+          "text": "2016  Konsenzus dokument ESH o mjerenju brahijalnog i centralnog tlaka i varijabilnsoti tlaka"
+        },
+        {
+          "url": "https://hdh.healthmed.hr/upload/hdh_smjernica/dokument_1576590915.pdf",
+          "text": "2016  Konsenzus dokument ESH o liječenju hipertoničara s tahikardijom"
+        },
+        {
+          "url": "https://hdh.healthmed.hr/upload/hdh_smjernica/dokument_1576591034.pdf",
+          "text": "2014  FMD konsenzus dokument AHA"
+        },
+        {
+          "url": "https://hdh.healthmed.hr/upload/hdh_smjernica/dokument_1576591165.pdf",
+          "text": "2014  Konsenzus dokument ESH o 24-satnom mjerenju arterijskog tlaka"
+        },
+        {
+          "url": "https://hdh.healthmed.hr/upload/hdh_smjernica/dokument_1576575590.pdf",
+          "text": "2007  Smjernice za dijagnosticiranje i liječenje AH"
+        }
+      ]
+    },
+    {
+      "org_id": "B-RO-SRH",
+      "url": "https://societate-hipertensiune.ro/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:08.396030+00:00",
+      "final_url": "https://societate-hipertensiune.ro/",
+      "bytes": 472600,
+      "sha256": "326604cd379f56e07c20c08039eb546b03275683b8a686e943f3964419d8cfc7",
+      "cache": "/tmp/atlas-team-b-originals/b31fd9b79309f7a6.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "mailto:office@societate-hipertensiune.ro",
+          "text": "office@societate-hipertensiune.ro"
+        },
+        {
+          "url": "https://www.facebook.com/societatearomanahipertensiune",
+          "text": "FB"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune",
+          "text": "Congresul SRH"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2026",
+          "text": "Congresul SRH 2026"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2026/galeria-foto/festivitate-de-deschidere",
+          "text": "Festivitatea de deschidere"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2026/galeria-foto/gala-membrilor-elite",
+          "text": "Gala Membrilor Elite"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2026/galeria-foto/prima-zi",
+          "text": "Prima zi"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2026/galeria-foto/a-doua-zi",
+          "text": "A doua zi"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2026/galeria-foto/a-treia-zi",
+          "text": "A treia zi"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2026/galeria-foto/ultima-zi",
+          "text": "Ultima zi"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2026/prezentare-video",
+          "text": "Prezentare video"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/images/congres/2026/program/Program-Congres-SRH-2026.pdf",
+          "text": "Program științific"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2026/parteneri",
+          "text": "Parteneri"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2025",
+          "text": "Congresul SRH 2025"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2025/galeria-foto/prima-zi",
+          "text": "Galeria foto"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2025/galeria-foto/a-doua-zi",
+          "text": "A doua zi"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2025/galeria-foto/a-treia-zi",
+          "text": "A treia zi"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2025/galeria-foto/festivitatea-de-premiere-2025",
+          "text": "Festivitatea de premiere"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2025/prezentare-video-2025",
+          "text": "Prezentare video"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/images/congres/program/Program-Congres-SRH-2025.pdf",
+          "text": "Program științific"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2024",
+          "text": "Congresul SRH 2024"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2024/galeria-foto/prima-zi",
+          "text": "Prima zi"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2024/galeria-foto/a-doua-zi",
+          "text": "A doua zi"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/congresul-societatii-romane-de-hipertensiune/editia-2024/galeria-foto/festivitatea-de-premiere",
+          "text": "Festivitatea de premiere"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/images/congres/program/Program-Congres-SRH-2024.pdf",
+          "text": "Program științific"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/evenimente/curs-hipertensiune-iasi",
+          "text": "Curs hipertensiune Iași 2026"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/evenimente/curs-hipertensiune-iasi-2025",
+          "text": "Curs hipertensiune Iași 2025"
+        },
+        {
+          "url": "https://hypertens.org/",
+          "text": "Journal of Hypertension Research"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/stiri/news-from-the-world-hypertension-league",
+          "text": "Congresul SRH de la Sovata, menționat în newsletterul World Hypertension League"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/evenimente/crosul-run-4-health/galeria-foto-cross-2026",
+          "text": "FOTO RUN 4 HEALTH"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/evenimente/crosul-run-4-health/video-cross-2026",
+          "text": "VIDEO RUN 4 HEALTH"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/stiri/comunicate-de-presa/ziua-mondiala-a-hipertensiunii-arteriale-17-mai-2025",
+          "text": ""
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/evenimente",
+          "text": ""
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/stiri/congresul-societatii-romane-de-hipertensiune-2025",
+          "text": "Congresul Societății Române de Hipertensiune 2025"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/?rCH=2",
+          "text": "Accept all"
+        },
+        {
+          "url": "https://societate-hipertensiune.ro/?rCH=-2",
+          "text": "Reject all"
+        }
+      ]
+    },
+    {
+      "org_id": "B-BG-BHL",
+      "url": "https://www.hypertensionleaguebg.info/bg/science-info/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:08.769565+00:00",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "org_id": "B-SG-SHS",
+      "url": "https://www.shs.org.sg/medical-practitioner-resources/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:08.820274+00:00",
+      "status": "failed",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "org_id": "B-PH-PLAS",
+      "url": "https://www.philippinelipid.org.ph/guidelines.html",
+      "condition": "high_chol",
+      "date": "2026-11-19T16:09:10.120368+00:00",
+      "final_url": "https://www.philippinelipid.org.ph/guidelines.html",
+      "bytes": 15636,
+      "sha256": "9aa86bf65147218d28e69811855b46edcaef565e412176cad86ff09eec85a4ad",
+      "cache": "/tmp/atlas-team-b-originals/fcc8b45eb9a6393f.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.philippinelipid.org.ph/patientscorner.html",
+          "text": "Patient's Corner"
+        },
+        {
+          "url": "https://www.philippinelipid.org.ph/PDF/prevalence.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://www.philippinelipid.org.ph/PDF/lovingyourlegs.pdf",
+          "text": "LAY Brochure on PAD"
+        },
+        {
+          "url": "https://www.philippinelipid.org.ph/PDF/asiapacific.pdf",
+          "text": "Asia-Pacific Consensus Statement on the Management of Peripheral Artery Disease"
+        },
+        {
+          "url": "https://www.philippinelipid.org.ph/PDF/dyslipidemia.pdf",
+          "text": "Dyslipidemia management for primary prevention of cardiovascular events: Best in-clinic practices"
+        },
+        {
+          "url": "https://www.philippinelipid.org.ph/PDF/executive.pdf",
+          "text": "Executive Summary of the 2020 Clinical Practice Guidelines for the Management of Dyslipidemia in the Philippines"
+        },
+        {
+          "url": "https://www.philippinelipid.org.ph/PDF/phconsensus.pdf",
+          "text": "Philippine Consensus Statement on the Use of Ketogenic Diet and Intermittent Fasting Diet on Adults for Weight Reduction"
+        }
+      ]
+    },
+    {
+      "org_id": "B-PH-PLAS",
+      "url": "https://philippinelipid.org.ph/research.html",
+      "condition": "high_chol",
+      "date": "2026-11-19T16:09:10.205961+00:00",
+      "final_url": "https://philippinelipid.org.ph/research.html",
+      "bytes": 12887,
+      "sha256": "0cf55a6e5c10e590349bcb8387d26a84e7967ffcda69deac1abab5e9626e9c69",
+      "cache": "/tmp/atlas-team-b-originals/4ec27dbe26e073a8.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://philippinelipid.org.ph/patientscorner.html",
+          "text": "Patient's Corner"
+        },
+        {
+          "url": "https://philippinelipid.org.ph/PDF/lovingyourlegs.pdf",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "org_id": "B-CO-SCC",
+      "url": "https://scc.org.co/categoria/guias-de-atencion/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:10.919628+00:00",
+      "final_url": "https://scc.org.co/categoria/guias-de-atencion/",
+      "bytes": 201075,
+      "sha256": "6a2c981cbbce612d3730352629700abf59a82398ca38a78f318a2500d30b6683",
+      "cache": "/tmp/atlas-team-b-originals/08ec04c4192448b0.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2026/02/EEFF-SCC-2025.pdf",
+          "text": "Estados Financieros SCC 2025"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2026/07/Oficio-13052026-ESTATUTOS-SCC-Definitivos.pdf",
+          "text": "Estatutos Vigentes"
+        },
+        {
+          "url": "https://scc.org.co/categoria/guias-de-atencion/",
+          "text": "Cardiometabólico (Diabetes y Lípidos)"
+        },
+        {
+          "url": "https://scc.org.co/capitulo-falla-cardiaca-trasplante-cardiaco-e-hipertension-pulmonar",
+          "text": "Falla Cardiaca, Trasplante Cardíaco e Hipertensión Pulmonar"
+        },
+        {
+          "url": "https://scc.org.co/subcapitulo-hipertension-pulmonar/",
+          "text": "Hipertensión Pulmonar"
+        },
+        {
+          "url": "https://scc.org.co/capitulo-hipertension-arterial-2/",
+          "text": "Hipertensión Arterial y Medicina Vascular y Endotelio"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2018/05/cartilla-recomendaciones-final.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2018/04/GuiaFinal-actualizacion-falla.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2012/08/11-guia_prevencion_topicos-selectos-2009.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2012/08/10-GUIAS_TRANSPLANTE-2009.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2012/08/8-guia-enf-coronaria-2008.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2012/08/9-OMEGA3-2009.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2012/08/6-fibrilacion-auricular-2007.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2012/08/5-manejo-de-falla-2007.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2012/08/4-GUIAS_HIPERTENSION_ARTERIAL-2007.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2012/08/3-guia-DISLIPIDEMIAS-2005.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2012/08/2-guias_colombianas-2011.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://scc.org.co/wp-content/uploads/2012/08/1-GUIA-electro-2011.pdf",
+          "text": "Descargar"
+        }
+      ]
+    },
+    {
+      "org_id": "B-PE-SPHTA",
+      "url": "https://sphta.org.pe/guias-de-manejo/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:11.401295+00:00",
+      "final_url": "https://sphta.org.pe/guias-de-manejo/",
+      "bytes": 307518,
+      "sha256": "3dd3456a7e0ce263b7f97a37f9b66e0e83e8b518172f09602c412729aea1aebe",
+      "cache": "/tmp/atlas-team-b-originals/8c43f3cbe9d9d6b0.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.lash-hypertension.org/",
+          "text": ""
+        },
+        {
+          "url": "https://www.facebook.com/sociedadperuanadehipertesionarterial",
+          "text": "Facebook-f"
+        },
+        {
+          "url": "https://sphta.org.pe/wp-content/uploads/2024/12/SPHTA-ESTATUTO-APROBADO-03-DE-ABRIL-2013.pdf",
+          "text": "Estatutos"
+        },
+        {
+          "url": "https://sphta.org.pe/categorias-eventos/congreso-peruano-de-hipertension-arterial-2026/",
+          "text": "Congreso Peruano de Hipertensión Arterial 2026"
+        },
+        {
+          "url": "https://sphta.org.pe/categorias-eventos/xv-congreso-internacional-de-hipertension-arterial-2025/",
+          "text": "XV Congreso Internacional de Hipertensión Arterial 2025"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo-de-hipertension-arterial/",
+          "text": "Guías de manejo de hipertensión arterial"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/",
+          "text": "Boletines de la WHL (World Hypertension League)"
+        },
+        {
+          "url": "https://sphta.org.pe/area-de-pacientes/",
+          "text": "Area de Pacientes"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/guideline-for-the-prevention-detection-evaluation-and-management-of-high-blood-pressure-in-adults/",
+          "text": "Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/2024-esc-guidelines-for-the-management-of-elevated-blood-pressure-and-hypertension/",
+          "text": "2024 ESC Guidelines for the management of elevated blood pressure and hypertension"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/hypertension-canadas-2020-comprehensive-guidelines-for-the-prevention-diagnosis-risk-assessment-and-treatment-of-hypertension-in-adults-and-children/",
+          "text": "Hypertension Canada’s 2020 Comprehensive Guidelines for the Prevention, Diagnosis, Risk Assessment, and Treatment of Hypertension in Adults and Children"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/2024-latin-american-society-of-hypertension-guidelines-on-the-management-of-arterial-hypertension-and-related-comorbidities-in-latin-america/",
+          "text": "2024 Latin American Society of Hypertension guidelines on the management of arterial hypertension and related comorbidities in Latin America"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/2024-european-society-of-hypertension-clinical-practice-guidelines-for-the-management-of-arterial-hypertension/",
+          "text": "2024 European Society of Hypertension clinical practice guidelines for the management of arterial hypertension"
+        },
+        {
+          "url": "https://sphta.org.pe/guias-de-manejo/2023-esh-guidelines-for-the-management-of-arterial-hypertension/",
+          "text": "2023 ESH Guidelines for the management of arterial hypertension"
+        }
+      ]
+    },
+    {
+      "org_id": "B-UY-SUC",
+      "url": "https://suc.org.uy/comites/comite_hipertension_arterial",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:11.430846+00:00",
+      "final_url": "https://suc.org.uy/comites/comite_hipertension_arterial",
+      "bytes": 25188,
+      "sha256": "b6112809fd45e4d413fcd4e65def25f08fa27facc99d03f29d716b0223fecf13",
+      "cache": "/tmp/atlas-team-b-originals/503f0f1037d68a30.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://suc.org.uy/index.php/comites/comite_hipertension_arterial",
+          "text": "Comité de Hipertensión Arterial"
+        },
+        {
+          "url": "https://suc.org.uy/noticias/destacadas-comite-de-hipertension-arterial/mensaje-del-comite-de-hipertension-arterial-de",
+          "text": "Continuar leyendo"
+        }
+      ]
+    },
+    {
+      "org_id": "B-BO-SOBOCAR",
+      "url": "https://sobocar.org/guias.php",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:11.751799+00:00",
+      "final_url": "https://sobocar.org/guias.php",
+      "bytes": 27704,
+      "sha256": "9e3ca9e0ad4f92fcf122fbf8b574c3d1301b6c5fca7673fee62d5c86266f72be",
+      "cache": "/tmp/atlas-team-b-originals/2f30dcc0dedd89b5.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://sobocar.org/docs/1.PRESENTACION-GUIAS-SOBOCAR.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/ANGINA-CRONICA-ESTABLE.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/BLOQUEOS-AURICULOVENTRICULARES.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/CARDIOPATIA-CHAGASICA-CRONICA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/CARDIOPATIAS-CONGENITAS.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/COR-PULMONAR-CRONICO.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/CRISIS-HIPERTENSIVA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/DERRAME-PERICARDICO-Y-TAPONAMIENTO-CARDIACO-1.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/EDEMA-PULMONAR-DE-ALTURA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/EMBOLIA-PULMONAR.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/ENDOCARDITIS-INFECCIOSA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/ENFERMEDAD-DEL-NODO.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/ESTENOSIS-AORTICA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/FIBRILACION-AURICULAR.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/FIEBRE-REUMATICA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/HIPERTENSION-ARTERIAL-SISTEMICA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/HIPERTENSION-PULMONAR.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/INSUFICIENCIA-AORTICA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/INSUFICIENCIA-CARDIACA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/MIOCARDIOPATIA-DILATADA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/MIOCARDIOPATIA-HIPERTROFICA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/PERICARDITIS-AGUDA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/PERICARDITIS-CRÓNICA.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/SINDROMES-CORONARIOS-AGUDOS.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/TAQUICARDIA-PAROXISTICA-SUPRAVENTRICULAR.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/VALVULOPATIA-MITRAL.pdf",
+          "text": "Descargar PDF"
+        },
+        {
+          "url": "https://sobocar.org/docs/VPO-DE-CIR-NO-CARDIACA.pdf",
+          "text": "Descargar PDF"
+        }
+      ]
+    },
+    {
+      "org_id": "B-CZ-CRS",
+      "url": "https://revmatologicka-spolecnost.cz/doporucene-postupy-crs/",
+      "condition": "gout",
+      "date": "2026-11-19T16:09:11.759677+00:00",
+      "final_url": "https://revmatologicka-spolecnost.cz/doporucene-postupy-crs/",
+      "bytes": 100975,
+      "sha256": "5d2426e2fa070764f5ab090b66665d37a7c0e5e76b875f55983ea62ac3bd594d",
+      "cache": "/tmp/atlas-team-b-originals/a82f213731ddd0b1.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://revmatologicka-spolecnost.cz/doporucene-postupy-crs/",
+          "text": "Pro pacienty"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Bezpecnost-biologicke-lecby-2009.pdf",
+          "text": "Bezpečnost biologické léčby 2009"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporucene-lecebne-postupy-pro-psoriatickou-artritidu-2016.pdf",
+          "text": "Doporučené léčebné postupy pro psoriatickou artritidu 2016"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporucene-postupy-CRS-pro-lecbu-psoriaticke-artritidy-2012.pdf",
+          "text": "Doporučené postupy ČRS pro léčbu psoriatické artritidy 2012"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporucene-postupy-CRS-pro-lecbu-revmatoidni-artritidy-2024.pdf",
+          "text": "Doporučené postupy ČRS pro léčbu revmatoidní artritidy 2024"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-ceske-myelomove-skupiny-CMG-pro-zajisteni-casne-diagnostiky-mnohocetneho-myelomu-v-podminkach-ambulantni-klinicke-praxe-2007.pdf",
+          "text": "Doporučení české myelomové skupiny (CMG) pro zajištění časné diagnostiky mnohočetného myelomu v podmínkách ambulantní klinické praxe 2007"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-2020-k-perioperacni-uprave-lecby-zanetlivych-revmatickych-onemocneni.pdf",
+          "text": "Doporučení ČRS 2020 k perioperační úpravě léčby zánětlivých revmatických onemocnění"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-diagnostiku-a-lecbu-obrovskobunecne-arteriitidy-2022.pdf",
+          "text": "Doporučení ČRS pro diagnostiku a léčbu obrovskobuněčné arteriitidy 2022"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-diagnostiku-a-sledovani-nemocnych-se-systemovym-lupus-erythematodes-2013.pdf",
+          "text": "Doporučení ČRS pro diagnostiku a sledování nemocných se systémovým lupus erythematodes 2013"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-diagnostiku-systemove-sklerodermie-2014.pdf",
+          "text": "Doporučení ČRS pro diagnostiku systémové sklerodermie 2014"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-farmakologickou-lecbu-axialnich-spondyloartritid-2021.pdf",
+          "text": "Doporučení ČRS pro farmakologickou léčbu axiálních spondyloartritid 2021"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-farmakologickou-lecbu-axialnich-spondyloartritid-strategie-lecby-a-farmakoterapie.pdf",
+          "text": "Doporučení ČRS pro farmakologickou léčbu axiálních spondyloartritid-strategie léčby a farmakoterapie"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-farmakoterapii-revmatoidni-artritidy-2017.pdf",
+          "text": "Doporučení ČRS pro farmakoterapii revmatoidní artritidy 2017"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-lecbu-ankylozujici-spondylitidy-2012.pdf",
+          "text": "Doporučení ČRS pro léčbu ankylozující spondylitidy 2012"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-lecbu-dnave-artritidy-2012.pdf",
+          "text": "Doporučení ČRS pro léčbu dnavé artritidy 2012"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-lecbu-dny-2019.pdf",
+          "text": "Doporučení ČRS pro léčbu dny 2019"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-lecbu-nemocnych-se-SLE-2013.pdf",
+          "text": "Doporučení ČRS pro léčbu nemocných se SLE 2013"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-lecbu-osteoartrozy-kolennich-kycelnich-a-rucnich-kloubu-2012.pdf",
+          "text": "Doporučení ČRS pro léčbu osteoartrózy kolenních, kyčelních a ručních kloubů 2012"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-lecbu-psoriaticke-artritidy-2023.pdf",
+          "text": "Doporučení ČRS pro léčbu psoriatické artritidy 2023"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-lecbu-revmatoidni-artritidy-2010.pdf",
+          "text": "Doporučení ČRS pro léčbu revmatoidní artritidy 2010"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-lecbu-revmatoidni-artritidy-2007.pdf",
+          "text": "Doporučení ČRS pro léčbu revmatoidní artritidy 2007"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-lecbu-systemove-sklerodermie-2017.pdf",
+          "text": "Doporučení ČRS pro léčbu systémové sklerodermie 2017"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-monitorovani-bezpecnosti-lecby-revmatoidni-artritidy-2009.pdf",
+          "text": "Doporučení ČRS pro monitorování bezpečnosti léčby revmatoidní artritidy 2009"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-monitorovani-bezpecnosti-nesteroidnich-antirevmatik-pri-lecbe-revmatoidni-artritidy-2009.pdf",
+          "text": "Doporučení ČRS pro monitorování bezpečnosti nesteroidních antirevmatik při léčbě revmatoidní artritidy 2009"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-EULAR-2021-pro-intraartikularni-lecbu-v-revmatologii.pdf",
+          "text": "Doporučení EULAR 2021 pro intraartikulární léčbu v revmatologii"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-EULAR-pro-lecbu-revmatoidni-artritidy-rozdily-mezi-verzi-2013-a-2010.pdf",
+          "text": "Doporučení EULAR pro léčbu revmatoidní artritidy – rozdíly mezi verzí 2013 a 2010"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Nova-doporuceni-pro-lecbu-lupusove-nefritidy-2021.pdf",
+          "text": "Nová doporučení pro léčbu lupusové nefritidy 2021"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Pece-o-pacienty-s-autoinflamatornimi-onemocnenimi-Cesko-slovenska-adaptace-prekladu-evropskych-doporuceni-SHARE-2018.pdf",
+          "text": "Péče o pacienty s autoinflamatorními onemocněními- Česko-slovenská adaptace překladu evropských doporučení SHARE 2018"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Pece-o-pacienty-s-nizkotraumatickou-zlomeninou-horniho-konce-stehenni-kosti-Nasledna-osteologicka-pece-2015.pdf",
+          "text": "Péče o pacienty s nízkotraumatickou zlomeninou horního konce stehenní kosti-Následná osteologická péče 2015"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Pece-o-pacienty-se-zlomeninou-horniho-konce-stehenni-kosti-Ortopedicka-pece-2009.pdf",
+          "text": "Péče o pacienty se zlomeninou horního konce stehenní kosti-Ortopedická péče 2009"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Standardni-postupy-v-lecbe-psoriaticke-artritidy-2005.pdf",
+          "text": "Standardní postupy v léčbě psoriatické artritidy 2005"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Stanovisko-CRS-k-distancni-peci-a-telemedicine-2024.pdf",
+          "text": "Stanovisko ČRS k distanční péči a telemedicíně 2024"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Stanovisko-CRS-k-lecbe-revmatickych-onemocneni-a-ockovani-v-kontextu-infekce-SARS-CoV-2-2020.pdf",
+          "text": "Stanovisko ČRS k léčbě revmatických onemocnění a očkování v kontextu infekce SARS-CoV-2 2020"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Stanovisko-CRS-k-personalnimu-a-technickemu-vybaveni-center-biologicke-lecby-v-revmatologii-a-ke-zpusobu-organizace-jejich-site-2019.pdf",
+          "text": "Stanovisko ČRS k personálnímu a technickému vybavení center biologické léčby v revmatologii a ke způsobu organizace jejich sítě 2019"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Stanovisko-CRS-k-terapii-antirevmatiky-v-gravidite-a-laktaci-2018.pdf",
+          "text": "Stanovisko ČRS k terapii antirevmatiky v graviditě a laktaci 2018"
+        },
+        {
+          "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Vapnik-a-vitamin-D-v-lecbe-osteoporozy-Doporuceni-ESCEO-–-European-Society-for-Clinical-and-Economic-Aspects-2007.pdf",
+          "text": "Vápník a vitamin D v léčbě osteoporózy Doporučení ESCEO – European Society for Clinical and Economic Aspects 2007"
+        }
+      ]
+    },
+    {
+      "org_id": "B-CZ-CHS",
+      "url": "https://www.ces-hep.cz/guidelines",
+      "condition": "hemochromatosis",
+      "date": "2026-11-19T16:09:11.865729+00:00",
+      "final_url": "https://www.ces-hep.cz/guidelines",
+      "bytes": 10330,
+      "sha256": "cb7af433a745d18e5624f067041a403f4b985bbb72207d1b0f423549654cb0cc",
+      "cache": "/tmp/atlas-team-b-originals/cf036c65116ab6cc.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/424/639083991827866667/guidelines-chs-hbv-2025.pdf",
+          "text": "Doporučený postup diagnostiky a léčby chronické hepatitidy hepatitidy B (2025)"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/240/639083871538233333/hepatitida-d-guidelines.pdf",
+          "text": "Doporučený postup diagnostiky a léčby chronické hepatitidy D (2023)"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/251/638804887935200000/doplneni-dop-postupu-fib-4-schvaleno-05-12-2023.pdf",
+          "text": "dopl. FIB-4 (2023)"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/238/638804887883233333/pbc-chs.pdf",
+          "text": "Primární biliární cholangitida"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/253/638804887942133333/2022-pbc-aktualizace.pdf",
+          "text": "update 2022"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/252/638804887938233333/akutni-porfyrie-doporuceny-postup-chs-aktualizace-2022.pdf",
+          "text": "Diagnostika a léčba akutních porfyrií (2022)"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/241/638804887891433333/doppostupy-aki-u-jaterni-cirhozy-cns-a-chs-jep-8-12-2020-final.pdf",
+          "text": "Diagnostika a léčba AKI u jaterní cirhózy (2020)"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/239/638804887886233333/nafld-dop-postup-chs.pdf",
+          "text": "NAFLD - Nealkoholová tuková choroba jater (20"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/254/638804887962700000/2018-guidelines-hcv-chssil-1.pdf",
+          "text": "Chronická infekce virem hepatitidy C (2019)"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/237/638804887880633333/varikozni-krvaceni-doporuceni-chs-2017.pdf",
+          "text": "Léčba krvácení v důsledku portální hypertenze při jaterní cirhóze (2017)"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/248/638804887917733333/doporuceny-postup-chs-hbv-2017.pdf",
+          "text": "Chronická infekce virem hepatitidy B (2017)"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/247/638804887908233333/doporuceny-postup-chs-hcc-2011.pdf",
+          "text": "Hepatocelulární karcinom"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/249/638804887920333333/doporuceny-postup-chs-ascites-pri-jaterni-cirhoze.pdf",
+          "text": "Ascites při jaterní cirhóze"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/245/638804887902333333/doporuceny-postup-chs-hepatorenalni-syndrom.pdf",
+          "text": "Hepatorenální syndrom"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/243/638804887895700000/doporuceny-postup-chs-jaterni-encefalopatie.pdf",
+          "text": "Jaterní encefalopatie"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/242/638804887893600000/doporuceny-postup-wilsonova-choroba.pdf",
+          "text": "Wilsonova choroba"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/246/638804887904733333/doporuceny-postup-chs-hemochromatoza.pdf",
+          "text": "Hemochromatóza"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/250/638804887930500000/doporuceny-postup-chs-amanita-phalloides.pdf",
+          "text": "Otrava houbou Amanita phalloides"
+        },
+        {
+          "url": "https://www.ces-hep.cz/d-doc/1/244/638804887900233333/doporuceny-postup-chs-indikace-k-transplantaci-jater.pdf",
+          "text": "Indikace k transplantaci jater"
+        }
+      ]
+    },
+    {
+      "org_id": "B-LT-LRA",
+      "url": "https://www.reumatologuasociacija.lt/informacija-specialistams/",
+      "condition": "gout",
+      "date": "2026-11-19T16:09:12.264417+00:00",
+      "final_url": "https://www.reumatologuasociacija.lt/informacija-specialistams/",
+      "bytes": 37388,
+      "sha256": "67c6c05f6215c7966b7a713b5d27dc8ad94d25eb2557c8334ed373dfaa6931b1",
+      "cache": "/tmp/atlas-team-b-originals/0f4cae198b56681c.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "http://www.reumatologuasociacija.lt/bandymas/wp-content/uploads/2018/03/EULAR-recomm_2016_DK_vilnius.pdf",
+          "text": "atsisiųsti"
+        },
+        {
+          "url": "http://www.reumatologuasociacija.lt/bandymas/wp-content/uploads/2018/03/Gout-Vilnius2017.pdf",
+          "text": "atsisiųsti"
+        },
+        {
+          "url": "http://www.reumatologuasociacija.lt/bandymas/wp-content/uploads/2018/03/Lithuania_CountriesHealth_pdf.pdf",
+          "text": "atsisiųsti"
+        },
+        {
+          "url": "http://www.reumatologuasociacija.lt/bandymas/wp-content/uploads/2018/03/OA-Vilnius.ppt-Compatibiliteitsmodus.pdf",
+          "text": "atsisiųsti"
+        },
+        {
+          "url": "http://www.reumatologuasociacija.lt/bandymas/wp-content/uploads/2018/04/NĖŠTUMAS-IR-INKSTAI-_Prof-Miglinas.pdf",
+          "text": "atsisiųsti"
+        },
+        {
+          "url": "http://www.reumatologuasociacija.lt/bandymas/wp-content/uploads/2018/04/Retu_ligu_valdymas201804reum_Gyd_Jureviciene.pdf",
+          "text": "atsisiųsti"
+        },
+        {
+          "url": "http://www.reumatologuasociacija.lt/bandymas/wp-content/uploads/2018/04/Autoimmunity-Glomerular-Injury_Prof-A.Laurinavicius.pdf",
+          "text": "atsisiųsti"
+        }
+      ]
+    },
+    {
+      "org_id": "B-EE-ERS",
+      "url": "https://ers.ee/materjalid-patsientidele/infomaterjalid-patsientidele/",
+      "condition": "gout",
+      "date": "2026-11-19T16:09:12.691276+00:00",
+      "final_url": "https://ers.ee/materjalid-patsientidele/infomaterjalid-patsientidele/",
+      "bytes": 75818,
+      "sha256": "e41f82e080620ec05da6bfcd69d229ca86469c621e2aafad8ad3e14874f712a0",
+      "cache": "/tmp/atlas-team-b-originals/05e8d3c209c4c64f.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://ers.ee/wp-content/uploads/2024/04/PSA_broshyyr_A5_bleed5_2023_EE_low_1.4.2024.pdf",
+          "text": "“Psoriaatiline artriit. Mis see on? Kuidas leevendada?”"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2024/04/PSA_broshyyr_A5_bleed5_2023_RU_low_1.4.2024.pdf",
+          "text": "Псориатический артрит. Что это? Как облегчить?"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2023/01/podagra-2014-e.k.pdf",
+          "text": "“Podagra. Mis see on? Kuidas leevendada?”"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/podagra-2014-v.k.pdf",
+          "text": "Подагра"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/Puusa-artroos.pdf",
+          "text": "“Puusa artroos. Mis see on? Kuidas ennetada? Kuidas leevendada?”"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/Puusa-artroos-RUS.pdf",
+          "text": "Артроз тазобедренного сустава"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/Labakate-artroos.pdf",
+          "text": "“Labakäte artroos. Mis see on? Kuidas ennetada? Kuidas leevendada?”"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/Polve-artroos-EST-final.pdf",
+          "text": "“Põlveliigese artroos. Mis see on? Kuidas ennetada? Kuidas leevendada?”"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/Polve-artroos-RUS-web.pdf",
+          "text": "«Артроз коленного сустава. Что это? Как предотвратить? Как облегчить?»"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2024/04/SPA_broshyyr_A5_bleed5_2023_EE_low_1.4.2024.pdf",
+          "text": "“Anküloseeriv spondüliit. Mis see on? Kuidas leevendada?”"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2024/04/SPA_broshyyr_A5_bleed5_2023_RU_low_1.4.2024.pdf",
+          "text": "“Анкилозирующий спондилоартрит. Что это? Как облегчить?”"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/Jalalaba-harjutused-logota.pdf",
+          "text": "“Labajala valu. Harjutusi labajalale.”"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/JIA-EE.pdf",
+          "text": "“Juveniilne artriit”"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/JIA-RUS.pdf",
+          "text": "Ювенильный идиопатический артрит"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/Fibromualgia-A5-EST-spread.pdf",
+          "text": "“Fibromüalgia. Mis see on? Kuidas leevendada?”"
+        },
+        {
+          "url": "https://media.voog.com/0000/0044/8154/files/JIA%20-%20RUS.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/Fibromualgia-A5-RUS-spread.pdf",
+          "text": "Фибромиалгия"
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/Bioloogiline_ravi_reumatoloogias_EST_148x210.pdf",
+          "text": "“Bioloogiline ravi reumatoloogias. Infoteatmik”"
+        },
+        {
+          "url": "https://media.voog.com/0000/0044/8154/files/Fibrom%C3%BCalgia%20A5%20RUS%20spread.pdf",
+          "text": ""
+        },
+        {
+          "url": "https://ers.ee/wp-content/uploads/2022/12/Bioloogiline_ravi_reumatoloogias_RUS_148x210.pdf",
+          "text": "Биологическая терапия в ревматологии"
+        }
+      ]
+    },
+    {
+      "org_id": "B-HK-DHK",
+      "url": "https://diabetes-hk.org/educational-leaflets/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:09:12.746585+00:00",
+      "final_url": "https://diabetes-hk.org/educational-leaflets/",
+      "bytes": 66883,
+      "sha256": "2c099738f180d9fabd0e995f8e55856b114f8760b82e3d4472fbb671e67b643e",
+      "cache": "/tmp/atlas-team-b-originals/4bd69e2e3f122e0c.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://diabetes-hk.org/",
+          "text": ""
+        },
+        {
+          "url": "https://diabetes-hk.org/educational-leaflets/",
+          "text": "教育單張"
+        },
+        {
+          "url": "https://diabetes-hk.org/prevalence/",
+          "text": "流行情況"
+        },
+        {
+          "url": "https://diabetes-hk.org/cause/",
+          "text": "成因"
+        },
+        {
+          "url": "https://diabetes-hk.org/type/",
+          "text": "類型"
+        },
+        {
+          "url": "https://diabetes-hk.org/symptom/",
+          "text": "徵狀"
+        },
+        {
+          "url": "https://diabetes-hk.org/diagnosis/",
+          "text": "診治"
+        },
+        {
+          "url": "https://diabetes-hk.org/complication/",
+          "text": "併發症"
+        },
+        {
+          "url": "https://diabetes-hk.org/purpose/",
+          "text": "宗旨"
+        },
+        {
+          "url": "https://diabetes-hk.org/council-members/",
+          "text": "理事會成員"
+        },
+        {
+          "url": "https://diabetes-hk.org/contact-us/",
+          "text": "聯絡資料"
+        },
+        {
+          "url": "https://diabetes-hk.org/public-education/",
+          "text": "公眾教育"
+        },
+        {
+          "url": "https://diabetes-hk.org/raise-social-attention/",
+          "text": "提昇社會關注"
+        },
+        {
+          "url": "https://diabetes-hk.org/improving-medical-standards/",
+          "text": "提高醫療水平"
+        },
+        {
+          "url": "https://diabetes-hk.org/promote-self-management/",
+          "text": "提倡自我管理"
+        },
+        {
+          "url": "https://diabetes-hk.org/past-events/",
+          "text": "活動回顧"
+        },
+        {
+          "url": "https://diabetes-hk.org/album/",
+          "text": "活動相簿"
+        },
+        {
+          "url": "https://diabetes-hk.org/newsletter/",
+          "text": "消渴茶館"
+        },
+        {
+          "url": "https://diabetes-hk.org/recipe-introduction/",
+          "text": "食譜介紹"
+        },
+        {
+          "url": "https://diabetes-hk.org/statements-and-guidelines/",
+          "text": "聲明及指引"
+        },
+        {
+          "url": "https://diabetes-hk.org/educational-videos/",
+          "text": "教育影片"
+        },
+        {
+          "url": "https://diabetes-hk.org/online-learning/",
+          "text": "網上學習"
+        },
+        {
+          "url": "https://diabetes-hk.org/form-download/",
+          "text": "表格下載"
+        },
+        {
+          "url": "https://diabetes-hk.org/related-links/",
+          "text": "相關連結"
+        },
+        {
+          "url": "https://diabetes-hk.org/support-us/",
+          "text": "捐款"
+        },
+        {
+          "url": "https://diabetes-hk.org/become-a-member/",
+          "text": "成為會員"
+        },
+        {
+          "url": "https://diabetes-hk.org/become-a-volunteer/",
+          "text": "成為義工"
+        },
+        {
+          "url": "https://www.facebook.com/DiabetesHongkong.27232087/",
+          "text": ""
+        },
+        {
+          "url": "https://www.instagram.com/diabetes.hk/",
+          "text": ""
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/managing_diabetes_made_easy.pdf",
+          "text": "輕鬆管理糖尿病"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/leaflet_dm_prevention.pdf",
+          "text": "遠離糖尿–認識糖尿病"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/dm_silent_killer.pdf",
+          "text": "您知道糖尿病是隱形殺手嗎？"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/05/Chronic-Complications-of-Diabetes.pdf",
+          "text": "糖尿病慢性併發症"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/leaflet_Blood_-Glucose_Monitoring.pdf",
+          "text": "糖尿病患者的血糖監察"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/leaflet_DM_Cx_acute.pdf",
+          "text": "急性併發症 (低/高血糖昏迷症)"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/leaflet_hypo.pdf",
+          "text": "糖尿病低血糖症"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/leaflet_Sport_tips_for_DM_patients.pdf",
+          "text": "糖尿病患者的運動小貼士"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/leaflet_smart_diet_for_DM_patients.pdf",
+          "text": "精明糖尿病飲食指南"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/leaflet_foot_management.pdf",
+          "text": "糖尿腳護理足印"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/leaflet_diabesity.pdf",
+          "text": "認識糖胖症"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/poster_alliance.pdf",
+          "text": "控糖教育海報 及 教育短片QR-code"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/leaflet_DM_COVID19_tips.pdf",
+          "text": "給糖尿病友的新型冠狀病毒抗疫小貼士 Smart tips for DM patients during COVID-19"
+        },
+        {
+          "url": "https://diabetes-hk.org/wp-content/uploads/2025/03/DHK_COVID-19_newsletter.pdf",
+          "text": "糖尿病人2019冠狀病毒病 COVID-19防疫手冊"
+        },
+        {
+          "url": "https://diabetes-hk.org/letter-to-new-diabetics/",
+          "text": "寫給新糖尿病友"
+        },
+        {
+          "url": "https://diabetes-hk.org/start-from-the-heart/",
+          "text": "從心出發"
+        },
+        {
+          "url": "https://diabetes-hk.org/abcs-of-diabetes/",
+          "text": "糖尿ABC"
+        },
+        {
+          "url": "https://diabetes-hk.org/medicine-works/",
+          "text": "藥到病除"
+        },
+        {
+          "url": "https://diabetes-hk.org/acute-complications/",
+          "text": "急性併發症"
+        },
+        {
+          "url": "https://diabetes-hk.org/daily-life-tips/",
+          "text": "日常生活錦囊"
+        },
+        {
+          "url": "https://diabetes-hk.org/dietary-advice/",
+          "text": "飲食建議"
+        },
+        {
+          "url": "https://diabetes-hk.org/food-labels/",
+          "text": "食物標籤"
+        },
+        {
+          "url": "https://diabetes-hk.org/tips-for-eating-out/",
+          "text": "外出飲食貼士"
+        },
+        {
+          "url": "https://diabetes-hk.org/weight-control-3/",
+          "text": "體重控制"
+        },
+        {
+          "url": "https://diabetes-hk.org/purpose-of-exercise/",
+          "text": "運動目的"
+        },
+        {
+          "url": "https://diabetes-hk.org/sports-goals/",
+          "text": "運動目標"
+        },
+        {
+          "url": "https://diabetes-hk.org/precautions/",
+          "text": "注意事項"
+        },
+        {
+          "url": "https://diabetes-hk.org/fitness-program/",
+          "text": "健身計劃"
+        },
+        {
+          "url": "https://diabetes-hk.org/weight-control/",
+          "text": "體重控制"
+        },
+        {
+          "url": "https://diabetes-hk.org/assessment-of-high-risk-factors-for-diabetes/",
+          "text": "糖尿病高危因素評估"
+        },
+        {
+          "url": "https://diabetes-hk.org/healthy-lifestyle/",
+          "text": "健康生活模式"
+        },
+        {
+          "url": "https://diabetes-hk.org/diet-plan/",
+          "text": "飲食計劃"
+        },
+        {
+          "url": "https://diabetes-hk.org/exercise-program/",
+          "text": "運動計劃"
+        },
+        {
+          "url": "https://diabetes-hk.org/personal-information-collection-statements/",
+          "text": "收集個人資料聲明"
+        },
+        {
+          "url": "https://diabetes-hk.org/disclaimer/",
+          "text": "免責聲明"
+        }
+      ]
+    },
+    {
+      "org_id": "B-TH-RCPT",
+      "url": "https://www2.rcpt.org/web/content/1022",
+      "condition": "high_chol",
+      "date": "2026-11-19T16:09:13.752502+00:00",
+      "final_url": "https://www2.rcpt.org/web/content/1022",
+      "bytes": 28295,
+      "sha256": "40140e82c7bcf3b72e8e854b12327dc05c73ada0ffcd18ee4458fea8a29b6cb6",
+      "cache": "/tmp/atlas-team-b-originals/6bd80da572008446.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": []
+    },
+    {
+      "org_id": "B-PY-SPHTA",
+      "url": "https://sphta.org.py/lectura-y-posicionamiento/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:13.825172+00:00",
+      "final_url": "https://sphta.org.py/lectura-y-posicionamiento/",
+      "bytes": 127264,
+      "sha256": "f580fde0ac912055e56cc434a446a43700b48cb248e15665caac3c266e157935",
+      "cache": "/tmp/atlas-team-b-originals/0d444bae5e2f981f.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.instagram.com/hipertensionparaguay/",
+          "text": ""
+        },
+        {
+          "url": "https://sphta.org.py/2026/07/21/enfermeria-en-hipertension-arterial/",
+          "text": "Enfermería en Hipertensión Arterial"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/2025/10/2018-ESC-ESH-Guidelines-for-the.pdf",
+          "text": "2018 ESC-ESH Guidelines for the"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/2025/10/2020-International-Society-of-Hypertension-Global.pdf",
+          "text": "2020 International Society of Hypertension Global"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/2025/10/2023-ESH-Guidelines-for-the-management-of.pdf",
+          "text": "2023 ESH Guidelines for the management of"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/2025/10/2024-ESC-Guidelines-for-the-management-of.pdf",
+          "text": "2024 ESC Guidelines for the management of"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/2025/10/2024-Latin-American-Society-of-Hypertension.pdf",
+          "text": "2024 Latin American Society of Hypertension"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/2025/10/Clinical-Practice-Guideline.pdf",
+          "text": "Clinical Practice Guideline"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/2025/10/Indicadores-PARAGUAY-2024.pdf",
+          "text": "Indicadores-PARAGUAY 2024"
+        },
+        {
+          "url": "https://fupadi.org.py/",
+          "text": "Fundación Paraguaya de Diabetes"
+        }
+      ]
+    },
+    {
+      "org_id": "B-PY-SPHTA",
+      "url": "https://sphta.org.py/descargar-certificados-articulos-originaeles/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:14.075241+00:00",
+      "final_url": "https://sphta.org.py/descargar-certificados-articulos-originaeles/",
+      "bytes": 160301,
+      "sha256": "1fb2c2d7848ccd9c4ab644d98eb53aef7b17b619bd494ec10335d3dc0f522ba7",
+      "cache": "/tmp/atlas-team-b-originals/27a0a3f5a4aa86c8.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.instagram.com/hipertensionparaguay/",
+          "text": ""
+        },
+        {
+          "url": "https://sphta.org.py/2026/07/21/enfermeria-en-hipertension-arterial/",
+          "text": "Enfermería en Hipertensión Arterial"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/3%20AO.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/5%20AO.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Adherencia%20al%20tratamiento%20antihipertensivo%20como%20factor%20asociado.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Amiodarona%20en%20geriatr_a%20beneficio%20terap_utico%20o%20riesgo%20subestimado%20reacciones%20adversas%20asociadas.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Caracter_sticas%20cl_nico%20epidemiol_gicas%20de%20pacientes%20hipertensos%20que%20presentaron%20accidente%20cerebrovascular%20en%20el%20servicio%20de%20cl_nica%20m_dica%20de%20un%20hospital%20de%204to%20nivel,%20enero%20a%20julio%202025.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Caracterizaci_n%20de%20lesiones%20coronarias%20y%20conductas%20terap_uticas%20con%20hipertensi_n%20arterial%20del%20servicio%20de%20cl_nica%20m_dica,%20hospital%20central%20del%20instituto%20de%20previsi_n%20social,%202024.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Enfermedad%20renal%20cr_nica%20como%20factor%20asociado%20a%20hipertensi_n%20arterial%20resistente%20en%20pacientes%20internados%20en%20cl_nica%20m_dica%20en%20un%20hospital%20de%20referencia.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Estenosis%20a_rtica%20severa%20en%20pacientes%20hipertensos%20caracter_sticas%20cl_nicas,%20ecocardiogr_ficas%20y%20manejo%20terap_utico%20en%20el%20hospital%20central%20del%20IPS.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Factores%20asociados%20a%20lesi_n%20renal%20aguda%20en%20pacientes%20hospitalizados%20en%20el%20servicio%20de%20cl_nica%20m_dica%20instituto%20de%20previsi_n%20social%20en%20el%20periodo%20de%20noviembre%20de%202025%20a%20febrero%20de%202026.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Factores%20cl_nicos%20y%20demogr_ficos%20en%20pacientes%20con%20hipertensi_n%20arterial%20resistente%20internados%20en%20sel%20servicio%20de%20cl_nica%20m_dica,%20enero%20a%20junio%20a_o%202025..pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Factores%20de%20riesgo%20cardiovascular%20en%20pacientes%20hipertensos%20internados%20en%20el%20hospital%20central%20del%20instituto%20de%20previsi_n%20social,%20per_odo%20noviembre%20de%202025%20a%20febrero%202026..pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Factores%20relacionados%20a%20INR%20fuera%20de%20meta%20en%20pacientes%20anticoagulados%20con%20antagonistas%20de%20vitamina%20k%20en%20el%20periodo%20de%20diciembre%20de%202025%20a%20marzo%20de%202026.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Frecuencia%20de%20insuficiencia%20arterial%20cr_nica%20en%20pacientes%20con%20hipertensi_n%20arterial%20internados%20en%20el%20servicio%20de%20cl_nica%20m_dica%20del%20hospital%20central%20de%20instituto%20de%20previsi_n%20social.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Hipertensi_n%20arterial%20como%20sustrato%20de%20la%20disfunci_n%20valvular%20a_rtica.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Hipertensi_n%20arterial%20y%20compromiso%20de%20_rganos%20blanco%20en%20pacientes%20internados%20en%20el%20hospital%20central%20del%20instituto%20de%20previsi_n%20social,%20per_odo%20noviembre%20de%202025-febrero%202026..pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Hipertiroidismo%20e%20hipertensi_n%20arterial%20impacto%20sobre%20la%20hipertrofia%20ventricular%20izquierda%20en%20pacientes%20internados%20en%20cl_nica%20m_dica.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Impacto%20de%20la%20hipertensi_n%20arterial%20en%20la%20evoluci_n%20intrahospitalaria%20de%20pacientes%20internados%20en%20el%20periodo%20enero%202025%20a%20enero%20de%202026.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Infarto%20agudo%20de%20miocardio%20con%20coronarias%20no%20obstructivas%20minoca%20desaf_o%20diagn_stico%20y%20terap_utico%20en%20un%20paciente%20joven..pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Manejo%20terap_utico%20en%20pacientes%20hipertensos%20internados%20en%20el%20servicio%20de%20cl_nica%20m_dica%20en%20el%20hospital%20central%20del%20instituto%20de%20previsi_n%20social,%20per_odo%20noviembre%20de%202025%20a%20febrero%202026.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Nivel%20de%20conocimiento%20sobre%20hipertensi_n%20arterial%20en%20pacientes%20atendidos%20en%20la%20consulta%20ambulatoria%20en%20un%20centro%20de%20referencia%20durante%20abril-mayo%20de%202026.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/No%20adherencia%20al%20tratamiento%20antihipertensivo%20y%20factores%20relacionados%20en%20pacientes%20atendidos%20en%20un%20hospital%20de%20referencia%20de%20asunci_n,%20Paraguay.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Perfil%20cl_nico%20de%20pacientes%20con%20cardiopat_a%20isqu_mica%20internados%20en%20el%20servicio%20de%20cl_nica%20m_dica%20en%20el%20periodo%20de%20enero%202025%20a%20enero%202026.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Perfil%20etiol_gico%20de%20la%20enfermedad%20renal%20cr_nica%20terminal%20en%20pacientes%20del%20programa%20de%20di_lisis%20del%20Hospital%20General%20de%20Luque%20_nfasis%20en%20la%20hipertensi_n%20arterial.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Polifarmacia%20y%20desenlaces%20cl_nicos%20en%20adultos%20mayores%20con%20hipertensi_n%20arterial%20internados.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Reacciones%20adversas%20a%20antihipertensivos%20como%20causa%20de%20falta%20de%20adherencia%20terap_utica%20en%20pacientes%20hipertensos%20internados%20entre%20enero%20de%202025%20y%20enero%20de%202026...pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Relaci_n%20entre%20hipertensi_n%20arterial%20y%20lesi_n%20renal%20aguda%20en%20pacientes%20hospitalizados%20en%20clinica%20medica%20en%20el%20periodo%20de%20agosto%20del%202024%20a%20agosto%20de%202025.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Relaci_n%20entre%20hipertensi_n%20arterial%20y%20s_ndrome%20metab_lico%20en%20adultos%20j_venes%20experiencia%20de%20un%20hospital%20de%20referencia.pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Relaci_n%20entre%20score%20has-bled%20y%20eventos%20hemorr_gicos%20en%20pacientes%20con%20fibrilaci_n%20auricular%20internados%20en%20cl_nica%20m_dica..pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Uso%20de%20isglt2%20en%20insuficiencia%20card_aca%20experiencia%20cl_nica%20hospitalaria%20en%20pacientes%20internados%20en%20el%20periodo%20febrero%202025%20a%20febrero%202026..pdf",
+          "text": "Descargar"
+        },
+        {
+          "url": "https://fupadi.org.py/",
+          "text": "Fundación Paraguaya de Diabetes"
+        }
+      ]
+    },
+    {
+      "org_id": "B-NP-CSN",
+      "url": "https://www.nhjournal.info/issue-vol20no2",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:09:15.090722+00:00",
+      "final_url": "https://www.nhjournal.info/issue-vol20no2",
+      "bytes": 21010,
+      "sha256": "efdcc0f90641dcda5328380098727401214381ecc1cd815959ab859e51e563e6",
+      "cache": "/tmp/atlas-team-b-originals/bd9f986b20150474.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.nhjournal.info/policies-protectionofresearchparticipantsandpatientsrightstoprivacy",
+          "text": "Protection of Research Participants and Patients' Rights to Privacy"
+        },
+        {
+          "url": "https://www.nhjournal.info/pdf/vol20no2/1_OR1_NHJ2023_Vol20No2_1-6.pdf",
+          "text": "A Randomized Comparison of Two Doses of Tranexamic Acid in High-Risk Open-Heart Surgery"
+        },
+        {
+          "url": "https://www.nhjournal.info/pdf/vol20no2/2_OR2_NHJ2023_Vol20No2_7-12.pdf",
+          "text": "Cardiovascular Disease Risk Profiling among First-Degree Relatives of Premature Coronary Artery Disease Patients"
+        },
+        {
+          "url": "https://www.nhjournal.info/pdf/vol20no2/3_OR3_NHJ2023_Vol20No2_13-17.pdf",
+          "text": "Antithrombotic Adherence to guideline-directed therapy and risk profile among Non-Valvular Atrial fibrillation patients"
+        },
+        {
+          "url": "https://www.nhjournal.info/pdf/vol20no2/4_OR4_NHJ2023_Vol20No2_19-26.pdf",
+          "text": "Effect of an Educational Intervention for Nursing Personnel on Emergency Inventory and Drugs Checklist of Resuscitation Trolley in a Tertiary Cardiac Center, Ka"
+        },
+        {
+          "url": "https://www.nhjournal.info/pdf/vol20no2/5_OR5_NHJ2023_Vol20No2_27-31.pdf",
+          "text": "Predicting Surgical Mortality After Congenital Heart Surgeries Using Risk Adjustment in Congenital Heart Surgery-1 (RACHS-1) Risk Scoring System: A Retrospectiv"
+        },
+        {
+          "url": "https://www.nhjournal.info/pdf/vol20no2/8_CR1_NHJ2023_Vol20No2_51-53.pdf",
+          "text": "Takotsubo Cardiomyopathy in the setting of Urosepsis"
+        },
+        {
+          "url": "https://www.nhjournal.info/pdf/vol20no2/9_CR2_NHJ2023_Vol20No2_55-57.pdf",
+          "text": "Spontaneous Epidural Hematoma: A rare neurological complication in a patient following routine coronary angiography"
+        },
+        {
+          "url": "https://www.nhjournal.info/pdf/vol20no2/10_CR3_NHJ2023_Vol20No2_59-61.pdf",
+          "text": "Hyper-dominant Left Anterior Descending Artery in the coronary circulation as a rare coronary anomaly."
+        },
+        {
+          "url": "https://www.nhjournal.info/pdf/vol20no2/PBM-33-41.pdf",
+          "text": "Patient blood management for cardiovascular surgery: Clinical practice consensus statement"
+        },
+        {
+          "url": "https://www.nhjournal.info/pdf/vol20no2/7_VP2_NHJ2023_Vol20No2_43-49.pdf",
+          "text": "Screening for Hypertension in Asymptomatic Individuals in Nepal: An Expert Consensus Statement"
+        }
+      ]
+    }
+  ],
+  "originals": [
+    {
+      "key": "BM_SCREEN2025",
+      "org_id": "B-BM-BDA",
+      "url": "https://cdn.prod.website-files.com/6058a24259403af6c70fee3a/6998bbcb3c83a74710980bfb_Eye%20Health%20Screening%20Report%202025-compressed.pdf",
+      "checked_on": "2026-11-19T16:10:34.626097+00:00",
+      "final_url": "https://cdn.prod.website-files.com/6058a24259403af6c70fee3a/6998bbcb3c83a74710980bfb_Eye%20Health%20Screening%20Report%202025-compressed.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "3771bdc38ef7bb5f1a634c10b5268725a6940ee9f6719f01e1d7304264e78f5c",
+      "bytes": 2374092,
+      "path": "/tmp/atlas-team-b-originals/BM_SCREEN2025.bin",
+      "pdf": true
+    },
+    {
+      "key": "RU_ALG2023",
+      "org_id": "B-RU-RAE",
+      "url": "https://rae-org.ru/system/files/documents/pdf/2023_alg_sum.pdf",
+      "checked_on": "2026-11-19T16:10:34.626608+00:00",
+      "final_url": "https://rae-org.ru/system/files/documents/pdf/2023_alg_sum.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "e4c65c2aa8463b6b15a805cde03cf0c0c5190da3075609e44590ab3922d89002",
+      "bytes": 4579421,
+      "path": "/tmp/atlas-team-b-originals/RU_ALG2023.bin",
+      "pdf": true
+    },
+    {
+      "key": "SI_ZAH2025",
+      "org_id": "B-SI-ZAH",
+      "url": "https://hipertenzija.org/wp-content/uploads/2025/11/ZAH_2025.pdf",
+      "checked_on": "2026-11-19T16:10:34.626788+00:00",
+      "final_url": "https://hipertenzija.org/wp-content/uploads/2025/11/ZAH_2025.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "e65e0e2a416d9c368cc1fbb950280cf0f93f87a3650a712a3f4e4f8a1b9dc586",
+      "bytes": 2196567,
+      "path": "/tmp/atlas-team-b-originals/SI_ZAH2025.bin",
+      "pdf": true
+    },
+    {
+      "key": "HR_HTN2017",
+      "org_id": "B-HR-HDH",
+      "url": "https://hdh.healthmed.hr/upload/hdh_smjernica/dokument_1576574741.pdf",
+      "checked_on": "2026-11-19T16:10:34.626843+00:00",
+      "final_url": "https://hdh.healthmed.hr/upload/hdh_smjernica/dokument_1576574741.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "3ed9d6a26df2c11bcbb974af821e2dca390dc31ace28454ef6d8c8dc9f2d8615",
+      "bytes": 1120062,
+      "path": "/tmp/atlas-team-b-originals/HR_HTN2017.bin",
+      "pdf": true
+    },
+    {
+      "key": "EE_GOUT2014",
+      "org_id": "B-EE-ERS",
+      "url": "https://ers.ee/wp-content/uploads/2023/01/podagra-2014-e.k.pdf",
+      "checked_on": "2026-11-19T16:10:35.095829+00:00",
+      "final_url": "https://ers.ee/wp-content/uploads/2023/01/podagra-2014-e.k.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "5965df068163fe802dacea32ebc5c1ec7f8dd0cff1832adb6c575ccf25e7d138",
+      "bytes": 8208182,
+      "path": "/tmp/atlas-team-b-originals/EE_GOUT2014.bin",
+      "pdf": true
+    },
+    {
+      "key": "LT_GOUT2017",
+      "org_id": "B-LT-LRA",
+      "url": "https://www.reumatologuasociacija.lt/bandymas/wp-content/uploads/2018/03/Gout-Vilnius2017.pdf",
+      "checked_on": "2026-11-19T16:10:36.337981+00:00",
+      "final_url": "https://www.reumatologuasociacija.lt/bandymas/wp-content/uploads/2018/03/Gout-Vilnius2017.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "53b1d64ed13d5646faedbf805f7b57792798f1dfab77da16d0ce4a181540d873",
+      "bytes": 3895018,
+      "path": "/tmp/atlas-team-b-originals/LT_GOUT2017.bin",
+      "pdf": true
+    },
+    {
+      "key": "PH_LIP2020",
+      "org_id": "B-PH-PLAS",
+      "url": "https://www.philippinelipid.org.ph/PDF/executive.pdf",
+      "checked_on": "2026-11-19T16:10:36.890082+00:00",
+      "final_url": "https://www.philippinelipid.org.ph/PDF/executive.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "c0fe550730189923dd019c992d8419c0251e4ce17ce9e87d3c988641fd0b9515",
+      "bytes": 572872,
+      "path": "/tmp/atlas-team-b-originals/PH_LIP2020.bin",
+      "pdf": true
+    },
+    {
+      "key": "CO_HTN2007",
+      "org_id": "B-CO-SCC",
+      "url": "https://scc.org.co/wp-content/uploads/2012/08/4-GUIAS_HIPERTENSION_ARTERIAL-2007.pdf",
+      "checked_on": "2026-11-19T16:10:37.143232+00:00",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "BO_HTN",
+      "org_id": "B-BO-SOBOCAR",
+      "url": "https://sobocar.org/docs/HIPERTENSION-ARTERIAL-SISTEMICA.pdf",
+      "checked_on": "2026-11-19T16:10:38.235570+00:00",
+      "final_url": "https://sobocar.org/docs/HIPERTENSION-ARTERIAL-SISTEMICA.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "afffe340d3559bc65b4beb3899d734d10688db2d6286053f6545340246c262e2",
+      "bytes": 722654,
+      "path": "/tmp/atlas-team-b-originals/BO_HTN.bin",
+      "pdf": true
+    },
+    {
+      "key": "BO_FRONT",
+      "org_id": "B-BO-SOBOCAR",
+      "url": "https://sobocar.org/docs/1.PRESENTACION-GUIAS-SOBOCAR.pdf",
+      "checked_on": "2026-11-19T16:10:38.495758+00:00",
+      "final_url": "https://sobocar.org/docs/1.PRESENTACION-GUIAS-SOBOCAR.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "676782b458e56699c069dbcf3d6c75a97a7180301f091ef8321a051d3676d6b3",
+      "bytes": 271812,
+      "path": "/tmp/atlas-team-b-originals/BO_FRONT.bin",
+      "pdf": true
+    },
+    {
+      "key": "CZ_GOUT2012",
+      "org_id": "B-CZ-CRS",
+      "url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-lecbu-dnave-artritidy-2012.pdf",
+      "checked_on": "2026-11-19T16:10:38.974538+00:00",
+      "final_url": "https://revmatologicka-spolecnost.cz/data/files/page/1089/Doporuceni-CRS-pro-lecbu-dnave-artritidy-2012.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "a52edc8127f7470a333e5637672636d98ef314de95740bbf29183542781c5aae",
+      "bytes": 787321,
+      "path": "/tmp/atlas-team-b-originals/CZ_GOUT2012.bin",
+      "pdf": true
+    },
+    {
+      "key": "CZ_HH",
+      "org_id": "B-CZ-CHS",
+      "url": "https://www.ces-hep.cz/d-doc/1/246/638804887904733333/doporuceny-postup-chs-hemochromatoza.pdf",
+      "checked_on": "2026-11-19T16:10:38.980230+00:00",
+      "final_url": "https://www.ces-hep.cz/d-doc/1/246/638804887904733333/doporuceny-postup-chs-hemochromatoza.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "c30a9698fe86a050a6a4965caf22cd3a5785280c2070873c77c2532fdabe88d3",
+      "bytes": 311998,
+      "path": "/tmp/atlas-team-b-originals/CZ_HH.bin",
+      "pdf": true
+    },
+    {
+      "key": "NP_CVD2023",
+      "org_id": "B-NP-CSN",
+      "url": "https://www.nhjournal.info/pdf/vol20no2/2_OR2_NHJ2023_Vol20No2_7-12.pdf",
+      "checked_on": "2026-11-19T16:10:39.203217+00:00",
+      "final_url": "https://www.nhjournal.info/pdf/vol20no2/2_OR2_NHJ2023_Vol20No2_7-12.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "49555f93d61ad9eadeb92f118a3466c96f8a507aceebc191b8997f5875e2b51d",
+      "bytes": 478425,
+      "path": "/tmp/atlas-team-b-originals/NP_CVD2023.bin",
+      "pdf": true
+    },
+    {
+      "key": "PY_HTNADH",
+      "org_id": "B-PY-SPHTA",
+      "url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Adherencia%20al%20tratamiento%20antihipertensivo%20como%20factor%20asociado.pdf",
+      "checked_on": "2026-11-19T16:10:39.878012+00:00",
+      "final_url": "https://sphta.org.py/wp-content/uploads/ARTORIGINALESCONGRES2026/Adherencia%20al%20tratamiento%20antihipertensivo%20como%20factor%20asociado.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "d5fb3c1223ac218ad0419041b82cc5521f9bcab101f9f1b70c06a38ca51bd98d",
+      "bytes": 300452,
+      "path": "/tmp/atlas-team-b-originals/PY_HTNADH.bin",
+      "pdf": true
+    },
+    {
+      "key": "HK_CAUSE",
+      "org_id": "B-HK-DHK",
+      "url": "https://diabetes-hk.org/cause/",
+      "checked_on": "2026-11-19T16:10:40.244122+00:00",
+      "final_url": "https://diabetes-hk.org/cause/",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "c338d621634b09e793810632e58ba1bb4756d8e887ee388091c6fc493e5b4a99",
+      "bytes": 79037,
+      "path": "/tmp/atlas-team-b-originals/HK_CAUSE.bin",
+      "pdf": false
+    },
+    {
+      "key": "PT_T2",
+      "org_id": "B-PT-SPEDM",
+      "url": "https://www.spedm.pt/pt/orientacoes-publicacoes/portuguese-brazilian-evidence-based-guideline-on-the-management-of-hyperglycemia-in-type-2-diabetes-mellitus",
+      "checked_on": "2026-11-19T16:10:40.278845+00:00",
+      "final_url": "https://www.spedm.pt/pt/orientacoes-publicacoes/portuguese-brazilian-evidence-based-guideline-on-the-management-of-hyperglycemia-in-type-2-diabetes-mellitus",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "9faef129451e3c8f270b8210cc7ceac86724f95be3f1f0798bcf029bdd2dc65c",
+      "bytes": 24433,
+      "path": "/tmp/atlas-team-b-originals/PT_T2.bin",
+      "pdf": false
+    },
+    {
+      "key": "ES_DIET",
+      "url": "https://www.sediabetes.org/wp-content/uploads/FINAL-Trat-diet_Diabetes_INTERACTIVO_V25_compressed-1.pdf",
+      "checked_on": "2026-11-19T16:12:37.142651+00:00",
+      "final_url": "https://www.sediabetes.org/wp-content/uploads/FINAL-Trat-diet_Diabetes_INTERACTIVO_V25_compressed-1.pdf",
+      "pdf": true,
+      "path": "/tmp/atlas-team-b-originals/ES_DIET.bin",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "c0951ae8dc29a44076ce7f0205b474b492d0819eb268cd6846245801546b5c2e",
+      "bytes": 2950187
+    },
+    {
+      "key": "PT_T2PDF",
+      "url": "https://www.spedm.pt/uploads/media/publicacoes/diretriz_luso_brasileira.pdf",
+      "checked_on": "2026-11-19T16:12:37.143116+00:00",
+      "final_url": "https://www.spedm.pt/uploads/media/publicacoes/diretriz_luso_brasileira.pdf",
+      "pdf": true,
+      "path": "/tmp/atlas-team-b-originals/PT_T2PDF.bin",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "584402e15751a2ae1613ee1b72fba4aaeedd5f524b5f17b8a5c1cb3546116adb",
+      "bytes": 1958326
+    }
+  ],
+  "limits": "Retrieval is not qualification. Full PDF bytes cached locally only; no copyrighted originals uploaded."
+}

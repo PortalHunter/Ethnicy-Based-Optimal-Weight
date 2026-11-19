@@ -1,0 +1,24 @@
+{
+  "requested_url": "https://jasulib.org.kg/wp-content/uploads/2024/05/3230.pdf",
+  "response_sha256": "2373c0171861ff2a87f7d43acfa1dc76a7c26bdf382b6b7c30009530231ec1e2",
+  "pages": 400,
+  "inspected_pages": [
+    1,
+    2,
+    157,
+    158,
+    159,
+    160,
+    161
+  ],
+  "retrieval": "web cache miss followed by successful system curl default-certificate download; pypdf extraction",
+  "full_text_committed": false,
+  "other_blocked_candidate": {
+    "url": "https://book.bsmi.uz/web/kitoblar/152370847.pdf",
+    "routes": [
+      "web reader timeout",
+      "system curl connection timeout50seconds"
+    ],
+    "state": "not_content_inspected_no_qualification_no_repeated_retry"
+  }
+}

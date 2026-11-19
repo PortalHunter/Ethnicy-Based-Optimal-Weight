@@ -1,0 +1,21 @@
+{
+  "requested_url": "https://www.racgp.org.au/getattachment/7c05e922-ab1f-4301-aab7-f4f9b638cb66/Management-of-type-2-diabetes-A-handbook-for-general-practice.aspx",
+  "retrieval": "system curl --fail --location with default certificate verification succeeded; Python runtime trust-store failure not source failure",
+  "response_sha256": "4b8dc54c96a487657d5c8b9121f682d4eb3b5dc5ab30f9ab14024f82a73ab66b",
+  "pages": 333,
+  "inspected_pages": [
+    1,
+    10,
+    11,
+    18,
+    21,
+    178,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187
+  ],
+  "full_text_committed": false
+}

@@ -1,0 +1,35 @@
+{
+  "clinical_release": "research_lead_only",
+  "reviews": [
+    {
+      "key": "MM_HBA1C",
+      "source": "https://myanmardiabetes.org.mm/wp-content/uploads/2018/12/What-is-Diabetes-ilovepdf-compressed-1.pdf",
+      "question": "PDF3 target literally HbA1c70%, visually confirmed. Independent original issuer/clinician correction required; no target approved or silently corrected."
+    },
+    {
+      "key": "RO_ANCESTRY_HFE_LACTASE",
+      "source": "https://societate-diabet.ro/wp-content/uploads/2026/01/Tratat_Diabet-1.pdf",
+      "question": "HFE penetrance, Caucasian prevalence label, European lactase persistence and genotype/ancestry claims require independent genetic/population review; no individual inference or community permission."
+    },
+    {
+      "key": "LI_PRS_METHODS",
+      "source": "https://www.nature.com/articles/s41588-024-01714-w.pdf",
+      "question": "European-ancestry GWAS design, male-skewed MVP sample, cross-population transfer, PRS clinical utility, sample representation and consent/community governance remain independent review."
+    },
+    {
+      "key": "LI_PLANNED_STUDY",
+      "source": "https://www.ufl.li/fileadmin/user_upload/01_Universitaet/Forschungsmagazin160_2_2024_WEB.pdf",
+      "question": "Wearable study is prospective plan; no efficacy/results inferred. Swiss chart and selected GAPP estimates not Liechtenstein census."
+    },
+    {
+      "key": "UG_SPONSOR_GUIDANCE",
+      "source": "https://library.health.go.ug/sites/default/files/resources/2026%20Uganda%20Diabetes%20Management%20Guidelines%20-%20Summarised%20version_0.pdf",
+      "question": "Joint UDA/MoH authorship distinct from governmental authority; pharmaceutical funding, algorithms, targets and current clinical applicability require review."
+    },
+    {
+      "key": "IS_TEMPLATE",
+      "source": "https://www.diabetes.is/diabetes",
+      "question": "Retain generic template contact artifact alongside actual Reykjavík footer and type3 gestational label; no legal lifecycle or clinical nomenclature certification."
+    }
+  ]
+}

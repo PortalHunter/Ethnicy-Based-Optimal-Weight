@@ -1,0 +1,241 @@
+{
+  "navigation": [
+    {
+      "org_id": "B-KR-KDA",
+      "url": "https://www.diabetes.or.kr/bbs/?code=guide",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:47:31.520181+00:00",
+      "bytes": 29950,
+      "sha256": "007712d30f0bc2917961776d345466f424e27dc25b7df51a6c49bdc9ab18b08e",
+      "cache": "/tmp/atlas-team-b-originals/9b89a8ce1029b3d9.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.e-dmj.org",
+          "text": "Diabetes and Metabolism Journal"
+        },
+        {
+          "url": "https://www.diabetes.or.kr/pro/journal/",
+          "text": "The Journal of Korean Diabetes"
+        },
+        {
+          "url": "https://www.diabetes.or.kr/bbs/?code=fact_sheet",
+          "text": "Diabetes Fact Sheet"
+        },
+        {
+          "url": "https://www.diabetes.or.kr/foundation/donate/ ",
+          "text": "기부하기"
+        },
+        {
+          "url": "https://diabetes.or.kr/foundation/",
+          "text": "(재)당뇨병학연구재단"
+        }
+      ]
+    },
+    {
+      "org_id": "B-SG-SSR",
+      "url": "https://www.rheumatology.org.sg/feng-pao-hsii/lectures",
+      "condition": "gout",
+      "date": "2026-11-19T16:47:31.520403+00:00",
+      "final_url": "https://www.rheumatology.org.sg/feng-pao-hsii/lectures",
+      "bytes": 39709,
+      "sha256": "8656ceb101675953fb58c652528b638e46e91e69dc5611774908c581b4f07f92",
+      "cache": "/tmp/atlas-team-b-originals/64fd72cfce66159a.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": []
+    },
+    {
+      "org_id": "B-KH-MOPOTSYO",
+      "url": "https://mopotsyo.org/peer-education/",
+      "condition": "diabetes",
+      "date": "2026-11-19T16:47:31.520459+00:00",
+      "status": "failed",
+      "error": "The read operation timed out"
+    },
+    {
+      "org_id": "B-KR-KSH",
+      "url": "https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:47:31.520523+00:00",
+      "bytes": 17939,
+      "sha256": "d1cfe70c21ddbb8e9ad8c04eeee9a55323345799396e7ab40eaed8fa18a56764",
+      "cache": "/tmp/atlas-team-b-originals/13c138064ec775fa.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://www.instagram.com/koreanhypertension1994/?hl=ko",
+          "text": ""
+        },
+        {
+          "url": "https://clinicalhypertension.org/",
+          "text": "CLINICAL HYPERTENSION"
+        },
+        {
+          "url": "mailto:ksh@koreanhypertension.org",
+          "text": "ksh@koreanhypertension.org"
+        }
+      ]
+    },
+    {
+      "org_id": "B-KH-MOPOTSYO",
+      "url": "https://mopotsyo.org/2026-q3-quarterly-review/",
+      "condition": "hypertension",
+      "date": "2026-11-19T16:47:31.525014+00:00",
+      "status": "failed",
+      "error": "The read operation timed out"
+    },
+    {
+      "org_id": "B-LK-CSRRSL",
+      "url": "https://rheumatology.org.lk/event-20th-annual-scientific-sessions-2026/",
+      "condition": "gout",
+      "date": "2026-11-19T16:47:31.535080+00:00",
+      "final_url": "https://rheumatology.org.lk/event-20th-annual-scientific-sessions-2026/",
+      "bytes": 351284,
+      "sha256": "d622fe77920a6ebe8426405e2f0e028aee72610bb1662d6c857c2f3012f0af4b",
+      "cache": "/tmp/atlas-team-b-originals/ac8a622aa153ad30.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "https://rheumatology.org.lk/all-information-for-patients/",
+          "text": "Information For Patients"
+        }
+      ]
+    },
+    {
+      "org_id": "B-BD-NHFB",
+      "url": "https://epidemiology.nhf.org.bd/publications/b4dI5w7B2PwtX7rBs6YC",
+      "condition": "high_chol",
+      "date": "2026-11-19T16:47:36.078061+00:00",
+      "final_url": "https://epidemiology.nhf.org.bd/publications/b4dI5w7B2PwtX7rBs6YC",
+      "bytes": 79532,
+      "sha256": "ec47428b1873ee4ea255bce015573e56fca68c993c66cd4ac824efba67f2f1e0",
+      "cache": "/tmp/atlas-team-b-originals/cf0fc0c900254e0b.html",
+      "status": "retrieved_navigation_not_content_qualification",
+      "links": [
+        {
+          "url": "mailto:?subject=Burden%20and%20Predictors%20of%20Statin%20Use%20for%20Primary%20and%20Secondary%20Prevention%20of%20Cardiovascular%20Disease%20in%20Bangladesh%3A%20Evidence%20from%20a%20Nationally%20Representative%20Survey&body=Burden%20and%20Predictors%20of%20Statin%20Use%20for%20Primary%20and%20Secondary%20Prevention%20of%20Cardiovascular%20Disease%20in%20Bangladesh%3A%20Evidence%20from%20a%20Nationally%20Representative%20Survey%20%E2%80%94%20https%3A%2F%2Fepidemiology.nhf.org.bd%2Fpublications%2Fb4dI5w7B2PwtX7rBs6YC",
+          "text": "Email"
+        },
+        {
+          "url": "https://twitter.com/intent/tweet?text=Burden%20and%20Predictors%20of%20Statin%20Use%20for%20Primary%20and%20Secondary%20Prevention%20of%20Cardiovascular%20Disease%20in%20Bangladesh%3A%20Evidence%20from%20a%20Nationally%20Representative%20Survey&url=https%3A%2F%2Fepidemiology.nhf.org.bd%2Fpublications%2Fb4dI5w7B2PwtX7rBs6YC",
+          "text": "X"
+        },
+        {
+          "url": "https://epidemiology.nhf.org.bd/publications/EFA9QrImFnUwzvYYQlF0",
+          "text": "Effectiveness of culturally adapted lifestyle intervention package on blood pressure: A systematic review"
+        },
+        {
+          "url": "https://epidemiology.nhf.org.bd/programs/bhci",
+          "text": "Bangladesh Hypertension Control Initiative"
+        }
+      ]
+    }
+  ],
+  "originals": [
+    {
+      "key": "KR_DIABETES2025",
+      "url": "https://diabetes.or.kr/bbs/download.php?code=guide&number=1522",
+      "checked_on": "2026-11-19T16:49:15.573646+00:00",
+      "final_url": "https://diabetes.or.kr/bbs/download.php?code=guide&number=1522",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "091a336a03e8521da21ab7afbb2cc4282bd952a5646df549053454b40fdbbf4b",
+      "bytes": 5384272,
+      "path": "/tmp/atlas-team-b-originals/KR_DIABETES2025.bin",
+      "pdf": true
+    },
+    {
+      "key": "MY_T2D_NAV",
+      "url": "https://mems.my/t2dm_practicalguide_20190718_fa_ebook2/",
+      "checked_on": "2026-11-19T16:49:15.574101+00:00",
+      "final_url": "https://mems.my/t2dm_practicalguide_20190718_fa_ebook2/",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "0efe5b054e9bd0f3d6a19ee460f9213d31fbfaa5ae95267f48c1a71038c92ced",
+      "bytes": 73474,
+      "path": "/tmp/atlas-team-b-originals/MY_T2D_NAV.bin",
+      "pdf": false
+    },
+    {
+      "key": "MY_T2D2019",
+      "url": "https://mems.my/wp-content/uploads/2019/07/T2DM_PracticalGuide_20190718_FA_ebook2.pdf",
+      "checked_on": "2026-11-19T16:49:59.700871+00:00",
+      "final_url": "https://mems.my/wp-content/uploads/2019/07/T2DM_PracticalGuide_20190718_FA_ebook2.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "db1a04cf5f223e9c55a47cafa84929ac873016a470812074fa31db4ac4e2912a",
+      "bytes": 4178468,
+      "path": "/tmp/atlas-team-b-originals/MY_T2D2019.bin",
+      "pdf": true
+    },
+    {
+      "key": "BD_STATIN2025PDF",
+      "url": "https://globalheartjournal.com/articles/1412/files/67d162dc3d667.pdf",
+      "checked_on": "2026-11-19T16:49:59.701284+00:00",
+      "final_url": "https://storage.googleapis.com/jnl-up-j-gh-files/journals/1/articles/1412/67d162dc3d667.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "d5a0ab32eb904acb5766cd9fa29deff6068dff9054a5da847186a15fe48ccfec",
+      "bytes": 2159321,
+      "path": "/tmp/atlas-team-b-originals/BD_STATIN2025PDF.bin",
+      "pdf": true
+    },
+    {
+      "key": "KR_HTN2026",
+      "url": "https://drive.google.com/file/d/1z41agdlLFYWUWECEliIQbFi7hFd10mMa/view",
+      "path": "/tmp/atlas-team-b-originals/KR_HTN2026.bin",
+      "bytes": 22398916,
+      "sha256": "bdf104b90764e3332c00b03b73241e54cd810c5cf3cd7bdcaa80369c95a658d2",
+      "pdf": true,
+      "status": "retrieved_original_publicly_linked_by_KSH",
+      "checked_on": "2026-11-19",
+      "limits": "Publicly linked original only; connector account metadata, authenticated download URLs and token data are never exported."
+    },
+    {
+      "key": "MY_CPG_NAV",
+      "url": "https://mems.my/endocrine-guideline/",
+      "checked_on": "2026-11-19T16:48:02.200672+00:00",
+      "final_url": "https://mems.my/endocrine-guideline/",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "ee44d3d10bf15db7bd319b14fb10e15d2fea4820dcdb0a9dd67f7d37ad1ab9d1",
+      "bytes": 83007,
+      "path": "/tmp/atlas-team-b-originals/MY_CPG_NAV.bin",
+      "pdf": false
+    },
+    {
+      "key": "BD_STATIN2025",
+      "url": "https://globalheartjournal.com/articles/10.5334/gh.1412",
+      "checked_on": "2026-11-19T16:48:02.201166+00:00",
+      "final_url": "https://globalheartjournal.com/articles/10.5334/gh.1412",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "51e36d2fcbf3e11b9614e6e508d2e07c938da52f51ad3addade704084112f758",
+      "bytes": 434783,
+      "path": "/tmp/atlas-team-b-originals/BD_STATIN2025.bin",
+      "pdf": false
+    },
+    {
+      "key": "KR_DIABETES_NAV",
+      "url": "https://www.diabetes.or.kr/bbs/?code=guide&mode=view&number=2078&page=1",
+      "checked_on": "2026-11-19T16:48:02.201246+00:00",
+      "final_url": "https://www.diabetes.or.kr/bbs/?code=guide&mode=view&number=2078&page=1",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "dfda1c17bc0d31a5f2d1e166d46c80c56f4d920de1287291228986e67df9d73a",
+      "bytes": 26610,
+      "path": "/tmp/atlas-team-b-originals/KR_DIABETES_NAV.bin",
+      "pdf": false
+    },
+    {
+      "key": "VU_DSP2022",
+      "url": "https://moh.gov.vu/healthsymposium/docs/2022/SEYMOUR%2C%20Jessica.pdf",
+      "checked_on": "2026-11-19T16:48:02.201528+00:00",
+      "final_url": "https://moh.gov.vu/healthsymposium/docs/2022/SEYMOUR%2C%20Jessica.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "22cfdb04483c3ca8f045a83e81e1ece8a6cc7f7f05547b6eba6e18f60388d95d",
+      "bytes": 1276099,
+      "path": "/tmp/atlas-team-b-originals/VU_DSP2022.bin",
+      "pdf": true
+    }
+  ],
+  "nonqualifying_reuse": [
+    "Malaysian2019 practical guide actual body focuses glucose-drug case management. BP/lipids are mostly case inputs, not substantive condition treatment guidance; do not qualify two missing cells.",
+    "Bangladesh statin study uses diabetes eligibility in risk model; no separate diabetes cell qualification from passing variable mention.",
+    "Korean metadata/view pages not substantive originals; actual PDF bodies inspected."
+  ],
+  "limits": "Full PDFs cached locally only; no full copyrighted originals, connector account data or authenticated URLs exported."
+}

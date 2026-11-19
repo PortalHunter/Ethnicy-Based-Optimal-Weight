@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "key": "B-01:B-PE-SPR.gout.ca5dd8ec10aa",
+  "input_sha": "5a9acd29262dbe699e89b265c207e5cb94e6ab02",
+  "disposition": "no_change",
+  "evidence": [
+    {
+      "id": "spr-peru-gout-exact-original-programme",
+      "url": "https://socreuma.org.pe/new/_recursos/eventos/archivos/202506201252189886.pdf",
+      "locator": "Six-page Curso de Reumatologia para Medicos No Reumatologos programme, PDF page 5 (zero-based page 4), Bloque 8, Saturday 23 August 2025, 17:00-17:30, Gota, Dr. Elmer Garcia Salazar",
+      "issuer": "Sociedad Peruana de Reumatologia",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Original first-party event programme directly accessible at the exact reserved URL. Visual inspection confirms society branding, date, scheduled gout topic and named speaker. This is original evidence of an event listing, not an original clinical guideline or substantive gout publication. No lecture text, delivered-session evidence, diagnostic recommendations, patient population, outcomes, study, national prevalence or reuse rights were established. The original URL is M metadata/activity only, not S1/S2/H. The PDF retrieval title contains 'borrador'; final publication status of the programme is not independently established."
+    },
+    {
+      "id": "spr-official-organization-identity",
+      "url": "https://socreuma.org.pe/new/",
+      "locator": "Official SPR website, society name, branding, organizational activities and event information",
+      "issuer": "Sociedad Peruana de Reumatologia",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "First-party organizational website corroborates the society identity and the domain hosting the reserved PDF. Publisher and organization are distinguishable from the scheduled speaker. No sole authorship by the speaker, scientific endorsement of clinical recommendations, governmental authority or country-wide clinical jurisdiction is inferred."
+    },
+    {
+      "id": "cmp-trujillo-course-corroboration",
+      "url": "https://www.cmp-trujillo.org.pe/capacitaciones/curso-nacional-reumatolog%C3%ADa-%E2%80%93-2025",
+      "locator": "Colegio Medico del Peru, Consejo Regional I La Libertad, Curso Nacional de Reumatologia 2025, 22-23 August 2025",
+      "issuer": "Colegio Medico del Peru - Consejo Regional I La Libertad",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Independent institutional announcement corroborates the society-associated course, dates and general educational purpose. It is an announcement, not the substantive delivered lecture, clinical guidance or a patient-based study. It does not independently establish that the gout lecture occurred."
+    },
+    {
+      "id": "team-b-pinned-native-audit",
+      "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/5a9acd29262dbe699e89b265c207e5cb94e6ab02/docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+      "locator": "Exact org_id=B-PE-SPR, condition_key=gout, relevant_url matching reserved PDF",
+      "issuer": "PortalHunter Atlas Team B research ledger",
+      "checked": "2026-11-08",
+      "original": false,
+      "access": "direct",
+      "qualification": "Pinned native audit already records tier M, provisional_metadata_only and an earlier scheduled-program-only assessment dated 2026-11-06. This is provenance for the existing classification, not independently authenticated clinical evidence."
+    }
+  ],
+  "blocker": "No original substantive gout publication or delivered lecture was established by this exact-URL audit. The accessible PDF is a scheduled scientific programme only. The historical record is already M, so there is no evidence basis to promote it to S1, S2 or H. The complete native Team B Node validator was not executed in this research session, and an independent verifier has not yet reviewed this proposed manifest. This is a no-change evidence checkpoint, not a complete clinical, source-quality or repository-validation clearance.",
+  "reopen": "Reopen only with a specific, independently retrievable original substantive SPR or appropriately attributed Peruvian gout publication, or a documented correction to the existing source identity or classification, followed by a new authorized packet, immutable evidence comparison, independent verification and maintainer approval. Preserve this exact URL as the historical M record unless independently established evidence warrants a documented correction. Do not infer nonexistence from this bounded audit.",
+  "validation": [
+    "Run ID: run-B-B01-PE-SPR-GOUT-20261108.",
+    "Launch ID: launch-B-PE-SPR-GOUT-1a9099fd1fa94a9c07e0147599dd6f4b.",
+    "Pinned Team B input: 5a9acd29262dbe699e89b265c207e5cb94e6ab02; live Team B head was independently confirmed to match before start.",
+    "PR #71 and architecture PR #75 were independently confirmed open, draft and unmerged before the start transition.",
+    "Architecture start commit e966552918c95e9f67fa93eca7bd4bf421171774 has parent 5619d0076426673e832563b75be2eb4c5a997d01. The GitHub expected-SHA ref update succeeded with force disabled. Independent readback confirmed the exact running ticket and launch ID; only docs/atlas/harness/checkout.json changed.",
+    "Native row identity: org_id=B-PE-SPR|condition_key=gout|original_exact_URL=https://socreuma.org.pe/new/_recursos/eventos/archivos/202506201252189886.pdf.",
+    "Native source_quality_worklist.csv at input SHA: exact row exists, individual_quality_tier=M, audit_review_state=provisional_metadata_only, priority=P0.",
+    "Native research_quality_audit.csv at input SHA: exact source row is M; earlier review dated 2026-11-06 records scheduled programme only.",
+    "Native publication_context.csv and condition_organizations.csv at input SHA preserve society publisher versus named speaker, Peru 604, scheduled education programme, no patient population, and research_lead_only status.",
+    "Source inspection: exact PDF returned six pages. Visual screenshots of PDF pages 1 and 5 were reviewed, including society branding and the Saturday 23 August 2025 scheduled gout entry.",
+    "Independent institutional context: Colegio Medico del Peru La Libertad course announcement corroborates the event identity and dates but not the delivered gout lecture.",
+    "Existing M classification confirmed. No replacement original publication established; no S1/S2/H promotion; no raw-link, source, provenance, search-depth, cell or coverage changes proposed.",
+    "Original and extended metrics: unchanged from immutable input. No metrics were recomputed, and no change in completeness or approvals is asserted.",
+    "Reproducible checks: fetch the exact PDF and inspect PDF page 5; compare the exact composite key in source_quality_worklist.csv, research_quality_audit.csv, publication_context.csv and condition_organizations.csv at the pinned input SHA.",
+    "Native validator to be run by verifier or writer from the pinned checkout: node docs/atlas/handoffs/team-b/validate.mjs. Record Node version, exit code, stdout, stderr and checkout SHA. NOT RUN in this chat.",
+    "Harness structural validation to be run with the exact packet and this manifest: python3 docs/atlas/harness/harness.py B --live-sha 5a9acd29262dbe699e89b265c207e5cb94e6ab02 --packet packet.json --result result.json. NOT RUN in this chat.",
+    "Independent verifier review: PENDING. No clinical, genetic, ancestry, legal, scientific, licensing, rights or Indigenous-governance approval is granted."
+  ],
+  "paths": [
+    "docs/atlas/handoffs/team-b/runs/B-01--B-PE-SPR.gout.ca5dd8ec10aa.json"
+  ]
+}
