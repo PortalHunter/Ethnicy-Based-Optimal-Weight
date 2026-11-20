@@ -195,7 +195,9 @@ test('live site shows results below the form, works on phones, and matches the c
       await b.evaluate(() => document.querySelector('.cond[value="diabetes"]').click());
       assert.equal(await text(a,'#sugRange'),await text(b,'#sugRange'));
       assert.equal(await text(a,'#bufRange'),await text(b,'#bufRange'));
-      assert.ok((await text(b,'#quickRange')).includes((await text(b,'#bufRange')).trim()));
+      // The summary may label a single ceiling as an experimental model cutoff; the weight itself must match.
+      const bufWeight=(await text(b,'#bufRange')).match(/\d+(?:\.\d)? (?:lb|kg) \([\d.]+ (?:kg|lb)\)/)[0];
+      assert.ok((await text(b,'#quickRange .value')).includes(bufWeight));
     });
     await t.test('invalid feet and inches cannot leave a stale result visible',async()=>{
       await b.$eval('#heightInches',e=>{e.value='13';e.dispatchEvent(new Event('input',{bubbles:true}));});

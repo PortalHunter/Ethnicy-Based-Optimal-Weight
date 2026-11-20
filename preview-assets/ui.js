@@ -4,7 +4,7 @@
   'use strict';
   var E = window.EBOW;
   var $ = function (id) { return document.getElementById(id); };
-  var lastValues = null, lastResult = null, lastUnit = 'lb';
+  var lastValues = null, lastResult = null, lastUnit = 'lb', calcBasisOpen = false;
 
   function fmtW(kg, unit) {
     // Whole pounds / half kilograms: the inputs are not precise enough to justify more.
@@ -95,7 +95,7 @@
   // Plain-language basis for the range shown in the summary. Display only: it reads values that
   // EBOW.calculate already returns and never recomputes or changes a range.
   function bmiTxt(x) { return Number(x).toFixed(1); }
-  function rangeBasisHtml(r, v, unit) {
+  function rangeBasisHtml(r, v, unit, modelCutoff) {
     var s = r.suggested, b = r.band, g = r.group.group, items = [];
     var wf = r.wristFrame, ef = r.elbowFrame;
     var frame;
@@ -127,7 +127,19 @@
     if (r.buffered) lim += r.buffered.method === 'at_cap' ? ' <strong>Diabetes cap:</strong> the whole range was above BMI ' + bmiTxt(r.buffered.capBmi) + ', so the result is a ceiling at that cap.' :
       ' <strong>Diabetes cap:</strong> the top was then limited to BMI ' + bmiTxt(r.buffered.capBmi) + ' (' + fmtW(r.buffered.highKg, unit) + ').';
     items.push('<li id="basisLimit">' + lim + '</li>');
-    return '<ul class="range-basis" id="rangeBasis" aria-label="How this range was set">' + items.join('') + '</ul>';
+    if (s.formulas) {
+      var f = s.formulas;
+      items.push('<li id="basisFormulas">Formulas for your height and sex: Hamwi ' + s.hamwiAdjusted.map(function (x) { return fmtW(x, unit); }).join(' / ') +
+        ' (' + r.frames.map(esc).join(' / ') + ' frame), Devine ' + fmtW(f.devine, unit) + ', Robinson ' + fmtW(f.robinson, unit) + ', Miller ' + fmtW(f.miller, unit) +
+        '. Together they span ' + fmtRange(s.formulaLowKg, s.formulaHighKg, unit) + '.</li>');
+    }
+    if (modelCutoff) {
+      var capBmi = r.buffered ? r.buffered.capBmi : b.highBmi;
+      items.push('<li id="basisModelCutoff"><strong>Experimental model cutoff:</strong> ' + fmtW(modelCutoff, unit) + ' is the weight at BMI ' + bmiTxt(capBmi) + ' for your height' +
+        (r.buffered ? ', from this calculator\u2019s experimental diabetes buffer model' : ', the top of your healthy BMI range, used by this calculator\u2019s experimental model because all four formulas are above it') +
+        '. It has not been validated as a personal weight target.</li>');
+    }
+    return '<ul class="range-basis" id="rangeBasis">' + items.join('') + '</ul>';
   }
 
   function fmtLen(cm, unit) {
@@ -502,15 +514,21 @@
         // Summary first; the existing numeric output and citations remain below unchanged.
     var selected = r.buffered || r.suggested;
     var edge = r.buffered ? r.buffered.method === 'at_cap' : (r.suggested.method === 'edge' && r.suggested.reason !== 'short');
-    var primaryLabel = edge ? fmtEdge(selected.highKg, r.buffered ? 'ceiling' : (r.suggested.reason === 'formulas_above' ? 'ceiling' : 'floor'), v.heightCm, unit) : fmtRange(selected.lowKg, selected.highKg, unit);
-    var quick = '<div class="primary-result" id="quickRange"><p class="eyebrow">Experimental range estimate</p><div class="value">' + primaryLabel + '</div>' + rangeBasisHtml(r, v, unit) +
+    var ceiling = edge && (r.buffered || r.suggested.reason === 'formulas_above');
+    // A single ceiling weight comes from the calculator's experimental model, so it is labelled as such.
+    var primaryLabel = ceiling ? 'Experimental model cutoff: ' + fmtW(selected.highKg, unit) :
+      edge ? fmtEdge(selected.highKg, 'floor', v.heightCm, unit) : fmtRange(selected.lowKg, selected.highKg, unit);
+    var quick = '<div class="primary-result" id="quickRange"><p class="eyebrow">Experimental range estimate</p><div class="value">' + primaryLabel + '</div>' +
+      '<p class="range-answer" id="rangeAnswer">Your current weight updates the BMI shown below. Your estimated range can stay the same. Waist and age update the notes, not the range.</p>' +
       '<div class="metrics"><div class="metric"><small>BMI-based screening reference</small><strong>' + fmtRange(r.band.lowKg, r.band.highKg, unit) + '</strong></div>' +
       '<div class="metric"><small>Current BMI · ' + esc(r.bmiClass.label) + '</small><strong>' + r.bmiClass.bmiShown.toFixed(1) + ' kg/m²</strong></div></div>' +
-      '<p class="range-inputs-note" id="rangeInputsNote">Your current weight updates your BMI, waist updates the risk information, and age determines eligibility and age-related notes; none of these change the range itself.</p>' +
+      '<details class="calc-basis" id="calcBasis"' + (calcBasisOpen ? ' open' : '') + '><summary>How was this calculated?</summary>' + rangeBasisHtml(r, v, unit, ceiling ? selected.highKg : null) + '</details>' +
       '<p class="caution">This range uses the unchanged original ancestry, body-frame and selected-condition logic. It is not a validated personal target. ' +
       (r.buffered ? 'The diabetes-related cap is an unvalidated heuristic.' : 'Other selected conditions do not alter the range.') + '</p></div>';
     var out = $('results');
     out.innerHTML = quick + '<details class="result-details"><summary>Explore calculations, charts, nutrition notes and citations</summary>' + h + '</details>'; out.style.display = 'block';
+    // Keep "How was this calculated?" open across live recalculation (and a briefly invalid entry).
+    $('calcBasis').addEventListener('toggle', function () { calcBasisOpen = this.open; });
     $('chartAncestry').addEventListener('change', drawChart);
     drawChart();
   }

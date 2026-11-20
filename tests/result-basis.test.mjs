@@ -41,16 +41,23 @@ test('summary shows frame, cut-off, limits and mixed-ancestry basis; ranges unch
     assert.match(await txt('#basisCutoff'), /healthy BMI 18\.5 to 24\.9, from the WHO international cut-offs/);
     assert.match(await txt('#basisLimit'), /No cut-off limited this range/);
     assert.equal(await page.$('#basisMix'), null, 'single ancestry has no mixed-ancestry line');
-    assert.equal(await page.$$eval('#rangeInputsNote', n => n.length), 1);
-    assert.match(await txt('#rangeInputsNote'), /current weight updates your BMI, waist updates the risk information, and age determines eligibility and age-related notes; none of these change the range itself/);
+    // The plain answer sits directly under the big number; the details live in the disclosure.
+    assert.equal(await page.$eval('#quickRange .value', e => e.nextElementSibling.id), 'rangeAnswer');
+    assert.equal(await txt('#rangeAnswer'), 'Your current weight updates the BMI shown below. Your estimated range can stay the same. Waist and age update the notes, not the range.');
+    assert.equal(await page.$eval('#rangeBasis', e => e.closest('details').id), 'calcBasis');
+    assert.equal(await txt('#calcBasis > summary'), 'How was this calculated?');
+    assert.equal(await page.$eval('#calcBasis', e => e.open), false, 'details start collapsed');
+    assert.match(await txt('#basisFormulas'), /Hamwi 166 lb \(75\.5 kg\) \(Medium frame\), Devine 161 lb .*Robinson 155 lb .*Miller 155 lb .*span 155-166 lb/);
+    assert.equal(await page.$('#basisModelCutoff'), null);
     assert.ok(await page.$eval('#rangeBasis', e => !!e.closest('[aria-live]')), 'explanation is announced with the result');
-
+    await page.click('#calcBasis > summary');
     // Weight, age and waist edits recalculate but legitimately give the same range and basis.
     const basis = await txt('#rangeBasis');
     await retype('weight', '230'); await retype('age', '70');
     await page.click('details.optional-panel summary'); await retype('waist', '40'); await page.keyboard.press('Tab');
     assert.equal(await value(), '155-166 lb (70.0-75.5 kg)');
     assert.equal(await txt('#rangeBasis'), basis);
+    assert.equal(await page.$eval('#calcBasis', e => e.open), true, 'open disclosure stays open across live recalculation');
     assert.match(await txt('#quickRange'), /33\.0 kg\/m²|BMI/);
 
     // Elbow that disagrees with the wrist: both frames named; range unchanged from the engine.
@@ -73,7 +80,9 @@ test('summary shows frame, cut-off, limits and mixed-ancestry basis; ranges unch
 
     // 4. Diabetes + South Asian: cap 21.9
     await fill({ region: 'southasia', diabetes: true }); await calc();
-    assert.equal(await value(), 'at most 153 lb (69.0 kg) (BMI 21.9)');
+    assert.equal(await value(), 'Experimental model cutoff: 153 lb (69.0 kg)');
+    assert.equal(await txt('#bufRange'), 'at most 153 lb (69.0 kg) (BMI 21.9)', 'detailed section unchanged');
+    assert.match(await txt('#basisModelCutoff'), /Experimental model cutoff: 153 lb \(69\.0 kg\) is the weight at BMI 21\.9 .*experimental diabetes buffer model\. It has not been validated as a personal weight target\./);
     assert.match(await txt('#basisCutoff'), /diabetes cap BMI 21\.9 applied/);
     assert.match(await txt('#basisLimit'), /Diabetes cap: the whole range was above BMI 21\.9, so the result is a ceiling at that cap/);
 
