@@ -1,14 +1,14 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A85: Romania, Croatia organic instruments; Czechia evidence (2026-11-22)
+# Team A — CURRENT A86: Tajikistan statute; Senegal attributions decree located (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `07185582b2a0043ac6e56709126987dbaa159054`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `119fd0b88b6df1b04860859497521f5ca5490a7d`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **66**, in-progress (triaged, no legal support) **182**, unscored **0**, research-complete **0/248**; dims **174** SOURCE_SUPPORTED (+115 run) / **1044** RESEARCHED_INCOMPLETE / **764** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **817**; queue {"QUEUED": 175, "EVIDENCE_ADDED_NOT_RESOLVED": 63, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
+**Now:** partial **67**, in-progress (triaged, no legal support) **181**, unscored **0**, research-complete **0/248**; dims **177** SOURCE_SUPPORTED (+118 run) / **1041** RESEARCHED_INCOMPLETE / **764** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **819**; queue {"QUEUED": 174, "EVIDENCE_ADDED_NOT_RESOLVED": 64, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A84 (0718558): TAAF +2 (identity unchanged), BIOT evidence, DPRK blocked.
-- A85: Romania 642 +5 (GD 144/2010 Portal Legislativ consolidated), Croatia 191 +3 (NN 85/2020 art20), Czechia 203 evidence only (Competence Act s10 via non-official consolidator; e-Sbirka JS).
+- A85 (119fd0b): RO +5, HR +3, CZ evidence only.
+- A86: Tajikistan 762 +3 (Res.148/2014 ADLIA consolidated to 28.03.2026; powers section not rendered); Senegal 686 attributions Decree 2026-1155 located in JO 7917 (scanned, unread, 0 promoted).
 
 **Blocked / external (exact missing requirement):**
 - 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
@@ -17,15 +17,15 @@
 - DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
 - Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A86: continue P2 QUEUED IN_PROGRESS areas with reachable official consolidated MoH instruments (queue order, prioritising record-cited instruments: Tajikistan 762, Senegal 686, Comoros 174, Cook Islands 184, PNG 598, Pakistan 586), then UNKNOWN identities 239/334 (086/260 evidence recorded; 408 blocked); skip 104/275/732/887.
+**Next exact queue position:** A87: continue P2 QUEUED IN_PROGRESS areas with reachable official consolidated MoH instruments (queue order, prioritising record-cited instruments: Comoros 174, Cook Islands 184, PNG 598, Pakistan 586), then UNKNOWN identities 239/334 (086/260 evidence recorded; 408 blocked); skip 104/275/732/887.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
 Provisional identities     [###################.] 232/248 | +1
-Expanded partial legal     [#####...............] 66/248 partial | +37
+Expanded partial legal     [#####...............] 67/248 partial | +38
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [##..................] 174/1984 | +115
+Narrow supported dims      [##..................] 177/1984 | +118
 All-tier research complete [....................] 0/248 | +0
 ```
 
