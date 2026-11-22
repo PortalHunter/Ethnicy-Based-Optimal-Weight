@@ -1,31 +1,33 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A76: same-portal follow-up retrieval, 10 areas (2026-11-22)
+# Team A — CURRENT A77: Priority-2 dispositions and Priority-3 identity work (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `206f4a73d8a71307c676888bc110bda7873c92d6`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `1fcbc41be09a4823bc1c9e8e75b61b3124a33aac`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **44**, in-progress (triaged, no legal support) **204**, unscored **0**, research-complete **0/248**; dims **97** SOURCE_SUPPORTED (+38 run) / **1067** RESEARCHED_INCOMPLETE / **818** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **17**; provenance **785**; queue {"QUEUED": 204, "EVIDENCE_ADDED_NOT_RESOLVED": 44}.
+**Now:** partial **45**, in-progress (triaged, no legal support) **203**, unscored **0**, research-complete **0/248**; dims **101** SOURCE_SUPPORTED (+42 run) / **1065** RESEARCHED_INCOMPLETE / **816** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **787**; queue {"QUEUED": 202, "EVIDENCE_ADDED_NOT_RESOLVED": 39, "BLOCKED_NEW_SOURCE_REQUIRED": 7}.
 
-- A74 (695d8a8) triage of 219 unscored; A75 (206f4a7) +11 dims in 5 areas. Full per-batch figures in RUN_LOG_20261122.md.
-- A76: +13 narrow SOURCE_SUPPORTED dims across 10 areas; 5 newly PARTIAL: 616 Poland (Dz.U. 2026 poz.1226 art33: policy + medicines/professions), 276 Germany (IfSG s4 RKI + s54 Laender), 528 Netherlands (Wpg art2 municipal, from 2026-01-01), 752 Sweden (SFS 2021:248 FoHM instruction through SFS 2026:874: policy + surveillance), 724 Spain (LGS 14/1986 art41 CCAA). Follow-ups: 826 UK devolution (Wales 2006 s1, NI 2009 s2, Scotland 1978 s1 + Scotland Act s53), 392 Japan devolution (Community Health Act arts5-6), 124 Canada medicines (Food and Drugs Act s30), 076 Brazil devolution (Lei 8.080 arts 9,16-18), 484 Mexico devolution (LGS art13 A/B).
-- legal_research_acceptance set to PARTIAL for the 15 rows this run promoted with ≥1 supported dim (matching 23/29 prior convention); no row claims RESEARCH_COMPLETE.
-- Not promotable this batch: 702 Singapore SSO (TOC only; WholeDoc 403), 554 New Zealand legislation.govt.nz (bot challenge HTTP 202, after prior 403s), 840 United States uscode/govinfo section URLs 404, 404 Kenya Kenya Law (HTTP 202 challenge).
+- Earlier this run: A74 (695d8a8) triage of all 219 unscored; A75 (206f4a7) +11 dims/5 areas; A76 (1fcbc41) +13 dims/10 areas. Per-batch figures in RUN_LOG_20261122.md.
+- Priority 3: 112 Belarus identity resolved (provisional) from official pravo.by consolidated CoM Resolution 1446/2011 Regulation on the Ministry of Health, amended to Res. 259 of 25 May 2026 (A77-112-01; new body gov-112-001); 4 narrow dims supported; unresolved audit row removed (history in git + countries notes). UNKNOWN 17→16.
+- 364 Iran stays UNKNOWN; queue BLOCKED_NEW_SOURCE_REQUIRED (behdasht.gov.ir, rc.majlis.ir, qavanin.ir, dolat.ir, dotic.ir, president.ir all unreachable/stub/no text from this network).
+- Priority 2: queue states for 044 Bahamas, 050 Bangladesh, 056 Belgium, 064 Bhutan, 072 Botswana, 090 Solomon Islands set to BLOCKED_NEW_SOURCE_REQUIRED from their immutable A-01 blocked results (each already records two failed official strategies + reopen trigger). Botswana adds A77-072-01: BoMRA Annual Report 2025/26 says Act 29/2025 commencement still pending at 31 Mar 2026, so that Gazette Order likely does not yet exist (external executive action). Bangladesh 2025 BMDC Ordinance: still only a draft per Dec 2025 report; bdlaws shows Act 61/2010; no change.
 
 **Blocked / external (exact missing requirement):**
-- JS-only/anti-bot official portals: KR law.go.kr, EE riigiteataja, FI finlex, CH fedlex, IT normattiva, SG SSO body, NZ legislation.govt.nz, KE kenyalaw — need a browser-capable session or official API key.
-- Timeouts from this network: RO legislatie.just.ro, PR bvirtualogp.pr.gov, RU government.ru/minzdrav static.
-- Prior blockers unchanged: Botswana commencement Gazette orders; Solomon Is post-2024 amendments; Bhutan Cabinet/RCSC letters; Samoa 2007 commencement notice; Andorra six communes; Belgium originals. 17 UNKNOWN identities unchanged.
+- Pending executive action (instrument likely not yet issued): Botswana Act 29/2025 commencement Order.
+- Unpublished/internal instruments: Bhutan Cabinet letter C-3/6(5)/2024/48 and RCSC letter LTD/1/COM/2024/3331 — need custodian copies.
+- Gazette originals not online/blocked: Botswana S.I. 4/2014; Solomon Is post-Feb-2024 Health Services Act chain; Bahamas amendment/professional Acts (captcha); Belgium Moniteur PDFs (Request Rejected); Bangladesh BMDC replacement Gazette (archive HTTP 500).
+- Network/portal access: Iran government domains; JS/anti-bot portals KR/EE/FI/CH/IT/SG/NZ/KE; timeouts RO/PR/RU-gov.
+- 16 UNKNOWN identities: see data/unresolved_area_audit.csv; dual/contested administrations (104 Myanmar, 275 Palestine, 887 Yemen, 732 Western Sahara) need a documented scope decision, not more search.
 
-**Next exact queue position:** A77 = Priority 2 backlog (072 Botswana, 090 Solomon Is, 064 Bhutan, 044 Bahamas, 050 Bangladesh) only with a changed source path, then Priority 3 UNKNOWN identities (624, 226, 581, 744, 010) and continued official-portal retrieval for remaining IN_PROGRESS areas.
+**Next exact queue position:** A78 = continue official-portal retrieval for IN_PROGRESS areas (pravo.by-style national legal portals: e.g. 643 Russia publication.pravo.gov.ru, 398 Kazakhstan adilet.zan.kz, 860 Uzbekistan lex.uz, 417 Kyrgyzstan cbd.minjust.gov.kg, 051 Armenia arlis.am, 268 Georgia matsne.gov.ge, 428 Latvia likumi.lv) then remaining UNKNOWN identities (104, 275, 408, 887 dual/contested administrations are scope decisions).
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
-Provisional identities     [###################.] 231/248 | +0
-Expanded partial legal     [####................] 44/248 partial | +15
+Provisional identities     [###################.] 232/248 | +1
+Expanded partial legal     [####................] 45/248 partial | +16
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [#...................] 97/1984 | +38
+Narrow supported dims      [#...................] 101/1984 | +42
 All-tier research complete [....................] 0/248 | +0
 ```
 
