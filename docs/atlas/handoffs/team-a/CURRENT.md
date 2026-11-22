@@ -1,32 +1,32 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A98: Tanzania, Sierra Leone, Mauritius, Seychelles (2026-11-22)
+# Team A — CURRENT A99: Iceland, Hungary; Serbia and Isle of Man blocked (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `ea2c3e15efb45c81859f31d4d38af774d2b88ec6`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `a3604338c6135fcfe42d1ea0d71da08cdc27d90f`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **110**, in-progress (triaged, no legal support) **138**, unscored **0**, research-complete **0/248**; dims **346** SOURCE_SUPPORTED (+287 run) / **978** RESEARCHED_INCOMPLETE / **658** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **878**; queue {"QUEUED": 131, "EVIDENCE_ADDED_NOT_RESOLVED": 107, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
+**Now:** partial **112**, in-progress (triaged, no legal support) **136**, unscored **0**, research-complete **0/248**; dims **352** SOURCE_SUPPORTED (+293 run) / **978** RESEARCHED_INCOMPLETE / **652** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **880**; queue {"QUEUED": 129, "EVIDENCE_ADDED_NOT_RESOLVED": 109, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A97 (ea2c3e1): Uganda 800 +5, Zambia 894 +2, Zimbabwe 716 +5, Namibia 516 +5, Ghana 288 +2 (LII texts via fetch provider).
-- A98: Tanzania 834 +4 (Public Health Act Cap.99), Sierra Leone 694 +4 (Public Health Act 2022, gazette scan OCR), Mauritius 480 +4 (Public Health Act consolidated to 1 Sep 2026), Seychelles 690 +2 (Public Health Act 2015).
+- A98 (a360433): Tanzania 834 +4, Sierra Leone 694 +4, Mauritius 480 +4, Seychelles 690 +2.
+- A99: Iceland 352 +5 (Act 41/2007 Lagasafn 1 Oct 2026), Hungary 348 +1 (Health Act 1997/CLIV NJT 2026.10.22); Serbia 688 and Isle of Man 833 official hosts blocked (no change).
 
 **Blocked / external (exact missing requirement):**
 - 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
-- JS/anti-bot official portals (KR, EE, FI, CH, IT, SG, NZ, KE, LT, MD, AZ e-qanun) need a browser-capable official retrieval route; Russia pravo.gov.ru/minzdrav.gov.ru unreachable from box and fetch provider (A80); PacLII and pakistancode.gov.pk unreachable from box (A87); retsinformation.dk API returns JS shell, Nepal giwmscdnone.gov.np PDF CDN empty reply, agc.gov.bn LOB PDFs 404 (A91); laws.gov.tt revised laws only to 2016 and search unfiltered, guernseylegalresources.gg 403, laws.gov.vg and bvirtualogp.pr.gov unreachable (A92); elegislation.gov.hk and legislation.gov.fk JS-only, LeyChile (Chile 152) web service requires API key, uaelegislation.gov.ae 403 (A93); wapi.gov.me (Montenegro Uredba) TLS failure and fetch 504 (A96).
+- JS/anti-bot official portals (KR, EE, FI, CH, IT, SG, NZ, KE, LT, MD, AZ e-qanun) need a browser-capable official retrieval route; Russia pravo.gov.ru/minzdrav.gov.ru unreachable from box and fetch provider (A80); PacLII and pakistancode.gov.pk unreachable from box (A87); retsinformation.dk API returns JS shell, Nepal giwmscdnone.gov.np PDF CDN empty reply, agc.gov.bn LOB PDFs 404 (A91); laws.gov.tt revised laws only to 2016 and search unfiltered, guernseylegalresources.gg 403, laws.gov.vg and bvirtualogp.pr.gov unreachable (A92); elegislation.gov.hk and legislation.gov.fk JS-only, LeyChile (Chile 152) web service requires API key, uaelegislation.gov.ae 403 (A93); wapi.gov.me (Montenegro Uredba) TLS failure and fetch 504 (A96); pravno-informacioni-sistem.rs (Serbia) JS-only, legislation.gov.im PDFs WAF-rejected, njt.hu unreachable from box (A99).
 - Disputed/dual-administration identities 104/275/732/887 need owner scope decision (skipped).
 - Externally administered identities need one owner identity policy (record external delegated authority as principal identity, or keep UNKNOWN): 260 (French State administrateur superieur), 086 (BIOT Commissioner, no local health ordinance), 334 (HIMI: ACT applied law, HIMI Act s5-6, A87), 239 (SGSSI: Falklands-derived Public Health Ordinance Parts II-IV, Commissioner, A87).
 - DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
 - Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A99: remaining P2 QUEUED IN_PROGRESS areas with reachable official instruments (Caribbean/Pacific WordPress law hosts, other ministry-competence decrees), then EVIDENCE_ADDED follow-ups (Luxembourg 442 attribution arrete; Malaysia 458 Act 342 post-2020); skip 104/275/732/887 and identity policy group 260/086/334/239.
+**Next exact queue position:** A100: remaining P2 QUEUED IN_PROGRESS areas with reachable official instruments (Caribbean/Pacific WordPress law hosts, other ministry-competence decrees), then EVIDENCE_ADDED follow-ups (Luxembourg 442 attribution arrete; Malaysia 458 Act 342 post-2020); skip 104/275/732/887 and identity policy group 260/086/334/239.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
 Provisional identities     [###################.] 232/248 | +1
-Expanded partial legal     [#########...........] 110/248 partial | +81
+Expanded partial legal     [#########...........] 112/248 partial | +83
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [###.................] 346/1984 | +287
+Narrow supported dims      [####................] 352/1984 | +293
 All-tier research complete [....................] 0/248 | +0
 ```
 
