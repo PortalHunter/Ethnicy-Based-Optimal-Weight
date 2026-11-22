@@ -1,32 +1,32 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A95: Antigua and Barbuda follow-up (2026-11-22)
+# Team A — CURRENT A96: Montenegro, Qatar, Bermuda (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `5f2cb5de1c88a82860c740e203b9a078b3b14847`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `f09d0afd300659f4acdeab4c4914fe5ab93c31bb`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **99**, in-progress (triaged, no legal support) **149**, unscored **0**, research-complete **0/248**; dims **303** SOURCE_SUPPORTED (+244 run) / **990** RESEARCHED_INCOMPLETE / **689** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **864**; queue {"QUEUED": 141, "EVIDENCE_ADDED_NOT_RESOLVED": 97, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
+**Now:** partial **101**, in-progress (triaged, no legal support) **147**, unscored **0**, research-complete **0/248**; dims **313** SOURCE_SUPPORTED (+254 run) / **988** RESEARCHED_INCOMPLETE / **681** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **869**; queue {"QUEUED": 139, "EVIDENCE_ADDED_NOT_RESOLVED": 99, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A94 (5f2cb5d): Malta 470 +1, Bermuda 060 +1, Saint Helena 654 devolution SS.
-- A95: Antigua and Barbuda 028 +2 (Pharmacy Act 1995 as amended 2011/2019 and Medical Practitioners Act 2009; Barbuda Local Government Act Cap.44 health functions).
+- A95 (f09d0af): Antigua and Barbuda 028 +2.
+- A96: Montenegro 499 +5 (Zakon o zdravstvenoj zastiti 91/2025), Qatar 634 +4 (Amiri Decision 57/2021 art7; Decree-Law 17/1990 via Al Meezan MoJ API), Bermuda 060 +1 (BHC Act 2004, CMO Transfer Act 2018 dates).
 
 **Blocked / external (exact missing requirement):**
 - 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
-- JS/anti-bot official portals (KR, EE, FI, CH, IT, SG, NZ, KE, LT, MD, AZ e-qanun) need a browser-capable official retrieval route; Russia pravo.gov.ru/minzdrav.gov.ru unreachable from box and fetch provider (A80); PacLII and pakistancode.gov.pk unreachable from box (A87); retsinformation.dk API returns JS shell, Nepal giwmscdnone.gov.np PDF CDN empty reply, agc.gov.bn LOB PDFs 404 (A91); laws.gov.tt revised laws only to 2016 and search unfiltered, guernseylegalresources.gg 403, laws.gov.vg and bvirtualogp.pr.gov unreachable (A92); elegislation.gov.hk and legislation.gov.fk JS-only, LeyChile (Chile 152) web service requires API key, uaelegislation.gov.ae 403 (A93).
+- JS/anti-bot official portals (KR, EE, FI, CH, IT, SG, NZ, KE, LT, MD, AZ e-qanun) need a browser-capable official retrieval route; Russia pravo.gov.ru/minzdrav.gov.ru unreachable from box and fetch provider (A80); PacLII and pakistancode.gov.pk unreachable from box (A87); retsinformation.dk API returns JS shell, Nepal giwmscdnone.gov.np PDF CDN empty reply, agc.gov.bn LOB PDFs 404 (A91); laws.gov.tt revised laws only to 2016 and search unfiltered, guernseylegalresources.gg 403, laws.gov.vg and bvirtualogp.pr.gov unreachable (A92); elegislation.gov.hk and legislation.gov.fk JS-only, LeyChile (Chile 152) web service requires API key, uaelegislation.gov.ae 403 (A93); wapi.gov.me (Montenegro Uredba) TLS failure and fetch 504 (A96).
 - Disputed/dual-administration identities 104/275/732/887 need owner scope decision (skipped).
 - Externally administered identities need one owner identity policy (record external delegated authority as principal identity, or keep UNKNOWN): 260 (French State administrateur superieur), 086 (BIOT Commissioner, no local health ordinance), 334 (HIMI: ACT applied law, HIMI Act s5-6, A87), 239 (SGSSI: Falklands-derived Public Health Ordinance Parts II-IV, Commissioner, A87).
 - DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
 - Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A96: P2 QUEUED IN_PROGRESS areas with reachable official instruments (Montenegro 499 sluzbenilist.me, Qatar 634 almeezan.qa, other WordPress-hosted Caribbean law sites via wp-json media search), then EVIDENCE_ADDED follow-ups with exact next_action; skip 104/275/732/887 and identity policy group 260/086/334/239.
+**Next exact queue position:** A97: remaining P2 QUEUED IN_PROGRESS areas with reachable official instruments (Caribbean/Pacific WordPress law hosts, other ministry-competence decrees), then EVIDENCE_ADDED follow-ups (Luxembourg 442 attribution arrete; Malaysia 458 Act 342 post-2020); skip 104/275/732/887 and identity policy group 260/086/334/239.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
 Provisional identities     [###################.] 232/248 | +1
-Expanded partial legal     [########............] 99/248 partial | +70
+Expanded partial legal     [########............] 101/248 partial | +72
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [###.................] 303/1984 | +244
+Narrow supported dims      [###.................] 313/1984 | +254
 All-tier research complete [....................] 0/248 | +0
 ```
 
