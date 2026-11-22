@@ -1,3 +1,35 @@
+<!-- autonomous-run-20261122 -->
+# Team A — CURRENT A74: existing-evidence triage of all 219 unscored areas (2026-11-22)
+
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `c4ac494941a6d0db58355cae4cc3d660d442d5f4`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+
+**Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
+
+**Now:** partial **34**, in-progress (triaged, no legal support) **214**, unscored **0**, research-complete **0/248**; dims **73** SOURCE_SUPPORTED (+14 run) / **1082** RESEARCHED_INCOMPLETE / **827** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **17**; provenance **769**; queue {"QUEUED": 214, "EVIDENCE_ADDED_NOT_RESOLVED": 34}.
+
+- Priority 1 complete for the unscored set: every one of the 219 UNSCORED_EXISTING_RESEARCH areas classified from its recorded provenance/body evidence. 214 moved to `IN_PROGRESS` (triaged; 0 dims promoted; dimension-level RESEARCHED_INCOMPLETE only where the record addresses the function via identity/mandate/news/index evidence, NOT_TRIAGED where silent; cited-but-unread instruments and access failures written into each review_note and queue next_action). This is a documented research limitation, NOT statutory verification.
+- 5 areas promoted to `PARTIAL_SOURCE_CHECKED` with narrow SOURCE_SUPPORTED dims (+14): 124 Canada (Department of Health Act s2/s4 + PHAC Act s3-5, Justice Laws current to 2026-10-29; new A74-124-01/02), 392 Japan (MHLW Establishment Act arts 2-4, e-Gov CurrentEnforced 2026-04-01; new A74-392-01), 704 Viet Nam (existing Decree 313/2026 record: arts 1-2, effective 18 Aug 2026, repeals 42/2025), 646 Rwanda (existing Gazette PM Order 011/03 2024 arts 2-3), 580 Northern Mariana Islands (existing PL16-51 s2803, historical 2008).
+- No identity, body, relationship, scope, M49, production or other-team change. Derived RECONCILED_INVENTORY/PRIORITIZED_BACKLOG regenerated from ledger/queue (prior_evidence_class for triaged rows = A74_EXISTING_EVIDENCE_TRIAGED_NO_LEGAL_SUPPORT).
+
+**Blocked / external (exact missing requirement):**
+- Unchanged from prior checkpoints (A73/Codex A-01 runs): Botswana commencement Gazette orders (S.I. for Act11/2013, Act29/2025 appointed day); Solomon Islands post-2024 amendments; Bhutan Cabinet/RCSC letters; Samoa 2007 Minister commencement notice; Andorra other six communes; Belgium blocked originals. Not re-attempted in A74.
+- 17 UNKNOWN identities unchanged (see data/unresolved_area_audit.csv).
+
+**Next exact queue position:** A75 = targeted original-law retrieval for IN_PROGRESS areas whose record cites a specific instrument or whose official consolidated portal is machine-readable (e.g. 604 Peru DL1161, 703 Slovakia Act 575/2001 s19, 642 Romania HG144/2010, 630 Puerto Rico Ley 81, 643 Russia Res. 608, 203 Czechia, 756 Switzerland), then Priority 2 backlog ranks 1-14.
+
+**Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
+
+```text
+Provisional identities     [###################.] 231/248 | +0
+Expanded partial legal     [###.................] 34/248 partial | +5
+Unscored areas             [....................] 0/248 | -219
+Narrow supported dims      [#...................] 73/1984 | +14
+All-tier research complete [....................] 0/248 | +0
+```
+
+---
+## Prior checkpoints (historical)
+
 # Team A — CURRENT scoped Argentina original-competence recovery (2026-11-08)
 
 **Latest bounded result:** A-01:032, input320e39ae5d4cf4b014dfafecdfb2ccc066e7c737. [Recovery note](source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md): CODEX-A032-20261108-01 official1490compilation kept separate from original2014Decree1886art1 leadership amendment(-02) and original2026ANMAT6552 narrow product action under1490art8(ñ)(-03). Original Spanish register passages directly read; no facsimile/e-signature or expert-law certification.
