@@ -1,20 +1,22 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A78: Kazakhstan, Georgia, Uzbekistan, Armenia ministry statutes (2026-11-22)
+# Team A — CURRENT A79: Azerbaijan statute; Lithuania/Moldova blocked (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `e788c8146a21a9431ebf86d7d2acfbdb71a9e0cb`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `a7407f09f1f1808b10b0e42831205f84e8452c3c`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **49**, in-progress (triaged, no legal support) **199**, unscored **0**, research-complete **0/248**; dims **115** SOURCE_SUPPORTED (+56 run) / **1057** RESEARCHED_INCOMPLETE / **810** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **791**; queue {"QUEUED": 198, "EVIDENCE_ADDED_NOT_RESOLVED": 43, "BLOCKED_NEW_SOURCE_REQUIRED": 7}.
+**Now:** partial **49**, in-progress (triaged, no legal support) **199**, unscored **0**, research-complete **0/248**; dims **116** SOURCE_SUPPORTED (+57 run) / **1060** RESEARCHED_INCOMPLETE / **806** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **792**; queue {"QUEUED": 196, "EVIDENCE_ADDED_NOT_RESOLVED": 43, "BLOCKED_NEW_SOURCE_REQUIRED": 9}.
 
-- A78 official consolidated regulations read: KZ Gov Res 71/2017 (adilet, amended to Res.864/2026; A78-398-01) +4 dims; GE Gov Res 473/2018 (matsne, consolidated 15 Dec 2025; A78-268-01) +3; UZ CoM Res 714/2017 (lex.uz, para2 per Res.353/2026; A78-860-01) +4 incl. devolution; AM PM Decision 728-L/2018 (ARLIS incorporation in force 14 Aug 2026; A78-051-01) +3.
-- Kyrgyzstan 417: CoM Res 493 of 17 Jul 2026 located on cbd.minjust.gov.kg but page body is JS-rendered (60 chars); not recorded as support. Moldova 498: legis.md PDF returned 403.
+- A78 (a7407f0): KZ 398 +4, GE 268 +3, UZ 860 +4, AM 051 +3 narrow dims from official consolidated regulations (A78-398/268/860/051-01).
+- A79: Azerbaijan 031 ministry-hosted copy of Presidential Decree 413/2006 MoH Statute (A79-031-01) -> establishing_law SOURCE_SUPPORTED; functions/Nakhchivan provisions RESEARCHED_INCOMPLETE (copy lacks amendment dates; e-qanun.az JS-only).
+- Lithuania 440 and Moldova 498 queue BLOCKED_NEW_SOURCE_REQUIRED after two failed official routes each (Cloudflare/403). Latvia 428 likumi.lv returned HTTP 500 on two URL forms (same server; possibly transient) - left QUEUED. Kyrgyzstan 417 cbd.minjust JS shell - one strategy only, left QUEUED.
 
 **Blocked / external (exact missing requirement):**
-- 044/050/056/064/072/090/364 BLOCKED_NEW_SOURCE_REQUIRED (unchanged from A77).
-- JS/anti-bot portals (KR, EE, FI, CH, IT, SG, NZ, KE, KG cbd) need a browser-capable official retrieval route.
+- 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED.
+- JS/anti-bot official portals (KR, EE, FI, CH, IT, SG, NZ, KE, KG, LT, MD, AZ e-qanun) need a browser-capable official retrieval route.
+- Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A79: Kyrgyzstan 417 (alternate official text route), Moldova 498 (legis.md HTML route), Azerbaijan/Russia/Lithuania/Latvia ministry statutes; then UNKNOWN identities.
+**Next exact queue position:** A80: retry Latvia 428 likumi.lv (MK Reg. 286/2004) and Kyrgyzstan 417 (CoM Res 493 of 17 Jul 2026) via a second official route; then Russia 643, remaining P1 IN_PROGRESS areas in queue order; then 16 UNKNOWN identities (dual-administration scope decisions 104/275/732/887 need owner policy).
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
@@ -22,7 +24,7 @@
 Provisional identities     [###################.] 232/248 | +1
 Expanded partial legal     [####................] 49/248 partial | +20
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [#...................] 115/1984 | +56
+Narrow supported dims      [#...................] 116/1984 | +57
 All-tier research complete [....................] 0/248 | +0
 ```
 
