@@ -1,3 +1,17 @@
+# Team B — B165 restart checkpoint, 2026-11-22
+
+Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
+
+- Last completed batch: **B165** — B165 diabetes: final 131 cells (4 S2 Oman ODA, Serbia DAS nutrition guide, Viet Nam VADE, Montenegro DOB; 2 H Slovakia MoH standard procedure hosted/reviewed by SDS and Uruguay SDNU/Paso a Paso diabetic-foot aid; 125 D2 via IDF member directories, IDF-profile and first-party site follow-up, inventory and preserved catalogue route). Diabetes closed.. Last published commit before B165: `272cee5`. The B165 commit is the branch head adding this block.
+- Qualified cells: **381**; contexts 622; organizations 542; tiers S1=140 S2=199 H=59 M=196 U=28; depth D1/D2/D3={'D1': 192, 'D2': 1280, 'D3': 79}.
+- Linked-source cases without terminal disposition: **0**.
+- Remaining unlinked depth tasks: **1** by condition {'celiac': 1}. Next: 643:celiac gfrussia.ru lead (skip and record if safety-blocked), then 21 identity gaps and 5 issuer questions.
+- First open queue positions (canonical inventory order): 643:celiac …
+- Identity gaps **21**; issuer questions **5** (unchanged).
+- Validation: native 0 errors; supplemental 11641 pass.
+- Blockers recorded this batch: IDF-linked sites unreachable: ads.org.az, diabetes.mongolia.com, diabetesom.org.so, caymandiabetes.com, ethiopiandiabetesassociation.org, fccdhn.org, prodiab.md (no response); diab.net.cn 404; sukeret.co.il and adu.org.uy 403; asadi.com parked; dsmaldives.org empty; vade.org.vn has injected gambling links; Ukraine UDA consensus file is an issuer-less fragment; FODSL page withheld (Diabetes UK wording).
+- Unpublished local work: none at time of commit.
+
 # Team B — B164 restart checkpoint, 2026-11-22
 
 Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
