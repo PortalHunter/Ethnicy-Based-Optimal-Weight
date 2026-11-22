@@ -7,7 +7,7 @@
 
 **Now:** partial **147**, in-progress (triaged, no legal support) **101**, unscored **0**, research-complete **0/248**; dims **432** SOURCE_SUPPORTED (+373 run) / **990** RESEARCHED_INCOMPLETE / **560** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **928**; queue {"QUEUED": 90, "EVIDENCE_ADDED_NOT_RESOLVED": 148, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A105-A108 this session: +27, +19, +12, +6 SOURCE_SUPPORTED (A108 f73b88f). A109 (daccef1) was pushed with a failing validator (Nicaragua provenance used an http:// URL); this A109R checkpoint corrects it.
+- A105-A108 this session: +25, +19, +12, +6 SOURCE_SUPPORTED (A108 f73b88f; A105 total corrected from an earlier +27 miscount). Note: commit message of daccef1 states "validate PASS" but validation actually failed on that tree. A109 (daccef1) was pushed with a failing validator (Nicaragua provenance used an http:// URL); this A109R checkpoint corrects it.
 - A109R: Paraguay 600 +2 (Codigo Sanitario 1980, MSPBS-hosted) retained; Nicaragua 558 finding withdrawn and restored to its A108 state because the official consolidated Ley 423 host legislacion.asamblea.gob.ni is http-only (box https TLS failure, fetch-provider 504). Jordan 400 moh.gov.jo PDF fetch-provider 504; Panama 591 Infojuridica metadata only. Clean session-end checkpoint: useful automated research NOT exhausted (~89 QUEUED areas remain; yield per area falling as remaining areas are Arabic-language, JS-portal, http-only or image-only)
 
 **Blocked / external (exact missing requirement):**
