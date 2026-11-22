@@ -1,14 +1,14 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A94: Malta, Bermuda, Saint Helena follow-ups (2026-11-22)
+# Team A — CURRENT A95: Antigua and Barbuda follow-up (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `744e90b0a6e975a45c9e7ee8ecc0262a0420766b`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `5f2cb5de1c88a82860c740e203b9a078b3b14847`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **99**, in-progress (triaged, no legal support) **149**, unscored **0**, research-complete **0/248**; dims **301** SOURCE_SUPPORTED (+242 run) / **992** RESEARCHED_INCOMPLETE / **689** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **862**; queue {"QUEUED": 141, "EVIDENCE_ADDED_NOT_RESOLVED": 97, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
+**Now:** partial **99**, in-progress (triaged, no legal support) **149**, unscored **0**, research-complete **0/248**; dims **303** SOURCE_SUPPORTED (+244 run) / **990** RESEARCHED_INCOMPLETE / **689** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **864**; queue {"QUEUED": 141, "EVIDENCE_ADDED_NOT_RESOLVED": 97, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A93 (744e90b): Luxembourg 442 +5, Malta 470 +2.
-- A94: Malta 470 +1 (Medicines Act Cap.458, Health Care Professions Act Cap.464); Bermuda 060 +1 (Pharmacy and Poisons Act 1979); Saint Helena 654 devolution SS (Ascension Public Health Ordinance 1967; Tristan application ordinance s2).
+- A94 (5f2cb5d): Malta 470 +1, Bermuda 060 +1, Saint Helena 654 devolution SS.
+- A95: Antigua and Barbuda 028 +2 (Pharmacy Act 1995 as amended 2011/2019 and Medical Practitioners Act 2009; Barbuda Local Government Act Cap.44 health functions).
 
 **Blocked / external (exact missing requirement):**
 - 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
@@ -18,7 +18,7 @@
 - DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
 - Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A95: P2 QUEUED IN_PROGRESS areas with reachable official instruments (Montenegro 499 sluzbenilist.me, Qatar 634 almeezan.qa, Antigua 028 laws.gov.ag follow-up), then EVIDENCE_ADDED follow-ups with exact next_action; skip 104/275/732/887 and identity policy group 260/086/334/239.
+**Next exact queue position:** A96: P2 QUEUED IN_PROGRESS areas with reachable official instruments (Montenegro 499 sluzbenilist.me, Qatar 634 almeezan.qa, other WordPress-hosted Caribbean law sites via wp-json media search), then EVIDENCE_ADDED follow-ups with exact next_action; skip 104/275/732/887 and identity policy group 260/086/334/239.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
@@ -26,7 +26,7 @@
 Provisional identities     [###################.] 232/248 | +1
 Expanded partial legal     [########............] 99/248 partial | +70
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [###.................] 301/1984 | +242
+Narrow supported dims      [###.................] 303/1984 | +244
 All-tier research complete [....................] 0/248 | +0
 ```
 
