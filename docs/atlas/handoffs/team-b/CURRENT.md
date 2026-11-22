@@ -1,3 +1,17 @@
+# Team B — B159 restart checkpoint, 2026-11-22
+
+Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
+
+- Last completed batch: **B159** — High-cholesterol depth queue, 91 cells with no EAS-FHSC listing and no indexed local cardiometabolic organization: 91 D2 (EAS-FHSC directory retrieved once, organization inventory check, preserved catalogue route).. Last published commit before B159: `2e649a2`. The B159 commit is the branch head adding this block.
+- Qualified cells: **359**; contexts 600; organizations 529; tiers S1=137 S2=185 H=54 M=196 U=28; depth D1/D2/D3={'D1': 777, 'D2': 695, 'D3': 79}.
+- Linked-source cases without terminal disposition: **0**.
+- Remaining unlinked depth tasks: **608** by condition {'high_chol': 74, 'hypertension': 161, 'lactose': 70, 'diabetes': 131, 'gout': 171, 'celiac': 1}. Next: remaining 74 high_chol cells (43 have an EAS-FHSC national investigator listing; ~31 more have an indexed local cardiology/endocrine/diabetes organization) need first-party site checks for lipid content before D2/qualification; then 70 lactose cells with WGO-listed societies; then gout 171, hypertension 161, diabetes 131; 643:celiac lead open.
+- First open queue positions (canonical inventory order): 004:high_chol 004:hypertension 004:lactose 008:diabetes 008:gout 008:high_chol 008:hypertension 008:lactose 012:diabetes 012:gout …
+- Identity gaps **21**; issuer questions **5** (unchanged).
+- Validation: native 0 errors; supplemental 10417 pass.
+- Blockers recorded this batch: none new.
+- Unpublished local work: none at time of commit.
+
 # Team B — B158 restart checkpoint, 2026-11-22
 
 Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
