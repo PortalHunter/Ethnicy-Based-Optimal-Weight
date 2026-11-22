@@ -1,3 +1,17 @@
+# Team B — B156 restart checkpoint, 2026-11-22
+
+Research acceptance INCOMPLETE. Supersedes counts in the B155 block below.
+
+- Last completed batch: **B156** (celiac depth queue, 95 cells). Last published commit before B156: `b3389a8` (B155). The B156 commit is the branch head adding this block.
+- Qualified cells: **359**; source contexts 600; organizations 529; tiers S1=137 S2=185 H=54 M=196 U=28.
+- Linked-source cases without terminal disposition: **0**.
+- Remaining unlinked depth tasks: **859** by condition {'hemochromatosis': 113, 'high_chol': 165, 'hypertension': 161, 'lactose': 117, 'diabetes': 131, 'gout': 171, 'celiac': 1}. Celiac remaining: only `643:celiac` (open lead: retrieve https://gfrussia.ru/russia or public celiac.spb.ru page; an automated fetch of gfrussia.ru was declined by safety review on 2026-11-22).
+- Next queue: continue condition-by-condition using shared directories retrieved once: hemochromatosis (haemochromatosis-international.org/members), lactose (worldgastroenterology.org regional affiliate lists), high_chol (eas-fhsc.org/contact-us), gout (aplar/eular/panlar/aflar member lists), hypertension (WHL/ISH member lists), diabetes (IDF members). First open positions: 004:hemochromatosis 004:high_chol 004:hypertension 004:lactose 008:diabetes 008:gout 008:hemochromatosis 008:high_chol …
+- Identity gaps **21**; issuer questions **5** (unchanged).
+- Validation: native 0 errors; supplemental 9915 pass.
+- Blockers (B156, do not repeat): atmc.tn unreachable (Tunisia); Belarus/Cuba/Georgia/Montenegro celiac groups social-media-only; El Salvador celiac Blogger group identity unverified.
+- Unpublished local work: none at time of commit.
+
 # Team B — B155 restart checkpoint, 2026-11-22
 
 Research acceptance INCOMPLETE. Durable restart state (supersedes counts in the B154 section below; history preserved).
