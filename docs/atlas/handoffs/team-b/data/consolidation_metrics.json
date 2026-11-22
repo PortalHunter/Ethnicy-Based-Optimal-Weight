@@ -5,35 +5,35 @@
   "M49": 248,
   "conditions": 7,
   "matrix": 1736,
-  "organizations": 529,
+  "organizations": 532,
   "areas_with_local_org_indexed": 227,
   "geographic_org_gaps": 21,
-  "raw_linked_cells": 427,
-  "searched_unlinked_cells": 1309,
+  "raw_linked_cells": 433,
+  "searched_unlinked_cells": 1303,
   "untouched_cells": 0,
-  "pub_context_rows": 600,
-  "source_quality_audited": 600,
+  "pub_context_rows": 606,
+  "source_quality_audited": 606,
   "source_quality_unreviewed": 0,
   "tiers": {
     "S1": 137,
-    "S2": 185,
+    "S2": 191,
     "H": 54,
     "M": 196,
     "U": 28
   },
-  "eligible_audited_sources": 376,
-  "distinct_cells_with_eligible_audited_source": 359,
+  "eligible_audited_sources": 382,
+  "distinct_cells_with_eligible_audited_source": 365,
   "raw_linked_fully_audited_without_S1_S2_H": 68,
   "raw_linked_no_eligible_with_unaudited": 0,
-  "search_depth_entries": 3715,
-  "search_depth_D2_cells_with_no_link": 658,
-  "searched_unlinked_missing_active_D2": 608,
+  "search_depth_entries": 3783,
+  "search_depth_D2_cells_with_no_link": 726,
+  "searched_unlinked_missing_active_D2": 534,
   "unknown_source_country_imprints": 5,
   "source_reused_exact_urls": 47,
   "shared_org_official_url_strings": 6,
-  "repeated_exact_area_condition_search_urls": 132,
-  "provenance": 5087,
-  "search_logs": 4560,
+  "repeated_exact_area_condition_search_urls": 135,
+  "provenance": 5164,
+  "search_logs": 4634,
   "community_subnational": 10,
   "cross_border": 8,
   "metadata_reconciliation": 7,
@@ -55,11 +55,11 @@
       "auditedSources": 120
     },
     "high_chol": {
-      "raw": 54,
-      "searched": 194,
+      "raw": 60,
+      "searched": 188,
       "untouched": 0,
-      "qualCells": 46,
-      "auditedSources": 80
+      "qualCells": 52,
+      "auditedSources": 86
     },
     "gout": {
       "raw": 44,
@@ -92,11 +92,11 @@
   },
   "clinical_approvals": 0,
   "run_delta": {
-    "source_quality_audited": 509,
+    "source_quality_audited": 515,
     "source_quality_unreviewed": -342,
-    "eligible_audited_sources": 317,
-    "distinct_cells_with_eligible_audited_source": 301,
-    "raw_linked_cells": 39,
+    "eligible_audited_sources": 323,
+    "distinct_cells_with_eligible_audited_source": 307,
+    "raw_linked_cells": 45,
     "untouched_cells": -1154,
     "geographic_org_gaps": 0,
     "unknown_source_country_imprints": 0
@@ -104,13 +104,13 @@
   "validation": {
     "structural_errors": 0,
     "Node_CLI_ran": true,
-    "supplemental_checks_passed": 10417,
-    "clinical_state": "600/600 research_lead_only"
+    "supplemental_checks_passed": 10565,
+    "clinical_state": "606/606 research_lead_only"
   },
   "live_input_head": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
   "depth_tiers": {
-    "D1": 777,
-    "D2": 695,
+    "D1": 709,
+    "D2": 763,
     "D3": 79
   },
   "identity_triage_classes": {
@@ -120,7 +120,7 @@
     "own_site_plus_NLM_Lima_publisher_confirmed_governance_unreviewed": 1,
     "first_party_Bogota_office_plus_ISSN_publisher_verified_legal_registry_and_rights_unreviewed": 1,
     "first_party_self_description_no_legal_certification": 3,
-    "own_original_name_seat_objects_inspected_NOT_legal_approval": 28
+    "own_original_name_seat_objects_inspected_NOT_legal_approval": 31
   },
   "continuation_baseline_sha": "27c846fc2a51cd9bced2e3620d71f5dee65ba229",
   "continuation_delta": {
@@ -136,9 +136,9 @@
     "geographic_org_gaps": 0,
     "unknown_source_country_imprints": 0
   },
-  "execution_state": "research_incomplete; B159 checkpoint; linked-source cases closed; 608 unlinked depth tasks remain",
+  "execution_state": "research_incomplete; B160 checkpoint; linked-source cases closed; 534 unlinked depth tasks remain",
   "raw_linked_nonqualified_without_terminal_depth": 0,
-  "ordinary_cell_dispositions_remaining": 608,
+  "ordinary_cell_dispositions_remaining": 534,
   "accelerated_run": {
     "baseline_sha": "6924ce315c6898ee62584cf28ad75539f880fe61",
     "start_unlinked_depth": 988,
@@ -198,6 +198,7 @@
   "run_20261122_batches": {
     "B157": "Hemochromatosis depth queue 113 cells: 113 D2 (HI member directory read once via WebFetch, 14 indexed local gastro/hepatology society sites incl. native site search, preserved catalogue route). No qualification.",
     "B158": "Lactose depth queue, 47 cells without a WGO-listed member society: 47 D2 (four WGO regional member pages retrieved once, local gastro society checks for Nepal/Tanzania, preserved catalogue route).",
-    "B159": "High-cholesterol depth queue, 91 cells with no EAS-FHSC listing and no indexed local cardiometabolic organization: 91 D2 (EAS-FHSC directory retrieved once, organization inventory check, preserved catalogue route)."
+    "B159": "High-cholesterol depth queue, 91 cells with no EAS-FHSC listing and no indexed local cardiometabolic organization: 91 D2 (EAS-FHSC directory retrieved once, organization inventory check, preserved catalogue route).",
+    "B160": "High-cholesterol depth queue, final 74 cells: 6 qualified S2 (Belgium Ligue Cardiologique Belge, Dominican Rep. SDC, Hungary SZÍVSN, Latvia ParSirdi.lv, Panama SPC, Viet Nam VADE) via FHEF network leads and first-party/site-search checks; 68 D2 (indexed-org homepage + native site search, EAS-FHSC/FHEF directories retrieved once, preserved catalogue route); Israel IHA cholesterol post withheld (apparent US-origin adapted content)"
   }
 }

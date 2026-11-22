@@ -1,3 +1,17 @@
+# Team B — B160 restart checkpoint, 2026-11-22
+
+Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
+
+- Last completed batch: **B160** — High-cholesterol depth queue, final 74 cells: 6 qualified S2 (Belgium Ligue Cardiologique Belge, Dominican Rep. SDC, Hungary SZÍVSN, Latvia ParSirdi.lv, Panama SPC, Viet Nam VADE) via FHEF network leads and first-party/site-search checks; 68 D2 (indexed-org homepage + native site search, EAS-FHSC/FHEF directories retrieved once, preserved catalogue route); Israel IHA cholesterol post withheld (apparent US-origin adapted content). Last published commit before B160: `619c818`. The B160 commit is the branch head adding this block.
+- Qualified cells: **365**; contexts 606; organizations 532; tiers S1=137 S2=191 H=54 M=196 U=28; depth D1/D2/D3={'D1': 709, 'D2': 763, 'D3': 79}.
+- Linked-source cases without terminal disposition: **0**.
+- Remaining unlinked depth tasks: **534** by condition {'hypertension': 161, 'lactose': 70, 'diabetes': 131, 'gout': 171, 'celiac': 1}. high_chol queue closed. Next: 70 lactose cells each with a WGO-listed national gastroenterology society (first-party homepage + native site search for lactose terms) before D2/qualification; then gout 171, hypertension 161, diabetes 131; 643:celiac lead (gfrussia.ru).
+- First open queue positions (canonical inventory order): 004:hypertension 004:lactose 008:diabetes 008:gout 008:hypertension 008:lactose 012:diabetes 012:gout 012:hypertension 012:lactose …
+- Identity gaps **21**; issuer questions **5** (unchanged).
+- Validation: native 0 errors; supplemental 10565 pass.
+- Blockers recorded this batch: damascusuniversity.edu.sy no response; diabetes.be, socediamn.org, hypertension.hu, sodenn.org JS/challenge shells (content not inspectable).
+- Unpublished local work: none at time of commit.
+
 # Team B — B159 restart checkpoint, 2026-11-22
 
 Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
