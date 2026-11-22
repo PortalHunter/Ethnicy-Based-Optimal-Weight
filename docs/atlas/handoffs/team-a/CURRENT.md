@@ -1,14 +1,14 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A105: 13 areas: Lesotho, Liberia, Montserrat, South Sudan, Tonga, Togo, Niger, Cameroon, Gabon, Madagascar, Burkina Faso, Guyana, Saint Vincent (2026-11-22)
+# Team A — CURRENT A106: 8 francophone/lusophone areas: Benin, Mali, Mauritania, Djibouti, Burundi, DRC, Cote d Ivoire, Sao Tome (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `1ee877ea34f11641026e64319c280cc03b14701f`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `11b8e7bac0cb84f13619d2ad1ca3044d9ecf232e`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **129**, in-progress (triaged, no legal support) **119**, unscored **0**, research-complete **0/248**; dims **393** SOURCE_SUPPORTED (+334 run) / **986** RESEARCHED_INCOMPLETE / **603** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **909**; queue {"QUEUED": 108, "EVIDENCE_ADDED_NOT_RESOLVED": 130, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
+**Now:** partial **137**, in-progress (triaged, no legal support) **111**, unscored **0**, research-complete **0/248**; dims **412** SOURCE_SUPPORTED (+353 run) / **986** RESEARCHED_INCOMPLETE / **584** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **917**; queue {"QUEUED": 100, "EVIDENCE_ADDED_NOT_RESOLVED": 138, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A104 (1ee877e): Belize 084 +2 (Public Health Act Cap.40 Revised Edition 2020 + Amendment Act 2021).
-- A105: Lesotho 426 +2, Liberia 430 +2, Montserrat 500 +2, South Sudan 728 +1, Tonga 776 +2, Togo 768 +3, Niger 562 +2, Cameroon 120 +1, Gabon 266 +5 (Code de la Sante 2026), Madagascar 450 +3, Burkina Faso 854 +2; Guyana 328 and Saint Vincent 670 evidence added, no SOURCE_SUPPORTED (current texts unreachable). Useful automated research NOT exhausted.
+- A105 (11b8e7b): 13 areas, +27 SOURCE_SUPPORTED (Gabon, Togo, Madagascar, Lesotho, Liberia, Montserrat, Tonga, Niger, Burkina Faso, South Sudan, Cameroon).
+- A106: DRC 180 +4, Mali 466 +3, Djibouti 262 +3, Burundi 108 +3, Cote d Ivoire 384 +2, Sao Tome 678 +2, Benin 204 +1, Mauritania 478 +1. Guinea 324 (FAOLEX gui158099 HTTP 500, WHO CPCD 503) and Cabo Verde 132 (eris.cv 202 challenge, WHO CPCD 503) not retrieved this batch. Useful automated research NOT exhausted.
 
 **Blocked / external (exact missing requirement):**
 - 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
@@ -18,15 +18,15 @@
 - DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
 - Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A106: continue QUEUED areas via FAOLEX/official hosts (Benin 204, Mali 466, Mauritania 478, Djibouti 262, Congo 178, DRC 180, CAR 140, Burundi 108, Haiti 332, Chad 148, Guinea 324, Cote d Ivoire 384, Sao Tome 678, Cabo Verde 132, Kiribati 296, Nauru 520), then EVIDENCE_ADDED follow-ups (Malaysia 458 Act 342 with A1742; Grenada 308 Amendment Act 2021 No.14; Luxembourg 442 attribution arrete); skip 104/275/732/887 and identity policy group 260/086/334/239.
+**Next exact queue position:** A107: EVIDENCE_ADDED follow-ups (Malaysia 458 Act 342 with A1742; Grenada 308 Amendment Act 2021 No.14; Luxembourg 442 attribution arrete), then remaining QUEUED areas (Congo 178, CAR 140, Chad 148, Haiti 332, Guinea 324 retry, Cabo Verde 132 retry, Kiribati 296, Nauru 520, Sri Lanka 144, Cambodia 116, Mongolia 496, Lao 418, Eritrea 232, Egypt 818, Jordan 400, Iraq 368, Libya 434), Latin America (Bolivia 068, Costa Rica 188, Ecuador 218, El Salvador 222, Honduras 340, Guatemala 320, Panama 591, Paraguay 600, Nicaragua 558); skip 104/275/732/887 and identity policy group 260/086/334/239.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
 Provisional identities     [###################.] 232/248 | +1
-Expanded partial legal     [##########..........] 129/248 partial | +100
+Expanded partial legal     [###########.........] 137/248 partial | +108
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [####................] 393/1984 | +334
+Narrow supported dims      [####................] 412/1984 | +353
 All-tier research complete [....................] 0/248 | +0
 ```
 
