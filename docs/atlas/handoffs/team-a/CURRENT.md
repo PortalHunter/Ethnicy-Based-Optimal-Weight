@@ -1,14 +1,14 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A101: Namibia medicines; Uganda/Zambia regulator evidence (2026-11-22)
+# Team A — CURRENT A102: Zambia/Uganda/Malawi/Malaysia medicines and professions; Eswatini triage (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `9b218d433fa942f513e16d34bc47981b5d04ecdf`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `2abaf8f4281589818e693e3edc4cd041aed5ac99`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **113**, in-progress (triaged, no legal support) **135**, unscored **0**, research-complete **0/248**; dims **355** SOURCE_SUPPORTED (+296 run) / **977** RESEARCHED_INCOMPLETE / **650** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **884**; queue {"QUEUED": 128, "EVIDENCE_ADDED_NOT_RESOLVED": 110, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
+**Now:** partial **114**, in-progress (triaged, no legal support) **134**, unscored **0**, research-complete **0/248**; dims **359** SOURCE_SUPPORTED (+300 run) / **977** RESEARCHED_INCOMPLETE / **646** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **890**; queue {"QUEUED": 126, "EVIDENCE_ADDED_NOT_RESOLVED": 112, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A100 (9b218d4): Nigeria 566 +2; India 356 / Oman 512 official routes failed.
-- A101: Namibia 516 +1 (Medicines and Related Substances Control Act 2003); Uganda 800 NDA Act read but outstanding amendments (no promotion); Zambia 894 HPA 2009 repealed by HPA 2024 recorded (no promotion). laws.gov.fj (Fiji) is an Angular SPA with no reachable document API.
+- A101 (2abaf8f): Namibia 516 +1; Uganda 800 / Zambia 894 evidence only.
+- A102: Zambia 894 +1 (Health Professions Act 2024); Uganda 800 +1 (NDA Act outstanding amendment = Narcotic Drugs Act 2024 s86, repeals only ss47-49); Malawi 454 +1 (PMRA Act 2019, regulator-hosted gazetted text); Malaysia 458 +1 (Sale of Drugs Act 368 ministry consolidation to P.U.(B) 68/2025) and Act 342 amendment A1742 in force 1 May 2025 recorded (effective_dates triaged RI); Eswatini 748 Medicines Act 2016 commencement notice missing (medicines triaged RI). Box is Cloudflare-challenged on malawilii/zambialii/namiblii; fetch provider works.
 
 **Blocked / external (exact missing requirement):**
 - 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
@@ -18,15 +18,15 @@
 - DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
 - Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A102: remaining P2 QUEUED IN_PROGRESS areas with reachable official instruments (Caribbean/Pacific WordPress law hosts, other ministry-competence decrees), then EVIDENCE_ADDED follow-ups (Luxembourg 442 attribution arrete; Malaysia 458 Act 342 post-2020); skip 104/275/732/887 and identity policy group 260/086/334/239.
+**Next exact queue position:** A103: other reachable Laws.Africa/official-regulator instruments for QUEUED African areas (Lesotho 426, Gambia 270, Liberia 430, South Sudan 728, Ghana-style regulator-hosted Acts), Malaysia Act 342 consolidated as amended by A1742, Luxembourg 442 attribution arrete; skip 104/275/732/887 and identity policy group 260/086/334/239.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
 Provisional identities     [###################.] 232/248 | +1
-Expanded partial legal     [#########...........] 113/248 partial | +84
+Expanded partial legal     [#########...........] 114/248 partial | +85
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [####................] 355/1984 | +296
+Narrow supported dims      [####................] 359/1984 | +300
 All-tier research complete [....................] 0/248 | +0
 ```
 
