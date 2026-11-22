@@ -1,0 +1,216 @@
+{
+  "batch": "B163",
+  "date": "2026-11-22",
+  "receipts": {
+    "https://www.panlar.org/sociedades-nacionales": {
+      "http_status": 200,
+      "bytes": 3432,
+      "sha256": "75401cfa55495e133e9951663877f4fec285361815cd2b58c64b1c47f782226c",
+      "retrieved_utc": "2026-11-22T14:32:42.978861+00:00"
+    },
+    "https://rheumatologyafrica.org/national-organizations/": {
+      "http_status": 200,
+      "bytes": 126323,
+      "sha256": "86b2d721444062162ad59f35f14247ebf21faec4e8b460d760ad783d89dac4fa",
+      "retrieved_utc": "2026-11-22T14:26:24.692002+00:00"
+    },
+    "https://www.eular.org/scientific-member-societies": {
+      "http_status": 200,
+      "bytes": 87359,
+      "sha256": "59fd77f31a3b98bbdf63cd630595ad96bcd2abe4565ff98f8d75207ecfc7b290",
+      "retrieved_utc": "2026-11-22T14:25:43.763807+00:00"
+    },
+    "https://aplar.org/about-aplar/member-national-organizations/": {
+      "http_status": 200,
+      "bytes": 111900,
+      "sha256": "a89ccbcad212e1e20747a95e82914c6d5bac22999378b519c198ad544eb9513f",
+      "retrieved_utc": "2026-11-22T14:25:45.060590+00:00"
+    },
+    "https://www.arabrheumatology.org/en/members": {
+      "http_status": 200,
+      "bytes": 258846,
+      "sha256": "4871d1623832b86987b1c0105bf310c86a53c08e59b5105a048b1ef6f0acddb1",
+      "retrieved_utc": "2026-11-22T14:32:42.798215+00:00"
+    },
+    "https://rheumatologyafrica.org/national-societies-category/": {
+      "http_status": 200,
+      "bytes": 128355,
+      "sha256": "ebca50f1a77fda8bbb08f61803eb3088921685a93f866732e3653028d890dc95",
+      "retrieved_utc": "2026-11-22T14:27:40.538495+00:00"
+    },
+    "https://sodoreu.org/": {
+      "http_status": 200,
+      "bytes": 99904,
+      "sha256": "a5cfd0017ea47585c6240adc9dd4ab58c8afc8de2c031bbb825ce954964363ec",
+      "retrieved_utc": "2026-11-22T14:32:43.379606+00:00"
+    },
+    "https://sodoreu.org/guia-de-diagnostico-y-tratamiento-para-artritis-por-depositos-de-cristales/": {
+      "http_status": 200,
+      "bytes": 68948,
+      "sha256": "d1e378082f27716fb96e5920c0933471eae10a8997aa70b13e2bdf3f6d10e273",
+      "retrieved_utc": "2026-11-22T14:32:45.994521+00:00"
+    },
+    "https://sodoreu.org/guia-de-tratamiento-para-artritis-gotosa-y-artritis-por-cppd/": {
+      "http_status": 200,
+      "bytes": 69124,
+      "sha256": "bf01f1fb74d4dd19421340559d042b20b9e70af449d172b2502533a95f03ef86",
+      "retrieved_utc": "2026-11-22T14:32:43.406146+00:00"
+    },
+    "https://sodoreu.org/wp-content/uploads/2020/06/GUIAS-2020-CRISTALES.pdf": {
+      "http_status": 200,
+      "bytes": 1504469,
+      "sha256": "81e6748c09ce28cd969fc1b4a691896a90e4af8bb67fa26d78013f67f3fabe3f",
+      "retrieved_utc": "2026-11-22T14:32:54.415885+00:00"
+    },
+    "https://www.svemonline.org/": {
+      "http_status": 200,
+      "bytes": 189423,
+      "sha256": "5d59a46f84ace8ed8719b37fa145517cb6655866d61f778da0f52da8313b2513",
+      "retrieved_utc": "2026-11-22T14:33:38.032055+00:00"
+    },
+    "https://www.svemonline.org/wp-content/uploads/2016/04/consenso-venezolano-sobre-acido-urico.pdf": {
+      "http_status": 200,
+      "bytes": 4760721,
+      "sha256": "00a85c59484b4dabc12c48addafd69ef715673fb9f72c29fa32f4de57a7ad285",
+      "retrieved_utc": "2026-11-22T14:32:43.831265+00:00"
+    },
+    "https://sarhumatologie-dz.org/": {
+      "http_status": 200,
+      "bytes": 31981,
+      "sha256": "6e55061261f7fdc4c7ddc75c04c5b31f6e019df5cb537e2774a7b0888df9f8fe",
+      "retrieved_utc": "2026-11-22T14:32:44.056682+00:00"
+    },
+    "https://sarhumatologie-dz.org/?s=goutte": {
+      "http_status": 200,
+      "bytes": 31981,
+      "sha256": "6e55061261f7fdc4c7ddc75c04c5b31f6e019df5cb537e2774a7b0888df9f8fe",
+      "retrieved_utc": "2026-11-22T14:33:49.279038+00:00"
+    },
+    "https://www.laarhumato.org/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:33:47.998934+00:00"
+    },
+    "https://www.laarhumato.org/?s=goutte": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:33:48.015835+00:00"
+    },
+    "https://www.litar.net/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:33:47.939506+00:00"
+    },
+    "https://www.litar.net/?s=goutte": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:33:47.946402+00:00"
+    },
+    "https://spr.org.py/": {
+      "http_status": 200,
+      "bytes": 190224,
+      "sha256": "fc7fba7c0717d8bf992274d92cdddf70f8d1033da30829dbbdde9af4381e5e46",
+      "retrieved_utc": "2026-11-22T14:32:42.756957+00:00"
+    },
+    "https://spr.org.py/?s=gota": {
+      "http_status": 200,
+      "bytes": 160632,
+      "sha256": "cb3ac59aa77146fefb4ad3d22f5aa90f6b839aa9c0e55358519eb3c5981b7e08",
+      "retrieved_utc": "2026-11-22T14:32:44.263989+00:00"
+    },
+    "https://www.reumatologia.uy/": {
+      "http_status": 200,
+      "bytes": 1017046,
+      "sha256": "c8b686607f7a73910314603c8cd49508a087e21d831592eef34d1cb0beab4643",
+      "retrieved_utc": "2026-11-22T14:32:45.229329+00:00"
+    },
+    "https://serecuador.com.ec/gota-que-es-sintomas-diagnostico-y-tratamiento/": {
+      "http_status": 200,
+      "bytes": 162424,
+      "sha256": "75570ac5bfe9a8a10ea2915dd1c6d6dadd5f8b61db65d1536347d4e32e92a5da",
+      "retrieved_utc": "2026-11-22T14:33:12.799986+00:00"
+    },
+    "https://inforeuma.com/enfermedades-reumaticas/gota/": {
+      "http_status": 200,
+      "bytes": 145434,
+      "sha256": "6e98c03f68b171172151b6f0c4cd46651ad5a898ecb0b9431348ed1e5bb7ebe3",
+      "retrieved_utc": "2026-11-22T14:33:25.066219+00:00"
+    },
+    "https://serecuador.com.ec/?s=gota": {
+      "http_status": 200,
+      "bytes": 150178,
+      "sha256": "6d3e64814b827e0848d739f1cc96860026e6ee374f9cea13322d7440e8cecf59",
+      "retrieved_utc": "2026-11-22T14:32:54.630955+00:00"
+    },
+    "https://serecuador.com.ec/": {
+      "http_status": 200,
+      "bytes": 194793,
+      "sha256": "1db316b1e35f86f1662a12912b5e456db24122e29d31f63a4b50cc19648bb870",
+      "retrieved_utc": "2026-11-22T14:32:44.327225+00:00"
+    },
+    "https://www.ilbjh.org/": {
+      "http_status": 200,
+      "bytes": 78621,
+      "sha256": "9f5e7e37364a12ea56633e490b093a60b5332324a61996857b8cc3f776cee9bf",
+      "retrieved_utc": "2026-11-22T14:33:48.344813+00:00"
+    },
+    "https://www.ilbjh.org/?s=gout": {
+      "http_status": 200,
+      "bytes": 78621,
+      "sha256": "9f5e7e37364a12ea56633e490b093a60b5332324a61996857b8cc3f776cee9bf",
+      "retrieved_utc": "2026-11-22T14:33:48.352010+00:00"
+    },
+    "https://www.karkwt.org/": {
+      "http_status": 200,
+      "bytes": 154288,
+      "sha256": "8d0d4dda231556f052c19e882843f3127e145adfbb660269f90c3e4a55ac2550",
+      "retrieved_utc": "2026-11-22T14:33:49.401725+00:00"
+    },
+    "https://www.karkwt.org/?s=gout": {
+      "http_status": 200,
+      "bytes": 68172,
+      "sha256": "a60d793f72f3e287973c90e8f93cc616bef9612486ea1046730ea5b577331f4b",
+      "retrieved_utc": "2026-11-22T14:33:48.964630+00:00"
+    },
+    "https://www.omanrheumatology.org/": {
+      "http_status": 200,
+      "bytes": 175434,
+      "sha256": "65f4944f7dd3969c58b9a7211a3890879e4ca529ebcb8a716e32b8b2f823e502",
+      "retrieved_utc": "2026-11-22T14:33:50.732712+00:00"
+    },
+    "https://www.omanrheumatology.org/?s=gout": {
+      "http_status": 200,
+      "bytes": 116567,
+      "sha256": "4173673d0b3f0bbed133beafe90ff402499f84cb51e3611279c96a4b438aa0de",
+      "retrieved_utc": "2026-11-22T14:33:50.774162+00:00"
+    },
+    "https://www.ssrsa.org/": {
+      "http_status": 200,
+      "bytes": 57750,
+      "sha256": "6133c01e23bbf44359f6c2f873d1695c0954fab263637ed8d8dd1c46f12f6592",
+      "retrieved_utc": "2026-11-22T14:33:48.447874+00:00"
+    },
+    "https://www.ssrsa.org/?s=gout": {
+      "http_status": 200,
+      "bytes": 57766,
+      "sha256": "21fc41db581672003ef1f53ee84c8471dd28120223d604979847dc711abc9776",
+      "retrieved_utc": "2026-11-22T14:33:48.571776+00:00"
+    },
+    "https://www.rheumatology-syria.com/": {
+      "http_status": 200,
+      "bytes": 32634,
+      "sha256": "6473df7a3652dfea5044778d5cdf44134d97144d4ef2efd3377d2d29a3d2f5dd",
+      "retrieved_utc": "2026-11-22T14:33:50.142915+00:00"
+    },
+    "https://www.rheumatology-syria.com/?s=gout": {
+      "http_status": 200,
+      "bytes": 27613,
+      "sha256": "49ad325a9e21082b781f824b521ddcbcb50535c4e1753da9f89ab010484ef353",
+      "retrieved_utc": "2026-11-22T14:33:49.735096+00:00"
+    }
+  }
+}

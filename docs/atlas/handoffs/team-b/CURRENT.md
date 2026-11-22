@@ -1,3 +1,17 @@
+# Team B — B163 restart checkpoint, 2026-11-22
+
+Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
+
+- Last completed batch: **B163** — Gout depth queue, final 128 cells: 2 qualified (Dominican Republic SDR 2020 crystal-arthritis guideline S1; Venezuela multi-society 2015 uric-acid consensus hosted by SVEM, Aspen Venezuela copyright, H); 126 D2 (ArLAR/EULAR/APLAR directories retrieved once, PANLAR/AFLAR non-enumerable, web discovery + first-party checks of national rheumatology societies where found, indexed inventory, preserved catalogue route); Ecuador SER gout page withheld (wording follows Spanish SER text); 5 supplementary D2 records correct B162 'no website' notes for Iraq, Kuwait, Oman, Saudi Arabia, Syria using ArLAR-listed sites. Last published commit before B163: `c2699e3`. The B163 commit is the branch head adding this block.
+- Qualified cells: **368**; contexts 609; organizations 535; tiers S1=138 S2=191 H=56 M=196 U=28; depth D1/D2/D3={'D1': 471, 'D2': 1001, 'D3': 79}.
+- Linked-source cases without terminal disposition: **0**.
+- Remaining unlinked depth tasks: **293** by condition {'hypertension': 161, 'diabetes': 131, 'celiac': 1}. gout queue closed. Next: hypertension 161 (ISH/WHL member-society directories, indexed cardiology/hypertension societies: first-party homepage + native site search), then diabetes 131 (IDF member associations), 643:celiac lead (gfrussia.ru).
+- First open queue positions (canonical inventory order): 004:hypertension 008:diabetes 008:hypertension 012:diabetes 012:hypertension 016:diabetes 016:hypertension 020:diabetes 020:hypertension 024:diabetes …
+- Identity gaps **21**; issuer questions **5** (unchanged).
+- Validation: native 0 errors; supplemental 11057 pass.
+- Blockers recorded this batch: laarhumato.org and litar.net no response; PANLAR national-societies page JS shell; AFLAR member lists not enumerated; ArLAR lists Libya, Palestine, Sudan societies without websites.
+- Unpublished local work: none at time of commit.
+
 # Team B — B162 restart checkpoint, 2026-11-22
 
 Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
