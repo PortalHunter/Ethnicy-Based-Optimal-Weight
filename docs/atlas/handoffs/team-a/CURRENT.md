@@ -1,30 +1,31 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A83: Ethiopia, Malta, Bulgaria organic instruments (2026-11-22)
+# Team A — CURRENT A84: Identity research: TAAF, BIOT, DPRK (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `c228c8b01ec1f5b06f4851ba64402630e4d3e885`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `d9ca748870a356b4e4b5ca553f52018ba6ff1501`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **63**, in-progress (triaged, no legal support) **185**, unscored **0**, research-complete **0/248**; dims **164** SOURCE_SUPPORTED (+105 run) / **1044** RESEARCHED_INCOMPLETE / **774** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **811**; queue {"QUEUED": 181, "EVIDENCE_ADDED_NOT_RESOLVED": 58, "BLOCKED_NEW_SOURCE_REQUIRED": 9}.
+**Now:** partial **64**, in-progress (triaged, no legal support) **184**, unscored **0**, research-complete **0/248**; dims **166** SOURCE_SUPPORTED (+107 run) / **1047** RESEARCHED_INCOMPLETE / **769** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **814**; queue {"QUEUED": 178, "EVIDENCE_ADDED_NOT_RESOLVED": 60, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A82 (c228c8b): PE +4, MA +4, ID +4, GH evidence only.
-- A83: Ethiopia 231 +3 (Proclamation 1263/2021 art35, supersedes 1097/2018), Malta 470 +2 (Health Act Cap.528), Bulgaria 100 +4 (CoM Decree 55/2019 Rules, MoH consolidated to SG 97/2024); Ghana A82 source removed from verified_legal_source_ids (non-verified LII evidence kept in provenance/note).
+- A83 (d9ca748): ET +3, MT +2, BG +4; GH verified-id correction.
+- A84: TAAF 260 +2 narrow dims (Decree 2008-919 art1; CSP L4431-6-1 delegated professional function to administrateur superieur) - identity kept UNKNOWN pending owner policy; BIOT 086 official revised-ordinances index shows no local health ordinance (0 promoted); DPRK 408 queue BLOCKED (kcna.kp unreachable from box and fetch provider).
 
 **Blocked / external (exact missing requirement):**
 - 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
 - JS/anti-bot official portals (KR, EE, FI, CH, IT, SG, NZ, KE, LT, MD, AZ e-qanun) need a browser-capable official retrieval route; Russia pravo.gov.ru/minzdrav.gov.ru unreachable from box and fetch provider (A80).
-- Disputed/dual-administration identities 104/275/732/887 need owner scope decision (skipped).
+- Disputed/dual-administration identities 104/275/732/887 need owner scope decision (skipped); externally administered 260 (French State delegated authority) and 086 (UK Commissioner, no local health ordinance) need owner identity policy.
+- DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
 - Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A84: continue P2 QUEUED IN_PROGRESS areas with reachable official consolidated MoH instruments (queue order, prioritising record-cited instruments: Tajikistan 762, Senegal 686, Comoros 174, Cook Islands 184, PNG 598, Pakistan 586), then UNKNOWN identities 086/239/260/334/408; skip 104/275/732/887.
+**Next exact queue position:** A85: continue P2 QUEUED IN_PROGRESS areas with reachable official consolidated MoH instruments (queue order, prioritising record-cited instruments: Tajikistan 762, Senegal 686, Comoros 174, Cook Islands 184, PNG 598, Pakistan 586), then UNKNOWN identities 239/334 (086/260 evidence recorded; 408 blocked); skip 104/275/732/887.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
 Provisional identities     [###################.] 232/248 | +1
-Expanded partial legal     [#####...............] 63/248 partial | +34
+Expanded partial legal     [#####...............] 64/248 partial | +35
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [##..................] 164/1984 | +105
+Narrow supported dims      [##..................] 166/1984 | +107
 All-tier research complete [....................] 0/248 | +0
 ```
 
