@@ -5,35 +5,35 @@
   "M49": 248,
   "conditions": 7,
   "matrix": 1736,
-  "organizations": 535,
+  "organizations": 540,
   "areas_with_local_org_indexed": 227,
   "geographic_org_gaps": 21,
-  "raw_linked_cells": 436,
-  "searched_unlinked_cells": 1300,
+  "raw_linked_cells": 443,
+  "searched_unlinked_cells": 1293,
   "untouched_cells": 0,
-  "pub_context_rows": 609,
-  "source_quality_audited": 609,
+  "pub_context_rows": 616,
+  "source_quality_audited": 616,
   "source_quality_unreviewed": 0,
   "tiers": {
-    "S1": 138,
-    "S2": 191,
-    "H": 56,
+    "S1": 140,
+    "S2": 195,
+    "H": 57,
     "M": 196,
     "U": 28
   },
-  "eligible_audited_sources": 385,
-  "distinct_cells_with_eligible_audited_source": 368,
+  "eligible_audited_sources": 392,
+  "distinct_cells_with_eligible_audited_source": 375,
   "raw_linked_fully_audited_without_S1_S2_H": 68,
   "raw_linked_no_eligible_with_unaudited": 0,
-  "search_depth_entries": 4026,
-  "search_depth_D2_cells_with_no_link": 964,
-  "searched_unlinked_missing_active_D2": 293,
+  "search_depth_entries": 4180,
+  "search_depth_D2_cells_with_no_link": 1118,
+  "searched_unlinked_missing_active_D2": 132,
   "unknown_source_country_imprints": 5,
   "source_reused_exact_urls": 47,
   "shared_org_official_url_strings": 6,
-  "repeated_exact_area_condition_search_urls": 140,
-  "provenance": 5413,
-  "search_logs": 4880,
+  "repeated_exact_area_condition_search_urls": 142,
+  "provenance": 5579,
+  "search_logs": 5041,
   "community_subnational": 10,
   "cross_border": 8,
   "metadata_reconciliation": 7,
@@ -48,11 +48,11 @@
       "auditedSources": 168
     },
     "hypertension": {
-      "raw": 82,
-      "searched": 166,
+      "raw": 89,
+      "searched": 159,
       "untouched": 0,
-      "qualCells": 61,
-      "auditedSources": 120
+      "qualCells": 68,
+      "auditedSources": 127
     },
     "high_chol": {
       "raw": 60,
@@ -92,11 +92,11 @@
   },
   "clinical_approvals": 0,
   "run_delta": {
-    "source_quality_audited": 518,
+    "source_quality_audited": 525,
     "source_quality_unreviewed": -342,
-    "eligible_audited_sources": 326,
-    "distinct_cells_with_eligible_audited_source": 310,
-    "raw_linked_cells": 48,
+    "eligible_audited_sources": 333,
+    "distinct_cells_with_eligible_audited_source": 317,
+    "raw_linked_cells": 55,
     "untouched_cells": -1154,
     "geographic_org_gaps": 0,
     "unknown_source_country_imprints": 0
@@ -104,13 +104,13 @@
   "validation": {
     "structural_errors": 0,
     "Node_CLI_ran": true,
-    "supplemental_checks_passed": 11057,
-    "clinical_state": "609/609 research_lead_only"
+    "supplemental_checks_passed": 11379,
+    "clinical_state": "616/616 research_lead_only"
   },
   "live_input_head": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
   "depth_tiers": {
-    "D1": 471,
-    "D2": 1001,
+    "D1": 317,
+    "D2": 1155,
     "D3": 79
   },
   "identity_triage_classes": {
@@ -120,7 +120,7 @@
     "own_site_plus_NLM_Lima_publisher_confirmed_governance_unreviewed": 1,
     "first_party_Bogota_office_plus_ISSN_publisher_verified_legal_registry_and_rights_unreviewed": 1,
     "first_party_self_description_no_legal_certification": 3,
-    "own_original_name_seat_objects_inspected_NOT_legal_approval": 34
+    "own_original_name_seat_objects_inspected_NOT_legal_approval": 39
   },
   "continuation_baseline_sha": "27c846fc2a51cd9bced2e3620d71f5dee65ba229",
   "continuation_delta": {
@@ -136,9 +136,9 @@
     "geographic_org_gaps": 0,
     "unknown_source_country_imprints": 0
   },
-  "execution_state": "research_incomplete; B163 checkpoint; linked-source cases closed; 293 unlinked depth tasks remain",
+  "execution_state": "research_incomplete; B164 checkpoint; linked-source cases closed; 132 unlinked depth tasks remain",
   "raw_linked_nonqualified_without_terminal_depth": 0,
-  "ordinary_cell_dispositions_remaining": 293,
+  "ordinary_cell_dispositions_remaining": 132,
   "accelerated_run": {
     "baseline_sha": "6924ce315c6898ee62584cf28ad75539f880fe61",
     "start_unlinked_depth": 988,
@@ -202,6 +202,7 @@
     "B160": "High-cholesterol depth queue, final 74 cells: 6 qualified S2 (Belgium Ligue Cardiologique Belge, Dominican Rep. SDC, Hungary SZÍVSN, Latvia ParSirdi.lv, Panama SPC, Viet Nam VADE) via FHEF network leads and first-party/site-search checks; 68 D2 (indexed-org homepage + native site search, EAS-FHSC/FHEF directories retrieved once, preserved catalogue route); Israel IHA cholesterol post withheld (apparent US-origin adapted content)",
     "B161": "Lactose depth queue, final 70 cells: 70 D2 (WGO-listed national gastro society first-party homepage + native site search in local-language lactose terms, indexed local gastro/celiac/paediatric sites, WGO directories reused, preserved catalogue route). No qualification",
     "B162": "Gout depth queue, 43 cells with an EULAR/APLAR-listed or indexed national rheumatology society: 1 H qualified (Russia: ARR-hosted 2014 federal gout clinical guideline DOCX, no named issuer; hosted, not S1 society authorship); 42 D2 (society first-party homepage + native site search in local-language gout terms, or candidate-domain probe where the directory lists no website; EULAR/APLAR directories retrieved once; preserved catalogue route)",
-    "B163": "Gout depth queue, final 128 cells: 2 qualified (Dominican Republic SDR 2020 crystal-arthritis guideline S1; Venezuela multi-society 2015 uric-acid consensus hosted by SVEM, Aspen Venezuela copyright, H); 126 D2 (ArLAR/EULAR/APLAR directories retrieved once, PANLAR/AFLAR non-enumerable, web discovery + first-party checks of national rheumatology societies where found, indexed inventory, preserved catalogue route); Ecuador SER gout page withheld (wording follows Spanish SER text); 5 supplementary D2 records correct B162 'no website' notes for Iraq, Kuwait, Oman, Saudi Arabia, Syria using ArLAR-listed sites"
+    "B163": "Gout depth queue, final 128 cells: 2 qualified (Dominican Republic SDR 2020 crystal-arthritis guideline S1; Venezuela multi-society 2015 uric-acid consensus hosted by SVEM, Aspen Venezuela copyright, H); 126 D2 (ArLAR/EULAR/APLAR directories retrieved once, PANLAR/AFLAR non-enumerable, web discovery + first-party checks of national rheumatology societies where found, indexed inventory, preserved catalogue route); Ecuador SER gout page withheld (wording follows Spanish SER text); 5 supplementary D2 records correct B162 'no website' notes for Iraq, Kuwait, Oman, Saudi Arabia, Syria using ArLAR-listed sites",
+    "B164": "B164 hypertension: final 161 cells (2 S1 Israel ISH 2026 guideline book and Thailand THS 2024 guideline; 4 S2 Serbia USH, Dominican Republic SDC, Jordan JCS, Latvia ParSirdi.lv; 1 H Slovakia SHS-hosted 2014 methodological letter; 154 D2 via ESH list, society first-party checks, inventory and preserved catalogue route). Hypertension closed."
   }
 }

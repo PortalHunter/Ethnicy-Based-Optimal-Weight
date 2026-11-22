@@ -1,0 +1,306 @@
+{
+  "batch": "B164",
+  "date": "2026-11-22",
+  "receipts": {
+    "https://www.eshonline.org/communities/national-societies/countries-list/": {
+      "http_status": 200,
+      "bytes": 84332,
+      "sha256": "007816113ca4f8bb77ae7156c51e1ebaacf7bc3104be4d88d0fc80893abc3de5",
+      "retrieved_utc": "2026-11-22T14:35:57.289715+00:00"
+    },
+    "https://www.whleague.org/members": {
+      "http_status": 202,
+      "bytes": 176,
+      "sha256": "ad2c8a3139fd1125a1e65a4f64f981083447e3cca9ee3d099fd706db0c742f58",
+      "retrieved_utc": "2026-11-22T14:35:37.560828+00:00"
+    },
+    "https://ish-world.com/national-societies/": {
+      "http_status": 200,
+      "bytes": 29693,
+      "sha256": "c415a7ad9bfdade5a72a20451b224ee5f0e4e0f595b29ee53a62ead0b41d7651",
+      "retrieved_utc": "2026-11-22T14:35:37.697487+00:00"
+    },
+    "https://www.whleague.org/": {
+      "http_status": 202,
+      "bytes": 169,
+      "sha256": "bc28325196d466d160cd6a7f6e6ac628d7203977ee6074ef600c882eb10379dc",
+      "retrieved_utc": "2026-11-22T14:35:49.064680+00:00"
+    },
+    "https://www.whleague.org/index.php/members": {
+      "http_status": 202,
+      "bytes": 188,
+      "sha256": "157e1001a26bc432f7e41733e40b796926ee4c64253790ac952242a895f3d144",
+      "retrieved_utc": "2026-11-22T14:35:37.478453+00:00"
+    },
+    "https://www.ish.org.il/": {
+      "http_status": 200,
+      "bytes": 149216,
+      "sha256": "6359f53536a4f7f820c77181ad7ba502c6be3cbccb5aa0448b62f25b51294d5b",
+      "retrieved_utc": "2026-11-22T14:36:25.826910+00:00"
+    },
+    "https://www.ish.org.il/clinical-guidelines/guidelines2026/": {
+      "http_status": 200,
+      "bytes": 127923,
+      "sha256": "4e3d6c76c788ad6073f6b5a526fd6ea09b030b4deeb2f54b1e125dbc48e53c49",
+      "retrieved_utc": "2026-11-22T14:36:46.599797+00:00"
+    },
+    "https://www.ish.org.il/images/hbp-guidelines2026.pdf": {
+      "http_status": 200,
+      "bytes": 4957571,
+      "sha256": "0a00a1d72d6e140e51c7e1068c1e71610058975f5b35b9ca94971d4045d18c15",
+      "retrieved_utc": "2026-11-22T14:37:09.047825+00:00"
+    },
+    "https://www.thaihypertension.org/": {
+      "http_status": 200,
+      "bytes": 39810,
+      "sha256": "20d886eb43bd812096f393121273227f67c9815da3320ccb8e8bd9384aa70bf0",
+      "retrieved_utc": "2026-11-22T14:36:29.023081+00:00"
+    },
+    "https://thaihypertension.org/home": {
+      "http_status": 200,
+      "bytes": 212707,
+      "sha256": "4991da6a6b5b48a8b893097d6eb27b66495b8647cba9c3a713d711b531a98096",
+      "retrieved_utc": "2026-11-22T14:36:48.564851+00:00"
+    },
+    "https://thaihypertension.org/2024-guideline/": {
+      "http_status": 200,
+      "bytes": 172872,
+      "sha256": "42c9956df186eb64fff824b1a84d805f7506bf4bb69d53f3720f705e463d5cb0",
+      "retrieved_utc": "2026-11-22T14:37:09.723852+00:00"
+    },
+    "https://thaihypertension.org/wp-content/uploads/2025/07/Guideline2024.pdf": {
+      "http_status": 200,
+      "bytes": 4014621,
+      "sha256": "f42e199e701858a3a9f5fe71f81587fc77af1b3626c9269c0e96b52bc760b645",
+      "retrieved_utc": "2026-11-22T14:37:22.228140+00:00"
+    },
+    "https://www.uhsrb.rs/en": {
+      "http_status": 200,
+      "bytes": 75930,
+      "sha256": "4cf08269def6dd9e11fbb44276c5513dfacbafc12053b38cf68257c321489e13",
+      "retrieved_utc": "2026-11-22T14:36:30.014392+00:00"
+    },
+    "https://www.uhsrb.rs/": {
+      "http_status": 200,
+      "bytes": 89648,
+      "sha256": "870b4e1f7c3c008b24177caece8ba040d3513728afdf38c6ae5f2a2d31cd2cb5",
+      "retrieved_utc": "2026-11-22T14:36:46.399159+00:00"
+    },
+    "https://www.uhsrb.rs/en/hypertension/": {
+      "http_status": 200,
+      "bytes": 71584,
+      "sha256": "7a6c9eb9ff7af79d23fff425d1207a77bad14415c18714a178eb601896008d90",
+      "retrieved_utc": "2026-11-22T14:36:47.624015+00:00"
+    },
+    "https://sodocardio.org.do/presion-arterial/": {
+      "http_status": 200,
+      "bytes": 487101,
+      "sha256": "8926a85caa8ae06f452f74d8091718434b1b1bf1112f3c0adb47c862c7f6e2e4",
+      "retrieved_utc": "2026-11-22T14:36:48.651662+00:00"
+    },
+    "https://sodocardio.org.do/": {
+      "http_status": 200,
+      "bytes": 547556,
+      "sha256": "81880852127dcd27a11e1eabd2679ebeb7dac6e7c4f5592c0663cfadfd150e09",
+      "retrieved_utc": "2026-11-22T14:17:20.232376+00:00"
+    },
+    "https://www.jordan-cardiac.org/": {
+      "http_status": 200,
+      "bytes": 824615,
+      "sha256": "cece8fb9d7edc31287d86c449bcb6e3bb3c222038ce76b44fbdae820cebe97cd",
+      "retrieved_utc": "2026-11-22T14:36:33.368965+00:00"
+    },
+    "https://www.jordan-cardiac.org/?s=hypertension": {
+      "http_status": 200,
+      "bytes": 238595,
+      "sha256": "20b0bffa3296b76201ffca350bbbe7f8e36db2c8ef60b64159dda500b8bbc651",
+      "retrieved_utc": "2026-11-22T14:37:37.181727+00:00"
+    },
+    "https://jordan-cardiac.org/%d8%a7%d9%84%d9%88%d8%b9%d9%8a-%d8%a7%d9%84%d8%b9%d8%a7%d9%85-%d9%84%d9%85%d8%b4%d9%83%d9%84%d9%87-%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%b6%d8%ba%d8%b7-%d8%a7%d9%84%d8%af%d9%85/": {
+      "http_status": 200,
+      "bytes": 259012,
+      "sha256": "b4716479100023390be1d39761c32b10f0a8cf063aaaee64e80845d8e98f7bc3",
+      "retrieved_utc": "2026-11-22T14:37:50.830287+00:00"
+    },
+    "https://www.parsirdi.lv/augsts-asinsspiediens-ir-bistams-ari-gados-jauniem-cilvekiem/": {
+      "http_status": 200,
+      "bytes": 46210,
+      "sha256": "28b903e0920e2de3d77a26f92a829dc60813e812caebd14ce5ab2c7c47a4c988",
+      "retrieved_utc": "2026-11-22T14:37:50.878469+00:00"
+    },
+    "https://www.parsirdi.lv/?s=asinsspiediens": {
+      "http_status": 200,
+      "bytes": 39684,
+      "sha256": "583e1d1abae10d41d07a0fbdff8af146301b89e5c8beec5f65ffec87a29908ce",
+      "retrieved_utc": "2026-11-22T14:37:35.913772+00:00"
+    },
+    "https://www.parsirdi.lv/": {
+      "http_status": 200,
+      "bytes": 40193,
+      "sha256": "926cc6b63cb9c98a8464fbd200bd229cff344f52944edb80d127306a65053653",
+      "retrieved_utc": "2026-11-22T14:36:26.207043+00:00"
+    },
+    "https://www.hypertenzia.org/": {
+      "http_status": 200,
+      "bytes": 25713,
+      "sha256": "bfa712f8ff6a277a5eedaf5daed4716a3982d3ca1ba76e615cc75000708a3a5a",
+      "retrieved_utc": "2026-11-22T14:36:26.011085+00:00"
+    },
+    "https://www.hypertenzia.org/odporucania-shs-esh": {
+      "http_status": 200,
+      "bytes": 11595,
+      "sha256": "f9127b7926ba67dd08e60aad36521be391c5d7f85d9b1b221e8c360f3b6110f9",
+      "retrieved_utc": "2026-11-22T14:37:50.607290+00:00"
+    },
+    "https://www.hypertenzia.org/media/files/metodicky-list-arteriova_hypertenzia-2014.pdf": {
+      "http_status": 200,
+      "bytes": 198880,
+      "sha256": "4a2a5042574c5f73e23cea39de6d470468bc07e9bcbdcd312160fe3b1695a38e",
+      "retrieved_utc": "2026-11-22T14:38:02.164974+00:00"
+    },
+    "https://www.hypertenzia.org/media/files/dokumenty/odporucania.pdf": {
+      "http_status": 200,
+      "bytes": 734180,
+      "sha256": "bda9d58f806816bdfd886024944ae8d714ebf29960bfd856c416930398da0fe4",
+      "retrieved_utc": "2026-11-22T14:38:02.657347+00:00"
+    },
+    "https://www.cardio.by/": {
+      "http_status": 200,
+      "bytes": 47842,
+      "sha256": "640c3eea96717d3e862411018e13df79f983e9b3b3f6017e485a679e09a931dd",
+      "retrieved_utc": "2026-11-22T14:36:27.183932+00:00"
+    },
+    "https://www.ehy.ee/": {
+      "http_status": 200,
+      "bytes": 47056,
+      "sha256": "fac8afcbbe7bf710c532bd91f904c731dec8590690b9b40102c8e0e24c2f4b12",
+      "retrieved_utc": "2026-11-22T14:36:25.796015+00:00"
+    },
+    "https://www.ehy.ee/mis-on-hupertensioon/": {
+      "http_status": 200,
+      "bytes": 52068,
+      "sha256": "f8212744a82a878b81aaae77feae14658832220793f5649367682865caf7d231",
+      "retrieved_utc": "2026-11-22T14:36:46.681552+00:00"
+    },
+    "https://iraqhs.com/hypertension-in-focus-a-multidisciplinary-approach-to-care/": {
+      "http_status": 200,
+      "bytes": 162428,
+      "sha256": "4e03cfb0fa339c05cb1193d2132c6a5d943007ca2898719cee451b230a0d79e7",
+      "retrieved_utc": "2026-11-22T14:37:50.197892+00:00"
+    },
+    "https://www.iraqhs.com/": {
+      "http_status": 200,
+      "bytes": 239779,
+      "sha256": "72ebf5d90dfa5c91f0c571f58db6703f3cacca008c92c5e142c62f0ede9e792a",
+      "retrieved_utc": "2026-11-22T14:36:31.521537+00:00"
+    },
+    "https://iraqhs.com/?s=hypertension": {
+      "http_status": 200,
+      "bytes": 131557,
+      "sha256": "a1de12ae824b2a5e99ebd95e4f5e8ffad7e7df2e592f89929effef4d725f7fa3",
+      "retrieved_utc": "2026-11-22T14:37:36.776135+00:00"
+    },
+    "https://ahcvp.kz/": {
+      "http_status": 200,
+      "bytes": 43616,
+      "sha256": "f6edca16d665a6db99bb6b1e1ba6a0f66844ce4c9f64d6a908af24328b85d120",
+      "retrieved_utc": "2026-11-22T14:36:24.819502+00:00"
+    },
+    "https://ahcvp.kz/?s=%D0%B3%D0%B8%D0%BF%D0%B5%D1%80%D1%82%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F": {
+      "http_status": 200,
+      "bytes": 43616,
+      "sha256": "1e0376bb08aa4df51819bd56a59e466da27bdf65fa20a8b13c513c85a57e8336",
+      "retrieved_utc": "2026-11-22T14:37:35.130485+00:00"
+    },
+    "https://www.lhtl.org/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:36:24.601667+00:00"
+    },
+    "https://saudihtn.org/": {
+      "http_status": 500,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:36:24.840497+00:00"
+    },
+    "https://www.hypertoni.org/": {
+      "http_status": 200,
+      "bytes": 50218,
+      "sha256": "be93e1967659351c68578083a40e68d7452e2b9fc50a46e72640ce51862c29d5",
+      "retrieved_utc": "2026-11-22T14:36:26.639608+00:00"
+    },
+    "https://hypertoni.org/?s=blodtryck": {
+      "http_status": 200,
+      "bytes": 39315,
+      "sha256": "e4a25434e99d91751140551ca31a94d535c773a86519547d128ef7224b230727",
+      "retrieved_utc": "2026-11-22T14:37:35.651909+00:00"
+    },
+    "https://ehs-egypt.com/": {
+      "http_status": 200,
+      "bytes": 195701,
+      "sha256": "1180cb7d129e5a3c938bc6f4605f101b9a7f8d7fcaa8d4aba672908f001a6ad1",
+      "retrieved_utc": "2026-11-22T14:36:27.249170+00:00"
+    },
+    "https://ehs-egypt.com/ehs-news/": {
+      "http_status": 200,
+      "bytes": 302757,
+      "sha256": "9d1ac2219c9178f3dcdb400ebf69bd5413db88feae8b6f4893925eb89e523de0",
+      "retrieved_utc": "2026-11-22T14:36:47.234174+00:00"
+    },
+    "https://ehs-egypt.com/?s=hypertension": {
+      "http_status": 200,
+      "bytes": 165473,
+      "sha256": "197ae6697b59a7c6177fc6c439e9c1158cbc51fcb9ee10fef6cbacca8b735984",
+      "retrieved_utc": "2026-11-22T14:37:37.246710+00:00"
+    },
+    "https://www.webampac.com/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:36:24.999731+00:00"
+    },
+    "https://www.saintmartinsante.fr/": {
+      "http_status": 200,
+      "bytes": 3742,
+      "sha256": "902f4cbe18a8d66237cf2593d1481f811b78618e9bd27d2545a7ad8d57128781",
+      "retrieved_utc": "2026-11-22T14:36:26.878423+00:00"
+    },
+    "https://www.gibraltarcardiac.com/our-mission": {
+      "http_status": 200,
+      "bytes": 66096,
+      "sha256": "51f38b4e87d532598b8f93efe121c3f4395f04659f9ae187ff5ab2e063dcf128",
+      "retrieved_utc": "2026-11-22T14:17:18.116403+00:00"
+    },
+    "https://www.kfha.org.ki/": {
+      "http_status": 200,
+      "bytes": 107480,
+      "sha256": "31f48818385286d95901fb9983cb38a5b79d4b266d69d51b40e956abbc675a81",
+      "retrieved_utc": "2026-11-22T14:36:34.049152+00:00"
+    },
+    "https://bkfbhutan.org/about-bkf/": {
+      "http_status": 200,
+      "bytes": 70582,
+      "sha256": "27f7c12335b9a9199c6d05fbdc9a3fda6c96cfe3cc9ab84e50d932356a205873",
+      "retrieved_utc": "2026-11-22T14:36:27.588470+00:00"
+    },
+    "https://asaleepolynesie.com/qui-sommes-nous/": {
+      "http_status": 200,
+      "bytes": 77390,
+      "sha256": "ccda53d3de58c4c066e2cdf063954801af5b7529fb4e6346ac03fab9768a8316",
+      "retrieved_utc": "2026-11-22T14:36:26.943314+00:00"
+    },
+    "https://www.gibraltarcardiac.com/?s=blood+pressure": {
+      "http_status": 200,
+      "bytes": 133842,
+      "sha256": "d52529dc23ca388cee15051631265f8e3b6419bab9c6063d7800e67b52f517b3",
+      "retrieved_utc": "2026-11-22T14:37:35.159792+00:00"
+    },
+    "https://www.kfha.org.ki/?s=blood+pressure": {
+      "http_status": 200,
+      "bytes": 125896,
+      "sha256": "0a810cea9c644a17104ec717ce38828e5a6469d2bb0f79a5da727ebe08060d71",
+      "retrieved_utc": "2026-11-22T14:37:38.689151+00:00"
+    }
+  }
+}

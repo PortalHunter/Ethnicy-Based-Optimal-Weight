@@ -1,3 +1,17 @@
+# Team B — B164 restart checkpoint, 2026-11-22
+
+Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
+
+- Last completed batch: **B164** — B164 hypertension: final 161 cells (2 S1 Israel ISH 2026 guideline book and Thailand THS 2024 guideline; 4 S2 Serbia USH, Dominican Republic SDC, Jordan JCS, Latvia ParSirdi.lv; 1 H Slovakia SHS-hosted 2014 methodological letter; 154 D2 via ESH list, society first-party checks, inventory and preserved catalogue route). Hypertension closed.. Last published commit before B164: `2deb5ab`. The B164 commit is the branch head adding this block.
+- Qualified cells: **375**; contexts 616; organizations 540; tiers S1=140 S2=195 H=57 M=196 U=28; depth D1/D2/D3={'D1': 317, 'D2': 1155, 'D3': 79}.
+- Linked-source cases without terminal disposition: **0**.
+- Remaining unlinked depth tasks: **132** by condition {'diabetes': 131, 'celiac': 1}. Next: diabetes (131 cells) via IDF member associations, then 643:celiac gfrussia.ru lead, then 21 identity gaps and 5 issuer questions.
+- First open queue positions (canonical inventory order): 008:diabetes 012:diabetes 016:diabetes 020:diabetes 024:diabetes 028:diabetes 031:diabetes 044:diabetes 048:diabetes 051:diabetes …
+- Identity gaps **21**; issuer questions **5** (unchanged).
+- Validation: native 0 errors; supplemental 11379 pass.
+- Blockers recorded this batch: lhtl.org (Lebanon) and webampac.com (Mexico) no response; saudihtn.org HTTP 500; WHL member pages are 202 JS shells; ISH has no national-society list; ESH lists social-media-only URLs for Dominican (SODOHAS) and Venezuelan societies; Slovak methodological-letter series issuer unresolved.
+- Unpublished local work: none at time of commit.
+
 # Team B — B163 restart checkpoint, 2026-11-22
 
 Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.

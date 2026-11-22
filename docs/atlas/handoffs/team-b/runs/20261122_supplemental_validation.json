@@ -1,18 +1,18 @@
 {
-  "checks_passed": 11057,
+  "checks_passed": 11379,
   "errors": 0,
   "scope": "supplemental structural consistency and historical preservation only",
   "metrics": {
-    "sources": 609,
+    "sources": 616,
     "tiers": {
       "M": 196,
-      "S1": 138,
-      "S2": 191,
+      "S1": 140,
+      "S2": 195,
       "U": 28,
-      "H": 56
+      "H": 57
     },
-    "qualified_cells": 368,
+    "qualified_cells": 375,
     "untouched": 0,
-    "searched_unlinked_missing_D2": 293
+    "searched_unlinked_missing_D2": 132
   }
 }
