@@ -1,14 +1,14 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A97: Uganda, Zambia, Zimbabwe, Namibia, Ghana (2026-11-22)
+# Team A — CURRENT A98: Tanzania, Sierra Leone, Mauritius, Seychelles (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `5a782ff48ecc0c6d3642e18e31068feabe2ca530`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `ea2c3e15efb45c81859f31d4d38af774d2b88ec6`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **106**, in-progress (triaged, no legal support) **142**, unscored **0**, research-complete **0/248**; dims **332** SOURCE_SUPPORTED (+273 run) / **985** RESEARCHED_INCOMPLETE / **665** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **874**; queue {"QUEUED": 135, "EVIDENCE_ADDED_NOT_RESOLVED": 103, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
+**Now:** partial **110**, in-progress (triaged, no legal support) **138**, unscored **0**, research-complete **0/248**; dims **346** SOURCE_SUPPORTED (+287 run) / **978** RESEARCHED_INCOMPLETE / **658** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **878**; queue {"QUEUED": 131, "EVIDENCE_ADDED_NOT_RESOLVED": 107, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A96 (5a782ff): Montenegro 499 +5, Qatar 634 +4, Bermuda 060 +1.
-- A97: Uganda 800 +5 (Public Health Act Cap.310 2023 revision), Zambia 894 +2 (ZNPHI Act 2020/2024), Zimbabwe 716 +5 (Public Health Act 2018), Namibia 516 +5 (Public and Environmental Health Act 2015), Ghana 288 +2 (Public Health Act 2012); African LII texts read via fetch provider (box gets Cloudflare challenge).
+- A97 (ea2c3e1): Uganda 800 +5, Zambia 894 +2, Zimbabwe 716 +5, Namibia 516 +5, Ghana 288 +2 (LII texts via fetch provider).
+- A98: Tanzania 834 +4 (Public Health Act Cap.99), Sierra Leone 694 +4 (Public Health Act 2022, gazette scan OCR), Mauritius 480 +4 (Public Health Act consolidated to 1 Sep 2026), Seychelles 690 +2 (Public Health Act 2015).
 
 **Blocked / external (exact missing requirement):**
 - 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
@@ -18,15 +18,15 @@
 - DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
 - Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A98: remaining P2 QUEUED IN_PROGRESS areas with reachable official instruments (Caribbean/Pacific WordPress law hosts, other ministry-competence decrees), then EVIDENCE_ADDED follow-ups (Luxembourg 442 attribution arrete; Malaysia 458 Act 342 post-2020); skip 104/275/732/887 and identity policy group 260/086/334/239.
+**Next exact queue position:** A99: remaining P2 QUEUED IN_PROGRESS areas with reachable official instruments (Caribbean/Pacific WordPress law hosts, other ministry-competence decrees), then EVIDENCE_ADDED follow-ups (Luxembourg 442 attribution arrete; Malaysia 458 Act 342 post-2020); skip 104/275/732/887 and identity policy group 260/086/334/239.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
 Provisional identities     [###################.] 232/248 | +1
-Expanded partial legal     [#########...........] 106/248 partial | +77
+Expanded partial legal     [#########...........] 110/248 partial | +81
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [###.................] 332/1984 | +273
+Narrow supported dims      [###.................] 346/1984 | +287
 All-tier research complete [....................] 0/248 | +0
 ```
 
