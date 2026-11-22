@@ -1,0 +1,1057 @@
+[
+  {
+    "record_id": "B155-DEP-050-celiac",
+    "area_m49": "050",
+    "condition_key": "celiac",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://bgs-bd.com/institute-and-research",
+        "observation": "BGS institute-and-research page re-inspected 2026-11-22 (SHA256=7588c06bda2713e022121c65733db3c730de583719494a0769470b8e9595c515): member thesis/research title index with author names only; no linked university-issued full celiac thesis or substantive text. BGS is host, not issuer. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Bangladesh%22%29+AND+TITLE_ABS%3A%28%28%22celiac+disease%22+OR+%22coeliac+disease%22+OR+celiaquia+OR+celiakia+OR+celijakija%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-01ac244c1c1a2115 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=19. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-050-lactose",
+    "area_m49": "050",
+    "condition_key": "lactose",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://bgs-bd.com/institute-and-research",
+        "observation": "BGS institute-and-research page re-inspected 2026-11-22 (SHA256=7588c06bda2713e022121c65733db3c730de583719494a0769470b8e9595c515): lactose-related thesis titles only; no linked full text, sampling or issuer imprint. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Bangladesh%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-d228bb6bc1842b49 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=12. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-116-diabetes",
+    "area_m49": "116",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://mopotsyo.org/peer-education/",
+        "observation": "MoPoTsyo peer-education page re-inspected 2026-11-22 (SHA256=ae3a62c72d1754c3c2c04080a5e28beceeac6c2d3cbd83dbc54189ac65877b6e): programme description and session list; no linked lesson text, report or study. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Cambodia%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-5436e11983fd9ddf (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=109. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-116-hypertension",
+    "area_m49": "116",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://mopotsyo.org/2026-q3-quarterly-review/",
+        "observation": "MoPoTsyo 2026-Q3 quarterly review re-inspected 2026-11-22 (SHA256=20505a5fb007bda94b4cc8412e1af6284585e995a14d02a23389835df9122259): operational exit/transition report; no BP study, guidance or education text. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Cambodia%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-417bb4b967e491df (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=66. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-144-gout",
+    "area_m49": "144",
+    "condition_key": "gout",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://rheumatology.org.lk/event-20th-annual-scientific-sessions-2026/",
+        "observation": "College of Specialists in Rheumatology Sri Lanka 2026 sessions page re-inspected 2026-11-22 (SHA256=206ae28c7644f5c0f1a23a5c9af326595c40c60dd94d8bc6acac28782054f734): programme listing with one gout talk title; no abstract, slides or text linked. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Sri+Lanka%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-fdc9df7763ab1c27 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=4. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-440-hemochromatosis",
+    "area_m49": "440",
+    "condition_key": "hemochromatosis",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://gastroenterologija.lt/pasiruosimai-tyrimams/feritinas-ir-gelezies-tyrimai/",
+        "observation": "LGD ferritin/iron test page re-inspected 2026-11-22 (SHA256=5825b474029028b2f906bff4317d5b5389b3cbc722049dd7a9b37a8678d84768): generic iron-test preparation; haemochromatosis only as one testing context. Not hereditary haemochromatosis content. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Lithuania%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-c96ab3c7e6883707 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=6. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-604-gout",
+    "area_m49": "604",
+    "condition_key": "gout",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://socreuma.org.pe/new/_recursos/eventos/archivos/202506201252189886.pdf",
+        "observation": "SPR 2025 programme PDF re-inspected 2026-11-22 (SHA256=ec113d3f521ef23e5588de1ef21eb82d935eeb55693db0f1d0e80138b6a7eb70): scheduled gout lecture only; no delivered lecture, abstract book or SPR gout publication linked. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Peru%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-40ba0e3ea4ed5e76 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=5. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-702-gout",
+    "area_m49": "702",
+    "condition_key": "gout",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.rheumatology.org.sg/feng-pao-hsii/lectures",
+        "observation": "Singapore Society of Rheumatology lectures page re-inspected 2026-11-22 (SHA256=8656ceb101675953fb58c652528b638e46e91e69dc5611774908c581b4f07f92): lecturer roster with 2023 gout lecture title only; no text, abstract or SSR gout guideline linked. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Singapore%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-1afc7f389400f908 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=135. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-100-hypertension",
+    "area_m49": "100",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.hypertensionleaguebg.info/bg/science-info/",
+        "observation": "BHL science-info page re-inspected 2026-11-22 (SHA256=f2cd0d3f261b9573586b9edbe337a52c75849756f88259ee9b650a167099c330): links are reports on foreign European/World congresses and 2012-2013 truncated abstracts; no BHL-issued hypertension guideline, study or education text identified. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Bulgaria%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-bb4c836d54f1f7a8 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=429. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-174-diabetes",
+    "area_m49": "174",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://santediabete.org/wp-content/uploads/2023/04/2023-BS.pdf",
+        "observation": "Santé Diabète 2023 semiannual bulletin re-inspected 2026-11-22 (SHA256=93498c71a48317c1ef373177e8f179b5225e8d8704c49c0000514d935ace1ce4): French NGO activity bulletin covering several countries; no Comoros organization-authored diabetes study or education text. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Comoros%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-57e9e93f9aa74a71 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=9. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-204-diabetes",
+    "area_m49": "204",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf20-1787/",
+        "observation": "WDF20-1787 project page re-inspected 2026-11-22 (SHA256=9db1a58d9c11e24c93ad677d13ff9cb08d0a424a0245a48955aa2ae5bd3ef6dd): Danish foundation programme objectives naming Benin partner; no Beninese organization publication or results. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Benin%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-c75ca04a4bfbc26f (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=266. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-204-hypertension",
+    "area_m49": "204",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf20-1787/",
+        "observation": "WDF20-1787 project page re-inspected 2026-11-22 (SHA256=9db1a58d9c11e24c93ad677d13ff9cb08d0a424a0245a48955aa2ae5bd3ef6dd): planned diabetes/hypertension service strengthening; no Beninese organization BP publication. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Benin%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-892cbf7e1a40b95d (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=230. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-218-hypertension",
+    "area_m49": "218",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://scardiopichincha.org/cursos/electrocardiograma-y-monitoreo-ambulatorial-de-presion-arterial-en-atencion-primaria/",
+        "observation": "Sociedad Ecuatoriana de Cardiología Núcleo Pichincha course page re-inspected 2026-11-22 (SHA256=91f1aed1466d0cc19e195de4cef392633b73f15d0138b9cdf41dd9c963b5bc41): ECG/ABPM course objectives only; no teaching text or guidance. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Ecuador%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-9b25c005d935760a (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=366. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-242-hypertension",
+    "area_m49": "242",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://diabetesfiji.com/our-projects/1020-2/",
+        "observation": "Diabetes Fiji Methodist conference project page re-inspected 2026-11-22 (SHA256=78a9b5629b2aff583e5178da47e024f4fc506cbe8ccd961e7495fe150ff6a103): screening/awareness event narrative; no BP education text or study. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Fiji%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-dd100873cd888b6c (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=30. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-266-diabetes",
+    "area_m49": "266",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://soganeph.org/fr/journee-mondiale-du-rein/2026",
+        "observation": "SOGANEPH World Kidney Day 2026 page re-inspected 2026-11-22 (SHA256=72497be321aaabbb9f2539203e7c1f7fdb7be7dbd14b6da8a8ea5d18fbf4b914): screening/training event report; no diabetes study methods/results or educational content. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Gabon%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-9d0f22646b5d6d85 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=30. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-266-hypertension",
+    "area_m49": "266",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://soganeph.org/fr/journee-mondiale-du-rein/2026",
+        "observation": "SOGANEPH World Kidney Day 2026 page re-inspected 2026-11-22 (SHA256=72497be321aaabbb9f2539203e7c1f7fdb7be7dbd14b6da8a8ea5d18fbf4b914): event report with one hypertension mention; no BP content. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Gabon%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-8edee09cda1ba0db (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=30. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-384-diabetes",
+    "area_m49": "384",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.aodci.org/page_c_actualites.php",
+        "observation": "AODCI news page re-inspected 2026-11-22 (SHA256=37833e3b3fa30c21e3dcd1c6abda6a6b67f1bc1eca6327aec82f41a712ea8ccb): training/event news on gestational diabetes; no linked substantive document retrievable from page. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22C%C3%B4te+d%E2%80%99Ivoire%22+OR+AFF%3A%22C%C3%B4te+d%27Ivoire%22+OR+AFF%3A%22Ivory+Coast%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-af67a778ab85d0f7 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=84. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-384-hypertension",
+    "area_m49": "384",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.aodci.org/page_c_actualites.php",
+        "observation": "AODCI news page re-inspected 2026-11-22 (SHA256=37833e3b3fa30c21e3dcd1c6abda6a6b67f1bc1eca6327aec82f41a712ea8ccb): single hypertension mention in activity news; no BP document. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22C%C3%B4te+d%E2%80%99Ivoire%22+OR+AFF%3A%22C%C3%B4te+d%27Ivoire%22+OR+AFF%3A%22Ivory+Coast%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-e3f3d2fc31e2cdfb (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=112. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-454-diabetes",
+    "area_m49": "454",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf12-0714/",
+        "observation": "WDF12-0714 project page re-inspected 2026-11-22 (SHA256=5241ebb88b250ac9a8a090332fc94acc0b21276a22ef05c2dcd02a38a63a5e24): Danish foundation description of DAM education project; no DAM-authored report or education text. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Malawi%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-5166ef03aa93d56a (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=254. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-492-diabetes",
+    "area_m49": "492",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://croix-rouge.mc/journee-mondiale-du-diabete-14-novembre-2025/",
+        "observation": "Monaco Red Cross World Diabetes Day 2025 page re-inspected 2026-11-22 (SHA256=2bac487ace5e0177b93a42d48b1c53cda830d7d788e586c09a301feae7cc7878): awareness event notice; no substantive diabetes education or study. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Monaco%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-daf6ac18b904cc8d (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=38. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-535-diabetes",
+    "area_m49": "535",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.pccarib.com/zorgaanbod",
+        "observation": "PCC Bonaire zorgaanbod page re-inspected 2026-11-22 (SHA256=9b52a00bea7d2d38d92ba8d76c425c4268f807b159afa976ce7faa8eeb3b6ae8): service offer listing diabetes nurse care; no disease education text or research. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Bonaire%22+OR+AFF%3A%22Saba%22+OR+AFF%3A%22Sint+Eustatius%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-3c332bf3b3a083c0 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=226. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-535-hypertension",
+    "area_m49": "535",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.pccarib.com/zorgaanbod",
+        "observation": "PCC Bonaire zorgaanbod page re-inspected 2026-11-22 (SHA256=9b52a00bea7d2d38d92ba8d76c425c4268f807b159afa976ce7faa8eeb3b6ae8): no hypertension education or research content. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Bonaire%22+OR+AFF%3A%22Saba%22+OR+AFF%3A%22Sint+Eustatius%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-47d7b988eb082a97 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=162. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-562-diabetes",
+    "area_m49": "562",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf17-1561/",
+        "observation": "WDF17-1561 project page re-inspected 2026-11-22 (SHA256=30bbc1b7b5395003bbc54ee7b0dc523024e84663a6159bb9ec24e5d7bf84abb4): programme goals naming FORSANI; no FORSANI publication or results. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Niger%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-896ea2f0263d2271 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=38. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-580-diabetes",
+    "area_m49": "580",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://crees.marianas.edu/news/walk-roll-on-wednesday-2-years-of-promoting-health-awareness-and-accessibility/",
+        "observation": "NMC-CREES Walk and Roll article re-inspected 2026-11-22 (SHA256=058bbf534d8a053076894ff59c89a6ed5a82004d1959bd53d31e899a70a81d5b): weekly screening/activity news; no diabetes study or teaching material. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Northern+Mariana+Islands%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-63f8a9f2ae6740b3 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=4. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-580-hypertension",
+    "area_m49": "580",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://crees.marianas.edu/news/walk-roll-on-wednesday-2-years-of-promoting-health-awareness-and-accessibility/",
+        "observation": "NMC-CREES Walk and Roll article re-inspected 2026-11-22 (SHA256=058bbf534d8a053076894ff59c89a6ed5a82004d1959bd53d31e899a70a81d5b): BP screening mentions only; no BP content. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Northern+Mariana+Islands%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-01301d5dc39e2a90 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=2. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-583-diabetes",
+    "area_m49": "583",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-chuuk-womens-council/",
+        "observation": "PI-DPP Chuuk Women's Council storytelling page re-inspected 2026-11-22 (SHA256=4e52dbbb9591522d3b0a293baf231cc1adb857c9904172147571b8fa42a816bc): US-hosted programme interview; no CWC-authored outcomes or education. Community control not inferred. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Federated+States+of+Micronesia%22+OR+AFF%3A%22Micronesia%22+OR+AFF%3A%22FSM%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-a9ca1f1a20950b96 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=18. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-584-diabetes",
+    "area_m49": "584",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-kwajalein-diak-coalition-spotlight/",
+        "observation": "PI-DPP Kwajalein storytelling page re-inspected 2026-11-22 (SHA256=e9f09f933c7996b46a1f5a39b4cc5266db4fe24f58866ec5ffe9685e18648535): US-hosted programme interview/targets; no Marshallese organization-authored outcomes or education. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Marshall+Islands%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-87022723f6feec56 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=19. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-585-diabetes",
+    "area_m49": "585",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-belau-medical-clinic/",
+        "observation": "PI-DPP Belau storytelling page re-inspected 2026-11-22 (SHA256=9f9af076af57691acbb08b7c641b088f3cc79b679af74c910551a02ee8da26d6): US-hosted programme interview; no Palau organization-authored outcomes or education. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Palau%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-7e1e374ecd0ca324 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=11. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-662-diabetes",
+    "area_m49": "662",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://sldha.org/news_publisher/news/view/press-brief-a-saint-lucia-diabetes-and-hypertension-association-world-diabetes-day-2025-theme-a-diabetes-and-well-beinga",
+        "observation": "SLDHA 2025 World Diabetes Day press brief re-inspected 2026-11-22 (SHA256=bb65f10b91754120d4cbe570e7c327b11da55daac0bd1917cff9cba1dcc29d23): advocacy/service brief citing trends; no original epidemiology or education curriculum. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Saint+Lucia%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-949b1818b84c9015 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=12. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-780-diabetes",
+    "area_m49": "780",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://diabetesassociation.wixsite.com/datt/blog",
+        "observation": "DATT Wix blog re-inspected 2026-11-22 (SHA256=69facc6518b2998fefa8815fa0066f32c25d30ddee9e9a8194cd4ae5d7052bc9): event/screening snippets; no substantive diabetes article or report. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Trinidad+and+Tobago%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-dd3906a29b34e8c1 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=200. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-796-diabetes",
+    "area_m49": "796",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.gracewaysupermarkets.com/diabetic-fair-2025",
+        "observation": "Graceway diabetic fair 2025 page re-inspected 2026-11-22 (SHA256=bea24422a5eb347c0fe7b747c6f431d4d923cc6b206448e484ce841e07762a83): supermarket event report naming TCIDA; no TCIDA publication. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Turks+and+Caicos+Islands%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-5d90c76e220d6a00 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=0. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-850-diabetes",
+    "area_m49": "850",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://legvi.org/committeemeetings/Budget%2C%20Appropriations%20and%20Finance/2025%20Budget%20Meetings/April%2015%2C%202025/Virgin%20Islands%20Diabetes%20Center%20of%20Excellence/Julia%20Sheen/VIDCOE_April15_Testimony_41525_PDF-VIDCOELAPTOP1.pdf",
+        "observation": "VIDCOE diabetes-education page and 2025 legislative testimony PDF re-inspected 2026-11-22 (SHA256=1fdfb0d6d908f9bc30a61f01b77bdf221ef34df5b9c2b8323d78d1f8f7f77cf4): service plans and administrative counts; no lesson text, methods or outcomes. HTTP 200."
+      },
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.vidcoe.org/diabetes-education/",
+        "observation": "VIDCOE diabetes-education page and 2025 legislative testimony PDF re-inspected 2026-11-22 (SHA256=bb6db3cbf05fa52f59b33f31ded32dddf06061bdf8bc7aa05a84c74407cc7b34): service plans and administrative counts; no lesson text, methods or outcomes. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22United+States+Virgin+Islands%22+OR+AFF%3A%22US+Virgin+Islands%22+OR+AFF%3A%22U.S.+Virgin+Islands%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-32e36d0583438bf8 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=10. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-850-high_chol",
+    "area_m49": "850",
+    "condition_key": "high_chol",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://legvi.org/committeemeetings/Budget%2C%20Appropriations%20and%20Finance/2025%20Budget%20Meetings/April%2015%2C%202025/Virgin%20Islands%20Diabetes%20Center%20of%20Excellence/Julia%20Sheen/VIDCOE_April15_Testimony_41525_PDF-VIDCOELAPTOP1.pdf",
+        "observation": "VIDCOE 2025 legislative testimony PDF re-inspected 2026-11-22 (SHA256=1fdfb0d6d908f9bc30a61f01b77bdf221ef34df5b9c2b8323d78d1f8f7f77cf4): passing cholesterol mentions in service counts; no lipid content. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22United+States+Virgin+Islands%22+OR+AFF%3A%22US+Virgin+Islands%22+OR+AFF%3A%22U.S.+Virgin+Islands%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-f1107aa08ef475ed (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=0. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-850-hypertension",
+    "area_m49": "850",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://legvi.org/committeemeetings/Budget%2C%20Appropriations%20and%20Finance/2025%20Budget%20Meetings/April%2015%2C%202025/Virgin%20Islands%20Diabetes%20Center%20of%20Excellence/Julia%20Sheen/VIDCOE_April15_Testimony_41525_PDF-VIDCOELAPTOP1.pdf",
+        "observation": "VIDCOE 2025 legislative testimony PDF re-inspected 2026-11-22 (SHA256=1fdfb0d6d908f9bc30a61f01b77bdf221ef34df5b9c2b8323d78d1f8f7f77cf4): passing BP mentions; no hypertension content. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22United+States+Virgin+Islands%22+OR+AFF%3A%22US+Virgin+Islands%22+OR+AFF%3A%22U.S.+Virgin+Islands%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-b6fe4103399860e6 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=6. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-854-hypertension",
+    "area_m49": "854",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://socarb.org/congres/congres2026/ateliers",
+        "observation": "SOCARB congress 2026 workshops page re-inspected 2026-11-22 (SHA256=279509f5ebcf2b46d175e3822515170580208393c0d8d79a8dd25a83f0b8d217): timetable of scheduled workshops; no delivered content or SOCARB BP publication. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Burkina+Faso%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-9397072a76cd814a (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=150. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-DEP-858-hypertension",
+    "area_m49": "858",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://suc.org.uy/comites/comite_hipertension_arterial",
+        "observation": "SUC hypertension committee page and SUC consensos index re-inspected 2026-11-22 (SHA256=b6112809fd45e4d413fcd4e65def25f08fa27facc99d03f29d716b0223fecf13): awareness messages; consensos index lists aortic stenosis consensus only, no SUC hypertension consensus. HTTP 200."
+      },
+      {
+        "approach": "first_party_consensus_archive",
+        "url": "https://suc.org.uy/index.php/consensos.htm",
+        "observation": "SUC consensos index 2026-11-22 SHA256=c9e38920a305b4d89890d426648f1d905c783d618f178561fefbc571291cf82d: lists Consenso uruguayo de estenosis aórtica 2018 only; no hypertension consensus."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Uruguay%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-dcd23ccbf93a1d7b (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=229. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H publication verified for this cell after re-inspection of the linked first-party source and the preserved independent catalogue route; evidence-limited bounded disposition. Historical M/U source rows preserved unchanged.",
+    "limits": "Not an exhaustive national search or proof of absence; first-party index and catalogue are bounded routes; local-language archives, print-only and member-only materials not exhausted. Historical M row not re-tiered.",
+    "next_action": "Reopen only on a genuinely new original lead (new first-party publication, local-language archive or issuer document). No repeat of these routes."
+  },
+  {
+    "record_id": "B155-ESC-304-diabetes",
+    "area_m49": "304",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.sdu.dk/-/media/images/sif/udgivelser/2019/befolkningsundersoegelsen_i_groenland_2018_dansk.pdf",
+        "observation": "Original SIF/SDU 2019 report re-retrieved 2026-11-22 (HTTP 200, SHA256=72d2acb583223ca4781acf1c34c2bb8059c4a714d1db29eaa2a9a47006e92e8b); substantive 2018 Greenland survey chapter 6 (diabetes/HbA1c-OGTT). Full-text search finds no Ilisimatusarfik/University of Greenland authorship, imprint or hosting credit; copyright and imprint are Statens Institut for Folkesundhed, SDU, Copenhagen. The recorded local-organization role therefore remains unattributed. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Greenland%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-d2f75a646252d96f (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=121. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "Evidence-limited escalation: the specific named access/attribution limit below prevents source qualification; existing linked rows preserved.",
+    "limits": "D3 is not scientific verification, absence evidence or approval. Retrieval attempts recorded with dates and status; repeated attempts not justified without a new route.",
+    "next_action": "External action: confirm with Ilisimatusarfik/SIF whether the university holds an authorship, partnership or hosting role for the 2018 survey report; Indigenous governance review separate. Do not repeat failed routes."
+  },
+  {
+    "record_id": "B155-ESC-304-high_chol",
+    "area_m49": "304",
+    "condition_key": "high_chol",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.sdu.dk/-/media/images/sif/udgivelser/2019/befolkningsundersoegelsen_i_groenland_2018_dansk.pdf",
+        "observation": "Original SIF/SDU 2019 report re-retrieved 2026-11-22 (HTTP 200, SHA256=72d2acb583223ca4781acf1c34c2bb8059c4a714d1db29eaa2a9a47006e92e8b); substantive 2018 Greenland survey chapter 6 (lipids). Full-text search finds no Ilisimatusarfik/University of Greenland authorship, imprint or hosting credit; copyright and imprint are Statens Institut for Folkesundhed, SDU, Copenhagen. The recorded local-organization role therefore remains unattributed. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Greenland%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-a5cf9bd1ccc4aa0e (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=7. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "Evidence-limited escalation: the specific named access/attribution limit below prevents source qualification; existing linked rows preserved.",
+    "limits": "D3 is not scientific verification, absence evidence or approval. Retrieval attempts recorded with dates and status; repeated attempts not justified without a new route.",
+    "next_action": "External action: confirm with Ilisimatusarfik/SIF whether the university holds an authorship, partnership or hosting role for the 2018 survey report; Indigenous governance review separate. Do not repeat failed routes."
+  },
+  {
+    "record_id": "B155-ESC-304-hypertension",
+    "area_m49": "304",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.sdu.dk/-/media/images/sif/udgivelser/2019/befolkningsundersoegelsen_i_groenland_2018_dansk.pdf",
+        "observation": "Original SIF/SDU 2019 report re-retrieved 2026-11-22 (HTTP 200, SHA256=72d2acb583223ca4781acf1c34c2bb8059c4a714d1db29eaa2a9a47006e92e8b); substantive 2018 Greenland survey chapter 6 (blood pressure). Full-text search finds no Ilisimatusarfik/University of Greenland authorship, imprint or hosting credit; copyright and imprint are Statens Institut for Folkesundhed, SDU, Copenhagen. The recorded local-organization role therefore remains unattributed. HTTP 200."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Greenland%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-6a17a7076f31359a (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=24. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "Evidence-limited escalation: the specific named access/attribution limit below prevents source qualification; existing linked rows preserved.",
+    "limits": "D3 is not scientific verification, absence evidence or approval. Retrieval attempts recorded with dates and status; repeated attempts not justified without a new route.",
+    "next_action": "External action: confirm with Ilisimatusarfik/SIF whether the university holds an authorship, partnership or hosting role for the 2018 survey report; Indigenous governance review separate. Do not repeat failed routes."
+  },
+  {
+    "record_id": "B155-ESC-826-gout",
+    "area_m49": "826",
+    "condition_key": "gout",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.rheumatology.org.uk/guidelines",
+        "observation": "BSR guidelines directory re-inspected 2026-11-22 (SHA256=881a14c002d5d9575c1bc3d6a7d03723a486dce371c8ae4fab68e6774b51899b) no longer exposes a gout entry; original 2017 BSR gout guideline (Hui et al., Rheumatology 56(7):e1, PMID 28549177) returned HTTP 403 at academic.oup.com and Europe PMC metadata has no abstract text. BSR authorship evidenced in catalogue metadata only; substantive original not inspected. HTTP 200."
+      },
+      {
+        "approach": "original_publisher_retrieval_attempt",
+        "url": "https://academic.oup.com/rheumatology/article/56/7/e1/3855179",
+        "observation": "HTTP 403 2026-11-22; Europe PMC EXT_ID:28549177 metadata lists BSR Standards, Audit and Guidelines Working Group authorship, no abstract."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22United+Kingdom%22+OR+AFF%3A%22UK%22+OR+AFF%3A%22England%22+OR+AFF%3A%22Scotland%22+OR+AFF%3A%22Wales%22+OR+AFF%3A%22Northern+Ireland%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-fac52dc6b996fde4 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=959. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "Evidence-limited escalation: the specific named access/attribution limit below prevents source qualification; existing linked rows preserved.",
+    "limits": "D3 is not scientific verification, absence evidence or approval. Retrieval attempts recorded with dates and status; repeated attempts not justified without a new route.",
+    "next_action": "External action: authenticated/institutional or archive retrieval of the original. Do not repeat failed routes."
+  },
+  {
+    "record_id": "B155-ESC-404-high_chol",
+    "area_m49": "404",
+    "condition_key": "high_chol",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://paedendoskenya.org/downloads/",
+        "observation": "PESK downloads page re-inspected 2026-11-22 (SHA256=3836fe46515c3ded09d3087b570871ab2013a42818a9452196b76e461358bdd9) lists \"Lipid Disorders in Paediatrics – April 24th 2025\" Drive file; Drive returned \"Can't download file\" (owner-restricted). Substantive lipid content inaccessible. HTTP 200."
+      },
+      {
+        "approach": "linked_original_retrieval_attempt",
+        "url": "https://drive.google.com/file/d/1q9tvlfyPkRheypkzGkf3Wpu9wwDsmECa/view?usp=drive_link",
+        "observation": "Drive download returned owner-restricted 'Can't download file' page 2026-11-22."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Kenya%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-b8e66d13c2d7160d (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=71. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "Evidence-limited escalation: the specific named access/attribution limit below prevents source qualification; existing linked rows preserved.",
+    "limits": "D3 is not scientific verification, absence evidence or approval. Retrieval attempts recorded with dates and status; repeated attempts not justified without a new route.",
+    "next_action": "External action: authenticated/institutional or archive retrieval of the original. Do not repeat failed routes."
+  },
+  {
+    "record_id": "B155-ESC-372-diabetes",
+    "area_m49": "372",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.diabetes.ie/downloads/published-reports/",
+        "observation": "Diabetes Ireland published-reports page returned HTTP 403 bot challenge 2026-11-22 (no content); prior independent route saw catalogue only. Report contents remain uninspected. HTTP 403."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Ireland%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-e42fc29ddd913151 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=4690. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "Evidence-limited escalation: the specific named access/attribution limit below prevents source qualification; existing linked rows preserved.",
+    "limits": "D3 is not scientific verification, absence evidence or approval. Retrieval attempts recorded with dates and status; repeated attempts not justified without a new route.",
+    "next_action": "External action: authenticated/institutional or archive retrieval of the original. Do not repeat failed routes."
+  },
+  {
+    "record_id": "B155-ESC-170-hypertension",
+    "area_m49": "170",
+    "condition_key": "hypertension",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://scc.org.co/categoria/guias-de-atencion/",
+        "observation": "SCC Colombia guías de atención category returned HTTP 202 empty challenge 2026-11-22; prior direct route connection-closed. Listed hypertension guidance not inspected. HTTP 202."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Colombia%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-38773a94bbe3db3d (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=1263. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "Evidence-limited escalation: the specific named access/attribution limit below prevents source qualification; existing linked rows preserved.",
+    "limits": "D3 is not scientific verification, absence evidence or approval. Retrieval attempts recorded with dates and status; repeated attempts not justified without a new route.",
+    "next_action": "External action: authenticated/institutional or archive retrieval of the original. Do not repeat failed routes."
+  },
+  {
+    "record_id": "B155-ESC-214-diabetes",
+    "area_m49": "214",
+    "condition_key": "diabetes",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://sodenn.org/",
+        "observation": "SODENN homepage returned HTTP 202 empty challenge 2026-11-22; prior route connection-closed. No substantive diabetes publication inspected. HTTP 202."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Dominican+Republic%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-341b572af9d86020 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=92. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "Evidence-limited escalation: the specific named access/attribution limit below prevents source qualification; existing linked rows preserved.",
+    "limits": "D3 is not scientific verification, absence evidence or approval. Retrieval attempts recorded with dates and status; repeated attempts not justified without a new route.",
+    "next_action": "External action: authenticated/institutional or archive retrieval of the original. Do not repeat failed routes."
+  },
+  {
+    "record_id": "B155-ESC-620-high_chol",
+    "area_m49": "620",
+    "condition_key": "high_chol",
+    "query": "B155 re-inspection of retained linked first-party source plus preserved catalogue receipt; NO duplicate catalogue query",
+    "language": "original-language first-party pages; English catalogue metadata",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "first_party_linked_source_reinspection_2026-11-22",
+        "url": "https://www.spedm.pt/pt/orientacoes-publicacoes",
+        "observation": "SPEDM orientações-publicações page returned HTTP 202 empty challenge 2026-11-22; prior direct route connection-closed. Lipid publication titles uninspected. HTTP 202."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Portugal%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved search_log B114-AFF-d6e48e68b28877d6 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=762. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical affiliations limit recall. Catalogue metadata is not original source text; not repeated."
+      }
+    ],
+    "result": "Evidence-limited escalation: the specific named access/attribution limit below prevents source qualification; existing linked rows preserved.",
+    "limits": "D3 is not scientific verification, absence evidence or approval. Retrieval attempts recorded with dates and status; repeated attempts not justified without a new route.",
+    "next_action": "External action: authenticated/institutional or archive retrieval of the original. Do not repeat failed routes."
+  }
+]

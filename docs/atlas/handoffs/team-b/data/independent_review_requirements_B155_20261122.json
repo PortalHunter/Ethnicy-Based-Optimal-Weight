@@ -1,0 +1,50 @@
+{
+  "clinical_release": "research_lead_only",
+  "batch": "B155",
+  "reviews": [
+    {
+      "source": "Thai DM CPG 2566 (TES-hosted)",
+      "question": "Multi-body ownership (DAT/RCPT/TES/DMS/NHSO), current edition and reuse permission; Thai thresholds not approved."
+    },
+    {
+      "source": "RCPT 2024 dyslipidaemia CPG",
+      "question": "Risk-score/LDL targets and Thai population applicability require independent clinical review."
+    },
+    {
+      "source": "VSH/VNHA 2024 expert consensus",
+      "question": "'Some experts' consensus is not whole-society or MoH endorsement; verify recommendation strength."
+    },
+    {
+      "source": "SHS hypertension toolkit 2023",
+      "question": "Unnamed authors/sponsor; reproduced ACC/AHA vs ESC/ESH thresholds not Singapore adoption."
+    },
+    {
+      "source": "MSPyBS 2023 cardiocerebrovascular CPG hosted by SPMI",
+      "question": "Government issuer; society participation and rights; clinical targets unapproved."
+    },
+    {
+      "source": "Latvian 2008 child diabetes booklet",
+      "question": "2008 edition currency; external preparers; hosting only."
+    },
+    {
+      "source": "Cameroon ten recommendations (Adv Ther 2024)",
+      "question": "Coalition commentary, conflicts/funding and Springer licence; not Ministry policy."
+    },
+    {
+      "source": "PSH Komiks",
+      "question": "Undated; artist/sponsor credits unverified."
+    },
+    {
+      "source": "Bangladesh TB-DM national guideline 2014/2016",
+      "question": "Exact government issuer, BADAS contribution and current edition unread in scanned credits."
+    },
+    {
+      "source": "NAEU portal PTH/T2DM review",
+      "question": "Journal volume/ISSN/peer review not verified; narrative review of non-Uzbek populations."
+    },
+    {
+      "source": "Greenland SIF/SDU 2018 survey",
+      "question": "Ilisimatusarfik role unattributed; Indigenous governance review separate."
+    }
+  ]
+}

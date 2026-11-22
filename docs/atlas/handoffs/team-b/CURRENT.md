@@ -1,3 +1,17 @@
+# Team B — B155 restart checkpoint, 2026-11-22
+
+Research acceptance INCOMPLETE. Durable restart state (supersedes counts in the B154 section below; history preserved).
+
+- Last completed batch: **B155** (priority 1 linked-source cases). Previous published commit before B155: `ebec28a`. The B155 commit is the branch head that adds this block (see `git log`); a later batch records it explicitly.
+- Qualified area-condition cells: **356** (344→356, +12). Source contexts 597 (all individually audited, all research_lead_only). Tiers S1=137, S2=182, H=54, M=196, U=28.
+- Linked-source cases without terminal disposition: **0** (57→0): 12 qualified, 36 D2, 9 D3. Files: `data/reviewed_sources_B155_20261122.json`, `data/reviewed_searches_B155_20261122.json`, `data/B155_retrieval_receipt.json`, `data/independent_review_requirements_B155_20261122.json`.
+- Remaining unlinked research-depth tasks (searched, no linked source, depth not D2/D3): **953**. Queue order = canonical order of `data/consolidated_cell_inventory.csv` filtered by raw_resource_rows=0 and highest_depth_audit∉{D2,D3}. Next positions: 004:celiac 004:hemochromatosis 004:high_chol 004:hypertension 004:lactose 008:celiac 008:diabetes 008:gout 008:hemochromatosis 008:high_chol …
+- Identity gaps: **21** (unchanged); original issuer/imprint questions: **5** (unchanged, `data/issuer_review_20261118.csv`).
+- Validation: native `node validate.mjs` 0 errors; `tools/validate_supplemental.py` 9725 checks pass (receipts `runs/20261122_*_validation.json`; historical default supplemental receipt restored byte-for-byte).
+- Known source blockers added in B155 (do not repeat): OUP 403 for BSR 2017 gout guideline; owner-restricted Drive file for PESK paediatric lipid lecture; HTTP 403/202 bot challenges for diabetes.ie, scc.org.co, sodenn.org, spedm.pt; Greenland SIF/SDU report retrievable but Ilisimatusarfik role unattributed.
+- Unpublished local work: none at time of commit.
+- Workflow for next batch: pick next 25-50 queue cells; reuse search_log/catalogue receipts; write `data/reviewed_sources_B<n>_*.json` / `data/reviewed_searches_B<n>_*.json`; run `tools/append_reviewed_sources.py` then `tools/append_search_dispositions.py`; update metrics manual fields; run both validators once; commit; push (non-force).
+
 # Team B — accelerated checkpoint through B154, 2026-11-19
 
 Research acceptance INCOMPLETE. Execution-resource checkpoint; actionable automated research remains. User explicitly approved public publication to `research/atlas-team-b-20261104` and draft PR#71. B152 data snapshot507d2ea and publication receipt52ec933 were published with exact validated Git-tree equality and non-force expected-head updates. B153/B154 completed and validated; final publication SHA is recorded in PR#71. Keep PR draft/open/unmerged.
