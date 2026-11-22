@@ -1,24 +1,24 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A100: Nigeria; India and Oman routes failed (2026-11-22)
+# Team A — CURRENT A101: Namibia medicines; Uganda/Zambia regulator evidence (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `f0f3da90d7288147a58e7a118ece351d55b1dbf3`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `9b218d433fa942f513e16d34bc47981b5d04ecdf`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **113**, in-progress (triaged, no legal support) **135**, unscored **0**, research-complete **0/248**; dims **354** SOURCE_SUPPORTED (+295 run) / **978** RESEARCHED_INCOMPLETE / **650** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **881**; queue {"QUEUED": 128, "EVIDENCE_ADDED_NOT_RESOLVED": 110, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
+**Now:** partial **113**, in-progress (triaged, no legal support) **135**, unscored **0**, research-complete **0/248**; dims **355** SOURCE_SUPPORTED (+296 run) / **977** RESEARCHED_INCOMPLETE / **650** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **884**; queue {"QUEUED": 128, "EVIDENCE_ADDED_NOT_RESOLVED": 110, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A99 (f0f3da9): Iceland 352 +5, Hungary 348 +1; Serbia 688 / Isle of Man 833 hosts blocked.
-- A100: Nigeria 566 +2 (NCDC Establishment Act 2018 gazette, OCR); India 356 (cabsec AoB 404, indiacode timeout) and Oman 512 (mjla search, qanoon gazette 403) no change.
+- A100 (9b218d4): Nigeria 566 +2; India 356 / Oman 512 official routes failed.
+- A101: Namibia 516 +1 (Medicines and Related Substances Control Act 2003); Uganda 800 NDA Act read but outstanding amendments (no promotion); Zambia 894 HPA 2009 repealed by HPA 2024 recorded (no promotion). laws.gov.fj (Fiji) is an Angular SPA with no reachable document API.
 
 **Blocked / external (exact missing requirement):**
 - 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
-- JS/anti-bot official portals (KR, EE, FI, CH, IT, SG, NZ, KE, LT, MD, AZ e-qanun) need a browser-capable official retrieval route; Russia pravo.gov.ru/minzdrav.gov.ru unreachable from box and fetch provider (A80); PacLII and pakistancode.gov.pk unreachable from box (A87); retsinformation.dk API returns JS shell, Nepal giwmscdnone.gov.np PDF CDN empty reply, agc.gov.bn LOB PDFs 404 (A91); laws.gov.tt revised laws only to 2016 and search unfiltered, guernseylegalresources.gg 403, laws.gov.vg and bvirtualogp.pr.gov unreachable (A92); elegislation.gov.hk and legislation.gov.fk JS-only, LeyChile (Chile 152) web service requires API key, uaelegislation.gov.ae 403 (A93); wapi.gov.me (Montenegro Uredba) TLS failure and fetch 504 (A96); pravno-informacioni-sistem.rs (Serbia) JS-only, legislation.gov.im PDFs WAF-rejected, njt.hu unreachable from box (A99); cabsec.gov.in AoB PDF 404 and indiacode timeout, mjla.gov.om search/data.qanoon.om 403 (A100).
+- JS/anti-bot official portals (KR, EE, FI, CH, IT, SG, NZ, KE, LT, MD, AZ e-qanun) need a browser-capable official retrieval route; Russia pravo.gov.ru/minzdrav.gov.ru unreachable from box and fetch provider (A80); PacLII and pakistancode.gov.pk unreachable from box (A87); retsinformation.dk API returns JS shell, Nepal giwmscdnone.gov.np PDF CDN empty reply, agc.gov.bn LOB PDFs 404 (A91); laws.gov.tt revised laws only to 2016 and search unfiltered, guernseylegalresources.gg 403, laws.gov.vg and bvirtualogp.pr.gov unreachable (A92); elegislation.gov.hk and legislation.gov.fk JS-only, LeyChile (Chile 152) web service requires API key, uaelegislation.gov.ae 403 (A93); wapi.gov.me (Montenegro Uredba) TLS failure and fetch 504 (A96); pravno-informacioni-sistem.rs (Serbia) JS-only, legislation.gov.im PDFs WAF-rejected, njt.hu unreachable from box (A99); cabsec.gov.in AoB PDF 404 and indiacode timeout, mjla.gov.om search/data.qanoon.om 403 (A100); laws.gov.fj Angular SPA, new.kenyalaw.org 403 to fetch provider (A101).
 - Disputed/dual-administration identities 104/275/732/887 need owner scope decision (skipped).
 - Externally administered identities need one owner identity policy (record external delegated authority as principal identity, or keep UNKNOWN): 260 (French State administrateur superieur), 086 (BIOT Commissioner, no local health ordinance), 334 (HIMI: ACT applied law, HIMI Act s5-6, A87), 239 (SGSSI: Falklands-derived Public Health Ordinance Parts II-IV, Commissioner, A87).
 - DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
 - Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A101: remaining P2 QUEUED IN_PROGRESS areas with reachable official instruments (Caribbean/Pacific WordPress law hosts, other ministry-competence decrees), then EVIDENCE_ADDED follow-ups (Luxembourg 442 attribution arrete; Malaysia 458 Act 342 post-2020); skip 104/275/732/887 and identity policy group 260/086/334/239.
+**Next exact queue position:** A102: remaining P2 QUEUED IN_PROGRESS areas with reachable official instruments (Caribbean/Pacific WordPress law hosts, other ministry-competence decrees), then EVIDENCE_ADDED follow-ups (Luxembourg 442 attribution arrete; Malaysia 458 Act 342 post-2020); skip 104/275/732/887 and identity policy group 260/086/334/239.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
@@ -26,7 +26,7 @@
 Provisional identities     [###################.] 232/248 | +1
 Expanded partial legal     [#########...........] 113/248 partial | +84
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [####................] 354/1984 | +295
+Narrow supported dims      [####................] 355/1984 | +296
 All-tier research complete [....................] 0/248 | +0
 ```
 
