@@ -1,29 +1,30 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A74: existing-evidence triage of all 219 unscored areas (2026-11-22)
+# Team A — CURRENT A75: targeted official-consolidation retrieval, 5 areas (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `c4ac494941a6d0db58355cae4cc3d660d442d5f4`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `695d8a853cb5311b28d6a247989aa0a1b7a90083`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **34**, in-progress (triaged, no legal support) **214**, unscored **0**, research-complete **0/248**; dims **73** SOURCE_SUPPORTED (+14 run) / **1082** RESEARCHED_INCOMPLETE / **827** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **17**; provenance **769**; queue {"QUEUED": 214, "EVIDENCE_ADDED_NOT_RESOLVED": 34}.
+**Now:** partial **39**, in-progress (triaged, no legal support) **209**, unscored **0**, research-complete **0/248**; dims **84** SOURCE_SUPPORTED (+25 run) / **1078** RESEARCHED_INCOMPLETE / **820** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **17**; provenance **773**; queue {"QUEUED": 209, "EVIDENCE_ADDED_NOT_RESOLVED": 39}.
 
-- Priority 1 complete for the unscored set: every one of the 219 UNSCORED_EXISTING_RESEARCH areas classified from its recorded provenance/body evidence. 214 moved to `IN_PROGRESS` (triaged; 0 dims promoted; dimension-level RESEARCHED_INCOMPLETE only where the record addresses the function via identity/mandate/news/index evidence, NOT_TRIAGED where silent; cited-but-unread instruments and access failures written into each review_note and queue next_action). This is a documented research limitation, NOT statutory verification.
-- 5 areas promoted to `PARTIAL_SOURCE_CHECKED` with narrow SOURCE_SUPPORTED dims (+14): 124 Canada (Department of Health Act s2/s4 + PHAC Act s3-5, Justice Laws current to 2026-10-29; new A74-124-01/02), 392 Japan (MHLW Establishment Act arts 2-4, e-Gov CurrentEnforced 2026-04-01; new A74-392-01), 704 Viet Nam (existing Decree 313/2026 record: arts 1-2, effective 18 Aug 2026, repeals 42/2025), 646 Rwanda (existing Gazette PM Order 011/03 2024 arts 2-3), 580 Northern Mariana Islands (existing PL16-51 s2803, historical 2008).
-- No identity, body, relationship, scope, M49, production or other-team change. Derived RECONCILED_INVENTORY/PRIORITIZED_BACKLOG regenerated from ledger/queue (prior_evidence_class for triaged rows = A74_EXISTING_EVIDENCE_TRIAGED_NO_LEGAL_SUPPORT).
+- A74 (695d8a8): 219 unscored areas triaged from existing records (214 IN_PROGRESS, 5 PARTIAL, +14 dims). See RUN_LOG_20261122.md.
+- A75: +11 narrow SOURCE_SUPPORTED dims, 5 areas IN_PROGRESS→PARTIAL: 703 Slovakia (existing Slov-Lex 575/2001 s19, time version 01.07.2026), 826 United Kingdom (NHS Act 2006 s1, England only, valid from 2026-10-01; A75-826-01), 076 Brazil (Lei 14.600/2023 arts 17/45 through Lei 15.352/2026; A75-076-01), 484 Mexico (LOAPF arts 26/39, last reform DOF 07-05-2026; A75-484-01), 372 Ireland (Health Act 2004 ss6-7/10, LRC revised to 11 Nov 2026; A75-372-01).
+- Retrieval attempts that did not yield promotable text this batch (no status change, existing records retained): 642 Romania legislatie.just.ro (timeout, HTTP 500 on two URL forms); 630 Puerto Rico OGP PDF (two timeouts); 643 Russia government.ru (500) and ministry PDF (timeout); 410 Korea law.go.kr, 233 Estonia Riigi Teataja, 246 Finland Finlex, 756 Switzerland Fedlex, 380 Italy Normattiva (JavaScript-rendered, body not machine-retrievable with available tools); 203 Czechia text found only on commercial zakonyprolidi.cz (not official, not used); 604 Peru gob.pe page held a different instrument.
 
 **Blocked / external (exact missing requirement):**
-- Unchanged from prior checkpoints (A73/Codex A-01 runs): Botswana commencement Gazette orders (S.I. for Act11/2013, Act29/2025 appointed day); Solomon Islands post-2024 amendments; Bhutan Cabinet/RCSC letters; Samoa 2007 Minister commencement notice; Andorra other six communes; Belgium blocked originals. Not re-attempted in A74.
-- 17 UNKNOWN identities unchanged (see data/unresolved_area_audit.csv).
+- JS-only official portals (KR/EE/FI/CH/IT) need a browser-capable session or official API key; RO/PR/RU portals timed out from this network — retry from another network.
+- Prior blockers unchanged: Botswana commencement Gazette orders; Solomon Is post-2024 amendments; Bhutan Cabinet/RCSC letters; Samoa 2007 commencement notice; Andorra six communes; Belgium originals.
+- 17 UNKNOWN identities unchanged (data/unresolved_area_audit.csv).
 
-**Next exact queue position:** A75 = targeted original-law retrieval for IN_PROGRESS areas whose record cites a specific instrument or whose official consolidated portal is machine-readable (e.g. 604 Peru DL1161, 703 Slovakia Act 575/2001 s19, 642 Romania HG144/2010, 630 Puerto Rico Ley 81, 643 Russia Res. 608, 203 Czechia, 756 Switzerland), then Priority 2 backlog ranks 1-14.
+**Next exact queue position:** A76 = Priority 2 backlog ranks 1-14 (072 Botswana, 090 Solomon Is, 064 Bhutan, 044 Bahamas, 050 Bangladesh …) only where a changed source path exists; then continue A75-style retrieval on IN_PROGRESS areas with machine-readable official portals (UK devolved Acts, Lei 8.080, Ley General de Salud, e-Gov Community Health Act).
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
 Provisional identities     [###################.] 231/248 | +0
-Expanded partial legal     [###.................] 34/248 partial | +5
+Expanded partial legal     [###.................] 39/248 partial | +10
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [#...................] 73/1984 | +14
+Narrow supported dims      [#...................] 84/1984 | +25
 All-tier research complete [....................] 0/248 | +0
 ```
 
