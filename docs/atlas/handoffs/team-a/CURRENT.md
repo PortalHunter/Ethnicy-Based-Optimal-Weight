@@ -1,14 +1,14 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A87: Pakistan, Comoros, Cook Islands, Senegal, PNG, HIMI; SGSSI evidence (2026-11-22)
+# Team A — CURRENT A88: USA, Uruguay, Mayotte, Wallis and Futuna, Christmas Island, Cocos (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `b23dd2efb0a044a085b7ad1db4ada19fad28d3bd`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `2bbfcfa83ff54c496bb7624dcf366512cf54f6ca`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **73**, in-progress (triaged, no legal support) **175**, unscored **0**, research-complete **0/248**; dims **196** SOURCE_SUPPORTED (+137 run) / **1042** RESEARCHED_INCOMPLETE / **744** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **828**; queue {"QUEUED": 167, "EVIDENCE_ADDED_NOT_RESOLVED": 71, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
+**Now:** partial **79**, in-progress (triaged, no legal support) **169**, unscored **0**, research-complete **0/248**; dims **213** SOURCE_SUPPORTED (+154 run) / **1033** RESEARCHED_INCOMPLETE / **736** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **836**; queue {"QUEUED": 161, "EVIDENCE_ADDED_NOT_RESOLVED": 77, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A86 (b23dd2e): TJ +3; SN decree located.
-- A87: Pakistan 586 +5 (Rules of Business to 28.09.2026 Sch.II item 24; DRAP Act consolidation to 02.2022); Comoros 174 +4 (Loi 95-013 Code de la sante, MoJ portal; pre-Union currency gap); Cook Islands 184 +4 (MoH Act 2013 issuer copy, OCR); Senegal 686 +4 (Decree 2026-1155 OCR from JO 7917); PNG 598 +1 (Medicines and Cosmetics Act 1999 official copy; NHAA 1997 non-issuer only); HIMI 334 +1 devolution (HIMI Act ss5-6); SGSSI 239 evidence only (Cap 54 historical). Box OCR (tesseract eng/fra) now available for scanned gazettes.
+- A87 (2bbfcfa): PK +5, KM +4, CK +4, SN +4, PG +1, HM +1; GS evidence.
+- A88: USA 840 +5 (USC 2024 ed.: HHS/PHS, FDA, 42 USC 243, CDC surveillance); Uruguay 858 +6 (Ley 9202 IMPO updated); Mayotte 175 +2 (CSP L1446-1); Wallis and Futuna 876 +2 (Ordonnance 2000-29); Christmas Island 162 +1 and Cocos 166 +1 (s8A WA applied laws).
 
 **Blocked / external (exact missing requirement):**
 - 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
@@ -18,15 +18,15 @@
 - DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
 - Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A88: continue P2 QUEUED IN_PROGRESS areas in queue order with reachable official instruments (scanned gazettes now OCR-able), then EVIDENCE_ADDED follow-ups with exact next_action (e.g. 586 Constitution 4th Schedule; 762 Res.148 section 2); skip 104/275/732/887 and the external-identity policy group 260/086/334/239.
+**Next exact queue position:** A89: continue P2 QUEUED IN_PROGRESS areas in queue order with reachable official instruments (scanned gazettes now OCR-able), then EVIDENCE_ADDED follow-ups with exact next_action (e.g. 586 Constitution 4th Schedule; 762 Res.148 section 2); skip 104/275/732/887 and the external-identity policy group 260/086/334/239.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
 Provisional identities     [###################.] 232/248 | +1
-Expanded partial legal     [######..............] 73/248 partial | +44
+Expanded partial legal     [######..............] 79/248 partial | +50
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [##..................] 196/1984 | +137
+Narrow supported dims      [##..................] 213/1984 | +154
 All-tier research complete [....................] 0/248 | +0
 ```
 
