@@ -1,3 +1,17 @@
+# Team B — B161 restart checkpoint, 2026-11-22
+
+Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
+
+- Last completed batch: **B161** — Lactose depth queue, final 70 cells: 70 D2 (WGO-listed national gastro society first-party homepage + native site search in local-language lactose terms, indexed local gastro/celiac/paediatric sites, WGO directories reused, preserved catalogue route). No qualification. Last published commit before B161: `5a5aa27`. The B161 commit is the branch head adding this block.
+- Qualified cells: **365**; contexts 606; organizations 532; tiers S1=137 S2=191 H=54 M=196 U=28; depth D1/D2/D3={'D1': 639, 'D2': 833, 'D3': 79}.
+- Linked-source cases without terminal disposition: **0**.
+- Remaining unlinked depth tasks: **464** by condition {'hypertension': 161, 'diabetes': 131, 'gout': 171, 'celiac': 1}. lactose queue closed. Next: gout 171 (APLAR/EULAR/PANLAR/AFLAR-listed national rheumatology societies: first-party homepage + native site search for gout terms), then hypertension 161 (ISH/WHL member societies), diabetes 131 (IDF member associations), 643:celiac lead (gfrussia.ru).
+- First open queue positions (canonical inventory order): 004:hypertension 008:diabetes 008:gout 008:hypertension 012:diabetes 012:gout 012:hypertension 016:diabetes 016:gout 016:hypertension …
+- Identity gaps **21**; issuer questions **5** (unchanged).
+- Validation: native 0 errors; supplemental 10705 pass.
+- Blockers recorded this batch: WGO-listed http:// society URLs return 500 via box egress proxy (https:// variants used); no response: easgld.org, psgastro.org, rwandascope.org, sosegh.org, omangastro.com; 403: gastro.doctorsonly.co.il, gluten.is; 401 sgssls.sk; 404 eghsuae.com, mgls.asia, sovegastrove.org; 502 sld.cu; JS/challenge shells: gastroenterologoscr.com, gastropanamaorg.com, celiacospanama.org, guategastro.com, csge.org.cn, sodogastro.com.
+- Unpublished local work: none at time of commit.
+
 # Team B — B160 restart checkpoint, 2026-11-22
 
 Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
