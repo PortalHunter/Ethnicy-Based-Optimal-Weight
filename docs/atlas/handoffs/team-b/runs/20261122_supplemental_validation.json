@@ -1,5 +1,5 @@
 {
-  "checks_passed": 9915,
+  "checks_passed": 10141,
   "errors": 0,
   "scope": "supplemental structural consistency and historical preservation only",
   "metrics": {
@@ -13,6 +13,6 @@
     },
     "qualified_cells": 359,
     "untouched": 0,
-    "searched_unlinked_missing_D2": 859
+    "searched_unlinked_missing_D2": 746
   }
 }

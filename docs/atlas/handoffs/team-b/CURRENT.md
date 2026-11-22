@@ -1,3 +1,17 @@
+# Team B — B157 restart checkpoint, 2026-11-22
+
+Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
+
+- Last completed batch: **B157** — Hemochromatosis depth queue 113 cells: 113 D2 (HI member directory read once via WebFetch, 14 indexed local gastro/hepatology society sites incl. native site search, preserved catalogue route). No qualification.. Last published commit before B157: `e138a09`. The B157 commit is the branch head adding this block.
+- Qualified cells: **359**; contexts 600; organizations 529; tiers S1=137 S2=185 H=54 M=196 U=28; depth D1/D2/D3={'D1': 915, 'D2': 557, 'D3': 79}.
+- Linked-source cases without terminal disposition: **0**.
+- Remaining unlinked depth tasks: **746** by condition {'high_chol': 165, 'hypertension': 161, 'lactose': 117, 'diabetes': 131, 'gout': 171, 'celiac': 1}. Next: lactose (WGO regional affiliate lists; NFDD Singapore lactose-intolerance page is an existing lead), then high_chol (EAS-FHSC), gout, hypertension, diabetes; 643:celiac lead open.
+- First open queue positions (canonical inventory order): 004:high_chol 004:hypertension 004:lactose 008:diabetes 008:gout 008:high_chol 008:hypertension 008:lactose 012:diabetes 012:gout …
+- Identity gaps **21**; issuer questions **5** (unchanged).
+- Validation: native 0 errors; supplemental 10141 pass.
+- Blockers recorded this batch: haemochromatosis-international.org returns 202 challenge to curl (WebFetch used); pbpgigastro.com unreachable.
+- Unpublished local work: none at time of commit.
+
 # Team B — B156 restart checkpoint, 2026-11-22
 
 Research acceptance INCOMPLETE. Supersedes counts in the B155 block below.

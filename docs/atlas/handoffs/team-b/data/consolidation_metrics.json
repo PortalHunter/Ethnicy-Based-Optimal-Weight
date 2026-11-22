@@ -25,15 +25,15 @@
   "distinct_cells_with_eligible_audited_source": 359,
   "raw_linked_fully_audited_without_S1_S2_H": 68,
   "raw_linked_no_eligible_with_unaudited": 0,
-  "search_depth_entries": 3464,
-  "search_depth_D2_cells_with_no_link": 407,
-  "searched_unlinked_missing_active_D2": 859,
+  "search_depth_entries": 3577,
+  "search_depth_D2_cells_with_no_link": 520,
+  "searched_unlinked_missing_active_D2": 746,
   "unknown_source_country_imprints": 5,
   "source_reused_exact_urls": 47,
   "shared_org_official_url_strings": 6,
-  "repeated_exact_area_condition_search_urls": 84,
-  "provenance": 4836,
-  "search_logs": 4309,
+  "repeated_exact_area_condition_search_urls": 115,
+  "provenance": 4949,
+  "search_logs": 4422,
   "community_subnational": 10,
   "cross_border": 8,
   "metadata_reconciliation": 7,
@@ -104,13 +104,13 @@
   "validation": {
     "structural_errors": 0,
     "Node_CLI_ran": true,
-    "supplemental_checks_passed": 9915,
+    "supplemental_checks_passed": 10141,
     "clinical_state": "600/600 research_lead_only"
   },
   "live_input_head": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
   "depth_tiers": {
-    "D1": 1028,
-    "D2": 444,
+    "D1": 915,
+    "D2": 557,
     "D3": 79
   },
   "identity_triage_classes": {
@@ -136,9 +136,9 @@
     "geographic_org_gaps": 0,
     "unknown_source_country_imprints": 0
   },
-  "execution_state": "research_incomplete; B156 checkpoint; linked-source cases closed; 859 unlinked depth tasks remain",
+  "execution_state": "research_incomplete; B157 checkpoint; linked-source cases closed; 746 unlinked depth tasks remain",
   "raw_linked_nonqualified_without_terminal_depth": 0,
-  "ordinary_cell_dispositions_remaining": 859,
+  "ordinary_cell_dispositions_remaining": 746,
   "accelerated_run": {
     "baseline_sha": "6924ce315c6898ee62584cf28ad75539f880fe61",
     "start_unlinked_depth": 988,
@@ -194,5 +194,8 @@
     ],
     "end_qualified": 359,
     "unlinked_depth_remaining": 859
+  },
+  "run_20261122_batches": {
+    "B157": "Hemochromatosis depth queue 113 cells: 113 D2 (HI member directory read once via WebFetch, 14 indexed local gastro/hepatology society sites incl. native site search, preserved catalogue route). No qualification."
   }
 }
