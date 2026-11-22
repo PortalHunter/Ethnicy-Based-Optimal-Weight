@@ -1,3 +1,17 @@
+# Team B — B162 restart checkpoint, 2026-11-22
+
+Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
+
+- Last completed batch: **B162** — Gout depth queue, 43 cells with an EULAR/APLAR-listed or indexed national rheumatology society: 1 H qualified (Russia: ARR-hosted 2014 federal gout clinical guideline DOCX, no named issuer; hosted, not S1 society authorship); 42 D2 (society first-party homepage + native site search in local-language gout terms, or candidate-domain probe where the directory lists no website; EULAR/APLAR directories retrieved once; preserved catalogue route). Last published commit before B162: `a2275c6`. The B162 commit is the branch head adding this block.
+- Qualified cells: **366**; contexts 607; organizations 533; tiers S1=137 S2=191 H=55 M=196 U=28; depth D1/D2/D3={'D1': 597, 'D2': 875, 'D3': 79}.
+- Linked-source cases without terminal disposition: **0**.
+- Remaining unlinked depth tasks: **421** by condition {'hypertension': 161, 'diabetes': 131, 'gout': 128, 'celiac': 1}. Next: remaining 128 gout cells (Africa, Americas/Caribbean, Pacific and small territories; AFLAR/PANLAR directories not enumerable): check indexed local organizations and known national rheumatology society sites where they exist, else directory-limited D2; then hypertension 161, diabetes 131, 643:celiac lead (gfrussia.ru).
+- First open queue positions (canonical inventory order): 004:hypertension 008:diabetes 008:hypertension 012:diabetes 012:gout 012:hypertension 016:diabetes 016:gout 016:hypertension 020:diabetes …
+- Identity gaps **21**; issuer questions **5** (unchanged).
+- Validation: native 0 errors; supplemental 10791 pass.
+- Blockers recorded this batch: rheumatology.by no response; maar.org.mk 404; rheumatology.org.cy JS shell; asarsm.org (EULAR-listed San Marino URL) now unrelated news site; Rheuma Hub (Ukraine) gout course login-gated; no website listed by APLAR/EULAR and none verified for 20 societies (candidate domains probed, several resolve to unrelated sites: ssr.org.sa, vra.vn, srs.sk, zrd.si); AFLAR member list not enumerated on site; PANLAR site is a JS shell.
+- Unpublished local work: none at time of commit.
+
 # Team B — B161 restart checkpoint, 2026-11-22
 
 Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
