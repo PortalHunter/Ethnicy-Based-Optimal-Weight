@@ -1,14 +1,14 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A107: Latin America + EVIDENCE_ADDED follow-ups: Costa Rica, Guatemala, El Salvador, Honduras, Ecuador, Malaysia (2026-11-22)
+# Team A — CURRENT A108: Asia/Middle East: Sri Lanka, Mongolia, Saudi Arabia, Cambodia (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `77c55a4d93db5438c5de11ccec799d9f6ae0a560`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `a1907a76b50592958ccb0e7060c9b5939e229795`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **142**, in-progress (triaged, no legal support) **106**, unscored **0**, research-complete **0/248**; dims **424** SOURCE_SUPPORTED (+365 run) / **989** RESEARCHED_INCOMPLETE / **569** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **923**; queue {"QUEUED": 95, "EVIDENCE_ADDED_NOT_RESOLVED": 143, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
+**Now:** partial **146**, in-progress (triaged, no legal support) **102**, unscored **0**, research-complete **0/248**; dims **430** SOURCE_SUPPORTED (+371 run) / **991** RESEARCHED_INCOMPLETE / **561** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **927**; queue {"QUEUED": 91, "EVIDENCE_ADDED_NOT_RESOLVED": 147, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A106 (77c55a4): 8 areas, +19 SOURCE_SUPPORTED (DRC, Mali, Djibouti, Burundi, Cote d Ivoire, Sao Tome, Benin, Mauritania).
-- A107: Costa Rica 188 +3, El Salvador 222 +3, Guatemala 320 +2, Honduras 340 +2, Ecuador 218 +2; Malaysia 458 AGC Act 342 text as at 1 Jul 2020 read (A1742 not incorporated, no change). Grenada 308 Act 14/2021 not on grenadaparliament.gd Acts 2021 page (lists to No.7) and laws.gov.gd 406 (A103); Luxembourg 442 legilux ELI pages JS-only and PDF ELI 404. Bolivia 068 minsalud PDF is image-only (no text layer); Paraguay bacn.gov.py descarga returns HTML. Useful automated research NOT exhausted.
+- A107 (a1907a7): Costa Rica 188 +3, El Salvador 222 +3, Guatemala 320 +2, Honduras 340 +2, Ecuador 218 +2; Malaysia evidence.
+- A108: Mongolia 496 +2, Saudi Arabia 682 +2, Sri Lanka 144 +1, Cambodia 116 +1. Iraq 368 moj.gov.iq English Public Health Law PDF unreachable (box HTTP 000, fetch 504); Tunisia 788 lois.tn official JORT PDF is image-only (no text layer); Jordan 400 moh.gov.jo PDF unreachable from box; Lao 418 lsp.moic.gov.la HTTP 500; Kiribati 296 no reachable consolidated Public Health Ordinance (PacLII 403). Useful automated research approaching diminishing returns but NOT exhausted.
 
 **Blocked / external (exact missing requirement):**
 - 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
@@ -18,15 +18,15 @@
 - DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
 - Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A108: remaining QUEUED areas: Panama 591, Paraguay 600, Nicaragua 558 (asamblea.gob.ni 500 from box; try fetch provider), Bolivia 068 (OCR or alternative), Congo 178, CAR 140, Chad 148, Haiti 332, Guinea 324, Cabo Verde 132, Kiribati 296, Nauru 520, Sri Lanka 144, Cambodia 116, Mongolia 496, Lao 418, Eritrea 232, Egypt 818, Jordan 400, Iraq 368, Libya 434, Lebanon 422, Kuwait 414, Saudi Arabia 682, Syria 760, Tunisia 788, Turkmenistan 795; then EVIDENCE_ADDED follow-ups; skip 104/275/732/887 and identity policy group 260/086/334/239.
+**Next exact queue position:** A109: remaining reachable QUEUED areas (Jordan 400 via fetch provider; Egypt 818, Kuwait 414, Libya 434, Lebanon 422, Syria 760, Turkmenistan 795, Eritrea 232, Panama 591, Paraguay 600, Nicaragua 558, Bolivia 068, Congo 178, CAR 140, Chad 148, Haiti 332, Guinea 324, Cabo Verde 132, Nauru 520, Tuvalu 798, Niue 570), then EVIDENCE_ADDED follow-ups; skip 104/275/732/887 and identity policy group 260/086/334/239.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
 Provisional identities     [###################.] 232/248 | +1
-Expanded partial legal     [###########.........] 142/248 partial | +113
+Expanded partial legal     [############........] 146/248 partial | +117
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [####................] 424/1984 | +365
+Narrow supported dims      [####................] 430/1984 | +371
 All-tier research complete [....................] 0/248 | +0
 ```
 
