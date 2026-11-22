@@ -1,32 +1,32 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A92: Saint Helena, Bermuda, Malaysia (2026-11-22)
+# Team A — CURRENT A93: Luxembourg, Malta (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `22c203a78241ef3cafdf719bd09f9507e21e2ce3`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `80406e359aebef4676df62ffba7ca1a8cd679bd5`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **98**, in-progress (triaged, no legal support) **150**, unscored **0**, research-complete **0/248**; dims **291** SOURCE_SUPPORTED (+232 run) / **998** RESEARCHED_INCOMPLETE / **693** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **857**; queue {"QUEUED": 142, "EVIDENCE_ADDED_NOT_RESOLVED": 96, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
+**Now:** partial **99**, in-progress (triaged, no legal support) **149**, unscored **0**, research-complete **0/248**; dims **298** SOURCE_SUPPORTED (+239 run) / **994** RESEARCHED_INCOMPLETE / **690** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **859**; queue {"QUEUED": 141, "EVIDENCE_ADDED_NOT_RESOLVED": 97, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
 
-- A91 (22c203a): BES 535 +4, Netherlands 528 +3, Greenland 304 +4.
-- A92: Saint Helena 654 +5 (Public Health Ordinance 1939 and Pharmacy and Poisons Ordinance, authoritative revised editions 2022/2023); Bermuda 060 +4 (Public Health Act 1949 consolidated to Aug 2026); Malaysia 458 +2 (Act 342 reprint 2020; currency RI).
+- A92 (80406e3): Saint Helena 654 +5, Bermuda 060 +4, Malaysia 458 +2.
+- A93: Luxembourg 442 +5 (loi 1980 Direction de la sante, consolidated 2022 via data.legilux SPARQL/filestore route); Malta 470 +2 (Public Health Act Cap.465 point in time 2024).
 
 **Blocked / external (exact missing requirement):**
 - 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
-- JS/anti-bot official portals (KR, EE, FI, CH, IT, SG, NZ, KE, LT, MD, AZ e-qanun) need a browser-capable official retrieval route; Russia pravo.gov.ru/minzdrav.gov.ru unreachable from box and fetch provider (A80); PacLII and pakistancode.gov.pk unreachable from box (A87); retsinformation.dk API returns JS shell, Nepal giwmscdnone.gov.np PDF CDN empty reply, agc.gov.bn LOB PDFs 404 (A91); laws.gov.tt revised laws only to 2016 and search unfiltered, guernseylegalresources.gg 403, laws.gov.vg and bvirtualogp.pr.gov unreachable (A92).
+- JS/anti-bot official portals (KR, EE, FI, CH, IT, SG, NZ, KE, LT, MD, AZ e-qanun) need a browser-capable official retrieval route; Russia pravo.gov.ru/minzdrav.gov.ru unreachable from box and fetch provider (A80); PacLII and pakistancode.gov.pk unreachable from box (A87); retsinformation.dk API returns JS shell, Nepal giwmscdnone.gov.np PDF CDN empty reply, agc.gov.bn LOB PDFs 404 (A91); laws.gov.tt revised laws only to 2016 and search unfiltered, guernseylegalresources.gg 403, laws.gov.vg and bvirtualogp.pr.gov unreachable (A92); elegislation.gov.hk and legislation.gov.fk JS-only, LeyChile (Chile 152) web service requires API key, uaelegislation.gov.ae 403 (A93).
 - Disputed/dual-administration identities 104/275/732/887 need owner scope decision (skipped).
 - Externally administered identities need one owner identity policy (record external delegated authority as principal identity, or keep UNKNOWN): 260 (French State administrateur superieur), 086 (BIOT Commissioner, no local health ordinance), 334 (HIMI: ACT applied law, HIMI Act s5-6, A87), 239 (SGSSI: Falklands-derived Public Health Ordinance Parts II-IV, Commissioner, A87).
 - DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
 - Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
 
-**Next exact queue position:** A93: continue P2 QUEUED IN_PROGRESS areas with reachable official instruments (candidates: Hong Kong 344 elegislation.gov.hk, Luxembourg 442 legilux, Falklands 238 legislation.gov.fk, Malaysia 458 follow-up), then EVIDENCE_ADDED follow-ups with exact next_action; skip 104/275/732/887 and identity policy group 260/086/334/239.
+**Next exact queue position:** A94: Malta 470 Cap.458/464 and Luxembourg follow-ups via data.legilux; then P2 QUEUED IN_PROGRESS areas with reachable official instruments (Montenegro 499 sluzbenilist.me, Qatar 634 almeezan.qa); skip 104/275/732/887 and identity policy group 260/086/334/239.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
 Provisional identities     [###################.] 232/248 | +1
-Expanded partial legal     [########............] 98/248 partial | +69
+Expanded partial legal     [########............] 99/248 partial | +70
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [###.................] 291/1984 | +232
+Narrow supported dims      [###.................] 298/1984 | +239
 All-tier research complete [....................] 0/248 | +0
 ```
 
