@@ -1,33 +1,28 @@
 <!-- autonomous-run-20261122 -->
-# Team A — CURRENT A77: Priority-2 dispositions and Priority-3 identity work (2026-11-22)
+# Team A — CURRENT A78: Kazakhstan, Georgia, Uzbekistan, Armenia ministry statutes (2026-11-22)
 
-**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `1fcbc41be09a4823bc1c9e8e75b61b3124a33aac`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `e788c8146a21a9431ebf86d7d2acfbdb71a9e0cb`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
 
 **Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
 
-**Now:** partial **45**, in-progress (triaged, no legal support) **203**, unscored **0**, research-complete **0/248**; dims **101** SOURCE_SUPPORTED (+42 run) / **1065** RESEARCHED_INCOMPLETE / **816** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **787**; queue {"QUEUED": 202, "EVIDENCE_ADDED_NOT_RESOLVED": 39, "BLOCKED_NEW_SOURCE_REQUIRED": 7}.
+**Now:** partial **49**, in-progress (triaged, no legal support) **199**, unscored **0**, research-complete **0/248**; dims **115** SOURCE_SUPPORTED (+56 run) / **1057** RESEARCHED_INCOMPLETE / **810** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **791**; queue {"QUEUED": 198, "EVIDENCE_ADDED_NOT_RESOLVED": 43, "BLOCKED_NEW_SOURCE_REQUIRED": 7}.
 
-- Earlier this run: A74 (695d8a8) triage of all 219 unscored; A75 (206f4a7) +11 dims/5 areas; A76 (1fcbc41) +13 dims/10 areas. Per-batch figures in RUN_LOG_20261122.md.
-- Priority 3: 112 Belarus identity resolved (provisional) from official pravo.by consolidated CoM Resolution 1446/2011 Regulation on the Ministry of Health, amended to Res. 259 of 25 May 2026 (A77-112-01; new body gov-112-001); 4 narrow dims supported; unresolved audit row removed (history in git + countries notes). UNKNOWN 17→16.
-- 364 Iran stays UNKNOWN; queue BLOCKED_NEW_SOURCE_REQUIRED (behdasht.gov.ir, rc.majlis.ir, qavanin.ir, dolat.ir, dotic.ir, president.ir all unreachable/stub/no text from this network).
-- Priority 2: queue states for 044 Bahamas, 050 Bangladesh, 056 Belgium, 064 Bhutan, 072 Botswana, 090 Solomon Islands set to BLOCKED_NEW_SOURCE_REQUIRED from their immutable A-01 blocked results (each already records two failed official strategies + reopen trigger). Botswana adds A77-072-01: BoMRA Annual Report 2025/26 says Act 29/2025 commencement still pending at 31 Mar 2026, so that Gazette Order likely does not yet exist (external executive action). Bangladesh 2025 BMDC Ordinance: still only a draft per Dec 2025 report; bdlaws shows Act 61/2010; no change.
+- A78 official consolidated regulations read: KZ Gov Res 71/2017 (adilet, amended to Res.864/2026; A78-398-01) +4 dims; GE Gov Res 473/2018 (matsne, consolidated 15 Dec 2025; A78-268-01) +3; UZ CoM Res 714/2017 (lex.uz, para2 per Res.353/2026; A78-860-01) +4 incl. devolution; AM PM Decision 728-L/2018 (ARLIS incorporation in force 14 Aug 2026; A78-051-01) +3.
+- Kyrgyzstan 417: CoM Res 493 of 17 Jul 2026 located on cbd.minjust.gov.kg but page body is JS-rendered (60 chars); not recorded as support. Moldova 498: legis.md PDF returned 403.
 
 **Blocked / external (exact missing requirement):**
-- Pending executive action (instrument likely not yet issued): Botswana Act 29/2025 commencement Order.
-- Unpublished/internal instruments: Bhutan Cabinet letter C-3/6(5)/2024/48 and RCSC letter LTD/1/COM/2024/3331 — need custodian copies.
-- Gazette originals not online/blocked: Botswana S.I. 4/2014; Solomon Is post-Feb-2024 Health Services Act chain; Bahamas amendment/professional Acts (captcha); Belgium Moniteur PDFs (Request Rejected); Bangladesh BMDC replacement Gazette (archive HTTP 500).
-- Network/portal access: Iran government domains; JS/anti-bot portals KR/EE/FI/CH/IT/SG/NZ/KE; timeouts RO/PR/RU-gov.
-- 16 UNKNOWN identities: see data/unresolved_area_audit.csv; dual/contested administrations (104 Myanmar, 275 Palestine, 887 Yemen, 732 Western Sahara) need a documented scope decision, not more search.
+- 044/050/056/064/072/090/364 BLOCKED_NEW_SOURCE_REQUIRED (unchanged from A77).
+- JS/anti-bot portals (KR, EE, FI, CH, IT, SG, NZ, KE, KG cbd) need a browser-capable official retrieval route.
 
-**Next exact queue position:** A78 = continue official-portal retrieval for IN_PROGRESS areas (pravo.by-style national legal portals: e.g. 643 Russia publication.pravo.gov.ru, 398 Kazakhstan adilet.zan.kz, 860 Uzbekistan lex.uz, 417 Kyrgyzstan cbd.minjust.gov.kg, 051 Armenia arlis.am, 268 Georgia matsne.gov.ge, 428 Latvia likumi.lv) then remaining UNKNOWN identities (104, 275, 408, 887 dual/contested administrations are scope decisions).
+**Next exact queue position:** A79: Kyrgyzstan 417 (alternate official text route), Moldova 498 (legis.md HTML route), Azerbaijan/Russia/Lithuania/Latvia ministry statutes; then UNKNOWN identities.
 
 **Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
 
 ```text
 Provisional identities     [###################.] 232/248 | +1
-Expanded partial legal     [####................] 45/248 partial | +16
+Expanded partial legal     [####................] 49/248 partial | +20
 Unscored areas             [....................] 0/248 | -219
-Narrow supported dims      [#...................] 101/1984 | +42
+Narrow supported dims      [#...................] 115/1984 | +56
 All-tier research complete [....................] 0/248 | +0
 ```
 
