@@ -1,3 +1,17 @@
+# Team B — B166 restart checkpoint, 2026-11-22
+
+Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
+
+- Last completed batch: **B166** — B166 celiac: 643:celiac open lead resolved as S2 (National Association 'Life Without Gluten', gfrussia.ru/coeliac; fetch not safety-blocked this run). Unlinked depth queue closed for all conditions.. Last published commit before B166: `28920e8`. The B166 commit is the branch head adding this block.
+- Qualified cells: **382**; contexts 623; organizations 543; tiers S1=140 S2=200 H=59 M=196 U=28; depth D1/D2/D3={'D1': 192, 'D2': 1280, 'D3': 79}.
+- Linked-source cases without terminal disposition: **0**.
+- Remaining unlinked depth tasks: **0** by condition {}. Depth queue complete. Remaining: 21 identity gaps and 5 issuer questions (external custodian/registry action); not a research-completion declaration.
+- First open queue positions (canonical inventory order):  …
+- Identity gaps **21**; issuer questions **5** (unchanged).
+- Validation: native 0 errors; supplemental 11643 pass.
+- Blockers recorded this batch: None new. Remaining 21 identity gaps are uninhabited/territory/foreign-operator areas (geographic_gap_audit_20261118.csv) and the 5 issuer questions need publisher/custodian imprint answers (issuer_review_20261118.csv); no genuine new original found this run, so both unchanged and require external action.
+- Unpublished local work: none at time of commit.
+
 # Team B — B165 restart checkpoint, 2026-11-22
 
 Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.

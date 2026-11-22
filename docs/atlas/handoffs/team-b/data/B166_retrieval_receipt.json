@@ -1,0 +1,42 @@
+{
+  "batch": "B166",
+  "date": "2026-11-22",
+  "receipts": {
+    "https://gfrussia.ru/": {
+      "http_status": 200,
+      "bytes": 249599,
+      "sha256": "e4687a8b4699423b89e95c0c7badf740634094d73f821bae412f13162acce1ff",
+      "retrieved_utc": "2026-11-22T14:46:50.739322+00:00"
+    },
+    "https://gfrussia.ru/about": {
+      "http_status": 200,
+      "bytes": 171771,
+      "sha256": "627e891c68ed42dafd714378ce2afc736c3c9e91b11361bc8950e1147db09cc0",
+      "retrieved_utc": "2026-11-22T14:47:09.307227+00:00"
+    },
+    "https://gfrussia.ru/help": {
+      "http_status": 200,
+      "bytes": 136939,
+      "sha256": "6d3977dc06b1edb5860f4295432136bbbe21b16d368f52f3b22609d13f2ad27e",
+      "retrieved_utc": "2026-11-22T14:47:21.998061+00:00"
+    },
+    "https://gfrussia.ru/russia": {
+      "http_status": 200,
+      "bytes": 146323,
+      "sha256": "b57fb56958634cf672e35a7afc61df29f61dfb1a11596312297895b7614ff42a",
+      "retrieved_utc": "2026-11-22T14:47:01.703155+00:00"
+    },
+    "https://celiac.spb.ru/": {
+      "http_status": 200,
+      "bytes": 113260,
+      "sha256": "5b90d47c1432d17698bbaf1241a72daeadd313110155b179ed6571b879b458b5",
+      "retrieved_utc": "2026-11-22T14:09:24.389944+00:00"
+    },
+    "https://gfrussia.ru/coeliac": {
+      "http_status": 200,
+      "bytes": 174551,
+      "sha256": "94710d550c2cdf770a728b4d0711c46869416032a91454fa24aa564403eb087e",
+      "retrieved_utc": "2026-11-22T14:47:09.147330+00:00"
+    }
+  }
+}
