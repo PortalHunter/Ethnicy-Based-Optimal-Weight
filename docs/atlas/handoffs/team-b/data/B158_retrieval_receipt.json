@@ -1,0 +1,42 @@
+{
+  "batch": "B158",
+  "date": "2026-11-22",
+  "receipts": {
+    "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific": {
+      "http_status": 200,
+      "bytes": 58935,
+      "sha256": "38d060ead7f1df7b28fc2406c7852c20b1261e99023af02cc22b702c45935ab9",
+      "retrieved_utc": "2026-11-22T14:14:06.005473+00:00"
+    },
+    "https://worldgastroenterology.org/membership/current-members/regional-affiliate-associations/africa-middle-east": {
+      "http_status": 200,
+      "bytes": 67553,
+      "sha256": "79e60f943f5af079848df6006424cf333b038123b3bc36949721560e5c31755e",
+      "retrieved_utc": "2026-11-22T14:14:06.218693+00:00"
+    },
+    "https://worldgastroenterology.org/membership/regional-affiliate-associations/americas": {
+      "http_status": 200,
+      "bytes": 61833,
+      "sha256": "eca20cc2fb1108049bd6d52eb41ab8202d96f90b6b8e7d4752be57d239d269a5",
+      "retrieved_utc": "2026-11-22T14:14:06.139236+00:00"
+    },
+    "https://worldgastroenterology.org/membership/regional-affiliate-associations/europe": {
+      "http_status": 200,
+      "bytes": 70207,
+      "sha256": "42b718e4b5ed56b53ea5c92123b0a50ffc3ef2a4b646f30404158d4826f108f0",
+      "retrieved_utc": "2026-11-22T14:14:06.166879+00:00"
+    },
+    "https://nsg.org.np/": {
+      "http_status": 403,
+      "bytes": 5432,
+      "sha256": "9c3e48def85caf48d2e7c0fd748faab38da8e105063e148c1d53f5566b932c5a",
+      "retrieved_utc": "2026-11-22T14:09:08.386275+00:00"
+    },
+    "https://tages.or.tz/": {
+      "http_status": 200,
+      "bytes": 23953,
+      "sha256": "c10b2543d48bfeb9ed186d3f76007c41ec3271a3469743fb4a17bbfc9720df46",
+      "retrieved_utc": "2026-11-22T14:09:08.921950+00:00"
+    }
+  }
+}

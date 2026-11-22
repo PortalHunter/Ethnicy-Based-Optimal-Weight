@@ -1,3 +1,17 @@
+# Team B — B158 restart checkpoint, 2026-11-22
+
+Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
+
+- Last completed batch: **B158** — Lactose depth queue, 47 cells without a WGO-listed member society: 47 D2 (four WGO regional member pages retrieved once, local gastro society checks for Nepal/Tanzania, preserved catalogue route).. Last published commit before B158: `d065bd3`. The B158 commit is the branch head adding this block.
+- Qualified cells: **359**; contexts 600; organizations 529; tiers S1=137 S2=185 H=54 M=196 U=28; depth D1/D2/D3={'D1': 868, 'D2': 604, 'D3': 79}.
+- Linked-source cases without terminal disposition: **0**.
+- Remaining unlinked depth tasks: **699** by condition {'high_chol': 165, 'hypertension': 161, 'lactose': 70, 'diabetes': 131, 'gout': 171, 'celiac': 1}. Next: the 70 remaining lactose cells each have a WGO-listed national gastroenterology society; follow each society site (homepage/site search) for lactose content before D2/qualification. Then high_chol (EAS-FHSC directory), gout (APLAR/EULAR/PANLAR/AFLAR), hypertension, diabetes (IDF). 643:celiac lead open.
+- First open queue positions (canonical inventory order): 004:high_chol 004:hypertension 004:lactose 008:diabetes 008:gout 008:high_chol 008:hypertension 008:lactose 012:diabetes 012:gout …
+- Identity gaps **21**; issuer questions **5** (unchanged).
+- Validation: native 0 errors; supplemental 10235 pass.
+- Blockers recorded this batch: nsg.org.np returns 403.
+- Unpublished local work: none at time of commit.
+
 # Team B — B157 restart checkpoint, 2026-11-22
 
 Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.
