@@ -1,0 +1,462 @@
+[
+  {
+    "record_id": "B143-RECON-124-high_chol",
+    "area_m49": "124",
+    "condition_key": "high_chol",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://ccs.ca/guidelines-and-clinical-practice-update-library/",
+        "observation": "B102_individual_exact_source_content_audit: Canadian CCS guideline library direct TLS error and independent web 502. No actual lipid guideline content verified; access-limited original, not absence."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/119",
+        "observation": "[ATLAS Team B B-CA-CCS] Verify high_chol source: CCS Guidelines and Clinical Practice Update Library \u2014 Dyslipidemia"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/119. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-152-lactose",
+    "area_m49": "152",
+    "condition_key": "lactose",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://sociedadgastro.cl/gastroweb/documentos/2021/Congreso_pacientes_programa_2.pdf",
+        "observation": "B102_individual_exact_source_content_audit: Chilean 2021 patient congress programme PDF direct 500 and independent web cache miss. Original content inaccessible; historical programme metadata cannot establish delivered education or research."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/118",
+        "observation": "[ATLAS Team B B-CL-SCHG] Verify lactose source: Segundo Congreso de pacientes con enfermedades digestivas 2021: lactose talk a"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/118. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-156-high_chol",
+    "area_m49": "156",
+    "condition_key": "high_chol",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://www.fhchina.org.cn/en/sys-nd/117.html",
+        "observation": "B100_individual_exact_source_content_audit: Direct original returns 403; independent web route times out. FH China original content inaccessible after two routes; no inferred endorsement or study result."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/108",
+        "observation": "[ATLAS Team B B-CN-FHCHINA] Verify high_chol source: 2026 China HoFH Patient Survival Status Survey Report \u2014 launch announcement"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/108. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-352-celiac",
+    "area_m49": "352",
+    "condition_key": "celiac",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://gluten.is/wp-content/uploads/2018/05/mec3b0hc3b6ndlun-glc3batenlaust-fc3a6c3b0is.pdf",
+        "observation": "B104_individual_exact_source_content_audit: Icelandic gluten booklet direct hostname-certificate mismatch and independent web502; original text unavailable, no edition/content inferred from upload path."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/124",
+        "observation": "[ATLAS Team B B-IS-GLUTEN] Verify celiac source: A\u00f0 bj\u00f3\u00f0a upp \u00e1 gl\u00fatenlausan mat"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/124. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-372-high_chol",
+    "area_m49": "372",
+    "condition_key": "high_chol",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://croi.ie/heart/familial-hypercholesterolaemia/",
+        "observation": "B102_individual_exact_source_content_audit: Croi FH page direct 403 and independent web 403. Substantive education/author content not retrievable, keep named access blocker."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/117",
+        "observation": "[ATLAS Team B B-IE-CROI] Verify high_chol source: Familial Hypercholesterolaemia | Cro\u00ed"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/117. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-372-hypertension",
+    "area_m49": "372",
+    "condition_key": "hypertension",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://croi.ie/heart/risk-factors/blood-pressure/",
+        "observation": "B104_individual_exact_source_content_audit: Croi BP source direct403 and independent web403; actual original education inaccessible to these routes, no classification-positive content inferred."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/125",
+        "observation": "[ATLAS Team B B-IE-CROI] Verify hypertension source: Blood Pressure | Cro\u00ed Heart & Stroke Charity"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/125. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-372-lactose",
+    "area_m49": "372",
+    "condition_key": "lactose",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://coeliac.ie/about-coeliac-disease/other-linked-conditions/",
+        "observation": "B103_individual_exact_source_content_audit: Irish celiac associated-condition URL direct timeout and independent web 403. Exact original lactose explanation inaccessible to these routes; keep blocker."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/121",
+        "observation": "[ATLAS Team B B-IE-CSI] Verify lactose source: Other Linked Conditions \u2014 Coeliac Society of Ireland"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/121. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-404-hypertension",
+    "area_m49": "404",
+    "condition_key": "hypertension",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://kenyacardiacs.org/2022-projects/",
+        "observation": "B104_individual_exact_source_content_audit: Kenyan cardiology project page direct reset and independent web403. Telemonitoring original unavailable; planned/enrolled discrepancy remains unresolved, no efficacy inference."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/123",
+        "observation": "[ATLAS Team B B-KE-KCS] Verify hypertension source: Our Projects \u2014 Home Blood Pressure Telemonitoring Study"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/123. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-440-diabetes",
+    "area_m49": "440",
+    "condition_key": "diabetes",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://www.dia.lt/",
+        "observation": "B102_individual_exact_source_content_audit: Lithuanian diabetes association homepage direct TLS error and independent web timeout. Original magazine/education not inspected; retain access blocker."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/120",
+        "observation": "[ATLAS Team B B-LT-LDA] Verify diabetes source: Lietuvos diabeto asociacija \u2014 Diabetas periodical and publication index"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/120. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-586-diabetes",
+    "area_m49": "586",
+    "condition_key": "diabetes",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://www.dap.org.pk/documents/ClinicalGuidelines/PromptGuidelines.pdf",
+        "observation": "B101_individual_exact_source_content_audit: Direct TLS verification failed; independent web retrieval also inaccessible. Pakistani PROMPT original guideline remains blocked; no edition/authorship inferred."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/109",
+        "observation": "[ATLAS Team B B-PK-DAP] Verify diabetes source: Pakistan\u2019s Recommendations for Optimal Management of diabetes from Primary to "
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/109. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-616-gout",
+    "area_m49": "616",
+    "condition_key": "gout",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://www.reumatologia.ptr.net.pl/files/biuletyn_mr_grudzien16.pdf",
+        "observation": "B104_individual_exact_source_content_audit: Polish PTR2016 bulletin original direct DNS failure and independent web502. Original gout material inaccessible; historical edition and clinical text not reverified."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/126",
+        "observation": "[ATLAS Team B B-PL-PTR] Verify gout source: Biuletyn Sekcji M\u0142odych Reumatolog\u00f3w PTR 12/2016 \u2014 Kolchicyna w leczeniu dny m"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/126. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-646-diabetes",
+    "area_m49": "646",
+    "condition_key": "diabetes",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://doi.org/10.1080/16549716.2025.2457826",
+        "observation": "B100_individual_exact_source_content_audit: DOI original route returns 403; independent web retrieval also inaccessible. Original diabetes study text/authorship unavailable to these routes; retain unresolved rather than infer findings."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/102",
+        "observation": "[ATLAS Team B B-RW-RDA] Verify diabetes source: Evaluation of care and clinical outcomes after an electronic medical record sy"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/102. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-678-hypertension",
+    "area_m49": "678",
+    "condition_key": "hypertension",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://bibliotecadigital.ipb.pt/bitstreams/35b2880f-80cc-4912-9ee2-12da1c9de7f8/download",
+        "observation": "B102_individual_exact_source_content_audit: Original IPB repository download returns 403; independent web route cache miss. Original Sao Tome academic hypertension thesis/source unavailable; authorship and methods not reverified."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/114",
+        "observation": "[ATLAS Team B B-ST-USTPICS] Verify hypertension source: Regional variation in incidence and mortality due to hypertension in Sao Tome "
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/114. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-686-hypertension",
+    "area_m49": "686",
+    "condition_key": "hypertension",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://sosecar.sn/information",
+        "observation": "B100_individual_exact_source_content_audit: Direct HTTP 200 yields only Sosecar title; independent web retrieval has zero readable lines. Content inaccessible to these routes; no negative existence claim."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/103",
+        "observation": "[ATLAS Team B B-SN-SOSECAR] Verify hypertension source: Recommandations de prise en charge de l'hypertension art\u00e9rielle (resource list"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/103. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-752-hemochromatosis",
+    "area_m49": "752",
+    "condition_key": "hemochromatosis",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://svenskgastroenterologi.se/wp-content/uploads/2022/09/information-hemokromatos-1.pdf",
+        "observation": "B101_individual_exact_source_content_audit: Exact Swedish SGF patient PDF redirects to Qrora SGF portal, not PDF. Both direct and web routes show portal/shell; original leaflet authorship/edition unavailable, no substantive PDF verified."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/111",
+        "observation": "[ATLAS Team B B-SE-SGF] Verify hemochromatosis source: Information till Dig som har Hemokromatos"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/111. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-760-celiac",
+    "area_m49": "760",
+    "condition_key": "celiac",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://www.thieme-connect.de/products/ejournals/pdf/10.1055/s-0043-1768462.pdf",
+        "observation": "B102_individual_exact_source_content_audit: Thieme direct response is anti-crawler interstitial, second web route cache miss. Original celiac PDF inaccessible; no article content/methods inferred."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/115",
+        "observation": "[ATLAS Team B B-SY-DAMMED] Verify celiac source: Celiac Disease in Syrian Children and Adolescents with Type 1 Diabetes Mellitu"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/115. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-795-high_chol",
+    "area_m49": "795",
+    "condition_key": "high_chol",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://tdlu.edu.tm/storage/app/media/2-2025lukmancylykjurnal273807-1compressedcompressed.pdf",
+        "observation": "B102_individual_exact_source_content_audit: Same missing Turkmen journal PDF separately checked for lipid source: direct 404 and web 502, exact article content unavailable; no FH inference."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/116",
+        "observation": "[ATLAS Team B B-TM-TDLU] Verify hypertension, high_chol source: Arterial gipertenzi\u00fdaly n\u00e4saglarda \u00fd\u00fcrek-damar kesellerini\u0148 esasy howp faktorl"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/116. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-795-hypertension",
+    "area_m49": "795",
+    "condition_key": "hypertension",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://tdlu.edu.tm/storage/app/media/2-2025lukmancylykjurnal273807-1compressedcompressed.pdf",
+        "observation": "B102_individual_exact_source_content_audit: Turkmen medical university journal PDF direct 404 and independent web 502; original hypertension article inaccessible. No conclusions, edition or local clinical jurisdiction verified beyond historical metadata."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/116",
+        "observation": "[ATLAS Team B B-TM-TDLU] Verify hypertension, high_chol source: Arterial gipertenzi\u00fdaly n\u00e4saglarda \u00fd\u00fcrek-damar kesellerini\u0148 esasy howp faktorl"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/116. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-882-diabetes",
+    "area_m49": "882",
+    "condition_key": "diabetes",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://simr.ws/research",
+        "observation": "B100_individual_exact_source_content_audit: SIMR research URL returns title only; independent web route has no readable lines. Diabetes original study cannot be verified by these two routes."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/105",
+        "observation": "[ATLAS Team B B-WS-SIMR] Verify diabetes, hypertension source: SIMR\u2013MANUIA pilot randomized controlled trial programme, T2D component"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/105. Continue distinct new source leads if obtained."
+  },
+  {
+    "record_id": "B143-RECON-882-hypertension",
+    "area_m49": "882",
+    "condition_key": "hypertension",
+    "query": "Existing exact-source access audit and mapped verification issue reconciliation; NO NEW SEARCH",
+    "language": "original languages retained in canonical source records",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "preserved_individual_original_source_audit",
+        "url": "https://simr.ws/research",
+        "observation": "B100_individual_exact_source_content_audit: Same SIMR research URL individually checked for hypertension: title-only direct and empty web retrieval. No inspected BP study content; not national absence."
+      },
+      {
+        "approach": "existing_named_independent_verification_escalation",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/105",
+        "observation": "[ATLAS Team B B-WS-SIMR] Verify diabetes, hypertension source: SIMR\u2013MANUIA pilot randomized controlled trial programme, T2D component"
+      }
+    ],
+    "result": "Evidence-limited original access disposition, reconciled from existing source-specific audit and existing named issue; original U classification and all source IDs preserved.",
+    "limits": "D3 applies to the currently indexed blocked evidence. Not an exhaustive national search, verified absence, source qualification, resolved issue, or independent human approval. A new original location can reopen research; existing twice-failed retrievals are not repeated.",
+    "next_action": "Independent original retrieval/verification under https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/105. Continue distinct new source leads if obtained."
+  }
+]

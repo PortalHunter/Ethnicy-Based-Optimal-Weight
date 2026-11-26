@@ -1,0 +1,210 @@
+{
+  "baseline_sha": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
+  "method": "2026-11-18 exact URL manual content audits; deterministic supplemental reconciliation; historical canonical records preserved",
+  "generated_utc_date": "2026-11-18",
+  "M49": 248,
+  "conditions": 7,
+  "matrix": 1736,
+  "organizations": 543,
+  "areas_with_local_org_indexed": 227,
+  "geographic_org_gaps": 21,
+  "raw_linked_cells": 450,
+  "searched_unlinked_cells": 1286,
+  "untouched_cells": 0,
+  "pub_context_rows": 623,
+  "source_quality_audited": 623,
+  "source_quality_unreviewed": 0,
+  "tiers": {
+    "S1": 140,
+    "S2": 200,
+    "H": 59,
+    "M": 196,
+    "U": 28
+  },
+  "eligible_audited_sources": 399,
+  "distinct_cells_with_eligible_audited_source": 382,
+  "raw_linked_fully_audited_without_S1_S2_H": 68,
+  "raw_linked_no_eligible_with_unaudited": 0,
+  "search_depth_entries": 4305,
+  "search_depth_D2_cells_with_no_link": 1243,
+  "searched_unlinked_missing_active_D2": 0,
+  "unknown_source_country_imprints": 5,
+  "source_reused_exact_urls": 47,
+  "shared_org_official_url_strings": 6,
+  "repeated_exact_area_condition_search_urls": 200,
+  "provenance": 5714,
+  "search_logs": 5173,
+  "community_subnational": 10,
+  "cross_border": 8,
+  "metadata_reconciliation": 7,
+  "metadata_replacement_qualified": 6,
+  "metadata_replacement_open": 1,
+  "by_condition": {
+    "diabetes": {
+      "raw": 118,
+      "searched": 130,
+      "untouched": 0,
+      "qualCells": 93,
+      "auditedSources": 174
+    },
+    "hypertension": {
+      "raw": 89,
+      "searched": 159,
+      "untouched": 0,
+      "qualCells": 68,
+      "auditedSources": 127
+    },
+    "high_chol": {
+      "raw": 60,
+      "searched": 188,
+      "untouched": 0,
+      "qualCells": 52,
+      "auditedSources": 86
+    },
+    "gout": {
+      "raw": 47,
+      "searched": 201,
+      "untouched": 0,
+      "qualCells": 42,
+      "auditedSources": 61
+    },
+    "lactose": {
+      "raw": 41,
+      "searched": 207,
+      "untouched": 0,
+      "qualCells": 38,
+      "auditedSources": 49
+    },
+    "celiac": {
+      "raw": 64,
+      "searched": 184,
+      "untouched": 0,
+      "qualCells": 60,
+      "auditedSources": 84
+    },
+    "hemochromatosis": {
+      "raw": 31,
+      "searched": 217,
+      "untouched": 0,
+      "qualCells": 29,
+      "auditedSources": 42
+    }
+  },
+  "clinical_approvals": 0,
+  "run_delta": {
+    "source_quality_audited": 532,
+    "source_quality_unreviewed": -342,
+    "eligible_audited_sources": 340,
+    "distinct_cells_with_eligible_audited_source": 324,
+    "raw_linked_cells": 62,
+    "untouched_cells": -1154,
+    "geographic_org_gaps": 0,
+    "unknown_source_country_imprints": 0
+  },
+  "validation": {
+    "structural_errors": 0,
+    "Node_CLI_ran": true,
+    "supplemental_checks_passed": 11643,
+    "clinical_state": "623/623 research_lead_only"
+  },
+  "live_input_head": "537368fa40ccf5b692427d0c1e3cc3068c39708d",
+  "depth_tiers": {
+    "D1": 192,
+    "D2": 1280,
+    "D3": 79
+  },
+  "identity_triage_classes": {
+    "explicit_caveat_in_status_NOT_independently_legal_verified": 354,
+    "real_geographic_gap_not_proof_of_nonexistence": 21,
+    "no_explicit_caution_NOT_a_certification": 142,
+    "own_site_plus_NLM_Lima_publisher_confirmed_governance_unreviewed": 1,
+    "first_party_Bogota_office_plus_ISSN_publisher_verified_legal_registry_and_rights_unreviewed": 1,
+    "first_party_self_description_no_legal_certification": 3,
+    "own_original_name_seat_objects_inspected_NOT_legal_approval": 42
+  },
+  "continuation_baseline_sha": "27c846fc2a51cd9bced2e3620d71f5dee65ba229",
+  "continuation_delta": {
+    "organizations": 23,
+    "raw_linked_cells": 23,
+    "searched_unlinked_cells": 1050,
+    "untouched_cells": -1073,
+    "pub_context_rows": 94,
+    "source_quality_audited": 94,
+    "distinct_cells_with_eligible_audited_source": 92,
+    "provenance": 3350,
+    "search_logs": 3315,
+    "geographic_org_gaps": 0,
+    "unknown_source_country_imprints": 0
+  },
+  "execution_state": "research_incomplete; B166 checkpoint; linked-source cases closed; 0 unlinked depth tasks remain",
+  "raw_linked_nonqualified_without_terminal_depth": 0,
+  "ordinary_cell_dispositions_remaining": 0,
+  "accelerated_run": {
+    "baseline_sha": "6924ce315c6898ee62584cf28ad75539f880fe61",
+    "start_unlinked_depth": 988,
+    "end_unlinked_depth": 953,
+    "start_raw_nonqualified_without_terminal": 140,
+    "end_raw_nonqualified_without_terminal": 57,
+    "new_qualified_cells": 74,
+    "new_source_contexts": 74,
+    "existing_context_source_audit_upgrades": 1,
+    "new_source_audit_observations": 75,
+    "new_D2": 23,
+    "new_D3": 21,
+    "interpreted_D1_retained": 11,
+    "distinct_cells_genuinely_advanced": 118,
+    "source_qualification_on_already_qualified_cell": 1,
+    "source_contexts_after": 585,
+    "source_contexts_before": 511,
+    "appended_research_records": 130,
+    "distinct_cells_processed": 130,
+    "all_actionable_completed": false
+  },
+  "publication": {
+    "state": "validated_B154_snapshot_prepared_for_expected_head_publication",
+    "remote_head": "52ec933f0dbf98f19a00523cc90dd51400ce1f57",
+    "local_validated_data_commit": "76f4e486aebe5168a00a27a773ae425fa8df3941",
+    "reason": "User public publication approval persists; B152 snapshot published and verified; B153/B154 validated for non-force update against52ec933. Final PR metadata records final remote SHA.",
+    "needs_user_approval": false,
+    "verified_tree": "d00bd16f92f92c709b15a5b91b595690f6f1e84a"
+  },
+  "b155_run": {
+    "date": "2026-11-22",
+    "start_qualified": 344,
+    "end_qualified": 356,
+    "linked_cases_start": 57,
+    "linked_cases_end": 0,
+    "new_qualified_cells": 12,
+    "new_D2": 36,
+    "new_D3": 9,
+    "new_source_contexts": 12,
+    "unlinked_depth_remaining": 953,
+    "identity_gaps": 21,
+    "issuer_questions_unresolved": 5
+  },
+  "b156_run": {
+    "date": "2026-11-22",
+    "scope": "celiac depth queue (95 cells)",
+    "new_qualified_cells": 3,
+    "new_orgs": 3,
+    "new_D2": 85,
+    "new_D3": 6,
+    "D1_retained_with_lead": [
+      "643:celiac"
+    ],
+    "end_qualified": 359,
+    "unlinked_depth_remaining": 859
+  },
+  "run_20261122_batches": {
+    "B157": "Hemochromatosis depth queue 113 cells: 113 D2 (HI member directory read once via WebFetch, 14 indexed local gastro/hepatology society sites incl. native site search, preserved catalogue route). No qualification.",
+    "B158": "Lactose depth queue, 47 cells without a WGO-listed member society: 47 D2 (four WGO regional member pages retrieved once, local gastro society checks for Nepal/Tanzania, preserved catalogue route).",
+    "B159": "High-cholesterol depth queue, 91 cells with no EAS-FHSC listing and no indexed local cardiometabolic organization: 91 D2 (EAS-FHSC directory retrieved once, organization inventory check, preserved catalogue route).",
+    "B160": "High-cholesterol depth queue, final 74 cells: 6 qualified S2 (Belgium Ligue Cardiologique Belge, Dominican Rep. SDC, Hungary SZÍVSN, Latvia ParSirdi.lv, Panama SPC, Viet Nam VADE) via FHEF network leads and first-party/site-search checks; 68 D2 (indexed-org homepage + native site search, EAS-FHSC/FHEF directories retrieved once, preserved catalogue route); Israel IHA cholesterol post withheld (apparent US-origin adapted content)",
+    "B161": "Lactose depth queue, final 70 cells: 70 D2 (WGO-listed national gastro society first-party homepage + native site search in local-language lactose terms, indexed local gastro/celiac/paediatric sites, WGO directories reused, preserved catalogue route). No qualification",
+    "B162": "Gout depth queue, 43 cells with an EULAR/APLAR-listed or indexed national rheumatology society: 1 H qualified (Russia: ARR-hosted 2014 federal gout clinical guideline DOCX, no named issuer; hosted, not S1 society authorship); 42 D2 (society first-party homepage + native site search in local-language gout terms, or candidate-domain probe where the directory lists no website; EULAR/APLAR directories retrieved once; preserved catalogue route)",
+    "B163": "Gout depth queue, final 128 cells: 2 qualified (Dominican Republic SDR 2020 crystal-arthritis guideline S1; Venezuela multi-society 2015 uric-acid consensus hosted by SVEM, Aspen Venezuela copyright, H); 126 D2 (ArLAR/EULAR/APLAR directories retrieved once, PANLAR/AFLAR non-enumerable, web discovery + first-party checks of national rheumatology societies where found, indexed inventory, preserved catalogue route); Ecuador SER gout page withheld (wording follows Spanish SER text); 5 supplementary D2 records correct B162 'no website' notes for Iraq, Kuwait, Oman, Saudi Arabia, Syria using ArLAR-listed sites",
+    "B164": "B164 hypertension: final 161 cells (2 S1 Israel ISH 2026 guideline book and Thailand THS 2024 guideline; 4 S2 Serbia USH, Dominican Republic SDC, Jordan JCS, Latvia ParSirdi.lv; 1 H Slovakia SHS-hosted 2014 methodological letter; 154 D2 via ESH list, society first-party checks, inventory and preserved catalogue route). Hypertension closed.",
+    "B165": "B165 diabetes: final 131 cells (4 S2 Oman ODA, Serbia DAS nutrition guide, Viet Nam VADE, Montenegro DOB; 2 H Slovakia MoH standard procedure hosted/reviewed by SDS and Uruguay SDNU/Paso a Paso diabetic-foot aid; 125 D2 via IDF member directories, IDF-profile and first-party site follow-up, inventory and preserved catalogue route). Diabetes closed.",
+    "B166": "B166 celiac: 643:celiac open lead resolved as S2 (National Association 'Life Without Gluten', gfrussia.ru/coeliac; fetch not safety-blocked this run). Unlinked depth queue closed for all conditions."
+  }
+}

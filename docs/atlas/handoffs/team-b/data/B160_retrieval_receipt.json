@@ -1,0 +1,492 @@
+{
+  "batch": "B160",
+  "date": "2026-11-22",
+  "receipts": {
+    "https://eas-fhsc.org/contact-us/": {
+      "http_status": 200,
+      "bytes": 134783,
+      "sha256": "dee0d9dab380edf11dcc27ec08d571f0550a440e4e08d7a2e75904b39e6df9f3",
+      "retrieved_utc": "2026-11-22T14:15:13.544104+00:00"
+    },
+    "https://fhef.org/our-network/": {
+      "http_status": 200,
+      "bytes": 167454,
+      "sha256": "7e78d7476bd06b745f0d4f9127be64ba20af26418c566f6e4a508bb9eeadff83",
+      "retrieved_utc": "2026-11-22T14:17:17.544457+00:00"
+    },
+    "https://www.liguecardioliga.be/": {
+      "http_status": 200,
+      "bytes": 346846,
+      "sha256": "bbf8cf86789d2ee14b533dda18ebaee7c7061b9eaaee2efd4cca22e6541040a6",
+      "retrieved_utc": "2026-11-22T14:18:08.210734+00:00"
+    },
+    "https://www.parsirdi.lv/par-mums/": {
+      "http_status": 200,
+      "bytes": 44320,
+      "sha256": "9ed2e1613bff217881cba1ef20aa65f23fb0fb477bc18cb01652dc3eb79fc4e4",
+      "retrieved_utc": "2026-11-22T14:18:44.588068+00:00"
+    },
+    "https://szivsn.hu/rolunk/": {
+      "http_status": 200,
+      "bytes": 404923,
+      "sha256": "0d0e99ee1badd852446028f579a9309e3f1cdfe3761cfe2c2a4700e2ed1ec8ad",
+      "retrieved_utc": "2026-11-22T14:18:45.538085+00:00"
+    },
+    "https://liguecardioliga.be/cholesterol/": {
+      "http_status": 200,
+      "bytes": 299822,
+      "sha256": "13c3c94f823e774e98d07f8194f04d6dca919a6c05d0083c9ccd25e62bfbaf16",
+      "retrieved_utc": "2026-11-22T14:18:44.157855+00:00"
+    },
+    "https://sodocardio.org.do/coresterol/": {
+      "http_status": 200,
+      "bytes": 489460,
+      "sha256": "c2392ed0362eb69702cb345fc768e71d30b7e321f98a0c87bab18ae2a9302cc6",
+      "retrieved_utc": "2026-11-22T14:18:08.992800+00:00"
+    },
+    "https://szivsn.hu/kampanyaink/fh-kampany/": {
+      "http_status": 200,
+      "bytes": 334563,
+      "sha256": "b10bc780c16f266a68b84f33808b9e7e93a93984622fff02bb151e56a41c9ac4",
+      "retrieved_utc": "2026-11-22T14:18:45.006424+00:00"
+    },
+    "https://www.parsirdi.lv/aicina-latvija-uzlabot-holesterina-skriningu-berniem-un-savlaicigu-slimibas-diagnostiku/": {
+      "http_status": 200,
+      "bytes": 49721,
+      "sha256": "ed91ad10f523790b02fd941ae1a7e9532efcddf248746f2e8f3b168c98975285",
+      "retrieved_utc": "2026-11-22T14:18:44.562281+00:00"
+    },
+    "https://cardiologiadepanama.com/el-colesterol-es-necesario-pero-no-en-exceso/": {
+      "http_status": 200,
+      "bytes": 89525,
+      "sha256": "03fb50691f196b399d1113dae3c76b1b4c60a1e5b883fafeb1c8d0c0dce9a549",
+      "retrieved_utc": "2026-11-22T14:19:33.875427+00:00"
+    },
+    "https://vade.org.vn/roi-loan-lipid-mau/": {
+      "http_status": 200,
+      "bytes": 77129,
+      "sha256": "47e5acbba8615a160af676555306ec9bcec6ddea6a66fea574b16591d8c61a1e",
+      "retrieved_utc": "2026-11-22T14:18:07.425718+00:00"
+    },
+    "https://jami.edu.af/en/medicine-faculty/": {
+      "http_status": 200,
+      "bytes": 169170,
+      "sha256": "98ec5d69ad8764848cafadc5014d42a187bb37e140fb46cd6d3a4beef86bbf51",
+      "retrieved_utc": "2026-11-22T14:17:17.356576+00:00"
+    },
+    "https://www.sbemn.org.bo/": {
+      "http_status": 200,
+      "bytes": 237489,
+      "sha256": "c61dc2bf7eb433c74f447b4e2e7719041730dafc46f3e9ac0e709a054a7beac0",
+      "retrieved_utc": "2026-11-22T14:17:17.776794+00:00"
+    },
+    "https://www.sbemn.org.bo/?s=colesterol": {
+      "http_status": 200,
+      "bytes": 118990,
+      "sha256": "a23e861c9899f510ec23e20df058cb471da62a8509d553ff77e12da7e58b30e4",
+      "retrieved_utc": "2026-11-22T14:19:10.659530+00:00"
+    },
+    "https://sobocar.org/": {
+      "http_status": 200,
+      "bytes": 29638,
+      "sha256": "731dc67f20709078861e32176e9ed4612b2235992f31365e46b7bde03cfcbaa3",
+      "retrieved_utc": "2026-11-22T14:17:17.665049+00:00"
+    },
+    "https://sobocar.org/?s=colesterol": {
+      "http_status": 200,
+      "bytes": 29638,
+      "sha256": "731dc67f20709078861e32176e9ed4612b2235992f31365e46b7bde03cfcbaa3",
+      "retrieved_utc": "2026-11-22T14:19:10.818853+00:00"
+    },
+    "https://endo.ba/": {
+      "http_status": 200,
+      "bytes": 237980,
+      "sha256": "2d9810658fb2f5cbb44587d052adcf2a58c5c655265ddeecb36b68420b4b5551",
+      "retrieved_utc": "2026-11-22T14:17:18.080905+00:00"
+    },
+    "https://endo.ba/?s=holesterol": {
+      "http_status": 200,
+      "bytes": 71144,
+      "sha256": "66e3847731bdbc9bcc417e961f814e486eababc4d6e7288b19d7ff6f302cb9de",
+      "retrieved_utc": "2026-11-22T14:19:10.966221+00:00"
+    },
+    "https://endo-bg.org/": {
+      "http_status": 200,
+      "bytes": 233067,
+      "sha256": "0d0305467982e4ebbcb2efb0aea8c4b589133773677a3ffcd1f866af7d143cd9",
+      "retrieved_utc": "2026-11-22T14:17:17.466014+00:00"
+    },
+    "https://endo-bg.org/?s=%D1%85%D0%BE%D0%BB%D0%B5%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%BB": {
+      "http_status": 200,
+      "bytes": 242839,
+      "sha256": "24ce6237da585d47b7f26c5012a5b3e40067c1061136d5974f60be3efee198e0",
+      "retrieved_utc": "2026-11-22T14:19:10.765982+00:00"
+    },
+    "https://hypertension.bg/": {
+      "http_status": 200,
+      "bytes": 28228,
+      "sha256": "ae412e4b9b0704f53ffc865b738e75bc73146320b42e1d43ccefa00fa94bf4de",
+      "retrieved_utc": "2026-11-22T14:17:19.702106+00:00"
+    },
+    "https://hypertension.bg/?s=%D1%85%D0%BE%D0%BB%D0%B5%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%BB": {
+      "http_status": 200,
+      "bytes": 24057,
+      "sha256": "0fb85c768073538a90c326b84c42eec1c567a1447990097b38a25f5a88268aa4",
+      "retrieved_utc": "2026-11-22T14:19:11.270604+00:00"
+    },
+    "https://www.socediamn.org/": {
+      "http_status": 200,
+      "bytes": 732,
+      "sha256": "66ace2adbe2e6b9bf46dbea244baeb6df1413301a12f572c3154a085b3e1b0c3",
+      "retrieved_utc": "2026-11-22T14:17:17.331608+00:00"
+    },
+    "https://www.sccardio.org/home": {
+      "http_status": 200,
+      "bytes": 56717,
+      "sha256": "23f1ad29320c36040ebdcd61cf5254fbface481084756d14826bedc05b3aee6b",
+      "retrieved_utc": "2026-11-22T14:17:17.549761+00:00"
+    },
+    "https://www.sccardio.org/?s=cholest%C3%A9rol": {
+      "http_status": 200,
+      "bytes": 56717,
+      "sha256": "9c6028b5984003f1a3fcad10f2669d4e83e3f0c4b2ee08f1929b4b5d1c3fd53c",
+      "retrieved_utc": "2026-11-22T14:19:10.786367+00:00"
+    },
+    "https://www.diabetessrilanka.org/": {
+      "http_status": 200,
+      "bytes": 96374,
+      "sha256": "c3a4231e5379dc3feb3c7b3edf75a3223c7d76790547a59be86e7b6dc2053a00",
+      "retrieved_utc": "2026-11-22T14:17:19.303377+00:00"
+    },
+    "https://www.diabetessrilanka.org/?s=cholesterol": {
+      "http_status": 200,
+      "bytes": 94817,
+      "sha256": "b7da39fd21dfe11152a8f59c31d7e4897d56657b62881243038209e6c5550a82",
+      "retrieved_utc": "2026-11-22T14:19:12.332767+00:00"
+    },
+    "https://diabetes.org.cy/": {
+      "http_status": 200,
+      "bytes": 225771,
+      "sha256": "eae4fbd9dd4dd43c3a9c2f6ec3066b05720e16b62e7b07557e43802d9a536906",
+      "retrieved_utc": "2026-11-22T14:17:18.708181+00:00"
+    },
+    "https://diabetes.org.cy/?s=%CF%87%CE%BF%CE%BB%CE%B7%CF%83%CF%84%CE%B5%CF%81%CE%AF%CE%BD%CE%B7": {
+      "http_status": 200,
+      "bytes": 140415,
+      "sha256": "5da0ba1cdc6e7b0c8e4d948a6e0301720c101ff692320c753765d9e86c7a66c8",
+      "retrieved_utc": "2026-11-22T14:19:12.463817+00:00"
+    },
+    "https://www.casadeladiabetes.org.ec/": {
+      "http_status": 200,
+      "bytes": 28782,
+      "sha256": "e6d4fd6cf2c13c3083517dce18197e3c639fdb98f2a20ca28becb1bc1a880944",
+      "retrieved_utc": "2026-11-22T14:17:17.520199+00:00"
+    },
+    "https://www.casadeladiabetes.org.ec/?s=colesterol": {
+      "http_status": 200,
+      "bytes": 28782,
+      "sha256": "e6d4fd6cf2c13c3083517dce18197e3c639fdb98f2a20ca28becb1bc1a880944",
+      "retrieved_utc": "2026-11-22T14:19:10.307104+00:00"
+    },
+    "https://scardiopichincha.org/": {
+      "http_status": 200,
+      "bytes": 228755,
+      "sha256": "a2eb8bb2306487f3f3c57b6c4ef24a65e7d8602b12492715f55e541666ebc084",
+      "retrieved_utc": "2026-11-22T14:17:18.700889+00:00"
+    },
+    "https://scardiopichincha.org/?s=colesterol": {
+      "http_status": 200,
+      "bytes": 182680,
+      "sha256": "328c4e72ea726ae052f95c2e273900c684f93c90516c4b0789634582ab9be5d6",
+      "retrieved_utc": "2026-11-22T14:19:10.993543+00:00"
+    },
+    "https://www.diabetes.ee/": {
+      "http_status": 200,
+      "bytes": 70914,
+      "sha256": "1e9141e7b764a359d0426f0ad657c9c373d59c828ce8422666269994e9e41411",
+      "retrieved_utc": "2026-11-22T14:17:18.559305+00:00"
+    },
+    "https://www.diabetes.ee/?s=kolesterool": {
+      "http_status": 200,
+      "bytes": 70914,
+      "sha256": "4659fd5eb891206a15323929e57607fced784a3570b5597d0b35375a101a459f",
+      "retrieved_utc": "2026-11-22T14:19:11.096159+00:00"
+    },
+    "https://demsog.com/": {
+      "http_status": 200,
+      "bytes": 126374,
+      "sha256": "7e5cb6838a66db1774b72d73cddf1caa91ff731a11cf8c775bfc739fa12c6a13",
+      "retrieved_utc": "2026-11-22T14:17:18.757664+00:00"
+    },
+    "https://demsog.com/?s=cholesterol": {
+      "http_status": 200,
+      "bytes": 111588,
+      "sha256": "8b4f66d04933993abebe8dc67a0b0919622a7ea3caf470db19ca7518806a77bd",
+      "retrieved_utc": "2026-11-22T14:19:13.981540+00:00"
+    },
+    "https://gsc-gh.org/": {
+      "http_status": 200,
+      "bytes": 227412,
+      "sha256": "60aba372cf3559c382e4cb0b3554f61e35a89c22270e2f629aee86cd528ff58b",
+      "retrieved_utc": "2026-11-22T14:17:18.322284+00:00"
+    },
+    "https://gsc-gh.org/?s=cholesterol": {
+      "http_status": 200,
+      "bytes": 153549,
+      "sha256": "fdc095d4e292f393fa849d530b98a64f44a91aa5e43e1b08196e3fb1a8eed2d3",
+      "retrieved_utc": "2026-11-22T14:19:11.595288+00:00"
+    },
+    "https://www.gibraltarcardiac.com/our-mission": {
+      "http_status": 200,
+      "bytes": 66096,
+      "sha256": "51f38b4e87d532598b8f93efe121c3f4395f04659f9ae187ff5ab2e063dcf128",
+      "retrieved_utc": "2026-11-22T14:17:18.116403+00:00"
+    },
+    "https://www.patronatodeldiabetico.com.gt/Sobre-nosotros/": {
+      "http_status": 200,
+      "bytes": 54410,
+      "sha256": "1b42c218a12ffff294a61ae62bf659a8e04cb2a327e05a97d1d7e36d9c9dfe2d",
+      "retrieved_utc": "2026-11-22T14:17:18.650116+00:00"
+    },
+    "https://www.diabetes.is/": {
+      "http_status": 200,
+      "bytes": 143199,
+      "sha256": "453796232e4e5403607ce2e51e3168e02adf93ffdc9d5b89d3c206c2e6129033",
+      "retrieved_utc": "2026-11-22T14:17:18.438089+00:00"
+    },
+    "https://www.diabetes.is/?s=k%C3%B3lester%C3%B3l": {
+      "http_status": 200,
+      "bytes": 143199,
+      "sha256": "453796232e4e5403607ce2e51e3168e02adf93ffdc9d5b89d3c206c2e6129033",
+      "retrieved_utc": "2026-11-22T14:19:10.859054+00:00"
+    },
+    "https://www.israeli-heart.org/": {
+      "http_status": 200,
+      "bytes": 1178138,
+      "sha256": "31fdf9ed46f8ca7d40b011398be0dd997900335455859345ef19c446ec16d800",
+      "retrieved_utc": "2026-11-22T14:17:19.148565+00:00"
+    },
+    "https://www.israeli-heart.org/?s=%D7%94%D7%99%D7%A4%D7%A8%D7%9B%D7%95%D7%9C%D7%A1%D7%98%D7%A8%D7%95%D7%9C%D7%9E%D7%99%D7%94": {
+      "http_status": 200,
+      "bytes": 1178672,
+      "sha256": "9470deaba88612d23da0328c465608bcfb587d7ac2a5f98e4f996d8ccda4c443",
+      "retrieved_utc": "2026-11-22T14:19:14.663329+00:00"
+    },
+    "https://www.israeli-heart.org/post/7-סיבוכים-של-כולסטרול-גבוה-וכיצד-ניתן-למנוע-אותם": {
+      "http_status": 200,
+      "bytes": 1205858,
+      "sha256": "e672baf541d76f983c78d40f3046a9a31ad07f3f926a817648229be63bf868be",
+      "retrieved_utc": "2026-11-22T14:18:05.971788+00:00"
+    },
+    "https://www.avekz.com/": {
+      "http_status": 200,
+      "bytes": 444531,
+      "sha256": "5fc47c958802ff1d5b4c1d3870450c565947f672b369d7c17b597be5c23e8568",
+      "retrieved_utc": "2026-11-22T14:17:18.649546+00:00"
+    },
+    "https://www.avekz.com/?s=%D1%85%D0%BE%D0%BB%D0%B5%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%BD": {
+      "http_status": 200,
+      "bytes": 438678,
+      "sha256": "48850c82be4025a8e6dd2cbb9440de93eccb6a05bf7ad3318e0ccf9ee5cfbcac",
+      "retrieved_utc": "2026-11-22T14:19:11.477612+00:00"
+    },
+    "https://dialeb.org/": {
+      "http_status": 200,
+      "bytes": 195887,
+      "sha256": "6845263a37288ae0e2d258f70c9cc11547b56ae691cf6e781a6b9c23c32b80e4",
+      "retrieved_utc": "2026-11-22T14:17:19.693811+00:00"
+    },
+    "https://dialeb.org/?s=cholesterol": {
+      "http_status": 200,
+      "bytes": 195923,
+      "sha256": "c50642f1a3a40b5b01219edde44cc3d1fec7ad1c7be05d9a1a2154b184d67509",
+      "retrieved_utc": "2026-11-22T14:19:11.771752+00:00"
+    },
+    "https://www.ufl.li/universitaet/organisation": {
+      "http_status": 200,
+      "bytes": 84678,
+      "sha256": "eddf086ac2c5b67dd6a6b5876acb067cc2f32ddb883c27b04316dd922d9381ab",
+      "retrieved_utc": "2026-11-22T14:17:19.732118+00:00"
+    },
+    "https://www.ald.lu/": {
+      "http_status": 200,
+      "bytes": 34147,
+      "sha256": "c3c81ba41b72f91d4ce7ef359f1a7cb54c1a7b600ec031acc2085519a48e9edb",
+      "retrieved_utc": "2026-11-22T14:17:19.417182+00:00"
+    },
+    "https://www.ald.lu/?s=cholest%C3%A9rol": {
+      "http_status": 200,
+      "bytes": 34147,
+      "sha256": "e453adc5b36135e80fd28a96cb3bcba9b215a8886598a57c2d57f5b4cf8f1fe0",
+      "retrieved_utc": "2026-11-22T14:19:11.717148+00:00"
+    },
+    "https://fmdiabetes.org": {
+      "http_status": 200,
+      "bytes": 192309,
+      "sha256": "f477fbafe233f7927dc733c2911ac6d1fbd52f792412cd6e97980f91423d6079",
+      "retrieved_utc": "2026-11-22T14:17:18.951893+00:00"
+    },
+    "https://fmdiabetes.org/?s=colesterol": {
+      "http_status": 200,
+      "bytes": 133257,
+      "sha256": "4b72779deb79b8425addb7e0082fcb7eed3beabf3d04c80dce61cf4265805a12",
+      "retrieved_utc": "2026-11-22T14:19:11.919296+00:00"
+    },
+    "https://fmdiabetes.org/colesterol-trigliceridos-mexico/": {
+      "http_status": 200,
+      "bytes": 165825,
+      "sha256": "ad4afe409490022e5f7e1569d21eea0457e67a873f9af0f3d4ed04bc5576e986",
+      "retrieved_utc": "2026-11-22T14:19:33.007176+00:00"
+    },
+    "https://dijabetesekipadob.com/o-nama/": {
+      "http_status": 200,
+      "bytes": 83427,
+      "sha256": "11df0b97bf38d5acee94ddc50decac7b7cad881a8b0ee28db12a6f8dabc17d3f",
+      "retrieved_utc": "2026-11-22T14:17:21.604388+00:00"
+    },
+    "https://uecg.me/": {
+      "http_status": 200,
+      "bytes": 80535,
+      "sha256": "698603d9ee3e6dfb4dc1844bc7a3b79c5e188ebd100e023a6c1a9a3e3933ae35",
+      "retrieved_utc": "2026-11-22T14:17:20.900663+00:00"
+    },
+    "https://uecg.me/?s=holesterol": {
+      "http_status": 200,
+      "bytes": 63327,
+      "sha256": "c3807fa9b110dd068f36399c0b972a16540f0d416c0ad51f6d7858eef312d1c3",
+      "retrieved_utc": "2026-11-22T14:19:12.927576+00:00"
+    },
+    "https://omandiabetes.org/": {
+      "http_status": 200,
+      "bytes": 158817,
+      "sha256": "726a0a7088614474f40013d0d279f12b2d0a53c39649b1e1843cd783cc097c26",
+      "retrieved_utc": "2026-11-22T14:17:19.694811+00:00"
+    },
+    "https://omandiabetes.org/?s=cholesterol": {
+      "http_status": 200,
+      "bytes": 133784,
+      "sha256": "42da98f42af35f7267807c7fea3821560b620ff90fb3b5df667e0cb9796c98eb",
+      "retrieved_utc": "2026-11-22T14:19:20.469469+00:00"
+    },
+    "https://www.pccarib.com/zorgaanbod": {
+      "http_status": 200,
+      "bytes": 17935,
+      "sha256": "9b52a00bea7d2d38d92ba8d76c425c4268f807b159afa976ce7faa8eeb3b6ae8",
+      "retrieved_utc": "2026-11-22T13:58:19.228105+00:00"
+    },
+    "https://www.dap.org.pk/Publications/ClinicalGuidelines": {
+      "http_status": 200,
+      "bytes": 64613,
+      "sha256": "f0fab49af551de2bed2e24ff423a918465607ee3adbd905bad9ae3927c639a5f",
+      "retrieved_utc": "2026-11-22T14:17:20.416820+00:00"
+    },
+    "https://www.dap.org.pk/?s=cholesterol": {
+      "http_status": 200,
+      "bytes": 97694,
+      "sha256": "3e1b243a2a94200cc4439deb75fb0d24e072fa399a9f1a002f45a686e85187e4",
+      "retrieved_utc": "2026-11-22T14:19:12.786946+00:00"
+    },
+    "https://endoperu.com": {
+      "http_status": 200,
+      "bytes": 370295,
+      "sha256": "41cd64023969e5a129bd17f4daf10b6f37c592e2f5b39a60e8edb9162746b2a0",
+      "retrieved_utc": "2026-11-22T14:17:33.859985+00:00"
+    },
+    "https://endoperu.com/?s=dislipidemia": {
+      "http_status": 200,
+      "bytes": 211221,
+      "sha256": "12840999448f630cbd81f3ba84cbbeead4c6b09a6a3cee3dbda876cac6e91855",
+      "retrieved_utc": "2026-11-22T14:19:13.550930+00:00"
+    },
+    "https://sosecar.sn/": {
+      "http_status": 200,
+      "bytes": 89145,
+      "sha256": "7427a8a547ac45aa8eabeda293ac154c1eb46aac68ba007095597371a6c0f145",
+      "retrieved_utc": "2026-11-22T14:17:20.185973+00:00"
+    },
+    "https://sosecar.sn/?s=cholest%C3%A9rol": {
+      "http_status": 200,
+      "bytes": 89099,
+      "sha256": "bc7366da0d3e669cdd9fc326460c70a4b76516564f07b3bc2a1e25f0ce10ebb2",
+      "retrieved_utc": "2026-11-22T14:19:12.564158+00:00"
+    },
+    "https://www.diabetes.org.sg": {
+      "http_status": 200,
+      "bytes": 347170,
+      "sha256": "a0433222ae8331e9c3815c313ce84edf9d881c6a3c1836dc8de21a31fa3bb033",
+      "retrieved_utc": "2026-11-22T14:17:22.542198+00:00"
+    },
+    "https://www.diabetes.org.sg/?s=cholesterol": {
+      "http_status": 200,
+      "bytes": 199000,
+      "sha256": "66ea0b517bd887f221bb815b54a2f0211caed1b25451a449fa51b2e4c6b694df",
+      "retrieved_utc": "2026-11-22T14:19:15.912564+00:00"
+    },
+    "https://www.semdsa.org.za": {
+      "http_status": 200,
+      "bytes": 356828,
+      "sha256": "cad6d4426a2a307dcc42b2152e541df26e32800248a4dd295bd25418a68bf3d4",
+      "retrieved_utc": "2026-11-22T14:17:22.654053+00:00"
+    },
+    "https://www.semdsa.org.za/?s=lipid": {
+      "http_status": 200,
+      "bytes": 356828,
+      "sha256": "52665c228336485728ab89f21573125ba7d88dfb01ad26598e618586117142b8",
+      "retrieved_utc": "2026-11-22T14:19:15.771122+00:00"
+    },
+    "https://www.damascusuniversity.edu.sy/faculties/med/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:17:27.751081+00:00"
+    },
+    "https://socarb.org/": {
+      "http_status": 200,
+      "bytes": 69346,
+      "sha256": "120402014a414dd6e9ee725e05be2ed585a7389bc8a92f8767a0ee6972cc4fdc",
+      "retrieved_utc": "2026-11-22T14:17:20.803412+00:00"
+    },
+    "https://socarb.org/?s=cholest%C3%A9rol": {
+      "http_status": 200,
+      "bytes": 69346,
+      "sha256": "48ec2ffa3be90d954795653a5252bc45b492e5c14a549951e41755d419f86df8",
+      "retrieved_utc": "2026-11-22T14:19:13.298839+00:00"
+    },
+    "https://suc.org.uy/": {
+      "http_status": 200,
+      "bytes": 45933,
+      "sha256": "6c0cc5d3db0f5d69aa6e841e498d7b5acf0599f38d7c3a46014b60e760da9c94",
+      "retrieved_utc": "2026-11-22T14:17:21.654390+00:00"
+    },
+    "https://suc.org.uy/?s=colesterol": {
+      "http_status": 200,
+      "bytes": 45957,
+      "sha256": "47c0218dec240e3d2f9b8e4cd89387e4e2e4ab92280a9aadb495cb5e200dcce2",
+      "retrieved_utc": "2026-11-22T14:19:13.986315+00:00"
+    },
+    "https://natendo.uz/": {
+      "http_status": 200,
+      "bytes": 95074,
+      "sha256": "3a0c88d810f85027e0e6490f15828604c1839be6666ee2ed0210595f6a959eeb",
+      "retrieved_utc": "2026-11-22T14:17:23.094107+00:00"
+    },
+    "https://natendo.uz/?s=%D1%85%D0%BE%D0%BB%D0%B5%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%BD": {
+      "http_status": 200,
+      "bytes": 95580,
+      "sha256": "7c14bac10ef01ace4b56483bc0403a593358672cabf1e215b287abb0d2ab3385",
+      "retrieved_utc": "2026-11-22T14:19:13.880110+00:00"
+    },
+    "https://simr.ws/": {
+      "http_status": 200,
+      "bytes": 8619,
+      "sha256": "037dd0026992649ffcde2078a81fbd16b429d0cfd773a71b61b433c6cbe04a23",
+      "retrieved_utc": "2026-11-22T14:17:20.756469+00:00"
+    },
+    "https://simr.ws/?s=cholesterol": {
+      "http_status": 200,
+      "bytes": 8619,
+      "sha256": "2f58ff574ff0fbaf5ad4ac3d668a5be57e266df120d092d62e6dee2456db4544",
+      "retrieved_utc": "2026-11-22T14:19:13.397917+00:00"
+    }
+  }
+}

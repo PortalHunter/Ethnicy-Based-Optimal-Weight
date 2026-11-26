@@ -1,0 +1,98 @@
+{
+  "originals": [
+    {
+      "key": "MY_HTN_ABSTRACT2025",
+      "url": "https://congress2025.msh.my/abstract/A2BD1F2",
+      "checked_on": "2026-11-19T16:55:03.423791+00:00",
+      "final_url": "https://congress2025.msh.my/abstract/A2BD1F2",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "d309876a345db9519ab32758d98368fed40ac539f33e584d49233cbb0361eac4",
+      "bytes": 35271,
+      "path": "/tmp/atlas-team-b-originals/MY_HTN_ABSTRACT2025.bin",
+      "pdf": false
+    },
+    {
+      "key": "MY_LIP2023",
+      "url": "https://www.malaysianheart.org/management.file/doc/202312237439134019.pdf",
+      "checked_on": "2026-11-19T16:55:03.424022+00:00",
+      "final_url": "https://www.malaysianheart.org/management.file/doc/202312237439134019.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "5671aac1f4f9eeff47203208ef66a36db5fc2e285ebc105e2aed82bec366c981",
+      "bytes": 15892183,
+      "path": "/tmp/atlas-team-b-originals/MY_LIP2023.bin",
+      "pdf": true
+    },
+    {
+      "key": "MY_NHAM_ID",
+      "url": "https://www.malaysianheart.org/about-us",
+      "checked_on": "2026-11-19T16:55:03.424282+00:00",
+      "final_url": "https://www.malaysianheart.org/about-us",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "4d0c7ac82f5b899e288a027b7d6e657b01ed819e2800772a9d5417b478e48038",
+      "bytes": 21901,
+      "path": "/tmp/atlas-team-b-originals/MY_NHAM_ID.bin",
+      "pdf": false
+    },
+    {
+      "key": "FR_GOUT_REVIEW2026",
+      "url": "https://www.larhumatologie.fr/actualite/goutte-un-traitement-hypouricemiant-maintenu-a-la-cible-permet-une-disparition-effective-des-depots-uratiques-et-une-reduction-des-acces-aigus/",
+      "checked_on": "2026-11-19T16:55:46.181271+00:00",
+      "final_url": "https://www.larhumatologie.fr/actualite/goutte-un-traitement-hypouricemiant-maintenu-a-la-cible-permet-une-disparition-effective-des-depots-uratiques-et-une-reduction-des-acces-aigus/",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "d0585a5b3fbeff4c44390410703cd4423d812d6f294016d24440edacad33bd1b",
+      "bytes": 335236,
+      "path": "/tmp/atlas-team-b-originals/FR_GOUT_REVIEW2026.bin",
+      "pdf": false
+    },
+    {
+      "key": "MY_CPG_PAGE2",
+      "url": "https://mems.my/endocrine-guideline/?_page=2",
+      "checked_on": "2026-11-19T16:51:49.648237+00:00",
+      "final_url": "https://mems.my/endocrine-guideline/?_page=2",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "59400b855fe0ee8665f61d1b3d2e7c495f8777b6d1a85b9dfd8f89c81aafab1f",
+      "bytes": 77639,
+      "path": "/tmp/atlas-team-b-originals/MY_CPG_PAGE2.bin",
+      "pdf": false
+    },
+    {
+      "key": "LK_PATIENT_NAV",
+      "url": "https://rheumatology.org.lk/all-information-for-patients/",
+      "checked_on": "2026-11-19T16:51:49.648675+00:00",
+      "final_url": "https://rheumatology.org.lk/all-information-for-patients/",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "3ffeb2a66850cc0b3bcab7409b807cf97b4ae940354e37353448cd972a499a7d",
+      "bytes": 237011,
+      "path": "/tmp/atlas-team-b-originals/LK_PATIENT_NAV.bin",
+      "pdf": false
+    },
+    {
+      "key": "NLM_GLOBALHEART",
+      "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101584391",
+      "checked_on": "2026-11-19T16:51:49.648863+00:00",
+      "final_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101584391",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "4a084c5d006817696573d41caa81240b530eee0c195bd9f7badaf6627755c764",
+      "bytes": 51483,
+      "path": "/tmp/atlas-team-b-originals/NLM_GLOBALHEART.bin",
+      "pdf": false
+    },
+    {
+      "key": "MY_NHAM_HISTORY",
+      "url": "https://www.malaysianheart.org/about-nham/history",
+      "checked_on": "2026-11-19T16:56:39.763114+00:00",
+      "final_url": "https://www.malaysianheart.org/about-nham/history",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "e57da4c02ffa851326e6b3c4252cd0e0d7317248a75acea1c3f8156723a1a197",
+      "bytes": 33968,
+      "path": "/tmp/atlas-team-b-originals/MY_NHAM_HISTORY.bin",
+      "pdf": false
+    }
+  ],
+  "nonqualifications": [
+    "Sri Lankan rheumatology.lk is separate appointment/clinic site, not attributed to existing rheumatology.org.lk college.",
+    "MY_NHAM_ID /about-us returns template URL-does-not-exist; exact own /about-nham/history provides actual identity. Error template not treated as original history.",
+    "Malaysia2019 glucose-focused practical guide passing BP/lipid case variables do not qualify condition cells;2023 actual NHAM original and MSH full abstract do."
+  ],
+  "limits": "No full copyrighted PDF bodies, authenticated download URLs or connector account metadata uploaded."
+}

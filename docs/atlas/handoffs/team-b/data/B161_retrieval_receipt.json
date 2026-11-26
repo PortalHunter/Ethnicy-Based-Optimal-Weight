@@ -1,0 +1,744 @@
+{
+  "batch": "B161",
+  "date": "2026-11-22",
+  "receipts": {
+    "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific": {
+      "http_status": 200,
+      "bytes": 58935,
+      "sha256": "38d060ead7f1df7b28fc2406c7852c20b1261e99023af02cc22b702c45935ab9",
+      "retrieved_utc": "2026-11-22T14:14:06.005473+00:00"
+    },
+    "https://worldgastroenterology.org/membership/current-members/regional-affiliate-associations/africa-middle-east": {
+      "http_status": 200,
+      "bytes": 67553,
+      "sha256": "79e60f943f5af079848df6006424cf333b038123b3bc36949721560e5c31755e",
+      "retrieved_utc": "2026-11-22T14:14:06.218693+00:00"
+    },
+    "https://worldgastroenterology.org/membership/regional-affiliate-associations/americas": {
+      "http_status": 200,
+      "bytes": 61833,
+      "sha256": "eca20cc2fb1108049bd6d52eb41ab8202d96f90b6b8e7d4752be57d239d269a5",
+      "retrieved_utc": "2026-11-22T14:14:06.139236+00:00"
+    },
+    "https://worldgastroenterology.org/membership/regional-affiliate-associations/europe": {
+      "http_status": 200,
+      "bytes": 70207,
+      "sha256": "42b718e4b5ed56b53ea5c92123b0a50ffc3ef2a4b646f30404158d4826f108f0",
+      "retrieved_utc": "2026-11-22T14:14:06.166879+00:00"
+    },
+    "https://www.sahgeed.com": {
+      "http_status": 200,
+      "bytes": 110214,
+      "sha256": "7c9980fa0cdb7656bdee0704e9e1435aafcdb64e5f38a435489e1e98fd8e57dc",
+      "retrieved_utc": "2026-11-22T14:22:54.607191+00:00"
+    },
+    "https://www.sahgeed.com/?s=lactose": {
+      "http_status": 200,
+      "bytes": 110214,
+      "sha256": "7c9980fa0cdb7656bdee0704e9e1435aafcdb64e5f38a435489e1e98fd8e57dc",
+      "retrieved_utc": "2026-11-22T14:23:45.625001+00:00"
+    },
+    "https://glutenfree.ba/": {
+      "http_status": 200,
+      "bytes": 151190,
+      "sha256": "1987edff270cd1d9c8c818f91e27a15ec3ddb705bcc8e90054135d88f231817a",
+      "retrieved_utc": "2026-11-22T14:22:40.584318+00:00"
+    },
+    "https://glutenfree.ba/?s=laktoza": {
+      "http_status": 200,
+      "bytes": 115450,
+      "sha256": "610c5dec60c8206d6ab097956f3a92208d91957980a2898e8f0bad914fb460ed",
+      "retrieved_utc": "2026-11-22T14:23:48.684196+00:00"
+    },
+    "https://www.bsg.bg": {
+      "http_status": 200,
+      "bytes": 49624,
+      "sha256": "0bb2756d993db608815929a931e231b0023c3d2f53403a6149727993b7da7b4e",
+      "retrieved_utc": "2026-11-22T14:22:51.887192+00:00"
+    },
+    "https://www.bsg.bg/?s=%D0%BB%D0%B0%D0%BA%D1%82%D0%BE%D0%B7%D0%B0": {
+      "http_status": 200,
+      "bytes": 49669,
+      "sha256": "6255da212879cccfe5d65caf62eb62788c4434563ce0e2b60a83de0e2519120b",
+      "retrieved_utc": "2026-11-22T14:23:45.112601+00:00"
+    },
+    "https://www.mgls.asia/index.php/en/": {
+      "http_status": 404,
+      "bytes": 55975,
+      "sha256": "ca0e993d27b70dada0982d48af91bec3906c19675294a9283b1e40062d734f33",
+      "retrieved_utc": "2026-11-22T14:22:52.303385+00:00"
+    },
+    "https://slsg.lk/eng/index.php/en/": {
+      "http_status": 404,
+      "bytes": 178823,
+      "sha256": "db4dadabd2019d0a3930929e52d727a633c0b6200fdeca9698bd0fa86755773e",
+      "retrieved_utc": "2026-11-22T14:22:51.880120+00:00"
+    },
+    "https://slsg.lk/?s=lactose": {
+      "http_status": 200,
+      "bytes": 179171,
+      "sha256": "69a77811b3ce990b369a3ff43b52c6b783f48727495e70f10e6fbe5334ed3301",
+      "retrieved_utc": "2026-11-22T14:23:47.973859+00:00"
+    },
+    "https://slsg.lk/": {
+      "http_status": 200,
+      "bytes": 309759,
+      "sha256": "143206edbf5bf7d35b22bb49b6f2b50aba844d2750416a53109561200ac614a9",
+      "retrieved_utc": "2026-11-22T14:09:08.709908+00:00"
+    },
+    "https://www.csge.org.cn": {
+      "http_status": 200,
+      "bytes": 824,
+      "sha256": "04c812741271f7f9aa4cc41bc409d21b0ceb0e953d3430265a73cbaa1856b4dd",
+      "retrieved_utc": "2026-11-22T14:22:52.954476+00:00"
+    },
+    "https://www.gastroenterologoscr.com": {
+      "http_status": 202,
+      "bytes": 169,
+      "sha256": "3f351e58e0853088c2d59fc8c9d292ec2401e1a09f4f87212a52c1ac1eba11cc",
+      "retrieved_utc": "2026-11-22T14:22:49.757975+00:00"
+    },
+    "https://acopecr.com/": {
+      "http_status": 200,
+      "bytes": 120185,
+      "sha256": "f9d3f91a700f6512a82460e000183f406943272fb7e14658e8a6de39147ea24f",
+      "retrieved_utc": "2026-11-22T14:22:30.898867+00:00"
+    },
+    "https://acopecr.com/?s=lactosa": {
+      "http_status": 200,
+      "bytes": 78082,
+      "sha256": "ca2e0dca72716818dd9e1eb6c508d406f671c46321041eb3a75a1152b2070e41",
+      "retrieved_utc": "2026-11-22T14:23:52.492277+00:00"
+    },
+    "https://www.hgd.hr": {
+      "http_status": 200,
+      "bytes": 82517,
+      "sha256": "e66692767730a0853a2728bef921c996a0f6282ff82b833a40918f986b1b5cb0",
+      "retrieved_utc": "2026-11-22T14:22:50.182573+00:00"
+    },
+    "https://www.hgd.hr/?s=laktoza": {
+      "http_status": 200,
+      "bytes": 82532,
+      "sha256": "db486edbd76d27597a446b343b1257ab31a05294e4e567b6f98737c96595edb8",
+      "retrieved_utc": "2026-11-22T14:23:43.635605+00:00"
+    },
+    "https://www.celijakija.hr/": {
+      "http_status": 200,
+      "bytes": 8190,
+      "sha256": "cb65c7a4a8e6a61f1868f7dbd80d8b256c196ebf291dd37ace376ad80b9015e6",
+      "retrieved_utc": "2026-11-22T14:22:31.463658+00:00"
+    },
+    "https://celivita.hr/": {
+      "http_status": 200,
+      "bytes": 205542,
+      "sha256": "cc2d0aa6583a10c65d5dfcf621e8579208f4cb294ba797b452d11d30c311e090",
+      "retrieved_utc": "2026-11-22T14:22:31.802295+00:00"
+    },
+    "https://celivita.hr/?s=laktoza": {
+      "http_status": 200,
+      "bytes": 138965,
+      "sha256": "9480fb75a39434cb219cec50b7d7d8737427c15dcd72a542f891b36b60209a81",
+      "retrieved_utc": "2026-11-22T14:23:49.212868+00:00"
+    },
+    "https://www.sld.cu/sitios/gastroenterologia/": {
+      "http_status": 502,
+      "bytes": 568,
+      "sha256": "7921a6035cc8a0981a5dee737dd3d29b150ddd48407717d3fca4b6376f2b0e70",
+      "retrieved_utc": "2026-11-22T14:23:24.667191+00:00"
+    },
+    "https://www.sodogastro.com": {
+      "http_status": 200,
+      "bytes": 584,
+      "sha256": "183ec7d92a1ab44e1a4c6f21519b7b67364df01768313e23222daee2323f56ac",
+      "retrieved_utc": "2026-11-22T14:22:52.810092+00:00"
+    },
+    "https://agedes.org": {
+      "http_status": 200,
+      "bytes": 59452,
+      "sha256": "0682ddbba999fe21d8a70b2d6a20eb3e505d1d0da49a029f9922bc37176379be",
+      "retrieved_utc": "2026-11-22T14:22:50.981889+00:00"
+    },
+    "https://agedes.org/?s=lactosa": {
+      "http_status": 200,
+      "bytes": 39070,
+      "sha256": "599cb253efce834221bc24b5c75994b5f57de86e6bd683822f35e00e10a54070",
+      "retrieved_utc": "2026-11-22T14:23:44.578800+00:00"
+    },
+    "https://www.psgastro.ps": {
+      "http_status": 200,
+      "bytes": 175750,
+      "sha256": "58e7135a5298a91dd306a02f1629bae8f16d06f8e45294b8c877f67f5a1d6fc8",
+      "retrieved_utc": "2026-11-22T14:22:54.315041+00:00"
+    },
+    "https://www.psgastro.ps/?s=lactose": {
+      "http_status": 200,
+      "bytes": 145479,
+      "sha256": "b68ac596ebe88e19ee766639c62b9df42d965569ceadbddb5a416d6694013d3b",
+      "retrieved_utc": "2026-11-22T14:23:44.668355+00:00"
+    },
+    "https://www.hsg.gr": {
+      "http_status": 200,
+      "bytes": 194052,
+      "sha256": "dac569fa38732d0560da3938e4fdee2e32b0df43fc78528cec1a0d6a0905da47",
+      "retrieved_utc": "2026-11-22T14:22:55.423622+00:00"
+    },
+    "https://www.hsg.gr/?s=%CE%BB%CE%B1%CE%BA%CF%84%CF%8C%CE%B6%CE%B7": {
+      "http_status": 200,
+      "bytes": 117577,
+      "sha256": "bcbd3e41ce3bb031ce05816c3b3b84caab785e64f10f3f56c9ee194b73658040",
+      "retrieved_utc": "2026-11-22T14:23:47.749207+00:00"
+    },
+    "https://www.koiliokaki.com/coeliac_disease/": {
+      "http_status": 200,
+      "bytes": 132823,
+      "sha256": "ebe25c9b8b04b307f3d7080e42daa3d25bd2548daba38763271c4a6fcb63e7f9",
+      "retrieved_utc": "2026-11-22T14:22:33.311183+00:00"
+    },
+    "https://www.koiliokaki.com/?s=%CE%BB%CE%B1%CE%BA%CF%84%CF%8C%CE%B6%CE%B7": {
+      "http_status": 200,
+      "bytes": 122376,
+      "sha256": "71b8897467ec243dc8b3f327b0c14039f22eb24e8f14c55da2c55e0fa5473909",
+      "retrieved_utc": "2026-11-22T14:23:50.033635+00:00"
+    },
+    "https://www.guategastro.com/": {
+      "http_status": 200,
+      "bytes": 114,
+      "sha256": "6dc9c7fc93bb488bb0520a6c780a8d3c0fb5486a4711aca49b4c53fac7393023",
+      "retrieved_utc": "2026-11-22T14:22:30.759714+00:00"
+    },
+    "https://mgtiroda.hu/": {
+      "http_status": 200,
+      "bytes": 142502,
+      "sha256": "b4a8a245097c8a36c30df44fa3e0753faf06b8a7e6822cd0cb8411ab346e7594",
+      "retrieved_utc": "2026-11-22T14:22:32.141843+00:00"
+    },
+    "https://mgtiroda.hu/?s=lakt%C3%B3z": {
+      "http_status": 200,
+      "bytes": 76723,
+      "sha256": "b8676f2080dafa41a818df0f9ca148d1e5164d907d1cad30daba170f70cd9355",
+      "retrieved_utc": "2026-11-22T14:23:50.151371+00:00"
+    },
+    "https://coeliakia.hu/rolunk/": {
+      "http_status": 200,
+      "bytes": 47046,
+      "sha256": "97f51a073a6b88e7aa9f5d673f9810be25ac2a573f31e561604722b5ca3a89a7",
+      "retrieved_utc": "2026-11-22T14:22:30.985558+00:00"
+    },
+    "https://coeliakia.hu/?s=lakt%C3%B3z": {
+      "http_status": 200,
+      "bytes": 47630,
+      "sha256": "4c9c5d2f455e34aa45b1cbb9f68f21a764eb9355a56ca5f32dfda071fcef7b31",
+      "retrieved_utc": "2026-11-22T14:23:46.820587+00:00"
+    },
+    "https://coeliakia.hu/cukorbeteg-laktoz-vagy-glutenerzekeny-82-800-ft-jarhat-onnek/": {
+      "http_status": 200,
+      "bytes": 47960,
+      "sha256": "ed848a74fe194de0e6af98108198ab73434bd01ab12be6081dd6fac78e0895e8",
+      "retrieved_utc": "2026-11-22T14:24:07.250552+00:00"
+    },
+    "https://gluten.is/": {
+      "http_status": 403,
+      "bytes": 3108,
+      "sha256": "92c8c04dbef724f6bd46a32df4af05e4bd805986cee295df1f454936cfb75115",
+      "retrieved_utc": "2026-11-22T14:22:30.280838+00:00"
+    },
+    "https://www.iagh.org": {
+      "http_status": 200,
+      "bytes": 36093,
+      "sha256": "2967b48b51954dace22b716c52ae6436356b4c571e454f15a95ef28d6aa7f2fa",
+      "retrieved_utc": "2026-11-22T14:22:53.245904+00:00"
+    },
+    "https://www.iagh.org/?s=lactose": {
+      "http_status": 200,
+      "bytes": 36093,
+      "sha256": "2967b48b51954dace22b716c52ae6436356b4c571e454f15a95ef28d6aa7f2fa",
+      "retrieved_utc": "2026-11-22T14:23:44.893142+00:00"
+    },
+    "https://www.iraq-git.com/isgh/": {
+      "http_status": 200,
+      "bytes": 10313,
+      "sha256": "66cfe16b1472a9120856342ae26ec6d89e0152699eeca7aba9e90b68c98e2c32",
+      "retrieved_utc": "2026-11-22T14:22:52.393443+00:00"
+    },
+    "https://www.iraq-git.com/isgh/?s=lactose": {
+      "http_status": 200,
+      "bytes": 10313,
+      "sha256": "2dd18f6fe1a20a1ee486829e4e1a074138363d73bd9cc8584f5494e4214f1aea",
+      "retrieved_utc": "2026-11-22T14:23:49.841102+00:00"
+    },
+    "https://gastro.doctorsonly.co.il": {
+      "http_status": 403,
+      "bytes": 5617,
+      "sha256": "6140d704e7fe25105f04289528510f39c44899f1dd68e1ec98d7a8ac47a99ecf",
+      "retrieved_utc": "2026-11-22T14:22:49.564679+00:00"
+    },
+    "https://celiacrights.org.il/": {
+      "http_status": 200,
+      "bytes": 120904,
+      "sha256": "9ac0ad5d429b8d07115deff69cae05d1f81ec8528c52696803803fd5433dc61a",
+      "retrieved_utc": "2026-11-22T14:09:41.954140+00:00"
+    },
+    "https://celiacrights.org.il/?s=%D7%9C%D7%A7%D7%98%D7%95%D7%96": {
+      "http_status": 200,
+      "bytes": 78821,
+      "sha256": "432a995936bf502c72cbecde0fbfd1ec06e48ff42c417821e00ff9a297ad763d",
+      "retrieved_utc": "2026-11-22T14:23:48.090881+00:00"
+    },
+    "https://www.awigcaribbean.org/": {
+      "http_status": 200,
+      "bytes": 1776320,
+      "sha256": "7242d43ec67f7a61c4ab550cf0275e9a5ba58b9bcca03e434ea9a0eb9844183d",
+      "retrieved_utc": "2026-11-22T14:22:30.541582+00:00"
+    },
+    "https://www.awigcaribbean.org/?s=lactose": {
+      "http_status": 200,
+      "bytes": 1777346,
+      "sha256": "5072874e92e6762406021a9f43ee0c52c2f5a15c8bad34f882f536becdf8a9be",
+      "retrieved_utc": "2026-11-22T14:23:49.059026+00:00"
+    },
+    "https://thejsgh.com/": {
+      "http_status": 200,
+      "bytes": 85692,
+      "sha256": "ea30412b4b1e4f1efd96b88cf47259871b8ea4e1db1649f3f5d59eee7417b7ee",
+      "retrieved_utc": "2026-11-22T14:22:30.525467+00:00"
+    },
+    "https://thejsgh.com/?s=lactose": {
+      "http_status": 200,
+      "bytes": 85692,
+      "sha256": "ea30412b4b1e4f1efd96b88cf47259871b8ea4e1db1649f3f5d59eee7417b7ee",
+      "retrieved_utc": "2026-11-22T14:23:47.105186+00:00"
+    },
+    "https://www.gastrokorea.org": {
+      "http_status": 200,
+      "bytes": 36716,
+      "sha256": "0858a4b20ef2dd11c03e738b38c6f6fdc08a0b26a4afc40f8da9efe842de6129",
+      "retrieved_utc": "2026-11-22T14:22:52.416152+00:00"
+    },
+    "https://www.gastrokorea.org/?s=%EC%9C%A0%EB%8B%B9": {
+      "http_status": 200,
+      "bytes": 36059,
+      "sha256": "3fc42da1546cd0428f5194e8bfd05133df3c0c8bb3a14010acaca2b3d204c97f",
+      "retrieved_utc": "2026-11-22T14:23:45.506208+00:00"
+    },
+    "https://www.lsge.net/": {
+      "http_status": 200,
+      "bytes": 36483,
+      "sha256": "650d66653961a09aa44364690bcefa9767e19d0689520d393ad6b169c7d44ef6",
+      "retrieved_utc": "2026-11-22T14:22:32.071114+00:00"
+    },
+    "https://www.lsge.net/?s=lactose": {
+      "http_status": 200,
+      "bytes": 36483,
+      "sha256": "650d66653961a09aa44364690bcefa9767e19d0689520d393ad6b169c7d44ef6",
+      "retrieved_utc": "2026-11-22T14:23:48.558085+00:00"
+    },
+    "https://www.gastroenterologija.lt": {
+      "http_status": 200,
+      "bytes": 330420,
+      "sha256": "e7bd3d886048737104268377693c76f543acb245ae2f8bdb55c3c51c203277b6",
+      "retrieved_utc": "2026-11-22T14:22:52.513928+00:00"
+    },
+    "https://www.gastroenterologija.lt/?s=laktoz": {
+      "http_status": 200,
+      "bytes": 234786,
+      "sha256": "f758ab6547087ec96687707eec63743d8cd707a27df797a07253cc85b5481fba",
+      "retrieved_utc": "2026-11-22T14:23:44.452094+00:00"
+    },
+    "https://www.msgh.org.my": {
+      "http_status": 200,
+      "bytes": 24330,
+      "sha256": "fe71adaeea209db44fde32fd3aa98a1f4059fd9c681c8007b3a777519197204a",
+      "retrieved_utc": "2026-11-22T14:22:54.662099+00:00"
+    },
+    "https://www.sommad.ml": {
+      "http_status": 200,
+      "bytes": 186728,
+      "sha256": "e7b500b8ab668eedc99cebfb4512cb9bb43d2e42a6bb07bcb06aad9b14f60f8d",
+      "retrieved_utc": "2026-11-22T14:22:57.881034+00:00"
+    },
+    "https://www.sommad.ml/?s=lactose": {
+      "http_status": 200,
+      "bytes": 87497,
+      "sha256": "3589bb3afa199bc69810ad82453141425f3bb77d90d51f2c8b04a30cf546402f",
+      "retrieved_utc": "2026-11-22T14:23:46.969007+00:00"
+    },
+    "https://www.ugcg.me": {
+      "http_status": 200,
+      "bytes": 66790,
+      "sha256": "5fd6ee7e7e02a2edbc6447f9ac228ead29da9acd0818c6e87b606f986594b097",
+      "retrieved_utc": "2026-11-22T14:22:56.040020+00:00"
+    },
+    "https://www.ugcg.me/?s=laktoza": {
+      "http_status": 200,
+      "bytes": 66790,
+      "sha256": "c9ec536b48abcba4ec6462ab5a27c18ec1b4caeb68cead797db5b8647d52cbff",
+      "retrieved_utc": "2026-11-22T14:23:47.099990+00:00"
+    },
+    "https://www.smmad.net/": {
+      "http_status": 200,
+      "bytes": 889238,
+      "sha256": "a3555f8d027eb90220d97d39887cf0b52ccdd976cb8180fd1a055db52a1e854c",
+      "retrieved_utc": "2026-11-22T14:22:31.101277+00:00"
+    },
+    "https://www.smmad.net/?s=lactose": {
+      "http_status": 200,
+      "bytes": 888366,
+      "sha256": "949bd403167c417cfed29a7e4a5a7d034c5b0cfacf63eb633add6298c977df9c",
+      "retrieved_utc": "2026-11-22T14:23:49.111768+00:00"
+    },
+    "https://amiag.org/about.html": {
+      "http_status": 200,
+      "bytes": 8934,
+      "sha256": "19ea9996c0552bfe3781dc84dae5a8a007a420c87290de104abbcd64dae08cfc",
+      "retrieved_utc": "2026-11-22T14:22:30.322186+00:00"
+    },
+    "https://www.omangastro.com/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:22:31.004623+00:00"
+    },
+    "https://www.soghin.org.ng": {
+      "http_status": 200,
+      "bytes": 193973,
+      "sha256": "51d997f3f7400fca5e59c58331e312cd462bf7cb0f45bb80492aa6566eff8eb8",
+      "retrieved_utc": "2026-11-22T14:22:55.075980+00:00"
+    },
+    "https://www.soghin.org.ng/?s=lactose": {
+      "http_status": 200,
+      "bytes": 130413,
+      "sha256": "f5374a364fa83be597d6d29b45d8b76aa8b0156ff1dca8c02584a313f4dc3dc4",
+      "retrieved_utc": "2026-11-22T14:23:44.998039+00:00"
+    },
+    "https://www.psgpak.org/": {
+      "http_status": 200,
+      "bytes": 256207,
+      "sha256": "39059e14ab88fe3899f5400c96c007ca719138c2d35a1d15b8f65ee0dacc0ee8",
+      "retrieved_utc": "2026-11-22T14:22:53.725200+00:00"
+    },
+    "https://www.psgpak.org/?s=lactose": {
+      "http_status": 200,
+      "bytes": 146399,
+      "sha256": "59fd4a9690b31fce5f0a61bae2fc2ad1535531535cee243bf95358c1d6330021",
+      "retrieved_utc": "2026-11-22T14:23:45.651497+00:00"
+    },
+    "https://www.karachiceliacsociety.org/": {
+      "http_status": 200,
+      "bytes": 1171073,
+      "sha256": "12a3e7bec6aed64562df2a859c1ba1aec39e4f2b174d121cbe074204afffd89a",
+      "retrieved_utc": "2026-11-22T14:22:31.339223+00:00"
+    },
+    "https://www.karachiceliacsociety.org/?s=lactose": {
+      "http_status": 200,
+      "bytes": 1171073,
+      "sha256": "12a3e7bec6aed64562df2a859c1ba1aec39e4f2b174d121cbe074204afffd89a",
+      "retrieved_utc": "2026-11-22T14:23:47.990059+00:00"
+    },
+    "https://gastropanamaorg.com/": {
+      "http_status": 202,
+      "bytes": 169,
+      "sha256": "f839ed066e5c6c1fba7fe4d6a259450db112e1d218a2f139946b4c8cfb9e3e73",
+      "retrieved_utc": "2026-11-22T14:22:30.356944+00:00"
+    },
+    "https://celiacospanama.org/": {
+      "http_status": 202,
+      "bytes": 169,
+      "sha256": "6dad66080a227138342dd51d3894c880f2ff825c4a527baffd1833a0f0351a63",
+      "retrieved_utc": "2026-11-22T14:22:30.453956+00:00"
+    },
+    "https://www.spge.org.py/": {
+      "http_status": 200,
+      "bytes": 185919,
+      "sha256": "4bcf09ebc2aebb524e5b4cba3b0a5586cf13c932f05d71265e1a11f24e362fd1",
+      "retrieved_utc": "2026-11-22T14:22:54.228712+00:00"
+    },
+    "https://www.spge.org.py/?s=lactosa": {
+      "http_status": 200,
+      "bytes": 122532,
+      "sha256": "6cf167d3b03cb89d6d5d0f3767da354228eb5c208a02c5aa98e671e0fbea8329",
+      "retrieved_utc": "2026-11-22T14:23:45.419123+00:00"
+    },
+    "https://fupacel.org.py/nosotros": {
+      "http_status": 200,
+      "bytes": 33221,
+      "sha256": "deb492222220c10c96a8025b0304debcb2a97769fc6daf12640757016b6828c3",
+      "retrieved_utc": "2026-11-22T14:22:30.316097+00:00"
+    },
+    "https://fupacel.org.py/?s=lactosa": {
+      "http_status": 200,
+      "bytes": 45202,
+      "sha256": "57f1e1032890241c028f528f75b6f428f6a087e3ab84a5c2fceceb6383ea658f",
+      "retrieved_utc": "2026-11-22T14:23:46.638214+00:00"
+    },
+    "https://www.psgastro.org": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:22:52.027194+00:00"
+    },
+    "https://psgastro.org/?s=lactose": {
+      "http_status": 200,
+      "bytes": 237835,
+      "sha256": "78e7007c6decae8f449263a6cb7829b54415eff69548190c89c20103edb5a207",
+      "retrieved_utc": "2026-11-22T14:23:49.516343+00:00"
+    },
+    "https://www.prgastro.org": {
+      "http_status": 200,
+      "bytes": 29394,
+      "sha256": "211e94a754d615327cbf5d53d6ebf933df46bba7d95447a7768c4f9221ba9ef0",
+      "retrieved_utc": "2026-11-22T14:22:31.480597+00:00"
+    },
+    "https://www.prgastro.org/?s=lactosa": {
+      "http_status": 200,
+      "bytes": 107820,
+      "sha256": "769fb80b4b6c5c33d3296d1150406cb4f1ddbca413ede50318afc66964652a1e",
+      "retrieved_utc": "2026-11-22T14:23:48.493688+00:00"
+    },
+    "https://www.nogr.org": {
+      "http_status": 200,
+      "bytes": 255409,
+      "sha256": "881753a8452103aa9a1102b5d9f3a79676af0d4ad336262fb5ed6f05a29f9394",
+      "retrieved_utc": "2026-11-22T14:22:52.690457+00:00"
+    },
+    "https://www.nogr.org/?s=%D0%BB%D0%B0%D0%BA%D1%82%D0%B0%D0%B7": {
+      "http_status": 200,
+      "bytes": 255409,
+      "sha256": "881753a8452103aa9a1102b5d9f3a79676af0d4ad336262fb5ed6f05a29f9394",
+      "retrieved_utc": "2026-11-22T14:23:45.302267+00:00"
+    },
+    "https://www.gastro.ru/": {
+      "http_status": 200,
+      "bytes": 10467,
+      "sha256": "d66101080d42737df2acf5094859a2fe424b6718c88bd2d0575ff51347596e25",
+      "retrieved_utc": "2026-11-22T14:22:50.478059+00:00"
+    },
+    "https://www.gastro.ru/?s=%D0%BB%D0%B0%D0%BA%D1%82%D0%B0%D0%B7": {
+      "http_status": 200,
+      "bytes": 10505,
+      "sha256": "86d4eee1286efd07ba241a4d14dd172f55a56f586e1ff751786c61bb8dadf10d",
+      "retrieved_utc": "2026-11-22T14:23:49.422064+00:00"
+    },
+    "https://www.rwandascope.org": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:22:52.386161+00:00"
+    },
+    "https://www.saudigastro.com": {
+      "http_status": 200,
+      "bytes": 123391,
+      "sha256": "4363e213f1c8a7b981869c8910b6b8baaf08ab68e5d01fcd77f4f1dc1668212e",
+      "retrieved_utc": "2026-11-22T14:22:52.610346+00:00"
+    },
+    "https://www.saudigastro.com/?s=lactose": {
+      "http_status": 200,
+      "bytes": 123391,
+      "sha256": "4363e213f1c8a7b981869c8910b6b8baaf08ab68e5d01fcd77f4f1dc1668212e",
+      "retrieved_utc": "2026-11-22T14:23:43.776833+00:00"
+    },
+    "https://www.sosegh.org/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:22:53.140894+00:00"
+    },
+    "https://www.ugs.rs/": {
+      "http_status": 200,
+      "bytes": 175681,
+      "sha256": "b0a20c44308c993fb0e963a1255be1c13d6010d57d26f64c3ed5e521129d2eaa",
+      "retrieved_utc": "2026-11-22T14:22:54.434818+00:00"
+    },
+    "https://www.ugs.rs/?s=laktoza": {
+      "http_status": 200,
+      "bytes": 175681,
+      "sha256": "b0a20c44308c993fb0e963a1255be1c13d6010d57d26f64c3ed5e521129d2eaa",
+      "retrieved_utc": "2026-11-22T14:23:45.429188+00:00"
+    },
+    "https://celijakija.rs/": {
+      "http_status": 200,
+      "bytes": 37483,
+      "sha256": "f0a349170ed783be1d8ebcb47ff4e4b5997c17eee154181c4b20f30b8453167a",
+      "retrieved_utc": "2026-11-22T14:09:40.567419+00:00"
+    },
+    "https://celijakija.rs/?s=laktoza": {
+      "http_status": 200,
+      "bytes": 22694,
+      "sha256": "82faf638d587ed7e6fda13cbd36cab9b6c13870441a87e1f24f5971b16ca510d",
+      "retrieved_utc": "2026-11-22T14:23:47.740390+00:00"
+    },
+    "https://www.sgssls.sk/": {
+      "http_status": 401,
+      "bytes": 574,
+      "sha256": "ac38412ed28c45b501d15067c0996649d8488e2b2f2dbc53d122cba58a8f1f3b",
+      "retrieved_utc": "2026-11-22T14:22:52.877804+00:00"
+    },
+    "https://www.sges.sk/": {
+      "http_status": 200,
+      "bytes": 108767,
+      "sha256": "f06042ae0e984b9d3c12ff7a24f2edeb54b684a9227dc5e0a0de363d6ac41e58",
+      "retrieved_utc": "2026-11-22T14:12:29.516752+00:00"
+    },
+    "https://www.sges.sk/?s=lakt%C3%B3z": {
+      "http_status": 200,
+      "bytes": 108767,
+      "sha256": "6cd8d8b428d7c8c31864250ab1e8b0b3ebc21f727a4d695ef49973455e999a74",
+      "retrieved_utc": "2026-11-22T14:23:49.747874+00:00"
+    },
+    "https://vnage.vn/": {
+      "http_status": 200,
+      "bytes": 181516,
+      "sha256": "cbed353dcf6fa4b5ea5a5a92f79476a1f9a40e421bddcc645e5029ea082e68db",
+      "retrieved_utc": "2026-11-22T14:22:32.650220+00:00"
+    },
+    "https://vnage.vn/?s=lactose": {
+      "http_status": 200,
+      "bytes": 181516,
+      "sha256": "cbed353dcf6fa4b5ea5a5a92f79476a1f9a40e421bddcc645e5029ea082e68db",
+      "retrieved_utc": "2026-11-22T14:23:49.729251+00:00"
+    },
+    "https://www.gastrothai.net": {
+      "http_status": 200,
+      "bytes": 3541,
+      "sha256": "9bc56baff83860da52eddca8c04957250955986e5759d0d19611b4c17da807e2",
+      "retrieved_utc": "2026-11-22T14:22:53.063453+00:00"
+    },
+    "https://eghsuae.com": {
+      "http_status": 404,
+      "bytes": 906,
+      "sha256": "90c032f35272ba1a7aa93027ab635e6610d4f24cf9e53c0624d00f065d7c7e7d",
+      "retrieved_utc": "2026-11-22T14:22:49.710526+00:00"
+    },
+    "https://www.stge.org.tn": {
+      "http_status": 200,
+      "bytes": 71298,
+      "sha256": "c75dbdd5dceeb161d9a1fc349cfa9711a2ead6db4757dbf33279ff2ca7a023b8",
+      "retrieved_utc": "2026-11-22T14:22:54.425191+00:00"
+    },
+    "https://www.stge.org.tn/?s=lactose": {
+      "http_status": 200,
+      "bytes": 71298,
+      "sha256": "c75dbdd5dceeb161d9a1fc349cfa9711a2ead6db4757dbf33279ff2ca7a023b8",
+      "retrieved_utc": "2026-11-22T14:23:46.452036+00:00"
+    },
+    "https://www.tgd.org.tr": {
+      "http_status": 200,
+      "bytes": 266117,
+      "sha256": "50696b5b12bea3bbbd160461cbc8c57e29d188a7bc97ce86b7bac67730b5eb10",
+      "retrieved_utc": "2026-11-22T14:22:54.117091+00:00"
+    },
+    "https://www.tgd.org.tr/?s=laktoz": {
+      "http_status": 200,
+      "bytes": 138664,
+      "sha256": "576ba103e75990e2098f15e62d0bcd5291128d2001a1029419881cb7baa60818",
+      "retrieved_utc": "2026-11-22T14:23:46.709916+00:00"
+    },
+    "https://colyak.org.tr/": {
+      "http_status": 200,
+      "bytes": 78360,
+      "sha256": "9aa0f8bb0cd10a2f6ce500b98ebc916fbb3ebf612a60a291ade842f5f6bbc635",
+      "retrieved_utc": "2026-11-22T14:22:35.396314+00:00"
+    },
+    "https://colyak.org.tr/?s=laktoz": {
+      "http_status": 200,
+      "bytes": 54321,
+      "sha256": "2ed027da8a507902eb282087b90ffea59102e61817ed4d2ed6aaa672c2becf8b",
+      "retrieved_utc": "2026-11-22T14:23:51.129234+00:00"
+    },
+    "https://www.ukrgastro.com.ua": {
+      "http_status": 200,
+      "bytes": 53836,
+      "sha256": "5d36ecff75d5d6b50d3ba9bdd5392a27e78ab3ec66700d1d50f0767b0934e73a",
+      "retrieved_utc": "2026-11-22T14:22:55.439320+00:00"
+    },
+    "https://www.ukrgastro.com.ua/?s=%D0%BB%D0%B0%D0%BA%D1%82%D0%BE%D0%B7": {
+      "http_status": 200,
+      "bytes": 53836,
+      "sha256": "6515a652f317d39062501056eb7111ac050d41e40d78033272f5367182e37b97",
+      "retrieved_utc": "2026-11-22T14:23:46.420081+00:00"
+    },
+    "https://celiac.org.ua/": {
+      "http_status": 200,
+      "bytes": 36959,
+      "sha256": "4b3b6673b2ad24634024ea64a9ed9534fa9c808279b1eb7e192c4393c6fe474f",
+      "retrieved_utc": "2026-11-22T14:22:30.962850+00:00"
+    },
+    "https://celiac.org.ua/?s=%D0%BB%D0%B0%D0%BA%D1%82%D0%BE%D0%B7": {
+      "http_status": 200,
+      "bytes": 36960,
+      "sha256": "c2f752cfb08e48cf2937ebd89af6ae4735bc3cbb2df885219a68f56dbc1bdb94",
+      "retrieved_utc": "2026-11-22T14:23:46.518790+00:00"
+    },
+    "https://www.gastro.mk": {
+      "http_status": 200,
+      "bytes": 102949,
+      "sha256": "edcfa7d2f36e9749e3623689e7d2b7406e4928c29624596a9610df7fd3ca7b9b",
+      "retrieved_utc": "2026-11-22T14:22:50.912998+00:00"
+    },
+    "https://www.gastro.mk/?s=%D0%BB%D0%B0%D0%BA%D1%82%D0%BE%D0%B7%D0%B0": {
+      "http_status": 200,
+      "bytes": 104522,
+      "sha256": "66b243c14db49d6a02af10ceb96916431436afdc2362765cbf738d414c53d452",
+      "retrieved_utc": "2026-11-22T14:23:45.074346+00:00"
+    },
+    "https://www.earth-eg.org": {
+      "http_status": 200,
+      "bytes": 71284,
+      "sha256": "90e5313cf0ebdca6f91c3b62cd136827ee42029af59fc0ffdc40157ae7e4e8e5",
+      "retrieved_utc": "2026-11-22T14:22:50.489328+00:00"
+    },
+    "https://www.earth-eg.org/?s=lactose": {
+      "http_status": 200,
+      "bytes": 71284,
+      "sha256": "90e5313cf0ebdca6f91c3b62cd136827ee42029af59fc0ffdc40157ae7e4e8e5",
+      "retrieved_utc": "2026-11-22T14:23:43.540152+00:00"
+    },
+    "https://www.easgld.org": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:22:49.544722+00:00"
+    },
+    "https://www.sgu.org.uy": {
+      "http_status": 200,
+      "bytes": 121776,
+      "sha256": "c0a68fef9a65a11d500f667fac4f83b3a2f3eb4aecc1e7e8a3cb0976d124c320",
+      "retrieved_utc": "2026-11-22T14:22:54.273993+00:00"
+    },
+    "https://www.sgu.org.uy/?s=lactosa": {
+      "http_status": 200,
+      "bytes": 97586,
+      "sha256": "0b4deb2e4d3873eea614c496657a117ea547b36966e1ae60fb0a772df1789b39",
+      "retrieved_utc": "2026-11-22T14:23:45.145616+00:00"
+    },
+    "https://acelu.org/": {
+      "http_status": 200,
+      "bytes": 97075,
+      "sha256": "c3bcdbd7bff265f26beb9232f9716da4221117cb89d879edde94b6df4a6c9ea6",
+      "retrieved_utc": "2026-11-22T14:22:30.948117+00:00"
+    },
+    "https://acelu.org/?s=lactosa": {
+      "http_status": 200,
+      "bytes": 52258,
+      "sha256": "3e93e5b97a7d8f42444abe85111de91f51398117351f7fb88c69be3460d51938",
+      "retrieved_utc": "2026-11-22T14:23:46.168757+00:00"
+    },
+    "https://www.sovegastrove.org/index.php": {
+      "http_status": 404,
+      "bytes": 2901,
+      "sha256": "125173e909fadfefbd488a8b83e7aaf9952b33afaddda778734508a6f795b46f",
+      "retrieved_utc": "2026-11-22T14:22:31.469856+00:00"
+    },
+    "https://celiacosvenezuela.org.ve/": {
+      "http_status": 200,
+      "bytes": 276799,
+      "sha256": "cb61fe78dc27c233ad49132b9e1a1a0880e05e66a6325d9b3ad1e1d543ea14be",
+      "retrieved_utc": "2026-11-22T14:08:33.795643+00:00"
+    },
+    "https://celiacosvenezuela.org.ve/?s=lactosa": {
+      "http_status": 200,
+      "bytes": 89854,
+      "sha256": "c833e1289f765e71a184bbd51ca672530076b0c1a25153dc1bd3b5f94a7a5e91",
+      "retrieved_utc": "2026-11-22T14:23:46.282602+00:00"
+    }
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "batch": "B162",
+  "date": "2026-11-22",
+  "receipts": {
+    "https://www.eular.org/scientific-member-societies": {
+      "http_status": 200,
+      "bytes": 87359,
+      "sha256": "59fd77f31a3b98bbdf63cd630595ad96bcd2abe4565ff98f8d75207ecfc7b290",
+      "retrieved_utc": "2026-11-22T14:25:43.763807+00:00"
+    },
+    "https://aplar.org/about-aplar/member-national-organizations/": {
+      "http_status": 200,
+      "bytes": 111900,
+      "sha256": "a89ccbcad212e1e20747a95e82914c6d5bac22999378b519c198ad544eb9513f",
+      "retrieved_utc": "2026-11-22T14:25:45.060590+00:00"
+    },
+    "https://lsrheumatology.lopbeirut.org/238/": {
+      "http_status": 200,
+      "bytes": 63892,
+      "sha256": "0a8f8670c55ecdba7f19b63ee970454468ecfbd94eeeac37573fc9594242e385",
+      "retrieved_utc": "2026-11-22T14:28:38.622498+00:00"
+    },
+    "https://lsrheumatology.lopbeirut.org/263/": {
+      "http_status": 200,
+      "bytes": 63758,
+      "sha256": "50c808d46e42489e9d34f0b85ea83c2b0564f74af9cf76246dfb3eee02f6f3fd",
+      "retrieved_utc": "2026-11-22T14:28:38.642336+00:00"
+    },
+    "https://rheumatolog.ru/": {
+      "http_status": 200,
+      "bytes": 252776,
+      "sha256": "4a6fab486265bf7519ab40191fb40bb5a0053a6c55f6cd29654d1ce4b3984041",
+      "retrieved_utc": "2026-11-22T14:29:40.591801+00:00"
+    },
+    "https://rheumatolog.ru/experts/klinicheskie-rekomendacii/": {
+      "http_status": 200,
+      "bytes": 77022,
+      "sha256": "9a40bd635b0b63f9e1ceb3d8273136cc3a457ec251ab12e4197b98c880190cae",
+      "retrieved_utc": "2026-11-22T14:30:17.744314+00:00"
+    },
+    "https://rheumatolog.ru/files/clinrec/podagra.docx": {
+      "http_status": 200,
+      "bytes": 32151,
+      "sha256": "a2c75ee21c4ead7d8d78d9b538d7e56e7e9dc79bd530c8e7eefe095c9214e944",
+      "retrieved_utc": "2026-11-22T14:30:25.292853+00:00"
+    },
+    "https://rheumatolog.ru/files/clinrec/podagrapismo.pdf": {
+      "http_status": 200,
+      "bytes": 231369,
+      "sha256": "3fcc8604aede992d75324ea3f152ed331c7eadc93277af6e71f77b50f64f8ebf",
+      "retrieved_utc": "2026-11-22T14:30:25.398012+00:00"
+    },
+    "https://reumatologia.al/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.521815+00:00"
+    },
+    "https://brsbd.com/": {
+      "http_status": 200,
+      "bytes": 133701,
+      "sha256": "1c41680ba009bf78c280a43c79a74da2f6e2241861783cc61b078a8d9653da1c",
+      "retrieved_utc": "2026-11-22T14:28:29.109856+00:00"
+    },
+    "https://brsbd.com/?s=gout": {
+      "http_status": 200,
+      "bytes": 63892,
+      "sha256": "572be4c74dc8c32ca8650a3299888f8ded6906e0dae9b82ce7226874f93af61a",
+      "retrieved_utc": "2026-11-22T14:28:55.357703+00:00"
+    },
+    "https://www.rheumatology.am/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.415986+00:00"
+    },
+    "https://www.reumatolozi.ba/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:38.540498+00:00"
+    },
+    "https://udruzenjereumatologa.ba/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:38.561192+00:00"
+    },
+    "https://www.rheumatologybg.org/": {
+      "http_status": 200,
+      "bytes": 22804,
+      "sha256": "8d50f70b949569ffc7f4d6b01ea06d958cbfe1de97178991c75f045363ca8b07",
+      "retrieved_utc": "2026-11-22T14:28:28.215772+00:00"
+    },
+    "https://www.rheumatologybg.org/?s=%D0%BF%D0%BE%D0%B4%D0%B0%D0%B3%D1%80%D0%B0": {
+      "http_status": 200,
+      "bytes": 22804,
+      "sha256": "8d50f70b949569ffc7f4d6b01ea06d958cbfe1de97178991c75f045363ca8b07",
+      "retrieved_utc": "2026-11-22T14:28:55.128926+00:00"
+    },
+    "https://www.mrs.org.mm/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.371198+00:00"
+    },
+    "https://www.rheumatology.by/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:28:27.611865+00:00"
+    },
+    "https://www.rheumatology.org.cn/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.760252+00:00"
+    },
+    "https://crha.cn/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:38.430036+00:00"
+    },
+    "https://asoreuma.org/": {
+      "http_status": 200,
+      "bytes": 306469,
+      "sha256": "1b49bba1d1d1d1125bdf40ab4c7fc75a7f739364b4d081f1f350bc4aad5ffc7d",
+      "retrieved_utc": "2026-11-22T14:28:27.528727+00:00"
+    },
+    "https://asoreuma.org/?s=gota": {
+      "http_status": 200,
+      "bytes": 130168,
+      "sha256": "e3bb9f69c05fd69dd13de1b991384ccf408f878a8ca66b8a1a08c93ed0b2fb8d",
+      "retrieved_utc": "2026-11-22T14:29:02.944138+00:00"
+    },
+    "https://rheumatology.org.cy/": {
+      "http_status": 202,
+      "bytes": 169,
+      "sha256": "adf64df36b5aa355c9234eb6e45493f779f2c3c6e3cf7ffa0d4e092a6cd7f666",
+      "retrieved_utc": "2026-11-22T14:28:26.618829+00:00"
+    },
+    "https://www.rheumatologygeorgia.ge/": {
+      "http_status": 200,
+      "bytes": 46275,
+      "sha256": "35b4d06c1771708523588edfa1606367dd7d206d309977d93320f201be6febac",
+      "retrieved_utc": "2026-11-22T14:28:29.012695+00:00"
+    },
+    "https://www.rheumatologygeorgia.ge/?s=%E1%83%9E%E1%83%9D%E1%83%93%E1%83%90%E1%83%92%E1%83%A0%E1%83%90": {
+      "http_status": 200,
+      "bytes": 46407,
+      "sha256": "56e6465b14e9e82ec64ed6ac70750c0f204e22f0f5d8b65096b7cba687c4a8e8",
+      "retrieved_utc": "2026-11-22T14:28:55.598290+00:00"
+    },
+    "https://www.ere.gr/": {
+      "http_status": 200,
+      "bytes": 160844,
+      "sha256": "8c4f9be5c54c94e5ed41eea4c7f416f8ba15c8f756b760cccbc0164542f3260b",
+      "retrieved_utc": "2026-11-22T14:28:28.322265+00:00"
+    },
+    "https://www.ere.gr/?s=%CE%BF%CF%85%CF%81%CE%B9%CE%BA%CE%AE": {
+      "http_status": 200,
+      "bytes": 161470,
+      "sha256": "f1999666c1558abe70b7a91b46d2aa49f1097430fa63946609c08a8c017c5f1e",
+      "retrieved_utc": "2026-11-22T14:28:54.856112+00:00"
+    },
+    "https://www.mre.hu/info.aspx?sp=62": {
+      "http_status": 200,
+      "bytes": 91580,
+      "sha256": "560f82c939655736f9811e8dac5f9e7241c70dfc0c752c22f31225b060bdae77",
+      "retrieved_utc": "2026-11-22T14:28:27.687407+00:00"
+    },
+    "https://www.gigtarfelag.is/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:38.479446+00:00"
+    },
+    "https://www.iranrheumatology.org/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.394939+00:00"
+    },
+    "https://iranrheum.ir/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:42.158890+00:00"
+    },
+    "https://www.israrheum.org.il/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:38.454543+00:00"
+    },
+    "https://kcr.kz/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.358957+00:00"
+    },
+    "https://www.rheumatology.kz/": {
+      "http_status": 200,
+      "bytes": 21608,
+      "sha256": "c4ace65f7deef5916fec82f8ebf95c5b56539491cc8b426f8188aa75b1431cb6",
+      "retrieved_utc": "2026-11-22T14:29:39.166153+00:00"
+    },
+    "https://www.jsr-jo.org/": {
+      "http_status": 200,
+      "bytes": 265866,
+      "sha256": "1f52080ffac801cba8f17403f82c36fa0b9668cbb1764d5791b27bb8242071a8",
+      "retrieved_utc": "2026-11-22T14:28:27.023680+00:00"
+    },
+    "https://www.jsr-jo.org/?s=gout": {
+      "http_status": 200,
+      "bytes": 265866,
+      "sha256": "1f52080ffac801cba8f17403f82c36fa0b9668cbb1764d5791b27bb8242071a8",
+      "retrieved_utc": "2026-11-22T14:28:53.274477+00:00"
+    },
+    "https://kar.org.kw/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:39.162926+00:00"
+    },
+    "https://lsrheumatology.lopbeirut.org/": {
+      "http_status": 200,
+      "bytes": 84271,
+      "sha256": "e22e2f0e6bc2a03590133923808f094c8a996587202f31fa7d3fb69b987974c3",
+      "retrieved_utc": "2026-11-22T14:28:27.127825+00:00"
+    },
+    "https://lsrheumatology.lopbeirut.org/?s=gout": {
+      "http_status": 200,
+      "bytes": 76313,
+      "sha256": "66d03ce4920e4967f79a333bf354c4d5fd3f96752f4e1d0a9813ea1dfa9f2361",
+      "retrieved_utc": "2026-11-22T14:28:54.403035+00:00"
+    },
+    "https://rheumatology.mn/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.519705+00:00"
+    },
+    "https://www.reumatologia.md/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:38.518370+00:00"
+    },
+    "https://urcg.me/": {
+      "http_status": 200,
+      "bytes": 72550,
+      "sha256": "0e1d67b36349aea8d56287a153cc01e58abd157c8ff6e7b695084a1fc8012fc6",
+      "retrieved_utc": "2026-11-22T14:28:26.230152+00:00"
+    },
+    "https://urcg.me/?s=giht": {
+      "http_status": 200,
+      "bytes": 65945,
+      "sha256": "fa9643d3441cac31e0341a4259ed9fa505a7b361364f22b08350644d33293f2b",
+      "retrieved_utc": "2026-11-22T14:28:53.508543+00:00"
+    },
+    "https://omanrheumatology.com/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.382885+00:00"
+    },
+    "https://rheumatologynepal.org.np/": {
+      "http_status": 200,
+      "bytes": 117051,
+      "sha256": "af4cdaf9274522e827383e4d43877effdb3907c333d72d933647f65ea5d63a59",
+      "retrieved_utc": "2026-11-22T14:28:30.241528+00:00"
+    },
+    "https://rheumatologynepal.org.np/?s=gout": {
+      "http_status": 200,
+      "bytes": 96165,
+      "sha256": "867fcfce1824d0a37aae406b7e9f5cf27ba0b43236b4acda82868feba28085da",
+      "retrieved_utc": "2026-11-22T14:28:53.688602+00:00"
+    },
+    "https://www.nsr.org.ng/": {
+      "http_status": 200,
+      "bytes": 12248,
+      "sha256": "9c88f836a52d99f3758ab228013a82241692add74811a37694b09444c8d38338",
+      "retrieved_utc": "2026-11-22T14:28:27.401230+00:00"
+    },
+    "https://www.nsr.org.ng/?s=gout": {
+      "http_status": 200,
+      "bytes": 12248,
+      "sha256": "9c88f836a52d99f3758ab228013a82241692add74811a37694b09444c8d38338",
+      "retrieved_utc": "2026-11-22T14:28:53.368195+00:00"
+    },
+    "https://psr.org.pk/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.332852+00:00"
+    },
+    "https://www.psr.org.pk/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.329616+00:00"
+    },
+    "https://qra.qa/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.337338+00:00"
+    },
+    "https://www.qatarrheumatology.org/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.338772+00:00"
+    },
+    "https://www.asarsm.org/": {
+      "http_status": 200,
+      "bytes": 208226,
+      "sha256": "8388c854ce2fb2ee52220a935511a200c8085de08e0cc16896f552a40aef0d6f",
+      "retrieved_utc": "2026-11-22T14:28:26.920996+00:00"
+    },
+    "https://ssr.org.sa/": {
+      "http_status": 200,
+      "bytes": 169311,
+      "sha256": "c97f9f5f59b881b9e5c09811d9d73082aa5d18f20de0d87985d2c60d9cbe8bbd",
+      "retrieved_utc": "2026-11-22T14:29:38.541108+00:00"
+    },
+    "https://www.ures.org.rs/": {
+      "http_status": 200,
+      "bytes": 44339,
+      "sha256": "5808dd243cb80a0d42487cfc44a9f1ec85ea01518e85a6f129696c5a414e7aed",
+      "retrieved_utc": "2026-11-22T14:28:28.131631+00:00"
+    },
+    "https://www.ures.org.rs/?s=%D0%B3%D0%B8%D1%85%D1%82": {
+      "http_status": 200,
+      "bytes": 44339,
+      "sha256": "5808dd243cb80a0d42487cfc44a9f1ec85ea01518e85a6f129696c5a414e7aed",
+      "retrieved_utc": "2026-11-22T14:28:54.053570+00:00"
+    },
+    "https://www.revma.sk/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.571045+00:00"
+    },
+    "https://www.srs.sk/": {
+      "http_status": 200,
+      "bytes": 156196,
+      "sha256": "f11b5e3edb979dbcce337b345a4775156be949ae5a987a7fea19c46e01c3e42c",
+      "retrieved_utc": "2026-11-22T14:29:39.285128+00:00"
+    },
+    "https://vra.vn/": {
+      "http_status": 200,
+      "bytes": 326673,
+      "sha256": "8a5df939d0681334aed5f2797bd65027fcb35dacc2c8bfa9731645c0302034fd",
+      "retrieved_utc": "2026-11-22T14:29:38.559197+00:00"
+    },
+    "https://hoithapkhop.vn/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.349974+00:00"
+    },
+    "https://www.revmatologija.si/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:37.784324+00:00"
+    },
+    "https://www.zrd.si/": {
+      "http_status": 200,
+      "bytes": 58070,
+      "sha256": "963f2b9ee81f852ae9e55a4936356bba9c8d8e0bd0c3e67e9cbab4de0d719414",
+      "retrieved_utc": "2026-11-22T14:29:42.556329+00:00"
+    },
+    "https://esr.ae/": {
+      "http_status": 200,
+      "bytes": 343401,
+      "sha256": "b962aede32967d0b033e210bb5d5413c4fa1a81251b5908c23b3ed872f13a723",
+      "retrieved_utc": "2026-11-22T14:29:39.831097+00:00"
+    },
+    "https://www.esr.ae/?s=gout": {
+      "http_status": 200,
+      "bytes": 260561,
+      "sha256": "0b8acdbbdfc9ed991ffb2e7a6b3a13fdf74a97c0b853459e1de938e660222e54",
+      "retrieved_utc": "2026-11-22T14:29:51.670305+00:00"
+    },
+    "https://rheumahub.org.ua/": {
+      "http_status": 200,
+      "bytes": 304895,
+      "sha256": "f5db954e72b6522805bb75566c98be3242e0fa5c4a48359dd3d7926c5ede6b8d",
+      "retrieved_utc": "2026-11-22T14:28:27.801162+00:00"
+    },
+    "https://rheumahub.org.ua/?s=%D0%BF%D0%BE%D0%B4%D0%B0%D0%B3%D1%80%D0%B0": {
+      "http_status": 200,
+      "bytes": 155725,
+      "sha256": "a8a0d75fb304f69cce92706bae590d6abd5dccd07f84fc89b579af84a6595400",
+      "retrieved_utc": "2026-11-22T14:28:55.753271+00:00"
+    },
+    "https://www.maar.org.mk/": {
+      "http_status": 404,
+      "bytes": 355,
+      "sha256": "cc0b4e42510d49c6decd464123ecf3b14ae9b47f9b4ed2ee64893e2d6520a264",
+      "retrieved_utc": "2026-11-22T14:28:26.821548+00:00"
+    },
+    "https://rheumatology.uz/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:29:42.110877+00:00"
+    }
+  }
+}

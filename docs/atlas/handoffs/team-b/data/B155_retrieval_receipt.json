@@ -1,0 +1,448 @@
+{
+  "batch": "B155",
+  "date": "2026-11-22",
+  "method": "curl single retrieval per unique URL; cached; SHA256 of retrieved bytes; no copyrighted bodies committed",
+  "receipts": {
+    "https://www.thaiendocrine.org/%e0%b9%81%e0%b8%99%e0%b8%a7%e0%b8%97%e0%b8%b2%e0%b8%87%e0%b9%80%e0%b8%a7%e0%b8%8a%e0%b8%9b%e0%b8%8f%e0%b8%b4%e0%b8%9a%e0%b8%b1%e0%b8%95%e0%b8%b4-2566/?download=10092": {
+      "retrieval_url": "https://www.thaiendocrine.org/%e0%b9%81%e0%b8%99%e0%b8%a7%e0%b8%97%e0%b8%b2%e0%b8%87%e0%b9%80%e0%b8%a7%e0%b8%8a%e0%b8%9b%e0%b8%8f%e0%b8%b4%e0%b8%9a%e0%b8%b1%e0%b8%95%e0%b8%b4-2566/?download=10092",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 12803373,
+      "sha256": "37f78489e118dac0d3ec3baeca2ed8bcbc09b6f2282403d8548c461320cb4130",
+      "retrieved_utc": "2026-11-22T13:59:13.532853+00:00",
+      "final_url": "https://www.thaiendocrine.org/wp-content/uploads/2023/08/Thai-DM-CPG-2566.pdf"
+    },
+    "https://drive.google.com/file/d/1iYALtgTYtrN_e9YposCEMNYnEsfIKg-T/view?usp=sharing": {
+      "retrieval_url": "https://drive.usercontent.google.com/download?id=1iYALtgTYtrN_e9YposCEMNYnEsfIKg-T&export=download&confirm=t",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 14651290,
+      "sha256": "caee450589ae61ecfd8ab2f39b88037eeb740f8f2ee8dfa8bafcfdae92a5531a",
+      "retrieved_utc": "2026-11-22T13:58:57.821283+00:00",
+      "final_url": "https://drive.usercontent.google.com/download?id=1iYALtgTYtrN_e9YposCEMNYnEsfIKg-T&export=download&confirm=t"
+    },
+    "https://drive.google.com/file/d/1cbT_--wDClq53AAPg4-pht5ZVLQ_2pb7/view?usp=sharing": {
+      "retrieval_url": "https://drive.usercontent.google.com/download?id=1cbT_--wDClq53AAPg4-pht5ZVLQ_2pb7&export=download&confirm=t",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 37337172,
+      "sha256": "a5250e497fe1ea792cb786c0c94644094dd34288594e3f6000c9b14d34ff15ae",
+      "retrieved_utc": "2026-11-22T13:58:57.967047+00:00",
+      "final_url": "https://drive.usercontent.google.com/download?id=1cbT_--wDClq53AAPg4-pht5ZVLQ_2pb7&export=download&confirm=t"
+    },
+    "https://www.shs.org.sg/wp-content/uploads/2023/07/Hypertension-Clinical-practice-toolkit.pdf": {
+      "retrieval_url": "https://www.shs.org.sg/wp-content/uploads/2023/07/Hypertension-Clinical-practice-toolkit.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 434556,
+      "sha256": "7d0681b3db7d9e066c5cf5e5441275751ff013295fd1d470dfd88af2e7b887c3",
+      "retrieved_utc": "2026-11-22T13:58:55.514702+00:00",
+      "final_url": "https://www.shs.org.sg/wp-content/uploads/2023/07/Hypertension-Clinical-practice-toolkit.pdf"
+    },
+    "https://www.spmi.org.py/wp-content/uploads/2024/01/Guia-de-Practica-Clinica-de-las-Enfermedades-Cardi_240124_140333.pdf": {
+      "retrieval_url": "https://www.spmi.org.py/wp-content/uploads/2024/01/Guia-de-Practica-Clinica-de-las-Enfermedades-Cardi_240124_140333.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 15724942,
+      "sha256": "06c0880d4fec284b553a458f010379ae37fd5239a423bd216004b48fa4c547b4",
+      "retrieved_utc": "2026-11-22T14:00:26.284227+00:00",
+      "final_url": "https://www.spmi.org.py/wp-content/uploads/2024/01/Guia-de-Practica-Clinica-de-las-Enfermedades-Cardi_240124_140333.pdf"
+    },
+    "https://www.diabets.lv/_files/ugd/138739_10abb61db08c46239ddeb39a2e8af5b1.pdf": {
+      "retrieval_url": "https://www.diabets.lv/_files/ugd/138739_10abb61db08c46239ddeb39a2e8af5b1.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 288886,
+      "sha256": "d783b40cf844973c8f5ce4ed2fb41703ebef7377a2a15380702ac53b47c16caf",
+      "retrieved_utc": "2026-11-22T14:00:26.113711+00:00",
+      "final_url": "https://da5252bd-b011-4e14-9d36-eb462d20eb01.filesusr.com/ugd/138739_10abb61db08c46239ddeb39a2e8af5b1.pdf"
+    },
+    "https://www.sccardio.org/assets/img/publication/fichier2.pdf": {
+      "retrieval_url": "https://www.sccardio.org/assets/img/publication/fichier2.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1426197,
+      "sha256": "264a75d0c3a7e8ac699156058330ffc259576afd98e2dff3b4c52ac9d193f809",
+      "retrieved_utc": "2026-11-22T14:01:54.764681+00:00",
+      "final_url": "https://www.sccardio.org/assets/img/publication/fichier2.pdf"
+    },
+    "https://www.philippinesocietyofhypertension.org.ph/assets/image/Komiks/PSH%20Komiks%20-%20Unang%20Yugto.pdf": {
+      "retrieval_url": "https://www.philippinesocietyofhypertension.org.ph/assets/image/Komiks/PSH%20Komiks%20-%20Unang%20Yugto.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 7226416,
+      "sha256": "bd3085e2b07b8c0f1c48ae7d43a58d119987ad3c9024cad1b7a2e1774cd1097e",
+      "retrieved_utc": "2026-11-22T14:00:28.761040+00:00",
+      "final_url": "https://www.philippinesocietyofhypertension.org.ph/assets/image/Komiks/PSH%20Komiks%20-%20Unang%20Yugto.pdf"
+    },
+    "https://drive.google.com/file/d/1xX5SL7fKNivdbST-9JLJl-6uM_VHPQUM/view?usp=drive_link": {
+      "retrieval_url": "https://drive.usercontent.google.com/download?id=1xX5SL7fKNivdbST-9JLJl-6uM_VHPQUM&export=download&confirm=t",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 58556467,
+      "sha256": "40e030a753246f8436e70ca11b8bb0cd76b2513cd4ea4b4414bbeacde18830b6",
+      "retrieved_utc": "2026-11-22T14:00:35.544743+00:00",
+      "final_url": "https://drive.usercontent.google.com/download?id=1xX5SL7fKNivdbST-9JLJl-6uM_VHPQUM&export=download&confirm=t"
+    },
+    "https://natendo.uz/articles/paratireoidnyy-gormon-i-serdechno-sosudistyy-risk-pri-saharnom-diabete-2-tipa-na-programmnom-gemodialize?lang=ru": {
+      "retrieval_url": "https://natendo.uz/articles/paratireoidnyy-gormon-i-serdechno-sosudistyy-risk-pri-saharnom-diabete-2-tipa-na-programmnom-gemodialize?lang=ru",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 77377,
+      "sha256": "cbdbd2f2f7ac808e9dc394b02e31d871fdb13916902fb2b97589f961f02a2982",
+      "retrieved_utc": "2026-11-22T14:03:56.637695+00:00",
+      "final_url": "charset=utf-8 https://natendo.uz/articles/paratireoidnyy-gormon-i-serdechno-sosudistyy-risk-pri-saharnom-diabete-2-tipa-na-programmnom-gemodialize?lang=ru"
+    },
+    "https://bgs-bd.com/institute-and-research": {
+      "retrieval_url": "https://bgs-bd.com/institute-and-research",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 84299,
+      "sha256": "7588c06bda2713e022121c65733db3c730de583719494a0769470b8e9595c515",
+      "retrieved_utc": "2026-11-22T13:58:18.093687+00:00",
+      "final_url": "charset=UTF-8 https://bgs-bd.com/institute-and-research"
+    },
+    "https://mopotsyo.org/peer-education/": {
+      "retrieval_url": "https://mopotsyo.org/peer-education/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 47857,
+      "sha256": "ae3a62c72d1754c3c2c04080a5e28beceeac6c2d3cbd83dbc54189ac65877b6e",
+      "retrieved_utc": "2026-11-22T13:58:17.462662+00:00",
+      "final_url": "charset=UTF-8 https://mopotsyo.org/peer-education/"
+    },
+    "https://mopotsyo.org/2026-q3-quarterly-review/": {
+      "retrieval_url": "https://mopotsyo.org/2026-q3-quarterly-review/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 56249,
+      "sha256": "20505a5fb007bda94b4cc8412e1af6284585e995a14d02a23389835df9122259",
+      "retrieved_utc": "2026-11-22T13:58:17.515507+00:00",
+      "final_url": "charset=UTF-8 https://mopotsyo.org/2026-q3-quarterly-review/"
+    },
+    "https://rheumatology.org.lk/event-20th-annual-scientific-sessions-2026/": {
+      "retrieval_url": "https://rheumatology.org.lk/event-20th-annual-scientific-sessions-2026/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 351284,
+      "sha256": "206ae28c7644f5c0f1a23a5c9af326595c40c60dd94d8bc6acac28782054f734",
+      "retrieved_utc": "2026-11-22T13:58:20.730034+00:00",
+      "final_url": "charset=UTF-8 https://rheumatology.org.lk/event-20th-annual-scientific-sessions-2026/"
+    },
+    "https://gastroenterologija.lt/pasiruosimai-tyrimams/feritinas-ir-gelezies-tyrimai/": {
+      "retrieval_url": "https://gastroenterologija.lt/pasiruosimai-tyrimams/feritinas-ir-gelezies-tyrimai/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 235761,
+      "sha256": "5825b474029028b2f906bff4317d5b5389b3cbc722049dd7a9b37a8678d84768",
+      "retrieved_utc": "2026-11-22T13:58:18.279777+00:00",
+      "final_url": "charset=UTF-8 https://gastroenterologija.lt/pasiruosimai-tyrimams/feritinas-ir-gelezies-tyrimai/"
+    },
+    "https://socreuma.org.pe/new/_recursos/eventos/archivos/202506201252189886.pdf": {
+      "retrieval_url": "https://socreuma.org.pe/new/_recursos/eventos/archivos/202506201252189886.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 626464,
+      "sha256": "ec113d3f521ef23e5588de1ef21eb82d935eeb55693db0f1d0e80138b6a7eb70",
+      "retrieved_utc": "2026-11-22T13:58:18.427207+00:00",
+      "final_url": "https://socreuma.org.pe/new/_recursos/eventos/archivos/202506201252189886.pdf"
+    },
+    "https://www.rheumatology.org.sg/feng-pao-hsii/lectures": {
+      "retrieval_url": "https://www.rheumatology.org.sg/feng-pao-hsii/lectures",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 39709,
+      "sha256": "8656ceb101675953fb58c652528b638e46e91e69dc5611774908c581b4f07f92",
+      "retrieved_utc": "2026-11-22T13:58:21.329841+00:00",
+      "final_url": "charset=UTF-8 https://www.rheumatology.org.sg/feng-pao-hsii/lectures"
+    },
+    "https://www.hypertensionleaguebg.info/bg/science-info/": {
+      "retrieval_url": "https://www.hypertensionleaguebg.info/bg/science-info/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 30939,
+      "sha256": "f2cd0d3f261b9573586b9edbe337a52c75849756f88259ee9b650a167099c330",
+      "retrieved_utc": "2026-11-22T13:58:21.676744+00:00",
+      "final_url": "charset=UTF-8 https://www.hypertensionleaguebg.info/bg/science-info/"
+    },
+    "https://santediabete.org/wp-content/uploads/2023/04/2023-BS.pdf": {
+      "retrieval_url": "https://santediabete.org/wp-content/uploads/2023/04/2023-BS.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 781141,
+      "sha256": "93498c71a48317c1ef373177e8f179b5225e8d8704c49c0000514d935ace1ce4",
+      "retrieved_utc": "2026-11-22T13:58:19.155659+00:00",
+      "final_url": "https://santediabete.org/wp-content/uploads/2023/04/2023-BS.pdf"
+    },
+    "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf20-1787/": {
+      "retrieval_url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf20-1787/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 44702,
+      "sha256": "9db1a58d9c11e24c93ad677d13ff9cb08d0a424a0245a48955aa2ae5bd3ef6dd",
+      "retrieved_utc": "2026-11-22T13:58:21.353703+00:00",
+      "final_url": "charset=utf-8 https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf20-1787/"
+    },
+    "https://scardiopichincha.org/cursos/electrocardiograma-y-monitoreo-ambulatorial-de-presion-arterial-en-atencion-primaria/": {
+      "retrieval_url": "https://scardiopichincha.org/cursos/electrocardiograma-y-monitoreo-ambulatorial-de-presion-arterial-en-atencion-primaria/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 195511,
+      "sha256": "91f1aed1466d0cc19e195de4cef392633b73f15d0138b9cdf41dd9c963b5bc41",
+      "retrieved_utc": "2026-11-22T13:58:18.867515+00:00",
+      "final_url": "charset=UTF-8 https://scardiopichincha.org/cursos/electrocardiograma-y-monitoreo-ambulatorial-de-presion-arterial-en-atencion-primaria/"
+    },
+    "https://diabetesfiji.com/our-projects/1020-2/": {
+      "retrieval_url": "https://diabetesfiji.com/our-projects/1020-2/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 43911,
+      "sha256": "78a9b5629b2aff583e5178da47e024f4fc506cbe8ccd961e7495fe150ff6a103",
+      "retrieved_utc": "2026-11-22T13:58:17.391771+00:00",
+      "final_url": "charset=UTF-8 https://diabetesfiji.com/our-projects/1020-2/"
+    },
+    "https://soganeph.org/fr/journee-mondiale-du-rein/2026": {
+      "retrieval_url": "https://soganeph.org/fr/journee-mondiale-du-rein/2026",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 196066,
+      "sha256": "72497be321aaabbb9f2539203e7c1f7fdb7be7dbd14b6da8a8ea5d18fbf4b914",
+      "retrieved_utc": "2026-11-22T13:58:22.278531+00:00",
+      "final_url": "charset=utf-8 https://soganeph.org/fr/journee-mondiale-du-rein/2026"
+    },
+    "https://www.aodci.org/page_c_actualites.php": {
+      "retrieval_url": "https://www.aodci.org/page_c_actualites.php",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 73167,
+      "sha256": "37833e3b3fa30c21e3dcd1c6abda6a6b67f1bc1eca6327aec82f41a712ea8ccb",
+      "retrieved_utc": "2026-11-22T13:58:19.540505+00:00",
+      "final_url": "charset=UTF-8 https://www.aodci.org/page_c_actualites.php"
+    },
+    "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf12-0714/": {
+      "retrieval_url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf12-0714/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 45157,
+      "sha256": "5241ebb88b250ac9a8a090332fc94acc0b21276a22ef05c2dcd02a38a63a5e24",
+      "retrieved_utc": "2026-11-22T13:58:21.188324+00:00",
+      "final_url": "charset=utf-8 https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf12-0714/"
+    },
+    "https://croix-rouge.mc/journee-mondiale-du-diabete-14-novembre-2025/": {
+      "retrieval_url": "https://croix-rouge.mc/journee-mondiale-du-diabete-14-novembre-2025/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 73081,
+      "sha256": "2bac487ace5e0177b93a42d48b1c53cda830d7d788e586c09a301feae7cc7878",
+      "retrieved_utc": "2026-11-22T13:58:19.276982+00:00",
+      "final_url": "charset=UTF-8 https://croix-rouge.mc/journee-mondiale-du-diabete-14-novembre-2025/"
+    },
+    "https://www.pccarib.com/zorgaanbod": {
+      "retrieval_url": "https://www.pccarib.com/zorgaanbod",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 17935,
+      "sha256": "9b52a00bea7d2d38d92ba8d76c425c4268f807b159afa976ce7faa8eeb3b6ae8",
+      "retrieved_utc": "2026-11-22T13:58:19.228105+00:00",
+      "final_url": "charset=utf-8 https://www.pccarib.com/zorgaanbod"
+    },
+    "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf17-1561/": {
+      "retrieval_url": "https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf17-1561/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 43136,
+      "sha256": "30bbc1b7b5395003bbc54ee7b0dc523024e84663a6159bb9ec24e5d7bf84abb4",
+      "retrieved_utc": "2026-11-22T13:58:21.182319+00:00",
+      "final_url": "charset=utf-8 https://www.worlddiabetesfoundation.org/what-we-do/projects/wdf17-1561/"
+    },
+    "https://crees.marianas.edu/news/walk-roll-on-wednesday-2-years-of-promoting-health-awareness-and-accessibility/": {
+      "retrieval_url": "https://crees.marianas.edu/news/walk-roll-on-wednesday-2-years-of-promoting-health-awareness-and-accessibility/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 62934,
+      "sha256": "058bbf534d8a053076894ff59c89a6ed5a82004d1959bd53d31e899a70a81d5b",
+      "retrieved_utc": "2026-11-22T13:58:16.966527+00:00",
+      "final_url": "charset=UTF-8 https://crees.marianas.edu/news/walk-roll-on-wednesday-2-years-of-promoting-health-awareness-and-accessibility/"
+    },
+    "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-chuuk-womens-council/": {
+      "retrieval_url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-chuuk-womens-council/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 90412,
+      "sha256": "4e52dbbb9591522d3b0a293baf231cc1adb857c9904172147571b8fa42a816bc",
+      "retrieved_utc": "2026-11-22T13:58:17.371834+00:00",
+      "final_url": "charset=UTF-8 https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-chuuk-womens-council/"
+    },
+    "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-kwajalein-diak-coalition-spotlight/": {
+      "retrieval_url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-kwajalein-diak-coalition-spotlight/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 105831,
+      "sha256": "e9f09f933c7996b46a1f5a39b4cc5266db4fe24f58866ec5ffe9685e18648535",
+      "retrieved_utc": "2026-11-22T13:58:17.888862+00:00",
+      "final_url": "charset=UTF-8 https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-kwajalein-diak-coalition-spotlight/"
+    },
+    "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-belau-medical-clinic/": {
+      "retrieval_url": "https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-belau-medical-clinic/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 99330,
+      "sha256": "9f9af076af57691acbb08b7c641b088f3cc79b679af74c910551a02ee8da26d6",
+      "retrieved_utc": "2026-11-22T13:58:18.081390+00:00",
+      "final_url": "charset=UTF-8 https://pacificislanderdpp.org/pacific-islander-diabetes-prevention-program-storytelling-series-belau-medical-clinic/"
+    },
+    "https://sldha.org/news_publisher/news/view/press-brief-a-saint-lucia-diabetes-and-hypertension-association-world-diabetes-day-2025-theme-a-diabetes-and-well-beinga": {
+      "retrieval_url": "https://sldha.org/news_publisher/news/view/press-brief-a-saint-lucia-diabetes-and-hypertension-association-world-diabetes-day-2025-theme-a-diabetes-and-well-beinga",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 26786,
+      "sha256": "bb65f10b91754120d4cbe570e7c327b11da55daac0bd1917cff9cba1dcc29d23",
+      "retrieved_utc": "2026-11-22T13:58:18.584081+00:00",
+      "final_url": "charset=UTF-8 https://sldha.org/news_publisher/news/view/press-brief-a-saint-lucia-diabetes-and-hypertension-association-world-diabetes-day-2025-theme-a-diabetes-and-well-beinga"
+    },
+    "https://diabetesassociation.wixsite.com/datt/blog": {
+      "retrieval_url": "https://diabetesassociation.wixsite.com/datt/blog",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 729195,
+      "sha256": "69facc6518b2998fefa8815fa0066f32c25d30ddee9e9a8194cd4ae5d7052bc9",
+      "retrieved_utc": "2026-11-22T13:58:17.903569+00:00",
+      "final_url": "charset=UTF-8 https://diabetesassociation.wixsite.com/datt/blog"
+    },
+    "https://www.gracewaysupermarkets.com/diabetic-fair-2025": {
+      "retrieval_url": "https://www.gracewaysupermarkets.com/diabetic-fair-2025",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "bytes": 189573,
+      "sha256": "bea24422a5eb347c0fe7b747c6f431d4d923cc6b206448e484ce841e07762a83",
+      "retrieved_utc": "2026-11-22T13:58:19.196982+00:00",
+      "final_url": "https://www.gracewaysupermarkets.com/diabetic-fair-2025"
+    },
+    "https://legvi.org/committeemeetings/Budget%2C%20Appropriations%20and%20Finance/2025%20Budget%20Meetings/April%2015%2C%202025/Virgin%20Islands%20Diabetes%20Center%20of%20Excellence/Julia%20Sheen/VIDCOE_April15_Testimony_41525_PDF-VIDCOELAPTOP1.pdf": {
+      "retrieval_url": "https://legvi.org/committeemeetings/Budget%2C%20Appropriations%20and%20Finance/2025%20Budget%20Meetings/April%2015%2C%202025/Virgin%20Islands%20Diabetes%20Center%20of%20Excellence/Julia%20Sheen/VIDCOE_April15_Testimony_41525_PDF-VIDCOELAPTOP1.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 160130,
+      "sha256": "1fdfb0d6d908f9bc30a61f01b77bdf221ef34df5b9c2b8323d78d1f8f7f77cf4",
+      "retrieved_utc": "2026-11-22T13:58:16.804795+00:00",
+      "final_url": "https://legvi.org/committeemeetings/Budget%2C%20Appropriations%20and%20Finance/2025%20Budget%20Meetings/April%2015%2C%202025/Virgin%20Islands%20Diabetes%20Center%20of%20Excellence/Julia%20Sheen/VIDCOE_April15_Testimony_41525_PDF-VIDCOELAPTOP1.pdf"
+    },
+    "https://www.vidcoe.org/diabetes-education/": {
+      "retrieval_url": "https://www.vidcoe.org/diabetes-education/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 129206,
+      "sha256": "bb6db3cbf05fa52f59b33f31ded32dddf06061bdf8bc7aa05a84c74407cc7b34",
+      "retrieved_utc": "2026-11-22T13:58:20.859525+00:00",
+      "final_url": "charset=UTF-8 https://www.vidcoe.org/diabetes-education/"
+    },
+    "https://socarb.org/congres/congres2026/ateliers": {
+      "retrieval_url": "https://socarb.org/congres/congres2026/ateliers",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 36845,
+      "sha256": "279509f5ebcf2b46d175e3822515170580208393c0d8d79a8dd25a83f0b8d217",
+      "retrieved_utc": "2026-11-22T13:58:19.005636+00:00",
+      "final_url": "charset=UTF-8 https://socarb.org/congres/congres2026/ateliers"
+    },
+    "https://suc.org.uy/comites/comite_hipertension_arterial": {
+      "retrieval_url": "https://suc.org.uy/comites/comite_hipertension_arterial",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 25188,
+      "sha256": "b6112809fd45e4d413fcd4e65def25f08fa27facc99d03f29d716b0223fecf13",
+      "retrieved_utc": "2026-11-22T13:58:19.601723+00:00",
+      "final_url": "charset=UTF-8 https://suc.org.uy/comites/comite_hipertension_arterial"
+    },
+    "https://suc.org.uy/index.php/consensos.htm": {
+      "retrieval_url": "https://suc.org.uy/index.php/consensos.htm",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 23871,
+      "sha256": "c9e38920a305b4d89890d426648f1d905c783d618f178561fefbc571291cf82d",
+      "retrieved_utc": "2026-11-22T14:00:27.045897+00:00",
+      "final_url": "charset=UTF-8 https://suc.org.uy/index.php/consensos.htm"
+    },
+    "https://www.sdu.dk/-/media/images/sif/udgivelser/2019/befolkningsundersoegelsen_i_groenland_2018_dansk.pdf": {
+      "retrieval_url": "https://www.sdu.dk/-/media/images/sif/udgivelser/2019/befolkningsundersoegelsen_i_groenland_2018_dansk.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1186585,
+      "sha256": "72d2acb583223ca4781acf1c34c2bb8059c4a714d1db29eaa2a9a47006e92e8b",
+      "retrieved_utc": "2026-11-22T13:58:20.556622+00:00",
+      "final_url": "https://www.sdu.dk/-/media/images/sif/udgivelser/2019/befolkningsundersoegelsen_i_groenland_2018_dansk.pdf"
+    },
+    "https://www.rheumatology.org.uk/guidelines": {
+      "retrieval_url": "https://www.rheumatology.org.uk/guidelines",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 213258,
+      "sha256": "881a14c002d5d9575c1bc3d6a7d03723a486dce371c8ae4fab68e6774b51899b",
+      "retrieved_utc": "2026-11-22T13:58:20.277875+00:00",
+      "final_url": "charset=utf-8 https://www.rheumatology.org.uk/guidelines"
+    },
+    "https://academic.oup.com/rheumatology/article/56/7/e1/3855179": {
+      "retrieval_url": "https://academic.oup.com/rheumatology/article/56/7/e1/3855179",
+      "http_status": 403,
+      "content_type": "text/html;",
+      "bytes": 5695,
+      "sha256": "223c419f75ea47e189039bf9b7626273be9db14eeefd50a7b46a9ecae2d61141",
+      "retrieved_utc": "2026-11-22T14:02:45.453499+00:00",
+      "final_url": "charset=UTF-8 https://academic.oup.com/rheumatology/article/56/7/e1/3855179"
+    },
+    "https://paedendoskenya.org/downloads/": {
+      "retrieval_url": "https://paedendoskenya.org/downloads/",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 110337,
+      "sha256": "3836fe46515c3ded09d3087b570871ab2013a42818a9452196b76e461358bdd9",
+      "retrieved_utc": "2026-11-22T13:58:19.118314+00:00",
+      "final_url": "charset=UTF-8 https://paedendoskenya.org/downloads/"
+    },
+    "https://drive.google.com/file/d/1q9tvlfyPkRheypkzGkf3Wpu9wwDsmECa/view?usp=drive_link": {
+      "retrieval_url": "https://drive.usercontent.google.com/download?id=1q9tvlfyPkRheypkzGkf3Wpu9wwDsmECa&export=download&confirm=t",
+      "http_status": 200,
+      "content_type": "text/html;",
+      "bytes": 1820,
+      "sha256": "8538f5708e51546986751b0a0948420ac44c2cfdc6d0fa3a0f0cd508e075c71a",
+      "retrieved_utc": "2026-11-22T14:00:25.878099+00:00",
+      "final_url": "charset=utf-8 https://drive.usercontent.google.com/download?id=1q9tvlfyPkRheypkzGkf3Wpu9wwDsmECa&export=download&confirm=t"
+    },
+    "https://www.diabetes.ie/downloads/published-reports/": {
+      "retrieval_url": "https://www.diabetes.ie/downloads/published-reports/",
+      "http_status": 403,
+      "content_type": "text/html;",
+      "bytes": 5564,
+      "sha256": "60dd25ad737abb6a3172c3ff81a54eea6190b783e43ab5ee92b34fe24bf63bca",
+      "retrieved_utc": "2026-11-22T13:58:18.922808+00:00",
+      "final_url": "charset=UTF-8 https://www.diabetes.ie/downloads/published-reports/"
+    },
+    "https://scc.org.co/categoria/guias-de-atencion/": {
+      "retrieval_url": "https://scc.org.co/categoria/guias-de-atencion/",
+      "http_status": 202,
+      "content_type": "text/html",
+      "bytes": 201,
+      "sha256": "c7492b6a7bdec4f4d953bb45b597802bd71136adf639177e506fd5981c45a78f",
+      "retrieved_utc": "2026-11-22T13:58:18.118801+00:00",
+      "final_url": "https://scc.org.co/categoria/guias-de-atencion/"
+    },
+    "https://sodenn.org/": {
+      "retrieval_url": "https://sodenn.org/",
+      "http_status": 202,
+      "content_type": "text/html",
+      "bytes": 169,
+      "sha256": "bae87dda2a01748363e87046cfe63ba1c354cecd46c933a290a01573e40f9edd",
+      "retrieved_utc": "2026-11-22T13:58:18.329995+00:00",
+      "final_url": "https://sodenn.org/"
+    },
+    "https://www.spedm.pt/pt/orientacoes-publicacoes": {
+      "retrieval_url": "https://www.spedm.pt/pt/orientacoes-publicacoes",
+      "http_status": 202,
+      "content_type": "text/html",
+      "bytes": 197,
+      "sha256": "6e5f52e0701abad2738bc8233df77b9ecbddb909431998e34b6461b7d312be8b",
+      "retrieved_utc": "2026-11-22T13:58:20.179487+00:00",
+      "final_url": "https://www.spedm.pt/pt/orientacoes-publicacoes"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "record_id": "B162-643-gout",
+    "organization": {
+      "org_id": "B-RU-ARR",
+      "area_m49": "643",
+      "name_local": "Общероссийская общественная организация \"Ассоциация ревматологов России\"",
+      "name_english": "Association of Rheumatologists of Russia (ARR)",
+      "organization_type": "professional_society",
+      "clinical_discipline": "rheumatology",
+      "scope": "Russian Federation; all-Russian public organization per own site title; seat shown as Kashirskoe shosse 34A, Moscow; EULAR scientific member (membership marked suspended on EULAR page); legal registration not verified",
+      "independent_or_government": "independent_public_association_governance_not_audited",
+      "official_url": "https://rheumatolog.ru/",
+      "language": "ru",
+      "verified_on": "2026-11-22",
+      "source_url": "https://rheumatolog.ru/",
+      "identity_state": "first_party_site_and_EULAR_directory_listing_no_legal_certification"
+    },
+    "condition_key": "gout",
+    "url": "https://rheumatolog.ru/files/clinrec/podagra.docx",
+    "title": "Федеральные клинические рекомендации. Подагра",
+    "language": "ru",
+    "edition": "2014 (title page; docx core properties created/modified 2014-03-31)",
+    "role": "hosted_federal_clinical_guideline_document_not_verified_sole_society_authorship",
+    "tier": "H",
+    "source_country": "643",
+    "country_basis": "issuer_of_linked_page",
+    "issuer": "Document names no issuer/authors; hosted on ARR site under \"Экспертный совет МЗ России → Клинические рекомендации\" with separate cover letter (podagrapismo.pdf, scanned image, text not extracted)",
+    "population": "Patients with gout in Russian clinical practice; guideline text, not prevalence or genotype evidence",
+    "jurisdiction": "Titled federal clinical guideline (2014); current legal status/supersession by later Minzdrav rubricator versions not verified; research_lead_only",
+    "identity_evidence": "Own site title names the all-Russian public organization ARR with Moscow seat; EULAR scientific member list names ARR for Russia (membership suspended). Legal registration not verified.",
+    "evidence_summary": "ARR-hosted DOCX (SHA256=a2c75ee21c4ead7d8d78d9b538d7e56e7e9dc79bd530c8e7eefe095c9214e944) retrieved 2026-11-22: substantive Russian guideline text - methodology (evidence search, grading Ia-IV, expert validation), definition, stages and classification criteria of gout, acute-attack and urate-lowering therapy recommendations with evidence levels. Document lists no named authors or issuer; ARR hosting role on its clinical-guidelines page confirmed, so H (hosted), not S1 society authorship. 2014 edition likely superseded; doses not imported.",
+    "query": "B162 EULAR-listed ARR first-party site; native search (подагра); clinical-guidelines page; substantive document inspected 2026-11-22",
+    "next_action": "Verify issuer/working group and supersession against the current Minzdrav rubricator gout guideline; independent clinical review; research_lead_only."
+  }
+]

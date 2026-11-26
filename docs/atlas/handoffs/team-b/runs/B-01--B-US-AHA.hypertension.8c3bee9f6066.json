@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "key": "B-01:B-US-AHA.hypertension.8c3bee9f6066",
+  "input_sha": "8ff729d34a87ed26f89d80daabcc9120c1984ae2",
+  "disposition": "no_change",
+  "evidence": [
+    {
+      "id": "aha-professional-overview",
+      "url": "https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline",
+      "locator": "AHA professional overview / first-party guideline landing page, updated August 14, 2025; reserved original_exact_URL",
+      "issuer": "American Heart Association",
+      "checked": "2026-11-08; research and independent verifier reports",
+      "original": true,
+      "access": "direct",
+      "qualification": "First-party guideline landing page. It links to the full guideline but is not itself the original journal article. Existing repository classification M independently confirmed. Appropriate M classification. No replacement source is justified."
+    },
+    {
+      "id": "circulation-2025-guideline-original",
+      "url": "https://doi.org/10.1161/CIR.0000000000001356",
+      "locator": "Circulation 2025 multi-society professional guideline; published online August 14, 2025, in print September 16, 2025; PMID 40811497",
+      "issuer": "Circulation / joint multi-society professional guideline authors (not exclusively AHA)",
+      "checked": "2026-11-08; research and independent verifier reports",
+      "original": true,
+      "access": "indexed",
+      "qualification": "Existing separate S1 substantive guideline independently corroborated via publisher/PubMed (DOI 10.1161/CIR.0000000000001356, PMID 40811497). Joint multi-society professional guideline, not an exclusively AHA-authored document. Citation verification does not grant reuse or clinical authorization."
+    },
+    {
+      "id": "circulation-correction-2025-11",
+      "url": "https://doi.org/10.1161/CIR.0000000000001396",
+      "locator": "Published erratum DOI 10.1161/CIR.0000000000001396; published online November 10, 2025",
+      "issuer": "Circulation / AHA journals",
+      "checked": "2026-11-08; research and independent verifier reports",
+      "original": true,
+      "access": "indexed",
+      "qualification": "A published erratum independently corroborated. Distinct published correction, not a replacement guideline edition. Correction-history / version-impact appraisal remains outstanding."
+    },
+    {
+      "id": "circulation-correction-2026-04",
+      "url": "https://doi.org/10.1161/CIR.0000000000001436",
+      "locator": "Published erratum DOI 10.1161/CIR.0000000000001436; published online April 13, 2026",
+      "issuer": "Circulation / AHA journals",
+      "checked": "2026-11-08; research and independent verifier reports",
+      "original": true,
+      "access": "indexed",
+      "qualification": "A second indexed correction independently corroborated. Distinct published erratum, not a replacement guideline edition. Correction-history / version-impact appraisal remains outstanding."
+    },
+    {
+      "id": "circulation-correction-2026-05",
+      "url": "https://doi.org/10.1161/CIR.0000000000001448",
+      "locator": "Published correction DOI 10.1161/CIR.0000000000001448; published May 26, 2026",
+      "issuer": "Circulation / AHA journals",
+      "checked": "2026-11-08; research and independent verifier reports",
+      "original": true,
+      "access": "indexed",
+      "qualification": "A further published correction independently corroborated. Distinct published erratum, not a replacement guideline edition. The publisher also identifies multiple versions of record; correction history requires a separate appraisal before making version-sensitive clinical claims."
+    }
+  ],
+  "blocker": "Native node docs/atlas/handoffs/team-b/validate.mjs was not executed from the immutable checkout (verifier git checkout/clone blocked by github.com DNS resolution). Correction-history and version-impact appraisal remains outstanding. No clinical, licensing, rights, or ancestry-specific approval is supported.",
+  "reopen": "Reopen only after node docs/atlas/handoffs/team-b/validate.mjs is executed against a local checkout at 8ff729d34a87ed26f89d80daabcc9120c1984ae2 with a recorded Node exit code, and after a separate editorial/version appraisal of the three confirmed corrections (DOI 10.1161/CIR.0000000000001396, 10.1161/CIR.0000000000001436, 10.1161/CIR.0000000000001448) and the applicable corrected version of record, with Atlas maintainer approval and prior checkpoint reference.",
+  "validation": [
+    "Reserved exact row: org_id=B-US-AHA|condition_key=hypertension|original_exact_URL=https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline in docs/atlas/handoffs/team-b/data/source_quality_worklist.csv at input SHA 8ff729d34a87ed26f89d80daabcc9120c1984ae2.",
+    "Independent verifier: https://chatgpt.com/c/6af0191a-3c88-83ea-bcaa-b03f4830c54f ; researcher: https://chatgpt.com/c/6af016df-5d84-83e9-90b8-06d1822dade2 ; run run-B-B01-US-AHA-20261108 ; launch launch-B-US-AHA-18e89fd0244d314133d1dc71.",
+    "Verifier reservation and repository integrity: live checkout running PASS; launch ID exact match PASS; branch head 8ff729d34a87ed26f89d80daabcc9120c1984ae2 PASS; PR #71 open/draft/unmerged PASS; exact queue identity PASS; existing M overview and separate S1 guideline records confirmed.",
+    "Independent structural JavaScript reproduction of validate.mjs checks: 0 structural errors; 10/10 CSV files retrieved; 1,736 coverage cells; observed rows: M49 areas 248; organizations 501; resources 432; publication contexts 432; provenance records 1,171; search logs 695. This was NOT execution of the native validate.mjs.",
+    "Native validation pending: node docs/atlas/handoffs/team-b/validate.mjs ; no observed Node exit code; verifier's git ls-remote/checkout blocked by github.com DNS resolution.",
+    "Existing M announcement (AHA professional overview) and separate S1 publication already recorded; multi-society attribution preserved rather than assigning sole guideline authorship to AHA; no added replacement record, no changed canonical data, no coverage delta. The nine other authorized data and provenance files are not included in result.paths.",
+    "Three published corrections independently corroborated and recorded as errata, not replacement editions. Follow-up editorial/version appraisal remains outstanding.",
+    "Verifier disposition: EVIDENCE PASS / PUBLICATION BLOCKED for unconditional publication (proposed JSON unavailable; native Node CLI not executed). Recommended disposition: retain no_change with an explicit validation limitation. This reconstructed manifest is only a no-change, evidence-confirmed checkpoint under Atlas harness v1, not a full validation pass or clinical clearance. Researcher's downloadable proposed JSON was not captured in the saved handoff; this file is reconstructed solely from the saved Research and Verifier records."
+  ],
+  "paths": [
+    "docs/atlas/handoffs/team-b/runs/B-01--B-US-AHA.hypertension.8c3bee9f6066.json"
+  ]
+}

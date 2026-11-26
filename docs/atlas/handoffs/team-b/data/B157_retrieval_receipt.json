@@ -1,0 +1,156 @@
+{
+  "batch": "B157",
+  "date": "2026-11-22",
+  "receipts": {
+    "https://haemochromatosis-international.org/members/": {
+      "method": "WebFetch (curl returned 202 challenge)",
+      "retrieved": "2026-11-22",
+      "text_sha256": "725bcd23c6344bb32519808e50b30ac5e40fd966a820f7f9eed5352014450c0a",
+      "member_countries": "Australia, Brazil, Canada, Denmark, Europe, France, Germany, Hungary, Ireland, Italy, New Zealand, Norway, Portugal, Spain, United Kingdom, U.S.A."
+    },
+    "https://www.oeggh.at/": {
+      "http_status": 200,
+      "bytes": 190053,
+      "sha256": "1039f2c429a6fbe8a90ccd41c1d8fa624565f1c991c8503e8e1c8eb0cb7b01ae",
+      "retrieved_utc": "2026-11-22T14:12:30.894383+00:00"
+    },
+    "https://www.oeggh.at/?s=h%C3%A4mochromatose": {
+      "http_status": 200,
+      "bytes": 178327,
+      "sha256": "232776b1beef33fc159efafacbf7a7399b68e48225bf9620e134f98f6cfe1d40",
+      "retrieved_utc": "2026-11-22T14:12:31.121441+00:00"
+    },
+    "https://bsg.bg/": {
+      "http_status": 200,
+      "bytes": 49624,
+      "sha256": "0bb2756d993db608815929a931e231b0023c3d2f53403a6149727993b7da7b4e",
+      "retrieved_utc": "2026-11-22T14:12:29.609194+00:00"
+    },
+    "https://slsg.lk/": {
+      "http_status": 200,
+      "bytes": 309759,
+      "sha256": "143206edbf5bf7d35b22bb49b6f2b50aba844d2750416a53109561200ac614a9",
+      "retrieved_utc": "2026-11-22T14:09:08.709908+00:00"
+    },
+    "https://www.hksge.org/": {
+      "http_status": 200,
+      "bytes": 186710,
+      "sha256": "5c6e700b20b80665034674c63d145c7957ee234fdea3a9372f41dcddec65e5d9",
+      "retrieved_utc": "2026-11-22T14:09:08.542480+00:00"
+    },
+    "https://ygi.or.id/": {
+      "http_status": 200,
+      "bytes": 107311,
+      "sha256": "2cad3859c4e203af46497b40a668f0f658ac72f410b1c67e52e23cad32810791",
+      "retrieved_utc": "2026-11-22T14:12:42.980489+00:00"
+    },
+    "https://ygi.or.id/?s=hemokromatosis": {
+      "http_status": 200,
+      "bytes": 78616,
+      "sha256": "c611318297948ac4d5ec588abf45c77bd3640e501c77ddd14ec318e0a884804a",
+      "retrieved_utc": "2026-11-22T14:12:34.658157+00:00"
+    },
+    "https://pbpgigastro.com/tentang-kami/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:12:36.412097+00:00"
+    },
+    "https://latvijasgastroenterologi.lv/": {
+      "http_status": 200,
+      "bytes": 92595,
+      "sha256": "12eec6674b34b0e7a7e606ba871e9a75f61482e2803aae240b050600250bfb3a",
+      "retrieved_utc": "2026-11-22T14:12:29.979331+00:00"
+    },
+    "https://msgh.org.my/": {
+      "http_status": 200,
+      "bytes": 24330,
+      "sha256": "fe71adaeea209db44fde32fd3aa98a1f4059fd9c681c8007b3a777519197204a",
+      "retrieved_utc": "2026-11-22T14:12:30.379316+00:00"
+    },
+    "https://msgh.org.my/?s=haemochromatosis": {
+      "http_status": 200,
+      "bytes": 24330,
+      "sha256": "fe71adaeea209db44fde32fd3aa98a1f4059fd9c681c8007b3a777519197204a",
+      "retrieved_utc": "2026-11-22T14:12:30.801463+00:00"
+    },
+    "https://www.gastro.org.mx/": {
+      "http_status": 200,
+      "bytes": 172305,
+      "sha256": "a442a7a491400e58365c82b60ac13572c024747b0b902c63844c6f036c302ab9",
+      "retrieved_utc": "2026-11-22T14:12:28.539122+00:00"
+    },
+    "https://www.gastro.org.mx/?s=hemocromatosis": {
+      "http_status": 200,
+      "bytes": 172305,
+      "sha256": "da794801f662946cb52694ad488a3c6b798bca2bf0ae4e36aa6b6db75823c50c",
+      "retrieved_utc": "2026-11-22T14:12:30.536634+00:00"
+    },
+    "https://soghin.org.ng/": {
+      "http_status": 200,
+      "bytes": 193973,
+      "sha256": "0a8a5fa8cee9a491d79c20c08ad120b6208ce4bb1238193ffeabec009387ffc0",
+      "retrieved_utc": "2026-11-22T14:12:30.299222+00:00"
+    },
+    "https://psgastro.org/": {
+      "http_status": 200,
+      "bytes": 459855,
+      "sha256": "b187c0f9beb1d454ffc90331f0e1cfa8311a3c17b7bb44855b9ea38cf143b710",
+      "retrieved_utc": "2026-11-22T14:09:10.017317+00:00"
+    },
+    "https://psgastro.org/?s=hemochromatosis": {
+      "http_status": 200,
+      "bytes": 237931,
+      "sha256": "50a5b2bc9d187a1ac5527a10967ad654a8bcacd6d8de541dc45079bbd2f2e53a",
+      "retrieved_utc": "2026-11-22T14:12:33.056253+00:00"
+    },
+    "https://ptg-e.org.pl/": {
+      "http_status": 200,
+      "bytes": 87234,
+      "sha256": "2f4ab6b7a3a789c2c4bf9324744b5393ee59c397c26b306f01d0adc8ac29c695",
+      "retrieved_utc": "2026-11-22T14:12:31.265218+00:00"
+    },
+    "https://ptg-e.org.pl/?s=hemochromatoza": {
+      "http_status": 200,
+      "bytes": 71285,
+      "sha256": "9e0b87c7cc9a98e8cad09c38d0f03b71339a15e9c70f0485bb426428c6ca6819",
+      "retrieved_utc": "2026-11-22T14:12:32.211852+00:00"
+    },
+    "https://ptg-e.org.pl/edukacja/20-kongres-ptg-e/": {
+      "http_status": 200,
+      "bytes": 72087,
+      "sha256": "60a411c7e523664216681b73fb2387bc0a0d2841a28573bd68794bf3c8e49535",
+      "retrieved_utc": "2026-11-22T14:13:08.525116+00:00"
+    },
+    "https://nfdd.sg/": {
+      "http_status": 200,
+      "bytes": 110576,
+      "sha256": "d5e9c3530086c19d538c21a33f6e77066b7252b3b465a15b75c6e4cec216e4e5",
+      "retrieved_utc": "2026-11-22T14:09:10.335422+00:00"
+    },
+    "https://nfdd.sg/?s=haemochromatosis": {
+      "http_status": 200,
+      "bytes": 62230,
+      "sha256": "88ca613bc3d6d17894c040eebb686dab120177e6e79edc3bbfa66ce3c705da93",
+      "retrieved_utc": "2026-11-22T14:12:32.599194+00:00"
+    },
+    "https://www.sges.sk/": {
+      "http_status": 200,
+      "bytes": 108767,
+      "sha256": "f06042ae0e984b9d3c12ff7a24f2edeb54b684a9227dc5e0a0de363d6ac41e58",
+      "retrieved_utc": "2026-11-22T14:12:29.516752+00:00"
+    },
+    "https://www.magendarmliga.ch/": {
+      "http_status": 200,
+      "bytes": 6040,
+      "sha256": "f7728d2b3b7d298e6cea47dfaaee331ad876d9c0ade62a1d0d353eef5a688309",
+      "retrieved_utc": "2026-11-22T14:12:29.344314+00:00"
+    },
+    "https://www.magendarmliga.ch/?s=h%C3%A4mochromatose": {
+      "http_status": 200,
+      "bytes": 6040,
+      "sha256": "f7728d2b3b7d298e6cea47dfaaee331ad876d9c0ade62a1d0d353eef5a688309",
+      "retrieved_utc": "2026-11-22T14:12:31.112809+00:00"
+    }
+  }
+}

@@ -1,0 +1,2067 @@
+[
+  {
+    "record_id": "B161-DEP-004-lactose",
+    "area_m49": "004",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Afghanistan Gastroenterology and Endoscopy Society for Afghanistan with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Afghanistan: Afghanistan Gastroenterology and Endoscopy Society. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Afghanistan%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0005 (2026-11-18): Actual condition-specific catalogue query returned 89 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-008-lactose",
+    "area_m49": "008",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Albanian Association of Gastroenterology & Hepatology for Albania with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Albania: Albanian Association of Gastroenterology & Hepatology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Albania%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0010 (2026-11-18): Actual condition-specific catalogue query returned 89 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-012-lactose",
+    "area_m49": "012",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.sahgeed.com",
+        "observation": "WGO-listed society (Societe Algerienne D'hepato-gastro-enterologie) first-party site https://www.sahgeed.com: HTTP 200 SHA256=7c9980fa0cdb7656…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.sahgeed.com/?s=lactose HTTP 200 SHA256=7c9980fa0cdb7656…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Algeria: Societe Algerienne D'hepato-gastro-enterologie. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Algeria%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0022 (2026-11-18): Actual condition-specific catalogue query returned 155 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-031-lactose",
+    "area_m49": "031",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Azerbaijan Gastroenterologists and Hepatologists Society for Azerbaijan with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Azerbaijan: Azerbaijan Gastroenterologists and Hepatologists Society. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Azerbaijan%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0049 (2026-11-18): Actual condition-specific catalogue query returned 49 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-068-lactose",
+    "area_m49": "068",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Sociedad Boliviana de Gastroenterología Y Endoscopia Digestiva for Bolivia (Plurinational State of) with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Bolivia (Plurinational State of): Sociedad Boliviana de Gastroenterología Y Endoscopia Digestiva. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bolivia%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0089 (2026-11-18): Actual condition-specific catalogue query returned 75 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-070-lactose",
+    "area_m49": "070",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Association of Gastroenterologists & Hepatologists of Bosnia & Herzegovina for Bosnia and Herzegovina with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://glutenfree.ba/",
+        "observation": "Indexed B-BA-GFHNZ (celiac_support_and_education) site https://glutenfree.ba/: HTTP 200 SHA256=1987edff270cd1d9…; no lactose/lactase content or link in local-language terms. Native site search https://glutenfree.ba/?s=laktoza HTTP 200 SHA256=610c5dec60c8206d…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Bosnia and Herzegovina: Association of Gastroenterologists & Hepatologists of Bosnia & Herzegovina. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bosnia+and+Herzegovina%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0095 (2026-11-18): Actual condition-specific catalogue query returned 70 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-100-lactose",
+    "area_m49": "100",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.bsg.bg",
+        "observation": "WGO-listed society (Bulgarian Society of Gastroenterology) first-party site https://www.bsg.bg: HTTP 200 SHA256=0bb2756d993db608…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.bsg.bg/?s=%D0%BB%D0%B0%D0%BA%D1%82%D0%BE%D0%B7%D0%B0 HTTP 200 SHA256=6255da212879cccf…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Bulgaria: Bulgarian Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bulgaria%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0141 (2026-11-18): Actual condition-specific catalogue query returned 260 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-104-lactose",
+    "area_m49": "104",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.mgls.asia/index.php/en/",
+        "observation": "WGO-listed society (Myanmar Gastroenterology & Liver Society) first-party site https://www.mgls.asia/index.php/en/: HTTP 404 (inaccessible). (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Myanmar: Myanmar Gastroenterology & Liver Society. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Myanmar%22+OR+%22Burma%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0146 (2026-11-18): Actual condition-specific catalogue query returned 85 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-120-lactose",
+    "area_m49": "120",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Societe Camerounaise De Gastroenterologie for Cameroon with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Cameroon: Societe Camerounaise De Gastroenterologie. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Cameroon%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0164 (2026-11-18): Actual condition-specific catalogue query returned 80 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-144-lactose",
+    "area_m49": "144",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://slsg.lk/eng/index.php/en/",
+        "observation": "WGO-listed society (Sri Lanka Society of Gastroenterology) first-party site https://slsg.lk/eng/index.php/en/: HTTP 404 (inaccessible). (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://slsg.lk/?s=lactose HTTP 200 SHA256=69a77811b3ce990b…: no substantive lactose result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://slsg.lk/",
+        "observation": "Indexed B-LK-SLSG (gastroenterology_hepatology) site https://slsg.lk/: HTTP 200 SHA256=143206edbf5bf7d3…; no lactose/lactase content or link in local-language terms. Native site search https://slsg.lk/?s=lactose HTTP 200 SHA256=69a77811b3ce990b…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Sri Lanka: Sri Lanka Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Sri+Lanka%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-4cc83dbf68d8c577 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=1. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical aff Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-156-lactose",
+    "area_m49": "156",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.csge.org.cn",
+        "observation": "WGO-listed society (Chinese Society of Gastroenterology) first-party site https://www.csge.org.cn: HTTP 200 824B shell/challenge page only, content not inspectable. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for China: Chinese Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A11776151+AND+SRC%3AMED&format=json&resultType=core",
+        "observation": "Preserved B105-CELL-014 (2026-11-18): Chinese child lactose abstract:1168 children age3-13 from four cities, breath-hydrogen and symptom testing reported separately. Keep enzyme deficiency and symptoms distinct; no nationality-genotype inference. Distinct first-party local academic/society identity and exact original publisher document; Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-188-lactose",
+    "area_m49": "188",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.gastroenterologoscr.com",
+        "observation": "WGO-listed society (Asoc. De Especialistas En Gastroenterología Y Endoscopia Digestiva De Costa Rica) first-party site https://www.gastroenterologoscr.com: HTTP 202 169B shell/challenge page only, content not inspectable. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://acopecr.com/",
+        "observation": "Indexed B-CR-ACOPE (pediatrics) site https://acopecr.com/: HTTP 200 SHA256=f9d3f91a700f6512…; no lactose/lactase content or link in local-language terms. Native site search https://acopecr.com/?s=lactosa HTTP 200 SHA256=ca2e0dca72716818…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Costa Rica: Asoc. De Especialistas En Gastroenterología Y Endoscopia Digestiva De Costa Rica. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Costa+Rica%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0239 (2026-11-18): Actual condition-specific catalogue query returned 104 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-191-lactose",
+    "area_m49": "191",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.hgd.hr",
+        "observation": "WGO-listed society (Croatian Society of Gastroenterology) first-party site https://www.hgd.hr: HTTP 200 SHA256=e66692767730a085…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.hgd.hr/?s=laktoza HTTP 200 SHA256=db486edbd76d2759…: no substantive lactose result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.celijakija.hr/",
+        "observation": "Indexed B-HR-CELIJAKIJA (celiac_education_support) site https://www.celijakija.hr/: HTTP 200 SHA256=cb65c7a4a8e6a61f…; no lactose/lactase content or link in local-language terms. "
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://celivita.hr/",
+        "observation": "Indexed B-HR-CELIVITA (celiac) site https://celivita.hr/: HTTP 200 SHA256=cc2d0aa6583a10c6…; no lactose/lactase content or link in local-language terms. Native site search https://celivita.hr/?s=laktoza HTTP 200 SHA256=9480fb75a39434cb…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Croatia: Croatian Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Croatia%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-6726208c59fd8138 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=2. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical aff Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-192-lactose",
+    "area_m49": "192",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.sld.cu/sitios/gastroenterologia/",
+        "observation": "WGO-listed society (Sociedad Cubana De Gastroenterologia) first-party site https://www.sld.cu/sitios/gastroenterologia/: HTTP 502 (inaccessible). (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Cuba: Sociedad Cubana De Gastroenterologia. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Cuba%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0244 (2026-11-18): Actual condition-specific catalogue query returned 96 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-214-lactose",
+    "area_m49": "214",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.sodogastro.com",
+        "observation": "WGO-listed society (Sociedad Dominicana de Gastroenterología) first-party site https://www.sodogastro.com: HTTP 200 584B shell/challenge page only, content not inspectable. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Dominican Republic: Sociedad Dominicana de Gastroenterología. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Dominican+Republic%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0263 (2026-11-18): Actual condition-specific catalogue query returned 60 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-218-lactose",
+    "area_m49": "218",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Sociedad Ecuatoriana De Gastroenterologia for Ecuador with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Ecuador: Sociedad Ecuatoriana De Gastroenterologia. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Ecuador%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0268 (2026-11-18): Actual condition-specific catalogue query returned 169 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-222-lactose",
+    "area_m49": "222",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://agedes.org",
+        "observation": "WGO-listed society (Asociación de Gastroenterología Y Endoscopía Digestiva de El Salvador) first-party site https://agedes.org: HTTP 200 SHA256=0682ddbba999fe21…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://agedes.org/?s=lactosa HTTP 200 SHA256=599cb253efce8342…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for El Salvador: Asociación de Gastroenterología Y Endoscopía Digestiva de El Salvador. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22El+Salvador%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0275 (2026-11-18): Actual condition-specific catalogue query returned 44 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-231-lactose",
+    "area_m49": "231",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists none parsed for Ethiopia with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Ethiopia: none parsed. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Ethiopia%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0284 (2026-11-18): Actual condition-specific catalogue query returned 212 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-275-lactose",
+    "area_m49": "275",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.psgastro.ps",
+        "observation": "WGO-listed society (Palestinian Society of Gastroenterology) first-party site https://www.psgastro.ps: HTTP 200 SHA256=58e7135a5298a91d…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.psgastro.ps/?s=lactose HTTP 200 SHA256=b68ac596ebe88e19…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for State of Palestine: Palestinian Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Palestine%22+OR+%22Palestinian%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0359 (2026-11-18): Actual condition-specific catalogue query returned 74 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-300-lactose",
+    "area_m49": "300",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.hsg.gr",
+        "observation": "WGO-listed society (Hellenic Society of Gastroenterology) first-party site https://www.hsg.gr: HTTP 200 SHA256=dac569fa38732d05…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.hsg.gr/?s=%CE%BB%CE%B1%CE%BA%CF%84%CF%8C%CE%B6%CE%B7 HTTP 200 SHA256=bcbd3e41ce3bb031…: no substantive lactose result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.koiliokaki.com/coeliac_disease/",
+        "observation": "Indexed B-GR-HCS (celiac_education_support) site https://www.koiliokaki.com/coeliac_disease/: HTTP 200 SHA256=ebe25c9b8b04b307…; no lactose/lactase content or link in local-language terms. Native site search https://www.koiliokaki.com/?s=%CE%BB%CE%B1%CE%BA%CF%84%CF%8C%CE%B6%CE%B7 HTTP 200 SHA256=71b8897467ec243d…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Greece: Hellenic Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Greece%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0373 (2026-11-18): Actual condition-specific catalogue query returned 734 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-320-lactose",
+    "area_m49": "320",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.guategastro.com/",
+        "observation": "WGO-listed society (Asoc. Guatemalteca de Gastroenterología, Hepatología Y Endoscopía Gastrointestin) first-party site https://www.guategastro.com/: HTTP 200 114B shell/challenge page only, content not inspectable. "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Guatemala: Asoc. Guatemalteca de Gastroenterología, Hepatología Y Endoscopía Gastrointestin. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A2106255+AND+SRC%3AMED&format=json&resultType=core",
+        "observation": "Preserved B105-CELL-041 (2026-11-18): Guatemalan lactose-enzyme study33 maldigesting children/adults, in-vitro and milk challenge. Experimental dose/small selected sample not national intolerance; unusually large infant-dose units require original specialist check. Distinct first-party local academic/society identity and exact original  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-332-lactose",
+    "area_m49": "332",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Haitian Gastroenterology Association for Haiti with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Haiti: Haitian Gastroenterology Association. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Haiti%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0413 (2026-11-18): Actual condition-specific catalogue query returned 63 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-348-lactose",
+    "area_m49": "348",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://mgtiroda.hu/",
+        "observation": "WGO-listed society (Hungarian Society of Gastroenterology) first-party site https://mgtiroda.hu/: HTTP 200 SHA256=b4a8a245097c8a36…; no lactose/lactase content or link in local-language terms. Native site search https://mgtiroda.hu/?s=lakt%C3%B3z HTTP 200 SHA256=b8676f2080dafa41…: no substantive lactose result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://coeliakia.hu/rolunk/",
+        "observation": "Magyar Cöliákia Egyesület article https://coeliakia.hu/cukorbeteg-laktoz-vagy-glutenerzekeny-82-800-ft-jarhat-onnek/ is tax-allowance news quoting third-party (NEAK/VG) figures; not substantive lactose education. Indexed B-HU-MCE (celiac_education_support) site https://coeliakia.hu/rolunk/: HTTP 200 SHA256=97f51a073a6b88e7…; no substantive lactose text. Native site search https://coeliakia.hu/?s=lakt%C3%B3z HTTP 200 SHA256=4c9c5d2f455e34aa…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Hungary: Hungarian Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Hungary%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-e4c7cf8cac16eb87 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=15. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical af Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-352-lactose",
+    "area_m49": "352",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists The Icelandic Gastroenterology Society for Iceland with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://gluten.is/",
+        "observation": "Indexed B-IS-GLUTEN (celiac_education_support) site https://gluten.is/: HTTP 403 (inaccessible). "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Iceland: The Icelandic Gastroenterology Society. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Iceland%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-efca3e7be5346126 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=1. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical aff Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-364-lactose",
+    "area_m49": "364",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.iagh.org",
+        "observation": "WGO-listed society (Iranian Association of Gastroenterology and Hepatology) first-party site https://www.iagh.org: HTTP 200 SHA256=2967b48b51954dac…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.iagh.org/?s=lactose HTTP 200 SHA256=2967b48b51954dac…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Iran (Islamic Republic of): Iranian Association of Gastroenterology and Hepatology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Iran%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0443 (2026-11-18): Actual condition-specific catalogue query returned 910 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-368-lactose",
+    "area_m49": "368",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.iraq-git.com/isgh/",
+        "observation": "WGO-listed society (Iraqi Society of Gastroenterology and Hepatology) first-party site https://www.iraq-git.com/isgh/: HTTP 200 SHA256=66cfe16b1472a912…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.iraq-git.com/isgh/?s=lactose HTTP 200 SHA256=2dd18f6fe1a20a1e…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Iraq: Iraqi Society of Gastroenterology and Hepatology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Iraq%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0449 (2026-11-18): Actual condition-specific catalogue query returned 169 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-376-lactose",
+    "area_m49": "376",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://gastro.doctorsonly.co.il",
+        "observation": "WGO-listed society (The Israeli Society of Gastroenterology and Liver Disease) first-party site https://gastro.doctorsonly.co.il: HTTP 403 (inaccessible). (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://celiacrights.org.il/",
+        "observation": "Celiac Rights Organization site search for לקטוז returned only a general gluten-free lifestyle guide with no lactose passage. Indexed B-IL-CRO (celiac_disease_patient_support_and_educa) site https://celiacrights.org.il/: HTTP 200 SHA256=9ac0ad5d429b8d07…; no substantive lactose text. Native site search https://celiacrights.org.il/?s=%D7%9C%D7%A7%D7%98%D7%95%D7%96 HTTP 200 SHA256=432a995936bf502c…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Israel: The Israeli Society of Gastroenterology and Liver Disease. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Israel%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0454 (2026-11-18): Actual condition-specific catalogue query returned 804 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-388-lactose",
+    "area_m49": "388",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.awigcaribbean.org/",
+        "observation": "WGO-listed society (Association of West Indian Gastroenterologists) first-party site https://www.awigcaribbean.org/: HTTP 200 SHA256=7242d43ec67f7a61…; no lactose/lactase content or link in local-language terms. Native site search https://www.awigcaribbean.org/?s=lactose HTTP 200 SHA256=5072874e92e67624…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Jamaica: Association of West Indian Gastroenterologists. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Jamaica%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0464 (2026-11-18): Actual condition-specific catalogue query returned 188 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-400-lactose",
+    "area_m49": "400",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://thejsgh.com/",
+        "observation": "WGO-listed society (Jordanian Society of Gastroenterology & Hepatology) first-party site https://thejsgh.com/: HTTP 200 SHA256=ea30412b4b1e4f1e…; no lactose/lactase content or link in local-language terms. Native site search https://thejsgh.com/?s=lactose HTTP 200 SHA256=ea30412b4b1e4f1e…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Jordan: Jordanian Society of Gastroenterology & Hepatology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Jordan%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-c5586087ccc23d6a (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=2. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical aff Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-410-lactose",
+    "area_m49": "410",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.gastrokorea.org",
+        "observation": "WGO-listed society (The Korean Society of Gastroenterology) first-party site https://www.gastrokorea.org: HTTP 200 SHA256=0858a4b20ef2dd11…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.gastrokorea.org/?s=%EC%9C%A0%EB%8B%B9 HTTP 200 SHA256=3fc42da1546cd042…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Republic of Korea: The Korean Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22South+Korea%22+OR+%22Republic+of+Korea%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0483 (2026-11-18): Actual condition-specific catalogue query returned 711 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-422-lactose",
+    "area_m49": "422",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.lsge.net/",
+        "observation": "WGO-listed society (Lebanese Society of Gastroenterology) first-party site https://www.lsge.net/: HTTP 200 SHA256=650d66653961a09a…; no lactose/lactase content or link in local-language terms. Native site search https://www.lsge.net/?s=lactose HTTP 200 SHA256=650d66653961a09a…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Lebanon: Lebanese Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Lebanon%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0506 (2026-11-18): Actual condition-specific catalogue query returned 205 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-440-lactose",
+    "area_m49": "440",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.gastroenterologija.lt",
+        "observation": "WGO-listed society (Lithuanian Society of Gastroenterology) first-party site https://www.gastroenterologija.lt: HTTP 200 SHA256=e7bd3d8860487371…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.gastroenterologija.lt/?s=laktoz HTTP 200 SHA256=f758ab6547087ec9…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Lithuania: Lithuanian Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Lithuania%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-86f4ed36b22e5ff4 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=1. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical aff Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-450-lactose",
+    "area_m49": "450",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Association de Gastro-Enterologie de Madagascar (AGEM); Société Malgache D'Hepato-gastro-enterologie Et D'Endoscopie Digestive for Madagascar with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Madagascar: Association de Gastro-Enterologie de Madagascar (AGEM); Société Malgache D'Hepato-gastro-enterologie Et D'Endoscopie Digestive. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Madagascar%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0544 (2026-11-18): Actual condition-specific catalogue query returned 46 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-458-lactose",
+    "area_m49": "458",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.msgh.org.my",
+        "observation": "WGO-listed society (Malaysian Society of Gastroenterology & Hepatology) first-party site https://www.msgh.org.my: HTTP 200 SHA256=fe71adaeea209db4…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Malaysia: Malaysian Society of Gastroenterology & Hepatology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Malaysia%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-63ca84c65220b126 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=19. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical af Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-466-lactose",
+    "area_m49": "466",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.sommad.ml",
+        "observation": "WGO-listed society (Societe Malienne Des Maladies de L'Appareil Digestif (SOMMAD)) first-party site https://www.sommad.ml: HTTP 200 SHA256=e7b500b8ab668eed…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.sommad.ml/?s=lactose HTTP 200 SHA256=3589bb3afa199bc6…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Mali: Societe Malienne Des Maladies de L'Appareil Digestif (SOMMAD). Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Mali%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0562 (2026-11-18): Actual condition-specific catalogue query returned 81 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-496-lactose",
+    "area_m49": "496",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Mongolian Gastroenterology Association for Mongolia with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Mongolia: Mongolian Gastroenterology Association. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Mongolia%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0593 (2026-11-18): Actual condition-specific catalogue query returned 188 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-498-lactose",
+    "area_m49": "498",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Society of Gastroenterology and Hepatology of the Republic of Moldova for Republic of Moldova with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Republic of Moldova: Society of Gastroenterology and Hepatology of the Republic of Moldova. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Moldova%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0599 (2026-11-18): Actual condition-specific catalogue query returned 71 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-499-lactose",
+    "area_m49": "499",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.ugcg.me",
+        "observation": "WGO-listed society (Gastroenterohepatology Association of Montenegro) first-party site https://www.ugcg.me: HTTP 200 SHA256=5fd6ee7e7e02a2ed…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.ugcg.me/?s=laktoza HTTP 200 SHA256=c9ec536b48abcba4…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Montenegro: Gastroenterohepatology Association of Montenegro. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Montenegro%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0605 (2026-11-18): Actual condition-specific catalogue query returned 74 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-504-lactose",
+    "area_m49": "504",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.smmad.net/",
+        "observation": "WGO-listed society (Société Marocaine Des Maladies de L'Appareil Digestif) first-party site https://www.smmad.net/: HTTP 200 SHA256=a3555f8d027eb902…; no lactose/lactase content or link in local-language terms. Native site search https://www.smmad.net/?s=lactose HTTP 200 SHA256=949bd403167c417c…: no substantive lactose result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://amiag.org/about.html",
+        "observation": "Indexed B-MA-AMIAG (celiac_disease_education) site https://amiag.org/about.html: HTTP 200 SHA256=19ea9996c0552bfe…; no lactose/lactase content or link in local-language terms. "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Morocco: Société Marocaine Des Maladies de L'Appareil Digestif. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Morocco%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-d6d1eea1199c2295 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=1. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical aff Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-512-lactose",
+    "area_m49": "512",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.omangastro.com/",
+        "observation": "WGO-listed society (Oman Gastroenterology Society) first-party site https://www.omangastro.com/: no response (connection failed). "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Oman: Oman Gastroenterology Society. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Oman%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0624 (2026-11-18): Actual condition-specific catalogue query returned 85 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-558-lactose",
+    "area_m49": "558",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Sociedad Nicaragüense Gastroenterología Y Endoscopia Digestiva (SONIGED) for Nicaragua with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Nicaragua: Sociedad Nicaragüense Gastroenterología Y Endoscopia Digestiva (SONIGED). Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Nicaragua%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0672 (2026-11-18): Actual condition-specific catalogue query returned 28 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-562-lactose",
+    "area_m49": "562",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Société Nigérienne D'Hepato-Gastroenterologie Et D'Endoscopie Digestive for Niger with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Niger: Société Nigérienne D'Hepato-Gastroenterologie Et D'Endoscopie Digestive. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Niger%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0678 (2026-11-18): Actual condition-specific catalogue query returned 296 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-566-lactose",
+    "area_m49": "566",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.soghin.org.ng",
+        "observation": "WGO-listed society (Society for Gastroenterology and Hepatology in Nigeria (SOGHIN)) first-party site https://www.soghin.org.ng: HTTP 200 SHA256=51d997f3f7400fca…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.soghin.org.ng/?s=lactose HTTP 200 SHA256=f5374a364fa83be5…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Nigeria: Society for Gastroenterology and Hepatology in Nigeria (SOGHIN). Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Nigeria%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-9496964258605eb5 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=3. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical aff Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-586-lactose",
+    "area_m49": "586",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.psgpak.org/",
+        "observation": "WGO-listed society (Pakistan Society of Gastroenterology & GI Endoscopy) first-party site https://www.psgpak.org/: HTTP 200 SHA256=39059e14ab88fe38…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.psgpak.org/?s=lactose HTTP 200 SHA256=59fd4a9690b31fce…: no substantive lactose result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.karachiceliacsociety.org/",
+        "observation": "Indexed B-PK-KCS (celiac_awareness) site https://www.karachiceliacsociety.org/: HTTP 200 SHA256=12a3e7bec6aed645…; no lactose/lactase content or link in local-language terms. Native site search https://www.karachiceliacsociety.org/?s=lactose HTTP 200 SHA256=12a3e7bec6aed645…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Pakistan: Pakistan Society of Gastroenterology & GI Endoscopy. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A6745955+AND+SRC%3AMED&format=json&resultType=core",
+        "observation": "Preserved B105-CELL-013 (2026-11-18): Pakistani lactose abstract:414 apparently healthy adults, glucose/breath tests and248 malabsorbers. Malabsorption not automatically symptomatic intolerance; local original author institution not authenticated. Distinct first-party local academic/society identity and exact original publisher document Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-591-lactose",
+    "area_m49": "591",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://gastropanamaorg.com/",
+        "observation": "WGO-listed society (Asociacion Panamena De Gastroenterología Y Endoscopia Digestiva (APGED)) first-party site https://gastropanamaorg.com/: HTTP 202 169B shell/challenge page only, content not inspectable. "
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://celiacospanama.org/",
+        "observation": "Indexed B-PA-FUCEPA (celiac_patient_education) site https://celiacospanama.org/: HTTP 202 169B shell/challenge page only, content not inspectable. "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Panama: Asociacion Panamena De Gastroenterología Y Endoscopia Digestiva (APGED). Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Panama%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0732 (2026-11-18): Actual condition-specific catalogue query returned 82 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-600-lactose",
+    "area_m49": "600",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.spge.org.py/",
+        "observation": "WGO-listed society (Sociedad Paraguaya de Gastroenterología Y Endoscopia Digestiva) first-party site https://www.spge.org.py/: HTTP 200 SHA256=4bcf09ebc2aebb52…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.spge.org.py/?s=lactosa HTTP 200 SHA256=6cf167d3b03cb89d…: no substantive lactose result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://fupacel.org.py/nosotros",
+        "observation": "Indexed B-PY-FUPACEL (celiac) site https://fupacel.org.py/nosotros: HTTP 200 SHA256=deb492222220c10c…; no lactose/lactase content or link in local-language terms. Native site search https://fupacel.org.py/?s=lactosa HTTP 200 SHA256=57f1e1032890241c…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Paraguay: Sociedad Paraguaya de Gastroenterología Y Endoscopia Digestiva. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Paraguay%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0740 (2026-11-18): Actual condition-specific catalogue query returned 48 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-608-lactose",
+    "area_m49": "608",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.psgastro.org",
+        "observation": "WGO-listed society (Philippine Society of Gastroenterology) first-party site https://www.psgastro.org: no response (connection failed). (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://psgastro.org/?s=lactose HTTP 200 SHA256=78e7007c6decae8f…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Philippines: Philippine Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Philippines%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-c01f8cc58299450a (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=4. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical aff Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-630-lactose",
+    "area_m49": "630",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.prgastro.org",
+        "observation": "WGO-listed society (Asociación Puertorriqueña de Gastroenterología) first-party site https://www.prgastro.org: HTTP 200 SHA256=211e94a754d61532…; no lactose/lactase content or link in local-language terms. Native site search https://www.prgastro.org/?s=lactosa HTTP 200 SHA256=769fb80b4b6c5c33…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Puerto Rico: Asociación Puertorriqueña de Gastroenterología. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Puerto+Rico%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0765 (2026-11-18): Actual condition-specific catalogue query returned 141 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-643-lactose",
+    "area_m49": "643",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.nogr.org",
+        "observation": "WGO-listed society (Gastroenterological Scientific Society of Russia) first-party site https://www.nogr.org: HTTP 200 SHA256=881753a8452103aa…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.nogr.org/?s=%D0%BB%D0%B0%D0%BA%D1%82%D0%B0%D0%B7 HTTP 200 SHA256=881753a8452103aa…: no substantive lactose result."
+      },
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.gastro.ru/",
+        "observation": "WGO-listed society (Russian Gastroenterological Association) first-party site https://www.gastro.ru/: HTTP 200 SHA256=d66101080d42737d…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.gastro.ru/?s=%D0%BB%D0%B0%D0%BA%D1%82%D0%B0%D0%B7 HTTP 200 SHA256=86d4eee1286efd07…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Russian Federation: Gastroenterological Scientific Society of Russia; Russian Gastroenterological Association. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Russian+Federation%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0783 (2026-11-18): Actual condition-specific catalogue query returned 173 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-646-lactose",
+    "area_m49": "646",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.rwandascope.org",
+        "observation": "WGO-listed society (Rwandan Society for Endoscopy) first-party site https://www.rwandascope.org: no response (connection failed). (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Rwanda: Rwandan Society for Endoscopy. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Rwanda%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0787 (2026-11-18): Actual condition-specific catalogue query returned 52 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-682-lactose",
+    "area_m49": "682",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.saudigastro.com",
+        "observation": "WGO-listed society (Saudi Gastroenterology Association) first-party site https://www.saudigastro.com: HTTP 200 SHA256=4363e213f1c8a7b9…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.saudigastro.com/?s=lactose HTTP 200 SHA256=4363e213f1c8a7b9…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Saudi Arabia: Saudi Gastroenterology Association. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Saudi+Arabia%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0845 (2026-11-18): Actual condition-specific catalogue query returned 533 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-686-lactose",
+    "area_m49": "686",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.sosegh.org/",
+        "observation": "WGO-listed society (Société Sénégalaise De Gastro-entérologie Et D´hépatologie (SOSEGH)) first-party site https://www.sosegh.org/: no response (connection failed). (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Senegal: Société Sénégalaise De Gastro-entérologie Et D´hépatologie (SOSEGH). Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Senegal%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0850 (2026-11-18): Actual condition-specific catalogue query returned 80 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-688-lactose",
+    "area_m49": "688",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.ugs.rs/",
+        "observation": "WGO-listed society (Association of Serbian Gastroenterologists) first-party site https://www.ugs.rs/: HTTP 200 SHA256=b0a20c44308c993f…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.ugs.rs/?s=laktoza HTTP 200 SHA256=b0a20c44308c993f…: no substantive lactose result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://celijakija.rs/",
+        "observation": "Indexed B-RS-USC (celiac_disease_patient_support_and_educa) site https://celijakija.rs/: HTTP 200 SHA256=f0a349170ed783be…; no lactose/lactase content or link in local-language terms. Native site search https://celijakija.rs/?s=laktoza HTTP 200 SHA256=82faf638d587ed7e…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Serbia: Association of Serbian Gastroenterologists. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Serbia%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0856 (2026-11-18): Actual condition-specific catalogue query returned 245 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-703-lactose",
+    "area_m49": "703",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.sgssls.sk/",
+        "observation": "WGO-listed society (Slovak Gastroenterological Society) first-party site https://www.sgssls.sk/: HTTP 401 (inaccessible). (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.sges.sk/",
+        "observation": "Indexed B-SK-SGS (gastroenterology) site https://www.sges.sk/: HTTP 200 SHA256=f06042ae0e984b9d…; no lactose/lactase content or link in local-language terms. Native site search https://www.sges.sk/?s=lakt%C3%B3z HTTP 200 SHA256=6cd8d8b428d7c8c3…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Slovakia: Slovak Gastroenterological Society. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Slovakia%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-14db1b8042f88920 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=3. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical aff Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-704-lactose",
+    "area_m49": "704",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://vnage.vn/",
+        "observation": "WGO-listed society (Vietnam Association of Gastroenterology (VNAGE)) first-party site https://vnage.vn/: HTTP 200 SHA256=cbed353dcf6fa4b5…; no lactose/lactase content or link in local-language terms. Native site search https://vnage.vn/?s=lactose HTTP 200 SHA256=cbed353dcf6fa4b5…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Viet Nam: Vietnam Association of Gastroenterology (VNAGE). Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A851072+AND+SRC%3AMED&format=json&resultType=core",
+        "observation": "Preserved B105-CELL-026 (2026-11-18): Vietnamese lactose study31 adults tested after US migration; malabsorption and symptoms differ. Diaspora sample not Vietnamese local source or nationwide genotype prevalence. Distinct first-party local academic/society identity and exact original publisher document; verify authorship, edition and su Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-729-lactose",
+    "area_m49": "729",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Sudanese Society of Gastroenterology for Sudan with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Sudan: Sudanese Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28127820+AND+SRC%3AMED&format=json&resultType=core",
+        "observation": "Preserved B105-CELL-009 (2026-11-18): Sudan lactase-persistence/mitochondrial-DNA population-history paper studies variants/haplotypes, not symptomatic lactose intolerance. Do not turn ethnicity, migration or lactase genotype into disease status. Distinct first-party local academic/society identity and exact original publisher document; Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-760-lactose",
+    "area_m49": "760",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists none parsed for Syrian Arab Republic with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Syrian Arab Republic: none parsed. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Syria%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0931 (2026-11-18): Actual condition-specific catalogue query returned 95 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-764-lactose",
+    "area_m49": "764",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.gastrothai.net",
+        "observation": "WGO-listed society (Gastroenterological Association of Thailand) first-party site https://www.gastrothai.net: HTTP 200 3541B shell/challenge page only, content not inspectable. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Thailand: Gastroenterological Association of Thailand. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A15822548+AND+SRC%3AMED&format=json&resultType=core",
+        "observation": "Preserved B105-CELL-042 (2026-11-18): Thai lactose volunteers abstract says45total but15male+35female, arithmetic conflict retained. Breath malabsorption and symptomatic tolerance distinguished; original methods and institution need verification. Distinct first-party local academic/society identity and exact original publisher document; Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-784-lactose",
+    "area_m49": "784",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://eghsuae.com",
+        "observation": "WGO-listed society (Emirates Gastroenterology & Hepatology Society) first-party site https://eghsuae.com: HTTP 404 (inaccessible). (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for United Arab Emirates: Emirates Gastroenterology & Hepatology Society. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22United+Arab+Emirates%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0964 (2026-11-18): Actual condition-specific catalogue query returned 196 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-788-lactose",
+    "area_m49": "788",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.stge.org.tn",
+        "observation": "WGO-listed society (Tunisian Society of Gastroenterology) first-party site https://www.stge.org.tn: HTTP 200 SHA256=c75dbdd5dceeb161…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.stge.org.tn/?s=lactose HTTP 200 SHA256=c75dbdd5dceeb161…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Tunisia: Tunisian Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Tunisia%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0968 (2026-11-18): Actual condition-specific catalogue query returned 172 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-792-lactose",
+    "area_m49": "792",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.tgd.org.tr",
+        "observation": "WGO-listed society (Turkish Society of Gastroenterology) first-party site https://www.tgd.org.tr: HTTP 200 SHA256=50696b5b12bea3bb…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.tgd.org.tr/?s=laktoz HTTP 200 SHA256=576ba103e75990e2…: no substantive lactose result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://colyak.org.tr/",
+        "observation": "Indexed B-TR-CLY (celiac_disease) site https://colyak.org.tr/: HTTP 200 SHA256=9aa0f8bb0cd10a2f…; no lactose/lactase content or link in local-language terms. Native site search https://colyak.org.tr/?s=laktoz HTTP 200 SHA256=2ed027da8a507902…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Türkiye: Turkish Society of Gastroenterology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Turkey%22+OR+%22T%C3%BCrkiye%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0969 (2026-11-18): Actual condition-specific catalogue query returned 1110 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-800-lactose",
+    "area_m49": "800",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Uganda Gastroenterology Society for Uganda with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Uganda: Uganda Gastroenterology Society. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Uganda%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0989 (2026-11-18): Actual condition-specific catalogue query returned 213 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-804-lactose",
+    "area_m49": "804",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.ukrgastro.com.ua",
+        "observation": "WGO-listed society (Ukrainian Gastroenterology Association) first-party site https://www.ukrgastro.com.ua: HTTP 200 SHA256=5d36ecff75d5d6b5…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.ukrgastro.com.ua/?s=%D0%BB%D0%B0%D0%BA%D1%82%D0%BE%D0%B7 HTTP 200 SHA256=6515a652f317d390…: no substantive lactose result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://celiac.org.ua/",
+        "observation": "Indexed B-UA-USC (celiac_support_and_education) site https://celiac.org.ua/: HTTP 200 SHA256=4b3b6673b2ad2463…; no lactose/lactase content or link in local-language terms. Native site search https://celiac.org.ua/?s=%D0%BB%D0%B0%D0%BA%D1%82%D0%BE%D0%B7 HTTP 200 SHA256=c2f752cfb08e48cf…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Ukraine: Ukrainian Gastroenterology Association. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Ukraine%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0995 (2026-11-18): Actual condition-specific catalogue query returned 216 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-807-lactose",
+    "area_m49": "807",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.gastro.mk",
+        "observation": "WGO-listed society (Macedonian Society of Gastroenterohepatology) first-party site https://www.gastro.mk: HTTP 200 SHA256=edcfa7d2f36e9749…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.gastro.mk/?s=%D0%BB%D0%B0%D0%BA%D1%82%D0%BE%D0%B7%D0%B0 HTTP 200 SHA256=66b243c14db49d6a…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for North Macedonia: Macedonian Society of Gastroenterohepatology. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22North+Macedonia%22+OR+%22Macedonia%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1001 (2026-11-18): Actual condition-specific catalogue query returned 100 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-818-lactose",
+    "area_m49": "818",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.earth-eg.org",
+        "observation": "EARTH homepage lists \"Malabsorption: Celiac disease, lactose intolerance\" only as a topic heading; no substantive text. WGO-listed society (Egyptian Association for Research and Training in Hepatogastroenterology (EARTH)) first-party site https://www.earth-eg.org: HTTP 200 SHA256=90e5313cf0ebdca6…; no substantive lactose text. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.earth-eg.org/?s=lactose HTTP 200 SHA256=90e5313cf0ebdca6…: no substantive lactose result."
+      },
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.easgld.org",
+        "observation": "WGO-listed society (Egyptian Association for Study of Liver and Gastrointestinal Diseases (EASLGD)) first-party site https://www.easgld.org: no response (connection failed). (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) "
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Egypt: Egyptian Association for Research and Training in Hepatogastroenterology (EARTH); Egyptian Association for Study of Liver and Gastrointestinal Diseases (EASLGD). Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A7702547+AND+SRC%3AMED&format=json&resultType=core",
+        "observation": "Preserved B105-CELL-032 (2026-11-18): Egyptian desert lactose study172 subjects uses40g challenge and urinary galactose. Regional malabsorption not all national symptomatic intolerance; ethnic comparisons not individual risk. Distinct first-party local academic/society identity and exact original publisher document; verify authorship, e Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-854-lactose",
+    "area_m49": "854",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Société Burkinabè D’Hépato-GastroEntérologie Et D’Endoscopie Digestive for Burkina Faso with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Burkina Faso: Société Burkinabè D’Hépato-GastroEntérologie Et D’Endoscopie Digestive. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Burkina+Faso%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1036 (2026-11-18): Actual condition-specific catalogue query returned 67 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-858-lactose",
+    "area_m49": "858",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.sgu.org.uy",
+        "observation": "WGO-listed society (Sociedad de Gastroenterología Del Uruguay) first-party site https://www.sgu.org.uy: HTTP 200 SHA256=c0a68fef9a65a11d…; no lactose/lactase content or link in local-language terms. (WGO-listed http:// URL returns 500 via box egress proxy; https:// variant used.) Native site search https://www.sgu.org.uy/?s=lactosa HTTP 200 SHA256=0b4deb2e4d3873ee…: no substantive lactose result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://acelu.org/",
+        "observation": "Indexed B-UY-ACELU (celiac_education_food_safety) site https://acelu.org/: HTTP 200 SHA256=c3bcdbd7bff265f2…; no lactose/lactase content or link in local-language terms. Native site search https://acelu.org/?s=lactosa HTTP 200 SHA256=3e93e5b97a7d8f42…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Uruguay: Sociedad de Gastroenterología Del Uruguay. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Uruguay%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1041 (2026-11-18): Actual condition-specific catalogue query returned 100 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-862-lactose",
+    "area_m49": "862",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://www.sovegastrove.org/index.php",
+        "observation": "WGO-listed society (Sociedad Venezolana de Gastroenterología) first-party site https://www.sovegastrove.org/index.php: HTTP 404 (inaccessible). "
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://celiacosvenezuela.org.ve/",
+        "observation": "Indexed B-VE-FCV (celiac_disease_patient_support_and_educa) site https://celiacosvenezuela.org.ve/: HTTP 200 SHA256=cb61fe78dc27c233…; no lactose/lactase content or link in local-language terms. Native site search https://celiacosvenezuela.org.ve/?s=lactosa HTTP 200 SHA256=c833e1289f765e71…: no substantive lactose result."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Venezuela (Bolivarian Republic of): Sociedad Venezolana de Gastroenterología. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Venezuela%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1051 (2026-11-18): Actual condition-specific catalogue query returned 167 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-887-lactose",
+    "area_m49": "887",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists Yemen Gastroenterological Association for Yemen with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Yemen: Yemen Gastroenterological Association. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Yemen%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1067 (2026-11-18): Actual condition-specific catalogue query returned 75 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B161-DEP-894-lactose",
+    "area_m49": "894",
+    "condition_key": "lactose",
+    "query": "WGO-listed national gastroenterology society first-party homepage + native site search (local-language lactose/lactase terms), indexed local gastro/celiac/paediatric organization sites, WGO directories (reused), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "WGO_listed_national_society_first_party_site_check",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "WGO member directory lists none parsed for Zambia with no website; no first-party site to inspect (contact details only). Not searched further to avoid inventing a URL."
+      },
+      {
+        "approach": "independent_original_professional_federation_directory",
+        "url": "https://worldgastroenterology.org/membership/regional-affiliate-associations/asia-pacific",
+        "observation": "Four WGO regional member pages reused from B158 (no refetch; asia-pacific SHA256=38d060ead7f1df7b…; africa-middle-east SHA256=79e60f943f5af079…; americas SHA256=eca20cc2fb110804…; europe SHA256=42b718e4b5ed56b5…); entry for Zambia: none parsed. Membership listing establishes society identity lead only, not lactose content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Zambia%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1073 (2026-11-18): Actual condition-specific catalogue query returned 90 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lactose-intolerance source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lactase persistence/ancestry not inferred; catalogue metadata not content.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  }
+]

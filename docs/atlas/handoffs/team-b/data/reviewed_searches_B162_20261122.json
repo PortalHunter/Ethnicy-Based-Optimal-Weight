@@ -1,0 +1,1178 @@
+[
+  {
+    "record_id": "B162-DEP-008-gout",
+    "area_m49": "008",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://reumatologia.al/",
+        "observation": "EULAR scientific member list names Albanian Society of Rheumatic Diseases for Albania without a website. Candidate first-party domains probed 2026-11-22: https://reumatologia.al/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Albanian Society of Rheumatic Diseases for Albania. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Albania%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0007 (2026-11-18): Actual condition-specific catalogue query returned 176 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-050-gout",
+    "area_m49": "050",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://brsbd.com/",
+        "observation": "Listed/indexed society (Bangladesh Rheumatology Society) first-party site https://brsbd.com/: HTTP 200 SHA256=1c41680ba009bf78…; no substantive gout/urate content or link found in local-language terms. Native site search https://brsbd.com/?s=gout HTTP 200 SHA256=572be4c74dc8c32c…: no substantive gout result."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Bangladesh Rheumatology Society for Bangladesh. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Bangladesh%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-ea48490c1cec3bff (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=21. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical af Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-051-gout",
+    "area_m49": "051",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.rheumatology.am/",
+        "observation": "EULAR scientific member list names Armenian Rheumatological Association for Armenia without a website. Candidate first-party domains probed 2026-11-22: https://www.rheumatology.am/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Armenian Rheumatological Association for Armenia. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Armenia%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0063 (2026-11-18): Actual condition-specific catalogue query returned 187 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-070-gout",
+    "area_m49": "070",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.reumatolozi.ba/",
+        "observation": "EULAR scientific member list names Association of Rheumatologists of Bosnia and Herzegovina for Bosnia and Herzegovina without a website. Candidate first-party domains probed 2026-11-22: https://www.reumatolozi.ba/ HTTP no response; https://udruzenjereumatologa.ba/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Association of Rheumatologists of Bosnia and Herzegovina for Bosnia and Herzegovina. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bosnia+and+Herzegovina%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0091 (2026-11-18): Actual condition-specific catalogue query returned 166 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-100-gout",
+    "area_m49": "100",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.rheumatologybg.org/",
+        "observation": "Listed/indexed society (Bulgarian Society for Rheumatology) first-party site https://www.rheumatologybg.org/: HTTP 200 SHA256=8d50f70b949569ff…; no substantive gout/urate content or link found in local-language terms. Native site search https://www.rheumatologybg.org/?s=%D0%BF%D0%BE%D0%B4%D0%B0%D0%B3%D1%80%D0%B0 HTTP 200 SHA256=8d50f70b949569ff…: no substantive gout result."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Bulgarian Society for Rheumatology for Bulgaria. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bulgaria%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0139 (2026-11-18): Actual condition-specific catalogue query returned 529 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-104-gout",
+    "area_m49": "104",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.mrs.org.mm/",
+        "observation": "APLAR member national organizations list names Myanmar Rheumatology Society for Myanmar without a website. Candidate first-party domains probed 2026-11-22: https://www.mrs.org.mm/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Myanmar Rheumatology Society for Myanmar. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Myanmar%22+OR+%22Burma%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0143 (2026-11-18): Actual condition-specific catalogue query returned 389 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-112-gout",
+    "area_m49": "112",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.rheumatology.by/",
+        "observation": "Listed/indexed society (Belarusian Scientific Rheumatological Society (EULAR membership marked suspended)) first-party site https://www.rheumatology.by/: no response (connection failed). "
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Belarusian Scientific Rheumatological Society (EULAR membership marked suspended) for Belarus. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Belarus%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0153 (2026-11-18): Actual condition-specific catalogue query returned 150 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-156-gout",
+    "area_m49": "156",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.rheumatology.org.cn/",
+        "observation": "APLAR member national organizations list names Chinese Rheumatology Association for China without a website. Candidate first-party domains probed 2026-11-22: https://www.rheumatology.org.cn/ HTTP no response; https://crha.cn/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Chinese Rheumatology Association for China. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35197964+AND+SRC%3AMED&format=json&resultType=core",
+        "observation": "Preserved B105-CELL-012 (2026-11-18): Chinese surveys166861/168351 measure hyperuricaemia by serum urate, not clinical gout. Candidate rejected as gout-positive; find actual clinical gout case definition and independent local issuer. Distinct first-party local academic/society identity and exact original publisher document; verify autho Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-170-gout",
+    "area_m49": "170",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://asoreuma.org/",
+        "observation": "Listed/indexed society (B-CO-ASOREUMA) first-party site https://asoreuma.org/: HTTP 200 SHA256=1b49bba1d1d1d112…; no substantive gout/urate content or link found in local-language terms. Native site search https://asoreuma.org/?s=gota HTTP 200 SHA256=e3bb9f69c05fd69d…: no substantive gout result."
+      },
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed rheumatology society for Colombia checked above; inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Colombia%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-54a06f612eefb179 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=28. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical af Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-196-gout",
+    "area_m49": "196",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://rheumatology.org.cy/",
+        "observation": "Listed/indexed society (Cyprus Society for Rheumatology) first-party site https://rheumatology.org.cy/: HTTP 202 169B shell/challenge page only, content not inspectable. "
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Cyprus Society for Rheumatology for Cyprus. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Cyprus%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0245 (2026-11-18): Actual condition-specific catalogue query returned 423 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-268-gout",
+    "area_m49": "268",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.rheumatologygeorgia.ge/",
+        "observation": "Listed/indexed society (Georgian Rheumatology Association) first-party site https://www.rheumatologygeorgia.ge/: HTTP 200 SHA256=35b4d06c17717085…; no substantive gout/urate content or link found in local-language terms. Native site search https://www.rheumatologygeorgia.ge/?s=%E1%83%9E%E1%83%9D%E1%83%93%E1%83%90%E1%83%92%E1%83%A0%E1%83%90 HTTP 200 SHA256=56e6465b14e9e82e…: no substantive gout result."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Georgian Rheumatology Association for Georgia. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Georgia%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0345 (2026-11-18): Actual condition-specific catalogue query returned 1408 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-300-gout",
+    "area_m49": "300",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.ere.gr/",
+        "observation": "ere.gr native search returns a generic site index rather than condition results; no gout page identified. Listed/indexed society (Hellenic Society for Rheumatology) first-party site https://www.ere.gr/: HTTP 200 SHA256=8c4f9be5c54c94e5…; no original gout education located. Native site search https://www.ere.gr/?s=%CE%BF%CF%85%CF%81%CE%B9%CE%BA%CE%AE HTTP 200 SHA256=f1999666c1558abe…: no substantive gout result."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Hellenic Society for Rheumatology for Greece. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Greece%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0371 (2026-11-18): Actual condition-specific catalogue query returned 1907 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-348-gout",
+    "area_m49": "348",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.mre.hu/info.aspx?sp=62",
+        "observation": "mre.hu page is a member list; only a surname false-match for the keyword. Listed/indexed society (Hungarian Association of Rheumatologists) first-party site https://www.mre.hu/info.aspx?sp=62: HTTP 200 SHA256=560f82c939655736…; no original gout education located. "
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Hungarian Association of Rheumatologists for Hungary. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Hungary%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0434 (2026-11-18): Actual condition-specific catalogue query returned 1111 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-352-gout",
+    "area_m49": "352",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.gigtarfelag.is/",
+        "observation": "EULAR scientific member list names Icelandic Society of Rheumatology for Iceland without a website. Candidate first-party domains probed 2026-11-22: https://www.gigtarfelag.is/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Icelandic Society of Rheumatology for Iceland. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Iceland%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0436 (2026-11-18): Actual condition-specific catalogue query returned 508 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-364-gout",
+    "area_m49": "364",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.iranrheumatology.org/",
+        "observation": "APLAR member national organizations list names Iranian Rheumatology Association for Iran (Islamic Republic of) without a website. Candidate first-party domains probed 2026-11-22: https://www.iranrheumatology.org/ HTTP no response; https://iranrheum.ir/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Iranian Rheumatology Association for Iran (Islamic Republic of). Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18464299+AND+SRC%3AMED&format=json&resultType=core",
+        "observation": "Preserved B105-CELL-043 (2026-11-18): Iran COPCORD Tehran10291 interviews is broader rheumatic-disorder survey. Gout-specific definition/results and local original institution require full source check; not all Iran. Distinct first-party local academic/society identity and exact original publisher document; verify authorship, edition an Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-368-gout",
+    "area_m49": "368",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list names Iraq League for Bone and Joint Health for Iraq without a website. Candidate first-party domains probed 2026-11-22: none. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Iraq League for Bone and Joint Health for Iraq. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Iraq%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0446 (2026-11-18): Actual condition-specific catalogue query returned 447 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-376-gout",
+    "area_m49": "376",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.israrheum.org.il/",
+        "observation": "EULAR scientific member list names Israeli Society for Rheumatology for Israel without a website. Candidate first-party domains probed 2026-11-22: https://www.israrheum.org.il/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Israeli Society for Rheumatology for Israel. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Israel%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0451 (2026-11-18): Actual condition-specific catalogue query returned 2313 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-398-gout",
+    "area_m49": "398",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://kcr.kz/",
+        "observation": "APLAR member national organizations list names Qazaq College of Rheumatology for Kazakhstan without a website. Candidate first-party domains probed 2026-11-22: https://kcr.kz/ HTTP no response; https://www.rheumatology.kz/ HTTP 200; rheumatology.kz is a different body (ОО «Независимое общество ревматологов»), not the APLAR-listed Qazaq College; homepage and native search (подагра) show no gout content. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Qazaq College of Rheumatology for Kazakhstan. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Kazakhstan%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0467 (2026-11-18): Actual condition-specific catalogue query returned 208 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-400-gout",
+    "area_m49": "400",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.jsr-jo.org/",
+        "observation": "Listed/indexed society (Jordanian Society of Rheumatology) first-party site https://www.jsr-jo.org/: HTTP 200 SHA256=1f52080ffac801cb…; no substantive gout/urate content or link found in local-language terms. Native site search https://www.jsr-jo.org/?s=gout HTTP 200 SHA256=1f52080ffac801cb…: no substantive gout result."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Jordanian Society of Rheumatology for Jordan. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Jordan%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-9eb78c351b78dc92 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=25. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical af Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-414-gout",
+    "area_m49": "414",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://kar.org.kw/",
+        "observation": "APLAR member national organizations list names Kuwait Association of Rheumatology for Kuwait without a website. Candidate first-party domains probed 2026-11-22: https://kar.org.kw/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Kuwait Association of Rheumatology for Kuwait. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Kuwait%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0485 (2026-11-18): Actual condition-specific catalogue query returned 310 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-417-gout",
+    "area_m49": "417",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list names Association of the Kyrgyz Republic Rheumatologists for Kyrgyzstan without a website. Candidate first-party domains probed 2026-11-22: none. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Association of the Kyrgyz Republic Rheumatologists for Kyrgyzstan. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Kyrgyzstan%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0491 (2026-11-18): Actual condition-specific catalogue query returned 66 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-422-gout",
+    "area_m49": "422",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://lsrheumatology.lopbeirut.org/",
+        "observation": "Lebanese Rheumatology Association gout pages https://lsrheumatology.lopbeirut.org/238/ and /263/ only link the 2020 American College of Rheumatology gout guideline (third-party, not original authorship) and an event notice (\"A 360 View on Gout and Hyperuricemia\", activity only = M). Listed/indexed society (Lebanese Rheumatology Association) first-party site https://lsrheumatology.lopbeirut.org/: HTTP 200 SHA256=e22e2f0e6bc2a035…; no original gout education located. Native site search https://lsrheumatology.lopbeirut.org/?s=gout HTTP 200 SHA256=66d03ce4920e4967…: no substantive gout result."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Lebanese Rheumatology Association for Lebanon. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Lebanon%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0502 (2026-11-18): Actual condition-specific catalogue query returned 549 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-496-gout",
+    "area_m49": "496",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://rheumatology.mn/",
+        "observation": "APLAR member national organizations list names Mongolian Rheumatology Association for Mongolia without a website. Candidate first-party domains probed 2026-11-22: https://rheumatology.mn/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Mongolian Rheumatology Association for Mongolia. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Mongolia%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0589 (2026-11-18): Actual condition-specific catalogue query returned 320 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-498-gout",
+    "area_m49": "498",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.reumatologia.md/",
+        "observation": "EULAR scientific member list names Moldavian League against Rheumatism for Republic of Moldova without a website. Candidate first-party domains probed 2026-11-22: https://www.reumatologia.md/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Moldavian League against Rheumatism for Republic of Moldova. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Moldova%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0595 (2026-11-18): Actual condition-specific catalogue query returned 117 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-499-gout",
+    "area_m49": "499",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://urcg.me/",
+        "observation": "Listed/indexed society (Montenegro Rheumatologists Association) first-party site https://urcg.me/: HTTP 200 SHA256=0e1d67b36349aea8…; no substantive gout/urate content or link found in local-language terms. Native site search https://urcg.me/?s=giht HTTP 200 SHA256=fa9643d3441cac31…: no substantive gout result."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Montenegro Rheumatologists Association for Montenegro. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Montenegro%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0601 (2026-11-18): Actual condition-specific catalogue query returned 173 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-512-gout",
+    "area_m49": "512",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://omanrheumatology.com/",
+        "observation": "APLAR member national organizations list names Oman Rheumatology Club for Oman without a website. Candidate first-party domains probed 2026-11-22: https://omanrheumatology.com/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Oman Rheumatology Club for Oman. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Oman%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0620 (2026-11-18): Actual condition-specific catalogue query returned 271 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-524-gout",
+    "area_m49": "524",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://rheumatologynepal.org.np/",
+        "observation": "Listed/indexed society (Nepal Rheumatology Association) first-party site https://rheumatologynepal.org.np/: HTTP 200 SHA256=af4cdaf9274522e8…; no substantive gout/urate content or link found in local-language terms. Native site search https://rheumatologynepal.org.np/?s=gout HTTP 200 SHA256=867fcfce1824d0a3…: no substantive gout result."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Nepal Rheumatology Association for Nepal. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Nepal%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-694544bbaae6ea80 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=20. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical af Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-566-gout",
+    "area_m49": "566",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.nsr.org.ng/",
+        "observation": "Listed/indexed society (B-NG-NSR) first-party site https://www.nsr.org.ng/: HTTP 200 SHA256=9c88f836a52d99f3…; no substantive gout/urate content or link found in local-language terms. Native site search https://www.nsr.org.ng/?s=gout HTTP 200 SHA256=9c88f836a52d99f3…: no substantive gout result."
+      },
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed rheumatology society for Nigeria checked above; inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Nigeria%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-9a904bd4922299e9 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=21. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical af Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-586-gout",
+    "area_m49": "586",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://psr.org.pk/",
+        "observation": "APLAR member national organizations list names Pakistan Society for Rheumatology for Pakistan without a website. Candidate first-party domains probed 2026-11-22: https://psr.org.pk/ HTTP no response; https://www.psr.org.pk/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Pakistan Society for Rheumatology for Pakistan. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Pakistan%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0724 (2026-11-18): Actual condition-specific catalogue query returned 1295 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-634-gout",
+    "area_m49": "634",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://qra.qa/",
+        "observation": "APLAR member national organizations list names Qatar Rheumatology Association for Qatar without a website. Candidate first-party domains probed 2026-11-22: https://qra.qa/ HTTP no response; https://www.qatarrheumatology.org/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Qatar Rheumatology Association for Qatar. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Qatar%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0767 (2026-11-18): Actual condition-specific catalogue query returned 357 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-674-gout",
+    "area_m49": "674",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.asarsm.org/",
+        "observation": "asarsm.org (EULAR-listed URL) now serves an unrelated Indonesian news site; domain apparently lapsed. Listed/indexed society (Associazione San Marinese di Reumatologia) first-party site https://www.asarsm.org/: HTTP 200 SHA256=8388c854ce2fb2ee…; no original gout education located. "
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Associazione San Marinese di Reumatologia for San Marino. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22San+Marino%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0833 (2026-11-18): Actual condition-specific catalogue query returned 43 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-682-gout",
+    "area_m49": "682",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://ssr.org.sa/",
+        "observation": "APLAR member national organizations list names Saudi Society of Rheumatology for Saudi Arabia without a website. Candidate first-party domains probed 2026-11-22: https://ssr.org.sa/ HTTP 200; ssr.org.sa resolves to an unrelated search-and-rescue charity. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Saudi Society of Rheumatology for Saudi Arabia. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38800216+AND+SRC%3AMED&format=json&resultType=core",
+        "observation": "Preserved B105-CELL-044 (2026-11-18): Saudi AlBaha gout hospital study116 selected patients2016-2017. Hospital proportions not national gout prevalence; independent original academic identity/role unresolved. Distinct first-party local academic/society identity and exact original publisher document; verify authorship, edition and subtyp Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-688-gout",
+    "area_m49": "688",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.ures.org.rs/",
+        "observation": "Listed/indexed society (Rheumatology Association of Serbia) first-party site https://www.ures.org.rs/: HTTP 200 SHA256=5808dd243cb80a0d…; no substantive gout/urate content or link found in local-language terms. Native site search https://www.ures.org.rs/?s=%D0%B3%D0%B8%D1%85%D1%82 HTTP 200 SHA256=5808dd243cb80a0d…: no substantive gout result."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Rheumatology Association of Serbia for Serbia. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Serbia%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0852 (2026-11-18): Actual condition-specific catalogue query returned 542 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-703-gout",
+    "area_m49": "703",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.revma.sk/",
+        "observation": "EULAR scientific member list names Slovak Rheumatological Society for Slovakia without a website. Candidate first-party domains probed 2026-11-22: https://www.revma.sk/ HTTP no response; https://www.srs.sk/ HTTP 200; srs.sk redirects to an unrelated advertising agency. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Slovak Rheumatological Society for Slovakia. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Slovakia%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0871 (2026-11-18): Actual condition-specific catalogue query returned 340 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-704-gout",
+    "area_m49": "704",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://vra.vn/",
+        "observation": "APLAR member national organizations list names Vietnam Rheumatology Association for Viet Nam without a website. Candidate first-party domains probed 2026-11-22: https://vra.vn/ HTTP 200; https://hoithapkhop.vn/ HTTP no response; vra.vn resolves to an unrelated real-estate magazine. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Vietnam Rheumatology Association for Viet Nam. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Viet+Nam%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0874 (2026-11-18): Actual condition-specific catalogue query returned 78 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-705-gout",
+    "area_m49": "705",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.revmatologija.si/",
+        "observation": "EULAR scientific member list names Slovenian Medical Society (rheumatology section) for Slovenia without a website. Candidate first-party domains probed 2026-11-22: https://www.revmatologija.si/ HTTP no response; https://www.zrd.si/ HTTP 200; zrd.si is a parked domain for sale. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Slovenian Medical Society (rheumatology section) for Slovenia. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Slovenia%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0877 (2026-11-18): Actual condition-specific catalogue query returned 375 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-760-gout",
+    "area_m49": "760",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list names Syrian Association for Rheumatology for Syrian Arab Republic without a website. Candidate first-party domains probed 2026-11-22: none. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Syrian Association for Rheumatology for Syrian Arab Republic. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Syria%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0927 (2026-11-18): Actual condition-specific catalogue query returned 308 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-762-gout",
+    "area_m49": "762",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list names The Tajik Rheumatology Society for Tajikistan without a website. Candidate first-party domains probed 2026-11-22: none. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists The Tajik Rheumatology Society for Tajikistan. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Tajikistan%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-fb8d56ef79cb05a0 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=3. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical aff Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-784-gout",
+    "area_m49": "784",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://esr.ae/",
+        "observation": "Listed/indexed society (Emirates Society for Rheumatology) first-party site https://esr.ae/: HTTP 200 SHA256=b962aede32967d0b…; no substantive gout/urate content or link found in local-language terms. Native site search https://www.esr.ae/?s=gout HTTP 200 SHA256=0b8acdbbdfc9ed99…: no substantive gout result."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Emirates Society for Rheumatology for United Arab Emirates. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22United+Arab+Emirates%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0960 (2026-11-18): Actual condition-specific catalogue query returned 383 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-804-gout",
+    "area_m49": "804",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://rheumahub.org.ua/",
+        "observation": "Rheuma Hub site search (подагра) found only a login-gated 2021 master-class course \"Подагра та COVID-19\" (activity/course; content not accessible). Listed/indexed society (Ukrainian Association of Rheumatologists) first-party site https://rheumahub.org.ua/: HTTP 200 SHA256=f5db954e72b65228…; no original gout education located. Native site search https://rheumahub.org.ua/?s=%D0%BF%D0%BE%D0%B4%D0%B0%D0%B3%D1%80%D0%B0 HTTP 200 SHA256=a8a0d75fb304f69c…: no substantive gout result."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Ukrainian Association of Rheumatologists for Ukraine. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Ukraine%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0991 (2026-11-18): Actual condition-specific catalogue query returned 532 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-807-gout",
+    "area_m49": "807",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://www.maar.org.mk/",
+        "observation": "Listed/indexed society (Macedonian Association Against Rheumatism) first-party site https://www.maar.org.mk/: HTTP 404 (inaccessible). "
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://www.eular.org/scientific-member-societies",
+        "observation": "EULAR scientific member list retrieved once 2026-11-22 (SHA256=59fd77f31a3b98bb…): lists Macedonian Association Against Rheumatism for North Macedonia. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22North+Macedonia%22+OR+%22Macedonia%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0997 (2026-11-18): Actual condition-specific catalogue query returned 197 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  },
+  {
+    "record_id": "B162-DEP-860-gout",
+    "area_m49": "860",
+    "condition_key": "gout",
+    "query": "EULAR/APLAR-listed or indexed national rheumatology society: first-party homepage + native site search (local-language gout/urate terms) or candidate-domain probe; directory retrieved once; preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "listed_national_rheumatology_society_first_party_site_check",
+        "url": "https://rheumatology.uz/",
+        "observation": "APLAR member national organizations list names Association of Rheumatologists of Uzbekistan for Uzbekistan without a website. Candidate first-party domains probed 2026-11-22: https://rheumatology.uz/ HTTP no response. No verified first-party site located, so no society content inspectable; not inferred to be absent."
+      },
+      {
+        "approach": "independent_regional_rheumatology_federation_directory",
+        "url": "https://aplar.org/about-aplar/member-national-organizations/",
+        "observation": "APLAR member national organizations list retrieved once 2026-11-22 (SHA256=a89ccbcad212e1e2…): lists Association of Rheumatologists of Uzbekistan for Uzbekistan. Membership listing establishes a society identity lead only, not gout content."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Uzbekistan%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1043 (2026-11-18): Actual condition-specific catalogue query returned 123 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H gout source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; hyperuricaemia is not gout; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead (e.g. a verified society website)."
+  }
+]

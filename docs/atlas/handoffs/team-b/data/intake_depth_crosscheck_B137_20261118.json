@@ -1,0 +1,9 @@
+{
+  "raw_branch_readonly_sha": "be8793baaff381cafb612168c070d8de406b93c4",
+  "indexed_intake_leads": 2071,
+  "index_sha256": "fa6244fd2720bab9f41e1ac66866ecbcd582b35a16fbe0eaf2963920bc1f690d",
+  "manual_D2_cells_crosschecked": 165,
+  "scope": "Area-exact intake candidate conflict screen; condition and title variants included; not a source audit or national absence",
+  "potential_conflicts": [],
+  "limitations": "Raw geographic tagging may reflect population rather than issuer and can omit other-country cross-border leads; no automatic source eligibility or local organization attribution."
+}

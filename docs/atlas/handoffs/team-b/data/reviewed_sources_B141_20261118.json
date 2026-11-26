@@ -1,0 +1,96 @@
+[
+  {
+    "record_id": "B141-112-LCT2021",
+    "organization": {
+      "org_id": "B-BY-GRSMU",
+      "area_m49": "112",
+      "name_local": "Гродненский государственный медицинский университет — кафедра педиатрии",
+      "name_english": "Grodno State Medical University — Department of Pediatrics",
+      "organization_type": "university_research_unit",
+      "clinical_discipline": "pediatrics_molecular_gastroenterology_lactase",
+      "scope": "Biomedical coauthor unit; no national symptomatic-lactose prevalence or clinical guidance ownership inferred",
+      "independent_or_government": "Public/state medical university research unit; not private society or government health authority",
+      "official_url": "https://www.grsmu.by/en/",
+      "language": "ru;en",
+      "verified_on": "2026-11-18",
+      "source_url": "https://www.grsmu.by/ru/university/about/contacts/",
+      "identity_state": "own_named_local_academic_identity_and_original_author_affiliation_verified_legal_governance_unreviewed"
+    },
+    "condition_key": "lactose",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33920682/",
+    "title": "Ileal Lactase Expression Associates with Lactase Persistence Genotypes",
+    "language": "en",
+    "edition": "17April2021; Nutrients13(4):1340; DOI10.3390/nu13041340; original substantive author abstract inspected",
+    "role": "authored",
+    "tier": "S1",
+    "source_country": "756",
+    "country_basis": "journal_publication_country",
+    "issuer": "Named multinational Nowak and coauthors including Tsikhan (Grodno), Kononets/Bermagambetova (Aktobe); journal publisher MDPI Basel distinct",
+    "population": "Secondary CEDAR transcriptomic/genotype analysis of196 healthy Europeans; not representative Belarus/Kazakhstan prevalence",
+    "jurisdiction": "Research cohort; no local guideline adoption or clinical jurisdiction established by coauthor address",
+    "identity_evidence": "Own original name, Grodno Belarus Gorky80 address and pediatric faculty contact read; original study explicitly names pediatric affiliation. Own privacy-policy template text names unrelated entity; legal governance not inferred from site boilerplate.",
+    "evidence_summary": "Direct original author abstract and affiliations inspected: actual methods, results and limitations support substantive coauthored research. Transcript abundance/genotype association is not enzyme activity or symptomatic intolerance. Shared study across2 institutions, not2 cohorts. PMID33920682 and NLM101521595 distinguish sample, institutions and Swiss journal. Full-text reader challenge then distinct XML35s timeout; no full-text appraisal claimed. Independent scientific/genetic/role review issue146; no ethnicity-derived genotype/risk or clinical/rights approval.",
+    "query": "B140 retained explicit Grodno/Aktobe author lead despite zero AFF refinement; original PMID abstract, institution own contacts and NLM journal imprint checked",
+    "next_action": "Issue146 https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/146; distinct future accessible original/full methods and independent genetic/scope/COI/rights appraisal; no repeated blocked routes.",
+    "additional_provenance": [
+      {
+        "record_id": "B141-NLM-112",
+        "record_class": "original_journal_publication_country",
+        "area_m49": "756",
+        "source_issuer": "US National Library of Medicine journal catalogue101521595",
+        "source_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101521595",
+        "source_language": "en",
+        "checked_on": "2026-11-18",
+        "verification_state": "original_journal_country_and_Basel_MDPI_publisher_inspected",
+        "notes": "Nutrients journal publication country Switzerland; not US archive domicile, coauthor institution country or sampled population."
+      }
+    ]
+  },
+  {
+    "record_id": "B141-398-LCT2021",
+    "organization": {
+      "org_id": "B-KZ-WKMOMU",
+      "area_m49": "398",
+      "name_local": "Марат Оспанов атындағы Батыс Қазақстан медицина университеті",
+      "name_english": "West Kazakhstan Marat Ospanov Medical University",
+      "organization_type": "university_research_unit",
+      "clinical_discipline": "pediatrics_molecular_gastroenterology_lactase",
+      "scope": "Biomedical coauthor unit; no national symptomatic-lactose prevalence or clinical guidance ownership inferred",
+      "independent_or_government": "Public academic/nonprofit-joint-stock medical university research; not government clinical authority; independent legal status not certified",
+      "official_url": "https://ospanov.university/",
+      "language": "kk;ru;en",
+      "verified_on": "2026-11-18",
+      "source_url": "https://ospanov.university/",
+      "identity_state": "own_named_local_academic_identity_and_original_author_affiliation_verified_legal_governance_unreviewed"
+    },
+    "condition_key": "lactose",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33920682/",
+    "title": "Ileal Lactase Expression Associates with Lactase Persistence Genotypes",
+    "language": "en",
+    "edition": "17April2021; Nutrients13(4):1340; DOI10.3390/nu13041340; original substantive author abstract inspected",
+    "role": "authored",
+    "tier": "S1",
+    "source_country": "756",
+    "country_basis": "journal_publication_country",
+    "issuer": "Named multinational Nowak and coauthors including Tsikhan (Grodno), Kononets/Bermagambetova (Aktobe); journal publisher MDPI Basel distinct",
+    "population": "Secondary CEDAR transcriptomic/genotype analysis of196 healthy Europeans; not representative Belarus/Kazakhstan prevalence",
+    "jurisdiction": "Research cohort; no local guideline adoption or clinical jurisdiction established by coauthor address",
+    "identity_evidence": "Old zkmu.edu.kz own link redirects to current Ospanov site. Actual visible Kazakh homepage names institution, Aktobe Maresyev68 contact and info@zkmu.kz; WIPO TISC12770 independently corroborates same name/address/legacyURL. HTML-comment engineering template content excluded from visible identity evidence.",
+    "evidence_summary": "Direct original author abstract and affiliations inspected: actual methods, results and limitations support substantive coauthored research. Transcript abundance/genotype association is not enzyme activity or symptomatic intolerance. Shared study across2 institutions, not2 cohorts. PMID33920682 and NLM101521595 distinguish sample, institutions and Swiss journal. Full-text reader challenge then distinct XML35s timeout; no full-text appraisal claimed. Independent scientific/genetic/role review issue146; no ethnicity-derived genotype/risk or clinical/rights approval.",
+    "query": "B140 retained explicit Grodno/Aktobe author lead despite zero AFF refinement; original PMID abstract, institution own contacts and NLM journal imprint checked",
+    "next_action": "Issue146 https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/146; distinct future accessible original/full methods and independent genetic/scope/COI/rights appraisal; no repeated blocked routes.",
+    "additional_provenance": [
+      {
+        "record_id": "B141-NLM-398",
+        "record_class": "original_journal_publication_country",
+        "area_m49": "756",
+        "source_issuer": "US National Library of Medicine journal catalogue101521595",
+        "source_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/101521595",
+        "source_language": "en",
+        "checked_on": "2026-11-18",
+        "verification_state": "original_journal_country_and_Basel_MDPI_publisher_inspected",
+        "notes": "Nutrients journal publication country Switzerland; not US archive domicile, coauthor institution country or sampled population."
+      }
+    ]
+  }
+]

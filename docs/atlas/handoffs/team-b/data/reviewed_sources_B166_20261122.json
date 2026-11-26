@@ -1,0 +1,36 @@
+[
+  {
+    "record_id": "B166-643-celiac",
+    "organization": {
+      "org_id": "B-RU-LWG",
+      "area_m49": "643",
+      "name_local": "Национальная ассоциация «Жизнь без глютена»",
+      "name_english": "National Association \"Life Without Gluten\" (reviewer translation)",
+      "organization_type": "patient_organization",
+      "clinical_discipline": "coeliac_disease_gluten_free_diet",
+      "scope": "Russian Federation; national association of people on a gluten-free diet with regional representatives in 20 regions per own about page; St Petersburg seat; self-published INN 7811291554 / OGRN 1147800005935 not independently registry-verified",
+      "independent_or_government": "independent_nonprofit_governance_not_audited",
+      "official_url": "https://gfrussia.ru/",
+      "language": "ru",
+      "verified_on": "2026-11-22",
+      "source_url": "https://gfrussia.ru/help",
+      "identity_state": "first_party_self_description_and_self_published_registration_identifiers_no_registry_check"
+    },
+    "condition_key": "celiac",
+    "url": "https://gfrussia.ru/coeliac",
+    "title": "Что нужно знать о целиакии (Самые частые вопросы о целиакии и безглютеновой диете)",
+    "language": "ru",
+    "edition": "Undated web page",
+    "role": "own_patient_association_education_page",
+    "tier": "S2",
+    "source_country": "643",
+    "country_basis": "issuer_of_linked_page",
+    "issuer": "Национальная ассоциация «Жизнь без глютена», site owner",
+    "population": "People with coeliac disease in Russia; cites mid-European frequency of about 1 in 100 as reported data, not Russian prevalence or genotype evidence",
+    "jurisdiction": "Patient-association education; research_lead_only",
+    "identity_evidence": "Own about page describes a national association working across Russia with representatives in 20 regions; own payment-details page lists St Petersburg seat, INN, KPP, OGRN and president. Registry entry not independently checked.",
+    "evidence_summary": "First-party page (SHA256=94710d550c2cdf770a728b4d0711c46869416032a91454fa24aa564403eb087e) retrieved 2026-11-22: substantive Russian FAQ on what coeliac disease is, its varied manifestations, diagnosis and gluten-free diet. S2 first-party education. Resolves the B156 open lead: the gfrussia.ru fetch succeeded this run (no safety block); the site's regional patient roadmap (/russia) credits association representatives and Emilia society volunteers, so the issuer of the qualifying page is the association, not Emilia (celiac.spb.ru). Distinctive wording not found on the Emilia homepage.",
+    "query": "B166 follow-up of B156-LEAD-643-celiac (AOECS/CDF directory lead) 2026-11-22",
+    "next_action": "Registry check of INN/OGRN; independent appraisal; research_lead_only."
+  }
+]

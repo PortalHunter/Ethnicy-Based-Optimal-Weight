@@ -1,0 +1,590 @@
+[
+  {
+    "record_id": "B134-SCOPE-010-celiac",
+    "area_m49": "010",
+    "condition_key": "celiac",
+    "query": "(\"Antarctica\") AND (\"celiac disease\" OR \"coeliac disease\" OR celiaquia OR celiakia OR celijakija)",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://www.plymouthhospitals.nhs.uk/basmu/",
+        "observation": "Original NHS BASMU page explicitly locates medical unit in Plymouth and describes deployed station doctors and UK supervision. BAS Rothera page was robot-blocked; independent original NHS route succeeded. Polar operations are not automatically a locally domiciled independent Antarctic issuer."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Antarctica%22%29+AND+%28%22celiac+disease%22+OR+%22coeliac+disease%22+OR+celiaquia+OR+celiakia+OR+celijakija%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=34; first returned titles manually reviewed: [\"Role of Regulatory T Cells and Transglutaminase 2 Inhibitors in Celiac Disease: A Systematic Review.\", \"Validation of the PROMIS Global Physical and Mental Health Scale for Gastrointestinal Disorders: A Large-Scale Cross-Sectional Survey.\", \"Hydrolysis of Gluten-Derived Celiac Disease-Triggering Peptides across a Broad pH Range by RmuAP1: A Novel Aspartic Peptidase Isolated from <i>Rhodotorula mucilaginosa</i>.\", \"Celiac Disease: Fallacies and Facts.\", \"Enzyme Technology in the Food Industry: Molecular Mechanisms, Applications, and Sustainable Innovations.\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Antarctica%22%29+AND+TITLE_ABS%3A%28%28%22celiac+disease%22+OR+%22coeliac+disease%22+OR+celiaquia+OR+celiakia+OR+celijakija%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-010-diabetes",
+    "area_m49": "010",
+    "condition_key": "diabetes",
+    "query": "(\"Antarctica\") AND diabetes",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://www.plymouthhospitals.nhs.uk/basmu/",
+        "observation": "Original NHS BASMU page explicitly locates medical unit in Plymouth and describes deployed station doctors and UK supervision. BAS Rothera page was robot-blocked; independent original NHS route succeeded. Polar operations are not automatically a locally domiciled independent Antarctic issuer."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Antarctica%22%29+AND+diabetes&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=1188; first returned titles manually reviewed: [\"Bioactivity and Chemical Profiling of the Sea-Ice Microalga &lt;i&gt;Microglena antarctica&lt;/i&gt; (Chlorophyceae).\", \"Fungal symbionts of marine organisms: The case of &lt;i&gt;Cladosporium&lt;/i&gt; and its bioactive secondary metabolites.\", \"The genus Smilax L.: A comprehensive review of traditional uses, phytochemistry, pharmacological activities, and toxicity\", \"Integrated Computational Pipeline Combining Metabolomics and Network Pharmacology for Bioactive Scaffold Discovery: Application to Antarctic Moss Chorisodontium aciphyllum.\", \"The Influence of Type of Maternity Care Provider on Early Breastfeeding Rates. A Retrospective Cohort Study of All Women Who Gave Birth in Victoria, Australia 2010 to 2020.\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Antarctica%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-010-gout",
+    "area_m49": "010",
+    "condition_key": "gout",
+    "query": "(\"Antarctica\") AND (gout OR gouty OR podagra)",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://www.plymouthhospitals.nhs.uk/basmu/",
+        "observation": "Original NHS BASMU page explicitly locates medical unit in Plymouth and describes deployed station doctors and UK supervision. BAS Rothera page was robot-blocked; independent original NHS route succeeded. Polar operations are not automatically a locally domiciled independent Antarctic issuer."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Antarctica%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=85; first returned titles manually reviewed: [\"The genus Smilax L.: A comprehensive review of traditional uses, phytochemistry, pharmacological activities, and toxicity\", \"Misdiagnosed acute Q fever due to Coxiella burnetii in Guangxi China: A case report and literature review.\", \"Marine-derived carbon dots: a safe and effective solution for noise-induced hearing loss.\", \"Human Exposure Pathways to Per- and Polyfluoroalkyl Substances (PFASs)-A Comprehensive Review of Sources, Physicochemical Properties, and Human Health Risk Assessment.\", \"Biomacromolecule-MOF Composites for Intracellular Delivery: From Empirical Construction to Rational Design and AI-Assisted Screening.\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Antarctica%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-010-hemochromatosis",
+    "area_m49": "010",
+    "condition_key": "hemochromatosis",
+    "query": "(\"Antarctica\") AND (hemochromatosis OR haemochromatosis OR \"hereditary iron overload\")",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://www.plymouthhospitals.nhs.uk/basmu/",
+        "observation": "Original NHS BASMU page explicitly locates medical unit in Plymouth and describes deployed station doctors and UK supervision. BAS Rothera page was robot-blocked; independent original NHS route succeeded. Polar operations are not automatically a locally domiciled independent Antarctic issuer."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Antarctica%22%29+AND+%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=21; first returned titles manually reviewed: [\"Characterization of spontaneous gross and histologic findings in free-ranging Egyptian rousettes (Rousettus aegyptiacus) from Uganda with a review of reported pathogens.\", \"Effects of iron concentration and DFB (Desferrioxamine-B) on transcriptional profiles of an ecologically relevant marine bacterium.\", \"A Perilous Combination: <i>Streptococcus</i> Coinfection with Human Plague-Report of Two Cases and Review of the Literature, 1937-2022.\", \"A Systematic Review of Second-Line Treatments in Antiviral Resistant Strains of HSV-1, HSV-2, and VZV.\", \"Consensus guidelines for diagnosis and management of anemia in epidermolysis bullosa.\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Antarctica%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-010-high_chol",
+    "area_m49": "010",
+    "condition_key": "high_chol",
+    "query": "(\"Antarctica\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://www.plymouthhospitals.nhs.uk/basmu/",
+        "observation": "Original NHS BASMU page explicitly locates medical unit in Plymouth and describes deployed station doctors and UK supervision. BAS Rothera page was robot-blocked; independent original NHS route succeeded. Polar operations are not automatically a locally domiciled independent Antarctic issuer."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Antarctica%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=190; first returned titles manually reviewed: [\"Prevalence and risk of cardiovascular events among people living with HIV: a meta-analysis.\", \"Biomarkers and Seaweed-Based Nutritional Interventions in Metabolic Syndrome: A Comprehensive Review.\", \"Functional foods and their potential impact on women's health in Chile.\", \"Per- and Polyfluoroalkyl Substances in Fish: Global Occurrence, Bioaccumulation, Analytical Approaches, and Human Exposure Risks-A Review.\", \"Effects and adaptation of high-altitude hypoxia on lipid metabolism: mechanisms and health implications.\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Antarctica%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-010-hypertension",
+    "area_m49": "010",
+    "condition_key": "hypertension",
+    "query": "(\"Antarctica\") AND (hypertension OR \"high blood pressure\")",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://www.plymouthhospitals.nhs.uk/basmu/",
+        "observation": "Original NHS BASMU page explicitly locates medical unit in Plymouth and describes deployed station doctors and UK supervision. BAS Rothera page was robot-blocked; independent original NHS route succeeded. Polar operations are not automatically a locally domiciled independent Antarctic issuer."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Antarctica%22%29+AND+%28hypertension+OR+%22high+blood+pressure%22%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=693; first returned titles manually reviewed: [\"Atrial fibrillation after ischemic stroke: What risk scores illuminate and what they miss.\", \"Fecal Evidence of Metal and Metalloid Exposure in a Free-Ranging Juvenile Southern Elephant Seal (Mirounga leonina) From the Brazilian Coast.\", \"Saltwater intrusion and human health risks for coastal populations under 2050 climate scenarios.\", \"Geographical variations in metal exposure and metabolic disorders in Chile using an exposome approach.\", \"Enzymatic Kinetic Resolution of Racemic 1-(Isopropylamine)-3-phenoxy-2-propanol: A Building Block for β-Blockers.\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Antarctica%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-010-lactose",
+    "area_m49": "010",
+    "condition_key": "lactose",
+    "query": "(\"Antarctica\") AND (lactose AND (intolerance OR malabsorption OR \"lactase deficiency\"))",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://www.plymouthhospitals.nhs.uk/basmu/",
+        "observation": "Original NHS BASMU page explicitly locates medical unit in Plymouth and describes deployed station doctors and UK supervision. BAS Rothera page was robot-blocked; independent original NHS route succeeded. Polar operations are not automatically a locally domiciled independent Antarctic issuer."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Antarctica%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=52; first returned titles manually reviewed: [\"Identification and characterization of a novel β-galactosidase active at low temperatures from the Antarctic fungus Tetracladium sp., expressed in Saccharomyces cerevisiae.\", \"Global and regional inequalities in dairy recommendations: a natural language processing analysis of food-based dietary guidelines across income groups.\", \"Enzyme Technology in the Food Industry: Molecular Mechanisms, Applications, and Sustainable Innovations.\", \"Immobilized enzymes: exploring its potential in food industry applications.\", \"Cold-Active Enzymes and Their Potential Industrial Applications-A Review.\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Antarctica%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/138 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-239-celiac",
+    "area_m49": "239",
+    "condition_key": "celiac",
+    "query": "(\"South Georgia and the South Sandwich Islands\") AND (\"celiac disease\" OR \"coeliac disease\" OR celiaquia OR celiakia OR celijakija)",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://gsgssivisits.powerappsportals.com/FAQs/",
+        "observation": "Original territorial visitor FAQ states public medical services are unavailable to visitors and vessels must be self-sufficient; original NHS BASMU page separately describes King Edward Point deployments. Visitor-service limits do not prove that no institution exists."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+%28%22celiac+disease%22+OR+%22coeliac+disease%22+OR+celiaquia+OR+celiakia+OR+celijakija%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=1; first returned titles manually reviewed: [\"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+TITLE_ABS%3A%28%28%22celiac+disease%22+OR+%22coeliac+disease%22+OR+celiaquia+OR+celiakia+OR+celijakija%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-239-diabetes",
+    "area_m49": "239",
+    "condition_key": "diabetes",
+    "query": "(\"South Georgia and the South Sandwich Islands\") AND diabetes",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://gsgssivisits.powerappsportals.com/FAQs/",
+        "observation": "Original territorial visitor FAQ states public medical services are unavailable to visitors and vessels must be self-sufficient; original NHS BASMU page separately describes King Edward Point deployments. Visitor-service limits do not prove that no institution exists."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+diabetes&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=3; first returned titles manually reviewed: [\"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Interventions for preventing type 2 diabetes in adults with mental disorders in low- and middle-income countries.\", \"Protein Deimination and Extracellular Vesicle Profiles in Antarctic Seabirds.\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-239-gout",
+    "area_m49": "239",
+    "condition_key": "gout",
+    "query": "(\"South Georgia and the South Sandwich Islands\") AND (gout OR gouty OR podagra)",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://gsgssivisits.powerappsportals.com/FAQs/",
+        "observation": "Original territorial visitor FAQ states public medical services are unavailable to visitors and vessels must be self-sufficient; original NHS BASMU page separately describes King Edward Point deployments. Visitor-service limits do not prove that no institution exists."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=0; first returned titles manually reviewed: []. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-239-hemochromatosis",
+    "area_m49": "239",
+    "condition_key": "hemochromatosis",
+    "query": "(\"South Georgia and the South Sandwich Islands\") AND (hemochromatosis OR haemochromatosis OR \"hereditary iron overload\")",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://gsgssivisits.powerappsportals.com/FAQs/",
+        "observation": "Original territorial visitor FAQ states public medical services are unavailable to visitors and vessels must be self-sufficient; original NHS BASMU page separately describes King Edward Point deployments. Visitor-service limits do not prove that no institution exists."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=0; first returned titles manually reviewed: []. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-239-high_chol",
+    "area_m49": "239",
+    "condition_key": "high_chol",
+    "query": "(\"South Georgia and the South Sandwich Islands\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://gsgssivisits.powerappsportals.com/FAQs/",
+        "observation": "Original territorial visitor FAQ states public medical services are unavailable to visitors and vessels must be self-sufficient; original NHS BASMU page separately describes King Edward Point deployments. Visitor-service limits do not prove that no institution exists."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=2; first returned titles manually reviewed: [\"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Interventions for preventing type 2 diabetes in adults with mental disorders in low- and middle-income countries.\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-239-hypertension",
+    "area_m49": "239",
+    "condition_key": "hypertension",
+    "query": "(\"South Georgia and the South Sandwich Islands\") AND (hypertension OR \"high blood pressure\")",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://gsgssivisits.powerappsportals.com/FAQs/",
+        "observation": "Original territorial visitor FAQ states public medical services are unavailable to visitors and vessels must be self-sufficient; original NHS BASMU page separately describes King Edward Point deployments. Visitor-service limits do not prove that no institution exists."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+%28hypertension+OR+%22high+blood+pressure%22%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=2; first returned titles manually reviewed: [\"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Interventions for preventing type 2 diabetes in adults with mental disorders in low- and middle-income countries.\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-239-lactose",
+    "area_m49": "239",
+    "condition_key": "lactose",
+    "query": "(\"South Georgia and the South Sandwich Islands\") AND (lactose AND (intolerance OR malabsorption OR \"lactase deficiency\"))",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://gsgssivisits.powerappsportals.com/FAQs/",
+        "observation": "Original territorial visitor FAQ states public medical services are unavailable to visitors and vessels must be self-sufficient; original NHS BASMU page separately describes King Edward Point deployments. Visitor-service limits do not prove that no institution exists."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=0; first returned titles manually reviewed: []. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22South+Georgia+and+the+South+Sandwich+Islands%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/137 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-260-celiac",
+    "area_m49": "260",
+    "condition_key": "celiac",
+    "query": "(\"French Southern Territories\") AND (\"celiac disease\" OR \"coeliac disease\" OR celiaquia OR celiakia OR celijakija)",
+    "language": "fr",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://taaf.fr/recrutement/medecin-et-infirmier/",
+        "observation": "Original TAAF medical recruitment page distinguishes district/base physicians from headquarters in Saint-Pierre, Reunion and Paris. Rotating public-administration medical operations are not automatically independent locally domiciled Team B issuers. Do not merge M49 260 with Antarctica or Reunion."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22French+Southern+Territories%22%29+AND+%28%22celiac+disease%22+OR+%22coeliac+disease%22+OR+celiaquia+OR+celiakia+OR+celijakija%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=4; first returned titles manually reviewed: [\"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Abstracts\", \"Abstracts from the 52nd European Society of Human Genetics (ESHG) Conference: Posters\", \"15th Congress of the International Pediatric Nephrology Association : 29 August – 2 September, 2010 New York, NY, USA\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22French+Southern+Territories%22%29+AND+TITLE_ABS%3A%28%28%22celiac+disease%22+OR+%22coeliac+disease%22+OR+celiaquia+OR+celiakia+OR+celijakija%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-260-diabetes",
+    "area_m49": "260",
+    "condition_key": "diabetes",
+    "query": "(\"French Southern Territories\") AND diabetes",
+    "language": "fr",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://taaf.fr/recrutement/medecin-et-infirmier/",
+        "observation": "Original TAAF medical recruitment page distinguishes district/base physicians from headquarters in Saint-Pierre, Reunion and Paris. Rotating public-administration medical operations are not automatically independent locally domiciled Team B issuers. Do not merge M49 260 with Antarctica or Reunion."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22French+Southern+Territories%22%29+AND+diabetes&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=9; first returned titles manually reviewed: [\"Variation in albumin glycation rates in birds suggests resistance to relative hyperglycaemia rather than conformity to the pace of life syndrome hypothesis.\", \"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Influenza: seasonality and travel-related considerations.\", \"Capacity for the management of kidney failure in the International Society of Nephrology Africa region: report from the 2023 ISN Global Kidney Atlas (ISN-GKHA).\", \"Uncovering the Burden of Dengue in Africa: Considerations on Magnitude, Misdiagnosis, and Ancestry.\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22French+Southern+Territories%22%29+AND+TITLE_ABS%3A%28diabetes%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-260-gout",
+    "area_m49": "260",
+    "condition_key": "gout",
+    "query": "(\"French Southern Territories\") AND (gout OR gouty OR podagra)",
+    "language": "fr",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://taaf.fr/recrutement/medecin-et-infirmier/",
+        "observation": "Original TAAF medical recruitment page distinguishes district/base physicians from headquarters in Saint-Pierre, Reunion and Paris. Rotating public-administration medical operations are not automatically independent locally domiciled Team B issuers. Do not merge M49 260 with Antarctica or Reunion."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22French+Southern+Territories%22%29+AND+%28gout+OR+gouty+OR+podagra%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=1; first returned titles manually reviewed: [\"15th Congress of the International Pediatric Nephrology Association : 29 August – 2 September, 2010 New York, NY, USA\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22French+Southern+Territories%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-260-hemochromatosis",
+    "area_m49": "260",
+    "condition_key": "hemochromatosis",
+    "query": "(\"French Southern Territories\") AND (hemochromatosis OR haemochromatosis OR \"hereditary iron overload\")",
+    "language": "fr",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://taaf.fr/recrutement/medecin-et-infirmier/",
+        "observation": "Original TAAF medical recruitment page distinguishes district/base physicians from headquarters in Saint-Pierre, Reunion and Paris. Rotating public-administration medical operations are not automatically independent locally domiciled Team B issuers. Do not merge M49 260 with Antarctica or Reunion."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22French+Southern+Territories%22%29+AND+%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=2; first returned titles manually reviewed: [\"Abstracts from the 52nd European Society of Human Genetics (ESHG) Conference: Posters\", \"15th Congress of the International Pediatric Nephrology Association : 29 August – 2 September, 2010 New York, NY, USA\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22French+Southern+Territories%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-260-high_chol",
+    "area_m49": "260",
+    "condition_key": "high_chol",
+    "query": "(\"French Southern Territories\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "fr",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://taaf.fr/recrutement/medecin-et-infirmier/",
+        "observation": "Original TAAF medical recruitment page distinguishes district/base physicians from headquarters in Saint-Pierre, Reunion and Paris. Rotating public-administration medical operations are not automatically independent locally domiciled Team B issuers. Do not merge M49 260 with Antarctica or Reunion."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22French+Southern+Territories%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=3; first returned titles manually reviewed: [\"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Abstracts from the 52nd European Society of Human Genetics (ESHG) Conference: Posters\", \"15th Congress of the International Pediatric Nephrology Association : 29 August – 2 September, 2010 New York, NY, USA\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22French+Southern+Territories%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-260-hypertension",
+    "area_m49": "260",
+    "condition_key": "hypertension",
+    "query": "(\"French Southern Territories\") AND (hypertension OR \"high blood pressure\")",
+    "language": "fr",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://taaf.fr/recrutement/medecin-et-infirmier/",
+        "observation": "Original TAAF medical recruitment page distinguishes district/base physicians from headquarters in Saint-Pierre, Reunion and Paris. Rotating public-administration medical operations are not automatically independent locally domiciled Team B issuers. Do not merge M49 260 with Antarctica or Reunion."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22French+Southern+Territories%22%29+AND+%28hypertension+OR+%22high+blood+pressure%22%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=8; first returned titles manually reviewed: [\"High blood pressure among adolescents in Africa: A systematic review and meta-analysis protocol.\", \"Impact of the COVID-19 Epidemic on Patients with Myeloproliferative Neoplasia: The French Prospective Observational Study Covim\", \"Capacity for the management of kidney failure in the International Society of Nephrology Africa region: report from the 2023 ISN Global Kidney Atlas (ISN-GKHA).\", \"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Analyses of the First 410 days of COVID-19 Trend and Mortality in Africa: Interpretation, Implications and Recommendations\"]. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22French+Southern+Territories%22%29+AND+TITLE_ABS%3A%28%28hypertension+OR+%22high+blood+pressure%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  },
+  {
+    "record_id": "B134-SCOPE-260-lactose",
+    "area_m49": "260",
+    "condition_key": "lactose",
+    "query": "(\"French Southern Territories\") AND (lactose AND (intolerance OR malabsorption OR \"lactase deficiency\"))",
+    "language": "fr",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "original_geographic_medical_operator_scope",
+        "url": "https://taaf.fr/recrutement/medecin-et-infirmier/",
+        "observation": "Original TAAF medical recruitment page distinguishes district/base physicians from headquarters in Saint-Pierre, Reunion and Paris. Rotating public-administration medical operations are not automatically independent locally domiciled Team B issuers. Do not merge M49 260 with Antarctica or Reunion."
+      },
+      {
+        "approach": "actual_separate_condition_specific_literature_query",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22French+Southern+Territories%22%29+AND+%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual original separate query; count=0; first returned titles manually reviewed: []. Broad location/country-list or biological/external results not local authorship."
+      },
+      {
+        "approach": "local_author_refinement_not_separate_independent_index",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22French+Southern+Territories%22%29+AND+TITLE_ABS%3A%28%28lactose+AND+%28intolerance+OR+malabsorption+OR+%22lactase+deficiency%22%29%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual exact local-author plus condition query returned0; durable receipt/hash in affiliation_discovery_20261118.csv. Does not establish national absence."
+      }
+    ],
+    "result": "Evidence-limited original local-issuer scope exception requires human adjudication: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136. No eligible local institution/source fabricated.",
+    "limits": "Not a D2 nationwide negative, sovereignty decision or clinical/scientific approval. Original geographic/medical operator evidence supplies scope only; separate actual condition-specific searches preserved for each cell. Local identity gap remains unresolved; new attributable primary evidence can reopen.",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/136 with explicit retained-cell scope exception or primary eligible locally domiciled issuer evidence."
+  }
+]

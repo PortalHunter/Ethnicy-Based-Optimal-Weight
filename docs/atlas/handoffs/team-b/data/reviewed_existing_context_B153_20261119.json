@@ -1,0 +1,20 @@
+{
+  "record_id": "B153-548-HTN-FIG7",
+  "append_only_source_audit": {
+    "record_type": "source",
+    "area_m49": "548",
+    "condition_key": "hypertension",
+    "org_id": "B-VU-WSB",
+    "relevant_url": "https://moh.gov.vu/healthsymposium/docs/2022/SEYMOUR%2C%20Jessica.pdf",
+    "quality_or_depth": "S1",
+    "review_state": "B153_original_visual_figure_and_existing_coauthored_programme_role_inspected",
+    "evidence_url": "https://moh.gov.vu/healthsymposium/docs/2022/SEYMOUR%2C%20Jessica.pdf#page=7",
+    "checked_on": "2026-11-19",
+    "evidence_limit": "Original rendered PDF7 figure explicitly labels High Blood Pressure20.2% as reason for attendance in WSB2019\u20132021 programme cohort; accompanying figure n21 multi-condition+n103single-condition. Original retrospective methods and existing verified local WSB programme/author role preserved. S1 source inventories actual BP-related analytic results, not confirmed clinical hypertension diagnosis, Vanuatu population prevalence or intervention efficacy. Old U audit retained; visual figure interpretation now documented. SHA256=22cfdb04483c3ca8f045a83e81e1ece8a6cc7f7f05547b6eba6e18f60388d95d.",
+    "next_action": "Independent original methods/diagnostic definition, retrospective missingness, sample/denominator, clinical and rights review; no national prevalence or efficacy approval."
+  },
+  "observation": "Original rendered PDF7 figure explicitly labels High Blood Pressure20.2% as reason for attendance in WSB2019\u20132021 programme cohort; accompanying figure n21 multi-condition+n103single-condition. Original retrospective methods and existing verified local WSB programme/author role preserved. S1 source inventories actual BP-related analytic results, not confirmed clinical hypertension diagnosis, Vanuatu population prevalence or intervention efficacy. Old U audit retained; visual figure interpretation now documented. SHA256=22cfdb04483c3ca8f045a83e81e1ece8a6cc7f7f05547b6eba6e18f60388d95d.",
+  "previous_U_audit_retained": true,
+  "new_source_contexts": 0,
+  "new_qualified_cells": 1
+}

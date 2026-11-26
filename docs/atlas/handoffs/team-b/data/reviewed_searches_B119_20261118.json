@@ -1,0 +1,176 @@
+[
+  {
+    "record_id": "B119-HH-084",
+    "area_m49": "084",
+    "condition_key": "hemochromatosis",
+    "query": "\"Belize\" \"hemochromatosis\" association research",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual HI country table inspected; no member entry for this area. Not a national census."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Belize%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual AFF plus condition-title/abstract query returned zero; broad first-five candidate titles reviewed separately; unrelated/external candidates not qualified."
+      }
+    ],
+    "result": "Veterinary toucan references and secondary therapeutic-donation story surfaced; neither verifies eligible original local HH publication. No eligible local HH publication verified through these specified independent routes.",
+    "limits": "Bounded query/directory disposition, not nationwide absence. Directory membership incomplete; first-five broad metadata and indexed local-author query do not exhaust literature. English queries for Bhutan/Cambodia leave local-language gaps; no genotype, national prevalence or clinical approval.",
+    "next_action": "Reopen on local-language primary institutional archive, attributable original publication or community-provided source."
+  },
+  {
+    "record_id": "B119-HH-060",
+    "area_m49": "060",
+    "condition_key": "hemochromatosis",
+    "query": "\"Bermuda\" \"haemochromatosis\" association research",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual HI country table inspected; no member entry for this area. Not a national census."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Bermuda%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual AFF plus condition-title/abstract query returned zero; broad first-five candidate titles reviewed separately; unrelated/external candidates not qualified."
+      }
+    ],
+    "result": "Irish patient narrative mentioning Bermuda and unrelated namesake results do not verify a Bermuda HH issuer. No eligible local HH publication verified through these specified independent routes.",
+    "limits": "Bounded query/directory disposition, not nationwide absence. Directory membership incomplete; first-five broad metadata and indexed local-author query do not exhaust literature. English queries for Bhutan/Cambodia leave local-language gaps; no genotype, national prevalence or clinical approval.",
+    "next_action": "Reopen on local-language primary institutional archive, attributable original publication or community-provided source."
+  },
+  {
+    "record_id": "B119-HH-024",
+    "area_m49": "024",
+    "condition_key": "hemochromatosis",
+    "query": "\"Angola\" hemocromatose associação estudo",
+    "language": "pt",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual HI country table inspected; no member entry for this area. Not a national census."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Angola%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual AFF plus condition-title/abstract query returned zero; broad first-five candidate titles reviewed separately; unrelated/external candidates not qualified."
+      }
+    ],
+    "result": "Hemoglobinopathy and sickle-cell sources surfaced, distinct from hereditary hemochromatosis. No eligible local HH publication verified through these specified independent routes.",
+    "limits": "Bounded query/directory disposition, not nationwide absence. Directory membership incomplete; first-five broad metadata and indexed local-author query do not exhaust literature. English queries for Bhutan/Cambodia leave local-language gaps; no genotype, national prevalence or clinical approval.",
+    "next_action": "Reopen on local-language primary institutional archive, attributable original publication or community-provided source."
+  },
+  {
+    "record_id": "B119-HH-108",
+    "area_m49": "108",
+    "condition_key": "hemochromatosis",
+    "query": "\"Burundi\" hémochromatose association étude",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual HI country table inspected; no member entry for this area. Not a national census."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Burundi%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual AFF plus condition-title/abstract query returned zero; broad first-five candidate titles reviewed separately; unrelated/external candidates not qualified."
+      }
+    ],
+    "result": "Rare-disease/palliative/hemophilia mentions do not verify hereditary-hemochromatosis content or issuer. No eligible local HH publication verified through these specified independent routes.",
+    "limits": "Bounded query/directory disposition, not nationwide absence. Directory membership incomplete; first-five broad metadata and indexed local-author query do not exhaust literature. English queries for Bhutan/Cambodia leave local-language gaps; no genotype, national prevalence or clinical approval.",
+    "next_action": "Reopen on local-language primary institutional archive, attributable original publication or community-provided source."
+  },
+  {
+    "record_id": "B119-HH-064",
+    "area_m49": "064",
+    "condition_key": "hemochromatosis",
+    "query": "\"Bhutan\" hemochromatosis association research",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual HI country table inspected; no member entry for this area. Not a national census."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Bhutan%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual AFF plus condition-title/abstract query returned zero; broad first-five candidate titles reviewed separately; unrelated/external candidates not qualified."
+      }
+    ],
+    "result": "Regional hemoglobinopathy/transfusion literature is neither original local hereditary-hemochromatosis guidance nor an eligible local HH source. No eligible local HH publication verified through these specified independent routes.",
+    "limits": "Bounded query/directory disposition, not nationwide absence. Directory membership incomplete; first-five broad metadata and indexed local-author query do not exhaust literature. English queries for Bhutan/Cambodia leave local-language gaps; no genotype, national prevalence or clinical approval.",
+    "next_action": "Reopen on local-language primary institutional archive, attributable original publication or community-provided source."
+  },
+  {
+    "record_id": "B119-HH-116",
+    "area_m49": "116",
+    "condition_key": "hemochromatosis",
+    "query": "\"Cambodia\" hemochromatosis association research",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual HI country table inspected; no member entry for this area. Not a national census."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Cambodia%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual AFF plus condition-title/abstract query returned zero; broad first-five candidate titles reviewed separately; unrelated/external candidates not qualified."
+      }
+    ],
+    "result": "Original hemoglobin-EE/ferritin research and hemophilia organizations surfaced; elevated ferritin, transfusional iron overload and hemophilia are distinct from hereditary hemochromatosis. No eligible local HH publication verified through these specified independent routes.",
+    "limits": "Bounded query/directory disposition, not nationwide absence. Directory membership incomplete; first-five broad metadata and indexed local-author query do not exhaust literature. English queries for Bhutan/Cambodia leave local-language gaps; no genotype, national prevalence or clinical approval.",
+    "next_action": "Reopen on local-language primary institutional archive, attributable original publication or community-provided source."
+  },
+  {
+    "record_id": "B119-HH-052",
+    "area_m49": "052",
+    "condition_key": "hemochromatosis",
+    "query": "\"Barbados\" \"haemochromatosis\" association research",
+    "language": "en",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "distinct_primary_web_source_discovery",
+        "url": "https://ecronicon.net/ecpe/recent-update-in-diagnostic-evaluation-of-hereditary-hemochromatosis",
+        "observation": "Original2023 substantive review abstract and Barbados UWI coauthor affiliation inspected. Publisher country, local faculty identity and clinical reliability unverified; TIBC/genetic and population wording require specialist review. Do not mark negative or eligible from AFF zero."
+      }
+    ],
+    "result": "Original2023 substantive review abstract and Barbados UWI coauthor affiliation inspected. Publisher country, local faculty identity and clinical reliability unverified; TIBC/genetic and population wording require specialist review. Do not mark negative or eligible from AFF zero.",
+    "limits": "Candidate discovery is not source eligibility, issuer verification or clinical approval; retain original provenance and do not infer absence from zero index hits.",
+    "next_action": "Inspect exact original document, local research-group role and publisher imprint; independently appraise clinical claims before use."
+  },
+  {
+    "record_id": "B119-HH-096",
+    "area_m49": "096",
+    "condition_key": "hemochromatosis",
+    "query": "\"Brunei\" \"hemochromatosis\" association research",
+    "language": "en",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "distinct_primary_web_source_discovery",
+        "url": "https://ihs.ubd.edu.bn/wp-content/uploads/2019/03/2018-BDJH-Vol-8.pdf",
+        "observation": "Local university proceedings assay/array lead surfaced, not yet original-content inspected. Architects blood-donation announcement and broad assay list do not establish HH clinical publication; candidate remains open."
+      }
+    ],
+    "result": "Local university proceedings assay/array lead surfaced, not yet original-content inspected. Architects blood-donation announcement and broad assay list do not establish HH clinical publication; candidate remains open.",
+    "limits": "Candidate discovery is not source eligibility, issuer verification or clinical approval; retain original provenance and do not infer absence from zero index hits.",
+    "next_action": "Inspect exact original document, local research-group role and publisher imprint; independently appraise clinical claims before use."
+  }
+]

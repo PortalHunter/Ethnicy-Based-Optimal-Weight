@@ -1,0 +1,28 @@
+{
+  "errors": [],
+  "metrics": {
+    "organizations": 543,
+    "areas": 227,
+    "resources": 623,
+    "positive": 450,
+    "without_linked_source": 1286,
+    "targeted_no_source": 1286,
+    "unresearched": 0,
+    "provenance": 5714,
+    "search_log": 5173,
+    "community": 10,
+    "cross_border_edges": 8,
+    "issuer_country_unresolved": 5,
+    "issuer_country_differs_from_domicile": 44,
+    "by_condition": {
+      "diabetes": 118,
+      "hypertension": 89,
+      "high_chol": 60,
+      "gout": 47,
+      "lactose": 41,
+      "celiac": 64,
+      "hemochromatosis": 31
+    },
+    "current_unsd_overview_codes": 248
+  }
+}

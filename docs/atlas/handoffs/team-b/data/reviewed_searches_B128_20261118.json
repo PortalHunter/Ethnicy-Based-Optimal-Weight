@@ -1,0 +1,102 @@
+[
+  {
+    "record_id": "B128-FO-gout",
+    "area_m49": "234",
+    "condition_key": "gout",
+    "query": "site:gikt.fo podagra; Faroese local rheumatology association and exact condition literature retrieval",
+    "language": "fo_en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "local_original_rheumatology_education_and_links",
+        "url": "https://gikt.fo/gikt/",
+        "observation": "Actual own body defines gikt as200-plus musculoskeletal diagnoses, not gout. Generic Danish/Swedish association links on/slodir/ do not endorse exact gout content or transfer authorship."
+      },
+      {
+        "approach": "condition_specific_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Faroe+Islands%22%29+AND+TITLE_ABS%3A%28%28gout+OR+gouty+OR+podagra%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual local-author gout query zero; broad first-five titles reviewed, nonspecific rheumatic protocol/history/infection/cohort candidates do not verify original local gout publication."
+      }
+    ],
+    "result": "No eligible gout-specific resource verified through these distinct routes. Genuine local arthritis association is not misclassified as a gout society.",
+    "limits": "Not national absence; gikt lexical false equivalence rejected; Danish prevalence not Faroese prevalence. English/index and first-five limits remain; no clinical claim.",
+    "next_action": "Reopen with actual local urinsyregigt/podagra publication or precise condition-specific endorsement."
+  },
+  {
+    "record_id": "B128-HH-175",
+    "area_m49": "175",
+    "condition_key": "hemochromatosis",
+    "query": "\"Mayotte\" \"hémochromatose\" association publication",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Own member-country table inspected; no Mayotte-specific publisher/member entry; national France entry is not Mayotte local domicile."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Mayotte%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual AFF/condition-title-abstract query zero; targeted French query returned unrelated broad meeting/liver sources, no verified eligible local HH original."
+      }
+    ],
+    "result": "No eligible local HH publication verified through these bounded condition-specific and independent directory routes.",
+    "limits": "No national or territory-wide absence claim. French national/regional service does not establish local author domicile; directory and index incomplete.",
+    "next_action": "Reopen with local association/academic original or precise institutional archive; clinical review separate."
+  },
+  {
+    "record_id": "B128-HH-312",
+    "area_m49": "312",
+    "condition_key": "hemochromatosis",
+    "query": "\"Guadeloupe\" \"hémochromatose\" association publication; site:sentinelles971.com Hémochromatose",
+    "language": "fr",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "distinct_first_party_document_or_archive_discovery",
+        "url": "https://www.sentinelles971.com/category/rubriques/page/24/",
+        "observation": "Professional site candidate Hémochromatose:y penser surfaced only in search index. Original web reader cache miss and distinct direct request HTTP503; stop retrying this artifact. Exact article text, credited external source and local professional issuer role unverified."
+      }
+    ],
+    "result": "Professional site candidate Hémochromatose:y penser surfaced only in search index. Original web reader cache miss and distinct direct request HTTP503; stop retrying this artifact. Exact article text, credited external source and local professional issuer role unverified.",
+    "limits": "No source eligibility or nationwide absence. Original author, issuer domicile and condition specificity remain distinct; search snippets do not verify original source content.",
+    "next_action": "Use a different local institutional/association archive or precise authenticated leaf; do not repeat the same unavailable artifact."
+  },
+  {
+    "record_id": "B128-HH-254",
+    "area_m49": "254",
+    "condition_key": "hemochromatosis",
+    "query": "\"Guyane\" \"hémochromatose\" association publication",
+    "language": "fr",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "distinct_first_party_document_or_archive_discovery",
+        "url": "https://www.diabete-guyane-obesite.com/wp-content/uploads/2021/12/Types-de-diabete-v3.pdf",
+        "observation": "Original78-slide2021 diabetes teaching deck identified, author/date and initial diabetes text inspected. HH-only hit is not yet inspected as substantive original HH text; no HH positive from a search mention or elevated ferritin."
+      }
+    ],
+    "result": "Original78-slide2021 diabetes teaching deck identified, author/date and initial diabetes text inspected. HH-only hit is not yet inspected as substantive original HH text; no HH positive from a search mention or elevated ferritin.",
+    "limits": "No source eligibility or nationwide absence. Original author, issuer domicile and condition specificity remain distinct; search snippets do not verify original source content.",
+    "next_action": "Use a different local institutional/association archive or precise authenticated leaf; do not repeat the same unavailable artifact."
+  },
+  {
+    "record_id": "B128-HH-258",
+    "area_m49": "258",
+    "condition_key": "hemochromatosis",
+    "query": "\"Polynésie française\" \"hémochromatose\" association publication",
+    "language": "fr",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "distinct_first_party_document_or_archive_discovery",
+        "url": "https://angh.net/abstracts/category/hepatologie/page/6/",
+        "observation": "Search result combines Pirae LPAC abstract and separate Creil/Brest HH case; do not merge affiliations across adjacent abstracts. Direct current pagination returns different2019 content, so exact2018 leaf and provenance remain unverified. No local HH attribution or negative closure."
+      }
+    ],
+    "result": "Search result combines Pirae LPAC abstract and separate Creil/Brest HH case; do not merge affiliations across adjacent abstracts. Direct current pagination returns different2019 content, so exact2018 leaf and provenance remain unverified. No local HH attribution or negative closure.",
+    "limits": "No source eligibility or nationwide absence. Original author, issuer domicile and condition specificity remain distinct; search snippets do not verify original source content.",
+    "next_action": "Use a different local institutional/association archive or precise authenticated leaf; do not repeat the same unavailable artifact."
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "record_id": "B125-HH-174",
+    "area_m49": "174",
+    "condition_key": "hemochromatosis",
+    "query": "\"Comores\" \"hémochromatose\" association étude",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_HH_member_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual country table inspected; no area entry, incomplete membership not absence proof."
+      },
+      {
+        "approach": "local_author_condition_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Comoros%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual zero AFF/title-abstract hits; broad first-five candidate titles separately inspected."
+      }
+    ],
+    "result": "Diaspora family blood-disorder abstracts concern hereditary red-cell conditions, not verified local hereditary-hemochromatosis research; syndicated high-ferritin education is not verified local association authorship.",
+    "limits": "Bounded specified routes only; no nationwide source absence, HFE/ethnicity inference or clinical approval. Index language/affiliation coverage and first-five retrieval limits remain.",
+    "next_action": "Reopen with primary locally attributable HH publication or disease-organization archive; genetic/clinical review separate."
+  },
+  {
+    "record_id": "B125-HH-262",
+    "area_m49": "262",
+    "condition_key": "hemochromatosis",
+    "query": "\"Djibouti\" \"hémochromatose\" association étude",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_HH_member_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual country table inspected; no area entry, incomplete membership not absence proof."
+      },
+      {
+        "approach": "local_author_condition_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Djibouti%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual zero AFF/title-abstract hits; broad first-five candidate titles separately inspected."
+      }
+    ],
+    "result": "Mixed meeting indexes and foreign military/infectious-disease citations do not verify a local independent HH publication.",
+    "limits": "Bounded specified routes only; no nationwide source absence, HFE/ethnicity inference or clinical approval. Index language/affiliation coverage and first-five retrieval limits remain.",
+    "next_action": "Reopen with primary locally attributable HH publication or disease-organization archive; genetic/clinical review separate."
+  },
+  {
+    "record_id": "B125-HH-324",
+    "area_m49": "324",
+    "condition_key": "hemochromatosis",
+    "query": "\"Guinée\" \"hémochromatose\" association étude",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_HH_member_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual country table inspected; no area entry, incomplete membership not absence proof."
+      },
+      {
+        "approach": "local_author_condition_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Guinea%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual zero AFF/title-abstract hits; broad first-five candidate titles separately inspected."
+      },
+      {
+        "approach": "original_local_journal_document",
+        "url": "https://www.guineemedicale.org/index.php/guineemed/article/download/233/20",
+        "observation": "Actual methods exclude HH; not eligible condition-specific original positive."
+      }
+    ],
+    "result": "Original local2024 chronic-HBV hepatic-steatosis paper was inspected and explicitly EXCLUDES hereditary hemochromatosis in methods; it is not an HH positive. Broad first-five candidate titles reviewed and no eligible local HH original verified.",
+    "limits": "Bounded specified routes only; no nationwide source absence, HFE/ethnicity inference or clinical approval. Index language/affiliation coverage and first-five retrieval limits remain.",
+    "next_action": "Reopen with primary locally attributable HH publication or disease-organization archive; genetic/clinical review separate."
+  },
+  {
+    "record_id": "B125-HH-266",
+    "area_m49": "266",
+    "condition_key": "hemochromatosis",
+    "query": "\"L’Hémochromatose au Gabon\" \"2004\"; distinct professional history route site:snfge.org Yaounde2004gastro",
+    "language": "fr",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "citing_author_uploaded_original_document",
+        "url": "https://www.researchgate.net/publication/364950228_L%27HEMOCHROMATOSE_HEPATIQUE_AU_BURKINA_FASO_A_PROPOS_D%27UNE_OBSERVATION",
+        "observation": "Exact2004 abstractbook citation,p124 inspected in later Burkina Faso report; Gabon original abstract not obtained."
+      },
+      {
+        "approach": "independent_professional_meeting_history",
+        "url": "https://link.springer.com/content/pdf/10.1007/s12157-012-0440-1.pdf",
+        "observation": "Meeting-history retrieval surfaced Yaounde25-27November2004; not original abstract text or imprint verification."
+      }
+    ],
+    "result": "Named original Gabon two-case abstract unavailable through attempted routes; source-access and attribution review escalated to https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/132",
+    "limits": "No S1/S2/H qualification, no local author/organization verified from citation alone, and no national absence. Later upload date is not original publication date. Conference place is not publisher domicile. Stop repeated unavailable-book searches.",
+    "next_action": "Obtain original authenticated p124/title/imprint and affiliations; resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/132; independent clinical/rights review separate."
+  }
+]

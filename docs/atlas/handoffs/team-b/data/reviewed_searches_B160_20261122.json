@@ -1,0 +1,2296 @@
+[
+  {
+    "record_id": "B160-DEP-004-high_chol",
+    "area_m49": "004",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://jami.edu.af/en/medicine-faculty/",
+        "observation": "Indexed B-AF-JAMI-MED first-party page retrieved 2026-11-22 HTTP 200 169170B SHA256=98ec5d69ad876484…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). "
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Afghanistan: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Afghanistan."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Afghanistan%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0004 (2026-11-18): Actual condition-specific catalogue query returned 916 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-008-high_chol",
+    "area_m49": "008",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Albania (B-AL-ADA) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Albania. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Albania."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Albania%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0009 (2026-11-18): Actual condition-specific catalogue query returned 547 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-012-high_chol",
+    "area_m49": "012",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Algeria (B-DZ-SETIF) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Algeria. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Algeria."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Algeria%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0021 (2026-11-18): Actual condition-specific catalogue query returned 1042 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-031-high_chol",
+    "area_m49": "031",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Azerbaijan (B-AZ-ADS, B-AZ-ADL) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Azerbaijan. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Azerbaijan."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Azerbaijan%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0047 (2026-11-18): Actual condition-specific catalogue query returned 442 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-048-high_chol",
+    "area_m49": "048",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Bahrain (B-BH-BDS) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Bahrain: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Bahrain."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bahrain%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0059 (2026-11-18): Actual condition-specific catalogue query returned 1097 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-051-high_chol",
+    "area_m49": "051",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Armenia (B-AM-AAD) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Armenia. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Armenia."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Armenia%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0065 (2026-11-18): Actual condition-specific catalogue query returned 512 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-068-high_chol",
+    "area_m49": "068",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.sbemn.org.bo/",
+        "observation": "Indexed B-BO-SBEMN first-party page retrieved 2026-11-22 HTTP 200 237489B SHA256=c61dc2bf7eb433c7…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://www.sbemn.org.bo/?s=colesterol HTTP 200 SHA256=a23e861c9899f510…: no lipid result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://sobocar.org/",
+        "observation": "Indexed B-BO-SOBOCAR first-party page retrieved 2026-11-22 HTTP 200 29638B SHA256=731dc67f20709078…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://sobocar.org/?s=colesterol HTTP 200 SHA256=731dc67f20709078…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Bolivia (Plurinational State of). Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Bolivia (Plurinational State of)."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bolivia%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0088 (2026-11-18): Actual condition-specific catalogue query returned 553 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-070-high_chol",
+    "area_m49": "070",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://endo.ba/",
+        "observation": "Indexed B-BA-UED first-party page retrieved 2026-11-22 HTTP 200 237980B SHA256=2d9810658fb2f5cb…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://endo.ba/?s=holesterol HTTP 200 SHA256=66e3847731bdbc9b…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Bosnia and Herzegovina: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Bosnia and Herzegovina."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bosnia+and+Herzegovina%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0093 (2026-11-18): Actual condition-specific catalogue query returned 884 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-100-high_chol",
+    "area_m49": "100",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://fhef.org/our-network/",
+        "observation": "Indexed B-BG-FBPF first-party page retrieved 2026-11-22 HTTP 200 167454B SHA256=7e78d7476bd06b74…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). "
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://endo-bg.org/",
+        "observation": "Indexed B-BG-BDE first-party page retrieved 2026-11-22 HTTP 200 233067B SHA256=0d0305467982e4eb…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://endo-bg.org/?s=%D1%85%D0%BE%D0%BB%D0%B5%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%BB HTTP 200 SHA256=24ce6237da585d47…: no lipid result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://hypertension.bg/",
+        "observation": "Indexed B-BG-BHL first-party page retrieved 2026-11-22 HTTP 200 28228B SHA256=ae412e4b9b0704f5…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://hypertension.bg/?s=%D1%85%D0%BE%D0%BB%D0%B5%D1%81%D1%82%D0%B5%D1%80%D0%BE%D0%BB HTTP 200 SHA256=0fb85c768073538a…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Bulgaria: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Bulgaria."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Bulgaria%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-cd40fa733096a91f (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=120. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical a Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-112-high_chol",
+    "area_m49": "112",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Belarus (B-BY-BSE) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Belarus. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Belarus."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Belarus%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0155 (2026-11-18): Actual condition-specific catalogue query returned 492 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-120-high_chol",
+    "area_m49": "120",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.socediamn.org/",
+        "observation": "Indexed B-CM-SOCEDIAMN first-party page retrieved 2026-11-22 HTTP 200 732B SHA256=66ace2adbe2e6b9b…; shell/challenge page only, content not inspectable. "
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.sccardio.org/home",
+        "observation": "Indexed B-CM-SCC first-party page retrieved 2026-11-22 HTTP 200 56717B SHA256=23f1ad29320c3604…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://www.sccardio.org/?s=cholest%C3%A9rol HTTP 200 SHA256=9c6028b5984003f1…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Cameroon. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Cameroon."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Cameroon%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-1d67d2f0f543ba26 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=80. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical af Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-144-high_chol",
+    "area_m49": "144",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.diabetessrilanka.org/",
+        "observation": "Indexed B-LK-DASL first-party page retrieved 2026-11-22 HTTP 200 96374B SHA256=c3a4231e5379dc3f…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://www.diabetessrilanka.org/?s=cholesterol HTTP 200 SHA256=b7da39fd21dfe111…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Sri Lanka: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Sri Lanka."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Sri+Lanka%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0182 (2026-11-18): Actual condition-specific catalogue query returned 2112 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-192-high_chol",
+    "area_m49": "192",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Cuba (B-CU-SOCEND) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Cuba. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Cuba."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Cuba%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0243 (2026-11-18): Actual condition-specific catalogue query returned 975 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-196-high_chol",
+    "area_m49": "196",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://diabetes.org.cy/",
+        "observation": "Indexed B-CY-PDS first-party page retrieved 2026-11-22 HTTP 200 225771B SHA256=eae4fbd9dd4dd43c…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://diabetes.org.cy/?s=%CF%87%CE%BF%CE%BB%CE%B7%CF%83%CF%84%CE%B5%CF%81%CE%AF%CE%BD%CE%B7 HTTP 200 SHA256=5da0ba1cdc6e7b0c…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Cyprus: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Cyprus."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Cyprus%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0247 (2026-11-18): Actual condition-specific catalogue query returned 1429 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-204-high_chol",
+    "area_m49": "204",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Benin (B-BJ-DB, B-BJ-ABD, B-BJ-DEV) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Benin: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Benin."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Benin%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0253 (2026-11-18): Actual condition-specific catalogue query returned 665 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-212-high_chol",
+    "area_m49": "212",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Dominica (B-DM-DIAB) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Dominica: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Dominica."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Dominica%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0258 (2026-11-18): Actual condition-specific catalogue query returned 104 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-218-high_chol",
+    "area_m49": "218",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.casadeladiabetes.org.ec/",
+        "observation": "Indexed B-EC-FRESNOS first-party page retrieved 2026-11-22 HTTP 200 28782B SHA256=e6d4fd6cf2c13c30…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://www.casadeladiabetes.org.ec/?s=colesterol HTTP 200 SHA256=e6d4fd6cf2c13c30…: no lipid result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://scardiopichincha.org/",
+        "observation": "Indexed B-EC-SECNP first-party page retrieved 2026-11-22 HTTP 200 228755B SHA256=a2eb8bb2306487f3…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://scardiopichincha.org/?s=colesterol HTTP 200 SHA256=328c4e72ea726ae0…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Ecuador. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Ecuador."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Ecuador%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0267 (2026-11-18): Actual condition-specific catalogue query returned 1368 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-231-high_chol",
+    "area_m49": "231",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Ethiopia (B-ET-EDA) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Ethiopia: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Ethiopia."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Ethiopia%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0282 (2026-11-18): Actual condition-specific catalogue query returned 2885 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-233-high_chol",
+    "area_m49": "233",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.diabetes.ee/",
+        "observation": "Indexed B-EE-EDIABET first-party page retrieved 2026-11-22 HTTP 200 70914B SHA256=1e9141e7b764a359…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://www.diabetes.ee/?s=kolesterool HTTP 200 SHA256=4659fd5eb891206a…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Estonia: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Estonia."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Estonia%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0290 (2026-11-18): Actual condition-specific catalogue query returned 1432 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-268-high_chol",
+    "area_m49": "268",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Georgia (B-GE-GUDEA) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Georgia. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Georgia."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Georgia%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0347 (2026-11-18): Actual condition-specific catalogue query returned 6453 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-275-high_chol",
+    "area_m49": "275",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for State of Palestine (B-PS-DP) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for State of Palestine. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for State of Palestine."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Palestine%22+OR+%22Palestinian%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0357 (2026-11-18): Actual condition-specific catalogue query returned 991 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-288-high_chol",
+    "area_m49": "288",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://demsog.com/",
+        "observation": "Indexed B-GH-DEMSOG first-party page retrieved 2026-11-22 HTTP 200 126374B SHA256=7e5cb6838a66db17…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://demsog.com/?s=cholesterol HTTP 200 SHA256=8b4f66d04933993a…: no lipid result."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://gsc-gh.org/",
+        "observation": "Indexed B-GH-GSC first-party page retrieved 2026-11-22 HTTP 200 227412B SHA256=60aba372cf3559c3…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://gsc-gh.org/?s=cholesterol HTTP 200 SHA256=fdc095d4e292f393…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Ghana. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Ghana."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Ghana%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-5dcf742ea0257ba2 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=125. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical a Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-292-high_chol",
+    "area_m49": "292",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.gibraltarcardiac.com/our-mission",
+        "observation": "Indexed B-GI-GCA first-party page retrieved 2026-11-22 HTTP 200 66096B SHA256=51f38b4e87d53259…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). "
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Gibraltar. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Gibraltar."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Gibraltar%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0363 (2026-11-18): Actual condition-specific catalogue query returned 58 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-320-high_chol",
+    "area_m49": "320",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.patronatodeldiabetico.com.gt/Sobre-nosotros/",
+        "observation": "Indexed B-GT-PATRONATO first-party page retrieved 2026-11-22 HTTP 200 54410B SHA256=1b42c218a12ffff2…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). "
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Guatemala. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Guatemala."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Guatemala%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0398 (2026-11-18): Actual condition-specific catalogue query returned 663 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-352-high_chol",
+    "area_m49": "352",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.diabetes.is/",
+        "observation": "Indexed B-IS-DI first-party page retrieved 2026-11-22 HTTP 200 143199B SHA256=453796232e4e5403…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://www.diabetes.is/?s=k%C3%B3lester%C3%B3l HTTP 200 SHA256=453796232e4e5403…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Iceland: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Iceland."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Iceland%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0438 (2026-11-18): Actual condition-specific catalogue query returned 1647 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-364-high_chol",
+    "area_m49": "364",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Iran (Islamic Republic of) (B-IR-GABRIC) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Iran (Islamic Republic of): an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Iran (Islamic Republic of)."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Iran%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0441 (2026-11-18): Actual condition-specific catalogue query returned 15657 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-368-high_chol",
+    "area_m49": "368",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://fhef.org/our-network/",
+        "observation": "Indexed B-IQ-FHIRAQ first-party page retrieved 2026-11-22 HTTP 200 167454B SHA256=7e78d7476bd06b74…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). "
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Iraq: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Iraq."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Iraq%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-e382f427deea2d8c (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=162. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical a Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-376-high_chol",
+    "area_m49": "376",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.israeli-heart.org/post/7-סיבוכים-של-כולסטרול-גבוה-וכיצד-ניתן-למנוע-אותם",
+        "observation": "Israeli Heart Association post on high-cholesterol complications retrieved; text quotes a US (USC) cardiologist and US CDC statistics and appears translated/adapted from US-origin content. Original authorship unresolved, so not promoted to S2 (would be U). HTTP 200 SHA256=e672baf541d76f98… retrieved 2026-11-22."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.israeli-heart.org/",
+        "observation": "Indexed B-IL-IHA first-party page retrieved 2026-11-22 HTTP 200 1178138B SHA256=31fdf9ed46f8ca7d…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://www.israeli-heart.org/?s=%D7%94%D7%99%D7%A4%D7%A8%D7%9B%D7%95%D7%9C%D7%A1%D7%98%D7%A8%D7%95%D7%9C%D7%9E%D7%99%D7%94 HTTP 200 SHA256=9470deaba88612d2…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Israel: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Israel."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Israel%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-c4de4a389d2a7a02 (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=921. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical a Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-398-high_chol",
+    "area_m49": "398",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.avekz.com/",
+        "observation": "Indexed B-KZ-AVEK first-party page retrieved 2026-11-22 HTTP 200 444531B SHA256=5fc47c958802ff1d…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://www.avekz.com/?s=%D1%85%D0%BE%D0%BB%D0%B5%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%BD HTTP 200 SHA256=48850c82be4025a8…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Kazakhstan: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Kazakhstan."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38531935+AND+SRC%3AMED&format=json&resultType=core",
+        "observation": "Preserved B105-CELL-070 (2026-11-18): Kazakhstan lipid survey6720adults18-69,17regions2021-2022. Biochemical hypercholesterolaemia not FH/genotype; demographic ethnicity covariate not individual disease assignment, original issuer role unresolved. Distinct first-party local academic/society identity and exact original publisher document Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-400-high_chol",
+    "area_m49": "400",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Jordan (B-JO-JSCD) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Jordan: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Jordan."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Jordan%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0472 (2026-11-18): Actual condition-specific catalogue query returned 4796 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-414-high_chol",
+    "area_m49": "414",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Kuwait (B-KW-KDS) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Kuwait. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Kuwait."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Kuwait%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0487 (2026-11-18): Actual condition-specific catalogue query returned 2233 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-417-high_chol",
+    "area_m49": "417",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Kyrgyzstan (B-KG-DEAK) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Kyrgyzstan: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Kyrgyzstan."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Kyrgyzstan%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0493 (2026-11-18): Actual condition-specific catalogue query returned 296 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-418-high_chol",
+    "area_m49": "418",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Lao People's Democratic Republic (B-LA-LDEA, B-LA-IMALAOS) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Lao People's Democratic Republic. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Lao People's Democratic Republic."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Laos%22+OR+%22Lao+PDR%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0499 (2026-11-18): Actual condition-specific catalogue query returned 322 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-422-high_chol",
+    "area_m49": "422",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://dialeb.org/",
+        "observation": "Indexed B-LB-DIALEB first-party page retrieved 2026-11-22 HTTP 200 195887B SHA256=6845263a37288ae0…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://dialeb.org/?s=cholesterol HTTP 200 SHA256=c50642f1a3a40b5b…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Lebanon: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Lebanon."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Lebanon%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0504 (2026-11-18): Actual condition-specific catalogue query returned 3062 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-430-high_chol",
+    "area_m49": "430",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Liberia (B-LR-LDA, B-LR-DESOL) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Liberia. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Liberia."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Liberia%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0517 (2026-11-18): Actual condition-specific catalogue query returned 194 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-434-high_chol",
+    "area_m49": "434",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Libya (B-LY-LPDS) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Libya. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Libya."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Libya%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0522 (2026-11-18): Actual condition-specific catalogue query returned 510 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-438-high_chol",
+    "area_m49": "438",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.ufl.li/universitaet/organisation",
+        "observation": "Indexed B-LI-UFL first-party page retrieved 2026-11-22 HTTP 200 84678B SHA256=eddf086ac2c5b67d…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). "
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Liechtenstein. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Liechtenstein."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Liechtenstein%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0528 (2026-11-18): Actual condition-specific catalogue query returned 112 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-442-high_chol",
+    "area_m49": "442",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.ald.lu/",
+        "observation": "Indexed B-LU-ALD first-party page retrieved 2026-11-22 HTTP 200 34147B SHA256=c3c81ba41b72f91d…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://www.ald.lu/?s=cholest%C3%A9rol HTTP 200 SHA256=e453adc5b36135e8…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Luxembourg: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Luxembourg."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Luxembourg%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0532 (2026-11-18): Actual condition-specific catalogue query returned 991 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-446-high_chol",
+    "area_m49": "446",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for China, Macao Special Administrative Region (B-MO-AADM) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for China, Macao Special Administrative Region: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for China, Macao Special Administrative Region."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22China%2C+Macao+Special+Administrative+Region%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0537 (2026-11-18): Actual condition-specific catalogue query returned 0 candidate works; first 0 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Me Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-484-high_chol",
+    "area_m49": "484",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://fmdiabetes.org/colesterol-trigliceridos-mexico/",
+        "observation": "FMD site search found only a downloadable infographic (image, not inspected; data origin unattributed in page text) and a one-sentence glossary definition (https://fmdiabetes.org/glossary/colesterol/); not substantive. HTTP 200 SHA256=ad4afe409490022e… retrieved 2026-11-22."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://fmdiabetes.org",
+        "observation": "Indexed B-MX-FMD first-party page retrieved 2026-11-22 HTTP 200 192309B SHA256=f477fbafe233f792…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://fmdiabetes.org/?s=colesterol HTTP 200 SHA256=4b72779deb79b842…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Mexico: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Mexico."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Mexico%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0581 (2026-11-18): Actual condition-specific catalogue query returned 11894 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-496-high_chol",
+    "area_m49": "496",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Mongolia (B-MN-MDA) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Mongolia. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Mongolia."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Mongolia%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0591 (2026-11-18): Actual condition-specific catalogue query returned 1397 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-498-high_chol",
+    "area_m49": "498",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Republic of Moldova (B-MD-PRODIAB) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Republic of Moldova. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Republic of Moldova."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Moldova%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0597 (2026-11-18): Actual condition-specific catalogue query returned 375 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-499-high_chol",
+    "area_m49": "499",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://dijabetesekipadob.com/o-nama/",
+        "observation": "Indexed B-ME-DOB first-party page retrieved 2026-11-22 HTTP 200 83427B SHA256=11df0b97bf38d5ac…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). "
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://uecg.me/",
+        "observation": "Indexed B-ME-UECG first-party page retrieved 2026-11-22 HTTP 200 80535B SHA256=698603d9ee3e6dfb…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://uecg.me/?s=holesterol HTTP 200 SHA256=c3807fa9b110dd06…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Montenegro. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Montenegro."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Montenegro%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0603 (2026-11-18): Actual condition-specific catalogue query returned 796 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-512-high_chol",
+    "area_m49": "512",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://omandiabetes.org/",
+        "observation": "Indexed B-OM-ODA first-party page retrieved 2026-11-22 HTTP 200 158817B SHA256=726a0a7088614474…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://omandiabetes.org/?s=cholesterol HTTP 200 SHA256=42da98f42af35f72…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Oman: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Oman."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Oman%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0622 (2026-11-18): Actual condition-specific catalogue query returned 1643 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-535-high_chol",
+    "area_m49": "535",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.pccarib.com/zorgaanbod",
+        "observation": "Indexed B-BQ-PCC first-party page retrieved 2026-11-22 HTTP 200 17935B SHA256=9b52a00bea7d2d38…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). "
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Bonaire, Sint Eustatius and Saba. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Bonaire, Sint Eustatius and Saba."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bonaire%22+OR+%22Saba%22+OR+%22Sint+Eustatius%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0656 (2026-11-18): Actual condition-specific catalogue query returned 1263 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-566-high_chol",
+    "area_m49": "566",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Nigeria (B-NG-EMSON) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Nigeria: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Nigeria."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Nigeria%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0679 (2026-11-18): Actual condition-specific catalogue query returned 4982 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-586-high_chol",
+    "area_m49": "586",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.dap.org.pk/Publications/ClinicalGuidelines",
+        "observation": "Indexed B-PK-DAP first-party page retrieved 2026-11-22 HTTP 200 64613B SHA256=f0fab49af551de2b…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://www.dap.org.pk/?s=cholesterol HTTP 200 SHA256=3e1b243a2a94200c…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Pakistan: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Pakistan."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Pakistan%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0726 (2026-11-18): Actual condition-specific catalogue query returned 6854 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-604-high_chol",
+    "area_m49": "604",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://endoperu.com",
+        "observation": "SPE homepage shows only a Lípidos committee tile (image), no lipid education text. HTTP 200 SHA256=41cd64023969e5a1… retrieved 2026-11-22."
+      },
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://endoperu.com",
+        "observation": "Indexed B-PE-SPE first-party page retrieved 2026-11-22 HTTP 200 370295B SHA256=41cd64023969e5a1…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://endoperu.com/?s=dislipidemia HTTP 200 SHA256=12840999448f630c…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Peru. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Peru."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Peru%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0741 (2026-11-18): Actual condition-specific catalogue query returned 2123 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-674-high_chol",
+    "area_m49": "674",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for San Marino (B-SM-VM) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for San Marino. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for San Marino."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22San+Marino%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0835 (2026-11-18): Actual condition-specific catalogue query returned 93 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. M Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-686-high_chol",
+    "area_m49": "686",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://sosecar.sn/",
+        "observation": "Indexed B-SN-SOSECAR first-party page retrieved 2026-11-22 HTTP 200 89145B SHA256=7427a8a547ac45aa…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://sosecar.sn/?s=cholest%C3%A9rol HTTP 200 SHA256=bc7366da0d3e669c…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Senegal. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Senegal."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Senegal%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0849 (2026-11-18): Actual condition-specific catalogue query returned 626 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-688-high_chol",
+    "area_m49": "688",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Serbia (B-RS-DAS) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Serbia: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Serbia."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Serbia%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0854 (2026-11-18): Actual condition-specific catalogue query returned 2998 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-702-high_chol",
+    "area_m49": "702",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.diabetes.org.sg",
+        "observation": "Indexed B-SG-DS first-party page retrieved 2026-11-22 HTTP 200 347170B SHA256=a0433222ae8331e9…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://www.diabetes.org.sg/?s=cholesterol HTTP 200 SHA256=66ea0b517bd887f2…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Singapore: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Singapore."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Singapore%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0868 (2026-11-18): Actual condition-specific catalogue query returned 8195 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-703-high_chol",
+    "area_m49": "703",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://fhef.org/our-network/",
+        "observation": "Indexed B-SK-RODINY first-party page retrieved 2026-11-22 HTTP 200 167454B SHA256=7e78d7476bd06b74…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). "
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Slovakia: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Slovakia."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Slovakia%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B114-AFF-1f93c4d69716ef9e (2026-11-18): Actual Europe PMC AFF/local-author and TITLE_ABS condition query; candidate count=158. Same-index refinement, not an independent D2 avenue. Affiliations, local institution role and substantive original content remain unverified. Zero results is not absence; names, language, indexing and historical a Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-710-high_chol",
+    "area_m49": "710",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.semdsa.org.za",
+        "observation": "Indexed B-ZA-SEMDSA first-party page retrieved 2026-11-22 HTTP 200 356828B SHA256=cad6d4426a2a307d…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://www.semdsa.org.za/?s=lipid HTTP 200 SHA256=52665c2283364857…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for South Africa: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for South Africa."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22South+Africa%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0885 (2026-11-18): Actual condition-specific catalogue query returned 7522 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-729-high_chol",
+    "area_m49": "729",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Sudan (B-SD-SDA) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Sudan: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Sudan."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Sudan%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0898 (2026-11-18): Actual condition-specific catalogue query returned 2554 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-760-high_chol",
+    "area_m49": "760",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://www.damascusuniversity.edu.sy/faculties/med/",
+        "observation": "Indexed B-SY-DAMMED first-party page retrieved 2026-11-22 HTTP 0 0B SHA256=e3b0c44298fc1c14…; connection failed (no response). "
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Syrian Arab Republic: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Syrian Arab Republic."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Syria%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0929 (2026-11-18): Actual condition-specific catalogue query returned 762 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-762-high_chol",
+    "area_m49": "762",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Tajikistan (B-TJ-AVICENNA, B-TJ-IPEH) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Tajikistan. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Tajikistan."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Tajikistan%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0934 (2026-11-18): Actual condition-specific catalogue query returned 164 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-784-high_chol",
+    "area_m49": "784",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for United Arab Emirates (B-AE-EDES) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for United Arab Emirates: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for United Arab Emirates."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22United+Arab+Emirates%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0962 (2026-11-18): Actual condition-specific catalogue query returned 3056 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-804-high_chol",
+    "area_m49": "804",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Ukraine (B-UA-UDA, B-UA-UDF, B-UA-IDA) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Ukraine: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Ukraine."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Ukraine%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0993 (2026-11-18): Actual condition-specific catalogue query returned 1939 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-807-high_chol",
+    "area_m49": "807",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for North Macedonia (B-MK-MDA, B-MK-UNION) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for North Macedonia. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for North Macedonia."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22North+Macedonia%22+OR+%22Macedonia%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-0999 (2026-11-18): Actual condition-specific catalogue query returned 782 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-818-high_chol",
+    "area_m49": "818",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Egypt (B-EG-EDA) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Egypt: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Egypt."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Egypt%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1002 (2026-11-18): Actual condition-specific catalogue query returned 8656 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-854-high_chol",
+    "area_m49": "854",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://socarb.org/",
+        "observation": "Indexed B-BF-SOCARB first-party page retrieved 2026-11-22 HTTP 200 69346B SHA256=120402014a414dd6…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://socarb.org/?s=cholest%C3%A9rol HTTP 200 SHA256=48ec2ffa3be90d95…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Burkina Faso. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Burkina Faso."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Burkina+Faso%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1035 (2026-11-18): Actual condition-specific catalogue query returned 539 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-858-high_chol",
+    "area_m49": "858",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://suc.org.uy/",
+        "observation": "Indexed B-UY-SUC first-party page retrieved 2026-11-22 HTTP 200 45933B SHA256=6c0cc5d3db0f5d69…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://suc.org.uy/?s=colesterol HTTP 200 SHA256=47c0218dec240e3d…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Uruguay: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Uruguay."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Uruguay%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1040 (2026-11-18): Actual condition-specific catalogue query returned 828 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-860-high_chol",
+    "area_m49": "860",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://natendo.uz/",
+        "observation": "Indexed B-UZ-NAEU first-party page retrieved 2026-11-22 HTTP 200 95074B SHA256=3a0c88d810f85027…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://natendo.uz/?s=%D1%85%D0%BE%D0%BB%D0%B5%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%BD HTTP 200 SHA256=7c14bac10ef01ace…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Uzbekistan: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Uzbekistan."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Uzbekistan%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1045 (2026-11-18): Actual condition-specific catalogue query returned 448 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-862-high_chol",
+    "area_m49": "862",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Venezuela (Bolivarian Republic of) (B-VE-FENADIABETES) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Venezuela (Bolivarian Republic of): an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Venezuela (Bolivarian Republic of)."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Venezuela%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1049 (2026-11-18): Actual condition-specific catalogue query returned 1081 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified. Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-882-high_chol",
+    "area_m49": "882",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_first_party_site_check",
+        "url": "https://simr.ws/",
+        "observation": "Indexed B-WS-SIMR first-party page retrieved 2026-11-22 HTTP 200 8619B SHA256=037dd0026992649f…; no cholesterol/lipid/dyslipidaemia link or text found (local-language terms). Native site search https://simr.ws/?s=cholesterol HTTP 200 SHA256=2f58ff574ff0fbaf…: no lipid result."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…): no entry for Samoa. Voluntary network, not a census."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Samoa."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Samoa%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1060 (2026-11-18): Actual condition-specific catalogue query returned 278 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-887-high_chol",
+    "area_m49": "887",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Yemen (B-YE-YDA) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Yemen: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Yemen."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Yemen%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1065 (2026-11-18): Actual condition-specific catalogue query returned 710 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  },
+  {
+    "record_id": "B160-DEP-894-high_chol",
+    "area_m49": "894",
+    "condition_key": "high_chol",
+    "query": "Indexed local cardiology/endocrine/diabetes organization first-party pages and native site search (local-language cholesterol/lipid terms), EAS-FHSC and FHEF directories (retrieved once), preserved Europe PMC route",
+    "language": "Local-language keyword checks; archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "indexed_local_organization_inventory_check",
+        "url": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-team-b-20261104/docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+        "observation": "Indexed cardiometabolic organization(s) for Zambia (B-ZM-DAZ) have only a federation/third-party listing URL (e.g. IDF member page), no first-party website recorded; no lipid content inspectable. Inventory reflects prior discovery, not national absence."
+      },
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "EAS-FHSC directory (retrieved once, SHA256=dee0d9dab380edf1…) lists a national lead investigator for Zambia: an individual research-network contact, not a locally domiciled organization publication; not a Team B source."
+      },
+      {
+        "approach": "independent_patient_network_directory",
+        "url": "https://fhef.org/our-network/",
+        "observation": "FH Europe Foundation network map retrieved once 2026-11-22 (SHA256=7e78d7476bd06b74…): no member entry for Zambia."
+      },
+      {
+        "approach": "preserved_condition_geography_catalogue_route_NOT_repeated",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Zambia%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Preserved B106-CATALOGUE-1071 (2026-11-18): Actual condition-specific catalogue query returned 680 candidate works; first 5 identifiers recorded. D1 discovery only. Search geography can denote authors, participants, diaspora, namesakes or indexed text; local organization domicile, nongovernmental role and publication authorship NOT verified.  Metadata only."
+      }
+    ],
+    "result": "No eligible Team B S1/S2/H lipid/cholesterol/FH source verified after the specified routes; evidence-limited bounded disposition.",
+    "limits": "Not exhaustive or proof of absence; homepage/site-search checks only; lipid measurements would not establish FH; no genotype/ancestry inference.",
+    "next_action": "Reopen only on a genuinely new local lead."
+  }
+]

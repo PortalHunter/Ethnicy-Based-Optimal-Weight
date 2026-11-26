@@ -1,0 +1,83 @@
+[
+  {
+    "record_id": "B126-JP-JSG-gout",
+    "organization": {
+      "org_id": "B-JP-JSG",
+      "area_m49": "392",
+      "name_local": "一般社団法人 日本痛風・尿酸核酸学会",
+      "name_english": "一般社団法人 日本痛風・尿酸核酸学会 (original source name; English translation not assigned)",
+      "organization_type": "professional_society",
+      "clinical_discipline": "gout",
+      "scope": "Japan; third edition 2018-12-28, 2022-02-15 supplement and multiple errata listed. Copyright restricted: bibliography only. Hyperuricaemia is not gout.",
+      "independent_or_government": "independent_governance_not_audited",
+      "official_url": "https://www.tukaku.jp/guideline/",
+      "language": "ja",
+      "verified_on": "2026-11-05",
+      "source_url": "https://www.tukaku.jp/guideline/",
+      "identity_state": "official_site_identity_verified_governance_not_audited"
+    },
+    "condition_key": "gout",
+    "url": "https://www.jstage.jst.go.jp/article/gnamtsunyo/44/Supplement/44_sp-1/_pdf/-char/en",
+    "title": "Japanese Society of Gout and Uric & Nucleic Acids2019 Guidelines for Management of Hyperuricemia and Gout3rd edition",
+    "language": "en",
+    "edition": "2020;44Supplement:sp1-sp40 English digest; later2022supplement/errata distinct",
+    "role": "authored",
+    "tier": "S1",
+    "source_country": "392",
+    "country_basis": "document_issuer",
+    "issuer": "Hisatome, Ichida and named coauthors on behalf of guideline development group; society original journal publisher Tokyo",
+    "population": "professional guidance; not a new national prevalence cohort; clinical gout and asymptomatic hyperuricemia distinguished",
+    "jurisdiction": "society professional context; no statutory or clinical release approval",
+    "identity_evidence": "Existing local society retained; original explicit group authorship/publisher and local address inspected.",
+    "evidence_summary": "Original40-page English digest authorship and actual substantive background/methods/recommendation text inspected. Own society catalogue dates English digest2020-03-30; J-STAGE publication information explicitly identifies society publisher and Tokyo address. Digest is not whole Japanese book or later supplement. Asymptomatic hyperuricemia, gout and referenced renal/cardiovascular outcomes remain distinct; no genetic, drug or clinical recommendations adopted.",
+    "query": "Society-specific original guideline retrieval; actual original authorship, methods and condition text inspected",
+    "next_action": "Independent clinical/currency/funding-bias and rights appraisal; preserve historical index-only record.",
+    "additional_provenance": [
+      {
+        "record_id": "B126-JP-JSG-gout-IMPRINT",
+        "record_class": "original_society_journal_publisher_identity",
+        "area_m49": "392",
+        "source_issuer": "J-STAGE first-party journal publication information",
+        "source_url": "https://www.jstage.jst.go.jp/browse/gnamtsunyo/_pubinfo/-char/en",
+        "source_language": "en",
+        "checked_on": "2026-11-18",
+        "verification_state": "publisher_name_and_Tokyo_address_inspected",
+        "notes": "Society named as edited/published-by organization, Tokyo address explicit; J-STAGE platform and printing services distinct from original issuer."
+      }
+    ]
+  },
+  {
+    "record_id": "B126-IT-SIR-gout",
+    "organization": {
+      "org_id": "B-IT-SIR",
+      "area_m49": "380",
+      "name_local": "Società Italiana di Reumatologia",
+      "name_english": "Italian Society of Rheumatology",
+      "organization_type": "national_professional_medical_society",
+      "clinical_discipline": "rheumatology_gout",
+      "scope": "Italian scientific rheumatology society with Milan contact office; own guideline index gives 2019 gout edition and separate 2013 recommendations",
+      "independent_or_government": "non_governmental_scientific_professional_society",
+      "official_url": "https://www.reumatologia.it/",
+      "language": "it;en",
+      "verified_on": "2026-11-05",
+      "source_url": "https://www.reumatologia.it/contatti.asp",
+      "identity_state": "first_party_identity_verified_scope_and_publication_caveats"
+    },
+    "condition_key": "gout",
+    "url": "https://www.reumatologia.it/obj/files/lineeguida/gotta-2019.pdf",
+    "title": "The Italian Society of Rheumatology clinical practice guidelines for the diagnosis and management of gout",
+    "language": "en",
+    "edition": "Reumatismo2019;71(S1):50-79;30PDFpages",
+    "role": "authored",
+    "tier": "S1",
+    "source_country": "380",
+    "country_basis": "document_issuer",
+    "issuer": "Nicola Ughi and named SIR Epidemiology Unit/Milan task force coauthors; society professional guideline",
+    "population": "professional guidance; not a new national prevalence cohort; clinical gout and asymptomatic hyperuricemia distinguished",
+    "jurisdiction": "society professional context; no statutory or clinical release approval",
+    "identity_evidence": "Existing local society retained; original explicit group authorship/publisher and local address inspected.",
+    "evidence_summary": "Original30-page article authorship, adaptation methods, diagnostic/management body, funding/COI and author contributions inspected. Working group expressly acts on behalf of SIR; original Italian adaptation, not sole authorship of underlying foreign guidelines. Adult suspected/diagnosed gout scope excludes asymptomatic hyperuricemia and secondary gene disorders without gout. No dedicated funding declared; SIR nonfinancial support and author COI retained.2019 currency and reuse/clinical appraisal remain pending.",
+    "query": "Society-specific original guideline retrieval; actual original authorship, methods and condition text inspected",
+    "next_action": "Independent clinical/currency/funding-bias and rights appraisal; preserve historical index-only record."
+  }
+]

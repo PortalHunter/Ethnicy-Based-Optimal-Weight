@@ -1,0 +1,126 @@
+{
+  "batch": "B156",
+  "date": "2026-11-22",
+  "receipts": {
+    "https://celiac.org/associations-around-the-world/": {
+      "http_status": 200,
+      "bytes": 153067,
+      "sha256": "5f5c4f279d86e44d0a9cf3d8eafcc3e412416ce7ed21da49e95d74fc9b3aa208",
+      "retrieved_utc": "2026-11-22T14:08:09.188467+00:00"
+    },
+    "https://www.aoecs.org/about-us/members/": {
+      "http_status": 200,
+      "bytes": 358351,
+      "sha256": "be2333233f8abc6e23a020a8d3ef07886ae9c4ab5bd0a9e7a0e039f4818913b1",
+      "retrieved_utc": "2026-11-22T14:08:09.645996+00:00"
+    },
+    "https://celiacosvenezuela.org.ve/sobre-nosotros/": {
+      "http_status": 200,
+      "bytes": 150742,
+      "sha256": "e31f5282958790711fc2147fab40eae065e7b0af90fce2869caed0f8f603a650",
+      "retrieved_utc": "2026-11-22T14:08:54.919859+00:00"
+    },
+    "https://celiacrights.org.il/about-us": {
+      "http_status": 200,
+      "bytes": 94605,
+      "sha256": "ab0a436351006b3bee44aa64555d07ca7801a9e9fd6e6f8cf4448630bc2e577d",
+      "retrieved_utc": "2026-11-22T14:09:56.999195+00:00"
+    },
+    "https://celijakija.rs/o-nama/": {
+      "http_status": 200,
+      "bytes": 35762,
+      "sha256": "76d391833b005fddc0f8797669ea86d0f98098b55430ceebeb297127aef43c5f",
+      "retrieved_utc": "2026-11-22T14:10:06.309944+00:00"
+    },
+    "https://celiacosvenezuela.org.ve/enfermedado-condicion/": {
+      "http_status": 200,
+      "bytes": 162598,
+      "sha256": "822d744528acf1361f177e917dc1458fc12b9172fca38876b74a038fd59b26ee",
+      "retrieved_utc": "2026-11-22T14:08:54.910992+00:00"
+    },
+    "https://celiacrights.org.il/wp-content/uploads/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9A-%D7%94%D7%9E%D7%9C%D7%90-%D7%9C%D7%94%D7%95%D7%A8%D7%99%D7%9D-%D7%94%D7%9E%D7%AA%D7%97%D7%99%D7%9C%D7%99%D7%9D-%D7%A6%D7%9C%D7%99%D7%90%D7%A7.pdf": {
+      "http_status": 200,
+      "bytes": 1551316,
+      "sha256": "34df5468ad3aa6b0c8d5f597db20b1e32e25b406050560ec2b0188de819f5b8e",
+      "retrieved_utc": "2026-11-22T14:09:56.324824+00:00"
+    },
+    "https://celijakija.rs/celijakija/": {
+      "http_status": 200,
+      "bytes": 37091,
+      "sha256": "23abb7bb3e378fe5fc3da841688a886fb669a03cbd2a876ff159d535e402d016",
+      "retrieved_utc": "2026-11-22T14:09:55.731662+00:00"
+    },
+    "https://slsg.lk/": {
+      "http_status": 200,
+      "bytes": 309759,
+      "sha256": "143206edbf5bf7d35b22bb49b6f2b50aba844d2750416a53109561200ac614a9",
+      "retrieved_utc": "2026-11-22T14:09:08.709908+00:00"
+    },
+    "https://celiacos-el-salvador.blogspot.com/": {
+      "http_status": 200,
+      "bytes": 223187,
+      "sha256": "1b345a2f368b5fe300e0885b7b53b7d41ca663b9b6df6e0e1e1b9711a632430f",
+      "retrieved_utc": "2026-11-22T14:09:22.772188+00:00"
+    },
+    "https://www.hksge.org/": {
+      "http_status": 200,
+      "bytes": 186710,
+      "sha256": "5c6e700b20b80665034674c63d145c7957ee234fdea3a9372f41dcddec65e5d9",
+      "retrieved_utc": "2026-11-22T14:09:08.542480+00:00"
+    },
+    "https://www.jspghan.org/": {
+      "http_status": 200,
+      "bytes": 70503,
+      "sha256": "363ea36be997e8bf2a6ec170e3c63aa9c098ea71f91ffc290b6d1724aa6b56e9",
+      "retrieved_utc": "2026-11-22T14:09:09.781204+00:00"
+    },
+    "https://hospitals.aku.edu/kenya/home": {
+      "http_status": 200,
+      "bytes": 131696,
+      "sha256": "36a517db5ef87acac26005b8463710b655993275cd136ad9ae7e14074563dbf7",
+      "retrieved_utc": "2026-11-22T14:09:08.917712+00:00"
+    },
+    "https://nsg.org.np/": {
+      "http_status": 403,
+      "bytes": 5432,
+      "sha256": "9c3e48def85caf48d2e7c0fd748faab38da8e105063e148c1d53f5566b932c5a",
+      "retrieved_utc": "2026-11-22T14:09:08.386275+00:00"
+    },
+    "https://soghin.org.ng/guidelines/": {
+      "http_status": 200,
+      "bytes": 128389,
+      "sha256": "79be1899854bca448210fd65cb614e73bd6c17a374023d43b0f58a9a69fe2322",
+      "retrieved_utc": "2026-11-22T14:09:10.007905+00:00"
+    },
+    "https://psgastro.org/": {
+      "http_status": 200,
+      "bytes": 459855,
+      "sha256": "b187c0f9beb1d454ffc90331f0e1cfa8311a3c17b7bb44855b9ea38cf143b710",
+      "retrieved_utc": "2026-11-22T14:09:10.017317+00:00"
+    },
+    "https://nfdd.sg/": {
+      "http_status": 200,
+      "bytes": 110576,
+      "sha256": "d5e9c3530086c19d538c21a33f6e77066b7252b3b465a15b75c6e4cec216e4e5",
+      "retrieved_utc": "2026-11-22T14:09:10.335422+00:00"
+    },
+    "https://www.atmc.tn/fr/home/": {
+      "http_status": 500,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:09:23.509737+00:00"
+    },
+    "https://tages.or.tz/": {
+      "http_status": 200,
+      "bytes": 23953,
+      "sha256": "c10b2543d48bfeb9ed186d3f76007c41ec3271a3469743fb4a17bbfc9720df46",
+      "retrieved_utc": "2026-11-22T14:09:08.921950+00:00"
+    },
+    "https://celiac.spb.ru/": {
+      "http_status": 200,
+      "bytes": 113260,
+      "sha256": "5b90d47c1432d17698bbaf1241a72daeadd313110155b179ed6571b879b458b5",
+      "retrieved_utc": "2026-11-22T14:09:24.389944+00:00"
+    }
+  }
+}

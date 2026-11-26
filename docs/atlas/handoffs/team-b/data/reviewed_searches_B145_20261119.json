@@ -1,0 +1,954 @@
+[
+  {
+    "record_id": "B145-LIP-060",
+    "area_m49": "060",
+    "condition_key": "high_chol",
+    "query": "(\"Bermuda\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Bermuda%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:27:17.183909+00:00; SHA256=0da8fc217f5c27e9e73a2e90e250bf98e516153cbeab4970f1af1cbc466cbed8; total hits=115; manually inspected first-returned titles=[\"Cardiac rehabilitation coverage and program characteristics in Latin America and the Caribbean: Comparisons from the ICCPR's 2025 Global Audit Update.\", \"Readiness to deliver integrated cardiovascular, kidney and metabolic care in primary healthcare: phase II of HEARTS 2.0 in 26 countries in the Americas.\", \"Association of Adverse Childhood Experiences and Metabolic Syndrome: A Systematic Review and Meta-Analysis.\", \"Candidate Interventions for Integrating Hypertension and Cardiovascular-Kidney-Metabolic Care in Primary Health Settings: HEARTS 2.0 Phase 1.\", \"Global, regional and national burden of intracerebral hemorrhage attributable to dietary and metabolic risks from 1990 to 2021 and projections to 2050: a systematic analysis based on the Global Burden of Disease 2021 comparative risk assessment framework.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Bermuda%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Bermuda\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:06:20.455118+00:00; SHA256=ef7b4eed57d2ecea08022e916cbfa195400778dac646aeba911d5b83c7bdab05; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-086",
+    "area_m49": "086",
+    "condition_key": "high_chol",
+    "query": "(\"British Indian Ocean Territory\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22British+Indian+Ocean+Territory%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:29:00.963820+00:00; SHA256=e99e5d73df9a487f3c4036cb8d96de379f050456991342961f87cf21e42e4987; total hits=7; manually inspected first-returned titles=[\"Heterogeneity of Cardiovascular Disease Risk Factors Among Asian Immigrants: Insights From the 2010 to 2018 National Health Interview Survey.\", \"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Hypertension, C Reactive Protein and Metabolic Profile: What is the Scenario in Patients Undergoing Arteriography?\", \"Atrial fibrillation among adults with heart failure in sub-Saharan Africa - prevalence, incidence and all-cause mortality: a systematic review and meta-analysis protocol.\", \"Ethnic inequalities in acute myocardial infarction and stroke rates in Norway 1994-2009: a nationwide cohort study (CVDNOR).\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22British+Indian+Ocean+Territory%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"British Indian Ocean Territory\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:14:36.128514+00:00; SHA256=36c77e6b0561719eb59acef98b448baa3b85dc1b8b136e6b93be9b8a27023dab; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-090",
+    "area_m49": "090",
+    "condition_key": "high_chol",
+    "query": "(\"Solomon Islands\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Solomon+Islands%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:29:07.164204+00:00; SHA256=8a690a765fb16906016a27a474b0f14763e9e48880bb8bccb820367af9346890; total hits=137; manually inspected first-returned titles=[\"The Development of a Framework to Support Ageing Well in the Torres Strait and Northern Peninsula Area of Australia.\", \"Stroke Burden, Trends, and Inequalities in the Western Pacific Region, 1990-2021: A Population-Based Study.\", \"Use of traditional medicine for hypertension, diabetes and hypercholesterolaemia measured in 71 surveys.\", \"The tide of dietary risks for noncommunicable diseases in Pacific Islands: an analysis of population NCD surveys.\", \"Nutrient Intake Evidence in the Pacific: A Scoping Review of Research Coverage, Challenges, and Opportunities.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Solomon+Islands%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Solomon Islands\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:14:41.150206+00:00; SHA256=48216ecbf6f0721a2ad557ad6ba5c0db211c0cf462f4af9d49149105b6cc7e27; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Retained original STEPS intake candidates require original issuer/academic contribution assessment; government/network host does not resolve local independent authorship.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Inspect retained named primary/local sources before any upgrade."
+  },
+  {
+    "record_id": "B145-LIP-092",
+    "area_m49": "092",
+    "condition_key": "high_chol",
+    "query": "(\"British Virgin Islands\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22British+Virgin+Islands%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:29:15.660359+00:00; SHA256=ede89147b39ad8d3d828dcb5b82170b91733463e09f72f9e77865e5b99c53bbc; total hits=17; manually inspected first-returned titles=[\"Readiness to deliver integrated cardiovascular, kidney and metabolic care in primary healthcare: phase II of HEARTS 2.0 in 26 countries in the Americas.\", \"Cardiovascular Disease in the Caribbean: Risk Factor Trends, Care and Outcomes Still Far From Expectations.\", \"The global burden of overweight-obesity and its association with economic status, benefiting from STEPs survey of WHO member states: A meta-analysis.\", \"Is Follicle-Stimulating Hormone (FSH) Misnamed? Rethinking Its Role in Menopause as a Systemic Regulator of Bone, Brain, Metabolism, and Aging.\", \"Clusters of people with type 2 diabetes in the general population: unsupervised machine learning approach using national surveys in Latin America and the Caribbean.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22British+Virgin+Islands%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"British Virgin Islands\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:14:50.880330+00:00; SHA256=4add66e3bd21c1f5991bf645a5968f1e5025123e5210ce84ffacb3e06dbdfd6d; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-136",
+    "area_m49": "136",
+    "condition_key": "high_chol",
+    "query": "(\"Cayman Islands\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Cayman+Islands%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:30:46.378431+00:00; SHA256=0c11f4e97d134e92d655faaa27b9cf65196f7d9f3b9f1d6a7067dc9b4409b40a; total hits=23; manually inspected first-returned titles=[\"Efficacy of Lanthanum Carbonate and Sevelamer Carbonate as Phosphate Binders in Chronic Kidney Disease-A Comparative Clinical Study.\", \"Oropouche fever in Minas Gerais, Brazil, 2024: Epidemiological characterization, spatial distribution, and clinical implications.\", \"Cardiac rehabilitation coverage and program characteristics in Latin America and the Caribbean: Comparisons from the ICCPR's 2025 Global Audit Update.\", \"Plant-Based and Plant-Predominant Diets Among Healthcare Students: A Systematic Review.\", \"Case report: \\\"Fur stole and turtleneck\\\" and \\\"halter-back\\\" signs: an expanded wardrobe for dermatomyositis.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Cayman+Islands%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Cayman Islands\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:16:10.801898+00:00; SHA256=c9cd921f69384734305cc5ca4aa3a56dbc7e0cf0b0197de5c810e94a686af9c8; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-162",
+    "area_m49": "162",
+    "condition_key": "high_chol",
+    "query": "(\"Christmas Island\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Christmas+Island%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:31:26.049290+00:00; SHA256=85a8c08129b22c48bc57bc0b596365b9ad6db7913cb60963e2e6966b182323b2; total hits=9; manually inspected first-returned titles=[\"Heterogeneity of Cardiovascular Disease Risk Factors Among Asian Immigrants: Insights From the 2010 to 2018 National Health Interview Survey.\", \"Prevalence of dyslipidaemia and micronutrient deficiencies among newly arrived Afghan refugees in rural Australia: a cross-sectional study.\", \"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Unveiling the anti-obesity potential of Kemuning (Murraya paniculata): A network pharmacology approach.\", \"An Update on the Therapeutic Anticancer Potential of <i>Ocimum sanctum</i> L.: \\\"Elixir of Life\\\".\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Christmas+Island%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Christmas Island\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:16:43.832613+00:00; SHA256=1a6a1a880fc63ed1f12d0efa327f65862ef55c666f9e681601b5320359f6d643; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-166",
+    "area_m49": "166",
+    "condition_key": "high_chol",
+    "query": "(\"Cocos (Keeling) Islands\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Cocos+%28Keeling%29+Islands%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:31:34.063576+00:00; SHA256=5304b30c4471b593876db5b768bfbb66ee06e214406d382a508b06d704c897ab; total hits=2; manually inspected first-returned titles=[\"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"19th Congress of the European Hematology Association, Milan, Italy, June 12\u201315, 2014\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Cocos+%28Keeling%29+Islands%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Cocos (Keeling) Islands\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:16:51.472958+00:00; SHA256=2d8168e8b42615a870b9d328e10081d33f51ef8be68e54110de6012f423a1ef0; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-174",
+    "area_m49": "174",
+    "condition_key": "high_chol",
+    "query": "(\"Comoros\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Comoros%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:31:41.898221+00:00; SHA256=cc98258b9aa5d926ac98dbe91129260dc8e5b59f94c8226740899af4426e1e3a; total hits=116; manually inspected first-returned titles=[\"Use of traditional medicine for hypertension, diabetes and hypercholesterolaemia measured in 71 surveys.\", \"Chronic kidney disease in hypertensive patients: the urgent need for targeted interventions in Arab countries: a systematic review.\", \"The burden of metabolic diseases in the Arab region, 1990-2021.\", \"Use of mathematical modelling to estimate the impact of interventions and risk factors on cardiovascular diseases in Africa: A scoping review.\", \"Feasibility and accuracy of mobile QT interval monitoring strategies in bedaquiline-enhanced prophylactic leprosy treatment.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Comoros%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Comoros\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:17:10.774948+00:00; SHA256=9fd3412a55b0e8cb1277ceba44b2a6ac3d938b4c44aa537dbcea46ab7e11cdac; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-175",
+    "area_m49": "175",
+    "condition_key": "high_chol",
+    "query": "(\"Mayotte\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Mayotte%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:31:49.415537+00:00; SHA256=c2bb1da753a218a44a34a23cd13508e37fb3074a76fbd091df21bd5267951f87; total hits=44; manually inspected first-returned titles=[\"Early initiation of sodium-glucose co-transporter-2 inhibitors in heart failure patients: a nationwide study.\", \"Prevalence, awareness, treatment and control of hypertension among ethnoracial minorities in France: results from the CONSTANCES cohort.\", \"Awareness of having hypertension, diabetes and dyslipidaemia among US adults: The 2011-2018 NHANES data.\", \"Circulating extracellular vesicle-carried PTP1B and PP2A phosphatases as regulators of insulin resistance.\", \"Association between highly active antiretroviral therapy and selected cardiovascular disease risk factors in sub-Saharan Africa: a systematic review and meta-analysis protocol.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Mayotte%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Mayotte\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:18:13.151642+00:00; SHA256=9384d08a159f7119807abb1b0256fd3682ab526b9ce8eb186b4eea532bdd6bd1; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-184",
+    "area_m49": "184",
+    "condition_key": "high_chol",
+    "query": "(\"Cook Islands\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Cook+Islands%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:32:06.299895+00:00; SHA256=239e95be5e47880575a077ba738e058377979ff88c05201847b93c9e86a51718; total hits=84; manually inspected first-returned titles=[\"Monitoring metabolic health in the adolescent population of Rarotonga: a multi-year cross-sectional study from 2016 to 2023.\", \"Mediterranean diet, eating behaviours, and nutritional intervention in childhood obesity: what works, where, and for whom\u2013a narrative review\", \"Worldwide trends in hyperuricaemia from 2000 to 2023: a systematic review and modelling analysis.\", \"The tide of dietary risks for noncommunicable diseases in Pacific Islands: an analysis of population NCD surveys.\", \"Punding Behaviour Observed in a Person with Cerebellar Ataxia with Neuropathy and Vestibular Areflexia Syndrome: A Case Report.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Cook+Islands%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Cook Islands\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:18:41.815527+00:00; SHA256=69a0773fd05c77b7fc00644c6466d61424d1d6d801446d709df133e41da79c4c; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Rarotonga adolescent metabolic-health study is a retained topical primary lead; inspect local authors and actual lipid measures.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Inspect retained named primary/local sources before any upgrade."
+  },
+  {
+    "record_id": "B145-LIP-248",
+    "area_m49": "248",
+    "condition_key": "high_chol",
+    "query": "(\"Aland\" OR \"\u00c5land\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Aland%22+OR+%22%C3%85land%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:33:45.744656+00:00; SHA256=0ef49f1435568c09505fca5e6bfc2394552dce27c506c674857f3c6c01040526; total hits=58; manually inspected first-returned titles=[\"Rural-urban and geographical differences in prognosis of atrial fibrillation in Finland: a nationwide cohort study.\", \"Effective cholesterol lowering after myocardial infarction in patients with nephrotic syndrome may require a multi-pharmacological approach: a case report.\", \"Microbiota-Accessible Borates as Novel and Emerging Prebiotics for Healthy Longevity: Current Research Trends and Perspectives.\", \"Dog ownership and cardiovascular risk factors: a nationwide prospective register-based cohort study.\", \"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Aland%22+OR+AFF%3A%22%C3%85land%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Aland\" OR AFF:\"\u00c5land\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:21:26.076090+00:00; SHA256=a753d06e01680600e539470c7f90c1f09d796c0bd7bb4ff532c248be605a85ff; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-258",
+    "area_m49": "258",
+    "condition_key": "high_chol",
+    "query": "(\"French Polynesia\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22French+Polynesia%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:34:02.020417+00:00; SHA256=cbc3523b7565bb18686d468f5b0ebabe4d9b12fd51d96970c0e389e18d9aece0; total hits=77; manually inspected first-returned titles=[\"Environmental tuning of thyroid hormone signaling drives developmental plasticity.\", \"Prevalence and spatio-demographic variability of nutrition-related health issues in Kiribati.\", \"Prevalence, awareness, treatment and control of hypertension among ethnoracial minorities in France: results from the CONSTANCES cohort.\", \"Botany, Ethnomedicinal Uses, Biological Activities, Phytochemistry, and Technological Applications of &lt;i&gt;Morinda citrifolia&lt;/i&gt; Plants.\", \"Association of the TCF7L2 rs7903146 variant with type 2 diabetes mellitus and related biomarkers: a systematic review.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22French+Polynesia%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"French Polynesia\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:21:39.060132+00:00; SHA256=7b7f17db8bf3522884f83106acdb4e6b64b47dcebd68a577cb6774d325439f2d; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "French Polynesia biomarker/genetic review lead requires original affiliation/subtype appraisal; not inferred clinical FH.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Inspect retained named primary/local sources before any upgrade."
+  },
+  {
+    "record_id": "B145-LIP-336",
+    "area_m49": "336",
+    "condition_key": "high_chol",
+    "query": "(\"Holy See\" OR \"Vatican\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Holy+See%22+OR+%22Vatican%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:35:24.883475+00:00; SHA256=d6012ee0c61c9870ec50a506dda4510078cdb921508065162016a70dfb02330f; total hits=23; manually inspected first-returned titles=[\"Cohort profile: The BiCoVac cohort - a nationwide Danish cohort to assess short and long-term symptoms following COVID-19 vaccination.\", \"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Religious fasting and the vascular health.\", \"Socioeconomic and ethnical disparity in coronary heart disease outcomes in Denmark and the effect of cardiac rehabilitation-A nationwide registry study.\", \"Seroprevalence of SARS-CoV-2 Antibodies in HIV-Infected Patients in Rome, Italy during the COVID-19 Outbreak.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Holy+See%22+OR+AFF%3A%22Vatican%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Holy See\" OR AFF:\"Vatican\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:23:34.590730+00:00; SHA256=76be843eef8a2f35e1278a8f468260502eb8a0eb569edbbd48c7324589f13441; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-408",
+    "area_m49": "408",
+    "condition_key": "high_chol",
+    "query": "(\"North Korea\" OR \"DPRK\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22North+Korea%22+OR+%22DPRK%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:36:23.550255+00:00; SHA256=bba2b41721a5d3764de63177dc796d7946eef4819465c475f6712ab10e8dfe25; total hits=119; manually inspected first-returned titles=[\"Burden and trends of alcohol- and NAFLD/NASH-related liver disease in 5 East Asian countries: A GBD 2021 analysis.\", \"Atherosclerotic Cardiovascular Disease Risk Prediction Models in China, Japan, and Korea: Implications for East Asians?\", \"The changes in cardiovascular disease risk factors after the implementation of the package of essential non-communicable disease control.\", \"Stroke Epidemiology in Asia.\", \"Tracking three decades of type 1 diabetes-related chronic kidney disease in East Asia: Burden, age-sex patterns, and quality of care index.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22North+Korea%22+OR+AFF%3A%22DPRK%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"North Korea\" OR AFF:\"DPRK\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:27:45.091067+00:00; SHA256=c7d1b5ead631978255f4af2e653e9e04fb79e6327d2cefdd9532e1b6ba60784a; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Retained essential-NCD-package risk-factor primary study requires local authorship and actual lipid-content review.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Inspect retained named primary/local sources before any upgrade."
+  },
+  {
+    "record_id": "B145-LIP-478",
+    "area_m49": "478",
+    "condition_key": "high_chol",
+    "query": "(\"Mauritania\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Mauritania%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:38:01.638732+00:00; SHA256=109af3873b88141fae351bc9610b44ba649528876a2ff57134bb5ba93b640635; total hits=186; manually inspected first-returned titles=[\"Vitamin D deficiency and associated factors among cardiology patients in Nouakchott, Mauritania: A cross-sectional study using modified Poisson regression.\", \"Ischemic heart disease burden and healthcare system readiness across sub-Saharan Africa.\", \"Unmet needs for non-communicable diseases and sexual and reproductive health services among women of reproductive age in low-and-middle-income countries: evidence from the Demographic and Health Surveys.\", \"Dementia in the Middle East and North Africa: an integrative narrative review of epidemiology, risk structure, and health system implications.\", \"The burden of metabolic diseases in the Arab region, 1990-2021.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Mauritania%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Mauritania\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:30:01.536161+00:00; SHA256=8b525a179367e948260b7e0a2f84c065a03e5a384e1248ed0205770eebd7936a; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-548",
+    "area_m49": "548",
+    "condition_key": "high_chol",
+    "query": "(\"Vanuatu\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Vanuatu%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:39:38.237038+00:00; SHA256=52495d0b403b781de6464fcee540ccbad14d071c30d0a9d8d70558fc057ba52c; total hits=107; manually inspected first-returned titles=[\"A scoping review on cardiometabolic risk factors among Pacific Island populations and implications on future research in the region.\", \"Use of traditional medicine for hypertension, diabetes and hypercholesterolaemia measured in 71 surveys.\", \"Nutrient Intake Evidence in the Pacific: A Scoping Review of Research Coverage, Challenges, and Opportunities.\", \"Stroke Burden, Trends, and Inequalities in the Western Pacific Region, 1990-2021: A Population-Based Study.\", \"Global Perspectives on Kava: A Narrative Systematic Review of the Health Effects, Economic and Social Impacts and Policy Considerations.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Vanuatu%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Vanuatu\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:31:49.630323+00:00; SHA256=94c32d87143ecaf1867b75980cfdc7ff934f2c5c1efa9707d8451e1d86a17efb; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Intake PMID1857313 explicitly includes lipid population-health lead; original and local author role must be checked.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Inspect retained named primary/local sources before any upgrade."
+  },
+  {
+    "record_id": "B145-LIP-570",
+    "area_m49": "570",
+    "condition_key": "high_chol",
+    "query": "(\"Niue\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Niue%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:40:05.320129+00:00; SHA256=fca3736069c0eb6362bfd77fd9eedb8ee86535e1ec22b44068141d1c228f16f2; total hits=55; manually inspected first-returned titles=[\"Global Burden and Trends of Ischemic Heart Disease in Women Aged 55 years and Older, 1990-2021: A Systematic Analysis of the Global Burden of Disease Study 2021.\", \"Mediterranean diet, eating behaviours, and nutritional intervention in childhood obesity: what works, where, and for whom\u2013a narrative review\", \"Scoping review protocol of multicomponent interventions to address cardiometabolic disease risk among Pacific Islander children.\", \"Stroke Burden, Trends, and Inequalities in the Western Pacific Region, 1990-2021: A Population-Based Study.\", \"Assessing the gaps in cardiovascular disease risk assessment and management in primary care for M\u0101ori and Pacific peoples in Aotearoa New Zealand- a systematic review.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Niue%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Niue\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:34:07.519735+00:00; SHA256=cdd2e0f27ca4877d91721e200e4c515b4e2283b4ce182625b5dde9c324065180; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-574",
+    "area_m49": "574",
+    "condition_key": "high_chol",
+    "query": "(\"Norfolk Island\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Norfolk+Island%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:40:13.735707+00:00; SHA256=cfd246516b6e750c0cd911cca6848c5fff0104380ba3ff1f8701c6ffd3fd7edd; total hits=14; manually inspected first-returned titles=[\"An &lt;i&gt;ACOT4&lt;/i&gt; Multi-Nucleotide Variant Is Associated with Cardiovascular Risk in Norfolk Island and UK Biobank Cohorts.\", \"The Use of Population Isolates to Identify Metabolic Syndrome's Genetic Aetiology.\", \"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Association of LTA and SOD Gene Polymorphisms with Cerebral White Matter Hyperintensities in Migraine Patients.\", \"Serum bilirubin concentration is modified by UGT1A1 haplotypes and influences risk of type-2 diabetes in the Norfolk Island genetic isolate.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Norfolk+Island%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Norfolk Island\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:34:15.112462+00:00; SHA256=e838ef118d087b3ecd4b537112afaaba5c592c8979a0de6d5a0e8b5ffddda1c0; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "ACOT4 and Norfolk Island primary genetic-lipid work retained; zero AFF query is not dispositive.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Inspect retained named primary/local sources before any upgrade."
+  },
+  {
+    "record_id": "B145-LIP-580",
+    "area_m49": "580",
+    "condition_key": "high_chol",
+    "query": "(\"Northern Mariana Islands\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Northern+Mariana+Islands%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:40:27.301457+00:00; SHA256=701dc5af4c024618fcbd6d8797cd3e32ae0f7040e0cbc2382dd07cc7297132e6; total hits=53; manually inspected first-returned titles=[\"Kidney Disease among the Compacts of Free Association Pacific Islander Community: A Hidden Crisis.\", \"Trends and burden of gout among adolescents aged 10-24\u202fyears: insights from the global burden of disease study 2021.\", \"Global Burden and Trends of Ischemic Heart Disease in Women Aged 55 years and Older, 1990-2021: A Systematic Analysis of the Global Burden of Disease Study 2021.\", \"Stroke Burden, Trends, and Inequalities in the Western Pacific Region, 1990-2021: A Population-Based Study.\", \"Noncommunicable disease communication campaigns in the Pacific Region: strengths, challenges and lessons learned from an online survey and poster analysis.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Northern+Mariana+Islands%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Northern Mariana Islands\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:34:20.918149+00:00; SHA256=7de85294d644e24701d7f4a661ec2505b8efc76cd7e3e684532a1f0c25e1b2b1; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Unreviewed CNMI hybrid surveillance original in intake must be inspected for issuer/independent local role.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Inspect retained named primary/local sources before any upgrade."
+  },
+  {
+    "record_id": "B145-LIP-581",
+    "area_m49": "581",
+    "condition_key": "high_chol",
+    "query": "(\"United States Minor Outlying Islands\" OR \"Midway Atoll\" OR \"Wake Island\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22United+States+Minor+Outlying+Islands%22+OR+%22Midway+Atoll%22+OR+%22Wake+Island%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:40:36.328134+00:00; SHA256=c876b2a9608b50cae09a2b79aff61c3ea0009efc7e08793a316017c4656cc9da; total hits=19; manually inspected first-returned titles=[\"Stroke knowledge and intended care-seeking behavior among adults with hypertension and type 2 diabetes: A cross-sectional study.\", \"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Relationship between dietary thiamine, riboflavin, and niacin intake and hypertension subtypes: A cross-sectional study from the 1999-2023.\", \"Special Collection: Abstracts from IUNS-ICN Paris 2025\", \"ESPGHAN 57th Annual Meeting Abstracts\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22United+States+Minor+Outlying+Islands%22+OR+AFF%3A%22Midway+Atoll%22+OR+AFF%3A%22Wake+Island%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"United States Minor Outlying Islands\" OR AFF:\"Midway Atoll\" OR AFF:\"Wake Island\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:34:30.930853+00:00; SHA256=fd5b152e0f95b29109230bc6eadc53b8f502fc095ff24053d3107ea703339aac; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Broad conference abstract books and outlying-island geographic scope require original-specific interpretation; no empty-result inference.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Inspect retained named primary/local sources before any upgrade."
+  },
+  {
+    "record_id": "B145-LIP-583",
+    "area_m49": "583",
+    "condition_key": "high_chol",
+    "query": "(\"Federated States of Micronesia\" OR \"Micronesia\" OR \"FSM\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Federated+States+of+Micronesia%22+OR+%22Micronesia%22+OR+%22FSM%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:45:01.851120+00:00; SHA256=3f5fcd978923abbc71e8975b3b35c98abf9f9a12bd32c5e2555616bccd0ad948; total hits=321; manually inspected first-returned titles=[\"Kidney Disease among the Compacts of Free Association Pacific Islander Community: A Hidden Crisis.\", \"Is Traditional Agriculture a Viable Solution for Controlling Obesity and Food Insecurity in the Context of Climate Change? A Case Study from the Federated States of Micronesia.\", \"Nutrient Intake Evidence in the Pacific: A Scoping Review of Research Coverage, Challenges, and Opportunities.\", \"Functional Stroke Mimics: Patient Characteristics, CT-Based Multimodal Imaging and Long-Term Outcome in a Comparative Cohort Study.\", \"Interventions and Programs Using Native Foods to Promote Health: A Scoping Review.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Federated+States+of+Micronesia%22+OR+AFF%3A%22Micronesia%22+OR+AFF%3A%22FSM%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Federated States of Micronesia\" OR AFF:\"Micronesia\" OR AFF:\"FSM\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:34:40.716199+00:00; SHA256=b07e42a13594c530eeab62d2200b115ec481b99570f8d952b3a7fce0e4d3e155; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Kosrae PMID11096265 and hybrid surveillance PDFs retained as substantive primary candidates; local author/issuer scope not yet inspected.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Inspect retained named primary/local sources before any upgrade."
+  },
+  {
+    "record_id": "B145-LIP-612",
+    "area_m49": "612",
+    "condition_key": "high_chol",
+    "query": "(\"Pitcairn\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Pitcairn%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:41:32.953943+00:00; SHA256=c661692f7760335a33a12c9e74bec632019cf18cfd79e85f023fe8d807c2c7b8; total hits=14; manually inspected first-returned titles=[\"Scoping review protocol of multicomponent interventions to address cardiometabolic disease risk among Pacific Islander children.\", \"Inequalities in the prevalence of cardiovascular disease risk factors in Brazilian slum populations: A cross-sectional study.\", \"Assessing the gaps in cardiovascular disease risk assessment and management in primary care for M\u0101ori and Pacific peoples in Aotearoa New Zealand- a systematic review.\", \"Trends and disparities in non-communicable diseases in the Western Pacific region.\", \"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Pitcairn%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Pitcairn\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:35:38.530533+00:00; SHA256=867a459acb15dee6a27de331d94d455847a8a710bf8b7c115cabf89494225dac; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-624",
+    "area_m49": "624",
+    "condition_key": "high_chol",
+    "query": "(\"Guinea-Bissau\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Guinea-Bissau%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:41:42.324748+00:00; SHA256=565fa93ab34d50b53aa94d1184e2b981bd2afd4c92b2947f98865eed6dc8c338; total hits=146; manually inspected first-returned titles=[\"Ischemic heart disease burden and healthcare system readiness across sub-Saharan Africa.\", \"Pre-eclampsia as a predictor of early-onset cardiovascular impairment among young women (PREECARDIA study): protocol for a prospective cohort study.\", \"Gastroduodenal Kaposi Sarcoma Without Cutaneous Lesions in an Immunosuppressed Patient.\", \"A Pilot Study of COVID-19 Outcomes in People Living with HIV in Tatarstan.\", \"Chronic Kidney Disease Screening Practice Among High-Risk Patients During Follow-Up in Sub-Saharan Africa: A Systematic Review.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Guinea-Bissau%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Guinea-Bissau\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:35:42.476984+00:00; SHA256=885fe67cf68f776372878059c68d95af7e42a2f660171829b34f1cdac4898a32; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-654",
+    "area_m49": "654",
+    "condition_key": "high_chol",
+    "query": "(\"Saint Helena\" OR \"Ascension Island\" OR \"Tristan da Cunha\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Saint+Helena%22+OR+%22Ascension+Island%22+OR+%22Tristan+da+Cunha%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:42:40.012413+00:00; SHA256=536642edcf6b56285d2ee65c2a6a51304719c511c611c2ca98e70e0fd2fb1fcc; total hits=15; manually inspected first-returned titles=[\"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"The genetic architecture of lipoprotein subclasses in Gullah-speaking African American families enriched for type 2 diabetes: the Sea Islands Genetic African American Registry (Project SuGAR).\", \"Association between sitagliptin adherence and self-monitoring of blood glucose.\", \"Microbes Saving Lives and Reducing Suffering.\", \"Interventions for preventing type 2 diabetes in adults with mental disorders in low- and middle-income countries.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Saint+Helena%22+OR+AFF%3A%22Ascension+Island%22+OR+AFF%3A%22Tristan+da+Cunha%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Saint Helena\" OR AFF:\"Ascension Island\" OR AFF:\"Tristan da Cunha\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:37:10.146968+00:00; SHA256=6182b087a4e670b379e14e614161dc68295fba1eadd4d7b6e9b26184dc00302a; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-666",
+    "area_m49": "666",
+    "condition_key": "high_chol",
+    "query": "(\"Saint Pierre and Miquelon\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Saint+Pierre+and+Miquelon%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:43:11.735389+00:00; SHA256=deac98e1ccf3e3702eb3743edbc6db36abcb1c880025814e4f4298b186744802; total hits=1; manually inspected first-returned titles=[\"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Saint+Pierre+and+Miquelon%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Saint Pierre and Miquelon\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:38:04.257841+00:00; SHA256=ce60dcbd29b96a095efb172e54e5211b7e98e95270fa7ff59976f253a58bb439; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-678",
+    "area_m49": "678",
+    "condition_key": "high_chol",
+    "query": "(\"Sao Tome and Principe\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Sao+Tome+and+Principe%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:43:35.465135+00:00; SHA256=a5e27fce5b80a61a25b9d81a7c7c52a0fc2b3b18e761cb6857c025db176ff517; total hits=87; manually inspected first-returned titles=[\"Use of traditional medicine for hypertension, diabetes and hypercholesterolaemia measured in 71 surveys.\", \"Ischemic heart disease burden and healthcare system readiness across sub-Saharan Africa.\", \"Chronic Kidney Disease Screening Practice Among High-Risk Patients During Follow-Up in Sub-Saharan Africa: A Systematic Review.\", \"Use of mathematical modelling to estimate the impact of interventions and risk factors on cardiovascular diseases in Africa: A scoping review.\", \"Percutaneous Coronary Intervention in Africa: A Systematic Review of Associated Outcomes.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Sao+Tome+and+Principe%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Sao Tome and Principe\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:38:46.196031+00:00; SHA256=a002f08fdde7f45d0ab8bb3a243404a2fab58293cc9f03a5e77307b20e7db787; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-732",
+    "area_m49": "732",
+    "condition_key": "high_chol",
+    "query": "(\"Western Sahara\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Western+Sahara%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:45:02.921169+00:00; SHA256=24992a28045ad3fa3cb0b3f69dd5c13bbb84de9ff91fcc306f37f2158067bdfb; total hits=19; manually inspected first-returned titles=[\"El Hierro Genome Study: A Genomic and Health Study in an Isolated Canary Island Population.\", \"Association between highly active antiretroviral therapy and selected cardiovascular disease risk factors in sub-Saharan Africa: a systematic review and meta-analysis protocol.\", \"Assessment of the association of plant-based diets with cardiovascular disease risk profile in Africa: a systematic review and meta-analysis protocol.\", \"Prevalence and incidence of dyslipidaemia among adults in Africa: a systematic review and meta-analysis protocol.\", \"Pregnancy and Birth Outcomes Among Middle Eastern or North African Infants and Mothers in Quebec, Canada, 2008-2020.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Western+Sahara%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Western Sahara\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:41:20.628055+00:00; SHA256=5a5b7b709edb8870bd0ef50d874771107cffaa4295b9e26679567eb7087bc6c4; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Western Sahara geographic naming and relevant regional reviews need scope-sensitive original follow-up; no jurisdiction inference.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Inspect retained named primary/local sources before any upgrade."
+  },
+  {
+    "record_id": "B145-LIP-744",
+    "area_m49": "744",
+    "condition_key": "high_chol",
+    "query": "(\"Svalbard\" OR \"Jan Mayen\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Svalbard%22+OR+%22Jan+Mayen%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:45:25.993673+00:00; SHA256=b49758687713da64da559b86049708306c80c636b358a9bd053760931c959f6f; total hits=14; manually inspected first-returned titles=[\"Per- and Polyfluoroalkyl Substances (PFAS): History, Current Concerns, and Future Outlook.\", \"Non-coding accelerated regions underlie polar bear arctic adaptation\", \"Cross-cutting studies of per- and polyfluorinated alkyl substances (PFAS) in Arctic wildlife and humans.\", \"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Chemodiversity of &lt;i&gt;Penicillium&lt;/i&gt; isolated from alpine and arctic environments, including ten new species.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Svalbard%22+OR+AFF%3A%22Jan+Mayen%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Svalbard\" OR AFF:\"Jan Mayen\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:41:36.524657+00:00; SHA256=de52be48cd768023493cf50eb397c9dee2f4ce88411342c4eda37eb2f44f2492; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Arctic environmental/wildlife/genomic titles do not settle locally domiciled human research or geographic scope; retain distinct original-local-source route.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Inspect retained named primary/local sources before any upgrade."
+  },
+  {
+    "record_id": "B145-LIP-772",
+    "area_m49": "772",
+    "condition_key": "high_chol",
+    "query": "(\"Tokelau\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Tokelau%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:46:08.991680+00:00; SHA256=424c182331abb71fd764292870080b5037a2add9f1de5f895585a946ffe515c7; total hits=75; manually inspected first-returned titles=[\"Use of traditional medicine for hypertension, diabetes and hypercholesterolaemia measured in 71 surveys.\", \"The tide of dietary risks for noncommunicable diseases in Pacific Islands: an analysis of population NCD surveys.\", \"Global Burden and Trends of Ischemic Heart Disease in Women Aged 55 years and Older, 1990-2021: A Systematic Analysis of the Global Burden of Disease Study 2021.\", \"Beyond traditional coconut oil: metabolic effects of medium-chain triglyceride oil-mechanistic insights, lipid remodeling, and clinical implications in cardiometabolic health.\", \"Trends and burden of gout among adolescents aged 10-24\u202fyears: insights from the global burden of disease study 2021.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Tokelau%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Tokelau\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:42:28.700531+00:00; SHA256=fa619e8f337f76ce6c4b78a748c1314c28506e1d5b468fb9c060d25f62feeaa2; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-796",
+    "area_m49": "796",
+    "condition_key": "high_chol",
+    "query": "(\"Turks and Caicos Islands\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Turks+and+Caicos+Islands%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:46:53.687281+00:00; SHA256=deca2e97c4c96954f53a22208914063e70f1cbd1ea8db5b13495ec272dd9ad44; total hits=11; manually inspected first-returned titles=[\"Readiness to deliver integrated cardiovascular, kidney and metabolic care in primary healthcare: phase II of HEARTS 2.0 in 26 countries in the Americas.\", \"Pseudo-pheochromocytoma due to obstructive sleep apnea: a case report.\", \"Fetal Macrosomia and Postpartum Hemorrhage in Latin American and Caribbean Region: Systematic Review and Meta-analysis.\", \"Multifactor Quality and Safety Analysis of Semaglutide Products Sold by Online Sellers Without a Prescription: Market Surveillance, Content Analysis, and Product Purchase Evaluation Study.\", \"Pharmacogenetic research activity in Central America and the Caribbean: a systematic review.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Turks+and+Caicos+Islands%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Turks and Caicos Islands\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:43:25.589796+00:00; SHA256=3b754faa4bb452232369051b2fda88e05724538730aec86f0f3341625578302d; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-798",
+    "area_m49": "798",
+    "condition_key": "high_chol",
+    "query": "(\"Tuvalu\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Tuvalu%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:47:03.061092+00:00; SHA256=d1d1e926e654776153ac9c7df9af26747c03282c1073ab7e69b1985798f9488c; total hits=67; manually inspected first-returned titles=[\"Associations of smoking and second-hand smoke exposure with obesity and obstructive sleep apnoea risk in Tuvalu.\", \"Associations between home gardening and obstructive sleep apnoea: role of behavioural factors in the COMmunity-based Behaviour and Attitude Study in Tuvalu (COMBAT).\", \"Suicidal ideation and suicide attempts in eight low- and middle-income countries: a comparison of national surveys.\", \"Use of traditional medicine for hypertension, diabetes and hypercholesterolaemia measured in 71 surveys.\", \"Exploring the link between home garden use and severe obesity: Insights from a nationwide survey in Tuvalu.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Tuvalu%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Tuvalu\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:43:41.261433+00:00; SHA256=8cd737aae11e8b5c2d6cb9f8ee69089e940e3e572255e8de961714d38832528e; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-831",
+    "area_m49": "831",
+    "condition_key": "high_chol",
+    "query": "(\"Guernsey\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Guernsey%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:47:24.624290+00:00; SHA256=2e9bfa18938d9ea639c3ac1b724beb7b5f7f0d12df42e4517f1d7d1392dc6932; total hits=60; manually inspected first-returned titles=[\"From the cytosol to the inner membrane: biogenesis of the mitochondrial carrier family.\", \"\u03b2-casomorphin-7: a review of occurrence, identification, techno-functionality, and effects on human health.\", \"Insulin-regulated serine and lipid metabolism drive peripheral neuropathy.\", \"\u0410therosclerosis-like changes in the rabbit aortic wall induced by immunization with native high-density lipoproteins.\", \"A study on occupational health and safety.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Guernsey%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Guernsey\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:44:25.436907+00:00; SHA256=3f69532f99f50fa13edb412a9a3c58c86b4d04fa10801aa340537d8a16494e5b; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-833",
+    "area_m49": "833",
+    "condition_key": "high_chol",
+    "query": "(\"Isle of Man\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Isle+of+Man%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:47:34.569363+00:00; SHA256=010e2c8fcaf92a46045ab2e6ace6a8097ae2729383d53e16ccea5ac40971565d; total hits=90; manually inspected first-returned titles=[\"Associations Between Oxidative Stress, Inflammation, Muscle Mass, and Sarcopenia Phenotypes in Older Adults with End-Stage Knee and Hip Osteoarthritis: A Cross-Sectional Study.\", \"Skeletal muscle mass and overhydration are associated with in-hospital mortality in acute heart failure patients.\", \"Effect of a Milk Protein Concentrate Supplement on Muscle Recovery and Oxidative Stress Following Knee and Hip Arthroplasty: A Randomized Control Trial\", \"The Plasma Glycome Differences Between Women with PCOS and Healthy Controls.\", \"Preoperative Tyrosine Levels as Predictive Biomarkers for Excessive Fat-Free Mass Loss Following Laparoscopic Sleeve Gastrectomy in Patients with Morbid Obesity.\"]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Isle+of+Man%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Isle of Man\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:44:48.959479+00:00; SHA256=5b93da9e338b12e39fb52f4cff3eb0b55de368d4a421588542031c85b5531948; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  },
+  {
+    "record_id": "B145-LIP-876",
+    "area_m49": "876",
+    "condition_key": "high_chol",
+    "query": "(\"Wallis and Futuna Islands\") AND (hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)",
+    "language": "en catalogue; original organization labels multilingual; local-language archives not exhausted",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "original_professional_registry_directory",
+        "url": "https://eas-fhsc.org/contact-us/",
+        "observation": "Original national-investigator directory inspected2026-11-19; no distinct named local lead established for this selected area. Voluntary network is incomplete, not a census. EAS society contacts corroborate route scope but are not claimed as an independent index."
+      },
+      {
+        "approach": "preserved_separate_bibliographic_catalogue_title_review",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%22Wallis+and+Futuna+Islands%22%29+AND+%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual receipt 2026-11-18T19:48:01.670522+00:00; SHA256=a8ea9388733b4071e65fb3f457c9817ced632022f8fce336748e7a803920d1df; total hits=0; manually inspected first-returned titles=[]. Metadata not original source text; does not qualify evidence."
+      },
+      {
+        "approach": "same_catalogue_affiliation_refinement_NOT_independent",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Wallis+and+Futuna+Islands%22%29+AND+TITLE_ABS%3A%28%28hypercholesterolemia+OR+hypercholesterolaemia+OR+%22high+cholesterol%22+OR+dyslipidemia+OR+dyslipidaemia%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Actual preserved query (AFF:\"Wallis and Futuna Islands\") AND TITLE_ABS:((hypercholesterolemia OR hypercholesterolaemia OR \"high cholesterol\" OR dyslipidemia OR dyslipidaemia)); retrieved 2026-11-18T20:45:58.238734+00:00; SHA256=fc0195e9fa05a29fc3a66cb2e2a8b0d22488e2d6313848b03340f0165ce974dd; zero hits is index-limited and can contradict genuine coauthor evidence. Not a second independent avenue."
+      }
+    ],
+    "result": "Bounded specified-route nonfinding: no eligible local independent lipid publication verified from the actual network directory and separately reviewed first-returned bibliographic candidates. Broader cardiovascular, unrelated-condition, foreign-population and global modelling titles are not qualified local sources.",
+    "limits": "First-five catalogue scope and incomplete voluntary global network; not exhaustive native-language/local archives, countrywide absence, national authorship or genotype inference. EAS and FHSC are related, counted together as one directory avenue; catalogue/refinement counted together as one bibliography avenue. 2071 deduplicated intake leads screened for area-exact lipid-title/condition matches; retained hits remain D1, no intake automatically qualified. Original institutional names, populations, journal/publisher and clinical jurisdiction remain separate. No clinical/genetic/rights approval.",
+    "next_action": "Reopen on a new original local archive, author or publication lead; no national-absence claim."
+  }
+]

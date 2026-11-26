@@ -1,0 +1,21 @@
+{
+  "clinical_release": "research_lead_only",
+  "reviews": [
+    {
+      "source": "https://asodiabetes.org/2023/07/24/que-la-diabetes-que/",
+      "question": "Independent clinician/editorial review of not-a-disease framing, absolute complication claims, patient-blaming language and food restrictions; no wording endorsed."
+    },
+    {
+      "source": "https://belhyp.be/wp-content/uploads/2023/03/ESH-guideline-BP-measurement_vertaald_nederlandse-versie_final.pdf",
+      "question": "Dutch/Belgian translation roles distinct from original journal current serial country; verify translation version and historical issue country before version-specific reuse."
+    },
+    {
+      "source": "https://www.lipid.or.kr/module/board/download.php?boardid=guideline&b_idx=1456&idx=10845",
+      "question": "Korean national cohort/threshold and FH claims not individual genotype/ancestry inference; clinical/rights appraisal independent."
+    },
+    {
+      "source": "https://www.endocrino-tunisie.com/uploads/images/cd684a9fa7e1f885018b3a21327f5000.pdf",
+      "question": "Joint INEAS/STEDIAM contributor, government authority, guidance validity and permissions remain distinct, with no approvals."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "record_id": "B152-FOREIGN-B-LT-LRA-gout",
+    "record_class": "foreign_original_issuer_country_evidence",
+    "area_m49": "756",
+    "source_issuer": "Alexander So, CHUV/UNIL Rheumatology, Lausanne Switzerland",
+    "source_url": "https://www.reumatologuasociacija.lt/bandymas/wp-content/uploads/2018/03/Gout-Vilnius2017.pdf",
+    "source_language": "en",
+    "checked_on": "2026-11-19",
+    "verification_state": "original_country_evidence_inspected_research_only",
+    "notes": "Original lecture title slide explicitly credits CHUV/UNIL Lausanne; Swiss original author affiliation distinct from Lithuanian host, no society sole authorship."
+  },
+  {
+    "record_id": "B152-FOREIGN-B-LI-UFL-hypertension",
+    "record_class": "foreign_original_issuer_country_evidence",
+    "area_m49": "840",
+    "source_issuer": "US NLM Nature Genetics catalogue9216904",
+    "source_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9216904",
+    "source_language": "en",
+    "checked_on": "2026-11-19",
+    "verification_state": "original_country_evidence_inspected_research_only",
+    "notes": "Primary NLM catalogue explicitly country of publication United States, New York publisher. Journal classification distinct from UFL Liechtenstein coauthor domicile and European-ancestry sample."
+  },
+  {
+    "record_id": "B152-FOREIGN-B-BE-BHC-hypertension",
+    "record_class": "foreign_original_issuer_country_evidence",
+    "area_m49": "528",
+    "source_issuer": "US NLM Journal of Hypertension catalogue8306882",
+    "source_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/8306882",
+    "source_language": "en",
+    "checked_on": "2026-11-19",
+    "verification_state": "original_country_evidence_inspected_research_only",
+    "notes": "Primary current serial country Netherlands; older London publisher also preserved. Supports journal_publication_country only; Dutch/Belgian translation affiliation and2021 historical issue domicile are not silently equated."
+  },
+  {
+    "record_id": "B152-FOREIGN-B-GR-EEY-hypertension",
+    "record_class": "foreign_original_issuer_country_evidence",
+    "area_m49": "528",
+    "source_issuer": "US NLM European Journal of Internal Medicine catalogue9003220",
+    "source_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/9003220",
+    "source_language": "en",
+    "checked_on": "2026-11-19",
+    "verification_state": "original_country_evidence_inspected_research_only",
+    "notes": "Primary NLM current country Netherlands, Amsterdam Elsevier1999 onward; older UK publisher differs. Journal country distinct from Greek society host and multinational ESH authorship."
+  },
+  {
+    "record_id": "B152-FOREIGN-PE-AMA",
+    "record_class": "foreign_original_issuer_country_evidence",
+    "area_m49": "840",
+    "source_issuer": "American Medical Association own contact page",
+    "source_url": "https://www.ama-assn.org/form/contact-us",
+    "source_language": "en",
+    "checked_on": "2026-11-19",
+    "verification_state": "first_party_contact_and_original_coissuer_credit_inspected_research_only",
+    "notes": "First-party contact gives Chicago Illinois US mailing address; original BP sheet explicitly names AMA as original coissuer. Host SPHTA Peru is distinct; no legal or rights certification."
+  },
+  {
+    "record_id": "B152-FOREIGN-PE-JHU",
+    "record_class": "foreign_original_issuer_country_evidence",
+    "area_m49": "840",
+    "source_issuer": "Johns Hopkins University own contact page",
+    "source_url": "https://www.jhu.edu/contact/",
+    "source_language": "en",
+    "checked_on": "2026-11-19",
+    "verification_state": "first_party_contact_and_original_coissuer_credit_inspected_research_only",
+    "notes": "Original university contact gives Baltimore Maryland US mailing address; BP sheet explicitly credits Johns Hopkins University as original coissuer. No host-to-author or clinical authority inference."
+  }
+]

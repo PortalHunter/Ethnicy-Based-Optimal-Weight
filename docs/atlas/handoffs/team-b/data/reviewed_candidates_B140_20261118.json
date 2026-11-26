@@ -1,0 +1,2532 @@
+{
+  "checked_on": "2026-11-18",
+  "scope": "373 deduplicated original first-five metadata titles reviewed;29 topical lactose/lactase/breath-test title affiliation sets inspected; not original-content audits or source positives",
+  "candidates": {
+    "41952402": {
+      "title": "Hydrogen and Methane Breath Test: The Asian Neurogastroenterology and Motility Association Monograph.",
+      "areas": [
+        "004",
+        "064",
+        "096",
+        "368"
+      ]
+    },
+    "41543148": {
+      "title": "Epidemiology and management of nitroimidazole-refractory giardiasis.",
+      "areas": [
+        "004"
+      ]
+    },
+    "42569854": {
+      "title": "Recent and Promising Strategies for Robust, Sustainable, and Cost-Friendly Production of Yogurt With Superior Quality.",
+      "areas": [
+        "004"
+      ]
+    },
+    "40012717": {
+      "title": "Gut Microbial Composition Is Associated with Symptom Self-Report in Trauma-Exposed Iraq and Afghanistan Veterans.",
+      "areas": [
+        "004",
+        "368"
+      ]
+    },
+    "40896188": {
+      "title": "Precision nutrition across climates: decoding diet, tradition, and genomic adaptations from South Asia to the Arctic.",
+      "areas": [
+        "004",
+        "064",
+        "304",
+        "462"
+      ]
+    },
+    "42943527": {
+      "title": "Fermentation and Refrigerated Storage of Millet-Based Beverages with Yoghurt and Propionic Acid Bacteria.",
+      "areas": [
+        "008"
+      ]
+    },
+    "41654922": {
+      "title": "Genetic affinities between the ancient Greek colony of Amvrakia and its metropolis.",
+      "areas": [
+        "008",
+        "499",
+        "807"
+      ]
+    },
+    "35419092": {
+      "title": "Diet, fibers, and probiotics for irritable bowel syndrome.",
+      "areas": [
+        "008"
+      ]
+    },
+    "39104758": {
+      "title": "Global, regional, and national analyses of the burden of colorectal cancer attributable to diet low in milk from 1990 to 2019: longitudinal observational study.",
+      "areas": [
+        "008",
+        "096",
+        "226",
+        "426",
+        "690"
+      ]
+    },
+    "39770996": {
+      "title": "Implementation of Nutrition Labels at the 2022 European Athletics Championships: An Observational Study of the Use and Perceptions of Athletes and Athlete Support Personnel.",
+      "areas": [
+        "008",
+        "020",
+        "292"
+      ]
+    },
+    "41796940": {
+      "title": "Framework for Identifying Signature Foods for Health in the Children's Healthy Living Program in the United States Affiliated Pacific Region.",
+      "areas": [
+        "016",
+        "316",
+        "580",
+        "882"
+      ]
+    },
+    "37191578": {
+      "title": "Endocrine Health and Health Care Disparities in the Pediatric and Sexual and Gender Minority Populations: An Endocrine Society Scientific Statement.",
+      "areas": [
+        "016",
+        "090",
+        "296",
+        "316",
+        "408",
+        "462",
+        "548",
+        "584",
+        "585",
+        "626",
+        "772",
+        "776"
+      ]
+    },
+    "PMC13439031": {
+      "title": "Special Collection: Abstracts from IUNS-ICN Paris 2025",
+      "areas": [
+        "016",
+        "090",
+        "174",
+        "254",
+        "258",
+        "296",
+        "312",
+        "316",
+        "426",
+        "462",
+        "474",
+        "540",
+        "548",
+        "580",
+        "581",
+        "584",
+        "585",
+        "626",
+        "678",
+        "728",
+        "732",
+        "748",
+        "772",
+        "776",
+        "798"
+      ]
+    },
+    "29053792": {
+      "title": "2017 Infectious Diseases Society of America Clinical Practice Guidelines for the Diagnosis and Management of Infectious Diarrhea.",
+      "areas": [
+        "016",
+        "316",
+        "580"
+      ]
+    },
+    "23544992": {
+      "title": "Evaluating the initial impact of the revised Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) food packages on dietary intake and home food availability in African-American and Hispanic families.",
+      "areas": [
+        "016"
+      ]
+    },
+    "35695704": {
+      "title": "Functional bowel disorders with diarrhoea: Clinical guidelines of the United European Gastroenterology and European Society for Neurogastroenterology and Motility.",
+      "areas": [
+        "020"
+      ]
+    },
+    "41011560": {
+      "title": "The Presence of Micro- and Nanoplastics in Food and the Estimation of the Amount Consumed Depending on Dietary Patterns.",
+      "areas": [
+        "020"
+      ]
+    },
+    "35646485": {
+      "title": "Drivers and hazards of consumption of unpasteurised bovine milk and milk products in high-income countries.",
+      "areas": [
+        "020"
+      ]
+    },
+    "26244332": {
+      "title": "Global, Regional, and National Consumption of Sugar-Sweetened Beverages, Fruit Juices, and Milk: A Systematic Assessment of Beverage Intake in 187 Countries.",
+      "areas": [
+        "020",
+        "028",
+        "092",
+        "132",
+        "174",
+        "184",
+        "258",
+        "262",
+        "296",
+        "430",
+        "462",
+        "548",
+        "583",
+        "584",
+        "624",
+        "626",
+        "659",
+        "670",
+        "678",
+        "690",
+        "740",
+        "780"
+      ]
+    },
+    "PMC8663064": {
+      "title": "Between colonial medicine and global health: protein malnutrition and UNICEF milk in the Belgian Congo",
+      "areas": [
+        "024",
+        "178",
+        "180",
+        "508",
+        "686"
+      ]
+    },
+    "39125353": {
+      "title": "Flavan-3-ols and Vascular Health: Clinical Evidence and Mechanisms of Action.",
+      "areas": [
+        "024"
+      ]
+    },
+    "22826639": {
+      "title": "Lactose intolerance: diagnosis, genetic, and clinical factors.",
+      "areas": [
+        "024"
+      ]
+    },
+    "26334798": {
+      "title": "The Frequency of the LCT*-13910C>T Polymorphism Associated with Lactase Persistence Diverges among Euro-Descendant Groups from Brazil.",
+      "areas": [
+        "024"
+      ]
+    },
+    "37216026": {
+      "title": "Understanding health disparities affecting people of West Central African descent in the United States: An evolutionary perspective.",
+      "areas": [
+        "024",
+        "226"
+      ]
+    },
+    "36467286": {
+      "title": "A Global Analysis of National Dietary Guidelines on Plant-Based Diets and Substitutions for Animal-Based Foods.",
+      "areas": [
+        "028",
+        "044",
+        "084",
+        "212",
+        "308",
+        "328",
+        "340",
+        "516",
+        "600",
+        "659",
+        "662",
+        "670",
+        "690",
+        "694"
+      ]
+    },
+    "35103316": {
+      "title": "Interventions to improve calcium intake through foods in populations with low intake.",
+      "areas": [
+        "028",
+        "044",
+        "072",
+        "084",
+        "212",
+        "308",
+        "328",
+        "418",
+        "659",
+        "662",
+        "670",
+        "740",
+        "780"
+      ]
+    },
+    "31041447": {
+      "title": "A Global Review of Food-Based Dietary Guidelines.",
+      "areas": [
+        "028",
+        "044",
+        "084",
+        "328",
+        "659",
+        "662",
+        "670",
+        "690"
+      ]
+    },
+    "42894849": {
+      "title": "Palaeoproteomic and genetic insights into millennial-scale dairy consumption in Armenia.",
+      "areas": [
+        "031"
+      ]
+    },
+    "32899182": {
+      "title": "Genetics of Lactose Intolerance: An Updated Review and Online Interactive World Maps of Phenotype and Genotype Frequencies.",
+      "areas": [
+        "031",
+        "068",
+        "120",
+        "148",
+        "214",
+        "478",
+        "591",
+        "686",
+        "728"
+      ]
+    },
+    "32418545": {
+      "title": "Comparison of diet quality between celiac patients and non-celiac people in East Azerbaijan-Iran.",
+      "areas": [
+        "031"
+      ]
+    },
+    "41225849": {
+      "title": "&lt;i&gt;Cornus mas&lt;/i&gt;: From Plant Taxonomy and Distribution Area to Highly Valorization of Phytochemicals by Microencapsulation in Biopolymeric Matrices Containing Probiotics.",
+      "areas": [
+        "031"
+      ]
+    },
+    "39453896": {
+      "title": "Dietary calcium intake among Iranian adults: Iranian Multicenter Osteoporosis Study (IMOS-2021).",
+      "areas": [
+        "031"
+      ]
+    },
+    "41656249": {
+      "title": "Tropical sprue: a narrative review of a neglected malabsorption syndrome.",
+      "areas": [
+        "044",
+        "052",
+        "188",
+        "192",
+        "214",
+        "218",
+        "332",
+        "630"
+      ]
+    },
+    "19543114": {
+      "title": "Randomized controlled trial of feeding a concentrated formula to infants born to women infected by human immunodeficiency virus.",
+      "areas": [
+        "044"
+      ]
+    },
+    "42310255": {
+      "title": "Update on Diet and Nutritional Therapies in Patients with Inflammatory Bowel Disease.",
+      "areas": [
+        "052"
+      ]
+    },
+    "41971319": {
+      "title": "Editorial: The interaction between food ingredients and gut microbiome on health and disease.",
+      "areas": [
+        "052",
+        "275"
+      ]
+    },
+    "42105173": {
+      "title": "A Multidisciplinary Review of the Microbial, Functional, and Consumer Advancement of Indian Lassi.",
+      "areas": [
+        "052"
+      ]
+    },
+    "42197265": {
+      "title": "Starch-Based Functional Ingredients in Baking: A Review of Advances in Starch Derivatives, Quality Enhancement, and Reduction of Fermentable Oligosaccharides, Disaccharides, Monosaccharides, and Polyols.",
+      "areas": [
+        "052"
+      ]
+    },
+    "39857121": {
+      "title": "Comorbidity of Histamine Intolerance and Polyvalent Allergy: A Case Report and Literature Review.",
+      "areas": [
+        "060"
+      ]
+    },
+    "38645751": {
+      "title": "Mitigating digestive disorders: Action mechanisms of Mediterranean herbal active compounds.",
+      "areas": [
+        "060"
+      ]
+    },
+    "PMC7158300": {
+      "title": "Clinical Approach to Commonly Encountered Problems",
+      "areas": [
+        "060"
+      ]
+    },
+    "33946267": {
+      "title": "From Food to Genes: Transcriptional Regulation of Metabolism by Lipids and Carbohydrates.",
+      "areas": [
+        "060"
+      ]
+    },
+    "PMC7158344": {
+      "title": "Disorders of the Gastrointestinal System",
+      "areas": [
+        "060"
+      ]
+    },
+    "41211215": {
+      "title": "Preserving edible biodiversity through indigenous dairy emulsions: valorization of traditional milk systems for a resilient future.",
+      "areas": [
+        "064",
+        "706"
+      ]
+    },
+    "38130469": {
+      "title": "Dietary Consumption on Glycemic Control Among Prediabetes: A Review of the Literature.",
+      "areas": [
+        "064"
+      ]
+    },
+    "34322401": {
+      "title": "Curriculum for Masters in General Practice - Bhutan.",
+      "areas": [
+        "064"
+      ]
+    },
+    "42703591": {
+      "title": "Production and nutritional value of milk from Creole goats fed with different levels of sweet potato vine flour (&lt;i&gt;Ipomoea batata&lt;/i&gt;).",
+      "areas": [
+        "068"
+      ]
+    },
+    "42075097": {
+      "title": "Nutrition Management in Critically Ill Children: A Scoping Review of Current Practices and Outcome Measures in the Pediatric Intensive Care Unit.",
+      "areas": [
+        "068",
+        "192",
+        "340",
+        "591"
+      ]
+    },
+    "41367619": {
+      "title": "Ecuador genetic mosaic: biological and adaptive variations across Mestizos, Native Amerindians, and Afro-Ecuadorians. Implications for public health and precision medicine.",
+      "areas": [
+        "068",
+        "218"
+      ]
+    },
+    "40565689": {
+      "title": "Pseudocereal-Based Functional Beverages: Main Properties and Nutritional Evaluation with an Emphasis on Amino Acid Content: A Review.",
+      "areas": [
+        "068"
+      ]
+    },
+    "40390584": {
+      "title": "Childhood Diarrheal Diseases in North Korea: A Narrative Review on Research Topics and Treatments.",
+      "areas": [
+        "072",
+        "408"
+      ]
+    },
+    "34662218": {
+      "title": "Participants' Preferences and Reasons for Wanting Feedback of Individual Genetic Research Results From an HIV-TB Genomic Study: A Case Study From Botswana.",
+      "areas": [
+        "072"
+      ]
+    },
+    "38647968": {
+      "title": "An overview of fermentation in the food industry - looking back from a new perspective.",
+      "areas": [
+        "072"
+      ]
+    },
+    "41327504": {
+      "title": "Co-infection and interaction of enteric pathogens in acute diarrhea among children under five years: a large-scale multicenter observational study from China.",
+      "areas": [
+        "072",
+        "558"
+      ]
+    },
+    "34113643": {
+      "title": "Global Review of Dairy Recommendations in Food-Based Dietary Guidelines.",
+      "areas": [
+        "084",
+        "308",
+        "516",
+        "591",
+        "694"
+      ]
+    },
+    "33968585": {
+      "title": "Role of probiotics in prevention and treatment of enteric infections: a comprehensive review.",
+      "areas": [
+        "084"
+      ]
+    },
+    "PMC8487351": {
+      "title": "UEG Week 2021 Poster Presentations",
+      "areas": [
+        "086",
+        "092",
+        "678"
+      ]
+    },
+    "35565753": {
+      "title": "Can Lactose Intolerance Be a Cause of Constipation? A Narrative Review.",
+      "areas": [
+        "090",
+        "887"
+      ]
+    },
+    "37894584": {
+      "title": "Influence of Pasteurization on Maillard Reaction in Lactose-Free Milk.",
+      "areas": [
+        "090"
+      ]
+    },
+    "21628620": {
+      "title": "Antiparasitic therapy.",
+      "areas": [
+        "090"
+      ]
+    },
+    "PMC1346555": {
+      "title": null,
+      "areas": [
+        "092"
+      ]
+    },
+    "36453081": {
+      "title": "Obesity in South and Southeast Asia-A new consensus on care and management.",
+      "areas": [
+        "096"
+      ]
+    },
+    "43017472": {
+      "title": "Diet-attributable colorectal cancer in Asia: Regional heterogeneity in burden and dietary intake.",
+      "areas": [
+        "096",
+        "418",
+        "795"
+      ]
+    },
+    "40306258": {
+      "title": "Prevention of Food Allergy: Harmonizing Perspectives from the East and West.",
+      "areas": [
+        "096"
+      ]
+    },
+    "42974062": {
+      "title": "Food Properties, Bioactive Components, and Human Factors as Determinants of Low Nutrient Supply From Foods Can Be Improved With Adequate Nutritional Strategies.",
+      "areas": [
+        "108",
+        "140"
+      ]
+    },
+    "36845603": {
+      "title": "Can dairy help solve the malnutrition crisis in developing countries? An economic analysis.",
+      "areas": [
+        "108",
+        "626"
+      ]
+    },
+    "39073532": {
+      "title": "Exploring Machine Learning Algorithms to Predict Diarrhea Disease and Identify its Determinants among Under-Five Years Children in East Africa.",
+      "areas": [
+        "108",
+        "174",
+        "508"
+      ]
+    },
+    "32119671": {
+      "title": "Evolutionary analysis of Mycobacterium bovis genotypes across Africa suggests co-evolution with livestock and humans.",
+      "areas": [
+        "108",
+        "232"
+      ]
+    },
+    "32787977": {
+      "title": "Frequency of legume consumption related to sociodemographic factors, health status and health-related variables among surveyed adults from Poland.",
+      "areas": [
+        "108"
+      ]
+    },
+    "36880131": {
+      "title": "Prevalence of genetically determined trehalase deficiency in populations of Siberia and Russian Far East.",
+      "areas": [
+        "112"
+      ]
+    },
+    "33920682": {
+      "title": "Ileal Lactase Expression Associates with Lactase Persistence Genotypes.",
+      "areas": [
+        "112"
+      ]
+    },
+    "39493382": {
+      "title": "Plant-based probiotic foods: current state and future trends.",
+      "areas": [
+        "112",
+        "882"
+      ]
+    },
+    "40626223": {
+      "title": "The interplay between nutrigenomics and low-carbohydrate ketogenic diets in personalized healthcare.",
+      "areas": [
+        "112"
+      ]
+    },
+    "40471375": {
+      "title": "Dietary intake in East Asian and Northern European participants from the FeGenes study.",
+      "areas": [
+        "112",
+        "408"
+      ]
+    },
+    "41672513": {
+      "title": "The Japanese gut microbiome: ecology, uniqueness, and impact on health and disease.",
+      "areas": [
+        "120",
+        "140",
+        "242",
+        "508"
+      ]
+    },
+    "41965543": {
+      "title": "Antimicrobial resistance patterns of enteropathogens and probiotic potential of infant gut-derived lactic acid bacteria in Maroua (Far North Cameroon).",
+      "areas": [
+        "120"
+      ]
+    },
+    "41229546": {
+      "title": "The DASH diet in diabetes related complications or comorbidities: an unexpected friend.",
+      "areas": [
+        "120"
+      ]
+    },
+    "40269762": {
+      "title": "Predictors of maternal hypocalcemia among pregnant women attending at a tertiary referral hospital in Tanzania: a cross-sectional study.",
+      "areas": [
+        "120"
+      ]
+    },
+    "40696191": {
+      "title": "Burden of colorectal cancer attributable to diet low in milk among middle-aged and elderly population from 1990 to 2021: a population-based study.",
+      "areas": [
+        "132",
+        "426",
+        "795"
+      ]
+    },
+    "24453499": {
+      "title": "Mitochondrial disorder caused Charles Darwin's cyclic vomiting syndrome.",
+      "areas": [
+        "132"
+      ]
+    },
+    "28301464": {
+      "title": "Investigating the case of human nose shape and climate adaptation.",
+      "areas": [
+        "132"
+      ]
+    },
+    "32626427": {
+      "title": "Appropriate age range for introduction of complementary feeding into an infant's diet.",
+      "areas": [
+        "132",
+        "174",
+        "336",
+        "624",
+        "678"
+      ]
+    },
+    "30341496": {
+      "title": "ESICM LIVES 2018 : Paris, France. 20-24 October 2018.",
+      "areas": [
+        "136"
+      ]
+    },
+    "39770940": {
+      "title": "Small Intestinal Bacterial Overgrowth and Childhood Malnutrition: A Comprehensive Review of Available Evidence.",
+      "areas": [
+        "140",
+        "450"
+      ]
+    },
+    "36466422": {
+      "title": "Human milk nutritional composition across lactational stages in Central Africa.",
+      "areas": [
+        "140"
+      ]
+    },
+    "PMC13290681": {
+      "title": "Abstract",
+      "areas": [
+        "140",
+        "232",
+        "474",
+        "558",
+        "638"
+      ]
+    },
+    "38183445": {
+      "title": "Potential role of camel, mare milk, and their products in inflammatory rheumatic diseases.",
+      "areas": [
+        "148",
+        "417",
+        "478",
+        "762",
+        "795"
+      ]
+    },
+    "37339757": {
+      "title": "Detection of Substandard and Falsified Antibiotics Sold in the Democratic Republic of the Congo Using Validated HPLC and UV-Visible Spectrophotometric Methods.",
+      "areas": [
+        "148"
+      ]
+    },
+    "28883979": {
+      "title": "Review: chronic and persistent diarrhea with a focus in the returning traveler.",
+      "areas": [
+        "148"
+      ]
+    },
+    "PMC13628583": {
+      "title": "Abstracts",
+      "areas": [
+        "148",
+        "558",
+        "662"
+      ]
+    },
+    "PMC11471002": {
+      "title": "UEG Week 2024 Moderated Posters",
+      "areas": [
+        "162"
+      ]
+    },
+    "31592543": {
+      "title": "17th International Congress of Immunology, 19-23 October 2019, Beijing, China.",
+      "areas": [
+        "162"
+      ]
+    },
+    "37051178": {
+      "title": "Effects of vitamin and mineral supplementation during pregnancy on maternal, birth, child health and development outcomes in low- and middle-income countries: A systematic review.",
+      "areas": [
+        "174",
+        "175",
+        "262",
+        "296",
+        "678",
+        "798"
+      ]
+    },
+    "32297856": {
+      "title": "Telomere dysfunction cooperates with epigenetic alterations to impair murine embryonic stem cell fate commitment.",
+      "areas": [
+        "175"
+      ]
+    },
+    "39100921": {
+      "title": "What are the 100 most cited fungal genera?",
+      "areas": [
+        "175",
+        "744"
+      ]
+    },
+    "35920845": {
+      "title": "58<sup>th</sup> EASD Annual Meeting of the European Association for the Study of Diabetes : Stockholm, Sweden, 19 - 23 September 2022.",
+      "areas": [
+        "175",
+        "663"
+      ]
+    },
+    "PMC7119992": {
+      "title": "Systematic Survey of Zoonotic and Sapronotic Microbial Agents",
+      "areas": [
+        "175",
+        "184",
+        "540"
+      ]
+    },
+    "42121965": {
+      "title": "Chronic Diarrhea and Weight Loss in a 27-Year-Old: Highlighting Collagenous Gastritis as a Rarely Encountered Entity.",
+      "areas": [
+        "178"
+      ]
+    },
+    "40761335": {
+      "title": "An Extremely Rare Cause of Protein-Losing Enteropathy: Waldenström Macroglobulinemia.",
+      "areas": [
+        "178"
+      ]
+    },
+    "39408199": {
+      "title": "Terrestrial Animal Source Foods and Health Outcomes for Those with Special Nutrient Needs in the Life Course.",
+      "areas": [
+        "178",
+        "218"
+      ]
+    },
+    "41522443": {
+      "title": "Postbiotic production, aggregation properties, binding potential, antioxidants capacity, and functional characterization of the lead &lt;i&gt;Enterococcus faecium&lt;/i&gt; probiotic strains.",
+      "areas": [
+        "178"
+      ]
+    },
+    "38314439": {
+      "title": "The glass of milk half-empty? Dairy development and nutrition in low and middle income countries.",
+      "areas": [
+        "180",
+        "450",
+        "686",
+        "762"
+      ]
+    },
+    "40195116": {
+      "title": "Multiple molecular diagnoses identified through genome sequencing in individuals with suspected rare disease.",
+      "areas": [
+        "180",
+        "716",
+        "807"
+      ]
+    },
+    "38046154": {
+      "title": "Ready-to-use therapeutic/supplementary foods from local food resources: Technology accessibility, program effectiveness, and sustainability, a review.",
+      "areas": [
+        "180"
+      ]
+    },
+    "41097539": {
+      "title": "A Review of Traditional, Time-Honoured Foods and Recipes: To Choose to Use or Not to Use.",
+      "areas": [
+        "180",
+        "232",
+        "408",
+        "516"
+      ]
+    },
+    "PPR604084": {
+      "title": "A Comprehensive Review on Botany, Nutritional Benefits, and Prospects of Planting Coconut",
+      "areas": [
+        "184",
+        "332",
+        "548"
+      ]
+    },
+    "3119083": {
+      "title": "Lactose malabsorption in Polynesian and white children in the south west Pacific studied by breath hydrogen technique.",
+      "areas": [
+        "184"
+      ]
+    },
+    "6616394": {
+      "title": "Medicine behind bars: treatment or torture?",
+      "areas": [
+        "184"
+      ]
+    },
+    "42111850": {
+      "title": "Gastrointestinal tolerance to a standardized milk-based hydration strategy is similar across exercise modalities.",
+      "areas": [
+        "188"
+      ]
+    },
+    "41305591": {
+      "title": "Pre-Workout Intake of High-Protein Products: Palatability and Gastrointestinal Effects of Milk vs. Yogurt.",
+      "areas": [
+        "188"
+      ]
+    },
+    "40400894": {
+      "title": "Enteral Infant Formulas: A Narrative Review of Historical Evolution, Nutritional Composition, and Clinical Use in Pediatrics.",
+      "areas": [
+        "188"
+      ]
+    },
+    "42690255": {
+      "title": "Gastrointestinal symptoms and association to food items in children with hirschsprung disease: a multinational patient-reported outcome study from Latin America and Spain.",
+      "areas": [
+        "188",
+        "214",
+        "600"
+      ]
+    },
+    "41482367": {
+      "title": "Frequency and Diagnostic Utility of the -13910C&gt;T &lt;i&gt;MCM6&lt;/i&gt; Gene Polymorphism for Lactose Intolerance in a Brazilian Northeast Population.",
+      "areas": [
+        "192"
+      ]
+    },
+    "41630712": {
+      "title": "Frequency of A1 and A2 alleles of the β-casein gene in cattle in the Cajamarca region of Peru.",
+      "areas": [
+        "192"
+      ]
+    },
+    "37444291": {
+      "title": "Advances in Low-Lactose/Lactose-Free Dairy Products and Their Production.",
+      "areas": [
+        "192"
+      ]
+    },
+    "42095013": {
+      "title": "Probiotics as antioxidant, antistress, and growth-enhancing agents in monogastric animals: a narrative review.",
+      "areas": [
+        "204"
+      ]
+    },
+    "40724343": {
+      "title": "Cheese Analogues, an Alternative to Dietary Restrictions and Choices: The Current Scenario and Future.",
+      "areas": [
+        "204",
+        "242",
+        "776"
+      ]
+    },
+    "41693945": {
+      "title": "Enhancement of iron, zinc, and calcium bioaccessibility and bioavailability in green gram (&lt;i&gt;Vigna radiata&lt;/i&gt; L.) supplemented with buttermilk through phytate reduction: an &lt;i&gt;in vitro&lt;/i&gt; dietary evaluation.",
+      "areas": [
+        "204"
+      ]
+    },
+    "39108419": {
+      "title": "Hypersensitivity to man-made electromagnetic fields (EHS) correlates with immune responsivity to oxidative stress: a case report.",
+      "areas": [
+        "204"
+      ]
+    },
+    "33072051": {
+      "title": "Distinct Effects of Milks From Various Animal Types on Infant Fecal Microbiota Through <i>in vitro</i> Fermentations.",
+      "areas": [
+        "204"
+      ]
+    },
+    "42777583": {
+      "title": "Ivabradine Use and Exercise Capacity Post-Atrial Switch Repair for Transposition of Great Arteries.",
+      "areas": [
+        "212"
+      ]
+    },
+    "41218835": {
+      "title": "Diagnosis and management of celiac disease.",
+      "areas": [
+        "212",
+        "760"
+      ]
+    },
+    "41663144": {
+      "title": "Diagnostic et prise en charge de la maladie cœliaque.",
+      "areas": [
+        "212"
+      ]
+    },
+    "42265545": {
+      "title": "Multivariate analysis of the label-declared nutritional composition of plant-based milk alternatives compared to milk in the Ecuadorian market.",
+      "areas": [
+        "214",
+        "218"
+      ]
+    },
+    "39707539": {
+      "title": "Ring 18 chromosome associated with cleft palate: case report and comprehensive literature review of clinical symptoms.",
+      "areas": [
+        "214"
+      ]
+    },
+    "42188943": {
+      "title": "β-Casein Polymorphism as a Potential Evolutionary Trade-Off: The Rise of A1 Under Intensive Selection and Its Implications for Gastrointestinal Tolerance and Agroecological Resilience.",
+      "areas": [
+        "218",
+        "831"
+      ]
+    },
+    "40330749": {
+      "title": "Human Giardiasis in Ghana - A Scoping Review of Studies From 2004 to 2024.",
+      "areas": [
+        "226",
+        "450",
+        "768",
+        "854"
+      ]
+    },
+    "PMC7269697": {
+      "title": "Executive summary of imported infectious diseases after returning from foreign travel: Consensus document of the Spanish Society for Infectious Diseases and Clinical Microbiology (SEIMC) Resumen ejecutivo de las enfermedades infecciosas importadas despuèc)s de regresar de viajes en el extranjero: Documento de consenso de la Sociedad Española de Enfermedades Infecciosas y Microbiología Clínica",
+      "areas": [
+        "226"
+      ]
+    },
+    "28396090": {
+      "title": "Executive summary of imported infectious diseases after returning from foreign travel: Consensus document of the Spanish Society for Infectious Diseases and Clinical Microbiology (SEIMC).",
+      "areas": [
+        "226"
+      ]
+    },
+    "40034084": {
+      "title": "Eastern African traditional fermented foods and beverages: Advancements, challenges, and perspectives on food technology, nutrition, and safety.",
+      "areas": [
+        "232",
+        "262"
+      ]
+    },
+    "35454758": {
+      "title": "Application of Two-Dimensional Fluorescence Spectroscopy for the On-Line Monitoring of Teff-Based Substrate Fermentation Inoculated with Certain Probiotic Bacteria.",
+      "areas": [
+        "232"
+      ]
+    },
+    "37476587": {
+      "title": "Glycogen storage diseases: An update.",
+      "areas": [
+        "234"
+      ]
+    },
+    "34444665": {
+      "title": "Ruminant Milk-Derived Extracellular Vesicles: A Nutritional and Therapeutic Opportunity?",
+      "areas": [
+        "234"
+      ]
+    },
+    "39425106": {
+      "title": "An unbiased, sustainable, evidence-informed Universal Food Guide: a timely template for national food guides.",
+      "areas": [
+        "234",
+        "248"
+      ]
+    },
+    "31587328": {
+      "title": "Research priorities for liver glycogen storage disease: An international priority setting partnership with the James Lind Alliance.",
+      "areas": [
+        "234",
+        "728"
+      ]
+    },
+    "27106217": {
+      "title": "Glycogen storage disease type III: diagnosis, genotype, management, clinical course and outcome.",
+      "areas": [
+        "234"
+      ]
+    },
+    "41754171": {
+      "title": "PPAR-γ Activation Alleviates Intestinal Dysfunction and Lactose Malabsorption in Experimental Food Allergy Rats.",
+      "areas": [
+        "242"
+      ]
+    },
+    "39330446": {
+      "title": "Morphological Changes of the Pituitary Gland in Patients with Irritable Bowel Syndrome Using Magnetic Resonance Imaging.",
+      "areas": [
+        "242"
+      ]
+    },
+    "42072024": {
+      "title": "Effects of Supplementation with Dimethylglycine Sodium Salt on Immunity, Intestinal Tissue Morphology, and Antioxidant Function in IUGR Lambs.",
+      "areas": [
+        "242"
+      ]
+    },
+    "35885345": {
+      "title": "A Sweeter Pill to Swallow: A Review of Honey Bees and Honey as a Source of Probiotic and Prebiotic Products.",
+      "areas": [
+        "248"
+      ]
+    },
+    "15831909": {
+      "title": "The C/C-13910 genotype of adult-type hypolactasia is associated with an increased risk of colorectal cancer in the Finnish population.",
+      "areas": [
+        "248"
+      ]
+    },
+    "15269080": {
+      "title": "Hospitalisation for gastroenteritis in Western Australia.",
+      "areas": [
+        "248"
+      ]
+    },
+    "37217505": {
+      "title": "Clinical diagnosis of genetic disorders at both single-nucleotide and chromosomal levels based on BGISEQ-500 platform.",
+      "areas": [
+        "248"
+      ]
+    },
+    "34544046": {
+      "title": "Allergy to Mammalian Meat Linked to Alpha-Gal Syndrome Potentially After Tick Bite in the Amazon: A Case Series.",
+      "areas": [
+        "254"
+      ]
+    },
+    "37790856": {
+      "title": "Worldwide research on the health effects of bovine milk containing A1 and A2 β-casein: Unraveling the current scenario and future trends through bibliometrics and text mining.",
+      "areas": [
+        "254",
+        "499"
+      ]
+    },
+    "37610941": {
+      "title": "Acute pulmonary histoplasmosis: a case series from an outbreak in Southeastern Brazil.",
+      "areas": [
+        "254"
+      ]
+    },
+    "PMC7463038": {
+      "title": "Abstracts TPS",
+      "areas": [
+        "254",
+        "336"
+      ]
+    },
+    "18719597": {
+      "title": "AMP-activated protein kinase and human cancer: cancer metabolism revisited.",
+      "areas": [
+        "258"
+      ]
+    },
+    "32945931": {
+      "title": "European Association of Nuclear Medicine October 22 - 30, 2020 Virtual.",
+      "areas": [
+        "258"
+      ]
+    },
+    "25506122": {
+      "title": "LEARNING TEMPORAL RULES TO FORECAST INSTABILITY IN INTENSIVE CARE PATIENTS.",
+      "areas": [
+        "258"
+      ]
+    },
+    "31200446": {
+      "title": "Food-Based Dietary Guidelines around the World: Eastern Mediterranean and Middle Eastern Countries.",
+      "areas": [
+        "262"
+      ]
+    },
+    "28562250": {
+      "title": "Neurodevelopment: The Impact of Nutrition and Inflammation During Adolescence in Low-Resource Settings.",
+      "areas": [
+        "262"
+      ]
+    },
+    "41366661": {
+      "title": "Food allergy knowledge and attitudes among university students in Palestine: a cross-sectional study of determinants and educational needs.",
+      "areas": [
+        "275"
+      ]
+    },
+    "41216285": {
+      "title": "From Resistance to Relief: IV Levothyroxine in Refractory Hypothyroidism Management.",
+      "areas": [
+        "275"
+      ]
+    },
+    "40022001": {
+      "title": "Maternal knowledge and practices regarding infantile colic in Palestine: a need for enhanced education and awareness.",
+      "areas": [
+        "275"
+      ]
+    },
+    "40399295": {
+      "title": "Immobilization of enzymes for synergy in polymers to produce lactose free milk.",
+      "areas": [
+        "275"
+      ]
+    },
+    "37475846": {
+      "title": "Irritable bowel syndrome: Epidemiology, overlap disorders, pathophysiology and treatment.",
+      "areas": [
+        "292"
+      ]
+    },
+    "28855970": {
+      "title": "Lactase persistence in Tunisia as a result of admixture with other Mediterranean populations.",
+      "areas": [
+        "292"
+      ]
+    },
+    "25853887": {
+      "title": "Hunting for the LCT-13910*T allele between the Middle Neolithic and the Middle Ages suggests its absence in dairying LBK people entering the Kuyavia region in the 8th millennium BP.",
+      "areas": [
+        "292",
+        "833"
+      ]
+    },
+    "24860561": {
+      "title": "Retrospective and prospective perspectives on zoonotic brucellosis.",
+      "areas": [
+        "292"
+      ]
+    },
+    "29988947": {
+      "title": "Food offerings on board and dietary intake of European and Kiribati seafarers - cross-sectional data from the seafarer nutrition study.",
+      "areas": [
+        "296"
+      ]
+    },
+    "41995844": {
+      "title": "Dietary effect on glucose homeostasis is modulated by a loss-of-function variant in the sucrase-isomaltase gene: a randomised, dietary crossover intervention in Inuit.",
+      "areas": [
+        "304"
+      ]
+    },
+    "39440313": {
+      "title": "Genetic aspects of lactase deficiency in indigenous populations of Siberia.",
+      "areas": [
+        "304",
+        "398"
+      ]
+    },
+    "37199899": {
+      "title": "Intestinal Disaccharidase Deficiency in Adults: Evaluation and Treatment.",
+      "areas": [
+        "304"
+      ]
+    },
+    "38328770": {
+      "title": "Healthcare Burden in Greenland of Gastrointestinal Symptoms in Adults with Inherited Loss of Sucrase-Isomaltase Function.",
+      "areas": [
+        "304"
+      ]
+    },
+    "37090031": {
+      "title": "Nutritional status, nutrient imbalances, food-related behaviors and dietary supplements use among patients with celiac disease on a gluten free diet in Lebanon: a national cross-sectional study.",
+      "areas": [
+        "308"
+      ]
+    },
+    "31218194": {
+      "title": "Iatrogenic Bowel Injury Following Minimally Invasive Lateral Approach to the Lumbar Spine: A Retrospective Analysis of 3 Cases.",
+      "areas": [
+        "308"
+      ]
+    },
+    "32684732": {
+      "title": "Early exposure to food contaminants reshapes maturation of the human brain-gut-microbiota axis.",
+      "areas": [
+        "312"
+      ]
+    },
+    "20791501": {
+      "title": "Conferences and meetings: medical research in the british Caribbean.",
+      "areas": [
+        "312",
+        "474"
+      ]
+    },
+    "41188416": {
+      "title": "Abstracts from the 58&lt;sup&gt;th&lt;/sup&gt; European Society of Human Genetics (ESHG) Conference: ePosters.",
+      "areas": [
+        "312",
+        "580"
+      ]
+    },
+    "PMC4669990": {
+      "title": "UEG Week 2015 Oral Presentations",
+      "areas": [
+        "312"
+      ]
+    },
+    "36801492": {
+      "title": "Food Allergy Characteristics Associated With Coexisting Eosinophilic Esophagitis in FARE Registry Participants.",
+      "areas": [
+        "316"
+      ]
+    },
+    "PMC12463576": {
+      "title": "Abstract",
+      "areas": [
+        "328"
+      ]
+    },
+    "32539885": {
+      "title": "The risk of infectious pathogens in breast-feeding, donated human milk and breast milk substitutes.",
+      "areas": [
+        "328"
+      ]
+    },
+    "41994257": {
+      "title": "A review of chronic enterocolitis of rhesus macaques (&lt;i&gt;Macaca mulatta&lt;/i&gt;) and potential as a naturally occurring model for post-infectious irritable bowel syndrome.",
+      "areas": [
+        "332"
+      ]
+    },
+    "PMC7151975": {
+      "title": "Tropical Sprue : Enteropathy",
+      "areas": [
+        "332"
+      ]
+    },
+    "36722799": {
+      "title": "Why and How Epidemiologists Should Use Mixed Methods.",
+      "areas": [
+        "332"
+      ]
+    },
+    "36932129": {
+      "title": "Fighting rare cancers: lessons from fibrolamellar hepatocellular carcinoma.",
+      "areas": [
+        "336"
+      ]
+    },
+    "21785696": {
+      "title": "Parasites or cohabitants: cruel omnipresent usurpers or creative \"éminences grises\"?",
+      "areas": [
+        "336"
+      ]
+    },
+    "PMC3127552": {
+      "title": "16th Congress of the European Hematology Association, London, United Kingdom, June 9–12, 2011",
+      "areas": [
+        "336"
+      ]
+    },
+    "42279682": {
+      "title": "Sustainable Whey-Based Functional Beverages Enriched with Andean Blueberry (&lt;i&gt;Vaccinium floribundum&lt;/i&gt; Kunth) and Blueberry (&lt;i&gt;Vaccinium corymbosum&lt;/i&gt; L.): Optimization, Antioxidant Properties, and Gastrointestinal Bioaccessibility.",
+      "areas": [
+        "340"
+      ]
+    },
+    "42211100": {
+      "title": "Valorization of camel milk into probiotic-fermented high-energy beverages incorporating Khalas date and nuts: nutritional quality and bioactives profiling.",
+      "areas": [
+        "340"
+      ]
+    },
+    "37110316": {
+      "title": "Attributes of Culture Bacteria as Influenced by Ingredients That Help Treat Leaky Gut.",
+      "areas": [
+        "340"
+      ]
+    },
+    "41757148": {
+      "title": "Gluten Tolerance through Microbial and Cultural Adaptation: A Holistic Model for Celiac Disease and Non-celiac Gluten Sensitivity.",
+      "areas": [
+        "368"
+      ]
+    },
+    "42016254": {
+      "title": "Camel Milk as a Functional Food: Nutritional Composition, Health-Promoting Benefits, and Safety Considerations.",
+      "areas": [
+        "368",
+        "535",
+        "634"
+      ]
+    },
+    "30813293": {
+      "title": "Congenital Lactase Deficiency: Mutations, Functional and Biochemical Implications, and Future Perspectives.",
+      "areas": [
+        "368"
+      ]
+    },
+    "34310218": {
+      "title": "Population Pharmacokinetics of Diethylcarbamazine in Patients with Lymphatic Filariasis and Healthy Individuals.",
+      "areas": [
+        "384"
+      ]
+    },
+    "36904200": {
+      "title": "Assessment of the Composition of Breastmilk Substitutes, Commercial Complementary Foods, and Commercial Snack Products Commonly Fed to Infant and Young Children in Lebanon: A Call to Action.",
+      "areas": [
+        "384"
+      ]
+    },
+    "37123863": {
+      "title": "Nutritional, functional, and bioactive properties of african underutilized legumes.",
+      "areas": [
+        "384",
+        "430",
+        "690"
+      ]
+    },
+    "33071315": {
+      "title": "Potential of probiotics from fermented cereal-based beverages in improving health of poor people in Africa.",
+      "areas": [
+        "384",
+        "768"
+      ]
+    },
+    "37424670": {
+      "title": "Pathogenic Bacteria and Their Antibiotic Resistance Patterns in Milk, Yoghurt and Milk Contact Surfaces in Debre Berhan Town, Ethiopia.",
+      "areas": [
+        "384"
+      ]
+    },
+    "42941875": {
+      "title": "Recombinant Expression and Functional Analysis of GH2 β-Galactosidases Derived from &lt;i&gt;Lactobacillus delbrueckii&lt;/i&gt; subsp. &lt;i&gt;bulgaricus&lt;/i&gt; NSP1 and &lt;i&gt;Streptococcus thermophilus&lt;/i&gt; RB16.",
+      "areas": [
+        "398"
+      ]
+    },
+    "40635901": {
+      "title": "Is it advisable for Asians to drink milk, especially those at risk of osteoporosis?",
+      "areas": [
+        "398"
+      ]
+    },
+    "42737272": {
+      "title": "Enzymatically Hydrolyzed Amaranth as a Base for Enteral Nutrition: Nutritional Characterization, Phenolic Bioaccessibility, and Physicochemical Properties.",
+      "areas": [
+        "398",
+        "500"
+      ]
+    },
+    "42935835": {
+      "title": "Recombinant bacterial &lt;i&gt;β&lt;/i&gt;-galactosidases for lactose bioconversion and galacto-oligosaccharide production: a comparative overview.",
+      "areas": [
+        "398"
+      ]
+    },
+    "42076788": {
+      "title": "Burden and Forecast of Early-Onset Colorectal Cancer (1990-2038) in Five East Asian Populations: A Systematic Analysis Based on the GBD 2023 Study.",
+      "areas": [
+        "408"
+      ]
+    },
+    "42008019": {
+      "title": "In vivo Assessment of the Potential Protective Effects of Traditional Kumis Against SARS-CoV-2 in a Transgenic Mouse Model.",
+      "areas": [
+        "417"
+      ]
+    },
+    "40486601": {
+      "title": "Navigating the crossroads: exploring the intersection of celiac disease and Budd-Chiari syndrome - insights, challenges, and management strategies.",
+      "areas": [
+        "417"
+      ]
+    },
+    "41300112": {
+      "title": "Koumiss (Fermented Mare's Milk) as a Functional Food: Bioactive Proteins, Peptides, and Future Perspectives.",
+      "areas": [
+        "417"
+      ]
+    },
+    "39338506": {
+      "title": "Physicochemical, Sensory, and Microbiological Analysis of Fermented Drinks Made from White Kidney Bean Extract and Cow's Milk Blends during Refrigerated Storage.",
+      "areas": [
+        "417"
+      ]
+    },
+    "41211803": {
+      "title": "Enzymatic Oxidation of Carbohydrate Byproducts for Use in Formation of Chitosan Hydrogels.",
+      "areas": [
+        "418"
+      ]
+    },
+    "38542148": {
+      "title": "Functional Characterization of Endo- and Exo-Hydrolase Genes in Arabinan Degradation Gene Cluster of <i>Bifidobacterium longum</i> subsp. <i>suis</i>.",
+      "areas": [
+        "418"
+      ]
+    },
+    "39850521": {
+      "title": "Effect of Whey Protein Supplementation on Postoperative Outcomes After Gynecological Cancer Surgery: A Randomized Controlled Trial.",
+      "areas": [
+        "418"
+      ]
+    },
+    "38371928": {
+      "title": "<i>Bifidobacterium</i> species viability in dairy-based probiotic foods: challenges and innovative approaches for accurate viability determination and monitoring of probiotic functionality.",
+      "areas": [
+        "426"
+      ]
+    },
+    "26245430": {
+      "title": "Body mass index of 16-year olds in urban Maseru, Lesotho.",
+      "areas": [
+        "426"
+      ]
+    },
+    "26771164": {
+      "title": "Doxycycline plus ivermectin versus ivermectin alone for treatment of patients with onchocerciasis.",
+      "areas": [
+        "430"
+      ]
+    },
+    "PMC7152053": {
+      "title": "Gastroenteritis",
+      "areas": [
+        "430"
+      ]
+    },
+    "PMC7123040": {
+      "title": "Infectious Diseases",
+      "areas": [
+        "430"
+      ]
+    },
+    "41981589": {
+      "title": "Comparison of blood parameters of ring-tailed lemurs (Lemur catta) and ruffed lemurs (Varecia variegata) under human care.",
+      "areas": [
+        "450"
+      ]
+    },
+    "42012985": {
+      "title": "Glanders: Past, Present and Future of a Neglected Zoonosis as a Threat in Veterinary and Human Health.",
+      "areas": [
+        "450"
+      ]
+    },
+    "33396977": {
+      "title": "The dietary practices and beliefs of British South Asian people living with inflammatory bowel disease: a multicenter study from the United Kingdom.",
+      "areas": [
+        "462"
+      ]
+    },
+    "24971037": {
+      "title": "Latitude, sunshine, and human lactase phenotype distributions may contribute to geographic patterns of modern disease: the inflammatory bowel disease model.",
+      "areas": [
+        "474"
+      ]
+    },
+    "2691344": {
+      "title": "William Hillary and sprue in the Caribbean: 230 years later.",
+      "areas": [
+        "474",
+        "780"
+      ]
+    },
+    "33260311": {
+      "title": "Assessment of the Nutritional Status, Diet and Intestinal Parasites in Hosted Saharawi Children.",
+      "areas": [
+        "478",
+        "732"
+      ]
+    },
+    "33917722": {
+      "title": "Recent Advances in Camel Milk Processing.",
+      "areas": [
+        "478"
+      ]
+    },
+    "42807683": {
+      "title": "From gluten to therapeutics: molecular mechanisms of celiac disease and emerging alternatives to the gluten-free diet.",
+      "areas": [
+        "478",
+        "732"
+      ]
+    },
+    "42309301": {
+      "title": "A Scoping Review of Direct-to-Consumer Nutrigenetic Testing: Mapping Genes and Associated Nutrition Recommendations.",
+      "areas": [
+        "480"
+      ]
+    },
+    "42471859": {
+      "title": "Multilevel, Actionable Factors Related to Adolescent Dairy Intake: A Scoping Review Guided by the Social Ecological Model.",
+      "areas": [
+        "480",
+        "780"
+      ]
+    },
+    "34711929": {
+      "title": "How to prevent non-communicable diseases? - A continuous need for a better understanding of the role of nutritional factors through scientific research.",
+      "areas": [
+        "480",
+        "882"
+      ]
+    },
+    "39822321": {
+      "title": "Universal Meals: A Novel Program to Provide Healthful Nutrition to Diverse Communities.",
+      "areas": [
+        "480"
+      ]
+    },
+    "33235663": {
+      "title": "Food allergies and allergens: Characterization and perceptions among diagnosed food allergic individuals in Lebanon.",
+      "areas": [
+        "480"
+      ]
+    },
+    "42361031": {
+      "title": "Enhancing breath-based diagnostics through eXplainable Artificial Intelligence.",
+      "areas": [
+        "492"
+      ]
+    },
+    "40443783": {
+      "title": "\"I Have No Idea What's in It!\"-A Qualitative Study of Adolescents' Conceptions of Milk Alternatives.",
+      "areas": [
+        "492"
+      ]
+    },
+    "37628981": {
+      "title": "Old and New Adjunctive Therapies in Celiac Disease and Refractory Celiac Disease: A Review.",
+      "areas": [
+        "492"
+      ]
+    },
+    "41112746": {
+      "title": "Cheese: mere indulgence or part of a healthy diet?",
+      "areas": [
+        "492"
+      ]
+    },
+    "40330647": {
+      "title": "Case Report: The intersection of psychiatry and medicine: diagnostic and ethical insights from case studies.",
+      "areas": [
+        "492"
+      ]
+    },
+    "42528265": {
+      "title": "Exploratory identification of coding and splicing-related SNV variants in A1A1 and A2A2 β-casein Holstein dairy cows.",
+      "areas": [
+        "499"
+      ]
+    },
+    "35953898": {
+      "title": "Worldwide Research Trends on Milk Containing Only A2 β-Casein: A Bibliometric Study.",
+      "areas": [
+        "499"
+      ]
+    },
+    "42651371": {
+      "title": "Use of Probiotics with Antibiotics: Knowledge, Attitudes, and Practices in Community Pharmacy.",
+      "areas": [
+        "499",
+        "807"
+      ]
+    },
+    "40683929": {
+      "title": "Assessment of mandatory declaration excipients in pediatric off label prescriptions in Spain.",
+      "areas": [
+        "500"
+      ]
+    },
+    "41742057": {
+      "title": "Prescription of vitamin D in neonates and infants under one year of age in Spain: an eight-year observational study.",
+      "areas": [
+        "500"
+      ]
+    },
+    "41179365": {
+      "title": "Enrichment of Pasteurized Dairy Product and Brownie With Edible Insect (&lt;i&gt;Tenebrio molitor&lt;/i&gt;) to Analyze Acceptance Using Check-All-That-Apply Methodology.",
+      "areas": [
+        "500"
+      ]
+    },
+    "40989752": {
+      "title": "Diagnosing IgE-mediated food allergy: How to apply the latest guidelines in clinical practice.",
+      "areas": [
+        "500"
+      ]
+    },
+    "41988476": {
+      "title": "Finger millet and soybean as functional ingredients in next-generation fermented foods: a review of nutritional, technological, and health-promoting perspectives.",
+      "areas": [
+        "508"
+      ]
+    },
+    "42737286": {
+      "title": "Impacts of Food Adulteration and Contamination: Health, Socio-Economic, and Legislative Aspects.",
+      "areas": [
+        "508"
+      ]
+    },
+    "40600165": {
+      "title": "Production and Quality Characteristics of Starter Culture Fermented Aliha, a Maize-Based Indigenous Fermented Beverage.",
+      "areas": [
+        "516"
+      ]
+    },
+    "42333020": {
+      "title": "Traditional Fermented Dairy Products as Reservoirs of Bifidobacterium With Probiotic Potential: From Microbial Diversity to Functional Characterization.",
+      "areas": [
+        "516"
+      ]
+    },
+    "41550860": {
+      "title": "The role of intestinal gases in pediatric functional constipation: a narrative review of pathophysiology and emerging therapeutics.",
+      "areas": [
+        "531"
+      ]
+    },
+    "36245075": {
+      "title": "The Power of Observation in Advancing Celiac Disease.",
+      "areas": [
+        "531"
+      ]
+    },
+    "26686256": {
+      "title": "Efficacy and safety of thalidomide for the treatment of severe recurrent epistaxis in hereditary haemorrhagic telangiectasia: results of a non-randomised, single-centre, phase 2 study.",
+      "areas": [
+        "531"
+      ]
+    },
+    "2403060": {
+      "title": "Lactose absorption and consumption in Curaçao schoolchildren.",
+      "areas": [
+        "531"
+      ]
+    },
+    "5035852": {
+      "title": "[Lactose intolerance and lactase deficiency in adult patients in Curacao].",
+      "areas": [
+        "531"
+      ]
+    },
+    "32647835": {
+      "title": "Burden of Uterine Fibroids: An African Perspective, A Call for Action and Opportunity for Intervention.",
+      "areas": [
+        "533"
+      ]
+    },
+    "38486537": {
+      "title": "Integration of Nutrition Topics in Osteopathic Medical School Curriculum - Shared Experiences.",
+      "areas": [
+        "533",
+        "662"
+      ]
+    },
+    "PMC2218760": {
+      "title": null,
+      "areas": [
+        "533"
+      ]
+    },
+    "PMC5748026": {
+      "title": "Abstract of 44th National Conference of Association of Clinical Biochemists of India (ACBICON 2017)",
+      "areas": [
+        "533"
+      ]
+    },
+    "39866113": {
+      "title": "2025 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association.",
+      "areas": [
+        "533"
+      ]
+    },
+    "31090026": {
+      "title": "Abstracts from the 2019 Annual Meeting of the Society of General Internal Medicine.",
+      "areas": [
+        "534"
+      ]
+    },
+    "41008601": {
+      "title": "&lt;i&gt;In Vitro&lt;/i&gt; Analysis of an &lt;i&gt;Alkalihalobacillus clausii&lt;/i&gt; Spore-Based Probiotic Formulation Clarifies the Mechanisms Underlying Its Beneficial Properties.",
+      "areas": [
+        "535"
+      ]
+    },
+    "42767801": {
+      "title": "Sustainable asthma inhalers: who is offered the option to change, who declines and who successfully switches?",
+      "areas": [
+        "535"
+      ]
+    },
+    "42583077": {
+      "title": "Practical considerations for monitoring patients with familial Mediterranean fever: review of evidence and expert opinion.",
+      "areas": [
+        "535"
+      ]
+    },
+    "41673353": {
+      "title": "A Pragmatic RCT of FF/UMEC/VI in Patients with Uncontrolled Asthma: PERFORM Protocol.",
+      "areas": [
+        "535"
+      ]
+    },
+    "25253128": {
+      "title": "Abstracts from the 27th Annual Congress, ESICM LIVES 2014, 27 September--1 October, 2014, Barcelona, Spain.",
+      "areas": [
+        "540"
+      ]
+    },
+    "28156288": {
+      "title": "Proceedings of the 15th International Congress on Circumpolar Health.",
+      "areas": [
+        "540"
+      ]
+    },
+    "PMC7162295": {
+      "title": "Posters",
+      "areas": [
+        "540"
+      ]
+    },
+    "42309606": {
+      "title": "Recovery and analysis of ancient DNA: challenges, methods, and applications in forensic and archaeological science.",
+      "areas": [
+        "548",
+        "776"
+      ]
+    },
+    "38528371": {
+      "title": "Diagnostic strategy of irritable bowel syndrome: a low- and middle-income country perspective.",
+      "areas": [
+        "558"
+      ]
+    },
+    "35092299": {
+      "title": "Approach to diarrhoeal disorders in children.",
+      "areas": [
+        "558"
+      ]
+    },
+    "42759161": {
+      "title": "CRISPR-Cas9 engineering for high-level β-galactosidase production in Saccharomyces boulardii.",
+      "areas": [
+        "562"
+      ]
+    },
+    "41471052": {
+      "title": "Advances in β-Galactosidase Research: A Systematic Review from Molecular Mechanisms to Enzyme Delivery Systems.",
+      "areas": [
+        "562"
+      ]
+    },
+    "38068827": {
+      "title": "Myths and Facts about Food Intolerance: A Narrative Review.",
+      "areas": [
+        "562"
+      ]
+    },
+    "42790488": {
+      "title": "Lactose Intolerance in Sub-Saharan Africa.",
+      "areas": [
+        "562"
+      ]
+    },
+    "38406012": {
+      "title": "Exploring Therapeutic Digestive Enzyme Landscape in India: Current Evidence, Profit Motives, Regulations, and Future Perspectives.",
+      "areas": [
+        "562"
+      ]
+    },
+    "21049310": {
+      "title": "Abstracts of the 2nd European Headache and Migraine Trust International Congress (EHMTIC). October 28-31, 2010. Nice, France.",
+      "areas": [
+        "574"
+      ]
+    },
+    "PMC7332235": {
+      "title": "Zoonoses",
+      "areas": [
+        "580"
+      ]
+    },
+    "PMC12075107": {
+      "title": "ESPGHAN 57th Annual Meeting Abstracts",
+      "areas": [
+        "581",
+        "624"
+      ]
+    },
+    "PMC7672684": {
+      "title": "UEG Week 2017 Oral Presentations",
+      "areas": [
+        "581"
+      ]
+    },
+    "PMC7163517": {
+      "title": "Poster Sessions",
+      "areas": [
+        "581"
+      ]
+    },
+    "36212591": {
+      "title": "Prevalence of anemia in pre-school tribal children with reference to parasitic infections and nutritional impact.",
+      "areas": [
+        "584"
+      ]
+    },
+    "16945042": {
+      "title": "International adoption: issues in infectious diseases.",
+      "areas": [
+        "584"
+      ]
+    },
+    "36156769": {
+      "title": "Local interventions for the management of alveolar osteitis (dry socket).",
+      "areas": [
+        "585"
+      ]
+    },
+    "PMC11470995": {
+      "title": "UEG Week 2024 Poster Presentations",
+      "areas": [
+        "585"
+      ]
+    },
+    "24097128": {
+      "title": "Efficacy of anti-inflammatory or antibiotic treatment in patients with non-complicated acute bronchitis and discoloured sputum: randomised placebo controlled trial.",
+      "areas": [
+        "585"
+      ]
+    },
+    "41081009": {
+      "title": "Unbalanced Macronutrient Intakes, Multiple Micronutrient Inadequacies, and Diarrhea Underscore Low-Height-for-Age in Indigenous Panamanian Preschool Children.",
+      "areas": [
+        "591"
+      ]
+    },
+    "39821089": {
+      "title": "Tropical fruit-derived Lactiplantibacillus as potential probiotic and antifungal agents against Fusarium oxysporum.",
+      "areas": [
+        "591"
+      ]
+    },
+    "41479668": {
+      "title": "Postbiotics in pediatric clinical practice: position paper from Special Group of Latin American Society of Pediatric Gastroenterology, Hepatology and Nutrition (LASPGHAN).",
+      "areas": [
+        "600"
+      ]
+    },
+    "33513886": {
+      "title": "Prevalence of Wheat/Gluten-Related Disorders and Gluten-Free Diet in Paraguay: An Online Survey-Based Study.",
+      "areas": [
+        "600"
+      ]
+    },
+    "34894304": {
+      "title": "Cow products: boon to human health and food security.",
+      "areas": [
+        "600"
+      ]
+    },
+    "1345147": {
+      "title": "Clinical guidelines. Report of a local initiative.",
+      "areas": [
+        "612"
+      ]
+    },
+    "PMC1676342": {
+      "title": "INDEX TO VOLUME 306 FOR 1993",
+      "areas": [
+        "612"
+      ]
+    },
+    "PMC7167830": {
+      "title": "Poster Session Abstracts",
+      "areas": [
+        "612"
+      ]
+    },
+    "PMC7167044": {
+      "title": "Abstracts",
+      "areas": [
+        "612"
+      ]
+    },
+    "PMC7167200": {
+      "title": "ACVIM Abstracts",
+      "areas": [
+        "612"
+      ]
+    },
+    "37816031": {
+      "title": "Symptomatic and asymptomatic enteric protozoan parasitic infection and their association with subsequent growth parameters in under five children in South Asia and sub-Saharan Africa.",
+      "areas": [
+        "624"
+      ]
+    },
+    "25475887": {
+      "title": "Severe acute malnutrition and infection.",
+      "areas": [
+        "624"
+      ]
+    },
+    "38152276": {
+      "title": "Biodiversity of Indonesian indigenous buffalo: First review of the status, challenges, and development opportunities.",
+      "areas": [
+        "626"
+      ]
+    },
+    "37834314": {
+      "title": "Genotype Prevalence of Lactose Deficiency, Vitamin D Deficiency, and the Vitamin D Receptor in a Chilean Inflammatory Bowel Disease Cohort: Insights from an Observational Study.",
+      "areas": [
+        "630"
+      ]
+    },
+    "41953058": {
+      "title": "Elimination of Autism Symptoms Using the Specific Carbohydrate Diet: Literature Review and Case Report.",
+      "areas": [
+        "630"
+      ]
+    },
+    "41195223": {
+      "title": "A novel frameshift variant in the &lt;i&gt;MED13&lt;/i&gt; gene causing intellectual developmental disorder-61 in a Chinese family.",
+      "areas": [
+        "630"
+      ]
+    },
+    "34630506": {
+      "title": "Tracing the Distribution of European Lactase Persistence Genotypes Along the Americas.",
+      "areas": [
+        "630"
+      ]
+    },
+    "41529917": {
+      "title": "Evaluation of safety and efficacy of the combination of mebeverine and sulpiride in treatment of patients with functional gastrointestinal disorders: A prospective cohort.",
+      "areas": [
+        "634"
+      ]
+    },
+    "38595383": {
+      "title": "Utilization of Probiotics Among Dental Students: A KAP Study.",
+      "areas": [
+        "634"
+      ]
+    },
+    "40927454": {
+      "title": "The impact of socioeconomic status on the burden of foodborne illnesses: a scoping review in the Middle East and North African region.",
+      "areas": [
+        "634"
+      ]
+    },
+    "41003230": {
+      "title": "&lt;i&gt;Candida intermedia&lt;/i&gt; Supplementation Enhances Immune Response and Modulates the Gut Microbiome in SARS-CoV-2 Vaccinated Mice.",
+      "areas": [
+        "634"
+      ]
+    },
+    "38892652": {
+      "title": "Nutritional Strategies for Preterm Neonates and Preterm Neonates Undergoing Surgery: New Insights for Practice and Wrong Beliefs to Uproot.",
+      "areas": [
+        "638"
+      ]
+    },
+    "41125286": {
+      "title": "Challenges in dietary decision-making among Chinese adults with inflammatory bowel disease: a qualitative study.",
+      "areas": [
+        "638"
+      ]
+    },
+    "42827539": {
+      "title": "Health benefits of fermented foods: a strategic roadmap from the PIMENTO initiative.",
+      "areas": [
+        "638",
+        "807"
+      ]
+    },
+    "41199988": {
+      "title": "A healthy start: examining the contribution of caregiving quality to child physical health from birth to 14 years.",
+      "areas": [
+        "638"
+      ]
+    },
+    "22363174": {
+      "title": "Good oral health and diet.",
+      "areas": [
+        "654"
+      ]
+    },
+    "16211161": {
+      "title": "The role of diet and nutrition in the etiology and prevention of oral diseases.",
+      "areas": [
+        "654"
+      ]
+    },
+    "3543352": {
+      "title": "Diet and the prevention of dental caries.",
+      "areas": [
+        "654"
+      ]
+    },
+    "PMC1873900": {
+      "title": null,
+      "areas": [
+        "654"
+      ]
+    },
+    "PMC7166345": {
+      "title": "Posters",
+      "areas": [
+        "654"
+      ]
+    },
+    "26387020": {
+      "title": "Invited review: Recommendations for reporting intervention studies on reproductive performance in dairy cattle: Improving design, analysis, and interpretation of research on reproduction.",
+      "areas": [
+        "659"
+      ]
+    },
+    "37220453": {
+      "title": "Comparison of Home-Blenderized Formula and Commercial Enteral Formulas for Gastrostomy Tube-Fed Children: A Retrospective, Prospective Cohort Study.",
+      "areas": [
+        "660"
+      ]
+    },
+    "PMC7121827": {
+      "title": "Modification of Animal Products for Fat and Other Characteristics",
+      "areas": [
+        "660"
+      ]
+    },
+    "33627443": {
+      "title": "The Changing Face of the Family <i>Enterobacteriaceae</i> (Order: \"<i>Enterobacterales</i>\"): New Members, Taxonomic Issues, Geographic Expansion, and New Diseases and Disease Syndromes.",
+      "areas": [
+        "660"
+      ]
+    },
+    "PMC10643713": {
+      "title": "The 7th Congress of Biophysicists of Russia - conference proceedings : Abstracts",
+      "areas": [
+        "660"
+      ]
+    },
+    "41232606": {
+      "title": "Current Research in Fermented Foods: Bridging Tradition and Science.",
+      "areas": [
+        "663"
+      ]
+    },
+    "9414969": {
+      "title": "Improved clinical tolerance to chronic lactose ingestion in subjects with lactose intolerance: a placebo effect?",
+      "areas": [
+        "663"
+      ]
+    },
+    "30572918": {
+      "title": "74th Congress of the Italian Society of Pediatrics : Rome, Italy. 12-16 June 2018.",
+      "areas": [
+        "663"
+      ]
+    },
+    "28795195": {
+      "title": "53 &lt;sup&gt;rd&lt;/sup&gt; EASD Annual Meeting of the European Association for the Study of Diabetes : Lisbon, Portugal, 11 - 15 September 2017.",
+      "areas": [
+        "663"
+      ]
+    },
+    "41353506": {
+      "title": "Physiochemical characteristics of date pollen extract-hybrid yoghurt as a functional dairy food modulates hypothyroidic symptoms in modeled rats.",
+      "areas": [
+        "686"
+      ]
+    },
+    "35684051": {
+      "title": "Efficacy of a Novel Therapeutic, Based on Natural Ingredients and Probiotics, in a Murine Model of Multiple Food Intolerance and Maldigestion.",
+      "areas": [
+        "686"
+      ]
+    },
+    "39307188": {
+      "title": "The Impact of Milk on Gut Permeability, Fecal 16S rRNA Gene Microbiota Profiling, and Fecal Metabolomics in Children with Moderate Malnutrition in Sierra Leone: A Double-Blind, Randomized Controlled Trial.",
+      "areas": [
+        "694"
+      ]
+    },
+    "40362788": {
+      "title": "Undernutrition and Intestinal Infections in Children: A Narrative Review.",
+      "areas": [
+        "694"
+      ]
+    },
+    "33547344": {
+      "title": "Genetic ancestry plays a central role in population pharmacogenomics.",
+      "areas": [
+        "694"
+      ]
+    },
+    "41897753": {
+      "title": "Processing-Induced Modifications of Camel Milk Immunoglobulins and Lactoferrin: Implications for Immunocompromised Pediatric Populations and Therapeutic Applications.",
+      "areas": [
+        "706"
+      ]
+    },
+    "40077697": {
+      "title": "Relevance of Milk Composition to Human Longitudinal Growth from Infancy Through Puberty: Facts and Controversies.",
+      "areas": [
+        "706"
+      ]
+    },
+    "39599634": {
+      "title": "Benefits of Camel Milk over Cow and Goat Milk for Infant and Adult Health in Fighting Chronic Diseases: A Review.",
+      "areas": [
+        "706"
+      ]
+    },
+    "39554333": {
+      "title": "An overview of probiotic camel milk as a nutritional beverage: Challenges and perspectives.",
+      "areas": [
+        "706",
+        "795"
+      ]
+    },
+    "38145055": {
+      "title": "A Scoping Review of Gut Microbiome and &lt;i&gt;Bifidobacterium&lt;/i&gt; Research in Zimbabwe: Implications for Future Studies.",
+      "areas": [
+        "716"
+      ]
+    },
+    "39125433": {
+      "title": "Effects of Milk and Dairy on the Risk and Course of Inflammatory Bowel Disease versus Patients' Dietary Beliefs and Practices: A Systematic Review.",
+      "areas": [
+        "716"
+      ]
+    },
+    "37553508": {
+      "title": "Risk factors for inpatient mortality among children with severe acute malnutrition in Zimbabwe and Zambia.",
+      "areas": [
+        "716"
+      ]
+    },
+    "39519517": {
+      "title": "Effects of Chicken Egg Powder, Bovine Colostrum, and Combination Therapy for the Treatment of Gastrointestinal Disorders.",
+      "areas": [
+        "716"
+      ]
+    },
+    "26728963": {
+      "title": "Genetic diversity of lactase persistence in East African populations.",
+      "areas": [
+        "728"
+      ]
+    },
+    "31357271": {
+      "title": "Recent advances in dairy goat products.",
+      "areas": [
+        "728"
+      ]
+    },
+    "37239386": {
+      "title": "The Second Highest Prevalence of Celiac Disease Worldwide: Genetic and Metabolic Insights in Southern Brazilian Mennonites.",
+      "areas": [
+        "732"
+      ]
+    },
+    "25372485": {
+      "title": "Consequences of the trans-Atlantic slave trade on medicinal plant selection: plant use for cultural bound syndromes affecting children in Suriname and Western Africa.",
+      "areas": [
+        "740"
+      ]
+    },
+    "PMC7252245": {
+      "title": "DIARRHEAL (DIARRHOEAL) DISEASES",
+      "areas": [
+        "740"
+      ]
+    },
+    "5546918": {
+      "title": "Lactose intolerance in Surinam.",
+      "areas": [
+        "740"
+      ]
+    },
+    "39769117": {
+      "title": "Heterologous Production, Purification and Characterization of Two Cold-Active β-d-Galactosidases with Transglycosylation Activity from the Psychrotolerant Arctic Bacterium <i>Arthrobacter</i> sp. S3* Isolated from Spitsbergen Island Soil.",
+      "areas": [
+        "744"
+      ]
+    },
+    "31547548": {
+      "title": "Enzymes from Marine Polar Regions and Their Biotechnological Applications.",
+      "areas": [
+        "744"
+      ]
+    },
+    "25651995": {
+      "title": "Manipulating the gut microbiota to maintain health and treat disease.",
+      "areas": [
+        "744"
+      ]
+    },
+    "16885310": {
+      "title": "Isolation, characterization, and ecology of cold-active, chemolithotrophic, sulfur-oxidizing bacteria from perennially ice-covered Lake Fryxell, Antarctica.",
+      "areas": [
+        "744"
+      ]
+    },
+    "34441717": {
+      "title": "Recent Applications of Mixture Designs in Beverages, Foods, and Pharmaceutical Health: A Systematic Review and Meta-Analysis.",
+      "areas": [
+        "748"
+      ]
+    },
+    "34751901": {
+      "title": "20th ISoP Annual Meeting \"Integrated pharmacovigilance for safer patients\" 8-10 November 2021 Muscat, Oman (Hybrid meeting).",
+      "areas": [
+        "748"
+      ]
+    },
+    "40075081": {
+      "title": "Biological, dietetic and pharmacological properties of vitamin B&lt;sub&gt;9&lt;/sub&gt;.",
+      "areas": [
+        "748"
+      ]
+    },
+    "41181455": {
+      "title": "Co-occurrence of Fanconi-Bickel syndrome and CMV infection in a child, a case report.",
+      "areas": [
+        "760"
+      ]
+    },
+    "37113926": {
+      "title": "Rectal prolapse as a manifestation of inflammatory bowel disease with celiac disease in a 2-year-old male: a rare case report.",
+      "areas": [
+        "760"
+      ]
+    },
+    "40735003": {
+      "title": "Variable Expressivity in Johanson-Blizzard Syndrome: A Case With Severe Manifestations and a Review of the Literature.",
+      "areas": [
+        "760"
+      ]
+    },
+    "41280398": {
+      "title": "Certain fermented dairy foods as a source of multibiotics and multimetabolites: a comprehensive review.",
+      "areas": [
+        "760"
+      ]
+    },
+    "35336638": {
+      "title": "Buckwheat and Amaranth as Raw Materials for Brewing, a Review.",
+      "areas": [
+        "762"
+      ]
+    },
+    "33519459": {
+      "title": "Phytosterols: From Preclinical Evidence to Potential Clinical Applications.",
+      "areas": [
+        "762"
+      ]
+    },
+    "35407012": {
+      "title": "Alternatives to Cow's Milk-Based Infant Formulas in the Prevention and Management of Cow's Milk Allergy.",
+      "areas": [
+        "762"
+      ]
+    },
+    "32252145": {
+      "title": "Components of human breast milk: from macronutrient to microbiome and microRNA.",
+      "areas": [
+        "768"
+      ]
+    },
+    "38719472": {
+      "title": "A new framework for exploratory network mediator analysis in omics data.",
+      "areas": [
+        "768"
+      ]
+    },
+    "32033348": {
+      "title": "Frequencies Evaluation of β-Casein Gene Polymorphisms in Dairy Cows Reared in Central Italy.",
+      "areas": [
+        "768"
+      ]
+    },
+    "28561524": {
+      "title": "Lactose digestion capacity and perceived symptomatic response after dairy product consumption in Tokelau Island migrants.",
+      "areas": [
+        "772"
+      ]
+    },
+    "PMC1611494": {
+      "title": "INDEX TO VOLUME 295 FOR 1987",
+      "areas": [
+        "772"
+      ]
+    },
+    "PMC7122059": {
+      "title": "Cutaneous, Subcutaneous and Systemic Mycology",
+      "areas": [
+        "772"
+      ]
+    },
+    "32492891": {
+      "title": "Nutritional Composition and Microbial Communities of Two Non-alcoholic Traditional Fermented Beverages from Zambia: A Study of &lt;i&gt;Mabisi&lt;/i&gt; and &lt;i&gt;Munkoyo&lt;/i&gt;.",
+      "areas": [
+        "776"
+      ]
+    },
+    "1014074": {
+      "title": "Lactose intolerance in East Indians of Trinidad.",
+      "areas": [
+        "780"
+      ]
+    },
+    "40182673": {
+      "title": "The multifaceted therapeutic properties of camel milk: from neuroprotection to anti-cancer effects.",
+      "areas": [
+        "795"
+      ]
+    },
+    "41098795": {
+      "title": "Impact of yogurt consumption on bone health markers in adults with or without osteoporosis: a systematic review and meta-analysis.",
+      "areas": [
+        "807"
+      ]
+    },
+    "40881085": {
+      "title": "Cow milk protein allergy mimics in infancy.",
+      "areas": [
+        "831"
+      ]
+    },
+    "41515254": {
+      "title": "A Narrative Review: A1 and A2 Milk Beta Caseins Effect on Gut Microbiota.",
+      "areas": [
+        "831"
+      ]
+    },
+    "40004974": {
+      "title": "The Role of Dairy in Human Nutrition: Myths and Realities.",
+      "areas": [
+        "831"
+      ]
+    },
+    "41723165": {
+      "title": "β-casomorphin-7: a review of occurrence, identification, techno-functionality, and effects on human health.",
+      "areas": [
+        "831"
+      ]
+    },
+    "40164777": {
+      "title": "Effect of lipid-based nutrient supplements on morbidity among children with stunting: secondary analysis of a randomized trial in Uganda.",
+      "areas": [
+        "833"
+      ]
+    },
+    "32771983": {
+      "title": "Randomised clinical trial of a gastrointestinal care bundle to reduce symptoms in patients with pelvic cancer undergoing chemoradiotherapy.",
+      "areas": [
+        "833"
+      ]
+    },
+    "37836548": {
+      "title": "The Acute Effect of Hydroxychloroquine Sulfate on Hunger, the Plasma Concentration of Orexigenic Peptides and Hedonic Food Intake: A Pilot Study.",
+      "areas": [
+        "833"
+      ]
+    },
+    "35421213": {
+      "title": "Epigenetic Effects of Healthy Foods and Lifestyle Habits from the Southern European Atlantic Diet Pattern: A Narrative Review.",
+      "areas": [
+        "833"
+      ]
+    },
+    "39942028": {
+      "title": "Novel Fermented Plant-Based Functional Beverage: Biological Potential and Impact on the Human Gut Microbiota.",
+      "areas": [
+        "854"
+      ]
+    },
+    "38350491": {
+      "title": "Micronutrient status in children aged 6-59 months with severe wasting and/or nutritional edema: implications for nutritional rehabilitation formulations.",
+      "areas": [
+        "854"
+      ]
+    },
+    "36175837": {
+      "title": "Assessment of probiotic and technological properties of Bacillus spp. isolated from Burkinabe Soumbala.",
+      "areas": [
+        "854"
+      ]
+    },
+    "38771133": {
+      "title": "Functional genomic analysis of the isolated potential probiotic &lt;i&gt;Lactobacillus delbrueckii&lt;/i&gt; subsp. &lt;i&gt;indicus&lt;/i&gt; TY-11 and its comparison with other &lt;i&gt;Lactobacillus delbrueckii&lt;/i&gt; strains.",
+      "areas": [
+        "854"
+      ]
+    },
+    "41703670": {
+      "title": "Diet, nutrition, and hormone therapy for prostate cancer: a systematic review with implications for future interventions.",
+      "areas": [
+        "882"
+      ]
+    },
+    "38668439": {
+      "title": "Health-Related Outcomes and Molecular Methods for the Characterization of A1 and A2 Cow's Milk: Review and Update.",
+      "areas": [
+        "882"
+      ]
+    },
+    "42081583": {
+      "title": "Community based countrywide analysis of lactase persistence related genetic variants and their correlation with digestive symptoms in Libya.",
+      "areas": [
+        "887"
+      ]
+    },
+    "40803700": {
+      "title": "Infants and children 6-59 months of age with severe wasting and/or nutritional oedema: evidence gaps identified during WHO guideline development.",
+      "areas": [
+        "887"
+      ]
+    },
+    "41517141": {
+      "title": "Multidimensional Analysis of Disaster Nutrition: A Holistic Model Proposal Across Nutrition, Technology, Logistics, and Policy Axes.",
+      "areas": [
+        "887"
+      ]
+    },
+    "40746620": {
+      "title": "The multifunctional role of bovine colostrum in managing diabetes: clinical insights and potential therapeutic effects.",
+      "areas": [
+        "887"
+      ]
+    }
+  },
+  "intake_crosscheck": {
+    "raw_sha": "be8793baaff381cafb612168c070d8de406b93c4",
+    "index_sha256": "fa6244fd2720bab9f41e1ac66866ecbcd582b35a16fbe0eaf2963920bc1f690d",
+    "source_leads": 2071,
+    "potential_same_area_lactose_lactase_title_or_condition_matches": 0
+  },
+  "manual_D1_holds": [
+    "004",
+    "008",
+    "031",
+    "052",
+    "068",
+    "086",
+    "092",
+    "112",
+    "120",
+    "136",
+    "162",
+    "180",
+    "188",
+    "192",
+    "214",
+    "218",
+    "232",
+    "248",
+    "275",
+    "304",
+    "328",
+    "332",
+    "336",
+    "368",
+    "384",
+    "398",
+    "450",
+    "474",
+    "499",
+    "531",
+    "533",
+    "534",
+    "540",
+    "558",
+    "562",
+    "581",
+    "591",
+    "600",
+    "612",
+    "630",
+    "638",
+    "654",
+    "666",
+    "686",
+    "732",
+    "740",
+    "760",
+    "780",
+    "807",
+    "854",
+    "876",
+    "887"
+  ]
+}

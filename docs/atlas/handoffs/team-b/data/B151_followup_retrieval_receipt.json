@@ -1,0 +1,97 @@
+{
+  "documents": [
+    {
+      "key": "PE_BP_HOW",
+      "org_id": "B-PE-SPHTA",
+      "url": "https://sphta.org.pe/wp-content/uploads/2025/01/Como-medir-la-presion-arterial-en-domicilio.pdf",
+      "checked_on": "2026-11-19T16:35:52.784385+00:00",
+      "final_url": "https://sphta.org.pe/wp-content/uploads/2025/01/Como-medir-la-presion-arterial-en-domicilio.pdf",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "b267f40b84a59597eddce443036bdbd55b7662036205a9174aaad740d0a98fc4",
+      "bytes": 677755,
+      "path": "/tmp/atlas-team-b-originals/PE_BP_HOW.bin",
+      "pdf": true
+    },
+    {
+      "key": "HU_FULLLIFE",
+      "org_id": "B-HU-MDT",
+      "url": "https://www.doki.net/tarsasag/diabetespaciens/info.aspx?sp=270&web_id=",
+      "checked_on": "2026-11-19T16:35:52.784870+00:00",
+      "final_url": "https://www.doki.net/tarsasag/diabetespaciens/info.aspx?sp=270&web_id=",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "9d40f01ac83ea1c12d942e72d0523951ea35c5f000cd3982915a3aa023ea96f4",
+      "bytes": 116131,
+      "path": "/tmp/atlas-team-b-originals/HU_FULLLIFE.bin",
+      "pdf": false
+    },
+    {
+      "key": "HU_DIABCHAPTER_PDF",
+      "org_id": "B-HU-MDT",
+      "url": "https://diabet.hu/upload/diabetes/document/SAN_MDT_fuzet_200x200_Feltolteni_FF_1_FEJ.pdf?web_id=",
+      "checked_on": "2026-11-19T16:38:13.816273+00:00",
+      "final_url": "https://diabet.hu/upload/diabetes/document/SAN_MDT_fuzet_200x200_Feltolteni_FF_1_FEJ.pdf?web_id=",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "efa0892adc4114af6737b4f787dbe0cc801dd14537e2caf53cf335925fa38816",
+      "bytes": 807677,
+      "path": "/tmp/atlas-team-b-originals/HU_DIABCHAPTER_PDF.bin",
+      "pdf": true
+    },
+    {
+      "key": "HU_BPCHAPTER_PDF",
+      "org_id": "B-HU-MDT",
+      "url": "https://diabet.hu/upload/diabetes/document/SAN_MDT_fuzet_200x200_Feltolteni_FF_13_FEJ.pdf?web_id=",
+      "checked_on": "2026-11-19T16:38:13.816686+00:00",
+      "final_url": "https://diabet.hu/upload/diabetes/document/SAN_MDT_fuzet_200x200_Feltolteni_FF_13_FEJ.pdf?web_id=",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "c70235ded7153157ea58157e8ff9b7ac2a6572a00e6bb7cc87286d9a51bbcf2f",
+      "bytes": 1225223,
+      "path": "/tmp/atlas-team-b-originals/HU_BPCHAPTER_PDF.bin",
+      "pdf": true
+    }
+  ],
+  "wrapper_observations": [
+    {
+      "key": "HU_DIABCHAPTER",
+      "org_id": "B-HU-MDT",
+      "url": "http://www.diabet.hu/docread.aspx?r_id=3432363038",
+      "checked_on": "2026-11-19T16:37:30.356520+00:00",
+      "final_url": "http://www.diabet.hu/docread.aspx?r_id=3432363038",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "160422fcfd989a2ff8e3bf5ddec3e4131c9858b1bd6a67553d70735b032f01eb",
+      "bytes": 4159,
+      "path": "/tmp/atlas-team-b-originals/HU_DIABCHAPTER.bin",
+      "pdf": false
+    },
+    {
+      "key": "HU_BPCHAPTER",
+      "org_id": "B-HU-MDT",
+      "url": "http://www.diabet.hu/docread.aspx?r_id=3432363230",
+      "checked_on": "2026-11-19T16:37:30.357000+00:00",
+      "final_url": "http://www.diabet.hu/docread.aspx?r_id=3432363230",
+      "status": "original_retrieved_not_yet_qualified",
+      "sha256": "c8bf1231f76769ef684ab1032d7d2e7953aa7b65ccdf0169970af372a6ccdc6d",
+      "bytes": 4174,
+      "path": "/tmp/atlas-team-b-originals/HU_BPCHAPTER.bin",
+      "pdf": false
+    }
+  ],
+  "tls_observations": [
+    {
+      "key": "HU_DIABCHAPTER_PDF",
+      "org_id": "B-HU-MDT",
+      "url": "https://www.diabet.hu/upload/diabetes/document/SAN_MDT_fuzet_200x200_Feltolteni_FF_1_FEJ.pdf?web_id=",
+      "checked_on": "2026-11-19T16:38:02.289786+00:00",
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.diabet.hu'. (_ssl.c:1129)>"
+    },
+    {
+      "key": "HU_BPCHAPTER_PDF",
+      "org_id": "B-HU-MDT",
+      "url": "https://www.diabet.hu/upload/diabetes/document/SAN_MDT_fuzet_200x200_Feltolteni_FF_13_FEJ.pdf?web_id=",
+      "checked_on": "2026-11-19T16:38:02.290259+00:00",
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.diabet.hu'. (_ssl.c:1129)>"
+    }
+  ],
+  "limits": "Wrapper pages and TLS failures are not inspected source bodies. Tracker IP/HTML bodies not exported. Only exact local cache paths/hash metadata retained."
+}

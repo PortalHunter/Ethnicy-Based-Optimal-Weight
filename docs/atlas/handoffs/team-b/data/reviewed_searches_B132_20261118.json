@@ -1,0 +1,1222 @@
+[
+  {
+    "record_id": "B132-HH-140",
+    "area_m49": "140",
+    "condition_key": "hemochromatosis",
+    "query": "\"Centrafrique\" \"hémochromatose\"",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Central+African+Republic%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Centrafrique%22%20%22h%C3%A9mochromatose%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: No exact eligible original condition-specific local issuer surfaced; unrelated Bangui digestive-bleeding archive not HH evidence."
+      }
+    ],
+    "result": "No exact eligible original condition-specific local issuer surfaced; unrelated Bangui digestive-bleeding archive not HH evidence. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-148",
+    "area_m49": "148",
+    "condition_key": "hemochromatosis",
+    "query": "\"Tchad\" \"hémochromatose\"",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Chad%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Tchad%22%20%22h%C3%A9mochromatose%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Author-profile digestive-bleeding Ndjamena reference not HH original; no eligible local HH original surfaced."
+      }
+    ],
+    "result": "Author-profile digestive-bleeding Ndjamena reference not HH original; no eligible local HH original surfaced. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-478",
+    "area_m49": "478",
+    "condition_key": "hemochromatosis",
+    "query": "\"Mauritanie\" \"hémochromatose\"",
+    "language": "fr",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Mauritania%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Mauritanie%22%20%22h%C3%A9mochromatose%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Mali-hosted Mauritanian diabetes thesis merely lists HH as secondary diabetes cause; EM-consulte2011 hepcidin review with Nouakchott affiliation is a candidate requiring original body, precise local entity and source-role inspection."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://www.em-consulte.com/article/281629/lhepcidinec-etat-actuel-de-nos-connaissances",
+        "observation": "Mali-hosted Mauritanian diabetes thesis merely lists HH as secondary diabetes cause; EM-consulte2011 hepcidin review with Nouakchott affiliation is a candidate requiring original body, precise local entity and source-role inspection."
+      }
+    ],
+    "result": "Mali-hosted Mauritanian diabetes thesis merely lists HH as secondary diabetes cause; EM-consulte2011 hepcidin review with Nouakchott affiliation is a candidate requiring original body, precise local entity and source-role inspection. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-562",
+    "area_m49": "562",
+    "condition_key": "hemochromatosis",
+    "query": "\"Niger\" \"hémochromatose\"",
+    "language": "fr",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Niger%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Niger%22%20%22h%C3%A9mochromatose%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Niger news education and catalogue microcytic-sickle-cell study mention biological iron overload; not verified hereditary HH or qualifying original local organization. Secondary transfusional overload not equated with hereditary HH."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://pmb.ccnigerien.org/opac_css/index.php?id=102729&lvl=notice_display",
+        "observation": "Niger news education and catalogue microcytic-sickle-cell study mention biological iron overload; not verified hereditary HH or qualifying original local organization. Secondary transfusional overload not equated with hereditary HH."
+      }
+    ],
+    "result": "Niger news education and catalogue microcytic-sickle-cell study mention biological iron overload; not verified hereditary HH or qualifying original local organization. Secondary transfusional overload not equated with hereditary HH. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-178",
+    "area_m49": "178",
+    "condition_key": "hemochromatosis",
+    "query": "\"Congo\" \"hémochromatose\" Brazzaville",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Congo%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Congo%22%20%22h%C3%A9mochromatose%22%20Brazzaville",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Original journal abstract Ngolet/Loumingou/Ntsiba/Elira Dokekias2013 describes fatal cardiac siderosis after multiple transfusions in sickle-cell disease, not hereditary HH. Local secondary iron overload not silently recoded as hereditary disease."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://www.santetropicale.com/manelec/fr/fmc/pharma/resume_oa.asp?id_article=2406",
+        "observation": "Original journal abstract Ngolet/Loumingou/Ntsiba/Elira Dokekias2013 describes fatal cardiac siderosis after multiple transfusions in sickle-cell disease, not hereditary HH. Local secondary iron overload not silently recoded as hereditary disease."
+      }
+    ],
+    "result": "Original journal abstract Ngolet/Loumingou/Ntsiba/Elira Dokekias2013 describes fatal cardiac siderosis after multiple transfusions in sickle-cell disease, not hereditary HH. Local secondary iron overload not silently recoded as hereditary disease. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-180",
+    "area_m49": "180",
+    "condition_key": "hemochromatosis",
+    "query": "\"Congo\" \"hémochromatose\" Kinshasa",
+    "language": "fr",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Democratic+Republic+of+Congo%22+OR+AFF%3A%22DR+Congo%22+OR+AFF%3A%22Zaire%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Congo%22%20%22h%C3%A9mochromatose%22%20Kinshasa",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: 2024 RAMS neonatal hemochromatosis original case candidate and2026 transfusion-risk review surfaced. Neither neonatal syndrome nor transfusional secondary iron overload assumed hereditary HH; original case access/local attribution requires inspection."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://www.rams-journal.com/index.php/RAMS/article/download/377/93/200",
+        "observation": "2024 RAMS neonatal hemochromatosis original case candidate and2026 transfusion-risk review surfaced. Neither neonatal syndrome nor transfusional secondary iron overload assumed hereditary HH; original case access/local attribution requires inspection."
+      }
+    ],
+    "result": "2024 RAMS neonatal hemochromatosis original case candidate and2026 transfusion-risk review surfaced. Neither neonatal syndrome nor transfusional secondary iron overload assumed hereditary HH; original case access/local attribution requires inspection. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-204",
+    "area_m49": "204",
+    "condition_key": "hemochromatosis",
+    "query": "\"Benin\" \"hémochromatose\"",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Benin%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Benin%22%20%22h%C3%A9mochromatose%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: No exact eligible local hereditary-HH source surfaced in returned first-page results; external EASL/French resources not local authorship."
+      }
+    ],
+    "result": "No exact eligible local hereditary-HH source surfaced in returned first-page results; external EASL/French resources not local authorship. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-768",
+    "area_m49": "768",
+    "condition_key": "hemochromatosis",
+    "query": "\"Togo\" \"hémochromatose\"",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Togo%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Togo%22%20%22h%C3%A9mochromatose%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Local health-news listing mentions HH among silent diseases but not verified eligible medical organization/source; Mali thesis author Togo Amagara Domon is a name, not Togolese domicile. No local original HH source verified."
+      }
+    ],
+    "result": "Local health-news listing mentions HH among silent diseases but not verified eligible medical organization/source; Mali thesis author Togo Amagara Domon is a name, not Togolese domicile. No local original HH source verified. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-232",
+    "area_m49": "232",
+    "condition_key": "hemochromatosis",
+    "query": "\"Eritrea\" \"hereditary hemochromatosis\"",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Eritrea%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Eritrea%22%20%22hereditary%20hemochromatosis%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Eritrean healthy-donor anemia catalogue and general iron homeostasis references not original hereditary-HH local evidence."
+      }
+    ],
+    "result": "Eritrean healthy-donor anemia catalogue and general iron homeostasis references not original hereditary-HH local evidence. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-270",
+    "area_m49": "270",
+    "condition_key": "hemochromatosis",
+    "query": "\"Gambia\" \"hereditary hemochromatosis\"",
+    "language": "en",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Gambia%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Gambia%22%20%22hereditary%20hemochromatosis%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: External HFE ancestry reanalysis includes Gambian population but local original authorship not verified; MRC Gambia child iron-deficiency/malaria primary study differs from hereditary HH. Underlying local HFE study remains candidate; national ancestry exclusions not adopted."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://journals.sagepub.com/doi/full/10.1089/gtmb.2020.0154",
+        "observation": "External HFE ancestry reanalysis includes Gambian population but local original authorship not verified; MRC Gambia child iron-deficiency/malaria primary study differs from hereditary HH. Underlying local HFE study remains candidate; national ancestry exclusions not adopted."
+      }
+    ],
+    "result": "External HFE ancestry reanalysis includes Gambian population but local original authorship not verified; MRC Gambia child iron-deficiency/malaria primary study differs from hereditary HH. Underlying local HFE study remains candidate; national ancestry exclusions not adopted. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-430",
+    "area_m49": "430",
+    "condition_key": "hemochromatosis",
+    "query": "\"Liberia\" \"hereditary hemochromatosis\"",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Liberia%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Liberia%22%20%22hereditary%20hemochromatosis%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Original Pharmacologia2025 study names Liberia coauthor but models iron-dextran induced overload in Wistar rats; not confirmed human hereditary HH. Country coauthor not study population or journal country."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://pharmacologia.scione.com/cms/fulltext.php?id=130",
+        "observation": "Original Pharmacologia2025 study names Liberia coauthor but models iron-dextran induced overload in Wistar rats; not confirmed human hereditary HH. Country coauthor not study population or journal country."
+      }
+    ],
+    "result": "Original Pharmacologia2025 study names Liberia coauthor but models iron-dextran induced overload in Wistar rats; not confirmed human hereditary HH. Country coauthor not study population or journal country. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-694",
+    "area_m49": "694",
+    "condition_key": "hemochromatosis",
+    "query": "\"Sierra Leone\" \"hereditary hemochromatosis\"",
+    "language": "en",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Sierra+Leone%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Sierra%20Leone%22%20%22hereditary%20hemochromatosis%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: External HFE ancestry-frequency reanalysis includes Sierra Leone but no original local issuer verified; sickle-cell conference material is a different condition. Primary underlying local HFE source remains candidate, no population absence inference."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://journals.sagepub.com/doi/full/10.1089/gtmb.2020.0154",
+        "observation": "External HFE ancestry-frequency reanalysis includes Sierra Leone but no original local issuer verified; sickle-cell conference material is a different condition. Primary underlying local HFE source remains candidate, no population absence inference."
+      }
+    ],
+    "result": "External HFE ancestry-frequency reanalysis includes Sierra Leone but no original local issuer verified; sickle-cell conference material is a different condition. Primary underlying local HFE source remains candidate, no population absence inference. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-426",
+    "area_m49": "426",
+    "condition_key": "hemochromatosis",
+    "query": "\"Lesotho\" \"hemochromatosis\"",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Lesotho%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Lesotho%22%20%22hemochromatosis%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Commercial country-targeted course outline/market forecasts are metadata/marketing, not local original medical issuer or condition evidence."
+      }
+    ],
+    "result": "Commercial country-targeted course outline/market forecasts are metadata/marketing, not local original medical issuer or condition evidence. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-748",
+    "area_m49": "748",
+    "condition_key": "hemochromatosis",
+    "query": "\"Eswatini\" \"hemochromatosis\"",
+    "language": "en",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Eswatini%22+OR+AFF%3A%22Swaziland%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Eswatini%22%20%22hemochromatosis%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: OpenAlex country menus are not local affiliations. Historical regional iron-overload report including Swaziland is a lead requiring original local role and hereditary versus acquired subtype, not proof of local HH source."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5490555/",
+        "observation": "OpenAlex country menus are not local affiliations. Historical regional iron-overload report including Swaziland is a lead requiring original local role and hereditary versus acquired subtype, not proof of local HH source."
+      }
+    ],
+    "result": "OpenAlex country menus are not local affiliations. Historical regional iron-overload report including Swaziland is a lead requiring original local role and hereditary versus acquired subtype, not proof of local HH source. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-454",
+    "area_m49": "454",
+    "condition_key": "hemochromatosis",
+    "query": "\"Malawi\" \"hereditary hemochromatosis\"",
+    "language": "en",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Malawi%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Malawi%22%20%22hereditary%20hemochromatosis%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Iron for Africa workshop includes Malawi experts but iron deficiency is not hereditary HH. Historical regional overload claims and malaria/plague bibliographies require original local subtype/source inspection; not qualified from mentions."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5490555/",
+        "observation": "Iron for Africa workshop includes Malawi experts but iron deficiency is not hereditary HH. Historical regional overload claims and malaria/plague bibliographies require original local subtype/source inspection; not qualified from mentions."
+      }
+    ],
+    "result": "Iron for Africa workshop includes Malawi experts but iron deficiency is not hereditary HH. Historical regional overload claims and malaria/plague bibliographies require original local subtype/source inspection; not qualified from mentions. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-646",
+    "area_m49": "646",
+    "condition_key": "hemochromatosis",
+    "query": "\"Rwanda\" \"hémochromatose\"",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Rwanda%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Rwanda%22%20%22h%C3%A9mochromatose%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Individual travel/patient blog describing phlebotomy does not establish independent local specialist publication; foreign diabetes review citation and transfusion-review country mentions not local hereditary-HH authorship."
+      }
+    ],
+    "result": "Individual travel/patient blog describing phlebotomy does not establish independent local specialist publication; foreign diabetes review citation and transfusion-review country mentions not local hereditary-HH authorship. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-678",
+    "area_m49": "678",
+    "condition_key": "hemochromatosis",
+    "query": "\"Sao Tome\" hemocromatose",
+    "language": "pt",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Sao+Tome+and+Principe%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Sao%20Tome%22%20hemocromatose",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: No eligible exact local HH original surfaced in returned Portuguese first page; unrelated regional clinical/programme material not assigned to local issuer."
+      }
+    ],
+    "result": "No eligible exact local HH original surfaced in returned Portuguese first page; unrelated regional clinical/programme material not assigned to local issuer. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-624",
+    "area_m49": "624",
+    "condition_key": "hemochromatosis",
+    "query": "\"Guiné-Bissau\" hemocromatose",
+    "language": "pt",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Guinea-Bissau%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Guin%C3%A9-Bissau%22%20hemocromatose",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: National blood-service/development and fungal-diagnostic surveys are different topics, not local hereditary-HH sources; Portuguese search and directory bounded."
+      }
+    ],
+    "result": "National blood-service/development and fungal-diagnostic surveys are different topics, not local hereditary-HH sources; Portuguese search and directory bounded. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-132",
+    "area_m49": "132",
+    "condition_key": "hemochromatosis",
+    "query": "\"Cabo Verde\" hemocromatose",
+    "language": "pt",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Cabo+Verde%22+OR+AFF%3A%22Cape+Verde%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Cabo%20Verde%22%20hemocromatose",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Portuguese meeting book result juxtaposes HH/H63D abstract and separate Praia patient; exact abstract boundaries/local authors not inspected. Hemoglobinopathy/sickle-cell laboratory studies differ from HH; no merge based on adjacent snippet."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://www.admedic.pt/uploads/programa_xvi-congresso-nacional-de-doenc-as-infeciosas-e-microbiologia-cli-nica-e-xiv-congresso-nacional-vih-sida.pdf",
+        "observation": "Portuguese meeting book result juxtaposes HH/H63D abstract and separate Praia patient; exact abstract boundaries/local authors not inspected. Hemoglobinopathy/sickle-cell laboratory studies differ from HH; no merge based on adjacent snippet."
+      }
+    ],
+    "result": "Portuguese meeting book result juxtaposes HH/H63D abstract and separate Praia patient; exact abstract boundaries/local authors not inspected. Hemoglobinopathy/sickle-cell laboratory studies differ from HH; no merge based on adjacent snippet. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-226",
+    "area_m49": "226",
+    "condition_key": "hemochromatosis",
+    "query": "\"Guinée équatoriale\" hémochromatose",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Equatorial+Guinea%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Guin%C3%A9e%20%C3%A9quatoriale%22%20h%C3%A9mochromatose",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: French foreign travel-health pages not eligible local independent HH issuer; no exact original condition-specific source verified. French search not exhaustive Spanish/local-language coverage."
+      }
+    ],
+    "result": "French foreign travel-health pages not eligible local independent HH issuer; no exact original condition-specific source verified. French search not exhaustive Spanish/local-language coverage. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-706",
+    "area_m49": "706",
+    "condition_key": "hemochromatosis",
+    "query": "\"Somalia\" \"hereditary hemochromatosis\"",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Somalia%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Somalia%22%20%22hereditary%20hemochromatosis%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Original Somalia2017 HCC review lists HH among possible etiologies/screening differentials but does not establish hereditary-HH study or substantive HH-specific guidance. Commercial surname/genetic-product page not local biomedical source."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://www.scirp.org/journal/paperinformation?paperid=75042",
+        "observation": "Original Somalia2017 HCC review lists HH among possible etiologies/screening differentials but does not establish hereditary-HH study or substantive HH-specific guidance. Commercial surname/genetic-product page not local biomedical source."
+      }
+    ],
+    "result": "Original Somalia2017 HCC review lists HH among possible etiologies/screening differentials but does not establish hereditary-HH study or substantive HH-specific guidance. Commercial surname/genetic-product page not local biomedical source. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-728",
+    "area_m49": "728",
+    "condition_key": "hemochromatosis",
+    "query": "\"South Sudan\" \"hereditary hemochromatosis\"",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22South+Sudan%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22South%20Sudan%22%20%22hereditary%20hemochromatosis%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: EHA South Sudan sickle-cell abstract differs from HH; Sudan university publication lists are not South Sudan domicile; no eligible local HH source verified."
+      }
+    ],
+    "result": "EHA South Sudan sickle-cell abstract differs from HH; Sudan university publication lists are not South Sudan domicile; no eligible local HH source verified. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-690",
+    "area_m49": "690",
+    "condition_key": "hemochromatosis",
+    "query": "\"Seychelles\" \"haemochromatosis\"",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Seychelles%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Seychelles%22%20%22haemochromatosis%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Australian administrative reference list has separate Seychelles diabetes/alcohol-cardiomyopathy and foreign genetic-HH citations; adjacent references not Seychelles HH authorship or study."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://www.smrc.gov.au/sites/default/files/2023-06/4reasons-SoP47_1996_diabetes_mellitus.pdf",
+        "observation": "Australian administrative reference list has separate Seychelles diabetes/alcohol-cardiomyopathy and foreign genetic-HH citations; adjacent references not Seychelles HH authorship or study."
+      }
+    ],
+    "result": "Australian administrative reference list has separate Seychelles diabetes/alcohol-cardiomyopathy and foreign genetic-HH citations; adjacent references not Seychelles HH authorship or study. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-508",
+    "area_m49": "508",
+    "condition_key": "hemochromatosis",
+    "query": "\"Mozambique\" \"hemocromatose\"",
+    "language": "pt",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Mozambique%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Mozambique%22%20%22hemocromatose%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Educational mirror mentions secondary transfusional iron overload; original author/imprint not inspected and not hereditary HH; Brazilian imaging guideline not Mozambican society authorship."
+      }
+    ],
+    "result": "Educational mirror mentions secondary transfusional iron overload; original author/imprint not inspected and not hereditary HH; Brazilian imaging guideline not Mozambican society authorship. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-450",
+    "area_m49": "450",
+    "condition_key": "hemochromatosis",
+    "query": "\"Madagascar\" \"hémochromatose\"",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Madagascar%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Madagascar%22%20%22h%C3%A9mochromatose%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: General sickle-cell hematology wiki and regional news references are not verified local hereditary-HH originals; no eligible exact local source found through specified routes."
+      }
+    ],
+    "result": "General sickle-cell hematology wiki and regional news references are not verified local hereditary-HH originals; no eligible exact local source found through specified routes. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-466",
+    "area_m49": "466",
+    "condition_key": "hemochromatosis",
+    "query": "\"Mali\" \"hémochromatose\" héréditaire",
+    "language": "fr",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Mali%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Mali%22%20%22h%C3%A9mochromatose%22%20h%C3%A9r%C3%A9ditaire",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Original Mali-hosted academic theses contain hereditary-HH background and diabetes/cirrhosis differentials, but exact source body, local authorship and substantive condition-specific scope not yet inspected; not promoted from search excerpts."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://bibliosante.ml/bitstream/handle/123456789/7926/06M302.pdf?sequence=1",
+        "observation": "Original Mali-hosted academic theses contain hereditary-HH background and diabetes/cirrhosis differentials, but exact source body, local authorship and substantive condition-specific scope not yet inspected; not promoted from search excerpts."
+      }
+    ],
+    "result": "Original Mali-hosted academic theses contain hereditary-HH background and diabetes/cirrhosis differentials, but exact source body, local authorship and substantive condition-specific scope not yet inspected; not promoted from search excerpts. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-686",
+    "area_m49": "686",
+    "condition_key": "hemochromatosis",
+    "query": "\"Senegal\" \"hémochromatose\" héréditaire",
+    "language": "fr",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Senegal%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Senegal%22%20%22h%C3%A9mochromatose%22%20h%C3%A9r%C3%A9ditaire",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Historical HFE C282Y population paper includes Senegal and Ethiopia in title; local author/institution roles not verified. Country study sample not publisher/author. No ancestry-wide absence inference."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://www.researchgate.net/publication/388083397_Hemochromatose",
+        "observation": "Historical HFE C282Y population paper includes Senegal and Ethiopia in title; local author/institution roles not verified. Country study sample not publisher/author. No ancestry-wide absence inference."
+      }
+    ],
+    "result": "Historical HFE C282Y population paper includes Senegal and Ethiopia in title; local author/institution roles not verified. Country study sample not publisher/author. No ancestry-wide absence inference. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-384",
+    "area_m49": "384",
+    "condition_key": "hemochromatosis",
+    "query": "\"Côte d’Ivoire\" \"hémochromatose\"",
+    "language": "fr",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22C%C3%B4te+d%E2%80%99Ivoire%22+OR+AFF%3A%22C%C3%B4te+d%27Ivoire%22+OR+AFF%3A%22Ivory+Coast%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22C%C3%B4te%20d%E2%80%99Ivoire%22%20%22h%C3%A9mochromatose%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Original2019/2021 Abidjan polytransfused-sickle-cell iron-overload study differs from hereditary HH; journal Senegal hosting not Ivorian publication country without imprint evidence. No hereditary-HH source qualified."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://revafric-bm.sn/wordpress/wp-content/uploads/2022/02/Revafric-BM-N%C2%B015-Octobre-2021.pdf",
+        "observation": "Original2019/2021 Abidjan polytransfused-sickle-cell iron-overload study differs from hereditary HH; journal Senegal hosting not Ivorian publication country without imprint evidence. No hereditary-HH source qualified."
+      }
+    ],
+    "result": "Original2019/2021 Abidjan polytransfused-sickle-cell iron-overload study differs from hereditary HH; journal Senegal hosting not Ivorian publication country without imprint evidence. No hereditary-HH source qualified. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-762",
+    "area_m49": "762",
+    "condition_key": "hemochromatosis",
+    "query": "Таджикистан гемохроматоз наследственный",
+    "language": "ru",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Tajikistan%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%D0%A2%D0%B0%D0%B4%D0%B6%D0%B8%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%20%D0%B3%D0%B5%D0%BC%D0%BE%D1%85%D1%80%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%20%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: No exact Tajikistan original issuer verified in returned Russian first-page results; Russian commercial country-targeted lab pages for other countries rejected."
+      }
+    ],
+    "result": "No exact Tajikistan original issuer verified in returned Russian first-page results; Russian commercial country-targeted lab pages for other countries rejected. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-795",
+    "area_m49": "795",
+    "condition_key": "hemochromatosis",
+    "query": "Туркменистан гемохроматоз наследственный",
+    "language": "ru",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Turkmenistan%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%D0%A2%D1%83%D1%80%D0%BA%D0%BC%D0%B5%D0%BD%D0%B8%D1%81%D1%82%D0%B0%D0%BD%20%D0%B3%D0%B5%D0%BC%D0%BE%D1%85%D1%80%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%20%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: No exact Turkmenistan original issuer verified in returned Russian first-page results; foreign textbooks/commercial lab menus not local authorship."
+      }
+    ],
+    "result": "No exact Turkmenistan original issuer verified in returned Russian first-page results; foreign textbooks/commercial lab menus not local authorship. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-860",
+    "area_m49": "860",
+    "condition_key": "hemochromatosis",
+    "query": "Узбекистан гемохроматоз наследственный",
+    "language": "ru",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Uzbekistan%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%20%D0%B3%D0%B5%D0%BC%D0%BE%D1%85%D1%80%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%20%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Own Bukhara medical institute and Tashkent dental library original textbook-hosting candidates surfaced; original imprint, substantive chapter and host identity to inspect before H classification. Commercial lab marketing not automatic education qualification."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://book.bsmi.uz/web/kitoblar/152370847.pdf",
+        "observation": "Own Bukhara medical institute and Tashkent dental library original textbook-hosting candidates surfaced; original imprint, substantive chapter and host identity to inspect before H classification. Commercial lab marketing not automatic education qualification."
+      }
+    ],
+    "result": "Own Bukhara medical institute and Tashkent dental library original textbook-hosting candidates surfaced; original imprint, substantive chapter and host identity to inspect before H classification. Commercial lab marketing not automatic education qualification. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-417",
+    "area_m49": "417",
+    "condition_key": "hemochromatosis",
+    "query": "Кыргызстан гемохроматоз наследственный",
+    "language": "ru",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Kyrgyzstan%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%D0%9A%D1%8B%D1%80%D0%B3%D1%8B%D0%B7%D1%81%D1%82%D0%B0%D0%BD%20%D0%B3%D0%B5%D0%BC%D0%BE%D1%85%D1%80%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%20%D0%BD%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Jalal-Abad university library hosts apparent clinical hematology book; original imprint, HH chapter and exact library identity to inspect. Paid lab tests not genetic clinical approval."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://jasulib.org.kg/wp-content/uploads/2024/05/3230.pdf",
+        "observation": "Jalal-Abad university library hosts apparent clinical hematology book; original imprint, HH chapter and exact library identity to inspect. Paid lab tests not genetic clinical approval."
+      }
+    ],
+    "result": "Jalal-Abad university library hosts apparent clinical hematology book; original imprint, HH chapter and exact library identity to inspect. Paid lab tests not genetic clinical approval. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-418",
+    "area_m49": "418",
+    "condition_key": "hemochromatosis",
+    "query": "\"Lao\" \"hemochromatosis\" hereditary",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Laos%22+OR+AFF%3A%22Lao+PDR%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Lao%22%20%22hemochromatosis%22%20hereditary",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Lao surname/author-name results and Vietnamese tuberculosis term lao not Lao PDR institutional evidence. No eligible exact local HH source verified through specified routes."
+      }
+    ],
+    "result": "Lao surname/author-name results and Vietnamese tuberculosis term lao not Lao PDR institutional evidence. No eligible exact local HH source verified through specified routes. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-626",
+    "area_m49": "626",
+    "condition_key": "hemochromatosis",
+    "query": "\"Timor-Leste\" \"hemochromatosis\"",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Timor-Leste%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Timor-Leste%22%20%22hemochromatosis%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Commercial hematologic market forecast and cross-border cardiac-care social profile are not substantive original local HH evidence."
+      }
+    ],
+    "result": "Commercial hematologic market forecast and cross-border cardiac-care social profile are not substantive original local HH evidence. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-462",
+    "area_m49": "462",
+    "condition_key": "hemochromatosis",
+    "query": "\"Maldives\" \"hemochromatosis\" hereditary",
+    "language": "en",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Maldives%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Maldives%22%20%22hemochromatosis%22%20hereditary",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Original2023 HCC/HH case PDF has Hulhumale Hospital coauthor; inspect fullmethods, local role, hereditary-genotype and journal imprint before qualifying. Thalassemia/chelation thesis differs from hereditary HH."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://assets.ctfassets.net/e0h7lzmer4zr/7uHo4vk3QgBYjM5vKbCHJc/a56861abe22830d35ccd7fc7c41f4692/ICMCRJ-2-1276.pdf",
+        "observation": "Original2023 HCC/HH case PDF has Hulhumale Hospital coauthor; inspect fullmethods, local role, hereditary-genotype and journal imprint before qualifying. Thalassemia/chelation thesis differs from hereditary HH."
+      }
+    ],
+    "result": "Original2023 HCC/HH case PDF has Hulhumale Hospital coauthor; inspect fullmethods, local role, hereditary-genotype and journal imprint before qualifying. Thalassemia/chelation thesis differs from hereditary HH. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-104",
+    "area_m49": "104",
+    "condition_key": "hemochromatosis",
+    "query": "\"Myanmar\" \"hereditary hemochromatosis\"",
+    "language": "en",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Myanmar%22+OR+AFF%3A%22Burma%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=%22Myanmar%22%20%22hereditary%20hemochromatosis%22",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Historical multicentric-HFE paper includes Myanmar population indexing, but local author/issuer not verified. APASL catalogue adjacent China-HH/Myanmar references not same abstract authorship."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://openalex.org/W2013365661",
+        "observation": "Historical multicentric-HFE paper includes Myanmar population indexing, but local author/issuer not verified. APASL catalogue adjacent China-HH/Myanmar references not same abstract authorship."
+      }
+    ],
+    "result": "Historical multicentric-HFE paper includes Myanmar population indexing, but local author/issuer not verified. APASL catalogue adjacent China-HH/Myanmar references not same abstract authorship. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-020",
+    "area_m49": "020",
+    "condition_key": "hemochromatosis",
+    "query": "Andorra hemocromatosi associació",
+    "language": "ca",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Andorra%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=Andorra%20hemocromatosi%20associaci%C3%B3",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: ATIDA donation and rare-disease association registry are not original condition-specific HH resources. Catalan Generalitat educational page is external government guidance, not local Andorran independent issuer."
+      }
+    ],
+    "result": "ATIDA donation and rare-disease association registry are not original condition-specific HH resources. Catalan Generalitat educational page is external government guidance, not local Andorran independent issuer. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-492",
+    "area_m49": "492",
+    "condition_key": "hemochromatosis",
+    "query": "Monaco hémochromatose association",
+    "language": "fr",
+    "depth": "D1",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Monaco%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=Monaco%20h%C3%A9mochromatose%20association",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Orphanet lists Monaco Liver Disorder Association as potential broad liver support lead; exact own HH substantive content not inspected. Monaco blood-donation/lab legal schedules are government metadata, not independent local HH source."
+      },
+      {
+        "approach": "specific_candidate_metadata_only_unless_body_explicitly_inspected",
+        "url": "https://www.orpha.net/fr/patient-organisations?diseaseName=H%C3%A9mochromatose+associ%C3%A9e+%C3%A0+TFR2&orphaCode=225123",
+        "observation": "Orphanet lists Monaco Liver Disorder Association as potential broad liver support lead; exact own HH substantive content not inspected. Monaco blood-donation/lab legal schedules are government metadata, not independent local HH source."
+      }
+    ],
+    "result": "Orphanet lists Monaco Liver Disorder Association as potential broad liver support lead; exact own HH substantive content not inspected. Monaco blood-donation/lab legal schedules are government metadata, not independent local HH source. Candidate remains unqualified pending exact original source/role inspection; no terminal disposition claimed.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-438",
+    "area_m49": "438",
+    "condition_key": "hemochromatosis",
+    "query": "Liechtenstein Hämochromatose Verein",
+    "language": "de",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Liechtenstein%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=Liechtenstein%20H%C3%A4mochromatose%20Verein",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Government disease/analysis schedules not Team B substantive independent sources. European network result lists Swiss/German groups, not verified Liechtenstein domicile."
+      }
+    ],
+    "result": "Government disease/analysis schedules not Team B substantive independent sources. European network result lists Swiss/German groups, not verified Liechtenstein domicile. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  },
+  {
+    "record_id": "B132-HH-292",
+    "area_m49": "292",
+    "condition_key": "hemochromatosis",
+    "query": "Gibraltar haemochromatosis association",
+    "language": "en",
+    "depth": "D2",
+    "avenues": [
+      {
+        "approach": "first_party_condition_network_directory",
+        "url": "https://haemochromatosis-international.org/members/",
+        "observation": "Actual original HI member-country table inspected; no dedicated member entry for this area. Not an exhaustive organization census or national absence."
+      },
+      {
+        "approach": "local_author_literature_catalogue",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28AFF%3A%22Gibraltar%22%29+AND+TITLE_ABS%3A%28%28hemochromatosis+OR+haemochromatosis+OR+%22hereditary+iron+overload%22%29%29&format=json&resultType=core&pageSize=5",
+        "observation": "Exact recorded AFF/title-abstract query returned zero in cached original response; query, timestamp and response hash preserved in affiliation_discovery_20261118.csv. Index/language coverage is incomplete."
+      },
+      {
+        "approach": "distinct_country_condition_web_query",
+        "url": "https://www.google.com/search?q=Gibraltar%20haemochromatosis%20association",
+        "observation": "Exact query executed through web research search tool2026-11-18; this URL is reproducible query notation, not a claimed direct Google-page retrieval. First returned results manually interpreted: Global/UK association directories do not establish distinct Gibraltar local authorship or substantive endorsement; no eligible exact local condition source verified."
+      }
+    ],
+    "result": "Global/UK association directories do not establish distinct Gibraltar local authorship or substantive endorsement; no eligible exact local condition source verified. Completed bounded specified-route disposition; no eligible original local hereditary-HH source verified.",
+    "limits": "Limited member directory plus indexed local-author query and first-page condition-specific web results, not exhaustive national literature or institutional census. Hereditary HH kept separate from elevated ferritin, secondary/transfusional overload, neonatal syndrome, animal models and surname/country menus. Local-language and nonindexed sources can change this disposition. No ancestry/genotype inference or clinical/legal/rights approval.",
+    "next_action": "Reopen bounded findings on new attributable primary institutional/condition evidence; inspect named candidates before qualification. Do not rerun unchanged blocked artifact routes."
+  }
+]

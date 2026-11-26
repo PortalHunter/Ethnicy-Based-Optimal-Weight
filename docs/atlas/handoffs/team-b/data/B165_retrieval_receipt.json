@@ -1,0 +1,888 @@
+{
+  "batch": "B165",
+  "date": "2026-11-22",
+  "receipts": {
+    "https://idf.org/our-network/regions-and-members/africa/members/": {
+      "http_status": 200,
+      "bytes": 275493,
+      "sha256": "7b4a9078410e09dce2c0727f34ba0fd6537b6057beca3111a106ac3ea7de41a7",
+      "retrieved_utc": "2026-11-22T14:42:56.360679+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/europe/members/": {
+      "http_status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:43:01.258828+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/": {
+      "http_status": 200,
+      "bytes": 274435,
+      "sha256": "552e6a18a1f5c72dad0b1fa94f9b4b23819528a67ce1dbd7b65f275e58de3f96",
+      "retrieved_utc": "2026-11-22T14:42:56.363845+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/north-america-and-caribbean/members/": {
+      "http_status": 200,
+      "bytes": 279892,
+      "sha256": "1e5055595a4738683b5f54c30329c83496f89d59b4752f18b16f2ed92ae457c4",
+      "retrieved_utc": "2026-11-22T14:42:56.349301+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/south-and-central-america/members/": {
+      "http_status": 200,
+      "bytes": 273017,
+      "sha256": "fed56c616581a9016aeeae4163b09296670f980ee196563a2f64a713a2c8a727",
+      "retrieved_utc": "2026-11-22T14:42:56.280755+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/south-east-asia/members/": {
+      "http_status": 200,
+      "bytes": 263391,
+      "sha256": "7798ea50a9c342869465f0f2297f04a08c98a434daa726c8a867eca9ad4a45dd",
+      "retrieved_utc": "2026-11-22T14:42:56.368670+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/western-pacific/members/": {
+      "http_status": 200,
+      "bytes": 274336,
+      "sha256": "5e4fba28a2702bb24d6a3ce9e540959c9f6b845a16e7c17de85a9f943fa7ee17",
+      "retrieved_utc": "2026-11-22T14:42:56.275415+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/": {
+      "http_status": 200,
+      "bytes": 180553,
+      "sha256": "a0b29fdae047e10b4c4236a6e6b7973450101616ac007d8de120d051ec7fedbb",
+      "retrieved_utc": "2026-11-22T14:43:17.111026+00:00"
+    },
+    "https://omandiabetes.org/": {
+      "http_status": 200,
+      "bytes": 158817,
+      "sha256": "726a0a7088614474f40013d0d279f12b2d0a53c39649b1e1843cd783cc097c26",
+      "retrieved_utc": "2026-11-22T14:17:19.694811+00:00"
+    },
+    "https://omandiabetes.org/العلاج-بمضخة-الأنسولين-2-2-2-3/": {
+      "http_status": 200,
+      "bytes": 135956,
+      "sha256": "64095d0179677ebcb03c6024e3eedc9d1d0160eef863baf1d151935c2c9823fa",
+      "retrieved_utc": "2026-11-22T14:42:02.711971+00:00"
+    },
+    "https://www.diabeta.net/": {
+      "http_status": 200,
+      "bytes": 141643,
+      "sha256": "79104870fdd482425b3a2a245647e9ee0d6684f8b3f08ac8ef6e754e0beea4f2",
+      "retrieved_utc": "2026-11-22T14:41:33.505055+00:00"
+    },
+    "https://www.diabeta.net/jelovnik": {
+      "http_status": 200,
+      "bytes": 62241,
+      "sha256": "9452be981160df03facec2ae0f73e26ab426e8c45a149038d3187d64e3e0ee05",
+      "retrieved_utc": "2026-11-22T14:42:03.361270+00:00"
+    },
+    "https://www.diabeta.net/wp-content/uploads/2019/03/O-gojaznosti-i-dijabetesu-jelovnik-03-2019-1.pdf": {
+      "http_status": 200,
+      "bytes": 2499557,
+      "sha256": "9bf24626f0cff24b4615bc32fccd97256573f37f9ecfb4c1ec262cd43bfa7635",
+      "retrieved_utc": "2026-11-22T14:42:31.977280+00:00"
+    },
+    "https://vade.org.vn/": {
+      "http_status": 200,
+      "bytes": 100097,
+      "sha256": "f776b134518eee0f936e6523051d7a89f39eb106692403b96f8ecb5c58cc5655",
+      "retrieved_utc": "2026-11-22T14:41:33.988464+00:00"
+    },
+    "https://vade.org.vn/dai-thao-duong-o-nguoi-tre-tuoi/": {
+      "http_status": 200,
+      "bytes": 102752,
+      "sha256": "a5faaf2ad7415950e35ca7029f5324b6ec104abb28b90a6c8188f5c39e700a21",
+      "retrieved_utc": "2026-11-22T14:42:03.933104+00:00"
+    },
+    "https://vade.org.vn/category/khuyen-cao/": {
+      "http_status": 200,
+      "bytes": 59812,
+      "sha256": "21ec96ea2a53ff9e8bb3e857a12900a00572d0ddd257d712acb6baf2edec6b91",
+      "retrieved_utc": "2026-11-22T14:42:03.755020+00:00"
+    },
+    "https://dijabetesekipadob.com/": {
+      "http_status": 200,
+      "bytes": 122471,
+      "sha256": "411259e67c8083593b703df2ef27c720857994160f8f057020db3319f49a73a2",
+      "retrieved_utc": "2026-11-22T14:41:34.722030+00:00"
+    },
+    "https://dijabetesekipadob.com/korisne-teme/": {
+      "http_status": 200,
+      "bytes": 64591,
+      "sha256": "b2dd83c5d23bb8e21c509e1fa8df1db4251085139e2381d62c7ae1200e945830",
+      "retrieved_utc": "2026-11-22T14:42:03.956281+00:00"
+    },
+    "https://dijabetesekipadob.com/o-nama/": {
+      "http_status": 200,
+      "bytes": 83427,
+      "sha256": "11df0b97bf38d5acee94ddc50decac7b7cad881a8b0ee28db12a6f8dabc17d3f",
+      "retrieved_utc": "2026-11-22T14:17:21.604388+00:00"
+    },
+    "https://dijabetesekipadob.com/portfolio/prehrana/": {
+      "http_status": 200,
+      "bytes": 45390,
+      "sha256": "9e4062394205f2b14ffc0392f642bbd545adf004df780771ae85d9a10b4df124",
+      "retrieved_utc": "2026-11-22T14:42:32.089467+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/slovakia/": {
+      "http_status": 200,
+      "bytes": 155063,
+      "sha256": "4d735f93666d42c95142b7dc9289365a9d7a0b7f479b00d3558a65cd78183b8b",
+      "retrieved_utc": "2026-11-22T14:43:31.148934+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/slovakia/slovenska-diabetologicka-spolocnost/": {
+      "http_status": 200,
+      "bytes": 142148,
+      "sha256": "d999cc8336072a9dc06b636005dc0c4111446aa3f4519c4f37e02fe3dfc7fbe5",
+      "retrieved_utc": "2026-11-22T14:43:42.898406+00:00"
+    },
+    "https://www.diaslovakia.sk/": {
+      "http_status": 200,
+      "bytes": 45040,
+      "sha256": "4330d39be32c692ad50a2fcbee6fcde802038d54fe81dff32e310b81a24d5d96",
+      "retrieved_utc": "2026-11-22T14:43:55.058057+00:00"
+    },
+    "https://www.diaslovakia.sk/standardne-terapeuticke-postupy": {
+      "http_status": 200,
+      "bytes": 26535,
+      "sha256": "9de80f94351606dab1e7e26ea91661d354039b24473781658d925b321447386e",
+      "retrieved_utc": "2026-11-22T14:44:30.755591+00:00"
+    },
+    "https://diaslovakia.sk/system/files/dia_dm2t-1rev_0.pdf": {
+      "http_status": 200,
+      "bytes": 2691037,
+      "sha256": "001718478396333bca2b21e12037ffdbc3e7f7f2bab1daa3f0e0e518b5582879",
+      "retrieved_utc": "2026-11-22T14:44:40.493626+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/south-and-central-america/members/uruguay/": {
+      "http_status": 200,
+      "bytes": 270651,
+      "sha256": "69cbc29f2d2d6dc48b0876d7289af50cc4ebecb57dad59523bb60fd9dd6e6196",
+      "retrieved_utc": "2026-11-22T14:43:31.065808+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/south-and-central-america/members/uruguay/sociedad-de-diabetologia-y-nutricion-del-uruguay/": {
+      "http_status": 200,
+      "bytes": 264788,
+      "sha256": "060e3aa8cf66a3b72b0d1ce8aa02af354220d1b2eb613a398e56a69ed70aa71e",
+      "retrieved_utc": "2026-11-22T14:43:42.907268+00:00"
+    },
+    "https://sdnu.uy/": {
+      "http_status": 200,
+      "bytes": 42981,
+      "sha256": "b2ae896684345e86e5307a771f1fcd0051e35ebcbe60ba89b28d807395f1d373",
+      "retrieved_utc": "2026-11-22T14:43:54.785372+00:00"
+    },
+    "https://sdnu.uy/blog/la-obesidad-como-antesala-a-diabetes-tipo-2.html": {
+      "http_status": 200,
+      "bytes": 19704,
+      "sha256": "dad5311ca799c63ec0b45b4f653c40ebfa4883d32f86e27ad3d6a419dfe321de",
+      "retrieved_utc": "2026-11-22T14:44:06.387081+00:00"
+    },
+    "https://sdnu.uy/documents/PREVENCION-Y-MANEJO-DE-PIE-DIABETICO-6-1.pdf": {
+      "http_status": 200,
+      "bytes": 945492,
+      "sha256": "eda809c5e7afcda4fbde514a4525f980c75d9160449013abe807be98d0d7c330",
+      "retrieved_utc": "2026-11-22T14:44:07.080877+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/burkina-faso/association-burkinabe-daide-aux-diabetiques/": {
+      "http_status": 200,
+      "bytes": 262144,
+      "sha256": "992dc5b92dff0ae9aebd6464d63b2b62ad1bb71b536c452ab68d4cf711ba36c5",
+      "retrieved_utc": "2026-11-22T14:43:42.905146+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/senegal/association-senegalaise-de-soutien-aux-diabetiques/": {
+      "http_status": 200,
+      "bytes": 263418,
+      "sha256": "12ddf43331d2df28d5f02f115ef12c389d4faab0d08d9a075406bc4377a44214",
+      "retrieved_utc": "2026-11-22T14:43:42.891549+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/iraq/iraqi-diabetes-association/": {
+      "http_status": 200,
+      "bytes": 263432,
+      "sha256": "485caaccb22520c3e37ca752aafc9b307ee02586f7084e00f3c31bbf74dbc5ac",
+      "retrieved_utc": "2026-11-22T14:43:42.897425+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/western-pacific/members/china/chinese-diabetes-society/": {
+      "http_status": 200,
+      "bytes": 263166,
+      "sha256": "99e072922816e5b10f8f58b4846393127e4fd8d727a12c96668c602ea2fe6736",
+      "retrieved_utc": "2026-11-22T14:43:42.899861+00:00"
+    },
+    "https://www.diab.net.cn/": {
+      "http_status": 404,
+      "bytes": 315,
+      "sha256": "ce7127c38e30e92a021ed2bd09287713c6a923db9ffdb43f126e8965d777fbf0",
+      "retrieved_utc": "2026-11-22T14:43:56.025063+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/western-pacific/members/democratic-peoples-republic-of-korea/diabetes-committee-of-hospitals-association-of-korea/": {
+      "http_status": 200,
+      "bytes": 266958,
+      "sha256": "5b133ef040163fce6ef9c1c0a16eb42211e01b29efa3fe19748c3c69515019a9",
+      "retrieved_utc": "2026-11-22T14:43:42.815494+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/south-and-central-america/members/panama/fundacion-diabetes-latam/": {
+      "http_status": 200,
+      "bytes": 263200,
+      "sha256": "b001bee7c83f93d632bb5f8c67df7df908369e8ce53410ae1e2766ba47400bdf",
+      "retrieved_utc": "2026-11-22T14:43:42.897853+00:00"
+    },
+    "https://www.diabeteslatam.org/": {
+      "http_status": 200,
+      "bytes": 105848,
+      "sha256": "c1991d825dfcfeb7c05b2df23bb227f9110f2e72416340b31d6a474971771fc2",
+      "retrieved_utc": "2026-11-22T14:43:53.943173+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/israel/israel-diabetes-association/": {
+      "http_status": 200,
+      "bytes": 139771,
+      "sha256": "562c5b2c3fa56452afb1392cf086b2cc253974b42b67ecd35d9551b72b9aeb19",
+      "retrieved_utc": "2026-11-22T14:43:42.887009+00:00"
+    },
+    "https://www.sukeret.co.il/": {
+      "http_status": 403,
+      "bytes": 5591,
+      "sha256": "32e1f3872d75f92a8191bf8a125acd9a583030d29591faa93b0b814f9a7a2522",
+      "retrieved_utc": "2026-11-22T14:43:53.670913+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/burkina-faso/": {
+      "http_status": 200,
+      "bytes": 272968,
+      "sha256": "e21c743fb79526319d97ec2697fe54d8ea78a38e4cc4b385ae36c5f44ac79939",
+      "retrieved_utc": "2026-11-22T14:43:31.082504+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/senegal/": {
+      "http_status": 200,
+      "bytes": 271762,
+      "sha256": "00f9cd7158d00e026b98765a7ab0e4cef7de99ff6086827fddbe9495304e5b26",
+      "retrieved_utc": "2026-11-22T14:43:31.080755+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/iraq/": {
+      "http_status": 200,
+      "bytes": 269581,
+      "sha256": "23696c942de291aaad1e7f9e7ab80d52ee031d97409c1ac2999548ce0b26b56b",
+      "retrieved_utc": "2026-11-22T14:43:31.069992+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/western-pacific/members/china/": {
+      "http_status": 200,
+      "bytes": 268746,
+      "sha256": "21b62f11846ae4866b553230c59d69debc7080b752585219d9b679b67f6c89af",
+      "retrieved_utc": "2026-11-22T14:43:31.079238+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/western-pacific/members/democratic-peoples-republic-of-korea/": {
+      "http_status": 200,
+      "bytes": 272082,
+      "sha256": "fb34fbec95a90a12c0934854b493df84167187ad9273177f915c49daf213d910",
+      "retrieved_utc": "2026-11-22T14:43:31.069368+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/south-and-central-america/members/panama/": {
+      "http_status": 200,
+      "bytes": 269335,
+      "sha256": "f0f2e9a2ced5596877c39c3e6ac93a5598100138a6526912053962c8e767a526",
+      "retrieved_utc": "2026-11-22T14:43:31.070120+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/israel/": {
+      "http_status": 200,
+      "bytes": 152464,
+      "sha256": "b0ee00b1ae89921de69bcd6d7b01f3a7073410c8a8c5324baffe8460a995988c",
+      "retrieved_utc": "2026-11-22T14:43:31.189707+00:00"
+    },
+    "https://www.diabeti-albania.org/publikime/fletepalosje/": {
+      "http_status": 200,
+      "bytes": 230805,
+      "sha256": "b295c0521bca82decc86e43390856a8939083791eff2733fc8893b3353a468b2",
+      "retrieved_utc": "2026-11-22T14:42:03.363839+00:00"
+    },
+    "https://diabetes-ukraine.org.ua/uda-professional-publications/": {
+      "http_status": 200,
+      "bytes": 109183,
+      "sha256": "6ed87b083f128106d8514f58e159d137f1d9acc73006d509b5b6b3f2c28747f4",
+      "retrieved_utc": "2026-11-22T14:42:03.604396+00:00"
+    },
+    "https://www.fodsl.org/diabetes": {
+      "http_status": 200,
+      "bytes": 25246,
+      "sha256": "2b3d79ecdf4a3dc49316e9b5ef279321c4676c0118a67687c6c196e76aa30123",
+      "retrieved_utc": "2026-11-22T14:42:02.749983+00:00"
+    },
+    "https://afd971.federationdesdiabetiques.org/le-diabete": {
+      "http_status": 200,
+      "bytes": 28518,
+      "sha256": "fe8148338bdb0240fd354f80d753d35672d89f20c0d3b2835548af3e36818fb9",
+      "retrieved_utc": "2026-11-22T14:42:02.855735+00:00"
+    },
+    "https://afd972.federationdesdiabetiques.org/le-diabete": {
+      "http_status": 200,
+      "bytes": 29365,
+      "sha256": "862c76060da16dbdc50aaee618d246f82987fc724258ce4c201f58fd6585236e",
+      "retrieved_utc": "2026-11-22T14:42:02.862361+00:00"
+    },
+    "https://endo.ba/?s=dijabetes": {
+      "http_status": 200,
+      "bytes": 86140,
+      "sha256": "8cab955e472167abed4d628086ed220875315ce3a62c0cde7e35bd4e9d56c5af",
+      "retrieved_utc": "2026-11-22T14:42:03.631685+00:00"
+    },
+    "https://www.sbemn.org.bo/?s=diabetes": {
+      "http_status": 200,
+      "bytes": 137886,
+      "sha256": "ed0053a624c748dfdd8e621a7bc498fe7f2a28b2f4b77dedec8b8986979be0d4",
+      "retrieved_utc": "2026-11-22T14:42:03.435654+00:00"
+    },
+    "https://www.avekz.com/?s=%D0%B4%D0%B8%D0%B0%D0%B1%D0%B5%D1%82": {
+      "http_status": 200,
+      "bytes": 438528,
+      "sha256": "1fc787eda9598058e8409cb7f2041c70e84954a2fe4c1261a62816f46e94a360",
+      "retrieved_utc": "2026-11-22T14:42:03.253627+00:00"
+    },
+    "https://www.svemonline.org/?s=diabetes": {
+      "http_status": 200,
+      "bytes": 115324,
+      "sha256": "7d6ac39b093997fe2286e3b38f469cc5f461c4cdf704a3bc72d375982d091818",
+      "retrieved_utc": "2026-11-22T14:42:05.168286+00:00"
+    },
+    "https://fupadi.org.py/?s=diabetes": {
+      "http_status": 200,
+      "bytes": 89624,
+      "sha256": "076033e44495bd3dde06b87e0260109202d128feb0f8d8f068a9f09fd3040c17",
+      "retrieved_utc": "2026-11-22T14:42:04.116235+00:00"
+    },
+    "https://www.endopediaguatemala.com/?s=diabetes": {
+      "http_status": 200,
+      "bytes": 98070,
+      "sha256": "838e8283b24fb6b900250011a92b4a7829c67be9c52e0ecf9dfcf118d8ce6c6d",
+      "retrieved_utc": "2026-11-22T14:42:05.966940+00:00"
+    },
+    "https://www.asociaciondiavida.org/education-for-teachers": {
+      "http_status": 404,
+      "bytes": 119000,
+      "sha256": "7468d4f4c9c1738a92ea0ebc1c7287a8c44c9f389a0995674673dc1b5460c451",
+      "retrieved_utc": "2026-11-22T14:42:02.608282+00:00"
+    },
+    "https://maisonbleuedudiabete.org/": {
+      "http_status": 200,
+      "bytes": 98658,
+      "sha256": "bf6c6674967c555559c70effd1c9241e48916e6c17a9126d4405fc6722e2f65c",
+      "retrieved_utc": "2026-11-22T14:41:34.076631+00:00"
+    },
+    "https://adiag.assoconnect.com/": {
+      "http_status": 200,
+      "bytes": 108764,
+      "sha256": "1a41723a959f283609fee1514270f107604c7a764981ed14683f4abb6eacdd37",
+      "retrieved_utc": "2026-11-22T14:41:32.235736+00:00"
+    },
+    "https://asadi.com/": {
+      "http_status": 200,
+      "bytes": 35967,
+      "sha256": "4c66d3850ba78bdc3ae69e12686533cc7a4b2832fccb7bdcd1b72c91b8903510",
+      "retrieved_utc": "2026-11-22T14:41:32.432563+00:00"
+    },
+    "https://www.dsmaldives.org/": {
+      "http_status": 200,
+      "bytes": 114,
+      "sha256": "6dc9c7fc93bb488bb0520a6c780a8d3c0fb5486a4711aca49b4c53fac7393023",
+      "retrieved_utc": "2026-11-22T14:41:32.570509+00:00"
+    },
+    "https://www.diabeteslatam.org/lleva-tu-diabetes-a-la-escuela": {
+      "http_status": 200,
+      "bytes": 72730,
+      "sha256": "eaa06cc8bf88a6d0c3447515ff149284bbe0ccae1d6aa1fcbae2d4b02a936918",
+      "retrieved_utc": "2026-11-22T14:44:05.803452+00:00"
+    },
+    "https://www.diabetesisleofman.com/": {
+      "http_status": 200,
+      "bytes": 31627,
+      "sha256": "85261973331c103ff9aed3c7b889dd6ce7ee95a9df6bbb4db63ac1d17f7d7f25",
+      "retrieved_utc": "2026-11-22T14:40:58.789155+00:00"
+    },
+    "https://diabetes-ukraine.org.ua/": {
+      "http_status": 200,
+      "bytes": 264736,
+      "sha256": "fbfa8b55470e9cd9c3fa270322164dd74608c0ccd6d25cb3a452fa1ecbb5ddb6",
+      "retrieved_utc": "2026-11-22T14:41:34.427646+00:00"
+    },
+    "https://diabetes-ukraine.org.ua/wp-content/uploads/2022/08/Консенсус_вступ.pdf": {
+      "http_status": 200,
+      "bytes": 51841,
+      "sha256": "79f984ee2487527dc101278de182ddb7a26c2c9ff34a15eebf951746bd48d881",
+      "retrieved_utc": "2026-11-22T14:42:39.283807+00:00"
+    },
+    "https://diabetes-ukraine.org.ua/documents/": {
+      "http_status": 200,
+      "bytes": 101621,
+      "sha256": "4561e6adcf15848428943974c0304b06037d88e962a0f04d63ec1430bef58aae",
+      "retrieved_utc": "2026-11-22T14:42:03.817291+00:00"
+    },
+    "https://diabetes-ukraine.org.ua/%d0%ba%d0%be%d0%bd%d1%81%d0%b5%d0%bd%d1%81%d1%83%d1%81/": {
+      "http_status": 200,
+      "bytes": 106894,
+      "sha256": "5991226dbfe2005e6f0bf797f282ed6e2f93daf7fc1a6458be0a3de284b69ee6",
+      "retrieved_utc": "2026-11-22T14:42:32.412575+00:00"
+    },
+    "https://www.patronatodeldiabetico.com.gt/": {
+      "http_status": 200,
+      "bytes": 51266,
+      "sha256": "093bfe24132739085ed17461050bb1122ed3bd994497cf2b7fd7494c33babf07",
+      "retrieved_utc": "2026-11-22T14:41:33.495792+00:00"
+    },
+    "https://www.diabeti-albania.org/": {
+      "http_status": 200,
+      "bytes": 185293,
+      "sha256": "84174884d27c1d4f206cc86f0700e1968ccae8000d6e3406c90ad75486069508",
+      "retrieved_utc": "2026-11-22T14:41:33.614140+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/albania/albanian-diabetes-association/": {
+      "http_status": 200,
+      "bytes": 141993,
+      "sha256": "57510470479319fae7a43ab4fdff0d0d5789681d7c3e481dc576d5637f9e88ca",
+      "retrieved_utc": "2026-11-22T14:40:57.554478+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/algeria/": {
+      "http_status": 200,
+      "bytes": 270704,
+      "sha256": "2fb43d012cc8174be13848080bd8ac9900961b33d7e5d83702e078bbb43d072c",
+      "retrieved_utc": "2026-11-22T14:40:58.029998+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/north-america-and-caribbean/": {
+      "http_status": 200,
+      "bytes": 298813,
+      "sha256": "214fd56a4523d4ace9876716358173194284b60d27024ca276674d3ddeea6f40",
+      "retrieved_utc": "2026-11-22T14:40:58.255813+00:00"
+    },
+    "https://ads.org.az/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:41:37.112578+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/azerbaijan/azerbaijan-diabetes-society/": {
+      "http_status": 200,
+      "bytes": 140659,
+      "sha256": "af976800587e7a9eb748d366725cee4800618e24ac2e9804cb412ccd6cb3b61a",
+      "retrieved_utc": "2026-11-22T14:40:57.640593+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/azerbaijan/": {
+      "http_status": 200,
+      "bytes": 155128,
+      "sha256": "949d1392554ae5c98924b77fb3848a4a0530285b251d003f19773c233b811bb7",
+      "retrieved_utc": "2026-11-22T14:40:57.653146+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/bahrain/": {
+      "http_status": 200,
+      "bytes": 270154,
+      "sha256": "e30fee090bd6ced6dc7ef7f29cde2ecdf3e7ad87f0de812c99b1235db65466bb",
+      "retrieved_utc": "2026-11-22T14:40:58.029271+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/armenia/armenian-association-of-diabetes/": {
+      "http_status": 200,
+      "bytes": 139136,
+      "sha256": "00ed306337413aaeb8d41f3e389c566d323ebd134f693b4a7f6dbe21e793ab97",
+      "retrieved_utc": "2026-11-22T14:40:57.560383+00:00"
+    },
+    "https://bkfbhutan.org/": {
+      "http_status": 200,
+      "bytes": 93788,
+      "sha256": "1a2a9c92d898109a474386e22dea4b84f7a0312c04ea09ba6cc1cbc8e95d1190",
+      "retrieved_utc": "2026-11-22T14:41:34.517158+00:00"
+    },
+    "https://www.sbemn.org.bo/": {
+      "http_status": 200,
+      "bytes": 237489,
+      "sha256": "c61dc2bf7eb433c74f447b4e2e7719041730dafc46f3e9ac0e709a054a7beac0",
+      "retrieved_utc": "2026-11-22T14:17:17.776794+00:00"
+    },
+    "https://endo.ba/": {
+      "http_status": 200,
+      "bytes": 237980,
+      "sha256": "2d9810658fb2f5cbb44587d052adcf2a58c5c655265ddeecb36b68420b4b5551",
+      "retrieved_utc": "2026-11-22T14:17:18.080905+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/burundi/burundian-diabetes-association/": {
+      "http_status": 200,
+      "bytes": 262237,
+      "sha256": "7bf5094fd71b71551ab5060fc5e525181e785ca4eb9630bfb8822de1b1d74a3d",
+      "retrieved_utc": "2026-11-22T14:40:57.939526+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/belarus/": {
+      "http_status": 200,
+      "bytes": 153699,
+      "sha256": "b2470aec30fd765608ada0003a2d1b73003a32543b6b31d3ab466607a64c110d",
+      "retrieved_utc": "2026-11-22T14:40:57.705145+00:00"
+    },
+    "https://www.caymandiabetes.com/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:41:32.447571+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/north-america-and-caribbean/members/cayman-islands/cayman-islands-diabetes-association/": {
+      "http_status": 200,
+      "bytes": 264947,
+      "sha256": "8857d54c88acad397e9956f8cadecdb086630c56ad890251ec4aaeaed930a4b0",
+      "retrieved_utc": "2026-11-22T14:40:58.262933+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/republic-of-congo/diabaction-congo/": {
+      "http_status": 200,
+      "bytes": 264291,
+      "sha256": "2a019eedd8ec209fd77e50afd734dd5d128199ab8ad8de49282aa5d18e5c136e",
+      "retrieved_utc": "2026-11-22T14:40:58.069487+00:00"
+    },
+    "https://idf.org/fr/our-network/regions-and-members/africa/members/democratic-republic-of-congo/association-vaincre-le-diabete-au-congo/": {
+      "http_status": 200,
+      "bytes": 268121,
+      "sha256": "e02d8faee8dcaacd4059f1bb09c5be36a87a6914a22bcda44794ffeef803e68a",
+      "retrieved_utc": "2026-11-22T14:40:57.767167+00:00"
+    },
+    "https://www.asociaciondiavida.org/": {
+      "http_status": 200,
+      "bytes": 406363,
+      "sha256": "7371e2eb3b36392496154390c46bb35f2b0ac93bb30f25118b7ac67b7b6856b8",
+      "retrieved_utc": "2026-11-22T14:40:58.898541+00:00"
+    },
+    "https://instituciones.sld.cu/": {
+      "http_status": 200,
+      "bytes": 13843,
+      "sha256": "b836cb88e37427b8b39cda7526ea445df280abbe26ceef5ef70906ea6cf8b213",
+      "retrieved_utc": "2026-11-22T14:41:33.748758+00:00"
+    },
+    "https://idf.org/es/our-network/regions-and-members/south-and-central-america/members/cuba/sociedad-cubana-de-diabetes/": {
+      "http_status": 200,
+      "bytes": 265023,
+      "sha256": "4a6f1040b24ca8d3111c296856d85e8184c0dc52ed56a9545b1f44df28b3c11c",
+      "retrieved_utc": "2026-11-22T14:40:57.194057+00:00"
+    },
+    "https://idf.org/es/our-network/regions-and-members/south-and-central-america/members/el-salvador/asociacion-salvadorena-de-diabetes/": {
+      "http_status": 200,
+      "bytes": 266013,
+      "sha256": "824a0b4376460d6775081a2c18e98d05f650c4b09fa12ec1465f4577a690f0ab",
+      "retrieved_utc": "2026-11-22T14:40:57.113633+00:00"
+    },
+    "https://www.ethiopiandiabetesassociation.org/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:41:32.745186+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/ethiopia/ethiopian-diabetes-association/": {
+      "http_status": 200,
+      "bytes": 265333,
+      "sha256": "7c2d5c8b459d3c8e308e0e219ce86c946bdd1d2410af80b562750087c3d8d93c",
+      "retrieved_utc": "2026-11-22T14:40:57.901455+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/eritrea/eritrean-national-diabetic-association/": {
+      "http_status": 200,
+      "bytes": 264842,
+      "sha256": "da7c3f31e9444e9fbd659bda75c94f8e255a1f2d61a9fbeca6ec0cf40e0757db",
+      "retrieved_utc": "2026-11-22T14:40:57.954041+00:00"
+    },
+    "https://asaleepolynesie.com/": {
+      "http_status": 200,
+      "bytes": 519913,
+      "sha256": "f9d65d817b5237b6fade37183d540673f4a1bcd517558f15b56c0235ab37ace3",
+      "retrieved_utc": "2026-11-22T14:41:33.024276+00:00"
+    },
+    "https://idf.org/europe/media/uploads/sites/2/2025/04/IDF-Europe-Compendium_Final-003.pdf": {
+      "http_status": 404,
+      "bytes": 131067,
+      "sha256": "8d69d0749a6e90cb183ea08ccdc01546d0ea30a71afa1499f6b0c3e051d2af26",
+      "retrieved_utc": "2026-11-22T14:40:58.014928+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/gambia/gambian-diabetes-association/": {
+      "http_status": 200,
+      "bytes": 259580,
+      "sha256": "fb485a0c3fab305284cbd84dafc76c42ee2efe5a9ed832d711526790241de57a",
+      "retrieved_utc": "2026-11-22T14:40:57.924254+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/palestine/": {
+      "http_status": 200,
+      "bytes": 269725,
+      "sha256": "b639ddb4938899bd09ef8738088c2953b85db32b45b3de6d98f11dc6201e8cb9",
+      "retrieved_utc": "2026-11-22T14:40:58.135325+00:00"
+    },
+    "https://www.kfha.org.ki/": {
+      "http_status": 200,
+      "bytes": 107480,
+      "sha256": "31f48818385286d95901fb9983cb38a5b79d4b266d69d51b40e956abbc675a81",
+      "retrieved_utc": "2026-11-22T14:36:34.049152+00:00"
+    },
+    "https://afd971.federationdesdiabetiques.org/": {
+      "http_status": 200,
+      "bytes": 26421,
+      "sha256": "8a006c0c4c508793b21b5dd9f4054656694f2f4a70bc1fb8e0e033ccdf58e6f5",
+      "retrieved_utc": "2026-11-22T14:41:32.425364+00:00"
+    },
+    "https://www.endopediaguatemala.com/": {
+      "http_status": 200,
+      "bytes": 473993,
+      "sha256": "de833ae564a69b186b7b06c9569dac10375073b8992b27d8d9cff7b0985c742c",
+      "retrieved_utc": "2026-11-22T14:41:33.201908+00:00"
+    },
+    "https://idf.org/es/our-network/regions-and-members/south-and-central-america/members/guatemala/asociacion-educacion-medica-en-salud-edumed/": {
+      "http_status": 200,
+      "bytes": 266221,
+      "sha256": "347ec697d067544efb42e2f16617d76e140dbe216b1ad0671414e51fb217e0c9",
+      "retrieved_utc": "2026-11-22T14:40:57.071484+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/guinea/association-guineenne-deducation-et-daide-aux-diabetiques/": {
+      "http_status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:41:03.229553+00:00"
+    },
+    "https://www.fccdhn.org/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:41:32.827700+00:00"
+    },
+    "https://idf.org/es/our-network/regions-and-members/south-and-central-america/members/honduras/fundacion-creciendo-con-diabetes/": {
+      "http_status": 200,
+      "bytes": 263704,
+      "sha256": "2fde8ba9cf1fe882aadaf377803d148badbb6fe72f3096c696f3a59eb9c7c2b7",
+      "retrieved_utc": "2026-11-22T14:40:57.145230+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/iran/": {
+      "http_status": 200,
+      "bytes": 272734,
+      "sha256": "76af9923de00a80b8711ac874772bedc0329822aa7422358f5bd5c675bffd6a0",
+      "retrieved_utc": "2026-11-22T14:40:58.152956+00:00"
+    },
+    "https://www.avekz.com/": {
+      "http_status": 200,
+      "bytes": 444531,
+      "sha256": "5fc47c958802ff1d5b4c1d3870450c565947f672b369d7c17b597be5c23e8568",
+      "retrieved_utc": "2026-11-22T14:17:18.649546+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/jordan/": {
+      "http_status": 200,
+      "bytes": 271297,
+      "sha256": "807de60dd81ef36917032e6b5c1ffb32758eb4d6f5baff709de1170a2db08aa7",
+      "retrieved_utc": "2026-11-22T14:40:58.088367+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/kuwait/": {
+      "http_status": 200,
+      "bytes": 269845,
+      "sha256": "b72c2d317e26785d77230e2b2b5b711aa80f985dfb7fb13ad1baf33d20ab6e55",
+      "retrieved_utc": "2026-11-22T14:40:58.098464+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/kyrgyzstan/diabetes-and-endocrinological-association-of-kyrgyzstan/": {
+      "http_status": 200,
+      "bytes": 141441,
+      "sha256": "6038fb92ef1b6bf995046544ada4d47a9b54e866f1dc16a70fe702906a2f96ad",
+      "retrieved_utc": "2026-11-22T14:40:57.734582+00:00"
+    },
+    "https://idf.org/news-and-resources/news/idf-sanofi-ghu-strengthen-diabetes-education-in-laos/": {
+      "http_status": 200,
+      "bytes": 274146,
+      "sha256": "6187871be48b464daad190ec5621a3384c5d35aaed0b7be9e6a3594d8b79a203",
+      "retrieved_utc": "2026-11-22T14:40:57.963809+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/lesotho/lesotho-diabetes-association/": {
+      "http_status": 200,
+      "bytes": 262409,
+      "sha256": "855aac8e402adbfe64da88f7690cd471d5d02214f0fbc67fc305941d11035cf9",
+      "retrieved_utc": "2026-11-22T14:40:58.063383+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/libya/": {
+      "http_status": 200,
+      "bytes": 270228,
+      "sha256": "1bad6fb475e753db45675cbda201b2c8eaa829dd01c4d343700587e81709c2b9",
+      "retrieved_utc": "2026-11-22T14:40:58.090838+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/western-pacific/members/macau/associacao-de-apoio-aos-diabeticos-de-macau/": {
+      "http_status": 200,
+      "bytes": 261450,
+      "sha256": "beb044443de6e2bead71a6d75cbcab285e0fada08c0cbd12fe42651be3404dd0",
+      "retrieved_utc": "2026-11-22T14:40:58.279199+00:00"
+    },
+    "https://idf.org/fr/our-network/regions-and-members/africa/members/madagascar/association-malgache-contre-le-diabete/": {
+      "http_status": 200,
+      "bytes": 267276,
+      "sha256": "784a388b9fa266c4706caa29f3fad2ea176189f8b2192e3f47b4c6838b3c15d5",
+      "retrieved_utc": "2026-11-22T14:40:57.791588+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/south-east-asia/members/maldives/diabetes-society-of-maldives/": {
+      "http_status": 200,
+      "bytes": 263480,
+      "sha256": "894dd6dca41070f2cd717d58657698f46e319e356685f9a28e46af328f66b437",
+      "retrieved_utc": "2026-11-22T14:40:58.176128+00:00"
+    },
+    "https://idf.org/fr/our-network/regions-and-members/africa/members/mali/association-malienne-de-lutte-contre-le-diabete/": {
+      "http_status": 200,
+      "bytes": 268718,
+      "sha256": "9bf5b86e1f125983c165335b423e3d108c45f87e2e498471bb49e75f1835d9a4",
+      "retrieved_utc": "2026-11-22T14:40:57.797790+00:00"
+    },
+    "https://afd972.federationdesdiabetiques.org/": {
+      "http_status": 200,
+      "bytes": 27194,
+      "sha256": "2f40cc0bf5da456c04ce1407eb189149ecf6da87f89e5cf9f27536ba71ab3f14",
+      "retrieved_utc": "2026-11-22T14:41:32.470997+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/mauritania/association-mauritanienne-de-lutte-contre-le-diabete/": {
+      "http_status": 200,
+      "bytes": 264127,
+      "sha256": "7320aed222ff9cab525a05270985d915bb74a107945ed2138c97fcac0e408f99",
+      "retrieved_utc": "2026-11-22T14:40:57.992170+00:00"
+    },
+    "https://diabetes.mongolia.com/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:41:31.772567+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/western-pacific/members/mongolia/mongolian-diabetes-association/": {
+      "http_status": 200,
+      "bytes": 264438,
+      "sha256": "384343e62624ced91c84d7f7bf79b236eff7df34b46e6c980d8f65f4522d7e42",
+      "retrieved_utc": "2026-11-22T14:40:58.288137+00:00"
+    },
+    "https://www.prodiab.md/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:41:33.243592+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/moldova/prodiab/": {
+      "http_status": 200,
+      "bytes": 139144,
+      "sha256": "87a5e2fcb390a1fb7963f410955128d1e66bd48e1e23fe03b7f64864b63693bb",
+      "retrieved_utc": "2026-11-22T14:40:57.734144+00:00"
+    },
+    "https://idf.org/es/our-network/regions-and-members/south-and-central-america/members/nicaragua/fundacion-nicaraguense-para-la-diabetes/": {
+      "http_status": 200,
+      "bytes": 265317,
+      "sha256": "b80a16519951733d2246d0527059a346a73878f26a7c198e689f36ac12a85b1c",
+      "retrieved_utc": "2026-11-22T14:40:57.401551+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/western-pacific/members/papua-new-guinea/diabetic-association-of-papua-new-guinea/": {
+      "http_status": 200,
+      "bytes": 264239,
+      "sha256": "cd03f0e91dcafa8358325414d1fabef80ffbff5634b63642cc256ae2372920d4",
+      "retrieved_utc": "2026-11-22T14:40:58.325158+00:00"
+    },
+    "https://fupadi.org.py/": {
+      "http_status": 200,
+      "bytes": 136784,
+      "sha256": "cf255932a313cc60381bb0be1330e74a1b178b72a448082abcbe6627fefcebfa",
+      "retrieved_utc": "2026-11-22T14:41:32.725276+00:00"
+    },
+    "https://adj974.assoconnect.com/": {
+      "http_status": 200,
+      "bytes": 144265,
+      "sha256": "aa8212053cfcc8075f8af0133d5238fb446d725fdfdd2282885ac4e84f1d2864",
+      "retrieved_utc": "2026-11-22T14:41:32.284941+00:00"
+    },
+    "https://www.saintmartinsante.fr/": {
+      "http_status": 200,
+      "bytes": 3742,
+      "sha256": "902f4cbe18a8d66237cf2593d1481f811b78618e9bd27d2545a7ad8d57128781",
+      "retrieved_utc": "2026-11-22T14:36:26.878423+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/san-marino/vivere-meglio-associazione-sammarinese-dei-diabetici/": {
+      "http_status": 200,
+      "bytes": 137103,
+      "sha256": "f83ea09483990387e6e6078241bb086b56f38de545645e55be3670ef50a7f673",
+      "retrieved_utc": "2026-11-22T14:40:57.802086+00:00"
+    },
+    "https://idf.org/fr/our-network/regions-and-members/africa/members/seychelles/diabetic-society-of-seychelles/": {
+      "http_status": 200,
+      "bytes": 263472,
+      "sha256": "64c8529189b6e3ceb15978ff1123756d8e3435a049388a87b22ab9d96066e797",
+      "retrieved_utc": "2026-11-22T14:40:57.962449+00:00"
+    },
+    "https://www.fodsl.org/": {
+      "http_status": 200,
+      "bytes": 24945,
+      "sha256": "6bef352aa56aeb4731b34b8bfc51271e8e7f987c18a21212ec3746017364a0c3",
+      "retrieved_utc": "2026-11-22T14:41:33.519125+00:00"
+    },
+    "https://diabetesom.org.so/": {
+      "http_status": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:41:31.769213+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/zimbabwe/zimbabwe-diabetic-association/": {
+      "http_status": 200,
+      "bytes": 263061,
+      "sha256": "aa0282d4e7a4a40e426cb6d238d5e603b5af09b307fb916f3707a2e0810bcfb7",
+      "retrieved_utc": "2026-11-22T14:40:58.148192+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/sudan/": {
+      "http_status": 200,
+      "bytes": 269690,
+      "sha256": "5198512afa05f4ef0c534de8d9c34a8aacf1e58de904e3b4a563919ed72627a5",
+      "retrieved_utc": "2026-11-22T14:40:58.138030+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/eswatini/diabetes-eswatini/": {
+      "http_status": 200,
+      "bytes": 262838,
+      "sha256": "f3d704dba6171633835b641182010a7747729df8b7796a6f1b149c31da963673",
+      "retrieved_utc": "2026-11-22T14:40:57.955687+00:00"
+    },
+    "https://idf.org/fr/our-network/regions-and-members/africa/members/togo/association-togolaise-du-diabete/": {
+      "http_status": 200,
+      "bytes": 264519,
+      "sha256": "32314a142c9f2363476ab799734c4849095449ef6ed72a37c3d81405351f0dbd",
+      "retrieved_utc": "2026-11-22T14:40:57.922958+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/western-pacific/members/tonga/tonga-diabetes-association/": {
+      "http_status": 200,
+      "bytes": 265784,
+      "sha256": "e375ee9773a0a3cec1eda0d7f57d03edd9c672e47c7dbbc59c92ccf6d9202a05",
+      "retrieved_utc": "2026-11-22T14:40:58.216660+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/united-arab-emirates/": {
+      "http_status": 307,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_utc": "2026-11-22T14:41:03.247731+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/ukraine/ukrainian-diabetology-association/": {
+      "http_status": 200,
+      "bytes": 139287,
+      "sha256": "b3f7d0b71903ee5ac356b4a26f56c13eae594a262c9fc5a9d50aa7be7bdafa28",
+      "retrieved_utc": "2026-11-22T14:40:57.836528+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/ukraine/": {
+      "http_status": 200,
+      "bytes": 155131,
+      "sha256": "ab15c8cf6b6ac33f03b17300bffea165f0ad1be4939ae75d5d2705c0633a0a6c",
+      "retrieved_utc": "2026-11-22T14:40:57.838916+00:00"
+    },
+    "https://idf.org/europe/our-network/our-members/north-macedonia/": {
+      "http_status": 200,
+      "bytes": 154162,
+      "sha256": "2addb118f8f5e23ab951dc6d1764117469912422b6155a91198b7bd45161e1c1",
+      "retrieved_utc": "2026-11-22T14:40:57.738354+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/egypt/": {
+      "http_status": 200,
+      "bytes": 276267,
+      "sha256": "d993d8db4d0864a1a454f81edfe696dc84b1fee7f526e2fe8a7c598a0f5af593",
+      "retrieved_utc": "2026-11-22T14:40:58.113682+00:00"
+    },
+    "https://www.svemonline.org/": {
+      "http_status": 200,
+      "bytes": 189423,
+      "sha256": "5d59a46f84ace8ed8719b37fa145517cb6655866d61f778da0f52da8313b2513",
+      "retrieved_utc": "2026-11-22T14:33:38.032055+00:00"
+    },
+    "https://idf.org/es/our-network/regions-and-members/south-and-central-america/members/venezuela/federacion-nacional-de-asociaciones-y-unidades-de-diabetes/": {
+      "http_status": 200,
+      "bytes": 266748,
+      "sha256": "d5df861eea6fbbf863dcc884411dd0fffbbcc58701c3cea9763f8c1e1e8b0c63",
+      "retrieved_utc": "2026-11-22T14:40:57.412412+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/middle-east-and-north-africa/members/yemen/": {
+      "http_status": 200,
+      "bytes": 269682,
+      "sha256": "7b10b7a43704a6998ad0885b039ab9387d8d82d36838b4678c3b01c7e451d982",
+      "retrieved_utc": "2026-11-22T14:40:58.158163+00:00"
+    },
+    "https://idf.org/our-network/regions-and-members/africa/members/zambia/diabetes-association-of-zambia/": {
+      "http_status": 200,
+      "bytes": 263385,
+      "sha256": "bfbcdd41ec9aeb5701ae947a1715804499635b37dfa53e819d9c0ebbda727e12",
+      "retrieved_utc": "2026-11-22T14:40:58.089279+00:00"
+    }
+  }
+}

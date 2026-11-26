@@ -1,0 +1,60 @@
+[
+  {
+    "record_id": "B116-AF-JAMI-diabetes",
+    "organization": {
+      "org_id": "B-AF-JAMI-MED",
+      "area_m49": "004",
+      "name_local": "پوهنحی طب معالجوی پوهنتون جامی",
+      "name_english": "Jami University Faculty of Medicine, Curative Medicine research authors",
+      "organization_type": "private_academic_biomedical_research_group",
+      "clinical_discipline": "medicine_diabetes_public_health",
+      "scope": "Herat academic faculty; original rural Herat study authors, not national diabetes association",
+      "independent_or_government": "private_academic_institution_directory_corroborated_governance_not_audited",
+      "official_url": "https://jami.edu.af/en/medicine-faculty/",
+      "language": "fa_Dari",
+      "verified_on": "2026-11-18",
+      "source_url": "https://jami.edu.af/en/medicine-faculty/",
+      "identity_state": "own_faculty_and_original_author_affiliation_plus_WDOMS_private_Herat_listing; legal_governance_unreviewed"
+    },
+    "condition_key": "diabetes",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13134255/",
+    "title": "Diabetes prevalence and associated risk factors among adults in rural Herat province, Afghanistan: a community-based cross-sectional study",
+    "language": "en",
+    "edition": "2026 Mar24;26:1429; doi10.1186/s12889-026-27103-y",
+    "role": "authored",
+    "tier": "S1",
+    "source_country": "826",
+    "country_basis": "journal_publication_country",
+    "issuer": "Karim Suri, Saeed and Allemy; Jami University local academic coauthors distinct from Ministry coauthor; BMC Public Health London journal publisher",
+    "population": "Adults in selected rural Herat communities,2024; not national or ethnicity-based sample; participant flow disputed in issue129",
+    "jurisdiction": "Afghanistan study setting and reported MoPH IRB; neither national guideline adoption nor independent ethics certification",
+    "identity_evidence": "Own Dari faculty page and named dean inspected; original paper gives local department/authorship, contributions and university funding. WDOMS F0008064 independently lists private faculty in Herat; no legal certification.",
+    "evidence_summary": "Original full methods, author roles, funding and limitations inspected. S1 research existence only. Participant-flow arithmetic and cholesterol definition/table mismatch retained in issue129; no quantitative estimates or diagnostic thresholds adopted. Cross-sectional, rural-only, single-visit ascertainment and Ministry coauthor distinguish scope and governance; local private faculty is not government authority or national association.",
+    "query": "Local-author diabetes query led to PMID41872797; inspected original full text, own Dari faculty page and WDOMS private-school record",
+    "next_action": "Resolve https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/129 before quantitative reuse; independent clinical, methods, consent and rights appraisal.",
+    "additional_provenance": [
+      {
+        "record_id": "B116-AF-JAMI-diabetes-SCHOOL",
+        "record_class": "original_identity_or_journal_country_evidence",
+        "area_m49": "004",
+        "source_issuer": "WFME/FAIMER or NLM original directory",
+        "source_url": "https://search.wdoms.org/home/SchoolDetail/F0008064",
+        "source_language": "en",
+        "checked_on": "2026-11-18",
+        "verification_state": "direct_primary_directory_inspected_not_legal_or_clinical_approval",
+        "notes": "WFME/FAIMER own directory lists Jami medicine faculty as private, operational and addressed in Herat; not a legal/clinical endorsement."
+      },
+      {
+        "record_id": "B116-AF-JAMI-diabetes-IMPRINT",
+        "record_class": "original_identity_or_journal_country_evidence",
+        "area_m49": "826",
+        "source_issuer": "WFME/FAIMER or NLM original directory",
+        "source_url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/100968562",
+        "source_language": "en",
+        "checked_on": "2026-11-18",
+        "verification_state": "direct_primary_directory_inspected_not_legal_or_clinical_approval",
+        "notes": "NLM serial catalogue explicitly gives England and London BioMed Central, distinct from Afghan authors and sample."
+      }
+    ]
+  }
+]

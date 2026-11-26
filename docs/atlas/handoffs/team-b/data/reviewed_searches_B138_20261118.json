@@ -1,0 +1,35 @@
+[
+  {
+    "record_id": "B138-PK-celiac-identity",
+    "area_m49": "586",
+    "condition_key": "celiac",
+    "query": "AOECS Pakistani Celiac Society exact own history, celiac-disease and contact-us retrievals after web cache misses; one successful direct route",
+    "language": "en",
+    "depth": "D3",
+    "avenues": [
+      {
+        "approach": "first_party_network_directory",
+        "url": "https://www.aoecs.org/about-us/members/",
+        "observation": "OutsideEurope colleague list identifies Pakistani Celiac Society and exact celiac.com.pk URL, not Karachi Celiac Society."
+      },
+      {
+        "approach": "own_original_organization_history",
+        "url": "https://celiac.com.pk/en/history/",
+        "observation": "Own history names2010 founders and Pakistan awareness activity. No verified current local registered seat."
+      },
+      {
+        "approach": "own_original_source_body",
+        "url": "https://celiac.com.pk/en/celiac-disease/",
+        "observation": "Substantive education body exists; identity/publication-domicile conflict prevents source qualification. Clinical allergy/autoimmunity/diagnosis wording remains unapproved."
+      },
+      {
+        "approach": "own_current_contact_identity_conflict",
+        "url": "https://celiac.com.pk/en/contact-us/",
+        "observation": "Own contact page displays apparently uncorrected SanFrancisco address, invalid Flexora email and template reviews/phone. Not treated as verified US or Pakistan domicile."
+      }
+    ],
+    "result": "Named source/identity conflict escalated: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/143. No new organization or publication-country assignment invented; earlier KarachiCeliacSociety M observation retained.",
+    "limits": "Specific primary identity/publisher question, not nationwide absence or proof of same legal entity. No .pk domain/flag-based domicile inference. Source educational substance does not automatically establish local eligibility or clinical correctness. No external contact, clinical/genetic/legal/rights approval.",
+    "next_action": "Obtain genuine current first-party seat/governance/responsible-publisher statement under issue143; preserve exact conflicting observations; no repeated identical retrieval."
+  }
+]
