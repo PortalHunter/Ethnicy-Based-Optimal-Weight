@@ -1,6 +1,6 @@
-# Global Health Atlas table preview
+# Global Health Atlas preview
 
-Open `index.html` in a browser. The preview reads its versioned data locally and provides institution and area-coverage views. Institution details distinguish location, territorial remit, cross-border services, and source roles. Area coverage keeps unknowns and conflicting evidence visible. The condition filter identifies research availability and leaves clinical applicability unassigned.
+Open `index.html` in a browser. The preview reads its versioned data locally. Drag or use the arrow keys to rotate the globe. Use the zoom controls or focus menu to inspect clustered links, and select a link on the globe or in the connection list to open its source. The searchable directory covers all 248 M49 areas. Institution details distinguish location, territorial remit, cross-border services, and source roles. Area coverage keeps unknowns and conflicting evidence visible. The condition filter identifies research availability and leaves clinical applicability unassigned.
 
 ## Update the projection
 
@@ -16,3 +16,24 @@ node --test tests/atlas-preview.test.mjs
 ```
 
 Review any change to the approved snapshot or allowed fields before rebuilding the public-facing projection.
+
+## Globe connections
+
+The globe uses color and line patterns for regional assignments, institutional roles, membership, cooperation and shared research publications. At wide zoom levels, it draws a representative subset of regional assignments to keep the view legible. The connection list includes every mapped relationship and the focus menu shows all mapped links for the selected endpoint.
+
+Publication links are based on matching authorship attribution in the same original document. Assessing agreement or contradiction would require comparison of the actual findings and guidance. The available research handoff has no such reviewed comparison records.
+
+Regional offices use approximate sourced city locations. Other links may use representative area points. Coastlines and placement points are from [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/). The globe draws physical geography without political borders.
+
+Rebuild and verify the globe from the repository root:
+
+```sh
+base=https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson
+atlas_shapes=$(mktemp -d)
+curl -fsSL "$base/ne_110m_land.geojson" -o "$atlas_shapes/land.geojson"
+curl -fsSL "$base/ne_50m_admin_0_countries.geojson" -o "$atlas_shapes/areas.geojson"
+PYTHONDONTWRITEBYTECODE=1 python3 scripts/build-atlas-globe.py "$atlas_shapes/land.geojson" "$atlas_shapes/areas.geojson"
+PYTHONDONTWRITEBYTECODE=1 python3 scripts/build-atlas-globe.py "$atlas_shapes/land.geojson" "$atlas_shapes/areas.geojson" --check
+```
+
+The builder verifies both Natural Earth files against pinned checksums.

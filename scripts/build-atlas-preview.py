@@ -34,6 +34,8 @@ SPECIALIST_IDENTITIES = {
     'first_party_organization_governance_verified',
     'first_party_charity_identity_verified',
     'first_party_nonprofit_identity_verified',
+    'own_primary_name_academic_medical_role_and_local_campus_inspected_registry_unreviewed',
+    'own_named_local_academic_identity_and_original_author_affiliation_verified_legal_governance_unreviewed',
 }
 TERRITORIAL_ROLES = {
     'census_authority_for': 'Identified health authority',
