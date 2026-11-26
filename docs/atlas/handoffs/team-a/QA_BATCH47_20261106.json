@@ -1,0 +1,69 @@
+{
+  "batch": 47,
+  "checked_utc": "2026-11-06",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "prior_branch_head": "dd340a36bc5b44e179ac61d2eac776287392447d",
+  "immutable_batch47_data_head": "e78ca3df7669941c927635fc8eb169eba72390a6",
+  "write_commits": [
+    "97d4541cfc7c03ce870c35ea4722f886e5c70985",
+    "d21af331d9c8db741eb5c66725e48d37a69d7d35",
+    "e78ca3df7669941c927635fc8eb169eba72390a6"
+  ],
+  "immutable_blobs": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+    "data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+    "data/government_health_bodies.csv": "1ff2feb1fe1464bed3c31acac2b5ff4cae24a024",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "f0eb14ceee64e450b75d50a139b1534aff300271",
+    "PROVENANCE.csv": "049374d9eb2d633fd49927d00f92474632a0e55d"
+  },
+  "counts": {
+    "official_m49": 248,
+    "country_skeletons": 248,
+    "provisional_area_identity": 231,
+    "documented_unknown": 17,
+    "government_bodies": 318,
+    "authority_relationships": 45,
+    "shared_area_scopes": 4,
+    "area_coverage_rows": 248,
+    "unresolved_audit_rows": 17,
+    "provenance_rows": 673
+  },
+  "structural_audit": {
+    "engine": "Independent complete quote-aware JavaScript parser and comparison of eight full CSVs fetched from the immutable GitHub data SHA; JS execution, NOT Python",
+    "outcome": "PASS_WITH_GLOBAL_PROVENANCE_SCOPE_EXCEPTION",
+    "checks": [
+      "All 8 CSVs parsed quote-aware without broken widths; stable headers",
+      "248 exact official M49 code ISO and name/region/subregion equalities; 231 provisional identity plus 17 documented unknown",
+      "318 unique governmental body IDs with area links, valid HTTPS and date, 45 source-scoped body-to-body edges and 4 existing shared authority mappings",
+      "248 country coverage entries; 17 auditable unknown rows with valid provenance source IDs",
+      "673 unique provenance IDs and issuer/title/date/language/HTTPS/state attributes; includes three pre-existing GLOBAL M49 geography data sources with intentionally blank area_m49, which must NOT be treated as source corruption",
+      "All 670 prior provenance bytes preserved exactly; all other 16 unknown-area audit CSV lines preserved byte-for-byte",
+      "All six unchanged official and research CSVs retain Batch46 identical Git blob hashes",
+      "Three new source IDs A47-581-01 through A47-581-03 are Wake-only 2025 official CFR, M49 581 remains UNKNOWN",
+      "Only three Team A research paths changed from prior head dd340a36... to Batch47 data commit"
+    ],
+    "changed_paths": [
+      "docs/atlas/handoffs/team-a/source_recovery/CYCLE_581_WAKE_GPO_2025_PERMITS_AUTOPSIES_EMERGENCY_20261106.md",
+      "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+      "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv"
+    ],
+    "python_validator": "NOT RUN in Batch47. A live local git ls-remote of github.com failed DNS resolution. Last actually passing Python tests were Batch41.",
+    "python_unittest": "NOT RUN in Batch47; last actual five regression tests Batch41",
+    "legal_acceptance": "INCOMPLETE; neither structural QA nor record counts establish complete currently enacted and independently issued statutory competence, comprehensive devolution/regulators or clinical suitability"
+  },
+  "research_findings": [
+    "A47-581-01 official 2025 GPO printed 32 CFR §935.11 pp122-123 Wake-specific food handlers, drug/poison, burial permits; current 2026 final original status and actual written delegation unread",
+    "A47-581-02 official 2025 GPO printed §935.14 p123 medical officer autopsies limited to Commander or Wake Judge authorization; no clinic/provider entitlement inferred",
+    "A47-581-03 official 2025 GPO printed §935.16 p124 commander-declared emergency life/property protective acts; no normal medical jurisdiction inferred",
+    "All three are one Air Force issuing regulatory source, merely published in official GPO/NARA edition; no independent issuer; Part 935 limited to Wake/Peale/Wilkes, NOT nine M49 581 components",
+    "2026 dated secondary 935.11 mirror is not substitute for current official original; 2026 eCFR direct 935.11/14/16 unsuccessful",
+    "All previously recorded 226/744 and the other 16 unknown caveats unchanged"
+  ],
+  "primary_source": "https://www.govinfo.gov/content/pkg/CFR-2025-title32-vol6/pdf/CFR-2025-title32-vol6.pdf",
+  "source_note": "source_recovery/CYCLE_581_WAKE_GPO_2025_PERMITS_AUTOPSIES_EMERGENCY_20261106.md"
+}

@@ -1,0 +1,84 @@
+{
+  "batch": "A56",
+  "date_utc": "2026-11-06",
+  "immutable_research_data_sha": "06d18072c95718d4ca3517534629babeb8112f11",
+  "pre_batch_sha": "9e2b293cd1f1c0ebb404b8d67c8b0d6a2edf4706",
+  "validation": "PASS_INDEPENDENT_QUOTE_AWARE_GITHUB_STRUCTURAL_MIRROR",
+  "python_validator": "NOT_RUN_DNS_BLOCKED",
+  "python_unit_tests": "NOT_RUN_DNS_BLOCKED",
+  "reason": "git ls-remote github.com failed: Could not resolve host; JS mirror not Python",
+  "checked_at_data_sha": true,
+  "counts": {
+    "official_m49": 248,
+    "scoped_provisional_identities": 231,
+    "unknown_identities": 17,
+    "bodies": 318,
+    "relations": 45,
+    "shared_scopes": 4,
+    "coverage": 248,
+    "sources": 705,
+    "legal_partially_triaged": 9,
+    "legal_unscored": 239,
+    "legal_complete": 0,
+    "queue_evidence_added_unresolved": 9,
+    "queue_queued": 239
+  },
+  "before_after": {
+    "source_observations": [
+      701,
+      705
+    ],
+    "partial_legal_ledger": [
+      6,
+      9
+    ],
+    "unscored_ledger": [
+      242,
+      239
+    ],
+    "unknown_identifications": [
+      17,
+      17
+    ]
+  },
+  "checks_passed": [
+    "All 248 official dated M49 code/ISO/name/region/subregion match",
+    "248 unique country rows with required region totals and 3-digit leading-zero codes",
+    "318 distinct valid body IDs; 231 provisional/17 unknown, no cross-area body errors",
+    "248 coverage reviews; 17 source-linked unknown audit rows",
+    "45 sourced relationships; 4 unique expressly sourced shared scopes",
+    "705 unique provenance IDs and nonblank source languages/dates/verification states",
+    "248 legal tracking records, evidence ID gate, dimensional states and review dates",
+    "248 research queue items, proper lanes and required next retrieval paths",
+    "All previous 701 provenance objects preserved exactly; 16 untouched UNKNOWN audit rows identical",
+    "All 245 unmodified legal and queue rows preserved exactly; source IDs A56-624-01/A56-012-01/A56-012-02/A56-028-01 present",
+    "No fabricated parent/territory authority; no former body linked as current"
+  ],
+  "negative_controls_passed": [
+    "FABRICATED provenance ID rejected",
+    "Premature RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW rejected",
+    "Missing last legal review date rejected",
+    "Cross-area Algeria body assignment to Antigua rejected",
+    "Former institution never silently linked as current"
+  ],
+  "immutable_blob_sha": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "PROVENANCE.csv": "0de8b55b25007a57db3a1aae73ee8ca561b0c662",
+    "data/countries.csv": "32a868a700db0223dfc56bf7549866a1e0eadd1f",
+    "data/government_health_bodies.csv": "456ac0b737f0b963fabfcda9836b000dfe8c5b9b",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/country_coverage.csv": "e4ade0148ef9b3f8767f02956335763d44d06d38",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "109357fcad249abbb5d239801a77fef84f5942e7",
+    "data/legal_verification_ledger.csv": "ca7875efb2dd77e6ee50dc1ddce4fb939ca6ada3",
+    "data/research_queue.csv": "456e6c6a48ed6f9ecc310b848976ba41f100c58e"
+  },
+  "changed_research_paths": [
+    "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+    "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+    "docs/atlas/handoffs/team-a/data/research_queue.csv",
+    "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+    "docs/atlas/handoffs/team-a/source_recovery/CYCLE_A56_624_012_028_LEGAL_TRIAGE_20261106.md"
+  ],
+  "interpretation": "Structural integrity only. No current all-tier enacted-law acceptance, independent legal sign-off or clinical suitability certification."
+}

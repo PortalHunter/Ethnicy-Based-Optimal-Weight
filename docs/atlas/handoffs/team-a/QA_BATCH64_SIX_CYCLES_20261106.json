@@ -1,0 +1,90 @@
+{
+  "batch": "A59-A64 six-cycle 2026-11-06",
+  "immutable_data_sha": "e791d74498aa01e7f400f188e5b03d356a8669d8",
+  "baseline_sha": "e51a2f6fb478533579f3efd99555cd966ad42472",
+  "status": "PASS_STRUCTURAL_ONLY",
+  "method": "Independent complete ten-CSV quote-aware JS check against exact GitHub SHA; NOT repository Python validator",
+  "actual_python_validator": "NOT_RUN_GITHUB_DNS",
+  "actual_python_unittests": "NOT_RUN_GITHUB_DNS",
+  "counts": {
+    "official_m49": 248,
+    "provisional": 231,
+    "unknown": 17,
+    "bodies": 318,
+    "relationships": 45,
+    "shared_scopes": 4,
+    "provenance": 728,
+    "added_provenance": 11,
+    "legal_partial": 19,
+    "legal_unscored": 229,
+    "queue_evidence": 19,
+    "research_complete": 0
+  },
+  "tests": {
+    "passed": 25,
+    "positive": [
+      "ten CSV schemas quote-aware valid",
+      "248 unique M49",
+      "248 unique countries",
+      "exact M49 list parity",
+      "248 unique coverage keyed",
+      "318 unique government bodies",
+      "body M49 area references",
+      "45 relationships",
+      "relationship endpoints and HTTPS",
+      "four shared body scope links",
+      "country links to same-area or explicitly shared bodies",
+      "231 provisional / 17 UNKNOWN",
+      "17 unknown audit rows",
+      "728 unique provenance rows",
+      "source mandatory issuer provenance and HTTPS",
+      "original 717 legacy provenance exact retained",
+      "11 new IDs right area",
+      "248 legal ledger consistent with identity",
+      "legal source references resolve to same M49 area",
+      "19 partial / 229 unscored / zero research-complete",
+      "248 queue keys and linked legal ledger parity",
+      "19 queue evidence added",
+      "17 UNKNOWN queue lanes",
+      "parent M49 nonfabrication",
+      "NZ index-only amendment not source supported"
+    ],
+    "negative_controls_rejected": 6,
+    "negative": [
+      "duplicated source",
+      "fabricated cross-area body",
+      "unresolvable law source",
+      "NZ wrongly accepted 2026 law",
+      "wrong UNKNOWN lane",
+      "nine-field CSV source rejected"
+    ]
+  },
+  "blob_shas": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "PROVENANCE.csv": "17c2e324d9b11c242cb86a3c7361fbf343c08796",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/countries.csv": "32a868a700db0223dfc56bf7549866a1e0eadd1f",
+    "data/country_coverage.csv": "e4ade0148ef9b3f8767f02956335763d44d06d38",
+    "data/government_health_bodies.csv": "456ac0b737f0b963fabfcda9836b000dfe8c5b9b",
+    "data/legal_verification_ledger.csv": "cae00b0238bbc6b61a9df9c4d04db6eef2c217c3",
+    "data/research_queue.csv": "450f524471233aee1e228daf469fad7aef822bb3",
+    "data/unresolved_area_audit.csv": "4819ffb4792f1deaba522b81653709cbf35d522d"
+  },
+  "research_commits": [
+    "a743eb3a1c4547867142eff20b5b6ad8e0f4e031",
+    "28fb6112f18de42ef720a5c94094f0314b65f249",
+    "5d7765652b85b78da138c05748312880b9681e97",
+    "bfdc243d8e58afbaf097a52e5abccdc63552df11",
+    "b9b729b707a04b7b7880b784b756b93a62f3bc7b",
+    "8faffa2bdaabfae374a68d4ac363ab7d56751069"
+  ],
+  "source_repair_commit": "e791d74498aa01e7f400f188e5b03d356a8669d8",
+  "notes": [
+    "Repaired 9 malformed M49 provenance records in new isolated fixup before this audit; original 717 source rows intact.",
+    "Three legacy global M49 provenance observations intentionally have blank area_m49; not area-level law evidence.",
+    "No legal/clinical acceptance; 17 UNKNOWN, 231 identities provisional; all current enacted all-tier functions incomplete.",
+    "NZ official 2026 original direct full text HTTP403; index only; no sourced approval.",
+    "Original repository Python validator/unittests NOT RUN due inaccessible GitHub checkout DNS."
+  ]
+}

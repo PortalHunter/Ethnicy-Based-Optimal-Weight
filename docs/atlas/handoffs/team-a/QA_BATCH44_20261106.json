@@ -1,0 +1,66 @@
+{
+  "batch": 44,
+  "checked_utc": "2026-11-06",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "initial_head": "c4dc8c3800e0245b3056cf9b42b36882324ab71a",
+  "previous_batch43_immutable_data": "1514456bd58dcbfa8649ac779517d0cdb8c0cce1",
+  "immutable_batch44_data_commit": "e9922f75eca9f3a6963fb08e94aea8cb9d9c3e17",
+  "research_commits": [
+    {
+      "sha": "c4c8ab4d644e6b2fce59e0b65e02b1fca4f0df9d",
+      "change": "Official 2026 eCFR Wake source-specific note"
+    },
+    {
+      "sha": "6c237958e6a680e11f47273ca2afb8ae01665585",
+      "change": "Five new source-state observations"
+    },
+    {
+      "sha": "e9922f75eca9f3a6963fb08e94aea8cb9d9c3e17",
+      "change": "581 unresolved audit only"
+    }
+  ],
+  "counts": {
+    "official_m49": 248,
+    "country_skeletons": 248,
+    "government_body_identity_areas": 231,
+    "documented_unknown": 17,
+    "bodies": 318,
+    "relationships": 45,
+    "shared_scope_links": 4,
+    "coverage": 248,
+    "provenance": 665
+  },
+  "immutable_blob_shas": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+    "data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+    "data/government_health_bodies.csv": "1ff2feb1fe1464bed3c31acac2b5ff4cae24a024",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "d8fe152d6d49c35235f61bc35d68682eaa7fcea0",
+    "PROVENANCE.csv": "52e312438d91d3b19a0f06a82b1b7246278e1e79"
+  },
+  "independent_structural_audit": {
+    "all_eight_live_csv_readbacks": "PASS",
+    "quote_aware_schema_and_complete_row_width": "PASS",
+    "official_M49_248_exact_ISO_name_regions": "PASS",
+    "unique_country_body_provenance_scope_identifiers": "PASS",
+    "all_body_and_relationship_and_scope_references": "PASS",
+    "17_unknown_231_identified_geography": "PASS",
+    "A44_5_new_sources_and_581_audit": "PASS",
+    "other_16_unknowns_unchanged": "PASS",
+    "older_660_provenance_prefix_preserved_exact": "PASS",
+    "all_parent_m49_blank": "PASS",
+    "PR": "OPEN DRAFT UNMERGED"
+  },
+  "limitations": [
+    "Python validate.py and five unittest regressions NOT EXECUTED in Batch44. Local git ls-remote github.com failed DNS. Quote-aware JavaScript structural QA is not Python test execution.",
+    "Current eCFR 935.12 displayed as-of Nov 4; 935.10 Sep 11; 935.1 Aug 14. eCFR is authoritative but unofficial. This is section-level evidence not entire original current legal consolidation or all written redelegations.",
+    "Original official Federal Register July 2025 amendment only changes 935.3(d); it is not independently issuable proof of 2026 complete local jurisdiction.",
+    "Unknown 581 remains and other 16 unknowns are unresolved. 231 identity-positive areas lack exhaustive current-enacted legal and devolved powers verification.",
+    "No website main other teams medical claims PR merge or ready changes."
+  ],
+  "source_note": "source_recovery/CYCLE_581_CURRENT_ECFR_20261106.md"
+}

@@ -1,0 +1,155 @@
+## A119 · Governmental census handoff · 2026-11-26
+
+**Complete for the original census research handoff with documented exceptions.** The [census disposition register](data/census_dispositions.csv) has one row per M49 area, including 248/248 checked against the dated official snapshot. It records 226 source-supported governmental identities, 4 scoped delegated dispositions, 7 shared/devolved dispositions, 7 evidence-limited unknowns and 4 unresolved competing-authority cases. No area was assigned a blanket not-applicable disposition. The structural identity field has 237 identified and 11 unresolved rows. The data contain 323 body records, 1051 provenance observations, 45 body relationships and 4 pre-existing shared-authority scope rows.
+
+A119 added five evidence-scoped authority resolutions and four original-language title checks and six separately issued portfolio corroboration checks. The other principal unknowns and conflicts retain exact source limitations. The Eritrean original-script title remains a named translation follow-up. Governmental identity assertions follow the linked body descriptions and dated citations. Government- or partner-authored operational evidence has bounded scope. Independent corroboration follows actual source issuers, with disputed names, jurisdiction, and narrower legal functions qualified in the country, coverage, legal and unresolved-area records. See [GAPS.md](GAPS.md).
+
+Reviewed every area and processed the 48 inherited queued areas, 190 partially resolved queue areas and ten source-blocked cases against original census acceptance. The per-area disposition records the decision and lists each remaining untriaged strict dimension. The legal queue remains live for that separate purpose, with 48 queued, 190 evidence-added and 10 source-blocked items. Use [legal verification](data/legal_verification_ledger.csv) and [statutory follow-up queue](data/research_queue.csv) for exact legal dependencies. The [A118 unknown audit](data/unresolved_area_audit_A118.csv) preserves the prior unresolved records and their full provenance.
+
+**Strict ledger.** 189 partially supported areas, 59 in progress, zero eight-dimension completions. Of 1,984 cells, 617 source-supported, 1001 researched-incomplete, 364 untriaged and 2 conflicting. Both conflicts are retained in Equatorial Guinea. Supported provisions remain scoped individually. Independent expert and legal authentication and clinical approval remain separate.
+
+<!-- autonomous-run-20261122 -->
+# Team A — CURRENT A118: EVIDENCE_ADDED follow-ups: Uruguay, Norway, Turkiye, Uzbekistan, Argentina, Trinidad and Tobago; San Marino and Tunisia attempts (low-budget checkpoint) (2026-11-22)
+
+**Run:** autonomous completion run (Brian brief 2026-11-22), input HEAD `785cad2d2e128383efde7028e58aea47d23ace7e`, branch `research/atlas-team-a-20261104`, [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68) OPEN/DRAFT/UNMERGED. Published SHA for this checkpoint = the commit containing this file (see `git log`); the next batch records it as its input.
+
+**Run baseline (2026-11-22, measured from repo at c4ac494):** partial 29, unscored 219, in-progress 0, research-complete 0/248; dims 59 SOURCE_SUPPORTED / 134 RESEARCHED_INCOMPLETE / 1789 NOT_TRIAGED / 2 CONFLICT / 0 NOT_APPLICABLE; 231 provisional / 17 UNKNOWN identities; provenance 766.
+
+**Now:** partial **186**, in-progress (triaged, no legal support) **62**, unscored **0**, research-complete **0/248**; dims **612** SOURCE_SUPPORTED (+553 run) / **1006** RESEARCHED_INCOMPLETE / **364** NOT_TRIAGED / **2** CONFLICT / **0** NOT_APPLICABLE; UNKNOWN identities **16**; provenance **1015**; queue {"QUEUED": 48, "EVIDENCE_ADDED_NOT_RESOLVED": 190, "BLOCKED_NEW_SOURCE_REQUIRED": 10}.
+
+- A117 (785cad2): 5 areas, +5 SOURCE_SUPPORTED.
+- A118: Uzbekistan 860 +3 (UP-77/2026, UP-230/2024, lex.uz); Trinidad and Tobago 780 +3 (Food and Drugs Act, Regional Health Authorities Act, Quarantine Act; laws.gov.tt to 2016); Turkiye 792 +2 (CBK1 arts 371, 538); Uruguay 858 +1 (Ley 18.211 art77, IMPO); Norway 578 +1 (smittevernloven par.8-6); Argentina 032 +1 (Disposicion 1/2026 MS, Boletin Oficial). San Marino 674 evidence only (Legge 69/2004, Legge 113/2021); Tunisia 788 no official route. Remaining NOT_TRIAGED dims in these areas triaged RI. Run paused in low-budget checkpoint mode on owner instruction; useful automated research NOT exhausted.
+
+**Blocked / external (exact missing requirement):**
+- 044/050/056/064/072/090/364 (A77) and 440/498 (A79) BLOCKED_NEW_SOURCE_REQUIRED (exact instruments in research_queue.csv blocked_reason).
+- JS/anti-bot official portals (SG, NZ, KE, LT, MD, AZ e-qanun) need a browser-capable official retrieval route (KR, EE, FI, CH, IT now reached in A113 via KLRI printContent JSON, Riigi Teataja tolge/xml, Finlex server-rendered payload, Fedlex SPARQL+filestore and Normattiva article URNs); Russia pravo.gov.ru/minzdrav.gov.ru unreachable from box and fetch provider (A80); PacLII and pakistancode.gov.pk unreachable from box (A87); retsinformation.dk API returns JS shell, Nepal giwmscdnone.gov.np PDF CDN empty reply, agc.gov.bn LOB PDFs 404 (A91); laws.gov.tt revised laws only to 2016 and search unfiltered, guernseylegalresources.gg 403, laws.gov.vg and bvirtualogp.pr.gov unreachable (A92); elegislation.gov.hk and legislation.gov.fk JS-only, LeyChile (Chile 152) web service requires API key, uaelegislation.gov.ae 403 (A93); wapi.gov.me (Montenegro Uredba) TLS failure and fetch 504 (A96); pravno-informacioni-sistem.rs (Serbia) JS-only, legislation.gov.im PDFs WAF-rejected, njt.hu unreachable from box (A99); cabsec.gov.in AoB PDF 404 and indiacode timeout, mjla.gov.om search/data.qanoon.om 403 (A100); laws.gov.fj Angular SPA, new.kenyalaw.org 403 to fetch provider (A101); legislation.gov.ky PDFs behind AWS WAF challenge (box 202) and fetch-provider 504, gov.tc AGC edocman document downloads HTTP 500, lawcommission.gov.kn SiteGround captcha, laws.gov.gd viewdocument HTTP 406 (A103); laws.moj.gov.jm (Jamaica) unreachable from box, parliament.gov.gy acts listing HTTP 500, laws.gov.ai index has no document links (A104); legal.gov.vc HTTP 500, mojca.gov.ss and tuvalu-legislation.tv/ago.gov.to unreachable or challenged from box (fetch provider works for ago.gov.to and mojca; tuvalu 502), ronlaw.gov.nr PDF links redirect to portal home (A105); legislacion.asamblea.gob.ni (Nicaragua) http-only, moj.gov.iq and moh.gov.jo unreachable, lsp.moic.gov.la HTTP 500, gob.ec PDFs unreachable (A107-A109); rmiparliament.org WAF 202/fetch 502, health.gov.tt PHO LN299/2021 image-only, gacetaoficialdebolivia.gob.bo TLS failure (A110); npc.gov.cn https handshake failure, codecommission.pw and guamcourts.org TLS failure (A111); espromedbio.gob.ve, uradni-list.si, zdravstvo.gov.mk TLS failures (A112); gov.cy MoH legislation PDFs and cylaw.org 403, moh.gov.kw TLS failure, moph.gov.lb laws index has no document links, Eritrea Legal Notice 14/1993 only as Library of Congress Gazette scan in Tigrinya/Arabic (no OCR language available), KLRI translation of Korea GOA Act No.21491 (2026) empty, Fiji Medicinal Products Decree copy unnumbered (A113); LeyChile get_norma_json returns header/structure only (Chile 152), giwmscdnone.gov.np still empty reply (Nepal Drugs Act via DDA/Law Commission), et.gr FEK API redirects to bare-IP https (certificate mismatch), pisrs.si JS-only, gacetaoficial.gob.pa JS challenge, elegislation.gov.hk PDF route returns HTML (HK reached via DoJ open dataset instead) (A114); planalto.gov.br TLS EOF, ontario.ca/laws JS-only (A115); ris.bka.gv.at web UI security check (OGD API used instead), legislatie.just.ro unreachable, e-sbirka.cz redirect loop, lex.bg 403 (non-issuer anyway), adilet.zan.kz pages return stubs, likumi.lv Medical Treatment Law lacks municipal-competence article (A116); zakon.rada.gov.ua, peraturan.go.id, suin-juriscol.gov.co and gacetaoficial.gob.ve unreachable from box (A117); pist.tn/iort.gov.tn unreachable, iort.tn redirect stub only, rgd.legalaffairs.gov.tt TLS certificate failure (A118).
+- Disputed/dual-administration identities 104/275/732/887 need owner scope decision (skipped).
+- Externally administered identities need one owner identity policy (record external delegated authority as principal identity, or keep UNKNOWN): 260 (French State administrateur superieur), 086 (BIOT Commissioner, no local health ordinance), 334 (HIMI: ACT applied law, HIMI Act s5-6, A87), 239 (SGSSI: Falklands-derived Public Health Ordinance Parts II-IV, Commissioner, A87).
+- DPRK 408: KCNA/Rodong Sinmun cabinet-appointment report unreachable (box HTTP 500, fetch-provider timeout).
+- Trinidad and Tobago 780: laws.gov.tt revised laws only to 31 Dec 2016 and labelled unofficial; post-2016 amendments need Gazette access (A118).
+- Expert/legal review of all SOURCE_SUPPORTED cells is external (no area can be RESEARCH_COMPLETE_PENDING_EXPERT_REVIEW without all 8 dims).
+
+**Next exact queue position:** A119: micro-batch Norway 578 establishing_law (royal resolution on Ministry of Health and Care Services via Lovdata), Uruguay 858 Ley 9.202 organic law (IMPO JSON), Uzbekistan 860 ZRU-393 sanitary-epidemiological law (lex.uz); then QUEUED rows (Trinidad 780 PHO OCR, San Marino 674 coordinated Legge 69/2004, remaining 47 QUEUED). Low-budget mode stop at A118 (88% weekly usage). RESTART PROMPT (next usage reset): Continue Atlas Team A on research/atlas-team-a-20261104 (draft PR #68) from the HEAD containing this CURRENT.md (A118). Read CURRENT.md and RUN_LOG_20261122.md only; helper scripts were in /workspace/ta (common.py, regen.py, ckpt.py, run_batch.sh) on the box. Run micro-batches of 1-3 jurisdictions: EVIDENCE_ADDED follow-ups on working machine-readable routes (lex.uz search, IMPO ?json=true, Lovdata, mevzuat.gov.tr PDFs, laws.gov.tt list?currentid=N, Boletin Oficial AR, Fedlex, Riigi Teataja, Finlex, KLRI, Normattiva, Retsinformation, BOE, Sejm, RIS OGD, e-Gov, legislation.gov.uk); then remaining QUEUED rows. Skip 104/275/732/887, 260/086/334/239, 558 and documented blocked routes. Only https URLs; never invent evidence; only modify docs/atlas/handoffs/team-a/; run validate.py and the 10 unittests before every commit; push normally (no force), verify remote; never merge/ready PR #68 or touch main.
+
+**Validation:** native `validate.py` and 10 unittests run on this exact tree before commit (see commit message for result). Structural only; not legal/clinical/expert approval. **Unpublished work:** none if remote SHA equals local HEAD.
+
+```text
+Provisional identities     [###################.] 232/248 | +1
+Expanded partial legal     [###############.....] 186/248 partial | +157
+Unscored areas             [....................] 0/248 | -219
+Narrow supported dims      [######..............] 612/1984 | +553
+All-tier research complete [....................] 0/248 | +0
+```
+
+---
+## Prior checkpoints (historical)
+
+# Team A — CURRENT scoped Argentina original-competence recovery (2026-11-08)
+
+**Latest bounded result:** A-01:032, input320e39ae5d4cf4b014dfafecdfb2ccc066e7c737. [Recovery note](source_recovery/CODEX_A032_ORIGINAL_COMPETENCE_20261108.md): CODEX-A032-20261108-01 official1490compilation kept separate from original2014Decree1886art1 leadership amendment(-02) and original2026ANMAT6552 narrow product action under1490art8(ñ)(-03). Original Spanish register passages directly read; no facsimile/e-signature or expert-law certification.
+
+**Original metrics:** provenance763→766(+2original observations,+1qualifiedcompilation);248geographies,231provisional/17UNKNOWN,318bodies/45relations/4scopes,1/10issuer sample unchanged. **Separate expanded workflow:**29partial,219unscored,59/1984supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged. All legal statuses and A70-IA-08PARTIAL/NO retained; global issuer gateOPEN. No legal/clinical/expert approval.
+
+**Next/limits:** complete current1490parent/amendment/delegation chain, original provincial/CABA/Indigenous/professional/surveillance instruments and DNU571/771 congressional treatment remain unresolved. Do not repeat recovered2014art1/2026single-product action as a new gap. Historical parent/appointee names not carried into2026;229relation index not full-chain audit. Independent Verifier and designated Writer required, PR68OPEN/DRAFT/UNMERGED.
+
+```text
+Provisional identities [###################.] 231/248 | +0
+Issuer narrow pass     [##..................] 1/10 | +0
+Expanded partial      [##..................] 29/248 | +0
+All-tier complete     [....................] 0/248 | +0
+Unresolved all-tier    [####################] 248/248 | +0
+```
+
+---
+## Prior scoped checkpoints (historical; provenance now766)
+
+# Team A — CURRENT scoped Algeria original-Arabic recovery (2026-11-08)
+
+**Latest bounded result:** A-01:012 Algeria, run `codex-A-A01-012-20261108-95ff0d24`, input `7f24bf92adb4a4569219ab9a3c236595ae5024c8`. Recovered original Arabic [Law18-11/2018](https://www.joradp.dz/FTP/jo-arabe/2018/A2018046.pdf) as `CODEX-A012-20261108-01` and [Ordinance20-02/2020](https://www.joradp.dz/FTP/jo-arabe/2020/A2020050.pdf) as `CODEX-A012-20261108-02`. Printed2018pp3/7/41 and2020pp4/5 visually checked: dated headings, narrow health-programme/pharmaceutical allocations, named promulgators and publication clauses. Prior French translation observations retained; originals are historical, not a current comprehensive statute/amendment chain. [Exact recovery note](source_recovery/CODEX_A012_ORIGINAL_ARABIC_20261108.md).
+
+**Original metrics:** provenance **761→763 (+2original Arabic observations)**; dated geography248/248, authority/UNKNOWN248/248,231provisional/17UNKNOWN,318bodies/45relations/4scopes, issuer sample1/10 unchanged. **Separate expanded workflow:**29partial/248,219unscored/248,59/1984supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged. All dimension statuses retained; global issuer gate OPEN. No legal/clinical/expert approval or new current-authority conclusion.
+
+**Limits/next:** current ministry organic powers, original post2020 amendment/commencement chain through8Nov2026, surveillance/professional/regulator and actual wilaya/commune implementation remain unresolved. Arabic original recovery is not a current-law or expert translation certification. CurrentArabicindex/exact2020FrenchURL503; PNRS200 only application shell. Source failures do not rescind historical observations. Do not repeat the two exact recovered originals.
+
+**QA:** exact8file proposal passed harness/native validator/10tests plus focused preservation controls before independent verification; structural checks are not legal completeness. Separate fresh Verifier and designated Writer required; PR68 OPEN DRAFT UNMERGED.
+
+```text
+Provisional identities     [###################.] 231/248 | +0
+Issuer exact narrow pass   [##..................] 1/10 | +0
+Expanded partial legal     [##..................] 29/248 | +0
+All-tier research complete [....................] 0/248 | +0
+Unresolved all-tier rows   [####################] 248/248 | +0
+```
+
+---
+## Prior scoped checkpoints (historical; provenance now763)
+
+# Team A — CURRENT scoped Queensland original-law recovery (2026-11-08)
+
+**Latest bounded result:** A-01:036 Australia, run `codex-A-A01-036-20261108-0badc804`, input `64fc7b26be3b0f7e6986d5651286279e50ced9a6`. Recovered original [Queensland Act45/2009](https://www.legislation.qld.gov.au/view/pdf/asmade/act-2009-045) as `CODEX-A036-20261108-01`: assent3Nov2009, s2 commencement1Jul2010 exceptpart4, s4 local adoption, scheduleds23 national agency establishment; original PDF pages21/22/23/50 visually inspected. Official [10Apr2026 whole-act text](https://www.legislation.qld.gov.au/view/whole/html/inforce/2026-04-10/act-2009-045) separately recorded as `CODEX-A036-20261108-02`; current s4 applies schedule as modified by part4. Original2009 text is not substituted for current law. History's2025Act6/2026effective-date entries remain qualified leads, not authenticated amendment originals.
+
+**Original metrics:** provenance **759→761 (+2 observations: one original enactment, one qualified current-text compilation)**. Dated geography248/248, authority/UNKNOWN248/248,231provisional/17UNKNOWN,318bodies/45relations/4scopes and issuer sample1/10 unchanged. **Separate expanded workflow:**29partial/248,219unscored/248,59/1984narrow supported,134incomplete,1789nottriaged,2conflicts,0/248all-tier complete unchanged. A70-IA-10 **PARTIAL/NO**; global issuer gate OPEN. No legal/clinical/expert approval or dimension promotion.
+
+**Limits/next:** other state/territory original enactments/modifications, full amendment/commencement chain including Queensland2025Act6, NHMRC/surveillance, First Nations and local public-health instruments remain unresolved. Federal Register latest/versions still listsC2025C00525; first interactions page is not a complete amendment audit. Exact prior health.gov.au URLs returnedHTTP503; historical evidence retained. No new body/relationship or production paths.
+
+**QA:** exact eight-file proposal passed Atlas structural contract, native validator and10tests plus focused preservation controls; structural checks do not establish legal completeness. Separate independent Verifier and designated Writer required. PR68 stays OPEN DRAFT UNMERGED. Andorra original-parent recovery and all prior records retained below as history.
+
+```text
+Provisional identities     [###################.] 231/248 | +0
+Issuer exact narrow pass   [##..................] 1/10 | +0
+Expanded partial legal     [##..................] 29/248 | +0
+All-tier research complete [....................] 0/248 | +0
+Unresolved all-tier rows   [####################] 248/248 | +0
+```
+
+---
+## Prior scoped checkpoint (historical; provenance now761)
+
+# Team A — CURRENT scoped original-parent recovery (2026-11-08)
+
+**Latest bounded result:** A-01:020 Andorra, run `codex-A-A01-020-20261108-2041f192`, input `24582e5fab6a9f3c0d85250d2a3e5e80d2fd0e74`. Original signed Sant Julià 4December2025 hygiene/waste parent recovered as `CODEX-A020-20261108-01` from [official BOPA150 PDF](https://documents.bopa.ad/bopa-documents/037150/pdf/QSO_2025_12_04_16_02_09.pdf). Printed p1 adoption4Dec; p12 Cerni Cairat signature and final clause effective day after publication10Dec, therefore11Dec2025. This closes only the missing-parent retrieval, not all-commune or national legal acceptance. Existing June2026 article29 amendment retained; no new full amendment sweep.
+
+**Original metrics:** provenance **758→759 (+1)**; dated M49 **248/248**, authority/UNKNOWN **248/248**, provisional identities **231/248**, UNKNOWN **17**, bodies/relations/shared scopes **318/45/4**, precise issuer sample **1/10**, all unchanged. **Separate expanded workflow:** partial **29/248**, unscored **219/248**, narrow supported **59/1984**, researched-incomplete134, not-triaged1789, conflicts2, all-tier complete **0/248**, unchanged. A70-IA-05 **PARTIAL/NO**, global issuer gate OPEN; no legal/clinical/expert approval. Other six communes, later amendments and national medical/medicines powers remain unverified.
+
+**QA for this proposal:** actual native Python validator and10 unittests plus Atlas structural contract executed on exact input snapshot with scoped proposed files; see run manifest for final outputs. Scope is eight exact packet paths, no body/relationship/site/calculator/other-team edits. Separate independent Verifier approval and designated Writer publication are required; this research record does not self-certify publication. PR68 remains OPEN DRAFT UNMERGED. Both derived248-row indexes refreshed for Andorra only.
+
+**Next:** follow updated queue/backlog for other-commune originals and national current law; do not repeat recovered parent or closed Bahamas dental commencement. Keep Indigenous/community, historical, territorial and cross-border qualifications.
+
+```text
+Provisional identities     [###################.] 231/248 | +0
+Issuer exact narrow pass   [##..................] 1/10 | +0
+Expanded partial legal     [##..................] 29/248 | +0
+All-tier research complete [....................] 0/248 | +0
+Unresolved all-tier rows   [####################] 248/248 | +0
+```
+
+---
+## Historical A73 snapshot (superseded above only for parent recovery and provenance count)
+
+# Team A — authoritative CURRENT A73 (2026-11-07)
+
+**Phase:** acceptance-driven ORIGINAL issuer research, NOT consolidation. Draft [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68), branch `research/atlas-team-a-20261104`. A73 began at independently verified A72 HEAD `f3152cab48f37c405ce08edbcdf5415a9e52bf80`. Remain OPEN, DRAFT and UNMERGED. No main/site/calculator/other-team writes, no legal or clinical approvals.
+
+**Startup:** [RUNBOOK](RUNBOOK.md) · [A73 acceptance](ORIGINAL_ACCEPTANCE_TRACKING_A73_20261107.md) · [A73 10-claim issuer audit](INDEPENDENT_ISSUER_AUDIT_A73_20261107.csv) · [A73 checkpoint](CHECKPOINT_20261107_POST_CONSOLIDATION_A73.md) · [A73 issuer-locator note](source_recovery/CYCLE_A73_PRIMARY_ISSUER_LOCATORS_20261107.md) · [finite 248 priority backlog](PRIORITIZED_BACKLOG_20261107.csv). All A72 snapshots retained.
+
+**ORIGINAL governmental directory:** dated geography **248/248**, authority identified or UNKNOWN **248/248**, **231** provisional authority identities, **17 UNKNOWN**, **318** bodies, **45** relations, **4** shared scopes and **5** missing original-script labels (004/056/048/196/232). Precise independent issuer sample **1/10 PASS_NARROW**, two claims in each populated UN region, global legal issuer acceptance **OPEN**. A73 sourced two metadata-qualified recovery leads, **provenance 756→758**; neither is a newly authenticated original signed act. The A72 original Sant Julià 2026 public-hygiene amendment still supports only narrow communal devolution; A70-IA-05 **PARTIAL/NO**.
+
+**EXPANDED separate 248×8:** **29 PARTIAL**, **219 UNSCORED**; **59/1984 SOURCE_SUPPORTED** narrow legal dimensions, **134 RESEARCHED_INCOMPLETE**, **1789 NOT_TRIAGED**, **2 CONFLICT_UNRESOLVED**, **0/248** all-tier research complete. **No A73 legal dimension promotions**: unreviewed machine consolidation (Andorra) and Parliament issuer catalogue (Samoa) do not become original signed law.
+
+**Top actionable recovery:** original Andorran BOPA 10 Dec2025 Sant Julià parent with full signed provisions, six other communes and current national amendments; Samoa signed 2019 amendment, separate S.R.2019-1, distinct 2007 Minister commencement; Botswana original Gazette S.I.4/2014, Act29/2025 appointed day and numbered final 2026 regulations; Solomon post2024 original laws and provincial/Honiara instruments; Bhutan original Cabinet C-3/6(5)/2024/48 and RCSC LTD/1/COM/2024/3331 letters and successors. Rotate UNKNOWN 624/226/581/744/010 and five regions. Closed Bahamas S.I.18/2026 is OUT OF SCOPE for re-research. Preserve Indigenous/community, territorial, disputed-sovereignty, historical and cross-border restrictions.
+
+**QA:** No complete authorized checkout; `git ls-remote` GitHub DNS failure, native Python validator and unittest **NOT RUN**. [A73 immutable QA](QA_POST_CONSOLIDATION_A73_20261107.json) independently verified 18/18 checks at the research commit; structural readback does not constitute legal/scientific/clinical approval.
+
+```text
+Dated M49 geography        [####################] 248/248 | 248→248 | +0
+Authority/UNKNOWN          [####################] 248/248 | 248→248 | +0
+Provisional identities     [###################.] 231/248 | 231→231 | +0
+Issuer exact narrow pass   [##..................]   1/10  | 1→1     | +0
+Expanded partial legal     [##..................]  29/248 | 29→29   | +0
+Expanded unscored          [##################..] 219/248 | 219→219 | +0
+Narrow supported dims      [#...................] 59/1984 | 59→59   | +0
+All-tier research complete [....................]   0/248 | 0→0     | +0
+Unresolved all-tier rows   [####################] 248/248 | 248→248 | +0
+```
+
+**Next reusable continuation:** [A73 prompt](CONTINUATION_PROMPT_A73_20261107.md).

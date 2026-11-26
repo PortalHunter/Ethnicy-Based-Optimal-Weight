@@ -1,0 +1,50 @@
+{
+  "checked_utc": "2026-11-06",
+  "status": "PASS_STRUCTURAL_ONLY",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "base_head": "4e06f080d9ff11418d0579f1dababf355ba33f28",
+  "immutable_tracking_data_head": "c68fd68b07fbea6edc8e4505fdcf4bd81e1ea129",
+  "counts": {
+    "official_m49": 248,
+    "governmental_identity_provisional": 231,
+    "documented_unknown": 17,
+    "government_body_rows": 318,
+    "provenance_rows": 692,
+    "legal_verification_ledger_rows": 248,
+    "legal_review_stage_unscored": 248,
+    "legal_research_acceptance_measured": 0,
+    "queue_rows": 248,
+    "queue_unknown_lane": 17,
+    "queue_provisional_lane": 231,
+    "highest_priority_unknown": 5,
+    "provisional_region_rotation": 10,
+    "python_test_definitions": 9
+  },
+  "new_file_blobs": {
+    "RUNBOOK.md": "772c9828d8f9d5cf0ae3387b4b6295c2f2b963a3",
+    "data/legal_verification_ledger.csv": "b294253144cec7c7698792751c3f4ca58197bf8d",
+    "data/research_queue.csv": "203a21c9074c139991b65bd6b7c129caf2d18b6e",
+    "validate.py": "5245b08ad8b93700e4cf3dcc966d223cfef6a837",
+    "test_validate.py": "c1d0ef46cd4353dc8147a5c9439ef62dae70681d"
+  },
+  "changed_paths": [
+    "docs/atlas/handoffs/team-a/RUNBOOK.md",
+    "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+    "docs/atlas/handoffs/team-a/data/research_queue.csv",
+    "docs/atlas/handoffs/team-a/validate.py",
+    "docs/atlas/handoffs/team-a/test_validate.py"
+  ],
+  "preservation": "All existing 8 original research CSV files exactly unchanged relative to pre-workflow HEAD; prior source IDs, audit caveats, body records and status classifications intact.",
+  "checks": [
+    "New 248-key ledger and 248-key queue match official 248-M49 dataset with geography/ISO/region equality and baseline resolution 231/17",
+    "New ledger intentionally unscored across eight legal dimensions; no authority or legal approval fabricated",
+    "Queue 17 unresolved cases includes 5 priority; two provisional rotation records from each populated UN region",
+    "GitHub compare pre-workflow to immutable workflow HEAD changed exactly 5 Team A paths, no production or other team files",
+    "Four independent JS negative-case invariants checked; structural only and not Python execution"
+  ],
+  "python_validator": "NOT RUN: GitHub DNS prevents checkout; last actual prior batch 41",
+  "python_regression_tests": "NOT RUN: four new regression tests committed, total nine; JS mirror not Python execution",
+  "legal_acceptance": "INCOMPLETE / NOT MEASURED",
+  "clinical_approval": "NONE"
+}

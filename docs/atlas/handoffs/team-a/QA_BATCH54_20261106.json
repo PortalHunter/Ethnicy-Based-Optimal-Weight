@@ -1,0 +1,63 @@
+{
+  "batch": "A54",
+  "date_utc": "2026-11-06",
+  "status": "INDEPENDENT_GITHUB_READBACK_STRUCTURAL_PASS_NOT_LEGAL_CERTIFICATION",
+  "immutable_data_sha": "115e82103cc6fd9ab1ec3443a5b69c989cd8cf7b",
+  "source_note": "source_recovery/CYCLE_A54_020_036_074_PRIMARY_LEGAL_20261106.md",
+  "source_ids_added": [
+    "A54-020-01",
+    "A54-020-02",
+    "A54-036-01",
+    "A54-074-01"
+  ],
+  "counts": {
+    "official_m49_geographies": 248,
+    "provisional_identity_areas": 231,
+    "unresolved_area_keys": 17,
+    "body_records_including_historical": 318,
+    "relationships": 45,
+    "shared_area_scope": 4,
+    "source_observations": 696,
+    "ledger_partial": 3,
+    "ledger_unscored_existing_research": 245,
+    "queue_evidence_added_not_resolved": 3,
+    "queue_queued": 245
+  },
+  "readback_blob_shas": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "PROVENANCE.csv": "4ddbbfb39ecc2ab3178e0667ea5bf01c236e41b3",
+    "data/countries.csv": "32a868a700db0223dfc56bf7549866a1e0eadd1f",
+    "data/government_health_bodies.csv": "456ac0b737f0b963fabfcda9836b000dfe8c5b9b",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/country_coverage.csv": "e4ade0148ef9b3f8767f02956335763d44d06d38",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "2008414bc26329cf9d0ccf96d2b59c098e1cdff2",
+    "data/legal_verification_ledger.csv": "013a08fbdf2e5d838f1a7c9133a8698482144113",
+    "data/research_queue.csv": "74c9507e21a1c330fc0668beb22209fbecdd667d",
+    "source_recovery/CYCLE_A54_020_036_074_PRIMARY_LEGAL_20261106.md": "a94c899034c0942cf8b7c4f844b01efea8307c17"
+  },
+  "structural_checks": {
+    "official_248_key_set": "PASS",
+    "official_country_attributes": "PASS",
+    "provenance_uniqueness_696": "PASS",
+    "body_and_country_links": "PASS",
+    "unknown_source_audit": "PASS",
+    "legal_queue_stage_and_references": "PASS",
+    "andorra_historical_lab_removed_from_current_links": "PASS",
+    "only_team_a_paths": "PASS"
+  },
+  "negative_controls": {
+    "cross_area_link": "PASS_REJECTED",
+    "missing_provenance_id": "PASS_REJECTED",
+    "premature_research_completion": "PASS_REJECTED",
+    "historic_body_current_link": "GUARD_ADDED_PYTHON_DEFINITION_NOT_EXECUTED"
+  },
+  "execution": {
+    "python_validator": "NOT_RUN_GITHUB_DNS_FAILURE",
+    "python_unittest": "NOT_RUN_GITHUB_DNS_FAILURE",
+    "new_guard_test_defined": "YES",
+    "test_definition_count": 10,
+    "structural_js_mirror": "PASS"
+  },
+  "legal_caveat": "Partial ledger scoring is not complete enacted national territorial or devolved authority; full legal completion percentage not measured. No medical clinical approval. Two Andorra decrees same issuing Government; document hosting not independent issuer."
+}

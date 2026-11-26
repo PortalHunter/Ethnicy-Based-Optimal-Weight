@@ -1,0 +1,84 @@
+{
+  "batch": 42,
+  "checked_utc": "2026-11-06",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "starting_branch_head": "721224293f088dbf2f273ff13215435bb6a1efa3",
+  "baseline_data_commit": "8920d236fb6054aec1ab4074f8e747b441287c59",
+  "immutable_new_data_commit": "2970560f8789ed73cf60c4658a60f93ae21e9881",
+  "commits": [
+    {
+      "sha": "476be6fa6ea2c56a06b84f5000b7f62e26e97618",
+      "change": "seven A42-744 provenance observations"
+    },
+    {
+      "sha": "678a0434c9204250845c15f2ff0c59e7181436e1",
+      "change": "Svalbard/Jan Mayen source recovery"
+    },
+    {
+      "sha": "2452f256d208f4e77ed642b9021637187e1c4f12",
+      "change": "six narrow scoped government institution rows"
+    },
+    {
+      "sha": "fd5736f284d4765230d4c354c0a05816a521c7f0",
+      "change": "five A42-581 historical/current provenance observations"
+    },
+    {
+      "sha": "9114e8335ed6341ee2169772ddcc198e1edb580d",
+      "change": "US Minor Outlying Islands source recovery"
+    },
+    {
+      "sha": "2970560f8789ed73cf60c4658a60f93ae21e9881",
+      "change": "augment two unresolved-area audit rows without status promotion"
+    }
+  ],
+  "counts": {
+    "official_m49": 248,
+    "country_skeletons": 248,
+    "authority_identified_areas": 231,
+    "documented_unknown_areas": 17,
+    "government_body_records": 318,
+    "relationships": 45,
+    "provenance": 655,
+    "coverage": 248,
+    "explicit_multi_area_scope_records": 4
+  },
+  "immutable_blobs": {
+    "data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "data/government_health_bodies.csv": "1ff2feb1fe1464bed3c31acac2b5ff4cae24a024",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6dd62fbd54e9140",
+    "data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "8e0975206925413de96f6d8e9d001649f5b15c6f",
+    "PROVENANCE.csv": "54cee9ab022481e76db1ff5056a59bb9312ab719"
+  },
+  "independent_audit": {
+    "quote_aware_csv_schema_and_count": "PASS",
+    "exact_official_m49_iso_name_and_regions_equality": "PASS",
+    "unique_country_body_provenance_and_scope_keys": "PASS",
+    "all_area_body_source_relationship_and_scope_foreign_keys": "PASS",
+    "coverage_resolution_alignment_and_17_unknown_audit_alignment": "PASS",
+    "all_12_new_source_ids_and_6_744_body_ids": "PASS",
+    "source_language_checked_date_https_and_verification_states": "PASS",
+    "baseline_312_body_rows_preserved_byte_equivalent_after_parse": "PASS",
+    "baseline_643_provenance_rows_preserved_byte_equivalent_after_parse": "PASS",
+    "15_unaffected_audit_rows_unchanged": "PASS",
+    "2_changed_audit_rows_prefix_preserves_original_reason_action_and_ids": "PASS",
+    "baseline_country_master_unchanged": "PASS",
+    "unsupported_parent_m49_links": "NONE",
+    "initial_head_to_data_commit_comparison": "6 commits; 5 changed paths; all within docs/atlas/handoffs/team-a/",
+    "pr_still_open_draft_unmerged_after_data_commit": true
+  },
+  "limitations": [
+    "Actual Python validate.py and five unittest regression tests NOT RERUN this batch; Batch41 did run them.",
+    "Independent JavaScript structural mirror is not Python test execution.",
+    "No direct full current authenticated Norwegian 2015-747 consolidation (Lovdata 405); private legal-text mirror is secondary.",
+    "1989 DOI manual is historical; 1996 FWS Midway and 1999 SO3210 Navassa differ.",
+    "Identity, mandates and no-parent graph constraints are not evidence of complete enacted and independent legal responsibility.",
+    "Remaining 17 area unknowns and 231 located areas' complete current-law/devolved/regulator/institute reviews remain unfinished.",
+    "No clinical, effective-control, access-entitlement or medical validity certification."
+  ],
+  "scope": "Only docs/atlas/handoffs/team-a/ changed; no main, public website, calculator, clinical files or other-team files; leave PR draft/unmerged."
+}

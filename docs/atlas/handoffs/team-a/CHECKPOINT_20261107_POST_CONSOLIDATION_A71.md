@@ -1,0 +1,13 @@
+# Team A A71 primary-source checkpoint — 2026-11-07
+
+**Branch:** `research/atlas-team-a-20261104` for [PR #68](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68), to stay OPEN/DRAFT/UNMERGED. Starting verified A70 HEAD `53140b0907e251a111c5563e4e351af0a0246d93`; GitHub compare identical at start; writes limited to Team A.
+
+**Original directory:** 248/248 dated UN M49 geography, 248/248 principal authority or documented UNKNOWN disposition; 231 provisional names, 17 UNKNOWN, 318 body records, 45 narrow links, four shared scopes. Finite audit 10 exact claims across five populated UN regions (2 per region) remains **1/10 PASS_NARROW** (Bahamas existing A69); independent issuer global gate remains OPEN, with five missing original-script labels. Original provenance **752→754 (+2)**, IDs **A71-020-01 Andorra** and **A71-882-01 Samoa**. Old sources preserved.
+
+**Expanded legal workflow, separately:** 28→**29** PARTIAL, 220→**219** UNSCORED, 56→**58** narrow SOURCE_SUPPORTED, 129→**134** RESEARCHED_INCOMPLETE, 1797→**1790** NOT_TRIAGED, 2→2 CONFLICT, 0/248 all-tier complete. Samoa §4 establishing Ministry and 2019-amended §5 national services/health policy only added as narrow historic-source dimensions; full current through-2026 statutes not verified. Andorra separate 2025 national parliamentary issuer verified without promoting full 020 audit claim (communal original absent).
+
+**Outstanding exact originals:** Botswana Gazette S.I.4/2014, Medicines Act29/2025 Minister's appointed-day Gazette, final numbered 2026 medicines regulations; Solomon Islands post-Feb2024 Health Services amendments and actual Honiara/provincial instruments; Bhutan Cabinet C-3/6(5)/2024/48 and RCSC LTD/1/COM/2024/3331, subsequent Board amendments; Samoa original 2007 commencement Minister notice and 2019 Act; Andorran communal enactments. Targeted UNKNOWN 624/226/581/744/010 still held. Never reopen Bahamas dental S.I.18/2026; never treat a draft, metadata index, host or historical consolidation as current independent issuer. No formal BLOCKED_NEW_SOURCE_REQUIRED without two distinct original-route retrieval failures and reopening trigger.
+
+**Validation:** Native Python validator and unit tests NOT RUN (no authorized local full checkout, GitHub DNS failure). Quote-aware independent prewrite QA 34/34; immutable GitHub readback separately reported in QA and continuation report. Structural QA does not certify statute, issuer competence, full legal or clinical claims.
+
+Next: [CURRENT](CURRENT.md) · [A71 issuer audit](INDEPENDENT_ISSUER_AUDIT_A71_20261107.csv) · [A71 acceptance tracking](ORIGINAL_ACCEPTANCE_TRACKING_A71_20261107.md) · [source detail](source_recovery/CYCLE_A71_SAMOA_ANDORRA_ISSUER_20261107.md).

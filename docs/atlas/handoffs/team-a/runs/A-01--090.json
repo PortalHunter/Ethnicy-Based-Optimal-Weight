@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "key": "A-01:090",
+  "input_sha": "fae5eed287562aaae744ca14d310ed5d4140ad75",
+  "disposition": "blocked",
+  "evidence": [
+    {
+      "id": "si-agc-health-services-reprint-2024",
+      "url": "https://attorneygenerals.gov.sb/Download/health-services-act-cap-100v1/?tmstv=1772422145&version=3",
+      "locator": "Attorney-General digital reprint, Health Services Act (Cap. 100), as in force 5 February 2024",
+      "issuer": "Solomon Islands Attorney-General's Chambers (digital reprint publisher)",
+      "checked": "2026-11-08; official portal and HTML-rendered reprint search retrieval",
+      "original": false,
+      "access": "indexed",
+      "qualification": "Official authorized reprint identifies a historical as-in-force baseline, not an independently inspected original enactment, Gazette instrument, or verified amendment chronology from 6 February 2024 through 8 November 2026. No 2025/2026 effective-date or repeal conclusion is established."
+    },
+    {
+      "id": "si-agc-legislation-portal",
+      "url": "https://attorneygenerals.gov.sb/legislation/legislation-portal/",
+      "locator": "Legislation Act 2023 reprints, current Acts, Acts indexes, subordinate legislation, HCC ordinances and nine provincial assembly ordinance collections",
+      "issuer": "Solomon Islands Attorney-General's Chambers",
+      "checked": "2026-11-08; official legislation portal directly retrieved",
+      "original": true,
+      "access": "direct",
+      "qualification": "Original first-party explanation of publication and indexing regime, not itself an original legal instrument. Portal cautions that digital reprints do not have the same standing as consolidations or revised editions. Indexed amendment and commencement fields are discovery leads pending instrument-level cross-check. The Honiara City Council Act 1999 section 34 and Provincial Government Act 1997 section 30 are described as ordinance-making bases, but no clinic-specific delegation was recovered."
+    },
+    {
+      "id": "si-agc-health-workers-reprint-2024",
+      "url": "https://attorneygenerals.gov.sb/Download/health-workers-act-cap-101v2/?tmstv=1772582449&version=3",
+      "locator": "Health Workers Act (Cap. 101), Attorney-General reprint as in force 5 February 2024",
+      "issuer": "Solomon Islands Attorney-General's Chambers (digital reprint publisher)",
+      "checked": "2026-11-08; indexed HTML-rendered reprint",
+      "original": false,
+      "access": "indexed",
+      "qualification": "A statutory health-worker registration/disciplinary framework is identified. No original act or through-November-2026 amendment, board appointment, commencement or delegating order independently authenticated."
+    },
+    {
+      "id": "si-agc-pharmacy-practitioners-reprint-2024",
+      "url": "https://attorneygenerals.gov.sb/Download/pharmacy-practitioners-act-1997v1/?tmstv=1773484755&version=3",
+      "locator": "Pharmacy Practitioners Act 1997, Attorney-General reprint as in force 5 February 2024",
+      "issuer": "Solomon Islands Attorney-General's Chambers (digital reprint publisher)",
+      "checked": "2026-11-08; indexed HTML-rendered reprint",
+      "original": false,
+      "access": "indexed",
+      "qualification": "Identifies pharmacy-practice statutory framework; reprint alone does not prove subsequent amendments or the present appointment, operation and delegated competencies of a board. A publisher-hosted reprint is not an independent second issuer."
+    },
+    {
+      "id": "si-agc-pharmacy-poisons-reprint-2024",
+      "url": "https://attorneygenerals.gov.sb/legislation-dashboard/download-info/pharmacy-and-poisons-act-cap-105/",
+      "locator": "Pharmacy and Poisons Act (Cap. 105), Attorney-General download listing; version as at 5 February 2024",
+      "issuer": "Solomon Islands Attorney-General's Chambers",
+      "checked": "2026-11-08; official download metadata",
+      "original": false,
+      "access": "indexed",
+      "qualification": "Original statutory enactment and post-2024 medicines or poison regulatory amendments not inspected. The existence of a publication listing is not proof of current detailed powers or commencing regulations."
+    },
+    {
+      "id": "si-agc-nursing-council-metadata",
+      "url": "https://attorneygenerals.gov.sb/legislation-dashboard/download-info/nursing-council-act-cap-104v1/",
+      "locator": "Nursing Council Act (Cap. 104), historical version listing with versions 2-4",
+      "issuer": "Solomon Islands Attorney-General's Chambers",
+      "checked": "2026-11-08; official listing metadata",
+      "original": false,
+      "access": "indexed",
+      "qualification": "Only historical catalog metadata inspected, not the latest original statutory text, commencing instrument, licensing rules or professional council appointments. No operative post-2024 identity or power promoted."
+    },
+    {
+      "id": "si-ministry-provincial-legislation",
+      "url": "https://www.mpgis.gov.sb/legislation.html",
+      "locator": "Ministry of Provincial Government and Institutional Strengthening, Provincial Government Act 1997 official ministry listing",
+      "issuer": "Solomon Islands Ministry of Provincial Government and Institutional Strengthening",
+      "checked": "2026-11-08; separately issued ministry legislation page directly retrieved",
+      "original": false,
+      "access": "direct",
+      "qualification": "Independent government organizational source locates provincial legislation but explicitly warns that posted copies are not conclusive legal versions. No province-specific health-clinic assignment, legal notice, or enacted ordinance proved. Different website/issuer does not create a second independent enactment."
+    },
+    {
+      "id": "si-mhms-operational-descriptions",
+      "url": "https://solomons.gov.sb/ministry-of-health-medical-services/",
+      "locator": "Government services portal: National Pharmacy Division, National Nursing Administration, Ministry of Health and Medical Services",
+      "issuer": "Solomon Islands Government services portal; describing Ministry of Health and Medical Services operations",
+      "checked": "2026-11-08; government service description directly retrieved",
+      "original": true,
+      "access": "direct",
+      "qualification": "First-party administrative description, not a primary statutory instrument. Separately identifies operating administrative functions but cannot establish governing professional licensing mandates, surveillance notification obligations or legal provincial delegation."
+    },
+    {
+      "id": "si-legal-gazette-index",
+      "url": "https://solomons.gov.sb/ministry-of-justice-and-legal-affairs/attorney-generals-chambers/gazettes-legislation/",
+      "locator": "Government Gazette index lists dated 2024, 2025 and 2026 issues and notices",
+      "issuer": "Solomon Islands Government / Ministry of Justice and Legal Affairs",
+      "checked": "2026-11-08; government Gazette index searched",
+      "original": false,
+      "access": "indexed",
+      "qualification": "A separate official discovery strategy was attempted using the Gazette listing. Specific post-2024 Health Services amendment and commencement issues were not recovered and read at instrument level. Some Gazette entries use generic titles such as 'Commencement Notice'; title alone cannot identify the affected Act."
+    }
+  ],
+  "blocker": "Two official retrieval routes were examined (Attorney-General legislation/reprint and index collections, and the separately exposed Government Gazette listing), but no complete, independently authenticated post-5-February-2024 Health Services Act amendment/commencement/repeal chain was established. No original provincial or Honiara health-clinic delegation or implementing ordinances were authenticated. Original current Nursing Council, Pharmacy and Poisons, Pharmacy Practitioners, Medical and Dental Practitioners, Health Workers and quarantine/surveillance instruments, their competent issuers and delegated regulations remain partly indexed or uninspected; no proof of absence is implied. Date and legal-authority conflicts cannot be closed. No legal status or institutional powers are promoted. The task therefore remains evidence-blocked rather than researched-complete.",
+  "reopen": "Retrieve and inspect actual original Gazette acts, amending Acts and commenced subsidiary notices for Health Services Act Cap. 100 after 5 February 2024 through 8 November 2026; independently compare Attorney-General Acts and subsidiary indexes and numbered Gazette notices with each original instrument. Inspect Honiara City Council section 34 ordinances and the nine provincial assemblies' section 30 ordinances for actual health/clinic delegations, identifying each issuer and territory. Retrieve current original Pharmacy and Poisons, Pharmacy Practitioners, Nursing Council, Health Workers, Medical and Dental Practitioners and Quarantine Acts, surveillance regulations and commencement/appointment notices, and test their actual status and dates; obtain separate competent issuer evidence for disputed powers. Escalate unresolved legal interpretation to qualified local counsel. Do not reopen merely on a matching website mirror or draft.",
+  "validation": [
+    "Reserved packet: task A-01; case 090; priority_rank=2,m49_code=090; queue docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv; input SHA fae5eed287562aaae744ca14d310ed5d4140ad75.",
+    "Run run-A-A01-090-20261108; launch launch-A-090-9b7f5358cd4f1918097028bb; architecture start commit 1231ba8f6ca151347212c186574ca921947bc8e3, parent 42a58c90771b5563c7fd0c240065ea82c920b0be; explicit atomic expected-SHA lease returned success; independent readback confirmed running ticket under exact launch, and one changed path docs/atlas/harness/checkout.json.",
+    "Team A pinned head independently checked at fae5eed287562aaae744ca14d310ed5d4140ad75 before start; no Team A branch write authorized or made.",
+    "Review the exact published Attorney-General 5-February-2024 reprint baseline against original acts and later Gazette issues; never treat the as-in-force date as a November 2026 status check.",
+    "Cross-check independently issued Honiara and provincial enactments with the sections and scopes indicated by the Attorney-General portal; do not substitute Ministry operational descriptions or catalog metadata for statutory conferral.",
+    "Run python3 docs/atlas/handoffs/team-a/validate.py and python3 -m unittest discover -s docs/atlas/handoffs/team-a -p 'test_*.py' in a detached checkout pinned to fae5eed287562aaae744ca14d310ed5d4140ad75 after placing only this proposed checkpoint. These native commands were not executed in this research chat.",
+    "Run python3 docs/atlas/harness/harness.py A --live-sha fae5eed287562aaae744ca14d310ed5d4140ad75 --packet packet.json --result A-01--090.json from a pinned architecture checkout to verify the packet/result schema. This native command was not executed in this research chat.",
+    "Proposed checkpoint is not published. Independent verifier must inspect source provenance and original legal instruments, check proposed JSON bytes, and authorize a separate writer only under the reserved ticket. No legal, clinical, genetics, scientific, rights or Indigenous-governance approval is made."
+  ],
+  "paths": [
+    "docs/atlas/handoffs/team-a/runs/A-01--090.json"
+  ]
+}

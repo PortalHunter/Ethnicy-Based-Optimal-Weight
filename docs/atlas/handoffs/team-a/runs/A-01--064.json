@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "key": "A-01:064",
+  "input_sha": "6f8c543f7bbf502d293a164dec240b5e03395b2a",
+  "disposition": "blocked",
+  "evidence": [
+    {
+      "id": "bt-civil-service-reform-act-2022",
+      "url": "https://oag.gov.bt/wp-content/uploads/2023/01/Civil-Service-Reform-Act-of-Bhutan-2022.pdf",
+      "locator": "Civil Service Reform Act of Bhutan 2022, sections 7-14 and 25-27, especially sections 26-27",
+      "issuer": "Parliament of Bhutan; original statutory text hosted by the Office of the Attorney General",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Original statutory text retrieved in PDF text form from the Office of the Attorney General. Section 26 provides for the merger of BAFRA, BNCA and DRA into BFDA, and section 27 addresses specified transferred regulatory functions. Section 7 establishes a transitional framework. A direct screenshot request for this PDF failed with HTTP 404, so visual inspection of its relevant statutory pages was not completed in this run. The source does not establish the complete through-November-2026 amendment chain or authenticate the two 2024 appointment letters. Existing source-supported dimensions are not independently reapproved."
+    },
+    {
+      "id": "bt-rcsc-reorganization-2022",
+      "url": "https://moha.gov.bt/wp-content/uploads/2022/12/PR-on-reorganization-of-CSA.pdf",
+      "locator": "RCSC press release RCSC/LD-63/2022/2265, dated December 30, 2022, page 2, Ministry of Health paragraph",
+      "issuer": "Royal Civil Service Commission of Bhutan",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Original RCSC-issued press release independently inspected, including a page screenshot. It expressly describes the merger of BAFRA, BNCA and DRA as BFDA. This is first-party administrative communication concerning the 2022 reorganization, not the original Cabinet letter of March 26, 2024 or RCSC letter of April 1, 2024. It does not independently establish the later board appointments, current membership or complete statutory mandate. The original RCSC-hosted URL redirects to this Ministry of Home Affairs copy."
+    },
+    {
+      "id": "bt-bfda-ndpssa-regulation-2024",
+      "url": "https://bfda.gov.bt/wp-content/uploads/2025/08/NDPSS-Regulation-2024.pdf",
+      "locator": "Narcotic Drugs, Psychotropic Substances and Substance Abuse Rules and Regulation 2024, sections 1, 6-9; printed pages 3-5",
+      "issuer": "Bhutan Food and Drug Authority, regulatory document hosted on its official website",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "BFDA-hosted regulation text and section 6 page screenshot inspected. Section 1 states an effective date of December 17, 2024 for this particular regulation. Section 6 cites Cabinet letter C-3/6(5)/2024/48 dated March 26, 2024 and RCSC letter LTD/1/COM/2024/3331 dated April 1, 2024 and lists nine board positions. The actual letters were not retrieved. A recital in a regulation is not a substitute for independently inspecting the original appointment instruments, their authority, conditions, subsequent amendments or continued effect. Its specific commencement date is not a universal BFDA succession or appointment date."
+    },
+    {
+      "id": "bt-bfda-mpd-annual-report-2024-25",
+      "url": "https://bfda.gov.bt/wp-content/uploads/2025/09/Annual-Report-2024-25.pdf",
+      "locator": "Medical Product Division Annual Report 2024-25, printed pages 28 and 42, regulatory-system discussion and governing-board composition",
+      "issuer": "Bhutan Food and Drug Authority, Medical Product Division",
+      "checked": "2026-11-08",
+      "original": true,
+      "access": "direct",
+      "qualification": "Original BFDA organizational report, not a statutory instrument. The report lists seven governing-board representations, whereas section 6 of the BFDA 2024 regulation lists nine positions. The report also allows the Minister or Secretary of Health as chairperson, differing from the regulation's Minister-only wording. The report says the Medicines Act had not yet been amended as of its reporting period and the revised Medicines Rules and Regulation 2025 awaited endorsement. These are time-bounded administrative assertions, not evidence that the proposals remained pending in November 2026. The composition discrepancy requires original appointment and amendment instruments before any conclusion about current legal membership."
+    }
+  ],
+  "blocker": "The precise original Cabinet letter C-3/6(5)/2024/48 dated March 26, 2024 and original RCSC letter LTD/1/COM/2024/3331 dated April 1, 2024 were not recovered. Two distinct official-source discovery routes were attempted: targeted searches for the letters on RCSC/government sources and targeted searches for the Cabinet reference on government domains. Neither yielded the requested original instrument. The original 2022 reform statute, RCSC's December 2022 press release and BFDA's December 2024 regulation provide related evidence but do not replace those letters. The BFDA 2024 regulation lists nine board positions, while BFDA's 2024-25 annual report describes seven representations with different chairperson wording. The cause, legal effect and chronology of this discrepancy remain unresolved. Through-November-2026 amendments, successor appointments, applicable medical-profession instruments, surveillance mandates and district or local-government allocations remain incompletely authenticated. No existing legal dimension is promoted, no present-day governing-board composition is certified, and no legal, clinical, scientific, rights or governance claim is approved.",
+  "reopen": "Reopen only following explicit Atlas maintainer approval and documented reconciliation of this blocked checkpoint with a new eligible reservation. Obtain authentic original copies of Cabinet letter C-3/6(5)/2024/48 and RCSC letter LTD/1/COM/2024/3331 from their issuing authorities or an authenticated official archive. Independently verify their full text, issuing competence, signatures, dates, scope and subsequent amendments or supersession. Reconcile the nine-position 2024 regulation with the seven-representation 2024-25 BFDA report using authoritative dated instruments. Recover and authenticate the relevant through-November-2026 amendments, medicines and medical-profession enactments, surveillance-institute mandates and applicable district/devolved instruments before considering any additional legal dimension support.",
+  "validation": [
+    "Run: run-A-A01-064-20261108; launch: launch-A-064-0e3ecaf97d5fac0efc041c0f; exact input SHA: 6f8c543f7bbf502d293a164dec240b5e03395b2a.",
+    "Reserved native queue identity: priority_rank=3,m49_code=064 in docs/atlas/handoffs/team-a/PRIORITIZED_BACKLOG_20261107.csv. Native queue row fetched from the Team A branch and matched to Bhutan and task A-01.",
+    "Master checkout protocol reviewed at e7d313b91c6ad631be865bf5d2623e782fe7f9c3. Start event published in commit bb469c1959948907a39ca75e9676239c3586a43c, directly parented by e7d313b91c6ad631be865bf5d2623e782fe7f9c3, using GitHub update_ref with expected_sha and force=false. Lease returned success=true.",
+    "Independent post-start readback at bb469c1959948907a39ca75e9676239c3586a43c confirmed the exact ticket status running and matching launch ID. Start commit changed only docs/atlas/harness/checkout.json. Ledger blob SHA c29958a949c167d0cdcc59ab5bbbca0b97c74b20.",
+    "Team A PR #68 independently checked open/draft/unmerged; team head matched 6f8c543f7bbf502d293a164dec240b5e03395b2a before start and again before final research handoff. Master PR #75 was independently checked open/draft/unmerged.",
+    "Original statutory text retrieved from the Bhutan Office of the Attorney General. Applicable sections reviewed through retrieved text. A screenshot request for the original Act failed with HTTP 404; consequently, full independent visual inspection of that source is not claimed.",
+    "RCSC original reorganization press release inspected through the Ministry of Home Affairs official copy, with screenshot of the page describing BFDA consolidation.",
+    "BFDA 2024 regulation inspected at section 1 and section 6, including screenshot of the governing-board recital. The document identifies both requested 2024 letters, but neither standalone original was recovered.",
+    "BFDA Medical Product Division Annual Report 2024-25 inspected, including screenshot of printed page 42. Report describes seven board representations versus nine positions in the 2024 regulation. This is an unresolved document-level discrepancy, not proof of an operative legal change.",
+    "Distinct attempted official-source searches: targeted RCSC/government search for LTD/1/COM/2024/3331 and targeted government-domain search for C-3/6(5)/2024/48. Neither returned the original requested letter. Search-result nonretrieval does not prove that the letters do not exist or are unpublished.",
+    "Result disposition blocked: checkpoint-only. Proposed changed path exactly docs/atlas/handoffs/team-a/runs/A-01--064.json. No edits to underlying evidence, legal ledger, source provenance, derived indexes, team branch or production code.",
+    "Original and extended coverage metrics unchanged from Team A CURRENT.md at input SHA: 248 M49 rows; 231 provisional authority identities; 17 UNKNOWN; 318 bodies; 45 relationships; 4 shared scopes; 758 provenance observations; 29 partial legal rows; 219 unscored; 59 narrowly supported dimensions of 1984; 0 all-tier research-complete.",
+    "Actual Team A Python validator and unittest suite NOT RUN in this research chat. Exact commands for an authorized complete checkout: python3 docs/atlas/handoffs/team-a/validate.py ; python3 -m unittest discover -s docs/atlas/handoffs/team-a -p 'test_*.py'. No exit codes or PASS assertions are claimed.",
+    "Atlas structural result validation pending. In an authorized checkout of the harness, save the exact packet and this result, then execute: python3 docs/atlas/harness/harness.py A --live-sha 6f8c543f7bbf502d293a164dec240b5e03395b2a --packet packet.json --result A-01--064.json. Record actual exit code and output.",
+    "Independent verifier has not reviewed this proposed result. Legal research closure NOT achieved; legal dimensions promoted: 0. Publication and final immutable blob verification are reserved for the independent verifier and designated canonical writer."
+  ],
+  "paths": [
+    "docs/atlas/handoffs/team-a/runs/A-01--064.json"
+  ]
+}

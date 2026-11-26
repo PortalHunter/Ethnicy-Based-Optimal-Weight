@@ -1,0 +1,167 @@
+# Team A COMPLETE standalone checkpoint — Batch47, 2026-11-06 UTC
+
+**PR #68 remains OPEN DRAFT, UNMERGED. Original governmental/statutory health authority acceptance: INCOMPLETE.** This GitHub file contains current recovery instructions and embeds the complete preceding Batch46 record below; no original chat is needed. Current facts supersede historical counts when they differ.
+
+## Authoritative scope and immutable state
+
+- Repository/PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68
+- Research branch: `research/atlas-team-a-20261104`; never update `main`.
+- **Exact Batch47 immutable DATA commit:** `e78ca3df7669941c927635fc8eb169eba72390a6`. Earlier HEAD was `dd340a36bc5b44e179ac61d2eac776287392447d`. Batch47 source/data commits `97d4541cfc7c03ce870c35ea4722f886e5c70985`, `d21af331d9c8db741eb5c66725e48d37a69d7d35`, `e78ca3df7669941c927635fc8eb169eba72390a6`. QA file commit `dbc923518a68daffd2618fb0791e832e8a7078da`.
+- [Exact 8-CSV structural QA and blob SHA ledger](QA_BATCH47_20261106.json) · [Full visual-source recovery](source_recovery/CYCLE_581_WAKE_GPO_2025_PERMITS_AUTOPSIES_EMERGENCY_20261106.md) · [Unresolved 17-area audit](data/unresolved_area_audit.csv) · [Provenance](PROVENANCE.csv) · [latest CONTINUE.md](CONTINUE.md).
+- **Change only `docs/atlas/handoffs/team-a/`**. No production website, public calculator/clinical models, patient data, `main`, Team B/C/D/E, merges, ready-for-review transition, clinical/legal approval or speculation about ownership/delegations. This research is staging only.
+- Original acceptance: [Team A assignment](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/TEAM_A_GOVERNMENT_CENSUS.md), plus [atlas DATA_CONTRACT](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/tree/research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas).
+
+## Current exact counts — geography and preliminary identity, NOT legal acceptance
+
+| Measure | Current |
+| --- | ---: |
+| UN M49 geographic country/area rows, exact official dated snapshot | **248/248 (100%)** |
+| Provisional area-scoped government health authority identities | **231/248 (93.15%)** |
+| Explicit principal identity UNKNOWN with individual audit actions | **17/248 (6.85%)** |
+| Distinct government health body rows | **318** |
+| Source-limited body-to-body relationships | **45** |
+| Supported shared authority area mappings | **4** |
+| Area coverage reviews | **248** |
+| Provenance observations (includes historical and failed sources) | **673** (**+3**) |
+| Independently certified current enacted comprehensive legal/devolved/regulator mandates | **NOT MEASURED / INCOMPLETE** |
+
+The 93.15% identity fraction is **not** 93.15% legally certified health-governance coverage. No new authority was promoted; 17 UNKNOWN statuses persist. Every original batch from Batch46 and earlier remains available as historic caveated record. Geography is not sovereignty or ancestry.
+
+## Substantive Batch47 research, 581 U.S. Minor Outlying Islands / Wake only
+
+The **official, printed U.S. GPO/OFR/NARA 2025 annual CFR** (32 CFR Part 935, Department of the Air Force; volume revised 2025-07-01) was **visually read** in PDF printed pp. 122–124: https://www.govinfo.gov/content/pkg/CFR-2025-title32-vol6/pdf/CFR-2025-title32-vol6.pdf.
+
+- `A47-581-01` 32 CFR **§935.11** (pp. 122–123): Wake Commander may issue specified island permits for food handlers, food establishments, drugs/narcotics/poisons, burials and other activities. This does not certify any current health/medical products regulator. Written §935.10 redelegation/current Air Force instructions pending.
+- `A47-581-02` **§935.14** (p. 123): Wake medical officer or supervised qualified person may perform autopsies **if** Commander or Wake Judge authorizes; not an asserted general medical-provider service or independent health authority.
+- `A47-581-03` **§935.16** (p. 124): Wake Commander may take necessary life/property protective acts **during declared emergencies**; no inference of routine health-policy delegation.
+
+**Important:** This is an authenticated **2025 historical annual edition**, NOT authenticated 2026 current-day complete regulatory text. Official current eCFR §935.11/.14/.16 direct pages were inaccessible; a secondary 2026-08-17 mirror is neither a second legal issuer nor official current consolidation. The three sections share **one Air Force issuing source** despite official NARA/GPO printing; they do not meet two-independent-issuer criteria. §935.1 scope is **Wake, Peale, Wilkes plus appurtenances**, not the other eight named component islands of M49 581. Retain older §935.10/.12, DOI Navassa/Palmyra orders, Midway/Johnston, 1989-historical distinctions without overwrite. **581 remains UNKNOWN** with existing source caveats.
+
+## Preservation, comparison and QA
+
+1. Three **data-state** changes only: new Wake source note, three appended provenance entries in `PROVENANCE.csv`, and a narrowed 581-only unknown-audit update. The other 16 audit rows were exactly unchanged; every old provenance byte remained a prefix of the new 673-row file; six other CSVs retained unchanged Git blob hashes relative to Batch46. PR diff base-to-data contains **only these three Team A paths**.
+2. New research/source/data commits and each write's blob SHA were independently fetched back from GitHub and checked. Eight full CSVs fetched at immutable `e78ca3d...` parsed quote-aware with exact 248 official M49 equality, 231/17 identity/unknown reconciliation, 318 unique bodies, 45 relationships, 4 scopes, 248 reviews, 17 audits, 673 unique source IDs, HTTPS/date/language/evidence states and linked IDs. **PASS structural**, with **three pre-existing global official M49 evidence records intentionally blank in area_m49** (not corrupt country-scoped observations).
+3. **Actual Python `docs/atlas/handoffs/team-a/validate.py` and all five `test_validate.py` tests NOT RUN during Batch47.** Container `git ls-remote` to GitHub failed `Could not resolve host: github.com`. The last actual passing Python validator/unit regressions were Batch41; JS structural mirror is explicitly NOT an execution of Python validation.
+4. This research does not authenticate current enacted national/subnational/municipal/Indigenous/territorial powers, signed internal delegations, legal effective control, independent issuer sufficiency, regulator completeness, or patient/clinical suitability. No legal or medical advice is approved.
+
+## Outstanding work, in order
+
+**Priority M49 581:** independently recover direct **2026 current government original** §§935.11/14/16 and LSA/Federal Register revisions, written current §935.10 Air Force redelegations, medical officer/staff and contractor health arrangements, then civil/health legal powers for **Baker, Howland, Jarvis, Johnston, Kingman Reef, Midway, Navassa and Palmyra** one-by-one. Never treat 1989 DOI administrative lists as current, nor conservation jurisdiction as public-health mandate.
+
+**Priority M49 226:** find authentic Equatorial Guinea national BOE publication and effectiveness of June **Decreto Ley 02/2026** (not the September 114/2026 appointment), reconcile Oct expanded ministry title and signed implementation/INSESO transfers, verify September original digital footer. 226 remains UNKNOWN.
+
+**Priority M49 744:** obtain full *current* original Norwegian FOR-2015-06-22-747 sections 3/4/10/11a/12/13/19/21 including July 2026 §29e and November health-research change territorial extensions; distinguish Svalbard/Jan Mayen, providers, local government, REK Nord, confidentiality dispensation vs prior ethics approval. 744 remains UNKNOWN.
+
+**Other 14 audited unknowns:** 010 Antarctica, 074 Bouvet, 086 BIOT, 104 Myanmar, 112 Belarus, 239 South Georgia/South Sandwich, 260 French Southern Territories, 275 State of Palestine, 334 Heard/McDonald, 364 Iran, 408 DPRK, 624 Guinea-Bissau, 732 Western Sahara, 887 Yemen. Keep original local-language sources, conflicts/disputes, source failures, historical/draft labels and independent issuer checks. All full row-specific reasons, evidence IDs and actions appear in `data/unresolved_area_audit.csv` (also reproduced in historical Batch46 section below).
+
+**Further original acceptance gap:** All 231 identity-positive areas still need comprehensive current original enacted national, province/state/canton, Indigenous, municipality, territorial, public-health institute, surveillance, medical regulator and research council powers; legal language/issuer/effective dates; two independent official issuing checks where disputed/devolved/renamed; sourced edges only, no speculative M49 parents. Track every record's evidence state, don't claim an acceptance percentage until measured.
+
+## Next-run safe procedure
+
+Read *this* checkpoint first, `CONTINUE.md`, `data/unresolved_area_audit.csv`, `PROVENANCE.csv`, `STATUS.md`, `GAPS.md`, `QA_REPORT.md`, `README.md`, `CHANGELOG.md`, dated M49 snapshot, `validate.py`/`test_validate.py`, [source note](source_recovery/CYCLE_581_WAKE_GPO_2025_PERMITS_AUTOPSIES_EMERGENCY_20261106.md), then original Team A prompt/data contract. **Resolve live PR/branch HEAD** because other researchers may push; reconcile same-file changes with SHA-based update and readbacks, never overwrite current source caveats. Work small official-primary source batches. Commit only Team A directory and independently read immutable hashes, run true Python validator/unittests if checkout available (otherwise explicitly document limitation) and complete quote-aware cross-file QA. Persist another full GitHub checkpoint and update current docs. Keep draft PR open/unmerged.
+
+## Exact reusable continuation prompt
+
+> Continue Research Team A in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68.
+>
+> Read `docs/atlas/handoffs/team-a/CONTINUE.md` on branch `research/atlas-team-a-20261104`, including its latest checkpoint and original acceptance criteria.
+>
+> Verify live GitHub state and continue autonomously. Preserve all research, legal/source caveats, and scope restrictions. Commit, validate, and verify readbacks regularly. Modify only Team A's research directory. Do not modify the public website, main, or other teams; do not merge or mark the PR ready.
+>
+> If unfinished, save a complete standalone GitHub checkpoint. End with a concise status, this same reusable continuation prompt, and updated visual progress bars showing verified geographic coverage, unresolved areas, and remaining legal-verification work. Distinguish coverage from full acceptance completion.
+
+---
+
+# Archived complete standalone Batch46 checkpoint — preserved for earlier legal and source findings
+
+# Team A complete standalone checkpoint — Batch46, 2026-11-06 UTC
+
+**Research incomplete; PR #68 must stay OPEN, DRAFT, UNMERGED.** This document is recoverable without the chat. It *supersedes all earlier checkpoint totals*, preserves all earlier source-state caveats and records, and does not authorize medical, legal or ancestry-derived decisions.
+
+## Exact recovery and permitted scope
+
+- Repo/PR: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68
+- **Branch (not `main`):** `research/atlas-team-a-20261104`.
+- Original standalone acceptance criteria: [TEAM_A_GOVERNMENT_CENSUS.md](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/blob/research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas/research-team-prompts/TEAM_A_GOVERNMENT_CENSUS.md), and relevant [DATA_CONTRACT.md](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/tree/research/atlas-five-team-handoff-prompts-2026-11-04/docs/atlas).
+- Live handoff: [CONTINUE.md](CONTINUE.md), [STATUS.md](STATUS.md), [GAPS.md](GAPS.md), [QA_REPORT.md](QA_REPORT.md), [CHANGELOG.md](CHANGELOG.md).
+- **Immutable Batch46 DATA commit `72a427075275ff9925c9ef777e2552c47eb9a3ce`**, independently verified, including eight CSVs. Structural QA commit `ebeeca099b4523d975450c77bbfd55ec4aac162d`; [exact immutable blob hashes and test outcomes](QA_BATCH46_20261106.json). Documentation commits may advance HEAD; always resolve live PR SHA before writing.
+- **Permitted changes strictly only `docs/atlas/handoffs/team-a/`.** No `main`, website, public calculator, clinical/ancestry claims, patient data, other teams' directories, independent societies, independent journals, WHO/network membership, merging, ready-for-review transition, or approvals.
+
+## Acceptance contract and correct interpretation
+
+All dated **248 UN M49 country/area skeletons** must match official M49 (including territories, uninhabited and disputed areas), retaining zeros, ISO, names and region/subregion. Each must have own-government statutory authority/department with source-scoped regional/policy/clinical/regulator/public-health functions **or** an explicit documented `UNKNOWN_REVIEW_NEEDED`, substantiated delegation or truly not-applicable explanation. In eventual full census, study current original-language legal instrument, issuer, verified effective date and territorial/population/function reach for national, regional/state/provincial, municipal, canton, Indigenous, island/territorial and contested administrator scopes; include government public-health institutes, surveillance, medical-product/professional regulators and public governmental research councils. Renamed, disputed, devolved or shared cases require at least **two independently issuing official/legal government checks**; independent publication hosts for presidential instruments are not independently *issuing* legal authorities. Cross-area parent M49 or body hierarchy cannot be guessed. WHO offices, third-party text, historical law, draft bill, government press release or provisional announcement are not automatic domestic-enacted mandates. Do not give clinical guidance from this directory.
+
+## Exact Batch46 verified research-staging counts
+
+| Measure | Count | Meaning |
+| --- | ---: | --- |
+| Official dated geographic M49 records | **248/248 (100%)** | Official geographic skeleton cross-checked field by field only |
+| Preliminary area-scoped governmental identity | **231/248 (93.15%)** | Some sourced organization identity, NOT enacted comprehensive authority |
+| Explicitly unresolved principal area identities | **17/248 (6.85%)** | All 17 have reason, source IDs and next action |
+| Unique government-body records | **318** | Identity rows; not 318 independently certified legal mandates |
+| Government body relationships | **45** | Source-scoped internal edges only |
+| Shared authority-area scope rows | **4** | Source-supported mappings; no inferred M49 parents |
+| Country review rows | **248** | All synchronized |
+| Source/provenance observations | **670** | Includes failures/historical/limited evidence; +1 over Batch45 |
+| Comprehensive current independently certified all-level legal scopes | **NOT MEASURED** | Cannot report percent accepted; all 231 identities still need substantial deeper legal review |
+
+All **six other CSVs retained exact prior blob hashes**, all 669 prior provenance observations preserved byte for byte and all 16 other UNKNOWN audits remain byte-for-byte unchanged. Area 226 remains UNKNOWN; no new ministries, cross-area parent keys, organizational edges, clinical claims, or geography changed.
+
+## New source-positive Batch46 — M49 226 Equatorial Guinea
+
+**A46-226-01**: Official Equatorial Guinea [BOE publication listing](https://boe.gob.gq/ultimaspublicaciones) directly links a **four-page original scanned presidential Decreto Núm. 114/2026 of 11 September 2026**, with digital-verification-code footer, [PDF](https://boe.gob.gq/files/DECRETOS%20DE%20SECRETARIOS%20GENERALES%20DE%20LOS%20DEPARTAMENTOS%20MINISTERIALES.pdf). Researcher **visually examined PDF pp. 1 and 3**: p. 3 item **15** uses `Ministerio de Sanidad e Infraestructuras Sanitarias` for Secretary General appointment, and item **18** separately lists `Ministerio de Igualdad de Género y Asuntos Sociales`. This is stronger **primary-document and direct national-BOE-host** proof of ministerial names **on 11 September** than the prior June press-office transcription. It is still **an appointment**, not enactment of the full health competence, not an independently *issued* authority (the Presidency issued the June and September decrees), and does not verify the footer's cryptography.
+
+**Critically separate**: Batch45 [Decreto Ley 02/2026 reproduced by government press site](source_recovery/CYCLE_226_JUNE_DECREE_OCT_CONFLICT_20261106.md) describes 17 June Article 2(16) short name **but makes commencement contingent on own national BOE publication, which has NOT been found/independently authenticated**. The new official PDF is a different **114/2026 September** decree, not that issue. June appointment 60/2026 also uses short name, but same Presidency issuer. A **30 October** government news source uses expanded `Sanidad, Bienestar Social e Infraestructuras Sanitarias` (not a signed amending law); a 1 July report discusses ongoing INSESO restructuring (not signed completed hospital asset/staff transfer). Neither conflict is settled by September appointments. **M49 226 remains UNKNOWN.** Full [Batch46 source review](source_recovery/CYCLE_226_OFFICIAL_BOE_114_SEPTEMBER_20261106.md), [Batch45 law review](source_recovery/CYCLE_226_JUNE_DECREE_OCT_CONFLICT_20261106.md), [A46-226-01 in PROVENANCE](PROVENANCE.csv).
+
+**Next targeted primary-source step:** the genuine **Equatorial Guinea** (not Spain) [BOE search](https://boe.gob.gq/buscador) original 02/2026 issue and commencement; later enactments/implementing decree that legally reconcile October title; separately issuing INSESO/ministry/state-audit final instrument defining hospital property, staff, patient-care responsibilities; verify the September electronic signature code. Interactive BOE search interface existed, but a match for 02/2026 was **not** independently retrieved—**do not infer non-publication**.
+
+## All other open geographic principal identity audits
+
+The complete source IDs, current wording and legal source conflicts are individually maintained in [data/unresolved_area_audit.csv](data/unresolved_area_audit.csv). The full 17 include the newly strengthened 226 entry:
+
+| M49 / country or area | Next action (existing audit; carry forward all caveats) |
+| --- | --- |
+| 010 Antarctica | Map operator/national-law health responsibilities per station and expedition without adjudicating sovereignty. |
+| 074 Bouvet Island | Read applicable Norwegian health/expedition legislation and explicit competent authority for Bouvet visitors. Batch41 next: Audit current bilandsloven section 2 and other health-law extension instruments; corroborate exact function-holders and expedition/employer responsibilities. Do not reuse pre-enactment 2017 non-extension claim as current. |
+| 086 British Indian Ocean Territory | Authenticate current treaty/legislation commencement and military/civilian health responsibilities independently. Targeted next step: Verify ratification/commencement and operative BIOT medical rules for Diego Garcia staff and civilian/military workers. |
+| 104 Myanmar | Catalog both scoped institutions with original Burmese names and independently verify ethnic/regional legal and effective-control limits. |
+| 112 Belarus | Locate independently issuing Belarus government/legal record and current ministry legal framework. Targeted next step: Acquire current original Belarus ministry-establishment regulation and distinguish issuer identity from legal competence. Batch41 next: Retrieve C21101446 current domestic consolidation and all subsequent amendments; compare paragraphs 1–4 and 8 with archived 2020 wording, obtain own-ministry current identity, then regional instruments. |
+| 226 Equatorial Guinea | Read current original ministry-allocation decree and independent confirmation of any completed INSESO transfer. Batch45 next: Obtain the Equatorial Guinea BOE issue proving promulgation/publication of Decreto Ley 02/2026; read implementing organizational rules and any post-June amendments to reconcile October expanded title and social-affairs competence. Seek a separately issuing government/legislative/ministerial or INSESO completion instrument for the hospital transfer, assets and employees before claiming current mandate or promoting status. Batch46 follow-up: use newly identified boe.gob.gq BOE search and issue verification to obtain separately published original Decreto Ley 02/2026 and any October amendment; independently validate original 114/2026 electronic verification code. |
+| 239 South Georgia and the South Sandwich Islands | Read territory legislation and separate visitor versus government/research worker health responsibilities. Targeted next step: Retrieve Gazette health/employment ordinances and read Health Safety and Welfare Policy for staff-specific scope. |
+| 260 French Southern Territories | Separate geographic M49 scope from broader TAAF administration and inspect current medical-service legal organization. Batch41 next: Recover current L1532-4/D1532-1 and 2008-919 decree via official full text; verify medical-service organization order and distinguish southern/Scattered districts from Adelie and ships before adding scoped bodies/links. |
+| 275 State of Palestine | Authenticate both scoped ministries and original present legal allocations; independently corroborate territorial coverage. |
+| 334 Heard Island and McDonald Islands | Read exact HIMI applied laws and expedition/visitor health responsibility; do not invent local ministry. Targeted next step: Inspect enacted 1953 Act and health/labour law extensions plus expedition and maritime medical arrangements. Batch41 next: Identify current applied ACT public-health provisions and HIMI ordinances; search section 6(2) directions before naming a health authority; distinguish worker, ship and environmental arrangements. |
+| 364 Iran (Islamic Republic of) | Obtain original Persian ministry title/mandate from independently issuing government/gazette and verify current legal allocation. |
+| 408 Democratic People's Republic of Korea | Locate original Korean government/legal name and ministry competence with independent official corroboration. |
+| 581 United States Minor Outlying Islands | Audit each island and military/civilian worker jurisdiction separately using current legal instruments. Batch41 next: Check current eCFR changes/redelegations for Wake; SO3210/3224 amendment or written acceptance history; audit Baker Howland Jarvis Johnston Kingman Midway individually, then source institution/function rows without inferring uniform 581 authority. Batch42 next: Retrieve current civilian/military legal instruments per component and 2026 eCFR Wake; check later SO3210/3224 changes and separate medical arrangements, never recycle 1989 manual as contemporary authority. Batch44 next: Obtain actual written 935.10 redelegations and up-to-date 935.11/935.14/935.16 original text; check post-11/04 amendments and military/contractor clinical and worker health arrangements for Wake. Then check 1999 Navassa/2001 Palmyra orders and written acceptance/amendments and the six remaining islands one by one; never equate civil administration with all medical/regulatory powers. |
+| 624 Guinea-Bissau | Cross-check live ministry domain and government/gazette identity with independently issuing official source. Targeted next step: Authenticate Portuguese government and gazette ministerial decree and current MINSAP domain; then review regional mandates. |
+| 732 Western Sahara | Find independently corroborated health institutions for separately administered areas and refugees, preserving territorial dispute and current-date uncertainty. |
+| 744 Svalbard and Jan Mayen Islands | Read Svalbard applied health legislation and Jan Mayen separate arrangements; preserve component and service/policy distinctions. Targeted next step: Review full current FOR-2015-06-22-747 sections including Jan Mayen and exact Longyearbyen Local Council Governor Helse Nord allocations. Batch41 next: Reconcile all amendments through 2026 including FOR-2026-06-15-1084 VI against complete current 747; independently corroborate Nordland and REK Nord function-level records, then map multiple component-scoped bodies. Batch42 next: Verify complete directly readable current enacted 747 text and all amendments, section 3/4/10/19/21 territorial boundaries, independent issuer/REK Nord and employer exceptions before status promotion. Batch43 next: authenticate full post-July 747 §§3/4/10/11a/12/13/19/21 and later amendments; reconcile REK Nord §29e confidentiality decisions versus the 1 November Health Research Act §9(2) pure-register-study preapproval exception, separately checking territorial extension and any 2026 research/data-law regulations. Do not infer blanket authority. |
+| 887 Yemen | Authenticate both administrations and original current ministry/regulator laws with independent territorial/control corroboration. |
+
+Beyond these 17, **all 231 identity-positive rows still need current full statutory legal scopes**, source language/effective dates, independently issued confirmation, devolved responsibilities and mapped government agencies (national and subnational), with organization/function distinctions. A closed principal-identity checkbox would **not** constitute full original acceptance. Preserve other Batch45/44/43/42 source notes and particularly: 744 Norway direct law 405 and REK §29e confidentiality versus separate Nov research-law dates; 581 Wake geographically limited eCFR §935.12 as-of 4 Nov versus written §935.10 redelegation, historical 1989 DOI versus later Midway/Navassa/Palmyra authorities; 074 2017 transplant extension not blanket health law; contested 104/275/732/887 not a sovereignty judgment; all blocked original/legal sources must remain negative.
+
+## Validation, readbacks and immutable custody
+
+**Batch46 commits:** source note `567273015800fbb17a539090eb3b4fcadf3a023e`; append one provenance `1ec323e5c7c5253650686700ac3e6aeac0bee304`; narrow 226 audit `72a427075275ff9925c9ef777e2552c47eb9a3ce`; QA `ebeeca099b4523d975450c77bbfd55ec4aac162d`. All research writes had exact GitHub file-content readbacks and blob SHAs. Independent **complete quote-aware eight-CSV structural audit PASS** at `72a427075275ff9925c9ef777e2552c47eb9a3ce`: exact per-row M49 ISO/names/regions, counts, 231/17, all 318 unique body IDs/links, 45 edges, 4 shared scopes, 248 area reviews, 17 source-positive audits, 670 unique issuer/date/area/source observations, 669 preserved original observations, 16 unchanged other UNKNOWN entries, empty parent M49, six prior immutable data blob hashes, exact three-file Team A-only diff. See [QA JSON](QA_BATCH46_20261106.json) for all eight **blob SHAs** and controls.
+
+**Python `validate.py` and five `test_validate.py` unittest regressions NOT RUN in Batch46**; local `git ls-remote` failed `Could not resolve host: github.com`. Last actual repository Python runs were recorded in Batch41. The JavaScript audit is *not* the Python validator. No legally certified effective dates, authenticity of electronic signature, independent full-government issuing chain, source completeness, regulator powers, clinical approval or territorial effective-control claim results from structural QA.
+
+## Resume safely
+
+1. Re-read this checkpoint, latest `CONTINUE.md`, original assignment and data contract, prior Batch45/44/43/42/41 source notes. **Refresh live PR HEAD and draft/unmerged state** before mutation, because other agents may advance the branch.
+2. Recover original 226 BOE **02/2026** publication, signed later ministry allocation and independently issued INSESO asset/health-service authority; then 744 present original complete 747, REK law and Jan Mayen; 581 signed written Wake delegation and eight other component legal duties; remaining 14 geographic unknowns; 231 preliminary identity areas' regulator/institute and subnational statutes. Do not convert a second *host* into a second legal *issuer*.
+3. Only Team A directory writes on research branch. Commit small primary-source batches, use current blob SHA preconditions, reread each output. Full eight CSV integrity and official 248 M49 QA; run actual Python validator/regressions only if checkout available; otherwise accurately label independent structural mirror only.
+4. Save a new completely standalone GitHub checkpoint and updated handoff/QA/PR body. **Keep PR open draft, no ready/merge**. Never edit main, public site, clinical guidance or other teams.
+
+## Exact reusable continuation prompt
+
+```text
+Continue Research Team A in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68.
+
+Read `docs/atlas/handoffs/team-a/CONTINUE.md` on branch `research/atlas-team-a-20261104`, including its latest checkpoint and original acceptance criteria.
+
+Verify live GitHub state and continue autonomously. Preserve all research, legal/source caveats, and scope restrictions. Commit, validate, and verify readbacks regularly. Modify only Team A's research directory. Do not modify the public website, main, or other teams; do not merge or mark the PR ready.
+
+If unfinished, save a complete standalone GitHub checkpoint. End with a concise status, this same reusable continuation prompt, and updated visual progress bars showing verified geographic coverage, unresolved areas, and remaining legal-verification work. Distinguish coverage from full acceptance completion.
+```

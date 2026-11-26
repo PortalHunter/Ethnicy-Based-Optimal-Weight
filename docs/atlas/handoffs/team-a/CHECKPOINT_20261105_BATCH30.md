@@ -1,0 +1,114 @@
+# Research Team A — Batch30 COMPLETE standalone continuation checkpoint (2026-11-05; RESEARCH-ONLY DRAFT)
+
+## Live GitHub and original assignment
+- Repository: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight
+- Open **DRAFT** PR #68: https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68 — **DO NOT MERGE, CLOSE OR MARK READY**.
+- Active existing branch: `research/atlas-team-a-20261104`; target `main` but no mutation to `main`.
+- Starting HEAD before Batch29: `8fe17e4d5527d94ff6e4f5ad3f05b5fca82ed3ca` (previous Batch28 documents).
+- Immutable fully read-back/audited Batch29 data: `b90457936096328d45dbde513c402e582ff86d4d`.
+- **Immutable fully read-back/audited Batch30 DATA SHA: [`15608b03d0560168b68f89e8b03360051d76282d`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/15608b03d0560168b68f89e8b03360051d76282d).** Subsequent checkpoint/status/PR metadata commits are NOT this DATA SHA. Always resolve live PR HEAD before writing.
+- Original source assignment: `docs/atlas/research-team-prompts/TEAM_A_GOVERNMENT_CENSUS.md` on `research/atlas-five-team-handoff-prompts-2026-11-04`; shared `DATA_CONTRACT.md`; UN canonical M49 overview https://unstats.un.org/unsd/methodology/m49/overview/; dated exact master `M49_OFFICIAL_SNAPSHOT_20261105.csv`.
+- **Only `docs/atlas/handoffs/team-a/` may be edited.** No public website, clinical/calculator/genetic inference, production `main`, private health data, other-team research, or PR merge/ready-for-review transition.
+
+## Immutable exact Batch30 staging counts
+| Measure | Number | Meaning |
+|---|---:|---|
+| Official dated UN M49 country-or-area geography | **248/248** | geographic skeletons; no legal authority or sovereignty conclusion |
+| Principal governmental health-authority identities located | **184/248** | identity only, NOT full current enacted mandate |
+| Explicit `UNKNOWN_REVIEW_NEEDED` principal rows | **64/248** | unknown means research unresolved, NOT absent or delegated |
+| Distinct governmental health bodies | **256** | includes main authorities and specialized units, not all legally independent |
+| Official source-scoped intra-area institutional relationships | **45** | no new inferred legal edges in B29/B30 |
+| Dated provenance/source observations | **446** | include positive, negative, partially checked, outdated and same-issuer entries |
+| Reconciled country/area review rows | **248** | aligned with countries data |
+| Unsupported guessed `parent_country_m49` values | **0** | never infer legal or political delegation |
+
+**Batch29:** +4 principals (586 Pakistan, 598 Papua New Guinea, 600 Paraguay, 882 Samoa); +4 distinct specialized governmental bodies and +14 dated source observations. **Batch30:** +3 principals (831 Guernsey, 832 Jersey, 833 Isle of Man); +3 specialized governmental service/portfolio/directorate bodies and +12 source observations. Overall since Batch28: **+7** principal identities; **+14** separately indexed government body records; **+26** sourced observations. All seven geographic statuses advanced from explicit unknown to **identity located only**. Source-backed does not mean clinically appropriate or legal powers established.
+
+## New government bodies and qualified function inventory
+| ID | M49 | Exact official name recorded | Type | Qualification |
+|---|---|---|---|---|
+| `gov-586-001` | 586 | Ministry of National Health Services Regulations and Coordination | `national_health_ministry` | OFFICIAL_GOVERNMENT_IDENTITY_NOT_VERIFIED_FULL_ENACTED_MANDATE |
+| `gov-598-001` | 598 | National Department of Health | `national_health_department` | OFFICIAL_DEPARTMENT_SELF_DESCRIPTION_NOT_FULL_ENACTED_MANDATE |
+| `gov-600-001` | 600 | Ministerio de Salud Pública y Bienestar Social | `national_health_ministry` | CURRENT_2026_GOVERNMENT_IDENTITY_NOT_ENACTED_MANDATE |
+| `gov-882-001` | 882 | Ministry of Health | `national_health_ministry` | OFFICIAL_HEALTH_MINISTRY_IDENTITY_NOT_CURRENT_ENACTMENT |
+| `gov-586-002` | 586 | Drug Regulatory Authority of Pakistan | `statutory_medicines_regulator` | OFFICIAL_REGULATOR_SELF_DESCRIPTION_LEGAL_TEXT_UNINSPECTED |
+| `gov-598-002` | 598 | Medical Research Advisory Committee | `government_health_research_ethics_committee` | OFFICIAL_RESEARCH_PORTAL_GUIDANCE_NOT_ENACTED_EXCLUSIVE_AUTHORITY |
+| `gov-600-002` | 600 | Dirección General de Vigilancia de la Salud | `government_public_health_surveillance_directorate` | OFFICIAL_INTERNAL_DIRECTORATE_SELF_DESCRIPTION_NOT_ORIGINAL_ACT |
+| `gov-882-002` | 882 | Public Health Services | `internal_ministry_public_health_unit` | OFFICIAL_MINISTRY_DIVISION_LIST_ONLY_NOT_STATUTORY_ENTITY |
+| `gov-831-001` | 831 | Committee for Health & Social Care | `territorial_government_health_committee` | OFFICIAL_PARLIAMENT_COMMITTEE_DESCRIPTION_NOT_FULL_LEGAL_MANDATE |
+| `gov-832-001` | 832 | Health and Care Jersey | `territorial_government_health_department` | OFFICIAL_DEPARTMENT_DIRECTORY_AND_2026_ASSEMBLY_NOT_FULL_STATUTE |
+| `gov-833-001` | 833 | Department of Health and Social Care | `territorial_government_health_department` | OFFICIAL_2026_GOVERNMENT_IDENTITY_LEGAL_SPLIT_PARTIAL |
+| `gov-832-002` | 832 | Minister for Health and Social Services | `territorial_executive_health_policy_portfolio` | OFFICIAL_ASSEMBLY_CURRENT_MINISTER_PORTFOLIO_NOT_ENACTMENT |
+| `gov-833-002` | 833 | Manx Care | `statutory_health_social_care_service_provider` | OFFICIAL_STATUTORY_PROVIDER_SELF_GOVERNMENT_REPORT_LEGAL_TEXT_UNINSPECTED |
+| `gov-833-003` | 833 | Public Health Isle of Man | `cabinet_office_government_public_health_directorate` | OFFICIAL_CABINET_PUBLIC_HEALTH_FUNCTIONS_BILL_ONLY_DRAFT |
+
+### Critical current-versus-historical, sovereignty and statutory distinctions
+- **Pakistan 586:** Own NHSR&C federal portal and independently issuing federal Press Information Department October 2026 event establish national ministry identity; its 2012 creation/rename narrative is history. Provincial and ICT functions, precise Rules of Business and signed original law remain uninspected. DRAP is a distinct regulator; its own 2026 organization website asserts autonomous administration and cites its 2012 Act, but original signed law and current amendments have not been directly authenticated. Official Urdu ministry name remains unresolved.
+- **Papua New Guinea 598:** National Department of Health own portal is current institutional identity and mentions National Health Administration Act 1997 (sections 4/5/20), health plan and Provincial Health Authorities. The signed operative Act and Bougainville and province allocation were NOT examined. MRAC ethics-review portal is another subdomain of the same national department issuer; exclusive legal power is NOT certified.
+- **Paraguay 600:** Spanish MSPyBS self-source dated 13 September 2026 and separate Ministry of Interior 19 September government oath identify Ministry. The former refers to Decreto 6889; original gazette/decree NOT directly inspected. Older alternate ministry general-director page still lists predecessor minister; this is a **negative historical/stale control**, not current roster. DGVS is a distinct ministry directorate; Instituto de Previsión Social (IPS) social-insurance delivery is NOT automatically governed by the ministry.
+- **Samoa 882:** Ministry of Health own 2026 page plus independently issuing Cabinet Secretariat government portfolio listing. MOH Public Health Services department/divisions include island-specific functions; not a separately enacted regulator. District health services and proper Samoan-language institutional nomenclature await checking.
+- **Guernsey 831:** States Parliament identifies principal **Committee for Health & Social Care** (created effective 2016), and 20 May 2026 assembly update confirms contemporary remit. May 2026 statement says new health/care regulation proposals are envisaged for **2027**, NOT already in force. Alderney liaison role does not settle separate Alderney/Sark powers or legal parent-state hierarchy. P.2026/68 specific October vote does not prove all healthcare jurisdiction.
+- **Jersey 832:** Government of Jersey lists **Health and Care Jersey** as public department; separate States Assembly 2026 budget/report and 29 June minister appointment distinguish **Minister for Health and Social Services** (policy) from HCJ service operations. Specific current legal delegations and regulator functions are NOT established by directory, appointment or 2026 plan. No inferred UK/Channel Island cross-area M49 parent.
+- **Isle of Man 833:** 2026 DHSC report and mandate framework distinguish DHSC policy/assurance from **Manx Care** independent arm's-length statutory provider. **Public Health Isle of Man** is in the **Cabinet Office** (government's own consultation says transferred in **2020**); never subsume it into DHSC. Cabinet Office Public Health Functions Bill consultation opened Jan-Feb 2026; July government consultation update anticipates **revised 2027 BILL**. Consultation/draft is NOT enacted mandate. Actual Public Health Act 1990/NHS 2001/other original laws and Manx Care enabling law not separately authenticated.
+
+## Batch29 and Batch30 primary source-state ledger
+Each source below is individually described in `PROVENANCE.csv`, checked **2026-11-05**. Issuers on the same government web host are not necessarily independent legal corroboration; a press release, directory, consultation or gazette index is not an authenticated enacted text.
+
+| Source ID | Area | Issuer | Language | Precise URL | Recorded evidence state |
+|---|---|---|---|---|---|
+| `PAK-NHSRC-OVERVIEW-B29` | 586 | Pakistan Ministry of National Health Services Regulations and Coordination | en | [official source](https://www.nhsrc.gov.pk/Overview) | `OFFICIAL_MINISTRY_SELF_DESCRIPTION_NOT_ORIGINAL_ACT` |
+| `PAK-PID-OCT-B29` | 586 | Pakistan Press Information Department | en | [official source](https://pid.gov.pk/site/press_detail/34141) | `INDEPENDENT_FEDERAL_GOVERNMENT_2026_IDENTITY_NOT_ACT` |
+| `PAK-DRAP-ORG-B29` | 586 | Drug Regulatory Authority of Pakistan | en | [official source](https://www.dra.gov.pk/about-us/organization/organogram/) | `REGULATOR_2012_ACT_CITED_ORIGINAL_UNINSPECTED` |
+| `PAK-DRAP-NOV-B29` | 586 | Drug Regulatory Authority of Pakistan | en | [official source](https://www.dra.gov.pk/category/news_updates/regulatory_updates/) | `CURRENT_REGULATOR_ACTIVITY_NOT_SIGNED_ENACTMENT` |
+| `PNG-NDOH-HOME-B29` | 598 | Papua New Guinea National Department of Health | en | [official source](https://health.gov.pg/) | `OFFICIAL_NDOH_IDENTITY_1997_ACT_UNINSPECTED` |
+| `PNG-MRAC-PORTAL-B29` | 598 | Papua New Guinea Department of Health Health Research Portal | en | [official source](https://www.hrp.health.gov.pg/visitor) | `GOVERNMENT_ETHICS_RESEARCH_PORTAL_NOT_ORIGINAL_ACT` |
+| `PRY-MSPBS-SEP-B29` | 600 | Ministerio de Salud Pública y Bienestar Social Paraguay | es | [official source](https://www.mspbs.gov.py/portal/36410/asume-nuevo-ministro-de-salud-publica.html) | `CURRENT_2026_MINISTRY_NEWS_DECREE_NOT_INSPECTED` |
+| `PRY-MDI-SEP-B29` | 600 | Ministerio del Interior Paraguay | es | [official source](https://www.mdi.gov.py/2026/09/19/juramento-del-nuevo-ministro-de-salud-publica-y-bienestar-social/) | `INDEPENDENT_INTERIOR_MINISTRY_REPORT_NOT_ORIGINAL_ENACTMENT` |
+| `PRY-MSPBS-HOME-B29` | 600 | Ministerio de Salud Pública y Bienestar Social Paraguay | es | [official source](https://www.mspbs.gov.py/) | `CURRENT_MINISTRY_SITE_NOT_SIGNED_MANDATE` |
+| `PRY-DGVS-DIRECTORATE-B29` | 600 | Dirección General de Vigilancia de la Salud Paraguay | es | [official source](https://dgvs.mspbs.gov.py/institucional/direccion-general-de-vigilancia-de-la-salud/) | `OFFICIAL_DIRECTORATE_SELF_DESCRIPTION_NO_CURRENT_ACT` |
+| `PRY-MSPBS-STALE-B29` | 600 | Ministerio de Salud Pública y Bienestar Social Paraguay | es | [official source](https://www.mspbs.gov.py/portal/direcciones-generales.html) | `STALE_WEB_DIRECTORY_CONFLICT_NOT_CURRENT_2026_OFFICEHOLDER` |
+| `WSM-MOH-JUNE-B29` | 882 | Samoa Ministry of Health | en | [official source](https://www.health.gov.ws/) | `OFFICIAL_2026_MOH_IDENTITY_NOT_ENACTMENT` |
+| `WSM-MPMC-CABINET-B29` | 882 | Samoa Ministry of the Prime Minister and Cabinet | en | [official source](https://mpmc.gov.ws/divisions/cabinet-secretariat/) | `INDEPENDENT_CENTRAL_GOVERNMENT_PORTFOLIO_NOT_ACT` |
+| `WSM-MOH-DIVISIONS-B29` | 882 | Samoa Ministry of Health | en | [official source](https://www.health.gov.ws/departments-divisions/) | `OFFICIAL_MINISTRY_DIVISIONS_NOT_ENACTED_ALLOCATIONS` |
+| `GGY-PARLIAMENT-COMMITTEE-B30` | 831 | Guernsey Parliament States of Deliberation | en | [official source](https://parliament.gg/members-and-constitution/committees/committee-for-health-social-care) | `OFFICIAL_PARLIAMENT_COMMITTEE_IDENTITY_SCOPE_NOT_FULL_STATUTE` |
+| `GGY-PARLIAMENT-MAY-B30` | 831 | Guernsey Parliament Committee for Health and Social Care | en | [official source](https://parliament.gg/parliamentary-business/statements/2026-05-20-committee-for-health-social-care) | `CURRENT_2026_COMMITTEE_REPORT_REGULATION_FUTURE_PROPOSAL` |
+| `GGY-STATE-VOTE-OCT-B30` | 831 | Guernsey States voting records | en | [official source](https://statesvoting-records.gov.gg/Propositions/Details/2806) | `OFFICIAL_ASSEMBLY_VOTE_ON_SPECIFIC_PROJECT_NOT_GENERAL_HEALTH_ACT` |
+| `JE-GOV-STRUCT-B30` | 832 | Government of Jersey | en | [official source](https://www.gov.je/Government/NewStatesStructure/Pages/AboutNewStatesStructure.aspx) | `OFFICIAL_GOVERNMENT_DEPARTMENT_DIRECTORY_NOT_CURRENT_ACT` |
+| `JE-GOV-HCJ-B30` | 832 | Government of Jersey Health and Care Jersey | en | [official source](https://www.gov.je/government/departments/healthcare/pages/index.aspx) | `OFFICIAL_DEPARTMENT_2026_NEWS_NOT_LEGAL_MANDATE` |
+| `JE-STATES-2026-REPORT-B30` | 832 | States Assembly of Jersey | en | [official source](https://www.statesassembly.je/publications/assembly-reports/2026/r-19-2026) | `INDEPENDENT_ASSEMBLY_2026_POLICY_LINK_NOT_FULL_ENACTMENT` |
+| `JE-STATES-JUNE-ELECTION-B30` | 832 | States Assembly of Jersey | en | [official source](https://www.statesassembly.je/publications/hansard/2026/official-report-29th-june-2026) | `INDEPENDENT_LEGISLATURE_ELECTION_NOT_HEALTH_ENACTMENT` |
+| `IM-GOV-DEPARTMENTS-B30` | 833 | Isle of Man Government | en | [official source](https://www.gov.im/about-the-government/departments/) | `OFFICIAL_DEPARTMENT_DIRECTORY_NOT_FULL_FUNCTIONAL_ACT` |
+| `IM-DHSC-MANDATE-B30` | 833 | Isle of Man Department of Health and Social Care | en | [official source](https://www.gov.im/about-the-government/departments/health-and-social-care/mandate-framework/) | `OFFICIAL_2026_MANDATE_FRAMEWORK_NOT_FULL_ENABLING_ACT` |
+| `IM-GOV-JUL-GOVERNANCE-B30` | 833 | Isle of Man Department of Health and Social Care | en | [official source](https://www.gov.im/news/2026/jul/03/report-shows-progress-on-strengthening-governance-of-health-and-social-care/) | `JULY_2026_REPORT_DRAFT_IMPLEMENTATION_NOT_ENACTED` |
+| `IM-CAB-PH-CONSULT-B30` | 833 | Isle of Man Cabinet Office Citizen Space | en | [official source](https://consult.gov.im/cabinet-office/consultation-on-the-public-health-bill-2026/) | `OFFICIAL_2026_CONSULTATION_NOT_ENACTED_PUBLIC_HEALTH_LAW` |
+| `IM-CAB-PH-PROTECTION-B30` | 833 | Isle of Man Cabinet Office Public Health | en | [official source](https://www.gov.im/about-the-government/departments/cabinet-office/public-health/health-protection/) | `CURRENT_PUBLIC_HEALTH_DIRECTORY_FUNCTIONS_NOT_LAW` |
+
+## Immutable structural quality audit and strict changed-path check
+- **Exact Batch29 DATA SHA** `b90457936096328d45dbde513c402e582ff86d4d`: independently re-fetched six CSVs, quote-aware parser and row checks: **PASS STRUCTURAL ONLY** (248 M49, 181 located, 67 unknown, 250 bodies, 45 edges, 434 sources, 248 coverage). **62 special territorial/devolution/absence controls**.
+- **Exact Batch30 DATA SHA** `15608b03d0560168b68f89e8b03360051d76282d`: independently re-fetched **six** CSVs at this immutable SHA: `data/countries.csv`, `data/government_health_bodies.csv`, `data/authority_relationships.csv`, `data/country_coverage.csv`, `PROVENANCE.csv`, `M49_OFFICIAL_SNAPSHOT_20261105.csv`. Quote-aware width, unique IDs, every M49/ISO/name/region/subregion versus dated official master, expected region totals (Africa 60, Americas 57, Asia 50, Europe 51, Oceania 29, Antarctica 1 unassigned), exact 184/64 resolution, 256 unique body IDs and M49 references, 45 valid edges, 446 unique source IDs with HTTPS/date/language/state, 248 aligned coverage rows and no guessed parent M49: **PASS STRUCTURAL ONLY**. **62 high-risk controls**, including 010 Antarctica, 016 American Samoa parent blank, 535 Caribbean Netherlands still unknown, 158 excluded, 831/832/833 identities, island/devolution/disputed/renamed samples.
+- Exact comparison of Batch28 docs HEAD `8fe17e4d5527d94ff6e4f5ad3f05b5fca82ed3ca` to Batch29 data and Batch29 data to Batch30 data: **only FOUR Team A CSVs each batch** (`data/countries.csv`, `data/government_health_bodies.csv`, `data/country_coverage.csv`, `PROVENANCE.csv`). No website/main/other team edit and no changed `authority_relationships.csv`.
+- `python docs/atlas/handoffs/team-a/validate.py` **NOT RUN** for B29 or B30. Actual container `git ls-remote` failed `Could not resolve host: github.com`, so no complete checkout. JS complete independent structural mirror is **NOT** a Python run. Do not claim source accuracy, URL uptime at later date, independent signed enacted statutes, geographic effective control, independent publisher for same agency, full subnational/Indigenous rights or medical fitness from structural success.
+- PR #68 observed OPEN, DRAFT, UNMERGED at immutable Batch30 data head. Check again after documentation and before next write. No change made to branch protections or PR ready/merge state.
+
+## Full remaining 64 UN M49-area principal unknown queue (ascending)
+010 Antarctica; 074 Bouvet Island; 086 British Indian Ocean Territory; 104 Myanmar; 112 Belarus; 192 Cuba; 226 Equatorial Guinea; 239 South Georgia and the South Sandwich Islands; 260 French Southern Territories; 275 State of Palestine; 312 Guadeloupe; 334 Heard Island and McDonald Islands; 336 Holy See; 364 Iran (Islamic Republic of); 368 Iraq; 384 Côte d’Ivoire; 408 Democratic People's Republic of Korea; 434 Libya; 446 China, Macao Special Administrative Region; 466 Mali; 474 Martinique; 478 Mauritania; 492 Monaco; 520 Naoero; 528 Netherlands (Kingdom of the); 531 Curaçao; 533 Aruba; 534 Sint Maarten (Dutch part); 535 Bonaire, Sint Eustatius and Saba; 540 New Caledonia; 558 Nicaragua; 562 Niger; 570 Niue; 574 Norfolk Island; 580 Northern Mariana Islands; 581 United States Minor Outlying Islands; 612 Pitcairn; 624 Guinea-Bissau; 638 Réunion; 643 Russian Federation; 652 Saint Barthélemy; 654 Saint Helena; 659 Saint Kitts and Nevis; 660 Anguilla; 663 Saint Martin (French Part); 666 Saint Pierre and Miquelon; 670 Saint Vincent and the Grenadines; 678 Sao Tome and Principe; 706 Somalia; 729 Sudan; 732 Western Sahara; 744 Svalbard and Jan Mayen Islands; 760 Syrian Arab Republic; 772 Tokelau; 788 Tunisia; 795 Turkmenistan; 796 Turks and Caicos Islands; 798 Tuvalu; 850 United States Virgin Islands; 854 Burkina Faso; 860 Uzbekistan; 862 Venezuela (Bolivarian Republic of); 876 Wallis and Futuna Islands; 887 Yemen.
+
+## Acceptance criteria still unfinished
+1. **64 UNKNOWN** principal health-authority identities remain (NOT nonexistent). Prioritize no-permanent-population special cases, Myanmar competing administrations, Belarus/Cuba/Equatorial Guinea, Palestine, Macao, Caribbean Netherlands, federal/devolved bodies, political or territorial contested scope. No unsupported cross-M49 `parent_country_m49` even if geography suggests an administrator.
+2. **184 identities are NOT 184 certified mandates**. Research current signed enacted legal competence, legal effective dates, ministry renames and two actually independent primary governmental/legal sources for disputed, delegated or substantially renamed cases. Need current national/territorial and state/province/canton/municipality, Indigenous/tribal and health-insurance/regulator/devolved jurisdiction decisions; distinguish policy, service delivery, surveillance, regulation and public research.
+3. Add distinct governmental institutes, national health science councils, regulatory boards and authentic organization edges only when precise enacted/government evidence supports them; do not fold Team B professional societies, Team C journals or Team D global networks into Team A.
+4. **Retain all earlier caveats:** Batch28 Namibia signed legal index failed, Vanuatu 2010 surveillance approval unread, FSM four-state competence, RMI cabinet roster vs original law, Palau same issuer and Panama Indigenous/CSS split; Batch27 Malawi old ministry masthead, Moldova 2026 draft/transnistria, Mozambique October 2025 historical versus unsigned 2026 news, Montenegro institute project-only, Madagascar alias; Batch26 Kyrgyz 2026 legal versions, Liberia name conflict, Laos 2024 history, Lesotho unread legal notices, Liechtenstein cross-border unverified; historic Nepal renamed health/food safety Gazette, Hungary/Gabon **draft** instruments, Qatar 2026 November facility transfer start vs completed, Bosnia cantons/Brčko, India states/UTs, Myanmar competing health organizations, Caribbean territory and sovereignty issues. Read Batch28, Batch27 and all older linked checkpoints and original `PROVENANCE.csv` for details; never promote failed, historical or consultation sources into enacted evidence.
+5. In future session verify live PR state and branch head, read original acceptance contract, check actual DATA SHA, process source-backed manageable batches, commit only Team A handoff folder, re-fetch exact SHA and validate all six CSVs; run actual Python `validate.py` in complete checkout when available; update all six narrative docs, PR body and standalone checkpoint; leave PR open DRAFT/unmerged.
+
+## Next-run prompt — reproduce exactly
+```text
+Continue Research Team A in https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/68.
+
+Read "docs/atlas/handoffs/team-a/CONTINUE.md" on branch "research/atlas-team-a-20261104".
+
+Verify live GitHub state and continue autonomously toward all original acceptance criteria. Preserve existing research, source caveats, and scope restrictions. Commit and validate regularly. Do not modify the public website or merge the PR.
+
+If unfinished, save a complete standalone GitHub checkpoint. At the end, provide this same continuation prompt again.
+```
+
+All of this is **government authority research staging**, not patient-facing, not clinical advice, not a medical/legal certification.

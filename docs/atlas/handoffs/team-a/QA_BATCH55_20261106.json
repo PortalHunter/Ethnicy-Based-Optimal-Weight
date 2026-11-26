@@ -1,0 +1,80 @@
+{
+  "batch": "A55",
+  "date_utc": "2026-11-06",
+  "status": "INDEPENDENT_GITHUB_IMMUTABLE_STRUCTURAL_PASS_PYTHON_NOT_RUN",
+  "prior_head": "bab598d34d2eae876fa6df6693a73630fab0a89d",
+  "immutable_data_sha": "718edfd7c73933bff7bc9487a02973407d569d30",
+  "data_changed_paths": [
+    "PROVENANCE.csv",
+    "data/legal_verification_ledger.csv",
+    "data/research_queue.csv",
+    "data/unresolved_area_audit.csv",
+    "source_recovery/CYCLE_A55_010_008_016_ORIGINAL_STATUTE_TRIAGE_20261106.md"
+  ],
+  "source_ids_added": [
+    "A55-010-01",
+    "A55-008-01",
+    "A55-008-02",
+    "A55-016-01",
+    "A55-016-02"
+  ],
+  "before": {
+    "m49": 248,
+    "identities_provisional": 231,
+    "unknown": 17,
+    "bodies": 318,
+    "relationships": 45,
+    "shared_scopes": 4,
+    "source_observations": 696,
+    "legal_partial": 3,
+    "legal_unscored": 245,
+    "queue_evidence_not_resolved": 3
+  },
+  "after": {
+    "m49": 248,
+    "identities_provisional": 231,
+    "unknown": 17,
+    "bodies": 318,
+    "relationships": 45,
+    "shared_scopes": 4,
+    "source_observations": 701,
+    "legal_partial": 6,
+    "legal_unscored": 242,
+    "queue_evidence_not_resolved": 6
+  },
+  "verified_blob_shas": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "PROVENANCE.csv": "f43289a79b69335d0a69b969ce985adee89452bf",
+    "data/countries.csv": "32a868a700db0223dfc56bf7549866a1e0eadd1f",
+    "data/government_health_bodies.csv": "456ac0b737f0b963fabfcda9836b000dfe8c5b9b",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/country_coverage.csv": "e4ade0148ef9b3f8767f02956335763d44d06d38",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "9bf7d5e373b263477de18ba63931d7db44e5c164",
+    "data/legal_verification_ledger.csv": "48eda4fd38b2b74812fa4d403916cc7e4df73ff9",
+    "data/research_queue.csv": "4ff531c4e8facbcbcf71ff96c1dd8aab61a2c029",
+    "source_recovery/CYCLE_A55_010_008_016_ORIGINAL_STATUTE_TRIAGE_20261106.md": "a76a5039cc07942316771564d5a1319abe63acf9"
+  },
+  "structural_checks": {
+    "all_10_csvs_quote_aware_readback": "PASS",
+    "all_248_official_M49_code_iso_name_region_subregion": "PASS",
+    "provenance_701_unique": "PASS",
+    "body_relationship_scope_integrity": "PASS",
+    "unknown_audit_source_refs": "PASS",
+    "legal_and_queue_248_exact_keys": "PASS",
+    "legal_status_and_source_links": "PASS",
+    "only_5_team_a_research_paths_changed": "PASS",
+    "three_preexisting_global_source_rows_exempted": "PASS"
+  },
+  "negative_controls": {
+    "missing_provenance_id": "REJECTED",
+    "fabricated_antarctic_authority": "REJECTED",
+    "premature_complete_legal_approval": "REJECTED",
+    "former_body_current_link": "REJECTED"
+  },
+  "actual_python_validator": "NOT_RUN_LOCAL_GITHUB_DNS_CHECKOUT_FAILURE",
+  "actual_python_unittests": "NOT_RUN_LOCAL_GITHUB_DNS_CHECKOUT_FAILURE",
+  "legal_acceptance": "NOT_MEASURED_INCOMPLETE",
+  "clinical_approval": "NOT_GRANTED",
+  "PR_state": "OPEN_DRAFT_UNMERGED"
+}

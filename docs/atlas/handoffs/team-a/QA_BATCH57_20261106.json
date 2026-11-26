@@ -1,0 +1,81 @@
+{
+  "batch": "A57",
+  "date_utc": "2026-11-06",
+  "immutable_research_data_sha": "bda23df761cc8542bedce1ed7bdb94b18de57d63",
+  "pre_batch_sha": "2ca7df39f3aebac23ac7c965a0b9453880482f77",
+  "validation": "PASS_INDEPENDENT_QUOTE_AWARE_GITHUB_STRUCTURAL_MIRROR",
+  "python_validator": "NOT_RUN_DNS_BLOCKED",
+  "python_unit_tests": "NOT_RUN_DNS_BLOCKED",
+  "reason": "git ls-remote github.com failed with Could not resolve host; JS mirror is not Python",
+  "counts": {
+    "official_m49": 248,
+    "scoped_provisional_identities": 231,
+    "unknown_identities": 17,
+    "bodies": 318,
+    "relations": 45,
+    "shared_scopes": 4,
+    "coverage": 248,
+    "sources": 709,
+    "legal_partially_triaged": 12,
+    "legal_unscored": 236,
+    "legal_complete": 0,
+    "queue_evidence_added_unresolved": 12,
+    "queue_queued": 236
+  },
+  "before_after": {
+    "source_observations": [
+      705,
+      709
+    ],
+    "partial_legal_ledger": [
+      9,
+      12
+    ],
+    "unscored_ledger": [
+      239,
+      236
+    ],
+    "unknown_identifications": [
+      17,
+      17
+    ]
+  },
+  "checks_passed": [
+    "Exact all-248 dated M49 key matching and three-character codes",
+    "318 government bodies, 45 relationships, 4 shared scopes, 248 coverage rows",
+    "17 UNKNOWN audit keys preserved, 709 distinct source IDs",
+    "248 ledger/queue keys and legal links matching individual M49 source area",
+    "12 PARTIAL_SOURCE_CHECKED and 236 UNSCORED_EXISTING_RESEARCH, 0 legal complete",
+    "12 evidence-not-resolved queue and 236 QUEUED",
+    "All 705 previous provenance objects unchanged and appended exactly four A57 observations",
+    "All unrelated ledger/queue/UNKNOWN audit rows preserved",
+    "Exactly five changes under Team A at immutable DATA SHA"
+  ],
+  "negative_controls_passed": [
+    "Fake provenance ID rejected",
+    "Cross-area Angola source assigned to Equatorial Guinea rejected",
+    "Premature research-complete rejected",
+    "Missing review date rejected",
+    "UNKNOWN authority promotion rejected"
+  ],
+  "immutable_blob_sha": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "PROVENANCE.csv": "6618768545f70bfb8aa613b7183ae7dd88079841",
+    "data/countries.csv": "32a868a700db0223dfc56bf7549866a1e0eadd1f",
+    "data/government_health_bodies.csv": "456ac0b737f0b963fabfcda9836b000dfe8c5b9b",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/country_coverage.csv": "e4ade0148ef9b3f8767f02956335763d44d06d38",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "4819ffb4792f1deaba522b81653709cbf35d522d",
+    "data/legal_verification_ledger.csv": "165f5abe3c071c156c13e645ae0ed2c7d1ae7a4f",
+    "data/research_queue.csv": "18ac6efbe6ce95b820db54c30357c51611b3a5ac"
+  },
+  "changed_research_paths": [
+    "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+    "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+    "docs/atlas/handoffs/team-a/data/research_queue.csv",
+    "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+    "docs/atlas/handoffs/team-a/source_recovery/CYCLE_A57_226_024_040_LEGAL_TRIAGE_20261106.md"
+  ],
+  "interpretation": "Quote-aware structural integrity and source record consistency only, not current enacted-all-tier legal or clinical approval."
+}

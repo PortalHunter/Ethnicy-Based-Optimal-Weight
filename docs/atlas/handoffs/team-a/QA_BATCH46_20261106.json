@@ -1,0 +1,77 @@
+{
+  "batch": 46,
+  "checked_utc": "2026-11-06",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "prior_live_head": "093cd845e4976d5bf6ad3002065f4e8bde921965",
+  "immutable_batch46_data_commit": "72a427075275ff9925c9ef777e2552c47eb9a3ce",
+  "write_commits": [
+    "567273015800fbb17a539090eb3b4fcadf3a023e",
+    "1ec323e5c7c5253650686700ac3e6aeac0bee304",
+    "72a427075275ff9925c9ef777e2552c47eb9a3ce"
+  ],
+  "immutable_blobs": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+    "data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+    "data/government_health_bodies.csv": "1ff2feb1fe1464bed3c31acac2b5ff4cae24a024",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "194abbacdf35965137de6e22150ce56d7fc5b0f0",
+    "PROVENANCE.csv": "db0d28e58b8e6eff8d3f09e7afcc6867dec9d3b0"
+  },
+  "counts": {
+    "official_m49": 248,
+    "country_skeletons": 248,
+    "provisional_area_identity": 231,
+    "documented_unknown": 17,
+    "government_bodies": 318,
+    "authority_relationships": 45,
+    "shared_area_scopes": 4,
+    "area_coverage_rows": 248,
+    "unresolved_audit_rows": 17,
+    "provenance_rows": 670
+  },
+  "structural_audit": {
+    "engine": "Independent complete quote-aware JavaScript CSV parser over exact immutable GitHub data commit; no local Python checkout",
+    "outcome": "PASS",
+    "checks": [
+      "headers widths unique and correctly escaped strings",
+      "exact equality of all 248 official M49 geographic code ISO and region/name fields",
+      "fixed official region totals and Antarctica/158 controls",
+      "all 248 synchronized authority status/coverage",
+      "231 linked preliminary authority identities, 17 explicit source-linked UNKNOWN records",
+      "318 unique governmental body IDs, valid area/URLs",
+      "45 valid body-to-body edges",
+      "4 independently referenced cross-area scope mappings",
+      "670 unique source IDs with dated issuer/area/state/HTTPS",
+      "all 669 original provenance observations byte-for-byte preserved",
+      "all 16 non-226 UNKNOWN audit records exact-byte preserved",
+      "226 still UNKNOWN with A46-226-01 source",
+      "six untouched base-45 data files identical blob hashes",
+      "only three Team A folder changed files from base head",
+      "PR live open/draft/unmerged at DATA verification"
+    ],
+    "baseline_to_data_files": [
+      "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+      "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+      "docs/atlas/handoffs/team-a/source_recovery/CYCLE_226_OFFICIAL_BOE_114_SEPTEMBER_20261106.md"
+    ],
+    "python_validator": "NOT RUN: local git ls-remote github.com fails DNS",
+    "python_unittest": "NOT RUN: checkout unavailable; last actual five tests Batch41",
+    "acceptance": "INCOMPLETE. Structural integrity not enacted/independent authority certification or clinical approval"
+  },
+  "source_notes": [
+    "source_recovery/CYCLE_226_OFFICIAL_BOE_114_SEPTEMBER_20261106.md",
+    "source_recovery/CYCLE_226_JUNE_DECREE_OCT_CONFLICT_20261106.md"
+  ],
+  "evidence_limits": [
+    "September BOE-hosted original Decreto 114/2026 scans appointment and separate social affairs department, same Presidential issuer as June decree.",
+    "BOE source is NOT Gazette publication proof of separate Decreto Ley 02/2026 required for commencement.",
+    "Document footer verification code observed visually, cryptographic/authenticity verification NOT executed.",
+    "October government press expanded portfolio name remains unresolved; no evidence of legally effective amendment.",
+    "INSESO asset/staff/hospital transfer and all-country statutory mandate not independently authenticated.",
+    "No explicit cross-area parent, new principal identity or clinical change."
+  ]
+}

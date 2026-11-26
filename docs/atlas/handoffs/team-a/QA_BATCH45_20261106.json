@@ -1,0 +1,87 @@
+{
+  "batch": 45,
+  "checked_utc": "2026-11-06",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "baseline_head": "ca066bc29b17539b43912d4e0c84074e501a496f",
+  "predecessor_batch44_immutable_data": "e9922f75eca9f3a6963fb08e94aea8cb9d9c3e17",
+  "immutable_batch45_data_commit": "8e0b80be4a7af565758b5c4f2ba9eb3f6cd29dba",
+  "research_commits": [
+    {
+      "sha": "5d9a8f1bd883bf331e73c35fd8c03673bcd964e6",
+      "purpose": "full standalone 226 original-language source-specific legal conflict note"
+    },
+    {
+      "sha": "bd66a4e013ca38f01ae7f9827825caa15aa7d6ea",
+      "purpose": "four appended source-state provenance observations"
+    },
+    {
+      "sha": "8e0b80be4a7af565758b5c4f2ba9eb3f6cd29dba",
+      "purpose": "only 226 unresolved audit changed"
+    }
+  ],
+  "immutable_blobs": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+    "data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+    "data/government_health_bodies.csv": "1ff2feb1fe1464bed3c31acac2b5ff4cae24a024",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "24fd62085fb00f4151c093c52a0547da3df98900",
+    "PROVENANCE.csv": "123176cc15b8f289473d43250a8a0b60d24807db"
+  },
+  "counts": {
+    "official_m49": 248,
+    "country_skeletons": 248,
+    "provisional_area_identity": 231,
+    "documented_unknown": 17,
+    "government_bodies": 318,
+    "authority_relationships": 45,
+    "shared_area_scopes": 4,
+    "area_coverage_rows": 248,
+    "unresolved_audit_rows": 17,
+    "provenance_rows": 669
+  },
+  "structural_audit": {
+    "engine": "Independent JavaScript quote-aware complete 8-CSV readback from exact live GitHub branch blobs",
+    "outcome": "PASS",
+    "checks": [
+      "unique complete headers and CSV widths",
+      "248 UN M49 codes and exact row-level ISO/name/region/subregion matching",
+      "248 unique synced coverage records",
+      "318 unique valid governmental body IDs and issuer links",
+      "45 valid body-to-body relationships",
+      "4 scoped multi-area links with two existing provenance IDs each",
+      "669 unique source IDs and HTTPS/area/issuer fields",
+      "231 identity-positive linked records and 17 unlinked explicit unknown records",
+      "17 source-linked UNKNOWN audit records with 226 still UNKNOWN",
+      "four 226 new records, exact original-record prefix preservation",
+      "all parent-country-M49 fields empty",
+      "all three data commit paths only within docs/atlas/handoffs/team-a/"
+    ],
+    "baseline_to_data_files": [
+      "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+      "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+      "docs/atlas/handoffs/team-a/source_recovery/CYCLE_226_JUNE_DECREE_OCT_CONFLICT_20261106.md"
+    ],
+    "new_ids": [
+      "A45-226-01",
+      "A45-226-02",
+      "A45-226-03",
+      "A45-226-04"
+    ],
+    "python_validator": "NOT RUN: git ls-remote github.com DNS failure in local container",
+    "python_unittest": "NOT RUN: full checkout unavailable; five tests last reported actually passed in Batch41",
+    "acceptance": "INCOMPLETE; structural QA not legal or clinical approval"
+  },
+  "evidence_limits": [
+    "Presidential Decreto Ley 02/2026 web reproduction lists Sanidad e Infraestructuras Sanitarias; entry-into-force expressly depends on promulgation and Equatorial Guinea BOE publication, which has not been independently authenticated.",
+    "June presidential appointment decree and law are same Presidency issuer/publisher, not two independently issuing legal authorities.",
+    "October 30 Vicepresidency government report uses longer Sanidad Bienestar Social e Infraestructuras Sanitarias name without being amendment law.",
+    "July 1 INSESO report is reorganization progress, not signed asset/personnel hospital transfer completion.",
+    "No identity promotion; all 17 unresolved and 231 provisional identities still require original comprehensive enacted mandate review.",
+    "No website/main/other team, no clinical changes; keep PR open draft unmerged."
+  ],
+  "source_note": "source_recovery/CYCLE_226_JUNE_DECREE_OCT_CONFLICT_20261106.md"
+}

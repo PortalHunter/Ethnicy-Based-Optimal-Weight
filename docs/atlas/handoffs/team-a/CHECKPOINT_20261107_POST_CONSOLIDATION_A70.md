@@ -1,0 +1,15 @@
+# Team A A70 checkpoint — acceptance-driven primary research, 2026-11-07
+
+**Scope:** PR #68, branch `research/atlas-team-a-20261104`, OPEN/DRAFT/UNMERGED, Team A files only. No legal or clinical approval. This is **post-consolidation research**, not another consolidation pass.
+
+**ORIGINAL** 248 dated M49 / 248 explicit authority or UNKNOWN dispositions unchanged; 231 provisional identities and 17 UNKNOWN; 318 bodies, 45 narrow links, four shared scopes. **New measurable finite issuer-scrutiny denominator: 10 selected exact claims**, two in each populated UN region: **1/10 qualifying narrow pass** only Bahamas dental commencement already closed A69; 9/10 still not complete. Not a global or all-claims acceptance metric.
+
+**EXPANDED (distinct 248 x 8)**: 28/248 partial → 28 (+0); 220/248 unscored → 220 (+0), 0/248 all-tier research-complete → 0. Narrow SOURCE_SUPPORTED 55→56 (+1) only Bhutan 2022 BFDA statutory merger; RESEARCHED_INCOMPLETE 130→129 (−1); NOT_TRIAGED 1797→1797; CONFLICT_UNRESOLVED 2→2. Provenance 750→752 (+2 original Bhutan law/rule observations).
+
+**Verified narrow primary original:** Bhutan 2022 Parliament Civil Service Reform Act effective **15 Dec 2022**, ss8,13-14,26-27 creating statutory BFDA merger, A70-064-01; BFDA 2024 controlled substances delegated original s6 names exact Cabinet/RCSC board letters A70-064-02 but does not supply independently verified original appointing letters. No new validated 2026 board appointment conclusion.
+
+**Not closed:** Botswana 2013 Public Health Act original Gazette **S.I.4/2014** (secondary legal compilation suggests 3 Feb2014, NOT original verified), Botswana Medicines Act29/2025 original Minister commencement Gazette and numbered final 2026 regs; Solomon post-2024 health services amendments and actual provincial/Honiara instruments; Bhutan Cabinet **C-3/6(5)/2024/48** and RCSC **LTD/1/COM/2024/3331** original letters and 2025/26 succession; 17 UNKNOWN and five original-script labels. Bahamas Act71/2025 original appointed day S.I.18/2026 effective 1 Apr2026 remains closed since A69 and was not researched again. No new formal evidence-blocked classifications lacking documented two distinct official retrieval failures.
+
+**Validation:** local `git ls-remote` failed DNS for github.com, so authorized complete checkout unavailable and native `validate.py` and unittests **NOT RUN**. Structural quote-aware GitHub immutable readback QA recorded separately in `QA_POST_CONSOLIDATION_A70_20261107.json`; structural pass does NOT constitute legal certification. Exact changed Team A files and protected blob-SHA content updates, no force pushes or other-team modifications.
+
+[CURRENT](CURRENT.md) is authoritative for the before/after 20-slot bars, [original acceptance tracking](ORIGINAL_ACCEPTANCE_TRACKING_20261107.md), [claim audit CSV](INDEPENDENT_ISSUER_AUDIT_A70_20261107.csv), [A70 source note](source_recovery/CYCLE_A70_ISSUER_BOARD_AND_GAZETTE_20261107.md), [finite 248-area backlog](PRIORITIZED_BACKLOG_20261107.csv).

@@ -1,0 +1,69 @@
+{
+  "batch": 48,
+  "checked_utc": "2026-11-06",
+  "repository": "PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "branch": "research/atlas-team-a-20261104",
+  "pr": 68,
+  "prior_branch_head": "96fd41639a0b9aaa4e684a7029dee02a2523d066",
+  "immutable_batch48_data_head": "d7f23291e4f38cdfa81318c4c7521b56db87019c",
+  "write_commits": [
+    "14b275e5d1ec57d02e5ea70c9de67fac58b70805",
+    "28c3ae5b77ddff807562be9669fc5202756f7266",
+    "d7f23291e4f38cdfa81318c4c7521b56db87019c"
+  ],
+  "immutable_blobs": {
+    "M49_OFFICIAL_SNAPSHOT_20261105.csv": "bccc48eae6c7dfec6c542080a6682804a5c92f52",
+    "data/countries.csv": "da2bc30c566527e1b379b72bd2c9d98d0e3d0b5a",
+    "data/country_coverage.csv": "b54dda5d655f01d2ec311db22d07b17676f51032",
+    "data/government_health_bodies.csv": "1ff2feb1fe1464bed3c31acac2b5ff4cae24a024",
+    "data/authority_relationships.csv": "4844ba36b45f9ce6dd38870c6cdd62fbd54e9140",
+    "data/authority_area_scope.csv": "4d9b3418845eb40e38d31925c033dffe104c6d44",
+    "data/unresolved_area_audit.csv": "95dde7cc3f9385e840aaea8fd01a5657d17cea55",
+    "PROVENANCE.csv": "d2832b026bfdf9027555b0134ff0a26024f234cf"
+  },
+  "counts": {
+    "official_m49": 248,
+    "country_skeletons": 248,
+    "provisional_area_identity": 231,
+    "documented_unknown": 17,
+    "government_bodies": 318,
+    "authority_relationships": 45,
+    "shared_area_scopes": 4,
+    "area_coverage_rows": 248,
+    "unresolved_audit_rows": 17,
+    "provenance_rows": 677
+  },
+  "structural_audit": {
+    "engine": "Quote-aware JavaScript full eight-CSV GitHub readback; not Python",
+    "outcome": "PASS_WITH_THREE_GLOBAL_M49_PROVENANCE_SCOPE_EXCEPTIONS",
+    "checks": [
+      "Full eight CSV files quote-aware field-width check and unique primary IDs",
+      "248 exact UN M49 country/area geography code names ISO region/subregion values",
+      "248 country_coverage matches 231 preliminary named authorities and 17 audited UNKNOWN",
+      "318 body IDs have source-state and area scope; 45 supported relationships; 4 scoped multiple-area mappings",
+      "677 unique source observations; 3 older M49 global context records intentionally lack area_m49; remaining mapped",
+      "Four new A48-581 source IDs linked to exactly M49 581, which remains UNKNOWN",
+      "16 other unresolved audits preserved byte-for-byte; all prior 673 source rows preserved by prefix check on live writes",
+      "Six unchanged CSV blob hashes match Batch47 exactly, only three Team A paths changed from previous live HEAD to data SHA"
+    ],
+    "changed_paths": [
+      "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+      "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+      "docs/atlas/handoffs/team-a/source_recovery/CYCLE_581_OFFICIAL_ECFR_2026_AND_PUBLISHED_FR_20261106.md"
+    ],
+    "python_validator": "NOT RUN in Batch48: local GitHub DNS prevented full checkout. Last actual Python validator passed Batch41.",
+    "python_unittest": "NOT RUN in Batch48: same DNS restriction. Five unit regressions last passed Batch41.",
+    "legal_acceptance": "INCOMPLETE; structural consistency is not enacted current legal mandate, delegated-current powers, independent issuer or clinical verification"
+  },
+  "research_findings": [
+    "Official government eCFR Part 935 directly read as of 2026-11-04 for Wake/Peale/Wilkes, with limitations of authoritative but unofficial consolidation",
+    "935.10 written Secretary Air Force/General Counsel redelegation; 935.11/12 permits and quarantine; 935.14 conditional autopsy; 935.16 declared emergency; current written personnel assignments not authenticated",
+    "Published original FR 2025-13994 90 FR 34763 amended 935.3(d) effective 2025-07-24 and no other section; 1 July 2025 annual CFR predates amendment",
+    "One Air Force issuing agency, no independent second legal issuer or other eight island authority; 581 UNKNOWN"
+  ],
+  "source_note": "source_recovery/CYCLE_581_OFFICIAL_ECFR_2026_AND_PUBLISHED_FR_20261106.md",
+  "primary_sources": [
+    "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-VII/subchapter-N/part-935",
+    "https://www.govinfo.gov/content/pkg/FR-2025-07-24/html/2025-13994.htm"
+  ]
+}
