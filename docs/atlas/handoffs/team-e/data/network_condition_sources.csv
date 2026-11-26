@@ -1,0 +1,21 @@
+entity_id,condition_key,source_id,scope,appraisal_state,origin
+D:IDF,diabetes,src:75e2351da7ac3562acce41d5,International federation; seven regional groupings,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:1
+D:WHO_SEA_DIABETES,diabetes,src:4525e788d199aaba8eb82d88,South-East Asia country-program experience exchange (publication 2026),DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:2
+D:PAHO_HEARTS,diabetes,src:3b88300cec73ec0f79e6b5c2,Americas implementation; combined cardiometabolic prevention,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:3
+D:WHO_PAC_NCD,diabetes,src:bf60c28ac80935cd70ac8808,Pacific islands multisectoral NCD activities,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:4
+D:AFRICA_SPARK,diabetes,src:f993f5116f8d4dd99fe4ac8a,African Union cross-border NCD surveillance and integrated care,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:5
+D:WHL,hypertension,src:30124076264d5e909e8c9999,Global society-level professional members,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:6
+D:ISH,hypertension,src:4536653bd358fb5637538621,International affiliated professional societies including Africa Middle East South Asia Latin America Pacific,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:7
+D:PAHO_HEARTS,hypertension,src:8c0b4fb9864fcc100f779993,Americas country-adapted pathways,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:8
+D:WHO_HEARTS,hypertension,src:7a6c0476282415f6a363c8d9,WHO technical package supported by WHO Europe,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:9
+D:EAS,high_chol,src:d7188e1c6f2f6da08adc49d6,"European professional dyslipidaemia guidance, 2025 focused update",DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:10
+D:PAHO_HEARTS,high_chol,src:3b88300cec73ec0f79e6b5c2,Americas integrated cardiometabolic risk management,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:11
+D:EULAR,gout,src:7c3fd05fa123afdcd1eb7dcf,European rheumatology scientific recommendations (2016 gout update),DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:12
+D:WGO,lactose,src:fc6899f516ec13d096d0811a,Global gastroenterology guidance section on lactose intolerance,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:13
+D:WGO,celiac,src:ea5450d0b255b23103bbea9e,Global resource-sensitive diagnosis and management cascades,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:14
+D:ESPGHAN,celiac,src:e163eced3e0c499f0adec725,European pediatric celiac diagnostic society guideline,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:15
+D:AOECS,celiac,src:af2ef954773946fe3bbc8f26,European national patient organization coordination with selected non-European affiliates,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:16
+D:EASL,hemochromatosis,src:f53be454eb040cf0c506421c,European hepatology scientific guideline (2022),DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:17
+D:HAEMO_INT,hemochromatosis,src:552d988165897f9e0b7cb3e3,Global patient associations including Australia Brazil New Zealand Canada USA and Europe,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:18
+D:WHO_EMRO_DIABETES,diabetes,src:431da1a0b6b6c0df823eeab2,WHO Eastern Mediterranean WHO Regional Committee endorsed framework October 2021,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:19
+D:PASCAR,hypertension,src:cb7caf9e0cf283a39b9c25fe,Sub-Saharan and Pan-African professional hypertension taskforce resources,DOCUMENTED_INSTITUTION_NOT_EVIDENCE_APPRAISED,D:data/condition_networks.csv:20

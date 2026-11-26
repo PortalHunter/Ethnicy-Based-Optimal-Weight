@@ -1,0 +1,14 @@
+claim_id,legacy_subject_id,relationship,source_id,state,origin
+RDI-006,SOC-JPN-JDS,candidate_source_relationship,src:7ee17f83db2eb22c5677f294,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:87
+RHT-001,SOC-JPN-JSH,candidate_source_relationship,src:0f833ab3e0d2c604c33280a6,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:88
+RLD-001,SOC-JPN-JAS,candidate_source_relationship,src:df61b8cdcedf3e2566bf69d9,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:89
+RDI-007,SOC-KOR-KDA,candidate_source_relationship,src:5c41ab55fb7f0aa5a083a63e,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:90
+RDI-001,SOC-FIN-KAYPA,candidate_source_relationship,src:bf96b635dc66385b3dbd78f8,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:91
+RDI-003,SOC-GHA-DEMSOG,candidate_source_relationship,src:a96855ed5fa26053c795ddb7,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:92
+RDI-009,SOC-PAK-PES,candidate_source_relationship,src:57df58bf77fc981304eca358,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:93
+RDI-002,SOC-ESP-SED,candidate_source_relationship,src:2a5526cc9a43968acc7d5e60,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:94
+RDI-018,SOC-BRA-SBD,candidate_source_relationship,src:23ed25b909e2d4a4ddd75e1a,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:95
+RDI-022,SOC-NZL-NZSSD,candidate_source_relationship,src:b6a263009b508f09ed23213b,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:96
+RDI-019,SOC-CAN-DIABETESCA,candidate_source_relationship,src:e1e87e1e7b79362a37202f38,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:97
+RDI-004,SOC-ZAF-SEMDSA,candidate_source_relationship,src:1a61e11b894f96bb369c0f6c,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:98
+RFE-003,SOC-PRT-SPMI,candidate_source_relationship,src:e2264e834ba6705f6921290b,APPRAISAL_PENDING,pilot:docs/atlas/relationships.batch-a.json:99

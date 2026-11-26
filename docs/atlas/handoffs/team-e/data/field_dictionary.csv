@@ -1,0 +1,253 @@
+table,field,type,nullable,definition
+PROVENANCE,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+PROVENANCE,url,text,false,Url. See table semantics in SCHEMA.md.
+PROVENANCE,transport,text,false,Transport. See table semantics in SCHEMA.md.
+PROVENANCE,first_origin,text,false,First origin. See table semantics in SCHEMA.md.
+PROVENANCE,provenance_origins,text,true,"Exact original provenance locators sharing this URL, delimited by pipe."
+PROVENANCE,verification,text,false,Verification. See table semantics in SCHEMA.md.
+ancestry_keys,ancestry_key,text,false,Ancestry key. See table semantics in SCHEMA.md.
+ancestry_keys,label,text,false,Label. See table semantics in SCHEMA.md.
+ancestry_keys,parent_key,text,true,"Existing picker hierarchy from core.js, with no relationship to M49 or studied populations."
+ancestry_keys,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+areas,m49,text,false,M49. See table semantics in SCHEMA.md.
+areas,iso_alpha2,text,false,Iso alpha2. See table semantics in SCHEMA.md.
+areas,iso_alpha3,text,false,Iso alpha3. See table semantics in SCHEMA.md.
+areas,name,text,false,Name. See table semantics in SCHEMA.md.
+areas,un_region,text,true,Un region. See table semantics in SCHEMA.md.
+areas,un_subregion,text,true,Un subregion. See table semantics in SCHEMA.md.
+areas,authority_disposition,text,false,Evidence-scoped Team A authority state. Unknown and conflict are valid.
+areas,authority_scope,text,false,Authority scope. See table semantics in SCHEMA.md.
+areas,who_region,text,false,Who region. See table semantics in SCHEMA.md.
+areas,who_effective_date,text,false,Who effective date. See table semantics in SCHEMA.md.
+areas,who_state,text,false,Who state. See table semantics in SCHEMA.md.
+areas,who_source_id,text,true,Who source id. See table semantics in SCHEMA.md.
+areas,strict_legal_stage,text,false,Strict legal stage. See table semantics in SCHEMA.md.
+areas,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+areas,who_origin,text,false,Who origin. See table semantics in SCHEMA.md.
+authority_duplicates,left_id,text,false,Left id. See table semantics in SCHEMA.md.
+authority_duplicates,right_id,text,false,Right id. See table semantics in SCHEMA.md.
+authority_duplicates,disposition,text,false,Disposition. See table semantics in SCHEMA.md.
+authority_duplicates,basis,text,false,Basis. See table semantics in SCHEMA.md.
+authority_duplicates,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+candidate_claims,claim_id,text,false,Claim id. See table semantics in SCHEMA.md.
+candidate_claims,condition_key,text,true,Condition key. See table semantics in SCHEMA.md.
+candidate_claims,publication_id,text,false,Publication id. See table semantics in SCHEMA.md.
+candidate_claims,original_source_id,text,false,Original source id. See table semantics in SCHEMA.md.
+candidate_claims,review_source_id,text,false,Review source id. See table semantics in SCHEMA.md.
+candidate_claims,original_title,text,false,Original title. See table semantics in SCHEMA.md.
+candidate_claims,pinned_candidate_assertion,text,false,Pinned candidate assertion. See table semantics in SCHEMA.md.
+candidate_claims,checked_reference_identifier,text,true,Checked reference identifier. See table semantics in SCHEMA.md.
+candidate_claims,reference_authors,text,false,Reference authors. See table semantics in SCHEMA.md.
+candidate_claims,reference_issuer,text,false,Reference issuer. See table semantics in SCHEMA.md.
+candidate_claims,reference_venue,text,false,Reference venue. See table semantics in SCHEMA.md.
+candidate_claims,website_host,text,false,Website host. See table semantics in SCHEMA.md.
+candidate_claims,identity_or_reference_state,text,false,Identity or reference state. See table semantics in SCHEMA.md.
+candidate_claims,independent_review_scope,text,false,Independent review scope. See table semantics in SCHEMA.md.
+candidate_claims,study_location_m49,text,true,Study location m49. See table semantics in SCHEMA.md.
+candidate_claims,study_population_scope,text,false,Study population scope. See table semantics in SCHEMA.md.
+candidate_claims,source_jurisdiction,text,false,Source jurisdiction. See table semantics in SCHEMA.md.
+candidate_claims,population_definition,text,false,Population definition. See table semantics in SCHEMA.md.
+candidate_claims,ancestry_self_identification,text,false,Ancestry self identification. See table semantics in SCHEMA.md.
+candidate_claims,genetic_findings,text,false,Genetic findings. See table semantics in SCHEMA.md.
+candidate_claims,geography_or_population_as_cited,text,false,Geography or population as cited. See table semantics in SCHEMA.md.
+candidate_claims,design_and_version,text,false,Design and version. See table semantics in SCHEMA.md.
+candidate_claims,source_language,text,false,Source language. See table semantics in SCHEMA.md.
+candidate_claims,endpoint_effect_uncertainty,text,false,Endpoint effect uncertainty. See table semantics in SCHEMA.md.
+candidate_claims,limitation,text,false,Limitation. See table semantics in SCHEMA.md.
+candidate_claims,appraisal_status,text,false,Appraisal status. See table semantics in SCHEMA.md.
+candidate_claims,mapping_status,text,false,Mapping status. See table semantics in SCHEMA.md.
+candidate_claims,clinical_release,text,false,Withheld research state separate from source identity and procedural appraisal.
+candidate_claims,issue,text,false,Issue. See table semantics in SCHEMA.md.
+candidate_claims,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+claim_ancestry_proposals,claim_id,text,false,Claim id. See table semantics in SCHEMA.md.
+claim_ancestry_proposals,condition_key,text,true,Condition key. See table semantics in SCHEMA.md.
+claim_ancestry_proposals,ancestry_key,text,false,Ancestry key. See table semantics in SCHEMA.md.
+claim_ancestry_proposals,mapping_status,text,false,Mapping status. See table semantics in SCHEMA.md.
+claim_ancestry_proposals,clinical_release,text,false,Withheld research state separate from source identity and procedural appraisal.
+claim_ancestry_proposals,basis,text,false,Basis. See table semantics in SCHEMA.md.
+claim_ancestry_proposals,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+community_governance,entity_id,text,false,Entity id. See table semantics in SCHEMA.md.
+community_governance,area_m49,text,false,Area m49. See table semantics in SCHEMA.md.
+community_governance,community,text,false,Community. See table semantics in SCHEMA.md.
+community_governance,scope,text,false,Scope. See table semantics in SCHEMA.md.
+community_governance,limitation,text,false,Limitation. See table semantics in SCHEMA.md.
+community_governance,state,text,false,State. See table semantics in SCHEMA.md.
+community_governance,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+community_governance,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+condition_availability,m49,text,false,M49. See table semantics in SCHEMA.md.
+condition_availability,condition_key,text,true,Condition key. See table semantics in SCHEMA.md.
+condition_availability,specialist_qualified_count,text,false,Specialist qualified count. See table semantics in SCHEMA.md.
+condition_availability,specialist_disposition,text,false,Specialist disposition. See table semantics in SCHEMA.md.
+condition_availability,search_depth,text,false,Search depth. See table semantics in SCHEMA.md.
+condition_availability,journal_discovery,text,false,Journal discovery. See table semantics in SCHEMA.md.
+condition_availability,systematic_search,text,false,Systematic search. See table semantics in SCHEMA.md.
+condition_availability,clinical_release,text,false,Withheld research state separate from source identity and procedural appraisal.
+condition_availability,specialist_origin,text,false,Specialist origin. See table semantics in SCHEMA.md.
+condition_availability,journal_origin,text,false,Journal origin. See table semantics in SCHEMA.md.
+conditions,condition_key,text,true,Condition key. See table semantics in SCHEMA.md.
+conditions,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+discovery_leads,lead_id,text,false,Lead id. See table semantics in SCHEMA.md.
+discovery_leads,m49,text,false,M49. See table semantics in SCHEMA.md.
+discovery_leads,title,text,false,Title. See table semantics in SCHEMA.md.
+discovery_leads,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+discovery_leads,state,text,false,State. See table semantics in SCHEMA.md.
+discovery_leads,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+edge_conflicts,edge_id,text,false,Edge id. See table semantics in SCHEMA.md.
+edge_conflicts,conflict_kind,text,false,Conflict kind. See table semantics in SCHEMA.md.
+edge_conflicts,related,text,true,Related. See table semantics in SCHEMA.md.
+edge_conflicts,disposition,text,false,Disposition. See table semantics in SCHEMA.md.
+edge_conflicts,note,text,false,Note. See table semantics in SCHEMA.md.
+edge_conflicts,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+edge_conflicts,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+exceptions,exception_id,text,false,Exception id. See table semantics in SCHEMA.md.
+exceptions,kind,text,false,Kind. See table semantics in SCHEMA.md.
+exceptions,record_id,text,false,Record id. See table semantics in SCHEMA.md.
+exceptions,disposition,text,false,Disposition. See table semantics in SCHEMA.md.
+exceptions,question,text,false,Question. See table semantics in SCHEMA.md.
+exceptions,issue,text,false,Issue. See table semantics in SCHEMA.md.
+exceptions,source_id,text,true,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+exceptions,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+identifier_crosswalk,team,text,false,Team. See table semantics in SCHEMA.md.
+identifier_crosswalk,original_id,text,false,Original id. See table semantics in SCHEMA.md.
+identifier_crosswalk,canonical_id,text,false,Canonical id. See table semantics in SCHEMA.md.
+identifier_crosswalk,disposition,text,false,Disposition. See table semantics in SCHEMA.md.
+identifier_crosswalk,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+institutions,entity_id,text,false,Entity id. See table semantics in SCHEMA.md.
+institutions,category,text,false,Category. See table semantics in SCHEMA.md.
+institutions,original_type,text,false,Original type. See table semantics in SCHEMA.md.
+institutions,local_name,text,false,Local name. See table semantics in SCHEMA.md.
+institutions,english_name,text,false,English name. See table semantics in SCHEMA.md.
+institutions,domicile_m49,text,true,Organization seat from explicit source fields. Never derived from area served.
+institutions,jurisdiction,text,false,Jurisdiction. See table semantics in SCHEMA.md.
+institutions,official_url,text,true,Official url. See table semantics in SCHEMA.md.
+institutions,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+institutions,language,text,true,Language. See table semantics in SCHEMA.md.
+institutions,checked_on,text,true,Checked on. See table semantics in SCHEMA.md.
+institutions,lifecycle,text,false,Lifecycle. See table semantics in SCHEMA.md.
+institutions,evidence_state,text,false,Evidence state. See table semantics in SCHEMA.md.
+institutions,integration_review,text,false,"Scope of Team E review on this record, or inherited qualification."
+institutions,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+journals,entity_id,text,false,Entity id. See table semantics in SCHEMA.md.
+journals,publisher_id,text,false,Publisher id. See table semantics in SCHEMA.md.
+journals,publisher_area_m49,text,false,Area of the publisher as specified by Team C. Never used as study location.
+journals,issn,text,true,Issn. See table semantics in SCHEMA.md.
+journals,eissn,text,true,Eissn. See table semantics in SCHEMA.md.
+journals,translation_basis,text,false,Translation basis. See table semantics in SCHEMA.md.
+journals,editorial_review,text,false,Editorial review. See table semantics in SCHEMA.md.
+journals,peer_review_policy,text,false,Peer review policy. See table semantics in SCHEMA.md.
+journals,correction_policy,text,false,Correction policy. See table semantics in SCHEMA.md.
+journals,retraction_policy,text,false,Retraction policy. See table semantics in SCHEMA.md.
+journals,access_model,text,false,Access model. See table semantics in SCHEMA.md.
+journals,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+journals,policy_origin,text,false,Policy origin. See table semantics in SCHEMA.md.
+m49_integrity,m49,text,false,M49. See table semantics in SCHEMA.md.
+m49_integrity,iso_alpha2,text,false,Iso alpha2. See table semantics in SCHEMA.md.
+m49_integrity,iso_alpha3,text,false,Iso alpha3. See table semantics in SCHEMA.md.
+m49_integrity,un_name,text,false,Un name. See table semantics in SCHEMA.md.
+m49_integrity,un_region,text,true,Un region. See table semantics in SCHEMA.md.
+m49_integrity,un_subregion,text,true,Un subregion. See table semantics in SCHEMA.md.
+m49_integrity,in_A,text,false,In a. See table semantics in SCHEMA.md.
+m49_integrity,in_B,text,false,In b. See table semantics in SCHEMA.md.
+m49_integrity,in_C,text,false,In c. See table semantics in SCHEMA.md.
+m49_integrity,in_D,text,false,In d. See table semantics in SCHEMA.md.
+m49_integrity,name_variants_in,text,true,Name variants in. See table semantics in SCHEMA.md.
+map_coverage,m49,text,false,M49. See table semantics in SCHEMA.md.
+map_coverage,label,text,false,Label. See table semantics in SCHEMA.md.
+map_coverage,government_status,text,false,Government status. See table semantics in SCHEMA.md.
+map_coverage,who_region,text,false,Who region. See table semantics in SCHEMA.md.
+map_coverage,indexed_specialist_count,text,false,Indexed specialist count. See table semantics in SCHEMA.md.
+map_coverage,indexed_journal_count,text,false,Indexed journal count. See table semantics in SCHEMA.md.
+map_coverage,specialist_label,text,false,Specialist label. See table semantics in SCHEMA.md.
+map_coverage,journal_label,text,false,Journal label. See table semantics in SCHEMA.md.
+map_coverage,clinical_release,text,false,Withheld research state separate from source identity and procedural appraisal.
+map_coverage,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+network_condition_sources,entity_id,text,false,Entity id. See table semantics in SCHEMA.md.
+network_condition_sources,condition_key,text,true,Condition key. See table semantics in SCHEMA.md.
+network_condition_sources,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+network_condition_sources,scope,text,false,Scope. See table semantics in SCHEMA.md.
+network_condition_sources,appraisal_state,text,false,Appraisal state. See table semantics in SCHEMA.md.
+network_condition_sources,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+noncanonical_geography,candidate_code,text,false,Candidate code. See table semantics in SCHEMA.md.
+noncanonical_geography,disposition,text,false,Disposition. See table semantics in SCHEMA.md.
+noncanonical_geography,notes,text,false,Notes. See table semantics in SCHEMA.md.
+noncanonical_geography,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+noncanonical_geography,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+office_observations,record_id,text,false,Record id. See table semantics in SCHEMA.md.
+office_observations,area_m49,text,false,Area m49. See table semantics in SCHEMA.md.
+office_observations,office_presence,text,false,Office presence. See table semantics in SCHEMA.md.
+office_observations,reported_as_of,text,false,Reported as of. See table semantics in SCHEMA.md.
+office_observations,office_opened_date,text,false,Office opened date. See table semantics in SCHEMA.md.
+office_observations,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+office_observations,verification,text,false,Verification. See table semantics in SCHEMA.md.
+office_observations,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+pilot_claim_links,claim_id,text,false,Claim id. See table semantics in SCHEMA.md.
+pilot_claim_links,legacy_subject_id,text,false,Legacy subject id. See table semantics in SCHEMA.md.
+pilot_claim_links,relationship,text,false,Relationship. See table semantics in SCHEMA.md.
+pilot_claim_links,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+pilot_claim_links,state,text,false,State. See table semantics in SCHEMA.md.
+pilot_claim_links,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+provenance_review,assertion_id,text,false,Assertion id. See table semantics in SCHEMA.md.
+provenance_review,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+provenance_review,review_scope,text,false,Review scope. See table semantics in SCHEMA.md.
+provenance_review,outcome,text,false,Outcome. See table semantics in SCHEMA.md.
+provenance_review,checked_on,text,true,Checked on. See table semantics in SCHEMA.md.
+provenance_review,finding,text,false,Finding. See table semantics in SCHEMA.md.
+provenance_review,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+publication_contexts,context_id,text,false,Context id. See table semantics in SCHEMA.md.
+publication_contexts,publication_id,text,false,Publication id. See table semantics in SCHEMA.md.
+publication_contexts,condition_key,text,true,Condition key. See table semantics in SCHEMA.md.
+publication_contexts,organization_id,text,false,Organization id. See table semantics in SCHEMA.md.
+publication_contexts,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+publication_contexts,original_role,text,false,Original role. See table semantics in SCHEMA.md.
+publication_contexts,quality_tier,text,false,Quality tier. See table semantics in SCHEMA.md.
+publication_contexts,source_country,text,true,Country of the linked issuer or publication as stated by source_country_basis.
+publication_contexts,source_country_basis,text,false,"Explicit distinction between link issuer, document issuer, original journal country and unknown."
+publication_contexts,source_issuer_or_publisher,text,true,Source issuer or publisher. See table semantics in SCHEMA.md.
+publication_contexts,study_population,text,true,Study population. See table semantics in SCHEMA.md.
+publication_contexts,study_m49,text,true,"Explicit country of study, with study_location_state retained when unavailable."
+publication_contexts,study_location_state,text,false,Study location state. See table semantics in SCHEMA.md.
+publication_contexts,healthcare_jurisdiction,text,false,Healthcare jurisdiction. See table semantics in SCHEMA.md.
+publication_contexts,provenance_keys,text,true,Provenance keys. See table semantics in SCHEMA.md.
+publication_contexts,evidence_state,text,false,Evidence state. See table semantics in SCHEMA.md.
+publication_contexts,clinical_release,text,false,Withheld research state separate from source identity and procedural appraisal.
+publication_contexts,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+publication_contexts,secondary_origin,text,false,Secondary origin. See table semantics in SCHEMA.md.
+publication_references,publication_id,text,false,Publication id. See table semantics in SCHEMA.md.
+publication_references,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+publication_references,role,text,false,Role. See table semantics in SCHEMA.md.
+publication_references,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+publications,publication_id,text,false,Publication id. See table semantics in SCHEMA.md.
+publications,title,text,false,Title. See table semantics in SCHEMA.md.
+publications,resource_type,text,false,Resource type. See table semantics in SCHEMA.md.
+publications,language,text,true,Language. See table semantics in SCHEMA.md.
+publications,doi,text,true,Doi. See table semantics in SCHEMA.md.
+publications,other_identifier,text,true,Other identifier. See table semantics in SCHEMA.md.
+publications,venue_id,text,true,Venue id. See table semantics in SCHEMA.md.
+publications,publication_m49,text,true,Publication m49. See table semantics in SCHEMA.md.
+publications,year_or_edition,text,true,Year or edition. See table semantics in SCHEMA.md.
+publications,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+publications,evidence_state,text,false,Evidence state. See table semantics in SCHEMA.md.
+publications,clinical_release,text,false,Withheld research state separate from source identity and procedural appraisal.
+publications,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+relationships,edge_id,text,false,Edge id. See table semantics in SCHEMA.md.
+relationships,subject_id,text,false,Subject id. See table semantics in SCHEMA.md.
+relationships,object_id,text,false,Object id. See table semantics in SCHEMA.md.
+relationships,relationship_type,text,false,Relationship type. See table semantics in SCHEMA.md.
+relationships,source_id,text,false,Foreign key to PROVENANCE.csv. Separate source observations may share one public URL.
+relationships,evidence_state,text,false,Evidence state. See table semantics in SCHEMA.md.
+relationships,geographic_scope_m49,text,true,Geographic reach of this assertion. This field does not identify domicile.
+relationships,condition_key,text,true,Condition key. See table semantics in SCHEMA.md.
+relationships,normalized_from,text,true,Normalized from. See table semantics in SCHEMA.md.
+relationships,normalized_to,text,true,Normalized to. See table semantics in SCHEMA.md.
+relationships,original_from,text,true,Raw version or validity date from the input. Normalized date can be withheld.
+relationships,original_to,text,true,Original to. See table semantics in SCHEMA.md.
+relationships,observed_on,text,true,Observed on. See table semantics in SCHEMA.md.
+relationships,date_state,text,false,Date state. See table semantics in SCHEMA.md.
+relationships,institutional_context,text,true,Institutional context. See table semantics in SCHEMA.md.
+relationships,integration_review,text,false,"Scope of Team E review on this record, or inherited qualification."
+relationships,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."
+unmapped_condition_ancestry,condition_key,text,true,Condition key. See table semantics in SCHEMA.md.
+unmapped_condition_ancestry,ancestry_key,text,false,Ancestry key. See table semantics in SCHEMA.md.
+unmapped_condition_ancestry,approved_mapping,text,false,Approved mapping. See table semantics in SCHEMA.md.
+unmapped_condition_ancestry,disposition,text,false,Disposition. See table semantics in SCHEMA.md.
+unmapped_condition_ancestry,origin,text,false,"Original pinned team, path and 1-based CSV record number or JS symbol."

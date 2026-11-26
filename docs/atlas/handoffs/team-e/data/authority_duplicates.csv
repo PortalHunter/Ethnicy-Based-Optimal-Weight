@@ -1,0 +1,209 @@
+left_id,right_id,disposition,basis,origin
+D:org:provisional:whl-argentine-society-of-hypertension,B:B-AR-SAHA,confirmed_match,"World Hypertension League roster lists Argentine Society of Hypertension with its saha.org.ar link; Team B publishes Sociedad Argentina de Hipertension Arterial as B-AR-SAHA; SAHA official contact page self-identifies same society and city. Does not prove statutory registration, signed membership instrument, current office premises, or national clinical adoption. Graph endpoint remains provisional.",D:data/provisional_team_b_identity_crosswalk_2026-11-07.csv:2
+D:org:provisional:ish-indonesian-society-of-hypertension,B:B-ID-PERHI,confirmed_match,"ISH names Indonesian Society of Hypertension (InaSH) and links inash.or.id; Team B B-ID-PERHI uses same official site; InaSH about page self-identifies Perhimpunan Dokter Hipertensi Indonesia and English translation; roster is undated. Does not prove statutory registration, signed membership instrument, current office premises, or national clinical adoption. Graph endpoint remains provisional.",D:data/provisional_team_b_identity_crosswalk_2026-11-07.csv:8
+D:org:provisional:ish-national-heart-foundation-bangladesh,B:B-BD-NHFB,confirmed_match,"ISH names and links National Heart Foundation of Bangladesh via nhf.org.bd; Team B B-BD-NHFB has same name and official site; nhf.org.bd is JS-dependent but its epidemiology subdomain displays the foundation hospital and research identity. Does not prove statutory registration, signed membership instrument, current office premises, or national clinical adoption. Graph endpoint remains provisional.",D:data/provisional_team_b_identity_crosswalk_2026-11-07.csv:10
+D:TD-EMRN-NCA-001,gov-040-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:1
+D:TD-EMRN-NCA-002,gov-056-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:2
+D:TD-EMRN-NCA-003,gov-100-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:3
+D:TD-EMRN-NCA-004,gov-191-001|gov-191-002,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:4
+D:TD-EMRN-NCA-005,gov-196-001,supported_distinct_entities,"Entity-name match only; no statutory remit, department identity or legal continuity inferred PARENT_OR_DEPARTMENT_ONLY_NOT_EXACT",D:data/emrn_packet_bulk_review_2026-11-18.csv:5
+D:TD-EMRN-NCA-006,gov-203-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:6
+D:TD-EMRN-NCA-007,A:gov-208-003,confirmed_match,"Entity-name match only; no statutory remit, department identity or legal continuity inferred",D:data/emrn_packet_bulk_review_2026-11-18.csv:7
+D:TD-EMRN-NCA-008,gov-233-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:8
+D:TD-EMRN-NCA-009,gov-246-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:9
+D:TD-EMRN-NCA-010,gov-250-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:10
+D:TD-EMRN-NCA-011,A:gov-276-005,confirmed_match,"Entity-name match only; no statutory remit, department identity or legal continuity inferred",D:data/emrn_packet_bulk_review_2026-11-18.csv:11
+D:TD-EMRN-NCA-012,A:gov-276-003,confirmed_match,"Entity-name match only; no statutory remit, department identity or legal continuity inferred",D:data/emrn_packet_bulk_review_2026-11-18.csv:12
+D:TD-EMRN-NCA-013,gov-300-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:13
+D:TD-EMRN-NCA-014,gov-348-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:14
+D:TD-EMRN-NCA-015,gov-352-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:15
+D:TD-EMRN-NCA-016,gov-372-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:16
+D:TD-EMRN-NCA-017,gov-380-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:17
+D:TD-EMRN-NCA-018,gov-428-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:18
+D:TD-EMRN-NCA-019,gov-438-001|gov-438-002,supported_distinct_entities,"Entity-name match only; no statutory remit, department identity or legal continuity inferred PARENT_OR_DEPARTMENT_ONLY_NOT_EXACT",D:data/emrn_packet_bulk_review_2026-11-18.csv:19
+D:TD-EMRN-NCA-020,gov-440-001|gov-440-002,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:20
+D:TD-EMRN-NCA-021,A:gov-442-001,confirmed_match,"Entity-name match only; no statutory remit, department identity or legal continuity inferred",D:data/emrn_packet_bulk_review_2026-11-18.csv:21
+D:TD-EMRN-NCA-022,gov-470-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:22
+D:TD-EMRN-NCA-023,gov-528-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:23
+D:TD-EMRN-NCA-024,gov-528-001,supported_distinct_entities,"Entity-name match only; no statutory remit, department identity or legal continuity inferred PARENT_OR_DEPARTMENT_ONLY_NOT_EXACT",D:data/emrn_packet_bulk_review_2026-11-18.csv:24
+D:TD-EMRN-NCA-025,gov-528-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:25
+D:TD-EMRN-NCA-026,gov-578-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:26
+D:TD-EMRN-NCA-027,gov-616-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:27
+D:TD-EMRN-NCA-028,gov-616-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:28
+D:TD-EMRN-NCA-029,gov-620-001|gov-620-002,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:29
+D:TD-EMRN-NCA-030,gov-642-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:30
+D:TD-EMRN-NCA-031,gov-703-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:31
+D:TD-EMRN-NCA-032,gov-705-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:32
+D:TD-EMRN-NCA-033,gov-724-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:33
+D:TD-EMRN-NCA-034,gov-752-001,unresolved,"Entity-name match only; no statutory remit, department identity or legal continuity inferred NO_EXACT_ENTITY_IN_INSPECTED_TEAM_A_SNAPSHOT",D:data/emrn_packet_bulk_review_2026-11-18.csv:34
+A:gov-020-001,A:gov-020-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:9
+A:gov-020-001,A:gov-020-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:9
+A:gov-020-002,A:gov-020-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:20
+A:gov-032-001,A:gov-032-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:13
+A:gov-032-001,A:gov-032-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:13
+A:gov-032-002,A:gov-032-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:26
+A:gov-060-001,A:gov-060-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:58
+A:gov-060-001,A:gov-060-004,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:58
+A:gov-060-002,A:gov-060-004,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:77
+A:gov-070-001,A:gov-070-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:82
+A:gov-070-001,A:gov-070-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:82
+A:gov-070-002,A:gov-070-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:83
+A:gov-072-001,A:gov-072-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:19
+A:gov-072-001,A:gov-072-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:19
+A:gov-072-002,A:gov-072-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:28
+A:gov-090-001,A:gov-090-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:60
+A:gov-124-001,A:gov-124-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:34
+A:gov-152-001,A:gov-152-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:35
+A:gov-156-001,A:gov-156-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:36
+A:gov-162-001,A:gov-162-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:139
+A:gov-166-001,A:gov-166-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:141
+A:gov-204-001,A:gov-204-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:42
+A:gov-238-001,A:gov-238-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:108
+A:gov-262-001,A:gov-262-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:44
+A:gov-262-001,A:gov-262-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:44
+A:gov-262-002,A:gov-262-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:54
+A:gov-270-001,A:gov-270-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:97
+A:gov-276-001,A:gov-276-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:4
+A:gov-276-001,A:gov-276-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:4
+A:gov-276-001,A:gov-276-004,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:4
+A:gov-276-001,A:gov-276-005,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:4
+A:gov-276-002,A:gov-276-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:22
+A:gov-276-002,A:gov-276-004,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:22
+A:gov-276-002,A:gov-276-005,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:22
+A:gov-276-003,A:gov-276-004,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:23
+A:gov-276-003,A:gov-276-005,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:23
+A:gov-276-004,A:gov-276-005,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:24
+A:gov-292-001,A:gov-292-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:144
+A:gov-292-001,A:gov-292-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:144
+A:gov-292-001,B:B-GI-DIAB,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:144
+A:gov-292-002,A:gov-292-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:145
+A:gov-292-002,B:B-GI-DIAB,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:145
+A:gov-292-003,B:B-GI-DIAB,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:146
+A:gov-316-001,A:gov-316-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:109
+A:gov-404-001,A:gov-404-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:114
+A:gov-404-001,A:gov-404-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:114
+A:gov-404-002,A:gov-404-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:117
+A:gov-430-001,B:B-LR-LDA,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:221
+A:gov-500-001,A:gov-500-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:91
+A:gov-520-001,A:gov-520-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:260
+A:gov-531-001,A:gov-531-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:292
+A:gov-531-001,A:gov-531-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:292
+A:gov-531-002,A:gov-531-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:293
+A:gov-534-001,A:gov-534-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:296
+A:gov-548-001,A:gov-548-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:234
+A:gov-558-001,A:gov-558-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:277
+A:gov-585-001,A:gov-585-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:237
+A:gov-585-001,A:gov-585-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:237
+A:gov-585-002,A:gov-585-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:241
+A:gov-612-001,A:gov-612-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:309
+A:gov-626-001,A:gov-626-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:170
+A:gov-690-001,A:gov-690-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:183
+A:gov-704-001,A:gov-704-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:187
+A:gov-704-001,A:gov-704-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:187
+A:gov-704-002,A:gov-704-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:190
+A:gov-832-001,A:gov-832-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:252
+A:gov-833-001,A:gov-833-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:253
+A:gov-833-001,A:gov-833-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:253
+A:gov-833-002,A:gov-833-003,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:255
+A:gov-882-001,A:gov-882-002,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,A:data/government_health_bodies.csv:246
+B:B-AE-EDES,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:214
+B:B-AF-DAA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:198
+B:B-AG-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:174
+B:B-AI-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:173
+B:B-AL-ADA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:240
+B:B-AM-AAD,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:230
+B:B-AU-HF,B:B-AU-NHFA,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:19
+B:B-AZ-ADL,B:B-AZ-ADS,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:242
+B:B-AZ-ADL,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:242
+B:B-AZ-ADS,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:241
+B:B-BH-BDS,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:200
+B:B-BI-BDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:120
+B:B-BJ-ABD,B:B-BJ-DEV,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:252
+B:B-BS-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:189
+B:B-BY-BSE,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:243
+B:B-CD-AVDC,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:122
+B:B-CG-DIABACTION,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:258
+B:B-CU-SOCEND,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:275
+B:B-DM-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:178
+B:B-DZ-SETIF,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:199
+B:B-EC-FDJE,B:B-EC-FUVIDA,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:265
+B:B-EC-FDJE,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:265
+B:B-EC-FUVIDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:264
+B:B-EG-EDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:201
+B:B-ER-ENDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:121
+B:B-ET-EDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:113
+B:B-FJ-DF,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:76
+B:B-GD-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:179
+B:B-GE-GUDEA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:244
+B:B-GM-GDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:255
+B:B-GN-AGEAD,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:256
+B:B-GT-EDUMED,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:268
+B:B-GY-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:180
+B:B-HN-FCCD,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:272
+B:B-IR-GABRIC,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:202
+B:B-JM-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:182
+B:B-JO-JSCD,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:203
+B:B-KE-DK,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:66
+B:B-KG-DEAK,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:245
+B:B-KH-CDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:280
+B:B-KN-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:187
+B:B-KW-KDS,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:204
+B:B-KY-CIDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:287
+B:B-LA-IMALAOS,B:B-LA-LDEA,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:283
+B:B-LA-IMALAOS,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:283
+B:B-LA-LDEA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:282
+B:B-LS-LDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:257
+B:B-LY-LPDS,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:206
+B:B-MA-LMLD,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:217
+B:B-MD-PRODIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:233
+B:B-MG-AMADIA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:115
+B:B-MK-MDA,B:B-MK-UNION,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:234
+B:B-MK-MDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:234
+B:B-MK-UNION,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:235
+B:B-ML-AMLD,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:114
+B:B-MN-MDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:229
+B:B-MO-AADM,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:302
+B:B-MR-AMLCD,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:123
+B:B-MS-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:183
+B:B-MV-DSM,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:129
+B:B-MW-DAM,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:249
+B:B-NI-FND,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:273
+B:B-NP-NDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:131
+B:B-PG-DAPNG,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:78
+B:B-PS-DP,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:209
+B:B-RS-DAS,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:246
+B:B-SC-DSS,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:119
+B:B-SD-SDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:212
+B:B-SM-VM,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:236
+B:B-SR-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:188
+B:B-SV-ASADI,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:80
+B:B-SX-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:186
+B:B-SZ-DES,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:125
+B:B-TC-TCIDA,B:B-TC-TCIMA,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:355
+B:B-TC-TCIDA,B:B-TC-TCIPA,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:355
+B:B-TC-TCIMA,B:B-TC-TCIPA,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:356
+B:B-TG-ATD,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:118
+B:B-TN-ASEDIACT,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:216
+B:B-TO-TDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:77
+B:B-UA-IDA,B:B-UA-UDA,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:239
+B:B-UA-IDA,B:B-UA-UDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:239
+B:B-UA-IDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:239
+B:B-UA-UDA,B:B-UA-UDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:237
+B:B-UA-UDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:237
+B:B-UA-UDF,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:238
+B:B-UZ-EDAU,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:74
+B:B-VC-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:185
+B:B-VE-FENADIABETES,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:274
+B:B-VG-DIAB,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:177
+B:B-YE-YDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:215
+B:B-ZM-DAZ,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:69
+B:B-ZW-ZDA,D:IDF,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,B:data/specialist_organizations.csv:124
+C:index:IMEMR,D:WHO_EMRO,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,C:data/indexes.csv:3
+C:index:IMEMR,D:WHO_EMRO_DIABETES,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,C:data/indexes.csv:3
+C:journal:BRA_ABC,C:journal:BRA_CSC,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,C:data/journals.csv:7
+C:journal:BRA_ABC,C:journal:BRA_RBHH,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,C:data/journals.csv:7
+C:journal:BRA_ABC,C:journal:BRA_RSP,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,C:data/journals.csv:7
+C:journal:BRA_CSC,C:journal:BRA_RBHH,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,C:data/journals.csv:6
+C:journal:BRA_CSC,C:journal:BRA_RSP,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,C:data/journals.csv:6
+C:journal:BRA_RBHH,C:journal:BRA_RSP,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,C:data/journals.csv:8
+C:journal:THA_TJHP,C:journal:THA_TJPH,provisional_match,Shared domain; identity equivalence and institutional remit require stronger scope evidence.,C:data/journals.csv:17
