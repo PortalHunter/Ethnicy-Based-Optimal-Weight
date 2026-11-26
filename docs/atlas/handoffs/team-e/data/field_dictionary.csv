@@ -35,6 +35,8 @@ candidate_claims,publication_id,text,false,Publication id. See table semantics i
 candidate_claims,original_source_id,text,false,Original source id. See table semantics in SCHEMA.md.
 candidate_claims,review_source_id,text,false,Review source id. See table semantics in SCHEMA.md.
 candidate_claims,original_title,text,false,Original title. See table semantics in SCHEMA.md.
+candidate_claims,pinned_candidate_assertion,text,false,Pinned candidate assertion. See table semantics in SCHEMA.md.
+candidate_claims,checked_reference_identifier,text,true,Checked reference identifier. See table semantics in SCHEMA.md.
 candidate_claims,reference_authors,text,false,Reference authors. See table semantics in SCHEMA.md.
 candidate_claims,reference_issuer,text,false,Reference issuer. See table semantics in SCHEMA.md.
 candidate_claims,reference_venue,text,false,Reference venue. See table semantics in SCHEMA.md.

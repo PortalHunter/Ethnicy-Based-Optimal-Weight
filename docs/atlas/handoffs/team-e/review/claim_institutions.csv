@@ -4,10 +4,10 @@ RDI-001,B:B-FI-DL,working_group_co_appointing_body_via_medical_council,https://w
 RDI-002,B:B-ES-SED,publication_site_operator,https://www.sediabetes.org/publicaciones/publicaciones-sed/actualizacion-en-el-tratamiento-dietetico-de-la-prediabetes-y-diabetes-tipo-2-2/,exact_institutional_role_at_cited_scope
 RDI-003,A:gov-288-001,guideline_issuer,https://demsog.com/wp-content/uploads/2024/05/2023-Ghana-Diabetes-Guidelines.pdf,exact_institutional_role_at_cited_scope
 RDI-003,B:B-GH-DEMSOG,pdf_host,https://demsog.com/wp-content/uploads/2024/05/2023-Ghana-Diabetes-Guidelines.pdf,exact_institutional_role_at_cited_scope
-RDI-004,B:B-ZA-SEMDSA,guideline_index_operator,https://www.semdsa.org.za/for-members/guidelines,exact_institutional_role_at_cited_scope
+RDI-004,B:B-ZA-SEMDSA,linked_guideline_issuer,https://www.semdsa.org.za/for-members/guidelines,exact_institutional_role_at_cited_scope
 RDI-006,B:B-JP-JDS,guideline_issuer,https://www.jds.or.jp/modules/publication/index.php?content_id=40,exact_institutional_role_at_cited_scope
 RDI-007,B:B-KR-KDA,named_consensus_body,https://www.e-dmj.org/journal/view.php?doi=10.4093/dmj.2025.0978,exact_institutional_role_at_cited_scope
-RDI-010,B:B-TH-DAT,guideline_site_operator,https://dmthai.org/new/index.php/activities-and-news/news-pr/naewthang-wech-ptibati-sahrab-rokh-bea-hwan-2566-chbab-prabprung-kph-67,exact_institutional_role_at_cited_scope
+RDI-010,B:B-TH-DAT,named_guideline_partner,https://www.dmthai.org/new/index.php/sara-khwam-ru/bukhlakr-thangkar-phaethy/cpg/naewthang-wech-ptibati-sahrab-rokh-bea-hwan-2567,exact_institutional_role_at_cited_scope
 RDI-011,A:gov-360-001,government_issuer,https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes3022026,exact_institutional_role_at_cited_scope
 RDI-012,A:gov-458-001,government_guideline_catalogue_and_pdf_host,https://www.moh.gov.my/images/04-penerbitan/penerbitan-klinikal/panduan-amalan-klinikal/CPG_T2DM_6th_Edition_2020_13042021.pdf,exact_institutional_role_at_cited_scope
 RDI-015,B:B-SA-SHA,named_position_statement_body,https://pmc.ncbi.nlm.nih.gov/articles/PMC11737320/,exact_institutional_role_at_cited_scope
@@ -20,3 +20,6 @@ RHT-003,D:ISH,parent_of_named_guideline_group,https://europepmc.org/article/MED/
 RHT-003,D:PASCAR,named_guideline_body,https://europepmc.org/article/MED/42554264,exact_institutional_role_at_cited_scope
 RLD-001,B:B-JP-JAS,guideline_issuer,https://www.j-athero.org/jp/wp-content/uploads/publications/pdf/JAS_FH_GL2025.pdf,exact_institutional_role_at_cited_scope
 RFE-001,D:EASL,guideline_author_body,https://europepmc.org/article/MED/35662478,exact_institutional_role_at_cited_scope
+RDI-010,B:B-TH-TES,named_guideline_partner,https://www.dmthai.org/new/index.php/sara-khwam-ru/bukhlakr-thangkar-phaethy/cpg/naewthang-wech-ptibati-sahrab-rokh-bea-hwan-2567,exact_institutional_role_at_cited_scope
+RDI-016,A:gov-484-001,named_government_publishing_body,https://dof.gob.mx/2025/CSG/PRONAM_Diabetes_tipo_2_y_sindrome_metabolico_DT2.pdf,exact_institutional_role_at_cited_scope
+RDI-021,A:gov-882-001,guideline_issuer,https://www.health.gov.ws/wp-content/uploads/2024/04/Samoa-Diabetes-Management-Guideline-2024.pdf,exact_institutional_role_at_cited_scope

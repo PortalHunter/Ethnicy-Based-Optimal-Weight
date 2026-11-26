@@ -99,6 +99,7 @@ src:09e7c6d8d74c4dfe23b81bcb,https://www.globalindexmedicus.net/,https,C:data/in
 src:09eaf03f493e97682486668a,https://www.hkmj.org/overview,https,C:data/discovery_leads.csv:301,C:PROVENANCE.csv:162,structurally_checked_link
 src:09f1639793ee21675234748f,https://diabet.hu/tarsasag/diabetes/,https,B:data/condition_organizations.csv:304,B:PROVENANCE.csv:841,structurally_checked_link
 src:0a16c3f0c4b960023f43a662,https://doi.org/10.1097/MPG.0000000000001681,https,B:data/condition_organizations.csv:444,B:PROVENANCE.csv:1782,structurally_checked_link
+src:0a518d3d9a828b742ea6e2e2,https://www.ajol.info/index.php/rmj/article/view/233665/220701,https,E:boundary_review.csv:RJM-PUBLISHER,,structurally_checked_link
 src:0a6c406d961b41abe044fb71,https://www.paho.org/en/news/24-8-2026-dr-eva-jane-llopis-assumes-duties-pahowho-representative-barbados-and-eastern,https,D:data/network_memberships.csv:554,D:PROVENANCE.csv:126,structurally_checked_link
 src:0abed5319d0a4d902dcfc247,https://pubmed.ncbi.nlm.nih.gov/41624668/,https,C:data/discovery_leads.csv:53,,structurally_checked_link
 src:0acafc67d174dc06d9971d11,https://www.who.int/about/frequently-asked-questions,https,D:data/international_networks.csv:1,D:PROVENANCE.csv:33,structurally_checked_link
@@ -186,6 +187,7 @@ src:13a7fce29268904de9888b00,https://data.who.int/countries/591,https,D:data/m49
 src:13cad07bef1be34dbdd88bb3,https://www.omsb.gov.om/home/infoPage?id=605,https,C:data/discovery_leads.csv:502,C:PROVENANCE.csv:229,structurally_checked_link
 src:14014ecaac38dfa676993c72,https://latunisiemedicale.com/index.php/tunismed/about,https,C:data/discovery_leads.csv:677,,structurally_checked_link
 src:1457987bb7fcf1dc50fcc8ea,https://al-kindipublishers.org/index.php/jmhs/article/view/5564,https,C:data/discovery_leads.csv:70,C:PROVENANCE.csv:85,structurally_checked_link
+src:145873dc61b73c9da193cd27,https://www.thelancet.com/article/S2213858723001195/pdf,https,claims:docs/research/REGIONAL_CONDITION_CLAIM_LEDGER_2026-11-04.csv:8,,structurally_checked_link
 src:146138d764b8cd08b75dc926,https://rae-org.ru/,https,B:data/specialist_organizations.csv:227,B:PROVENANCE.csv:393,structurally_checked_link
 src:1477fa4b3353cba9ec222259,https://www.diabetes.no/for-helsepersonell/slik-fremmer-vi-diabetesforskning/diabetesforbundets-forskningsfond/,https,B:data/specialist_organizations.csv:39,B:PROVENANCE.csv:63|B:PROVENANCE.csv:91,structurally_checked_link
 src:1479ae17d8c0974ad375a432,https://www.gov.ms/wp-content/uploads/2020/06/Public-Health-Act.pdf,https,C:data/discovery_leads.csv:449,,structurally_checked_link
@@ -775,6 +777,7 @@ src:56503281f5e9e8e358443444,https://celiacosvenezuela.org.ve/sobre-nosotros/,ht
 src:565a97aa69d9e61571acc9d9,https://moh.gov.kh/kh/home,https,A:data/government_health_bodies.csv:33,A:PROVENANCE.csv:30,structurally_checked_link
 src:565bbf406977e87ae9ac02d5,https://www.ethiopianmedicalass.org/emj/,https,C:data/discovery_leads.csv:214,C:PROVENANCE.csv:133,structurally_checked_link
 src:56638d043da6edca020261ba,https://pubmed.ncbi.nlm.nih.gov/22611829/,https,C:data/discovery_leads.csv:65,,structurally_checked_link
+src:5668497e3e9a526b29dfc532,https://laegemiddelstyrelsen.dk/en/about,https,E:boundary_review.csv:EMA-DK-ID,,structurally_checked_link
 src:566d0bcb2abfd68d89b4756b,https://www.heartuk.org.uk/news/latest/post/237-digital-management-workflows-for-cascade-testing-for-familial-hypercholesterolaemia-fh,https,B:data/specialist_organizations.csv:56,B:PROVENANCE.csv:109|B:PROVENANCE.csv:117,structurally_checked_link
 src:567200b1bb1ceb6b6915b2d1,https://pubmed.ncbi.nlm.nih.gov/23734033/,https,C:data/discovery_leads.csv:122,,structurally_checked_link
 src:56ab330c5ae2d1533694cb75,https://moh.gov.vu/index.php,https,A:data/government_health_bodies.csv:234,A:PROVENANCE.csv:406,structurally_checked_link
@@ -950,6 +953,7 @@ src:69003eee0c046feab7edf916,https://pubmed.ncbi.nlm.nih.gov/3867358/,https,C:da
 src:690a51e48da22d304b2fedec,https://pubmed.ncbi.nlm.nih.gov/24282924/,https,C:data/discovery_leads.csv:540,,structurally_checked_link
 src:692eb26afccf7468e7039cf2,https://www.dahs.dk/wp-content/uploads/2022/11/Svaer-hypertension-inkl-efterbehandling_10112022.pdf,https,B:data/condition_organizations.csv:529,B:PROVENANCE.csv:4611,structurally_checked_link
 src:6947fef050c73b3c9d98ab6a,https://pubmed.ncbi.nlm.nih.gov/39830418/,https,C:data/discovery_leads.csv:526,C:PROVENANCE.csv:237,structurally_checked_link
+src:6958f7d42c61367c1f96869d,https://www.jstage.jst.go.jp/article/tonyobyo/69/9/69_450/_article/-char/ja,https,E:boundary_review.csv:JSTAGE-C-ARTICLE,,structurally_checked_link
 src:696f3c7d1970ebc100792985,https://smedian.net/,https,B:data/specialist_organizations.csv:36,B:PROVENANCE.csv:60|B:PROVENANCE.csv:89|B:PROVENANCE.csv:1139,structurally_checked_link
 src:697b6a36be8068ec4dc31ac0,https://www.cmsd.cv/index.php/noticias-2/533-sao-domingos-acolhe-dialogo-global-odos-sobre-acesso-ao-tratamento-da-diabetes,https,B:data/specialist_organizations.csv:254,B:PROVENANCE.csv:422|B:PROVENANCE.csv:5606,structurally_checked_link
 src:69a2ddde09f1bd9f58b6048e,https://cml.mu-sofia.bg/en/journals/bulgarian-medical-journal/,https,C:data/discovery_leads.csv:104,,structurally_checked_link
@@ -1249,6 +1253,7 @@ src:8a4e84e7b28a9efb566ca3ad,https://minsa.gob.ni/entidades/regulaci%C3%B3n-sani
 src:8a6a9c3206cfdfaa3b2f003d,https://aide-diabete-guineebissau.ch/pt-pt/diabetes-tipo-2/,https,B:data/condition_organizations.csv:229,B:PROVENANCE.csv:664,structurally_checked_link
 src:8ab1b39463908fc6bf8f9f8d,https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038835138,https,A:data/government_health_bodies.csv:323,A:PROVENANCE.csv:813,structurally_checked_link
 src:8ab316e8dde4cb21503f0f48,https://www.revues.ml/index.php/rmst/article/view/2408,https,C:data/article_candidates.csv:12,C:PROVENANCE.csv:311,structurally_checked_link
+src:8abc9129d77500de22bbf866,https://www.dmthai.org/new/index.php/sara-khwam-ru/bukhlakr-thangkar-phaethy/cpg/naewthang-wech-ptibati-sahrab-rokh-bea-hwan-2567,https,claims:docs/research/REGIONAL_CONDITION_CLAIM_LEDGER_2026-11-04.csv:10,,structurally_checked_link
 src:8abf8450592be4b0c3180783,https://scc.org.co/categoria/guias-de-atencion/,https,B:data/condition_organizations.csv:347,B:PROVENANCE.csv:917|B:PROVENANCE.csv:4736,structurally_checked_link
 src:8ac21b15c9e9358157f63f0b,https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-zdravje/o-ministrstvu/,https,A:data/government_health_bodies.csv:188,A:PROVENANCE.csv:295,structurally_checked_link
 src:8ac5442bd89f69a3b8e0cf89,https://bjomed.org/index.php/bjm/article/view/428,https,C:data/discovery_leads.csv:68,,structurally_checked_link
@@ -1301,6 +1306,7 @@ src:8f6a26888c0928daeb43f38c,https://dhabarbados.com/about-hypertension/,https,B
 src:8f764861cb28609edaa0832c,https://pubmed.ncbi.nlm.nih.gov/20229157/,https,C:data/discovery_leads.csv:43,C:PROVENANCE.csv:76,structurally_checked_link
 src:9056c57561375cfed2b21f4f,https://lannuaire.service-public.gouv.fr/gouvernement/d99b3a76-21a0-429a-9038-241215800590,https,A:data/government_health_bodies.csv:275,A:PROVENANCE.csv:487,structurally_checked_link
 src:9069db4affb290a32b27b16b,https://pubmed.ncbi.nlm.nih.gov/9861905/,https,C:data/discovery_leads.csv:700,C:PROVENANCE.csv:295,structurally_checked_link
+src:9076ff40953b6e807877c5c4,https://dof.gob.mx/2025/CSG/PRONAM_Diabetes_tipo_2_y_sindrome_metabolico_DT2.pdf,https,claims:docs/research/REGIONAL_CONDITION_CLAIM_LEDGER_2026-11-04.csv:16,,structurally_checked_link
 src:909ed77c783cdbfd2e004260,https://www.arsmedica.cl/,https,C:data/journals.csv:10,,structurally_checked_link
 src:90e26f4cc5ca129e751e14bb,https://pubmed.ncbi.nlm.nih.gov/30725042/,https,C:data/discovery_leads.csv:135,,structurally_checked_link
 src:9100889730d2693005c3a847,https://pharmacologyonline.silae.it/files/archives/2021/vol3/PhOL_2021_3_A182_MohamedAbdoul-Latif.pdf,https,B:data/condition_organizations.csv:219,B:PROVENANCE.csv:629,structurally_checked_link
@@ -1332,6 +1338,7 @@ src:934626b613f4da65b3c935f0,https://www.zoeliakie.or.at/infos-termine/publikati
 src:935a9bca4d9517b99f3857d1,https://www.ajol.info/index.php/rccse,https,C:data/discovery_leads.csv:20,,structurally_checked_link
 src:93b15c7d51699225145f57d6,https://sante.gov.gn/mission-et-attributions/,https,A:data/government_health_bodies.csv:147,A:PROVENANCE.csv:202,structurally_checked_link
 src:93faf34fa86666b77d8aae57,https://www.sainthelena.gov.sh/documents/social-policy-plan-final-291113-2/,https,C:data/discovery_leads.csv:559,C:PROVENANCE.csv:248,structurally_checked_link
+src:940e71ae1b29b08f08bbc718,https://www.panafrican-med-journal.com/content/article/51/76/pdf/76.pdf,https,E:boundary_review.csv:PAMJ-IMPRINT,,structurally_checked_link
 src:941c361d05a0cf34705098f9,https://pubmed.ncbi.nlm.nih.gov/34717303/,https,C:data/discovery_leads.csv:601,C:PROVENANCE.csv:262,structurally_checked_link
 src:943d377e3e5e09df01135236,https://researchportal.helsinki.fi/en/publications/verenpainetaudin-l%C3%A4%C3%A4kehoito-yksil%C3%B6llistyy/,https,C:data/discovery_leads.csv:228,,structurally_checked_link
 src:94433dd35f40f8a1420a372f,https://coeliakie.be/wat-is-coeliakie/refractaire-coeliakie,https,B:data/condition_organizations.csv:338,B:PROVENANCE.csv:900,structurally_checked_link
@@ -1769,12 +1776,14 @@ src:c4cbad9610e651de82a4dab5,https://www.govt.lc/ministries/health-wellness-huma
 src:c4cbc86f178c5bb2d4fbc150,https://www.moh.gov.zm/?p=8126,https,A:data/government_health_bodies.csv:207,A:PROVENANCE.csv:340,structurally_checked_link
 src:c4ced65d39ea7cdd110c295c,https://pubmed.ncbi.nlm.nih.gov/38564109/,https,C:data/discovery_leads.csv:546,,structurally_checked_link
 src:c4d70ac1d08ad9c1a147fba9,https://www.oedg.at/pdf/OEDG_Pocket_Guide_Diabetes_2026.pdf,https,B:data/condition_organizations.csv:455,B:PROVENANCE.csv:2430|B:PROVENANCE.csv:2431,structurally_checked_link
+src:c4d7a4744baa6f5a07f0c004,https://www.pei.de/EN/institute/official-duties/duties-node.html,https,E:boundary_review.csv:EMA-PEI-ID,,structurally_checked_link
 src:c4ef4bfc1f18a8923da68ede,https://portal.issn.org/resource/ISSN/3005-768X,https,C:data/discovery_leads.csv:663,,structurally_checked_link
 src:c4f429abc7ce3d844dcfe0a5,https://igod.gov.in/organization/WNe83XQBYNG-XPnvjOsx,https,A:data/government_health_bodies.csv:125,A:PROVENANCE.csv:166,structurally_checked_link
 src:c50a096b6555686063e82480,https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/pre-authorisation-guidance,https,D:data/international_networks.csv:33,D:PROVENANCE.csv:18,structurally_checked_link
 src:c512ecbabcbaa86b2ea7962e,https://press.vatican.va/content/salastampa/en/bollettino.html,https,C:data/discovery_leads.csv:296,,structurally_checked_link
 src:c5291b9750870ae7604e240a,https://pubmed.ncbi.nlm.nih.gov/12555714/,https,C:data/discovery_leads.csv:183,,structurally_checked_link
 src:c53307b75456d076d001d21b,https://gluten.is/wp-content/uploads/2018/05/mec3b0hc3b6ndlun-glc3batenlaust-fc3a6c3b0is.pdf,https,B:data/condition_organizations.csv:402,B:PROVENANCE.csv:1082|B:PROVENANCE.csv:1085|B:PROVENANCE.csv:4543,structurally_checked_link
+src:c5577c13b85e7cf0569fd7b7,https://www.health.gov.ws/wp-content/uploads/2024/04/Samoa-Diabetes-Management-Guideline-2024.pdf,https,claims:docs/research/REGIONAL_CONDITION_CLAIM_LEDGER_2026-11-04.csv:21,,structurally_checked_link
 src:c5726a03378e6f444cfde1b3,https://www.dra.gov.pk/about-us/organization/organogram/,https,A:data/government_health_bodies.csv:247,A:PROVENANCE.csv:423,structurally_checked_link
 src:c57bda6415a2c9de8e6775a0,https://www.health.gov.au/topics/about-the-department/what-we-do,https,A:data/government_health_bodies.csv:5,A:PROVENANCE.csv:9,structurally_checked_link
 src:c59da955fcb7b75cf787a2b8,https://data.who.int/countries/028,https,D:data/m49_network_status.csv:8,D:PROVENANCE.csv:76,structurally_checked_link
@@ -2121,6 +2130,7 @@ src:eb82600547d6e0c7d25522df,https://saraa.co.za/,https,B:data/specialist_organi
 src:eba50e1d03d4a4460f38d520,https://saudi-heart.com/,https,B:data/specialist_organizations.csv:488,B:PROVENANCE.csv:1108,structurally_checked_link
 src:ebfa7b7385b515902d9de51a,https://idf.org/europe/our-network/our-members/moldova/prodiab/,https,B:data/specialist_organizations.csv:233,B:PROVENANCE.csv:399,structurally_checked_link
 src:ec016b5abc03e11bafe412f2,https://pubmed.ncbi.nlm.nih.gov/40570194/,https,C:data/discovery_leads.csv:115,C:PROVENANCE.csv:100,structurally_checked_link
+src:ec2b2bf9f9439ad00c0f096a,https://www.bfarm.de/SharedDocs/Downloads/EN/BfArM/Org/bfarm_organigramm-en-textform.pdf?__blob=publicationFile,https,E:boundary_review.csv:EMA-BFARM-ID,,structurally_checked_link
 src:ec80b7d7fb32083555a85b2e,https://celiakia.pl/publikacje/poradniki/,https,B:data/condition_organizations.csv:76,B:PROVENANCE.csv:165,structurally_checked_link
 src:ec95f22c6e994a0b448fd491,https://pubmed.ncbi.nlm.nih.gov/37603401/,https,C:data/discovery_leads.csv:358,C:PROVENANCE.csv:181,structurally_checked_link
 src:ecc4065976c690f12dd866c2,https://data.who.int/countries/212,https,D:data/m49_network_status.csv:61,D:PROVENANCE.csv:109,structurally_checked_link

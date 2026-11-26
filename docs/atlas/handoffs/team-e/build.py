@@ -486,13 +486,14 @@ class Atlas:
             url=r['source_url']
             key=r['condition_key']
             pub=self.publication(origin,url,r['source_title'],r['original_language'],'candidate_claim_reference',note['evidence_state'],
-                                 identifier=note['identifier'],year='')
+                                 identifier=note['identifier'] if note['evidence_state']=='exact_source_identified' else '',year='')
             source=self.source(note['checked_source_url'] or url,origin)
-            if note['checked_source_url'] != url and note['evidence_state']=='exact_source_identified':
-                self.add('publication_references',publication_id=pub,source_id=source,role='checked_bibliography_or_original',
+            if note['checked_source_url'] != url:
+                self.add('publication_references',publication_id=pub,source_id=source,role='checked_bibliography_or_original' if note['evidence_state']=='exact_source_identified' else 'related_checked_reference',
                          origin=origin)
             self.claims[cid]=self.add('candidate_claims',claim_id=cid,condition_key=key,publication_id=pub,
                      original_source_id=self.source(url,origin),review_source_id=source,original_title=r['source_title'],
+                     pinned_candidate_assertion=r['candidate_claim'],checked_reference_identifier=note['identifier'],
                      reference_authors=note['authors'],reference_issuer=note['issuer'],reference_venue=note['venue'],
                      website_host=domain(url),identity_or_reference_state=note['evidence_state'],
                      independent_review_scope=note['review_scope'],study_location_m49=note['study_location_m49'],
@@ -546,6 +547,20 @@ class Atlas:
             self.add('provenance_review',assertion_id=row['assertion_id'],source_id=source,review_scope=row['method'],
                      outcome=row['outcome'],checked_on=row['checked_on'],finding=row['finding'],origin=row['input_anchor'])
         self.tables['exceptions']=sorted(self.exceptions.values(),key=lambda r:r['exception_id'])
+
+    def reconcile_publication_countries(self):
+        explicit=defaultdict(set)
+        for r in self.tables['publication_contexts']:
+            if r['source_country_basis']=='journal_publication_country' and r['source_country'] in self.area:
+                explicit[r['publication_id']].add(r['source_country'])
+        for ident,countries in explicit.items():
+            if len(countries)==1:
+                self.publications[ident]['publication_m49']=next(iter(countries))
+            else:
+                r=self.publications[ident]
+                self.exception(r['origin'],'publication_country_conflict',ident,
+                               'Explicit journal-publication country observations disagree: '+', '.join(sorted(countries)),
+                               source=r['source_id'])
 
     def map_coverage(self):
         journals=Counter(r['publisher_area_m49'] for r in self.tables['journals'])
@@ -621,6 +636,7 @@ def main():
     atlas.candidates()
     atlas.coverage()
     atlas.claims_intake()
+    atlas.reconcile_publication_countries()
     atlas.independent_reviews()
     atlas.write()
 

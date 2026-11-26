@@ -9,7 +9,6 @@ import re
 from build import CLAIM_LEDGER, CONDITIONS, iso_date, read, records, stable
 from intake import INPUTS, ROOT, geography
 
-ALLOWED_PATIENT_FIELD = 'patient_facing_status'  # Historical public ledger field, never a patient record.
 PRIVATE_FIELDS = {'name_of_patient','patient_name','patient_id','medical_record','medical_record_number',
                   'sample_genotype','raw_genotype','date_of_birth','biomarker_values','address','health_records'}
 
@@ -77,6 +76,14 @@ def edge_check(row,known,sources,areas,types):
     if row['date_state']=='qualified_conflict':
         require(not first and not last,'invalid interval presented as operative')
 
+def identity_join(row, supported):
+    if row['disposition']=='confirmed_match':
+        require((row['team'],row['original_id'],row['canonical_id']) in supported,
+                'unsupported cross-team merge')
+
+def who_assignment(regions):
+    require(len(regions)<=1,'competing current WHO membership')
+
 def clinical_check(row):
     require(row['appraisal_status'] in {'CANDIDATE_UNVERIFIED','SOURCE_VERIFIED','QUALIFIED','CONTRADICTED','WITHHELD'},
             'unauthorized clinical approval')
@@ -138,10 +145,16 @@ def verify(t):
     for team,file,key in [('A','government_health_bodies','record_id'),('B','specialist_organizations','org_id'),
                          ('C','journals','journal_id'),('C','indexes','index_id'),('D','international_networks','network_id')]:
         require(all((team,r[key]) in dedup for _,r in read(team,file)),'identity loss '+team+file)
+    supported=set()
+    for _,raw in read('D','provisional_team_b_identity_crosswalk_2026-11-07'):
+        if raw['team_b_org_id']:
+            supported.add(('D',raw['provisional_graph_id'],'B:'+raw['team_b_org_id']))
+    for _,raw in read('D','emrn_packet_bulk_review_2026-11-18'):
+        if raw['exact_team_a_id']:
+            supported.add(('D',raw['emrn_nca_candidate_id'],'A:'+raw['exact_team_a_id']))
     for _,r in dedup.items():
         require(r['canonical_id'] in known or r['team']=='claims' and r['original_id']==r['canonical_id'],'orphan crosswalk')
-        if r['disposition']=='confirmed_match':
-            require(r['team']=='D' and r['canonical_id'].startswith(('A:','B:')),'unsupported cross-team merge')
+        identity_join(r,supported)
     for row in institutions.values():
         require(row['source_id'] in sources and row['evidence_state'] and row['integration_review'],'entity verification')
         require(not row['domicile_m49'] or row['domicile_m49'] in areas,'invalid domicile')
@@ -173,7 +186,8 @@ def verify(t):
             active_regions[sub].add(obj)
         if kind in a_types:
             lineage[sub].append(obj)
-    require(all(len(regions)==1 for regions in active_regions.values()),'competing current WHO membership')
+    for regions in active_regions.values():
+        who_assignment(regions)
     checked=set()
     def traverse(node,path):
         require(node not in path,'hierarchy cycle')
@@ -195,10 +209,17 @@ def verify(t):
     raw=dict(read('B','publication_context'))
     require({r['origin'] for r in contexts.values() if r['origin'].startswith('B:')}==raw.keys(),'Team B context loss')
     require(len(contexts)==len(raw)+len(read('C','article_candidates')),'Team C article context loss')
+    explicit=defaultdict(set)
     for row in contexts.values():
         require(row['publication_id'] in publications and row['organization_id'] in institutions,'unlinked context')
         require(not row['study_m49'] or row['study_m49'] in areas,'invalid study location')
         context_scope(row,raw.get(row['origin']))
+        if row['source_country_basis']=='journal_publication_country' and row['source_country'] in areas:
+            explicit[row['publication_id']].add(row['source_country'])
+    for ident,pub in publications.items():
+        countries=explicit[ident]
+        require(pub['publication_m49']==(next(iter(countries)) if len(countries)==1 else ''),
+                'publication country inferred outside explicit journal attribution')
     claims=index(t['candidate_claims'],'claim_id')
     original={r['claim_id']:r for _,r in records('claims',CLAIM_LEDGER)}
     require({k[0] for k in claims}==set(original),'claim loss')
@@ -220,6 +241,12 @@ def verify(t):
     require(len(index(t['exceptions'],'exception_id'))==len(t['exceptions']),'exception key conflict')
     require(len(index(t['provenance_review'],'assertion_id'))==len(t['provenance_review']),'source review key conflict')
     require({r['m49'] for r in t['map_coverage']}==set(areas),'map loses area')
+    dictionary=index(t['field_dictionary'],'table','field')
+    for table,data in t.items():
+        if table=='field_dictionary':
+            continue
+        name='PROVENANCE' if table=='sources' else table
+        require(all((name,field) in dictionary for field in data[0]),'undocumented field in '+table)
     return ancestry,known,sources,areas,types
 
 def fixtures(t,ancestry,known,sources,areas,types):
@@ -264,8 +291,11 @@ def fixtures(t,ancestry,known,sources,areas,types):
             areas['260']['authority_disposition']=='SOURCE_SUPPORTED_DELEGATED_AUTHORITY')
     accepts('duplicate translations stay distinct without identity evidence',
             any(r['disposition']=='provisional_match' and r['left_id'] in known and r['right_id'] in known for r in t['authority_duplicates']))
-    accepts('inaccessible or unidentified publication retained as evidence gap',
-            any(r['identity_or_reference_state']=='scope_or_attribution_conflict' and r['clinical_release']=='WITHHELD_PENDING_APPRAISAL' for r in t['candidate_claims']))
+    reject('incorrect translated-name merge',lambda:identity_join(
+        {'team':'D','original_id':'provisional:translated','canonical_id':'B:invented','disposition':'confirmed_match'},set()))
+    reject('competing current WHO memberships',lambda:who_assignment({'D:WHO_SEARO','D:WHO_WPRO'}))
+    accepts('unidentified or incompletely appraised publication retained as evidence gap',
+            any(r['identity_or_reference_state']=='qualified_reference_or_version' and r['clinical_release']=='WITHHELD_PENDING_APPRAISAL' for r in t['candidate_claims']))
     accepts('WHO Indonesia date conflict retained with two events',
             any(r['conflict_kind']=='formal_vs_operational_event_dates' for r in t['edge_conflicts']))
     accepts('PAHO institutional overlap retains typed roles',
