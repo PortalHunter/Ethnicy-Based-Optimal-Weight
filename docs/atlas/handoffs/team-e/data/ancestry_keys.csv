@@ -1,0 +1,75 @@
+ancestry_key,label,parent_key,origin
+af_american,African American,african,main:preview-assets/core.js:ANCESTRIES
+af_caribbean,Afro-Caribbean,african,main:preview-assets/core.js:ANCESTRIES
+af_central,Central African,african,main:preview-assets/core.js:ANCESTRIES
+af_east,East African / Horn of Africa,african,main:preview-assets/core.js:ANCESTRIES
+af_south,Southern African,african,main:preview-assets/core.js:ANCESTRIES
+af_west,West African,african,main:preview-assets/core.js:ANCESTRIES
+african,Black African / African-Caribbean / African American,,main:preview-assets/core.js:ANCESTRIES
+au_aboriginal,Aboriginal Australian,australian_indigenous,main:preview-assets/core.js:ANCESTRIES
+au_torres,Torres Strait Islander,australian_indigenous,main:preview-assets/core.js:ANCESTRIES
+australian_indigenous,Aboriginal Australian / Torres Strait Islander,,main:preview-assets/core.js:ANCESTRIES
+ea_china,Chinese,east_asian,main:preview-assets/core.js:ANCESTRIES
+ea_japan,Japanese,east_asian,main:preview-assets/core.js:ANCESTRIES
+ea_korea,Korean,east_asian,main:preview-assets/core.js:ANCESTRIES
+ea_other,Other East Asian (including Mongolian / Tibetan),east_asian,main:preview-assets/core.js:ANCESTRIES
+east_asian,"East Asian (e.g., Chinese, Japanese, Korean)",,main:preview-assets/core.js:ANCESTRIES
+eu_balkan,Balkan / Southeastern European,european,main:preview-assets/core.js:ANCESTRIES
+eu_brit,British / Irish,european,main:preview-assets/core.js:ANCESTRIES
+eu_east,Eastern European / Baltic,european,main:preview-assets/core.js:ANCESTRIES
+eu_finn,Finnish,european,main:preview-assets/core.js:ANCESTRIES
+eu_medit,Southern European / Mediterranean,european,main:preview-assets/core.js:ANCESTRIES
+eu_scandi,"Scandinavian (Norwegian, Swedish, Danish)",european,main:preview-assets/core.js:ANCESTRIES
+eu_west,Western / Central European,european,main:preview-assets/core.js:ANCESTRIES
+european,European / White,,main:preview-assets/core.js:ANCESTRIES
+hispanic,Hispanic / Latino,,main:preview-assets/core.js:ANCESTRIES
+ind_alaska,Other Alaska Native peoples,native_american,main:preview-assets/core.js:ANCESTRIES
+ind_andean,Andean Indigenous,native_american,main:preview-assets/core.js:ANCESTRIES
+ind_caninuit,Canadian Inuit,native_american,main:preview-assets/core.js:ANCESTRIES
+ind_firstnations,First Nations (Canada),native_american,main:preview-assets/core.js:ANCESTRIES
+ind_greenland,Greenlandic Inuit,native_american,main:preview-assets/core.js:ANCESTRIES
+ind_inupiat,Iñupiat / Yup'ik (Alaska),native_american,main:preview-assets/core.js:ANCESTRIES
+ind_meso,Mesoamerican Indigenous,native_american,main:preview-assets/core.js:ANCESTRIES
+ind_south,Other South American Indigenous,native_american,main:preview-assets/core.js:ANCESTRIES
+ind_us,American Indian / Native American (US),native_american,main:preview-assets/core.js:ANCESTRIES
+lat_central,Central American,hispanic,main:preview-assets/core.js:ANCESTRIES
+lat_cuba,Cuban,hispanic,main:preview-assets/core.js:ANCESTRIES
+lat_dominican,Dominican,hispanic,main:preview-assets/core.js:ANCESTRIES
+lat_mexico,Mexican / Mexican American,hispanic,main:preview-assets/core.js:ANCESTRIES
+lat_other,Other Hispanic / Latino,hispanic,main:preview-assets/core.js:ANCESTRIES
+lat_puerto,Puerto Rican,hispanic,main:preview-assets/core.js:ANCESTRIES
+lat_south,South American,hispanic,main:preview-assets/core.js:ANCESTRIES
+me_armenia,Armenian / Caucasus,middle_eastern,main:preview-assets/core.js:ANCESTRIES
+me_gulf,Arabian Peninsula / Gulf Arab,middle_eastern,main:preview-assets/core.js:ANCESTRIES
+me_iran,Iranian / Persian,middle_eastern,main:preview-assets/core.js:ANCESTRIES
+me_levant,Levantine Arab,middle_eastern,main:preview-assets/core.js:ANCESTRIES
+me_northafrica,North African (Maghrebi Arab / Amazigh),middle_eastern,main:preview-assets/core.js:ANCESTRIES
+me_turkey,Turkish / Anatolian,middle_eastern,main:preview-assets/core.js:ANCESTRIES
+middle_eastern,Middle Eastern / Arab,,main:preview-assets/core.js:ANCESTRIES
+mixed_asian,"Mixed, with significant Asian ancestry",,main:preview-assets/core.js:ANCESTRIES
+native_american,Native American / Indigenous American,,main:preview-assets/core.js:ANCESTRIES
+other,Other / not listed,,main:preview-assets/core.js:ANCESTRIES
+pacific,Pacific Islander,,main:preview-assets/core.js:ANCESTRIES
+pi_chamorro,Chamorro / Guamanian,pacific,main:preview-assets/core.js:ANCESTRIES
+pi_fiji,Fijian,pacific,main:preview-assets/core.js:ANCESTRIES
+pi_hawaii,Native Hawaiian,pacific,main:preview-assets/core.js:ANCESTRIES
+pi_maori,Māori,pacific,main:preview-assets/core.js:ANCESTRIES
+pi_marshall,Marshallese / other Micronesian,pacific,main:preview-assets/core.js:ANCESTRIES
+pi_other,Other Polynesian / Micronesian / Melanesian,pacific,main:preview-assets/core.js:ANCESTRIES
+pi_samoa,Samoan,pacific,main:preview-assets/core.js:ANCESTRIES
+pi_tonga,Tongan,pacific,main:preview-assets/core.js:ANCESTRIES
+sa_bangladesh,Bangladeshi,south_asian,main:preview-assets/core.js:ANCESTRIES
+sa_india,Indian,south_asian,main:preview-assets/core.js:ANCESTRIES
+sa_nepal,Nepali,south_asian,main:preview-assets/core.js:ANCESTRIES
+sa_other,Other South Asian,south_asian,main:preview-assets/core.js:ANCESTRIES
+sa_pakistan,Pakistani,south_asian,main:preview-assets/core.js:ANCESTRIES
+sa_srilanka,Sri Lankan / Tamil,south_asian,main:preview-assets/core.js:ANCESTRIES
+se_asian,"Southeast Asian (e.g., Thai, Vietnamese, Filipino, Indonesian, Malaysian)",,main:preview-assets/core.js:ANCESTRIES
+sea_cambodia,Cambodian,se_asian,main:preview-assets/core.js:ANCESTRIES
+sea_indomalay,Indonesian / Malaysian,se_asian,main:preview-assets/core.js:ANCESTRIES
+sea_lao,Lao / Hmong,se_asian,main:preview-assets/core.js:ANCESTRIES
+sea_other,Other Southeast Asian,se_asian,main:preview-assets/core.js:ANCESTRIES
+sea_philippines,Filipino,se_asian,main:preview-assets/core.js:ANCESTRIES
+sea_thai,Thai,se_asian,main:preview-assets/core.js:ANCESTRIES
+sea_vietnam,Vietnamese,se_asian,main:preview-assets/core.js:ANCESTRIES
+south_asian,"South Asian (e.g., Indian, Pakistani, Bangladeshi, Sri Lankan)",,main:preview-assets/core.js:ANCESTRIES

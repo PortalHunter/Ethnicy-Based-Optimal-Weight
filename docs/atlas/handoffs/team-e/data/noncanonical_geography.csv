@@ -1,0 +1,2 @@
+candidate_code,disposition,notes,source_id,origin
+158,RETAIN_SEPARATE_EXCEPTION_NOT_CANONICAL_UN_ROW,No claim about political status or WHO membership; retain original candidate ID and do not silently equate ISO seed with UN M49 roster.,src:621b5f76cbd37ff7b65c3257,D:data/geographic_seed_exceptions.csv:1

@@ -1,0 +1,8 @@
+condition_key,origin
+diabetes,main:preview-assets/core.js:CONDITIONS
+hypertension,main:preview-assets/core.js:CONDITIONS
+high_chol,main:preview-assets/core.js:CONDITIONS
+gout,main:preview-assets/core.js:CONDITIONS
+lactose,main:preview-assets/core.js:CONDITIONS
+celiac,main:preview-assets/core.js:CONDITIONS
+hemochromatosis,main:preview-assets/core.js:CONDITIONS

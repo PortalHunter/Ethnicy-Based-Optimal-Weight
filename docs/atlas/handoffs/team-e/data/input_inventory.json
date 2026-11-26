@@ -1,0 +1,1102 @@
+[
+  {
+    "team": "A",
+    "commit": "32ab60a799627cdfb1e189b0a1e526d1e4da4522",
+    "path": "docs/atlas/handoffs/team-a/PROVENANCE.csv",
+    "sha256": "83a902f795d5c6582bee4a0abf423da4092d5b25a6d31daf51206bf3cd0e2a2b",
+    "records": 1051,
+    "fields": [
+      "source_id",
+      "area_m49",
+      "source_issuer",
+      "source_title",
+      "source_url",
+      "source_language",
+      "checked_utc",
+      "geographic_scope",
+      "verification_state",
+      "limitations"
+    ]
+  },
+  {
+    "team": "A",
+    "commit": "32ab60a799627cdfb1e189b0a1e526d1e4da4522",
+    "path": "docs/atlas/handoffs/team-a/data/authority_area_scope.csv",
+    "sha256": "6076b8225934481803cdd902dc3c3e1cd8ba3097cfacb2e2f52229611f477a9a",
+    "records": 4,
+    "fields": [
+      "body_id",
+      "area_m49",
+      "scope",
+      "source_ids",
+      "review_state",
+      "limitations",
+      "checked_utc"
+    ]
+  },
+  {
+    "team": "A",
+    "commit": "32ab60a799627cdfb1e189b0a1e526d1e4da4522",
+    "path": "docs/atlas/handoffs/team-a/data/authority_relationships.csv",
+    "sha256": "e31838d5a1b1c7268c821be8036b88a812bf1c019ade76503c0c49cff17fe69d",
+    "records": 45,
+    "fields": [
+      "parent_body_id",
+      "child_body_id",
+      "relationship_type",
+      "source_url",
+      "effective_from",
+      "effective_to",
+      "review_state"
+    ]
+  },
+  {
+    "team": "A",
+    "commit": "32ab60a799627cdfb1e189b0a1e526d1e4da4522",
+    "path": "docs/atlas/handoffs/team-a/data/census_dispositions.csv",
+    "sha256": "7c6d4fd47b9ccd7897d322a62120ab6ec59bde6ab93e0751e6c2dcc54ea7d53d",
+    "records": 248,
+    "fields": [
+      "m49_code",
+      "disposition",
+      "authority_record_ids",
+      "identity_source_url",
+      "source_ids",
+      "jurisdiction_limit",
+      "prior_coverage_scope",
+      "corroboration_or_conflict_flag",
+      "corroboration_limit",
+      "strict_queue_state",
+      "census_queue_disposition",
+      "strict_untriaged_dimensions",
+      "strict_conflicting_dimensions",
+      "follow_up_issue",
+      "reviewed_on"
+    ]
+  },
+  {
+    "team": "A",
+    "commit": "32ab60a799627cdfb1e189b0a1e526d1e4da4522",
+    "path": "docs/atlas/handoffs/team-a/data/countries.csv",
+    "sha256": "293a1c82d593da8ce6190f3e3ff12e4684912808160f0530c1ace98aaad05df4",
+    "records": 248,
+    "fields": [
+      "m49_code",
+      "iso_alpha2",
+      "iso_alpha3",
+      "un_name",
+      "un_region",
+      "un_subregion",
+      "status",
+      "health_authority_resolution",
+      "authority_record_ids",
+      "parent_country_m49",
+      "last_verified_utc",
+      "source_url",
+      "notes"
+    ]
+  },
+  {
+    "team": "A",
+    "commit": "32ab60a799627cdfb1e189b0a1e526d1e4da4522",
+    "path": "docs/atlas/handoffs/team-a/data/country_coverage.csv",
+    "sha256": "f166c98344d2a389a98516de3db3a87f4e5b84a56fa3420c2da9325e617460b7",
+    "records": 248,
+    "fields": [
+      "m49_code",
+      "un_name",
+      "un_region",
+      "ministry_review_status",
+      "missing_official_health_site",
+      "delegation_review",
+      "conflict_or_rename_flag",
+      "last_reviewed_utc",
+      "review_notes"
+    ]
+  },
+  {
+    "team": "A",
+    "commit": "32ab60a799627cdfb1e189b0a1e526d1e4da4522",
+    "path": "docs/atlas/handoffs/team-a/data/government_health_bodies.csv",
+    "sha256": "e3bb787e799de484609c51d763bfe2b2e867311665286755a808bc5498627e90",
+    "records": 323,
+    "fields": [
+      "record_id",
+      "area_m49",
+      "official_name_local",
+      "english_name",
+      "body_type",
+      "mandate",
+      "jurisdiction",
+      "official_url",
+      "source_url",
+      "source_language",
+      "current_status",
+      "effective_date",
+      "verified_on",
+      "verification_state",
+      "notes"
+    ]
+  },
+  {
+    "team": "A",
+    "commit": "32ab60a799627cdfb1e189b0a1e526d1e4da4522",
+    "path": "docs/atlas/handoffs/team-a/data/legal_verification_ledger.csv",
+    "sha256": "62b4aa27afa18514117f29f6cc98cdb41fbb42cac59833b4bd54d0169462219b",
+    "records": 248,
+    "fields": [
+      "m49_code",
+      "un_name",
+      "un_region",
+      "identity_baseline",
+      "authority_record_ids",
+      "legal_review_stage",
+      "establishing_law",
+      "current_amendments",
+      "policy_public_health",
+      "medicines_professional_regulation",
+      "surveillance_institutes",
+      "devolution_territorial_scope",
+      "independent_issuer_checks",
+      "effective_dates_conflicts",
+      "legal_research_acceptance",
+      "verified_legal_source_ids",
+      "last_legal_review_utc",
+      "review_note"
+    ]
+  },
+  {
+    "team": "A",
+    "commit": "32ab60a799627cdfb1e189b0a1e526d1e4da4522",
+    "path": "docs/atlas/handoffs/team-a/data/research_queue.csv",
+    "sha256": "e2e26d30bb5ebe4c6d2d896daeb76ba7998a2a0914778b68981db20644a049be",
+    "records": 248,
+    "fields": [
+      "m49_code",
+      "un_name",
+      "un_region",
+      "work_lane",
+      "priority",
+      "queue_state",
+      "next_action",
+      "source_strategy",
+      "last_attempt_utc",
+      "last_outcome",
+      "blocked_reason",
+      "linked_legal_ledger_m49"
+    ]
+  },
+  {
+    "team": "A",
+    "commit": "32ab60a799627cdfb1e189b0a1e526d1e4da4522",
+    "path": "docs/atlas/handoffs/team-a/data/unresolved_area_audit.csv",
+    "sha256": "2a51b763aa384a297c8233c5a59eb0a0f4f43304ddd35a6783bdc1c0f3425626",
+    "records": 11,
+    "fields": [
+      "m49_code",
+      "un_name",
+      "resolution",
+      "reason",
+      "next_action",
+      "source_ids",
+      "checked_utc"
+    ]
+  },
+  {
+    "team": "B",
+    "commit": "480e493a0c742a0458b6a9d01949746cb1fcbe11",
+    "path": "docs/atlas/handoffs/team-b/PROVENANCE.csv",
+    "sha256": "0a14cab50f448c8fd492f59acf5678339826b1c0fd4a78f6abd7b9c9d5743bea",
+    "records": 5714,
+    "fields": [
+      "record_id",
+      "record_class",
+      "area_m49",
+      "source_issuer",
+      "source_url",
+      "source_language",
+      "checked_on",
+      "verification_state",
+      "notes"
+    ]
+  },
+  {
+    "team": "B",
+    "commit": "480e493a0c742a0458b6a9d01949746cb1fcbe11",
+    "path": "docs/atlas/handoffs/team-b/data/condition_organizations.csv",
+    "sha256": "bf36b47885922c1fd9fffdf959970ace39b6a8ca4b883371ec441968b3852b37",
+    "records": 623,
+    "fields": [
+      "org_id",
+      "condition_key",
+      "relevant_publication_url",
+      "publication_title",
+      "publication_language",
+      "edition_or_date",
+      "relationship_type",
+      "source_review_status",
+      "notes"
+    ]
+  },
+  {
+    "team": "B",
+    "commit": "480e493a0c742a0458b6a9d01949746cb1fcbe11",
+    "path": "docs/atlas/handoffs/team-b/data/consolidated_cell_inventory.csv",
+    "sha256": "af720d5c6d81625ead9438cb6d487dd2d1972ed7c9055f6f44c2c8a889ba069f",
+    "records": 1736,
+    "fields": [
+      "m49_code",
+      "area_name",
+      "un_region",
+      "condition_key",
+      "canonical_search_state",
+      "raw_resource_rows",
+      "S1_S2_H_audited",
+      "M_audited",
+      "U_audited",
+      "unaudited_resource_rows",
+      "evidence_disposition",
+      "search_log_count",
+      "highest_depth_audit",
+      "local_org_rows",
+      "work_priority",
+      "next_action"
+    ]
+  },
+  {
+    "team": "B",
+    "commit": "480e493a0c742a0458b6a9d01949746cb1fcbe11",
+    "path": "docs/atlas/handoffs/team-b/data/cross_border_services.csv",
+    "sha256": "32de1e16fe1f9af24d245d90e645e6d1f0f31f69713e158c72fb5c58d9f0ac6e",
+    "records": 8,
+    "fields": [
+      "edge_id",
+      "org_id",
+      "based_in_m49",
+      "serves_m49",
+      "relationship_type",
+      "condition_key",
+      "source_url",
+      "source_language",
+      "verified_on",
+      "verification_state",
+      "notes"
+    ]
+  },
+  {
+    "team": "B",
+    "commit": "480e493a0c742a0458b6a9d01949746cb1fcbe11",
+    "path": "docs/atlas/handoffs/team-b/data/geographic_gap_audit_20261118.csv",
+    "sha256": "59e53743505aea3362b8c8b98c756aa7ea0adaccaf04005b0a44fb3040cfccc5",
+    "records": 21,
+    "fields": [
+      "area_m49",
+      "area_name",
+      "checked_on",
+      "actual_query",
+      "query_url",
+      "candidate_or_primary_url",
+      "retrieval_scope",
+      "finding_and_limit",
+      "disposition",
+      "next_action"
+    ]
+  },
+  {
+    "team": "B",
+    "commit": "480e493a0c742a0458b6a9d01949746cb1fcbe11",
+    "path": "docs/atlas/handoffs/team-b/data/issuer_review_20261118.csv",
+    "sha256": "15e916a97ed9173077e4e2e3389c6d88b80a5edae72d81c784d16abe5ac2105f",
+    "records": 5,
+    "fields": [
+      "org_id",
+      "area_m49",
+      "condition_key",
+      "original_url",
+      "additional_route_url",
+      "checked_on",
+      "disposition",
+      "finding_and_limits",
+      "next_custodian_question"
+    ]
+  },
+  {
+    "team": "B",
+    "commit": "480e493a0c742a0458b6a9d01949746cb1fcbe11",
+    "path": "docs/atlas/handoffs/team-b/data/m49_verified_overview.csv",
+    "sha256": "c01ce6fad5cd502daf399e137980d66e85fbbc04d8802b94000e5a0f52d185c7",
+    "records": 248,
+    "fields": [
+      "m49_code",
+      "country_area_name",
+      "iso_alpha2",
+      "iso_alpha3",
+      "un_region_code",
+      "un_region_name",
+      "un_subregion_code",
+      "un_subregion_name",
+      "un_intermediate_region_code",
+      "un_intermediate_region_name",
+      "source_url",
+      "checked_on",
+      "extraction_method"
+    ]
+  },
+  {
+    "team": "B",
+    "commit": "480e493a0c742a0458b6a9d01949746cb1fcbe11",
+    "path": "docs/atlas/handoffs/team-b/data/publication_context.csv",
+    "sha256": "3a7de0dd51868654ccb4d0894aa6679393b87d2925ab694ae8866989874c88ee",
+    "records": 623,
+    "fields": [
+      "org_id",
+      "condition_key",
+      "source_country_m49",
+      "study_population",
+      "guideline_healthcare_jurisdiction",
+      "relationship_type",
+      "clinical_release_state",
+      "relevant_publication_url",
+      "organization_domicile_m49",
+      "source_issuer_or_publisher",
+      "source_country_basis",
+      "source_attribution_provenance_ids"
+    ]
+  },
+  {
+    "team": "B",
+    "commit": "480e493a0c742a0458b6a9d01949746cb1fcbe11",
+    "path": "docs/atlas/handoffs/team-b/data/research_quality_audit.csv",
+    "sha256": "b7471998341e49c9b1f5be7407eb8361e79ff32d35405f33a46dd4709f23da8e",
+    "records": 4931,
+    "fields": [
+      "record_type",
+      "area_m49",
+      "condition_key",
+      "org_id",
+      "relevant_url",
+      "quality_or_depth",
+      "review_state",
+      "evidence_url",
+      "checked_on",
+      "evidence_limit",
+      "next_action"
+    ]
+  },
+  {
+    "team": "B",
+    "commit": "480e493a0c742a0458b6a9d01949746cb1fcbe11",
+    "path": "docs/atlas/handoffs/team-b/data/specialist_organizations.csv",
+    "sha256": "323e516d94d239414a57ca1cd7724ab42ecec584ac890f77e6a607f715c0ee46",
+    "records": 543,
+    "fields": [
+      "org_id",
+      "area_m49",
+      "name_local",
+      "name_english",
+      "organization_type",
+      "clinical_discipline",
+      "scope",
+      "independent_or_government",
+      "official_url",
+      "language",
+      "verified_on",
+      "source_url",
+      "identity_state"
+    ]
+  },
+  {
+    "team": "B",
+    "commit": "480e493a0c742a0458b6a9d01949746cb1fcbe11",
+    "path": "docs/atlas/handoffs/team-b/data/subnational_and_indigenous_organizations.csv",
+    "sha256": "b0c076116046dd1dec9fefb736b739930845b29fb4d13666c62d9902245907a8",
+    "records": 10,
+    "fields": [
+      "org_id",
+      "area_m49",
+      "subnational_base_or_scope",
+      "named_community_or_governance",
+      "scope_limitation",
+      "official_source_url",
+      "source_language",
+      "verified_on",
+      "review_state"
+    ]
+  },
+  {
+    "team": "B",
+    "commit": "480e493a0c742a0458b6a9d01949746cb1fcbe11",
+    "path": "docs/atlas/handoffs/team-b/data/verification_issues_20261118.json",
+    "sha256": "e12369861352c17538184ee80b13e7419bb1c3c329661edfa15cc9109fbc3623",
+    "records": 49,
+    "fields": [
+      "area_m49",
+      "conditions",
+      "kind",
+      "org_id",
+      "original_url",
+      "title",
+      "url"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/PROVENANCE.csv",
+    "sha256": "e8a4e7c7f6b1bd790c4696e9813f7c01fe17654ece658ac3ffd3c881a1d64bdd",
+    "records": 329,
+    "fields": [
+      "provenance_id",
+      "entity_type",
+      "entity_id",
+      "field_or_claim",
+      "source_url",
+      "source_organization",
+      "source_language",
+      "accessed_date",
+      "verification_method",
+      "verification_state",
+      "notes"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/data/area_discovery_pass.csv",
+    "sha256": "c2e2571dcf03ceebc33cd794d83d2db1ddaf93a8826b85ad7d05d7756bdfe8e9",
+    "records": 248,
+    "fields": [
+      "area_m49",
+      "area_name",
+      "search_ids",
+      "query_language",
+      "discovery_status",
+      "existing_journal_record_ids",
+      "journal_quality_verification",
+      "candidate_links",
+      "checked_date",
+      "limitations"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/data/areas_m49.csv",
+    "sha256": "56f71d307f16091d719e5398558677e85a0dca3322401540bc9f94a2ca51a14d",
+    "records": 248,
+    "fields": [
+      "area_m49",
+      "iso_alpha2",
+      "iso_alpha3",
+      "area_name",
+      "un_region",
+      "un_subregion",
+      "un_intermediate_region",
+      "authority_url",
+      "derived_mapping_url",
+      "checked_date",
+      "verification_state"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/data/article_candidates.csv",
+    "sha256": "f0968e2a1084f991a1070fcc1bf533b1df6087d1b2296c96f61d769a791166c2",
+    "records": 15,
+    "fields": [
+      "article_id",
+      "journal_id",
+      "title_original",
+      "title_english",
+      "year",
+      "doi_or_other_id",
+      "article_url",
+      "source_language",
+      "study_area_m49",
+      "study_population",
+      "condition_key",
+      "study_type",
+      "review_state",
+      "limits"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/data/article_discovery_details.csv",
+    "sha256": "291bb60d87e770e829c72f6ebf90c6c53035188cc378a47b6ce7fbc285d45e31",
+    "records": 15,
+    "fields": [
+      "provisional_id",
+      "condition_key",
+      "source_url",
+      "source_design",
+      "study_population",
+      "study_location_m49",
+      "endpoint",
+      "effect_and_uncertainty",
+      "confounders",
+      "limitation",
+      "relevant_ancestry_picker_key",
+      "claim_issue_url",
+      "review_state",
+      "publication_provenance",
+      "english_title_basis"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/data/coverage_by_area_condition.csv",
+    "sha256": "bd103dc0fbb53dfa5f1994b064a22faef29087e9e923e4dbebd0dc345a6f0293",
+    "records": 1736,
+    "fields": [
+      "area_m49",
+      "area_name",
+      "iso_alpha3",
+      "un_region",
+      "condition_key",
+      "journal_discovery_status",
+      "condition_search_status",
+      "confirmed_local_journal_count",
+      "confirmed_article_count",
+      "checked_date",
+      "source_url",
+      "notes"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/data/discovery_leads.csv",
+    "sha256": "9d6aa9b863254e92e2af51f8b20f0441f75c1249cc9758830469251122c5fb32",
+    "records": 744,
+    "fields": [
+      "lead_id",
+      "area_m49",
+      "search_ids",
+      "result_title",
+      "source_url",
+      "verification_state",
+      "checked_date",
+      "limits"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/data/geographic_field_audits.csv",
+    "sha256": "a9b2d7d720b5fe317b8ffa218e520c489abca8e6acf78d1246dee9d86caf502a",
+    "records": 248,
+    "fields": [
+      "audit_id",
+      "area_m49",
+      "official_area_name",
+      "iso_alpha2",
+      "iso_alpha3",
+      "un_region",
+      "un_subregion",
+      "un_intermediate_region",
+      "source_url",
+      "checked_date",
+      "verification_state",
+      "differences",
+      "limits"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/data/indexes.csv",
+    "sha256": "1b406d0eadfd5e5bd64bbc7eb3170d16cfd2f826066a35f657325f076d23e4d9",
+    "records": 13,
+    "fields": [
+      "index_id",
+      "name",
+      "operator",
+      "official_url",
+      "geographic_scope",
+      "languages",
+      "indexing_policy_url",
+      "checked_date",
+      "verification_state",
+      "notes"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/data/journal_index_relationships.csv",
+    "sha256": "dddb8e4328f077a03df74502bbaaf2fd8cd9f8555ab386942fed7709c52b7b7f",
+    "records": 14,
+    "fields": [
+      "journal_id",
+      "index_id",
+      "claim_of_indexing",
+      "independently_verified",
+      "source_url",
+      "valid_as_of",
+      "notes"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/data/journal_policy_assessment.csv",
+    "sha256": "dd3adc18b8de7b40670b5d2477a48ab50680eb43f750ad5ea288bc5be1af1f65",
+    "records": 27,
+    "fields": [
+      "journal_id",
+      "source_url",
+      "publisher_identity_state",
+      "peer_review_policy_url",
+      "ethics_policy_url",
+      "correction_policy_url",
+      "retraction_policy_url",
+      "editorial_board_url",
+      "access_model",
+      "sample_article_urls",
+      "checked_date",
+      "quality_approval",
+      "open_gaps"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/data/journals.csv",
+    "sha256": "414af0806b3422b7a2bab79bc3687d6d03c2e2f3b55e1febe0dcb37bf7ce9107",
+    "records": 27,
+    "fields": [
+      "journal_id",
+      "publisher_area_m49",
+      "original_title",
+      "english_title",
+      "translation_basis",
+      "issn",
+      "eissn",
+      "publisher_name",
+      "official_url",
+      "languages",
+      "peer_review_policy_url",
+      "ethics_policy_url",
+      "current_status",
+      "verification_state",
+      "checked_date",
+      "notes"
+    ]
+  },
+  {
+    "team": "C",
+    "commit": "b4a0a05d0e80cce891bc93e3900e40983c318f13",
+    "path": "docs/atlas/handoffs/team-c/data/local_language_searches.csv",
+    "sha256": "48cc409aa5dd272a0f8156de8ccbc168a989e956e2b2da16f776e76e810cc5ee",
+    "records": 297,
+    "fields": [
+      "search_id",
+      "area_or_region",
+      "query",
+      "language",
+      "search_engine_or_index",
+      "searched_date",
+      "relevant_result_identified",
+      "notes"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/PROVENANCE.csv",
+    "sha256": "8974e952cfedaeb8d9a0bf185fd2eb127e664c1e071743970216bb8997ce51d9",
+    "records": 423,
+    "fields": [
+      "source_id",
+      "source_url",
+      "source_publisher_domain",
+      "document_or_resource",
+      "source_published_or_effective_date",
+      "checked_on",
+      "used_in_files",
+      "source_role",
+      "verification_state",
+      "provenance_notes"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/condition_networks.csv",
+    "sha256": "e9876820a3b5f4691c0be735fb6f9845cd21b77886b00d6bc5a754cfd5b6012f",
+    "records": 20,
+    "fields": [
+      "network_id",
+      "condition_key",
+      "documented_program_or_guideline_url",
+      "scope",
+      "issue_or_claim_link",
+      "appraisal_status",
+      "notes"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/ema_authorisation_role_boundaries_2026.csv",
+    "sha256": "4296a38b06871c5beb13ef13df665efc5f818e2b335f1fb1dd17f298f943ec57",
+    "records": 11,
+    "fields": [
+      "record_id",
+      "actor_label",
+      "authority_role",
+      "procedure_scope",
+      "jurisdiction_scope",
+      "reported_state_or_fact",
+      "source_published_or_effective_on",
+      "checked_on",
+      "source_url",
+      "evidence_access",
+      "verification_state",
+      "legal_instrument_review_state",
+      "team_a_join_state",
+      "notes"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/emrn_nca_identity_2026.csv",
+    "sha256": "71f649576a9b103fcd42dbdf9876fad95a4b1b7531e9ece37fadb10787a57d43",
+    "records": 34,
+    "fields": [
+      "record_id",
+      "network_id",
+      "country_area_m49",
+      "ema_country_label",
+      "ema_display_name",
+      "candidate_relationship",
+      "join_state",
+      "remit_review_state",
+      "as_of",
+      "source_url",
+      "verification_state",
+      "notes"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/emrn_packet_bulk_review_2026-11-18.csv",
+    "sha256": "70d6e7b787913fa375ea810b83e1f84d5c55b4261a0dded58896c7426557fa2a",
+    "records": 34,
+    "fields": [
+      "backlog_id",
+      "emrn_nca_candidate_id",
+      "country_area_m49",
+      "ema_display_name",
+      "checked_on",
+      "existing_remit_row_ids",
+      "remit_source_urls",
+      "team_a_snapshot_sha",
+      "team_a_snapshot_path",
+      "same_area_team_a_candidates",
+      "exact_team_a_id",
+      "exact_team_a_label",
+      "team_a_source_url",
+      "identity_outcome",
+      "identity_scope",
+      "original_law_review",
+      "new_primary_provisions",
+      "amendment_effective_date_chain",
+      "operative_delegation",
+      "full_packet_state",
+      "full_backlog_closure",
+      "next_required"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/geographic_seed_exceptions.csv",
+    "sha256": "310625598527507367f7429c9400b599182c4be89b07364bcd54f9c521ca26d3",
+    "records": 1,
+    "fields": [
+      "m49_candidate_code",
+      "seed_standard",
+      "un_m49_roster_status",
+      "disposition",
+      "source_url",
+      "checked_on",
+      "notes"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/idf_nac_member_observations_2026.csv",
+    "sha256": "8ad8b6c6692fe9e4d40fdda761ca267de4cdf632b040cdcf439902f353d2ad89",
+    "records": 25,
+    "fields": [
+      "record_id",
+      "network_id",
+      "idf_region",
+      "observation_category",
+      "country_area_m49",
+      "idf_geographic_label",
+      "named_organization_on_region_page",
+      "name_link_status",
+      "membership_valid_from",
+      "membership_valid_to",
+      "source_checked_on",
+      "source_url",
+      "verification_state",
+      "notes"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/international_networks.csv",
+    "sha256": "70c85b0c9138452d608aa5466fd1ae6cc5d89f8e239603b286839b60b83c7370",
+    "records": 47,
+    "fields": [
+      "network_id",
+      "name_original",
+      "name_english",
+      "entity_type",
+      "legal_or_voluntary",
+      "mandate",
+      "official_url",
+      "founding_or_effective_date",
+      "checked_on",
+      "source_url",
+      "review_state"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/m49_network_status.csv",
+    "sha256": "0b5d04fd75d23a681ea14e0998d4eeb1515dbb92cd90d6fd7a3109b468143d67",
+    "records": 249,
+    "fields": [
+      "m49_code",
+      "who_region",
+      "who_region_source",
+      "who_assignment_effective_date",
+      "who_membership_governance_status",
+      "regional_collaboration_flags",
+      "review_notes"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/network_memberships.csv",
+    "sha256": "e6ae42a660d1a1073825c5cb3f7dfa60f13b3b88d65a7aed79599f9e615f304c",
+    "records": 619,
+    "fields": [
+      "from_id",
+      "to_id",
+      "relationship_type",
+      "country_area_m49",
+      "organization_id",
+      "valid_from",
+      "valid_to",
+      "as_of",
+      "source_url",
+      "verification_state",
+      "notes"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/provisional_team_b_identity_crosswalk_2026-11-07.csv",
+    "sha256": "24d319625b176a4d27a39cbcacbcdb0da4e903cdec3a698c95396264eac92c4b",
+    "records": 12,
+    "fields": [
+      "provisional_graph_id",
+      "graph_m49",
+      "graph_network",
+      "graph_relationship",
+      "network_original_issuer_url",
+      "team_b_org_id",
+      "team_b_name_english",
+      "team_b_official_url",
+      "team_b_original_issuer_url",
+      "team_b_source_blob_sha",
+      "join_class",
+      "checked_on",
+      "exact_limit"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/research_disposition_2026-11-18.csv",
+    "sha256": "be8ef58e63fdc65087c2d9feca65dcf87a4be2579241fec8adc579c9ff639a9a",
+    "records": 236,
+    "fields": [
+      "backlog_id",
+      "original_workstream",
+      "original_strict_closure",
+      "research_disposition",
+      "evidence_reference",
+      "source_verification_issues",
+      "reason",
+      "decision_authority"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/source_verification_issues_2026-11-18.csv",
+    "sha256": "811c10cc5d68d2392eb34d0b90c2ae37faebcd07f91e8ca171dc2d073c1e803b",
+    "records": 21,
+    "fields": [
+      "source_id",
+      "source_url",
+      "issue_url",
+      "issue_number",
+      "issue_state",
+      "checked_on",
+      "qualification",
+      "instructions"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/un_m49_geographic_crosswalk.csv",
+    "sha256": "915c8ea3bb71939dfc94de9588dd753163d4bb3d02bfcde994cf6cfd82e49699",
+    "records": 248,
+    "fields": [
+      "m49_code",
+      "country_area_name_un",
+      "iso_alpha2",
+      "iso_alpha3",
+      "un_region_code",
+      "un_region",
+      "un_subregion_code",
+      "un_subregion",
+      "un_intermediate_region_code",
+      "un_intermediate_region",
+      "source_url",
+      "checked_on",
+      "verification_state"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/who_country_office_presence.csv",
+    "sha256": "c5ce32a5a180397c47154d2ad6f54fdfb3e8bc9f3fe541c3813048b4a3288afa",
+    "records": 105,
+    "fields": [
+      "record_id",
+      "country_area_m49",
+      "office_presence",
+      "office_presence_source",
+      "as_of",
+      "office_opened_date",
+      "verification_state",
+      "notes"
+    ]
+  },
+  {
+    "team": "D",
+    "commit": "f75688f4d7244f4f9886103235810c99f70faea5",
+    "path": "docs/atlas/handoffs/team-d/data/who_office_april_reconciliation_2026-11-18.csv",
+    "sha256": "791ae3365c8cb4a4b56a549728038d6439e3e593c507b9c6ca1e6ed8fd851139",
+    "records": 10,
+    "fields": [
+      "record_id",
+      "country_area_m49",
+      "prior_office_record_id",
+      "preserved_prior_source",
+      "preserved_prior_as_of",
+      "survey_record_id",
+      "who_office_label",
+      "survey_month",
+      "source_url",
+      "checked_on",
+      "evidence_access",
+      "verification_state",
+      "notes"
+    ]
+  },
+  {
+    "team": "claims",
+    "commit": "c3dbf4a9f2161dfbbaeb18e2db2068da166dd5f4",
+    "path": "docs/research/REGIONAL_CONDITION_CLAIM_LEDGER_2026-11-04.csv",
+    "sha256": "1af1b71c20cd6998bc5febc45b09c819ccc3bf89e77a7a2456596d22a5db5deb",
+    "records": 35,
+    "fields": [
+      "claim_id",
+      "condition_key",
+      "proposed_ancestry_keys",
+      "geography_or_studied_population",
+      "original_language",
+      "source_design_and_version",
+      "source_title",
+      "source_url",
+      "candidate_claim",
+      "appraisal_status",
+      "mapping_status",
+      "patient_facing_status",
+      "original_text_quote",
+      "precise_population_and_denominator",
+      "endpoint_effect_uncertainty",
+      "conflicting_evidence_and_limitations",
+      "reviewer",
+      "review_date",
+      "decision_note",
+      "issue_number",
+      "issue_url"
+    ]
+  },
+  {
+    "team": "main",
+    "commit": "a3e89b3a182ff0eca2105a62b5aa29b38670ce74",
+    "path": "preview-assets/core.js",
+    "sha256": "3a2eeabbc90dd52f21e41caf3e4f5cb70eeb4c2062ec58b9769258b0b43a5ff4"
+  },
+  {
+    "team": "pilot",
+    "commit": "f0b1dac889051e0968a69591f0bf5e9b7b9bfe27",
+    "path": "docs/atlas/organizations.batch-a.json",
+    "sha256": "4e02f35574bb615c8986fc78c466a49372f0996d8f87ec353be75dde5def1a72",
+    "records": 54,
+    "fields": [
+      "country_id",
+      "evidence_evaluation_status",
+      "id",
+      "identity_status",
+      "language",
+      "name",
+      "notes",
+      "primary_website",
+      "review_date",
+      "scope",
+      "topics",
+      "type"
+    ]
+  },
+  {
+    "team": "pilot",
+    "commit": "f0b1dac889051e0968a69591f0bf5e9b7b9bfe27",
+    "path": "docs/atlas/relationships.batch-a.json",
+    "sha256": "b2b7cfda4dbc34588791b3907daf80ffcdd4234be999019b1008b22a02337940",
+    "records": 99,
+    "fields": [
+      "from",
+      "kind",
+      "notes",
+      "source_url",
+      "to",
+      "valid_from",
+      "verification"
+    ]
+  }
+]
