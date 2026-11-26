@@ -1,3 +1,11 @@
+## Original-scope handoff · 2026-11-26
+
+Complete for bounded research intake at the B166 evidence level. All 248 M49 areas × seven condition keys are represented, with 1,736 audited cell dispositions and zero actionable linked-source or unlinked-depth cases. Of 57 linked cases, 12 qualified, 36 reached D2 and nine reached D3. The 953 unlinked depth tasks subsequently reached a documented terminal evidence outcome. The final inventory has 382 qualified cells, 543 organization records across 227 areas, and 623 audited source contexts (S1 140, S2 200, H 59, M 196, U 28). The latest per-cell search-audit tiers are D1 192, D2 1,280 and D3 79 across 1,551 cells with depth audits. A qualified cell can retain a historical D1 search audit. All cell and context tiers retain their original definitions.
+
+Use [the consolidated inventory](data/consolidated_cell_inventory.csv) for evidence dispositions and [the source audit](data/research_quality_audit.csv) for attribution. The canonical organization and source tables are [specialist organizations](data/specialist_organizations.csv), [condition organizations](data/condition_organizations.csv), [publication contexts](data/publication_context.csv), [area-condition coverage](data/coverage_by_area_condition.csv), [search log](data/search_log.csv) and [provenance](PROVENANCE.csv). Preserve [subnational and Indigenous safeguards](data/subnational_and_indigenous_organizations.csv) and [cross-border services](data/cross_border_services.csv). Study setting, sampled population, source country, author, host and healthcare jurisdiction remain distinct. The prior diversity and subtype boundaries continue to apply.
+
+The 21 local identity gaps and five original issuer questions remain open and are mapped in [GAPS.md](GAPS.md). All source contexts remain research leads with independent clinical, genetic, legal, rights and governance reviews pending where applicable. Earlier checkpoints below retain their historical scope and counts.
+
 # Team B — B166 restart checkpoint, 2026-11-22
 
 Research acceptance INCOMPLETE. Supersedes counts in earlier blocks below.

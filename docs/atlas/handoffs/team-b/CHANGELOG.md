@@ -1,3 +1,7 @@
+## 2026-11-26 · Original-scope closeout after B166
+
+Verified terminal linked-source and depth queues from the canonical inventory. Recorded 21 local identity and five original issuer exceptions with exact checks and follow-up issues. Existing data, evidence grades, search receipts and independent release review requirements are preserved.
+
 > **2026-11-18 current checkpoint — B100–B105:** See [CURRENT](CURRENT.md) and the [single comprehensive result/remaining queue](COMPLETION_CHECKPOINT_20261118.md). Initial342-row quality queue exhausted;81untouched cells checked asD1; native/supplemental validationPASS. Overall research incomplete; PR#71draft/unmerged; zero clinical approvals. Historical material below is preserved and superseded only for current counts.
 
 > **2026-11-07 LATEST BATCH 98** — Read [CURRENT.md](CURRENT.md) and [BATCH_98_CHECKPOINT.md](BATCH_98_CHECKPOINT.md) first. Immutable [data commit `ab10448e`](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/commit/ab10448e76e63654038bb92f05a4fa0ef8d22e42); **501 org / 227 M49**, **388 raw / 194 searched / 1,154 untouched**, **90/432 audited; 57 qualified audited cells**, D1/D2/D3=16/12/0, 342 source-URL audits and 182 D2 left, 5 issuer unknown. **Original acceptance INCOMPLETE. Node CLI NOT RUN**; independent structural 0 errors, **17/17 Git tree/file SHA readbacks**. PR open/draft/unmerged; zero clinical/genetic/rights/legal/Indigenous-governance approvals. Batches 96/97 remain historical.
