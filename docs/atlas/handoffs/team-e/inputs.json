@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight",
+  "readiness_manifest": "https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/64#issuecomment-7202523641",
+  "A": {"ref":"research/atlas-team-a-20261104","sha":"32ab60a799627cdfb1e189b0a1e526d1e4da4522","pr":68,"prefix":"docs/atlas/handoffs/team-a/","validation":"validate.py and 10 tests passed"},
+  "B": {"ref":"research/atlas-team-b-20261104","sha":"480e493a0c742a0458b6a9d01949746cb1fcbe11","pr":71,"prefix":"docs/atlas/handoffs/team-b/","validation":"validate.mjs zero errors; 11643 supplemental checks"},
+  "C": {"ref":"research/atlas-team-c-20261104-local-journals-1851","sha":"b4a0a05d0e80cce891bc93e3900e40983c318f13","pr":69,"prefix":"docs/atlas/handoffs/team-c/","validation":"VALIDATION.md: Node pass, 17 rejected fixtures"},
+  "D": {"ref":"research/atlas-team-d-20261104","sha":"f75688f4d7244f4f9886103235810c99f70faea5","pr":70,"prefix":"docs/atlas/handoffs/team-d/","validation":"validation_original_scope_2026-11-18.json: exit 0, 99 matched input hashes"},
+  "claims": {"ref":"feature/regional-diabetes-research-2026-11-04","sha":"c3dbf4a9f2161dfbbaeb18e2db2068da166dd5f4","pr":63,"prefix":""},
+  "main": {"ref":"main","sha":"a3e89b3a182ff0eca2105a62b5aa29b38670ce74","prefix":""},
+  "pilot": {"ref":"research/global-authority-atlas-batch-a-2026-11-04","sha":"f0b1dac889051e0968a69591f0bf5e9b7b9bfe27","pr":65,"prefix":""},
+  "contract": {"ref":"research/atlas-five-team-handoff-prompts-2026-11-04","sha":"29d3b1f38cfee796520ed866c795302926040159","pr":67,"prefix":""}
+}
