@@ -1,3 +1,7 @@
+## A119 · 2026-11-26 · Original-scope census handoff
+
+Added dated institutional and scope evidence for unresolved areas and exact original legal provisions for selected queued jurisdictions. Linked the 248-area disposition register to existing census, coverage and legal records. Retained historical issue references, sources, exact exceptions and strict eight-dimension grades. Archived the A118 unresolved audit before advancing five identities.
+
 ## 2026-11-07 — consolidation-only checkpoint, no fabricated source promotions
 
 Reconciled all 248 original M49 keys, 318 bodies, 45 relations, 4 explicit shared scopes, 744 provenance observations, 248 legal/queue rows and 17 source-linked UNKNOWN cases. Preserved original normalized dataset and Git history. Committed [CONSOLIDATION_REPORT_20261107.md](CONSOLIDATION_REPORT_20261107.md), [RECONCILED_INVENTORY_20261107.csv](RECONCILED_INVENTORY_20261107.csv), [PRIORITIZED_BACKLOG_20261107.csv](PRIORITIZED_BACKLOG_20261107.csv), [QA_CONSOLIDATION_20261107.json](QA_CONSOLIDATION_20261107.json) and [CURRENT.md](CURRENT.md); optimized RUNBOOK and redirected legacy handoffs. 220 unscored have area sources and two have prior shared-scope, 26 partial, 222 unscored, 0 complete unchanged. 32 independent exact-GitHub structural checks passed, actual Python NOT RUN due DNS. No new legal claims, no clinical approval, draft/unmerged PR #68 maintained.

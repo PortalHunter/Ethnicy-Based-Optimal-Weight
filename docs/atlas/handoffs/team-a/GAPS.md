@@ -1,3 +1,21 @@
+## Original-scope census exceptions and legal follow-up · 2026-11-26
+
+Follow [#149](https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/issues/149) for named source, custodian and scope dependencies. Use the [current unresolved audit](data/unresolved_area_audit.csv) for exact evidence, known partial authority, and the next verification question. The [prior A118 unresolved audit](data/unresolved_area_audit_A118.csv) preserves the paths and evidence that predate this handoff.
+
+- **010 Antarctica**. Treaty and programme-specific operator evidence; no common governmental health authority established for the whole M49 area.
+- **074 Bouvet Island**. Norwegian reserve administration and limited transplant-law application. Broader health duties unknown.
+- **086 British Indian Ocean Territory**. London administration and narrow operator evidence. In-force territorial health delegation or responsible operator remit remains unresolved.
+- **104 Myanmar**. Military-controlled government listing and NUG ministry identify different claimants. Effective service coverage remains unresolved.
+- **239 South Georgia and the South Sandwich Islands**. SGSSI government administers the area. Historical applied ordinance lists narrow offices, but current post-1985 adaptation and appointments are unauthenticated.
+- **275 State of Palestine**. Ramallah and Gaza publishers are separately attributed; service geography and allocation remain unresolved.
+- **334 Heard Island and McDonald Islands**. Commonwealth/AAD administers HIMI. The Act can apply ACT law conditionally; exact health provisions and directions remain unresolved.
+- **408 Democratic People's Republic of Korea**. Historical DPRK government plan and contemporary partnership sources identify the ministry in English; current domestic source and native statutory title remain unauthenticated.
+- **581 United States Minor Outlying Islands**. Federal administration varies by island. Wake, Navassa and Palmyra evidence cannot establish authority across the nine components.
+- **732 Western Sahara**. Retain location-specific services, territorial dispute and refugee context; no sole health authority inferred.
+- **887 Yemen**. Aden-linked ministry and Sanaa-linked sources are separate. Present authority and effective territory remain unresolved.
+
+Equatorial Guinea's annual/current title and commencement conflict remains independent of the operating ministry identity. Liberia's conflicting formal names remain qualified. Guinea's dated officeholder conflict remains explicit. TAAF's cited delegation covers a narrow physician authorization function. Svalbard and Jan Mayen retain distinct roles and open current legal questions. Eritrea's ministry uses an official English designation in the indexed evidence and the native-script original remains unverified. For remaining exact version, territorial and rename questions consult the [coverage](data/country_coverage.csv) and [legal](data/legal_verification_ledger.csv) rows. The ten source-blocked cases retain specific missing instruments and failed routes in the [queue](data/research_queue.csv).
+
 ## AUTHORITATIVE CURRENT — reconciled statutory gaps (2026-11-07)
 
 See [CURRENT.md](CURRENT.md), [CONSOLIDATION_REPORT_20261107.md](CONSOLIDATION_REPORT_20261107.md) and finite ranked [PRIORITIZED_BACKLOG_20261107.csv](PRIORITIZED_BACKLOG_20261107.csv). 220 of 222 unscored areas have prior area provenance; 652/663 rely on existing 312 shared-scope citations. Do **not** describe these 222 as lacking research. All 248 all-tier legal tasks remain open, 17 principal identities UNKNOWN. Prioritize exact Gazette/commencement, post-2024 amendments, devolution, medicines/surveillance laws and independently issuing governmental law before rotating legacy source appraisal. Batch1–67 gaps below are preserved for targeted case review; historical batch counts are not current. No legal/clinical approval.

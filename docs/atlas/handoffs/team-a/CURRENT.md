@@ -1,3 +1,13 @@
+## A119 · Governmental census handoff · 2026-11-26
+
+**Complete for the original census research handoff with documented exceptions.** The [census disposition register](data/census_dispositions.csv) has one row per M49 area, including 248/248 checked against the dated official snapshot. It records 226 source-supported governmental identities, 4 scoped delegated dispositions, 7 shared/devolved dispositions, 7 evidence-limited unknowns and 4 unresolved competing-authority cases. No area was assigned a blanket not-applicable disposition. The structural identity field has 237 identified and 11 unresolved rows. The data contain 323 body records, 1051 provenance observations, 45 body relationships and 4 pre-existing shared-authority scope rows.
+
+A119 added five evidence-scoped authority resolutions and four original-language title checks and six separately issued portfolio corroboration checks. The other principal unknowns and conflicts retain exact source limitations. The Eritrean original-script title remains a named translation follow-up. Governmental identity assertions follow the linked body descriptions and dated citations. Government- or partner-authored operational evidence has bounded scope. Independent corroboration follows actual source issuers, with disputed names, jurisdiction, and narrower legal functions qualified in the country, coverage, legal and unresolved-area records. See [GAPS.md](GAPS.md).
+
+Reviewed every area and processed the 48 inherited queued areas, 190 partially resolved queue areas and ten source-blocked cases against original census acceptance. The per-area disposition records the decision and lists each remaining untriaged strict dimension. The legal queue remains live for that separate purpose, with 48 queued, 190 evidence-added and 10 source-blocked items. Use [legal verification](data/legal_verification_ledger.csv) and [statutory follow-up queue](data/research_queue.csv) for exact legal dependencies. The [A118 unknown audit](data/unresolved_area_audit_A118.csv) preserves the prior unresolved records and their full provenance.
+
+**Strict ledger.** 189 partially supported areas, 59 in progress, zero eight-dimension completions. Of 1,984 cells, 617 source-supported, 1001 researched-incomplete, 364 untriaged and 2 conflicting. Both conflicts are retained in Equatorial Guinea. Supported provisions remain scoped individually. Independent expert and legal authentication and clinical approval remain separate.
+
 <!-- autonomous-run-20261122 -->
 # Team A — CURRENT A118: EVIDENCE_ADDED follow-ups: Uruguay, Norway, Turkiye, Uzbekistan, Argentina, Trinidad and Tobago; San Marino and Tunisia attempts (low-budget checkpoint) (2026-11-22)
 
