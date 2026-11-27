@@ -11,6 +11,8 @@
   }
 
   const layers = {
+    authority: { name: 'Health authority remit', color: '#76a8ff', dash: [6, 3], cap: 12 },
+    office: { name: 'Office coverage', color: '#e7e584', dash: [3, 3], cap: 20 },
     coverage: { name: 'Regional assignment', color: '#59e9f4', dash: [], cap: 38 },
     membership: { name: 'Membership', color: '#f3b869', dash: [4, 3], cap: 22 },
     research: { name: 'Shared research', color: '#fb90d7', dash: [8, 3, 2, 3], cap: 16 },
@@ -23,6 +25,7 @@
   const filter = get('globe-layer');
   const indexList = get('connection-list');
   const detail = get('connection-detail');
+  const endpointDetail = get('endpoint-detail');
   const previous = get('edges-prev');
   const next = get('edges-next');
   const PAGE_SIZE = 8;
@@ -34,6 +37,7 @@
   let page = 0;
   let frame = 0;
   let hitLines = [];
+  let hitOffices = [];
   const pointers = new Map();
   let dragged = false;
 
@@ -68,7 +72,10 @@
     return a.map((value, i) => (value * start + b[i] * end) * lift);
   }
 
-  const points = Object.fromEntries(Object.entries(data.nodes).map(([key, node]) => [key, sphere(node.position)]));
+  const points = Object.fromEntries(Object.entries(data.nodes)
+    .filter(([, node]) => node.position).map(([key, node]) => [key, sphere(node.position)]));
+  const officeIds = Object.keys(data.nodes).filter((key) => data.nodes[key].precision);
+  const mappable = ({ left, right }) => points[left] && points[right];
   const coasts = data.coasts.map((ring) => ring.map(sphere));
   const dots = data.dots.map(sphere);
   const graticule = [];
@@ -78,7 +85,7 @@
   for (let lon = -180; lon < 180; lon += 30) {
     graticule.push(Array.from({ length: 46 }, (_, i) => sphere([lon, i * 4 - 90])));
   }
-  const paths = new Map(data.edges.map((edge) => [edge.id, Array.from({ length: 37 }, (_, i) =>
+  const paths = new Map(data.edges.filter(mappable).map((edge) => [edge.id, Array.from({ length: 37 }, (_, i) =>
     interpolate(points[edge.left], points[edge.right], i / 36))]));
 
   function render() {
@@ -171,10 +178,18 @@
     ctx.globalAlpha = 1;
 
     hitLines = [];
-    const visibleNodes = new Set();
+    hitOffices = [];
+    const visibleNodes = new Set(!focus.value && !filter.value ? officeIds : []);
+    if (points[focus.value]) visibleNodes.add(focus.value);
     const selectedEdge = matched.find((edge) => edge.id === selected);
     const baseEdges = drawn.filter((edge) => edge.id !== selected);
-    if (selectedEdge) baseEdges.push(selectedEdge);
+    if (selectedEdge) {
+      if (mappable(selectedEdge)) baseEdges.push(selectedEdge);
+      else {
+        if (points[selectedEdge.left]) visibleNodes.add(selectedEdge.left);
+        if (points[selectedEdge.right]) visibleNodes.add(selectedEdge.right);
+      }
+    }
     for (const edge of baseEdges) {
       const layer = layers[edge.kind];
       const active = edge.id === selected || edge.id === hovered;
@@ -208,8 +223,9 @@
 
     for (const id of visibleNodes) {
       const [x, y, depth] = project(points[id]);
-      if (depth <= .025) continue;
-      const hub = id.startsWith('D:');
+      if (depth <= .025 || x < 0 || x > width || y < 0 || y > height) continue;
+      const hub = Boolean(data.nodes[id].precision);
+      if (hub) hitOffices.push({ id, x, y });
       const active = focus.value === id || selectedEdge?.left === id || selectedEdge?.right === id;
       ctx.beginPath();
       ctx.arc(x, y, active ? 4.8 : hub ? 3.25 : 2.05, 0, 2 * Math.PI);
@@ -238,12 +254,19 @@
   }
 
   function center(id) {
-    [view.lon, view.lat] = data.nodes[id].position;
-    schedule();
+    if (data.nodes[id].position) {
+      [view.lon, view.lat] = data.nodes[id].position;
+      schedule();
+    }
   }
 
   function orientToEdge(edge) {
     const a = points[edge.left], b = points[edge.right];
+    if (!a || !b) {
+      center(a ? edge.left : edge.right);
+      return;
+    }
+    view.zoom = Math.min(view.zoom, 1.6);
     const middle = a.map((x, i) => x + b[i]);
     if (Math.hypot(...middle) < .01) {
       center(edge.left);
@@ -254,6 +277,35 @@
     }
   }
 
+  const precisionLabels = {
+    site: 'Geocoded site marker', street: 'Interpolated street address marker',
+    district: 'Approximate district marker', city: 'Approximate city marker',
+  };
+
+  function showEndpoint() {
+    endpointDetail.replaceChildren();
+    endpointDetail.hidden = !focus.value;
+    if (!focus.value) return;
+    const node = data.nodes[focus.value];
+    endpointDetail.append(el('h3', node.title), el('p', node.location, 'detail-locations'));
+    if (node.address) endpointDetail.append(el('p', node.address));
+    if (node.precision) {
+      const links = el('p', precisionLabels[node.precision] + ' · ');
+      links.append(source(node.locationSource, 'Office source'));
+      if (node.coordinateSource) links.append(' · ', source(node.coordinateSource, 'Coordinate source'));
+      endpointDetail.append(links);
+    }
+  }
+
+  function selectEndpoint(id) {
+    focus.value = id;
+    filter.value = '';
+    view.zoom = Math.min(view.zoom, 1.6);
+    center(id);
+    updateFilters();
+    focus.focus({ preventScroll: true });
+  }
+
   function showEdge(edge, moveGlobe) {
     selected = edge.id;
     const left = data.nodes[edge.left];
@@ -261,7 +313,8 @@
     const name = el('p');
     name.append(el('strong', left.title + ' → ' + right.title));
     const location = el('p', left.location + ' → ' + right.location, 'detail-locations');
-    const label = el('p', edge.label + (edge.observed ? ' · Recorded ' + edge.observed : ''));
+    const label = el('p', edge.label + (edge.effective ? ' · Effective ' + edge.effective : '') +
+      (edge.observed ? ' · Recorded ' + edge.observed : ''));
     const locationSources = [left.locationSource, right.locationSource].filter(Boolean);
     const links = el('p');
     links.append(source(edge.source, 'Open relationship source'));
@@ -269,6 +322,18 @@
       links.append(' · ', source(url, 'Placement source'));
     }
     detail.replaceChildren(name, label, location, links);
+    if (edge.scope) detail.append(el('p', edge.scope, 'detail-locations'));
+    if (!mappable(edge)) {
+      detail.append(el('p', 'List only. A map position is unavailable for one or both endpoints.', 'detail-locations'));
+    }
+    const actions = el('div', '', 'endpoint-actions');
+    for (const id of [edge.left, edge.right].filter((key) => key !== focus.value)) {
+      const button = el('button', 'Explore ' + data.nodes[id].title);
+      button.type = 'button';
+      button.addEventListener('click', () => selectEndpoint(id));
+      actions.append(button);
+    }
+    detail.append(actions);
     if (edge.kind === 'research') {
       detail.append(el('p', 'This line tracks attribution to a shared source. The research findings remain unappraised.', 'detail-locations'));
     }
@@ -289,7 +354,7 @@
       button.type = 'button';
       button.dataset.edge = edge.id;
       button.setAttribute('aria-pressed', String(edge.id === selected));
-      button.append(el('small', edge.label));
+      button.append(el('small', edge.label + (mappable(edge) ? '' : ' · List only')));
       button.addEventListener('click', () => showEdge(edge, true));
       item.append(button);
       indexList.append(item);
@@ -306,14 +371,23 @@
     page = 0;
     matched = data.edges.filter((edge) => (!filter.value || edge.kind === filter.value) &&
       (!focus.value || edge.left === focus.value || edge.right === focus.value));
+    if (focus.value) {
+      const rank = (edge) => edge.kind === 'organization' && edge.left === focus.value ? 0
+        : ['organization', 'office', 'authority'].includes(edge.kind) ? 1 : 2;
+      matched.sort((a, b) => rank(a) - rank(b));
+    } else {
+      matched.sort((a, b) => Number(Boolean(mappable(b))) - Number(Boolean(mappable(a))));
+    }
+    const mapped = matched.filter(mappable);
     drawn = Object.entries(layers).flatMap(([kind, layer]) => {
-      const group = matched.filter((edge) => edge.kind === kind);
+      const group = mapped.filter((edge) => edge.kind === kind);
       if (focus.value || group.length <= layer.cap) return group;
       return Array.from({ length: layer.cap }, (_, i) => group[Math.floor(i * group.length / layer.cap)]);
     });
-    get('globe-count').textContent = matched.length === drawn.length
-      ? String(matched.length) + ' mapped connections'
-      : String(matched.length) + ' mapped connections · ' + String(drawn.length) + ' shown in the overview';
+    get('globe-count').textContent = mapped.length + ' mappable · ' +
+      (matched.length - mapped.length) + ' list only' +
+      (mapped.length > drawn.length ? ' · ' + drawn.length + ' drawn in the overview' : '');
+    showEndpoint();
     detail.replaceChildren(el('p', 'Select a connection to see its source.'));
     renderList();
     schedule();
@@ -337,8 +411,12 @@
     return id;
   }
 
+  function nearbyOffice(x, y) {
+    return hitOffices.find((office) => Math.hypot(office.x - x, office.y - y) < 6);
+  }
+
   function zoom(scale) {
-    view.zoom = Math.max(.65, Math.min(3.1, view.zoom * scale));
+    view.zoom = Math.max(.65, Math.min(32, view.zoom * scale));
     schedule();
   }
 
@@ -359,7 +437,10 @@
   const options = Object.entries(data.nodes).sort((a, b) => a[1].title.localeCompare(b[1].title));
   for (const [key, node] of options) focus.add(new Option(node.title, key));
   focus.addEventListener('change', () => {
-    if (focus.value) center(focus.value);
+    if (focus.value) {
+      view.zoom = Math.min(view.zoom, 1.6);
+      center(focus.value);
+    }
     updateFilters();
   });
   filter.addEventListener('change', updateFilters);
@@ -396,9 +477,9 @@
     const point = pointers.get(event.pointerId);
     if (!point) {
       const id = nearest(event.offsetX, event.offsetY);
+      canvas.style.cursor = id || nearbyOffice(event.offsetX, event.offsetY) ? 'pointer' : 'grab';
       if (hovered !== id) {
         hovered = id;
-        canvas.style.cursor = hovered ? 'pointer' : 'grab';
         schedule();
       }
       return;
@@ -424,6 +505,11 @@
   canvas.addEventListener('pointerup', (event) => {
     const held = pointers.delete(event.pointerId);
     if (held && !dragged && !pointers.size) {
+      const office = nearbyOffice(event.offsetX, event.offsetY);
+      if (office) {
+        selectEndpoint(office.id);
+        return;
+      }
       const id = nearest(event.offsetX, event.offsetY);
       const edge = matched.find((item) => item.id === id);
       if (edge) showEdge(edge, false);

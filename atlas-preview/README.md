@@ -19,11 +19,15 @@ Review any change to the approved snapshot or allowed fields before rebuilding t
 
 ## Globe connections
 
-The globe uses color and line patterns for regional assignments, institutional roles, membership, cooperation and shared research publications. At wide zoom levels, it draws a representative subset of regional assignments to keep the view legible. The connection list includes every mapped relationship and the focus menu shows all mapped links for the selected endpoint.
+The globe uses color and line patterns for regional assignments, government health remit, office coverage, institutional roles, membership, cooperation and shared research. The global overview draws a subset of mappable links. Use the focus menu or click an office pin to see its location and direct connections. Selecting a connection shows its source and offers buttons to follow either endpoint. Relationships without a position for both endpoints stay available in the list with a “List only” label.
 
 Publication links are based on matching authorship attribution in the same original document. Assessing agreement or contradiction would require comparison of the actual findings and guidance. The available research handoff has no such reviewed comparison records.
 
-Regional offices use approximate sourced city locations. Other links may use representative area points. Coastlines and placement points are from [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/). The globe draws physical geography without political borders.
+Office details specify whether the marker is at a geocoded site, interpolated from a street address, or approximated to the district or city. The published address, where available, is useful independently of marker precision. `office-locations.csv` records each office source and, for sites and street address markers, the coordinate source. A nonempty parent field requires the first-party source to identify that office as part of the named organization or region. Other authority and network links are drawn from pinned Team E records. Older office coverage retains its observation year.
+
+Government health remit comes from the Team A census and shared-scope records. WHO regional assignments apply to geographic areas, while membership, technical cooperation and office hierarchy retain their own relation labels. The preview does not derive a reporting relationship from geography or co-location.
+
+Coastlines and representative area points are from [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/). The globe draws physical geography without political borders.
 
 Rebuild and verify the globe from the repository root:
 

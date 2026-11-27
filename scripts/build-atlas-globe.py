@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Project sourced Team E connections and Natural Earth geography onto the globe."""
 import argparse
+import csv
 from collections import defaultdict
 from itertools import combinations
 import hashlib
@@ -15,26 +16,35 @@ spec = spec_from_file_location('atlas_directory_export', directory_path)
 directory = module_from_spec(spec)
 spec.loader.exec_module(directory)
 
-WHO = 'https://www.who.int/about/contact-us'
-HUBS = {
-    'D:WHO': (6.14, 46.20, 'Geneva', WHO),
-    'D:WHO_AFRO': (15.27, -4.26, 'Brazzaville', WHO),
-    'D:WHO_AMRO': (-77.04, 38.91, 'Washington, DC', WHO),
-    'D:WHO_EMRO': (31.24, 30.04, 'Cairo', WHO),
-    'D:WHO_EURO': (12.57, 55.68, 'Copenhagen', WHO),
-    'D:WHO_SEARO': (77.21, 28.61, 'New Delhi', WHO),
-    'D:WHO_WPRO': (120.98, 14.59, 'Manila', WHO),
-    'D:PAHO': (-77.04, 38.91, 'Washington, DC', 'https://www.paho.org/en/countries-and-centers'),
-    'D:ASEAN': (106.85, -6.20, 'Jakarta', 'https://asean.org/wp-content/uploads/2025/07/Agreement-on-the-Establishment-of-the-ASEAN-Secretariat.pdf'),
-    'D:EMA': (4.90, 52.37, 'Amsterdam', 'https://www.ema.europa.eu/en/about-us/contacts-european-medicines-agency'),
-}
+# Types retain their direction from the pinned Team E relationship ledger.
 KINDS = {
     'WHO_region': ('coverage', 'WHO regional assignment'),
     'regional_office_of': ('organization', 'Regional office of'),
     'serves_as': ('organization', 'Serves as'),
+    'agency_of': ('organization', 'Agency of'),
+    'specialized_health_agency_of': ('organization', 'Specialized health agency of'),
+    'operated_by': ('organization', 'Operated by'),
+    'coordinated_by': ('organization', 'Coordinated by'),
+    'coordinates_regulatory_network': ('organization', 'Coordinates regulatory network'),
+    'regional_implementation_of': ('organization', 'Regional implementation of'),
+    'published_by': ('organization', 'Published by'),
+    'endorsed_by_regional_committee': ('organization', 'Endorsed by regional committee'),
     'member_of': ('membership', 'Member of'),
-    'receives_technical_cooperation_from': ('cooperation', 'Receives technical cooperation from'),
+    'associate_member_of': ('membership', 'Associate member of'),
+    'affiliated_society_of': ('membership', 'Affiliated society of'),
+    'participating_state_of': ('membership', 'Participating state of'),
+    'observer_state_of': ('membership', 'Observer state of'),
+    'participates_in': ('cooperation', 'Participates in'),
+    'participates_in_voluntary_health_initiative': ('cooperation', 'Participates in voluntary health initiative'),
+    'attended_voluntary_initiative_meeting_as_observer': ('cooperation', 'Attended voluntary initiative as observer'),
+    'receives_technical_cooperation_from': ('office', 'Receives technical cooperation from'),
+    'covered_by_multicountry_office': ('office', 'Multicountry office coverage reported'),
+    'covered_by_regional_office_focal_point': ('office', 'Regional focal-point coverage reported'),
     'cooperates_with': ('cooperation', 'Cooperates with'),
+}
+AUTHORITY_KINDS = {
+    'census_authority_for': 'Census-identified health authority for',
+    'scoped_authority_for': 'Documented shared or limited health remit in',
 }
 CROSS_BORDER_EVIDENCE = {
     'campaign_report_of_delivered_activity', 'primary_own_scope_verified',
@@ -99,15 +109,55 @@ def build(land, countries):
             'title': area['name'], 'position': [round(p['LABEL_X'], 2), round(p['LABEL_Y'], 2)],
             'location': 'Representative area point', 'area': area['code'],
         }
-    for code, (lon, lat, city, source) in HUBS.items():
-        if code in institutions:
-            nodes[code] = {'title': institutions[code]['name'], 'position': [lon, lat], 'location': city, 'locationSource': source}
+    for code, institution in institutions.items():
+        if code.startswith(('A:', 'D:')):
+            nodes[code] = {'title': institution['name'], 'position': None, 'location': 'Office location not documented on this globe'}
+    for area in data['areas']:
+        nodes.setdefault('m49:' + area['code'], {
+            'title': area['name'], 'position': None, 'area': area['code'],
+            'location': 'Representative area point unavailable',
+        })
+
+    sites = directory.ROOT / 'atlas-preview/office-locations.csv'
+    office_edges = []
+    office_ids = set()
+    with sites.open(encoding='utf-8', newline='') as stream:
+        for site in csv.DictReader(stream):
+            code, precision = site['id'], site['precision']
+            reference, pin_reference = site['source'], site['coordinate_source']
+            lon, lat = float(site['longitude']), float(site['latitude'])
+            if (not directory.safe_url(reference) or abs(lon) > 180 or abs(lat) > 90
+                    or code in office_ids or precision not in {'site', 'street', 'district', 'city'}
+                    or (precision in {'site', 'street'} and not (site['address'] and directory.safe_url(pin_reference)))):
+                raise ValueError(f'Unqualified location for {code}')
+            office_ids.add(code)
+            if code in nodes:
+                title = nodes[code]['title'].removesuffix(' (translated_by_reviewer)')
+            elif code.startswith('office:') and site['name']:
+                title = site['name']
+            else:
+                raise ValueError(f'Unknown office {code}')
+            nodes[code] = {
+                'title': title, 'position': [lon, lat], 'location': site['location'],
+                'address': site['address'], 'precision': precision, 'locationSource': reference,
+            }
+            if pin_reference:
+                nodes[code]['coordinateSource'] = pin_reference
+            if site['parent']:
+                if site['parent'] not in institutions or site['parent'] == code:
+                    raise ValueError(f'Unknown parent for {code}')
+                office_edges.append({
+                    'id': f'office-parent:{code}', 'left': code, 'right': site['parent'],
+                    'kind': 'organization', 'label': 'Office of', 'source': reference,
+                    'observed': '2026-11-26',
+                })
+
     base_role = 'Recorded organization base'
     for code, institution in institutions.items():
         if not code.startswith('B:'):
             continue
         base = next((p for p in institution['places'] if p['role'] == base_role), None)
-        if base and 'm49:' + base['code'] in nodes:
+        if base and nodes['m49:' + base['code']]['position']:
             anchor = nodes['m49:' + base['code']]
             nodes[code] = {
                 'title': institution['name'], 'position': anchor['position'],
@@ -116,7 +166,7 @@ def build(land, countries):
             }
 
     references = {r['source_id']: r['url'] for r in directory.read('PROVENANCE.csv')}
-    edges = []
+    edges = office_edges
     for relation in directory.read('data/relationships.csv'):
         left = relation['subject_id']
         right = relation['object_id']
@@ -126,6 +176,10 @@ def build(land, countries):
         if (rel.startswith('cross_border:') and left.startswith('B:') and right.startswith('m49:')
                 and relation['evidence_state'] in CROSS_BORDER_EVIDENCE):
             kind, title = 'cooperation', 'Cross-border service or representation'
+        elif rel in AUTHORITY_KINDS and left.startswith('A:') and right.startswith('m49:'):
+            kind, title = 'authority', AUTHORITY_KINDS[rel]
+        elif rel == 'receives_technical_cooperation_from' and relation['evidence_state'] == 'OFFICIAL_PAHO_INDEXED':
+            kind, title = KINDS[rel]
         elif relation['evidence_state'] == 'VERIFIED_PRIMARY' and rel in KINDS:
             kind, title = KINDS[rel]
         else:
@@ -133,10 +187,15 @@ def build(land, countries):
         reference = references[relation['source_id']]
         if not directory.safe_url(reference):
             continue
-        edges.append({
+        edge = {
             'id': relation['edge_id'], 'left': left, 'right': right, 'kind': kind, 'label': title,
             'source': reference, 'observed': relation['observed_on'],
-        })
+        }
+        if relation['normalized_from']:
+            edge['effective'] = relation['normalized_from']
+        if kind == 'authority' and relation['institutional_context']:
+            edge['scope'] = relation['institutional_context']
+        edges.append(edge)
     # Only draw a shared research record when both attributed authorship roles
     # cite the exact same primary document. Hosting and similar topics do not join.
     publications = defaultdict(set)
@@ -158,7 +217,7 @@ def build(land, countries):
     edges.sort(key=lambda edge: (edge['kind'], nodes[edge['left']]['title'], nodes[edge['right']]['title'], edge['id']))
     retained = {e[k] for e in edges for k in ('left', 'right')}
     rings, dots = cartography(land)
-    return {'nodes': {key: node for key, node in nodes.items() if key in retained},
+    return {'nodes': {key: node for key, node in nodes.items() if key in retained or 'precision' in node},
             'edges': edges, 'coasts': rings, 'dots': dots}
 
 def main():
@@ -174,7 +233,9 @@ def main():
             parser.exit(1, 'Globe projection differs from the pinned inputs.\n')
     else:
         TARGET.write_text(result, encoding='utf-8')
-    print(f'{len(data["nodes"])} mapped endpoints and {len(data["edges"])} documented connections')
+    positioned = {key for key, node in data['nodes'].items() if node['position']}
+    mapped = sum(edge['left'] in positioned and edge['right'] in positioned for edge in data['edges'])
+    print(f'{len(data["edges"])} documented connections, {mapped} mappable, {len(positioned)} positioned endpoints')
 
 if __name__ == '__main__':
     main()

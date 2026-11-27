@@ -69,7 +69,7 @@ test('Globe connections have unique identifiers, public citations and valid endp
   const { nodes, edges, dots, coasts } = globe;
   const m49 = new Set(projection.areas.map(({ code }) => code));
   const institutions = new Set(projection.institutions.map(({ id }) => id));
-  const allowed = new Set(['coverage', 'membership', 'cooperation', 'organization', 'research']);
+  const allowed = new Set(['authority', 'coverage', 'membership', 'cooperation', 'office', 'organization', 'research']);
   const used = new Set();
   const ids = new Set();
   for (const { id, left, right, kind, source } of edges) {
@@ -81,18 +81,22 @@ test('Globe connections have unique identifiers, public citations and valid endp
     used.add(left);
     used.add(right);
   }
-  assert.deepEqual(new Set(Object.keys(nodes)), used);
+  assert.ok(Object.keys(nodes).every((key) => used.has(key) || nodes[key].precision));
   const position = ([lon, lat]) => {
     assert.ok(Number.isFinite(lon) && Math.abs(lon) <= 180);
     assert.ok(Number.isFinite(lat) && Math.abs(lat) <= 90);
   };
   for (const [key, node] of Object.entries(nodes)) {
-    position(node.position);
+    if (node.position) position(node.position);
     if (node.area) assert.ok(m49.has(node.area), key);
     if (key.startsWith('m49:')) assert.equal(key, 'm49:' + node.area);
     else {
-      assert.ok(institutions.has(key), key);
-      publicHttps(node.locationSource);
+      assert.ok(institutions.has(key) || (key.startsWith('office:') && node.precision), key);
+      if (node.position) publicHttps(node.locationSource);
+      if (['site', 'street'].includes(node.precision)) {
+        assert.ok(node.address);
+        publicHttps(node.coordinateSource);
+      } else assert.equal(node.coordinateSource, undefined);
     }
   }
   dots.forEach(position);
@@ -112,4 +116,27 @@ test('Globe shows source attribution separately from medical evidence appraisal'
   const indonesia = globe.edges.filter((edge) => edge.left === 'm49:360' && edge.kind === 'coverage');
   assert.equal(indonesia.length, 1);
   assert.equal(indonesia[0].right, 'D:WHO_WPRO');
+});
+
+test('Globe keeps health authority remit, office coverage and organizational roles distinct', () => {
+  const { nodes, edges } = globe;
+  function link(left, right, kind) {
+    assert.ok(edges.some((edge) => edge.left === left && edge.right === right && edge.kind === kind),
+      [left, right, kind].join(' '));
+  }
+  assert.equal(nodes['D:WHO'].precision, 'site');
+  assert.match(nodes['D:WHO'].address, /Avenue Appia 20/);
+  assert.equal(nodes['D:PAHO'].precision, 'street');
+  assert.deepEqual(nodes['D:PAHO'].position, nodes['D:WHO_AMRO'].position);
+  assert.notDeepEqual(nodes['D:AU'].position, nodes['D:AFRICA_CDC'].position);
+  assert.equal(nodes['D:EU'].position, null);
+  link('D:EMA', 'D:EU', 'organization');
+  link('office:africa-cdc-west', 'D:AFRICA_CDC', 'organization');
+  link('D:AFRICA_CDC', 'D:AU', 'organization');
+  link('D:WHO_MCO_BARBADOS', 'D:PAHO', 'organization');
+  link('D:PAHO', 'D:WHO_AMRO', 'organization');
+  link('D:WHO_MCO_SAMOA', 'D:WHO_WPRO', 'organization');
+  link('m49:184', 'D:WHO_MCO_SAMOA', 'office');
+  link('A:gov-360-001', 'm49:360', 'authority');
+  assert.ok(!edges.some((edge) => edge.left.startsWith('A:') && edge.right.startsWith('D:WHO')));
 });

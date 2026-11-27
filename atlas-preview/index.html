@@ -50,16 +50,17 @@
           <canvas id="globe-canvas" tabindex="0" aria-label="Interactive globe of sourced health network connections" aria-describedby="globe-keys">
             Use the connection list or the searchable table to explore sources.
           </canvas>
-          <p class="globe-keys" id="globe-keys">Drag or use arrow keys to rotate. Use + and − to zoom. Select a line or choose a connection from the list.</p>
-          <p class="globe-note">Natural Earth land outlines · Area points are approximate</p>
+          <p class="globe-keys" id="globe-keys">Drag or use arrow keys to rotate. Use + and − to zoom. Select an office pin or a connection.</p>
+          <p class="globe-note">Natural Earth land outlines · Pin precision in office details</p>
         </div>
         <div class="globe-sidebar">
           <div class="globe-controls">
-            <div><label for="globe-focus">Focus area or organization</label><select id="globe-focus"><option value="">All mapped endpoints</option></select></div>
+            <div><label for="globe-focus">Focus area or organization</label><select id="globe-focus"><option value="">All areas and organizations</option></select></div>
             <div><label for="globe-layer">Connection type</label><select id="globe-layer"><option value="">All connection types</option></select></div>
           </div>
           <div id="globe-legend" aria-label="Line color legend"></div>
           <p class="comparison-note">Agreement and contradiction require separately reviewed comparisons. None are recorded in this snapshot.</p>
+          <section class="endpoint-detail" id="endpoint-detail" aria-label="Focused endpoint" aria-live="polite" hidden></section>
           <div class="connection-index">
             <div class="connection-heading">
               <h3>Connections</h3>
