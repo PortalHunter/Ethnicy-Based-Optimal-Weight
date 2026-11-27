@@ -1,0 +1,32 @@
+id,name,location,address,longitude,latitude,precision,source,coordinate_source,parent
+D:WHO,,"Geneva, Switzerland","Avenue Appia 20, 1211 Geneva",6.13435,46.23275,site,https://www.who.int/about/contact-us,https://www.who.int/docs/default-source/documents/vaccine-safety-summit-information-note.pdf,
+D:WHO_AFRO,,"Brazzaville, Republic of the Congo","Cité du Djoué, Brazzaville",15.27,-4.26,city,https://www.who.int/about/contact-us,,
+D:WHO_AMRO,,"Washington, DC, United States","525 23rd Street NW, Washington, DC 20037",-77.05004,38.89632,street,https://www.who.int/about/contact-us,https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=525%2023rd%20Street%20NW%2C%20Washington%2C%20DC&benchmark=Public_AR_Current&format=json,
+D:WHO_EMRO,,"Cairo, Egypt","Monazamet El Seha El Alamia Street, Nasr City, Cairo 11371",31.34,30.06,district,https://www.who.int/about/contact-us,,
+D:WHO_EURO,,"Copenhagen, Denmark","UN City, Marmorvej 51, 2100 Copenhagen",12.6,55.7,district,https://www.who.int/about/contact-us,,
+D:WHO_SEARO,,"New Delhi, India","Permanent: World Health House, Mahatma Gandhi Marg, New Delhi 110 002. Temporary: Metropolitan Hotel Office Block, Bangla Sahib Road, New Delhi 110 001.",77.21,28.61,city,https://www.who.int/about/contact-us,,
+D:WHO_WPRO,,"Manila, Philippines","United Nations Avenue at Taft Avenue, Ermita, Manila",120.984,14.583,district,https://www.who.int/westernpacific/whocc-forum/fifth-forum/venue,,
+D:PAHO,,"Washington, DC, United States","525 23rd Street NW, Washington, DC 20037",-77.05004,38.89632,street,https://www.paho.org/en/inquiries,https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=525%2023rd%20Street%20NW%2C%20Washington%2C%20DC&benchmark=Public_AR_Current&format=json,
+D:ASEAN,,"Jakarta, Indonesia","ASEAN Secretariat, 70A Jalan Sisingamangaraja, Jakarta 12110",106.8,-6.24,district,https://asean.org/photoparent/asean-secretariat-building/,,
+D:EMA,,"Amsterdam, Netherlands","Domenico Scarlattilaan 6, 1083 HS Amsterdam",4.89,52.34,district,https://www.ema.europa.eu/nl/about-us/contacts-european-medicines-agency/how-find-us,,
+D:ECDC,,"Solna, Sweden","Gustav III:s Boulevard 40, 169 73 Solna",18.01729,59.37271,site,https://www.ecdc.europa.eu/en/about-us/contact-ecdc,https://www.ecdc.europa.eu/en/ecdc-visiting-address-and-how-get-here,
+D:EC,,"Brussels, Belgium","Berlaymont, Rue de la Loi 200, 1049 Brussels",4.38,50.84,district,https://commission.europa.eu/about/contact_en,,
+D:AU,,"Addis Ababa, Ethiopia","Roosevelt Street, Old Airport Area, Addis Ababa",38.74,9.0,district,https://www.au.int/en/visit-au-headquarters,,
+D:AFRICA_CDC,,"Addis Ababa, Ethiopia","Haile Garment Square, Addis Ababa",38.73556,8.93531,site,https://africacdc.org/contact-us/,https://africacdc.org/contact-us/,
+D:WHO_MCO_BAHAMAS,,"Nassau, Bahamas","Grosvenor Medical Centre, off Shirley Street, Nassau",-77.34,25.07,city,https://www.paho.org/en/countries-and-centers,,D:PAHO
+D:WHO_MCO_BARBADOS,,"Bridgetown, Barbados","Dayrells and Navy Garden Roads, Christ Church, Bridgetown",-59.59,13.08,district,https://www.paho.org/en/countries-and-centers,,D:PAHO
+D:WHO_MCO_JAMAICA,,"Kingston, Jamaica",,-76.79,18.02,city,https://www.paho.org/en/countries-and-centers?page=1,,D:PAHO
+D:WHO_MCO_TRINIDAD,,"Port of Spain, Trinidad and Tobago","Second floor, 4–6 Queen’s Park East, Port of Spain 101002",-61.51,10.67,district,https://www.paho.org/en/more-pahowho-trinidad-and-tobago-office,,D:PAHO
+D:WHO_MCO_MALAYSIA,,"Cyberjaya, Malaysia","Prima 8, Block 3508, Jalan Teknokrat 6, 63000 Cyberjaya",101.65,2.92,city,https://www.who.int/westernpacific/menu/footer/help,,D:WHO_WPRO
+D:WHO_LIAISON_FSM,,"Palikir, Federated States of Micronesia","Capitol Suites and Offices, Suite 201, Palikir, Pohnpei",158.16,6.92,city,https://www.who.int/westernpacific/menu/footer/help,,D:WHO_WPRO
+D:WHO_MCO_SAMOA,,"Apia, Samoa","Nursing Credentialing Centre, Motootua, Apia",-171.77,-13.84,district,https://www.who.int/westernpacific/menu/footer/help,,D:WHO_WPRO
+D:WHO_MCO_SOUTH_PACIFIC,,"Suva, Fiji","Provident Plaza One, 33 Ellery Street, Suva",178.44,-18.14,city,https://www.who.int/westernpacific/menu/footer/help,,D:WHO_WPRO
+D:WHO_OFFICE_MADAGASCAR,,"Antananarivo, Madagascar","Andraharo, Antananarivo",47.52,-18.88,district,https://www.afro.who.int/countries/madagascar,,D:WHO_AFRO
+A:gov-840-001,,"Washington, DC, United States","Hubert H. Humphrey Building, 200 Independence Avenue SW, Washington, DC",-77.01414,38.88751,street,https://www.hhs.gov/about/contact-us/visiting-hhs/index.html,https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=200%20Independence%20Avenue%20SW%2C%20Washington%2C%20DC&benchmark=Public_AR_Current&format=json,
+A:gov-036-001,,"Canberra, Australia","Yaradhang Building, 23 Furzer Street, Phillip ACT 2606",149.09,-35.34,district,https://www.health.gov.au/contacts/department-of-health-disability-and-ageing-national-office,,
+A:gov-360-001,,"Jakarta, Indonesia","Jalan H.R. Rasuna Said, Block X-5, Kav. 4–9, Jakarta",106.83,-6.22,district,https://setjen.kemkes.go.id/en/contact-1/kontak,,
+office:africa-cdc-north,Africa CDC Regional Collaborating Centre for Northern Africa,"Cairo, Egypt",,31.24,30.04,city,https://africacdc.org/contact-us/,,D:AFRICA_CDC
+office:africa-cdc-west,Africa CDC Regional Collaborating Centre for Western Africa,"Abuja, Nigeria","Nigeria CDC, Plot 801 Ebitu Ukiwe Street, Jabi, Abuja",7.42,9.07,district,https://africacdc.org/contact-us/,,D:AFRICA_CDC
+office:africa-cdc-central,Africa CDC Regional Collaborating Centre for Central Africa,"Libreville, Gabon","Cité des Nations Unies, Bloc H, Haut de Gué Gué, Libreville",9.43,0.42,district,https://africacdc.org/contact-us/,,D:AFRICA_CDC
+office:africa-cdc-east,Africa CDC Regional Collaborating Centre for Eastern Africa,"Nairobi, Kenya","Afya Annex, Kenyatta National Hospital, Nairobi",36.81,-1.3,district,https://africacdc.org/contact-us/,,D:AFRICA_CDC
+office:africa-cdc-south,Africa CDC Regional Collaborating Centre for Southern Africa,"Lusaka, Zambia","Zambia National Public Health Institute, Plot 13 Reedbuck Road, Kabulonga, Lusaka",28.36,-15.42,district,https://africacdc.org/contact-us/,,D:AFRICA_CDC

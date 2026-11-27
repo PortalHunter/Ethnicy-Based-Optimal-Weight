@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Global Health Atlas · Research preview</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="globe.css">
+  <script src="data.js" defer></script>
+  <script src="directory.js" defer></script>
+  <script src="globe-data.js" defer></script>
+  <script src="globe.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#directory">Skip to the directory</a>
+  <header class="site-header">
+    <div class="frame header-inner">
+      <span class="brand"><span class="brand-mark" aria-hidden="true">AH</span> Ancestry Health</span>
+      <a class="preview" href="#directory-table">Searchable table ↓</a>
+    </div>
+  </header>
+  <main id="directory" class="frame" tabindex="-1">
+    <section class="intro" aria-labelledby="title">
+      <div>
+        <h1 id="title">Global Health Atlas</h1>
+        <p class="lede">Explore documented links between public health organizations, networks and countries.</p>
+      </div>
+      <dl class="overview">
+        <div><dt>Countries and areas</dt><dd id="area-total">—</dd></div>
+        <div><dt>Directory records</dt><dd id="entity-total">—</dd></div>
+      </dl>
+    </section>
+
+    <section class="globe-panel" aria-labelledby="network-title">
+      <div class="globe-panel-header">
+        <div>
+          <h2 id="network-title">Global connections</h2>
+          <p id="globe-count" role="status">Loading mapped connections…</p>
+        </div>
+        <div class="view-tools" role="group" aria-label="Globe view controls">
+          <button id="globe-zoom-in" type="button" aria-label="Zoom in">+</button>
+          <button id="globe-zoom-out" type="button" aria-label="Zoom out">−</button>
+          <button id="globe-reset" type="button">Reset view</button>
+        </div>
+      </div>
+      <div class="globe-grid">
+        <div class="globe-stage">
+          <canvas id="globe-canvas" tabindex="0" aria-label="Interactive globe of sourced health network connections" aria-describedby="globe-keys">
+            Use the connection list or the searchable table to explore sources.
+          </canvas>
+          <p class="globe-keys" id="globe-keys">Drag or use arrow keys to rotate. Use + and − to zoom. Select an office pin or a connection.</p>
+          <p class="globe-note">Natural Earth land outlines · Pin precision in office details</p>
+        </div>
+        <div class="globe-sidebar">
+          <div class="globe-controls">
+            <div><label for="globe-focus">Focus area or organization</label><select id="globe-focus"><option value="">All areas and organizations</option></select></div>
+            <div><label for="globe-layer">Connection type</label><select id="globe-layer"><option value="">All connection types</option></select></div>
+          </div>
+          <div id="globe-legend" aria-label="Line color legend"></div>
+          <p class="comparison-note">Agreement and contradiction require separately reviewed comparisons. None are recorded in this snapshot.</p>
+          <section class="endpoint-detail" id="endpoint-detail" aria-label="Focused endpoint" aria-live="polite" hidden></section>
+          <div class="connection-index">
+            <div class="connection-heading">
+              <h3>Connections</h3>
+              <div class="connection-pages" role="group" aria-label="Connection pages">
+                <button type="button" id="edges-prev" aria-label="Previous connections">‹</button>
+                <button type="button" id="edges-next" aria-label="Next connections">›</button>
+              </div>
+            </div>
+            <ul id="connection-list" aria-label="Visible connections"></ul>
+          </div>
+          <div class="connection-detail" id="connection-detail" aria-live="polite">
+            <p>Select a connection to see its source.</p>
+          </div>
+          <noscript><p>The interactive globe needs JavaScript.</p></noscript>
+        </div>
+      </div>
+    </section>
+
+    <section class="directory" id="directory-table" aria-labelledby="results-title">
+      <div class="directory-top">
+        <h2 id="results-title">Explore the directory</h2>
+        <div class="view-picker" role="group" aria-label="Directory view">
+          <button type="button" id="institutions-view" aria-pressed="true">Institutions</button>
+          <button type="button" id="coverage-view" aria-pressed="false">Area coverage</button>
+        </div>
+      </div>
+      <div class="filters" role="group" aria-label="Filter directory entries">
+        <div class="filter search">
+          <label for="query">Search</label>
+          <input id="query" type="search" autocomplete="off" placeholder="Name, country or M49 code">
+        </div>
+        <div class="filter">
+          <label for="area">Country or area</label>
+          <select id="area"><option value="">All areas</option></select>
+        </div>
+        <div class="filter" id="type-filter">
+          <label for="type">Institution type</label>
+          <select id="type"><option value="">All types</option></select>
+        </div>
+        <div class="filter">
+          <label for="condition">Condition</label>
+          <select id="condition"><option value="">All conditions</option></select>
+        </div>
+        <div class="filter">
+          <label for="evidence">Evidence status</label>
+          <select id="evidence"><option value="">All statuses</option></select>
+        </div>
+      </div>
+      <div class="results-bar">
+        <p id="result-status" role="status" aria-live="polite">Loading directory…</p>
+        <button class="quiet" id="clear" type="button">Clear filters</button>
+      </div>
+      <p class="scroll-hint" id="scroll-hint">Scroll the table to see all columns.</p>
+      <div id="table-region" class="table-region" role="region" tabindex="0" aria-label="Directory results">
+        <table>
+          <caption class="sr-only" id="table-caption">Institution records</caption>
+          <thead id="table-head"></thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+      <p id="empty" class="empty" hidden>No records match these filters. Try another search or clear the filters.</p>
+      <nav class="pagination" aria-label="Directory pages">
+        <button id="previous" type="button">Previous</button>
+        <span id="page-number"></span>
+        <button id="next" type="button">Next</button>
+      </nav>
+      <noscript><p>This directory needs JavaScript to display its local dataset.</p></noscript>
+    </section>
+
+    <footer class="notes">
+      <p>Coverage reflects this research handoff. Unknown coverage does not imply an absence of institutions or disease. Institutional sources do not establish clinical recommendations.</p>
+      <p><a id="dataset-link" href="https://github.com/PortalHunter/Ethnicy-Based-Optimal-Weight/pull/150">Sources and dataset version</a></p>
+    </footer>
+  </main>
+  <dialog id="details" aria-labelledby="detail-title">
+    <div class="dialog-header">
+      <h2 id="detail-title"></h2>
+      <form method="dialog"><button type="submit" autofocus>Close</button></form>
+    </div>
+    <div id="detail-body"></div>
+  </dialog>
+</body>
+</html>
