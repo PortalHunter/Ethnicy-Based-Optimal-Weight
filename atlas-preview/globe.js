@@ -221,6 +221,7 @@
     ctx.setLineDash([]);
     ctx.globalAlpha = 1;
 
+    const labels = [];
     for (const id of visibleNodes) {
       const [x, y, depth] = project(points[id]);
       if (depth <= .025 || x < 0 || x > width || y < 0 || y > height) continue;
@@ -238,14 +239,26 @@
         ctx.lineWidth = 1;
         ctx.stroke();
       }
-      if (active) {
-        ctx.font = '600 12px system-ui, sans-serif';
-        ctx.lineWidth = 3;
-        ctx.strokeStyle = '#05111d';
-        ctx.strokeText(data.nodes[id].title, x + 10, y - 8);
-        ctx.fillStyle = '#f4faff';
-        ctx.fillText(data.nodes[id].title, x + 10, y - 8);
-      }
+      if (active) labels.push({ id, x, y });
+    }
+
+    labels.sort((a, b) => Number(b.id === focus.value) - Number(a.id === focus.value));
+    const placed = [];
+    ctx.font = '600 12px system-ui, sans-serif';
+    ctx.lineWidth = 3;
+    ctx.strokeStyle = '#05111d';
+    ctx.fillStyle = '#f4faff';
+    for (const { id, x, y } of labels) {
+      const title = data.nodes[id].title;
+      const textWidth = Math.min(ctx.measureText(title).width, width - 24);
+      const left = Math.max(6, Math.min(x + 10, width - textWidth - 6));
+      const baseline = [y - 9, y + 21].find((bottom) => bottom >= 15 && bottom <= height - 55 &&
+        placed.every((label) => Math.abs(bottom - label.bottom) >= 16 ||
+          left + textWidth < label.left || left > label.right));
+      if (baseline === undefined) continue;
+      placed.push({ bottom: baseline, left, right: left + textWidth });
+      ctx.strokeText(title, left, baseline, textWidth);
+      ctx.fillText(title, left, baseline, textWidth);
     }
   }
 
